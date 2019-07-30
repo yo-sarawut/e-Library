@@ -2,7 +2,7 @@ An A-Z of useful Python tricks
 =======================
 
 ![An A-Z of useful Python tricks](https://cdn-media-1.freecodecamp.org/images/0*omyr-SRrpmo80-28)
-[Source ]([Source](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
+[**Source : FreeCodeCamp.org**](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
 
 Python is one of the world’s most popular, in-demand programming languages. This is for many reasons:
 
@@ -495,5 +495,5 @@ Please share any of your own favorite Python tricks by leaving a response below!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDI5MDgwNl19
+eyJoaXN0b3J5IjpbMTM5MDY1MTIyN119
 -->
