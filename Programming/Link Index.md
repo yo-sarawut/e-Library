@@ -23,7 +23,19 @@ Link Index
 - [PythonSpot](https://pythonspot.com)
 
 
+## Data Science
 
+- http://cmdlinetips.com/resources/
+- [**Source Data-Analysis Center**](https://github.com/WillKoehrsen/Data-Analysis)
+- [Free e-Book for Data Science](https://www.learndatasci.com/free-data-science-books/)
+- [Materials and Jupyter notebooks for “Python for Data Analysis 2nd Edition” by Wes McKinney,](https://github.com/wesm/pydata-book)
+- [Code from IPython book Second Edition, by Cyrille Rossan](https://github.com/ipython-books)
+- [Code from Introduction to Machine Learning with Python  book by Andreas Muller and Sarah](https://github.com/amueller/introduction_to_ml_with_python)
+- [algorithm-component-library](https://github.com/quantopian/algorithm-component-library)
+- [Assorted-Python-Learning](https://github.com/WillKoehrsen/Assorted-Python-Learning-/tree/master/Python%20Programs)
+- [PythonDataScienceHandbook-notebooks/](https://github.com/jieyima/PythonDataScienceHandbook/tree/master/notebooks)
+- [**Dask** flexible library for parallel computing in Python.](https://docs.dask.org/en/latest/)
+- [Dataset อ.ประเสริฐ](https://github.com/prasertcbs/basic-dataset)
 
 
 #  Markdown
@@ -57,5 +69,5 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzQ2MzU4OV19
+eyJoaXN0b3J5IjpbMTg2MDA3NDMzMl19
 -->
