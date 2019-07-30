@@ -116,17 +116,12 @@ days[1:3]
 >>> len(days)
 ```
 
-
-    ---------------------------------------------------------------------------
-
+```python
     NameError                                 Traceback (most recent call last)
-
-    <ipython-input-4-277aaca4fbc4> in <module>
-    ----> 1 len(days)
-    
+    <ipython-input-4-277aaca4fbc4> in <module>    ----> 1 len(days)
 
     NameError: name 'days' is not defined
-
+```
 
 ### Reassigning elements
 
@@ -642,5 +637,5 @@ func2()
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExODg5NTZdfQ==
+eyJoaXN0b3J5IjpbLTM2NTE1OTQ4OV19
 -->
