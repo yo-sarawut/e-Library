@@ -1,7 +1,7 @@
 An A-Z of useful Python tricks
 =======================
 
-enter image description here
+![enter image description here](https://github.com/yosarawut/e-Library/raw/master/Programming/Python/Basic-Python/img/0_omyr-SRrpmo80-28.jpg)
 
 
 [**Source : FreeCodeCamp.org**](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
@@ -498,6 +498,6 @@ Please share any of your own favorite Python tricks by leaving a response below!
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTI0NjYzMywtMTY3ODc1MDU2NiwtMj
-EwNDYzMDcyOSwxMzkwNjUxMjI3XX0=
+eyJoaXN0b3J5IjpbLTE2MDU5MDIyNzgsLTYyOTI0NjYzMywtMT
+Y3ODc1MDU2NiwtMjEwNDYzMDcyOSwxMzkwNjUxMjI3XX0=
 -->
