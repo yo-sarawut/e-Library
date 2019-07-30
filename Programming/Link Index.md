@@ -45,7 +45,8 @@ Link Index
 - [**Dask** flexible library for parallel computing in Python.](https://docs.dask.org/en/latest/)
 - [Dataset อ.ประเสริฐ](https://github.com/prasertcbs/basic-dataset)
 
-##Python For Finance
+# Python For Finance
+## Aticles
 
 - [**Python for Finance - Second Edition**](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781787125698)
 - [Python and Finance – Power Up Your Spreadsheets](https://www.toptal.com/finance/financial-modeling/python-and-finance)
@@ -90,5 +91,5 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTI2NjMzMF19
+eyJoaXN0b3J5IjpbLTEwNTczMTAzNDZdfQ==
 -->
