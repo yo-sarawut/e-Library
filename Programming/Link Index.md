@@ -22,6 +22,25 @@ Link Index
 - [pynative.com - Learn Python with Examples and Exercises](https://pynative.com/)
 - [PythonSpot](https://pythonspot.com)
 
+## Jupyter Notebook
+
+- [**A gallery of interesting Jupyter Notebooks**](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+- [e-Book : IPython Interactive Computing and Visualization Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook)
+- [Jupyter Notebook for Beginners: A Tutorial](https://www.kdnuggets.com/2018/05/jupyter-notebook-beginners-tutorial.html)
+- [Markdown Guide](https://www.markdownguide.org/getting-started)
+- [Jupyter Notebook for Beginners](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- [Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
+- [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/#how-to-use-nbconvert)
+- [Plotly for notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
+- [JupyterLab extension for Plotly's react-chart-editor](https://github.com/plotly/jupyterlab-chart-editor)
+- [Notebook Examples from Pyfolio](https://github.com/quantopian/pyfolio/tree/master/pyfolio/examples)
+-[**Data Visualization with Bokeh in Python**](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), + [Source Code](https://github.com/WillKoehrsen/Bokeh-Python-Visualization)
+- [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+- [Stock Analysis Using Stocker](https://github.com/WillKoehrsen/Data-Analysis/blob/master/stocker/Stocker%20Analysis%20Usage.ipynb)
+- [Computational Linguistics ภาษาศาสตร์คอมพิวเตอร์](https://attapol.github.io/compling/index.html?fbclid=IwAR3gNgVI1BYrHXS-ZREFGhfBnmGnejf9bcqxdfb5pNJ88bxNNgcqziy1O7c)
+- [ตั้งค่า Notebook](https://www.kdnuggets.com/2019/06/jupyter-notebooks-data-science-reporting.html)
+- [plotly_ipywidget_notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
+
 ## Aticles
 - [**e-Book Mining the Social Web**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
 - [**IPython Notebook** : nteractive computational environment](http://ipython.org)
@@ -91,5 +110,5 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTczMTAzNDZdfQ==
+eyJoaXN0b3J5IjpbMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
