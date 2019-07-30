@@ -22,10 +22,20 @@ Link Index
 - [pynative.com - Learn Python with Examples and Exercises](https://pynative.com/)
 - [PythonSpot](https://pythonspot.com)
 
+## Aticles
+***
 
-## Data Science
+- [**e-Book Mining the Social Web**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
+- [**IPython Notebook** : nteractive computational environment](http://ipython.org)
+- [An A-Z of useful Python tricks](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
+- [The Next Level of Data Visualization in Python](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e)
+- [Charting Using Plotly in Python](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286)
+- [Why You Need Python Environments and How to Manage Them with Conda](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
+- [TRADING STRATEGY ANALYSIS USING PYTHON AND THE FFN PACKAGE – PART 1](https://pythonforfinance.net/2018/02/27/trading-strategy-analysis-using-python-and-the-ffn-package-part-1/)
 
-- http://cmdlinetips.com/resources/
+# Data Science
+## Tutorials
+- [learning Python and R for data sciencehttp://cmdlinetips.com/resources/
 - [**Source Data-Analysis Center**](https://github.com/WillKoehrsen/Data-Analysis)
 - [Free e-Book for Data Science](https://www.learndatasci.com/free-data-science-books/)
 - [Materials and Jupyter notebooks for “Python for Data Analysis 2nd Edition” by Wes McKinney,](https://github.com/wesm/pydata-book)
@@ -69,5 +79,5 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDA3NDMzMl19
+eyJoaXN0b3J5IjpbMTIyNDQ4NDIzNF19
 -->
