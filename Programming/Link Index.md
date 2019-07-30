@@ -3,8 +3,8 @@ Link Index
  ===============
 
 #  Markdown
+## Tutorials
 
-## Aticles
 - [Markdown Guide](https://www.markdownguide.org/getting-started)
 - [Leanpub Markdown Manual](https://leanpub.com/lfm/read)
 - [MkDocs Themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
@@ -31,5 +31,5 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTkxMDAzMV19
+eyJoaXN0b3J5IjpbLTE2Mzc0MzkxMV19
 -->
