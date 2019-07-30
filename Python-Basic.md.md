@@ -125,7 +125,6 @@ days[1:3]
 
 ### Reassigning elements
 
-
 ```python
 >>> days[2]='Wednesday'
 >>> days
@@ -133,19 +132,12 @@ days[1:3]
 
 ### Multidimensional
 
-
 ```python
 >>> a=[[1,2,3],[4,5,6]]
 >>> a
 ```
 
 ## Tuples
-
-
----
-
-
-
 
 ```python
 subjects=('Physics','Chemistry','Maths')
@@ -294,9 +286,6 @@ subjects[3]='Computer Science'
 ```
 
 # Type Conversion
-
-
----
 
 
 
@@ -637,5 +626,5 @@ func2()
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTE1OTQ4OV19
+eyJoaXN0b3J5IjpbMTIyNTAzODk1OV19
 -->
