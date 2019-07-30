@@ -1,7 +1,7 @@
 
 # Python Basic Tutorials
 
-## Link:
+**Source:**
 - https://www.techbeamers.com/python-tutorial-step-by-step/
 - https://data-flair.training/blogs/python-syntax-semantics/
 - https://phyblas.hinaboshi.com/saraban/python
@@ -642,5 +642,5 @@ func2()
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njc3Njk1N119
+eyJoaXN0b3J5IjpbNTExODg5NTZdfQ==
 -->
