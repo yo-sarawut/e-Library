@@ -1082,14 +1082,7 @@ print("After executing test 2 =>", arg1, arg2)
 ```
 
 
-```python
 
-```
-
-
-```python
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMzNDI1Nl19
+eyJoaXN0b3J5IjpbMjA3MDUwNTY2LC0xNjIzMzQyNTZdfQ==
 -->
