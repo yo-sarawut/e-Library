@@ -6,6 +6,7 @@ Link Index
 ## Tutorials
 - [**Full Stack Python**](https://www.fullstackpython.com/)
 - [**Python Data Science Handbook**](https://jakevdp.github.io/PythonDataScienceHandbook/index.html?fbclid=IwAR32hy1mDx0FESTiav8FkEENgm_Kv_DOc0ntvEbUJved1YZibHTVMui0-rc)
+- [# Python Tutorials](https://openwritings.net/python-tutorials)
 - [Book:A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/Category:Book:A_Beginner%27s_Python_Tutorial)
 - [Guide to Python](https://docs.python-guide.org/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
@@ -112,6 +113,6 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MzkxMTY1LDExODI0MjYwNDYsLTEwNT
-czMTAzNDZdfQ==
+eyJoaXN0b3J5IjpbMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4Mj
+QyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
