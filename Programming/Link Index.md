@@ -10,6 +10,8 @@ Link Index
 - [Guide to Python](https://docs.python-guide.org/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [A Complete Guide to Mastering Python](https://data-flair.training/blogs/python-tutorials-home/)
+- [Python Documentation](http://www.cs.mun.ca/~mtr/python/index.html)
+- [Python HOWTO](https://docs.python.org/dev/howto/index.html)
 - [บล็อกของ phyblas](https://phyblas.hinaboshi.com/saraban/python)
 - [PythonProgramming](https://pythonprogramming.net/)
 - [Python Central](https://www.pythoncentral.io/)
@@ -110,5 +112,6 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbNTc2MzkxMTY1LDExODI0MjYwNDYsLTEwNT
+czMTAzNDZdfQ==
 -->
