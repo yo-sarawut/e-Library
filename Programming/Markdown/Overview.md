@@ -154,10 +154,8 @@ insert your `code` here
   
 or insert your ```code``` here  
   
-  ```js
-```  
-code here  
-```  
+  ```Markdown
+```  code here  ```  
 ```   
 Javascript codeb lock  
   
@@ -379,5 +377,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDc4NDQ3NSwxNzY1OTY4MjY2XX0=
+eyJoaXN0b3J5IjpbLTE1MDIwMzc0NjEsMTc2NTk2ODI2Nl19
 -->
