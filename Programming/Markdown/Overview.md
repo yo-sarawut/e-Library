@@ -118,6 +118,12 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 > 2 หุ่นยนต์ต้องเชื่อฟังคำสั่งของมนุษย์ ยกเว้นถ้าคำสั่งนั้นขัดแย้งกับกฏข้อแรก  
 >  
 > 3 หุ่นยนต์ต้องปกป้องความมีตัวตนเอาไว้ เท่าที่ไม่ได้ขัดกับกฏข้อแรกหรือกฏข้อสอง  
+
+## ขึ้นบรรทัดใหม่
+
+```  
+<br/>
+```  
   
 ## ตาราง (Tables)  
   
@@ -357,15 +363,13 @@ ___
 ```markdown
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
-**ตัวอย่างที่ **
+**ตัวอย่างที่ 2**
 ```html
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=UeXSSSINZUc
-" target="_blank"><img src="http://img.youtube.com/vi/UeXSSSINZUc/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 
 
 
@@ -373,5 +377,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjIzODkxXX0=
+eyJoaXN0b3J5IjpbNTc3MjUyMTE5XX0=
 -->
