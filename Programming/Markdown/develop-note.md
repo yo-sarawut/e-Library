@@ -3,6 +3,7 @@
 
 > This file is a catch-all for ideas, problems, plans, and other miscellaneous notes. If something should instead be an issue, it should be made an  [issue](https://github.com/adam-p/markdown-here/issues).  
 > This started out as a file under source control, but I think it will be more useful as a wiki page.
+> [Source : ]([https://github.com/adam-p/markdown-here/wiki/Development-Notes](https://github.com/adam-p/markdown-here/wiki/Development-Notes))
 
 ## [](https://github.com/adam-p/markdown-here/wiki/Development-Notes#other-toolslibs-not-used-but-to-keep-an-eye-on)Other tools/libs not used, but to keep an eye on
 
@@ -237,5 +238,5 @@ writeToClipboard(cb);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODMwMzc1Ml19
+eyJoaXN0b3J5IjpbNDk4NTIyNTI5XX0=
 -->
