@@ -122,9 +122,10 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 ## ขึ้นบรรทัดใหม่
 
 ```  
-<br/>
+หุ่นยนต์ห้ามทำอันตรายแก่มนุษย์ <br/>หรือปล่อยให้มนุษย์เป็นอันตราย
 ```  
-  
+ หุ่นยนต์ห้ามทำอันตรายแก่มนุษย์ <br/>หรือปล่อยให้มนุษย์เป็นอันตราย
+
 ## ตาราง (Tables)  
   
   
@@ -377,5 +378,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MjUyMTE5XX0=
+eyJoaXN0b3J5IjpbMTc2NTk2ODI2Nl19
 -->
