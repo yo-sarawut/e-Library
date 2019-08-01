@@ -149,13 +149,18 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
   
 ## การไฮไลท์และการเขียนโค้ด (Code and Syntax Highlighting)  
   
+```Markdown
+insert your ```code``` here  
+```  
   
 insert your `code` here  
-  
-or insert your ```code``` here  
+
+
   
   ```Markdown
-```  code here  ```  
+```  
+code here  
+```  
 ```   
 Javascript codeb lock  
   
@@ -377,5 +382,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIwMzc0NjEsMTc2NTk2ODI2Nl19
+eyJoaXN0b3J5IjpbLTMxNTQ4MDUwOSwxNzY1OTY4MjY2XX0=
 -->
