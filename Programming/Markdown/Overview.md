@@ -125,7 +125,7 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 หุ่นยนต์ห้ามทำอันตรายแก่มนุษย์ <br/>หรือปล่อยให้มนุษย์เป็นอันตราย
 ```  
  หุ่นยนต์ห้ามทำอันตรายแก่มนุษย์ <br/>หรือปล่อยให้มนุษย์เป็นอันตราย
-
+  
 ## ตาราง (Tables)  
   
   
@@ -149,14 +149,17 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
   
 ## การไฮไลท์และการเขียนโค้ด (Code and Syntax Highlighting)  
   
-```Markdown
+```Markdown  
 insert your ```code``` here  
 ```  
   
-insert your `code` here  
+or insert your ```code``` here  
 
-
-```   
+  
+```  
+code here  
+```  
+  
 Javascript codeb lock  
   
 ```js  
@@ -169,7 +172,27 @@ Java code block
 ```java  
 System.out.println("Java highlight");  
 ```  
-   
+  
+insert your `code` here  
+  
+or insert your ```code``` here  
+  
+```  
+code here  
+```  
+  
+Javascript codeb lock  
+  
+```js  
+// or custom highlight language  
+console.log("Hello")  
+```  
+  
+Java code block  
+  
+```java  
+System.out.println("Java highlight");  
+```  
   
 นี่คือตัวอย่างโปรแกรมภาษา Python  
 ``` python  
@@ -331,7 +354,8 @@ ___
 ## Comments  
   
 เขียนคอมเม้นท์เอาไว้อ่านเองทีหลังได้  
-    
+  
+  
   
 <!--นี่คือคอมเม้นของไฟล์นี้-->  
 
@@ -370,6 +394,6 @@ The beginning and ending dollar signs (`$`) are the delimiters for the TeX marku
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAyNzY1MzksLTE0ODEzODg2NTMsMT
-c2NTk2ODI2Nl19
+eyJoaXN0b3J5IjpbLTQ3Mjk3MzEzMSwtMTU2MDI3NjUzOSwtMT
+Q4MTM4ODY1MywxNzY1OTY4MjY2XX0=
 -->
