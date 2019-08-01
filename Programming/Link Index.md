@@ -37,7 +37,7 @@ Link Index
 - [Plotly for notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
 - [JupyterLab extension for Plotly's react-chart-editor](https://github.com/plotly/jupyterlab-chart-editor)
 - [Notebook Examples from Pyfolio](https://github.com/quantopian/pyfolio/tree/master/pyfolio/examples)
--[**Data Visualization with Bokeh in Python**](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), + [Source Code](https://github.com/WillKoehrsen/Bokeh-Python-Visualization)
+- [**Data Visualization with Bokeh in Python**](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), + [Source Code](https://github.com/WillKoehrsen/Bokeh-Python-Visualization)
 - [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 - [Stock Analysis Using Stocker](https://github.com/WillKoehrsen/Data-Analysis/blob/master/stocker/Stocker%20Analysis%20Usage.ipynb)
 - [Computational Linguistics ภาษาศาสตร์คอมพิวเตอร์](https://attapol.github.io/compling/index.html?fbclid=IwAR3gNgVI1BYrHXS-ZREFGhfBnmGnejf9bcqxdfb5pNJ88bxNNgcqziy1O7c)
@@ -81,7 +81,7 @@ Link Index
 - [pyfolio](https://github.com/quantopian/pyfolio)
 - [Finance API](https://financialmodelingprep.com)
 
-# R
+# R Programming
 ## Tutorials
 - [Shiny Apps.io user guide](https://docs.rstudio.com/shinyapps.io/index.html)
 - [ e-Book - R: Code Flows and Shiny Apps for Portfolio Analysis.](http://www.reproduciblefinance.com/start-here/)
@@ -133,6 +133,6 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjkwODQxMjMsMTM5NjA4MjUwNyw1Nz
-YzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTg0OTk3MTIyMCwxMzk2MDgyNTA3LDU3Nj
+M5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3MzEwMzQ2XX0=
 -->
