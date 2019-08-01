@@ -350,12 +350,26 @@ ___
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
 
+## TeX Mathematical Formulae
 
+A full description of TeX math symbols is beyond the scope of this cheatsheet. Here's a  [good reference](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and you can try stuff out on  [CodeCogs](https://www.codecogs.com/latex/eqneditor.php). You can also play with formulae in the Markdown Here options page.
+
+Here are some examples to try out:
+
+```
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
+$\forall x \in X, \quad \exists y \leq \epsilon$
+
+```
+
+The beginning and ending dollar signs (`$`) are the delimiters for the TeX markup.
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODEzODg2NTMsMTc2NTk2ODI2Nl19
+eyJoaXN0b3J5IjpbLTE1NjAyNzY1MzksLTE0ODEzODg2NTMsMT
+c2NTk2ODI2Nl19
 -->
