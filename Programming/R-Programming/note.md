@@ -1,4 +1,7 @@
-# Tuto
+Note for R Programming
+====================
+
+# Tutorials
 - [Shiny Apps.io user guide](https://docs.rstudio.com/shinyapps.io/index.html)
 - [ e-Book - R: Code Flows and Shiny Apps for Portfolio Analysis.](http://www.reproduciblefinance.com/start-here/)
 - [Quantmod Quantitative Financial Modelling & Trading Framework](http://www.quantmod.com/)
@@ -37,6 +40,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg4NDU0MTUsLTE0OTEwMTU0ODNdfQ
-==
+eyJoaXN0b3J5IjpbMjAxNTc2NDUxMiwtMTQ5MTAxNTQ4M119
 -->
