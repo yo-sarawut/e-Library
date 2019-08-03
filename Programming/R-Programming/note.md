@@ -34,11 +34,17 @@ Note for R Programming
 ## [- R for Data Science](https://r4ds.had.co.nz/index.html)
 
 
-## [- Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/)
+
 
 ![enter image description here](https://srdas.github.io/MLBook/DSTMAA_images/EvolutionDataScientist.png)
 
+## [- Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/)
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTc2NDUxMiwtMTQ5MTAxNTQ4M119
+eyJoaXN0b3J5IjpbLTQ4MjE1OTY2MiwyMDE1NzY0NTEyLC0xND
+kxMDE1NDgzXX0=
 -->
