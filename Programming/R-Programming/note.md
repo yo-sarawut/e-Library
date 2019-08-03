@@ -29,6 +29,8 @@ Note for R Programming
 - [Interactive plots in Shiny](https://rviews.rstudio.com/2018/09/20/shiny-r2d3/)
 - [Enterprise Dashboards with R Markdown](https://rviews.rstudio.com/2018/05/16/replacing-excel-reports-with-r-markdown-and-shiny/)
 - [Reticulated Shiny](https://rviews.rstudio.com/2018/04/17/reticulated-shiny/)
+- [Alternative Design for Shiny](https://rviews.rstudio.com/2018/03/13/alternative-design-for-shiny/)
+- [Calculating Beta in the Capital Asset Pricing Model]()
 
 
 
@@ -54,6 +56,6 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTA1MjQ1NSwtMjEwMzQ1ODY0NiwyMD
+eyJoaXN0b3J5IjpbLTgzOTY1NDQwOSwtMjEwMzQ1ODY0NiwyMD
 E1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
 -->
