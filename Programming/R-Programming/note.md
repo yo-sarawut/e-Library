@@ -11,6 +11,7 @@ Note for R Programming
 - [tidyverse : R packages for data science](https://www.tidyverse.org/)
 - [สอนเบื้องต้น : into R and the tidyverse](https://moderndive.com/index.html)
 - [R-Studio Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
+- [ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)
 
 # Aticles
 
@@ -48,6 +49,6 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMzU1OTIzLDIwMTU3NjQ1MTIsLTE0OT
+eyJoaXN0b3J5IjpbNTc2OTMzODM2LDIwMTU3NjQ1MTIsLTE0OT
 EwMTU0ODNdfQ==
 -->
