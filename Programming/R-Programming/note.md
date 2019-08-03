@@ -42,10 +42,12 @@ Note for R Programming
 
 ![enter image description here](https://ih1.redbubble.net/image.543334398.1461/sticker,220x200-bg,ffffff-pad,220x200,ffffff.jpg)
 
-## [- ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+## - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUxMzU5MzksMjAxNTc2NDUxMiwtMT
-Q5MTAxNTQ4M119
+eyJoaXN0b3J5IjpbNjMxMzU1OTIzLDIwMTU3NjQ1MTIsLTE0OT
+EwMTU0ODNdfQ==
 -->
