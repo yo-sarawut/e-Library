@@ -1,4 +1,5 @@
-# 5 Concepts พื้นฐานของภาษา R
+5 Concepts พื้นฐานของภาษา R
+====================
 
 ## 1. Variables
 
@@ -138,5 +139,5 @@ greeting()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQyMjc0NDFdfQ==
+eyJoaXN0b3J5IjpbMTg3NDM4MzAwNl19
 -->
