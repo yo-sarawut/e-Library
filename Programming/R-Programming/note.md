@@ -24,6 +24,9 @@ Note for R Programming
 - [**tsviz is an R package which contains the tsviz add-in and a sample dataset.**](https://towardsdatascience.com/introducing-tsviz-interactive-time-series-visualization-in-r-studio-a96cde507a14)
 - [รวมบทความดี ๆ เกียวกับ R](https://blog.methodsconsultants.com/)
 - [Flexdashboard Overview (Source)](https://bookdown.org/csgillespie/shiny_components/#htmlwidget-and-value-boxes)
+- [](https://rviews.rstudio.com/2018/09/20/shiny-r2d3/)
+
+- [Interactive plots in Shiny](https://rviews.rstudio.com/2018/09/20/shiny-r2d3/)
 
 
 
@@ -49,6 +52,6 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2OTMzODM2LDIwMTU3NjQ1MTIsLTE0OT
-EwMTU0ODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDM0NTg2NDYsMjAxNTc2NDUxMiwtMT
+Q5MTAxNTQ4M119
 -->
