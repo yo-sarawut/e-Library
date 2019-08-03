@@ -27,7 +27,9 @@ Note for R Programming
 - [](https://rviews.rstudio.com/2018/09/20/shiny-r2d3/)
 
 - [Interactive plots in Shiny](https://rviews.rstudio.com/2018/09/20/shiny-r2d3/)
+- [[](https://rviews.rstudio.com/2018/05/16/replacing-excel-reports-with-r-markdown-and-shiny/)
 
+# Enterprise Dashboards with R Markdown]
 
 
 
@@ -52,6 +54,6 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM0NTg2NDYsMjAxNTc2NDUxMiwtMT
-Q5MTAxNTQ4M119
+eyJoaXN0b3J5IjpbNjI3NjgxNzk3LC0yMTAzNDU4NjQ2LDIwMT
+U3NjQ1MTIsLTE0OTEwMTU0ODNdfQ==
 -->
