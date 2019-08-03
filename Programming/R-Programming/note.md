@@ -12,6 +12,7 @@ Note for R Programming
 - [สอนเบื้องต้น : into R and the tidyverse](https://moderndive.com/index.html)
 - [R-Studio Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
 - [ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)
+- [ggplot2`  builder addin]([https://github.com/dreamRs/esquisse](https://github.com/dreamRs/esquisse))
 
 # Aticles
 
@@ -57,6 +58,7 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMj
-EwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbLTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMD
+YxMjYyMTEwLC0yMTAzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEw
+MTU0ODNdfQ==
 -->
