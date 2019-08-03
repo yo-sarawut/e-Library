@@ -40,11 +40,12 @@ Note for R Programming
 
 ## [- Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/)
 
+![enter image description here](https://ih1.redbubble.net/image.543334398.1461/sticker,220x200-bg,ffffff-pad,220x200,ffffff.jpg)
 
-
+## [- ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjE1OTY2MiwyMDE1NzY0NTEyLC0xND
-kxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbLTE1NzUxMzU5MzksMjAxNTc2NDUxMiwtMT
+Q5MTAxNTQ4M119
 -->
