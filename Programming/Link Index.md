@@ -29,6 +29,7 @@ Link Index
 
 - [**A gallery of interesting Jupyter Notebooks**](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 - [e-Book : IPython Interactive Computing and Visualization Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook)
+- [Jupyter widgets Doc](https://ipywidgets.readthedocs.io/en/stable/index.html)
 - [Jupyter Notebook for Beginners: A Tutorial](https://www.kdnuggets.com/2018/05/jupyter-notebook-beginners-tutorial.html)
 - [Markdown Guide](https://www.markdownguide.org/getting-started)
 - [Jupyter Notebook for Beginners](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
@@ -134,7 +135,7 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwxMz
-k2MDgyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3MzEw
-MzQ2XX0=
+eyJoaXN0b3J5IjpbNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04ND
+k5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0
+NiwtMTA1NzMxMDM0Nl19
 -->
