@@ -25,6 +25,7 @@ Link Index
 - [Python for you and me](https://pymbook.readthedocs.io/en/latest/)
 - [pynative.com - Learn Python with Examples and Exercises](https://pynative.com/)
 - [PythonSpot](https://pythonspot.com)
+- [[Learn Python & R](https://cmdlinetips.com/)
 
 ## Jupyter Notebook
 
@@ -136,7 +137,7 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MT
-g1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUs
-MTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTIwOTYxOTczODgsLTE3NzczOTgsNzQ3Mj
+Q4MDQ2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUw
+Nyw1NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
