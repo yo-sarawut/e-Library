@@ -10,6 +10,7 @@ Link Index
 - [Book:A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/Category:Book:A_Beginner%27s_Python_Tutorial)
 - [Guide to Python](https://docs.python-guide.org/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+- [programiz](https://www.programiz.com/python-programming/first-program)
 - [A Complete Guide to Mastering Python](https://data-flair.training/blogs/python-tutorials-home/)
 - [Python Documentation](http://www.cs.mun.ca/~mtr/python/index.html)
 - [Python HOWTO](https://docs.python.org/dev/howto/index.html)
@@ -135,7 +136,7 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04ND
-k5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0
-NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MT
+g1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUs
+MTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
