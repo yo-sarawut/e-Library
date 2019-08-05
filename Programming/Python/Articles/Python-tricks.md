@@ -181,7 +181,7 @@ Unless you’re developing your own IDE, you’ll probably be most interested in
 
 You may already be using Jedi, however. The IPython project makes use of Jedi for its code autocompletion functionality.
 
-#### **kwargs
+#### kwargs
 
 When learning any language, there are many milestones along the way. With Python, understanding the mysterious  `**kwargs`  syntax probably counts as one.
 
@@ -498,5 +498,5 @@ Please share any of your own favorite Python tricks by leaving a response below!
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU5MDIyNzhdfQ==
+eyJoaXN0b3J5IjpbLTUwMjY2MzYyMiwtMTYwNTkwMjI3OF19
 -->
