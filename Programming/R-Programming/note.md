@@ -35,7 +35,7 @@ Note for R Programming
 - [shinythemes](http://shiny.rstudio.com/gallery/shiny-theme-selector.html)
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
 
-# 
+
 
 
 
@@ -61,7 +61,7 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjM0NjE1NCwtMzQzMDY1NDA3LC01Nj
+eyJoaXN0b3J5IjpbLTIyNDIwMzk1NSwtMzQzMDY1NDA3LC01Nj
 E5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2
 NDUxMiwtMTQ5MTAxNTQ4M119
 -->
