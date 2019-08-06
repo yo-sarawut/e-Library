@@ -14,6 +14,7 @@ Note for R Programming
 - [ggplot2 extensions - gallery](http://www.ggplot2-exts.org/gallery/)
 - [ggplot2`  builder addin]([https://github.com/dreamRs/esquisse](https://github.com/dreamRs/esquisse))
 - [Lubridate : Dates and times in R](https://lubridate.tidyverse.org/articles/lubridate.html)
+- [writing a book with R Markdown and **bookdown**](https://bookdown.org/yihui/bookdown/get-started.html))
 
 # Aticles
 
@@ -62,7 +63,8 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zND
-MwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1
-ODY0NiwyMDE1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbLTgzNzM4Mjg5OSwxMzc5MDAxNjIyLC0yMj
+QyMDM5NTUsLTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMDYxMjYy
+MTEwLC0yMTAzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEwMTU0OD
+NdfQ==
 -->
