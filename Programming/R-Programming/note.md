@@ -33,6 +33,9 @@ Note for R Programming
 - [Alternative Design for Shiny](https://rviews.rstudio.com/2018/03/13/alternative-design-for-shiny/)
 - [Calculating Beta in the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/02/08/capm-beta/)
 - [shinythemes](http://shiny.rstudio.com/gallery/shiny-theme-selector.html)
+- [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
+
+# 
 
 
 
@@ -58,7 +61,7 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMD
-YxMjYyMTEwLC0yMTAzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEw
-MTU0ODNdfQ==
+eyJoaXN0b3J5IjpbMTQ4MjM0NjE1NCwtMzQzMDY1NDA3LC01Nj
+E5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2
+NDUxMiwtMTQ5MTAxNTQ4M119
 -->
