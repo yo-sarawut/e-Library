@@ -60,6 +60,7 @@ Link Index
 ## Tutorials
 - [Learning Python and R for data science](http://cmdlinetips.com/resources/)
 - [**Source Data-Analysis Center**](https://github.com/WillKoehrsen/Data-Analysis)
+- [[https://www.shanelynn.ie/](https://www.shanelynn.ie/)
 - [Free e-Book for Data Science](https://www.learndatasci.com/free-data-science-books/)
 - [Materials and Jupyter notebooks for “Python for Data Analysis 2nd Edition” by Wes McKinney,](https://github.com/wesm/pydata-book)
 - [Code from IPython book Second Edition, by Cyrille Rossan](https://github.com/ipython-books)
@@ -137,7 +138,8 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MD
-Q2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1
-NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbMTcwNTU0ODA4Niw3Mjk3NDAzNywtMTc3Nz
+M5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwx
+Mzk2MDgyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3Mz
+EwMzQ2XX0=
 -->
