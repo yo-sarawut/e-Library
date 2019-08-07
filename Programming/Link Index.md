@@ -6,7 +6,7 @@ Link Index
 ## Tutorials
 - [**Full Stack Python**](https://www.fullstackpython.com/)
 - [**Python Data Science Handbook**](https://jakevdp.github.io/PythonDataScienceHandbook/index.html?fbclid=IwAR32hy1mDx0FESTiav8FkEENgm_Kv_DOc0ntvEbUJved1YZibHTVMui0-rc)
-- [# Python Tutorials](https://openwritings.net/python-tutorials)
+- [Python Tutorials](https://openwritings.net/python-tutorials)
 - [Book:A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/Category:Book:A_Beginner%27s_Python_Tutorial)
 - [Guide to Python](https://docs.python-guide.org/)
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
@@ -60,7 +60,7 @@ Link Index
 ## Tutorials
 - [Learning Python and R for data science](http://cmdlinetips.com/resources/)
 - [**Source Data-Analysis Center**](https://github.com/WillKoehrsen/Data-Analysis)
-- [[https://www.shanelynn.ie/](https://www.shanelynn.ie/)
+- [[Shane Lynn : Data science, Analytics, and Data visualisation.](https://www.shanelynn.ie/)
 - [Free e-Book for Data Science](https://www.learndatasci.com/free-data-science-books/)
 - [Materials and Jupyter notebooks for “Python for Data Analysis 2nd Edition” by Wes McKinney,](https://github.com/wesm/pydata-book)
 - [Code from IPython book Second Edition, by Cyrille Rossan](https://github.com/ipython-books)
@@ -138,7 +138,7 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTU0ODA4Niw3Mjk3NDAzNywtMTc3Nz
+eyJoaXN0b3J5IjpbMTg2NTI3NTI5NCw3Mjk3NDAzNywtMTc3Nz
 M5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwx
 Mzk2MDgyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3Mz
 EwMzQ2XX0=
