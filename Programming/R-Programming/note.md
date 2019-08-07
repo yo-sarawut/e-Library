@@ -41,6 +41,7 @@ Note for R Programming
 # Library
 ## Chart
 - [dygraph Doc](https://rstudio.github.io/dygraphs)
+- [htmlwidgets for R](https://www.htmlwidgets.org/index.html)
 
 
 
@@ -66,8 +67,8 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA2MDk1MywtODM3MzgyODk5LDEzNz
-kwMDE2MjIsLTIyNDIwMzk1NSwtMzQzMDY1NDA3LC01NjE5NzI5
-MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2NDUxMi
-wtMTQ5MTAxNTQ4M119
+eyJoaXN0b3J5IjpbNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczOD
+I4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcs
+LTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMD
+E1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
 -->
