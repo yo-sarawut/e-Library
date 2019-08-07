@@ -58,6 +58,8 @@ Link Index
 
 # Data Science
 ## Tutorials
+
+- [Pandas Documentation]([https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html))
 - [Learning Python and R for data science](http://cmdlinetips.com/resources/)
 - [**Source Data-Analysis Center**](https://github.com/WillKoehrsen/Data-Analysis)
 - [[Shane Lynn : Data science, Analytics, and Data visualisation.](https://www.shanelynn.ie/)
@@ -138,8 +140,8 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTI3NTI5NCw3Mjk3NDAzNywtMTc3Nz
-M5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwx
-Mzk2MDgyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3Mz
-EwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOT
+c0MDM3LC0xNzc3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0Miwt
+ODQ5OTcxMjIwLDEzOTYwODI1MDcsNTc2MzkxMTY1LDExODI0Mj
+YwNDYsLTEwNTczMTAzNDZdfQ==
 -->
