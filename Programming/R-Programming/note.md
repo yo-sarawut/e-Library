@@ -36,6 +36,7 @@ Note for R Programming
 - [Calculating Beta in the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/02/08/capm-beta/)
 - [shinythemes](http://shiny.rstudio.com/gallery/shiny-theme-selector.html)
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
+- [visualization, demographics, dashboards, and spatial data science. ](https://walkerke.github.io/)
 
 
 # Library
@@ -68,8 +69,9 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjkyMjAzMiw0MDk3MTIwLC0yMDUwNj
-A5NTMsLTgzNzM4Mjg5OSwxMzc5MDAxNjIyLC0yMjQyMDM5NTUs
-LTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMDYxMjYyMTEwLC0yMT
-AzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEwMTU0ODNdfQ==
+eyJoaXN0b3J5IjpbMjE0NTQzMjI2OSwtMzUyOTIyMDMyLDQwOT
+cxMjAsLTIwNTA2MDk1MywtODM3MzgyODk5LDEzNzkwMDE2MjIs
+LTIyNDIwMzk1NSwtMzQzMDY1NDA3LC01NjE5NzI5MTYsLTEwNj
+EyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2NDUxMiwtMTQ5MTAx
+NTQ4M119
 -->
