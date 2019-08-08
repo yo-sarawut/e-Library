@@ -6,6 +6,7 @@ Link Index
 ## Tutorials
 - [**Full Stack Python**](https://www.fullstackpython.com/)
 - [**Python Data Science Handbook**](https://jakevdp.github.io/PythonDataScienceHandbook/index.html?fbclid=IwAR32hy1mDx0FESTiav8FkEENgm_Kv_DOc0ntvEbUJved1YZibHTVMui0-rc)
+- [**Automate the Boring Stuff with Python**(e-Book)](https://automatetheboringstuff.com/#toc)
 - [Python Tutorials](https://openwritings.net/python-tutorials)
 - [Book:A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/Category:Book:A_Beginner%27s_Python_Tutorial)
 - [Guide to Python](https://docs.python-guide.org/)
@@ -140,8 +141,8 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOT
-c0MDM3LC0xNzc3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0Miwt
-ODQ5OTcxMjIwLDEzOTYwODI1MDcsNTc2MzkxMTY1LDExODI0Mj
-YwNDYsLTEwNTczMTAzNDZdfQ==
+eyJoaXN0b3J5IjpbMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4Nj
+UyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0x
+Mzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOT
+ExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
