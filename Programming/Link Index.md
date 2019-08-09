@@ -57,7 +57,7 @@ Link Index
 - [Why You Need Python Environments and How to Manage Them with Conda](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
 - [TRADING STRATEGY ANALYSIS USING PYTHON AND THE FFN PACKAGE – PART 1](https://pythonforfinance.net/2018/02/27/trading-strategy-analysis-using-python-and-the-ffn-package-part-1/)
 # Package
-- [Pyxley](https://pyxley.readthedocs.io/en/latest/basic.html#flask), [Source Code](https://github.com/stitchfix/pyxley)
+- [Pyxley](https://pyxley.readthedocs.io/en/latest/basic.html#flask) The Pyxley python library makes use of the [pyxleyJS](https://github.com/stitchfix/pyxleyJS) React components to create Flask-based web applications, [[DSource Code](https://github.com/stitchfix/pyxley)
 # Data Science
 ## Tutorials
 
@@ -142,7 +142,7 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk5ODM3OTksMTkzMTkwOTEwOCwtNz
+eyJoaXN0b3J5IjpbLTE1NzU5MDE3NTksMTkzMTkwOTEwOCwtNz
 UxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgs
 NzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5Nj
 A4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0
