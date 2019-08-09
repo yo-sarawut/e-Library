@@ -56,7 +56,8 @@ Link Index
 - [Charting Using Plotly in Python](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286)
 - [Why You Need Python Environments and How to Manage Them with Conda](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
 - [TRADING STRATEGY ANALYSIS USING PYTHON AND THE FFN PACKAGE – PART 1](https://pythonforfinance.net/2018/02/27/trading-strategy-analysis-using-python-and-the-ffn-package-part-1/)
-
+# Package
+- [Pyxley](https://pyxley.readthedocs.io/en/latest/basic.html#flask), [Source Code](https://github.com/stitchfix/pyxley)
 # Data Science
 ## Tutorials
 
@@ -141,8 +142,9 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4Nj
-UyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0x
-Mzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOT
-ExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTE1MTk5ODM3OTksMTkzMTkwOTEwOCwtNz
+UxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgs
+NzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5Nj
+A4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0
+Nl19
 -->
