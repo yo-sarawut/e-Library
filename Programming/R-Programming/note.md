@@ -45,6 +45,7 @@ Note for R Programming
 - [htmlwidgets for R](https://www.htmlwidgets.org/index.html)
 - [dygraphs doc](http://dygraphs.com/index.html)
 - [dygraphs toolkit (Source): Copper, Gold and Ten-Year Treasury Notes](http://www.reproduciblefinance.com/drafts/2017-04-10-copper-gold-and-10-year-treasury-notes/)
+- [_MetricsGraphics.js_](https://metricsgraphicsjs.org/examples.htm)
 
 
 
@@ -70,9 +71,9 @@ Note for R Programming
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNT
-I5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4OTks
-MTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MT
-k3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0
-NTEyLC0xNDkxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbNjMyNjgzMjU4LC03MTIyNjA0NTgsMjE0NT
+QzMjI2OSwtMzUyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MDk1Mywt
+ODM3MzgyODk5LDEzNzkwMDE2MjIsLTIyNDIwMzk1NSwtMzQzMD
+Y1NDA3LC01NjE5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2
+NDYsMjAxNTc2NDUxMiwtMTQ5MTAxNTQ4M119
 -->
