@@ -28,6 +28,14 @@ Link Index
 - [PythonSpot](https://pythonspot.com)
 - [[Learn Python & R](https://cmdlinetips.com/)
 
+## Building and running Python backend (development mode)
+
+-   CD to Python source cd --> src\python
+-   Create a virtualenv py -m virtualenv env
+-   Activate virtualenv : venv\Scripts\activate
+-   Install requirements pip3 install -r requirements.txt
+-   Start the backend env FLASK_DEBUG=1 python -m flask run --port 5000
+
 ## Jupyter Notebook
 
 - [**A gallery of interesting Jupyter Notebooks**](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
@@ -142,9 +150,9 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTc0MjE0NiwxOTMxOTA5MTA4LC03NT
-EyMTY3MjQsMTg2NTI3NTI5NCw3Mjk3NDAzNywtMTc3NzM5OCw3
-NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwxMzk2MD
-gyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3MzEwMzQ2
-XX0=
+eyJoaXN0b3J5IjpbLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5Mz
+E5MDkxMDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3
+LC0xNzc3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5OT
+cxMjIwLDEzOTYwODI1MDcsNTc2MzkxMTY1LDExODI0MjYwNDYs
+LTEwNTczMTAzNDZdfQ==
 -->
