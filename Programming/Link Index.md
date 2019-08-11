@@ -118,6 +118,7 @@ Link Index
 - [Develop a Stock Market Analytical Tool using Shiny and R](https://medium.com/@sermal/how-to-develop-a-stock-market-analytical-tool-using-shiny-and-r-c2385e0d2f89)
 - [e-Book : Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/index.html)
 - [e-Book: Techincal Analysis with R](https://bookdown.org/kochiuyu/Technical-Analysis-with-R/)
+- [SHOW ME SHINY : GALLERY OF R WEB APPS](https://www.showmeshiny.com/)
 
 #  Markdown
 ## Tutorials
@@ -151,9 +152,9 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOT
-c0MjE0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5
-NCw3Mjk3NDAzNywtMTc3NzM5OCw3NDcyNDgwNDYsLTEzNzgxOD
-U2NDIsLTg0OTk3MTIyMCwxMzk2MDgyNTA3LDU3NjM5MTE2NSwx
-MTgyNDI2MDQ2LC0xMDU3MzEwMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE4NzMwODY5MDcsNzc2ODg1ODUwLC0zOT
+M3MzAyNDIsLTkxOTc0MjE0NiwxOTMxOTA5MTA4LC03NTEyMTY3
+MjQsMTg2NTI3NTI5NCw3Mjk3NDAzNywtMTc3NzM5OCw3NDcyND
+gwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIyMCwxMzk2MDgyNTA3
+LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMDU3MzEwMzQ2XX0=
 -->
