@@ -119,7 +119,7 @@ Link Index
 - [e-Book : Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/index.html)
 - [e-Book: Techincal Analysis with R](https://bookdown.org/kochiuyu/Technical-Analysis-with-R/)
 - [SHOW ME SHINY : GALLERY OF R WEB APPS](https://www.showmeshiny.com/)
-- [e-Book : Forecasting: Principles and Practice]https://otexts.com/fpp2/)
+- [e-Book : Forecasting: Principles and Practice](https://otexts.com/fpp2/)
 
 #  Markdown
 ## Tutorials
@@ -153,10 +153,10 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk1Njg0NzcsLTE4NzMwODY5MDcsNz
-c2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0MjE0NiwxOTMxOTA5
-MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5NCw3Mjk3NDAzNywtMT
-c3NzM5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3MTIy
-MCwxMzk2MDgyNTA3LDU3NjM5MTE2NSwxMTgyNDI2MDQ2LC0xMD
-U3MzEwMzQ2XX0=
+eyJoaXN0b3J5IjpbMTIyMDMxNzE5NSwtMTg3MzA4NjkwNyw3Nz
+Y4ODU4NTAsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5MzE5MDkx
+MDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3LC0xNz
+c3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5OTcxMjIw
+LDEzOTYwODI1MDcsNTc2MzkxMTY1LDExODI0MjYwNDYsLTEwNT
+czMTAzNDZdfQ==
 -->
