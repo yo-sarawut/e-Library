@@ -31,7 +31,7 @@ Link Index
 ## Building and running Python backend (development mode)
 
 -   CD to Python source cd --> src\python
--   Create a virtualenv py -m virtualenv env
+-   Create a virtualenv py -m virtualenv venv
 -   Activate virtualenv : venv\Scripts\activate
 -   Install requirements pip3 install -r requirements.txt
 -   Start the backend env FLASK_DEBUG=1 python -m flask run --port 5000
@@ -163,11 +163,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMj
-AyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAz
-MTcxOTUsLTE4NzMwODY5MDcsNzc2ODg1ODUwLC0zOTM3MzAyND
-IsLTkxOTc0MjE0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2
-NTI3NTI5NCw3Mjk3NDAzNywtMTc3NzM5OCw3NDcyNDgwNDYsLT
-EzNzgxODU2NDIsLTg0OTk3MTIyMCwxMzk2MDgyNTA3LDU3NjM5
-MTE2NV19
+eyJoaXN0b3J5IjpbLTkzMDM1NDczNywtNzUzMjM2MTY3LC0xNz
+U0NzY3MzE1LC0yMDI5Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYy
+MzI4ODIsMTIyMDMxNzE5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NT
+AsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5MzE5MDkxMDgsLTc1
+MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3LC0xNzc3Mzk4LD
+c0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5OTcxMjIwLDEzOTYw
+ODI1MDddfQ==
 -->
