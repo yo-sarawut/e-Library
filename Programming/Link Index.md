@@ -58,7 +58,9 @@ Link Index
 
 ## Setup Notebook Theme
 
-jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
+- jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
+
+- jt -t monokai -f fira -fs 13 -nf ptsans -nfs 12 -N -kl -cursw 5 -cursc r -cellw 95% -T  -dfs 13 -ofs 13  -tfs 13
 
 - https://github.com/dunovank/jupyter-themes
 
@@ -161,11 +163,11 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLT
-E1NzE1MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODcz
-MDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxND
-YsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5
-NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC
-04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQy
-NjA0Nl19
+eyJoaXN0b3J5IjpbLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMj
+AyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAz
+MTcxOTUsLTE4NzMwODY5MDcsNzc2ODg1ODUwLC0zOTM3MzAyND
+IsLTkxOTc0MjE0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2
+NTI3NTI5NCw3Mjk3NDAzNywtMTc3NzM5OCw3NDcyNDgwNDYsLT
+EzNzgxODU2NDIsLTg0OTk3MTIyMCwxMzk2MDgyNTA3LDU3NjM5
+MTE2NV19
 -->
