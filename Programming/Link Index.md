@@ -28,6 +28,7 @@ Link Index
 - [PythonSpot](https://pythonspot.com)
 - [[Learn Python & R](https://cmdlinetips.com/)
 - [Django Tutorials](https://www.techiediaries.com/django/)
+- [**Awesome Dash**](https://github.com/ucg8j/awesome-dash)
 
 ## Building and running Python backend (development mode)
 
@@ -168,11 +169,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk2MjIyMTMsLTkzMDM1NDczNywtNz
-UzMjM2MTY3LC0xNzU0NzY3MzE1LC0yMDI5Nzg2OTI3LC0xNTcx
-NTAxMTc1LC01MTYyMzI4ODIsMTIyMDMxNzE5NSwtMTg3MzA4Nj
-kwNyw3NzY4ODU4NTAsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5
-MzE5MDkxMDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MD
-M3LC0xNzc3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5
-OTcxMjIwXX0=
+eyJoaXN0b3J5IjpbODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05Mz
+AzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4
+NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOT
+UsLTE4NzMwODY5MDcsNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkx
+OTc0MjE0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NT
+I5NCw3Mjk3NDAzNywtMTc3NzM5OCw3NDcyNDgwNDYsLTEzNzgx
+ODU2NDJdfQ==
 -->
