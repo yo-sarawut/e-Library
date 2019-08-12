@@ -27,6 +27,7 @@ Link Index
 - [pynative.com - Learn Python with Examples and Exercises](https://pynative.com/)
 - [PythonSpot](https://pythonspot.com)
 - [[Learn Python & R](https://cmdlinetips.com/)
+- [Django Tutorials](https://www.techiediaries.com/django/)
 
 ## Building and running Python backend (development mode)
 
@@ -166,11 +167,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzc3ODAwNiwtOTMwMzU0NzM3LC03NT
-MyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1
-MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODczMDg2OT
-A3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxNDYsMTkz
-MTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMz
-csLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5
-NzEyMjBdfQ==
+eyJoaXN0b3J5IjpbLTg2NDA4NTk3LC05MzAzNTQ3MzcsLTc1Mz
+IzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUw
+MTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwODY5MD
+csNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0MjE0NiwxOTMx
+OTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5NCw3Mjk3NDAzNy
+wtMTc3NzM5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3
+MTIyMF19
 -->
