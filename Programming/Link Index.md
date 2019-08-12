@@ -72,6 +72,9 @@ Link Index
 - [Charting Using Plotly in Python](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286)
 - [Why You Need Python Environments and How to Manage Them with Conda](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
 - [TRADING STRATEGY ANALYSIS USING PYTHON AND THE FFN PACKAGE – PART 1](https://pythonforfinance.net/2018/02/27/trading-strategy-analysis-using-python-and-the-ffn-package-part-1/)
+- [Introduction and Setup to Building a Simple File Storage Service Using VueJS, Flask, and RethinkDB](https://www.pluralsight.com/guides/introduction-and-setup-building-simple-file-storage-using-vuejs-flask-and-rethinkdb)
+
+
 # Package
 - [Pyxley](https://pyxley.readthedocs.io/en/latest/basic.html#flask) The Pyxley python library makes use of the [pyxleyJS](https://github.com/stitchfix/pyxleyJS) React components to create Flask-based web applications, [[Source Code]](https://github.com/stitchfix/pyxley)
 # Data Science
@@ -163,11 +166,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDM1NDczNywtNzUzMjM2MTY3LC0xNz
-U0NzY3MzE1LC0yMDI5Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYy
-MzI4ODIsMTIyMDMxNzE5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NT
-AsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5MzE5MDkxMDgsLTc1
-MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3LC0xNzc3Mzk4LD
-c0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5OTcxMjIwLDEzOTYw
-ODI1MDddfQ==
+eyJoaXN0b3J5IjpbMTkyNzc3ODAwNiwtOTMwMzU0NzM3LC03NT
+MyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1
+MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODczMDg2OT
+A3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxNDYsMTkz
+MTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMz
+csLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5
+NzEyMjBdfQ==
 -->
