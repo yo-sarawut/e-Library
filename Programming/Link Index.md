@@ -74,6 +74,7 @@ Link Index
 - [Why You Need Python Environments and How to Manage Them with Conda](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
 - [TRADING STRATEGY ANALYSIS USING PYTHON AND THE FFN PACKAGE – PART 1](https://pythonforfinance.net/2018/02/27/trading-strategy-analysis-using-python-and-the-ffn-package-part-1/)
 - [Introduction and Setup to Building a Simple File Storage Service Using VueJS, Flask, and RethinkDB](https://www.pluralsight.com/guides/introduction-and-setup-building-simple-file-storage-using-vuejs-flask-and-rethinkdb)
+- [Python Web Applications with Flask](https://realpython.com/python-web-applications-with-flask-part-i/)
 
 
 # Package
@@ -167,11 +168,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDA4NTk3LC05MzAzNTQ3MzcsLTc1Mz
-IzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUw
-MTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwODY5MD
-csNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0MjE0NiwxOTMx
-OTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5NCw3Mjk3NDAzNy
-wtMTc3NzM5OCw3NDcyNDgwNDYsLTEzNzgxODU2NDIsLTg0OTk3
-MTIyMF19
+eyJoaXN0b3J5IjpbLTE3Mjk2MjIyMTMsLTkzMDM1NDczNywtNz
+UzMjM2MTY3LC0xNzU0NzY3MzE1LC0yMDI5Nzg2OTI3LC0xNTcx
+NTAxMTc1LC01MTYyMzI4ODIsMTIyMDMxNzE5NSwtMTg3MzA4Nj
+kwNyw3NzY4ODU4NTAsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5
+MzE5MDkxMDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MD
+M3LC0xNzc3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5
+OTcxMjIwXX0=
 -->
