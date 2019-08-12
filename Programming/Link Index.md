@@ -56,6 +56,12 @@ Link Index
 - [ตั้งค่า Notebook](https://www.kdnuggets.com/2019/06/jupyter-notebooks-data-science-reporting.html)
 - [plotly_ipywidget_notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
 
+## Setup Notebook Theme
+
+jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
+
+- https://github.com/dunovank/jupyter-themes
+
 ## Aticles
 - [**e-Book Mining the Social Web**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
 - [**IPython Notebook** : nteractive computational environment](http://ipython.org)
@@ -153,10 +159,10 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDMxNzE5NSwtMTg3MzA4NjkwNyw3Nz
-Y4ODU4NTAsLTM5MzczMDI0MiwtOTE5NzQyMTQ2LDE5MzE5MDkx
-MDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3LC0xNz
-c3Mzk4LDc0NzI0ODA0NiwtMTM3ODE4NTY0MiwtODQ5OTcxMjIw
-LDEzOTYwODI1MDcsNTc2MzkxMTY1LDExODI0MjYwNDYsLTEwNT
-czMTAzNDZdfQ==
+eyJoaXN0b3J5IjpbLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xOD
+czMDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIx
+NDYsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNz
+I5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQy
+LC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4Mj
+QyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
