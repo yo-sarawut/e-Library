@@ -102,6 +102,7 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 - [Source code Computational Finance in Python](https://github.com/tmthydvnprt/compfipy)
 - [pyfolio](https://github.com/quantopian/pyfolio)
 - [Finance API](https://financialmodelingprep.com)
+-  [Finance and Python]([https://financeandpython.com/Finance.html](https://financeandpython.com/Finance.html))
 
 # R Programming
 ## Tutorials
@@ -160,10 +161,11 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE1MDExNzUsLTUxNjIzMjg4MiwxMj
-IwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMw
-MjQyLC05MTk3NDIxNDYsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LD
-E4NjUyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2
-LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1Nz
-YzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTIwMjk3ODY5MjcsLTE1NzE1MDExNzUsLT
+UxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4
+NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxNDYsMTkzMTkwOTEwOC
+wtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMzcsLTE3Nzcz
+OTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMT
+M5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMx
+MDM0Nl19
 -->
