@@ -114,6 +114,7 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 - [tidyverse : R packages for data science](https://www.tidyverse.org/)
 - [สอนเบื้องต้น : into R and the tidyverse](https://moderndive.com/index.html)
 - [R-Studio Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
+- [e-Book : ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
 
 ## Aticles
 
@@ -159,10 +160,10 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xOD
-czMDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIx
-NDYsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNz
-I5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQy
-LC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4Mj
-QyNjA0NiwtMTA1NzMxMDM0Nl19
+eyJoaXN0b3J5IjpbLTE1NzE1MDExNzUsLTUxNjIzMjg4MiwxMj
+IwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMw
+MjQyLC05MTk3NDIxNDYsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LD
+E4NjUyNzUyOTQsNzI5NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2
+LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMTM5NjA4MjUwNyw1Nz
+YzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMxMDM0Nl19
 -->
