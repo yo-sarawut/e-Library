@@ -116,7 +116,7 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 - [สอนเบื้องต้น : into R and the tidyverse](https://moderndive.com/index.html)
 - [R-Studio Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
 - [e-Book : ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
-
+- [QuantStrat TradeR](https://quantstrattrader.wordpress.com/ )
 ## Aticles
 
 - [Shiny-Examples on Github](https://github.com/rstudio/shiny-examples)
@@ -161,11 +161,11 @@ jt -t grade3 -f roboto -fs 12 -tfs 12 -ofs 12 -dfs 12
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk3ODY5MjcsLTE1NzE1MDExNzUsLT
-UxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4
-NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxNDYsMTkzMTkwOTEwOC
-wtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMzcsLTE3Nzcz
-OTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC04NDk5NzEyMjAsMT
-M5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQyNjA0NiwtMTA1NzMx
-MDM0Nl19
+eyJoaXN0b3J5IjpbLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLT
+E1NzE1MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODcz
+MDg2OTA3LDc3Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxND
+YsMTkzMTkwOTEwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5
+NzQwMzcsLTE3NzczOTgsNzQ3MjQ4MDQ2LC0xMzc4MTg1NjQyLC
+04NDk5NzEyMjAsMTM5NjA4MjUwNyw1NzYzOTExNjUsMTE4MjQy
+NjA0Nl19
 -->
