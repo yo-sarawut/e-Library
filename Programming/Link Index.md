@@ -167,7 +167,7 @@ Link Index
 ## Open Source
 
 ### Helpdesk System
-- [Django-Helpdesk](https://github.com/django-helpdesk/django-helpdesk) , [Doc](https://django-helpdesk.readthedocs.io/en/0.2.x/)
+- [Django-Helpdesk](https://github.com/django-helpdesk/django-helpdesk) + [Document](https://django-helpdesk.readthedocs.io/en/0.2.x/)
 
 ---
 ### ERP
@@ -180,11 +180,11 @@ Link Index
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0ODMzNzg0LDEwMDIxNzcwNDQsLTQ1OT
-I3MDg2NSw4NTIwNDYyNDYsLTE3Mjk2MjIyMTMsLTkzMDM1NDcz
-NywtNzUzMjM2MTY3LC0xNzU0NzY3MzE1LC0yMDI5Nzg2OTI3LC
-0xNTcxNTAxMTc1LC01MTYyMzI4ODIsMTIyMDMxNzE5NSwtMTg3
-MzA4NjkwNyw3NzY4ODU4NTAsLTM5MzczMDI0MiwtOTE5NzQyMT
-Q2LDE5MzE5MDkxMDgsLTc1MTIxNjcyNCwxODY1Mjc1Mjk0LDcy
-OTc0MDM3XX0=
+eyJoaXN0b3J5IjpbMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NT
+kyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3
+MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNy
+wtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4
+NzMwODY5MDcsNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0Mj
+E0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5NCw3
+Mjk3NDAzN119
 -->
