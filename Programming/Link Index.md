@@ -116,6 +116,7 @@ Link Index
 ## Tutorials
 - [Shiny Apps.io user guide](https://docs.rstudio.com/shinyapps.io/index.html)
 - [ e-Book - R: Code Flows and Shiny Apps for Portfolio Analysis.](http://www.reproduciblefinance.com/start-here/)
+- [20 Free Online Books to Learn R and Data Science](https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/)
 - [Quantmod Quantitative Financial Modelling & Trading Framework](http://www.quantmod.com/)
 - [The R Trader](http://www.thertrader.com/)
 - [รวมบทความ : R blogger ](https://www.r-bloggers.com/)
@@ -178,13 +179,14 @@ Link Index
 - [Education ERP: Official Odoo Silver partner has here contributed the Education ERP.](https://github.com/JayVora-SerpentCS/OdooEduERP)
 
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NT
-kyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3
-MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNy
-wtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4
-NzMwODY5MDcsNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0Mj
-E0NiwxOTMxOTA5MTA4LC03NTEyMTY3MjQsMTg2NTI3NTI5NCw3
-Mjk3NDAzN119
+eyJoaXN0b3J5IjpbMTk1OTExNjQyOCwxMDMwNjEyMTIyLDEwMD
+IxNzcwNDQsLTQ1OTI3MDg2NSw4NTIwNDYyNDYsLTE3Mjk2MjIy
+MTMsLTkzMDM1NDczNywtNzUzMjM2MTY3LC0xNzU0NzY3MzE1LC
+0yMDI5Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYyMzI4ODIsMTIy
+MDMxNzE5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NTAsLTM5MzczMD
+I0MiwtOTE5NzQyMTQ2LDE5MzE5MDkxMDgsLTc1MTIxNjcyNCwx
+ODY1Mjc1Mjk0XX0=
 -->
