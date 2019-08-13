@@ -164,16 +164,23 @@ Link Index
 - http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
 
+## Open Source
 
+### ERP
+
+- [ERPNext:Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, Project Management, HRMS. Requires MariaDB](https://github.com/frappe/erpnext)
+- [ERP peek, a versatile tool for browsing Odoo / OpenERP data](https://github.com/tinyerp/erppeek)
+- [Django ERP : is an open-source, user-oriented, ERP system based on Django framework.](https://github.com/django-erp/django-erp)
+- [Education ERP: Official Odoo Silver partner has here contributed the Education ERP.](https://github.com/JayVora-SerpentCS/OdooEduERP)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTI3MDg2NSw4NTIwNDYyNDYsLTE3Mj
-k2MjIyMTMsLTkzMDM1NDczNywtNzUzMjM2MTY3LC0xNzU0NzY3
-MzE1LC0yMDI5Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYyMzI4OD
-IsMTIyMDMxNzE5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NTAsLTM5
-MzczMDI0MiwtOTE5NzQyMTQ2LDE5MzE5MDkxMDgsLTc1MTIxNj
-cyNCwxODY1Mjc1Mjk0LDcyOTc0MDM3LC0xNzc3Mzk4LDc0NzI0
-ODA0Nl19
+eyJoaXN0b3J5IjpbMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1Mj
+A0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYx
+NjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1MDExNz
+UsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0xODczMDg2OTA3LDc3
+Njg4NTg1MCwtMzkzNzMwMjQyLC05MTk3NDIxNDYsMTkzMTkwOT
+EwOCwtNzUxMjE2NzI0LDE4NjUyNzUyOTQsNzI5NzQwMzcsLTE3
+NzczOThdfQ==
 -->
