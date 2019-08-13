@@ -162,6 +162,8 @@ Link Index
 - [Document](https://stackedit.io/viewer)
 
 ## Example
+
+- [Dash : scripts and examples](https://github.com/plotly/dash-recipes)
 - http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
 
@@ -188,11 +190,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMD
-YxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2
-LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMT
-c1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2
-MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwODY5MDcsNzc2ODg1OD
-UwLC0zOTM3MzAyNDIsLTkxOTc0MjE0NiwxOTMxOTA5MTA4LC03
-NTEyMTY3MjRdfQ==
+eyJoaXN0b3J5IjpbLTE1NDA0ODc4NDcsNTA5ODUyOTYwLDE5NT
+kxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4
+NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLT
+c1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3
+MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwOD
+Y5MDcsNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0MjE0Niwx
+OTMxOTA5MTA4XX0=
 -->
