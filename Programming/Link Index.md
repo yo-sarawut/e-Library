@@ -30,7 +30,7 @@ Link Index
 - [Django Tutorials](https://www.techiediaries.com/django/)
 - [**Awesome Dash**](https://github.com/ucg8j/awesome-dash)
 - [Dash-Bootstrap](https://dash-bootstrap-components.opensource.faculty.ai/l/components)
-
+- [Python For Finance: Algorithmic Trading (DataCamp)](https://www.datacamp.com/community/tutorials/r-trading-tutorial)
 ## Building and running Python backend (development mode)
 
 -   CD to Python source cd --> src\python
@@ -193,11 +193,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODYyNjU5MSwxMTczNTk2MTc2LDEyMD
-IwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYwLDE5NTkxMTY0
-MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4NjUsOD
-UyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLTc1MzIz
-NjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUwMT
-E3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwODY5MDcs
-Nzc2ODg1ODUwXX0=
+eyJoaXN0b3J5IjpbOTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3Mz
+U5NjE3NiwxMjAyMDg3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2
+MCwxOTU5MTE2NDI4LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtND
+U5MjcwODY1LDg1MjA0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0
+NzM3LC03NTMyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5Mj
+csLTE1NzE1MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0x
+ODczMDg2OTA3XX0=
 -->
