@@ -3,9 +3,10 @@ e-Book & Tutorials for Programming
 
 # Finance
 
-## Stocker
-A Stock Analysis and Prediction Toolkit using Additive Models
+## Stocker [Packages]
 
+A Stock Analysis and Prediction Toolkit using Additive Models
+[**[Download]**](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
 
 
 # Data Science
@@ -41,5 +42,5 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3ODIwOTc1LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
 -->
