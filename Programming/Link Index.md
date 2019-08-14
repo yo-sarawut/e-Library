@@ -58,6 +58,7 @@ Link Index
 - [Computational Linguistics ภาษาศาสตร์คอมพิวเตอร์](https://attapol.github.io/compling/index.html?fbclid=IwAR3gNgVI1BYrHXS-ZREFGhfBnmGnejf9bcqxdfb5pNJ88bxNNgcqziy1O7c)
 - [ตั้งค่า Notebook](https://www.kdnuggets.com/2019/06/jupyter-notebooks-data-science-reporting.html)
 - [plotly_ipywidget_notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
+- [IPython Cookbook, Second Edition (2018)]()
 
 ## Setup Notebook Theme
 
@@ -192,11 +193,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjA4NzAzOCwtMTU0MDQ4Nzg0Nyw1MD
-k4NTI5NjAsMTk1OTExNjQyOCwxMDMwNjEyMTIyLDEwMDIxNzcw
-NDQsLTQ1OTI3MDg2NSw4NTIwNDYyNDYsLTE3Mjk2MjIyMTMsLT
-kzMDM1NDczNywtNzUzMjM2MTY3LC0xNzU0NzY3MzE1LC0yMDI5
-Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYyMzI4ODIsMTIyMDMxNz
-E5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NTAsLTM5MzczMDI0Miwt
-OTE5NzQyMTQ2XX0=
+eyJoaXN0b3J5IjpbMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNT
+QwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIx
+MjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0NiwtMT
+cyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYxNjcsLTE3NTQ3
+NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1MDExNzUsLTUxNjIzMj
+g4MiwxMjIwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4NTg1MCwt
+MzkzNzMwMjQyXX0=
 -->
