@@ -20,6 +20,10 @@ This book is concerned with the nuts and bolts of manipulating, processing, clea
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51cUNf8zukL._SX379_BO1,204,203,200_.jpg)
 
 
+## Mining the Social Web, 2nd Edition
+
+![Mining the Social Web, 2nd Edition](https://covers.oreillystatic.com/images/0636920030195/cat.gif)
+
 ## Introduction to Machine Learning with Python
 
 This repository holds the code for the forthcoming book "Introduction to Machine Learning with Python" by [Andreas Mueller](http://amueller.io/)and [Sarah Guido](https://twitter.com/sarah_guido). You can find details about the book on the [O'Reilly website](http://shop.oreilly.com/product/0636920030515.do).
@@ -42,5 +46,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbODc1MjY2MzczLDY1Mzg3NTU2LC0xNTYwND
+g1MDkyXX0=
 -->
