@@ -58,7 +58,7 @@ Link Index
 - [Computational Linguistics ภาษาศาสตร์คอมพิวเตอร์](https://attapol.github.io/compling/index.html?fbclid=IwAR3gNgVI1BYrHXS-ZREFGhfBnmGnejf9bcqxdfb5pNJ88bxNNgcqziy1O7c)
 - [ตั้งค่า Notebook](https://www.kdnuggets.com/2019/06/jupyter-notebooks-data-science-reporting.html)
 - [plotly_ipywidget_notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
-- [IPython Cookbook, Second Edition (2018)]()
+
 
 ## Setup Notebook Theme
 
@@ -70,7 +70,7 @@ Link Index
 
 ## Aticles
 - [**e-Book Mining the Social Web**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
-- [**IPython Notebook** : nteractive computational environment](http://ipython.org)
+- [**IPython Notebook** : Interactive computational environment](http://ipython.org)
 - [An A-Z of useful Python tricks](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
 - [The Next Level of Data Visualization in Python](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e)
 - [Charting Using Plotly in Python](https://code.tutsplus.com/tutorials/charting-using-plotly-in-python--cms-30286)
@@ -193,11 +193,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNT
-QwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIx
-MjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0NiwtMT
-cyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYxNjcsLTE3NTQ3
-NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1MDExNzUsLTUxNjIzMj
-g4MiwxMjIwMzE3MTk1LC0xODczMDg2OTA3LDc3Njg4NTg1MCwt
-MzkzNzMwMjQyXX0=
+eyJoaXN0b3J5IjpbLTk3ODYyNjU5MSwxMTczNTk2MTc2LDEyMD
+IwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYwLDE5NTkxMTY0
+MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4NjUsOD
+UyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLTc1MzIz
+NjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUwMT
+E3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwODY5MDcs
+Nzc2ODg1ODUwXX0=
 -->
