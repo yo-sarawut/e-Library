@@ -7,8 +7,7 @@
 
 This book is concerned with the nuts and bolts of manipulating, processing, cleaning, and crunching data in Python. My goal is to offer a guide to the parts of the Python programming language and its data-oriented library ecosystem and tools that will equip you to become an effective data analyst.
 
-[**[1st Edition]**](https://github.com/wesm/pydata-book/tree/1st-edition)
-[**[2 nd Edition]**](https://github.com/wesm/pydata-book)
+[**[1st Edition]**](https://github.com/wesm/pydata-book/tree/1st-edition) - [**[2nd Edition]**](https://github.com/wesm/pydata-book)
 
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51cUNf8zukL._SX379_BO1,204,203,200_.jpg)
 
@@ -35,6 +34,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDg2Njg0LC0yMTI5NDQxNzA2LDM4Mj
-cxNDM2MiwtMTEwMDEyMzI4MF19
+eyJoaXN0b3J5IjpbLTM1Nzg2ODQyMSwtMjEyOTQ0MTcwNiwzOD
+I3MTQzNjIsLTExMDAxMjMyODBdfQ==
 -->
