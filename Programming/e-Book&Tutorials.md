@@ -9,8 +9,12 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 [**[Download]**](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
 
 # Visualization
+
+
+![Dash](https://camo.githubusercontent.com/2a5b79481de64aa7ce5aa03fb3fcf15d08e840d6/68747470733a2f2f63646e2e7261776769742e636f6d2f706c6f746c792f646173682d646f63732f62313137386234652f696d616765732f646173682d6c6f676f2d7374726970652e737667)
 ## Dash
-- # Awesome Dash
+### Awesome Dash
+
 
 # Data Science
 
@@ -55,6 +59,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA0MTc4MzIsLTY1MDExNjA2OCw2NT
-M4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbNTQwNzkwODk5LC02NTAxMTYwNjgsNjUzOD
+c1NTYsLTE1NjA0ODUwOTJdfQ==
 -->
