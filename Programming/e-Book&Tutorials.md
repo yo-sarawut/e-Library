@@ -69,10 +69,13 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 ![enter image description here](https://github.com/ipython-books/cookbook-2nd/raw/master/cover-cookbook-2nd.png)
 
+# Web Application
 
+## Bootstrap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjI4MjI5MCwxNzA0OTg3OTYzLC02NT
-AxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbMTY1NTU5MDMzNywtOTM2MjgyMjkwLDE3MD
+Q5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5
+Ml19
 -->
