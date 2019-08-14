@@ -17,7 +17,7 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 A curated list of awesome Dash (plotly) resources.
 
 [Dash](https://plot.ly/products/dash/) is a productive Python framework for building web applications. Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python. It's particularly suited for anyone who works with data in Python.
-[**[Master Data]**](https://github.com/ucg8j/awesome-dash#app-examples) + [Dash-Recipes]
+[**[Master Data]**](https://github.com/ucg8j/awesome-dash#app-examples) + [Dash-Recipes](https://github.com/plotly/dash-recipes) : scripts and examples created while answering questions from the greater Dash community
 
 **Contents**
 -   [Tutorials](https://github.com/ucg8j/awesome-dash#tutorials)
@@ -73,6 +73,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNDUyMzUwLDE3MDQ5ODc5NjMsLTY1MD
-ExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTkzNjI4MjI5MCwxNzA0OTg3OTYzLC02NT
+AxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
 -->
