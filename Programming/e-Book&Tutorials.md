@@ -26,9 +26,9 @@ This book is concerned with the nuts and bolts of manipulating, processing, clea
 
 How can you tap into the wealth of social web data to discover who’s making connections with whom, what they’re talking about, and where they’re located? With this expanded and thoroughly revised edition, you’ll learn how to acquire, analyze, and summarize data from all corners of the social web, including Facebook, Twitter, LinkedIn, Google+, GitHub, email, websites, and blogs.
 
-![Mining the Social Web, 2nd Edition](https://covers.oreillystatic.com/images/0636920030195/cat.gif)
+![Mining the Social Web, 2nd Edition](https://covers.oreillystatic.com/images/0636920030195/lrg.jpg)
 
-[**[Download]**](https://github.com/amueller/introduction_to_ml_with_python)
+[**[Download]**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
 
 ## Introduction to Machine Learning with Python
 
@@ -52,6 +52,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NTU3MDAwLDY1Mzg3NTU2LC0xNTYwND
-g1MDkyXX0=
+eyJoaXN0b3J5IjpbLTY1MDExNjA2OCw2NTM4NzU1NiwtMTU2MD
+Q4NTA5Ml19
 -->
