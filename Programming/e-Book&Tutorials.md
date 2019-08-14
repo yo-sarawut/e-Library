@@ -72,11 +72,11 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 # Web Application
 
 ## Bootstrap
-- [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme]()
+- [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcwMDE3NjksODIwMTMzODA4LC05Mz
-YyODIyOTAsMTcwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2
-LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNj
+I4MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYs
+LTE1NjA0ODUwOTJdfQ==
 -->
