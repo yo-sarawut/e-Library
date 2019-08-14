@@ -30,6 +30,7 @@ Link Index
 - [Django Tutorials](https://www.techiediaries.com/django/)
 - [**Awesome Dash**](https://github.com/ucg8j/awesome-dash)
 - [Dash-Bootstrap](https://dash-bootstrap-components.opensource.faculty.ai/l/components)
+
 ## Building and running Python backend (development mode)
 
 -   CD to Python source cd --> src\python
@@ -110,7 +111,8 @@ Link Index
 - [Source code Computational Finance in Python](https://github.com/tmthydvnprt/compfipy)
 - [pyfolio](https://github.com/quantopian/pyfolio)
 - [Finance API](https://financialmodelingprep.com)
--  [Finance and Python]([https://financeandpython.com/Finance.html](https://financeandpython.com/Finance.html))
+-  [Finance and Python](https://financeandpython.com/Finance.html)
+- [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
 # R Programming
 ## Tutorials
@@ -190,11 +192,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA0ODc4NDcsNTA5ODUyOTYwLDE5NT
-kxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4
-NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLT
-c1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3
-MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAzMTcxOTUsLTE4NzMwOD
-Y5MDcsNzc2ODg1ODUwLC0zOTM3MzAyNDIsLTkxOTc0MjE0Niwx
-OTMxOTA5MTA4XX0=
+eyJoaXN0b3J5IjpbMTIwMjA4NzAzOCwtMTU0MDQ4Nzg0Nyw1MD
+k4NTI5NjAsMTk1OTExNjQyOCwxMDMwNjEyMTIyLDEwMDIxNzcw
+NDQsLTQ1OTI3MDg2NSw4NTIwNDYyNDYsLTE3Mjk2MjIyMTMsLT
+kzMDM1NDczNywtNzUzMjM2MTY3LC0xNzU0NzY3MzE1LC0yMDI5
+Nzg2OTI3LC0xNTcxNTAxMTc1LC01MTYyMzI4ODIsMTIyMDMxNz
+E5NSwtMTg3MzA4NjkwNyw3NzY4ODU4NTAsLTM5MzczMDI0Miwt
+OTE5NzQyMTQ2XX0=
 -->
