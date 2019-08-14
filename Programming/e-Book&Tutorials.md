@@ -3,7 +3,8 @@ e-Book & Tutorials for Programming
 
 # Finance
 
-## 
+## Stocker
+A Stock Analysis and Prediction Toolkit using Additive Models
 
 
 
@@ -40,5 +41,5 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MjE0MDk3LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbNTE3ODIwOTc1LC0xNTYwNDg1MDkyXX0=
 -->
