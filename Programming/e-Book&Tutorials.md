@@ -9,7 +9,7 @@ This third revision of Manning's popular _The Quick Python Book_ offers a clear,
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/9/afe7a0c-3fd0-4676-92ea-62d7cf929064/Ceder-QPython-3ed-HI.png)
 
-# List of Tables
+##List of Tables**
 
 Chapter 3. The Quick Python overview
 
@@ -64,6 +64,114 @@ Chapter 22. Data over the network
 Chapter 23. Saving data
 
 [Table 23.1. Common sqlite3 database operations](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-23/ch23table01)
+
+### List of Listings
+
+Chapter 3. The Quick Python overview
+
+[Listing 3.1. File exception.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-3/ch03ex01)  
+
+[Listing 3.2. File with.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-3/ch03ex02)  
+
+[Listing 3.3. File wo.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-3/ch03ex03)  
+
+[Listing 3.4. File sh.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-3/ch03ex04)  
+
+Chapter 8. Control flow
+
+[Listing 8.1. word_count.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-8/ch08ex01)  
+
+[Listing 8.2. word_count.tst](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-8/ch08ex02)  
+
+Chapter 9. Functions
+
+[Listing 9.1. File nonlocal.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-9/ch09ex01)  
+
+Chapter 10. Modules and scoping rules
+
+[Listing 10.1. File mymath.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-10/ch10ex01)  
+
+[Listing 10.2. File myModules.pth](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-10/ch10ex02)  
+
+[Listing 10.3. File modtest.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-10/ch10ex03)  
+
+[Listing 10.4. File scopetest.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-10/ch10ex04)  
+
+Chapter 11. Python programs
+
+[Listing 11.1. File script1.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex01)  
+
+[Listing 11.2. File script2.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex02)  
+
+[Listing 11.3. File replace.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex03)  
+
+[Listing 11.4. File opts.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex04)  
+
+[Listing 11.5. File script4.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex05)  
+
+[Listing 11.6. File sole1.tst](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex06)  
+
+[Listing 11.7. File sole2.tst](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex07)  
+
+[Listing 11.8. File script5.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex08)  
+
+[Listing 11.9. File script6.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex09)  
+
+[Listing 11.10. File n2w.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex10)  
+
+[Listing 11.11. File n2w.tst](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-11/ch11ex11)  
+
+Chapter 13. Reading and writing files
+
+[Listing 13.1. File mio.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-13/ch13ex01)  
+
+[Listing 13.2. File sole.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-13/ch13ex02)  
+
+Chapter 15. Classes and object-oriented programming
+
+[Listing 15.1. File circle.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-15/ch15ex01)  
+
+[Listing 15.2. File circle_cm.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-15/ch15ex02)  
+
+[Listing 15.3. File cs.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-15/ch15ex03)  
+
+Chapter 17. Data types as objects
+
+[Listing 17.1. File color_module.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-17/ch17ex01)  
+
+Chapter 18. Packages
+
+[Listing 18.1. File mathproj/__init__.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex01)  
+
+[Listing 18.2. File mathproj/comp/__init__.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex02)  
+
+[Listing 18.3. File mathproj/comp/c1.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex03)  
+
+[Listing 18.4. File mathproj/comp/numeric/__init__.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex04)  
+
+[Listing 18.5. File mathproj/comp/numeric/n1.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex05)  
+
+[Listing 18.6. File mathproj/comp/numeric/n2.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-18/ch18ex06)  
+
+Chapter 20. Basic file wrangling
+
+[Listing 20.1. File files_01.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-20/ch20ex01)  
+
+[Listing 20.2. File files_02.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-20/ch20ex02)  
+
+[Listing 20.3. File files_03.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-20/ch20ex03)  
+
+[Listing 20.4. File files_04.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-20/ch20ex04)  
+
+Chapter 22. Data over the network
+
+[Listing 22.1. File test.html](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-22/ch22ex01)  
+
+[Listing 22.2. File forecast.html](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-22/ch22ex02)  
+
+Appendix B. Exercise answers
+
+[Listing B.1. File: word_count_refactored.py](https://livebook.manning.com/book/the-quick-python-book-third-edition/appendix-b/app03ex01)
 
 ## Exploring Python Basics
 
@@ -451,10 +559,10 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzMyNzU1MywtMTcwMzY0NzU3LC0xNT
-U2MTQ0OTQ5LC0yMjQ4NTc5OTksLTc1NjgzODEwNCwxMjQ4NDg1
-MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC
-0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4
-Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX
-0=
+eyJoaXN0b3J5IjpbNjE5NjEwOTM2LC0xNzAzNjQ3NTcsLTE1NT
+YxNDQ5NDksLTIyNDg1Nzk5OSwtNzU2ODM4MTA0LDEyNDg0ODUy
+MTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIyNjksLT
+IxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNzA0OTg3
+OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ
+==
 -->
