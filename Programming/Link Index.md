@@ -115,32 +115,13 @@ Link Index
 -  [Finance and Python](https://financeandpython.com/Finance.html)
 - [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
-# R Programming
+# Vue
 ## Tutorials
-- [Shiny Apps.io user guide](https://docs.rstudio.com/shinyapps.io/index.html)
-- [ e-Book - R: Code Flows and Shiny Apps for Portfolio Analysis.](http://www.reproduciblefinance.com/start-here/)
-- [20 Free Online Books to Learn R and Data Science](https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/)
-- [Quantmod Quantitative Financial Modelling & Trading Framework](http://www.quantmod.com/)
-- [The R Trader](http://www.thertrader.com/)
-- [รวมบทความ : R blogger ](https://www.r-bloggers.com/)
-- [ฝึกเขียนภาษา R สำหรับงาน Data Analysis](https://datarockie.com/2018/03/26/r-for-data-analysis/)
-- [tidyverse : R packages for data science](https://www.tidyverse.org/)
-- [สอนเบื้องต้น : into R and the tidyverse](https://moderndive.com/index.html)
-- [R-Studio Shiny User Showcase](https://www.rstudio.com/products/shiny/shiny-user-showcase/)
-- [e-Book : ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
-- [QuantStrat TradeR](https://quantstrattrader.wordpress.com/ )
+
 ## Aticles
 
-- [Shiny-Examples on Github](https://github.com/rstudio/shiny-examples)
-- [Dashboard from R Studio](http://rstudio.github.io/shinydashboard)
-- [Stock Charting Platform in Shiny](http://manuge.com/stock-charting-platform-in-shiny/)
-- [Shiny example with stocks](https://gist.github.com/wch/4026749)
-- [Develop a Stock Market Analytical Tool using Shiny and R](https://medium.com/@sermal/how-to-develop-a-stock-market-analytical-tool-using-shiny-and-r-c2385e0d2f89)
-- [e-Book : Data Science: Theories, Models, Algorithms, and Analytics](https://srdas.github.io/MLBook/index.html)
-- [e-Book: Techincal Analysis with R](https://bookdown.org/kochiuyu/Technical-Analysis-with-R/)
-- [SHOW ME SHINY : GALLERY OF R WEB APPS](https://www.showmeshiny.com/)
-- [e-Book : Forecasting: Principles and Practice](https://otexts.com/fpp2/)
-
+## Example
+- [https://vuejsexamples.com](https://vuejsexamples.com/)
 #  Markdown
 ## Tutorials
 
@@ -193,11 +174,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3Mz
-U5NjE3NiwxMjAyMDg3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2
-MCwxOTU5MTE2NDI4LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtND
-U5MjcwODY1LDg1MjA0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0
-NzM3LC03NTMyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5Mj
-csLTE1NzE1MDExNzUsLTUxNjIzMjg4MiwxMjIwMzE3MTk1LC0x
-ODczMDg2OTA3XX0=
+eyJoaXN0b3J5IjpbMTE2NTI2MjA4MSw5MTQyMjMyNDIsLTk3OD
+YyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4
+NDcsNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMD
+AyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIy
+MjEzLC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNS
+wtMjAyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEy
+MjAzMTcxOTVdfQ==
 -->
