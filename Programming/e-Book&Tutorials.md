@@ -12,6 +12,10 @@ e-Book & Tutorials for Programming
 A Stock Analysis and Prediction Toolkit using Additive Models
 [**[Download]**](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
 
+
+
+
+
 # Visualization
 
 
@@ -226,7 +230,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU5ODQzNjIsMTI0ODQ4NTIxNywyMD
+eyJoaXN0b3J5IjpbLTIxMzQ1MjI0MTgsMTI0ODQ4NTIxNywyMD
 kyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2
 OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLT
 Y1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
