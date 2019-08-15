@@ -9,6 +9,7 @@ This ebook will let you explore the basics of programming with one of the most p
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/6/ef20a70-faf1-410e-ac8e-403fdeeab7c1/Ceder_EPB_hires.png)
 
+**Chapters**
 
 Part 1.  [LEARNING HOW TO PROGRAM](https://livebook.manning.com/book/exploring-python-basics/part-1/)
 
@@ -388,7 +389,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE5NTM5MTcsLTIyNDg1Nzk5OSwtNz
+eyJoaXN0b3J5IjpbLTE1NTYxNDQ5NDksLTIyNDg1Nzk5OSwtNz
 U2ODM4MTA0LDEyNDg0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjEx
 MDI0LDExMjY2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLT
 kzNjI4MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1
