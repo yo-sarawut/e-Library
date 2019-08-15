@@ -127,7 +127,11 @@ This article covers:
 
 ## JavaScript
 ### [The Joy of JavaScript](https://www.manning.com/books/the-joy-of-javascript?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_thejoyofjavascript&utm_content=slideshare_01)
+Whether for building interactive browser-based applications or creating server-side applications in Node, JavaScript is the most widely used language for web programming. With new features, language improvements, paradigms, and potential use cases appearing regularly, there’s never been a more exciting time to be a JavaScript developer. In The Joy of JavaScript, author and JavaScript expert Luis Atencio teaches you key design concepts that lead to clean, lean, modular, and easy-to-maintain code.
 
+- [Source code](https://www.manning.com/downloads/1975)
+- [Book Forum](https://forums.manning.com/forums/the-joy-of-javascript)
+- [Source code on GitHub](https://github.com/JoyOfJavaScript/joj)
 ![Javascript](https://images.manning.com/720/960/resize/book/b/e4da676-6ecb-46fc-81fb-92717d4d5cb2/Atencio-JoyJS-MEAP-HI.png)
 
 
@@ -135,8 +139,8 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5MjY5MTQyLDEyNDg0ODUyMTcsMjA5Mj
-M1MDI0MywxMTU2NjExMDI0LDExMjY2NTIyNjksLTIxNzY1Njk5
-NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNzA0OTg3OTYzLC02NT
-AxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbLTMxMzUwMzY4MSwxMjQ4NDg1MjE3LDIwOT
+IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
+OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
+UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
 -->
