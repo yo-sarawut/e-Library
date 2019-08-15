@@ -9,7 +9,61 @@ This third revision of Manning's popular _The Quick Python Book_ offers a clear,
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/9/afe7a0c-3fd0-4676-92ea-62d7cf929064/Ceder-QPython-3ed-HI.png)
 
+# List of Tables
 
+Chapter 3. The Quick Python overview
+
+[Table 3.1. List indices](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-3/ch03table01)  
+
+Chapter 4. The absolute basics
+
+[Table 4.1. Pythonic coding conventions](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-4/ch04table01)  
+
+Chapter 5. Lists, tuples, and sets
+
+[Table 5.1. List operations](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-5/ch05table01)  
+
+Chapter 6. Strings
+
+[Table 6.1. Escape sequences for string and bytes literals](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-6/ch06table01)  
+
+[Table 6.2. Common string operations](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-6/ch06table02)  
+
+Chapter 7. Dictionaries
+
+[Table 7.1. Dictionary operations](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-7/ch07table01)  
+
+[Table 7.2. Python values eligible to be used as dictionary keys](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-7/ch07table02)  
+
+Chapter 12. Using the filesystem
+
+[Table 12.1. Summary of filesystem values and functions](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-12/ch12table01)  
+
+[Table 12.2. Partial list of pathlib properties and functions](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-12/ch12table02)  
+
+Chapter 19. Using Python libraries
+
+[Table 19.1. String services modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table01)  
+
+[Table 19.2. Data types modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table02)  
+
+[Table 19.3. Numeric and mathematical modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table03)  
+
+[Table 19.4. File and storage modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table04)  
+
+[Table 19.5. Operating system modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table05)  
+
+[Table 19.6. Modules supporting internet protocols and formats](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table06)  
+
+[Table 19.7. Development, debugging, and runtime modules](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-19/ch19table07)  
+
+Chapter 22. Data over the network
+
+[Table 22.1. JSON to Python default decoding](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-22/ch22table01)  
+
+Chapter 23. Saving data
+
+[Table 23.1. Common sqlite3 database operations](https://livebook.manning.com/book/the-quick-python-book-third-edition/chapter-23/ch23table01)
 
 ## Exploring Python Basics
 
@@ -397,9 +451,10 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM2NDc1NywtMTU1NjE0NDk0OSwtMj
-I0ODU3OTk5LC03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUw
-MjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LD
-gyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDEx
-NjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTM4NzMyNzU1MywtMTcwMzY0NzU3LC0xNT
+U2MTQ0OTQ5LC0yMjQ4NTc5OTksLTc1NjgzODEwNCwxMjQ4NDg1
+MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC
+0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4
+Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX
+0=
 -->
