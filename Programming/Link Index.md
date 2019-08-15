@@ -159,7 +159,8 @@ Link Index
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
 
 
-## Onlin
+## Online Editor
+- [Bootstrap 4 Editor](https://staging.itwonders-web.com/tools/bootstrap4-editor)
 
 ## Open Source
 
@@ -184,11 +185,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Nzk1MDcxOSw2NDI0OTkxNTksMjc1ND
-A5NCw5MTQyMjMyNDIsLTk3ODYyNjU5MSwxMTczNTk2MTc2LDEy
-MDIwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYwLDE5NTkxMT
-Y0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NTkyNzA4NjUs
-ODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3MzcsLTc1Mz
-IzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4NjkyNywtMTU3MTUw
-MTE3NV19
+eyJoaXN0b3J5IjpbLTE4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NT
+QwOTQsOTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3Niwx
+MjAyMDg3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MT
+E2NDI4LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1
+LDg1MjA0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NT
+MyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1
+MDExNzVdfQ==
 -->
