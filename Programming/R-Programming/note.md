@@ -53,8 +53,8 @@ Note for R Programming
 
 # e-Book
 
-## tidyverse
-### [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
+
+## - [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
 From  _[Machine Learning with R, tidyverse, and mlr](https://www.manning.com/books/machine-learning-for-mortals-mere-and-otherwise?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_machinelearningformortals&utm_content=article_01)_  by Hefin Rhys
 
 This article covers:
@@ -68,7 +68,8 @@ This article covers:
 -   [About this MEAP](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/about-this-meap/v-4)
 -   [Welcome](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/welcome/v-4)
 -   [MEAP VERSION 4](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/meap-version-4/v-4)
-[Chapters](https://livebook.manning.com/book/machine-learning-for-mortals-mere-and-otherwise/chapter-1/v-4/)-   [1 Introduction](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4)
+[Chapters](https://livebook.manning.com/book/machine-learning-for-mortals-mere-and-otherwise/chapter-1/v-4/)
+-   [1 Introduction](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4)
     -   [1.1 What is machine learning?](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/12)
         -   [1.1.1 Artificial intelligence and machine learning](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/20)
         -   [1.1.2 The difference between a model and an algorithm](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/32)
@@ -89,6 +90,7 @@ This article covers:
 -   [8 Regression with lines: linear regression and generalized additive models](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-8/v-4)
 -   [9 Preventing overfitting: ridge regression, LASSO, and elastic net](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-9/v-4)
 -   [10 Regression with distance and trees: k-nearest neighbors, random forest and XGBoost](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-10/v-4)
+---
 
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51768fI7L3L._SX331_BO1,204,203,200_.jpg)
 ## [- R for Data Science](https://r4ds.had.co.nz/index.html)
@@ -108,7 +110,7 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDczMTMyNiw2MzI2ODMyNTgsLTcxMj
+eyJoaXN0b3J5IjpbMTg5OTA5MDIyNiw2MzI2ODMyNTgsLTcxMj
 I2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsNDA5NzEyMCwt
 MjA1MDYwOTUzLC04MzczODI4OTksMTM3OTAwMTYyMiwtMjI0Mj
 AzOTU1LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MTI2MjEx
