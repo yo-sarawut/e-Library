@@ -343,6 +343,8 @@ A curated list of awesome Dash (plotly) resources.
 
 # Data Science
 
+
+
 ## Python for Data Analysis
 
 This book is concerned with the nuts and bolts of manipulating, processing, cleaning, and crunching data in Python. My goal is to offer a guide to the parts of the Python programming language and its data-oriented library ecosystem and tools that will equip you to become an effective data analyst.
@@ -624,10 +626,10 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3ODgzMjQyLC0xNzAzNjQ3NTcsLTE1NT
-YxNDQ5NDksLTIyNDg1Nzk5OSwtNzU2ODM4MTA0LDEyNDg0ODUy
-MTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIyNjksLT
-IxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNzA0OTg3
-OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ
-==
+eyJoaXN0b3J5IjpbMTAxODM0Mzg3OCw3Nzc4ODMyNDIsLTE3MD
+M2NDc1NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC03NTY4Mzgx
+MDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMT
+EyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2Mjgy
+MjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMT
+U2MDQ4NTA5Ml19
 -->
