@@ -1,6 +1,9 @@
 e-Book & Tutorials for Programming
 =====
 
+# Python
+
+
 # Finance
 
 ## Stocker [Packages]
@@ -76,7 +79,7 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNj
-I4MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYs
-LTE1NjA0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMD
+EzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2
+OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
 -->
