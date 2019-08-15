@@ -347,6 +347,12 @@ A curated list of awesome Dash (plotly) resources.
 
 ![enter image description here](https://covers.oreillystatic.com/images/0636920034919/lrg.jpg)
 
+**Essential Tools for Working with Data**
+By  [Jake VanderPlas](http://www.oreilly.com/pub/au/6198)
+**Publisher:**  [O'Reilly Media](https://learning.oreilly.com/library/publisher/oreilly-media-inc/?utm_medium=referral&utm_campaign=publisher&utm_source=oreilly&utm_content=catalog&utm_content=catalog)
+**Release Date:**  November 2016
+**Pages:**  541
+
 For many researchers, Python is a first-class tool mainly because of its libraries for storing, manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science stack, but only with the Python Data Science Handbook do you get them all—IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and other related tools.
 
 ## Python for Data Analysis
@@ -630,10 +636,10 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjEwOTUyMiw3Nzc4ODMyNDIsLTE3MD
-M2NDc1NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC03NTY4Mzgx
-MDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMT
-EyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2Mjgy
-MjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMT
-U2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTEyMTYyNDIxNjksNzc3ODgzMjQyLC0xNz
+AzNjQ3NTcsLTE1NTYxNDQ5NDksLTIyNDg1Nzk5OSwtNzU2ODM4
+MTA0LDEyNDg0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LD
+ExMjY2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4
+MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLT
+E1NjA0ODUwOTJdfQ==
 -->
