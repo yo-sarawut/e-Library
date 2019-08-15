@@ -73,12 +73,6 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 ![enter image description here](https://github.com/ipython-books/cookbook-2nd/raw/master/cover-cookbook-2nd.png)
 
-# Web Application
-
-## Bootstrap
-- [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
-
-
 
 # R
 
@@ -120,12 +114,29 @@ This article covers:
 -   [10 Regression with distance and trees: k-nearest neighbors, random forest and XGBoost](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-10/v-4)
 
 
+# Web Application
 
-###
+## Bootstrap
+- [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
+
+
+
+
+
+
+
+## JavaScript
+### [The Joy of JavaScript](https://www.manning.com/books/the-joy-of-javascript?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_thejoyofjavascript&utm_content=slideshare_01)
+
+![enter image description here](https://livebook.manning.com/book/the-joy-of-javascript/)
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODU5ODY5MCwxMjQ4NDg1MjE3LDIwOT
-IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
-OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
-UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbLTE5NDc3NDAyMTgsMTI0ODQ4NTIxNywyMD
+kyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2
+OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLT
+Y1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
 -->
