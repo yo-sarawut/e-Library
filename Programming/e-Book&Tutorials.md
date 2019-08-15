@@ -3,6 +3,7 @@ e-Book & Tutorials for Programming
 
 # Python
 
+## [Python Documentation]
 
 # Finance
 
@@ -79,7 +80,7 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMD
-EzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2
-OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbNDY2ODQ5MTMxLDExMjY2NTIyNjksLTIxNz
+Y1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNzA0OTg3OTYz
+LC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
 -->
