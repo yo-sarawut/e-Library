@@ -130,8 +130,9 @@ This article covers:
 Whether for building interactive browser-based applications or creating server-side applications in Node, JavaScript is the most widely used language for web programming. With new features, language improvements, paradigms, and potential use cases appearing regularly, there’s never been a more exciting time to be a JavaScript developer. In The Joy of JavaScript, author and JavaScript expert Luis Atencio teaches you key design concepts that lead to clean, lean, modular, and easy-to-maintain code.
 
 - [Source code](https://www.manning.com/downloads/1975)
-- [Book Forum](https://forums.manning.com/forums/the-joy-of-javascript)
+- [Book Forum](https://livebook.manning.com/book/the-joy-of-javascript/welcome/v-3/)
 - [Source code on GitHub](https://github.com/JoyOfJavaScript/joj)
+- 
 ![Javascript](https://images.manning.com/720/960/resize/book/b/e4da676-6ecb-46fc-81fb-92717d4d5cb2/Atencio-JoyJS-MEAP-HI.png)
 
 
@@ -139,7 +140,7 @@ Whether for building interactive browser-based applications or creating server-s
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzUwMzY4MSwxMjQ4NDg1MjE3LDIwOT
+eyJoaXN0b3J5IjpbMTE2MDMwNTUzMSwxMjQ4NDg1MjE3LDIwOT
 IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
 OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
 UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
