@@ -83,13 +83,21 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 # R
 
 ## tidyverse
-- [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
+### [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
+- From  _[Machine Learning with R, tidyverse, and mlr](https://www.manning.com/books/machine-learning-for-mortals-mere-and-otherwise?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_machinelearningformortals&utm_content=article_01)_  by Hefin Rhys
 
+This article covers:
+
+-   What the tidyverse is
+-   What’s meant by  _tidy_  data
+-   How to install and load the tidyverse
+-   How to use the tibble, dplyr, ggplot2 and tidyr packages of the tidyverse
+![enter image description here](https://freecontent.manning.com/wp-content/uploads/machine-learning-with-r-tidy-and-mlr-240x300.jpg)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjczMzM4NywxMTU2NjExMDI0LDExMj
+eyJoaXN0b3J5IjpbLTg4NzE4MTUzMywxMTU2NjExMDI0LDExMj
 Y2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5
 MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1Nj
 A0ODUwOTJdfQ==
