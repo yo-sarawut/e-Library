@@ -343,7 +343,11 @@ A curated list of awesome Dash (plotly) resources.
 
 # Data Science
 
+## Python Data Science Handbook
 
+![enter image description here](https://covers.oreillystatic.com/images/0636920034919/lrg.jpg)
+
+For many researchers, Python is a first-class tool mainly because of its libraries for storing, manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science stack, but only with the Python Data Science Handbook do you get them all—IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and other related tools.
 
 ## Python for Data Analysis
 
@@ -626,7 +630,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODM0Mzg3OCw3Nzc4ODMyNDIsLTE3MD
+eyJoaXN0b3J5IjpbLTE5NjEwOTUyMiw3Nzc4ODMyNDIsLTE3MD
 M2NDc1NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC03NTY4Mzgx
 MDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMT
 EyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2Mjgy
