@@ -125,6 +125,9 @@ Link Index
 - [https://vuejsexamples.com](https://vuejsexamples.com/)
 - [Vue-style Hooks](https://github.com/yyx990803/vue-hooks?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 - [**Awesome Vue.js**](https://awesome-vue.js.org/resources/examples.html)
+- [_Vue Crypto Dashboard_](https://vuejsexamples.com/a-cryptocurrency-dashboard-build-with-vue-js/)
+![enter image description here](https://vuejsexamples.com/content/images/2019/07/vue-crypto-dashboard.png)
+
 
 #  Markdown
 ## Tutorials
@@ -178,11 +181,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNj
-U5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcs
-NTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMT
-c3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEz
-LC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMj
-AyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAz
-MTcxOTVdfQ==
+eyJoaXN0b3J5IjpbNjQyNDk5MTU5LDI3NTQwOTQsOTE0MjIzMj
+QyLC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0x
+NTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MT
+IxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0Niwt
+MTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYxNjcsLTE3NT
+Q3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1MDExNzUsLTUxNjIz
+Mjg4Ml19
 -->
