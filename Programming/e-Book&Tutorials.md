@@ -78,9 +78,19 @@ IPython Interactive Computing and Visualization Cookbook, Second Edition (2018),
 ## Bootstrap
 - [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
 
+
+
+# R
+
+## tidyverse
+- [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMT
-c2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2
-MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbMTI0NjczMzM4NywxMTU2NjExMDI0LDExMj
+Y2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5
+MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1Nj
+A0ODUwOTJdfQ==
 -->
