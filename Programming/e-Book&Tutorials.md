@@ -119,10 +119,13 @@ This article covers:
 -   [9 Preventing overfitting: ridge regression, LASSO, and elastic net](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-9/v-4)
 -   [10 Regression with distance and trees: k-nearest neighbors, random forest and XGBoost](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-10/v-4)
 
+
+
+###
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNT
-Y2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgw
-OCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NT
-M4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTY2ODU5ODY5MCwxMjQ4NDg1MjE3LDIwOT
+IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
+OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
+UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
 -->
