@@ -123,7 +123,8 @@ Link Index
 
 ## Example
 - [https://vuejsexamples.com](https://vuejsexamples.com/)
-- [Vue-style Hooks]()
+- [Vue-style Hooks](https://github.com/yyx990803/vue-hooks?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [**Awesome Vue.js**](https://awesome-vue.js.org/resources/examples.html)
 
 #  Markdown
 ## Tutorials
@@ -177,11 +178,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDUzNDE3MCw5MTQyMjMyNDIsLTk3OD
-YyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4
-NDcsNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMD
-AyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIy
-MjEzLC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNS
-wtMjAyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEy
-MjAzMTcxOTVdfQ==
+eyJoaXN0b3J5IjpbMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNj
+U5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcs
+NTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMT
+c3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEz
+LC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMj
+AyOTc4NjkyNywtMTU3MTUwMTE3NSwtNTE2MjMyODgyLDEyMjAz
+MTcxOTVdfQ==
 -->
