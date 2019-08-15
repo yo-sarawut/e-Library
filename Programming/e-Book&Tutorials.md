@@ -151,7 +151,7 @@ To get the most benefit from this book, you’ll want to have some established s
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/c/bc5b11e-6e12-481b-8095-f2f931ab5029/Geers-MF-MEAP-HI.png)
 
-
+**Chapters**
 -   [1 What Are Micro Frontends?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1)
     -   [1.1 The Big Picture](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/6)
         -   [1.1.1 Systems & Teams](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/15)
@@ -332,9 +332,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1Nzg0NTg3LC03NTY4MzgxMDQsMTI0OD
-Q4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2
-OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MD
-Q5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5
-Ml19
+eyJoaXN0b3J5IjpbLTIyNDg1Nzk5OSwtNzU2ODM4MTA0LDEyND
+g0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIy
+NjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNz
+A0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUw
+OTJdfQ==
 -->
