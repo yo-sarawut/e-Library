@@ -13,6 +13,8 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 [**[Download]**](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)
 
 
+## [Basic Time-Series Forecasting](https://freecontent.manning.com/basic-time-series-forecasting/ "Basic Time-Series Forecasting")
+![enter image description here](https://freecontent.manning.com/wp-content/uploads/Hudgeon_BTSF_00-240x300.png)
 
 
 
@@ -230,8 +232,8 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ1MjI0MTgsMTI0ODQ4NTIxNywyMD
-kyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2
-OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLT
-Y1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTg2MjYzMDcwOCwxMjQ4NDg1MjE3LDIwOT
+IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
+OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
+UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
 -->
