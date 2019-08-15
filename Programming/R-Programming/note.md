@@ -37,6 +37,7 @@ Note for R Programming
 - [shinythemes](http://shiny.rstudio.com/gallery/shiny-theme-selector.html)
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
 - [visualization, demographics, dashboards, and spatial data science. ](https://walkerke.github.io/)
+- https://blog.revolutionanalytics.com/finance/page/2/
 
 
 # Library
@@ -110,10 +111,10 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTA5MDIyNiw2MzI2ODMyNTgsLTcxMj
-I2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsNDA5NzEyMCwt
-MjA1MDYwOTUzLC04MzczODI4OTksMTM3OTAwMTYyMiwtMjI0Mj
-AzOTU1LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MTI2MjEx
-MCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkxMDE1NDgzXX
-0=
+eyJoaXN0b3J5IjpbLTE0NzI0MjU1MzUsMTg5OTA5MDIyNiw2Mz
+I2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIw
+MzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4OTksMTM3OT
+AwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MTk3Mjkx
+NiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC
+0xNDkxMDE1NDgzXX0=
 -->
