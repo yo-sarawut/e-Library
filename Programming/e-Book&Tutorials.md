@@ -135,6 +135,7 @@ Whether for building interactive browser-based applications or creating server-s
 - 
 ![Javascript](https://images.manning.com/720/960/resize/book/b/e4da676-6ecb-46fc-81fb-92717d4d5cb2/Atencio-JoyJS-MEAP-HI.png)
 
+Table of Contents
 -   [welcome](https://livebook.manning.com/book/the-joy-of-javascript/welcome/v-3)
 -   [brief contents](https://livebook.manning.com/book/the-joy-of-javascript/brief-contents/v-3)
 [Chapters](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/)-   [1 JavaScript Reloaded](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3)
@@ -225,8 +226,8 @@ Whether for building interactive browser-based applications or creating server-s
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzY2MDczNSwxMjQ4NDg1MjE3LDIwOT
-IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
-OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
-UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbLTE2OTU5ODQzNjIsMTI0ODQ4NTIxNywyMD
+kyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2
+OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLT
+Y1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
 -->
