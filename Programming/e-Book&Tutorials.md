@@ -146,6 +146,11 @@ This article covers:
 
 # Web Application
 
+## 
+
+
+
+
 ## Bootstrap
 - [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
 
@@ -269,9 +274,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk5MzgyOTYsLTc1NjgzODEwNCwxMj
-Q4NDg1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUy
-MjY5LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMT
-cwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1
-MDkyXX0=
+eyJoaXN0b3J5IjpbLTk5Nzg2NjI3MiwtNzU2ODM4MTA0LDEyND
+g0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIy
+NjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNz
+A0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUw
+OTJdfQ==
 -->
