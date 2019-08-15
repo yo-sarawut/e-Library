@@ -149,8 +149,23 @@ This article covers:
 ## Bootstrap
 - [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
 
-## Programming with Types !
+## [Programming with Types !](https://livebook.manning.com/book/programming-with-types/welcome/v-5/)
 I started writing this book in an attempt to bridge the gap between the more mathematical, academic treatments of type systems and the day-to-day practical applications of types. Types are important, and there’s a clear trend towards better type systems. Haskell is gaining in popularity, TypeScript was invented to provide static typing to JavaScript, Python introduced type hints into the language, Rust has its borrow checker, and so on.
+
+![enter image description here](https://images.manning.com/720/960/resize/book/9/89fb505-659f-4343-8e71-b9b69314640f/Riscutia-PTypes-MEAP-HI.png)
+
+
+-   [1 Introduction to Typing](https://livebook.manning.com/book/programming-with-types/chapter-1/v-5)
+-   [2 Basic Types](https://livebook.manning.com/book/programming-with-types/chapter-2/v-5)
+-   [3 Composition](https://livebook.manning.com/book/programming-with-types/chapter-3/v-5)
+-   [4 Type Safety](https://livebook.manning.com/book/programming-with-types/chapter-4/v-5)
+-   [5 Function Types](https://livebook.manning.com/book/programming-with-types/chapter-5/v-5)
+-   [6 Advanced Applications of Function Types](https://livebook.manning.com/book/programming-with-types/chapter-6/v-5)
+-   [7 Subtyping](https://livebook.manning.com/book/programming-with-types/chapter-7/v-5)
+-   [8 Elements of Object-Oriented Programming](https://livebook.manning.com/book/programming-with-types/chapter-8/v-5)
+-   [9 Generic Data Structures](https://livebook.manning.com/book/programming-with-types/chapter-9/v-5)
+-   [10 Generic Algorithms and Iterators](https://livebook.manning.com/book/programming-with-types/chapter-10/v-5)
+-   [11 Higher Kinded Types and Beyond](https://livebook.manning.com/book/programming-with-types/chapter-11/v-5)
 
 ## JavaScript
 ### [The Joy of JavaScript](https://www.manning.com/books/the-joy-of-javascript?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_thejoyofjavascript&utm_content=slideshare_01)
@@ -165,7 +180,8 @@ Whether for building interactive browser-based applications or creating server-s
 Table of Contents
 -   [welcome](https://livebook.manning.com/book/the-joy-of-javascript/welcome/v-3)
 -   [brief contents](https://livebook.manning.com/book/the-joy-of-javascript/brief-contents/v-3)
-[Chapters](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/)-   [1 JavaScript Reloaded](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3)
+[Chapters](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/)
+-   [1 JavaScript Reloaded](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3)
     -   [1.1 JavaScript + Babel: past, present, and JS.Next](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/36)
     -   [1.2 One language to rule them all](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/52)
     -   [1.3 JavaScript’s object model](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/62)
@@ -253,9 +269,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA5ODE2MzMsLTc1NjgzODEwNCwxMj
-Q4NDg1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUy
-MjY5LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMT
-cwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1
-MDkyXX0=
+eyJoaXN0b3J5IjpbMTMxNDk0MDczMiwtNzU2ODM4MTA0LDEyND
+g0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIy
+NjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNz
+A0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUw
+OTJdfQ==
 -->
