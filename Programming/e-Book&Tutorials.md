@@ -154,7 +154,7 @@ I started writing this book in an attempt to bridge the gap between the more mat
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/9/89fb505-659f-4343-8e71-b9b69314640f/Riscutia-PTypes-MEAP-HI.png)
 
-
+**Chapters**
 -   [1 Introduction to Typing](https://livebook.manning.com/book/programming-with-types/chapter-1/v-5)
 -   [2 Basic Types](https://livebook.manning.com/book/programming-with-types/chapter-2/v-5)
 -   [3 Composition](https://livebook.manning.com/book/programming-with-types/chapter-3/v-5)
@@ -181,7 +181,7 @@ Table of Contents
 -   [welcome](https://livebook.manning.com/book/the-joy-of-javascript/welcome/v-3)
 -   [brief contents](https://livebook.manning.com/book/the-joy-of-javascript/brief-contents/v-3)
 [Chapters](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/)
--   [1 JavaScript Reloaded](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3)
+-   [1.  JavaScript Reloaded](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3)
     -   [1.1 JavaScript + Babel: past, present, and JS.Next](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/36)
     -   [1.2 One language to rule them all](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/52)
     -   [1.3 JavaScript’s object model](https://livebook.manning.com/book/the-joy-of-javascript/chapter-1/v-3/62)
@@ -269,9 +269,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDk0MDczMiwtNzU2ODM4MTA0LDEyND
-g0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIy
-NjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNz
-A0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUw
-OTJdfQ==
+eyJoaXN0b3J5IjpbLTExOTk5MzgyOTYsLTc1NjgzODEwNCwxMj
+Q4NDg1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUy
+MjY5LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMT
+cwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1
+MDkyXX0=
 -->
