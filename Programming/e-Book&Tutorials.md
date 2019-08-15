@@ -77,7 +77,7 @@ This repository holds the code for the forthcoming book "Introduction to Machine
 
 ![Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python/raw/master/cover.jpg)
 
-## Building a Career in Data Science!
+## [Building a Career in Data Science!](https://livebook.manning.com/book/build-your-career-in-data-science/welcome/v-2/0)
 
 Data science is a fast-growing and exciting field, with many companies building out their teams and more and more people wanting to join it. But how do you go from making the decision to become a data scientist to actually becoming one? And not only that, but someone who excels in their role.
 
@@ -149,11 +149,8 @@ This article covers:
 ## Bootstrap
 - [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
 
-
-
-
-
-
+## Programming with Types !
+I started writing this book in an attempt to bridge the gap between the more mathematical, academic treatments of type systems and the day-to-day practical applications of types. Types are important, and there’s a clear trend towards better type systems. Haskell is gaining in popularity, TypeScript was invented to provide static typing to JavaScript, Python introduced type hints into the language, Rust has its borrow checker, and so on.
 
 ## JavaScript
 ### [The Joy of JavaScript](https://www.manning.com/books/the-joy-of-javascript?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_thejoyofjavascript&utm_content=slideshare_01)
@@ -256,7 +253,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk2MDA3MzcsLTc1NjgzODEwNCwxMj
+eyJoaXN0b3J5IjpbLTEwNjA5ODE2MzMsLTc1NjgzODEwNCwxMj
 Q4NDg1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUy
 MjY5LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMT
 cwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1
