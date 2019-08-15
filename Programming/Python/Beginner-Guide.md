@@ -14,7 +14,7 @@
 10.  [BeginnersGuide/Programmers  **(Tutorial.txt)**](https://wiki.python.org/moin/BeginnersGuide/Programmers?action=AttachFile&do=view&target=Tutorial.txt)
 11. [BeginnersGuide/Programmers/SimpleExamples](https://wiki.python.org/moin/BeginnersGuide/Programmers/SimpleExamples)
 
-## Simple Examples Code
+## [Simple Examples Code](https://wiki.python.org/moin/Code)
 There's a lot of useful code out there that's not big enough to be its own module or its own project, but still useful for various purposes.
 
 Until we get a lot of code, this little page can serve as a useful focal point.
@@ -61,5 +61,5 @@ Until we get a lot of code, this little page can serve as a useful focal point.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDY2MjgyNl19
+eyJoaXN0b3J5IjpbLTQ0MDYzNTA2NF19
 -->
