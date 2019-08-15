@@ -152,6 +152,62 @@ To get the most benefit from this book, you’ll want to have some established s
 ![enter image description here](https://images.manning.com/720/960/resize/book/c/bc5b11e-6e12-481b-8095-f2f931ab5029/Geers-MF-MEAP-HI.png)
 
 
+-   [1 What Are Micro Frontends?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1)
+    -   [1.1 The Big Picture](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/6)
+        -   [1.1.1 Systems & Teams](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/15)
+        -   [1.1.2 The Frontend](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/34)
+        -   [1.1.3 Integration](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/50)
+        -   [1.1.4 Shared Topics](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/63)
+    -   [1.2 What problems do Micro Frontends solve?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/73)
+        -   [1.2.1 Faster feature development](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/75)
+        -   [1.2.2 No more frontend monolith](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/81)
+        -   [1.2.3 Be able to keep changing](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/95)
+        -   [1.2.4 The benefits of independence](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/112)
+        -   [1.2.5 The downsides of micro frontends](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/125)
+    -   [1.3 When do micro frontends make sense?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/145)
+        -   [1.3.1 Good for medium to large projects](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/147)
+        -   [1.3.2 Works best on the web](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/151)
+        -   [1.3.3 Productivity vs. overhead](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/158)
+    -   [1.4 Who uses micro frontends?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/168)
+        -   [1.4.1 Where micro frontends are not a great fit](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/172)
+    -   [1.5 The scope of this book](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/184)
+    -   [1.6 Summary](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-1/188)
+-   [2 Loosely Coupled](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1)
+    -   [2.1 Introducing The Tractor Store](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/9)
+        -   [2.1.1 Getting started](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/15)
+        -   [2.1.2 This books example code](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/27)
+    -   [2.2 Integration via links](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/46)
+        -   [2.2.1 How to do it](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/59)
+        -   [2.2.2 Dealing with changing URLs](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/93)
+        -   [2.2.3 The benefits](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/100)
+        -   [2.2.4 The drawbacks](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/106)
+        -   [2.2.5 When do links make sense?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/109)
+    -   [2.3 Integration via iframe](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/114)
+        -   [2.3.1 How to do it](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/121)
+        -   [2.3.2 Layout coupling](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/129)
+        -   [2.3.3 Interactions](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/138)
+        -   [2.3.4 Error scenarios](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/146)
+        -   [2.3.5 The drawbacks](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/151)
+        -   [2.3.6 When do iframes make sense?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/161)
+    -   [2.4 Summary](https://livebook.manning.com/book/micro-frontends-in-action/chapter-2/v-1/169)
+-   [3 Deeper Integration](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1)
+    -   [3.1 Integrating via AJAX](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/6)
+        -   [3.1.1 How to do it](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/16)
+        -   [3.1.2 Not self-contained](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/43)
+        -   [3.1.3 Scoping styles and scripts](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/59)
+        -   [3.1.4 Progressive enhancement](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/89)
+        -   [3.1.5 Declarative loading with h-include](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/99)
+        -   [3.1.6 The benefits](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/104)
+        -   [3.1.7 The drawbacks](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/114)
+        -   [3.1.8 When does an AJAX integration make sense?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/126)
+        -   [3.1.9 Summary](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/130)
+    -   [3.2 Routing via a shared web-server](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/147)
+        -   [3.2.1 How to do it](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/164)
+        -   [3.2.2 Request routing](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/226)
+        -   [3.2.3 Route configuration methods](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/244)
+        -   [3.2.4 Infrastructure Ownership](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/261)
+        -   [3.2.5 When does it make sense?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/267)
+    -   [3.3 Summary](https://livebook.manning.com/book/micro-frontends-in-action/chapter-3/v-1/276)
 
 ## Bootstrap
 - [Bootstrap Documentation](https://getbootstrap.com/) + [BootsWatch Theme](https://bootswatch.com/)
@@ -276,7 +332,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NTMwMzY5LC03NTY4MzgxMDQsMTI0OD
+eyJoaXN0b3J5IjpbNTk1Nzg0NTg3LC03NTY4MzgxMDQsMTI0OD
 Q4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2
 OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MD
 Q5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5
