@@ -16,7 +16,14 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 ## [Basic Time-Series Forecasting](https://freecontent.manning.com/basic-time-series-forecasting/ "Basic Time-Series Forecasting")
 ![enter image description here](https://freecontent.manning.com/wp-content/uploads/Hudgeon_BTSF_00-240x300.png)
 
-
+-   [1 How machine learning applies to business automation](https://livebook.manning.com/book/machine-learning-for-business/chapter-1/v-5)
+-   [2 Should you send a purchase order to a technical approver?](https://livebook.manning.com/book/machine-learning-for-business/chapter-2/v-5)
+-   [3 Should you call a customer because they are at risk of churning](https://livebook.manning.com/book/machine-learning-for-business/chapter-3/v-5)
+-   [4 Should a tweet be escalated to your support team](https://livebook.manning.com/book/machine-learning-for-business/chapter-4/v-5)
+-   [5 Should you question an invoice sent by a supplier](https://livebook.manning.com/book/machine-learning-for-business/chapter-5/v-5)
+-   [6 Forecasting your company’s monthly power usage](https://livebook.manning.com/book/machine-learning-for-business/chapter-6/v-5)
+-   [7 Adding features to your company’s monthly power usage forecast](https://livebook.manning.com/book/machine-learning-for-business/chapter-7/v-5)
+-   [8 Serving predictions over the web](https://livebook.manning.com/book/machine-learning-for-business/chapter-8/v-5)
 
 # Visualization
 
@@ -232,7 +239,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjYzMDcwOCwxMjQ4NDg1MjE3LDIwOT
+eyJoaXN0b3J5IjpbLTMxODkyNDU4NiwxMjQ4NDg1MjE3LDIwOT
 IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
 OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
 UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
