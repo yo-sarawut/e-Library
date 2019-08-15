@@ -79,11 +79,20 @@ This repository holds the code for the forthcoming book "Introduction to Machine
 
 ## Building a Career in Data Science!
 
-Data science is a fast-growing and exciting field, with many companies building out their teams and more and more people wanting to join it. But how do you go from making the decision to become a data scientist to actually becoming one? And not only that, but someone who excels in their role
-
-
+Data science is a fast-growing and exciting field, with many companies building out their teams and more and more people wanting to join it. But how do you go from making the decision to become a data scientist to actually becoming one? And not only that, but someone who excels in their role.
 
 ![enter image description here](https://images.manning.com/720/960/resize/book/b/dd0da35-a292-447b-9b3a-541bea81ce34/Robinson_RGB_meap.jpg)
+
+**Chapters**
+-   [1 What is data science?](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-1/v-2)
+-   [2 Data science companies](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-2/v-2)
+-   [3 Getting the Skills](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-3/v-2)
+-   [4 Building a Portfolio](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-4/v-2)
+-   [5 The Search: Identifying the Right Job for You](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-5/v-2)
+-   [6 The Application: Resumes and Cover Letters](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-6/v-2)
+-   [7 The interview](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-7/v-2)
+-   [8 The Offer: Knowing What to Accept](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-8/v-2)
+-   [9 The First Months on the Job](https://livebook.manning.com/book/build-a-career-in-data-science/chapter-9/v-2)
 
 # Jupyter
 
@@ -247,9 +256,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4Nzg0ODQsLTc1NjgzODEwNCwxMjQ4ND
-g1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5
-LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwND
-k4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDky
-XX0=
+eyJoaXN0b3J5IjpbLTEzNDk2MDA3MzcsLTc1NjgzODEwNCwxMj
+Q4NDg1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUy
+MjY5LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMT
+cwNDk4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1
+MDkyXX0=
 -->
