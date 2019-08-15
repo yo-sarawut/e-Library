@@ -14,8 +14,10 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 
 
 ## [Basic Time-Series Forecasting](https://freecontent.manning.com/basic-time-series-forecasting/ "Basic Time-Series Forecasting")
+
 ![enter image description here](https://freecontent.manning.com/wp-content/uploads/Hudgeon_BTSF_00-240x300.png)
 
+### chapter
 -   [1 How machine learning applies to business automation](https://livebook.manning.com/book/machine-learning-for-business/chapter-1/v-5)
 -   [2 Should you send a purchase order to a technical approver?](https://livebook.manning.com/book/machine-learning-for-business/chapter-2/v-5)
 -   [3 Should you call a customer because they are at risk of churning](https://livebook.manning.com/book/machine-learning-for-business/chapter-3/v-5)
@@ -239,7 +241,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODkyNDU4NiwxMjQ4NDg1MjE3LDIwOT
+eyJoaXN0b3J5IjpbLTc1NjgzODEwNCwxMjQ4NDg1MjE3LDIwOT
 IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
 OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
 UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
