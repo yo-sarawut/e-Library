@@ -3,6 +3,14 @@ e-Book & Tutorials for Programming
 
 # Python
 
+## Exploring Python Basics
+
+This ebook will let you explore the basics of programming with one of the most popular languages in the world right now, Python. Python is popular in a number of areas—it powers the Django web framework, which makes it easy to create database powered web sites; it’s an all purpose work horse on the back end, gluing programs together and connecting data pipelines; with tools like pandas, numpy, and tensor-flow (and many, many others) it’s a star in data science; and combined with the tiny (but mighty) raspberry pi and other boards it puts the power of computing literally in the palm of your hand.
+
+![enter image description here](https://images.manning.com/720/960/resize/book/6/ef20a70-faf1-410e-ac8e-403fdeeab7c1/Ceder_EPB_hires.png)
+
+
+
 ## [Python Documentation](https://docs.python.org/3/index.html)
 
 # Finance
@@ -332,9 +340,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDg1Nzk5OSwtNzU2ODM4MTA0LDEyND
-g0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMjY2NTIy
-NjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNz
-A0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUw
-OTJdfQ==
+eyJoaXN0b3J5IjpbMTg5ODY4NzU1NCwtMjI0ODU3OTk5LC03NT
+Y4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEw
+MjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOT
+M2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1
+NiwtMTU2MDQ4NTA5Ml19
 -->
