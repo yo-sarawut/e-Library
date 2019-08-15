@@ -3,6 +3,14 @@ e-Book & Tutorials for Programming
 
 # Python
 
+## The Quick Python Book, Third Edition
+
+This third revision of Manning's popular _The Quick Python Book_ offers a clear, crisp updated introduction to the elegant Python programming language and its famously easy-to-read syntax. Written for programmers new to Python, this latest edition includes new exercises throughout. It covers features common to other languages concisely, while introducing Python's comprehensive standard functions library and unique features in detail.
+
+![enter image description here](https://images.manning.com/720/960/resize/book/9/afe7a0c-3fd0-4676-92ea-62d7cf929064/Ceder-QPython-3ed-HI.png)
+
+
+
 ## Exploring Python Basics
 
 This ebook will let you explore the basics of programming with one of the most popular languages in the world right now, Python. Python is popular in a number of areas—it powers the Django web framework, which makes it easy to create database powered web sites; it’s an all purpose work horse on the back end, gluing programs together and connecting data pipelines; with tools like pandas, numpy, and tensor-flow (and many, many others) it’s a star in data science; and combined with the tiny (but mighty) raspberry pi and other boards it puts the power of computing literally in the palm of your hand.
@@ -389,9 +397,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTYxNDQ5NDksLTIyNDg1Nzk5OSwtNz
-U2ODM4MTA0LDEyNDg0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjEx
-MDI0LDExMjY2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLT
-kzNjI4MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1
-NTYsLTE1NjA0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDM2NDc1NywtMTU1NjE0NDk0OSwtMj
+I0ODU3OTk5LC03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUw
+MjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LD
+gyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDEx
+NjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
 -->
