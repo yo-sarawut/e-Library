@@ -94,11 +94,35 @@ This article covers:
 - 
 ![enter image description here](https://freecontent.manning.com/wp-content/uploads/machine-learning-with-r-tidy-and-mlr-240x300.jpg)
 
+-   [About this MEAP](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/about-this-meap/v-4)
+-   [Welcome](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/welcome/v-4)
+-   [MEAP VERSION 4](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/meap-version-4/v-4)
+[Chapters](https://livebook.manning.com/book/machine-learning-for-mortals-mere-and-otherwise/chapter-1/v-4/)-   [1 Introduction](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4)
+    -   [1.1 What is machine learning?](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/12)
+        -   [1.1.1 Artificial intelligence and machine learning](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/20)
+        -   [1.1.2 The difference between a model and an algorithm](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/32)
+    -   [1.2 Classes of machine learning algorithms](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/43)
+        -   [1.2.1 Differences between supervised, unsupervised, and semi-supervised learning](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/55)
+        -   [1.2.2 Classification, regression, dimension reduction, and clustering](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/68)
+        -   [1.2.3 A brief word on deep learning](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/82)
+    -   [1.3 Why use R for machine learning?](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/97)
+    -   [1.4 Which datasets will we use?](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/102)
+    -   [1.5 What will you learn in this book](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/107)
+    -   [1.6 Summary](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-1/v-4/115)
+-   [2 Tidying, manipulating and plotting data with the tidyverse](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-2/v-4)
+-   [3 Classifying based on similar observations: the k-Nearest neighbors algorithm](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-3/v-4)
+-   [4 Classifying based on odds: logistic regression](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-4/v-4)
+-   [5 Classifying by maximizing class separation: discriminant analysis](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-5/v-4)
+-   [6 Classifying based on probabilities and hyperplanes: naive Bayes and support vector machines](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-6/v-4)
+-   [7 Classifying with trees: Decision trees, random forests and gradient boosting](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-7/v-4)
+-   [8 Regression with lines: linear regression and generalized additive models](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-8/v-4)
+-   [9 Preventing overfitting: ridge regression, LASSO, and elastic net](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-9/v-4)
+-   [10 Regression with distance and trees: k-nearest neighbors, random forest and XGBoost](https://livebook.manning.com/book/machine-learning-with-r-tidyverse-and-mlr/chapter-10/v-4)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjM1MDI0MywxMTU2NjExMDI0LDExMj
-Y2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLTkzNjI4MjI5
-MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1NTYsLTE1Nj
-A0ODUwOTJdfQ==
+eyJoaXN0b3J5IjpbMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNT
+Y2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgw
+OCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NT
+M4NzU1NiwtMTU2MDQ4NTA5Ml19
 -->
