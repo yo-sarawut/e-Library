@@ -77,7 +77,13 @@ This repository holds the code for the forthcoming book "Introduction to Machine
 
 ![Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python/raw/master/cover.jpg)
 
+## Building a Career in Data Science!
 
+Data science is a fast-growing and exciting field, with many companies building out their teams and more and more people wanting to join it. But how do you go from making the decision to become a data scientist to actually becoming one? And not only that, but someone who excels in their role
+
+
+
+![enter image description here](https://images.manning.com/720/960/resize/book/b/dd0da35-a292-447b-9b3a-541bea81ce34/Robinson_RGB_meap.jpg)
 
 # Jupyter
 
@@ -241,8 +247,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjgzODEwNCwxMjQ4NDg1MjE3LDIwOT
-IzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5
-OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNj
-UwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDkyXX0=
+eyJoaXN0b3J5IjpbMjQ4Nzg0ODQsLTc1NjgzODEwNCwxMjQ4ND
+g1MjE3LDIwOTIzNTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5
+LC0yMTc2NTY5OTQsODIwMTMzODA4LC05MzYyODIyOTAsMTcwND
+k4Nzk2MywtNjUwMTE2MDY4LDY1Mzg3NTU2LC0xNTYwNDg1MDky
+XX0=
 -->
