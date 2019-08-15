@@ -10,6 +10,53 @@ This ebook will let you explore the basics of programming with one of the most p
 ![enter image description here](https://images.manning.com/720/960/resize/book/6/ef20a70-faf1-410e-ac8e-403fdeeab7c1/Ceder_EPB_hires.png)
 
 
+Part 1.  [LEARNING HOW TO PROGRAM](https://livebook.manning.com/book/exploring-python-basics/part-1/)
+
+[Basic principles of learning a programming language](https://livebook.manning.com/book/exploring-python-basics/chapter-1/)
+
+Lesson 2 from  [Get Programming](https://www.manning.com/books/get-programming)  by Ana Bell
+
+[Introducing Python: a programming language](https://livebook.manning.com/book/exploring-python-basics/chapter-2/)
+
+Lesson 3 from  [Get Programming](https://www.manning.com/books/get-programming)  by Ana Bell
+
+[Variables and expressions: giving names and values to things](https://livebook.manning.com/book/exploring-python-basics/chapter-3/)
+
+Lesson 4 from  [Get Programming](https://www.manning.com/books/get-programming)  by Ana Bell
+
+[Object types and statements of code](https://livebook.manning.com/book/exploring-python-basics/chapter-4/)
+
+Lesson 5 from  [Get Programming](https://www.manning.com/books/get-programming)  by Ana Bell
+
+[Capstone project: your first Python program—convert hours to minutes](https://livebook.manning.com/book/exploring-python-basics/chapter-5/)
+
+Lesson 6 from  [Get Programming](https://www.manning.com/books/get-programming)  by Ana Bell
+
+Part 2.  [MEET RASPBERRY PI](https://livebook.manning.com/book/exploring-python-basics/part-2/)
+
+[Meet Raspberry Pi](https://livebook.manning.com/book/exploring-python-basics/chapter-6/)
+
+Chapter 1 from  [Hello Raspberry Pi](https://www.manning.com/books/hello-raspberry-pi)  by Ryan Heitz
+
+[Blinky Pi](https://livebook.manning.com/book/exploring-python-basics/chapter-7/)
+
+Chapter 6 from  [Hello Raspberry Pi](https://www.manning.com/books/hello-raspberry-pi)  by Ryan Heitz
+
+Part 3.  [PYTHON—ABSOLUTE BASICS](https://livebook.manning.com/book/exploring-python-basics/part-3/)
+
+[The absolute basics](https://livebook.manning.com/book/exploring-python-basics/chapter-8/)
+
+Chapter 4 from  [The Quick Python Book, Third Edition](https://www.manning.com/books/the-quick-python-book-third-edition)  by Naomi Ceder
+
+[Lists, tuples, and sets](https://livebook.manning.com/book/exploring-python-basics/chapter-9/)
+
+Chapter 5 from  [The Quick Python Book, Third Edition](https://www.manning.com/books/the-quick-python-book-third-edition)  by Naomi Ceder
+
+Part 4.  [MODELING AND PREDICTION](https://livebook.manning.com/book/exploring-python-basics/part-4/)
+
+[Modeling and prediction](https://livebook.manning.com/book/exploring-python-basics/chapter-10/)
+
+Chapter 3 from  [Real-world Machine Learning](https://www.manning.com/books/real-world-machine-learning)  by Henrik Brink, Joseph Richards, and Mark Fetherolf
 
 ## [Python Documentation](https://docs.python.org/3/index.html)
 
@@ -25,7 +72,8 @@ A Stock Analysis and Prediction Toolkit using Additive Models
 
 ![enter image description here](https://freecontent.manning.com/wp-content/uploads/Hudgeon_BTSF_00-240x300.png)
 
-### chapter
+**Chapters**
+
 -   [1 How machine learning applies to business automation](https://livebook.manning.com/book/machine-learning-for-business/chapter-1/v-5)
 -   [2 Should you send a purchase order to a technical approver?](https://livebook.manning.com/book/machine-learning-for-business/chapter-2/v-5)
 -   [3 Should you call a customer because they are at risk of churning](https://livebook.manning.com/book/machine-learning-for-business/chapter-3/v-5)
@@ -340,9 +388,9 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODY4NzU1NCwtMjI0ODU3OTk5LC03NT
-Y4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEw
-MjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOT
-M2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1
-NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbLTE3MjE5NTM5MTcsLTIyNDg1Nzk5OSwtNz
+U2ODM4MTA0LDEyNDg0ODUyMTcsMjA5MjM1MDI0MywxMTU2NjEx
+MDI0LDExMjY2NTIyNjksLTIxNzY1Njk5NCw4MjAxMzM4MDgsLT
+kzNjI4MjI5MCwxNzA0OTg3OTYzLC02NTAxMTYwNjgsNjUzODc1
+NTYsLTE1NjA0ODUwOTJdfQ==
 -->
