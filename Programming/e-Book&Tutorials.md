@@ -128,15 +128,15 @@ This article covers:
 ## JavaScript
 ### [The Joy of JavaScript](https://www.manning.com/books/the-joy-of-javascript?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_thejoyofjavascript&utm_content=slideshare_01)
 
-![enter image description here](https://livebook.manning.com/book/the-joy-of-javascript/)
+![Javascript](https://images.manning.com/720/960/resize/book/b/e4da676-6ecb-46fc-81fb-92717d4d5cb2/Atencio-JoyJS-MEAP-HI.png)
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3NDAyMTgsMTI0ODQ4NTIxNywyMD
-kyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2
-OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLT
-Y1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4NTA5Ml19
+eyJoaXN0b3J5IjpbMzk5MjY5MTQyLDEyNDg0ODUyMTcsMjA5Mj
+M1MDI0MywxMTU2NjExMDI0LDExMjY2NTIyNjksLTIxNzY1Njk5
+NCw4MjAxMzM4MDgsLTkzNjI4MjI5MCwxNzA0OTg3OTYzLC02NT
+AxMTYwNjgsNjUzODc1NTYsLTE1NjA0ODUwOTJdfQ==
 -->
