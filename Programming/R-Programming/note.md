@@ -55,11 +55,14 @@ Note for R Programming
 
 # e-Book
 
-## [R Graphics Cookbook, 2nd edition]
+## [R Graphics Cookbook, 2nd edition](https://r-graphics.org/index.html)
+_2019-07-29_
 
+**R Graphics Cookbook**, a practical guide that provides more than 150 recipes to help you generate high-quality graphs quickly, without having to comb through all the details of R’s graphing systems. Each recipe tackles a specific problem with a solution you can apply to your own project, and includes a discussion of how and why the recipe works.
 
+![enter image description here](https://r-graphics.org/cover.jpg)
 
-## - [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
+## [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
 From  _[Machine Learning with R, tidyverse, and mlr](https://www.manning.com/books/machine-learning-for-mortals-mere-and-otherwise?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_machinelearningformortals&utm_content=article_01)_  by Hefin Rhys
 
 This article covers:
@@ -115,10 +118,10 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNTk4MDYyLC0yNDkwMTU2LC0xNDcyND
-I1NTM1LDE4OTkwOTAyMjYsNjMyNjgzMjU4LC03MTIyNjA0NTgs
-MjE0NTQzMjI2OSwtMzUyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MD
-k1MywtODM3MzgyODk5LDEzNzkwMDE2MjIsLTIyNDIwMzk1NSwt
-MzQzMDY1NDA3LC01NjE5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMD
-M0NTg2NDYsMjAxNTc2NDUxMiwtMTQ5MTAxNTQ4M119
+eyJoaXN0b3J5IjpbMTUwMzY3NTQ2MiwtMjQ5MDE1NiwtMTQ3Mj
+QyNTUzNSwxODk5MDkwMjI2LDYzMjY4MzI1OCwtNzEyMjYwNDU4
+LDIxNDU0MzIyNjksLTM1MjkyMjAzMiw0MDk3MTIwLC0yMDUwNj
+A5NTMsLTgzNzM4Mjg5OSwxMzc5MDAxNjIyLC0yMjQyMDM5NTUs
+LTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMDYxMjYyMTEwLC0yMT
+AzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEwMTU0ODNdfQ==
 -->
