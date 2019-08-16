@@ -54,6 +54,7 @@ Note for R Programming
 
 
 # e-Book
+- [**BookDown : Link**](https://bookdown.org/)
 
 ## [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
@@ -125,22 +126,24 @@ This article covers:
 
 ![enter image description here](https://ih1.redbubble.net/image.543334398.1461/sticker,220x200-bg,ffffff-pad,220x200,ffffff.jpg)
 
-## - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+## [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
 
 
-## R Markdown: The Definitive Guide
+## [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
+The document format “R Markdown” was first introduced in the knitr package (Xie 2015, 2019c) in early 2012. The idea was to embed code chunks (of R or other languages) in Markdown documents. In fact, knitr supported several authoring languages from the beginning in addition to Markdown, including LaTeX, HTML, AsciiDoc, reStructuredText, and Textile. Looking back over the five years, it seems to be fair to say that Markdown has become the most popular document format, which is what we expected. The simplicity of Markdown clearly stands out among these document formats.
 
+![enter image description here](https://bookdown.org/yihui/rmarkdown/images/cover.png)
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMTczODMsLTEwNDk3MTAxMTgsLTI0OT
-AxNTYsLTE0NzI0MjU1MzUsMTg5OTA5MDIyNiw2MzI2ODMyNTgs
-LTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsNDA5Nz
-EyMCwtMjA1MDYwOTUzLC04MzczODI4OTksMTM3OTAwMTYyMiwt
-MjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MT
-I2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkxMDE1
-NDgzXX0=
+eyJoaXN0b3J5IjpbLTEyNDUzNjYyMzAsLTEwNDk3MTAxMTgsLT
+I0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OTA5MDIyNiw2MzI2ODMy
+NTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsND
+A5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4OTksMTM3OTAwMTYy
+MiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMT
+A2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkx
+MDE1NDgzXX0=
 -->
