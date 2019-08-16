@@ -116,6 +116,10 @@ Link Index
 - [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 - [Financial Data Modeling with RAPIDS.](https://opendatascience.com/financial-data-modeling-with-rapids/)
 
+[**py-quantmod**](https://github.com/jackluo/py-quantmod)
+
+
+
 # Vue
 ## Tutorials
 
@@ -194,11 +198,11 @@ See online documentation :  [https://dreamrs.github.io/esquisse/index.html](http
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjQ1NjExLDE3NjkxOTI5ODAsLTE4Nj
-IyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQsOTE0MjIzMjQyLC05
-Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNTQwND
-g3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIxMjIs
-MTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0NiwtMTcyOT
-YyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYxNjcsLTE3NTQ3Njcz
-MTVdfQ==
+eyJoaXN0b3J5IjpbNjQxOTcwNjI2LDE5NzY0NTYxMSwxNzY5MT
+kyOTgwLC0xODYyMjUwMjIyLDY0MjQ5OTE1OSwyNzU0MDk0LDkx
+NDIyMzI0MiwtOTc4NjI2NTkxLDExNzM1OTYxNzYsMTIwMjA4Nz
+AzOCwtMTU0MDQ4Nzg0Nyw1MDk4NTI5NjAsMTk1OTExNjQyOCwx
+MDMwNjEyMTIyLDEwMDIxNzcwNDQsLTQ1OTI3MDg2NSw4NTIwND
+YyNDYsLTE3Mjk2MjIyMTMsLTkzMDM1NDczNywtNzUzMjM2MTY3
+XX0=
 -->
