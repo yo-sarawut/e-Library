@@ -124,27 +124,8 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 ![enter image description here](https://raw.githubusercontent.com/jackwluo/py-quantmod/master/assets/demo.gif)
 
 
-# Vue
-## Tutorials
-
-## Aticles
-- [Vuesax Frontend Vue Components](https://lusaxweb.github.io/vuesax/)
-
-## Example
-- [https://vuejsexamples.com](https://vuejsexamples.com/)
-- [Vue-style Hooks](https://github.com/yyx990803/vue-hooks?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
-- [**Awesome Vue.js**](https://awesome-vue.js.org/resources/examples.html)
-- [_Vue Crypto Dashboard_](https://vuejsexamples.com/a-cryptocurrency-dashboard-build-with-vue-js/)
-![enter image description here](https://vuejsexamples.com/content/images/2019/07/vue-crypto-dashboard.png)
-
-- [**_esquisse_**](https://github.com/dreamRs/esquisse)
-
-This addin allows you to interactively explore your data by visualizing it with the  [ggplot2](https://github.com/tidyverse/ggplot2)  package. It allows you to draw bar plots, curves, scatter plots, histograms, boxplot and  [sf](https://github.com/r-spatial/sf)  objects, then export the graph or retrieve the code to reproduce the graph.
-
-See online documentation :  [https://dreamrs.github.io/esquisse/index.html](https://dreamrs.github.io/esquisse/index.html)
 
 
-![enter image description here](https://github.com/dreamRs/esquisse/raw/master/man/figures/esquisse.gif)
 
 #  Markdown
 ## Tutorials
@@ -202,11 +183,11 @@ See online documentation :  [https://dreamrs.github.io/esquisse/index.html](http
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU1Mjg3NDIsMTk3NjQ1NjExLDE3Nj
-kxOTI5ODAsLTE4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQs
-OTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMD
-g3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4
-LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1Mj
-A0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYx
-NjddfQ==
+eyJoaXN0b3J5IjpbMTM5NTA1MjE5OSwtMjA4NTUyODc0MiwxOT
+c2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1MDIyMiw2NDI0OTkx
+NTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNjU5MSwxMTczNT
+k2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYw
+LDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NT
+kyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3
+MzddfQ==
 -->
