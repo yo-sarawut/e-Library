@@ -114,6 +114,7 @@ Link Index
 - [Finance API](https://financialmodelingprep.com)
 -  [Finance and Python](https://financeandpython.com/Finance.html)
 - [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+- [Financial Data Modeling with RAPIDS.](https://opendatascience.com/financial-data-modeling-with-rapids/)
 
 # Vue
 ## Tutorials
@@ -185,11 +186,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NT
-QwOTQsOTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3Niwx
-MjAyMDg3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MT
-E2NDI4LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1
-LDg1MjA0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NT
-MyMzYxNjcsLTE3NTQ3NjczMTUsLTIwMjk3ODY5MjcsLTE1NzE1
-MDExNzVdfQ==
+eyJoaXN0b3J5IjpbMTc2OTE5Mjk4MCwtMTg2MjI1MDIyMiw2ND
+I0OTkxNTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNjU5MSwx
+MTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcsNTA5OD
+UyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0
+LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05Mz
+AzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2NzMxNSwtMjAyOTc4
+NjkyN119
 -->
