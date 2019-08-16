@@ -118,6 +118,10 @@ Link Index
 
 [**py-quantmod**](https://github.com/jackluo/py-quantmod)
 
+A powerful financial charting library based on R's Quantmod.
+
+Quantmod makes creating interactive financial charts easy and intuitive. Furthermore, Quantmod has over 50 technical indicators built-in, in addition to a variety of technical and quantitative financial tools.
+![enter image description here](https://raw.githubusercontent.com/jackwluo/py-quantmod/master/assets/demo.gif)
 
 
 # Vue
@@ -198,11 +202,11 @@ See online documentation :  [https://dreamrs.github.io/esquisse/index.html](http
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxOTcwNjI2LDE5NzY0NTYxMSwxNzY5MT
-kyOTgwLC0xODYyMjUwMjIyLDY0MjQ5OTE1OSwyNzU0MDk0LDkx
-NDIyMzI0MiwtOTc4NjI2NTkxLDExNzM1OTYxNzYsMTIwMjA4Nz
-AzOCwtMTU0MDQ4Nzg0Nyw1MDk4NTI5NjAsMTk1OTExNjQyOCwx
-MDMwNjEyMTIyLDEwMDIxNzcwNDQsLTQ1OTI3MDg2NSw4NTIwND
-YyNDYsLTE3Mjk2MjIyMTMsLTkzMDM1NDczNywtNzUzMjM2MTY3
-XX0=
+eyJoaXN0b3J5IjpbLTIwODU1Mjg3NDIsMTk3NjQ1NjExLDE3Nj
+kxOTI5ODAsLTE4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQs
+OTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMD
+g3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4
+LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1Mj
+A0NjI0NiwtMTcyOTYyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYx
+NjddfQ==
 -->
