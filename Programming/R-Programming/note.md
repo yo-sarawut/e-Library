@@ -18,6 +18,7 @@ Note for R Programming
 
 # Aticles
 
+- [**dygraphs for R**]()
 - [Shiny-Examples on Github](https://github.com/rstudio/shiny-examples)
 - [Dashboard from R Studio](http://rstudio.github.io/shinydashboard)
 - [Stock Charting Platform in Shiny](http://manuge.com/stock-charting-platform-in-shiny/)
@@ -111,10 +112,10 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI0MjU1MzUsMTg5OTA5MDIyNiw2Mz
-I2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIw
-MzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4OTksMTM3OT
-AwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MTk3Mjkx
-NiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC
-0xNDkxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbLTI0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OT
+A5MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5
+LC0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczOD
+I4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcs
+LTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMD
+E1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
 -->
