@@ -129,8 +129,14 @@ Link Index
 - [_Vue Crypto Dashboard_](https://vuejsexamples.com/a-cryptocurrency-dashboard-build-with-vue-js/)
 ![enter image description here](https://vuejsexamples.com/content/images/2019/07/vue-crypto-dashboard.png)
 
-- [_esquisse_]๖https://github.com/dreamRs/esquisse/raw/master/man/figures/esquisse.gif)
+- [**_esquisse_**](https://github.com/dreamRs/esquisse)
 
+This addin allows you to interactively explore your data by visualizing it with the  [ggplot2](https://github.com/tidyverse/ggplot2)  package. It allows you to draw bar plots, curves, scatter plots, histograms, boxplot and  [sf](https://github.com/r-spatial/sf)  objects, then export the graph or retrieve the code to reproduce the graph.
+
+See online documentation :  [https://dreamrs.github.io/esquisse/index.html](https://dreamrs.github.io/esquisse/index.html)
+
+
+![enter image description here](https://github.com/dreamRs/esquisse/raw/master/man/figures/esquisse.gif)
 
 #  Markdown
 ## Tutorials
@@ -188,11 +194,11 @@ Link Index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI1NzQ5ODEsMTc2OTE5Mjk4MCwtMT
-g2MjI1MDIyMiw2NDI0OTkxNTksMjc1NDA5NCw5MTQyMjMyNDIs
-LTk3ODYyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1ND
-A0ODc4NDcsNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEy
-MiwxMDAyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNz
-I5NjIyMjEzLC05MzAzNTQ3MzcsLTc1MzIzNjE2NywtMTc1NDc2
-NzMxNV19
+eyJoaXN0b3J5IjpbMTk3NjQ1NjExLDE3NjkxOTI5ODAsLTE4Nj
+IyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQsOTE0MjIzMjQyLC05
+Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNTQwND
+g3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIxMjIs
+MTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0NiwtMTcyOT
+YyMjIxMywtOTMwMzU0NzM3LC03NTMyMzYxNjcsLTE3NTQ3Njcz
+MTVdfQ==
 -->
