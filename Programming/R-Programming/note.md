@@ -55,13 +55,18 @@ Note for R Programming
 
 # e-Book
 
-## Hands-On Programming with R
+## [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
 “Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. I wrote it for non-programmers to provide a friendly introduction to the R language. You’ll learn how to load data, assemble and disassemble data objects, navigate R’s environment system, write your own functions, and use all of R’s programming tools. Throughout the book, you’ll use your newfound skills to solve practical data science problems.
 
 ![enter image description here](https://rstudio-education.github.io/hopr/cover.png)
 
-## R Packages
+## [R Packages](https://r-pkgs.org/)
+
+Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data. In this book you’ll learn how to turn your code into packages that others can easily download and use. Writing a package can seem overwhelming at first. So start with the basics and improve it over time. It doesn’t matter if your first version isn’t perfect as long as the next version is better.
+
+![enter image description here](https://d33wubrfki0l68.cloudfront.net/19c4a5cab01d9bcb1d2edeb63ce5ba0f21870e33/68feb/images/cover.png)
+
 
 ## [R Graphics Cookbook, 2nd edition](https://r-graphics.org/index.html)
 _2019-07-29_
@@ -126,7 +131,7 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI1MTUzNjAsLTI0OTAxNTYsLTE0Nz
+eyJoaXN0b3J5IjpbLTEwNDk3MTAxMTgsLTI0OTAxNTYsLTE0Nz
 I0MjU1MzUsMTg5OTA5MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1
 OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MD
 YwOTUzLC04MzczODI4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1
