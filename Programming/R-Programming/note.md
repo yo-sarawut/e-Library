@@ -55,6 +55,9 @@ Note for R Programming
 
 # e-Book
 
+## [R Graphics Cookbook, 2nd edition]
+
+
 
 ## - [Tidying, Manipulating, and Plotting Data with the tidyverse](https://freecontent.manning.com/tidying-manipulating-and-plotting-data-with-the-tidyverse/ "Tidying, Manipulating, and Plotting Data with the tidyverse")
 From  _[Machine Learning with R, tidyverse, and mlr](https://www.manning.com/books/machine-learning-for-mortals-mere-and-otherwise?utm_source=freecontentcenter&utm_medium=website&utm_campaign=book_machinelearningformortals&utm_content=article_01)_  by Hefin Rhys
@@ -112,10 +115,10 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OT
-A5MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5
-LC0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczOD
-I4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcs
-LTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMD
-E1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
+eyJoaXN0b3J5IjpbNTYyNTk4MDYyLC0yNDkwMTU2LC0xNDcyND
+I1NTM1LDE4OTkwOTAyMjYsNjMyNjgzMjU4LC03MTIyNjA0NTgs
+MjE0NTQzMjI2OSwtMzUyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MD
+k1MywtODM3MzgyODk5LDEzNzkwMDE2MjIsLTIyNDIwMzk1NSwt
+MzQzMDY1NDA3LC01NjE5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMD
+M0NTg2NDYsMjAxNTc2NDUxMiwtMTQ5MTAxNTQ4M119
 -->
