@@ -55,6 +55,14 @@ Note for R Programming
 
 # e-Book
 
+## Hands-On Programming with R
+
+“Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. I wrote it for non-programmers to provide a friendly introduction to the R language. You’ll learn how to load data, assemble and disassemble data objects, navigate R’s environment system, write your own functions, and use all of R’s programming tools. Throughout the book, you’ll use your newfound skills to solve practical data science problems.
+
+![enter image description here](https://rstudio-education.github.io/hopr/cover.png)
+
+## R Packages
+
 ## [R Graphics Cookbook, 2nd edition](https://r-graphics.org/index.html)
 _2019-07-29_
 
@@ -118,10 +126,10 @@ This article covers:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzY3NTQ2MiwtMjQ5MDE1NiwtMTQ3Mj
-QyNTUzNSwxODk5MDkwMjI2LDYzMjY4MzI1OCwtNzEyMjYwNDU4
-LDIxNDU0MzIyNjksLTM1MjkyMjAzMiw0MDk3MTIwLC0yMDUwNj
-A5NTMsLTgzNzM4Mjg5OSwxMzc5MDAxNjIyLC0yMjQyMDM5NTUs
-LTM0MzA2NTQwNywtNTYxOTcyOTE2LC0xMDYxMjYyMTEwLC0yMT
-AzNDU4NjQ2LDIwMTU3NjQ1MTIsLTE0OTEwMTU0ODNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjI1MTUzNjAsLTI0OTAxNTYsLTE0Nz
+I0MjU1MzUsMTg5OTA5MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1
+OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MD
+YwOTUzLC04MzczODI4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1
+LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMj
+EwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkxMDE1NDgzXX0=
 -->
