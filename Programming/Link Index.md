@@ -4,6 +4,7 @@ Link Index
 # Python
 
 ## Tutorials
+
 - [**Full Stack Python**](https://www.fullstackpython.com/)
 - [**Python Data Science Handbook**](https://jakevdp.github.io/PythonDataScienceHandbook/index.html?fbclid=IwAR32hy1mDx0FESTiav8FkEENgm_Kv_DOc0ntvEbUJved1YZibHTVMui0-rc)
 - [**Automate the Boring Stuff with Python**(e-Book)](https://automatetheboringstuff.com/#toc)
@@ -69,6 +70,8 @@ Link Index
 - https://github.com/dunovank/jupyter-themes
 
 ## Aticles
+
+- [**Python Data.com**](https://pythondata.com/)
 - [**e-Book Mining the Social Web**](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition)
 - [**IPython Notebook** : Interactive computational environment](http://ipython.org)
 - [An A-Z of useful Python tricks](https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/)
@@ -183,11 +186,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTA1MjE5OSwtMjA4NTUyODc0MiwxOT
-c2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1MDIyMiw2NDI0OTkx
-NTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNjU5MSwxMTczNT
-k2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYw
-LDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMDAyMTc3MDQ0LC00NT
-kyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIyMjEzLC05MzAzNTQ3
-MzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjk4NzAyMDksMTM5NTA1MjE5OSwtMj
+A4NTUyODc0MiwxOTc2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1
+MDIyMiw2NDI0OTkxNTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3OD
+YyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4
+NDcsNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMD
+AyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIy
+MjEzXX0=
 -->
