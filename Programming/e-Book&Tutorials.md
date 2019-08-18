@@ -147,11 +147,15 @@ Part 4.  [MODELING AND PREDICTION](https://livebook.manning.com/book/exploring-p
 [Modeling and prediction](https://livebook.manning.com/book/exploring-python-basics/chapter-10/)
 Chapter 3 from  [Real-world Machine Learning](https://www.manning.com/books/real-world-machine-learning)  by Henrik Brink, Joseph Richards, and Mark Fetherolf
 
-## 
+## [Think Python: How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/html/index.html)
+If you know how to program with Python and also know a little about probability, you’re ready to tackle Bayesian statistics. With this book, you'll learn how to solve statistical problems with Python code instead of mathematical notation, and use discrete probability distributions instead of continuous mathematics. Once you get the math out of the way, the Bayesian fundamentals will become clearer, and you’ll begin to apply these techniques to real-world problems.
 
-## [Python Documentation](https://docs.python.org/3/index.html)
+![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51odwG5ljvL._SX384_BO1,204,203,200_.jpg)
 
-## [Python Practice Book](https://anandology.com/python-practice-book/index.html)
+
+## - [Python Documentation](https://docs.python.org/3/index.html)
+
+## - [Python Practice Book](https://anandology.com/python-practice-book/index.html)
 
 ## [Practical Business Python](https://pbpython.com/)
 Taking care of business, one python script at a time
@@ -510,11 +514,11 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDQ1MjM1NywtMTczMzMwMDY1MiwxMz
-gzNzQ1NzgyLDE5NTA0MzkyMzAsMTE4NjQ3MzkzLC0xMjE2MjQy
-MTY5LDc3Nzg4MzI0MiwtMTcwMzY0NzU3LC0xNTU2MTQ0OTQ5LC
-0yMjQ4NTc5OTksLTc1NjgzODEwNCwxMjQ4NDg1MjE3LDIwOTIz
-NTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5OT
-QsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNjUw
-MTE2MDY4XX0=
+eyJoaXN0b3J5IjpbLTE5OTQ1ODMwMTAsLTE3MzMzMDA2NTIsMT
+M4Mzc0NTc4MiwxOTUwNDM5MjMwLDExODY0NzM5MywtMTIxNjI0
+MjE2OSw3Nzc4ODMyNDIsLTE3MDM2NDc1NywtMTU1NjE0NDk0OS
+wtMjI0ODU3OTk5LC03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDky
+MzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OT
+k0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1
+MDExNjA2OF19
 -->
