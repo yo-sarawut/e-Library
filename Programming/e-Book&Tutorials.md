@@ -147,6 +147,11 @@ Part 4.  [MODELING AND PREDICTION](https://livebook.manning.com/book/exploring-p
 [Modeling and prediction](https://livebook.manning.com/book/exploring-python-basics/chapter-10/)
 Chapter 3 from  [Real-world Machine Learning](https://www.manning.com/books/real-world-machine-learning)  by Henrik Brink, Joseph Richards, and Mark Fetherolf
 ## [Python Documentation](https://docs.python.org/3/index.html)
+
+## [Python Practice Book](https://anandology.com/python-practice-book/index.html)
+
+
+
 # Finance
 ## Stocker [Packages]
 A Stock Analysis and Prediction Toolkit using Additive Models
@@ -498,11 +503,11 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mzc0NTc4MiwxOTUwNDM5MjMwLDExOD
-Y0NzM5MywtMTIxNjI0MjE2OSw3Nzc4ODMyNDIsLTE3MDM2NDc1
-NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC03NTY4MzgxMDQsMT
-I0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2MTEwMjQsMTEyNjY1
-MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOCwtOTM2MjgyMjkwLD
-E3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4NzU1NiwtMTU2MDQ4
-NTA5Ml19
+eyJoaXN0b3J5IjpbLTE3MzMzMDA2NTIsMTM4Mzc0NTc4MiwxOT
+UwNDM5MjMwLDExODY0NzM5MywtMTIxNjI0MjE2OSw3Nzc4ODMy
+NDIsLTE3MDM2NDc1NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC
+03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2
+MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOC
+wtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4
+NzU1Nl19
 -->
