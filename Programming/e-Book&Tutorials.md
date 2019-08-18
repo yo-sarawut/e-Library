@@ -146,6 +146,9 @@ Chapter 5 from  [The Quick Python Book, Third Edition](https://www.manning.com/b
 Part 4.  [MODELING AND PREDICTION](https://livebook.manning.com/book/exploring-python-basics/part-4/)
 [Modeling and prediction](https://livebook.manning.com/book/exploring-python-basics/chapter-10/)
 Chapter 3 from  [Real-world Machine Learning](https://www.manning.com/books/real-world-machine-learning)  by Henrik Brink, Joseph Richards, and Mark Fetherolf
+
+## 
+
 ## [Python Documentation](https://docs.python.org/3/index.html)
 
 ## [Python Practice Book](https://anandology.com/python-practice-book/index.html)
@@ -507,7 +510,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzE3NTk2NywtMTczMzMwMDY1MiwxMz
+eyJoaXN0b3J5IjpbLTc3NDQ1MjM1NywtMTczMzMwMDY1MiwxMz
 gzNzQ1NzgyLDE5NTA0MzkyMzAsMTE4NjQ3MzkzLC0xMjE2MjQy
 MTY5LDc3Nzg4MzI0MiwtMTcwMzY0NzU3LC0xNTU2MTQ0OTQ5LC
 0yMjQ4NTc5OTksLTc1NjgzODEwNCwxMjQ4NDg1MjE3LDIwOTIz
