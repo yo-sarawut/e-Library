@@ -150,6 +150,10 @@ Chapter 3 from  [Real-world Machine Learning](https://www.manning.com/books/real
 
 ## [Python Practice Book](https://anandology.com/python-practice-book/index.html)
 
+## [Practical Business Python](https://pbpython.com/)
+Taking care of business, one python script at a time
+
+
 
 
 # Finance
@@ -503,11 +507,11 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMzMDA2NTIsMTM4Mzc0NTc4MiwxOT
-UwNDM5MjMwLDExODY0NzM5MywtMTIxNjI0MjE2OSw3Nzc4ODMy
-NDIsLTE3MDM2NDc1NywtMTU1NjE0NDk0OSwtMjI0ODU3OTk5LC
-03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDkyMzUwMjQzLDExNTY2
-MTEwMjQsMTEyNjY1MjI2OSwtMjE3NjU2OTk0LDgyMDEzMzgwOC
-wtOTM2MjgyMjkwLDE3MDQ5ODc5NjMsLTY1MDExNjA2OCw2NTM4
-NzU1Nl19
+eyJoaXN0b3J5IjpbMTU2NzE3NTk2NywtMTczMzMwMDY1MiwxMz
+gzNzQ1NzgyLDE5NTA0MzkyMzAsMTE4NjQ3MzkzLC0xMjE2MjQy
+MTY5LDc3Nzg4MzI0MiwtMTcwMzY0NzU3LC0xNTU2MTQ0OTQ5LC
+0yMjQ4NTc5OTksLTc1NjgzODEwNCwxMjQ4NDg1MjE3LDIwOTIz
+NTAyNDMsMTE1NjYxMTAyNCwxMTI2NjUyMjY5LC0yMTc2NTY5OT
+QsODIwMTMzODA4LC05MzYyODIyOTAsMTcwNDk4Nzk2MywtNjUw
+MTE2MDY4XX0=
 -->
