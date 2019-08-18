@@ -157,7 +157,7 @@ If you know how to program with Python and also know a little about probability,
 
 ## - [Python Practice Book](https://anandology.com/python-practice-book/index.html)
 
-## [Practical Business Python](https://pbpython.com/)
+## - [Practical Business Python](https://pbpython.com/)
 Taking care of business, one python script at a time
 
 
@@ -514,7 +514,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ1ODMwMTAsLTE3MzMzMDA2NTIsMT
+eyJoaXN0b3J5IjpbLTE3NDQ2OTA5NTksLTE3MzMzMDA2NTIsMT
 M4Mzc0NTc4MiwxOTUwNDM5MjMwLDExODY0NzM5MywtMTIxNjI0
 MjE2OSw3Nzc4ODMyNDIsLTE3MDM2NDc1NywtMTU1NjE0NDk0OS
 wtMjI0ODU3OTk5LC03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDky
