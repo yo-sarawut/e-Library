@@ -163,6 +163,8 @@ Taking care of business, one python script at a time
 
 
 
+
+
 # Finance
 ## Stocker [Packages]
 A Stock Analysis and Prediction Toolkit using Additive Models
@@ -514,7 +516,7 @@ Table of Contents
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ2OTA5NTksLTE3MzMzMDA2NTIsMT
+eyJoaXN0b3J5IjpbLTEyNTU0MjExNjMsLTE3MzMzMDA2NTIsMT
 M4Mzc0NTc4MiwxOTUwNDM5MjMwLDExODY0NzM5MywtMTIxNjI0
 MjE2OSw3Nzc4ODMyNDIsLTE3MDM2NDc1NywtMTU1NjE0NDk0OS
 wtMjI0ODU3OTk5LC03NTY4MzgxMDQsMTI0ODQ4NTIxNywyMDky
