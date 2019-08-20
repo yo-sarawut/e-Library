@@ -129,6 +129,7 @@ A powerful financial charting library based on R's Quantmod.
 Quantmod makes creating interactive financial charts easy and intuitive. Furthermore, Quantmod has over 50 technical indicators built-in, in addition to a variety of technical and quantitative financial tools.
 ![enter image description here](https://raw.githubusercontent.com/jackwluo/py-quantmod/master/assets/demo.gif)
 
+- [Line Chart with Tooltip](https://observablehq.com/@d3/line-chart-with-tooltip)
 
 
 
@@ -189,11 +190,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMTE5NDA1LC0xODAwOTAxNjQ4LDIyNj
-g2Njk2NSwtMTM2OTg3MDIwOSwxMzk1MDUyMTk5LC0yMDg1NTI4
-NzQyLDE5NzY0NTYxMSwxNzY5MTkyOTgwLC0xODYyMjUwMjIyLD
-Y0MjQ5OTE1OSwyNzU0MDk0LDkxNDIyMzI0MiwtOTc4NjI2NTkx
-LDExNzM1OTYxNzYsMTIwMjA4NzAzOCwtMTU0MDQ4Nzg0Nyw1MD
-k4NTI5NjAsMTk1OTExNjQyOCwxMDMwNjEyMTIyLDEwMDIxNzcw
-NDRdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzMxMDQwNSwyNDAxMTk0MDUsLTE4MD
+A5MDE2NDgsMjI2ODY2OTY1LC0xMzY5ODcwMjA5LDEzOTUwNTIx
+OTksLTIwODU1Mjg3NDIsMTk3NjQ1NjExLDE3NjkxOTI5ODAsLT
+E4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQsOTE0MjIzMjQy
+LC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNT
+QwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIx
+MjJdfQ==
 -->
