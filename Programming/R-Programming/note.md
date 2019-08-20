@@ -39,7 +39,7 @@ Note for R Programming
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
 - [visualization, demographics, dashboards, and spatial data science. ](https://walkerke.github.io/)
 - https://blog.revolutionanalytics.com/finance/page/2/
-- [Shiny Database App (CRUD)]()
+- [Shiny Database App (CRUD)](https://ipub.com/shiny-crud-app/)
 
 
 # Library
@@ -54,7 +54,9 @@ Note for R Programming
 ## [dashboardthemes](https://github.com/nik01010/dashboardthemes)
 An experimental R package to provide custom theme options for Shinydashboard applications. Released as BETA.
 
-![enter image description here](https://camo.githubusercontent.com/b0c58e40de29a5ace2c819d32b74b43dc270fcbe/68747470733a2f2f7468756d622e6962622e636f2f6561344c41372f707572706c655f6772616469656e742e706e67)![enter image description here](https://camo.githubusercontent.com/4e76fece03546a6947875d655c0d68faa5b877a9/68747470733a2f2f7468756d622e6962622e636f2f6276474e4f532f626f655f776562736974652e706e67)
+![enter image description here](https://camo.githubusercontent.com/f85a2b9f7edc29ed132b8df992dc0bc960fd0045/68747470733a2f2f707265766965772e6962622e636f2f6d414b3933532f707572706c655f6772616469656e742e706e67)
+
+
 
 
 
@@ -144,11 +146,11 @@ The document format “R Markdown” was first introduced in the knitr package (
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MjAxMzcwLC0xMjQ1MzY2MjMwLC0xMD
-Q5NzEwMTE4LC0yNDkwMTU2LC0xNDcyNDI1NTM1LDE4OTkwOTAy
-MjYsNjMyNjgzMjU4LC03MTIyNjA0NTgsMjE0NTQzMjI2OSwtMz
-UyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MDk1MywtODM3MzgyODk5
-LDEzNzkwMDE2MjIsLTIyNDIwMzk1NSwtMzQzMDY1NDA3LC01Nj
-E5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2
-NDUxMl19
+eyJoaXN0b3J5IjpbLTg5NjQwMzgzMCw3NTcyMDEzNzAsLTEyND
+UzNjYyMzAsLTEwNDk3MTAxMTgsLTI0OTAxNTYsLTE0NzI0MjU1
+MzUsMTg5OTA5MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1OCwyMT
+Q1NDMyMjY5LC0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUz
+LC04MzczODI4OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zND
+MwNjU0MDcsLTU2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1
+ODY0Nl19
 -->
