@@ -50,6 +50,9 @@ Note for R Programming
 - [dygraphs toolkit (Source): Copper, Gold and Ten-Year Treasury Notes](http://www.reproduciblefinance.com/drafts/2017-04-10-copper-gold-and-10-year-treasury-notes/)
 - [_MetricsGraphics.js_](https://metricsgraphicsjs.org/examples.htm)
 
+## [dashboardthemes](https://github.com/nik01010/dashboardthemes)
+An experimental R package to provide custom theme options for Shinydashboard applications. Released as BETA.
+
 
 
 
@@ -140,11 +143,11 @@ The document format “R Markdown” was first introduced in the knitr package (
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM1ODYxMTYsLTEyNDUzNjYyMzAsLT
-EwNDk3MTAxMTgsLTI0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OTA5
-MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC
-0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4
-OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLT
-U2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1
-NzY0NTEyXX0=
+eyJoaXN0b3J5IjpbLTc4MTkwMTk0MSwtMTI0NTM2NjIzMCwtMT
+A0OTcxMDExOCwtMjQ5MDE1NiwtMTQ3MjQyNTUzNSwxODk5MDkw
+MjI2LDYzMjY4MzI1OCwtNzEyMjYwNDU4LDIxNDU0MzIyNjksLT
+M1MjkyMjAzMiw0MDk3MTIwLC0yMDUwNjA5NTMsLTgzNzM4Mjg5
+OSwxMzc5MDAxNjIyLC0yMjQyMDM5NTUsLTM0MzA2NTQwNywtNT
+YxOTcyOTE2LC0xMDYxMjYyMTEwLC0yMTAzNDU4NjQ2LDIwMTU3
+NjQ1MTJdfQ==
 -->
