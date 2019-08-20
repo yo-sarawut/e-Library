@@ -39,6 +39,7 @@ Note for R Programming
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
 - [visualization, demographics, dashboards, and spatial data science. ](https://walkerke.github.io/)
 - https://blog.revolutionanalytics.com/finance/page/2/
+- 
 
 
 # Library
@@ -53,7 +54,7 @@ Note for R Programming
 ## [dashboardthemes](https://github.com/nik01010/dashboardthemes)
 An experimental R package to provide custom theme options for Shinydashboard applications. Released as BETA.
 
-
+![enter image description here](https://camo.githubusercontent.com/b0c58e40de29a5ace2c819d32b74b43dc270fcbe/68747470733a2f2f7468756d622e6962622e636f2f6561344c41372f707572706c655f6772616469656e742e706e67)![enter image description here](https://camo.githubusercontent.com/4e76fece03546a6947875d655c0d68faa5b877a9/68747470733a2f2f7468756d622e6962622e636f2f6276474e4f532f626f655f776562736974652e706e67)
 
 
 
@@ -143,11 +144,11 @@ The document format “R Markdown” was first introduced in the knitr package (
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTkwMTk0MSwtMTI0NTM2NjIzMCwtMT
-A0OTcxMDExOCwtMjQ5MDE1NiwtMTQ3MjQyNTUzNSwxODk5MDkw
-MjI2LDYzMjY4MzI1OCwtNzEyMjYwNDU4LDIxNDU0MzIyNjksLT
-M1MjkyMjAzMiw0MDk3MTIwLC0yMDUwNjA5NTMsLTgzNzM4Mjg5
-OSwxMzc5MDAxNjIyLC0yMjQyMDM5NTUsLTM0MzA2NTQwNywtNT
-YxOTcyOTE2LC0xMDYxMjYyMTEwLC0yMTAzNDU4NjQ2LDIwMTU3
-NjQ1MTJdfQ==
+eyJoaXN0b3J5IjpbNDU2MjMzMDQxLC0xMjQ1MzY2MjMwLC0xMD
+Q5NzEwMTE4LC0yNDkwMTU2LC0xNDcyNDI1NTM1LDE4OTkwOTAy
+MjYsNjMyNjgzMjU4LC03MTIyNjA0NTgsMjE0NTQzMjI2OSwtMz
+UyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MDk1MywtODM3MzgyODk5
+LDEzNzkwMDE2MjIsLTIyNDIwMzk1NSwtMzQzMDY1NDA3LC01Nj
+E5NzI5MTYsLTEwNjEyNjIxMTAsLTIxMDM0NTg2NDYsMjAxNTc2
+NDUxMl19
 -->
