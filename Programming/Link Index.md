@@ -86,7 +86,7 @@ Link Index
 
 # Package
 - [Pyxley](https://pyxley.readthedocs.io/en/latest/basic.html#flask) The Pyxley python library makes use of the [pyxleyJS](https://github.com/stitchfix/pyxleyJS) React components to create Flask-based web applications, [[Source Code]](https://github.com/stitchfix/pyxley), [metricsgraphics.js Example](https://metricsgraphicsjs.org/examples.htm)
-
+![enter image description here](https://multithreaded.stitchfix.com/assets/images/blog/pyxley_final.png)
 
 # Data Science
 ## Tutorials
@@ -189,11 +189,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA5MDE2NDgsMjI2ODY2OTY1LC0xMz
-Y5ODcwMjA5LDEzOTUwNTIxOTksLTIwODU1Mjg3NDIsMTk3NjQ1
-NjExLDE3NjkxOTI5ODAsLTE4NjIyNTAyMjIsNjQyNDk5MTU5LD
-I3NTQwOTQsOTE0MjIzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3
-NiwxMjAyMDg3MDM4LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOT
-U5MTE2NDI4LDEwMzA2MTIxMjIsMTAwMjE3NzA0NCwtNDU5Mjcw
-ODY1XX0=
+eyJoaXN0b3J5IjpbMjQwMTE5NDA1LC0xODAwOTAxNjQ4LDIyNj
+g2Njk2NSwtMTM2OTg3MDIwOSwxMzk1MDUyMTk5LC0yMDg1NTI4
+NzQyLDE5NzY0NTYxMSwxNzY5MTkyOTgwLC0xODYyMjUwMjIyLD
+Y0MjQ5OTE1OSwyNzU0MDk0LDkxNDIyMzI0MiwtOTc4NjI2NTkx
+LDExNzM1OTYxNzYsMTIwMjA4NzAzOCwtMTU0MDQ4Nzg0Nyw1MD
+k4NTI5NjAsMTk1OTExNjQyOCwxMDMwNjEyMTIyLDEwMDIxNzcw
+NDRdfQ==
 -->
