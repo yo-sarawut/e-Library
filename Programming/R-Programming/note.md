@@ -39,7 +39,7 @@ Note for R Programming
 - [Visualizing the Capital Asset Pricing Model](https://rviews.rstudio.com/2018/03/02/capm-and-visualization/)
 - [visualization, demographics, dashboards, and spatial data science. ](https://walkerke.github.io/)
 - https://blog.revolutionanalytics.com/finance/page/2/
-- 
+- [Shiny Database App (CRUD)]()
 
 
 # Library
@@ -144,7 +144,7 @@ The document format “R Markdown” was first introduced in the knitr package (
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MjMzMDQxLC0xMjQ1MzY2MjMwLC0xMD
+eyJoaXN0b3J5IjpbNzU3MjAxMzcwLC0xMjQ1MzY2MjMwLC0xMD
 Q5NzEwMTE4LC0yNDkwMTU2LC0xNDcyNDI1NTM1LDE4OTkwOTAy
 MjYsNjMyNjgzMjU4LC03MTIyNjA0NTgsMjE0NTQzMjI2OSwtMz
 UyOTIyMDMyLDQwOTcxMjAsLTIwNTA2MDk1MywtODM3MzgyODk5
