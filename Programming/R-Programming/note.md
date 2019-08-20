@@ -42,6 +42,7 @@ Note for R Programming
 
 
 # Library
+
 ## Dygraph [Chart]
 - [dygraph -R Studio Doc](https://rstudio.github.io/dygraphs)
 - [htmlwidgets for R](https://www.htmlwidgets.org/index.html)
@@ -139,11 +140,11 @@ The document format “R Markdown” was first introduced in the knitr package (
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUzNjYyMzAsLTEwNDk3MTAxMTgsLT
-I0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OTA5MDIyNiw2MzI2ODMy
-NTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC0zNTI5MjIwMzIsND
-A5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4OTksMTM3OTAwMTYy
-MiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLTU2MTk3MjkxNiwtMT
-A2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1NzY0NTEyLC0xNDkx
-MDE1NDgzXX0=
+eyJoaXN0b3J5IjpbLTIxMjM1ODYxMTYsLTEyNDUzNjYyMzAsLT
+EwNDk3MTAxMTgsLTI0OTAxNTYsLTE0NzI0MjU1MzUsMTg5OTA5
+MDIyNiw2MzI2ODMyNTgsLTcxMjI2MDQ1OCwyMTQ1NDMyMjY5LC
+0zNTI5MjIwMzIsNDA5NzEyMCwtMjA1MDYwOTUzLC04MzczODI4
+OTksMTM3OTAwMTYyMiwtMjI0MjAzOTU1LC0zNDMwNjU0MDcsLT
+U2MTk3MjkxNiwtMTA2MTI2MjExMCwtMjEwMzQ1ODY0NiwyMDE1
+NzY0NTEyXX0=
 -->
