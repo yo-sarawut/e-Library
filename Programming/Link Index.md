@@ -59,6 +59,7 @@ Link Index
 - [Computational Linguistics ภาษาศาสตร์คอมพิวเตอร์](https://attapol.github.io/compling/index.html?fbclid=IwAR3gNgVI1BYrHXS-ZREFGhfBnmGnejf9bcqxdfb5pNJ88bxNNgcqziy1O7c)
 - [ตั้งค่า Notebook](https://www.kdnuggets.com/2019/06/jupyter-notebooks-data-science-reporting.html)
 - [plotly_ipywidget_notebooks](https://github.com/jonmmease/plotly_ipywidget_notebooks)
+- [Code of the IPython Cookbook, Second Edition (2018)](https://github.com/ipython-books/cookbook-2nd-code)
 
 
 ## Setup Notebook Theme
@@ -186,11 +187,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk4NzAyMDksMTM5NTA1MjE5OSwtMj
-A4NTUyODc0MiwxOTc2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1
-MDIyMiw2NDI0OTkxNTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3OD
-YyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4
-NDcsNTA5ODUyOTYwLDE5NTkxMTY0MjgsMTAzMDYxMjEyMiwxMD
-AyMTc3MDQ0LC00NTkyNzA4NjUsODUyMDQ2MjQ2LC0xNzI5NjIy
-MjEzXX0=
+eyJoaXN0b3J5IjpbMjI2ODY2OTY1LC0xMzY5ODcwMjA5LDEzOT
+UwNTIxOTksLTIwODU1Mjg3NDIsMTk3NjQ1NjExLDE3NjkxOTI5
+ODAsLTE4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQsOTE0Mj
+IzMjQyLC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4
+LC0xNTQwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMz
+A2MTIxMjIsMTAwMjE3NzA0NCwtNDU5MjcwODY1LDg1MjA0NjI0
+Nl19
 -->
