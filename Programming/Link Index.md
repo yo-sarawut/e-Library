@@ -163,6 +163,9 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 - http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
 
+## Tool
+- [**RapidAPI**](https://rapidapi.com/)
+
 
 ## Online Editor
 - [Bootstrap 4 Editor](https://staging.itwonders-web.com/tools/bootstrap4-editor)
@@ -190,11 +193,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzMxMDQwNSwyNDAxMTk0MDUsLTE4MD
-A5MDE2NDgsMjI2ODY2OTY1LC0xMzY5ODcwMjA5LDEzOTUwNTIx
-OTksLTIwODU1Mjg3NDIsMTk3NjQ1NjExLDE3NjkxOTI5ODAsLT
-E4NjIyNTAyMjIsNjQyNDk5MTU5LDI3NTQwOTQsOTE0MjIzMjQy
-LC05Nzg2MjY1OTEsMTE3MzU5NjE3NiwxMjAyMDg3MDM4LC0xNT
-QwNDg3ODQ3LDUwOTg1Mjk2MCwxOTU5MTE2NDI4LDEwMzA2MTIx
-MjJdfQ==
+eyJoaXN0b3J5IjpbNDg5Mzk2NjA4LDE0OTMzMTA0MDUsMjQwMT
+E5NDA1LC0xODAwOTAxNjQ4LDIyNjg2Njk2NSwtMTM2OTg3MDIw
+OSwxMzk1MDUyMTk5LC0yMDg1NTI4NzQyLDE5NzY0NTYxMSwxNz
+Y5MTkyOTgwLC0xODYyMjUwMjIyLDY0MjQ5OTE1OSwyNzU0MDk0
+LDkxNDIyMzI0MiwtOTc4NjI2NTkxLDExNzM1OTYxNzYsMTIwMj
+A4NzAzOCwtMTU0MDQ4Nzg0Nyw1MDk4NTI5NjAsMTk1OTExNjQy
+OF19
 -->
