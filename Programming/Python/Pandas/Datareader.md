@@ -129,7 +129,7 @@ df
 
 
 
-# _Dividends and Stock Splits_
+# Dividends and Stock Splits (_+Splits_)
 ```python
 from pandas_datareader import data
 
@@ -165,6 +165,6 @@ df
 - [https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054)
 - [https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html](https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDMyNDUyMiwxMDM1MDIzMjU3LDEwMz
+eyJoaXN0b3J5IjpbMTMwNDk2MTE4MSwxMDM1MDIzMjU3LDEwMz
 UwMjMyNTddfQ==
 -->
