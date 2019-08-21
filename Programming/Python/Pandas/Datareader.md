@@ -96,7 +96,9 @@ FB    117.540001  118.110001  116.260002  116.620003  18412700.0  116.620003
 GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 ```
 
-## 
+
+```python
+
 `data.``DataReader`(_name_,  _data_source=None_,  _start=None_,  _end=None_,  _retry_count=3_,  _pause=0.001_,  _session=None_,  _access_key=None_)
 
 Imports data from a number of online sources.
@@ -143,5 +145,5 @@ requests.sessions.Session instance to be used
 
 # Data from EDGAR index ed = DataReader(“full”, “edgar-index”) ed2 = DataReader(“daily”, “edgar-index”)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzMxMzkyMywxMDM1MDIzMjU3XX0=
+eyJoaXN0b3J5IjpbMTU1MzkxMjMxMywxMDM1MDIzMjU3XX0=
 -->
