@@ -1,5 +1,6 @@
 Pandas Datareader
 ===
+[**Source**](https://riptutorial.com/pandas/topic/1912/pandas-datareader)
 
 ## Datareader basic example (Yahoo Finance)
 
@@ -97,5 +98,5 @@ GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODY5MzU0Nl19
+eyJoaXN0b3J5IjpbMTAzNTAyMzI1N119
 -->
