@@ -97,8 +97,38 @@ GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 ```
 
 # _Dividend_(เงินปันผล)
+```python
+from pandas_datareader import data
 
-## _Dividends and Stock Splits_
+df = data.DataReader('PTT.BK', 'yahoo-dividends')
+df
+```
+
+2019-03-06	DIVIDEND	1.200
+2018-10-11	DIVIDEND	0.800
+2018-03-06	DIVIDEND	1.200
+2017-08-31	DIVIDEND	0.800
+2017-03-29	DIVIDEND	1.000
+2016-08-31	DIVIDEND	0.600
+2016-03-03	DIVIDEND	0.400
+2015-09-10	DIVIDEND	0.600
+2015-03-03	DIVIDEND	0.500
+2014-09-15	DIVIDEND	0.600
+2014-03-06	DIVIDEND	0.800
+2013-09-18	DIVIDEND	0.500
+2013-03-06	DIVIDEND	0.800
+2012-09-05	DIVIDEND	0.500
+2012-03-05	DIVIDEND	0.700
+2011-09-06	DIVIDEND	0.500
+2011-03-15	DIVIDEND	0.550
+2010-09-07	DIVIDEND	0.475
+2010-03-04	DIVIDEND	0.450
+
+
+
+
+
+# _Dividends and Stock Splits_
 ```python
 from pandas_datareader import data
 
@@ -134,6 +164,6 @@ df
 - [https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054)
 - [https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html](https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0OTQ2MTIwLDEwMzUwMjMyNTcsMTAzNT
+eyJoaXN0b3J5IjpbMjk0MjA3MzExLDEwMzUwMjMyNTcsMTAzNT
 AyMzI1N119
 -->
