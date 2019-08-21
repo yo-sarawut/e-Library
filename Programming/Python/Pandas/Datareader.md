@@ -96,7 +96,52 @@ FB    117.540001  118.110001  116.260002  116.620003  18412700.0  116.620003
 GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 ```
 
+## 
+`data.``DataReader`(_name_,  _data_source=None_,  _start=None_,  _end=None_,  _retry_count=3_,  _pause=0.001_,  _session=None_,  _access_key=None_)
 
+Imports data from a number of online sources.
+
+Currently supports Yahoo! Finance, Google Finance, St. Louis FED (FRED), Kenneth French’s data library, and the SEC’s EDGAR Index.
+
+name  :  str or list of strs
+
+the name of the dataset. Some data sources (yahoo, google, fred) will accept a list of names.
+
+data_source: {str, None}
+
+the data source (“yahoo”, “yahoo-actions”, “yahoo-dividends”, “google”, “fred”, “ff”, or “edgar-index”)
+
+start  :  {datetime, None}
+
+left boundary for range (defaults to 1/1/2010)
+
+end  :  {datetime, None}
+
+right boundary for range (defaults to today)
+
+retry_count  :  {int, 3}
+
+Number of times to retry query request.
+
+pause  :  {numeric, 0.001}
+
+Time, in seconds, to pause between consecutive queries of chunks. If single value given for symbol, represents the pause between retries.
+
+session  :  Session, default None
+
+requests.sessions.Session instance to be used
+
+# Data from Yahoo! Finance gs = DataReader(“GS”, “yahoo”)
+
+# Corporate Actions (Dividend and Split Data) # with ex-dates from Yahoo! Finance gs = DataReader(“GS”, “yahoo-actions”)
+
+# Data from Google Finance aapl = DataReader(“AAPL”, “google”)
+
+# Data from FRED vix = DataReader(“VIXCLS”, “fred”)
+
+# Data from Fama/French ff = DataReader(“F-F_Research_Data_Factors”, “famafrench”) ff = DataReader(“F-F_Research_Data_Factors_weekly”, “famafrench”) ff = DataReader(“6_Portfolios_2x3”, “famafrench”) ff = DataReader(“F-F_ST_Reversal_Factor”, “famafrench”)
+
+# Data from EDGAR index ed = DataReader(“full”, “edgar-index”) ed2 = DataReader(“daily”, “edgar-index”)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTAyMzI1N119
+eyJoaXN0b3J5IjpbLTk5MzMxMzkyMywxMDM1MDIzMjU3XX0=
 -->
