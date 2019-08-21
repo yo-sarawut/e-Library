@@ -96,14 +96,15 @@ FB    117.540001  118.110001  116.260002  116.620003  18412700.0  116.620003
 GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 ```
 
-# _Dividend_(เงินปันผล)
+# _Dividend_ (เงินปันผล)
 ```python
 from pandas_datareader import data
 
 df = data.DataReader('PTT.BK', 'yahoo-dividends')
 df
 ```
-
+```python
+[actions, value])
 2019-03-06	DIVIDEND	1.200
 2018-10-11	DIVIDEND	0.800
 2018-03-06	DIVIDEND	1.200
@@ -123,7 +124,7 @@ df
 2011-03-15	DIVIDEND	0.550
 2010-09-07	DIVIDEND	0.475
 2010-03-04	DIVIDEND	0.450
-
+```
 
 
 
@@ -164,6 +165,6 @@ df
 - [https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054)
 - [https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html](https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MjA3MzExLDEwMzUwMjMyNTcsMTAzNT
-AyMzI1N119
+eyJoaXN0b3J5IjpbLTc5NDMyNDUyMiwxMDM1MDIzMjU3LDEwMz
+UwMjMyNTddfQ==
 -->
