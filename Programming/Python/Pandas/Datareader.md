@@ -96,7 +96,44 @@ FB    117.540001  118.110001  116.260002  116.620003  18412700.0  116.620003
 GOOG  719.469971  725.890015  716.429993  719.409973   1206000.0  719.409973
 ```
 
+# _Dividend_(เงินปันผล)
 
+## _Dividends and Stock Splits_
+```python
+from pandas_datareader import data
+
+df = data.DataReader('PTT.BK', 'yahoo-actions')
+df
+```
+```python
+[actions, splits])
+2019-03-06	DIVIDEND	1.200
+2018-10-11	DIVIDEND	0.800
+2018-04-24	SPLIT	10.000
+2018-03-06	DIVIDEND	1.200
+2017-08-31	DIVIDEND	0.800
+2017-03-29	DIVIDEND	1.000
+2016-08-31	DIVIDEND	0.600
+2016-03-03	DIVIDEND	0.400
+2015-09-10	DIVIDEND	0.600
+2015-03-03	DIVIDEND	0.500
+2014-09-15	DIVIDEND	0.600
+2014-03-06	DIVIDEND	0.800
+2013-09-18	DIVIDEND	0.500
+2013-03-06	DIVIDEND	0.800
+2012-09-05	DIVIDEND	0.500
+2012-03-05	DIVIDEND	0.700
+2011-09-06	DIVIDEND	0.500
+2011-03-15	DIVIDEND	0.550
+2010-09-07	DIVIDEND	0.475
+2010-03-04	DIVIDEND	0.450
+```
+
+- [**SIMPLE PYTHON SCRIPT TO RETRIEVE ALL STOCKS DATA FROM GOOGLE FINANCE SCREENER**](https://simply-python.com/2015/09/26/simple-python-script-to-retrieve-all-stocks-data-from-google-finance-screener/)
+- [https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/)
+- [https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054)
+- [https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html](https://www.pydoc.io/pypi/pandas-datareader-0.4.0/autoapi/data/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTAyMzI1NywxMDM1MDIzMjU3XX0=
+eyJoaXN0b3J5IjpbMzY0OTQ2MTIwLDEwMzUwMjMyNTcsMTAzNT
+AyMzI1N119
 -->
