@@ -1,9 +1,7 @@
 Pandas Datareader
 ===
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+## Datareader basic example (Yahoo Finance)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDQzMzY2OV19
+eyJoaXN0b3J5IjpbNDU5NjA0MzU5XX0=
 -->
