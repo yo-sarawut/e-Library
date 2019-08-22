@@ -162,6 +162,9 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 - [Dash : scripts and examples](https://github.com/plotly/dash-recipes)
 - http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
+- [**google_screener_data_extract**](https://github.com/spidezad/google_screener_data_extract) : Retrieving of financial metrics of various stocks using python
+
+-
 
 ## Tool
 - [**RapidAPI**](https://rapidapi.com/)
@@ -193,11 +196,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5Mzk2NjA4LDE0OTMzMTA0MDUsMjQwMT
-E5NDA1LC0xODAwOTAxNjQ4LDIyNjg2Njk2NSwtMTM2OTg3MDIw
-OSwxMzk1MDUyMTk5LC0yMDg1NTI4NzQyLDE5NzY0NTYxMSwxNz
-Y5MTkyOTgwLC0xODYyMjUwMjIyLDY0MjQ5OTE1OSwyNzU0MDk0
-LDkxNDIyMzI0MiwtOTc4NjI2NTkxLDExNzM1OTYxNzYsMTIwMj
-A4NzAzOCwtMTU0MDQ4Nzg0Nyw1MDk4NTI5NjAsMTk1OTExNjQy
-OF19
+eyJoaXN0b3J5IjpbMTAwNTgwNDA1LDQ4OTM5NjYwOCwxNDkzMz
+EwNDA1LDI0MDExOTQwNSwtMTgwMDkwMTY0OCwyMjY4NjY5NjUs
+LTEzNjk4NzAyMDksMTM5NTA1MjE5OSwtMjA4NTUyODc0MiwxOT
+c2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1MDIyMiw2NDI0OTkx
+NTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3ODYyNjU5MSwxMTczNT
+k2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4NDcsNTA5ODUyOTYw
+XX0=
 -->
