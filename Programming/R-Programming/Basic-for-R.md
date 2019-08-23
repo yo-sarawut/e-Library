@@ -7,7 +7,7 @@
 
 Tip – R เป็นภาษาที่เราเรียกว่า Object Oriented Programming เราสามารถสร้าง object และกำหนด class ของ object นั้นๆได้ ลองดูฟังชั่น  `class()`  หัวข้อถัดไป
 
-```
+```R
 ## assign new variables
 x <- 100
 y <- 200
@@ -139,5 +139,6 @@ greeting()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI3NjUyODIsMTg3NDM4MzAwNl19
+eyJoaXN0b3J5IjpbMTI4NzIyNDY0OCwtMTUzMjc2NTI4MiwxOD
+c0MzgzMDA2XX0=
 -->
