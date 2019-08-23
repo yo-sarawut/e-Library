@@ -164,7 +164,7 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 - [Flask Vue.js Integration Tutorial](https://dev.to/michaelbukachi/flask-vue-js-integration-tutorial-2g90)
 - [**google_screener_data_extract**](https://github.com/spidezad/google_screener_data_extract) : Retrieving of financial metrics of various stocks using python
 
-- [Hummingbot: a client for crypto market making]()https://www.hummingbot.io/]
+- [Hummingbot: a client for crypto market making](https://github.com/coinalpha/hummingbot)
 
 ## Tool
 - [**RapidAPI**](https://rapidapi.com/)
@@ -196,11 +196,11 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQzNDM3MDksMTAwNTgwNDA1LDQ4OT
-M5NjYwOCwxNDkzMzEwNDA1LDI0MDExOTQwNSwtMTgwMDkwMTY0
-OCwyMjY4NjY5NjUsLTEzNjk4NzAyMDksMTM5NTA1MjE5OSwtMj
-A4NTUyODc0MiwxOTc2NDU2MTEsMTc2OTE5Mjk4MCwtMTg2MjI1
-MDIyMiw2NDI0OTkxNTksMjc1NDA5NCw5MTQyMjMyNDIsLTk3OD
-YyNjU5MSwxMTczNTk2MTc2LDEyMDIwODcwMzgsLTE1NDA0ODc4
-NDddfQ==
+eyJoaXN0b3J5IjpbLTY2ODQwOTE1OSwxMDA1ODA0MDUsNDg5Mz
+k2NjA4LDE0OTMzMTA0MDUsMjQwMTE5NDA1LC0xODAwOTAxNjQ4
+LDIyNjg2Njk2NSwtMTM2OTg3MDIwOSwxMzk1MDUyMTk5LC0yMD
+g1NTI4NzQyLDE5NzY0NTYxMSwxNzY5MTkyOTgwLC0xODYyMjUw
+MjIyLDY0MjQ5OTE1OSwyNzU0MDk0LDkxNDIyMzI0MiwtOTc4Nj
+I2NTkxLDExNzM1OTYxNzYsMTIwMjA4NzAzOCwtMTU0MDQ4Nzg0
+N119
 -->
