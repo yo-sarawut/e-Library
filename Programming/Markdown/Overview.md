@@ -154,13 +154,7 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 insert your ```code``` here  
 ```  
   
-or insert your ```code``` here  
-
-  
-```  
-code here  
-```  
-  
+ 
 Javascript codeb lock  
   
 ```js  
@@ -171,17 +165,10 @@ console.log("Hello")
 Java code block  
   
 ```java  
-System.out.println("Java highlight");  
-```  
+System.out.println("Java highlight");  ```  
   
-insert your `code` here  
-  
-or insert your ```code``` here  
-  
-```  
-code here  
-```  
-  
+
+
 Javascript codeb lock  
   
 ```js  
@@ -197,7 +184,7 @@ System.out.println("Java highlight");
   
 นี่คือตัวอย่างโปรแกรมภาษา Python  
 ``` python  
-print("Hello World"  
+print("Hello World")
 ```  
   
 นี่คือตัวอย่างโปรแกรมภาษา C  
@@ -395,6 +382,6 @@ The beginning and ending dollar signs (`$`) are the delimiters for the TeX marku
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzA3NTI3LC00NzI5NzMxMzEsLTE1Nj
-AyNzY1MzksLTE0ODEzODg2NTMsMTc2NTk2ODI2Nl19
+eyJoaXN0b3J5IjpbLTE1MDQxNDAyMjUsLTQ3Mjk3MzEzMSwtMT
+U2MDI3NjUzOSwtMTQ4MTM4ODY1MywxNzY1OTY4MjY2XX0=
 -->
