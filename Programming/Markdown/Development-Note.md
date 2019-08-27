@@ -170,11 +170,12 @@ Another really big outstanding question: Can MDH detect what's selected in the G
 
 In  `manifest.json`:
 
+```
 -  "permissions": ["contextMenus", "storage"],
 +  "permissions": ["contextMenus", "storage", "clipboardRead", "clipboardWrite"],
-
+```
 In  `backgroundscript.js`:
-
+```
 function writeToClipboard(str) {
   var sandbox = document.createElement('div');
   sandbox.contentEditable = true;
@@ -218,7 +219,7 @@ function readFromClipboard(plain) {
 
   return result;
 }
-
+```
 Then in the background page console you can do stuff like this (after manually copying):
 
 var prefs;
@@ -238,5 +239,5 @@ writeToClipboard(cb);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NTIyNTI5XX0=
+eyJoaXN0b3J5IjpbLTQwMTk2MjUzNSw0OTg1MjI1MjldfQ==
 -->
