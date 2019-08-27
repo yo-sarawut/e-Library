@@ -138,6 +138,7 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 ```  
   
 **ผลลัพธ์ที่ได้คือ**  
+
 -----  
   
 | คำศัพท์ | จัดชิดขอบข้าย | จัดกึ่งกลาง | จัดชิดขอบขวา |  
@@ -394,6 +395,6 @@ The beginning and ending dollar signs (`$`) are the delimiters for the TeX marku
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjk3MzEzMSwtMTU2MDI3NjUzOSwtMT
-Q4MTM4ODY1MywxNzY1OTY4MjY2XX0=
+eyJoaXN0b3J5IjpbMTU4MzA3NTI3LC00NzI5NzMxMzEsLTE1Nj
+AyNzY1MzksLTE0ODEzODg2NTMsMTc2NTk2ODI2Nl19
 -->
