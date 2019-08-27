@@ -170,12 +170,12 @@ Another really big outstanding question: Can MDH detect what's selected in the G
 
 In  `manifest.json`:
 
-```
+```json
 -  "permissions": ["contextMenus", "storage"],
 +  "permissions": ["contextMenus", "storage", "clipboardRead", "clipboardWrite"],
 ```
 In  `backgroundscript.js`:
-```
+```javascript
 function writeToClipboard(str) {
   var sandbox = document.createElement('div');
   sandbox.contentEditable = true;
@@ -221,7 +221,7 @@ function readFromClipboard(plain) {
 }
 ```
 Then in the background page console you can do stuff like this (after manually copying):
-
+```
 var prefs;
 // async, so do it separtely in the console.
 OptionsStore.get(function(opts) {prefs=opts;});
@@ -234,10 +234,10 @@ writeToClipboard(cb);
 
 // Alternatively, use `readFromClipboard(true)` to get a maybe-nicer plaintext
 // version of the Markdown, if `htmlToText` is misbehaving.
-
+```
 (Bug: It seems that spaces are being lost from the HTML written back into the clipboard.)
 
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTk2MjUzNSw0OTg1MjI1MjldfQ==
+eyJoaXN0b3J5IjpbLTE0MzA2NDY4ODQsNDk4NTIyNTI5XX0=
 -->
