@@ -221,7 +221,7 @@ function readFromClipboard(plain) {
 }
 ```
 Then in the background page console you can do stuff like this (after manually copying):
-```
+```javascript
 var prefs;
 // async, so do it separtely in the console.
 OptionsStore.get(function(opts) {prefs=opts;});
@@ -239,5 +239,6 @@ writeToClipboard(cb);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA2NDY4ODQsNDk4NTIyNTI5XX0=
+eyJoaXN0b3J5IjpbMTAyMzA4ODE1LC0xNDMwNjQ2ODg0LDQ5OD
+UyMjUyOV19
 -->
