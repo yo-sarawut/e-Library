@@ -522,7 +522,7 @@ subjects[3]='Computer Science'
 
 
 
-##str()
+## str()
 
 
 ```python
@@ -850,5 +850,5 @@ func2()
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg5NDE5NDVdfQ==
+eyJoaXN0b3J5IjpbNzc2NzA3MDU5LC0xNTA4OTQxOTQ1XX0=
 -->
