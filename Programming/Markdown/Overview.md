@@ -316,7 +316,7 @@ https://www.example.com
 - [ ] Contact the media  
 ```  
 - [x] Write the press release  
-- [ ] Update the website  
+- [x] Update the website  
 - [ ] Contact the media  
   
 ## Footnote  
@@ -382,7 +382,7 @@ The beginning and ending dollar signs (`$`) are the delimiters for the TeX marku
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQxNDAyMjUsLTE1MDQxNDAyMjUsLT
-Q3Mjk3MzEzMSwtMTU2MDI3NjUzOSwtMTQ4MTM4ODY1MywxNzY1
-OTY4MjY2XX0=
+eyJoaXN0b3J5IjpbLTcxNzg2MDYzMywtMTUwNDE0MDIyNSwtMT
+UwNDE0MDIyNSwtNDcyOTczMTMxLC0xNTYwMjc2NTM5LC0xNDgx
+Mzg4NjUzLDE3NjU5NjgyNjZdfQ==
 -->
