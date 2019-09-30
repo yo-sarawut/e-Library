@@ -1,5 +1,47 @@
 
-# Notes
+Notes for Markdown
+===
+## Example
+
+### Link
+
+- This is an [inline-style link](https://www.google.com)
+- This is a [link to a repository file in the same directory](index.md)
+- This is a [relative link to a readme one directory higher](../README.md)
+- This is a [link that also has title text](https://www.google.com "This link takes you to Google!")
+Using header ID anchors:
+- This links to [a section on a different markdown page, using a "#" and the header ID](index.md#overview)
+- This links to [a different section on the same page, using a "#" and the header ID](#header-ids-and-links)
+Using references:
+- This is a [reference-style link, see below][Arbitrary case-insensitive reference text]
+- You can [use numbers for reference-style link definitions, see below][1]
+- Or leave it empty and use the [link text itself][], see below.
+Some text to show that the reference links can follow later.
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: https://www.reddit.com
+
+**Output**
+
+- This is an [inline-style link](https://www.google.com)
+- This is a [link to a repository file in the same directory](index.md)
+- This is a [relative link to a readme one directory higher](../README.md)
+- This is a [link that also has title text](https://www.google.com "This link takes you to Google!")
+Using header ID anchors:
+- This links to [a section on a different markdown page, using a "#" and the header ID](index.md#overview)
+- This links to [a different section on the same page, using a "#" and the header ID](#header-ids-and-links)
+Using references:
+- This is a [reference-style link, see below][Arbitrary case-insensitive reference text]
+- You can [use numbers for reference-style link definitions, see below][1]
+- Or leave it empty and use the [link text itself][], see below.
+Some text to show that the reference links can follow later.
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: https://www.reddit.com
+
+
+
+
 
 > This file is a catch-all for ideas, problems, plans, and other miscellaneous notes. If something should instead be an issue, it should be made an  [issue](https://github.com/adam-p/markdown-here/issues).  
 > This started out as a file under source control, but I think it will be more useful as a wiki page.
@@ -239,5 +281,5 @@ writeToClipboard(cb);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzA4ODE1XX0=
+eyJoaXN0b3J5IjpbMTcxMjYyNjEyOV19
 -->
