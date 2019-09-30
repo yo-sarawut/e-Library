@@ -5,6 +5,7 @@ Notes for Markdown
 
 ### Link
 
+```markdown
 - This is an [inline-style link](https://www.google.com)
 - This is a [link to a repository file in the same directory](index.md)
 - This is a [relative link to a readme one directory higher](../README.md)
@@ -20,7 +21,7 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: https://www.reddit.com
-
+```
 **Output**
 
 - This is an [inline-style link](https://www.google.com)
@@ -281,5 +282,5 @@ writeToClipboard(cb);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjYyNjEyOV19
+eyJoaXN0b3J5IjpbMjc5MjE2OTIwXX0=
 -->
