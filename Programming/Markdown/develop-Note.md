@@ -4,6 +4,7 @@ Notes for Markdown
 ## Example
 
 ### Link
+There are two ways to create links, inline-style and reference-style:
 
 ```markdown
 - This is an [inline-style link](https://www.google.com)
@@ -282,5 +283,5 @@ writeToClipboard(cb);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MjE2OTIwXX0=
+eyJoaXN0b3J5IjpbNzU4OTU5NTA5XX0=
 -->
