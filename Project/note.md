@@ -35,8 +35,11 @@ Note for ideas
 
 ![enter image description here](https://web2oolbox.files.wordpress.com/2016/01/smore-qrcode1.png)
 
+- [Python Desktop News Notifier in 20 lines](https://www.geeksforgeeks.org/python-desktop-news-notifier-in-20-lines/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTQyNjMxOCwxODg0NTgyNzA2LDE5OD
-U5Mzg3MDUsMTM5MTQ4ODc3NCwxNzQ3MzA4OTIxLC0zNjkzMzkz
-MzcsLTE5NDU3NzUzNDcsMjE5MDAwNTExXX0=
+eyJoaXN0b3J5IjpbLTc5MDEwNjg4MSwtNDM1NDI2MzE4LDE4OD
+Q1ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5
+MjEsLTM2OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ
+==
 -->
