@@ -70,10 +70,10 @@ Ever wondered how you can look inside a Python object and see what attributes it
 
 From the command line:
 
-```
+```py
 dir()
->>> dir("Hello World")
->>> dir(dir)
+dir("Hello World")
+dir(dir)
 ```
 
 This can be a really useful feature when running Python interactively, and for dynamically exploring objects and modules you are working with.
@@ -137,8 +137,8 @@ Stuck on a coding problem and can’t remember that solution you saw before? Nee
 
 Then you need  [this useful command line tool](https://github.com/gleitz/howdoi).
 
-```
-$ pip install howdoi
+```py
+pip install howdoi
 ```
 
 Ask it whatever question you have, and it’ll do its best to return an answer.
@@ -498,5 +498,5 @@ Please share any of your own favorite Python tricks by leaving a response below!
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTgxMDI2NF19
+eyJoaXN0b3J5IjpbLTEyMzQxNzA5NTJdfQ==
 -->
