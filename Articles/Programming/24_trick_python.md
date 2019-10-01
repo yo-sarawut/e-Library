@@ -4,7 +4,7 @@
 
 Python เป็นอีกหนึ่งภาษา Programming ที่ได้รับความนิยม ถูกนำไปใช้ในการเขียน Program ได้หลากหลายประเภท โดยไม่ได้จำกัดอยู่ที่งานเฉพาะทางใดทางหนึ่ง ไม่ว่าจะเป็นการพัฒนา Web หรือด้าน Data Science และ Machine Learning เป็นต้น จึงทำให้มีการนำไปใช้กันอย่างแพร่หลาย วันนี้เรามาดู 24 เคล็ดลับ การใช้งาน Python ที่จะช่วยให้คุณประหยัดเวลาและทำงานได้สะดวกขึ้น โดยดูตัวอย่างการใช้งานในแต่ละหัวข้อกันได้เลย
 
-**1. Unpacking Array Items**
+##**1. Unpacking Array Items**
 
 [![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)
 
@@ -135,5 +135,5 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTE1ODU2M119
+eyJoaXN0b3J5IjpbODkyMTA5MDU5LDIxMDUxNTg1NjNdfQ==
 -->
