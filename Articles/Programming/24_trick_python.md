@@ -6,15 +6,15 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 
 ## **1. Unpacking Array Items**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)
 
 ## **2. Swapping Variables**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)
 
 **3. Profile And Stats Of Your Code**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
 
 **4. Repeat String**
 
@@ -135,6 +135,6 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDQxNjg5NywtMjExNTQ0OTE1NCwyMT
+eyJoaXN0b3J5IjpbLTQ1ODExMjg2OSwtMjExNTQ0OTE1NCwyMT
 A1MTU4NTYzXX0=
 -->
