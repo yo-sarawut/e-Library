@@ -14,15 +14,15 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 
 **3. Profile And Stats Of Your Code**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
+[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
 
 **4. Repeat String**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)
 
 **5. Slicing**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)
 
 **6. Reversing**
 
@@ -135,5 +135,6 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU0NDkxNTQsMjEwNTE1ODU2M119
+eyJoaXN0b3J5IjpbMTE5NDQxNjg5NywtMjExNTQ0OTE1NCwyMT
+A1MTU4NTYzXX0=
 -->
