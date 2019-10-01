@@ -37,9 +37,11 @@ Note for ideas
 
 - [Python Desktop News Notifier in 20 lines](https://www.geeksforgeeks.org/python-desktop-news-notifier-in-20-lines/)
 
+![enter image description here](https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2017-04-24-10_00_06.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDEwNjg4MSwtNDM1NDI2MzE4LDE4OD
-Q1ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5
-MjEsLTM2OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MTYyNjE0ODEsLTQzNTQyNjMxOCwxOD
+g0NTgyNzA2LDE5ODU5Mzg3MDUsMTM5MTQ4ODc3NCwxNzQ3MzA4
+OTIxLC0zNjkzMzkzMzcsLTE5NDU3NzUzNDcsMjE5MDAwNTExXX
+0=
 -->
