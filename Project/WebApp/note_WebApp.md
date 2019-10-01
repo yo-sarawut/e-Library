@@ -9,7 +9,9 @@ Note for Web App
 - [https://tympanus.net](https://tympanus.net/)
 - [https://freshdesignweb.com/free-website-templates/](https://freshdesignweb.com/free-website-templates/)
 - [Tool Online](https://superdevresources.com/tools/)
+## Articles
 
+- [How to Build Unique, Beautiful Websites with Tailwind CSS](https://www.sitepoint.com/tailwind-unique-beautiful-websites/)
 
 ## Downloads 
 
@@ -49,8 +51,8 @@ Note for Web App
 
 - [100 FREE HTML5 CSS3 Registration/Sign-in Forms](https://www.templatemonster.com/blog/html5-css3-registration-forms/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTc3MjA4NiwtMTQzOTg2MDYxNywxMD
-M4NzY0NzcyLC0xOTM1NjQyMDk0LC02NTQ3Njc3ODcsMTU3MTg2
-MTQxMCwtNDU5MjY2MzgsNTczNTg0NDY2LC0xODM0NzY1NDQ2LC
-01MzM5MTUyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE5OTY5MTA3NDEsMjAxOTc3MjA4NiwtMT
+QzOTg2MDYxNywxMDM4NzY0NzcyLC0xOTM1NjQyMDk0LC02NTQ3
+Njc3ODcsMTU3MTg2MTQxMCwtNDU5MjY2MzgsNTczNTg0NDY2LC
+0xODM0NzY1NDQ2LC01MzM5MTUyMjRdfQ==
 -->
