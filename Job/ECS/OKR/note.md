@@ -7,8 +7,9 @@
 - [KPIs คือไม้เรียว “OKRs คือไม้กายสิทธิ์”: รู้จักเครื่องมือพัฒนาที่ทุกองค์กรหัวก้าวหน้าต้องใช้](https://www.unlockmen.com/kpis-vs-okrs/)
 - [ตั้งเป้าหมายให้พนักงานด้วยเทคนิค OKR](https://life.wongnai.com/okr-64bbd39371ca)
 - [OKR จะมาแทน KPI?](https://www.bangkokbiznews.com/blog/detail/640765)
-- []()
+- [OKR หรือ KPI?](https://www.bangkokbiznews.com/blog/detail/645090)
+- [OKR กุญแจสำคัญในการขับเคลื่อนองค์กรให้ก้าวไกล](https://hcm-jinjer.com/thai-media/orgdevelopment/190607-okr-objective-key-results/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTA4NzI0OCw3NjQ0NTYwMzldfQ==
+eyJoaXN0b3J5IjpbLTEwMTg3OTc3OTAsNzY0NDU2MDM5XX0=
 -->
