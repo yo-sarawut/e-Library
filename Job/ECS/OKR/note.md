@@ -3,6 +3,7 @@
 
 ### OKR
 
+- [OKR Guide](https://www.okr-thai.com/okr-guide/)
 - [สรุปแนวคิดการปฏิบัติงานในระบบ Objectives and key results ](http://www.oap.go.th/images/documents/about-us/Meeting-Report-OAP/18._%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%A7%E0%B8%B2%E0%B8%A3%E0%B8%B0_4.1_%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%A2%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%9B_OKR.pdf)
 - [ขับเคลื่อนองค์กรอย่างมีพลังด้วย OKR](https://blog.finnomena.com/%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-okr-e17c2a65459)
 - [OKRs in Action! วางเป้าหมายและกำหนดทิศทางองค์กรด้วย OKRs อย่างไรให้ได้ผล](https://magnetolabs.com/blog/how-to-make-okrs-work-in-company/)
@@ -12,15 +13,15 @@
 - [OKR หรือ KPI?](https://www.bangkokbiznews.com/blog/detail/645090)
 - [OKR กุญแจสำคัญในการขับเคลื่อนองค์กรให้ก้าวไกล](https://hcm-jinjer.com/thai-media/orgdevelopment/190607-okr-objective-key-results/)
 - [ทุกเรื่องที่อาจยังไม่เคยรู้ของ OKR จาก ศ.ดร.นภดล ร่มโพธิ์](https://thestandard.co/podcast/thesecretsauce126/)
-- [OKR: ฝันให้ไกลถึงดวงจันทร์ เพราะแม้ไม่ได้ดั่งฝัน เราก็จะยังอยู่ท่ามกลางหมู่ดาว﻿]()
+- [OKR: ฝันให้ไกลถึงดวงจันทร์ เพราะแม้ไม่ได้ดั่งฝัน เราก็จะยังอยู่ท่ามกลางหมู่ดาว﻿](https://missiontothemoon.co/okr-shoot-for-the-moon/)
+
 
 
 
 
 ### Business
-- [After You อยู่ได้ ขายดี ไม่ถูกแทนที่ ด้วยการ “ทำ standard ของเราให้ดีที่สุด”]
-(https://thestandard.co/podcast/thesecretsauce22/)
+- [After You อยู่ได้ ขายดี ไม่ถูกแทนที่ ด้วยการ “ทำ standard ของเราให้ดีที่สุด”](https://thestandard.co/podcast/thesecretsauce22/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODc4NzkxLC0xMDE4Nzk3NzkwLDc2ND
+eyJoaXN0b3J5IjpbNTczNjM1ODI2LC0xMDE4Nzk3NzkwLDc2ND
 Q1NjAzOV19
 -->
