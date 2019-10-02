@@ -5,7 +5,10 @@
 - [ขับเคลื่อนองค์กรอย่างมีพลังด้วย OKR](https://blog.finnomena.com/%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-okr-e17c2a65459)
 - [OKRs in Action! วางเป้าหมายและกำหนดทิศทางองค์กรด้วย OKRs อย่างไรให้ได้ผล](https://magnetolabs.com/blog/how-to-make-okrs-work-in-company/)
 - [KPIs คือไม้เรียว “OKRs คือไม้กายสิทธิ์”: รู้จักเครื่องมือพัฒนาที่ทุกองค์กรหัวก้าวหน้าต้องใช้](https://www.unlockmen.com/kpis-vs-okrs/)
+- [ตั้งเป้าหมายให้พนักงานด้วยเทคนิค OKR](https://life.wongnai.com/okr-64bbd39371ca)
+- [OKR จะมาแทน KPI?](https://www.bangkokbiznews.com/blog/detail/640765)
+- []()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0NDU2MDM5XX0=
+eyJoaXN0b3J5IjpbMTg4NTA4NzI0OCw3NjQ0NTYwMzldfQ==
 -->
