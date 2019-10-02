@@ -9,7 +9,9 @@
 - [OKR จะมาแทน KPI?](https://www.bangkokbiznews.com/blog/detail/640765)
 - [OKR หรือ KPI?](https://www.bangkokbiznews.com/blog/detail/645090)
 - [OKR กุญแจสำคัญในการขับเคลื่อนองค์กรให้ก้าวไกล](https://hcm-jinjer.com/thai-media/orgdevelopment/190607-okr-objective-key-results/)
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg3OTc3OTAsNzY0NDU2MDM5XX0=
+eyJoaXN0b3J5IjpbMjAyNzMzMTAzNywtMTAxODc5Nzc5MCw3Nj
+Q0NTYwMzldfQ==
 -->
