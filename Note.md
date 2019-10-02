@@ -19,6 +19,7 @@
 
 - [Reliably download historical market data from Yahoo! Finance with Python : ==**yfinance**==](https://aroussi.com/post/python-yahoo-finance)
 - [Popular Python 3 Packages](https://code.activestate.com/pypm/tag:python3/?page=1)
+- [Fast Data Store for Pandas Time-Series Data using PyStore](https://aroussi.com/post/fast-datastore-for-pandas-time-series-data)
 
 # Article
 
@@ -93,11 +94,11 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTI4NzYzNCwxNTE2OTM1MzU3LC0xMD
-Y2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5NjQ3MDgsLTE2Nzk4
-Mzc3LC0xNzIxNDI1NTM5LC0xMTg4MDQ4OTEyLDE5NDU0NjQ4Mj
-YsLTY3OTI2MTA4OSwtMTIzNDEwMDY0MSwxNjY5NzAxMzczLC0z
-OTgxNDMxNTUsLTQxMTM2MzMxNiwtODEwNjA3MzQxLDIxMjg1NT
-cyNTIsLTI0MjI5OTY5MSwxODcyODcyMjQwLC0xODg1OTM1MjE0
-LDQ5MzAyMTgwMF19
+eyJoaXN0b3J5IjpbMTg5OTgzNDMwOSwxNjY1Mjg3NjM0LDE1MT
+Y5MzUzNTcsLTEwNjY1OTI3NTMsLTczMDc1OTM4MywtMTg3Nzk2
+NDcwOCwtMTY3OTgzNzcsLTE3MjE0MjU1MzksLTExODgwNDg5MT
+IsMTk0NTQ2NDgyNiwtNjc5MjYxMDg5LC0xMjM0MTAwNjQxLDE2
+Njk3MDEzNzMsLTM5ODE0MzE1NSwtNDExMzYzMzE2LC04MTA2MD
+czNDEsMjEyODU1NzI1MiwtMjQyMjk5NjkxLDE4NzI4NzIyNDAs
+LTE4ODU5MzUyMTRdfQ==
 -->
