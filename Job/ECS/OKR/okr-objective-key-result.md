@@ -194,7 +194,7 @@ image source ::  [Lattice](https://lattice.com/blog/okr-101/)
 
 และสำหรับการให้ Grade OKR ของแต่ละ Quarter ให้ทำในช่วงเดือนแรกของแต่ละ Quarter
 
-Ref : 
+Ref : [Medium](https://medium.com/@nichakuadkaew/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%9A%E0%B8%9A-okr-objective-key-result-%E0%B8%88%E0%B8%B2%E0%B8%81-ex-googler-bf3ca88339b8)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDU1MDAyN119
+eyJoaXN0b3J5IjpbNTQ0MDgxMDE1XX0=
 -->
