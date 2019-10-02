@@ -53,11 +53,11 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 - [showdown-markdown-editor](https://github.com/jhuix/showdown-markdown-editor)
 
-![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/preview-intro.png)
+![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzU2MjkwMiwyMTQzNDM2OTMsMTEwMz
-A2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0MSwxMDc0Njg2NTI0
-LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2NjM0OTYxNTMsMjcwMD
-Y2NTQsMTYxOTAxOTg1MSw3MTc3MjM4NzEsLTgxMDAwMzA2MCwx
-NzgxMjgwNjkxXX0=
+eyJoaXN0b3J5IjpbLTExMjY0NjM0NDksMTAyNzU2MjkwMiwyMT
+QzNDM2OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0
+MSwxMDc0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2Nj
+M0OTYxNTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MTc3MjM4NzEs
+LTgxMDAwMzA2MCwxNzgxMjgwNjkxXX0=
 -->
