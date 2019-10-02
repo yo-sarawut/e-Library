@@ -1,6 +1,6 @@
 
 # e-Book
-- [e-Libraly](https://e_libraly.gitlab.io/Python_Tutorial/)
+- [e-Libraly](https://e_libraly.gitlab.io/knowledge_base/)
 - [e-Import](https://app.gitbook.com/@e-import/s/e-import/)
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
 - [e-Tax Invoice & Receipt]()
@@ -94,11 +94,11 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTgzNDMwOSwxNjY1Mjg3NjM0LDE1MT
-Y5MzUzNTcsLTEwNjY1OTI3NTMsLTczMDc1OTM4MywtMTg3Nzk2
-NDcwOCwtMTY3OTgzNzcsLTE3MjE0MjU1MzksLTExODgwNDg5MT
-IsMTk0NTQ2NDgyNiwtNjc5MjYxMDg5LC0xMjM0MTAwNjQxLDE2
-Njk3MDEzNzMsLTM5ODE0MzE1NSwtNDExMzYzMzE2LC04MTA2MD
-czNDEsMjEyODU1NzI1MiwtMjQyMjk5NjkxLDE4NzI4NzIyNDAs
-LTE4ODU5MzUyMTRdfQ==
+eyJoaXN0b3J5IjpbLTU0NTc0MzI5MCwxODk5ODM0MzA5LDE2Nj
+UyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5Mjc1MywtNzMwNzU5
+MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3NywtMTcyMTQyNTUzOS
+wtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2LC02NzkyNjEwODksLTEy
+MzQxMDA2NDEsMTY2OTcwMTM3MywtMzk4MTQzMTU1LC00MTEzNj
+MzMTYsLTgxMDYwNzM0MSwyMTI4NTU3MjUyLC0yNDIyOTk2OTEs
+MTg3Mjg3MjI0MF19
 -->
