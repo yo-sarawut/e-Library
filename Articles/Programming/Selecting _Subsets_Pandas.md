@@ -236,10 +236,10 @@ We will begin our journey of selecting subsets by using just the indexing operat
 # Selecting a single column as a Series
 
 To select a single column of data, simply put the name of the column in-between the brackets. Let’s select the food column:
-```
+```py
 df['food']  
 ```
-```
+```result
 Jane          Steak  
 Niko           Lamb  
 Aaron         Mango  
@@ -260,7 +260,7 @@ You will also notice two extra pieces of data on the bottom of the Series. The  
 # Selecting multiple columns with just the indexing operator
 
 It’s possible to select multiple columns with just the indexing operator by passing it a list of column names. Let’s select  `color`,  `food`, and  `score`:
-```
+```py
  df[['color', 'food', 'score']]
 ```
 ![](https://miro.medium.com/max/256/1*ctcUH__YabtZmT5SjzZLvA.png)
@@ -268,7 +268,7 @@ It’s possible to select multiple columns with just the indexing operator by pa
 # Selecting multiple columns returns a DataFrame
 
 Selecting multiple columns returns a DataFrame. You can actually select a single column as a DataFrame with a one-item list:
-```
+```py
 df[['food']]
 ```
 
@@ -279,7 +279,7 @@ Although, this resembles the Series from above, it is technically a DataFrame, a
 # Column order doesn’t matter
 
 When selecting multiple columns, you can select them in any order that you choose. It doesn’t have to be the same order as the original DataFrame. For instance, let’s select  `height`  and  `color`.
-```
+```py
 df[['height', 'color']]
 ```
 
@@ -941,5 +941,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjM4Nzk0M119
+eyJoaXN0b3J5IjpbLTg1MzcwOTM4LDEzNjYzODc5NDNdfQ==
 -->
