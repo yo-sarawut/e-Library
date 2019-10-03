@@ -527,19 +527,10 @@ None
 
 
 |id| imdb |metascore | movie | votes |year|
-0
-8.3
-77
- Logan
-320428
-(2017) 
-1
-8.1
-67
-Guardians of the Galaxy Vol. 2
-175443
-(2017) 
-2
+|--|--|--|--|--|--|
+|0|8.3|77| Logan|320428|(2017) |
+|1|8.1|67|Guardians of the Galaxy Vol. 2|175443|(2017) |
+|2|
 8.1
 76
 Wonder Woman
@@ -1632,5 +1623,5 @@ To build upon what we’ve learned, here are a few next steps to consider:
 -   Scrape additional data about the movies.
 -   Find a different website to scrape something that interests you. For example, you could scrape data about  [laptops](https://www.walmart.com/browse/electronics/laptop-computers/hp/3944_3951_132960/YnJhbmQ6SFAie?page=1#searchProductResult)  to see how prices vary over time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjY5NDMxNywyMDc3ODU2MDRdfQ==
+eyJoaXN0b3J5IjpbMjAyNTIwNzA5NSwyMDc3ODU2MDRdfQ==
 -->
