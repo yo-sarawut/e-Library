@@ -499,7 +499,7 @@ It is worth noting that we have elected to use  `sites_view`  for both displayin
 ### Deriving data from visitors
 
 `add_visit`, meanwhile, is now a bit more complex (although it is mostly mapping code):
-
+```py
 from flask import request
 
 from .geodata import get_geodata
@@ -540,13 +540,13 @@ def add_visit(site_id=None):
         return '', 204
 
     return jsonify(errors=form.errors), 400
-
+```
 We have removed the ability for users to manually add visits from our website via a form (and so we have also removed the second route on  `add_visit`). We now do explicit mapping for data that we can derive on the server (the browser, the IP Address) and then we construct our  `VisitForm`  passing in those mapped values directly. The IP address we pull from  `access_route`  in case we are behind a proxy since then  `remote_addr`  will contain the IP address of the last proxy, which is not what we want at all. We disable CSRF protection because we actually  _want_  users to be able to make requests to this endpoint from elsewhere. Finally, we know what site this request is for because of the  `<int:site_id>`  parameter that we have set to the URL.
 
 This is not a perfect implementation of this idea. We do not have any way of verifying that the request is a licit request from our tracking beacons. Someone could modify the JavaScript code or submit modified requests from another server entirely and we would happily save it. This is simple and it easy to implement. But you probably should not use this code in a production environment.
 
 `get_geodata(ip_address)`  queries  `http://freegeoip.net/`  so we can get a rough idea of where the requests are coming from:
-
+```py
 from json import loads
 from re import compile, VERBOSE
 from urllib import urlopen
@@ -578,7 +578,7 @@ def get_geodata(ip):
         pass
 
     return data
-
+```
 Save this as  `geodata.py`  in the  `tracking`  directory.
 
 Return to the view, all this view is doing is copying info from the request down and storing it in the database. It responds to the request with an HTTP 204 (No Content) response. This tells the browser that the request succeeded, but we do not have to spend any extra time generating content that the end-user will not see.
@@ -588,7 +588,7 @@ Return to the view, all this view is doing is copying info from the request down
 ### Seeing the visits
 
 We also add authentication to the Visits view for each individual site:
-
+```py
 @tracking.route("/sites/<int:site_id>")
 @login_required
 def view_site_visits(site_id=None):
@@ -599,13 +599,13 @@ def view_site_visits(site_id=None):
     query = Visit.query.filter(Visit.site_id == site_id)
     data = query_to_list(query)
     return render_template("tracking/site.html", visits=data, site=site)
-
+```
 The only real change here is that if the user is logged in, but does not own the site, they will see an authorization error page, rather than being able to view the visits for the site.
 
 ### Providing a means of tracking visitors
 
 Finally, we want to provide users a snippet of code that they can place on their website that will automatically record visits:
-
+```py
 {# flask_tracking/templates/tracking/site.html #}
 {% block content %}
 {{ super() }}
@@ -626,7 +626,7 @@ Finally, we want to provide users a snippet of code that they can place on their
 {{ tables.render(visits) }}
 </table>
 {% endblock content %}
-
+```
 Our snippet is very simple - when the page loads we create a new image and set its source to be our tracking URL. The browser will  _immediately_  load the image specified (which will be nothing at all) and we will record a tracking hit in our application. We also have a  `<noscript>`  block for those people who are visiting us without JavaScript enabled. (If we really wanted to keep up with the times, we could also update our server-side code to check for the  `Do Not Track`  header and only record the visit if the user has opted into tracking.)
 
 ## Wrapping Up
@@ -647,5 +647,5 @@ Your app should now look like this:
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTA2MTUzN119
+eyJoaXN0b3J5IjpbNDY2MTkwMDUxXX0=
 -->
