@@ -17,9 +17,9 @@ Source code with examples can be found on my github profile:  [@maclisowski](htt
 # Create new project
 
 At first lets create a new project — in order to do that you can simply type in console:
-
+```
  vue create example
-
+```
 When we are asked, which preset we should use — please choose default, which means that we want to use  _babel_  and  _eslit_.
 
 Once installation is done, you should be able to see output similar to one as on screenshot below.
@@ -30,8 +30,9 @@ Once installation is done, you should be able to see output similar to one as on
 
 During installation, will be created directory with having same name as your project — in our case it is  **example**. Now it is time to go to newly created directory and see if everything got installed properly and if we can run default example application. To do that type in console:
 
-> npm run serve
-
+```vue
+ npm run serve
+```
 The output in console should be similar to one below, with the difference that port might be different (in time of writing this article am running different project in Vue on which am working on):
 
 ![](https://miro.medium.com/max/30/1*xztKFZ5vIzIyR581ZXlJpw.png?q=20)
@@ -47,9 +48,9 @@ Copy Local address and open it in your browser, now you can see very first examp
 Okay but what now? Most of all, we are missing one npm package, with out store, called  [Vuex](https://vuex.vuejs.org/)  which is state management library. Store management is very important part of every modern web application — you can save there data needed for your application to work, react on state updates and do some action, in majority of cases those are triggering re-rendering DOM.
 
 To instal Vuex use this commad:
-
-> npm install vuex — save
-
+```javascript
+npm install vuex — save
+```
 Once it is installed, lets open our project in IDE — in my case it is  [Visual Studio Code](https://code.visualstudio.com/)  — lets take a look at  **main.js**  file:
 
 ![](https://miro.medium.com/max/30/1*jH58JPRKS-uxU-vwGYhsow.png?q=20)
@@ -121,6 +122,8 @@ Final result of our example application you can watch on this video:
 Hope it can help anyone with starting journey with Vue :)
 
 If you have any questions feel free to reach me out! Thanks for your time!
+
+ref : [https://medium.com/@maciej.lisowski.elk/vue-vuex-store-short-tutorial-for-beginners-1befd8697654](https://medium.com/@maciej.lisowski.elk/vue-vuex-store-short-tutorial-for-beginners-1befd8697654)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDkxNzM3OV19
+eyJoaXN0b3J5IjpbLTIwNzI3MzczNjZdfQ==
 -->
