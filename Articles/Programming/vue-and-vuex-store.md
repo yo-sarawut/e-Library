@@ -12,25 +12,13 @@ Before we start, am assuming that you have at least installed Vue and you are re
 
 Source code with examples can be found on my github profile:  [@maclisowski](https://github.com/maclisowski)
 
-[](https://github.com/maclisowski?source=post_page-----1befd8697654----------------------)
 
-## 
-
-maclisowski - Overview
-
-### 
-
-linkedin.com/in/maciejlisowski/. maclisowski has 3 repositories available. Follow their code on GitHub.
-
-#### 
-
-github.com
 
 # Create new project
 
 At first lets create a new project — in order to do that you can simply type in console:
 
-> vue create example
+ vue create example
 
 When we are asked, which preset we should use — please choose default, which means that we want to use  _babel_  and  _eslit_.
 
@@ -134,5 +122,5 @@ Hope it can help anyone with starting journey with Vue :)
 
 If you have any questions feel free to reach me out! Thanks for your time!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkyMDExMDddfQ==
+eyJoaXN0b3J5IjpbMTY3NDkxNzM3OV19
 -->
