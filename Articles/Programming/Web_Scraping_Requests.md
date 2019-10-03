@@ -27,7 +27,7 @@ f.write(html)
 save_html(r.content, 'google_com')  
 ```  
   
-  
+  ```
 ---------------------------------------------------------------------------  
   
 NameError Traceback (most recent call last)  
@@ -39,7 +39,7 @@ NameError Traceback (most recent call last)
   
   
 NameError: name 'r' is not defined  
-  
+  ```
   
 Assume we have captured the HTML from google.com in `html`, which you'll see later how to do. After running this function we will now have a file in the same directory as this notebook called `google_com` that contains the HTML.  
   
@@ -1263,5 +1263,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzNzUyNzQ2XX0=
+eyJoaXN0b3J5IjpbMTM1MzU3MDIzNCwyMjM3NTI3NDZdfQ==
 -->
