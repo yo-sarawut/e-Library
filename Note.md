@@ -92,13 +92,17 @@ if __name__ == '__main__':
     app.run_server()
   ```
 
+### แทรกรูป Gitbook
+```
+<img src="https://github.com/yosarawut/WorkingArea/raw/master/KnowledgeCenter/img/30-07-2019%2017-04-55.jpg" alt="การตรวจสอบผลการคำนวณมูลค่าเงินนำเข้า" border="0";>
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTc0MzI5MCwxODk5ODM0MzA5LDE2Nj
-UyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5Mjc1MywtNzMwNzU5
-MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3NywtMTcyMTQyNTUzOS
-wtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2LC02NzkyNjEwODksLTEy
-MzQxMDA2NDEsMTY2OTcwMTM3MywtMzk4MTQzMTU1LC00MTEzNj
-MzMTYsLTgxMDYwNzM0MSwyMTI4NTU3MjUyLC0yNDIyOTk2OTEs
-MTg3Mjg3MjI0MF19
+eyJoaXN0b3J5IjpbLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxOD
+k5ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5
+Mjc1MywtNzMwNzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3Ny
+wtMTcyMTQyNTUzOSwtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2LC02
+NzkyNjEwODksLTEyMzQxMDA2NDEsMTY2OTcwMTM3MywtMzk4MT
+QzMTU1LC00MTEzNjMzMTYsLTgxMDYwNzM0MSwyMTI4NTU3MjUy
+LC0yNDIyOTk2OTFdfQ==
 -->
