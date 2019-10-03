@@ -183,17 +183,17 @@ def load_user(user_id):
 `@login_manager.user_loader`  registers our  `load_user`  function with Flask-Login so that when a user returns after logging in Flask-Login can load the user from the user_id that it stores in Flask’s  `session`.
 
 Finally, we import  `login_manager`  into  `flask_tracking/__init__.py`  and register it with our application object:
-
+```py
 from .auth import login_manager
 
 # ...
 
 login_manager.init_app(app)
-
+```
 ### Views
 
 Next let’s set up our view and controller functions for Users to enable register/log in/log out functionality. First, we will set up our forms:
-
+```py
 # flask_tracking/users/forms.py
 from flask.ext.wtf import Form
 from sqlalchemy.orm.exc import MultipleResultsFound, NoResultFound
@@ -234,11 +234,11 @@ class RegistrationForm(Form):
         user = User.query.filter(User.email == field.data).first()
         if user is not None:
             raise ValidationError("A user with that email already exists")
-
+```
 Again, a decent amount of code, this time mostly around validating user input. One thing to note is that for our login form, when the user is authenticated, we expose the  `User`  instance on the form as  `form.user`  (so we do not have to make the same query in two places - even though SQLAlchemy will do the right thing here and only hit the database once).
 
 Finally, we can set up our views:
-
+```py
 # flask_tracking/users/views.py
 from flask import Blueprint, flash, redirect, render_template, request, url_for
 from flask.ext.login import login_required, login_user, logout_user
@@ -280,20 +280,20 @@ def logout():
     # session->User connection for this session.
     logout_user()
     return redirect(url_for('tracking.index'))
-
+```
 And import and register them with our application object:
-
+```py
 # flask_tracking/__init__.py
 from .users.views import users
 
 # ...
 
 app.register_blueprint(users)
-
+```
 Notice the call to  `load_user`  inside of our  `login`  view.  `Flask-Login`  requires us to call this function in order to activate our user’s session (which it will manage for us).
 
 One last thing to look at is our  `users/login.html`  template:
-
+```py
 {% extends "layout.html" %}
 {% import "helpers/forms.html" as forms %}
 {% block title %}Log into Flask Tracking!{% endblock %}
@@ -304,17 +304,17 @@ One last thing to look at is our  `users/login.html`  template:
 <p><input type="Submit" value="Sign In"></p>
 </form>
 {% endblock content %}
-
+```
 We will cover the  `layout.html`  and  `forms`  macros in a little while - the key thing to note is that for our form’s  `action`  we are explicitly passing in the value of the  `next`  parameter:
 
 url_for('users.login', next=request.args.get('next', ''))
 
 This ensures that when the user submits the form to  `users.login`  the  `next`  parameter is available for our redirect code:
-
+```py
 login_user(form.user)
 flash("Logged in successfully.")
 return redirect(request.args.get("next") or url_for("tracking.index"))
-
+```
 There’s a subtle security hole in this code, which we will be fixing in our next article (but points to you if you have already spotted it).
 
 [Remove ads](https://realpython.com/account/join/)
@@ -329,7 +329,7 @@ db.session.add(user)
 db.session.commit()
 
 is also repeated multiple times in the  `tracking`  code. Let’s pull that database session behavior out using a custom mixin which we can borrow from  [Flask-Kit](https://github.com/semirook/flask-kit). Open  `flask_tracking/data`  and add the following code:
-
+```py
 class CRUDMixin(object):
     __table_args__ = {'extend_existing': True}
 
@@ -647,5 +647,5 @@ Your app should now look like this:
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTE1OTYxOV19
+eyJoaXN0b3J5IjpbLTE0NDA5NzcwODJdfQ==
 -->
