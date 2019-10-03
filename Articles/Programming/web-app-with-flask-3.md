@@ -458,7 +458,7 @@ class LoginForm(Form):
 -and when we push it to production our first user sends us an email to let us know that he mis-typed his password and was still logged into the system. We verify that this is the case on our live site. Woah, Nelly, that is not at all acceptable! So we quickly take down the login page and replace it with a message saying we are down for maintenance and we’ll be back as soon as possible (_Rule #0 of SaaS - always treat your customers the way you would want to be treated_).
 
 Looking at it locally, we don’t see any reason that users  _should_  be able to log in without a password. However, we haven’t written any tests to test that a mis-typed password is rejected with an error message, so we can’t be 100% sure that this isn’t an error in our code. So let’s write a test case and see what happens:
-
+```
 def test_invalid_password_is_rejected(self):
     User.create(name="Joe", email="joe@joes.com", password="12345")
 
@@ -470,13 +470,14 @@ def test_invalid_password_is_rejected(self):
         self.assertTrue(current_user.is_anonymous())
         self.assert_200(response)
         self.assertIn("Invalid password", response.data)
-
+```
 Running the tests results in a failure:
-
+```
 .F....
 ======================================================================
 FAIL: test_invalid_password_is_rejected (app.users.tests.UserViewsTests)
 ----------------------------------------------------------------------
+```
 Traceback (most recent call last):
  File "~/dev/flask-tracking/flask_tracking/users/tests.py", line 34, in test_invalid_password_is_rejected
  self.assertTrue(current_user.is_anonymous())
@@ -491,12 +492,12 @@ There are several ways we could debug the problem:
 -   We could step through the code using a debugger.
 
 We’ll use all three techniques. First, let’s add a simple  `print`  statement to our  `app.users.models.LoginForm#validate_login`  method:
-
+```py
 def validate_login(self, field):
     print 'Validating login'
-
+```
 When we run our tests again we do not see the “Validating login” message at all. That tells us that our method is not being called. Let’s add an intentional error to our view and make use of Flask’s internal debugger to verify the state of the world. First, we’ll create a new configuration for debugging:
-
+```py
 # config.py
 class DebugConfiguration(BaseConfiguration):
     DEBUG = True
@@ -504,13 +505,13 @@ class DebugConfiguration(BaseConfiguration):
 Then we will update  `flask_tracking.__init__`  to use the new debug configuration:
 
 app.config.from_object('config.DebugConfiguration')
-
+```
 And finally, we will add a Arithmetic error to our  `login_view`  method:
-
+```py
 def login_view():
     form = LoginForm(request.form)
     1 / 0  # KABOOM!
-
+```
 Now, if we run:
 ```
 $ python run.py
@@ -790,5 +791,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMDQ1Mjk5XX0=
+eyJoaXN0b3J5IjpbLTExODY3NzcyNjZdfQ==
 -->
