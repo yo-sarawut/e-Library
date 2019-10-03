@@ -904,21 +904,9 @@ df.head(10)
 ```  
   
   
+
   
-  
-<div>  
-<style scoped>  
-.dataframe tbody tr th:only-of-type {  
-vertical-align: middle;  
-}  
-  
-.dataframe tbody tr th {  
-vertical-align: top;  
-}  
-  
-.dataframe thead th {  
-text-align: right;  
-}  
+ 
 </style>  
 <table border="1" class="dataframe">  
 <thead>  
@@ -1072,19 +1060,7 @@ df2.head()
   
   
   
-<div>  
-<style scoped>  
-.dataframe tbody tr th:only-of-type {  
-vertical-align: middle;  
-}  
-  
-.dataframe tbody tr th {  
-vertical-align: top;  
-}  
-  
-.dataframe thead th {  
-text-align: right;  
-}  
+
 </style>  
 <table border="1" class="dataframe">  
 <thead>  
@@ -1253,10 +1229,7 @@ There's also some project organization that needs to occur when making this into
   
 These sorts of things will be addressed later when we build more complex scrapers, but feel free to let me know in the comments of anything in particular you're interested in learning about.  
   
-  
-```python  
-  
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTE0NTQ4NywyMjM3NTI3NDZdfQ==
+eyJoaXN0b3J5IjpbMjAwODk4NjI2MSwyMjM3NTI3NDZdfQ==
 -->
