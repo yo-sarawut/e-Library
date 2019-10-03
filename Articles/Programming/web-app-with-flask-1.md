@@ -508,6 +508,8 @@ That’s it for this post. We now have a working application where sites can be 
     
 
 Thanks for reading and tune in next time!
+
+Reference : https://realpython.com/python-web-applications-with-flask-part-i/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjgxNjc2M119
+eyJoaXN0b3J5IjpbLTEwOTExOTcyMTAsMTgxMjgxNjc2M119
 -->
