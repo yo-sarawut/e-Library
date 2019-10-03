@@ -650,7 +650,7 @@ print("-" * 30)
 for d in abs_agree:  
 print(f"{d['name']:<20} {d['bias']:<20}")  
 ```  
-  
+  ``` 
 Outlet Bias  
 ------------------------------  
 C-SPAN center  
@@ -665,7 +665,7 @@ RollingStone.com left
 Splinter left  
 The Daily Signal right  
 Vice left  
-  
+ ```  
   
 Using some string formatting we can make it look somewhat tabular. Interestingly, *C-SPAN* is the only center bias that the community absolutely agrees on. The others for left and right aren't that surprising.  
   
@@ -692,7 +692,7 @@ df.head()
   
   
   
-  
+ ```  
 <div>  
 <style scoped>  
 .dataframe tbody tr th:only-of-type {  
@@ -777,7 +777,7 @@ text-align: right;
 </tbody>  
 </table>  
 </div>  
-  
+  ``` 
   
   
 Now filter the DataFrame by "agreeance_text":  
@@ -788,10 +788,11 @@ df[df['agreeance_text'] == 'strongly disagrees']
 ```  
   
   
-  
+
   
 <div>  
 <style scoped>  
+``` 
 .dataframe tbody tr th:only-of-type {  
 vertical-align: middle;  
 }  
@@ -803,6 +804,7 @@ vertical-align: top;
 .dataframe thead th {  
 text-align: right;  
 }  
+``` 
 </style>  
 <table border="1" class="dataframe">  
 <thead>  
@@ -1262,5 +1264,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY3MTA3NDQsMjIzNzUyNzQ2XX0=
+eyJoaXN0b3J5IjpbMTQ2NjQ2Nzg0NCwyMjM3NTI3NDZdfQ==
 -->
