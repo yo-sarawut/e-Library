@@ -858,6 +858,7 @@ Now we’ll check the minimum and maximum values of each type of rating. We can 
 ```bash
 movie_ratings.describe().loc[['min', 'max'], ['imdb', 'metascore']]
 ```
+
 |id| imdb |metascore | movie | votes |year|
 |--|--|--|--|--|--|
 |0|8.3|77| Logan|320428|(2017) |
@@ -865,86 +866,6 @@ movie_ratings.describe().loc[['min', 'max'], ['imdb', 'metascore']]
 |2|8.1|76|Wonder Woman|152067|(2017) |
 
 
-imdb
-
-metascore
-
-min
-
-1.6
-
-7.0
-
-max
-
-9.0
-
-100.0
-
-There are no unexpected outliers.
-
-From the values above, you can see that the two ratings have different scales. To be able to plot the two distributions on a single graph, we’ll have to bring them to the same scale. Let’s normalize the  `imdb`  column to a 100-points scale.
-
-We’ll multiply each IMDB rating by 10, and then we’ll do a quick check by looking at the first 3 rows:
-
-```bash
-movie_ratings['n_imdb'] = movie_ratings['imdb'] * 10
-movie_ratings.head(3)
-```
-
-movie
-
-year
-
-imdb
-
-metascore
-
-votes
-
-n_imdb
-
-0
-
-Gladiator
-
-2000
-
-8.5
-
-67
-
-1061075
-
-85.0
-
-1
-
-Memento
-
-2000
-
-8.5
-
-80
-
-909835
-
-85.0
-
-2
-
-Snatch
-
-2000
-
-8.3
-
-55
-
-643588
-
-83.0
 
 Nice! We are now in a position to save this dataset locally, so we can share it with others more easily. I have already shared it publicly on my  [GitHub profile](https://github.com/mircealex/Scraped_dataset_movie_ratings). There are other places where you can share a dataset, like  [Kaggle](https://www.kaggle.com/datasets), or  [Dataworld](https://data.world/).
 
@@ -1008,5 +929,5 @@ To build upon what we’ve learned, here are a few next steps to consider:
 -   Scrape additional data about the movies.
 -   Find a different website to scrape something that interests you. For example, you could scrape data about  [laptops](https://www.walmart.com/browse/electronics/laptop-computers/hp/3944_3951_132960/YnJhbmQ6SFAie?page=1#searchProductResult)  to see how prices vary over time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNTY3NDk5LDIwNzc4NTYwNF19
+eyJoaXN0b3J5IjpbMjYzNTM1OTI3LDIwNzc4NTYwNF19
 -->
