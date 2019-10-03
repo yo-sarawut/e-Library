@@ -94,7 +94,7 @@ to our  `requirements.txt`  file and then (making sure our virtual environment i
 ### Models
 
 We will set up our  `User`  SQLAlchemy class in  `users.models`. We will only store a user’s name, email address, and (salted and hashed) password:
-
+```py
 from random import SystemRandom
 
 from backports.pbkdf2 import pbkdf2_hmac, compare_digest
@@ -129,16 +129,18 @@ class User(UserMixin, db.Model):
 
     def is_valid_password(self, password):
         """Ensure that the provided password is valid.
-
+```
  We are using this instead of a ``sqlalchemy.types.TypeDecorator``
  (which would let us write ``User.password == password`` and have the incoming
  ``password`` be automatically hashed in a SQLAlchemy query)
  because ``compare_digest`` properly compares **all***
  the characters of the hash even when they do not match in order to
  avoid timing oracle side-channel attacks."""
-        new_hash = self._hash_password(password)
-        return compare_digest(new_hash, self._password)
-
+ ```py
+new_hash = self._hash_password(password)
+return compare_digest(new_hash, self._password)
+  ```
+```py
     def _hash_password(self, password):
         pwd = password.encode("utf-8")
         salt = bytes(self._salt)
@@ -147,7 +149,7 @@ class User(UserMixin, db.Model):
 
     def __repr__(self):
         return "<User #{:d}>".format(self.id)
-
+```
 _Phew_  - almost half of this code is for the password! Even worse, by the time you are reading this our implementation of  `_hash_password`  is likely to be considered imperfect (such is the ever-changing nature of cryptography) but it does cover all of the basic best practices:
 
 -   Always use a salt unique to each user.
@@ -163,7 +165,7 @@ In addition, we are subclassing Flask-Login’s  `UserMixin`  class. Flask-Login
 ### Integrating Flask-Login
 
 Now that we have a  `User`  we can integrate with Flask-Login. In order to avoid circular imports we are going to setup the extension in its own top-level module named  `auth`:
-
+```py
 # flask_tracking/auth.py
 from flask.ext.login import LoginManager
 
@@ -179,7 +181,7 @@ login_manager.login_view = "users.login"
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
-
+```
 `@login_manager.user_loader`  registers our  `load_user`  function with Flask-Login so that when a user returns after logging in Flask-Login can load the user from the user_id that it stores in Flask’s  `session`.
 
 Finally, we import  `login_manager`  into  `flask_tracking/__init__.py`  and register it with our application object:
@@ -647,5 +649,5 @@ Your app should now look like this:
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA5NzcwODJdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjg2NDQxNjJdfQ==
 -->
