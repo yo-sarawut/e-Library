@@ -652,11 +652,11 @@ def logout_view():
     logout_user()
     current_app.debug('Successfully logged out the current user')
     return redirect(url_for('tracking.index'))
-
+```
 _This code nicely demonstrates an issue we can run into with logging - having too much of it can be as bad as having too little._  In this case, we have as much debugging code as we have application code, and it is difficult to follow the flow of the code any more. We’ll go ahead and remove this particular logging code, as it doesn’t add anything above and beyond what we would see in our proxy server’s access logs.
 
 If we needed to log the entry and exit of each controller, we could add handlers for  [`app.before_request`](http://flask.pocoo.org/docs/api/#flask.Flask.before_request)  and  [`app.teardown_request`](http://flask.pocoo.org/docs/api/#flask.Flask.teardown_request). Just for fun, here’s how we might log every access to our application:
-
+```py
 @app.before_request
 def log_entry():
     context = {
@@ -672,7 +672,7 @@ If we run our application in debug mode and access our home page then we will se
 DEBUG in __init__ [~/dev/flask-tracking/flask_tracking/__init__.py:68]:
 Handling GET request from 127.0.0.1 for /
 --------------------------------------------------------------------------------
-
+```
 As was said above, in production logging this sort of information would be duplicating the logs that our proxy server (Apache with mod_wsgi, ngnix with uwsgi, etc.) will be generating. We should only do this if we are generating a unique value for each request that we absolutely need to keep track of.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -680,7 +680,7 @@ As was said above, in production logging this sort of information would be dupli
 ### Adding context and formatting to our logs
 
 However, it would be nice to have the context from our  `log_entry`  handler (above) in our exception handlers. Let’s go ahead and add a  [`Filter`](http://docs.python.org/2/library/logging.html#filter-objects)  instance to the logger to provide the url, method, IP address, and user id to all loggers that are interested in them (this is called  [“contextual logging”](http://docs.python.org/2/howto/logging-cookbook.html#filters-contextual):
-
+```py
 # flask_tracking/logs.py
 import logging
 
@@ -692,9 +692,9 @@ class ContextualFilter(logging.Filter):
         log_record.user_id = -1 if current_user.is_anonymous() else current_user.get_id()
 
         return True
-
+```
 This filter doesn’t actually filter any of our messages - instead, it provides some additional information that we can make use of in our logs. Here’s an example of how we might use this filter:
-
+```py
 # Create the filter and add it to the base application logger
 context_provider = ContextualFilter()
 app.logger.addFilter(context_provider)
@@ -712,22 +712,22 @@ handler.setFormatter(formatter)
 
 # Finally, attach the handler to our logger
 app.logger.addHandler(handler)
-
+```
 And here’s what a log message might look like:
-
+```
 2013-10-12 09:22:52,764    DEBUG   1   127.0.0.1   GET / Some additional message
-
+```
 One thing to note is that the message we pass to  `app.logger.[LOGLEVEL]`  is not expanded with the values in the context. So if we had kept our  `before_request`  log call and changed our before request log call to just be-
 
 # Note the missing context argument
 app.logger.debug("Handling %(method)s request from %(ip)s for %(url)s")
 
 -the format strings will be passed through unaltered. But since we have them in our  [`Formatter`](http://docs.python.org/2/library/logging.html#formatter-objects), we can remove them from our individual message, leaving just:
-
+```py
 @app.before_request
 def log_entry():
     app.logger.debug("Handling request")
-
+```
 This is the advantage of contextual logging - we can include important information in all our log entries without needing to collect it manually at the site of every log call.
 
 ### Directing logs to different places
@@ -737,7 +737,7 @@ Most of the information we will be logging is not immediately actionable. Howeve
 Fortunately, adding new handlers to our application logger is easy - and since each handler can filter log entries down to only the ones it finds interesting, we can avoid getting deluged by logs, but still get alerts when something breaks horribly.
 
 By way of an example, let’s add another handler that will log ERROR and CRITICAL log messages to a special file. This will not give us the alerting we want, but  [email](https://realpython.com/python-send-email/)  or SMS setup depends on your host (we’ll do such a setup in a later article for Heroku). To whet your appetite see the example of how to log to email in  [Flask’s documentation on logging](http://flask.pocoo.org/docs/errorhandling/#error-mails)  or  [these recipes](http://stackoverflow.com/q/8616617/135978):
-
+```py
 from logging import ERROR
 from logging.handlers import TimedRotatingFileHandler
 
@@ -788,5 +788,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5NDY2MTldfQ==
+eyJoaXN0b3J5IjpbNDE3ODk0MzQyXX0=
 -->
