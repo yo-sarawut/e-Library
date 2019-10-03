@@ -647,6 +647,8 @@ Your app should now look like this:
 -   In Part V we will write a RESTful JSON API for others to consume.
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
+
+Reference : [https://realpython.com/python-web-applications-with-flask-part-ii/](https://realpython.com/python-web-applications-with-flask-part-ii/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDA1MTk5Nl19
+eyJoaXN0b3J5IjpbMTMzODMyNjc1Ml19
 -->
