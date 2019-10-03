@@ -345,19 +345,19 @@ Now we patch that module’s  `get_views`  name to point to our  `mock_geodata` 
 with patch.object(views, 'get_geodata', mock_geodata):
 
 By using  `patch.object`  as a context manager, we ensure that after we exit this  `with`  block  `flask_tracking.tracking.views.get_geodata`  will once again point to  `flask_tracking.tracking.geodata.get_geodata`. We could also have used  `patch.object`  as a decorator:
-
+```
 mock_geodata = Mock(name='get_geodata')
 # ... snip return setup ...
 
 class TrackingViewsTests(BaseTestCase):
     @patch.object(views, 'get_geodata', mock_geodata)
     def test_visitors_location_is_derived_from_ip(self):
-
+```
 or even a class decorator:
-
+```py
 @patch.object(views, 'get_geodata', mock_geodata)
 class TrackingViewsTests(BaseTestCase):
-
+```
 The only difference is the scope of the patch. The function decorator version ensures that as long as we are inside the  `test_visitors_location_is_derived_from_ip`  function  `get_geodata`  points at our mock, while the class decorator version ensures that every function that starts with  `test`  inside of  `TrackingViewsTests`  will see the mocked version of  `get_geodata`.
 
 _Personally, I prefer to keep the scope of my mocks as limited as possible. It helps ensure that I keep my testing scope in mind, and saves me from surprises where I was expecting to have access to the real object and have to de-patch it._
@@ -365,11 +365,11 @@ _Personally, I prefer to keep the scope of my mocks as limited as possible. It h
 ### Run the test
 
 Having set up everything we need we can now make our request:
-
+```py
 with self.client:
     self.client.get(url, environ_overrides=wsgi_environment,
                     headers=headers)
-
+```
 We provide our controller with the viewer’s IP address through the  `wsgi_environment`  dictionary we created (`wsgi_environment = {'REMOTE_ADDR': '1.2.3.4'}`). Flask’s test client is an instance of Werkzeug’s test client - which supports all of the arguments that you can pass to  [`EnvironmentBuilder`](http://werkzeug.pocoo.org/docs/test/#werkzeug.test.EnvironBuilder).
 
 ### Assert that everything worked
@@ -389,15 +389,15 @@ mock_geodata.assert_called_once_with('1.2.3.4')
 self.assertEqual(1, len(visits))
 
 -   The location data was properly persisted:
-
+```py
 first_visit = visits[0]
 self.assertEqual("/some/url", first_visit.url)
 self.assertEqual('Los Angeles, 90001', first_visit.location)
 self.assertEqual(Decimal("34.05"), first_visit.latitude)
 self.assertEqual(Decimal("-118.25"), first_visit.longitude)
-
+```
 When we run  `python -m unittest discover`  we get the following output:
-
+```py
 F.....
 ======================================================================
 FAIL: test_visitors_location_is_derived_from_ip (flask_tracking.tracking.tests.TrackingViewsTests)
@@ -411,17 +411,17 @@ AssertionError: 'Los Angeles, 90001' != None
 Ran 6 tests in 0.147s
 
 FAILED (failures=1)
-
+```
 Ah, a failure! Apparently, we are not mapping location properly, as the  `Visit`’s location is not being persisted in the database. Checking our view code reveals that we are indeed setting  `location`  when we construct our  `VisitForm`  … but that we do not actually  _have_  a  `location`  field set up for our  `VisitForm`! Good thing we caught that before we went live! (This duplication of fields causes problems, and should suggest something to you all - when it does I suggest you take a look at  [`wtforms-alchemy`](http://wtforms-alchemy.readthedocs.org/en/latest/).)
 
 Once we add  `location`,  `latitude`, and  `longitude`  fields to our  `VisitForm`  we should be able to run our tests and get:
-
+```
 .....
 ----------------------------------------------------------------------
 Ran 5 tests in 0.150s
 
 OK
-
+```
 And that completes our first test with mocks.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -433,7 +433,7 @@ Our unit tests are very useful - but what happens when we try to test something 
 Assume that we always run our tests before committing and deploying, then our unit tests cannot help us when something breaks in production. Instead, we will need to ask the user to provided us with a complete example, so that we can debug it locally.
 
 Let’s say that we engaged in a little bit of refactoring of our login form-
-
+```py
 # If you can see what's broken already, give yourself a prize
 # and write a test to ensure it never happens again :-)
 
@@ -454,11 +454,11 @@ class LoginForm(Form):
         # Make the current user available
         # to calling code.
         form.user = user
-
+```
 -and when we push it to production our first user sends us an email to let us know that he mis-typed his password and was still logged into the system. We verify that this is the case on our live site. Woah, Nelly, that is not at all acceptable! So we quickly take down the login page and replace it with a message saying we are down for maintenance and we’ll be back as soon as possible (_Rule #0 of SaaS - always treat your customers the way you would want to be treated_).
 
 Looking at it locally, we don’t see any reason that users  _should_  be able to log in without a password. However, we haven’t written any tests to test that a mis-typed password is rejected with an error message, so we can’t be 100% sure that this isn’t an error in our code. So let’s write a test case and see what happens:
-```
+```py
 def test_invalid_password_is_rejected(self):
     User.create(name="Joe", email="joe@joes.com", password="12345")
 
@@ -791,5 +791,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY3NzcyNjZdfQ==
+eyJoaXN0b3J5IjpbMTEyMTk1NzMzMl19
 -->
