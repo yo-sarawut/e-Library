@@ -118,9 +118,9 @@ r = requests.get(url)
   
 print(r.content[:100])  
 ```  
-  
+  ``` 
 b'<!DOCTYPE html>\n<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->\n<!--[if lte'  
-  
+  ``` 
   
 Since we essentially have a giant string of HTML, we can print a slice of 100 characters to confirm we have the source of the page. Let's start extracting data.  
   
@@ -568,16 +568,15 @@ website = soup.select_one('.www')['href']
   
   
 ---------------------------------------------------------------------------  
-  
+  ``` 
 TypeError Traceback (most recent call last)  
   
 <ipython-input-17-498af79f7cde> in <module>  
 ----> 1 website = soup.select_one('.www')['href']  
   
   
-TypeError: 'NoneType' object is not subscriptable  
-  
-  
+TypeError: 'NoneType' object is not subscriptable    
+ ```  
 So let's make another loop to request the AllSides page and get links for each news source. Unfortunately, some pages don't have a link in this grey bar to the news source, which brings up a good point: **always account for elements to randomly not exist**.  
   
 Up until now we've assumed elements exist in the tables we scraped, but it's always a good idea to program scrapers in way so they don't break when an element goes missing.  
@@ -1263,5 +1262,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzU3MDIzNCwyMjM3NTI3NDZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTY3MTA3NDQsMjIzNzUyNzQ2XX0=
 -->
