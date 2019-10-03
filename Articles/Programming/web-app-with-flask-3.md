@@ -512,40 +512,43 @@ def login_view():
     1 / 0  # KABOOM!
 
 Now, if we run:
-
+```
 $ python run.py
-
+```
 And navigate to the login page we will see  [a nice traceback](https://realpython.com/python-traceback/). Clicking on the shell icon on the right of the last line of the traceback (`1 / 0`) will get us an interactive REPL that we can use to test our function:
 
 >>>
-
+```py
 >>> form.validate_login(field=None)  # We don't use the field argument
-
+```
 This results in:
-
+```py
 Traceback (most recent call last):
     File "<debugger>", line 1, in <module>
     form.validate_login(None)
     File "~/dev/flask-tracking/flask_tracking/users/forms.py", line 15, in validate_login
     raise validators.ValidationError('Invalid user')
     ValidationError: Invalid user
-
+```
 So now we know that our validation function  _works_  - it simply is not being called. Let’s remove that division by zero error from our login view and replace it with a call to  [the Python debugger  `pdb`](https://realpython.com/python-debugging-pdb/).
-
+```py
 def login_view():
     form = LoginForm(request.form)
     import pdb; pdb.set_trace()
-
+```
 Now, when we run our tests again we get a debugger:
 
 python -m unittest discover .
+```py
 .> ~/dev/flask-tracking/app/users/views.py(18)login_view()
 -> if form.validate_on_submit():
 (Pdb)
-
+```
 We can step into the  `validate_on_submit`  method by typing “s” for “step”, and step over calls we are not interested in with “n” for “next” (a full introduction to PDB is beyond the scope of this tutorial - for more information on PDB see it’s  [documentation](http://docs.python.org/2/library/pdb.html)  or type “h” while inside of  `pdb`):
 ```
 (Pdb) s
+```
+```
 --Call--
 > ~/.virtualenvs/realpython/lib/python2.7/site-packages/flask_wtf/form.py(120)validate_on_submit()
 -> def validate_on_submit(self):
@@ -787,5 +790,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjU5OTk4MV19
+eyJoaXN0b3J5IjpbNTIzMDQ1Mjk5XX0=
 -->
