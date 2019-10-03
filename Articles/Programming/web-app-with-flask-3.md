@@ -61,7 +61,7 @@ Each chunk of functionality needs to have tests. To do this in a neat and concis
 We’ll use  [`Flask-Testing`](http://pythonhosted.org/Flask-Testing/)  extension because it has a bunch of useful testing features that we’d be setting up anyways. Go ahead and add  `Flask-Testing==0.4`  to the bottom of  `requirements.txt`  then run  `pip install -r requirements.txt`.
 
 Flask-Testing eliminates almost all of the boilerplate of setting up Flask for unit testing. The little bit that remains we will place in a new module  `test_base.py`:
-
+```py
 # flask_testing/test_base.py
 from flask.ext.testing import TestCase
 
@@ -80,11 +80,11 @@ class BaseTestCase(TestCase):
     def tearDown(self):
         db.session.remove()
         db.drop_all()
-
+```
 This test case doesn’t do anything spectacular - it just configures the application with our test configuration, creates all of our tables at the start of every test and deletes all of our tables at the end of every test. This way every test case starts out with a clean slate and we can spend more time writing tests and less time debugging our test cases. Since every test case will inherit from our new  `BaseTestCase()`  class we will avoid copying and pasting this configuration into every package we create for our application.
 
 One additional thing we have done is modularize our configurations. The original  `config.py`  module supported only one configuration - we can update that to allow for differences between environments. As a reminder, this is what  `config.py`  looked like in  [Part 2](https://realpython.com/python-web-applications-with-flask-part-ii/):
-
+```py
 # config.py
 from os.path import abspath, dirname, join
 
@@ -93,9 +93,9 @@ _cwd = dirname(abspath(__file__))
 SECRET_KEY = 'flask-session-insecure-secret-key'
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + join(_cwd, 'flask-tracking.db')
 SQLALCHEMY_ECHO = True
-
+```
 It looks almost the same now - we simply created a class that holds all of these configuration values:
-
+```py
 from os.path import abspath, dirname, join
 
 _cwd = dirname(abspath(__file__))
@@ -119,7 +119,7 @@ class TestConfiguration(BaseConfiguration):
     # we turn this down - the hashing is still done
     # but the time-consuming part is left out.
     HASH_ROUNDS = 1
-
+```
 This way settings that are common to all environments can be easily shared, and we can easily override what we need to in our environment specific configurations. (This pattern comes directly from  [Flask’s excellent documentation](http://flask.pocoo.org/docs/config/#development-production).)
 
 We are using an in-memory SQLite database for our tests to ensure that our tests execute as quickly as possible. We want to enjoy running our tests, and we can only do that if they execute in a reasonable amount of time. If we really need access to the result of the test run we can override the  `:memory:`  setting with the calculated path to  `tests.db`. (That’s the commented out  `+ join(_cwd, 'testing.db')`  in our  `TestConfiguration`).
@@ -127,14 +127,14 @@ We are using an in-memory SQLite database for our tests to ensure that our tests
 We have also added a  `HASH_ROUNDS`  key to our configuration to control how many times a user’s password should be hashed before it is stored. We can change  `flask_tracking.users.models.User`’s  `_hash_password`  method to use this key:
 
 from flask import current_app
-
+```py
 # ... snip ...
 
 def _hash_password(self, password):
     # ... snip ...
     rounds = current_app.config.get("HASH_ROUNDS", 100000)
     buff = pbkdf2_hmac("sha512", pwd, salt, iterations=rounds)
-
+```
 This ensures that our unit tests will run quickly - otherwise, every time we need to create or log in a user we will have to wait for 100,000 rounds of sha512 to complete before we can continue our test.
 
 Finally, we will need to update our  `app.from_object`  call in  `flask_tracking/__init__.py`. Before, we were loading the config using  `app.from_object('config')`. Now that we have two configurations in our config module we will want to change that to  `app.from_object('config.BaseConfiguration')`.
@@ -790,5 +790,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTg5NDQ3OV19
+eyJoaXN0b3J5IjpbLTEzNDgyMDc4MV19
 -->
