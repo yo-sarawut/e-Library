@@ -789,6 +789,8 @@ In Part VI we will cover automating deployments (on Heroku) with Fabric and basi
 Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
+
+Reference : [https://realpython.com/python-web-applications-with-flask-part-iii/](https://realpython.com/python-web-applications-with-flask-part-iii/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgyMDc4MV19
+eyJoaXN0b3J5IjpbMTE3MzMxNzQwM119
 -->
