@@ -364,9 +364,9 @@ class CRUDMixin(object):
     def delete(self, commit=True):
         db.session.delete(self)
         return commit and db.session.commit()
-
+```
 `CRUDMixin`  provides us with an easier way of handling the four most common model operations (Create, Read, Update, and Delete):
-
+```py
 def create(cls, commit=True, **kwargs): 
     pass
 
@@ -378,7 +378,7 @@ def update(self, commit=True, **kwargs):
 
 def delete(self, commit=True): 
     pass
-
+```
 Now, if we update our  `User`  class to also subclass  `CRUDMixin`:
 
 from flask_tracking.data import CRUDMixin, db
@@ -386,9 +386,9 @@ from flask_tracking.data import CRUDMixin, db
 class User(UserMixin, CRUDMixin, db.Model):
 
 we can then use the much clearer:
-
+```py
 user = User.create(**form.data)
-
+```
 call in our views. This makes it easier to reason about what our code is doing and makes it much easier to refactor (since each piece of code deals with fewer concerns). We can also update our  `tracking`  package’s code to make use of the same methods.
 
 ### Templates
@@ -402,11 +402,11 @@ That said, since we are focusing on Flask, we will use Jinja to serve up the pag
 ### Layout
 
 First, look at  [`layout.html`](https://github.com/mjhea0/flask-tracking/blob/part-2/flask_tracking/templates/layout.html)  (I am leaving the majority of the code out of this article to save space, but I am providing links to the full code):
-
+```py
 <title>{% block title %}{{ title }}{% endblock %}</title>
 <!-- ... snip ... -->
 <h1>{{ self.title() }}</h1>
-
+```
 This snippet showcases two of my favorite tricks - first, we have a block (`title`) that contains a variable so we can set this value from our  `render_template`  calls (so we don’t need to create a whole new template just to change a title). Second, we are  _re-using_  the contents of the block for our header with the special  `self`  variable. This means, when we set  `title`  (either in a child template or via a keyword argument to  `render_template`) the text we provide will show up  _both_  in the browser’s title bar and in the  `h1`  tag.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -414,7 +414,7 @@ This snippet showcases two of my favorite tricks - first, we have a block (`titl
 ### Form management
 
 The other piece of our templating structure that merits a look is  [our macros](https://github.com/mjhea0/flask-tracking/tree/part-2/flask_tracking/templates/helpers). For those of you coming from a Django background, Jinja’s macros are Django’s  `tag`s on steroids. Our  `form.render`  macro, for example, makes it incredibly easy to add a form to one of our templates:
-
+```py
 {% macro render(form) %}
 <dl>
 {% for field in form if field.type not in ["HiddenField", "CSRFTokenField"] %}
@@ -431,16 +431,16 @@ The other piece of our templating structure that merits a look is  [our macros](
 </dl>
 {{ form.hidden_tag() }}
 {% endmacro %}
-
+```
 Using it is as simple as:
-
+```py
 {% import "helpers/forms.html" as forms %}
 <!-- ... snip ... -->
 <form action="{{url_for('users.register')}}" method="POST">
 {{ forms.render(form) }}
 <p><input type="Submit" value="Learn more about your visitors"></p>
 </form>
-
+```
 Instead of writing the same form HTML over and over again we can just use  `form.render`  to automatically generate the boilerplate HTML for each field in our forms. This way all of our forms will look and function in the same way and if we ever have to change them we only have to do it in once place.  **Don’t Repeat Yourself**  makes for very clean code.
 
 ## Refactoring the Tracking Application
@@ -452,7 +452,7 @@ In Part I, we built the skeleton of a request tracker. Sites were created on the
 ### Filtering sites
 
 Let’s start with site list:
-
+```py
 # flask_tracking/tracking/views.py
 @tracking.route("/sites", methods=("GET", "POST"))
 @login_required
@@ -487,7 +487,7 @@ _LINK = Markup('<a href="{url}">{name}</a>')
 def _make_link(site_id):
     url = url_for(".view_site_visits", site_id=site_id)
     return _LINK.format(url=url, name=site_id)
-
+```
 Starting from the top, the  `@login_required`  decorator is provided by  `Flask-Login`. Anyone who isn’t logged in who tries to go to  `/sites/`  will be redirected to the login page. Next, we are checking to see if the user is currently adding a new site (`form.validate_on_submit`  checks to see if  `request.method`  is POST and validates the form - if either of the preconditions fails, the method returns  `False`, otherwise it returns  `True`). If the user is creating a new site, we create a new site (using the method defined by our  `CRUDMixin`, so if you are making changes to the code yourself, you will want to make sure that  `Site`  and  `Visit`  both inherit from  `CRUDMixin`) and redirect back to the same page. We redirect back to ourselves after saving the new site to prevent a page refresh causing the user to attempt to add the site twice. (This is called the Post-Redirect-Get pattern).
 
 If you are not sure what I mean by that, try commenting out the  `return redirect(url_for(".view_sites"))`, then submit the “Add a Site” form and when the page reloads push  `F5`  to refresh your browser. Try that same exercise after restoring the redirect. (When the redirect is removed the browser will ask if you really want to submit the form data again - the last request that the browser made is the POST that created the new site. With the redirect, the last request that the browser made is the GET request that reloaded the  `view_sites`  page).
@@ -647,5 +647,5 @@ Your app should now look like this:
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MTkwMDUxXX0=
+eyJoaXN0b3J5IjpbMTU2NTE1OTYxOV19
 -->
