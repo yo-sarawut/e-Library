@@ -521,6 +521,8 @@ dtypes: float64(1), int64(2), object(2)
 memory usage: 1.3+ KB
 None
 ```
+Gladiator
+
 
 imdb
 
@@ -1600,5 +1602,5 @@ To build upon what we’ve learned, here are a few next steps to consider:
 -   Scrape additional data about the movies.
 -   Find a different website to scrape something that interests you. For example, you could scrape data about  [laptops](https://www.walmart.com/browse/electronics/laptop-computers/hp/3944_3951_132960/YnJhbmQ6SFAie?page=1#searchProductResult)  to see how prices vary over time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Nzg1NjA0XX0=
+eyJoaXN0b3J5IjpbLTQxMzgwNzIxOSwyMDc3ODU2MDRdfQ==
 -->
