@@ -206,12 +206,12 @@ with self.client:
     self.assertFalse(current_user.is_anonymous())
 
 Now, when we run our test again, we pass!
-
+```
 ----------------------------------------------------------------------
 Ran 1 test in 0.053s
-
+```
 Let’s ensure that when Joe is logged in, he can log out:
-
+```py
 def test_users_can_logout(self):
     User.create(name="Joe", email="joe@joes.com", password="12345")
 
@@ -222,7 +222,7 @@ def test_users_can_logout(self):
         self.client.get(url_for("users.logout"))
 
         self.assertTrue(current_user.is_anonymous())
-
+```
 Once again, we create Joe (remember, the database is reset at the end of every test). Then we log him in (which we know works because our first test is passing). Finally, we log him out by requesting the logout page via  `self.client.get(url_for("users.logout"))`  and ensure that the user we have is once again anonymous. Run the tests again and bask in the satisfaction of having two passing tests.
 
 A couple of other things that we will want to check:
@@ -231,8 +231,6 @@ A couple of other things that we will want to check:
 -   When a user logs out, do they get redirected back to the index page?
 
 These tests are available in  [the  `flask-tracking`  repository](https://github.com/mjhea0/flask-tracking), should you want to review them. Since they are similar to what we have already written, we will skip them here.
-
-[Remove ads](https://realpython.com/account/join/)
 
 ## Mocks and Integration Tests
 
@@ -262,7 +260,7 @@ What we want to do in our  _unit_  test is ensure that when  `get_geodata`  work
 First, let’s install  [a mocking library](http://mock.readthedocs.org/en/latest/)  to make this easier. Add  [`mock==1.0.1`](http://mock.readthedocs.org/en/latest/)  to requirements.txt and  `pip install -r requirements.txt`  again. (If you are using Python 3.3 or greater, you already have mock installed as  `unittest.mock`.)
 
 Now we can write our unit test:
-
+```py
 # flask_tracking/tracking/tests.py
 from decimal import Decimal
 
@@ -307,19 +305,19 @@ class TrackingViewsTests(BaseTestCase):
                 self.assertEqual('Los Angeles, 90001', first_visit.location)
                 self.assertEqual(34.05, first_visit.latitude)
                 self.assertEqual(-118.25, first_visit.longitude)
-
+```
 Don’t worry - the pain of testing these sorts of integrations is mitigated by the fact that you generally have fewer of them in your application than you have units of code. Let’s walk through this code section by section and break it down into digestible chunks.
 
 ### Set up the test data and mocks
 
 First, we set up a user and a site since the database is empty at the start of every test:
-
+```py
 def test_visitors_location_is_derived_from_ip(self):
     user = User.create(name='Joe', email='joe@joe.com', password='12345')
     site = Site.create(user_id=user.id)
-
+```
 Then, we create a mock function, and specify that it should return a dictionary containing the coordinates for Los Angeles every time it is called (we could have simply created a simple function that always returned the dictionary, but mock also provides the  [`patch.*`](http://mock.readthedocs.org/en/latest/patch.html)  context managers, which are extremely useful, so we’ll go the whole nine yards with the library):
-
+```py
 mock_geodata = Mock(name='get_geodata')
 mock_geodata.return_value = {
     'city': 'Los Angeles',
@@ -327,13 +325,13 @@ mock_geodata.return_value = {
     'latitude': '34.05',
     'longitude': '-118.25'
 }
-
+```
 Finally, we set up the URL that we are going to visit and the parts of the WSGI environment that we need for  `tracking.add_visit`  to work (which, in this case is just the IP address of our fake end user’s visitor and the URL they supposedly came from):
-
+```py
 url = url_for('tracking.add_visit', site_id=site.id)
 wsgi_environment = {'REMOTE_ADDR': '1.2.3.4'}
 headers = Headers([('Referer', '/some/url')])
-
+```
 ### Patch the mock into our tracking module
 
 We explicitly imported the  `flask_tracking.tracking.views`  module into our  `tests`  module with:
@@ -345,7 +343,7 @@ Now we patch that module’s  `get_views`  name to point to our  `mock_geodata` 
 with patch.object(views, 'get_geodata', mock_geodata):
 
 By using  `patch.object`  as a context manager, we ensure that after we exit this  `with`  block  `flask_tracking.tracking.views.get_geodata`  will once again point to  `flask_tracking.tracking.geodata.get_geodata`. We could also have used  `patch.object`  as a decorator:
-```
+```py
 mock_geodata = Mock(name='get_geodata')
 # ... snip return setup ...
 
@@ -791,5 +789,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTk1NzMzMl19
+eyJoaXN0b3J5IjpbMTYxMzU5NDUwOV19
 -->
