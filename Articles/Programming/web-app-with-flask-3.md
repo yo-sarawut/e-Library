@@ -544,30 +544,29 @@ python -m unittest discover .
 (Pdb)
 
 We can step into the  `validate_on_submit`  method by typing “s” for “step”, and step over calls we are not interested in with “n” for “next” (a full introduction to PDB is beyond the scope of this tutorial - for more information on PDB see it’s  [documentation](http://docs.python.org/2/library/pdb.html)  or type “h” while inside of  `pdb`):
-
+```
 (Pdb) s
 --Call--
 > ~/.virtualenvs/realpython/lib/python2.7/site-packages/flask_wtf/form.py(120)validate_on_submit()
 -> def validate_on_submit(self):
-
+```
 I won’t walk you through the whole debugging session, but needless to say, the issue was with our code. WTForms allows for inline validators in the form  `validate_[fieldname]`. Our  `validate_login`  method is never called because we don’t have a field named  `login`  in our form. Let’s remove the  `set_trace`  call from our controller and rename our  `flask_tracking.users.forms.LoginForm.validate_login`  method back to  `LoginForm.validate_password`  so that WTForms will pick it up as an inline validator for our  `password`  field. This ensures that it only gets called after both the name and password fields have been validated to contain user-supplied data.
 
 Now, when we run our unit tests again, they  _should_  pass. Testing locally reveals that we did indeed fix the issue. We can now safely deploy and take down our maintenance message.
 
-[Remove ads](https://realpython.com/account/join/)
 
 ## Error Handling
 
 As we have discovered, a test suite does not guarantee that we will have no bugs in our application. It is possible for users to still come across errors in production. For example, if we simply blindly accessed  `request.args['some_optional_key']`  in one of our controllers and we only wrote tests with that optional key set in the request, the end user would get a  `400 Bad Request`  response from Flask by default. We want to show a  _helpful_  error message to the user in such cases. We also want to avoid showing the users unbranded or out-of-date pages without much help on where to go, or what to do next.
 
 We can register error handlers with Flask to explicitly handle these sorts of issues. Let’s register one for the most common error - a mis-typed or no-longer existing link:
-
+```py
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
-
+```
 We may want to explicitly handle other kinds of errors as well, such as the 400 Bad Request errors that Flask generates for missing keys and the 500 Internal Server errors that are generated for uncaught exceptions:
-
+```py
 @app.errorhandler(400)
 def key_error(e):
     return render_template('400.html'), 400
@@ -575,17 +574,17 @@ def key_error(e):
 @app.errorhandler(500)
 def internal_server_error(e):
     return render_template('generic.html'), 500
-
+```
 In addition to the HTTP errors that we might have to deal with, Flask also allows us to display different error pages when an uncaught exception bubbles up to its level. For now, let’s just register a generic error handler for all uncaught exceptions (but later we may want to register specific ones for more-common error conditions that we cannot do anything about):
-
+```py
 @app.errorhandler(Exception)
 def unhandled_exception(e):
     return render_template('generic.html'), 500
-
+```
 Now all the most common cases of errors should be handled gracefully by our application.
 
 However, we can do even better - let’s ensure that  _every_  error is nicely styled we could register the same error handler for every possible error condition:
-
+```py
 # flask_tracking/errors.py
 from flask import current_app, Markup, render_template, request
 from werkzeug.exceptions import default_exceptions, HTTPException
@@ -620,7 +619,7 @@ def init_app(app):
         app.register_error_handler(exception, error_handler)
 
     app.register_error_handler(Exception, error_handler)
-
+```
 # This can be used in __init__ with a
 # import .errors
 # errors.init_app(app)
@@ -634,16 +633,16 @@ Finally, let’s talk about logging. Users will not always have enough time to r
 Fortunately, both Python and Flask have logging capabilities, so we do not need to re-invent the wheel here either. A standard Python  `logging`  logger is available on the Flask object at  `app.logger`.
 
 The first place where we could use some logging is in our error handlers. We don’t need to log 404s as the proxy server will do that for us if we set it up right, but we will want to log the reasons for our other exceptions (400, 500 and Exception). Let’s go ahead and add some more detailed logging to those handlers. Since we are doing using the same handler for all our errors, this is easy:
-
+```py
 def error_handler(error):
     error_name = error.__name__ if error else "Unknown-Error"
     app.logger.warning('Request resulted in {}'.format(error_name), exc_info=error)
     # ... etc. ...
-
+```
 Python’s documentation on the logging module has a good breakdown of the various available  [logging levels](http://docs.python.org/2/howto/logging.html#when-to-use-logging)  and what they are most appropriate for.
 
 For those times when we don’t have access to the  `app`  (say, inside of our  `view`  modules) we can use the thread-local  `current_app`  in the exact same way as we would use  `app`. For an example, let’s also add a bit of logging to our login and logout handlers:
-
+```py
 from flask import current_app
 
 @users.route('/logout/')
@@ -788,5 +787,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3ODk0MzQyXX0=
+eyJoaXN0b3J5IjpbMTM5NjU5OTk4MV19
 -->
