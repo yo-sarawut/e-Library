@@ -9,12 +9,11 @@ Python Web Applications With Flask – Part II
 3.  Part III:  [Testing (unit and integration), Debugging, and Error handling](https://realpython.com/python-web-applications-with-flask-part-iii/)
 
 Welcome back to the Flask-Tracking development series! For those of you who are just joining us, we are implementing a web analytics application that conforms to  [this napkin specification](https://realpython.com/python-web-applications-with-flask-part-i/#toc_1). For all those of you following along at home, you may check out today’s code with:
-
+```py
 $ git checkout v0.2
-
+```
 Or, you may download it from the  [releases page on Github](https://github.com/mjhea0/flask-tracking/releases). Those of you who are just joining us may wish to read  [a note on the repository structure](https://realpython.com/python-web-applications-with-flask-part-i/#toc_5)  as well.
 
-[Remove ads](https://realpython.com/account/join/)
 
 ## Housekeeping
 
@@ -25,7 +24,7 @@ Today we will add users, access control, and enable users to add visits from the
 ### From single to multi-package
 
 When last we left our application, the directory structure looked something like this:
-
+```py
 flask-tracking/
     flask_tracking/
         templates/    # Holds Jinja templates
@@ -37,9 +36,9 @@ flask-tracking/
     README.md
     requirements.txt
     run.py            # `python run.py` to bring the application up locally.
-
+```
 To keep things clear, let’s move the existing  `forms`,  `models`, and  `views`  into a  `tracking`  sub-package and create another sub-package for our  `User`-specific functionality which we will call  `users`:
-
+```py
 flask_tracking/
     templates/
     tracking/         # This is the code from Part 1
@@ -50,11 +49,11 @@ flask_tracking/
     users/            # Where we are working today
         __init__.py
     __init__.py       # This is also code from Part 1
-
+```
 This means that we will need to change our import in  `flask_tracking/__init__.py`  from  `from .views import tracking`  to  `from .tracking.views import tracking`.
 
 Then there is the database setup in  `tracking.models`. This we will move out into the parent package (`flask_tracking`) since the database manager will be shared between packages. Let’s call that module  `data`:
-
+```py
 # flask_tracking/data.py
 from flask.ext.sqlalchemy import SQLAlchemy
 
@@ -73,7 +72,7 @@ def query_to_list(query, include_field_names=True):
 def obj_to_list(sa_obj, field_order):
     """Takes a SQLAlchemy object - returns a list of all its data"""
     return [getattr(sa_obj, field_name, None) for field_name in field_order]
-
+```
 Then we can update  `tracking.models`  to use  `from flask_tracking.data import db`  and  `tracking.views`  to use  `from flask_tracking.data import db, query_to_list`  and we should now have a working  _multi-package_  application.
 
 ## Users
@@ -85,10 +84,10 @@ Now that we have split up our application into separate packages of related func
 We have a  [rule](https://realpython.com/python-web-applications-with-flask-part-i/#toc_7)  for taking on dependencies - each dependency we add must solve at least one difficult problem well. Maintaining user sessions has several interesting edge-cases which makes it an excellent candidate for a dependency. Fortunately, there is one readily available for this use case -  [Flask-Login](http://flask-login.readthedocs.org/en/latest/). However, there is one thing that Flask-Login does not handle at all - authentication. We can use any authentication scheme we want to - from “just provide a username” to distributed authentication schemes like Persona. Let’s keep it simple and go with username and password. This means that we need to store a user’s password, which we will want to hash. Since properly hashing passwords is  _also_  a hard problem we will take on another dependency,  [`backports.pbkdf2`](https://pypi.python.org/pypi/backports.pbkdf2/)  to ensure our passwords are securely hashed. (We picked pbdkdf2 because it is  [considered secure](http://security.stackexchange.com/a/6415/3231)  as of this writing and is included in Python 3.3+ - we only need it while we are running on Python 2.)
 
 Let’s go ahead and add:
-
+```py
 Flask-Login==0.2.7
 backports.pbkdf2==0.1
-
+```
 to our  `requirements.txt`  file and then (making sure our virtual environment is activated) we can run  `pip install -r requirements.txt`  again to install them. (You may get some errors compiling the C speedups for pbkdf2 - you can ignore them). We will integrate it with our application in a moment - first we need to set up our Users so Flask-Login has something to work with.
 
 ### Models
@@ -649,5 +648,5 @@ Your app should now look like this:
 -   In Part VI we will cover automating deployments (on Heroku) with Fabric and basic A/B Feature Testing.
 -   Finally, in Part VII we will cover preserving your application for the future with documentation, code coverage and quality metric tools.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg2NDQxNjJdfQ==
+eyJoaXN0b3J5IjpbMTMyMDA1MTk5Nl19
 -->
