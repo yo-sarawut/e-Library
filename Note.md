@@ -1,10 +1,11 @@
 
 # e-Book
+- [GitBook_notebook](https://app.gitbook.com/@yo-sarawut/s/workspace/)
 - [e-Libraly](https://e_libraly.gitlab.io/knowledge_base/)
 - [e-Import](https://app.gitbook.com/@e-import/s/e-import/)
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
 - [e-Tax Invoice & Receipt]()
-- 
+
 #  Tutorials
 
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
@@ -102,11 +103,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMT
-c5MTc4Njk5MywtNTQ1NzQzMjkwLDE4OTk4MzQzMDksMTY2NTI4
-NzYzNCwxNTE2OTM1MzU3LC0xMDY2NTkyNzUzLC03MzA3NTkzOD
-MsLTE4Nzc5NjQ3MDgsLTE2Nzk4Mzc3LC0xNzIxNDI1NTM5LC0x
-MTg4MDQ4OTEyLDE5NDU0NjQ4MjYsLTY3OTI2MTA4OSwtMTIzND
-EwMDY0MSwxNjY5NzAxMzczLC0zOTgxNDMxNTUsLTQxMTM2MzMx
-NiwtODEwNjA3MzQxXX0=
+eyJoaXN0b3J5IjpbMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMD
+QwNzk1NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgz
+NDMwOSwxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NT
+MsLTczMDc1OTM4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3
+MjE0MjU1MzksLTExODgwNDg5MTIsMTk0NTQ2NDgyNiwtNjc5Mj
+YxMDg5LC0xMjM0MTAwNjQxLDE2Njk3MDEzNzMsLTM5ODE0MzE1
+NSwtNDExMzYzMzE2XX0=
 -->
