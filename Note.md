@@ -94,15 +94,15 @@ if __name__ == '__main__':
 
 ### แทรกรูป Gitbook
 ```
-<img src="https://github.com/yosarawut/WorkingArea/raw/master/KnowledgeCenter/img/30-07-2019%2017-04-55.jpg" alt="การตรวจสอบผลการคำนวณมูลค่าเงินนำเข้า" border="0";>
+<img src="![](https://miro.medium.com/max/1280/1*41oEHeq_kwMWNX9KQGMtIQ.jpeg)" alt="" border="0";>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxOD
-k5ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5
-Mjc1MywtNzMwNzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3Ny
-wtMTcyMTQyNTUzOSwtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2LC02
-NzkyNjEwODksLTEyMzQxMDA2NDEsMTY2OTcwMTM3MywtMzk4MT
-QzMTU1LC00MTEzNjMzMTYsLTgxMDYwNzM0MSwyMTI4NTU3MjUy
-LC0yNDIyOTk2OTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLT
+U0NTc0MzI5MCwxODk5ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkz
+NTM1NywtMTA2NjU5Mjc1MywtNzMwNzU5MzgzLC0xODc3OTY0Nz
+A4LC0xNjc5ODM3NywtMTcyMTQyNTUzOSwtMTE4ODA0ODkxMiwx
+OTQ1NDY0ODI2LC02NzkyNjEwODksLTEyMzQxMDA2NDEsMTY2OT
+cwMTM3MywtMzk4MTQzMTU1LC00MTEzNjMzMTYsLTgxMDYwNzM0
+MSwyMTI4NTU3MjUyXX0=
 -->
