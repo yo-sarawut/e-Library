@@ -152,7 +152,7 @@ From  [last time](https://realpython.com/python-web-applications-with-flask-part
 -   Logging out.
 
 So we need to write tests that cover users signing up, users logging in and then users logging out. Let’s start with a simple case - an existing user attempting to log in:
-
+```py
 # flask_tracking/users/tests.py
 from flask import url_for
 
@@ -167,36 +167,37 @@ class UserViewsTests(BaseTestCase):
                                     data={'email': 'joe@joes.com', 'password': '12345'})
 
         self.assert_redirects(response, url_for('tracking.index'))
-
+```
 Since every test case starts out with a completely clean database we have to create an existing user first. We can then submit the same request that our user (Joe) would submit if he were trying to log in. We want to ensure that if Joe logs in successfully, he will be redirected back to the home page.
 
 We can run our tests with the  [`unittest`](http://docs.python.org/2/library/unittest.html)  test runner, which comes built-in with Python. Run the following command from the root of the project:
-
+```py
 $ python -m unittest discover
-
+```
 That results in the following output:
-
+```
 ----------------------------------------------------------------------
 Ran 1 test in 0.045s
 
 OK
-
+```
 Hurray! We now have a passing test! Let’s also test that our integration with Flask-Login is working.  `current_user`  should be Joe, so we should be able to do the following:
 
 from flask.ext.login import current_user
-
+```py
 # And then inside of our test_users_can_login function:
 self.assertTrue(current_user.name == 'Joe')
 self.assertFalse(current_user.is_anonymous())
-
+```
 However, if we were to try this we would get the following error:
 
 >>>
-
-AttributeError: 'AnonymousUserMixin' object has no attribute 'name'
-
+```
+AttributeError: 'AnonymousUserMixin' object has no attribute 
+'name'
+```
 `current_user`  needs to be accessed within the context of a request (it is a thread-local object, just like  `flask.request`). When  `self.client.post`  completes the request and every thread-local object is torn down. We need to preserve the request context so we can test our integration with Flask-Login. Fortunately,  `Flask`’s  [`test_client`](http://flask.pocoo.org/docs/api/#flask.Flask.test_client)  is a  [context manager](http://flask.pocoo.org/docs/testing/#keeping-the-context-around), which means that we can use it in a  `with`  statement and it will keep the context around as long as we need it:
-
+```py
 with self.client:
     response = self.client.post(url_for('users.login'),
                                 data={'email': 'joe@joes.com', 'password': '12345'})
@@ -204,7 +205,7 @@ with self.client:
     self.assert_redirects(response, url_for('index'))
     self.assertTrue(current_user.name == 'Joe')
     self.assertFalse(current_user.is_anonymous())
-
+```
 Now, when we run our test again, we pass!
 ```
 ----------------------------------------------------------------------
@@ -789,5 +790,5 @@ Finally, in Part VII we will cover preserving your application for the future wi
 
 As always, the code is available from  [the repository](https://github.com/mjhea0/flask-tracking). Looking forward to continuing this journey with you.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzU5NDUwOV19
+eyJoaXN0b3J5IjpbMTA3NTg5NDQ3OV19
 -->
