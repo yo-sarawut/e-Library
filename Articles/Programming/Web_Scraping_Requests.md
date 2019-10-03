@@ -786,13 +786,7 @@ Now filter the DataFrame by "agreeance_text":
 ```python  
 df[df['agreeance_text'] == 'strongly disagrees']  
 ```  
-  
-  
-
-  
-<div>  
-<style scoped>  
-``` 
+``` py
 .dataframe tbody tr th:only-of-type {  
 vertical-align: middle;  
 }  
@@ -1264,5 +1258,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjQ2Nzg0NCwyMjM3NTI3NDZdfQ==
+eyJoaXN0b3J5IjpbMTYyNTE0NTQ4NywyMjM3NTI3NDZdfQ==
 -->
