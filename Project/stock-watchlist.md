@@ -14,6 +14,7 @@ PANTONE 19-4055
 
 **==Dash==**
 - [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/) , [GitHub](https://github.com/facultyai/dash-bootstrap-components), [Dash Doc](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
+- [Dash Store clicks example](https://dash.plot.ly/dash-core-components/store)
 
 ## ชื่อโปรแกรม 
 
@@ -297,5 +298,5 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYxMzMxMjFdfQ==
+eyJoaXN0b3J5IjpbLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
 -->
