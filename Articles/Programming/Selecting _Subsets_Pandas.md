@@ -672,23 +672,29 @@ Series subset selection with  `**.iloc**`  happens similarly to  `**.loc**`  exc
 Select a single value:
 ```py 
 food.iloc[0]  
+```
+```py 
 'Steak'
-
+```
 Use a list of integers to select multiple values:
-
->>> food.iloc[[4, 1, 3]]  
+```py 
+food.iloc[[4, 1, 3]]  
+```
+```py 
 Dean        Cheese  
 Niko          Lamb  
 Penelope     Apple  
 Name: food, dtype: object
-
+```
 Use a slice — is exclusive of last integer
-
->>> food.iloc[4:6]  
+```py 
+ food.iloc[4:6]  
+ ```
+ ```py 
 Dean         Cheese  
 Christina     Melon  
 Name: food, dtype: object
-
+```
 # Comparison to Python lists and dictionaries
 
 It may be helpful to compare pandas ability to make selections by label and integer location to that of Python lists and dictionaries.
@@ -697,9 +703,12 @@ Python lists allow for selection of data only through integer location. You can 
 
 Let’s see examples of subset selection of lists using integers:
 
->>> some_list = ['a', 'two', 10, 4, 0, 'asdf', 'mgmt', 434, 99]>>> some_list[5]  
-'asdf'>>> some_list[-1]  
-99>>> some_list[:4]  
+some_list = ['a', 'two', 10, 4, 0, 'asdf', 'mgmt', 434, 99]
+ some_list[5]  
+'asdf
+'>>> some_list[-1]  
+99
+some_list[:4]  
 ['a', 'two', 10, 4]>>> some_list[3:]  
 [4, 0, 'asdf', 'mgmt', 434, 99]>>> some_list[2:6:3]  
 [10, 'asdf']
@@ -969,6 +978,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NzUwMDMzLC04NTM3MDkzOCwxMzY2Mz
-g3OTQzXX0=
+eyJoaXN0b3J5IjpbLTM3NDg5MDMwMCwtODUzNzA5MzgsMTM2Nj
+M4Nzk0M119
 -->
