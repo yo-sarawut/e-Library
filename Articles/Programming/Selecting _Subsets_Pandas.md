@@ -560,7 +560,7 @@ df.iloc[3:6, [1, 4]]
 ![](https://miro.medium.com/max/202/1*4Ff8OMPaU6u1GEG88CrBEQ.png)
 
 Select slices for both
-```
+```py
 df.iloc[2:5, 2:5]
 ```
 ![](https://miro.medium.com/max/60/1*jFvBH1eyLSs09-SQIWa2Eg.png?q=20)
@@ -568,13 +568,17 @@ df.iloc[2:5, 2:5]
 ![](https://miro.medium.com/max/262/1*jFvBH1eyLSs09-SQIWa2Eg.png)
 
 Select a single row and column
-
->>> df.iloc[0, 2]  
+```py
+df.iloc[0, 2]  
+```
+```
 'Steak'
-
+```
 Select all the rows and a single column
-
->>> df.iloc[:, 5]  
+```py
+df.iloc[:, 5]  
+```
+```py
 Jane         4.6  
 Niko         8.3  
 Aaron        9.0  
@@ -583,7 +587,7 @@ Dean         1.8
 Christina    9.5  
 Cornelia     2.2  
 Name: score, dtype: float64
-
+```
 # Deprecation of  `.ix`
 
 Early in the development of pandas, there existed another indexer,  `**ix**`. This indexer was capable of selecting both by label and by integer location. While it was versatile, it caused lots of confusion because it's not explicit. Sometimes integers can also be labels for rows or columns. Thus there were instances where it was ambiguous.
@@ -595,9 +599,11 @@ You can still call  `**.ix**`, but it has been deprecated, so please  **never us
 We can also, of course, do subset selection with a Series. Earlier I recommended using just the indexing operator for column selection on a DataFrame. Since Series do not have columns, I suggest using only  `**.loc**`  and  `**.iloc**`. You can use just the indexing operator, but its ambiguous as it can take both labels and integers. I will come back to this at the end of the tutorial.
 
 Typically, you will create a Series by selecting a single column from a DataFrame. Let’s select the  `**food**`  column:
-
->>> food = df['food']  
->>> food  
+```py
+food = df['food']  
+food  
+```
+```py
 Jane          Steak  
 Niko           Lamb  
 Aaron         Mango  
@@ -606,16 +612,18 @@ Dean         Cheese
 Christina     Melon  
 Cornelia      Beans  
 Name: food, dtype: object
-
+```
 # Series selection with  `.loc`
 
 Series selection with  `.loc`  is quite simple, since we are only dealing with a single dimension. You can again use a single row label, a list of row labels or a slice of row labels to make your selection. Let's see several examples.
 
 Let’s select a single value:
-
->>> food.loc['Aaron']  
+```py
+food.loc['Aaron']  
+```py
+```py
 'Mango'
-
+```py
 Select three different values. This returns a Series:
 
 >>> food.loc[['Dean', 'Niko', 'Cornelia']]  
@@ -953,6 +961,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzgzMDgxNiwtODUzNzA5MzgsMTM2Nj
-M4Nzk0M119
+eyJoaXN0b3J5IjpbOTgyODQ5OTAsLTg1MzcwOTM4LDEzNjYzOD
+c5NDNdfQ==
 -->
