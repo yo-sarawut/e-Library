@@ -381,14 +381,16 @@ df.loc['Dean':]
 
 Unlike just the indexing operator, it is possible to select rows and columns simultaneously with  `.loc`. You do it by separating your row and column selections by a  **comma**. It will look something like this:
 
->>> df.loc[row_selection, column_selection]
+```py
+df.loc[row_selection, column_selection]
+```
 
 # Select two rows and three columns
 
 For instance, if we wanted to select the rows  `Dean`  and  `Cornelia`  along with the columns  `age`,  `state`  and  `score`  we would do this:
-
->>> df.loc[['Dean', 'Cornelia'], ['age', 'state', 'score']]
-
+```py
+df.loc[['Dean', 'Cornelia'], ['age', 'state', 'score']]
+```
 ![](https://miro.medium.com/max/60/1*03DYVgodNXVjcx_V9Hj6PQ.png?q=20)
 
 ![](https://miro.medium.com/max/226/1*03DYVgodNXVjcx_V9Hj6PQ.png)
@@ -404,16 +406,18 @@ Row or column selections can be any of the following as we have already seen:
 We can use any of these three for either row or column selections with  `**.loc**`. Let's see some examples.
 
 Let’s select two rows and a single column:
-
->>> df.loc[['Dean', 'Aaron'], 'food']  
+```py
+df.loc[['Dean', 'Aaron'], 'food']  
+```
+```
 Dean     Cheese  
 Aaron     Mango  
 Name: food, dtype: object
-
+```
 Select a slice of rows and a list of columns:
-
->>> df.loc['Jane':'Penelope', ['state', 'color']]
-
+```py
+df.loc['Jane':'Penelope', ['state', 'color']]
+```
 ![](https://miro.medium.com/max/60/1*NA-MxX9soaLLhnq34cp7Rg.png?q=20)
 
 ![](https://miro.medium.com/max/190/1*NA-MxX9soaLLhnq34cp7Rg.png)
@@ -945,6 +949,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUyMTM4ODEsLTg1MzcwOTM4LDEzNj
+eyJoaXN0b3J5IjpbLTE0NTA5NDg5NzksLTg1MzcwOTM4LDEzNj
 YzODc5NDNdfQ==
 -->
