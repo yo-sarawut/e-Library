@@ -173,10 +173,10 @@ df
 # Extracting the individual DataFrame components
 
 Earlier, we mentioned the three components of the DataFrame. The index, columns and data (values). We can extract each of these components into their own variables. Let’s do that and then inspect them:
-```
->>> index = df.index  
->>> columns = df.columns  
->>> values = df.values
+```py
+index = df.index  
+columns = df.columns  
+values = df.values
 index  
 ```
 ```
@@ -941,5 +941,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzcwOTM4LDEzNjYzODc5NDNdfQ==
+eyJoaXN0b3J5IjpbLTM1MjE3MjQzOSwtODUzNzA5MzgsMTM2Nj
+M4Nzk0M119
 -->
