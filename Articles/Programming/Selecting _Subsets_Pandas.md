@@ -735,10 +735,15 @@ All values in each dictionary are labeled by a  **key**. We use this key to make
 d = {'a':1, 'b':2, 't':20, 'z':26, 'A':27}  
 d['a']  
  ```
- 
-1>>> d['A']  
+  ```py
+1
+ ```
+  ```py
+d['A']  
+ ```
+  ```py
 27
-
+ ```
 # Pandas has power of lists and dictionaries
 
 DataFrames and Series are able to make selections with integers like a list and with labels like a dictionary.
@@ -995,6 +1000,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDAxOTUxMiwtODUzNzA5MzgsMTM2Nj
+eyJoaXN0b3J5IjpbMTUzNTUxODAyOSwtODUzNzA5MzgsMTM2Nj
 M4Nzk0M119
 -->
