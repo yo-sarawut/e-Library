@@ -101,13 +101,13 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 ```
 <img src="![](https://miro.medium.com/max/1280/1*41oEHeq_kwMWNX9KQGMtIQ.jpeg)" alt="" border="0";>
 ```
-
+[https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control](https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMD
-QwNzk1NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgz
-NDMwOSwxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NT
-MsLTczMDc1OTM4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3
-MjE0MjU1MzksLTExODgwNDg5MTIsMTk0NTQ2NDgyNiwtNjc5Mj
-YxMDg5LC0xMjM0MTAwNjQxLDE2Njk3MDEzNzMsLTM5ODE0MzE1
-NSwtNDExMzYzMzE2XX0=
+eyJoaXN0b3J5IjpbNzk5OTI1NTg0LDE1NDg2MTU3ODUsMTg1NT
+YwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5MywtNTQ1NzQz
+MjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2OTM1MzU3LC
+0xMDY2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5NjQ3MDgsLTE2
+Nzk4Mzc3LC0xNzIxNDI1NTM5LC0xMTg4MDQ4OTEyLDE5NDU0Nj
+Q4MjYsLTY3OTI2MTA4OSwtMTIzNDEwMDY0MSwxNjY5NzAxMzcz
+LC0zOTgxNDMxNTVdfQ==
 -->
