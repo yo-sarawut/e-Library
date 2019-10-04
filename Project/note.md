@@ -39,9 +39,11 @@ Note for ideas
 
 ![enter image description here](https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2017-04-24-10_00_06.png)
 
+- [vue-password-strength-meter](https://github.com/apertureless/vue-password-strength-meter)
+![enter image description here](https://github.com/apertureless/vue-password-strength-meter/raw/develop/static/demo.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYyNjE0ODEsLTQzNTQyNjMxOCwxOD
-g0NTgyNzA2LDE5ODU5Mzg3MDUsMTM5MTQ4ODc3NCwxNzQ3MzA4
-OTIxLC0zNjkzMzkzMzcsLTE5NDU3NzUzNDcsMjE5MDAwNTExXX
-0=
+eyJoaXN0b3J5IjpbOTgyNjA1MTE0LC0xNzE2MjYxNDgxLC00Mz
+U0MjYzMTgsMTg4NDU4MjcwNiwxOTg1OTM4NzA1LDEzOTE0ODg3
+NzQsMTc0NzMwODkyMSwtMzY5MzM5MzM3LC0xOTQ1Nzc1MzQ3LD
+IxOTAwMDUxMV19
 -->
