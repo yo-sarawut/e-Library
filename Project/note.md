@@ -41,9 +41,11 @@ Note for ideas
 
 - [vue-password-strength-meter](https://github.com/apertureless/vue-password-strength-meter)
 ![enter image description here](https://github.com/apertureless/vue-password-strength-meter/raw/develop/static/demo.gif)
+
+- [[vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)] , [Docum]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNjA1MTE0LC0xNzE2MjYxNDgxLC00Mz
-U0MjYzMTgsMTg4NDU4MjcwNiwxOTg1OTM4NzA1LDEzOTE0ODg3
-NzQsMTc0NzMwODkyMSwtMzY5MzM5MzM3LC0xOTQ1Nzc1MzQ3LD
-IxOTAwMDUxMV19
+eyJoaXN0b3J5IjpbMTUyNDA1ODczMSwtMTcxNjI2MTQ4MSwtND
+M1NDI2MzE4LDE4ODQ1ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4
+Nzc0LDE3NDczMDg5MjEsLTM2OTMzOTMzNywtMTk0NTc3NTM0Ny
+wyMTkwMDA1MTFdfQ==
 -->
