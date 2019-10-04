@@ -313,9 +313,10 @@ The  `**.loc**`  indexer selects data in a different way than just the indexing 
 # Select a single row as a Series with  `.loc`
 
 The  `**.loc**`  indexer will return a single row as a Series when given a single row label. Let's select the row for  `**Niko**`.
-```
+```py
 df.loc['Niko']  
-
+```
+```
 state        TX  
 color     green  
 food       Lamb  
@@ -323,15 +324,15 @@ age           2
 height       70  
 score       8.3  
 Name: Niko, dtype: object
-
+```
 We now have a Series, where the old column names are now the index labels. The  `**name**`  of the Series has become the old index label,  `**Niko**`  in this case.
 
 # Select multiple rows as a DataFrame with  `.loc`
 
 To select multiple rows, put all the row labels you want to select in a list and pass that to  `**.loc**`. Let's select  `Niko`  and  `Penelope`.
-
->>> df.loc[['Niko', 'Penelope']]
-
+```py
+ df.loc[['Niko', 'Penelope']]
+```
 ![](https://miro.medium.com/max/60/1*r-KQCeJEsK2Ba9zdKOrFyw.png?q=20)
 
 ![](https://miro.medium.com/max/397/1*r-KQCeJEsK2Ba9zdKOrFyw.png)
@@ -339,9 +340,9 @@ To select multiple rows, put all the row labels you want to select in a list and
 # Use slice notation to select a range of rows with  `.loc`
 
 It is possible to ‘slice’ the rows of a DataFrame with  `.loc`  by using  **slice notation**. Slice notation uses a colon to separate  **start**,  **stop**  and  **step**  values. For instance we can select all the rows from  `Niko`  through  `Dean`  like this:
-
->>> df.loc['Niko':'Dean']
-
+```ot
+df.loc['Niko':'Dean']
+```
 ![](https://miro.medium.com/max/60/1*LjZswKJUDlUFHnLRIs-tag.png?q=20)
 
 ![](https://miro.medium.com/max/400/1*LjZswKJUDlUFHnLRIs-tag.png)
@@ -353,25 +354,25 @@ Notice that the row labeled with  `Dean`  was kept. In other data containers suc
 # Other slices
 
 You can use slice notation similarly to how you use it with lists. Let’s slice from the beginning through  `Aaron`:
-
->>> df.loc[:'Aaron']
-
+```py
+df.loc[:'Aaron']
+```
 ![](https://miro.medium.com/max/60/1*-_lSxZREXisX6Hc7vanI8w.png?q=20)
 
 ![](https://miro.medium.com/max/397/1*-_lSxZREXisX6Hc7vanI8w.png)
 
 Slice from  `Niko`  to  `Christina`  stepping by 2:
-
->>> df.loc['Niko':'Christina':2]
-
+```py
+df.loc['Niko':'Christina':2]
+```
 ![](https://miro.medium.com/max/60/1*RVd_oBYyVDjY_yDCGQ5fZg.png?q=20)
 
 ![](https://miro.medium.com/max/403/1*RVd_oBYyVDjY_yDCGQ5fZg.png)
 
 Slice from  `Dean`  to the end:
-
->>> df.loc['Dean':]
-
+```py
+df.loc['Dean':]
+```
 ![](https://miro.medium.com/max/60/1*lbGk9hPAvv4CEOCTjGSGSA.png?q=20)
 
 ![](https://miro.medium.com/max/400/1*lbGk9hPAvv4CEOCTjGSGSA.png)
@@ -944,6 +945,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NTczNzAzLC04NTM3MDkzOCwxMzY2Mz
-g3OTQzXX0=
+eyJoaXN0b3J5IjpbLTE3NTUyMTM4ODEsLTg1MzcwOTM4LDEzNj
+YzODc5NDNdfQ==
 -->
