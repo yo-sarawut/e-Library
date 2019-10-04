@@ -423,14 +423,16 @@ df.loc['Jane':'Penelope', ['state', 'color']]
 ![](https://miro.medium.com/max/190/1*NA-MxX9soaLLhnq34cp7Rg.png)
 
 Select a single row and a single column. This returns a scalar value.
-
->>> df.loc['Jane', 'age']  
+```py
+df.loc['Jane', 'age']  
+```
+```
 30
-
+```
 Select a slice of rows and columns
-
->>> df.loc[:'Dean', 'height':]
-
+```py
+df.loc[:'Dean', 'height':]
+```
 ![](https://miro.medium.com/max/60/1*hguNxXIZc878r11XzzAW_Q.png?q=20)
 
 ![](https://miro.medium.com/max/208/1*hguNxXIZc878r11XzzAW_Q.png)
@@ -438,25 +440,25 @@ Select a slice of rows and columns
 # Selecting all of the rows and some columns
 
 It is possible to select all of the rows by using a single colon. You can then select columns as normal:
-
->>> df.loc[:, ['food', 'color']]
-
+```py
+df.loc[:, ['food', 'color']]
+```
 ![](https://miro.medium.com/max/48/1*oRPKw_82d0_PFNB5Cho1zw.png?q=20)
 
 ![](https://miro.medium.com/max/204/1*oRPKw_82d0_PFNB5Cho1zw.png)
 
 You can also use this notation to select all of the columns:
-
->>> df.loc[['Penelope','Cornelia'], :]
-
+```py
+df.loc[['Penelope','Cornelia'], :]
+```
 ![](https://miro.medium.com/max/60/1*LfdbzoBocHPGMXT5ZkpKRA.png?q=20)
 
 ![](https://miro.medium.com/max/404/1*LfdbzoBocHPGMXT5ZkpKRA.png)
 
 But, it isn’t necessary as we have seen, so you can leave out that last colon:
-
->>> df.loc[['Penelope','Cornelia']]
-
+```py
+df.loc[['Penelope','Cornelia']]
+```
 ![](https://miro.medium.com/max/60/1*LfdbzoBocHPGMXT5ZkpKRA.png?q=20)
 
 ![](https://miro.medium.com/max/404/1*LfdbzoBocHPGMXT5ZkpKRA.png)
@@ -464,11 +466,11 @@ But, it isn’t necessary as we have seen, so you can leave out that last colon:
 # Assign row and column selections to variables
 
 It might be easier to assign row and column selections to variables before you use  `.loc`. This is useful if you are selecting many rows or columns:
-
->>> rows = ['Jane', 'Niko', 'Dean', 'Penelope', 'Christina']  
->>> cols = ['state', 'age', 'height', 'score']  
->>> df.loc[rows, cols]
-
+```py
+rows = ['Jane', 'Niko', 'Dean', 'Penelope', 'Christina']  
+cols = ['state', 'age', 'height', 'score']  
+df.loc[rows, cols]
+```
 ![](https://miro.medium.com/max/60/1*WG_BZ7r77RZtRIiSxZVzqQ.png?q=20)
 
 ![](https://miro.medium.com/max/292/1*WG_BZ7r77RZtRIiSxZVzqQ.png)
@@ -949,6 +951,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA5NDg5NzksLTg1MzcwOTM4LDEzNj
-YzODc5NDNdfQ==
+eyJoaXN0b3J5IjpbMTIzNjM3NjI0OSwtODUzNzA5MzgsMTM2Nj
+M4Nzk0M119
 -->
