@@ -1,6 +1,6 @@
-Web Scraping 101 in Python
+Web Scraping 101 in Python : overview of the tools & the pros and cons of each
 ===
-overview of the tools & the pros and cons of each
+
 
 ### Summary:
 
@@ -117,14 +117,12 @@ Regular expressions can be useful when you have this kind of data:
 
 ```
 <p>Price : 19.99$</p>
-
 ```
 
 We could select this text node with an Xpath expression, and then use this kind of regex to extract the price. Remember that regex patterns are applied from left to right, and each source character is only used once.:
 
 ```
 ^Price\s:\s(\d+\.\d{2})\$
-
 ```
 
 To extract the text inside an HTML tag, it is annoying to use a regex, but doable:
@@ -143,7 +141,7 @@ As you can see, manually sending the HTTP request with a socket and parsing the 
 
 ## urllib3 & LXML
 
-> **Disclaimer**: It is easy to get lost in the urllib universe in Python. You have urllib and urllib2 that are parts of the standard library, but there's also urllib3. urllib2 was split into multiple modules in Python 3, and urllib3 should not be a part of the standard library anytime soon. All of these confusing details will be the subject of its own blog post. In this section, I chose to only talk about urllib3 as it widely used in the Python world.
+**Disclaimer**: It is easy to get lost in the urllib universe in Python. You have urllib and urllib2 that are parts of the standard library, but there's also urllib3. urllib2 was split into multiple modules in Python 3, and urllib3 should not be a part of the standard library anytime soon. All of these confusing details will be the subject of its own blog post. In this section, I chose to only talk about urllib3 as it widely used in the Python world.
 
 urllib3 is a high-level package that allows you to do pretty much whatever you want with an HTTP request. We can do what we did with socket above with way fewer lines of code:
 
@@ -483,5 +481,5 @@ The big drawback is that Chrome needs lots of memory / CPU power. With some fine
 
 If you want to run several Chrome instances concurrently, you will need powerful servers (the cost of which goes up quickly) and constant monitoring of resources.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjAzODkzNF19
+eyJoaXN0b3J5IjpbLTYzNDE0MjkwMl19
 -->
