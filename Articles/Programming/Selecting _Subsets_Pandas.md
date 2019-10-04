@@ -161,7 +161,7 @@ Let’s begin using pandas to read in a DataFrame, and from there, use the index
 
 We will use the  `**read_csv**`  function to read in data into a DataFrame. We pass the path to the file as the first argument to the function. We will also use the  `**index_col**`  parameter to select the first column of data as the index (more on this later).
 ```python
- import pandas as pd  
+import pandas as pd  
 import numpy as np
 df = pd.read_csv('data/sample_data.csv', index_col=0)  
 df
@@ -179,21 +179,21 @@ columns = df.columns
 values = df.values
 index  
 ```
-```
+```py
 Index(['Jane', 'Niko', 'Aaron', 'Penelope', 'Dean', 'Christina',   
        'Cornelia'], dtype='object')
  ```
- ```
+ ```py
 columns
 ```
-```  
+```  py
 Index(['state', 'color', 'food', 'age', 'height', 'score'],   
       dtype='object')
   ```
-  ```
+  ```py
 values  
 ```
-```
+```py
 array([['NY', 'blue', 'Steak', 30, 165, 4.6],  
        ['TX', 'green', 'Lamb', 2, 70, 8.3],  
        ['FL', 'red', 'Mango', 12, 120, 9.0],  
@@ -941,6 +941,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjE3MjQzOSwtODUzNzA5MzgsMTM2Nj
-M4Nzk0M119
+eyJoaXN0b3J5IjpbOTQ0ODI5MTgwLC04NTM3MDkzOCwxMzY2Mz
+g3OTQzXX0=
 -->
