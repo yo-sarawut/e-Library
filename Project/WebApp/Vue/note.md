@@ -6,10 +6,13 @@ Note for Vue.js
 - [Build a Library web app with Vue](https://scaffoldhub.io/courses/vue-library) + [GitHub](https://github.com/felipepastorelima/vue-library)
 ![enter image description here](https://storage.googleapis.com/scaffoldhub-public/courses/vue-library/demo.jpg)
 
+- [Vue.js Application Tutorial - Creating a Simple Budgeting App with Vue](https://matthiashager.com/complete-vuejs-application-tutorial)
+
 
 ## Example
 
 - [20+ Outstanding Vue.js Open Source Projects](https://medium.com/js-dojo/top-vue-js-open-source-projects-45209040fcd)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTcxMDE3MywtNDY1MjM4ODc1XX0=
+eyJoaXN0b3J5IjpbLTg3OTM4MTA4MywyMDExNzEwMTczLC00Nj
+UyMzg4NzVdfQ==
 -->
