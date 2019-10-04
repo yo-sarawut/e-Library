@@ -42,9 +42,9 @@ Note for ideas
 - [vue-password-strength-meter](https://github.com/apertureless/vue-password-strength-meter)
 ![enter image description here](https://github.com/apertureless/vue-password-strength-meter/raw/develop/static/demo.gif)
 
-- [[vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)] , [Docum]
+- [[vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)] , [Document](https://webpack.js.org/concepts/loaders/) , [vue-md-loader](https://github.com/wxsms/vue-md-loader)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDA1ODczMSwtMTcxNjI2MTQ4MSwtND
+eyJoaXN0b3J5IjpbMTYxNDE4NTY3NCwtMTcxNjI2MTQ4MSwtND
 M1NDI2MzE4LDE4ODQ1ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4
 Nzc0LDE3NDczMDg5MjEsLTM2OTMzOTMzNywtMTk0NTc3NTM0Ny
 wyMTkwMDA1MTFdfQ==
