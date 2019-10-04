@@ -208,7 +208,7 @@ Let’s output the type of each component to understand exactly what kind of obj
 ```
 type(index)  
 ```
-```
+```py
 pandas.core.indexes.base.Index
 ```
 ```
@@ -292,11 +292,13 @@ There are a couple common exceptions that arise when doing selections with just 
 
 -   If you misspell a word, you will get a  `**KeyError**`
 -   If you forgot to use a list to contain multiple columns you will also get a  `**KeyError**`
-
->>> df['hight']  
+```py
+ df['hight']  
+ ```
+ ```py
 KeyError: 'hight'>>> df['color', 'age'] # should be:  df[['color', 'age']]  
 KeyError: ('color', 'age')
-
+```
 # Summary of just the indexing operator
 
 -   Its primary purpose is to select columns by the column names
@@ -311,8 +313,9 @@ The  `**.loc**`  indexer selects data in a different way than just the indexing 
 # Select a single row as a Series with  `.loc`
 
 The  `**.loc**`  indexer will return a single row as a Series when given a single row label. Let's select the row for  `**Niko**`.
+```
+df.loc['Niko']  
 
->>> df.loc['Niko']  
 state        TX  
 color     green  
 food       Lamb  
@@ -941,6 +944,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0ODI5MTgwLC04NTM3MDkzOCwxMzY2Mz
+eyJoaXN0b3J5IjpbNDU3NTczNzAzLC04NTM3MDkzOCwxMzY2Mz
 g3OTQzXX0=
 -->
