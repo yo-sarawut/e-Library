@@ -702,23 +702,40 @@ It may be helpful to compare pandas ability to make selections by label and inte
 Python lists allow for selection of data only through integer location. You can use a single integer or slice notation to make the selection but NOT a list of integers.
 
 Let’s see examples of subset selection of lists using integers:
-
+ ```py
 some_list = ['a', 'two', 10, 4, 0, 'asdf', 'mgmt', 434, 99]
  some_list[5]  
+  ```
+   ```py
 'asdf
-'>>> some_list[-1]  
+ ```
+  ```py
+ some_list[-1]  
+  ```
+   ```py
 99
-some_list[:4]  
-['a', 'two', 10, 4]>>> some_list[3:]  
+ ```
+  ```py
+some_list[:4] 
+ ```
+  ```py 
+['a', 'two', 10, 4]
+ ```
+  ```py
+some_list[3:] 
+ ```
+  ```py 
 [4, 0, 'asdf', 'mgmt', 434, 99]>>> some_list[2:6:3]  
 [10, 'asdf']
-
+ ```
 # Selection by label with Python dictionaries
 
 All values in each dictionary are labeled by a  **key**. We use this key to make single selections. Dictionaries only allow selection with a single label. Slices and lists of labels are not allowed.
-
->>> d = {'a':1, 'b':2, 't':20, 'z':26, 'A':27}  
->>> d['a']  
+ ```py
+d = {'a':1, 'b':2, 't':20, 'z':26, 'A':27}  
+d['a']  
+ ```
+ 
 1>>> d['A']  
 27
 
@@ -978,6 +995,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDg5MDMwMCwtODUzNzA5MzgsMTM2Nj
+eyJoaXN0b3J5IjpbMTEwMDAxOTUxMiwtODUzNzA5MzgsMTM2Nj
 M4Nzk0M119
 -->
