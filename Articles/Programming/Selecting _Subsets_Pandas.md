@@ -620,50 +620,58 @@ Series selection with  `.loc`  is quite simple, since we are only dealing with a
 Let’s select a single value:
 ```py
 food.loc['Aaron']  
-```py
+```
 ```py
 'Mango'
-```py
+```
 Select three different values. This returns a Series:
-
->>> food.loc[['Dean', 'Niko', 'Cornelia']]  
+```py
+food.loc[['Dean', 'Niko', 'Cornelia']]  
+```
+```py
 Dean        Cheese  
 Niko          Lamb  
 Cornelia     Beans  
 Name: food, dtype: object
-
+```
 Slice from  `Niko`  to  `Christina`  - is inclusive of last index
-
->>> food.loc['Niko':'Christina']  
+```py
+food.loc['Niko':'Christina'] 
+```
+```py 
 Niko           Lamb  
 Aaron         Mango  
 Penelope      Apple  
 Dean         Cheese  
 Christina     Melon  
 Name: food, dtype: object
-
+```
 Slice from  `Penelope`  to the end:
-
->>> food.loc['Penelope':]  
+```py
+food.loc['Penelope':]  
+```
+```py 
 Penelope      Apple  
 Dean         Cheese  
 Christina     Melon  
 Cornelia      Beans  
 Name: food, dtype: object
-
+```
 Select a single value in a list which returns a Series
-
->>> food.loc[['Aaron']]  
+```py 
+food.loc[['Aaron']]  
+```
+```py 
 Aaron    Mango  
 Name: food, dtype: object
-
+```
 # Series selection with  `.iloc`
 
 Series subset selection with  `**.iloc**`  happens similarly to  `**.loc**`  except it uses integer location. You can use a single integer, a list of integers or a slice of integers. Let's see some examples.
 
 Select a single value:
-
->>> food.iloc[0]  
+```py 
+food.iloc[0]  
 'Steak'
 
 Use a list of integers to select multiple values:
@@ -961,6 +969,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyODQ5OTAsLTg1MzcwOTM4LDEzNjYzOD
-c5NDNdfQ==
+eyJoaXN0b3J5IjpbNTU0NzUwMDMzLC04NTM3MDkzOCwxMzY2Mz
+g3OTQzXX0=
 -->
