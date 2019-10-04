@@ -491,8 +491,10 @@ The  `.iloc`  indexer is very similar to  `.loc`  but only uses integer location
 # Selecting a single row with  `.iloc`
 
 By passing a single integer to  `.iloc`, it will select one row as a Series:
-
->>> df.iloc[3]  
+```py
+df.iloc[3]  
+```
+```
 state        AL  
 color     white  
 food      Apple  
@@ -500,13 +502,13 @@ age           4
 height       80  
 score       3.3  
 Name: Penelope, dtype: object
-
+```
 # Selecting multiple rows with  `.iloc`
 
 Use a list of integers to select multiple rows:
-
->>> df.iloc[[5, 2, 4]]       # remember, don't do df.iloc[5, 2, 4]
-
+```py
+df.iloc[[5, 2, 4]]       # remember, don't do df.iloc[5, 2, 4]
+```
 ![](https://miro.medium.com/max/60/1*WpJZ25LMTESDrozrs7Y5qA.png?q=20)
 
 ![](https://miro.medium.com/max/402/1*WpJZ25LMTESDrozrs7Y5qA.png)
@@ -514,25 +516,25 @@ Use a list of integers to select multiple rows:
 # Use slice notation to select a range of rows with  `.iloc`
 
 Slice notation works just like a list in this instance and is exclusive of the last element
-
->>> df.iloc[3:5]
-
+```py
+df.iloc[3:5]
+```
 ![](https://miro.medium.com/max/60/1*RgXHsZiNzAd8Z_0BK7Olqg.png?q=20)
 
 ![](https://miro.medium.com/max/410/1*RgXHsZiNzAd8Z_0BK7Olqg.png)
 
 Select 3rd position until end:
-
->>> df.iloc[3:]
-
+```py
+df.iloc[3:]
+```
 ![](https://miro.medium.com/max/60/1*vDDHDznwNeGHYrM18V3ABA.png?q=20)
 
 ![](https://miro.medium.com/max/398/1*vDDHDznwNeGHYrM18V3ABA.png)
 
 Select 3rd position to end by 2:
-
->>> df.iloc[3::2]
-
+```py
+df.iloc[3::2]
+```
 ![](https://miro.medium.com/max/60/1*_MGwbnVitEnnH_RoOAxLxw.png?q=20)
 
 ![](https://miro.medium.com/max/396/1*_MGwbnVitEnnH_RoOAxLxw.png)
@@ -542,25 +544,25 @@ Select 3rd position to end by 2:
 Just like with  `.iloc`  any combination of a single integer, lists of integers or slices can be used to select rows and columns simultaneously. Just remember to separate the selections with a  **comma**.
 
 Select two rows and two columns:
-
->>> df.iloc[[2,3], [0, 4]]
-
+```py
+df.iloc[[2,3], [0, 4]]
+```
 ![](https://miro.medium.com/max/60/1*xdBEnpt4APUgtFnmo9uoAw.png?q=20)
 
 ![](https://miro.medium.com/max/198/1*xdBEnpt4APUgtFnmo9uoAw.png)
 
 Select a slice of the rows and two columns:
-
->>> df.iloc[3:6, [1, 4]]
-
+```py
+df.iloc[3:6, [1, 4]]
+```
 ![](https://miro.medium.com/max/60/1*4Ff8OMPaU6u1GEG88CrBEQ.png?q=20)
 
 ![](https://miro.medium.com/max/202/1*4Ff8OMPaU6u1GEG88CrBEQ.png)
 
 Select slices for both
-
->>> df.iloc[2:5, 2:5]
-
+```
+df.iloc[2:5, 2:5]
+```
 ![](https://miro.medium.com/max/60/1*jFvBH1eyLSs09-SQIWa2Eg.png?q=20)
 
 ![](https://miro.medium.com/max/262/1*jFvBH1eyLSs09-SQIWa2Eg.png)
@@ -951,6 +953,6 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjM3NjI0OSwtODUzNzA5MzgsMTM2Nj
+eyJoaXN0b3J5IjpbLTc3MzgzMDgxNiwtODUzNzA5MzgsMTM2Nj
 M4Nzk0M119
 -->
