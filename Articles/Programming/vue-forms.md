@@ -173,17 +173,6 @@ There are many components in the wild that does this. One example is  [vue-flatp
 
 [](https://github.com/ankurk91/vue-flatpickr-component?source=post_page-----d81b3ffe9efb----------------------)
 
-## 
-
-ankurk91/vue-flatpickr-component
-
-### 
-
-vue-flatpickr-component - Vue.js component for Flatpickr datetime picker :calendar:
-
-#### 
-
-github.com
 
 ## 10. Stick to :value and @input binding
 
@@ -409,5 +398,5 @@ You can access your custom input control just like native input using  `HTMLForm
 
 [**Source :**](https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY4NDAxNjFdfQ==
+eyJoaXN0b3J5IjpbLTE4OTc1OTA4MDJdfQ==
 -->
