@@ -12,17 +12,17 @@ Firstly, although both property-style and method-style getters offer caching as 
 # What is a Method-style Getter?
 
 Below is the example from the Vuex documentation of a method-style getter, sometimes referred to as a parameterized getter.
-```vue
+```javascript
 getTodoById: (state) => (id) => {  
   return state.todos.find(todo => todo.id === id)  
 }
 ```
 Normally a getter works by processing state into a given result.
-```
+```javascript
 todoCount: (state) => state.todos.length,
 ```
 This will mean that  `store.getters.todoCount`  might provide the value 12, which will be cached in the event that the value is accessed again without any underlying reactive data changing.
-```
+```javascript
 isTodoOpen: (state) => (id) =>  
   !!state.todos[id].assignee &&   
   state.todos[id].status !== 'complete’,
@@ -108,7 +108,7 @@ Without the proposed API, using this code requires access to the store, hence th
 The outer getter function is then passed to the utility and a new  **cached**  function is returned, this is a clean interface.
 
 Let’s look at the just the wrapping code for a second…
-```Vue
+```javascript
 **[A]** const methodStyleCache = (getVM, getter) => {  
   ...  
   **[B]** return (...args) => {  
@@ -147,5 +147,5 @@ Even if you aren’t ready to use this functionality now, I hope it has been an 
 
 [**Source :**](https://engineroom.teamwork.com/vue-js-advanced-reactivity-api-and-caching-method-style-getters-a80979b6660)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzg1MjE1Ml19
+eyJoaXN0b3J5IjpbMTQyMzY1NjM5Ml19
 -->
