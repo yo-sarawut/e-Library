@@ -89,17 +89,16 @@ Now we are ready for coding the feature engineering and modeling functions.
 # Brute force modelling
 def get_best_hmm_model(X, max_states, max_iter = 10000):
     best_score = -(10 ** 10)
-    best_state = 0
-    
+    best_state = 0    
     for state in range(1, max_states + 1):
-        hmm_model = GaussianHMM(n_components = state, random_state = 100,
-                                covariance_type = "diag", n_iter = max_iter).fit(X)
-      if hmm_model.score(X) > best_score:
-            best_score = hmm_model.score(X)
-            best_state = state
-    
-best_model = GaussianHMM(n_components = best_state, random_state = 100,
-   covariance_type = "diag", n_iter = max_iter).fit(X)
+        hmm_model = GaussianHMM(n_components = state, random_state = 100, 
+        covariance_type = "diag", n_iter = max_iter).fit(X)
+	      if hmm_model.score(X) > best_score:
+	         best_score = hmm_model.score(X)
+	         best_state = state
+	         best_model = GaussianHMM(
+	         n_components = best_state,random_state = 100,
+	         covariance_type = "diag", n_iter = max_iter).fit(X)
     return best_model
 # Normalized st. deviation
 def std_normalized(vals):
@@ -204,5 +203,5 @@ Alpha is positive, beta is very close to 0 (see this  [post](https://medium.com/
 5.  The strategy beats the buy & hold benchmark, and it has positive alpha and beta is close to 0.
 6.  The research artifacts are uploaded to GitHub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ3NzkzMTVdfQ==
+eyJoaXN0b3J5IjpbLTk1NjM0NjcxMV19
 -->
