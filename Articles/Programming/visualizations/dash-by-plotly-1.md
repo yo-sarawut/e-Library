@@ -250,17 +250,37 @@ You are now nearing the home stretch and almost ready to start visualizing your 
 
 As before, I’ve included the main code block for determining where positions are trading relative to their recent closing high; I’ll then unpack the code further below.
 
-_# Need to factor in that some positions were purchased much more recently than others._  
+
 ``` py
-_# Join adj_close dataframe with portfolio in order to have acquisition date._portfolio_df**.**reset_index(inplace**=**True)adj_close_acq_date **=** pd**.**merge(adj_close, portfolio_df, on**=**'Ticker')_# delete_columns = ['Quantity', 'Unit Cost', 'Cost Basis', 'Start of Year']_**del** adj_close_acq_date['Quantity']  
-**del** adj_close_acq_date['Unit Cost']  
-**del** adj_close_acq_date['Cost Basis']  
-**del** adj_close_acq_date['Start of Year']_# Sort by these columns in this order in order to make it clearer where compare for each position should begin._  
-adj_close_acq_date**.**sort_values(by**=**['Ticker', 'Acquisition Date', 'Date'], ascending**=**[True, True, True], inplace**=**True)_# Anything less than 0 means that the stock close was prior to acquisition._  
-adj_close_acq_date['Date Delta'] **=** adj_close_acq_date['Date'] **-** adj_close_acq_date['Acquisition Date']adj_close_acq_date['Date Delta'] **=** adj_close_acq_date[['Date Delta']]**.**apply(pd**.**to_numeric)_# Modified the dataframe being evaluated to look at highest close which occurred after Acquisition Date (aka, not prior to purchase)._adj_close_acq_date_modified **=** adj_close_acq_date[adj_close_acq_date['Date Delta']**>=**0]_# This pivot table will index on the Ticker and Acquisition Date, and find the max adjusted close._adj_close_pivot **=** adj_close_acq_date_modified**.**pivot_table(index**=**['Ticker', 'Acquisition Date'], values**=**'Adj Close', aggfunc**=**np**.**max)adj_close_pivot**.**reset_index(inplace**=**True)_# Merge the adj close pivot table with the adj_close table in order to grab the date of the Adj Close High (good to know)._adj_close_pivot_merged **=** pd**.**merge(adj_close_pivot, adj_close  
-                                             , on**=**['Ticker', 'Adj Close'])_# Merge the Adj Close pivot table with the master dataframe to have the closing high since you have owned the stock._merged_portfolio_sp_latest_YTD_sp_closing_high **=** pd**.**merge(merged_portfolio_sp_latest_YTD_sp, adj_close_pivot_merged  
-                                             , on**=**['Ticker', 'Acquisition Date'])_# Renaming so that it's clear that the new columns are closing high and closing high date._  
-merged_portfolio_sp_latest_YTD_sp_closing_high**.**rename(columns**=**{'Adj Close': 'Closing High Adj Close', 'Date': 'Closing High Adj Close Date'}, inplace**=**True)merged_portfolio_sp_latest_YTD_sp_closing_high['Pct off High'] **=** merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker Adj Close'] **/** merged_portfolio_sp_latest_YTD_sp_closing_high['Closing High Adj Close'] **-** 1 merged_portfolio_sp_latest_YTD_sp_closing_high
+# Need to factor in that some positions were purchased much more recently than others.
+# Join adj_close dataframe with portfolio in order to have acquisition date.
+portfolio_df.reset_index(inplace=True)
+adj_close_acq_date = pd.merge(adj_close, portfolio_df, on='Ticker')
+# delete_columns = ['Quantity', 'Unit Cost', 'Cost Basis', 'Start of Year']
+del adj_close_acq_date['Quantity']
+del adj_close_acq_date['Unit Cost']
+del adj_close_acq_date['Cost Basis']
+del adj_close_acq_date['Start of Year']
+# Sort by these columns in this order in order to make it clearer where compare for each position should begin.
+adj_close_acq_date.sort_values(by=['Ticker', 'Acquisition Date', 'Date'], ascending=[True, True, True], inplace=True)
+# Anything less than 0 means that the stock close was prior to acquisition.
+adj_close_acq_date['Date Delta'] = adj_close_acq_date['Date'] - adj_close_acq_date['Acquisition Date']
+adj_close_acq_date['Date Delta'] = adj_close_acq_date[['Date Delta']].apply(pd.to_numeric)
+# Modified the dataframe being evaluated to look at highest close which occurred after Acquisition Date (aka, not prior to purchase).
+adj_close_acq_date_modified = adj_close_acq_date[adj_close_acq_date['Date Delta']>=0]
+# This pivot table will index on the Ticker and Acquisition Date, and find the max adjusted close.
+adj_close_pivot = adj_close_acq_date_modified.pivot_table(index=['Ticker', 'Acquisition Date'], values='Adj Close', aggfunc=np.max)
+adj_close_pivot.reset_index(inplace=True)
+# Merge the adj close pivot table with the adj_close table in order to grab the date of the Adj Close High (good to know).
+adj_close_pivot_merged = pd.merge(adj_close_pivot, adj_close
+                                             , on=['Ticker', 'Adj Close'])
+# Merge the Adj Close pivot table with the master dataframe to have the closing high since you have owned the stock.
+merged_portfolio_sp_latest_YTD_sp_closing_high = pd.merge(merged_portfolio_sp_latest_YTD_sp, adj_close_pivot_merged
+                                             , on=['Ticker', 'Acquisition Date'])
+# Renaming so that it's clear that the new columns are closing high and closing high date.
+merged_portfolio_sp_latest_YTD_sp_closing_high.rename(columns={'Adj Close': 'Closing High Adj Close', 'Date': 'Closing High Adj Close Date'}, inplace=True)
+merged_portfolio_sp_latest_YTD_sp_closing_high['Pct off High'] = merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker Adj Close'] / merged_portfolio_sp_latest_YTD_sp_closing_high['Closing High Adj Close'] - 1 
+merged_portfolio_sp_latest_YTD_sp_closing_high
 ``` 
 -   To begin, you merge the  `adj_close`  dataframe with the  `portfolio_df`  dataframe; this is the third time that you’ve leveraged this  `adj_close`  dataframe in order to conduct an isolated analysis which you’ll then combine with the overall ‘master’ dataframe.
 -   This initial merge is not particularly useful, as you have dates and adjusted close prices which pre-date your acquisition date for each position; as a result, we’ll subset the data post our acquisition date, and then find the  `max`  closing price since that time.
@@ -365,5 +385,5 @@ With those future areas in mind, we accomplished a lot here; this includes impor
 
 I hope that you found this tutorial useful, and I welcome any feedback in the comments. Feel free to also reach out to me on twitter,  [@kevinboller](https://twitter.com/kevinboller), and my personal blog can be found  [here](https://kdboller.github.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg1NDMzMDBdfQ==
+eyJoaXN0b3J5IjpbLTc2MzA4NTEwNF19
 -->
