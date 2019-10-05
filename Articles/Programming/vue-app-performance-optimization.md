@@ -365,9 +365,15 @@ By code-splitting your routes from the beginning, you get a performance app righ
 
 You already know a lot about lazy loading Vue components. In the next part, you’ll master this technique by understanding which components should be loaded lazily and how to deliver a smooth waiting experience to your users when those components are being downloaded.
 
--
+[**Source :**](https://vueschool.io/articles/vuejs-tutorials/vue-js-router-performance/)
+
+---
+
+
+Part 3 — Lazy loading Vuex modules
+===
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTA2NDA2MF19
+eyJoaXN0b3J5IjpbMTcyMjg4ODA3OF19
 -->
