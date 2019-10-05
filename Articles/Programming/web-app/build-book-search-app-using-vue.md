@@ -6,14 +6,7 @@ How to Build BookSearch App using Vue.js and ElasticSearch
 In this post, we are going to build a Booksearch Application using Vue.js and ElasticSearch. You might have already heard of Vue.js, one of the fastest growing JavaScript frameworks. You might also have heard about ElasticSearch — it is the #1 search engine. In any case, I will do a walkthrough explaining the basics of Search and build the app in a step-by-step manner.
 
 > Before diving in, you can try out the Live demo of the final app  [here](https://y2rvj53koz.codesandbox.io/).
-> 
-> .
-> 
-> .
-> 
-> .
-> 
-> .
+
 
 # What is ElasticSearch
 
@@ -42,10 +35,10 @@ As mentioned above, we will be using  [appbase.io](https://appbase.io/)  for our
 _This means that we wouldn’t require writing any server code. 💥_
 
 In order to make Booksearch application, we will need a dataset of some really good books. I have already created an  [appbase.io](https://appbase.io/)  app with the books dataset indexed over  [here](https://dejavu.appbase.io/?&appname=good-books-yj&url=https://gBgUqs2tV:3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c@scalr.api.appbase.io&mode=view). You can either clone this dataset to use your own credentials or copy the below credentials:
-
+``` js
 app="good-books-yj"  
 credentials="gBgUqs2tV:3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c"
-
+``` 
 ![](https://miro.medium.com/max/30/1*OHJ1oyLeuV30NAahXFrFOw.png?q=20)
 
 ![](https://miro.medium.com/max/2880/1*OHJ1oyLeuV30NAahXFrFOw.png)
@@ -58,19 +51,7 @@ We will be using the  [**ReactiveSearch-vue**](https://opensource.appbase.io/rea
 
 ReactiveSearch for Vue is a port of ReactiveSearch (written for React) that has been downloaded over 125,000 times in the past year and currently powering hundreds of production search UIs. You can read more about the Vue.js announcement here:
 
-[](https://medium.appbase.io/vue-js-components-for-building-search-uis-7b2a1b6fe159?source=post_page-----a39615f4d6b3----------------------)
 
-## 
-
-Vue.JS Components for building Search UIs
-
-### 
-
-We’re super excited to announce the first release of Reactive Search for Vue, a UI components library for…
-
-#### 
-
-medium.appbase.io
 
 # Setting Up Frontend
 
@@ -193,5 +174,5 @@ The documentation for all the components is available at  [https://opensource.ap
 
 Finally,  [go ★ ReactiveSearch](https://github.com/appbaseio/reactivesearch)  on Github so you can find it when you need to build that awesome search!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDE5MTcxM119
+eyJoaXN0b3J5IjpbLTE3NTQ2MzQ1NjVdfQ==
 -->
