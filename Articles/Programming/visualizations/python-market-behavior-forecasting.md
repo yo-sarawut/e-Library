@@ -91,21 +91,19 @@ def get_best_hmm_model(X, max_states, max_iter = 10000):
     best_score = -(10 ** 10)
     best_state = 0
     
- for state in range(1, max_states + 1):
+    for state in range(1, max_states + 1):
         hmm_model = GaussianHMM(n_components = state, random_state = 100,
                                 covariance_type = "diag", n_iter = max_iter).fit(X)
-        if hmm_model.score(X) > best_score:
+      if hmm_model.score(X) > best_score:
             best_score = hmm_model.score(X)
             best_state = state
     
-   best_model = GaussianHMM(n_components = best_state, random_state = 100,
-covariance_type = "diag", n_iter = max_iter).fit(X)
-return best_model
-
+best_model = GaussianHMM(n_components = best_state, random_state = 100,
+   covariance_type = "diag", n_iter = max_iter).fit(X)
+    return best_model
 # Normalized st. deviation
 def std_normalized(vals):
-    return np.std(vals) / np.mean(vals)
-
+return np.std(vals) / np.mean(vals)
 # Ratio of diff between last price and mean value to last price
 def ma_ratio(vals):
     return (vals[-1] - np.mean(vals)) / vals[-1]
@@ -206,5 +204,5 @@ Alpha is positive, beta is very close to 0 (see this  [post](https://medium.com/
 5.  The strategy beats the buy & hold benchmark, and it has positive alpha and beta is close to 0.
 6.  The research artifacts are uploaded to GitHub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjU1OTYyNV19
+eyJoaXN0b3J5IjpbLTE2MzQ3NzkzMTVdfQ==
 -->
