@@ -86,7 +86,7 @@ Volume for BTC/USD from 01/01/2014
 
 Now we are ready for coding the feature engineering and modeling functions.
 ```py
-# Brute force modelling
+#Brute force modelling
 def get_best_hmm_model(X, max_states, max_iter = 10000):
     best_score = -(10 ** 10)
     best_state = 0    
@@ -99,15 +99,17 @@ def get_best_hmm_model(X, max_states, max_iter = 10000):
 	         best_model = GaussianHMM(
 	         n_components = best_state,random_state = 100,
 	         covariance_type = "diag", n_iter = max_iter).fit(X)
-    return best_model
-# Normalized st. deviation
+		    return best_model
+		    
+#Normalized st. deviation
 def std_normalized(vals):
-return np.std(vals) / np.mean(vals)
-# Ratio of diff between last price and mean value to last price
+	return np.std(vals) / np.mean(vals)
+	
+#Ratio of diff between last price and mean value to last price
 def ma_ratio(vals):
-    return (vals[-1] - np.mean(vals)) / vals[-1]
-
-# z-score for volumes and price
+	return (vals[-1] - np.mean(vals)) / vals[-1]
+	
+#z-score for volumes and price
 def values_deviation(vals):
     return (vals[-1] - np.mean(vals)) / np.std(vals)
  ```   
@@ -203,5 +205,5 @@ Alpha is positive, beta is very close to 0 (see this  [post](https://medium.com/
 5.  The strategy beats the buy & hold benchmark, and it has positive alpha and beta is close to 0.
 6.  The research artifacts are uploaded to GitHub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjM0NjcxMV19
+eyJoaXN0b3J5IjpbLTIxMjgwODAzNTNdfQ==
 -->
