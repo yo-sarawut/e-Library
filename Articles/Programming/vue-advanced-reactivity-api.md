@@ -12,11 +12,11 @@ Firstly, although both property-style and method-style getters offer caching as 
 # What is a Method-style Getter?
 
 Below is the example from the Vuex documentation of a method-style getter, sometimes referred to as a parameterized getter.
-
+```vue
 getTodoById: (state) => (id) => {  
   return state.todos.find(todo => todo.id === id)  
 }
-
+```
 Normally a getter works by processing state into a given result.
 
 todoCount: (state) => state.todos.length,
@@ -145,7 +145,7 @@ As mentioned at the start, this functionality can be applied to computed propert
 
 Even if you aren’t ready to use this functionality now, I hope it has been an interesting read, and like me, you are keen to see the Advanced Reactivity API arrive in Vue.
 
-
+[**Source :**](https://engineroom.teamwork.com/vue-js-advanced-reactivity-api-and-caching-method-style-getters-a80979b6660)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI5NzgzMF19
+eyJoaXN0b3J5IjpbLTE3MzQ2ODE5OTNdfQ==
 -->
