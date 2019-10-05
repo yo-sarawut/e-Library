@@ -10,9 +10,9 @@ In this tutorial we’ll build a web application to grab data from the  [NASDAQ-
 Main Tools used in this tutorial: Python v2.7.8, Flask v0.10.1,  [Requests](https://realpython.com/python-requests/)  v2.4.1, D3 v3.4.11, Dokku v0.2.3, and Bower v1.3.9
 
 Start by locating and downloading the file  __app_boilerplate.zip_  from this  [repo](https://github.com/realpython/flask-stock-visualizer). This file contains a Flask boilerplate. Once downloaded, extract the file and folders, activate a virtualenv, and  [install the dependencies with Pip](https://realpython.com/what-is-pip/):
-
+```py
 pip install -r requirements.txt
-
+```
 Then test to make sure it works: Fire up the server, open your browser, and navigate to  [http://localhost:5000/](http://localhost:5000/). You should see “Hello, world!” staring back at you.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -20,16 +20,16 @@ Then test to make sure it works: Fire up the server, open your browser, and navi
 ## Fetching Data
 
 Create a new route and view function in the  _app.py_  file:
-
+```py
 @app.route("/data")
 def data():
     return jsonify(get_data())
-
+```
 Update the imports:
-
+```
 from flask import Flask, render_template, jsonify
 from stock_scraper import get_data
-
+```
 So, when that route is called, it converts the returned value from a function called  `get_data()`  to JSON and then returns it. This function resides in a file called  _stock_scraper.py_, which - surprise! - fetches data from the NASDAQ-100.
 
 ### The script
@@ -44,7 +44,7 @@ Add  _stock_scraper.py_  to the main directory.
 4.  Return the dictionary.
 
 How’d it go? Need help? Let’s look at one possible solution:
-
+```
 import csv
 import requests
 
@@ -66,7 +66,7 @@ def get_data():
             'value': line['Nasdaq100_points']
         })
     return RESULTS
-
+```
 **What’s happening?**
 
 1.  Here, we fetch the URL via a GET request and then convert the Response object,  `r`, to  [unicode](https://realpython.com/python-encodings-guide/).
@@ -349,6 +349,8 @@ Commit your changes, then push:  `git push dokku master`. If all went well, you 
  http://192.241.208.61:49155
 
 Test it out. Navigate to  [http://192.241.208.61:49155](http://192.241.208.61:49155/). (Again, be sure to add your own IP address along with the correct port.) You should see your live app! (See the image at the top of this post for a preview.)
+
+[**Source :**](https://realpython.com/web-development-with-flask-fetching-data-with-requests/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzkzNDY2N119
+eyJoaXN0b3J5IjpbMjU3OTYwNTgwXX0=
 -->
