@@ -26,7 +26,9 @@
 
 ![enter image description here](https://d33wubrfki0l68.cloudfront.net/c588abe3dad8ada4945357cad35f455ff3c99e26/8259c/hugo-theme-learn/screenshot-hugo-theme-learn_hufe2da8fc83ad30ec674fecf911d5e6d9_284162_750x500_fill_catmullrom_top_2.png)
 
-- [Hugo Silhouette Theme]
+- [Hugo Silhouette Theme](https://themes.gohugo.io/silhouette-hugo/) , **[Blog]**
+
+![enter image description here](https://d33wubrfki0l68.cloudfront.net/d457e9293737c21cc9561b23fb02b54b4419139c/5a289/silhouette-hugo/screenshot-silhouette-hugo_hu0447c9c0213fe82a175ea3eaa6458448_250367_750x500_fill_catmullrom_top_2.png)
 
 - [**Hugo Themes**](https://themes.gohugo.io/)
 
@@ -61,9 +63,9 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMTQ1NjU4LC0xMTI2NDYzNDQ5LDEwMj
-c1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4NTcwMzMx
-LDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MTY4ODM5MDIsOTk0Nz
-A3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0LDE2MTkwMTk4NTEs
-NzE3NzIzODcxLC04MTAwMDMwNjAsMTc4MTI4MDY5MV19
+eyJoaXN0b3J5IjpbLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OSwxMD
+I3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3MDMz
+MSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgzOTAyLDk5ND
+cwNzM4MiwtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNjE5MDE5ODUx
+LDcxNzcyMzg3MSwtODEwMDAzMDYwLDE3ODEyODA2OTFdfQ==
 -->
