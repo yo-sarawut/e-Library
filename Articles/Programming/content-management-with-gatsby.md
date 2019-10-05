@@ -161,7 +161,7 @@ The  `gatsby-source-contentful`  plugin handles all the behind the scenes fetchi
 If it all works, you should see the content you added in the results window to the right of the GraphiQL window in JSON format.
 
 Now that we have connected our Gatsby blog with our Contentful data, we can start building the pages for the blog. Gatsby provides us with a file called  `gatsby-node.js`. This file can be used to dynamically add pages to your site. When Gatsby runs, it will look at the code here and create any pages you tell it to. In the  `gatsby-node.js`  file, let's place the following code:
-```
+```javascript
 const path = require(`path`);  
 const slash = require(`slash`);exports.createPages = ({ graphql, actions }) => {  
   const { createPage } = actions;  
@@ -215,7 +215,7 @@ Now we can concentrate on building out the actual pages.
 Create a  `templates`  folder inside your  `src`  folder and add a file called  `blogpost.js`. This will be our template component which will be used every time Gatsby calls the  `createPage`  function in the  `gatsby-node.js`  file.
 
 **NOTE**: Be sure to restart your server at this point if you get any errors. We’re doing a lot of config stuff and Gatsby may need a restart in order to run everything properly.
-```
+```javascript
 import React from "react";  
 import { Link, graphql } from "gatsby";  
 import Layout from "../components/layout";  
@@ -265,7 +265,7 @@ The rest is straightforward React. We create a component and using the  **data**
 What we need now is a page to list all the available blog post pages. We cannot rely on going to the 404 page every time we need to read a blog post!
 
 Let’s head back to the  `blogposts.js`  file in the  `pages`  folder that we created at the beginning of this project and tweak it.
-```
+```javascript
 import React from "react";  
 import { Link, graphql } from "gatsby";import Layout from "../components/layout";  
 import SEO from "../components/seo";const BlogPosts = ({ data }) => {  
@@ -313,7 +313,7 @@ The pattern should be familiar now.
 At the bottom of the page, we export a GraphQL query. The query is the same as the one we used in  `gatsby-node.js`  to generate the blogpost pages. It pulls all the Contentful data of the  **BlogPost**  type. Gatsby makes the result of the query available to us in the data object just as with the individual blogpost page. For this page though, we only need the  `id`,  `title`,  `slug`  and  `tags`  fields.
 
 At this point, let’s add some very basic styling. For the sake of this example, we’ll just add a few lines to the end of the  `layout.css`  file, but in a real-world project you'd probably not want to do this. Go with whatever method you are comfortable with.
-```
+```javascript
 /* Add these lines to the end of the layout.css file */  
 @import url("<https://fonts.googleapis.com/css?family=Open+Sans:300,400,600>");  
 html {  
@@ -371,11 +371,11 @@ html {
 }
 ```
 Now we have our blog, the next step is to deploy it and make it available for all the world to see. With Netlify this is super easy. Netlify integrates really well with GitHub. In your terminal, run:
-```
+```javascript
 $ git init
 ```
 Go to your GitHub and create a new repo called  `gatsby-contentful-blog-starter`, then follow the commands for pushing to an existing repository.
-```
+```javascript
 $ git add .  
 $ git commit -m 'initial commit'  
 $ git remote add origin git@github.com:YOUR_GITUHB_USERNAME/gatsby-contentful-blog-starter.git  
@@ -415,5 +415,5 @@ And that’s it! It’s been quite a journey, but now we have a working blog usi
 
 [**Source :**](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MzIyNTg1XX0=
+eyJoaXN0b3J5IjpbODc2ODI3MzA5XX0=
 -->
