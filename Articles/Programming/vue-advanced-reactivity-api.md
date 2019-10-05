@@ -18,15 +18,15 @@ getTodoById: (state) => (id) => {
 }
 ```
 Normally a getter works by processing state into a given result.
-
+```
 todoCount: (state) => state.todos.length,
-
+```
 This will mean that  `store.getters.todoCount`  might provide the value 12, which will be cached in the event that the value is accessed again without any underlying reactive data changing.
-
+```
 isTodoOpen: (state) => (id) =>  
   !!state.todos[id].assignee &&   
   state.todos[id].status !== 'complete’,
-
+```
 The above example can be accessed by  `store.getters.isTodoOpen(123)` which will return a boolean. This value is not cached, calling it repeatedly will result in multiple executions.
 
 > So what is cached here?
@@ -92,7 +92,7 @@ Note that the re-render does not trigger all the record components to re-render,
 The above code is far too simplistic, it isn’t reactive and it is missing cleanup code. Here is another solution:
 
 Before explaining how it works, how should it be used? As follows:
-
+```javascript
 const { plugin, cache } = methodGetterCacher();  
 ...  
 plugins: [plugin],  
@@ -102,13 +102,13 @@ getters: {
     name: state.tasks[id].name.toUpperCase(),  
   })),  
 },
-
+```
 Without the proposed API, using this code requires access to the store, hence the need for a plugin. An ugly nuisance, but it will only be necessary once.
 
 The outer getter function is then passed to the utility and a new  **cached**  function is returned, this is a clean interface.
 
 Let’s look at the just the wrapping code for a second…
-
+```Vue
 **[A]** const methodStyleCache = (getVM, getter) => {  
   ...  
   **[B]** return (...args) => {  
@@ -122,7 +122,7 @@ Let’s look at the just the wrapping code for a second…
     };  
   };  
 };
-
+```
 What is happening here is that we take the input getter function  **[A]**  which has an outer and inner function, we create a new outer function  **[B]**, we then run the outer function  **[A]**  to get the inner function  **[C]**, and then create a new inner function  **[D]**, which will execute the input function  **[C]**. In a nutshell, we are wrapping both the outer and inner functions.
 
 # Advanced API Polyfill
@@ -147,5 +147,5 @@ Even if you aren’t ready to use this functionality now, I hope it has been an 
 
 [**Source :**](https://engineroom.teamwork.com/vue-js-advanced-reactivity-api-and-caching-method-style-getters-a80979b6660)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ2ODE5OTNdfQ==
+eyJoaXN0b3J5IjpbMTQ5Nzg1MjE1Ml19
 -->
