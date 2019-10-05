@@ -29,15 +29,15 @@ The difference between  `var`  and  `val`  is simple: variables can be modified,
 In Python there is no need to specify: if you want to change something you previously assigned, it’s up to you. In Python’s case I would just do`string = 'my_string'`.
 
 Another general difference regards commenting. In Python there is only one way to do it, whether it’s a single or multi-line, and that is putting a  `#`  before the comment, on each line:
-
+```py
 `# this is a commented line in Python`
-
+```
 Scala offers a couple of ways to comment, and these are either putting  `//`  on each line, or wrap the comment between  `/*`  and  `*/`:
-
+```
 // this is a commented line in Scala  
 /* and this is a multiline comment, still in Scala...  
 ...just choose! */
-
+```
 Now that the very basics are explained, let’s see dive deeper.
 
 # 2. Lists and arrays
@@ -47,20 +47,23 @@ List (in Python) or Array (in Scala) are among the most important objects: they 
 ## 2.1. Define
 
 Let’s create a list containing a mix of numbers and strings.
-
+```
 `my_list = [2, 5, 'apple', 78]  **# Python**`
-
+```
+```
 var myArray = Array(2, 5, "apple", 78) **// Scala**  
+```
 **/* notice that in Scala I wrapped the string between "", and that is the only way to do it! In python you can use both "" and '' indifferently */**
 
 ## 2.2. Indexing
 
 Both lists and arrays are zero indexed, which means that the first element is placed at the index 0. So, if we want to extract the second element:
-
+```
 `my_list[1]  **# Python** uses [] to index`
-
+```
+```
 `myArray(1)  **// Scala**  uses () to index`
-
+```
 ## 2.3. Slicing
 
 In both languages, the second index will not be counted when slicing. So, if we want to extract the first 3 elements:
@@ -70,7 +73,7 @@ In both languages, the second index will not be counted when slicing. So, if we 
 `myArray.slice(0,3)  **// Scala** needs the .slice()`
 
 ## 2.4. Checking first, last, maximum and minimum element
-
+```
 **# Python**my_list[0]     # first element  
 my_list[-1]    # last element  
 max(my_list)   # maximum element  
@@ -80,7 +83,7 @@ myArray(0)      // other way to check the first element
 myArray.last    // last element  
 myArray.max     // maximum element  
 myArray.min     // minimum element/* NOTE: .min and .max will work exclusively if the array contains numbers only!*/
-
+```
 ## 2.5. Sum and product
 
 These operations, as for min and max, will be supported only if the lists/arrays contain exclusively numbers. Also, to multiply all the elements in a Python’s list, we will need to set up a  `for`  loop, which will be covered further down in the post. There is no preloaded function for that, as opposed to Scala.
@@ -296,5 +299,5 @@ Feel free to check out:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDcwNzczXX0=
+eyJoaXN0b3J5IjpbLTE0NTkwNDg2NjZdfQ==
 -->
