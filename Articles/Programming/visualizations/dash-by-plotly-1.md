@@ -98,7 +98,7 @@ After loading in the S&P 500 data, you’ll see that I inspect the head and tail
 In the below code, you create an array of all of the tickers in our sample portfolio dataframe. You then write a function to read in all of the tickers and their relevant data into a new dataframe, which is essentially the same approach you took for the S&P500 but applied to all of the portfolio’s tickers.
 
 ``` py
-#Generate a dynamic list of tickers to pull from Yahoo Finance API based on the imported file with tickers.
+# Generate a dynamic list of tickers to pull from Yahoo Finance API based on the imported file with tickers.
 tickers = portfolio_df['Ticker'].unique()
 tickers
 # Stock comparison code
@@ -111,17 +111,29 @@ def get(tickers, startdate, enddate):
 all_data = get(tickers, stocks_start, stocks_end)
 ``` 
 As with the S&P 500 dataframe, you’ll create an  `adj_close`  dataframe which only has the  `Adj Close`column for all of your stock tickers. If you look at the notebook in the repo I link to above, this code is chunked out in more code blocks than shown below. For purposes of describing this here, I’ve included below all of the code which leads up to our initial  `merged_portfolio`  dataframe.
-
-_# Also only pulling the ticker, date and adj. close columns for our tickers._adj_close **=** all_data[['Adj Close']]**.**reset_index()  
-adj_close**.**head()_# Grabbing the ticker close from the end of last year_  
-adj_close_start **=** adj_close[adj_close['Date']**==**end_of_last_year]  
-adj_close_start**.**head()_# Grab the latest stock close price_adj_close_latest **=** adj_close[adj_close['Date']**==**stocks_end]  
-adj_close_latestadj_close_latest**.**set_index('Ticker', inplace**=**True)  
-adj_close_latest**.**head()_# Set portfolio index prior to merging with the adj close latest._  
-portfolio_df**.**set_index(['Ticker'], inplace**=**True)portfolio_df**.**head()_# Merge the portfolio dataframe with the adj close dataframe; they are being joined by their indexes._merged_portfolio **=** pd**.**merge(portfolio_df, adj_close_latest, left_index**=**True, right_index**=**True)  
-merged_portfolio**.**head()_# The below creates a new column which is the ticker return; takes the latest adjusted close for each position_  
-_# and divides that by the initial share cost._merged_portfolio['ticker return'] **=** merged_portfolio['Adj Close'] **/** merged_portfolio['Unit Cost'] **-** 1merged_portfolio
-
+``` 
+# Also only pulling the ticker, date and adj. close columns for our tickers.
+adj_close = all_data[['Adj Close']].reset_index()
+adj_close.head()
+# Grabbing the ticker close from the end of last year
+adj_close_start = adj_close[adj_close['Date']==end_of_last_year]
+adj_close_start.head()
+# Grab the latest stock close price
+adj_close_latest = adj_close[adj_close['Date']==stocks_end]
+adj_close_latest
+adj_close_latest.set_index('Ticker', inplace=True)
+adj_close_latest.head()
+# Set portfolio index prior to merging with the adj close latest.
+portfolio_df.set_index(['Ticker'], inplace=True)
+portfolio_df.head()
+# Merge the portfolio dataframe with the adj close dataframe; they are being joined by their indexes.
+merged_portfolio = pd.merge(portfolio_df, adj_close_latest, left_index=True, right_index=True)
+merged_portfolio.head()
+# The below creates a new column which is the ticker return; takes the latest adjusted close for each position
+# and divides that by the initial share cost.
+merged_portfolio['ticker return'] = merged_portfolio['Adj Close'] / merged_portfolio['Unit Cost'] - 1
+merged_portfolio
+``` 
 ![](https://miro.medium.com/max/60/0*6hN6vy6ShMISGiNf.png?q=20)
 
 ![](https://miro.medium.com/max/1087/0*6hN6vy6ShMISGiNf.png)
@@ -136,7 +148,7 @@ Depending on your level of familiarity with  `pandas`, this will be very straigh
 -   Last, you create a new column called  `'ticker return'`  . This calculates the percent return for each stock position by dividing the  `Adj Close`  by the  `Unit Cost`  (initial purchase price for stock) and subtracting 1. This is similar to calculating a formula in excel and carrying it down, but in  `pandas`this is accomplished with one-line of code.
 
 You have taken the individual dataframes for the S&P 500 and individual stocks, and you are beginning to develop a ‘master’ dataframe which we’ll use for calculations, visualizations and any further analysis. Next, you continue to build on this ‘master’ dataframe with further use of pandas  `merge`  function. Below, you reset the current dataframe’s index and begin joining your smaller dataframes with the master one. Once again, the below code block is broken out further in the  `Jupyter`  notebook; here I take a similar approach to before where I’ll share the code below and then break down the key callouts below the code block.
-
+``` py
 merged_portfolio**.**reset_index(inplace**=**True)_# Here we are merging the new dataframe with the sp500 adjusted closes since the sp start price based on_   
 _# each ticker's acquisition date and sp500 close date._merged_portfolio_sp **=** pd**.**merge(merged_portfolio, sp_500_adj_close, left_on**=**'Acquisition Date', right_on**=**'Date')  
 _# .set_index('Ticker')__# We will delete the additional date column which is created from this merge._  
@@ -146,7 +158,7 @@ merged_portfolio_sp['Equiv SP Shares'] **=** merged_portfolio_sp['Cost Basis'] *
 merged_portfolio_sp**.**head()_# We are joining the developing dataframe with the sp500 closes again, this time with the latest close for SP._  
 merged_portfolio_sp_latest **=** pd**.**merge(merged_portfolio_sp, sp_500_adj_close, left_on**=**'Latest Date', right_on**=**'Date')_# Once again need to delete the new Date column added as it's redundant to Latest Date._   
 _# Modify Adj Close from the sp dataframe to distinguish it by calling it the SP 500 Latest Close._**del** merged_portfolio_sp_latest['Date']merged_portfolio_sp_latest**.**rename(columns**=**{'Adj Close': 'SP 500 Latest Close'}, inplace**=**True)merged_portfolio_sp_latest**.**head()
-
+``` 
 -   You use  `reset_index`  on the  `merged_portfolio`  in order to flatten the master dataframe and join on the smaller dataframes’ relevant columns.
 -   In the  `merged_portfolio_sp`  line, you merge the current master dataframe (merged_portfolio) with the  `sp_500_adj_close`; you do this in order to have the S&P’s closing price on each position’s purchase date – this allows you to track the S&P performance over the same time period that each position is held (from acquisition date to most recent market close date).
 -   The merge here is slightly different than before, in that we join on the left dataframe’s  `Acquisition Date`  column and on the right dataframe’s  `Date`  column.
@@ -318,5 +330,5 @@ With those future areas in mind, we accomplished a lot here; this includes impor
 
 I hope that you found this tutorial useful, and I welcome any feedback in the comments. Feel free to also reach out to me on twitter,  [@kevinboller](https://twitter.com/kevinboller), and my personal blog can be found  [here](https://kdboller.github.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTI2NjQzM119
+eyJoaXN0b3J5IjpbLTE2NzY5OTAxNl19
 -->
