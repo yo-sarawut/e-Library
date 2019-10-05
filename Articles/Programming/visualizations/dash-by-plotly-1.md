@@ -64,25 +64,29 @@ portfolio_df.head(10)
 ``` 
 Now that you have read in the sample portfolio file, you’ll create a few variables which capture the date ranges for the S&P 500 and all of the portfolio’s tickers. Note that this is one of the few aspects of this notebook which requires an update each week (adjust the date range to include the most recent trading week — here, we are running this off of prices through 3/9/2018).
 ``` py
-
-_# Date Ranges for SP 500 and for all tickers_  
-_# Modify these date ranges each week.__# The below will pull back stock prices from the start date until end date specified._  
-start_sp **=** datetime**.**datetime(2013, 1, 1)  
-end_sp **=** datetime**.**datetime(2018, 3, 9)_# This variable is used for YTD performance._  
-end_of_last_year **=** datetime**.**datetime(2017, 12, 29)_# These are separate if for some reason want different date range than SP._  
-stocks_start **=** datetime**.**datetime(2013, 1, 1)  
-stocks_end **=** datetime**.**datetime(2018, 3, 9)
+# Date Ranges for SP 500 and for all tickers
+# Modify these date ranges each week.
+# The below will pull back stock prices from the start date until end date specified.
+start_sp = datetime.datetime(2013, 1, 1)
+end_sp = datetime.datetime(2018, 3, 9)
+# This variable is used for YTD performance.
+end_of_last_year = datetime.datetime(2017, 12, 29)
+# These are separate if for some reason want different date range than SP.
+stocks_start = datetime.datetime(2013, 1, 1)
+stocks_end = datetime.datetime(2018, 3, 9)
 ``` 
 As mentioned in the Python Finance training post, the  `pandas-datareader`  package enables us to read in data from sources like Google, Yahoo! Finance and the World Bank. Here I’ll focus on Yahoo! Finance, although I’ve worked very preliminarily with Quantopian and have also begun looking into  `quandl`  as a data source. As also mentioned in the DataCamp post, the Yahoo API endpoint recently changed and this requires the installation of a temporary fix in order for Yahoo! Finance to work. I’ve made this needed slight adjustment in the code below. I have noticed some minor data issues where the data does not always read in as expected, or the last trading day is sometimes missing. While these issues have been relatively infrequent, I’m continuing to monitor whether or not Yahoo! Finance will be the best and most reliable data source going forward.
-
-_# Leveraged from the helpful Datacamp Python Finance trading blog post._from pandas_datareader import data **as** pdr  
-import fix_yahoo_finance **as** yf  
-yf**.**pdr_override() _# <== that's all it takes :-)_sp500 **=** pdr**.**get_data_yahoo('^GSPC',   
-                           start_sp,  
-                             end_sp)  
-      
-sp500**.**head()
-
+```py
+# Leveraged from the helpful Datacamp Python Finance trading blog post.
+from pandas_datareader import data as pdr
+import fix_yahoo_finance as yf
+yf.pdr_override() # <== that's all it takes :-)
+sp500 = pdr.get_data_yahoo('^GSPC', 
+                           start_sp,
+                             end_sp)
+    
+sp500.head()
+```
 If you’re following along with your own notebook, you should see something like the below once you’ve successfully read in the data from Yahoo’s API:
 
 ![](https://miro.medium.com/max/60/0*sqivw2J_oYn1jArV.png?q=20)
@@ -93,16 +97,19 @@ After loading in the S&P 500 data, you’ll see that I inspect the head and tail
 
 In the below code, you create an array of all of the tickers in our sample portfolio dataframe. You then write a function to read in all of the tickers and their relevant data into a new dataframe, which is essentially the same approach you took for the S&P500 but applied to all of the portfolio’s tickers.
 
-_# Generate a dynamic list of tickers to pull from Yahoo Finance API based on the imported file with tickers._  
-tickers **=** portfolio_df['Ticker']**.**unique()  
-tickers_# Stock comparison code_**def** **get**(tickers, startdate, enddate):  
-    **def** **data**(ticker):  
-        **return** (pdr**.**get_data_yahoo(ticker, start**=**startdate, end**=**enddate))  
-    datas **=** map(data, tickers)  
-    **return**(pd**.**concat(datas, keys**=**tickers, names**=**['Ticker', 'Date']))  
-                 
-all_data **=** get(tickers, stocks_start, stocks_end)
-
+``` py
+#Generate a dynamic list of tickers to pull from Yahoo Finance API based on the imported file with tickers.
+tickers = portfolio_df['Ticker'].unique()
+tickers
+# Stock comparison code
+def get(tickers, startdate, enddate):
+    def data(ticker):
+        return (pdr.get_data_yahoo(ticker, start=startdate, end=enddate))
+    datas = map(data, tickers)
+    return(pd.concat(datas, keys=tickers, names=['Ticker', 'Date']))
+               
+all_data = get(tickers, stocks_start, stocks_end)
+``` 
 As with the S&P 500 dataframe, you’ll create an  `adj_close`  dataframe which only has the  `Adj Close`column for all of your stock tickers. If you look at the notebook in the repo I link to above, this code is chunked out in more code blocks than shown below. For purposes of describing this here, I’ve included below all of the code which leads up to our initial  `merged_portfolio`  dataframe.
 
 _# Also only pulling the ticker, date and adj. close columns for our tickers._adj_close **=** all_data[['Adj Close']]**.**reset_index()  
@@ -311,5 +318,5 @@ With those future areas in mind, we accomplished a lot here; this includes impor
 
 I hope that you found this tutorial useful, and I welcome any feedback in the comments. Feel free to also reach out to me on twitter,  [@kevinboller](https://twitter.com/kevinboller), and my personal blog can be found  [here](https://kdboller.github.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDQ5NTkwN119
+eyJoaXN0b3J5IjpbMTcwMTI2NjQzM119
 -->
