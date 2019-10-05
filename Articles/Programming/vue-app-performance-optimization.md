@@ -24,7 +24,11 @@ Part 8 — Prefetching
 
 Hey! This article was moved to Vue School blog  [here](https://vueschool.io/articles/vuejs-tutorials/lazy-loading-and-code-splitting-in-vue-js/). I refreshed it with better examples and few more tricks :) Stay tuned for the next parts also on Vue School blog!
 
+## Part 1 — Introduction to performance optimization and lazy loading.
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjM4ODgyNl19
+eyJoaXN0b3J5IjpbMTc4NjMxNDU1M119
 -->
