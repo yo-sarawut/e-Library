@@ -289,9 +289,10 @@ Class instructor “Sarah Drasner” is an award-winning Speaker, Senior Develop
 
 She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [GitHub](https://github.com/sdras),  [CSS-Tricks](https://css-tricks.com/author/sdrasner/),  [CodePen](https://codepen.io/sdras/),  [LinkedIn](https://www.linkedin.com/in/sarahdrasner/),  [Twitter](https://twitter.com/sarah_edo), and Medium([Sarah Drasner](https://medium.com/u/c2509fce86ff?source=post_page-----30103729ec9b----------------------)), and  [Frontend Masters](https://frontendmasters.com/teachers/sarah-drasner/).
 
+[**Source :**](https://medium.com/@j_lim_j/summary-of-vuejs-by-sarah-drasner-part-1-of-7-directives-data-rendering-30103729ec9b)
+
 ----------
 
-Thanks for reading! 💕  _If you like this blog post, please clap👏_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ2NTIwMTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MTU5NTgxOTBdfQ==
 -->
