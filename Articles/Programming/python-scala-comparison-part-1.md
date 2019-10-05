@@ -105,17 +105,19 @@ Lists and arrays are not ordered, so it’s common practice to add elements at t
 ```py
 `my_list.append('last words') # adding at the end of  **Python**'s list`
 ```
-```scrala
+```scala
 `myArray :+= "last words" // adding at the end of  **Scala**'s array`
 ```
 If, for some reason, we want to add something at the very beginning, let’s say the number  `99`:
+```
+my_list.insert(0, 99) 
 
-my_list.insert(0, 99) # this is a generic method in **Python**. The   
+# this is a generic method in **Python**. The   
 # first number you specify in the parenthesis is the index of the   
 # position where you want to add the element.  
 # 0 means that you want the element to be added at the very   
 # beginningmyArray +:= 99 /* adding an element at the beginning of **Scala**'s array */
-
+```
 # 3. Print
 
 This is also something that we use all the time while coding, luckily there is a only a slight difference between the two languages.
@@ -305,5 +307,5 @@ Feel free to check out:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc3MDQ3MTddfQ==
+eyJoaXN0b3J5IjpbLTU3ODkxMDUzXX0=
 -->
