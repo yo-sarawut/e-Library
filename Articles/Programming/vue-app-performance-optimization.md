@@ -373,7 +373,158 @@ You already know a lot about lazy loading Vue components. In the next part, you�
 Part 3 — Lazy loading Vuex modules
 ===
 
+# Two types of Vuex modules
 
+There is one important thing you need to be aware of before we will go further and see how to load  [Vuex modules](https://vuex.vuejs.org/guide/modules.html)  lazily. You need to understand what are the possible ways to register a Vuex module and what are their pros and cons.
+
+**Static Vuex modules**  are declared during the Store initialization. Here is an example of explicitly created static module:
+
+// store.js  
+import { userAccountModule } from './modules/userAccount'const store = new Vuex.Store({  
+  modules: {  
+    user: userAccountModule  
+  }  
+})
+
+Above code will create a a new Vuex Store with static module  `userAccountModule`. Static modules can’t be unregistered (also their registration can’t be delayed) and their structure (not state!) can’t be changed after the Store initialization.
+
+While this limitations won’t be a problem for most of the modules and declaring all of them in one place is really helpful for keeping all data-related stuff in one place there are some downsides of this approach.
+
+Let’s say we have Admin Dashboard in our application with a dedicated Vuex module.
+
+// store.js  
+import { userAccountModule } from './modules/userAccount'  
+import { adminModule } from './modules/admin'const store = new Vuex.Store({  
+  modules: {  
+    user: userAccountModule,   
+    admin: adminModule  
+  }  
+})
+
+You can imagine that such module can be pretty huge. Even though dashboard will be used only by a small part of users and in a restricted area of application (let’s say under a special  `/admin`  route) due to centralized registration of static Vuex modules all of it’s code will end up in the main bundle.
+
+![](https://miro.medium.com/max/60/1*EMvePcANptY83r80Go3Mtg.png?q=20)
+
+![](https://miro.medium.com/max/1418/1*EMvePcANptY83r80Go3Mtg.png)
+
+All of our modules are bundled into one file
+
+This is certainly not a situation that we want to end up in. We need a way to load this module only in  `/admin`  route. As you may have guessed static modules can’t fulfill our need. All static modules needs to be register at the moment of Vuex Store creation therefore they can’t be registered later.
+
+This is where dynamic modules  can help us!
+
+**Dynamic modules**  in opposite to the static ones can be registered  **after** Vuex Store creation. This neat capability implies that we don’t need to download dynamic module on app initialization and can bundle it in different chunk of code or load lazily when it’s needed.
+
+First let’s see how the previous code will look like with dynamically registered  `admin`  module.
+
+// store.js  
+import { userAccountModule } from './modules/userAccount'  
+import { adminModule } from './modules/admin'const store = new Vuex.Store({  
+  modules: {  
+    user: userAccountModule,   
+  }  
+})store.registerModule('admin', adminModule)
+
+Instead of passing  `adminModule`  object directly into  `modules`  property of our store we registered it after Store creation with  `[registerModule](https://vuex.vuejs.org/api/#registermodule)`  method.
+
+Dynamic registration doesn’t require any changes inside the module itself so any Vuex module can be registered either statically or dynamically.
+
+Of course in current form this dynamically registered module is not giving us any advantage.
+
+# Properly code-splitted Vuex modules
+
+Let’s go back to our problem. Now that we know how to register  `admin`  module dynamically we can certainly try to put it’s code into  `/admin`  route bundle.
+
+Let’s stop for the moment to briefly understand the application we are working with.
+
+![](https://miro.medium.com/max/60/1*ult4uXG6nDjt4nzEipGECQ.png?q=20)
+
+![](https://miro.medium.com/max/928/1*ult4uXG6nDjt4nzEipGECQ.png)
+
+// router.js  
+import VueRouter from 'vue-router'  
+const Home = () => import('./Home.vue')  
+const Admin = () => import('./Admin.vue')const routes = [  
+  { path: '/', component: Home },  
+  { path: '/admin', component: Admin }  
+]export const router = new VueRouter({ routes }) 
+
+In  `router.js`  we have two code-splitted routes that are loaded lazily. With the code that we have seen above our  `admin`  Vuex module is still in main  `app.js`  bundle because of it’s static import in the  `store.js`.
+
+Let’s fix this and deliver this module only to the users entering  `/admin`  route so other’s will not download the redundant code.
+
+To do so we will load the  `admin`  module in  `/admin`  route component instead of importing and registering it in`store.js`.
+
+// store.js  
+import { userAccountModule } from './modules/userAccount'export const store = new Vuex.Store({  
+  modules: {  
+    user: userAccountModule,   
+  }  
+})// Admin.vue  
+import adminModule from './admin.js'export default {   
+  // other component logic  
+  mounted () {   
+    this.$store.registerModule('admin', adminModule)  
+  },  
+  beforeDestroy () {  
+   this.$store.unregisterModule('admin')  
+  }  
+}
+
+Let’s take a look at what happened!
+
+We are importing and registering  `admin`  Store inside  `Admin.vue`  (`/admin`  route) right after it’s mounted. Later in the code we are unregistering the module once the user exits admin panel to prevent multiple registrations of the same module.
+
+Now because  `admin`  module is imported inside  `Admin.vue`  instead of  `store.js`  it will be bundled together with code-splitted  `Admnin.vue`!
+
+![](https://miro.medium.com/max/60/1*6w7lmBHGSniC1nfz4qLdUg.png?q=20)
+
+![](https://miro.medium.com/max/911/1*6w7lmBHGSniC1nfz4qLdUg.png)
+
+> **Important note**: If you’re using SSR mode make sure that you’re registering the module in `mounted` hook. Otherwise it can led to memory leaks since `beforeDestroy` hook is not evaluated on the server side.
+
+Now we know how to use dynamic Vuex module registration to distribute our route-specific modules into proper bundles. Let’s take a look at slightly more complicated use case.
+
+# Lazy loading Vuex modules
+
+Let’s say we have testimonials section on our  `Home.vue`  where we want to display positive opinions about our services. There’s a lot of them so we don’t want to show them right after user enters our website. It’s much better to display them only if user want it. We can add  _“Show Testimonials”_  button that will load and display the testimonials below it after clicked.
+
+![](https://miro.medium.com/max/60/1*Y8puS6MPWVBsR_amfZT1Rw.png?q=20)
+
+![](https://miro.medium.com/max/1183/1*Y8puS6MPWVBsR_amfZT1Rw.png)
+
+To store testimonials data we need one more Vuex module. Let’s call it  `testimonials`. The module will be responsible for showing previously added testimonials and adding new one. We don’t need to know about implementation details.
+
+We want  `testimonials`  module to be downloaded ONLY if user clicks the button since it’s not needed before. Let’s see how we can make use of dynamic module registration and dynamic imports to achieve this functionality.  `Testimonials.vue`  is a component inside  `Home.vue.`
+
+![](https://miro.medium.com/max/60/1*2-b6NfyNgstA2S8siebyMw.png?q=20)
+
+![](https://miro.medium.com/max/1502/1*2-b6NfyNgstA2S8siebyMw.png)
+
+Let’s quickly review the code.
+
+When user clicks  `Show Testimonials`  button  `getTestimonials()`  method is invoked. It is responsible for invoking  `getTestimonialsModule()` which is fetching  `testimonials.js`. Once promise is resolved (which means module is loaded) we are dynamically registering it and dispatching action responsible for fetching testimonials.
+
+Thanks to dynamic imports  `testimonials.js`  content is bundled into a separate file that is downloaded only when  `getTestimonialsModule`  method is invoked.
+
+![](https://miro.medium.com/max/60/1*eQjEeTznwCQQgPA3ftDrbw.png?q=20)
+
+![](https://miro.medium.com/max/1698/1*eQjEeTznwCQQgPA3ftDrbw.png)
+
+When we need to exit admin panel we’re just unregistering previously registered module in  `beforeDestroy`  lifecycle hook so it’s not gonna be duplicated if we enter this route again.
+
+# Wrap up
+
+Even though static Vuex modules registration is sufficient for most use cases there are some certain situations when we might want to make use of dynamic registration.
+
+-   **If module is needed only on specific route,** then we can register it dynamically in proper route components so it‘s not ending up in main bundle.
+-   **If module is needed only after some interaction ,** then we need to combine dynamic module registration with dynamic import and load module lazily in a proper method.
+
+Ability to code split Vuex modules is a powerful tool. The more data-related operations you’re dealing with in your application the more savings you’ll get in terms of bundle size.
+
+In the next part of the series we will learn how to lazily load individual components and, what is more important, which components should be loaded lazily.
+
+[**Source :**](https://itnext.io/vue-js-app-performance-optimization-part-3-lazy-loading-vuex-modules-ed67cf555976)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjg4ODA3OF19
+eyJoaXN0b3J5IjpbLTEyMDA0ODEzMzldfQ==
 -->
