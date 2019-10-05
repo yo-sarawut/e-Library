@@ -130,13 +130,14 @@ This is also something that we use all the time while coding, luckily there is a
 
 Quite a few differences here: while Python requires indentation to create a block and colon after the statement, Scala wants the for conditions in parenthesis, and the block in curly brackets with no indentation needed. I like to use indentation anyway though, it makes the code look neater.
 
-# for loop in **Python**  
+# for loop in **Python** 
+```py
 for i in my_list:  
     print(i)// for loop in **Scala**  
 for (i <- myArray){  
     println(i)  
 }
-
+```
 # 5. Mapping and/or filtering
 
 All things that, in Python, can be done by using list comprehensions. In Scala we will have to use functions.
@@ -174,14 +175,15 @@ Although they have different names in the two languages, they are exactly the sa
 Let’s create one storing my first, last name and age… and let’s also pretend I am 18.
 
 # **Python**  
+```py
 my_dict = {  
 'first_name': 'Emma',  
 'last_name': 'Grimaldi',  
 'age': 18  
 }
-
+```
 In Scala we can do this in two different ways.
-
+```scala
 // **Scala** mode 1  
 var myMap = (  
 "firstName" -> "Emma",  
@@ -193,7 +195,7 @@ var myMap = (
 ("lastName", "Grimaldi"),  
 ("age", 18)  
 )
-
+```
 ## 6.2. Adding to dictionary/map
 
 Let’s add my Country of origin to my dictionary/map.
@@ -207,14 +209,19 @@ Let’s add my Country of origin to my dictionary/map.
 This works the same way as indexing lists/array, but instead of positions, we are using keys. If I want to see my first name:
 
 # **Python**  
-my_dict['first_name']// **Scala**  
+```
+my_dict['first_name']/
+```
+```
+/ **Scala**  
 myMap("firstName")
-
+```
 ## 6.4. Looping
 
 If we want to print the dictionary/map, we will have to for loop in both cases, over keys and values.
 
 # Python  
+```py
 for key, value in my_dict.items():  
     print(key)  
     print(value)// Scala  
@@ -222,7 +229,7 @@ for ((key, value) <- myMap){
     println(key)  
     println(value)  
 }
-
+```
 # 7. Tuples
 
 Yes, they are called the same in both languages! But, while they are zero-index in Python, they are not in Scala. Let’s create a tuple  `(1, 2, 3)`  and then call the first value.
@@ -307,5 +314,5 @@ Feel free to check out:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODkxMDUzXX0=
+eyJoaXN0b3J5IjpbLTkwMzkzMzk1OF19
 -->
