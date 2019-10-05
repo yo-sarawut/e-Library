@@ -344,6 +344,8 @@ Using  **Vuelidate**  makes the whole ordeal a lot more bearable. In tandem with
 -   [Creating custom error display components](https://codesandbox.io/embed/l240kmxwl)
 -   [Form error summary](https://codesandbox.io/embed/6v1lyz831r)
 -   [Reducing boilerplate by injecting the validator](https://codesandbox.io/embed/0p986z74p0)
+
+[**Source :**](https://vuejsdevelopers.com/2018/08/27/vue-js-form-handling-vuelidate/?utm_source=medium-vjd&utm_medium=article&utm_campaign=fhv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODc3MDMwOF19
+eyJoaXN0b3J5IjpbNzM5NzUyNTI1XX0=
 -->
