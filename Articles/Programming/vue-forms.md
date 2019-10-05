@@ -319,19 +319,7 @@ And on top of this, we have custom input controls. The list goes on …
 
 Ideal form validation should support many design styles as no style fits all. I highly recommend the use of  [Vuelidate](https://monterail.github.io/vuelidate/) — Model based form validation.
 
-[](https://monterail.github.io/vuelidate/?source=post_page-----d81b3ffe9efb----------------------)
 
-## 
-
-Vuelidate | A Vue.js library.
-
-### 
-
-Simple, lightweight model-based validation for Vue.js
-
-#### 
-
-monterail.github.io
 
 ## 15. Native form input events
 
@@ -349,19 +337,6 @@ this.$el.dispatchEvent(customEvent);
 ```
 Using  `dispatchEvent`, we can create real native event which will bubble up. But the question here is — **Should we do this? Well, I am not sure.**  I did not feel the need to do this yet. I asked this question on Stack Overflow and Twitter but haven’t got a convincing response yet:
 
-[](https://stackoverflow.com/questions/50861726/should-we-use-native-input-event-for-custom-form-components-in-vue-js?source=post_page-----d81b3ffe9efb----------------------)
-
-## 
-
-Should we use native input event for custom form components in Vue.js?
-
-### 
-
-Consider the following Vue.js code: I have a form with three input elements. One is native input element whereas…
-
-#### 
-
-stackoverflow.com
 
 Should you trigger native events for custom input controls?
 
@@ -378,12 +353,12 @@ You can extend guideline 15 further by introducing hidden input field for custom
 > To make custom input behave like native input control, trick is to use hidden input field.
 
 As shown in  [trix-editor](https://github.com/basecamp/trix)  documentation:
-
+```js
 <form>  
     <input id="x" type="hidden" name="content">  
     <trix-editor input="x"></trix-editor>  
 </form>
-
+```
 You can access your custom input control just like native input using  `HTMLFormControlsCollection`  returned by  [HTMLFormElement.elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements).
 
 ----------
@@ -398,5 +373,5 @@ You can access your custom input control just like native input using  `HTMLForm
 
 [**Source :**](https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEwNDU1MjRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzA3NzQyNDhdfQ==
 -->
