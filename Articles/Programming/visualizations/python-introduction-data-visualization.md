@@ -45,15 +45,15 @@ Figure 3: Wine Review dataset head
 Matplotlib is the most popular python plotting library. It is a low-level library with a Matlab like interface which offers lots of freedom at the cost of having to write more code.
 
 To install Matplotlib pip and conda can be used.
-
+``` py
 pip install matplotlib  
 or  
 conda install matplotlib
-
+``` 
 Matplotlib is specifically good for creating basic graphs like line charts, bar charts, histograms and many more. It can be imported by typing:
-
+``` py
 import matplotlib.pyplot as plt
-
+``` 
 ## Scatter Plot
 
 To create a scatter plot in Matplotlib we can use the  `scatter`  method. We will also create a figure and an axis using  `plt.subplots`  so we can give our plot a title and labels.
@@ -111,11 +111,11 @@ Pandas is an open source high-performance, easy-to-use library providing data st
 Pandas Visualization makes it really easy to create plots out of a pandas dataframe and series. It also has a higher level API than Matplotlib and therefore we need less code for the same results.
 
 Pandas can be installed using either pip or conda.
-
+``` py
 pip install pandas  
 or  
 conda install pandas
-
+``` 
 ## Scatter Plot
 
 To create a scatter plot in Pandas we can call  `<dataset>.plot.scatter()`  and pass it two arguments, the name of the x-column as well as the name of the y-column. Optionally we can also pass it a title.
@@ -197,9 +197,9 @@ Seaborn is a Python data visualization library based on Matplotlib. It provides 
 Seaborn has a lot to offer. You can create graphs in one line that would take you multiple tens of lines in Matplotlib. Its standard designs are awesome and it also has a nice interface for working with pandas dataframes.
 
 It can be imported by typing:
-
+``` py
 import seaborn as sns
-
+``` 
 ## Scatter plot
 
 We can use the  `.scatterplot`  method for creating a scatterplot, and just as in Pandas we need to pass it the column names of the x and y data, but now we also need to pass the data as an additional argument because we aren’t calling the function on the data directly as we did in Pandas.
@@ -340,23 +340,6 @@ As you can see in the images above these techniques are always plotting two feat
 
 ----------
 
-# Recommended Reading
-
-[](https://towardsdatascience.com/scraping-reddit-data-1c0af3040768?source=post_page-----89a54c97fbed----------------------)
-
-## 
-
-Scraping Reddit data
-
-### 
-
-How to scrape data from Reddit using the Python Reddit API Wrapper(PRAW)
-
-#### 
-
-towardsdatascience.com
-
-----------
 
 # Conclusion
 
@@ -370,17 +353,6 @@ The code covered in this article is available as a  [Github Repository](https://
 
 If you have any questions, recommendations or critiques, I can be reached via  [Twitter](https://twitter.com/Tanner__Gilbert)  or the comment section.
 
-[](https://towardsdatascience.com/?source=post_sidebar--------------------------post_sidebar-)
-
-## Towards Data Science
-
-#### Sharing concepts, ideas, and codes.
-
-Follow
-
-#### 757
-
-#### Thanks to  TDS Team  and  David Errington.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTExNDA0MV19
+eyJoaXN0b3J5IjpbMTE4MTYzODc2NV19
 -->
