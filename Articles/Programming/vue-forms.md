@@ -171,21 +171,21 @@ If the custom component has multiple focus-able elements, then have clear and un
 
 There are many components in the wild that does this. One example is  [vue-flatpickr-component](https://github.com/ankurk91/vue-flatpickr-component). If you are following immutable data practices, then it can land you in trouble. For example, you are listening for change event from a component, and trying to trigger an API request. A component is passed a date as  `string`  and it emits  `Date`  object on change which is essentially the same date you passed. Since immutability relies on simple equality check, the equality would fail and cause unwanted API request.
 
-[](https://github.com/ankurk91/vue-flatpickr-component?source=post_page-----d81b3ffe9efb----------------------)
+
 
 
 ## 10. Stick to :value and @input binding
 
 In Vue,  `v-model`  directive is used to create two-way binding on form input controls. This is also applicable to  **custom input controls**. So, the following two are equivalent:
-
+```js
 <!-- Two-way binding syntax sugar using **v-model** -->  
 <custom-input v-model="data"></custom-input><!-- Two-way binding under the hood -->  
 <custom-input  
   v-bind:value="data"  
   v-on:input="data = $event"></custom-input>
-
+```
 This is the default behavior of  `v-model`  directive. It uses  `value`  as a prop and  `input`  as an event. But Vue.js allows you to customize this behavior by using  `model`  option:
-
+```js
 // v-model here binds to **checked prop** and **change event**  
 Vue.component('custom-input', {  
   // ... More options  
@@ -194,7 +194,7 @@ Vue.component('custom-input', {
     event: 'change'  
   }  
 }
-
+```
 The suggestion here is to stick to what Vue.js provides out-of-box. I have seen  `model`  being changed just for the convenience of the component author. Vue.js is powerful but with it comes great responsibility.  `model`  customization is meant for scenarios where  `value`  prop  [serves a different purpose](https://vuejs.org/v2/guide/components-custom-events.html#Customizing-Component-v-model). Breaking this convention hampers code readability in general.
 
 > Be idiomatic in handling  `:value`  and  `@input`  binding, you will get  `v-model`  for free. If  `v-model`  doesn’t work or you have to do something extra to support it, that means you are doing something wrong.
@@ -222,7 +222,7 @@ Well defined support for  `@input`  and  `@change`  event is vital and a key to 
 > Read this as: Do never fire @input event on changing the value programmatically.
 
 Input event should be emitted by the component when a user has interacted with the component and changed the value. If a parent component has set the value of the custom input control and if you are watching for  `value`  prop, then no matter what,  **never emit** `**input**` **event from the watcher. This should be forbidden:**
-
+```js
 **// POOR ABSTRACTION**  
 Vue.component('custom-input', {  
     // ... More options  
@@ -234,7 +234,7 @@ Vue.component('custom-input', {
         }  
     }  
 }
-
+```
 This happens when you do not have a proper parent-child relationship and attempting to do sibling component communication as shown in the following diagram:
 
 ![](https://miro.medium.com/max/30/1*4sGSomabAQDfjTnn06Q3Dg.png?q=20)
@@ -342,11 +342,11 @@ There are cases where you need to have a common event handler on  `<form>`  elem
 </form>
 
 Our events should bubble up so that  `form`  element can listen to them. But, the way event handling works in Vue.js, events do not bubble up for the custom elements. Also, just because we emit  `focus`  event, it doesn’t count as a native  `focus`  event. We need to trigger real native event using:
-
+```js
 // Within Vue.js componentconst customEvent = new Event('input');// Vue.js only event  
 this.$emit('input');// Native HTML event  
 this.$el.dispatchEvent(customEvent);
-
+```
 Using  `dispatchEvent`, we can create real native event which will bubble up. But the question here is — **Should we do this? Well, I am not sure.**  I did not feel the need to do this yet. I asked this question on Stack Overflow and Twitter but haven’t got a convincing response yet:
 
 [](https://stackoverflow.com/questions/50861726/should-we-use-native-input-event-for-custom-form-components-in-vue-js?source=post_page-----d81b3ffe9efb----------------------)
@@ -398,5 +398,5 @@ You can access your custom input control just like native input using  `HTMLForm
 
 [**Source :**](https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc1OTA4MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjEwNDU1MjRdfQ==
 -->
