@@ -235,13 +235,16 @@ for ((key, value) <- myMap){
 Yes, they are called the same in both languages! But, while they are zero-index in Python, they are not in Scala. Let’s create a tuple  `(1, 2, 3)`  and then call the first value.
 
 # Python  
+```
 my_tup = (1, 2, 3)  
-my_tup[0]  
+my_tup[0]
+```
+```  
 # the indexing is the same as lists// Scala  
 myTup = (1, 2, 3)  
 myTup._1  
 // the indexing is way different than arrays!
-
+```
 # 8. Sets
 
 Yes, another name in common! In both examples below, the sets will contain only  `1, 3, 5`  because sets don’t accept duplicates.
@@ -255,16 +258,17 @@ Yes, another name in common! In both examples below, the sets will contain only 
 We have covered a lot so far, good job if you made it down here! This is the last thing paragraph of this post, and luckily defining a function is not that different between Python and Scala. They both start with  `def`  and while the former requires a  `return`  statement, the latter does not. On the other hand, Scala wants to know what types of variables we are going to input and output, while Python doesn’t care. Let’s write a very simple function that takes a string as input and returns the first 5 characters.
 
 # **Python**  
+```py
 def chop_string(input_string):  
     return input_string[0:5]
-
+```
 Indentation is also important in Python, or the function will not work. Scala instead just likes its curly braces.
-
+```scala
 // **Scala**  
 def chopString(inputString: String): String = {  
     inputString.slice(0, 5)  
 }
-
+```
 ----------
 
 That’s it! I hope you found this helpful as an immediate reference for those of you who are just starting to get familiar with either Python or Scala. The following step will be to build a similar guide to explore the differences between pandas/sklearn and sparks, looking forward to it! I hope you do as well!
@@ -292,27 +296,7 @@ Feel free to check out:
 
 [my LinkedIn profile.](https://www.linkedin.com/in/emmagrimaldi/)
 
-**Thank you for reading!**
-
-![](https://miro.medium.com/max/550/1*ViBVUplkI1_XZtQghucv6A.jpeg)
-
-[source link](https://www.kdnuggets.com/2018/05/apache-spark-python-scala.html)
-
-----------
-
-![](https://miro.medium.com/max/30/1*-3XTARCS1twqTj73tB78wg.png?q=20)
-
-![](https://miro.medium.com/max/288/1*-3XTARCS1twqTj73tB78wg.png)
-
-Feel free to check out:
-
-[part II of this post](https://medium.com/@emmagrimaldi/python-pandas-vs-scala-how-to-handle-dataframes-part-ii-d3e5efe8287d)
-
-[my other Medium posts.](https://medium.com/@emmagrimaldi)
-
-[my LinkedIn profile.](https://www.linkedin.com/in/emmagrimaldi/)
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzkzMzk1OF19
+eyJoaXN0b3J5IjpbLTEyOTY3NzYzNzhdfQ==
 -->
