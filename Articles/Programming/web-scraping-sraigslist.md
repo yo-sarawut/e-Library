@@ -138,11 +138,9 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 [Scrape responsibly](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/).
 
-Happy coding!
-
-Riley
+[**Source :**](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0NTI5MjQ0XX0=
+eyJoaXN0b3J5IjpbMjI0MDI1NzcyXX0=
 -->
