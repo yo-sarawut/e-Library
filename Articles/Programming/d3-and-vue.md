@@ -133,25 +133,13 @@ If you made it here then you’ve followed quite a lot of steps. If you got stuc
 
 ----------
 
-[](https://levelup.gitconnected.com/)
 
-![](https://miro.medium.com/max/30/1*S9uYu-fFL3hIQLGVu0o-EQ.png?q=20)
 
-![](https://miro.medium.com/max/1400/1*S9uYu-fFL3hIQLGVu0o-EQ.png)
 
-[](https://gitconnected.com/learn/d3-js?source=post_page-----7a6a721eb79f----------------------)
-
-## 
-
-Learn D3.js - Best D3.js Tutorials (2019) | gitconnected
-
-### 
-
-The top 7 D3.js tutorials. Courses are submitted and voted on by developers, enabling you to find the best D3.js…
 
 
 
 [**Source :**](https://levelup.gitconnected.com/d3-js-and-vue-js-7a6a721eb79f)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ0NzkyMjVdfQ==
+eyJoaXN0b3J5IjpbMTI0NDg4ODgyM119
 -->
