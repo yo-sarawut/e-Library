@@ -70,20 +70,24 @@ If you instead want to develop this locally, you can also use  `vue-cli`. You ca
 **Install ReactiveSearch for Vue**
 
 Now we can add our dependency by clicking the  `Add Dependency`  button on CodeSandbox and searching for  `reactivesearch-vue`, or if you are working locally you can install the package:
-
+``` js
 yarn add @appbaseio/reactivesearch-vue
+``` 
 
 # Step 2: Adding components from ReactiveSearch library
 
 Now that we have the dataset to play around with and we are also done with our setup, it’s time for adding components to our app.
 
 We need to first register the library so that we can use the components in the  `main.js`. We can do this via the  `use`  method of  `Vue`:
-
+``` js
 import ReactiveSearch from "@appbaseio/reactivesearch-vue";Vue.use(ReactiveSearch);
+``` 
 
 ## Connecting our Search Backend via ReactiveBase Component
 
-All the ReactiveSearch components are wrapped inside a container component —  `ReactiveBase`  which connects the components to an Elasticsearch index. We’ll apply this in the  `/src/App.vue`  file. You can read more about  `Reactivebase`  [here](https://opensource.appbase.io/reactive-manual/vue/getting-started/reactivebase.html).
+All the ReactiveSearch components are wrapped inside a container component —  
+``` 
+`ReactiveBase`  which connects the components to an Elasticsearch index. We’ll apply this in the  `/src/App.vue`  file. You can read more about  `Reactivebase`  [here](https://opensource.appbase.io/reactive-manual/vue/getting-started/reactivebase.html).
 
 The  `app`  and  `credentials`  are taken from my appbase.io app. In case you are using  [your own app](https://dashboard.appbase.io/), you can swap the values in L2 and L3.
 
@@ -174,5 +178,5 @@ The documentation for all the components is available at  [https://opensource.ap
 
 Finally,  [go ★ ReactiveSearch](https://github.com/appbaseio/reactivesearch)  on Github so you can find it when you need to build that awesome search!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ2MzQ1NjVdfQ==
+eyJoaXN0b3J5IjpbLTI2ODYwODM3XX0=
 -->
