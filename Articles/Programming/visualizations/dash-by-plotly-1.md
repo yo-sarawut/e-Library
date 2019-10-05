@@ -311,23 +311,25 @@ Your first chart below compares each individual position’s total return relati
 ![](https://miro.medium.com/max/700/0*5ekwOuewgCgfM6oJ.png)
 
 As each of these visualizations are relatively similar, I’ll explain the code required to generate the above Plotly visualization, and for the remaining ones I’ll only summarize observations from each visualization.
-
-trace1 **=** go**.**Bar(  
-    x **=** merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker'][0:10],  
-    y **=** merged_portfolio_sp_latest_YTD_sp_closing_high['ticker return'][0:10],  
-    name **=** 'Ticker Total Return')trace2 **=** go**.**Scatter(  
-    x **=** merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker'][0:10],  
-    y **=** merged_portfolio_sp_latest_YTD_sp_closing_high['SP Return'][0:10],  
-    name **=** 'SP500 Total Return')  
-      
-data **=** [trace1, trace2]layout **=** go**.**Layout(title **=** 'Total Return vs S&P 500'  
-    , barmode **=** 'group'  
-    , yaxis**=**dict(title**=**'Returns', tickformat**=**".2%")  
-    , xaxis**=**dict(title**=**'Ticker')  
-    , legend**=**dict(x**=.**8,y**=**1)  
-    )fig **=** go**.**Figure(data**=**data, layout**=**layout)  
-iplot(fig)
-
+``` py
+trace1 = go.Bar(
+    x = merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker'][0:10],
+    y = merged_portfolio_sp_latest_YTD_sp_closing_high['ticker return'][0:10],
+    name = 'Ticker Total Return')
+trace2 = go.Scatter(
+    x = merged_portfolio_sp_latest_YTD_sp_closing_high['Ticker'][0:10],
+    y = merged_portfolio_sp_latest_YTD_sp_closing_high['SP Return'][0:10],
+    name = 'SP500 Total Return')
+    
+data = [trace1, trace2]
+layout = go.Layout(title = 'Total Return vs S&P 500'
+    , barmode = 'group'
+    , yaxis=dict(title='Returns', tickformat=".2%")
+    , xaxis=dict(title='Ticker')
+    , legend=dict(x=.8,y=1)
+    )
+fig = go.Figure(data=d
+``` 
 -   When using  `Plotly`, you create  `traces`  which will plot the x and y data you specify. Here, you specify in trace1 that you want to plot a bar chart, with each Ticker on the x-axis and each ticker’s return on the y-axis.
 -   In trace2, to break up the data a bit, we’ll use a Scatter line chart for the Ticker on the x-axis and the S&P Return on the y-axis.
 -   Where the bar is above the line, the individual ticker (6 of 8 times) has outperformed the S&P 500.
@@ -385,5 +387,5 @@ With those future areas in mind, we accomplished a lot here; this includes impor
 
 I hope that you found this tutorial useful, and I welcome any feedback in the comments. Feel free to also reach out to me on twitter,  [@kevinboller](https://twitter.com/kevinboller), and my personal blog can be found  [here](https://kdboller.github.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzA4NTEwNF19
+eyJoaXN0b3J5IjpbNjI2MDY2MzgwXX0=
 -->
