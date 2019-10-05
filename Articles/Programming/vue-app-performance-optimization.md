@@ -378,20 +378,20 @@ Part 3 — Lazy loading Vuex modules
 There is one important thing you need to be aware of before we will go further and see how to load  [Vuex modules](https://vuex.vuejs.org/guide/modules.html)  lazily. You need to understand what are the possible ways to register a Vuex module and what are their pros and cons.
 
 **Static Vuex modules**  are declared during the Store initialization. Here is an example of explicitly created static module:
-
+```js
 // store.js  
 import { userAccountModule } from './modules/userAccount'const store = new Vuex.Store({  
   modules: {  
     user: userAccountModule  
   }  
 })
-
+```
 Above code will create a a new Vuex Store with static module  `userAccountModule`. Static modules can’t be unregistered (also their registration can’t be delayed) and their structure (not state!) can’t be changed after the Store initialization.
 
 While this limitations won’t be a problem for most of the modules and declaring all of them in one place is really helpful for keeping all data-related stuff in one place there are some downsides of this approach.
 
 Let’s say we have Admin Dashboard in our application with a dedicated Vuex module.
-
+```js
 // store.js  
 import { userAccountModule } from './modules/userAccount'  
 import { adminModule } from './modules/admin'const store = new Vuex.Store({  
@@ -400,7 +400,7 @@ import { adminModule } from './modules/admin'const store = new Vuex.Store({
     admin: adminModule  
   }  
 })
-
+```
 You can imagine that such module can be pretty huge. Even though dashboard will be used only by a small part of users and in a restricted area of application (let’s say under a special  `/admin`  route) due to centralized registration of static Vuex modules all of it’s code will end up in the main bundle.
 
 ![](https://miro.medium.com/max/60/1*EMvePcANptY83r80Go3Mtg.png?q=20)
@@ -416,7 +416,7 @@ This is where dynamic modules  can help us!
 **Dynamic modules**  in opposite to the static ones can be registered  **after** Vuex Store creation. This neat capability implies that we don’t need to download dynamic module on app initialization and can bundle it in different chunk of code or load lazily when it’s needed.
 
 First let’s see how the previous code will look like with dynamically registered  `admin`  module.
-
+```js
 // store.js  
 import { userAccountModule } from './modules/userAccount'  
 import { adminModule } from './modules/admin'const store = new Vuex.Store({  
@@ -424,7 +424,7 @@ import { adminModule } from './modules/admin'const store = new Vuex.Store({
     user: userAccountModule,   
   }  
 })store.registerModule('admin', adminModule)
-
+```
 Instead of passing  `adminModule`  object directly into  `modules`  property of our store we registered it after Store creation with  `[registerModule](https://vuex.vuejs.org/api/#registermodule)`  method.
 
 Dynamic registration doesn’t require any changes inside the module itself so any Vuex module can be registered either statically or dynamically.
@@ -440,7 +440,7 @@ Let’s stop for the moment to briefly understand the application we are working
 ![](https://miro.medium.com/max/60/1*ult4uXG6nDjt4nzEipGECQ.png?q=20)
 
 ![](https://miro.medium.com/max/928/1*ult4uXG6nDjt4nzEipGECQ.png)
-
+```js
 // router.js  
 import VueRouter from 'vue-router'  
 const Home = () => import('./Home.vue')  
@@ -448,13 +448,13 @@ const Admin = () => import('./Admin.vue')const routes = [
   { path: '/', component: Home },  
   { path: '/admin', component: Admin }  
 ]export const router = new VueRouter({ routes }) 
-
+```
 In  `router.js`  we have two code-splitted routes that are loaded lazily. With the code that we have seen above our  `admin`  Vuex module is still in main  `app.js`  bundle because of it’s static import in the  `store.js`.
 
 Let’s fix this and deliver this module only to the users entering  `/admin`  route so other’s will not download the redundant code.
 
 To do so we will load the  `admin`  module in  `/admin`  route component instead of importing and registering it in`store.js`.
-
+```js
 // store.js  
 import { userAccountModule } from './modules/userAccount'export const store = new Vuex.Store({  
   modules: {  
@@ -470,7 +470,7 @@ import adminModule from './admin.js'export default {
    this.$store.unregisterModule('admin')  
   }  
 }
-
+```
 Let’s take a look at what happened!
 
 We are importing and registering  `admin`  Store inside  `Admin.vue`  (`/admin`  route) right after it’s mounted. Later in the code we are unregistering the module once the user exits admin panel to prevent multiple registrations of the same module.
@@ -526,5 +526,5 @@ In the next part of the series we will learn how to lazily load individual compo
 
 [**Source :**](https://itnext.io/vue-js-app-performance-optimization-part-3-lazy-loading-vuex-modules-ed67cf555976)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA0ODEzMzldfQ==
+eyJoaXN0b3J5IjpbNDI0MTAxODYyXX0=
 -->
