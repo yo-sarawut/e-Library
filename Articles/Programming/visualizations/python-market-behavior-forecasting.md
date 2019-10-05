@@ -50,7 +50,7 @@ import seaborn as sns
 from sklearn.externals import joblib
 ``` 
 This code downloads data for BTC/USD from Quandl
-``` 
+```py 
 start_date_string = '2014-04-01'
 asset = 'BITFINEX/BTCUSD'
 column_price = 'Last'
@@ -64,16 +64,12 @@ dataset = quandl.get(asset, collapse = 'daily',
 dataset = dataset.shift(1)
 ``` 
 Then we can to plot the price and volume data
-
+```py
 plt.figure(figsize=(20,10))
 plt.plot(dataset[column_price])
 plt.title(asset)
 plt.show()
-    
-plt.figure(figsize=(20,10))
-plt.plot(dataset[column_volume])
-plt.title(asset)
-plt.show()
+```
 After that we are getting this figure
 
 ![](https://miro.medium.com/max/30/1*-hgGZirH5rZwRqUxOKUaPA.png?q=20)
@@ -89,8 +85,37 @@ Price for BTC/USD from 01/01/2014
 Volume for BTC/USD from 01/01/2014
 
 Now we are ready for coding the feature engineering and modeling functions.
+```py
+# Brute force modelling
+def get_best_hmm_model(X, max_states, max_iter = 10000):
+    best_score = -(10 ** 10)
+    best_state = 0
+    
+ for state in range(1, max_states + 1):
+        hmm_model = GaussianHMM(n_components = state, random_state = 100,
+                                covariance_type = "diag", n_iter = max_iter).fit(X)
+        if hmm_model.score(X) > best_score:
+            best_score = hmm_model.score(X)
+            best_state = state
+    
+   best_model = GaussianHMM(n_components = best_state, random_state = 100,
+covariance_type = "diag", n_iter = max_iter).fit(X)
+return best_model
 
+# Normalized st. deviation
+def std_normalized(vals):
+    return np.std(vals) / np.mean(vals)
+
+# Ratio of diff between last price and mean value to last price
+def ma_ratio(vals):
+    return (vals[-1] - np.mean(vals)) / vals[-1]
+
+# z-score for volumes and price
+def values_deviation(vals):
+    return (vals[-1] - np.mean(vals)) / np.std(vals)
+ ```   
 Let’s split off the train period as a period before 01/01/2018. The next code runs the feature engineering and visualizes it.
+
 
 After that, we are getting the five new time series and the trained model.
 
@@ -181,5 +206,5 @@ Alpha is positive, beta is very close to 0 (see this  [post](https://medium.com/
 5.  The strategy beats the buy & hold benchmark, and it has positive alpha and beta is close to 0.
 6.  The research artifacts are uploaded to GitHub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzczMjg0NDVdfQ==
+eyJoaXN0b3J5IjpbMTAyNjU1OTYyNV19
 -->
