@@ -22,6 +22,9 @@
 
 ![enter image description here](https://d1qmdf3vop2l07.cloudfront.net/enigmatic-tuba.cloudvent.net/compressed/_min_/e602c2712738f8c03362846ee40d824b.webp)
 
+- [Hugo Themes : Dot](https://themes.gohugo.io/dot-hugo-documentation-theme/#demo)
+
+
 - [Hugo Learn Theme](https://themes.gohugo.io/hugo-theme-learn/) สำหรับทำเอกสาร
 
 ![enter image description here](https://d33wubrfki0l68.cloudfront.net/c588abe3dad8ada4945357cad35f455ff3c99e26/8259c/hugo-theme-learn/screenshot-hugo-theme-learn_hufe2da8fc83ad30ec674fecf911d5e6d9_284162_750x500_fill_catmullrom_top_2.png)
@@ -63,9 +66,10 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OSwxMD
-I3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3MDMz
-MSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgzOTAyLDk5ND
-cwNzM4MiwtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNjE5MDE5ODUx
-LDcxNzcyMzg3MSwtODEwMDAzMDYwLDE3ODEyODA2OTFdfQ==
+eyJoaXN0b3J5IjpbLTE4MzA2ODg0NSwtMjMwMjkwNzc3LC0xMT
+I2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0
+MSwtNjg4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MT
+Y4ODM5MDIsOTk0NzA3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0
+LDE2MTkwMTk4NTEsNzE3NzIzODcxLC04MTAwMDMwNjAsMTc4MT
+I4MDY5MV19
 -->
