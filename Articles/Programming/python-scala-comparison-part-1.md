@@ -73,35 +73,41 @@ In both languages, the second index will not be counted when slicing. So, if we 
 `myArray.slice(0,3)  **// Scala** needs the .slice()`
 
 ## 2.4. Checking first, last, maximum and minimum element
-```
+```py
 **# Python**my_list[0]     # first element  
 my_list[-1]    # last element  
 max(my_list)   # maximum element  
-min(my_list)   # minimum element# NOTE: min() and max() will work exclusively if the list contains   
+min(my_list)   # minimum element# 
+```
+NOTE: min() and max() will work exclusively if the list contains   
+```
 # numbers only!**// Scala**myArray.head    // first element  
 myArray(0)      // other way to check the first element  
 myArray.last    // last element  
 myArray.max     // maximum element  
-myArray.min     // minimum element/* NOTE: .min and .max will work exclusively if the array contains numbers only!*/
+myArray.min     // minimum element/* 
 ```
+NOTE: .min and .max will work exclusively if the array contains numbers only!*/
+
 ## 2.5. Sum and product
 
 These operations, as for min and max, will be supported only if the lists/arrays contain exclusively numbers. Also, to multiply all the elements in a Python’s list, we will need to set up a  `for`  loop, which will be covered further down in the post. There is no preloaded function for that, as opposed to Scala.
-
+```py
 `sum(my_list) # summing elements in  **Python**'s list`
-
+```scala
 // **Scala**  
 myArray.sum   // summing elements in array  
 myArray.product  // multiplying elements in array
-
+```
 ## 2.6. Adding elements
 
 Lists and arrays are not ordered, so it’s common practice to add elements at the end. Let’s say we want to add the string  `"last words"`:
-
+```py
 `my_list.append('last words') # adding at the end of  **Python**'s list`
-
+```
+```scrala
 `myArray :+= "last words" // adding at the end of  **Scala**'s array`
-
+```
 If, for some reason, we want to add something at the very beginning, let’s say the number  `99`:
 
 my_list.insert(0, 99) # this is a generic method in **Python**. The   
@@ -299,5 +305,5 @@ Feel free to check out:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkwNDg2NjZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTc3MDQ3MTddfQ==
 -->
