@@ -225,10 +225,149 @@ You will learn how to split your Vue code with async routes along with recommend
 
 -----
 
-Vue.js App Performance Optimization: part 2— Lazy loading routes and vendor bundle anti-pattern.
+Part 2 — Lazy loading routes and vendor bundle anti-pattern.
 ===
+
+In the previous article, we learned about the concept of lazy loading and briefly understood how webpack bundling works under the hood. With a good understanding of basics, we can see how to apply this knowledge in a real-world Vue application. The trick you will earn today could dramatically decrease your bundle size in just a few minutes. Feel excited? Let’s see what it is!
+
+## Problem with growing applications
+
+Let’s assume we are building a very simple portfolio website with Vue. Even such a simple website will need some kind of routing so we need to use  `vue-router`  to split it into 2 individual pages - Home and About.
+
+Our file structure and routing could look more or less like below:
+
+```js
+// router.js
+import Home from './Home.vue'
+import About from './About.vue'
+
+const routes = [
+  { path: '/', component: Home }
+  { path: '/about', component: About }
+]
+```
+
+![](https://cdn-images-1.medium.com/max/1200/1*35NnFOrorhQThxQX7Oml3w.png)
+
+When we want to publish our application to the internet we need to build it first and get rid of everything that can slow it down. It means that all files need to be concatenated, transpiled to pure JavaScript and minified to ensure the smallest possible size of the production bundle (a single js file that will be downloaded by the end-user). The bigger the production bundle is the longer it takes for the user to download it and for the browser to parse it.
+
+It’s important to mention that webpack will do all of this for us with a default configuration!
+
+**It turns out that 1 second is enough for the user to do a mental context switch and potentially leave our website**  so it’s great that webpack is doing all those optimizations for us. Otherwise, we might be losing some of our visitors!
+
+![Slide from amazing talk about performance and human perception by Ilya Grigorik https://www.youtube.com/watch?v=7ubJzEi3HuA](https://paper-attachments.dropbox.com/s_3E2B6D676393E308921DFCC4F358F8BC4A52C080E465D3F2D31F0A4B09CFFE85_1562593516588_image.png)
+
+Despite all those build-time magic we are still delivering code that isn’t optimized. Do you know why? Let’s see
+
+As you probably noticed depending on which route we are visiting we might not need either  `Home.vue`  or  `About.vue`  (with it’s  `lodash`  dependency) yet both of them are in the same  `app.js`  bundle and will be downloaded no matter what route user visits. What a waste of downloading and parsing time!
+
+It’s not a big deal if we are downloading one extra route but you can imagine this app growing bigger and bigger and any new addition will mean that the user will be downloading a bigger bundle on the initial visit. The more time the user has to stare at the white screen the bigger chance is that he/she will open Instagram feed with funny cat images and (maybe) never come back!
+
+![This should be you when your bundle is too big.](https://pet-happy.com/files/up/2014/09/scared-cat.jpg)
+
+## Route-based code splitting with vue-router
+
+To avoid making our application worse by actually making it better and adding new features  **we just need to make separate bundles for each route**  using dynamic import syntax that we learned in the previous article. Only the code from route that is currently visited by the user will be downloaded.
+
+Like everything else in Vue.js — it’s extremely easy. Instead of importing components directly into route objects you need to pass a dynamic import function there. The route component will be downloaded ONLY when the given route will be resolved.
+
+So instead of importing route component statically like this:
+
+```js
+// router.js
+import Home from './Home.vue'
+import About from './About.vue'
+
+const routes = [
+  { path: '/', component: Home }
+  { path: '/about', component: About }
+]
+```
+
+We should import it dynamically. Dynamic import will generate a new bundle with this route as an entry point:
+
+```js
+// router.js 
+const routes = [
+  { path: '/', component: () => import('./Home.vue') }
+  { path: '/about', component: () => import('./About.vue') }
+]
+```
+
+Knowing this let’s see how our bundles will look like with dynamic imports in comparison to single  `app.js`  file:
+
+![](https://cdn-images-1.medium.com/max/800/1*O4ec5EhhM_ULzY4LH6xk-g.png)
+
+With above setup webpack will create three bundles:
+
+-   `app.js` — our main bundle with app entry point (main.js) and libs/components needed in every route (in this case it’s  `vue`  and  `vue-router`)
+-   `home.js` — bundle with Home page that will be downloaded only when route with  `/`  path is entered
+-   `about.js` — bundle with About page (and it’s dependency — `lodash`) that will be downloaded only when route with  `/about`  path will be entered.
+
+**Side note:**  _Bundle names here are not the real ones generated by webpack for the sake of simplicity. Webppack is actually generating something like_  `0.js`  `1.js`  _etc depending on your configuration_
+
+This simple technique is sufficient for almost every application and can give extremely good results in a very short time. Assuming we have similar number of code in every route we reduced the initial bundle size by 50% in just 2 lines of code! The improvements are even bigger for a for an application with more routes. In fact this technique is so effective that in many cases it’s enough to solve most of the performance issues your application could have.
+
+## Code splitting in Nuxt
+
+If you’re using Nuxt I’m happy to inform you that above technique is applied there out of the box. Nuxt’s default directory-based routing system is code-splitting every route by default!
+
+## Common vendor bundle anti-pattern
+
+Now let’s take a look at the very popular and commonly used anti-pattern that can make your route-based code splitting impact less powerful.
+
+Sometimes it’s tempting to put all of our third-party dependencies from  `node_modules`  in one file (usually called  `vendor.js.`) It seems performance-wise to download all of them only once and reuse in the whole application. Let me explain why it’s not.
+
+While it may sound beneficial, this approach is introducing the same problem that we had with bundling all routes together. Have a look at the below diagram:
+
+![](https://cdn-images-1.medium.com/max/1600/1*sPuEIhcm1NqDjVRCKCXVhA.png)
+
+Do you see the problem? Even though we need lodash only in a single route it’s downloaded together with other dependencies no matter on which route the user is. It means that he/she will need to wait for lodash to be downloaded and parsed before seeing the website.
+
+Bundling all dependencies in one file will make your app load slower. This is certainly not what you want to achieve!
+
+By not bundling all dependencies in one file and instead of importing them in the needed routes we ensure that it’s only downloaded when needed. Though, without further optimization, it does come with an overhead and code duplication.
+
+Let’s assume  `Home.vue`  also needs lodash.
+
+![](https://cdn-images-1.medium.com/max/1600/1*VPV1rLABkruxSoGhKDbjJg.png)
+
+In that case navigating from  `/about`  (`About.vue`) to  `/`  (`Home.vue`) (or in reversed order) will end up with downloading the library twice.
+
+It’s still much better to download a few small dependencies again instead of forcing your user to wait for all of them to be downloaded on the initial visit but we have room for improvement. If we already have this dependency it’s just stupid not to reuse it, right?
+
+This is where webpack  [splitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)  can help us. Just by adding these few lines of code in the webpack config, webpack will automatically group all dependencies shared in various bundles into a separate one. This bundle will only be downloaded once and then reused.
+
+```js
+// webpack.config.js
+optimization: {
+  splitChunks: {
+    chunks: 'all'
+  }
+}
+```
+
+In  `chunks`  property we are telling webpack which chunks (output bundles) of code should be optimized for code duplication. Setting this property to  `all`  as you probably have guessed means that it should optimize all of them.
+
+You can read more about this process in the  [webpack docs](https://webpack.js.org/guides/code-splitting/#prevent-duplication).
+
+## Summary
+
+Splitting your code by routes is without a doubt the best way to achieve significantly better performance results in your application and you should implement it as soon as possible.
+
+**Introducing this technique in Vue Storefront took us 20 minutes and reduced the size of the initial bundle by almost a half!**
+
+While applying many of the optimization techniques from day zero is considered unnecessary premature optimization, routes code-splitting is certainly not something you should postpone.
+
+By code-splitting your routes from the beginning, you get a performance app right away!
+
+## What’s next?
+
+You already know a lot about lazy loading Vue components. In the next part, you’ll master this technique by understanding which components should be loaded lazily and how to deliver a smooth waiting experience to your users when those components are being downloaded.
+
+-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzkzNzk3Nl19
+eyJoaXN0b3J5IjpbLTY2NTA2NDA2MF19
 -->
