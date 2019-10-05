@@ -206,9 +206,9 @@ HTML5 specification has defined two events — [input](https://developer.mozilla
 > To model native input elements as much as possible, custom Vue.js form input components should also emit input and change event.
 
 What is the different between  **input**  and  **change**  event?  `input`  is fired whenever the value of the input control is changed.  `change`  is fired when a value of the input control is changed and  **that change is committed by the user.**  Change is committed when a user has made a selection or lost focus to the component. For example:
-
+```js
 <input type="text" @input="onInput" @change="onChange" />
-
+```
 So when user type  **_abc_**  as a value,  `onInput`  will be called three times, one event for each keystroke; whereas  `onChange`  will not be called. It is when a user has changed his focus or pressed enter key (committing a change), the change event will fire.
 
 > In a nutshell, ‘input’ event is fired repeatedly on each keystroke while ‘change’ event is fired less often than input event, on blur or selection.
@@ -373,5 +373,5 @@ You can access your custom input control just like native input using  `HTMLForm
 
 [**Source :**](https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA3NzQyNDhdfQ==
+eyJoaXN0b3J5IjpbLTMwODE2NTc2N119
 -->
