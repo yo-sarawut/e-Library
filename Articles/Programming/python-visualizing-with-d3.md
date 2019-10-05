@@ -162,12 +162,12 @@ Add the following tag to the  _index.html_  file, within the  `<div>`  tag that 
 
 <div id="chart"></div>
 ```
-[Remove ads](https://realpython.com/account/join/)
+
 
 ### Main Config
 
 Add the following code to the  `createGraph()`  function in  _main.js_:
-
+```
 var width = 960; // chart width
 var height = 700; // chart height
 var format = d3.format(",d");  // convert value to integer
@@ -183,22 +183,22 @@ var bubble = d3.layout.pack()
   .size([width, height])  // chart layout size
   .padding(1)  // padding between circles
   .radius(function(d) { return 20 + (sizeOfRadius(d) * 30); });  // radius for each circle
-
+```
 Again, add the above code to the  `createGraph()`  function, and check the  [docs](https://github.com/mbostock/d3/wiki/Pack-Layout)  for any questions.
 
 ### SVG Config
 
 Next, add the following code to  `createGraph()`, which select the element with the  `id`  of  `chart`, then appends the circles along with a number of attributes:
-
+```
 var svg = d3.select("#chart").append("svg")
   .attr("width", width)
   .attr("height", height)
   .attr("class", "bubble");
-
+```
 Continuing with the  `createGraph()`  function, we now need to grab the data, which can be done asynchronously with D3.
 
 ### Request the Data
-
+```js
 // REQUEST THE DATA
 d3.json("/data", function(error, quotes) {
   var node = svg.selectAll('.node')
@@ -217,13 +217,13 @@ d3.json("/data", function(error, quotes) {
       .style('text-anchor', 'middle')
       .text(function(d) { return d.symbol; });
 });
-
+```
 So, we hit the  `/data`  endpoint that we set up earlier to return the data. The remainder of this code simply adds the bubbles and the text to the DOM. This is standard boilerplate  [code](http://bl.ocks.org/mbostock/4063269), modified slightly for our data.
 
 ### Tooltips
 
 Since we have limited room on the chart, still within the  `createGraph()`  function, let’s add some tooltips that show additional information about each specific stock.
-
+```js
 // tooltip config
 var tooltip = d3.select("body")
   .append("div")
@@ -236,9 +236,9 @@ var tooltip = d3.select("body")
   .style("border-radius", "6px")
   .style("font", "12px sans-serif")
   .text("tooltip");
-
+```
 These are just the CSS styles associated with the tooltip. We still need to add the actual data. Update the code where we append the circles to the DOM:
-
+```js
 node.append("circle")
   .attr("r", function(d) { return d.r; })
   .style('fill', function(d) { return color(d.symbol); })
@@ -251,7 +251,7 @@ node.append("circle")
     return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
   })
   .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
-
+```
 Test this out, navigate to  [http://localhost:5000/](http://localhost:5000/). Now when you hoover over a circle, you’ll see some underlying metadata - company name and stock price.
 
 **Your turn**: Add more metadata. What other data do you think is relevant? Think of what we’re displaying here - the relative change in price. You could perhaps calculate the previous price and show:
@@ -260,14 +260,13 @@ Test this out, navigate to  [http://localhost:5000/](http://localhost:5000/). No
 2.  Relative change
 3.  Previous Price
 
-[Remove ads](https://realpython.com/account/join/)
 
 ### Refactor
 
 stocks What if we just wanted to visualize stocks with a modified market value-weighted index - the NASDAQ-100 Points  [column](http://www.nasdaq.com/quotes/nasdaq-100-stocks.aspx)  - greater than .1?
 
 Add a conditional to the  `get_data()`  function:
-
+```py
 def get_data():
     r = requests.get(URL)
     data = r.text
@@ -285,9 +284,9 @@ def get_data():
                 'value': line['Nasdaq100_points']
             })
     return RESULTS
-
+```
 Now, let’s increase each bubbles’ radius, in the bubble config section of  _main.js_; modify the code accordingly:
-
+```js
 // Radius for each circle
 .radius(function(d) { return 20 + (sizeOfRadius(d) * 60); });
 
@@ -352,5 +351,5 @@ Test it out. Navigate to  [http://192.241.208.61:49155](http://192.241.208.61:49
 
 [**Source :**](https://realpython.com/web-development-with-flask-fetching-data-with-requests/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY4MDA1MjNdfQ==
+eyJoaXN0b3J5IjpbLTUwNzE1NzgxOF19
 -->
