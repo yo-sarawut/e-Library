@@ -44,7 +44,7 @@ Add  _stock_scraper.py_  to the main directory.
 4.  Return the dictionary.
 
 How’d it go? Need help? Let’s look at one possible solution:
-```
+```py
 import csv
 import requests
 
@@ -94,23 +94,23 @@ Ready?
 Two files are needed to get bower going -  _[bower.json](http://bower.io/docs/creating-packages/#bowerjson)_  and  _.[bowerrc](http://bower.io/docs/config/)_.
 
 The latter file is used to configure Bower. Add it to the main directory:
-
+```
 {
   "directory": "static/bower_components"
 }
-
+```
 This just specifies that we want the dependencies installed in the  _bower_components_  directory (convention) within the app’s  _static_  directory.
 
 Meanwhile, the first file,  _bower.json_, stores the Bower manifest - meaning that it contains metadata about the Bower components as well as the application itself. The file can be created interactively with the  `bower init`  command. Do that now. Just accept all the defaults.
 
 Now, we can install the dependencies.
-
+```
 $ bower install bootstrap#3.2.0 jquery#2.1.1 d3#3.4.11 --save
-
+```
 The  `--save`  flag adds the packages to the  _bower.json_  dependencies array. Check it out. Also, make sure the dependency versions in  _bower.json_  match up to the versions we specified - i.e.,  `bootstrap#3.20`.
 
 With our dependencies installed, let’s make them accessible in our app.
-
+```
 ### Update  _index.html_
 
 <!DOCTYPE html>
@@ -130,7 +130,7 @@ With our dependencies installed, let’s make them accessible in our app.
     <script src={{ url_for('static', filename='main.js') }}></script>
   </body>
 </html>
-
+```
 ## D3
 
 With so many data visualization frameworks out there, why  [D3](http://d3js.org/)? Well, D3 is fairly low level, so it let’s you build the type of framework you want. Once you append your data to the DOM, you use a combo of CSS3, HTML5, and SVG to create the actual visualization. Then you can add interactivity through D3’s built-in data-driven  [transitions](https://github.com/mbostock/d3/wiki/Transitions).
@@ -144,7 +144,7 @@ Now let’s code.
 ### Setup
 
 Add the following code to  _main.js_:
-
+```
 // Custom JavaScript
 
 $(function() {
@@ -161,7 +161,7 @@ Here, after the initial page load, we log ‘jquery is working!’ to the consol
 Add the following tag to the  _index.html_  file, within the  `<div>`  tag that has an  `id`  of  `container`  (after line 10), to hold the D3 bubble chart:
 
 <div id="chart"></div>
-
+```
 [Remove ads](https://realpython.com/account/join/)
 
 ### Main Config
@@ -352,5 +352,5 @@ Test it out. Navigate to  [http://192.241.208.61:49155](http://192.241.208.61:49
 
 [**Source :**](https://realpython.com/web-development-with-flask-fetching-data-with-requests/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3OTYwNTgwXX0=
+eyJoaXN0b3J5IjpbLTEzNjY4MDA1MjNdfQ==
 -->
