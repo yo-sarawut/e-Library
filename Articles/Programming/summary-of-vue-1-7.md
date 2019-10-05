@@ -291,9 +291,10 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 
 [**Source :**](https://medium.com/@j_lim_j/summary-of-vuejs-by-sarah-drasner-part-1-of-7-directives-data-rendering-30103729ec9b)
 - [Part 5 of 7: Animations](https://medium.com/@j_lim_j/summary-of-vuejs-by-sarah-drasner-part-5-of-7-animations-afbd2c94b925)
+- []
 
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM0MTc3NjRdfQ==
+eyJoaXN0b3J5IjpbLTIxMjMwMTQ2NjddfQ==
 -->
