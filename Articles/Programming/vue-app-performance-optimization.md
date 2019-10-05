@@ -20,10 +20,10 @@ Part 7 — Making use of Service Worker cache — soon
 
 Part 8 — Prefetching
 
+-----
 
-
-## Part 1 — Introduction to performance optimization and lazy loading.
-
+Part 1 — Introduction to performance optimization and lazy loading.
+==
 
 While mobile-first approach becomes a standard and uncertain network conditions are something we should always take into consideration it’s harder and harder to keep your application loading fast. In this series, I’ll dig deep into Vue performance optimization techniques that we are using in  [Vue Storefront](https://www.vuestorefront.io/?utm_source=vueschool.io&utm_medium=external-blog&utm_campaign=vuestorefront)  and that you can use in your Vue.js applications to make them loading instantly and perform smooth. My goal is to make this series a full and complete guide on Vue apps performance.
 
@@ -222,6 +222,13 @@ Lazy loading is one of the best ways to make your web app more performant and re
 In the next part of this series I’ll show you the most useful (and also the fastest) way to gain some significant performance boost on any Vue.js application.
 
 You will learn how to split your Vue code with async routes along with recommended best practices for this process.
+
+-----
+
+Vue.js App Performance Optimization: part 2— Lazy loading routes and vendor bundle anti-pattern.
+===
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTk2NzgxXX0=
+eyJoaXN0b3J5IjpbLTgwMzkzNzk3Nl19
 -->
