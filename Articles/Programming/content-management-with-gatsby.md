@@ -26,7 +26,7 @@ This will create a new Gatsby project in a folder called  `gatsby-contentful-blo
 ![](https://miro.medium.com/max/1440/1*NbgvljiIhmEl8MfiyW1Vhw.png)
 
 Open up the project in your favourite text editor and navigate to the  `pages`  folder. Let's tweak some of the content in the  `index.js`: (You can just copy and paste this in)
-
+```
 import React from "react";  
 import { Link } from "gatsby";import Layout from "../components/layout";  
 import Image from "../components/image";  
@@ -51,15 +51,15 @@ import "./index.css";const IndexPage = () => (
     </div>  
   </Layout>  
 );export default IndexPage;
-
+```
 Next, find  `page-2.js`  and change the filename to  `blogposts.js`. Gatsby uses the name of any file in the  `pages`  folder as a route name and will make the exported React component available on said route. This means we now have a  `/blogposts`  route. We'll come back to this file later but in the meantime, let's also change a few values in the  `gatsby-config.js`  file. This file sits in the project  `root`.
-
+```
 siteMetadata: {  
     title: `My Awesome Blog`,  
     description: `An awesome blog displaying my awesome posts.`,  
     author: `YOUR_NAME`,  
 },
-
+```
 Great! We now have our basic site set up. So we’ll go to the  [Contentful](https://www.contentful.com/)  website and create a new account. It’s pretty painless and you should be set up in no time. By default, they provide an example space but let’s create a fresh one for the project.
 
 Open up the sidebar and click on  **Create Space**. Choose the free option and give your space any name. I’ll call mine  **gatsby-blog**. Select the empty space option, click  **Proceed to confirmation,**  and confirm your options.
@@ -116,13 +116,13 @@ At this point we have our first couple of blog posts and it’s time to bring th
 Go to your settings in Contentful and click on the  **API Keys**  option in the dropdown menu. Create a new API Key and keep the details close by.
 
 Back in your terminal, install the Gatsby plugin we need to start pulling in our Contentful data.
-
+```
 $ yarn add gatsby-source-contentful
-
+```
 We’ll be using Contentful’s  _Content Delivery API_  since we want to retrieve published data only, so be sure to grab the  _Content Delivery API_  key and not the  _Content Preview API key_.
 
 In your  `gatsby-config.js`  file, add the configuration object to the  `plugins`  array:
-
+```
 plugins: [  
     ...  
     {  
@@ -133,11 +133,11 @@ plugins: [
       }  
     }  
 ],
-
+```
 You should restart your development server again at this point for the new configs to kick in. When the server restarts,  `gatsby-source-contentful`'s GraphQL queries will be available to use.
 
 We can easily test if everything is working by using the GraphiQL playground that Gatsby provides for us. Open  [http://localhost:8000/___graphql](http://localhost:8000/___graphql)  in your browser and run the query below by pasting it into the left window on the page. The query name is  `allContentfulBlogPost`  because our content model is called  **Blog Pos**t. If we had called it  **Product**  or  **Case Study**, then the query made available to us would have been  `allContentfulProduct`  or  `allContentfulCaseStudy`.
-
+```
 {  
   allContentfulBlogPost {  
     edges {  
@@ -155,13 +155,13 @@ We can easily test if everything is working by using the GraphiQL playground tha
     }  
   }  
 }
-
+```
 The  `gatsby-source-contentful`  plugin handles all the behind the scenes fetching from the Contentful API using the keys we provided in the  `gatsby-config`  file. It then makes a semantically named GraphQL query available to us.
 
 If it all works, you should see the content you added in the results window to the right of the GraphiQL window in JSON format.
 
 Now that we have connected our Gatsby blog with our Contentful data, we can start building the pages for the blog. Gatsby provides us with a file called  `gatsby-node.js`. This file can be used to dynamically add pages to your site. When Gatsby runs, it will look at the code here and create any pages you tell it to. In the  `gatsby-node.js`  file, let's place the following code:
-
+```
 const path = require(`path`);  
 const slash = require(`slash`);exports.createPages = ({ graphql, actions }) => {  
   const { createPage } = actions;  
@@ -199,7 +199,7 @@ const slash = require(`slash`);exports.createPages = ({ graphql, actions }) => {
       console.log("Error retrieving contentful data", error);  
     });  
 };
-
+```
 This module exports a function called  `createPages`. This function has two parameters, graphql, and an actions object. We extract the  `createPage`  action then call the same Graphql query we ran in the GraphiQL playground earlier. We take this result and for each result (each blog post) we call the  `createPage`  function. This function accepts a config object which Gatsby reads when rendering the page. We set the path equal to the concatenated string  `"/blogpost"`  plus the  `slug`. Notice that we also reference a template file at  `./src/templates/blogpost.js`, not to worry, we'll create that file soon.
 
 At this point, kill your server and start it up again. If you enter a dud route like  `[http://localhost:8000/some-non-existent-route/](http://localhost:8000/dskl;sfd/)`  you'll see Gatsby's development 404 page. This page has a list of all the routes and as you can see the newly created pages have been set up.
@@ -215,7 +215,7 @@ Now we can concentrate on building out the actual pages.
 Create a  `templates`  folder inside your  `src`  folder and add a file called  `blogpost.js`. This will be our template component which will be used every time Gatsby calls the  `createPage`  function in the  `gatsby-node.js`  file.
 
 **NOTE**: Be sure to restart your server at this point if you get any errors. We’re doing a lot of config stuff and Gatsby may need a restart in order to run everything properly.
-
+```
 import React from "react";  
 import { Link, graphql } from "gatsby";  
 import Layout from "../components/layout";  
@@ -415,5 +415,5 @@ And that’s it! It’s been quite a journey, but now we have a working blog usi
 
 [**Source :**](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE2NzIxNTddfQ==
+eyJoaXN0b3J5IjpbLTE1NTI1ODk2NDVdfQ==
 -->
