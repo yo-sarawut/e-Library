@@ -270,7 +270,7 @@ Now let us look at the period from 2008 onward and compare it side by side with 
 
 So it is quite possible that the S&P will look like the 2000 to 2010 period in the next 10 years which means there is a good chance that the stock market will yield a lower return 10 years from now.
 
-[**Source: **](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
+[Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NjMyODE2XX0=
+eyJoaXN0b3J5IjpbLTE4ODQyMTI0MzJdfQ==
 -->
