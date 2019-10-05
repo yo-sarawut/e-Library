@@ -289,17 +289,17 @@ Now, let’s increase each bubbles’ radius, in the bubble config section of  _
 ```js
 // Radius for each circle
 .radius(function(d) { return 20 + (sizeOfRadius(d) * 60); });
-
+```
 ### CSS
 
 Finally, let’s add some basic styles to  _main.css_:
-
+```css
 body {
   padding-top: 20px;
   font: 12px sans-serif;
   font-weight: bold;
 }
-
+```
 Look good? Ready to deploy?
 
 ## Deploying
@@ -326,30 +326,29 @@ Now the VPS can accept pushes.
 4.  Initialize a new local Git repo:  `git init`
 5.  Add a remote:  `git remote add dokku dokku@192.241.208.61:app_name`  (Be sure to add your own IP address.)
 
-[Remove ads](https://realpython.com/account/join/)
 
 ### Update  _app.py_:
-
+```py
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
-
+```
 So, we first try to grab the port from the app’s environment, and if not found, it defaults to port 5000.
 
 Make sure to update the imports as well:
-
+```
 import os
-
+```
 ### Deploy!
 
 Commit your changes, then push:  `git push dokku master`. If all went well, you should see the application’s URL in your terminal:
-
+```
 =====> Application deployed:
  http://192.241.208.61:49155
-
+```
 Test it out. Navigate to  [http://192.241.208.61:49155](http://192.241.208.61:49155/). (Again, be sure to add your own IP address along with the correct port.) You should see your live app! (See the image at the top of this post for a preview.)
 
 [**Source :**](https://realpython.com/web-development-with-flask-fetching-data-with-requests/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzE1NzgxOF19
+eyJoaXN0b3J5IjpbMTA0OTExNTgxMV19
 -->
