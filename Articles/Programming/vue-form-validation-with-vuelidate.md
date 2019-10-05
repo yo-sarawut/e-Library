@@ -24,8 +24,29 @@ We’ll also see how the  [Vuelidate-error-extractor](https://github.com/dobromi
 **Vuelidate**  is data-model oriented, meaning validation rules are added to a  `validations`  object in the component definition, rather than being added directly to input elements in the DOM.
 
 The structure must resemble that of the form object, but the number of validation rules can be dynamic and change depending on which fields need validation.
+```js
+export default {
+  name: "FormComponent",
 
-Here’s a live example:
+  data() {
+    return {
+      form: {
+        name: "",
+        email: ""
+      }
+    };
+  },
+
+  validations: {
+    form: {
+      name: { required },
+      email: { required, email }
+    }
+  }
+  ...
+};
+```
+[Here’s a live example:](https://codesandbox.io/s/6y93q20wyr?from-embed)
 
 # Defining custom validators
 
@@ -137,5 +158,5 @@ Using  **Vuelidate**  makes the whole ordeal a lot more bearable. In tandem with
 
 [**Source :**](https://medium.com/js-dojo/simple-vue-js-form-validation-with-vuelidate-722331e5ab0d)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDg1NTY0OF19
+eyJoaXN0b3J5IjpbMTQwODQ1MjQ5M119
 -->
