@@ -26,7 +26,7 @@ This will create a new Gatsby project in a folder called  `gatsby-contentful-blo
 ![](https://miro.medium.com/max/1440/1*NbgvljiIhmEl8MfiyW1Vhw.png)
 
 Open up the project in your favourite text editor and navigate to the  `pages`  folder. Let's tweak some of the content in the  `index.js`: (You can just copy and paste this in)
-```
+```javascript
 import React from "react";  
 import { Link } from "gatsby";import Layout from "../components/layout";  
 import Image from "../components/image";  
@@ -53,7 +53,7 @@ import "./index.css";const IndexPage = () => (
 );export default IndexPage;
 ```
 Next, find  `page-2.js`  and change the filename to  `blogposts.js`. Gatsby uses the name of any file in the  `pages`  folder as a route name and will make the exported React component available on said route. This means we now have a  `/blogposts`  route. We'll come back to this file later but in the meantime, let's also change a few values in the  `gatsby-config.js`  file. This file sits in the project  `root`.
-```
+```javascript
 siteMetadata: {  
     title: `My Awesome Blog`,  
     description: `An awesome blog displaying my awesome posts.`,  
@@ -122,7 +122,7 @@ $ yarn add gatsby-source-contentful
 We’ll be using Contentful’s  _Content Delivery API_  since we want to retrieve published data only, so be sure to grab the  _Content Delivery API_  key and not the  _Content Preview API key_.
 
 In your  `gatsby-config.js`  file, add the configuration object to the  `plugins`  array:
-```
+```javascript
 plugins: [  
     ...  
     {  
@@ -137,7 +137,7 @@ plugins: [
 You should restart your development server again at this point for the new configs to kick in. When the server restarts,  `gatsby-source-contentful`'s GraphQL queries will be available to use.
 
 We can easily test if everything is working by using the GraphiQL playground that Gatsby provides for us. Open  [http://localhost:8000/___graphql](http://localhost:8000/___graphql)  in your browser and run the query below by pasting it into the left window on the page. The query name is  `allContentfulBlogPost`  because our content model is called  **Blog Pos**t. If we had called it  **Product**  or  **Case Study**, then the query made available to us would have been  `allContentfulProduct`  or  `allContentfulCaseStudy`.
-```
+```javascript
 {  
   allContentfulBlogPost {  
     edges {  
@@ -257,7 +257,7 @@ import SEO from "../components/seo";const BlogPost = ({ data }) => {
     }  
   }  
 `;
-
+```
 At the bottom of the page, we export a Graphql query. Gatsby will run this query at runtime and will pass a  **data**  prop to  **BlogPost**  containing the Contentful data. Note that in this case we are querying a single post and passing the slug along as a filter parameter. We’re basically asking for the post which matches the passed in slug (`contentfulBlogPost(slug: { eq: $slug })`). This slug is made available to us because we passed it in as a page context in our  `gatsby-config.js`.
 
 The rest is straightforward React. We create a component and using the  **data**  prop, we populate the page content. We have no styling yet but we’ll get to that in a bit.
@@ -265,7 +265,7 @@ The rest is straightforward React. We create a component and using the  **data**
 What we need now is a page to list all the available blog post pages. We cannot rely on going to the 404 page every time we need to read a blog post!
 
 Let’s head back to the  `blogposts.js`  file in the  `pages`  folder that we created at the beginning of this project and tweak it.
-
+```
 import React from "react";  
 import { Link, graphql } from "gatsby";import Layout from "../components/layout";  
 import SEO from "../components/seo";const BlogPosts = ({ data }) => {  
@@ -307,13 +307,13 @@ import SEO from "../components/seo";const BlogPosts = ({ data }) => {
     }  
   }  
 `;
-
+```
 The pattern should be familiar now.
 
 At the bottom of the page, we export a GraphQL query. The query is the same as the one we used in  `gatsby-node.js`  to generate the blogpost pages. It pulls all the Contentful data of the  **BlogPost**  type. Gatsby makes the result of the query available to us in the data object just as with the individual blogpost page. For this page though, we only need the  `id`,  `title`,  `slug`  and  `tags`  fields.
 
 At this point, let’s add some very basic styling. For the sake of this example, we’ll just add a few lines to the end of the  `layout.css`  file, but in a real-world project you'd probably not want to do this. Go with whatever method you are comfortable with.
-
+```
 /* Add these lines to the end of the layout.css file */  
 @import url("<https://fonts.googleapis.com/css?family=Open+Sans:300,400,600>");  
 html {  
@@ -369,18 +369,18 @@ html {
   display: inline-block;  
   margin-bottom: 24px;  
 }
-
+```
 Now we have our blog, the next step is to deploy it and make it available for all the world to see. With Netlify this is super easy. Netlify integrates really well with GitHub. In your terminal, run:
-
+```
 $ git init
-
+```
 Go to your GitHub and create a new repo called  `gatsby-contentful-blog-starter`, then follow the commands for pushing to an existing repository.
-
+```
 $ git add .  
 $ git commit -m 'initial commit'  
 $ git remote add origin git@github.com:YOUR_GITUHB_USERNAME/gatsby-contentful-blog-starter.git  
 $ git push -u origin master
-
+```
 With your code pushed to GitHub, head over to  [Netlify](https://www.netlify.com/)  and create an account. In your dashboard click on’**New site from Git**, select  **GitHub**  as a provider and go through the authorization process selecting whatever options you feel comfortable with.
 
 Next, select a repo from the list provided. if you can’t find the repo we just created, select  **Configure the Netlify app on GitHub**. This will open a popup allowing you to choose the repo you want to authorize for use with Netlify. Follow the prompts till you find the repo. After selecting our blog project, you’ll be redirected to the Netlify deploy screen and you should now be able to select the  `gatsby-contentful-blog-starter`  repo. As you can see, Netlify knows how to build Gatsby sites so you can just click the  **Deploy Site**  button at the end of the page.
@@ -415,5 +415,5 @@ And that’s it! It’s been quite a journey, but now we have a working blog usi
 
 [**Source :**](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI1ODk2NDVdfQ==
+eyJoaXN0b3J5IjpbNDg3MzIyNTg1XX0=
 -->
