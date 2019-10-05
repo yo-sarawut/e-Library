@@ -6,7 +6,7 @@ Note for Vue.js
 - [Build a Library web app with Vue](https://scaffoldhub.io/courses/vue-library) + [GitHub](https://github.com/felipepastorelima/vue-library)
 ![enter image description here](https://storage.googleapis.com/scaffoldhub-public/courses/vue-library/demo.jpg)
 
-- [BooknShelf](https://github.com/Booknshelf/booknshelf)
+- [BooknShelf](https://github.com/Booknshelf/booknshelf) , Demo : [https://booknshelf.com/](https://booknshelf.com/)
 
 ![enter image description here](https://github.com/Booknshelf/booknshelf/blob/master/resources/assets/img/backgrounds/default-shelf-cover.jpg?raw=true)
 
@@ -17,6 +17,6 @@ Note for Vue.js
 
 - [20+ Outstanding Vue.js Open Source Projects](https://medium.com/js-dojo/top-vue-js-open-source-projects-45209040fcd)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjAyMTY2LC04NzkzODEwODMsMjAxMT
-cxMDE3MywtNDY1MjM4ODc1XX0=
+eyJoaXN0b3J5IjpbMTEyOTAxMTEwMiwtODc5MzgxMDgzLDIwMT
+E3MTAxNzMsLTQ2NTIzODg3NV19
 -->
