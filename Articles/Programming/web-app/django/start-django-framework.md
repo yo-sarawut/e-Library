@@ -171,9 +171,9 @@ Django framework แนะนำให้แบ่งการพัฒนา we
 -   account ใช้สำหรับเก็บบัญชีรายรับ, รายจ่ายของห้องสมุดแห่งนี้ เป็นต้น
 
 สำหรับคำสั่งที่ใช้ในการสร้าง Django Application ที่ชื่อ book_management คือ
-
+```
 > $ py manage.py startapp book_management
-
+```
 ![](https://miro.medium.com/max/25/1*dS_HNG168HBIr2lSn4qSOA.png?q=20)
 
 ![](https://miro.medium.com/max/507/1*dS_HNG168HBIr2lSn4qSOA.png)
@@ -352,10 +352,10 @@ Configuration ที่ทำให้เกิด Feature Static
 ภาพผลลัพธ์การ load static ไฟล์จาก Django
 
 จากตัวอย่างข้างต้นสามารถใช้วิธีเดียวกันนี้ไปประยุกต์ใช้กับการโหลด Javascript และรูปภาพได้ เช่น
-
--   <img src=“{% static ‘background.png’ %}”/> เพื่อ โหลดรูปขึ้นมาแสดงผล
--   <script src=“{% static ‘myscript.js’ %}”/> เพื่อโหลด Javascript Library เข้ามาใช้งาน
-
+```
+<img src=“{% static ‘background.png’ %}”/> เพื่อ โหลดรูปขึ้นมาแสดงผล
+<script src=“{% static ‘myscript.js’ %}”/> เพื่อโหลด Javascript Library เข้ามาใช้งาน
+```
 ----------
 
 # การเชื่อมต่อฐานข้อมูล
@@ -415,9 +415,9 @@ Configuration ที่ทำให้เกิด Feature Static
 การทำงานของ Django ORM เพื่อใช้สร้าง Database Schema
 
 โดยคำสั่งที่ใช้ในการสร้าง Migration File คือ
-
+```
 > $ py manage.py makemigrations
-
+```
 ![](https://miro.medium.com/max/30/1*2apuuS7NRAOEN57MWRkwig.png?q=20)
 
 ![](https://miro.medium.com/max/933/1*2apuuS7NRAOEN57MWRkwig.png)
@@ -624,6 +624,5 @@ Django Shell คือ python shell แบบหนึ่งซึ่งสา�
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc2OTMyMzEsLTExNTIyNzAyMDFdfQ
-==
+eyJoaXN0b3J5IjpbMTQ2NjUyMTIzNywtMTE1MjI3MDIwMV19
 -->
