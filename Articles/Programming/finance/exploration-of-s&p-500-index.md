@@ -53,27 +53,27 @@ memory usage: 964.3+ KB
 The datatype of the Date field needs to be converted into datetime64. This will help with plotting and computations as we shall see ahead.
 
 In [5]:
-```
+```py
 df['Date'] = df.loc[:,'Date'].astype('datetime64[ns]')
-
+```
 Extracting just the fields that we need into a new dataframe with daily data
 
 In [6]:
-
+```
 dfd = df[["Date", "Close"]]
-
+```
 Setting the index of the dataframe to date
 
 In [7]:
-
+```
 dfd = dfd.set_index('Date')
-
+```
 Take a look at the first few rows of the dataframe
 
 In [8]:
-
+```
 dfd.head()
-
+```
 ![](https://miro.medium.com/max/26/1*udBNNodZwgus2AiRKyGbbQ.png?q=20)
 
 ![](https://miro.medium.com/max/177/1*udBNNodZwgus2AiRKyGbbQ.png)
@@ -81,22 +81,22 @@ dfd.head()
 Sort the dataframe by date field
 
 In [9]:
-
+```
 dfd = dfd.sort_index()
-
+```
 Create 2 new dataframes to hold the monthly average and yearly averages
 
 In [10]:
-
+```
 dfm = dfd.resample('M').mean()  
 dfy = dfd.resample('Y').mean()
-
+```
 Take a look at the monthly average price. Notice that after sorting the initial rows go all the way back to 1957.
 
 In [11]:
-
+```
 dfm.head()
-
+```
 ![](https://miro.medium.com/max/24/1*X7jDTC27vV68M9Gl43GQHw.png?q=20)
 
 ![](https://miro.medium.com/max/165/1*X7jDTC27vV68M9Gl43GQHw.png)
@@ -104,15 +104,15 @@ dfm.head()
 S&P 500 closed today Nov. 6, 2018 at 2747.62. What is the monthly return today had one unit been purchased monthly starting at the very first month that we have data for?
 
 In [12]:
-
+```py
 tday = 2747.62dfm['Return'] = (tday - dfm['Close'])/dfm['Close']*100
-
+```
 So if one had bought one unit of S&P 500 back in 1957 then it would at today’s price return 6138%.
 
 In [13]:
-
+```
 dfm.head()
-
+```
 ![](https://miro.medium.com/max/30/1*pTyQtGoT1o4N9TibZyuEtA.png?q=20)
 
 ![](https://miro.medium.com/max/255/1*pTyQtGoT1o4N9TibZyuEtA.png)
@@ -120,9 +120,9 @@ dfm.head()
 We calculated the returns for every day that we have data for in our dataframe dating back to 1957. Over the past 30 year period here is the return of a single unit of S&P 500 over time as of Nov. 6, 2018.
 
 In [29]:
-
+```
 dfm.iloc[-360:,1].plot()
-
+```
 ![](https://miro.medium.com/max/30/1*pEfsf2y0sK7R5fxIaXFvmw.png?q=20)
 
 ![](https://miro.medium.com/max/392/1*pEfsf2y0sK7R5fxIaXFvmw.png)
@@ -276,5 +276,5 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 [Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTM4MjIxMywtMTg4NDIxMjQzMl19
+eyJoaXN0b3J5IjpbLTQ4Mzk4MTE1LC0xODg0MjEyNDMyXX0=
 -->
