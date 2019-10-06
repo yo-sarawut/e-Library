@@ -17,8 +17,8 @@ Web Frameworks Popularity Ranking อ้างอิงจาก  [www.hotframew
 
 บทความนี้จะเป็นการสอนพัฒนา Web Application ด้วย Django Framework โดยโปรแกรมตัวอย่างในที่นี้คือ โปรแกรมห้องสมุด ซึ่งโปรแกรมเราจะทำหน้าที่บันทึกหนังสือเข้าในห้องสมุดที่สร้างขึ้น ซึ่งเราจะใช้ Python version 3 และ Django version 1.11.5 ซึ่งเป็น version ล่าสุดขณะเขียนบทความนี้
 
-**สารบัญ  
-**[การติดตั้ง Python และ Django](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706#9cb8)  
+**สารบัญ**
+[การติดตั้ง Python และ Django](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706#9cb8)  
 [สร้าง Django Project](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706#2803)  
 [สร้าง Django Application](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706#ed29)  
 [Django Template](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706#6120)  
@@ -89,9 +89,9 @@ NOTE: สำหรับ Linux user อาจเจอ Error
 # สร้าง Django Project
 
 Browse ไปยัง Folder ที่ต้องการเก็บ project จากนั้น เริ่มสร้าง project ชื่อ “my_library” (ห้องสมุดของฉัน) ด้วยคำสั่ง
-
-> $ django-admin startproject my_library
-
+```
+$ django-admin startproject my_library
+```
 จะทำให้ได้โฟลเดอร์ my_library ซึ่งด้านในจะเก็บไฟล์ project ของ Django ดังนี้
 
 ![](https://miro.medium.com/max/30/1*IKPrTzaqWj_vg3jXVwYtzQ.png?q=20)
@@ -107,13 +107,13 @@ Browse ไปยัง Folder ที่ต้องการเก็บ project
 5.  wsgi.py คือไฟล์ที่ใช้เก็บข้อมูลของ Django project ของเรา ใช้สำหรับการ deploy project เมื่อต้องการเชื่อมต่อกับ Web Server สำหรับรายละเอียดการ deploy สามารถอ่านเพิ่มเติมได้  [ที่นี่](https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/)  หรือ  [ที่นี่](http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html)
 
 ทดลองรัน Django Project ที่ port 8000 ด้วยคำส่ัง
-
+```
 > $ py manage.py runserver 0.0.0.0:8000
-
+```
 หรือ สำหรับ Linux ให้รันคำสั่ง
-
+```
 > $ python3 manage.py runserver 0.0.0.0:8000
-
+```
 ![](https://miro.medium.com/max/30/1*e1t07l5xxsUfWhKhUZMSqQ.png?q=20)
 
 ![](https://miro.medium.com/max/1396/1*e1t07l5xxsUfWhKhUZMSqQ.png)
@@ -624,5 +624,6 @@ Django Shell คือ python shell แบบหนึ่งซึ่งสา�
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIyNzAyMDFdfQ==
+eyJoaXN0b3J5IjpbLTIxMjc2OTMyMzEsLTExNTIyNzAyMDFdfQ
+==
 -->
