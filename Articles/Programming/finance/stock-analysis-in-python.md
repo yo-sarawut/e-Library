@@ -45,10 +45,11 @@ Microsoft Stock Data
 
 The benefit of a Python class is that the methods (functions) and the data they act on are associated with the same object. We can use a method of the Stocker object to plot the entire history of the stock.
 ```py
-# A method (function) requires parentheses  
-microsoft.plot_stock()Maximum Adj. Close = 89.58 on 2018-01-12.  
-Minimum Adj. Close = 0.06 on 1986-03-24.  
-Current Adj. Close = 88.35.**
+# A method (function) requires parentheses
+microsoft.plot_stock()
+Maximum Adj. Close = 89.58 on 2018-01-12.
+Minimum Adj. Close = 0.06 on 1986-03-24.
+Current Adj. Close = 88.35.
 ```
 ![](https://miro.medium.com/max/30/1*_CRdtGZ-qQ1flJkDz2kLiQ.png?q=20)
 
@@ -58,13 +59,17 @@ The default value plotted is the Adjusted Closing price, which accounts for spli
 
 This is a pretty basic plot that we could have found from a Google Search, but there is something satisfying about doing it ourselves in a few lines of Python! The  `plot_stock`function has a number of optional arguments. By default, this method plots the Adjusted Closing price for the entire date range, but we can choose the range, the stats to plot, and the type of plot. For example, if we want to compare the Daily Change in price with the Adjusted Volume (number of shares) traded, we can specify those in the function call.
 
-microsoft.plot_stock(start_date = '2000-01-03',  end_date = '2018-01-16',  stats = ['Daily Change', 'Adj. Volume'],  plot_type='pct')**Maximum Daily Change = 2.08 on 2008-10-13.  
-Minimum Daily Change = -3.34 on 2017-12-04.  
-Current Daily Change = -1.75.  
-  
-Maximum Adj. Volume = 591052200.00 on 2006-04-28.  
-Minimum Adj. Volume = 7425503.00 on 2017-11-24.  
-Current Adj. Volume = 35945428.00.**
+
+```py
+microsoft.plot_stock(start_date = '2000-01-03',  end_date = '2018-01-16',  stats = ['Daily Change', 'Adj. Volume'],  plot_type='pct')
+Maximum Daily Change = 2.08 on 2008-10-13.
+Minimum Daily Change = -3.34 on 2017-12-04.
+Current Daily Change = -1.75.
+
+Maximum Adj. Volume = 591052200.00 on 2006-04-28.
+Minimum Adj. Volume = 7425503.00 on 2017-11-24.
+Current Adj. Volume = 35945428.00.
+```
 
 ![](https://miro.medium.com/max/30/1*ktM2z2stJ1zWUP72Ka2SzA.png?q=20)
 
@@ -84,8 +89,11 @@ Using  `plot_stock`,we can investigate any of the quantities in the data across 
 
 Let’s pretend for a moment we had the presence of mind to invest in 100 shares of Microsoft at the  [company’s Initial Public Offering](https://techcrunch.com/2017/08/08/a-look-back-in-ipo-microsoft-the-software-success/)  (IPO). How much richer would we be now?
 
-microsoft.buy_and_hold(start_date='1986-03-13',   
-                       end_date='2018-01-16', nshares=100)**MSFT Total buy and hold profit from 1986-03-13 to 2018-01-16 for 100 shares = $8829.11**
+```py
+microsoft.buy_and_hold(start_date='1986-03-13', 
+                       end_date='2018-01-16', nshares=100)
+MSFT Total buy and hold profit from 1986-03-13 to 2018-01-16 for 100 shares = $8829.11
+```
 
 ![](https://miro.medium.com/max/30/1*vT4guhOGNC1Ct7H-CirZYQ.png?q=20)
 
@@ -95,8 +103,9 @@ In addition to making us feel better, using these results will allow us to plan 
 
 If we are feeling too confident, we can try to tweak the results to lose money:
 
-microsoft.buy_and_hold(start_date='1999-01-05',   
-                      end_date='2002-01-03', nshares=100)**MSFT Total buy and hold profit from 1999-01-05 to 2002-01-03 for 100 shares = $-56.92**
+```py
+
+```
 
 Surprisingly, it is possible to lose money in the stock market!
 
@@ -210,5 +219,5 @@ Although all the capabilities of Stocker might already be publically available, 
 
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTA5MjY0MF19
+eyJoaXN0b3J5IjpbLTEzNjUzODkxNDBdfQ==
 -->
