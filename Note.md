@@ -102,12 +102,15 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 <img src="![](https://miro.medium.com/max/1280/1*41oEHeq_kwMWNX9KQGMtIQ.jpeg)" alt="" border="0";>
 ```
 [https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control](https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control)
+
+
+![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5OTI1NTg0LDE1NDg2MTU3ODUsMTg1NT
-YwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5MywtNTQ1NzQz
-MjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2OTM1MzU3LC
-0xMDY2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5NjQ3MDgsLTE2
-Nzk4Mzc3LC0xNzIxNDI1NTM5LC0xMTg4MDQ4OTEyLDE5NDU0Nj
-Q4MjYsLTY3OTI2MTA4OSwtMTIzNDEwMDY0MSwxNjY5NzAxMzcz
-LC0zOTgxNDMxNTVdfQ==
+eyJoaXN0b3J5IjpbLTMwNTg2OTY4OSw3OTk5MjU1ODQsMTU0OD
+YxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1NTMxLC0xNzkxNzg2
+OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOSwxNjY1Mjg3NjM0LD
+E1MTY5MzUzNTcsLTEwNjY1OTI3NTMsLTczMDc1OTM4MywtMTg3
+Nzk2NDcwOCwtMTY3OTgzNzcsLTE3MjE0MjU1MzksLTExODgwND
+g5MTIsMTk0NTQ2NDgyNiwtNjc5MjYxMDg5LC0xMjM0MTAwNjQx
+LDE2Njk3MDEzNzNdfQ==
 -->
