@@ -20,6 +20,8 @@ Note for Articles
 - [How to store financial market data for backtesting](https://towardsdatascience.com/how-to-store-financial-market-data-for-backtesting-84b95fc016fc)
 - [Web Scraping 5k race results with Python and BeautifulSoup](https://medium.com/@viritaromero/web-scraping-5k-race-results-with-python-and-beautifulsoup-d08eba5624eb)
 - [A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn](https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf)
+- [Concrete Example of Web Scraping with Financial Data]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODY2MTA3NCwtMjA5OTI5MjMzNl19
+eyJoaXN0b3J5IjpbMjEyMzg5MDM2MiwxODY4NjYxMDc0LC0yMD
+k5MjkyMzM2XX0=
 -->
