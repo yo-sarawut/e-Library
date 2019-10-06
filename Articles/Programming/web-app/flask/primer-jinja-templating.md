@@ -170,7 +170,7 @@ Did you notice the  `{% block %}`  tags? This defines a block (or area) that chi
 Let’s do that.
 
 Update  _template.html_:
-```
+```html
 {% extends "layout.html" %}
 {% block content %}
   <h3> This is the start of my child template</h3>
@@ -185,7 +185,7 @@ Update  _template.html_:
   </ul>
   <h3> This is the end of my child template</h3>
 {% endblock %}
-
+```
 So, the  `{% extends %}`  informs the templating engine that this template “extends” another template,  _layout.html_. This establishes the link between the templates.
 
 Run it. You should see this:
@@ -195,7 +195,7 @@ Run it. You should see this:
 One common use case is to add a navigation bar.
 
 Add the following code to the base template, just after the opening  `<body>`  tag:
-
+```js
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -235,21 +235,20 @@ Add the following code to the base template, just after the opening  `<body>`  t
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+```
 Now, every single child template that extends from the base will have the same navigation bar. To steal a line from Java philosophy: “Write once, use anywhere.”
 
 [![Flask + Jinja templating example showing a reusable navigation bar](https://files.realpython.com/media/flask-jinja-example-navbar.a1829e2751b0.png)](https://files.realpython.com/media/flask-jinja-example-navbar.a1829e2751b0.png)
 
-[Remove ads](https://realpython.com/account/join/)
 
 ## Super Blocks
 
 If you need to render a block from the base template, use a  [super block](http://jinja.pocoo.org/docs/templates/#super-blocks):
-
+```
 {{ super() }}
-
+```
 Add a footer to the base template:
-
+```js
 <div class="footer">
   {% block footer %}
     Watch! This will be added to my base and child templates using the super powerful super block!
@@ -257,9 +256,9 @@ Add a footer to the base template:
     <br>
   {% endblock %}
 </div>
-
+```
 Here’s the updated code:
-
+```html
 <!DOCTYPE html>
   <head>
     <title>Flask Template Example</title>
@@ -294,13 +293,13 @@ Here’s the updated code:
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
-
+```
 Run the app. You should see that the footer is just part of the base:
 
 [![Jinja templating example defining a footer block](https://files.realpython.com/media/flask-jinja-example-super.a71254fdfdc7.png)](https://files.realpython.com/media/flask-jinja-example-super.a71254fdfdc7.png)
 
 Now, add the super block to  _template.html_:
-
+```html
 {% extends "layout.html" %}
 {% block content %}
   <h3> This is the start of my child template</h3>
@@ -318,7 +317,7 @@ Now, add the super block to  _template.html_:
   {{super()}}
   {% endblock %}
 {% endblock %}
-
+```
 Check it out in your browser:
 
 [![Jinja templating example defining a footer block – step 2](https://files.realpython.com/media/flask-jinja-example-super-2.853f387a8867.png)](https://files.realpython.com/media/flask-jinja-example-super-2.853f387a8867.png)
@@ -328,7 +327,7 @@ The super block is used for  [common code that both the parent and child templat
 Here’s an example:
 
 **Parent**
-
+```html
 {% block heading %}
   <h1>{% block page %}{% endblock %} - Flask Super Example</h1>
 {% endblock %}
@@ -339,7 +338,7 @@ Here’s an example:
 {% block heading %}
   {{ super() }}
 {% endblock %}
-
+```
 Let’s see that in action:
 
 [![Jinja templating example showing the footer block included in the final HTML output](https://files.realpython.com/media/flask-jinja-example-super-3.57e27ebe8c9b.png)](https://files.realpython.com/media/flask-jinja-example-super-3.57e27ebe8c9b.png)
@@ -475,5 +474,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODM5ODgyNF19
+eyJoaXN0b3J5IjpbLTExMzAwMTE2MjVdfQ==
 -->
