@@ -104,7 +104,9 @@ In addition to making us feel better, using these results will allow us to plan 
 If we are feeling too confident, we can try to tweak the results to lose money:
 
 ```py
-
+microsoft.buy_and_hold(start_date='1999-01-05', 
+                      end_date='2002-01-03', nshares=100)
+MSFT Total buy and hold profit from 1999-01-05 to 2002-01-03 for 100 shares = $-56.92
 ```
 
 Surprisingly, it is possible to lose money in the stock market!
@@ -112,18 +114,21 @@ Surprisingly, it is possible to lose money in the stock market!
 # Additive Models
 
 Additive models are a powerful tool for analyzing and predicting time series, one of the most common types of real world data. The concept is straightforward:  [represent a time series as a combination of patterns on different time scales and an overall trend.](https://research.fb.com/prophet-forecasting-at-scale/)  We know the long-term trend of Microsoft stock is a steady increase, but there could also be patterns on a yearly or daily basis, such as an increase every Tuesday, that would be economically beneficial to know. A great library for analyzing time series with daily observations (such as stocks) is  Prophet, developed by Facebook. Stocker does all the modeling work with Prophet behind the scenes for us, so we can use a simple method call to create and inspect a model.
-
+```py
 model, model_data = microsoft.create_prophet_model()
-
+```
 ![](https://miro.medium.com/max/30/1*Ux9y0rG3ONG1L69rZr0R7g.png?q=20)
 
 ![](https://miro.medium.com/max/686/1*Ux9y0rG3ONG1L69rZr0R7g.png)
 
 The additive model smooths out the noise in the data, which is why the modeled line does not exactly line up with the observations. Prophet models also calculate uncertainty, an essential part of modeling as we can never be sure of our predictions when dealing with fluctuating real life processes. We can also use a prophet model to make predictions for the future, but for now we are more concerned with past data. Notice that this method call returned two objects, a model and some data, which we assigned to variables. We now use these variables to plot the time series components.
 
-# model and model_data are from previous method call  
-model.plot_components(model_data)  
+
+```py
+# model and model_data are from previous method call
+model.plot_components(model_data)
 plt.show()
+```
 
 ![](https://miro.medium.com/max/30/1*X2arULUh2cBIpQjAs0KWGw.png?q=20)
 
@@ -131,10 +136,13 @@ plt.show()
 
 The overall trend is a definitive increase over the past three years. There also appears to be a noticeable yearly pattern (bottom graph), with prices bottoming out in September and October and reaching a peak in November and January. As the time-scale decreases, the data gets noisier. Over the course of a typical month, there is more  [signal than noise](https://towardsdatascience.com/a-theory-of-prediction-10cb335cc3f2)! If we believe there might be a weekly pattern, we can add that in to the prophet model by changing the  `weekly_seasonality`attribute of the Stocker object:
 
-print(microsoft.weekly_seasonality)  
-microsoft.weekly_seasonality = True  
-print(microsoft.weekly_seasonality)**False   
-True**
+```py
+print(microsoft.weekly_seasonality)
+microsoft.weekly_seasonality = True
+print(microsoft.weekly_seasonality)
+False 
+True
+```
 
 The default value for  `weekly_seasonality`is False, but we changed the value to include a weekly pattern in our model. We then make another call to  `create_prophet_model`and graph the resulting components. Below is the weekly seasonality from the new model.
 
@@ -219,5 +227,5 @@ Although all the capabilities of Stocker might already be publically available, 
 
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUzODkxNDBdfQ==
+eyJoaXN0b3J5IjpbOTY4NjA1MzMyXX0=
 -->
