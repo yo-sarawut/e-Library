@@ -127,7 +127,7 @@ df['ID_all'] = [i for i in range(1, df.shape[0]+1)]
 ``` 
 To add a random ID to each group (by A, B), one can then do
 ``` py
-df['ID'] = df.groupby(['A', 'B'])['ID_all'].rank(method='first',	ascending=True).astype(int)
+df['ID'] = df.groupby(['A', 'B'])['ID_all'].rank(method='first',ascending=True).astype(int)
 df['random_ID'] = df.groupby(['A', 'B'])'random_ID_all'].rank(method='first',ascending=True).astype(int)
 ``` 
 to get
@@ -186,6 +186,6 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI5MjE1OTAsLTM1ODA5MzkyOSwtMT
-QwODQzNjA1N119
+eyJoaXN0b3J5IjpbMzQ4MDY1NTIyLC0zNTgwOTM5MjksLTE0MD
+g0MzYwNTddfQ==
 -->
