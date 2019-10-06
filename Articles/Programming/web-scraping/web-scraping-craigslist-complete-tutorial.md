@@ -335,6 +335,14 @@ plt.title("Price vs. Square Footage Colored by Number of Bedrooms", fontsize=18)
 
 Let’s not forget the workhorse of Data Science: linear regression. We can call a  `regplot()`  on these two variables to get a regression line with a bootstrap confidence interval calculated about the line and shown as a shaded region with the code below. If you haven’t heard of bootstrap confidence intervals, they are a really cool statistical technique that are  [worth a read](https://www.inferentialthinking.com/chapters/13/2/Bootstrap.html).
 
+```py
+plt.figure(figsize=(12, 8))
+sns.regplot(x='price', y='sqft', data=eb_apts.dropna());
+plt.title('Price vs. Square Footage Regression Plot');
+plt.xlabel("Price (USD)");
+plt.ylabel("Square Feet");
+```
+
 ![](https://miro.medium.com/max/30/1*oz8V7pwCp3uWrYYnTVEdtA.png?q=20)
 
 ![](https://miro.medium.com/max/756/1*oz8V7pwCp3uWrYYnTVEdtA.png)
@@ -374,6 +382,13 @@ Average price by neighborhood sorted in ascending order
 Lastly, I looked at the spread of each neighborhood in terms of price. By doing this, I saw how prices in neighborhoods can vary, and to what degree.
 
 Here’s the code that produces the plot that follows.
+```py
+sns.boxplot(x='neighborhood', y='price', data=eb_apts)
+plt.xlabel("Neighborhood");
+plt.xticks(rotation=75)
+plt.ylabel("Price USD");
+plt.title("Prices by Neighborhood - Boxplots");
+```
 
 ![](https://miro.medium.com/max/30/1*jDccgcLeozWBcG-dV63QVw.png?q=20)
 
@@ -391,5 +406,5 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 >  [Source :](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAzNzIzNl19
+eyJoaXN0b3J5IjpbODg1ODEyMjgzXX0=
 -->
