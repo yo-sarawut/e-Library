@@ -32,12 +32,15 @@ Make sure you have Jinja installed before running these examples (`pip install j
 from jinja2 import Template
 t = Template("Hello {{ something }}!")
 t.render(something="World")
-u'Hello World!'
-
+```
+```
+Hello World!'
+```
+```python
 t = Template("My favorite numbers: {% for n in range(1,10) %}{{n}} " "{% endfor %}")
 t.render()
 ```
-u'My favorite numbers: 1 2 3 4 5 6 7 8 9 '
+My favorite numbers: 1 2 3 4 5 6 7 8 9 '
 
 Notice how the actual output rendered to the user falls within the  tags.
 
@@ -471,5 +474,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDI4Mzk0NV19
+eyJoaXN0b3J5IjpbOTE1NDU3MjM5XX0=
 -->
