@@ -115,11 +115,11 @@ const app = new Vue({
 
 > หรือใครที่ติดตั้ง Node.js สามารถใช้ตัว  `serve`  ได้ ติดตั้งโดย  `npm install -g serve`  และใช้งาน คือ รัน  `serve`  ที่โฟลเดอร์ที่มีไฟล์  `index.html`  ก็ได้เลย เช่น  `serve`  หรือ  `serve -d public`
 
-![Vue start 01](https://devahoy.com/static/e8593cdcdd68499cc95adbc8db6b94e6/3b8ee/vue-get-start-01.png "Vue start 01")
+![enter image description here](https://devahoy.com/static/e8593cdcdd68499cc95adbc8db6b94e6/63ab0/vue-get-start-01.webp)
 
 ทำไงจะลองเช็คว่ามัน link กันจริงมั้ย? เป็น Developer Tools ตรง Console ลองเปลี่ยนค่า  `app.message`  เป็นค่าที่เราต้องการ จะเห็นว่าค่าใน DOM ก็จะเปลี่ยนตามด้วย
 
-![Vue Start 02](https://devahoy.com/static/80238ae12fb964c0d65ae75a0fc5cb08/3b8ee/vue-get-start-02.png "Vue Start 02")
+![enter image description here](https://devahoy.com/static/80238ae12fb964c0d65ae75a0fc5cb08/63ab0/vue-get-start-02.webp)
 
 ## [](https://devahoy.com/blog/2019/08/introduction-to-vuejs/#step-2-vue-conceopt)Step 2: Vue Conceopt
 
@@ -149,7 +149,7 @@ const app = new Vue({
 
 เมื่อเราทดสอบสั่งรันโปรแกรม เราจะเห็นว่ามันแสดงคำว่า  `Hey, I am here`  เพราะว่า  `v-if`  ไปเช็ค  `isMe`  เป็น  `true`  นั่นเอง ในทางกลับกัน ถ้าเราเปลี่ยน  `isMe: false`  เราจะไม่เห็น อะไรแสดงบนหน้าจอครับ
 
-![Vue v-if](https://devahoy.com/static/2d669b754c2c9e161a4f202fca35b5cc/3b8ee/vue-get-start-03.png "Vue v-if")
+![enter image description here](https://devahoy.com/static/2d669b754c2c9e161a4f202fca35b5cc/63ab0/vue-get-start-03.webp)
 
 ### [](https://devahoy.com/blog/2019/08/introduction-to-vuejs/#loop)Loop
 
@@ -524,5 +524,5 @@ Happy Coding
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxODYyNzddfQ==
+eyJoaXN0b3J5IjpbOTE3Mjc3Nzk4XX0=
 -->
