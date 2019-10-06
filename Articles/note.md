@@ -22,8 +22,9 @@ Note for Articles
 - [A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn](https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf)
 - [Concrete Example of Web Scraping with Financial Data](https://medium.com/sipios/concrete-example-of-web-scraping-with-financial-data-7d9611088bb9)
 - [How to Scrape the Web using Python with ScraPy Spiders](https://towardsdatascience.com/how-to-scrape-the-web-using-python-with-scrapy-spiders-e2328ac4526)
+- [Learn Web Scraping using Python in under 5 minutes](https://medium.com/@kaustumbhjaiswal7/learn-web-scraping-using-python-in-under-5-minutes-36a7d4d6e1e7)
 - [Vuex made simple — getting started!](https://itnext.io/vuex-made-simple-getting-started-6bf229d432cf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTYxNTAxMiwxODY4NjYxMDc0LC0yMD
-k5MjkyMzM2XX0=
+eyJoaXN0b3J5IjpbOTIzMTc5MDgxLDE4Njg2NjEwNzQsLTIwOT
+kyOTIzMzZdfQ==
 -->
