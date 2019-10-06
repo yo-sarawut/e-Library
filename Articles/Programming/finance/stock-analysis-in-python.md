@@ -25,17 +25,18 @@ After installing the required libraries, the first thing we do is import the Sto
 from stocker import Stocker
 ```
 We now have the Stocker class in our Python session, and we can use it to create an instance of the class.  [In Python, an instance of a class](https://docs.python.org/3/tutorial/classes.html)  is called an object, and the act of creating an object is sometimes called instantiation or construction. In order to make a Stocker object we need to pass in the name of a  [valid stock ticker](http://www.nasdaq.com/screening/company-list.aspx)  (**bold** indicates output).
-
-microsoft = Stocker('MSFT')**MSFT Stocker Initialized. Data covers 1986-03-13 to 2018-01-16.**
-
+```py
+microsoft = Stocker('MSFT')
+MSFT Stocker Initialized. Data covers 1986-03-13 to 2018-01-16.
+```
 Now, we have a  `microsoft`object with all the properties of the Stocker class. Stocker is built on the  [quandl WIKI database](https://www.quandl.com/databases/WIKIP/documentation/about)  which gives us access to over 3000 US stocks with years of daily price data ([full list](https://media.githubusercontent.com/media/WillKoehrsen/Data-Analysis/master/stocker/data/stock_list.csv)). For this example, we will stick to Microsoft data. Although Microsoft might be seen as the opposite of open-source, they have recently made some changes that make me optimist they are  [embracing the open-source community](https://open.microsoft.com/)  (including Python).
 
 A class in Python is comprised of two main parts:  [attributes and methods](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/). Without going into too much detail, attributes are values or data associated either with the class as a whole or with specific instances (objects) of the class. Methods are functions contained in the class which can act on that data. One attribute of a Stocker object is stock data for a specific company that is attribute is associated with the object when we construct it. We can access the attribute and assign it to another variable for inspection:
-
+```py
 # Stock is an attribute of the microsoft object  
 stock_history = microsoft.stock  
 stock_history.head()
-
+```
 ![](https://miro.medium.com/max/30/1*bZRtfGkcm5BA_VgGKkGiWw.png?q=20)
 
 ![](https://miro.medium.com/max/1100/1*bZRtfGkcm5BA_VgGKkGiWw.png)
@@ -43,12 +44,12 @@ stock_history.head()
 Microsoft Stock Data
 
 The benefit of a Python class is that the methods (functions) and the data they act on are associated with the same object. We can use a method of the Stocker object to plot the entire history of the stock.
-
+```py
 # A method (function) requires parentheses  
-microsoft.plot_stock()**Maximum Adj. Close = 89.58 on 2018-01-12.  
+microsoft.plot_stock()Maximum Adj. Close = 89.58 on 2018-01-12.  
 Minimum Adj. Close = 0.06 on 1986-03-24.  
 Current Adj. Close = 88.35.**
-
+```
 ![](https://miro.medium.com/max/30/1*_CRdtGZ-qQ1flJkDz2kLiQ.png?q=20)
 
 ![](https://miro.medium.com/max/763/1*_CRdtGZ-qQ1flJkDz2kLiQ.png)
@@ -209,5 +210,5 @@ Although all the capabilities of Stocker might already be publically available, 
 
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MzkzMTc1XX0=
+eyJoaXN0b3J5IjpbLTQ4NTA5MjY0MF19
 -->
