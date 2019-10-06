@@ -1,6 +1,7 @@
 Note for Articles
 ==
 
+- [นิทานเรื่อง big data กับหนังสือในห้องสมุด]
 - [Rethink Flask – A Simple Todo List Powered by Flask and RethinkDB](https://realpython.com/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/)
 - [Lyricize: A Flask app to create lyrics using Markov chains](https://realpython.com/lyricize-a-flask-app-to-create-lyrics-using-markov-chains/)
 - [Python Web Applications with Flask – Part I](https://realpython.com/python-web-applications-with-flask-part-i/)
@@ -18,5 +19,6 @@ Note for Articles
 - [Web Scraping 5k race results with Python and BeautifulSoup](https://medium.com/@viritaromero/web-scraping-5k-race-results-with-python-and-beautifulsoup-d08eba5624eb)
 - [A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn](https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgwMTUzOSwtMjA5OTI5MjMzNl19
+eyJoaXN0b3J5IjpbLTE3MTA0NTA5ODgsLTIwOTkyOTIzMzZdfQ
+==
 -->
