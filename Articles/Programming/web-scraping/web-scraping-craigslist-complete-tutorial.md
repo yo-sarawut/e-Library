@@ -59,14 +59,40 @@ post_one_price.strip()
 
 I grabbed the date and time by specifying the attribute ‘datetime’ on class ‘result-date’. By specifying the ‘datetime’ attribute, I saved a step in data cleaning by making it unnecessary to convert this attribute from a string to a datetime object. This could also be made into a one-liner by placing  `['datetime']`  at the end of the  `.find()`  call, but I split it into two lines for clarity.
 ```py
-
+#grab the time and datetime it was posted
+post_one_time = post_one.find('time', class_= 'result-date')
+post_one_datetime = post_one_time['datetime']
 ```
 
 The URL and post title are easy because the ‘href’ attribute is the link and is pulled by specifying that argument. The title is just the text of that tag.
 
+```py
+#title is a and that class, link is grabbing the href attribute of that variable
+post_one_title = post_one.find('a', class_='result-title hdrlnk')
+post_one_link = post_one_title['href']
+
+#easy to grab the post title by taking the text element of the title variable
+post_one_title_text = post_one_title.text
+```
 The number of bedrooms and square footage are in the same tag, so I split these two values and grabbed each one element-wise. The neighborhood is the <span> tag of class “result-hood”, so I grabbed the text of that.
+```py
+
+#grabs the whole segment of housing details. We will need missing value handling in the loop as this kind of detail is not common in posts
+#the text can be split, and we can use indexing to grab the elements we want. number of bedrooms is the first element.
+#sqft is the third element
+
+post_one_num_bedrooms = post_one.find('span', class_ = 'housing').text.split()[0]
+
+post_one_sqft = post_one.find('span', class_ = 'housing').text.split()[2][:-3] #cleans the ft2 at the end
+
+post_one_hood = posts[0].find('span', class_='result-hood').text #grabs the neighborhood, this is the problem column that requires
+#a lot of cleaning and figuring out later.
+```
 
 The next block is the loop for all the pages for the East Bay. Since there isn’t always information on square footage and number of bedrooms, I built in a series of if statements embedded within the for loop to handle all cases.
+```py
+
+```
 
 The loop starts on the first page, and for each post in that page, it works through the following logic:
 
@@ -164,5 +190,5 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 >  [Source :](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjMyMzg2OF19
+eyJoaXN0b3J5IjpbNTgwMzkwMzg1XX0=
 -->
