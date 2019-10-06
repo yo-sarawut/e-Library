@@ -341,7 +341,7 @@ To create a production build, run npm run build.
 
 จากนั้น CLI จะทำการ serve ที่  [port 8080](http://localhost:8080/)  เป็น default ครับ
 
-![Vue CLI](https://devahoy.com/static/fb4ba50f053c06fc45daaa57d97b5639/3b8ee/vue-cli-01.png "Vue CLI")
+![enter image description here](https://devahoy.com/static/fb4ba50f053c06fc45daaa57d97b5639/63ab0/vue-cli-01.webp)
 
 ## [](https://devahoy.com/blog/2019/08/introduction-to-vuejs/#step-4-components--props)Step 4: Components & Props
 
@@ -524,5 +524,5 @@ Happy Coding
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODYxODE4XX0=
+eyJoaXN0b3J5IjpbNzAxODYyNzddfQ==
 -->
