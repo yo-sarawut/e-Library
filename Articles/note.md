@@ -20,8 +20,10 @@ Note for Articles
 - [How to store financial market data for backtesting](https://towardsdatascience.com/how-to-store-financial-market-data-for-backtesting-84b95fc016fc)
 - [Web Scraping 5k race results with Python and BeautifulSoup](https://medium.com/@viritaromero/web-scraping-5k-race-results-with-python-and-beautifulsoup-d08eba5624eb)
 - [A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn](https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf)
-- [Concrete Example of Web Scraping with Financial Data]()
+- [Concrete Example of Web Scraping with Financial Data](https://medium.com/sipios/concrete-example-of-web-scraping-with-financial-data-7d9611088bb9)
+- [How to Scrape the Web using Python with ScraPy Spiders](https://towardsdatascience.com/how-to-scrape-the-web-using-python-with-scrapy-spiders-e2328ac4526)
+- [Vuex made simple — getting started!](https://itnext.io/vuex-made-simple-getting-started-6bf229d432cf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzg5MDM2MiwxODY4NjYxMDc0LC0yMD
+eyJoaXN0b3J5IjpbMTgzOTYxNTAxMiwxODY4NjYxMDc0LC0yMD
 k5MjkyMzM2XX0=
 -->
