@@ -1,7 +1,9 @@
 Note for Articles
 ==
 
-- [นิทานเรื่อง big data กับหนังสือในห้องสมุด]
+- [นิทานเรื่อง big data กับหนังสือในห้องสมุด](https://blog.skooldio.com/%e0%b8%99%e0%b8%b4%e0%b8%97%e0%b8%b2%e0%b8%99%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-big-data-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%b7%e0%b8%ad/)
+- [API คืออะไร? อธิบายแบบคนไม่เขียนโปรแกรมรู้เรื่องได้มั้ย?](https://blog.skooldio.com/api-%e0%b8%84%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3/)
+- [Code คืออะไร? เข้าใจผ่านหนัง The Matrix](https://blog.skooldio.com/code-%e0%b8%84%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3-%e0%b9%80%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b9%83%e0%b8%88%e0%b8%9c%e0%b9%88%e0%b8%b2%e0%b8%99-the-matrix/)
 - [Rethink Flask – A Simple Todo List Powered by Flask and RethinkDB](https://realpython.com/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/)
 - [Lyricize: A Flask app to create lyrics using Markov chains](https://realpython.com/lyricize-a-flask-app-to-create-lyrics-using-markov-chains/)
 - [Python Web Applications with Flask – Part I](https://realpython.com/python-web-applications-with-flask-part-i/)
@@ -19,6 +21,5 @@ Note for Articles
 - [Web Scraping 5k race results with Python and BeautifulSoup](https://medium.com/@viritaromero/web-scraping-5k-race-results-with-python-and-beautifulsoup-d08eba5624eb)
 - [A Starter Pack to Exploratory Data Analysis with Python, pandas, seaborn, and scikit-learn](https://towardsdatascience.com/a-starter-pack-to-exploratory-data-analysis-with-python-pandas-seaborn-and-scikit-learn-a77889485baf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA0NTA5ODgsLTIwOTkyOTIzMzZdfQ
-==
+eyJoaXN0b3J5IjpbMTg2ODY2MTA3NCwtMjA5OTI5MjMzNl19
 -->
