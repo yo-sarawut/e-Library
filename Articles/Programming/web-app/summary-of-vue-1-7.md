@@ -172,7 +172,7 @@ When a text is entered, a red button shows up.
 
 ----------
 
-## 1–3–4.  `[v-show](https://vuejs.org/v2/api/#v-show)`
+## 1–3–4.  [v-show](https://vuejs.org/v2/api/#v-show)
 
 > `_v-show_`  has the same functionality with v-if. But,  `_v-show_`  does NOT  _unmount_the element from the DOM.  `_v-show_`  just toggles its visibility for us.
 
@@ -198,7 +198,7 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ----------
 
-## 1–3–5.  `[v-if](https://vuejs.org/v2/api/#v-if)`  /  `[v-else](https://vuejs.org/v2/api/#v-else)`  /  `[v-else-if](https://vuejs.org/v2/api/#v-else-if)`
+## 1–3–5.  [v-if](https://vuejs.org/v2/api/#v-if) /  [v-else](https://vuejs.org/v2/api/#v-else) /  [v-else-if](https://vuejs.org/v2/api/#v-else-if)
 
 > Pretty straightforward: you can conditionally render one thing or another.
 
@@ -206,7 +206,7 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ----------
 
-## 1–3–6.  `[v-bind](https://vuejs.org/v2/api/#v-bind)`  or  `:(colon)`
+## 1–3–6.  [v-bind](https://vuejs.org/v2/api/#v-bind)  or  :(colon)
 
 > One of the most useful directives! (`_:_`  is a shortcut of  `_v-bind_`) We can use it for so many things including class & style binding, creating dynamic props, etc.
 
@@ -215,7 +215,7 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ----------
 
-## 1–3–7.  `[v-once](https://vuejs.org/v2/api/#v-pre)`  &  `[v-pre](https://vuejs.org/v2/api/#v-pre)`
+## 1–3–7.  [v-once](https://vuejs.org/v2/api/#v-pre)  &  [v-pre](https://vuejs.org/v2/api/#v-pre)
 
 > `_v-once_`  is not quite useful. It will not update once it’s been rendered.
 > 
@@ -225,7 +225,7 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ----------
 
-## 1–3–8.  `[v-on](https://vuejs.org/v2/api/#v-on)`  or  `@`
+## 1–3–8.  [v-on](https://vuejs.org/v2/api/#v-on)  or  @
 
 > Extremely useful! (`_@_`  is a shortcut of  `_v-on_`) It’s great for binding to events like  [mouse-enter, mouse-over](https://bl.ocks.org/mbostock/5247027), and click. You’ll be able to pass in a parameter for the event like (e). We can also use ternaries directly.
 
@@ -299,5 +299,6 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDU4NjIzNiwtMTIyNjUyMzY0MV19
+eyJoaXN0b3J5IjpbLTE3MTk3OTc5NDAsLTEyMjY1MjM2NDFdfQ
+==
 -->
