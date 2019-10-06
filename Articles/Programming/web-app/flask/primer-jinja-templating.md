@@ -40,7 +40,9 @@ Hello World!'
 t = Template("My favorite numbers: {% for n in range(1,10) %}{{n}} " "{% endfor %}")
 t.render()
 ```
+```
 My favorite numbers: 1 2 3 4 5 6 7 8 9 '
+```
 
 Notice how the actual output rendered to the user falls within the  tags.
 
@@ -55,11 +57,11 @@ Create the following project structure:
 └── templates
 
 Activate a virtualenv, then install flask:
-
+```py
 $ pip install flask
-
+```
 Add the following code to  _run.py_:
-
+```py
 from flask import Flask, render_template
 app = Flask(__name__)
 
@@ -69,11 +71,11 @@ def template_test():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
+```
 Here, we are establishing the route  `/`, which renders the template  _template.html_  via the function  `render_template()`. This function must have a template name. Optionally, you can pass in keyword arguments to the template, like in the example with  `my_string`  and  `my_list`.
 
 Add the template:
-
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -102,13 +104,13 @@ Add the template:
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
-
+```
 Save this as  _template.html_  in the templates directory. Notice the template tags. Can you guess the output before you run the app?
 
 Run the following:
-
+```
 $ python run.py
-
+```
 You should see the following:
 
 [![Basic Flask + Jinja templating example screenshot](https://files.realpython.com/media/flask-jinja-example-basic.57f2955f4a35.png)](https://files.realpython.com/media/flask-jinja-example-basic.57f2955f4a35.png)
@@ -119,7 +121,6 @@ The syntax is similar to Python, differing in that no colon is required and that
 
 You can also complete the logic within your controller or views and then pass each value to the template using the template tags. However, it is much easier to perform such logic within the templates themselves.
 
-[Remove ads](https://realpython.com/account/join/)
 
 ## Template Inheritance
 
@@ -132,7 +133,7 @@ The use case for this is simple: as your application grows, and you continue add
 Let’s add inheritance to our example.
 
 Create the base (or parent) template:
-
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -159,7 +160,7 @@ Create the base (or parent) template:
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
-
+```
 Save this as  _layout.html_.
 
 Did you notice the  `{% block %}`  tags? This defines a block (or area) that child templates can fill in. Further, this just informs the templating engine that a child template may override the block of the template.
@@ -169,7 +170,7 @@ Did you notice the  `{% block %}`  tags? This defines a block (or area) that chi
 Let’s do that.
 
 Update  _template.html_:
-
+```
 {% extends "layout.html" %}
 {% block content %}
   <h3> This is the start of my child template</h3>
@@ -474,5 +475,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NDU3MjM5XX0=
+eyJoaXN0b3J5IjpbMTYzODM5ODgyNF19
 -->
