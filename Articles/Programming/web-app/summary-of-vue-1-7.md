@@ -76,6 +76,7 @@ _#app_ {
 ## #1 Vanilla JS
 
 [_JavaScript file_]  
+```js
 const items = ['A', 'B', 'C', 'D'];function listOfStuff(){  
   let full_list='';  
   for(let i=0; i<items.length; i++){  
@@ -86,7 +87,7 @@ const items = ['A', 'B', 'C', 'D'];function listOfStuff(){
 }listOfStuff();  
 -----------------------------------[_HTML file_]  
 <div id='container'></div>
-
+```
 -   “A  **_template literal_**(`**${}**`) is a way to concatenate strings while allowing embedded expressions and improving readability” ([CodeBurst.io](https://codeburst.io/javascript-what-are-template-literals-5d08a50ef2e3); more examples on  [Medium](https://medium.com/front-end-hacking/es6-cool-stuffs-a-new-js-string-with-template-literals-c23a8af11b2)).
 -   “The  `[Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)`  method  `**querySelector()**`  returns the first  `[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)`  within the document that matches the specified selector, or group of selectors” ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)).
 -   “The  `[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)`  property  `**innerHTML**`  gets or sets the HTML or XML markup contained within the element” ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)).
@@ -94,6 +95,7 @@ const items = ['A', 'B', 'C', 'D'];function listOfStuff(){
 ## #2 Vue
 
 [src > components > examples > example2.vue]  
+```js
 <template>  
   <div id="**_app_**">  
     <ul>  
@@ -111,7 +113,7 @@ export default{
   }  
 }  
 </script>
-
+```
 > clean, semantic, declarative, legible, easy to maintain, reactive
 
 ----------
@@ -120,11 +122,11 @@ export default{
 
 “A directive is some special token in the markup that tells the library to do something to a DOM element” ([Official Website](https://012.vuejs.org/guide/directives.html)).
 
-## 1–3–1.  `[v-for](https://vuejs.org/v2/api/#v-for)`
+## 1–3–1.  [v-for](https://vuejs.org/v2/api/#v-for)
 
 > Loops through a set of values / can also do a static number
 
-## 1–3–2.  `[v-model](https://vuejs.org/v2/api/#v-model)`
+## 1–3–2.  [v-model](https://vuejs.org/v2/api/#v-model)
 
 > Creates a relationship b/t the data in the instance/component and a form input, so, you can dynamically update values
 
@@ -140,7 +142,7 @@ export default{
 
 ----------
 
-## 1–3–3.  `[v-if](https://vuejs.org/v2/api/#v-if)`
+## 1–3–3.  [v-if](https://vuejs.org/v2/api/#v-if)
 
 > A conditional that will display information depending on meeting a requirement. (This can be anything: buttons, forms, divs, and components.)
 
@@ -297,5 +299,5 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzQ3NjAxNiwtMTIyNjUyMzY0MV19
+eyJoaXN0b3J5IjpbLTUyNDU4NjIzNiwtMTIyNjUyMzY0MV19
 -->
