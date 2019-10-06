@@ -215,8 +215,12 @@ Looks like declining searches for Office leads to increasing stock prices. Maybe
 
 We have only explored the first half of Stocker capabilities. The second half is designed for forecasting, or predicting future stock price. Although this might be a futile exercise (or at least will not pay off), there is still plenty to learn in the process! Stay tuned for a future article on prediction, or get started predicting with Stocker on your own (check out the  [documentation for details](https://github.com/WillKoehrsen/Data-Analysis/tree/master/stocker)). For now, I’ll leave you with one more image.
 
-# specify number of days in future to make a prediction  
-model, future = microsoft.create_prophet_model(days=180)**Predicted Price on 2018-07-15 = $97.67**
+
+```py
+# specify number of days in future to make a prediction
+model, future = microsoft.create_prophet_model(days=180)
+Predicted Price on 2018-07-15 = $97.67
+```
 
 ![](https://miro.medium.com/max/30/1*9YclOEOSKVCGq7Eab1Np6w.png?q=20)
 
@@ -232,5 +236,5 @@ Although all the capabilities of Stocker might already be publically available, 
 
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMDE2NzM5XX0=
+eyJoaXN0b3J5IjpbMTg3NTI3MzA5MF19
 -->
