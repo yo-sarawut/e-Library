@@ -543,6 +543,7 @@ The above code does not include conditional formatting, which I will go into bel
 Following the user guide, after one has created the  `index.py`  and  `app.py`  files, one invokes the app with
 ```py
 $ python app.py  
+```
 ...Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
 
 and visit  [```http:127.0.0.1:8050/cc-travel-report/paid-search/](http://127.0.0.1:8050/cc-travel-report/paid-search/)  in your web browser.
@@ -1727,5 +1728,5 @@ Here are some resources to help you further with Dash:
 -   [Dash Community Forum](https://community.plot.ly/c/dash)
 -   [Awesome Dash Resource Guide on Github](https://github.com/ucg8j/awesome-dash)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk0OTg3MDddfQ==
+eyJoaXN0b3J5IjpbMTgxMjgwMjUxNSwtMTQzOTQ5ODcwN119
 -->
