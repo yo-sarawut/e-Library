@@ -429,7 +429,7 @@ This will round the  `num`  variable. So, if we pass the argument  `num=46.99`  
 As you can tell, you specify the variable and then a pipe (|), followed by the filter. Check out this  [link](http://jinja.pocoo.org/docs/templates/#builtin-filters)  for the list of filters already included within Jinja. In some cases, you can specify optional arguments in parentheses.
 
 Here’s an example:
-```j
+```js
 {{ list|join(', ') }}
 
 This will join a list by the comma delimiter.
@@ -437,20 +437,20 @@ This will join a list by the comma delimiter.
 Test this out. Add the following line to  _template.html_
 
 <p>Same list with a filter: {{ my_list|join(', ') }}</p>
-
+```
 Now, besides the built-in filters, we can create our  [own](http://jinja.pocoo.org/docs/api/#custom-filters).
 
 Let’s add one of our own. One common example is a custom datetime filter.
 
 Add the following code to our controller after we create the app,  `app = Flask(__name__)`:
-
+```py
 @app.template_filter()
 def datetimefilter(value, format='%Y/%m/%d %H:%M'):
     """Convert a datetime to a different format."""
     return value.strftime(format)
 
 app.jinja_env.filters['datetimefilter'] = datetimefilter
-
+```
 Using the  `@app.template_filter()`  decorator, we are registering the  `datetimefilter()`  function as a filter.
 
 **Note:**  The default name for the filter is just the name of the function. However, you can customize it by passing in an argument to the function, such as  `@app.template_filter(formatdate)`.
@@ -471,5 +471,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODU3MDE1OV19
+eyJoaXN0b3J5IjpbLTEyMjQwNjI1ODldfQ==
 -->
