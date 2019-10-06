@@ -157,8 +157,9 @@ We can ignore the weekends because the price only changes over the week (in real
 # Changepoints
 
 Changepoints occur when a time-series goes from increasing to decreasing or vice versa (in a more rigorous sense, they are located where the  [change in the rate of the time series is greatest)](https://facebook.github.io/prophet/docs/trend_changepoints.html). These times are extremely important because knowing when a stock will reach a peak or is about to take off could have significant economic benefits. Identifying the causes of changepoints might let us predict future swings in the value of a stock. The Stocker object can automatically find the 10 largest changepoints for us.
-
-microsoft.changepoint_date_analysis()**Changepoints sorted by slope rate of change (2nd derivative):  
+```py
+microsoft.changepoint_date_analysis()
+Changepoints sorted by slope rate of change (2nd derivative):  
   
           Date  Adj. Close     delta  
 48  2015-03-30   38.238066  2.580296  
@@ -166,29 +167,33 @@ microsoft.changepoint_date_analysis()**Changepoints sorted by slope rate of chan
 409 2016-09-01   55.966886 -2.053965  
 72  2015-05-04   45.034285 -2.040387  
 313 2016-04-18   54.141111 -1.936257**
-
+```
 ![](https://miro.medium.com/max/30/1*IGsLdOfi0m4431DC3Fbb8w.png?q=20)
 
 ![](https://miro.medium.com/max/686/1*IGsLdOfi0m4431DC3Fbb8w.png)
 
 The changepoints tend to line up with peaks and valleys in the stock price. Prophet only finds changepoints in the first 80% of the data, but nonetheless, these results are useful because we can attempt to correlate them with real-world events. We could repeat what we did earlier and manually search for Google News around these dates, but I thought it would be preferable if Stocker did that for us. You might have seen the  [Google Search Trends](https://trends.google.com/trends/)  tool which allows you to see the popularity of any search term over time in Google searches. Stocker can automatically retrieve this data for any search term we specify and plot the result on the original data. To find and graph the frequency of a search term, we modify the previous method call.
 
-# same method but with a search term  
-microsoft.changepoint_date_analysis(search = 'Microsoft profit')**Top Related Queries:   
-  
-                  query  value  
-0  microsoft non profit    100  
-1      microsoft office     55  
-2                 apple     30  
-3         microsoft 365     30  
-4  microsoft office 365     20  
-  
- Rising Related Queries:   
-  
-                   query  value  
-0          microsoft 365    120  
-1   microsoft office 365     90  
-2  microsoft profit 2014     70**
+
+```py
+# same method but with a search term
+microsoft.changepoint_date_analysis(search = 'Microsoft profit')
+Top Related Queries: 
+
+                  query  value
+0  microsoft non profit    100
+1      microsoft office     55
+2                 apple     30
+3         microsoft 365     30
+4  microsoft office 365     20
+
+ Rising Related Queries: 
+
+                   query  value
+0          microsoft 365    120
+1   microsoft office 365     90
+2  microsoft profit 2014     70
+```
 
 ![](https://miro.medium.com/max/30/1*VXATzdiLiQ4kFKKKjamekw.png?q=20)
 
@@ -197,9 +202,9 @@ microsoft.changepoint_date_analysis(search = 'Microsoft profit')**Top Related Qu
 In addition to graphing the relative search frequency, Stocker displays the top related queries and the top rising queries for the date range of the graph. On the graph, the y-axis is normalized between 0 and 1 by dividing the values by their maximums, allowing us to compare two variables with different scales. From the figure, there does not appear to be a correlation between searches for “Microsoft profit” and the stock price of Microsoft.
 
 Had we found a correlation, there would still be the  [question of causation](https://www.khanacademy.org/math/probability/scatterplots-a1/creating-interpreting-scatterplots/v/correlation-and-causality). We would not know if searches or news caused the price to change, or if the change in price caused the searches. There might be some useful information to be found, but there are also many chance correlations. (For a humorous take on such random relationships, check out  [spurious correlations](http://www.tylervigen.com/spurious-correlations)). Feel free to try out some different terms to see if you can find any interesting trends!
-
+```py
 microsoft.changepoint_date_analysis(search = 'Microsoft Office')
-
+```
 ![](https://miro.medium.com/max/30/1*6aJKZOdBN7Fs3EYTxU3LjA.png?q=20)
 
 ![](https://miro.medium.com/max/690/1*6aJKZOdBN7Fs3EYTxU3LjA.png)
@@ -227,5 +232,5 @@ Although all the capabilities of Stocker might already be publically available, 
 
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NjA1MzMyXX0=
+eyJoaXN0b3J5IjpbNjIwMDE2NzM5XX0=
 -->
