@@ -245,7 +245,7 @@ We can also do  _multiple_  bindings like the following:
 
 ----------
 
-## 1–3–9.  `[v-html](https://vuejs.org/v2/api/#v-html)`
+## 1–3–9.  [v-html](https://vuejs.org/v2/api/#v-html)
 
 > Great for strings that have html elements that need to be rendered
 
@@ -254,7 +254,7 @@ We can also do  _multiple_  bindings like the following:
 
 ----------
 
-## 1–3–10.  `[v-text](https://vuejs.org/v2/api/#v-text)`
+## 1–3–10.  [v-text](https://vuejs.org/v2/api/#v-text)
 
 > Similar to using mustache templates
 
@@ -299,6 +299,5 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk3OTc5NDAsLTEyMjY1MjM2NDFdfQ
-==
+eyJoaXN0b3J5IjpbLTc1ODI1MzUyOCwtMTIyNjUyMzY0MV19
 -->
