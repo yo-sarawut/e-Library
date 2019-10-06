@@ -43,6 +43,7 @@ This part is not covered in this tutorial. If you’d like to know how I did tha
 # [ 1–1. Vue Instance ]
 
 [src > components > examples > example1.vue]  
+```js
 <template>  
   <div id="**_app_**">  
     **{{ text }}** Nice to meet Vue.  
@@ -56,7 +57,7 @@ export default{
   }  
 }  
 </script><style scoped>  
-**_#app_** {  
+_#app_ {  
   text-align: center;  
   padding: 70px;  
   font-size: 22px;  
@@ -65,7 +66,7 @@ export default{
   display: table;  
 }  
 </style>
-
+```
 > _Available to see the full code with_ **syntax highlighting** _on_ [_GitHubGist_](http://bit.ly/GHG_SD_Vue_0)_._
 
 ----------
@@ -296,5 +297,5 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY1MjM2NDFdfQ==
+eyJoaXN0b3J5IjpbLTg4NzQ3NjAxNiwtMTIyNjUyMzY0MV19
 -->
