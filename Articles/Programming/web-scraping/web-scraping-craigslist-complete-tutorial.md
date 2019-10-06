@@ -29,7 +29,6 @@ html_soup = BeautifulSoup(response.text, 'html.parser')
 posts = html_soup.find_all('li', class_= 'result-row')
 print(type(posts)) #to double check that I got a ResultSet
 print(len(posts)) #to double check I got 120 (elements/page)
-
 ```
 
 Using the find_all method on the newly created html_soup variable in the code above, I found the posts. I needed to examine the website’s structure to find the parent tag of the posts. Looking at the screenshot below, you can see that it’s <li class=“result-row”>. That is the tag for one single post, which is literally the box that contains all the elements I grabbed!
@@ -50,11 +49,18 @@ Class bs4.element.ResultSet is indexed, so I looked at the first apartment by in
 
 You should have this output for the first post in posts (posts[0]), assigned to post_one.
 
-The price of the post is easy to grab:
+```py
+#grab the price of the first post
+post_one_price = post_one.a.text
+post_one_price.strip()
+```
 
 .strip() removes whitespace before and after a string
 
 I grabbed the date and time by specifying the attribute ‘datetime’ on class ‘result-date’. By specifying the ‘datetime’ attribute, I saved a step in data cleaning by making it unnecessary to convert this attribute from a string to a datetime object. This could also be made into a one-liner by placing  `['datetime']`  at the end of the  `.find()`  call, but I split it into two lines for clarity.
+```py
+
+```
 
 The URL and post title are easy because the ‘href’ attribute is the link and is pulled by specifying that argument. The title is just the text of that tag.
 
@@ -158,5 +164,5 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 >  [Source :](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjcxMzc2MzFdfQ==
+eyJoaXN0b3J5IjpbLTMxNjMyMzg2OF19
 -->
