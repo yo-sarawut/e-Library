@@ -130,9 +130,9 @@ dfm.iloc[-360:,1].plot()
 Now let us explore the yearly average data
 
 In [15]:
-
+```
 dfy.head()
-
+```
 ![](https://miro.medium.com/max/23/1*7Nnj1Txfi6RMUUqWjB-uRQ.png?q=20)
 
 ![](https://miro.medium.com/max/162/1*7Nnj1Txfi6RMUUqWjB-uRQ.png)
@@ -142,50 +142,50 @@ The chart above is useful to show the distribution of return over time. It confi
 It will be interesting to see how much the five, ten, fifteen, twenty, twenty five and thirty year returns have changed over time. For this we will use the yearly average data.
 
 In [16]:
-
+```
 dfy['5y'] = dfy['Close'].shift(5)
-
+```
 In [17]:
-
+```py
 dfy['10y'] = dfy['Close'].shift(10)  
 dfy['15y'] = dfy['Close'].shift(15)  
 dfy['20y'] = dfy['Close'].shift(20)  
 dfy['25y'] = dfy['Close'].shift(25)  
 dfy['30y'] = dfy['Close'].shift(30)
-
+```
 Create a new dataframe to calculate the five year returns over time
 
 In [18]:
-
+```py
 fiveyearreturn = dfy[['Close','5y']].dropna()  
 fiveyearreturn['Return'] = (fiveyearreturn['Close'] - fiveyearreturn['5y'])/fiveyearreturn['5y']*100
-
+```
 Create a boxplot and a kde plot of 5 year returns. The vast majority of the 5 year returns are above zero, which means that more often than not, it is hard to lose money in the market if held over a 5 year period. Although there are some years with negative returns. So had the index been purchased during some months, you could still be in the red after 5 years!
 
 In [19]:
-
+```py
 plt.figure(figsize=(12,6))  
 ax = plt.subplot(121)  
 fiveyearreturn['Return'].plot(kind='box')ax = plt.subplot(122)  
 fiveyearreturn['Return'].plot(kind='kde')
-
+```
 ![](https://miro.medium.com/max/30/1*XJMhB1tavRN6LvHHwLKOvQ.png?q=20)
 
 ![](https://miro.medium.com/max/728/1*XJMhB1tavRN6LvHHwLKOvQ.png)
-
+```py
 tenyearreturn = dfy[['Close','10y']].dropna()  
 tenyearreturn['Return'] = (tenyearreturn['Close'] - tenyearreturn['10y'])/tenyearreturn['10y']*100
-
+```
 A look at the 10 year returns shows that holding S&P 500 index over 10 years shows a largely positive returns, with a median return of 85%. Vast majority of the returns were over 100%. In some years the returns were above 300% while in others it may have been below 0%!
 
 In [21]:
-
+```py
 plt.figure(figsize=(12,6))  
 ax = plt.subplot(121)  
 tenyearreturn['Return'].plot(kind='box')  
 ax = plt.subplot(122)  
 tenyearreturn['Return'].plot(kind='kde')
-
+```
 ![](https://miro.medium.com/max/30/1*TCorVs6j1-zTe3TsaYHDvA.png?q=20)
 
 ![](https://miro.medium.com/max/712/1*TCorVs6j1-zTe3TsaYHDvA.png)
@@ -215,23 +215,23 @@ Repeating this exercise for 15, 20, 25 and 30 years will provide the following p
 ![](https://miro.medium.com/max/717/1*9CaSGp3mlQ_U27vg4fePaA.png)
 
 30 Years
-
+```py
 combinedreturn = pd.concat([fiveyearreturn['Return'], tenyearreturn['Return'],   
           fifteenyearreturn['Return'], twentyyearreturn['Return'],   
           x25yearreturn['Return'], thirtyyearreturn['Return']],axis=1, keys=['5y', '10y', '15y', '20y', '25y', '30y'])
-
+```
 Here is a side by side box plot of returns over 5, 10, 15, 20, 25 and 30 year periods.
 
 In [28]:
-
+```py
 combinedreturn.plot(kind='box', figsize=(8,6))
-
+```
 ![](https://miro.medium.com/max/30/1*5bYYSZ0jKw9hweZGKnB_Xw.png?q=20)
 
 ![](https://miro.medium.com/max/544/1*5bYYSZ0jKw9hweZGKnB_Xw.png)
-
+```
 Combined Returns for 5,10,15,20,25 and 30 Year Returns
-
+```
 This chart aligns with our understanding of the markets that keeping money over longer term has a greater chance of producing returns and lesser chance of losing money, however some people may have had better success with some of their 20 year investments than those that they bought at the wrong time and held for longer than 20 years.
 
 So what are those periods when the five year returns were negative? Some of these years are familiar such as 2003, 2009 etc.
@@ -276,5 +276,5 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 [Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mzk4MTE1LC0xODg0MjEyNDMyXX0=
+eyJoaXN0b3J5IjpbLTE1ODM3OTkyLC0xODg0MjEyNDMyXX0=
 -->
