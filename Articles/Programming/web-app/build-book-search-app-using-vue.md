@@ -103,6 +103,23 @@ Screen after adding ReactiveBase 👋
 ## Use DataSearch Component for the main search
 
 `DataSearch`  creates a search box UI component that is connected to one or more database fields.
+``` js
+<DataSearch
+  componentId="title"
+  iconPosition="right"
+  :dataField="[
+    'original_title',
+    'original_title.search',
+    'authors.search',
+    'authors.raw',
+    'authors.autosuggest',
+    'authors'
+  ]"
+  className="data-search"
+  :showClear="false"
+  placeholder="Search for book"
+/>
+``` 
 
 `dataField`  prop values are the name of the field on which we want to apply our search.
 
@@ -116,6 +133,16 @@ Screen showing DataSearch Component 🎇
 
 We always want to read the book from our favorite authors so why not we built an option to select our favorite authors and search through the list of authors.
 
+```js
+<MultiList
+  componentId="Authors"
+  dataField="authors.raw"
+  class="filter"
+  title="Select Authors"
+  selectAllLabel="All Authors"
+  :react="{ and: ['Ratings', 'title'] }"
+/>
+```
 In this component,  `dataField`  attribute defines the data field to be connected to the component’s UI view.  `title`  attribute gives the heading to the component, while  `class`  attribute is used to provide the class name to the MultiList container. We can use  `react`  prop which allows components to watch each other and update their data reactively. For example, an Authors Filter component can update its data based on the selected fields in the Rating Filter component and DataSearch component.
 
 You can learn more about the attributes of this component  [here](https://opensource.appbase.io/reactive-manual/vue/list-components/multilist.html#props).
@@ -128,6 +155,20 @@ We want only the best books for us, so why not create an option to filter the be
 
 `SingleRange`  component displays a curated list of items where only one item can be selected at a time. Each item represents a range of values, specified in the  **data**  prop of the component.
 
+```js
+
+<SingleRange
+  componentId="Ratings"
+  dataField="average_rating"
+  :data="[
+    { 'start': 0, 'end': 3, 'label': 'Rating < 3' },
+    { 'start': 3, 'end': 4, 'label': 'Rating 3 to 4' },
+    { 'start': 4, 'end': 5, 'label': 'Rating > 4' }
+  ]"
+  title="Book Ratings"
+  class="filter"
+/>
+```
 In this component,  `dataField`  attribute defines the data field to be connected to the component’s UI view.  `title`  attribute gives the heading to the component, while  `:data`  attribute is a collection of UI  `labels`  with associated  `start`  and  `end`  range values. You can read more about the attributes of component  [here](https://opensource.appbase.io/reactive-manual/vue/range-components/singlerange.html).
 
 `:data`  is the shorthand for  `v-bind:data`  which is used to pass data to the components.
@@ -137,6 +178,39 @@ Screen after adding SingleRange 🚀
 # Step 3: Use ReactiveList Component for displaying Book Results
 
 `ReactiveList`  creates a data-driven result list UI component. This list can reactively update itself based on changes in other components or changes in the database itself.
+``` js
+<ReactiveList
+  componentId="SearchResult"
+  dataField="original_title.raw"
+  :pagination="true"
+  :from="0"
+  :size="8"
+  :showResultStats="false"
+  className="result-list-container"
+  :react="{ and: ['Ratings', 'Authors', 'title'] }"
+  :innerClass="{ list: 'books-container', poweredBy: 'appbase' }"
+>
+  <div slot="renderData" class="book-content" slot-scope="{ item }">
+    <a
+      key="item._id"
+      target="_blank"
+      :href="
+        'https://www.google.com/search?q=' +
+          item.original_title.replace(' ', '+')
+      "
+    >
+      <div class="image">
+        <img :src="item.image" alt="Book Cover" class="book-image" />
+        <div class="rating">{{ item.average_rating_rounded }} ⭐️</div>
+        <div class="details">
+          <h4 class="book-header">{{ item.original_title }}</h4>
+          <p>By {{ item.authors }}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</ReactiveList>
+``` 
 
 ReactiveList Component
 
@@ -153,9 +227,31 @@ We will now make use of some styles to make the application look elegant and pro
 You can get all the styles  [here](https://gist.github.com/jyash97/0a1e03aea7118e974e03902425e2d069)  & add them to  `App.vue`  .
 
 We will also make this app mobile responsive. To do this, we will use a  `variable`  to hide/show filters using a button when we are on a mobile viewport.
+``` js
+<script>
+import "./styles.css";
+export default {
+  name: "app",
+  data: function() {
+    return {
+      showBooks: window.innerWidth <= 768 ? true : false
+    };
+  },
+  methods: {
+    switchContainer: function() {
+      return (this.showBooks = !this.showBooks);
+    }
+  }
+};
+</script>
+``` 
 
 Adding styles and Methods & structuring to handle small screen 📱
-
+``` js
+<button class="toggle" @click="switchContainer">
+  {{ showBooks ? 'Show Filter 💣' : 'Show Books 📚' }}
+</button>
+``` 
 Button to switch views
 
 `@click`  is shorthand for  `v-on:click`. It is used to track whenever a click event is fired on the button.
@@ -185,5 +281,5 @@ The documentation for all the components is available at  [https://opensource.ap
 
 Finally,  [go ★ ReactiveSearch](https://github.com/appbaseio/reactivesearch)  on Github so you can find it when you need to build that awesome search!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcwNjMwOTldfQ==
+eyJoaXN0b3J5IjpbLTkwNzg3ODMwNl19
 -->
