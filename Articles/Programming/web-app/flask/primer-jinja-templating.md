@@ -458,9 +458,9 @@ Using the  `@app.template_filter()`  decorator, we are registering the  `datetim
 Next, we are adding the filter to the Jinja environment, making it accessible. Now it’s ready for use.
 
 Add the following code to our child template:
-
+```html
 <h4>Current date/time: {{ current_time | datetimefilter }}</h4>
-
+```
 Finally, just pass in the datetime to our template:
 
 current_time = datetime.datetime.now()
@@ -471,5 +471,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQwNjI1ODldfQ==
+eyJoaXN0b3J5IjpbMTEwNDY3OTM1NF19
 -->
