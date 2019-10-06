@@ -15,7 +15,22 @@ First things first I needed to use the get module from the requests package. The
 
 I then imported BeautifulSoup from bs4, which is the module that can actually parse the HTML of the web page retrieved from the server. I then checked the type and length of that item to make sure it matches the number of posts on the page (there are 120). You can find my import statements and setup code below:
 
-It prints out the length of posts which is 120, as expected.
+```py
+#import get to call a get request on the site
+from requests import get
+
+#get the first page of the east bay housing prices
+response = get('https://sfbay.craigslist.org/search/eby/apa?hasPic=1&availabilityMode=0') #get rid of those lame-o's that post a housing option without a pic using their filter
+
+from bs4 import BeautifulSoup
+html_soup = BeautifulSoup(response.text, 'html.parser')
+
+#get the macro-container for the housing posts
+posts = html_soup.find_all('li', class_= 'result-row')
+print(type(posts)) #to double check that I got a ResultSet
+print(len(posts)) #to double check I got 120 (elements/page)
+
+```
 
 Using the find_all method on the newly created html_soup variable in the code above, I found the posts. I needed to examine the website’s structure to find the parent tag of the posts. Looking at the screenshot below, you can see that it’s <li class=“result-row”>. That is the tag for one single post, which is literally the box that contains all the elements I grabbed!
 
@@ -143,5 +158,5 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 >  [Source :](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzI3MDU4N119
+eyJoaXN0b3J5IjpbLTEwNjcxMzc2MzFdfQ==
 -->
