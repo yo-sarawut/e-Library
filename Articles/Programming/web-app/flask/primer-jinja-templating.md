@@ -27,11 +27,11 @@ The variables and/or logic are placed between tags or delimiters. For example, J
 
 Make sure you have Jinja installed before running these examples (`pip install jinja2`):
 
->>>
 
->>> from jinja2 import Template
->>> t = Template("Hello {{ something }}!")
->>> t.render(something="World")
+
+ from jinja2 import Template
+t = Template("Hello {{ something }}!")
+t.render(something="World")
 u'Hello World!'
 
 >>> t = Template("My favorite numbers: {% for n in range(1,10) %}{{n}} " "{% endfor %}")
@@ -470,5 +470,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU5MDQxNjVdfQ==
+eyJoaXN0b3J5IjpbLTc0Mjk1NDY2NV19
 -->
