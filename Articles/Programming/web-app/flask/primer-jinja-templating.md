@@ -350,29 +350,26 @@ See what happens when you remove  `{% block page %}Home{% endblock %}`  from the
 Instead of hard coding the name of the template, let’s make it dynamic.
 
 Update the two code snippets in  _template.html_:
-
+```html
 {% block title %}{{title}}{% endblock %}
 
 {% block page %}{{title}}{% endblock %}
-
+```
 Now, we need to pass in a  `title`  variable to our template from our controller,  _run.py_:
-
+```py
 @app.route("/")
 def template_test():
     return render_template(
         'template.html', my_string="Wheeeee!", 
         my_list=[0,1,2,3,4,5], title="Home")
-
-[Test this out.](https://realpython.com/python-testing/)
-
-[Remove ads](https://realpython.com/account/join/)
+```
 
 ## Macros
 
 In Jinja, we can use macros to abstract commonly used code snippets that are used over and over to not repeat ourselves. For example, it’s common to highlight the link of the current page on the navigation bar (active link). Otherwise, we’d have to use  `if`/`elif`/`else`  statements to determine the active link. Using  [macros](http://jinja.pocoo.org/docs/templates/#macros), we can abstract out such code into a separate file.
 
 Add a  _macros.html_  file to the  `templates`  directory:
-
+```js
 {% macro nav_link(endpoint, name) %}
 {% if request.endpoint.endswith(endpoint) %}
   <li class="active"><a href="{{ url_for(endpoint) }}">{{name}}</a></li>
@@ -380,23 +377,23 @@ Add a  _macros.html_  file to the  `templates`  directory:
   <li><a href="{{ url_for(endpoint) }}">{{name}}</a></li>
 {% endif %}
 {% endmacro %}
-
+```
 Here, we’re using Flask’s  [request object](http://flask.pocoo.org/docs/reqcontext/), which is part of Jinja by default, to check the requested endpoint, and then assigning the  `active`  class to that endpoint.
 
 Update the unordered list with the  `nav navbar-nav`  class in the base template:
-
+```js
 <ul class="nav navbar-nav">
   {{ nav_link('home', 'Home') }}
   {{ nav_link('about', 'About') }}
   {{ nav_link('contact', 'Contact Us') }}
 </ul>
-
+```
 Also, make sure to add the import at the top of the template:  `{% from "macros.html" import nav_link with context %}`.
 
 Notice how we’re calling the  `nav-link`  macro and passing it two arguments: the endpoint (which comes from our controller) and the text we want displayed.
 
 Finally, let’s add three new endpoints to the controller:
-
+```py
 @app.route("/home")
 def home():
     return render_template(
@@ -414,7 +411,7 @@ def contact():
     return render_template(
         'template.html', my_string="Wheeeee!", 
         my_list=[0,1,2,3,4,5], title="Contact Us")
-
+```
 Refresh the page. Test out the links at the top. Does the current page get highlighted? It should.
 
 [![Jinja templating example showing macros](https://files.realpython.com/media/flask-jinja-example-macros.a563706b0663.png)](https://files.realpython.com/media/flask-jinja-example-macros.a563706b0663.png)
@@ -432,7 +429,7 @@ This will round the  `num`  variable. So, if we pass the argument  `num=46.99`  
 As you can tell, you specify the variable and then a pipe (|), followed by the filter. Check out this  [link](http://jinja.pocoo.org/docs/templates/#builtin-filters)  for the list of filters already included within Jinja. In some cases, you can specify optional arguments in parentheses.
 
 Here’s an example:
-
+```j
 {{ list|join(', ') }}
 
 This will join a list by the comma delimiter.
@@ -474,5 +471,5 @@ Test it.
 
 Ref : [https://realpython.com/primer-on-jinja-templating/](https://realpython.com/primer-on-jinja-templating/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAwMTE2MjVdfQ==
+eyJoaXN0b3J5IjpbLTUyODU3MDE1OV19
 -->
