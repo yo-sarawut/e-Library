@@ -89,7 +89,7 @@ Weather App
 ![enter image description here](https://miro.medium.com/max/800/1*T3G1pyjbTFBNJvxFaZDrLw.png)
 
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
-- []
+- [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
 
 
 ## Tool
@@ -123,11 +123,11 @@ Weather App
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTQ3OTk1MSwyMTQyNTM2NjYsNzU0Mj
-Q2MjUwLDMzNTM2ODcyNSw4ODI5MTgyOSw4ODI5MTgyOSwtMjEy
-MTMzODcxMSwxMjY1NzM2NzYzLDEwNzMwNDg0OTUsLTE2NTc3MT
-k3MjcsNzc2MzczNzk3LDE0ODE5NDM1NTYsMzA4NjA2Mjk2LC05
-MjQ5MDQ1MSwxOTc3OTUyMDAxLDE2NTQyOTE0OTMsLTE0MTkzMT
-I0MDQsLTE4MTAwNTY1NjgsMTA0OTczNDczMywtMzI0NTA3NzA4
-XX0=
+eyJoaXN0b3J5IjpbNTQyOTUzMzM1LDIxNDI1MzY2Niw3NTQyND
+YyNTAsMzM1MzY4NzI1LDg4MjkxODI5LDg4MjkxODI5LC0yMTIx
+MzM4NzExLDEyNjU3MzY3NjMsMTA3MzA0ODQ5NSwtMTY1NzcxOT
+cyNyw3NzYzNzM3OTcsMTQ4MTk0MzU1NiwzMDg2MDYyOTYsLTky
+NDkwNDUxLDE5Nzc5NTIwMDEsMTY1NDI5MTQ5MywtMTQxOTMxMj
+QwNCwtMTgxMDA1NjU2OCwxMDQ5NzM0NzMzLC0zMjQ1MDc3MDhd
+fQ==
 -->
