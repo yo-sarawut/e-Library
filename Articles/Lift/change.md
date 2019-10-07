@@ -1,4 +1,4 @@
-
+โลกทุกวันนี้ หมุนเร็ว กว่าในอดีต 
 
 1. คำว่า ไม่เปลี่ยน คือ แพ้ สุภาพเกินไปที่จะใช้กับคนที่ไม่เปลี่ยนแปลง  
 2. เมื่อ 10 ปีก่อน ในตำราบริหารธุรกิจ มหาวิทยาลัยระดับโลก Harvard MIT Standford ยกย่อง Nokia เป็บบริษัทปฏิวัติโลก แต่วันนี้ ไม่รอด!!!  
@@ -30,7 +30,7 @@
 ชมคลิปเต็ม :: [https://youtu.be/aTb31MypHH0](https://youtu.be/aTb31MypHH0?fbclid=IwAR1A0R40dKKNeSKjJb4kLiUk3xMXA5vmI13IJE8bJ_SQhkm8wvuOApyNAek)  
 สุชัชวีร์ สุวรรณสวัสดิ์
 
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NzExMTY4XX0=
+eyJoaXN0b3J5IjpbMTQzNTU1MzI4M119
 -->
