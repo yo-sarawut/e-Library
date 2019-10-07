@@ -1,7 +1,7 @@
 
-Chapter 6: 
+Chapter 6: The Modern Covenant
 ===
 โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2394555527248241?hc_location=ufi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUzOTU5NTVdfQ==
+eyJoaXN0b3J5IjpbNDkzOTIzODMzXX0=
 -->
