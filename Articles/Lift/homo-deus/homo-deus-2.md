@@ -1,6 +1,6 @@
-Chapter 2: The New Human Agenda
+Chapter 2: The Anthropocene
 ===
-โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2394555527248241?hc_location=ufi)
+โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2395884197115374?hc_location=ufi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDgxMjU2MV19
+eyJoaXN0b3J5IjpbLTEwODg5NzY4MTNdfQ==
 -->
