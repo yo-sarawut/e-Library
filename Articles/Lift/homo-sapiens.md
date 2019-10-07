@@ -37,6 +37,8 @@ Sapiens – A Brief History of Humankind (ประวัติย่อขอ�
 - [สรุป Sapiens : A brief history of humankin](https://medium.com/@potaeeddylunna/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B-sapiens-a-brief-history-of-humankind-by-trader-group-%E0%B9%80%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%87-%E0%B8%81%E0%B9%87%E0%B9%80%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B0%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B8%AD%E0%B9%88%E0%B8%B0-83dede47f875)
 - [วิวัฒนาการของมนุษย์ : สารานุกรมไทยสำหรับเยาวชนฯ](http://kanchanapisek.or.th/kp6/sub/book/book.php?book=33&chap=4&page=chap4.htm)
 - [Homo Deous บทที่ 1 เป้าหมายหลักต่อไปของมนุษยชาติคืออะไร ?](https://medium.com/@Trader4.0/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B-homo-deous-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%9B%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A2%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-f98785ad0236)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjQ2ODc3M119
+eyJoaXN0b3J5IjpbMTM0NDc0NjI5NSwtNTE2NDY4NzczXX0=
 -->
