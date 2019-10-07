@@ -10,6 +10,7 @@
 
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
 - [PYTHON TUTORIAL & Example](https://www.programiz.com/python-programming/time/sleep)
+- [ตัวอย่างการท](https://pythonprogramming.net)
 
 # ==ควรศึกษา==
 
@@ -21,7 +22,7 @@
 - [Reliably download historical market data from Yahoo! Finance with Python : ==**yfinance**==](https://aroussi.com/post/python-yahoo-finance)
 - [Popular Python 3 Packages](https://code.activestate.com/pypm/tag:python3/?page=1)
 - [Fast Data Store for Pandas Time-Series Data using PyStore](https://aroussi.com/post/fast-datastore-for-pandas-time-series-data)
-- []
+- [Python.HotExamplesFunction](https://python.hotexamples.com/)
 
 # Article
 
@@ -107,11 +108,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ5MTU1NTIsLTMwNTg2OTY4OSw3OT
-k5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1
-NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOS
-wxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NTMsLTcz
-MDc1OTM4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3MjE0Mj
-U1MzksLTExODgwNDg5MTIsMTk0NTQ2NDgyNiwtNjc5MjYxMDg5
-LC0xMjM0MTAwNjQxXX0=
+eyJoaXN0b3J5IjpbLTc4NTg1OTY2NywtMzA1ODY5Njg5LDc5OT
+kyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcyNTEsLTIwNDA3OTU1
+MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxODk5ODM0MzA5LD
+E2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5Mjc1MywtNzMw
+NzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3NywtMTcyMTQyNT
+UzOSwtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2LC02NzkyNjEwODks
+LTEyMzQxMDA2NDFdfQ==
 -->
