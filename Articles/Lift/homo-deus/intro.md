@@ -1,5 +1,5 @@
 
-[สรุปหนังสือ] Homo Deus : A Brief History of Tomorrow
+[รีวิว] Homo Deus : A Brief History of Tomorrow
 ===
 
 ![enter image description here](https://www.panasm.com/wp-content/uploads/2018/10/Homo-Deus-2016-Yuval-Noah-Harari.jpg)
@@ -20,5 +20,6 @@ Homo Deus คือ หนังสือภาคต่อจาก Sapiens ข
 - [Homo Deus : ทำไมมนุษย์จะไม่ครองโลกตลอดไป](https://www.the101.world/homo-deus/)
 - [หนังสือ ที่ลงทุนแมนแนะนำ](https://www.longtunman.com/3144)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTYxOTk2NSwtMTk3NjU1OTE5XX0=
+eyJoaXN0b3J5IjpbMTIyNTExMzMzMywxMTA1NjE5OTY1LC0xOT
+c2NTU5MTldfQ==
 -->
