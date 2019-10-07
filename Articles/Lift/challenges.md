@@ -5,9 +5,12 @@
 
 สรุป โดย ดร.ธีรศานต์ @iczz สหัสสพาศน์ ผู้อำนวยการหลักสูตร  [DNAbySPU.com](http://dnabyspu.com/?fbclid=IwAR1tS26Ybn2QYeOQf5Z_zQVINjYdL1Eqj59F3fyi6fqITopF8T47FksZvn4)
 
-คำถามที่สำคัญในวันนี้ คือ เราต้องเผชิญกับความท้าทายอะไรบ้าง
+![enter image description here](https://github.com/yosarawut/e-Library/raw/master/img/success-3521937_1280.jpg)
+
+**คำถามที่สำคัญในวันนี้ คือ เราต้องเผชิญกับความท้าทายอะไรบ้าง**
 
 ความท้าทายอะไรบ้าง  
+
 1. ถ้าเราอยู่ได้โดยมี Regulator ไม่ใช่ชีวิตที่ยั่งยืน  
 2. 3 ปี ที่ผ่านมา SCB ใช้เงินลงทุนไป 40,000 ล้านบาท เพื่อผันตัวให้เป็น Digital Company  
 3. Banking Industry กำไรรวม 1.9 แสนล้านบาท และเป็น Industry ที่ไม่มี Growth มาหลายปี  
@@ -67,5 +70,5 @@
 ชมคลิปเต็ม ::  [https://youtu.be/Q1KPtLdY4xk](https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FQ1KPtLdY4xk%3Ffbclid%3DIwAR1Gfzh-dhqIHla5oCg1iRLZlsYBLpyKKOz1gBzVTqNthDkyr3YR24zCL9M&h=AT0fy5NkhBPWmE5DszKEcpTne9W1f0bW-bWklaLbPECdry_qYqZf8KBQ9RX39o-ODmGE-p4xgov766-UYKhCqBrcwXnVOYgo3WbgAWZR5lbbHCtoZWjgcbvmc_YW4AQsxsD6y56H8ilkC_6-FCbFAOPH1UjhkLdmJA)  
 หมายเหตุ เห็นว่าน่าจะมีประโยชน์ต่อมุมมองของการแข่งขันในยุคปัจจุบัน จึงขออนุญาตสรุปประเด็นที่สำคัญ เพื่อให้อ่านได้จบในเวลา 5 นาที เพื่อเป็นประโยชน์สำหรับท่านที่อาจไม่ได้ดูคลิปเต็ม ด้วยเวลา 25.45 นาที
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ2MzMxMjldfQ==
+eyJoaXN0b3J5IjpbMTcwNTkyMzQxOSwtMTQ0NDYzMzEyOV19
 -->
