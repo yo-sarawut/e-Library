@@ -1,7 +1,6 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+Chapter 11: 
+===
+โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2394555527248241?hc_location=ufi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTcyNjE0MzUzN119
 -->
