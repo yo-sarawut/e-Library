@@ -49,7 +49,8 @@ Sapiens บอกเล่าถึงเรื่องราวประวั
 
 **Reference :**
 - [https://www.the101.world/homo-deus/](https://www.the101.world/homo-deus/)
+- [https://www.longtunman.com/3144](https://www.longtunman.com/3144)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzU5MjkwMyw1MjE4OTI3MzUsMTEwNT
-YxOTk2NSwtMTk3NjU1OTE5XX0=
+eyJoaXN0b3J5IjpbNTc3MjQxODgzLDUyMTg5MjczNSwxMTA1Nj
+E5OTY1LC0xOTc2NTU5MTldfQ==
 -->
