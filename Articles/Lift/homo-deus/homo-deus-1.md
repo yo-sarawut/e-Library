@@ -1,4 +1,4 @@
-Chapter 1: The New Human Agenda
+ตอนที่ 1: สามวาระใหม่แห่งอนาคต
 ===
 โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2394555527248241?hc_location=ufi)
 
@@ -25,5 +25,5 @@ Chapter 1: The New Human Agenda
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM3NjQ3OTgsLTYwMDU4MDc1Ml19
+eyJoaXN0b3J5IjpbLTE1NDY4MjIzMjYsLTYwMDU4MDc1Ml19
 -->
