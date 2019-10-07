@@ -1,7 +1,7 @@
 
-Chapter 1: The New Human Agenda
+Chapter 6: 
 ===
 โดย [ดร. สุวินัย ภรณวลัย](https://www.facebook.com/suvinaip/posts/2394555527248241?hc_location=ufi)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkyNTkwMDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzUzOTU5NTVdfQ==
 -->
