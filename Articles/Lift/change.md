@@ -1,5 +1,7 @@
 คุณรู้สึกว่า โลกทุกวันนี้หมุนเร็วและแคบลงหรือเปล่า?
 ===
+![enter image description here](https://github.com/yosarawut/e-Library/raw/master/img/network-3537401_1280.jpg)
+
 1. คำว่า ไม่เปลี่ยน คือ แพ้ สุภาพเกินไปที่จะใช้กับคนที่ไม่เปลี่ยนแปลง  
 2. เมื่อ 10 ปีก่อน ในตำราบริหารธุรกิจ มหาวิทยาลัยระดับโลก Harvard MIT Standford ยกย่อง Nokia เป็บบริษัทปฏิวัติโลก แต่วันนี้ ไม่รอด!!!  
 3. How are we?  
@@ -32,5 +34,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTk2NzU3OSwxNDM1NTUzMjgzXX0=
+eyJoaXN0b3J5IjpbMjg5MjM4MDk3LDE1MDk5Njc1NzksMTQzNT
+U1MzI4M119
 -->
