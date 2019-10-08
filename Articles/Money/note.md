@@ -4,7 +4,7 @@ Note for Money
 
 - [Modern Portfolio Theory EP.1](https://www.facebook.com/Trader4.00/posts/578389932687401?__tn__=K-R)
 - [Modern Portfolio Theory EP.2](https://medium.com/@Trader4.0/modern-portfolio-theory-ep-2-edee63cbb7a2)
-
+![enter image description here](https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/67186840_632315773961483_4689847233439334400_n.jpg?_nc_cat=106&_nc_oc=AQl-OdavzNA1msaBRadTXtFvb7vsDIVcJO8pvJClG59CDxHSg-J6kEi81Q104plRILI&_nc_ht=scontent.fbkk22-2.fna&oh=842d728f3c54e37785b739136bafe9cb&oe=5E1CBE0E)
 
 บทนำ ผมก็แค่เทรดเดอร์คนนึงที่รักในการเทรดและได้เห็นพี่น้องคนไทยมากมายสูญเสียเงินไปกับการลงทุนหลายรูปแบบ จึงอยากแชร์ประสบการณ์และความรู้เกี่ยวกับการลงทุน เพื่อให้พี่น้องชาวไทย ลงทุนอยู่บนพื้นฐานความเป็นจริง ไม่เพ้อฝัน ดังนั้น Content ที่ผมลงจะมาจากประสบการณ์จริง ทำให้ดูจริง หรืออะไรก็ตามที่ดูมีประโยชน์ หากใครเข้ามาเพื่อมาหาวิธีเร่งรวยแบบก้าวกระโดดคงจะไม่มีในเพจนี้นะครับ เพราะผมจะเน้นเรื่องของการบริหาร Risk ด้วย ซึ่งเป็นสิ่งที่มืออาชีพเค้าเน้นกันครับ  
 .  
@@ -154,5 +154,5 @@ EP.1 พ่อรวย - พ่อจน
 [https://bit.ly/2SmyGgl](https://bit.ly/2SmyGgl?fbclid=IwAR3iN-p94AEPKm_JtlFcMNxl_0jJaCxBuclGBgL5MVTgOgzBIFYfu3AflaM)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDY0ODI4MF19
+eyJoaXN0b3J5IjpbNjc4OTIxMTI1XX0=
 -->
