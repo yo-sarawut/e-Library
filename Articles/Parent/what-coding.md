@@ -39,7 +39,7 @@ Coding วิชาใหม่ที่ใส่เข้าไปในกล�
 
 “วิทยาการคำนวณ มี Coding อยู่ในนั้น Coding คือ 1 ใน 3 ของวิทยาการคำนวณ”
 
-### 
+
 
 ทำไมเด็กๆ ต้องเรียน Coding[](https://yo-sarawut.gitbook.io/knowledge-base/parent/coding#coding-2)
 
@@ -243,5 +243,5 @@ Coding มาจากภาษาอังกฤษว่า code หมาย�
 
 ที่มาบทความ : [The Potential](https://thepotential.org/2019/10/07/coding-in-school-scoop/?fbclid=IwAR1nrnYLyGDKkKmz_If4wMOWuuIXFW0Lh_L37Z9osJZV7mIL7RfidtiKeB8)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTMwMzkyMF19
+eyJoaXN0b3J5IjpbLTcyMTA5MDgzNV19
 -->
