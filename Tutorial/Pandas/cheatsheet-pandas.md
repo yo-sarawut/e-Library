@@ -228,8 +228,8 @@ cmap = sns.diverging_palette(10, 10, as_cmap=True)
 
 # Draw the heatmap with the mask and correct aspect ratio
 sns.heatmap(corr, annot=True)
-
-[![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 3](https://blog.datath.com/wp-content/uploads/2017/11/seaborn-correlation-heatmap.jpg)](https://blog.datath.com/cheatsheet-pandas/seaborn-correlation-heatmap/)
+```
+![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 3](https://blog.datath.com/wp-content/uploads/2017/11/seaborn-correlation-heatmap.jpg)
 
 Correlation Plot สวย ๆ ด้วย Seaborn
 
@@ -238,41 +238,43 @@ Correlation Plot สวย ๆ ด้วย Seaborn
 Cross Tabulation มีประโยชน์มากเวลาเราอยากรู้ว่ามี Data ที่ตรงกับกรุ๊ป A ของคอลัมน์ 1 และกรุ๊ป B ของคอลัมน์ 2 เท่าไหร่ เช่น มีนักเรียนผู้ชาย (คอลัมน์ gender) กี่คนในมัธยมปลาย (คอลัมน์ education) แบบนี้เป็นต้น
 
 หรือถ้าใครใช้ PivotTable ใน Excel มาก่อน ก็เหมือนกันเลยครับ
-
+```py
 aggregate = pandas.crosstab(dataframe.C1, dataframe.C2)
-
+```
 ### วิธีหาค่า Unique ในแต่ละคอลัมน์
 
 คำสั่งนี้มีประโยชน์มาก เอาไว้ใช้เช็คว่าแต่ละคอลัมน์มีค่าแปลก ๆ มั้ย
 
 ตัวอย่างการใช้งานก็คือ เราอยากรู้ว่า มีบ้านไหนที่มีจำนวนห้องนอนแปลก ๆ มั้ย (เช่น 50 ห้องนอน หรือ -5 ห้องนอน) ก็หาค่า unique จากคอลัมน์ “bedrooms”
-
+```py
 dataframe['C1'].unique()
-
+```
 ### วิธีเช็คว่ามีแถวไหนข้อมูลซ้ำมั้ย (Duplicated)
 
 อันนี้มีประโยชน์มาก เอาไว้ใช้เช็คว่ามีข้อมูลแปลก ๆ มั้ย เช่น ทุกคอลัมน์ซ้ำกันหมด (อันนี้มีโอกาสว่าเป็นข้อมูลซ้ำ อาจจะต้องลบออก) หรือซ้ำกันบางคอลัมน์ (อันนี้ต้องเช็คอีกทีว่าคืออะไร)
-
+```py
 dataframe.duplicated() # หาอันที่เหมือนกันทุกคอลัมน์
 dataframe.duplicated('C1') # หาอันที่ซ้ำกันเฉพาะคอลัมน์ C1
 dataframe.duplicated(['C1', 'C2']) # หาอันที่ซ้ำกันเฉพาะคอลัมน์ C1 และ C2
-
+```
 ปกติแล้วถ้ามีไอเทมซ้ำ คำสั่งนี้จะไม่แสดงไอเทมแรกในกลุ่มที่ซ้ำ (เช่น ถ้า C1=5 มี 2 แถว มันจะแสดงเฉพาะแถวที่ 2) เราสามารถใส่ Argument  **keep=False**  เข้าไปเพื่อบังคับให้มันแสดงทุกแถวได้
 
 นอกจากนั้นเรายังสามารถนับจำนวนแถวที่ Duplicate และลบทิ้งได้ด้วย
 
 ### วิธีการนับจำนวน Duplicate
-
+```py
 len(df[ df.duplicated(['A', 'B', 'C'], keep = False) ])
-
+```
 ### วิธีการลบ Duplicate
 
 เอาไว้ใช้ตอนเราเจอว่าทุกคอลัมน์ซ้ำกันหมดเลย ซึ่งเป็นเคสที่บอกว่าข้อมูลน่าจะซ้ำ ลบออกได้ (ขึ้นอยู่กับข้อมูลด้วยนะครับ บางข้อมูลอาจจะไม่ได้แปลว่าซ้ำแล้วลบได้):
 
 # Remove the duplicates
+```py
 df.drop_duplicates(['A', 'B', 'C'], inplace=True)
-
+```
 # Reset dataframe index after drop_duplicates.
+
 df.reset_index(drop=True, inplace=True)
 
 len(df)
@@ -377,5 +379,5 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzEyNzkyOV19
+eyJoaXN0b3J5IjpbLTYwMDQ5ODE4NF19
 -->
