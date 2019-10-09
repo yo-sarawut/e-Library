@@ -14,6 +14,8 @@
 
 ## Tool Create e-Book + Website
 
+
+- [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
 - [Jekyll themes — a curated directory](https://jekyllthemes.io/theme/documentation)
 
 ![enter image description here](https://d1qmdf3vop2l07.cloudfront.net/enigmatic-tuba.cloudvent.net/compressed/_min_/8447064ee8ae766f6aae6063cb3b6d9b.webp)
@@ -68,10 +70,10 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMT
-I2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0
-MSwtNjg4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MT
-Y4ODM5MDIsOTk0NzA3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0
-LDE2MTkwMTk4NTEsNzE3NzIzODcxLC04MTAwMDMwNjAsMTc4MT
-I4MDY5MV19
+eyJoaXN0b3J5IjpbLTUyMDQ1OTQwMiwtNTExMDQ0MTIxLC0yMz
+AyOTA3NzcsLTExMjY0NjM0NDksMTAyNzU2MjkwMiwyMTQzNDM2
+OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0MSwxMD
+c0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2NjM0OTYx
+NTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MTc3MjM4NzEsLTgxMD
+AwMzA2MCwxNzgxMjgwNjkxXX0=
 -->
