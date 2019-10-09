@@ -144,78 +144,78 @@ df['new2'] = 5 # apply the same value
 ### การสลับ Row <-> Column (Transpose)
 
 ถ้าเราต้องการ Transpose (อารมณ์เหมือน Vector) เราสามารถใช้คำสั่งนี้ได้เลย
-
+```py
 dataframe.T
-
+```
 ### การต่อ DataFrame
 
 การต่อ Data Frame คือการเอา Data Set 2 ชุดมาต่อกันในแถวตั้งหรือแนวนอน สำหรับการต่อแบบปะติดไปเลย
 
 มี 2 คำสั่งที่เหมือนกัน คือ concat กับ append แต่ให้ใช้ concat ไปเลย เพราะ append เป็นคำสั่งที่ไม่ Memory Efficient
-
+```py
 pd.concat([df1,df2], axis=1) # รวมกัน 2 คอลัมน์ (axis = 0 คือแถว, axis = 1 คือคอลัมน์)
 pd.concat([df1,df2,df3)] # รวมมากกว่า 2 คอลัมน์ก็ได้
 pd.concat(…, ignore_index=True) # รวมเสร็จแล้ว reset index ให้ด้วย ควรใช้ ไม่งั้นจะเจอ row ID ซ้ำกันตอนรวมร่าง
 pd.concat(…, join='inner') # รวมร่างเฉพาะคอลัมน์ที่ df1 กับ df2 มีทั้งคู่
 pd.concat(…, keys=['source1', 'source2']) # เพิ่มคอลัมน์เข้าไปด้วยเพื่อระบุว่า Row แต่ละอันมาจาก Data Frame อันไหน
 pd.concat(…, join_axes=[df2.index]) # เลือกรวมร่างเฉพาะ row index ที่เรากำหนดได้
-
+```
 ### การต่อ DataFrame แบบ Join
 
 ถ้าต้องการต่อ DataFrame แบบ Advance หน่อย เราก็สามารถ Join DataFrame ได้เหมือน Join Table ใครเขียน SQL มาก่อนน่าจะถนัดเลย
-
+```py
 pd.merge(df1, df2, left_on="col1", right_on="col2", how="inner")
-
+```
 เราสามารถเปลี่ยนตรง how=”inner” เป็น “outer”, “left”, “right” เพื่อเปลี่ยนเป็น Outer Join, Left Join, Right Join ได้อีกด้วย
 
 ### การหาค่า Mean, Sum, Max (Aggregate) แบบทั้ง DataFrame
 
 Pandas สามารถสั่ง Aggregate เพื่อหาค่า Mean, Sum, และ Max ได้เลย เหมาะมากเวลาเราต้องการรวบข้อมูลก่อนเอาไป Visualize หรือต้องการทำ Feature Engineering ก็ได้
-
+```py
 newdf = df.agg(['sum', 'max','mean'])
-
+```
 ### การ Aggregate แบบตามกลุ่มที่ต้องการ
 
 บางทีเราอยาก Aggregate ข้อมูลตามการจัดกลุ่มในคอลัมน์อื่น เช่น เราอยากได้รายจ่ายทั้งหมดของแต่ละคน (ต้อง aggregate sum ของคอลัมน์รายจ่าย โดยแบ่งกลุ่มตามคอลัมน์ User ID) ใช้แบบนี้
-
+```py
 aggregate = dataframe.groupby('C1').sum()
-
+```
 ### การรัน Function เดียวกันทุกแถว หรือทุกคอลัมน์
 
 เวลาเราอยากรันคำสั่งอะไรสักอย่างสำหรับทุกแถว หรือทุกคอลัมน์ เราสามารถเขียนได้แบบนี้
-
+```py
 # sum for columns
 sum_columns = dataframe[['C1','C2']].apply(sum,axis=0)
 # sum for rows
 sum_rows = dataframe[['C1','C2']].apply(sum,axis=1)
-
+```
 เหมือนกับฟังก์ชั่น apply() ใน R นั่นเอง
 
 ### รันคำสั่งที่เขียนเองกับทุกแถวใน 1 คอลัมน์
 
 ถ้าต้องการรันคำสั่ง (Function) ที่เขียนเอง สำหรับทุกแถวในคอลัมน์อันใดอันหนึ่ง ใช้แบบนี้ได้
-
+```py
 dataframe['C1'] = dataframe['C1'].map(lambda x: x-100)
-
+```
 ### รันคำสั่งที่เขียนเองกับทุกค่า
 
 ถ้าต้องการรันคำสั่งที่เขียนเองกับทุกค่าใน DataFrame ใช้โค้ดนี้
-
+```py
 function_result = dataframe.applymap(lambda x: x*10)
-
+```
 หรือใช้ transform ก็ได้
-
+```py
 new_dataframe = dataframe.transform(lambda x: x*100)
-
+```
 ### คำนวณ Correlation & Covariance
 
 เวลาเราอยากรู้ว่าค่าต่าง ๆ ใน Data Set เรา Correlate กันมั้ย
-
+```py
 dataframe.corr() # Correlation
 dataframe.cov() # Covariance
-
+```
 แต่ค่าที่ออกมาเป็นตัวเลขอาจจะดูยากนิดนึง เราสามารถพลอตสวย ๆ ด้วย Seaborn ได้ครับ สามารถใช้โค้ดด้านล่างนี้ได้เลย
-
+```py
 import seaborn as sns
 
 corr = modeldf.corr()
@@ -377,5 +377,5 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDA0ODEzNl19
+eyJoaXN0b3J5IjpbMTYzMzEyNzkyOV19
 -->
