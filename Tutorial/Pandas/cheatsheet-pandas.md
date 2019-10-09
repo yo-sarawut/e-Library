@@ -52,7 +52,7 @@ csvdf.sample()
 ### วิธีเช็คข้อมูลหาความผิดปกติใน DataFrame เบื้องต้น
 
 หลังจากโหลดข้อมูลมาแล้ว เราอยากรู้ว่าข้อมูลมีกี่แถว, Missing value เท่าไหร่, แต่ละคอลัมน์เป็น Data Type อะไรบ้าง ก็รันคำสั่งนี้ได้เลย มีประโยชน์มากครับ
-```
+```py
 df.info()
 ```
 ![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 2](https://blog.datath.com/wp-content/uploads/2017/11/sample-info-pandas.jpg)
@@ -92,7 +92,7 @@ dataframe = pandas.DataFrame({
     'C4': 1})
 ```
 แต่ถ้าเราต้องการแค่เป็นแบบตัวเลขทั่วไป ใช้ Numpy แบบนี้ได้เลย
-```
+```py
 array = numpy.array([(1,2,3), (4,5,6),(7,8,9)])
 dataframe = pandas.DataFrame(array,columns=['C1','C2','C3'])
 ```
@@ -379,5 +379,5 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2OTkzMjY0XX0=
+eyJoaXN0b3J5IjpbMjAxNzgyNTU2Nl19
 -->
