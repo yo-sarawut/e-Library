@@ -274,34 +274,34 @@ len(df[ df.duplicated(['A', 'B', 'C'], keep = False) ])
 df.drop_duplicates(['A', 'B', 'C'], inplace=True)
 ```
 # Reset dataframe index after drop_duplicates.
-
+```py
 df.reset_index(drop=True, inplace=True)
 
 len(df)
-
+```
 สำหรับโค้ดข้างบน จะเห็นว่าเราต้อง reset index หลังลบ duplicate ด้วยนะครับ
 
 ### วิธีการลบแถว และลบคอลัมน์
 
 ลบคอลัมน์สามารถทำได้แบบนี้
-
+```py
 dataframe = dataframe.drop('C1', axis=1)
 df.drop(['C1'], axis=1, inplace=True) # แบบนี้ก็ได้
 df.drop(['C1', 'C2', 'C3'], 1, inplace=True) # ลบทีละหลายคอลัมน์ก็ได้
-
+```
 ส่วนการลบแถวจะลำบากหน่อย เพราะต้องใส่ Row Index (เลขที่อยู่ซ้ายสุดเวลาเราปรินท์ DataFrame)
-
+```py
 dataframe = dataframe.drop(5, axis=0)
 dataframe.reset_index(drop=True) # Reset index
-
+```
 ลบแถวแล้วอย่าลืมเช็คด้วยว่าที่ลบไปถูกต้องมั้ย และหลังจากลบแถวต้อง Reset Index ด้วย
 
 ### วิธีการลบแถวที่มี Missing Value
 
 **ข้อควรระวัง:**  การที่อยู่ ๆ เราลบแถวที่มี Missing Value ทิ้งไปเลยอาจจะไม่ใช่วิธีที่ดีที่สุดในการทำ Data Analysis เสมอไปนะครับ บางเคสการ Impute (คำนวณหาค่าไปใส่) จะดีกว่าครับ
-
+```py
 dataframe2 = dataframe.dropna(axis=0)
-
+```
 ### วิธีแทนค่า Missing Value ด้วยค่าเฉลี่ย (Mean Imputation)
 
 วิธีหนึ่งในการแทนค่าที่หายไป คือการทำสิ่งที่เรียกว่า Mean Imputation หรือหาค่าเฉลี่ยของคอลัมน์นั้น แล้วเอามาแทนค่าที่หายไปนั่นเองครับ
@@ -309,45 +309,45 @@ dataframe2 = dataframe.dropna(axis=0)
 ข้อดีของการทำ Mean Imputation คือ สามารถทำได้ง่าย แต่ก็ต้องระวังเรื่องข้อเสีย เช่น ทำแบบนี้จะเป็นการไม่สนใจความสัมพันธ์ระหว่างตัวแปร ทำให้เกิด Bias สูง ควรใช้เฉพาะเวลา Missing Value ไม่เยอะเท่านั้นครับ
 
 สามารถรันโค้ดด้านล่างเพื่อทำ Mean Imputation ได้ง่าย ๆ เลย
-
+```py
 import numpy as np
 meanAge = np.mean(df.Age) # Get mean value
 df.Age = df.Age.fillna(meanAge) # Fill missing values with mean
-
+```
 ### การลูปข้อมูลแต่ละคอลัมน์ และแต่ละแถว
 
 การลูปมีประโยชน์มากถ้าเราต้องการเขียนฟังก์ชั่นแปลก ๆ ใช้เองที่ Pandas ไม่รองรับ (หรืออาจจะรองรับแต่เราหาไม่เจอ เขียนเองง่ายกว่า) สามารถลูปได้ทั้งแต่ละคอลัมน์ และแต่ละแถว
-
+```py
 for col_idx,data in dataframe.iteritems():
     print ("column:",col_idx)
     print ("column data:")
     print (data,"\n")
-
+```
 การลูปข้อมูลแต่ละแถว
-
+```py
 for col_idx,data in dataframe.iterrows():
     print ("row:",col_idx)
     print ("row data:")
     print (data,"\n")
-
+```
 ### วิธีเปลี่ยน DataFrame จากแบบ Wide เป็น Long (Melt)
 
 การ Melt Data มีประโยชน์มากเวลาเราต้องการเอาข้อมูลไปพลอต Data Visualization หรือเราต้องการ Aggregate ครับ
-
+```py
 dataframe2 = dataframe.melt()
-
+```
 ### วิธีการเปลี่ยนชื่อคอลัมน์ (Rename)
 
 บางทีเราต้องการเปลี่ยนชื่อเพื่อให้สั้นลง ให้พิมพ์สะดวกขึ้น สามารถทำได้ดังนี้
-
+```py
 dataframe.rename(columns={'old':'new'},inplace=True)
-
+```
 ### วิธีการใส่คำนำหน้าคอลัมน์ (Prefix)
 
 อันนี้มีประโยชน์มากตอนเรามีข้อมูลหลาย ๆ ชุด และต้องการ Merge โดยอยากให้ชื่อคอลัมน์ไม่ซ้ำกัน
-
+```py
 thisdata = thisdata.add_prefix('data_')
-
+```
 ### วิธีการแทนค่าใน DataFrame
 
 เหมาะมากเวลาต้องการแก้ Typo Error เช่น เราอยากได้ค่า Bangkok แต่เรารู้ว่ามีคนเขียนเป็น BKK อะไรแบบนี้ (รันคำสั่ง .unique เพื่อดูก่อน)
@@ -379,5 +379,5 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDQ5ODE4NF19
+eyJoaXN0b3J5IjpbLTE5MDA2NjIyMTRdfQ==
 -->
