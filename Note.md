@@ -23,6 +23,9 @@
 - [Popular Python 3 Packages](https://code.activestate.com/pypm/tag:python3/?page=1)
 - [Fast Data Store for Pandas Time-Series Data using PyStore](https://aroussi.com/post/fast-datastore-for-pandas-time-series-data)
 - [Python.HotExamplesFunction](https://python.hotexamples.com/)
+- [The Future of QTPyLib](https://aroussi.com/post/the-future-of-qtpylib) , [GitHub](https://github.com/ranaroussi/qtpylib)
+
+![enter image description here](https://aroussi.com//assets/img/qtpylib-ui.png)
 
 # Article
 
@@ -108,11 +111,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OT
-k5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1
-NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOS
-wxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NTMsLTcz
-MDc1OTM4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3MjE0Mj
-U1MzksLTExODgwNDg5MTIsMTk0NTQ2NDgyNiwtNjc5MjYxMDg5
-LC0xMjM0MTAwNjQxXX0=
+eyJoaXN0b3J5IjpbMTc4OTgzMjU3NSwtMTcwMTkzNDY0OSwtMz
+A1ODY5Njg5LDc5OTkyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcy
+NTEsLTIwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MC
+wxODk5ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2
+NjU5Mjc1MywtNzMwNzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5OD
+M3NywtMTcyMTQyNTUzOSwtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2
+LC02NzkyNjEwODldfQ==
 -->
