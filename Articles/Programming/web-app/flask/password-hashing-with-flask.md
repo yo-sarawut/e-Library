@@ -29,16 +29,19 @@ What we need instead, is a way to generate unique hashes, yet find a way to vali
 Before arriving there, however, people came up with an easier solution: Why not place a secret pattern of text into every entered password, that only we the server knew. This is what is known as "salting."
 
 Salting, while still used, initially started out pretty simple. Here's an example of how salting works, building off our last example:
-```
+```py
 import hashlib
 
-user_entered_password =  'pa$$w0rd' salt =  "5gz" db_password = user_entered_password+salt
-h = hashlib.md5(db_password.encode())  print(h.hexdigest())  
-
+user_entered_password =  'pa$$w0rd' 
+salt =  "5gz" 
+db_password = user_entered_password+salt
+h = hashlib.md5(db_password.encode())  
+print(h.hexdigest())  
+```
 Here, the only major difference is we just have a salt that we append to the very end. Then, any time the user enters their password, we append the salt, hash it, and then compare those hashes.
-
-`de6e389819bdaa9e0ca60bb52cabccae`
-
+```py
+de6e389819bdaa9e0ca60bb52cabccae
+```
 Now, the salt can be added anywhere. Maybe it's input right in the middle, maybe at the beginning, maybe at the end. May you have a salt at the beginning, another for the middle of the password, and one more at the end even.
 
 This is pretty good, but there is inherent risk, still, and here's why:
@@ -50,19 +53,19 @@ One of the adages for encryption is that you cannot depend on secrecy for securi
 What we want instead is a way to generate unique hashes, where their source can be validated easily, but brute forcing will require a brute forcing per password, not a brute forcing for the entire database. Let's bring in the big guns with passlib.
 
 If you do not have passlib already, which you likely do not since it is not part of the standard library, do a quick:
-
-`pip install passlib`
-
+```py
+pip install passlib
+```
 or...
-
+```
 `sudo apt-get install python-passlib`
-
+```
 Once you have passlib, let's play!
-
+```py
 from passlib.hash import sha256_crypt
 
 password = sha256_crypt.encrypt("password") password2 = sha256_crypt.encrypt("password")  print(password)  print(password2)  print(sha256_crypt.verify("password", password))  
-
+```
 Here we're bringing in passlib's hashing ability, and using SHA256 as the algorithm. SHA256 is inherently better than md5, but you're free to replace "md5" with "sha256" in our above examples to see the hash that is output still remains the same, just a bit longer.
 
 Next, we show that we use the sha256_crypt from passlib to hash "password" twice. Once to the variable of password and once more to password2.
@@ -118,5 +121,5 @@ It's like most crime. Most crimes are crimes of opportunity, your job is to not 
 
 > [Source: ](https://pythonprogramming.net/password-hashing-flask-tutorial/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDMwNzk2Nl19
+eyJoaXN0b3J5IjpbMTc0NTY4NjI5NF19
 -->
