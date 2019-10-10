@@ -1,6 +1,7 @@
 
 ## เนื้อหาน่าสนใจ
 
+
 - [Python String format()](https://www.programiz.com/python-programming/methods/string/format) , [PyFormat](https://pyformat.info/)
 - 
 - [Accepting Payments with Stripe, Vue.js, and Flask](https://testdriven.io/blog/accepting-payments-with-stripe-vuejs-and-flask/)
@@ -70,10 +71,10 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDQ1OTQwMiwtNTExMDQ0MTIxLC0yMz
-AyOTA3NzcsLTExMjY0NjM0NDksMTAyNzU2MjkwMiwyMTQzNDM2
-OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0MSwxMD
-c0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2NjM0OTYx
-NTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MTc3MjM4NzEsLTgxMD
-AwMzA2MCwxNzgxMjgwNjkxXX0=
+eyJoaXN0b3J5IjpbLTEzNDAxODU3MjAsLTUyMDQ1OTQwMiwtNT
+ExMDQ0MTIxLC0yMzAyOTA3NzcsLTExMjY0NjM0NDksMTAyNzU2
+MjkwMiwyMTQzNDM2OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMT
+g0ODg5NTg0MSwxMDc0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDcz
+ODIsLTE2NjM0OTYxNTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MT
+c3MjM4NzEsLTgxMDAwMzA2MCwxNzgxMjgwNjkxXX0=
 -->
