@@ -12,13 +12,20 @@ So then how might we obscure passwords? Obscuring original text is easy enough, 
 One of the more primitive measures taken was simple password hashing. This was where a hash function was applied to what the user input, and that hash was what was stored as a password.
 
 Here's a simple hashing script to illustrate this, which you can run:
+```py
+import hashlib
+password =  'pa$$w0rd' h = hashlib.md5(password.encode())  print(h.hexdigest())
+```
+Import hashlib, set an example password, create the hash object, print the hash:
+```py
+`6c9b8b27dea1ddb845f96aa2567c6754`
 
 
-
+```
 
 
 
 > [Source: ](https://pythonprogramming.net/password-hashing-flask-tutorial/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMDE5NDQ3XX0=
+eyJoaXN0b3J5IjpbLTU2NTcyOTQzNV19
 -->
