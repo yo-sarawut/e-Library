@@ -24,6 +24,7 @@ Note for Articles
 - [How to Scrape the Web using Python with ScraPy Spiders](https://towardsdatascience.com/how-to-scrape-the-web-using-python-with-scrapy-spiders-e2328ac4526)
 - [Learn Web Scraping using Python in under 5 minutes](https://medium.com/@kaustumbhjaiswal7/learn-web-scraping-using-python-in-under-5-minutes-36a7d4d6e1e7)
 - [Vuex made simple — getting started!](https://itnext.io/vuex-made-simple-getting-started-6bf229d432cf)
+- [Using Python’s Pathlib Module]()
 
 ## For Kids
 - [CIVILIZATION 1439 AD: ตำนาน THOR](https://www.longtunman.com/3067)
@@ -37,6 +38,6 @@ Note for Articles
 นอกจากความสามารถที่จะเชื่อแล้ว มนุษย์ยังมีความสามารถพิเศษที่ไม่มีใครเหมือน นั่นคือ การใช้ความเชื่อและ “นิยาย” เหล่านี้มาทำให้สมาชิกเป็นหนึ่งเดียวกัน ตลอดจนสามารถจัดการกับคนจำนวนมากได้โดยได้รับความร่วมมือจากสมาชิกอีกด้วย ​มนุษย์เป็นสัตว์ชนิดเดียวที่มีจินตนาการ สามารถแต่งเรื่องขึ้นในสมอง และเชื่อเรื่องแต่งเหล่านั้นได้ เช่น หากทำชั่วจะตายไปแล้วตกนรก ไม่ว่านรกมีจริงหรือไม่ก็ตามแต่ ตราบที่มีคนเชื่อว่าจริง ก็สามารถนำมาใช้กำกับพฤติกรรมมนุษย์ได้ ในขณะที่ลิงชิมแปนซี ญาติที่ใกล้ชิดเราที่สุด ไม่สามารถคิดหรือจินตนาการอย่างนั้นได้ ​ความสามารถในการจัดการของมนุษย์ อันมีพื้นฐานมาจากการเชื่อ “นิยาย” เหล่านี้ร่วมกัน จนมนุษย์ยอมรับพระเจ้า ผีสางเทวดา กฎหมาย กฎกติกา ผู้นำ ฯลฯ ทำให้เราสามารถปราบคู่แข่งคือสมาชิกสกุล Homo ทั้งหลาย ตลอดจนสัตว์ร้าย และเอาชนะภัยพิบัติธรรมชาติ จนทำให้เราอยู่รอดมาได้อย่างดียิ่ง
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2MDE1NjE2LDkyMzE3OTA4MSwxODY4Nj
-YxMDc0LC0yMDk5MjkyMzM2XX0=
+eyJoaXN0b3J5IjpbMjEwNjg1MTc1Miw4MDYwMTU2MTYsOTIzMT
+c5MDgxLDE4Njg2NjEwNzQsLTIwOTkyOTIzMzZdfQ==
 -->
