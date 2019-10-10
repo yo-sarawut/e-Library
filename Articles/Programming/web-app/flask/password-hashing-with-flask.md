@@ -14,7 +14,9 @@ One of the more primitive measures taken was simple password hashing. This was w
 Here's a simple hashing script to illustrate this, which you can run:
 ```py
 import hashlib
-password =  'pa$$w0rd' h = hashlib.md5(password.encode())  print(h.hexdigest())
+password =  'pa$$w0rd' 
+h = hashlib.md5(password.encode())  
+print(h.hexdigest())
 ```
 Import hashlib, set an example password, create the hash object, print the hash:
 ```py
@@ -64,7 +66,11 @@ Once you have passlib, let's play!
 ```py
 from passlib.hash import sha256_crypt
 
-password = sha256_crypt.encrypt("password") password2 = sha256_crypt.encrypt("password")  print(password)  print(password2)  print(sha256_crypt.verify("password", password))  
+password = sha256_crypt.encrypt("password") 
+password2 = sha256_crypt.encrypt("password")  
+print(password)  
+print(password2)  
+print(sha256_crypt.verify("password", password))  
 ```
 Here we're bringing in passlib's hashing ability, and using SHA256 as the algorithm. SHA256 is inherently better than md5, but you're free to replace "md5" with "sha256" in our above examples to see the hash that is output still remains the same, just a bit longer.
 
@@ -121,5 +127,5 @@ It's like most crime. Most crimes are crimes of opportunity, your job is to not 
 
 > [Source: ](https://pythonprogramming.net/password-hashing-flask-tutorial/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTY4NjI5NF19
+eyJoaXN0b3J5IjpbLTcxMDU1MzQ3OF19
 -->
