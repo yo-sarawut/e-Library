@@ -23,7 +23,7 @@ PANTONE 19-4055
 ### โปรแกรมย่อย
 - Explore Indexes and the Markets
 ---
-- [Icon ธงชาติ](https://flag-icon-css.lip.is) , [GitHub](https://github.com/lipis/flag-icon-css)  , 
+- [Icon ธงชาติ](https://flag-icon-css.lip.is) , [GitHub](https://github.com/lipis/flag-icon-css)  , [ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/) of a country
 - [ภาพธงชาติ (สวยงาม)](https://www.interactivebrokers.com/en/index.php?f=14193)
 - [Plotly](https://dash-gallery.plotly.host/dash-web-trader/)
 - [Dash](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
@@ -299,6 +299,6 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzNTE4OTcwLDE5ODU3MTY0NTAsLTk0MD
-g0MTM0MiwtMjExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05ND
+A4NDEzNDIsLTIxMTYxMzMxMjFdfQ==
 -->
