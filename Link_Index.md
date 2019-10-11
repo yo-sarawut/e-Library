@@ -169,6 +169,7 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 - [MkDocs-Themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
 - [HTML::Pipeline สร้าง website บน GitHub](https://github.com/jch/html-pipeline)
 - [Quick Reference: Markdown syntax](https://kramdown.gettalong.org/quickref.html)
+- [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
 - [Material Design](https://material.io/design/foundation-overview/)
 
 
@@ -214,10 +215,10 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA1OTkzNDUsLTcxMDQ5NjA3OCwyMT
-Q2MDkwOTA5LC05MjA0NDc3MjAsMTk1Nzg5NzE3LC0xNzcyNTE4
-NDUwLDE2NzI4NzMzMzYsLTE5Mjc1NzA3NjEsLTQ0ODMwMzAzMC
-wtNzc1NDU5OTQ4LC0xNTM5NTU1NzUxLDUxMzgzMDYyMCwxMjYw
-OTY1MTY2LC05NTk2NTUzMjMsLTE5NDU1NDQzNDQsNDc0NDI2Mz
-YyXX0=
+eyJoaXN0b3J5IjpbLTE5MTAxNjUyMywtMTk2MDU5OTM0NSwtNz
+EwNDk2MDc4LDIxNDYwOTA5MDksLTkyMDQ0NzcyMCwxOTU3ODk3
+MTcsLTE3NzI1MTg0NTAsMTY3Mjg3MzMzNiwtMTkyNzU3MDc2MS
+wtNDQ4MzAzMDMwLC03NzU0NTk5NDgsLTE1Mzk1NTU3NTEsNTEz
+ODMwNjIwLDEyNjA5NjUxNjYsLTk1OTY1NTMyMywtMTk0NTU0ND
+M0NCw0NzQ0MjYzNjJdfQ==
 -->
