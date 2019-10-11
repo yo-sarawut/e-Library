@@ -62,7 +62,7 @@ Sapiens ตอนที่ 9 – มนตราของเงินตรา
 
 * ของ 1000 ชิ้นเท่ากับ 499500 อัตราแลกเปลี่ยน – ใครที่เคยเรียนเลขเรื่อง nCr จะเข้าใจว่ามันคือ 1000c2 หรือ 1000!/(998!2!)
 
-[https://anontawong.com](https://anontawong.com/2017/02/12/sapiens-9/)
+ที่มาบทความ :[https://anontawong.com](https://anontawong.com/2017/02/12/sapiens-9/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTY3NzExOV19
+eyJoaXN0b3J5IjpbLTQ3MjU0NTE2M119
 -->
