@@ -291,6 +291,49 @@ See online documentation :  [https://dreamrs.github.io/esquisse/index.html](http
 </body>
 </html> 
 ```
+
+## Note for Getdata
+```
+ราคาปัจจุบัน : 'regularMarketPrice'
+เปลี่ยนแปลง 1 day : 'regularMarketChange'
+% change 1 day : 'regularMarketChangePercent'
+Open : 'regularMarketOpen'
+Prev Close : 'regularMarketPreviousClose'
+Volumn : 'regularMarketVolume'
+DAY RANGE :  'regularMarketDayRange'
+YTD RETURN
+1 Year RETURN
+-- 1 day--
+hight : 'regularMarketDayHigh'
+Low : 'regularMarketDayLow'
+
+
+++52 weeks++
+hight : 'fiftyTwoWeekHigh'
+Low : 'fiftyTwoWeekLow'
+52 Weeks Range : 'fiftyTwoWeekRange'
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTM5MDc3NTgxMiwxMzc4MzgzMzI2LC0xNT
 YxMjI0ODg3LDE0NDg2ODc2MDcsLTE3OTY4NjAxNzcsLTg3Mjk3
@@ -299,6 +342,6 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05ND
-A4NDEzNDIsLTIxMTYxMzMxMjFdfQ==
+eyJoaXN0b3J5IjpbLTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5OD
+U3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
 -->
