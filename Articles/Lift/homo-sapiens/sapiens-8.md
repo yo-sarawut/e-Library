@@ -1,7 +1,6 @@
 
 Sapiens ตอนที่ 8 – โลกที่ถูกหลอมรวม
 ===
-
 ![enter image description here](https://anontawong.files.wordpress.com/2017/02/20170205_oneworld.png?w=676)
 
 **โลกใบเล็ก**
@@ -61,5 +60,5 @@ Oceanic World – โลกของคนที่อยู่ในเกา�
 
 ที่มาบทความ :[https://anontawong.com](https://anontawong.com/2017/02/05/sapiens-8/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2Mzg2NTVdfQ==
+eyJoaXN0b3J5IjpbLTE4MDY4NTA1MTVdfQ==
 -->
