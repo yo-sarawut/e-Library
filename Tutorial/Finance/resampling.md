@@ -185,7 +185,7 @@ df.resample(rule='A')
 DatetimeIndexResampler [freq=<YearEnd: month=12>, axis=0, closed=right, label=right, convention=start, base=0]
 ```
 ## To find the yearly mean
-```
+```py
 df.resample(rule='A').mean()
 ```
 ```py
@@ -292,5 +292,5 @@ Date
 2016-12-31  3.033227  2.884394  3.088522  2.955446  4.322518e+06   3.303628
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjE1MTczOF19
+eyJoaXN0b3J5IjpbLTE3ODA3MzcxODddfQ==
 -->
