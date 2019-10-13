@@ -273,52 +273,17 @@ The operators  `<`,  `^`,  `>`  and  `=`  are used for alignment when assigned a
 
 Number formatting with alignment
 
-Type
 
-Meaning
-
-<
-
-Left aligned to the remaining space
-
-^
-
-Center aligned to the remaining space
-
->
-
-Right aligned to the remaining space
-
-=
-
-Forces the signed (+) (-) to the leftmost position
+|Type|	Meaning|
+|--|--|
+|<	|Left aligned to the remaining space|
+|^	|Center aligned to the remaining space|
+|>	|Right aligned to the remaining space|
+|=	|Forces the signed (+) (-) to the leftmost position|
 
 ### Example 5: Number formatting with left, right and center alignment
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
 
 # integer numbers with right alignment
 
@@ -808,5 +773,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDc1MzM0Nl19
+eyJoaXN0b3J5IjpbLTg0NDA4ODU4N119
 -->
