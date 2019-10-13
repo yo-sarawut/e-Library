@@ -2,6 +2,7 @@ Note for Pandas Tutorials
 ==
 
 ## การตั้งหัวข้อเพื่อศึกษา
+ที่มา : [https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955](https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955)
 
 -   [Working with missing data](http://pandas.pydata.org/pandas-docs/stable/missing_data.html)
 -   [Group By: split-apply-combine](http://pandas.pydata.org/pandas-docs/stable/groupby.html)
@@ -18,5 +19,5 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTQxNjEzN119
+eyJoaXN0b3J5IjpbMTcwMzEyMTI4MSwtNDQxNDE2MTM3XX0=
 -->
