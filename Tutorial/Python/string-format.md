@@ -214,18 +214,15 @@ print("{:05d}".format(12))
 
 print("{:08.3f}".format(12.2346))
 ```
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run this program, the output will be:
-
+```
  _1__2_
 _1__2__3__4_
   _1__2__.__2__3__5_
 _0__0__0__1__2_
 _0__0__1__2__.__2__3__5_
-
+```
 Here,
 
 -   in the first statement,  `{:5d}`  takes an integer argument and assigns a minimum width of 5. Since, no alignment is specified, it is aligned to the right.
@@ -238,24 +235,15 @@ Here,
 
 ### Example 4: Number formatting for signed numbers
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
+```py
+# show the + sign
+print("{:+f} {:+f}".format(12.23, -12.23))
 
-1
+# show the - sign only
+print("{:-f} {:-f}".format(12.23, -12.23))
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
+# show space for + sign
+print("{: f} {: f}".format(12.23, -12.23))
 
 # show the + sign
 
@@ -268,17 +256,15 @@ print("{:-f} {:-f}".format(12.23, -12.23))
 # show space for + sign
 
 print("{: f} {: f}".format(12.23, -12.23))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run this program, the output will be:
-
+```py
 +12.230000 -12.230000
 12.230000 -12.230000
   _1__2__.__2__3__0__0__0__0_  _-__1__2__.__2__3__0__0__0__0_
-
+```
 ----------
 
 ### Number formatting with alignment
@@ -822,5 +808,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4NjkzOTFdfQ==
+eyJoaXN0b3J5IjpbLTc5MDc1MzM0Nl19
 -->
