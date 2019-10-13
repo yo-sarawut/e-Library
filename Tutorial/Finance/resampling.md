@@ -6,13 +6,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
-```
+```py
 df = pd.read_csv('walmart_stock.csv')
 ```
-```
+```py
 df.head()
 ```
-```
+```py
          Date       Open       High        Low      Close    Volume  Adj Close
 0  2012-01-03  59.970001  61.060001  59.869999  60.330002  12668800  52.619235
 1  2012-01-04  60.209999  60.349998  59.470001  59.709999   9593300  52.078475
@@ -20,10 +20,10 @@ df.head()
 3  2012-01-06  59.419998  59.450001  58.869999  59.000000   8069400  51.459220
 4  2012-01-09  59.029999  59.549999  58.919998  59.180000   6679300  51.616215
 ```
-```
+```py
 df.info()
 ```
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 1258 entries, 0 to 1257
 Data columns (total 7 columns):
@@ -38,13 +38,13 @@ dtypes: float64(5), int64(1), object(1)
 memory usage: 63.9+ KB
 ```
 ## Create a date index from the date column
-```
+```py
 df['Date'] = df['Date'].apply(pd.to_datetime)
 ```
-```
+```py
 df.info()
 ```
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 1258 entries, 0 to 1257
 Data columns (total 7 columns):
@@ -58,10 +58,10 @@ Adj Close    1258 non-null float64
 dtypes: datetime64[ns](1), float64(5), int64(1)
 memory usage: 68.8 KB
 ```
-```
+```py
 df.head()
 ```
-```
+```py
          Date       Open       High        Low      Close    Volume  Adj Close
 0  2012-01-03  59.970001  61.060001  59.869999  60.330002  12668800  52.619235
 1  2012-01-04  60.209999  60.349998  59.470001  59.709999   9593300  52.078475
@@ -69,7 +69,7 @@ df.head()
 3  2012-01-06  59.419998  59.450001  58.869999  59.000000   8069400  51.459220
 4  2012-01-09  59.029999  59.549999  58.919998  59.180000   6679300  51.616215
 ```
-```
+```py
 df.set_index('Date',inplace=True)
 df.head()
 ```
@@ -178,10 +178,10 @@ Date
 </tbody>
 </table>
 
-```
+```py
 df.resample(rule='A')
 ```
-```
+```py
 DatetimeIndexResampler [freq=<YearEnd: month=12>, axis=0, closed=right, label=right, convention=start, base=0]
 ```
 ## To find the yearly mean
@@ -282,6 +282,7 @@ Date
 ```py
 df.resample(rule='A').std().head()
 ```
+```py
                Open      High       Low     Close        Volume  Adj Close
 Date                                                                       
 2012-12-31  6.089182  6.108822  6.017926  6.043120  4.668863e+06   5.697610
@@ -289,6 +290,7 @@ Date
 2014-12-31  3.314478  3.377809  3.275304  3.324339  2.605779e+06   3.411498
 2015-12-31  9.702563  9.730657  9.674375  9.724255  6.314777e+06   8.707636
 2016-12-31  3.033227  2.884394  3.088522  2.955446  4.322518e+06   3.303628
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE3NjI0NjBdfQ==
+eyJoaXN0b3J5IjpbLTUxNjE1MTczOF19
 -->
