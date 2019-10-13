@@ -185,8 +185,27 @@ df.resample(rule='A')
 DatetimeIndexResampler [freq=<YearEnd: month=12>, axis=0, closed=right, label=right, convention=start, base=0]
 ```
 ## To find the yearly mean
-
+```
 df.resample(rule='A').mean()
+```
+```
+                 Open       High        Low      Close        Volume  \
+Date                                                                   
+2012-12-31  67.158680  67.602120  66.786520  67.215120  9.239015e+06   
+2013-12-31  75.264048  75.729405  74.843055  75.320516  6.951496e+06   
+2014-12-31  77.274524  77.740040  76.864405  77.327381  6.515612e+06   
+2015-12-31  72.569405  73.064167  72.034802  72.491111  9.040769e+06   
+2016-12-31  69.481349  70.019643  69.023492  69.547063  9.371645e+06   
+
+            Adj Close  
+Date                   
+2012-12-31  59.389349  
+2013-12-31  68.147179  
+2014-12-31  71.709712  
+2015-12-31  68.831426  
+2016-12-31  68.054229  
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4OTEyNDU5XX0=
+eyJoaXN0b3J5IjpbLTIwOTI4MzUyNTddfQ==
 -->
