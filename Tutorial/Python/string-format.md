@@ -339,46 +339,29 @@ print("{:^5}".format("cat"))
 # and '*' padding character
 
 print("{:*^5}".format("cat"))
-
+```
 Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
-
-When you run this program, the output will be:
-
+```py
 _c__a__t_  
   _c__a__t_
   _c__a__t_  
 _*__c__a__t__*_
-
+```
 ----------
 
 ### Example 7: Truncating strings with format()
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
+```py
+# truncating strings to 3 letters
+print("{:.3}".format("caterpillar"))
 
-1
+# truncating strings to 3 letters
+# and padding
+print("{:5.3}".format("caterpillar"))
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
+# truncating strings to 3 letters,
+# padding and center alignment
+print("{:^5.3}".format("caterpillar"))
 
 # truncating strings to 3 letters
 
@@ -395,17 +378,15 @@ print("{:5.3}".format("caterpillar"))
 # padding and center alignment
 
 print("{:^5.3}".format("caterpillar"))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
-
+```
 When you run this program, the output will be:
 
 _c__a__t_
 _c__a__t_  
   _c__a__t_ 
-
+```
 ----------
 
 ## Formatting class and dictionary members using format()
@@ -414,22 +395,14 @@ Python internally uses  `getattr()`  for class members in the form ".age". And, 
 
 ### Example 8: Formatting class members using format()
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
 
-1
+# define Person class
+class Person:
+    age = 23
+    name = "Adam"
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
+# format age
+print("{p.name}'s age is: {p.age}".format(p=Person()))
 
 # define Person class
 
@@ -746,5 +719,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA3MzA0OTddfQ==
+eyJoaXN0b3J5IjpbLTE3NjcyNDU3MDldfQ==
 -->
