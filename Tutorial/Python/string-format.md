@@ -3,13 +3,8 @@ Python String format()
 ===
 
 > [Source : ](https://www.programiz.com/python-programming/methods/string/format).
-The syntax of format() method is:
+> 
 
-template.format(p0, p1, ..., k0=v0, k1=v1, ...)
-
-Here,  p0, p1,...  are positional arguments and,  k0, k1,...  are keyword arguments with values  v0, v1,...  respectively.
-
-And,  template  is a mixture of format codes with placeholders for the arguments.
 
 ----------
 
@@ -910,5 +905,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg3NjQ3NzhdfQ==
+eyJoaXN0b3J5IjpbOTYyMjcxMTIxXX0=
 -->
