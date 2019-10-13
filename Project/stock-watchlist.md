@@ -314,7 +314,7 @@ Low : 'fiftyTwoWeekLow'
 52 Weeks Range : 'fiftyTwoWeekRange'
 ```
 
-
+<p style="color:red;">This is a paragraph.</p>
 
 
 
@@ -342,6 +342,7 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5OD
-U3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbLTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxOD
+AxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEz
+MzEyMV19
 -->
