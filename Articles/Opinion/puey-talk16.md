@@ -959,7 +959,7 @@ tagged [กนกรัตน์ เลิศชูสกุล](https://waymaga
 
 หนังสือเล่มนี้เชิญชวนผู้ที่ปรารถนาเคลื่อนสังคมให้ไปสู่สภาพที่ดีกว่าข้างหน้าได้คิดถึงการปฏิวัติใหม่ โดยเริ่มคิดจากปรากฏการณ์ในอดีตที่สำคัญยิ่งแต่เงียบเชียบนัก นั่นคือการต่อสู้ของชาวนาไร้ที่ดินในภาคเหนือ ที่เคยเหยียดกระดูกสันหลังตั้งตรงเพื่อถามหาความเป็นธรรม
 
-ที่มาบทความ : [](https://waymagazine.org/farmer_revolution/)
+ที่มาบทความ : [WayMagazine](https://waymagazine.org/farmer_revolution/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NDQ4NzQwXX0=
+eyJoaXN0b3J5IjpbLTIxMDIxOTk2OTFdfQ==
 -->
