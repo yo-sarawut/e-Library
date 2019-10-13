@@ -77,30 +77,18 @@ The format() method allows the use of simple placeholders for formatting.
 
 ### Example 1: Basic formatting for default, positional and keyword arguments
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
+```py
+# default arguments
+print("Hello {}, your balance is {}.".format("Adam", 230.2346))
 
-1
+# positional arguments
+print("Hello {0}, your balance is {1}.".format("Adam", 230.2346))
 
-2
+# keyword arguments
+print("Hello {name}, your balance is {blc}.".format(name="Adam", blc=230.2346))
 
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
+# mixed arguments
+print("Hello {0}, your balance is {blc}.".format("Adam", blc=230.2346))
 
 # default arguments
 
@@ -117,18 +105,16 @@ print("Hello {name}, your balance is {blc}.".format(name="Adam", blc=230.2346))
 # mixed arguments
 
 print("Hello {0}, your balance is {blc}.".format("Adam", blc=230.2346))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run the program, the output will be same for all:
-
+```py
 Hello Adam, your balance is 230.2346.
 Hello Adam, your balance is 230.2346.
 Hello Adam, your balance is 230.2346.
 Hello Adam, your balance is 230.2346.
-
+```
 **Note:**  In case of mixed arguments, keyword arguments has to always follow positional arguments.
 
 ----------
@@ -905,5 +891,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMjcxMTIxXX0=
+eyJoaXN0b3J5IjpbLTExNjQyMzc0MzhdfQ==
 -->
