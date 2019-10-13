@@ -429,35 +429,20 @@ Inside the template string, Person's  name  and  age  are accessed using  `.name
 
 ### Example 9: Formatting dictionary members using format()
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
+```py
 # define Person dictionary
 
 person = {'age': 23, 'name': 'Adam'}
 
 # format age
-
+```py
 print("{p[name]}'s age is: {p[age]}".format(p=person))
-
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
+```
 
 When you run this program, the output will be:
-
+```py
 Adam's age is: 23
-
+```
 Similar to class,  `person`  dictionary is passed as a keyword argument  p.
 
 Inside the template string, person's  name  and  age  are accessed using  `[name]`  and  `[age]`  respectively.
@@ -716,5 +701,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2MDE1OTk3XX0=
+eyJoaXN0b3J5IjpbNzM5MTA2MjMzXX0=
 -->
