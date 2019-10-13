@@ -124,10 +124,6 @@ Hello Adam, your balance is 230.2346.
 You can format numbers using the format specifier given below:
 
 Number Formatting Types
-|  |  |
-|--|--|
-|  |  |
-
 
 |Type|	Meaning|
 |--|--|
@@ -138,13 +134,14 @@ Number Formatting Types
 |x	|Hexadecimal format (lower case)|
 |X	|Hexadecimal format (upper case)|
 |n	|Same as 'd'. Except it uses current locale setting for number separator
-e	Exponential notation. (lowercase e)
-E	Exponential notation (uppercase E)
-f	Displays fixed point number (Default: 6)
-F	Same as 'f'. Except displays 'inf' as 'INF' and 'nan' as 'NAN'
-g	General format. Rounds number to p significant digits. (Default precision: 6)
-G	Same as 'g'. Except switches to 'E' if the number is large.
-%	Percentage. Multiples by 100 and puts % at the end.
+|e|	Exponential notation. (lowercase e)|
+|E	|Exponential notation (uppercase E)|
+|f	|Displays fixed point number (Default: 6)|
+|F	|Same as 'f'. Except displays 'inf' as 'INF' and 'nan' as 'NAN'|
+|g	|General format. Rounds number to p significant digits. (Default precision: 6)|
+|G	|Same as 'g'. Except switches to 'E' if the number is large.|
+|%	|Percentage. Multiples by 100 and puts % at the end.|
+
 ### Example 2: Simple number formatting
 
 -   [script.py](https://www.programiz.com/python-programming/methods/string/format)
@@ -851,5 +848,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTMxNjc1Nl19
+eyJoaXN0b3J5IjpbNzIxODc4MzI4XX0=
 -->
