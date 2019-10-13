@@ -144,24 +144,15 @@ Number Formatting Types
 
 ### Example 2: Simple number formatting
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
+```py
+# integer arguments
+print("The number is:{:d}".format(123))
 
-1
+# float arguments
+print("The float number is:{:f}".format(123.4567898))
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
+# octal, binary and hexadecimal format
+print("bin: {0:b}, oct: {0:o}, hex: {0:x}".format(12))
 
 # integer arguments
 
@@ -174,51 +165,34 @@ print("The float number is:{:f}".format(123.4567898))
 # octal, binary and hexadecimal format
 
 print("bin: {0:b}, oct: {0:o}, hex: {0:x}".format(12))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run this program, the output will be:
-
+```py
 The number is: 123
 The number is:123.456790
 bin: 1100, oct: 14, hex: c
-
+```
 ----------
 
 ### Example 3: Number formatting with padding for int and floats
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
+```py
+# integer numbers with minimum width
+print("{:5d}".format(12))
 
-1
+# width doesn't work for numbers longer than padding
+print("{:2d}".format(1234))
 
-2
+# padding for float numbers
+print("{:8.3f}".format(12.2346))
 
-3
+# integer numbers with minimum width filled with zeros
+print("{:05d}".format(12))
 
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
+# padding for float numbers filled with zeros
+print("{:08.3f}".format(12.2346))
 
 # integer numbers with minimum width
 
@@ -239,7 +213,7 @@ print("{:05d}".format(12))
 # padding for float numbers filled with zeros
 
 print("{:08.3f}".format(12.2346))
-
+```
 Run
 
 [Powered by DataCamp](https://www.datacamp.com/)
@@ -848,5 +822,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxODc4MzI4XX0=
+eyJoaXN0b3J5IjpbLTE0NDA4NjkzOTFdfQ==
 -->
