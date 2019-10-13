@@ -394,8 +394,7 @@ _c__a__t_
 Python internally uses  `getattr()`  for class members in the form ".age". And, it uses  `__getitem__()`  lookup for dictionary members in the form "[index]".
 
 ### Example 8: Formatting class members using format()
-
-
+```py
 # define Person class
 class Person:
     age = 23
@@ -415,15 +414,13 @@ name = "Adam"
 # format age
 
 print("{p.name}'s age is: {p.age}".format(p=Person()))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run this program, the output will be:
-
+```
 Adam's age is: 23
-
+```
 Here,  `Person`  object is passed as a keyword argument  p.
 
 Inside the template string, Person's  name  and  age  are accessed using  `.name`  and  `.age`  respectively.
@@ -719,5 +716,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcyNDU3MDldfQ==
+eyJoaXN0b3J5IjpbMjk2MDE1OTk3XX0=
 -->
