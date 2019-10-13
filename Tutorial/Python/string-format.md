@@ -284,7 +284,7 @@ Number formatting with alignment
 ### Example 5: Number formatting with left, right and center alignment
 
 
-
+```py
 # integer numbers with right alignment
 
 print("{:5d}".format(12))
@@ -300,18 +300,16 @@ print("{:<05d}".format(12))
 # float numbers with center alignment
 
 print("{:=8.3f}".format(-12.2346))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run this program, the output will be:
-
+```py
  _1__2_
   _1__2__.__2__3__5_  
 _1__2__0__0__0_
 _-_  _1__2__.__2__3__5_
-
+```
 **Note:**  Left alignment filled with zeros for integer numbers can cause problems as the 3rd example which returns 12000, rather than 12.
 
 ----------
@@ -322,32 +320,7 @@ As numbers, string can be formatted in a similar way with format().
 
 ### Example 6: String formatting with padding and alignment
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
+```py
 
 # string padding with left alignment
 
@@ -773,5 +746,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDA4ODU4N119
+eyJoaXN0b3J5IjpbLTE4MDA3MzA0OTddfQ==
 -->
