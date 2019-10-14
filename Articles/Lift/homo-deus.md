@@ -1,5 +1,8 @@
-Homo Deus
+[สรุปหนังสือ] Homo Deus : A Brief History of Tomorrow
 ==
+
+![enter image description here](https://www.panasm.com/wp-content/uploads/2018/10/Homo-Deus-2016-Yuval-Noah-Harari.jpg)
+
 
 
 “This is the best reason to learn history: not in order to predict the future, but to free yourself of the past and imagine alternative destinies. Of course this is not total freedom – we cannot avoid being shaped by the past. But some freedom is better than none.”
@@ -181,5 +184,5 @@ Dataism (ขอบคุณภาพจาก Financial Times)
 
 >[Source :](https://www.panasm.com/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD-homo-deus/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTA2NjIyLDYxMTI5MzMyNl19
+eyJoaXN0b3J5IjpbLTc0NzAwNTQ4NCw2MTEyOTMzMjZdfQ==
 -->
