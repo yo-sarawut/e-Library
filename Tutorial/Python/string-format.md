@@ -451,15 +451,16 @@ Inside the template string, person's  name  and  age  are accessed using  `[name
 
 There's an easier way to format dictionaries in Python using  `str.format(**mapping)`.
 
-```
+```py
 # define Person dictionary
 person = {'age': 23, 'name': 'Adam'}
 
 # format age
 print("{name}'s age is: {age}".format(**person))
 ```
-
-
+```py
+Adam's age is: 23
+```
 `**`  is a format parameter (minimum field width).
 
 ----------
@@ -470,31 +471,7 @@ You can also pass format codes like precision, alignment, fill character as posi
 
 ### Example 10: Dynamic formatting using format()
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
+```py
 # dynamic string format template
 
 string = "{:{fill}{align}{width}}"
@@ -510,16 +487,13 @@ num = "{:{align}{width}.{precision}f}"
 # passing format codes as arguments
 
 print(num.format(123.236, align='<', width=8, precision=2))
-
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
+```
 
 When you run the program, the output will be:
-
+```py
 _*__*__c__a__t__*__*_
 _1__2__3__.__2__4_ 
-
+```
 Here,
 
 -   In the first example, 'cat' is the positional argument is to be formatted. Likewise,  `fill='*'`,  `align='^'`  and  `width=5`  are keyword arguments.
@@ -685,5 +659,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzUxMDg3Nyw0OTcwMDk0MjZdfQ==
+eyJoaXN0b3J5IjpbLTk5MTY1MTI4NCw0OTcwMDk0MjZdfQ==
 -->
