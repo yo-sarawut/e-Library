@@ -435,7 +435,7 @@ Inside the template string, Person's  name  and  age  are accessed using  `.name
 person = {'age': 23, 'name': 'Adam'}
 
 # format age
-```py
+
 print("{p[name]}'s age is: {p[age]}".format(p=person))
 ```
 
@@ -701,5 +701,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MTA2MjMzXX0=
+eyJoaXN0b3J5IjpbNDk3MDA5NDI2XX0=
 -->
