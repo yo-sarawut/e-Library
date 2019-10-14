@@ -380,9 +380,9 @@ print("{:5.3}".format("caterpillar"))
 print("{:^5.3}".format("caterpillar"))
 ```
 
-```
-When you run this program, the output will be:
 
+When you run this program, the output will be:
+```py
 _c__a__t_
 _c__a__t_  
   _c__a__t_ 
@@ -418,7 +418,7 @@ print("{p.name}'s age is: {p.age}".format(p=Person()))
 
 
 When you run this program, the output will be:
-```
+```py
 Adam's age is: 23
 ```
 Here,  `Person`  object is passed as a keyword argument  p.
@@ -587,15 +587,13 @@ def __repr__(self):
 return "REPR"
 
 print("repr: {p!r}, str: {p!s}".format(p=Person()))
-
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
+```
 
 When you run the program, the output will be:
-
+```py
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDE3NjIwMSw0OTcwMDk0MjZdfQ==
+eyJoaXN0b3J5IjpbMTQzOTU4MDE1LDQ5NzAwOTQyNl19
 -->
