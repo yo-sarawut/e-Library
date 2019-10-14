@@ -451,30 +451,14 @@ Inside the template string, person's  name  and  age  are accessed using  `[name
 
 There's an easier way to format dictionaries in Python using  `str.format(**mapping)`.
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
+```
 # define Person dictionary
-
 person = {'age': 23, 'name': 'Adam'}
 
 # format age
-
 print("{name}'s age is: {age}".format(**person))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 `**`  is a format parameter (minimum field width).
 
@@ -701,5 +685,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MDA5NDI2XX0=
+eyJoaXN0b3J5IjpbLTI0NzUxMDg3Nyw0OTcwMDk0MjZdfQ==
 -->
