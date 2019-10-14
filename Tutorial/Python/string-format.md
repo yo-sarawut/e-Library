@@ -512,44 +512,7 @@ format() internally calls  `__format__()`  for datetime, while format() accesses
 You can easily override the __format__() method of any object for custom formatting.
 
 ### Example 11: Type-specific formatting with format() and overriding __format__() method
-
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
+```py
 import datetime
 
 # datetime formatting
@@ -577,17 +540,15 @@ return '23'
 return 'None'
 
 print("Adam's age is: {:age}".format(Person()))
+```
 
-Run
-
-[Powered by DataCamp](https://www.datacamp.com/)
 
 When you run the program, the output will be:
-
+```py
 It's now: 2016/12/02 04:16:28
 Real part: 1.0 and Imaginary part: 2.0
 Adam's age is: 23
-
+```
 Here,
 
 -   **For datetime:**  
@@ -607,30 +568,7 @@ Like __format__(), you can easily override object's __str__() and __repr_() meth
 
 ### Example 12: __str()__ and __repr()__ shorthand !r and !s using format()
 
--   [script.py](https://www.programiz.com/python-programming/methods/string/format)
--   [IPython Shell](https://www.programiz.com/python-programming/methods/string/format)
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
+```py
 
 # __str__() and __repr__() shorthand !r and !s
 
@@ -659,5 +597,5 @@ When you run the program, the output will be:
 Quotes: 'cat', Without Quotes: cat
 repr: REPR, str: STR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTY1MTI4NCw0OTcwMDk0MjZdfQ==
+eyJoaXN0b3J5IjpbMTA2MDE3NjIwMSw0OTcwMDk0MjZdfQ==
 -->
