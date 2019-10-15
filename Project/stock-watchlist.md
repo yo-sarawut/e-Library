@@ -27,6 +27,7 @@ PANTONE 19-4055
 - [ภาพธงชาติ (สวยงาม)](https://www.interactivebrokers.com/en/index.php?f=14193)
 - [Plotly](https://dash-gallery.plotly.host/dash-web-trader/)
 - [Dash](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
+- 
 - [==Stock-Portfolio-Optimizer: Python + Vue==](https://github.com/PPPW/stock-portfolio-optimizer)
 ![enter image description here](https://github.com/PPPW/stock-portfolio-optimizer/raw/master/images/demo.GIF)
 
@@ -342,7 +343,7 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxOD
-AxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEz
-MzEyMV19
+eyJoaXN0b3J5IjpbMTgzMDYwNzY4LC0xMTM1MDkxOTMxLC02Nj
+E3Njg5MTAsMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05NDA4NDEz
+NDIsLTIxMTYxMzMxMjFdfQ==
 -->
