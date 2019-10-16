@@ -1,5 +1,6 @@
 Note for Pandas Tutorials
 ==
+- [Pandas API Reference ](https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.read_html.html)
 
 ## การตั้งหัวข้อเพื่อศึกษา
 ที่มา : [https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955](https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955)
@@ -19,5 +20,6 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzEyMTI4MSwtNDQxNDE2MTM3XX0=
+eyJoaXN0b3J5IjpbLTYwODI0Njk0OCwxNzAzMTIxMjgxLC00ND
+E0MTYxMzddfQ==
 -->
