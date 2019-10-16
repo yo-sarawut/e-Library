@@ -12,6 +12,11 @@
 - [PYTHON TUTORIAL & Example](https://www.programiz.com/python-programming/time/sleep)
 - [ตัวอย่างการทำ Project ด้วย Python](https://pythonprogramming.net)
 
+## e-Book Free
+
+- [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+- []
+![enter image description here](https://pbpython.com/images/whirlwind-tour-python.jpg)
 # ==ควรศึกษา==
 
 - [ Let’s get started with ==**GitHub!**==](https://guides.github.com/activities/hello-world/)
@@ -111,11 +116,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTgzMjU3NSwtMTcwMTkzNDY0OSwtMz
-A1ODY5Njg5LDc5OTkyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcy
-NTEsLTIwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MC
-wxODk5ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2
-NjU5Mjc1MywtNzMwNzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5OD
-M3NywtMTcyMTQyNTUzOSwtMTE4ODA0ODkxMiwxOTQ1NDY0ODI2
-LC02NzkyNjEwODldfQ==
+eyJoaXN0b3J5IjpbLTM3MDkwNzQ0OCwxNzg5ODMyNTc1LC0xNz
+AxOTM0NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3
+ODUsMTg1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5My
+wtNTQ1NzQzMjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2
+OTM1MzU3LC0xMDY2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5Nj
+Q3MDgsLTE2Nzk4Mzc3LC0xNzIxNDI1NTM5LC0xMTg4MDQ4OTEy
+LDE5NDU0NjQ4MjZdfQ==
 -->
