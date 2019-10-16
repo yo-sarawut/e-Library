@@ -428,7 +428,7 @@ print(pokemon1.append(pokemon3))
 376	เมทากรอส	เหล็ก/พลังจิต	1.6	550.0
 370	เลิฟคัส	น้ำ	0.6	8.7
 ```
-ท
+ที่มา : [https://phyblas.hinaboshi.com/yancham12](https://phyblas.hinaboshi.com/yancham12)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODgzOTc3M119
+eyJoaXN0b3J5IjpbMjAwNTY1NzQ5NF19
 -->
