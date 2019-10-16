@@ -15,7 +15,7 @@
 ## e-Book Free
 
 - [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
-- []
+
 ![enter image description here](https://pbpython.com/images/whirlwind-tour-python.jpg)
 # ==ควรศึกษา==
 
@@ -116,7 +116,7 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDkwNzQ0OCwxNzg5ODMyNTc1LC0xNz
+eyJoaXN0b3J5IjpbMTkxOTQzNTQyMSwxNzg5ODMyNTc1LC0xNz
 AxOTM0NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3
 ODUsMTg1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5My
 wtNTQ1NzQzMjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2
