@@ -25,9 +25,9 @@ now.year, now.month, now.day
 
 
 
-
-    (2019, 10, 17)
-
+```
+(2019, 10, 17)
+```
 
 
 
@@ -40,9 +40,9 @@ delta.seconds
 
 
 
-
-    56700
-
+```
+56700
+```
 
 
 
@@ -55,9 +55,9 @@ start - 2 * timedelta(12)
 
 
 
-
-    datetime.datetime(2010, 12, 14, 0, 0)
-
+```py
+datetime.datetime(2010, 12, 14, 0, 0)
+```
 
 
 ### Converting Between String and Datetime
@@ -71,9 +71,9 @@ stamp.strftime('%Y-%m-%d')
 
 
 
-
-    '2011-01-03'
-
+```py
+'2011-01-03'
+```
 
 
 
@@ -86,9 +86,10 @@ datestrs = ['7/6/2011', '8/6/2011']
 
 
 
-
-    [datetime.datetime(2011, 7, 6, 0, 0), datetime.datetime(2011, 8, 6, 0, 0)]
-
+```py
+[datetime.datetime(2011, 7, 6, 0, 0), 
+datetime.datetime(2011, 8, 6, 0, 0)]
+```
 
 
 
@@ -2705,5 +2706,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDU0MTkwNF19
+eyJoaXN0b3J5IjpbLTgyMTE0MTUxMV19
 -->
