@@ -25,7 +25,7 @@ now.year, now.month, now.day
 
 
 
-```
+```py
 (2019, 10, 17)
 ```
 
@@ -40,7 +40,7 @@ delta.seconds
 
 
 
-```
+```py
 56700
 ```
 
@@ -1502,7 +1502,7 @@ ts
 
 
 
-
+```py
     2000-01-01 00:00:00     0
     2000-01-01 00:01:00     1
     2000-01-01 00:02:00     2
@@ -1516,7 +1516,7 @@ ts
     2000-01-01 00:10:00    10
     2000-01-01 00:11:00    11
     Freq: T, dtype: int32
-
+```
 
 
 
@@ -1526,13 +1526,13 @@ ts.resample('5min', closed='right').sum()
 
 
 
-
+```py
     1999-12-31 23:55:00     0
     2000-01-01 00:00:00    15
     2000-01-01 00:05:00    40
     2000-01-01 00:10:00    11
     Freq: 5T, dtype: int32
-
+```
 
 
 
@@ -1542,13 +1542,13 @@ ts.resample('5min', closed='right').sum()
 
 
 
-
+```py
     1999-12-31 23:55:00     0
     2000-01-01 00:00:00    15
     2000-01-01 00:05:00    40
     2000-01-01 00:10:00    11
     Freq: 5T, dtype: int32
-
+```
 
 
 
@@ -1557,14 +1557,13 @@ ts.resample('5min', closed='right', label='right').sum()
 ```
 
 
-
-
+```py
     2000-01-01 00:00:00     0
     2000-01-01 00:05:00    15
     2000-01-01 00:10:00    40
     2000-01-01 00:15:00    11
     Freq: 5T, dtype: int32
-
+```
 
 
 
@@ -1574,8 +1573,7 @@ ts.resample('5min', closed='right',
 ```
 
 
-
-
+```py
     1999-12-31 23:59:59     0
     2000-01-01 00:04:59    15
     2000-01-01 00:09:59    40
@@ -2674,5 +2672,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkxNjQ1MzUsLTc5NDg4MDUyN119
+eyJoaXN0b3J5IjpbODY3MDM2MjUyLC03OTQ4ODA1MjddfQ==
 -->
