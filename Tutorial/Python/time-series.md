@@ -1281,8 +1281,8 @@ p
 
 
 
-
-    Period('2012Q4', 'Q-JAN')
+```
+Period('2012Q4', 'Q-JAN')
 
 
 
@@ -1294,9 +1294,9 @@ p.asfreq('D', 'end')
 
 
 
-
-    Period('2012-01-31', 'D')
-
+```py
+Period('2012-01-31', 'D')
+```
 
 
 
@@ -1307,10 +1307,10 @@ p4pm.to_timestamp()
 ```
 
 
+```py
 
-
-    Timestamp('2012-01-30 16:00:00')
-
+Timestamp('2012-01-30 16:00:00')
+```
 
 
 
@@ -1325,7 +1325,7 @@ ts
 
 
 
-
+```py
     2010-10-28 16:00:00    0
     2011-01-28 16:00:00    1
     2011-04-28 16:00:00    2
@@ -1333,7 +1333,7 @@ ts
     2011-10-28 16:00:00    4
     2012-01-30 16:00:00    5
     dtype: int32
-
+```
 
 
 ### Converting Timestamps to Periods (and Back)
@@ -1349,12 +1349,12 @@ pts
 
 
 
-
+```py
     2000-01    1.663261
     2000-02   -0.996206
     2000-03    1.521760
     Freq: M, dtype: float64
-
+```
 
 
 
@@ -1367,7 +1367,7 @@ ts2.to_period('M')
 
 
 
-
+```py
     2000-01    0.244175
     2000-01    0.423331
     2000-01   -0.654040
@@ -1375,11 +1375,11 @@ ts2.to_period('M')
     2000-02   -0.060220
     2000-02   -0.167933
     Freq: M, dtype: float64
+```
 
 
 
-
-```python
+```py
 pts = ts2.to_period()
 pts
 pts.to_timestamp(how='end')
@@ -1387,7 +1387,7 @@ pts.to_timestamp(how='end')
 
 
 
-
+```py
     2000-01-29 23:59:59.999999999    0.244175
     2000-01-30 23:59:59.999999999    0.423331
     2000-01-31 23:59:59.999999999   -0.654040
@@ -1395,7 +1395,7 @@ pts.to_timestamp(how='end')
     2000-02-02 23:59:59.999999999   -0.060220
     2000-02-03 23:59:59.999999999   -0.167933
     Freq: D, dtype: float64
-
+```
 
 
 ### Creating a PeriodIndex from Arrays
@@ -1410,7 +1410,7 @@ data.quarter
 
 
 
-```
+```py
     0      1.0
     1      2.0
     2      3.0
@@ -2678,5 +2678,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcyMzkyNCwtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbMTEyMDk4MDUxMiwtNzk0ODgwNTI3XX0=
 -->
