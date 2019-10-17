@@ -2648,9 +2648,9 @@ corr.plot()
 
 
 
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x22faf7fe358>
-
+```py
+<matplotlib.axes._subplots.AxesSubplot at 0x22faf7fe358>
+```
 
 
 
@@ -2666,15 +2666,12 @@ plt.figure()
 
 
 
+```py
+<Figure size 432x288 with 0 Axes>
 
-    <Figure size 432x288 with 0 Axes>
+<Figure size 432x288 with 0 Axes>
 
-
-
-
-    <Figure size 432x288 with 0 Axes>
-
-
+```
 
 ```python
 from scipy.stats import percentileofscore
@@ -2683,8 +2680,7 @@ result = returns.AAPL.rolling(250).apply(score_at_2percent)
 result.plot()
 ```
 
-    D:\Anaconda\lib\site-packages\ipykernel_launcher.py:3: FutureWarning: Currently, 'apply' passes the values as ndarrays to the applied function. In the future, this will change to passing it as Series objects. You need to specify 'raw=True' to keep the current behaviour, and you can pass 'raw=False' to silence this warning
-      This is separate from the ipykernel package so we can avoid doing imports until
+   
     
 
 
@@ -2706,5 +2702,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTI1MjA0NywtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbLTYxODIzNzMxMiwtNzk0ODgwNTI3XX0=
 -->
