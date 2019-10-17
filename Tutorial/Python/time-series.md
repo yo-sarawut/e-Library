@@ -100,9 +100,9 @@ parse('2011-01-03')
 
 
 
-
-    datetime.datetime(2011, 1, 3, 0, 0)
-
+```
+datetime.datetime(2011, 1, 3, 0, 0)
+```
 
 
 
@@ -112,9 +112,9 @@ parse('Jan 31, 1997 10:45 PM')
 
 
 
-
-    datetime.datetime(1997, 1, 31, 22, 45)
-
+```
+datetime.datetime(1997, 1, 31, 22, 45)
+```
 
 
 
@@ -2706,5 +2706,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTE0MTUxMV19
+eyJoaXN0b3J5IjpbLTc5NDg4MDUyN119
 -->
