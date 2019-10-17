@@ -842,12 +842,12 @@ ts.groupby(offset.rollforward).mean()
 
 
 
-
+```py
     2000-01-31   -0.005833
     2000-02-29    0.015894
     2000-03-31    0.150209
     dtype: float64
-
+```
 
 
 
@@ -857,12 +857,12 @@ ts.resample('M').mean()
 
 
 
-
+```py
     2000-01-31   -0.005833
     2000-02-29    0.015894
     2000-03-31    0.150209
     Freq: M, dtype: float64
-
+```
 
 
 ## Time Zone Handling
@@ -875,9 +875,9 @@ pytz.common_timezones[-5:]
 
 
 
-
+```py
     ['US/Eastern', 'US/Hawaii', 'US/Mountain', 'US/Pacific', 'UTC']
-
+```
 
 
 
@@ -888,9 +888,9 @@ tz
 
 
 
-
+```py
     <DstTzInfo 'America/New_York' LMT-1 day, 19:04:00 STD>
-
+```
 
 
 ### Time Zone Localization and Conversion
@@ -904,7 +904,7 @@ ts
 
 
 
-
+```py
     2012-03-09 09:30:00   -0.202469
     2012-03-10 09:30:00    0.050718
     2012-03-11 09:30:00    0.639869
@@ -912,32 +912,32 @@ ts
     2012-03-13 09:30:00   -0.797246
     2012-03-14 09:30:00    0.472879
     Freq: D, dtype: float64
-
+```
 
 
 
 ```python
 print(ts.index.tz)
 ```
+```py
+None
+ ```   
 
-    None
-    
 
-
-```python
+```py
 pd.date_range('3/9/2012 9:30', periods=10, freq='D', tz='UTC')
 ```
 
 
 
-
-    DatetimeIndex(['2012-03-09 09:30:00+00:00', '2012-03-10 09:30:00+00:00',
+```py
+DatetimeIndex(['2012-03-09 09:30:00+00:00', '2012-03-10 09:30:00+00:00',
                    '2012-03-11 09:30:00+00:00', '2012-03-12 09:30:00+00:00',
                    '2012-03-13 09:30:00+00:00', '2012-03-14 09:30:00+00:00',
                    '2012-03-15 09:30:00+00:00', '2012-03-16 09:30:00+00:00',
                    '2012-03-17 09:30:00+00:00', '2012-03-18 09:30:00+00:00'],
                   dtype='datetime64[ns, UTC]', freq='D')
-
+```
 
 
 
@@ -950,12 +950,12 @@ ts_utc.index
 
 
 
-
-    DatetimeIndex(['2012-03-09 09:30:00+00:00', '2012-03-10 09:30:00+00:00',
+```py
+DatetimeIndex(['2012-03-09 09:30:00+00:00', '2012-03-10 09:30:00+00:00',
                    '2012-03-11 09:30:00+00:00', '2012-03-12 09:30:00+00:00',
                    '2012-03-13 09:30:00+00:00', '2012-03-14 09:30:00+00:00'],
                   dtype='datetime64[ns, UTC]', freq='D')
-
+```
 
 
 
@@ -965,7 +965,7 @@ ts_utc.tz_convert('America/New_York')
 
 
 
-
+```py
     2012-03-09 04:30:00-05:00   -0.202469
     2012-03-10 04:30:00-05:00    0.050718
     2012-03-11 05:30:00-04:00    0.639869
@@ -973,7 +973,7 @@ ts_utc.tz_convert('America/New_York')
     2012-03-13 05:30:00-04:00   -0.797246
     2012-03-14 05:30:00-04:00    0.472879
     Freq: D, dtype: float64
-
+```
 
 
 
@@ -2676,5 +2676,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ0MDc2OTksLTc5NDg4MDUyN119
+eyJoaXN0b3J5IjpbOTQ4NDk1NTM3LC03OTQ4ODA1MjddfQ==
 -->
