@@ -1579,7 +1579,7 @@ ts.resample('5min', closed='right',
     2000-01-01 00:09:59    40
     2000-01-01 00:14:59    11
     Freq: 5T, dtype: int32
-
+```
 
 
 #### Open-High-Low-Close (OHLC) resampling
@@ -1704,7 +1704,7 @@ frame
 
 
 
-```python
+```py
 df_daily = frame.resample('D').asfreq()
 df_daily
 ```
@@ -2304,11 +2304,11 @@ plt.figure()
 
 
 
-
+```py
     <Figure size 432x288 with 0 Axes>
 
     <Figure size 432x288 with 0 Axes>
-
+```
 
 
 ```python
@@ -2319,9 +2319,9 @@ appl_std250.plot()
 
 
 
-
+```py
     <matplotlib.axes._subplots.AxesSubplot at 0x22faf3d2470>
-
+```
 
 
 
@@ -2672,5 +2672,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MDM2MjUyLC03OTQ4ODA1MjddfQ==
+eyJoaXN0b3J5IjpbMTg2MDI1OTM3OSwtNzk0ODgwNTI3XX0=
 -->
