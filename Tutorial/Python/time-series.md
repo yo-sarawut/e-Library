@@ -1141,9 +1141,9 @@ pd.Period('2014', freq='A-DEC') - p
 
 
 
-
+```p
     <7 * YearEnds: month=12>
-
+```
 
 
 
@@ -1154,9 +1154,9 @@ rng
 
 
 
-
-    PeriodIndex(['2000-01', '2000-02', '2000-03', '2000-04', '2000-05', '2000-06'], dtype='period[M]', freq='M')
-
+```py
+PeriodIndex(['2000-01', '2000-02', '2000-03', '2000-04', '2000-05', '2000-06'], dtype='period[M]', freq='M')
+```
 
 
 
@@ -1166,7 +1166,7 @@ pd.Series(np.random.randn(6), index=rng)
 
 
 
-
+```py
     2000-01   -0.514551
     2000-02   -0.559782
     2000-03   -0.783408
@@ -1174,7 +1174,7 @@ pd.Series(np.random.randn(6), index=rng)
     2000-05   -0.172670
     2000-06    0.680215
     Freq: M, dtype: float64
-
+```
 
 
 
@@ -1186,9 +1186,10 @@ index
 
 
 
-
-    PeriodIndex(['2001Q3', '2002Q2', '2003Q1'], dtype='period[Q-DEC]', freq='Q-DEC')
-
+```py
+PeriodIndex(['2001Q3', '2002Q2', '2003Q1'], 
+dtype='period[Q-DEC]', freq='Q-DEC')
+```
 
 
 ### Period Frequency Conversion
@@ -1203,9 +1204,9 @@ p.asfreq('M', how='end')
 
 
 
-
+```py
     Period('2007-12', 'M')
-
+```
 
 
 
@@ -1218,9 +1219,9 @@ p.asfreq('M', 'end')
 
 
 
-
+```py
     Period('2007-06', 'M')
-
+```
 
 
 
@@ -1231,9 +1232,9 @@ p.asfreq('A-JUN')
 
 
 
-
+```py
     Period('2008', 'A-JUN')
-
+```
 
 
 
@@ -1246,13 +1247,13 @@ ts.asfreq('M', how='start')
 
 
 
-
+```py
     2006-01    1.607578
     2007-01    0.200381
     2008-01   -0.834068
     2009-01   -0.302988
     Freq: M, dtype: float64
-
+```
 
 
 
@@ -1262,14 +1263,13 @@ ts.asfreq('B', how='end')
 
 
 
-
+```py
     2006-12-29    1.607578
     2007-12-31    0.200381
     2008-12-31   -0.834068
     2009-12-31   -0.302988
     Freq: B, dtype: float64
-
-
+```
 
 ### Quarterly Period Frequencies
 
@@ -1281,9 +1281,9 @@ p
 
 
 
-```
+```py
 Period('2012Q4', 'Q-JAN')
-
+```
 
 
 
@@ -2678,5 +2678,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDk4MDUxMiwtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbMjI3MzMwODgxLC03OTQ4ODA1MjddfQ==
 -->
