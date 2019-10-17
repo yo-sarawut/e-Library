@@ -1410,7 +1410,7 @@ data.quarter
 
 
 
-
+```
     0      1.0
     1      2.0
     2      3.0
@@ -1433,11 +1433,11 @@ data.quarter
     201    2.0
     202    3.0
     Name: quarter, Length: 203, dtype: float64
+```
 
 
 
-
-```python
+```py
 index = pd.PeriodIndex(year=data.year, quarter=data.quarter,
                        freq='Q-DEC')
 index
@@ -1447,7 +1447,7 @@ data.infl
 
 
 
-
+```py
     1959Q1    0.00
     1959Q2    2.34
     1959Q3    2.74
@@ -1470,7 +1470,7 @@ data.infl
     2009Q2    3.37
     2009Q3    3.56
     Freq: Q-DEC, Name: infl, Length: 203, dtype: float64
-
+```
 
 
 ## Resampling and Frequency Conversion
@@ -2297,11 +2297,7 @@ close_px.AAPL.rolling(250).mean().plot()
 ```
 
 
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x22fac2bcc88>
-
-
 
 
 ![png](https://github.com/yosarawut/e-Library/raw/master/img/output_127_1.png)
@@ -2316,9 +2312,6 @@ plt.figure()
 
 
     <Figure size 432x288 with 0 Axes>
-
-
-
 
     <Figure size 432x288 with 0 Axes>
 
@@ -2685,5 +2678,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzNDAyMjUyLC03OTQ4ODA1MjddfQ==
+eyJoaXN0b3J5IjpbLTE0NTcyMzkyNCwtNzk0ODgwNTI3XX0=
 -->
