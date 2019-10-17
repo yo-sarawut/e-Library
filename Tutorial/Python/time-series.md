@@ -100,7 +100,7 @@ parse('2011-01-03')
 
 
 
-```
+```py
 datetime.datetime(2011, 1, 3, 0, 0)
 ```
 
@@ -112,7 +112,7 @@ parse('Jan 31, 1997 10:45 PM')
 
 
 
-```
+```py
 datetime.datetime(1997, 1, 31, 22, 45)
 ```
 
@@ -124,9 +124,9 @@ parse('6/12/2011', dayfirst=True)
 
 
 
-
+```py
     datetime.datetime(2011, 12, 6, 0, 0)
-
+```
 
 
 
@@ -137,9 +137,9 @@ pd.to_datetime(datestrs)
 
 
 
-
+```py
     DatetimeIndex(['2011-07-06 12:00:00', '2011-08-06 00:00:00'], dtype='datetime64[ns]', freq=None)
-
+```
 
 
 
@@ -152,9 +152,9 @@ pd.isnull(idx)
 
 
 
-
+```py
     array([False, False,  True])
-
+```
 
 
 ## Time Series Basics
@@ -171,7 +171,7 @@ ts
 
 
 
-
+```py
     2011-01-02   -0.204708
     2011-01-05    0.478943
     2011-01-07   -0.519439
@@ -179,7 +179,7 @@ ts
     2011-01-10    1.965781
     2011-01-12    1.393406
     dtype: float64
-
+```
 
 
 
@@ -189,11 +189,11 @@ ts.index
 
 
 
-
+```py
     DatetimeIndex(['2011-01-02', '2011-01-05', '2011-01-07', '2011-01-08',
                    '2011-01-10', '2011-01-12'],
                   dtype='datetime64[ns]', freq=None)
-
+```
 
 
 
@@ -203,7 +203,7 @@ ts + ts[::2]
 
 
 
-
+```py
     2011-01-02   -0.409415
     2011-01-05         NaN
     2011-01-07   -1.038877
@@ -211,7 +211,7 @@ ts + ts[::2]
     2011-01-10    3.931561
     2011-01-12         NaN
     dtype: float64
-
+```
 
 
 
@@ -221,9 +221,9 @@ ts.index.dtype
 
 
 
-
+```py
     dtype('<M8[ns]')
-
+```
 
 
 
@@ -234,9 +234,9 @@ stamp
 
 
 
-
+```py
     Timestamp('2011-01-02 00:00:00')
-
+```
 
 
 ### Indexing, Selection, Subsetting
@@ -249,9 +249,9 @@ ts[stamp]
 
 
 
-
+```py
     -0.5194387150567381
-
+```
 
 
 
@@ -262,9 +262,9 @@ ts['20110110']
 
 
 
-
+```py
     1.9657805725027142
-
+```
 
 
 
@@ -277,7 +277,7 @@ longer_ts['2001']
 
 
 
-
+```py
     2001-01-01    1.599534
     2001-01-02    0.474071
     2001-01-03    0.151326
@@ -2674,5 +2674,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTg4MzM4NiwtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbLTE4MTkxNjQ1MzUsLTc5NDg4MDUyN119
 -->
