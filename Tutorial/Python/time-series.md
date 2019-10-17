@@ -2304,7 +2304,7 @@ close_px.AAPL.rolling(250).mean().plot()
 
 
 
-![png](output_127_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_127_1.png)
 
 
 
@@ -2375,7 +2375,7 @@ close_px.rolling(60).mean().plot(logy=True)
 
 
 
-![png](output_132_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_132_1.png)
 
 
 
@@ -2579,7 +2579,7 @@ plt.legend()
 
 
 
-![png](output_136_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_136_1.png)
 
 
 ### Binary Moving Window Functions
@@ -2621,7 +2621,7 @@ corr.plot()
 
 
 
-![png](output_140_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_140_1.png)
 
 
 
@@ -2654,7 +2654,7 @@ corr.plot()
 
 
 
-![png](output_142_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_142_1.png)
 
 
 ### User-Defined Moving Window Functions
@@ -2695,7 +2695,7 @@ result.plot()
 
 
 
-![png](output_145_2.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_145_2.png)
 
 
 
@@ -2706,5 +2706,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg4MDUyN119
+eyJoaXN0b3J5IjpbLTk2NTI1MjA0NywtNzk0ODgwNTI3XX0=
 -->
