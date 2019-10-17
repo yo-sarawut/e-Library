@@ -2338,7 +2338,7 @@ appl_std250.plot()
 
 
 
-![png](output_129_1.png)
+![png](https://github.com/yosarawut/e-Library/raw/master/img/output_129_1.png)
 
 
 
@@ -2356,9 +2356,6 @@ plt.figure()
 
     <Figure size 432x288 with 0 Axes>
 
-
-
-
     <Figure size 432x288 with 0 Axes>
 
 
@@ -2366,10 +2363,6 @@ plt.figure()
 ```python
 close_px.rolling(60).mean().plot(logy=True)
 ```
-
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x22faf4f1748>
 
 
@@ -2555,9 +2548,6 @@ plt.figure()
 
     <Figure size 432x288 with 0 Axes>
 
-
-
-
     <Figure size 432x288 with 0 Axes>
 
 
@@ -2591,14 +2581,10 @@ plt.figure()
 
 
 
-
-    <Figure size 432x288 with 0 Axes>
-
-
-
-
-    <Figure size 432x288 with 0 Axes>
-
+```py
+<Figure size 432x288 with 0 Axes>
+<Figure size 432x288 with 0 Axes>
+```
 
 
 ```python
@@ -2631,14 +2617,11 @@ plt.figure()
 
 
 
+```py
+<Figure size 432x288 with 0 Axes>
 
-    <Figure size 432x288 with 0 Axes>
-
-
-
-
-    <Figure size 432x288 with 0 Axes>
-
+<Figure size 432x288 with 0 Axes>
+```
 
 
 ```python
@@ -2702,5 +2685,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODIzNzMxMiwtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbNzYzNDAyMjUyLC03OTQ4ODA1MjddfQ==
 -->
