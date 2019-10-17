@@ -594,7 +594,7 @@ pd.date_range('2000-01-01', '2000-12-01', freq='BM')
 
 
 
-
+```py
     DatetimeIndex(['2000-01-31', '2000-02-29', '2000-03-31', '2000-04-28',
                    '2000-05-31', '2000-06-30', '2000-07-31', '2000-08-31',
                    '2000-09-29', '2000-10-31', '2000-11-30'],
@@ -609,12 +609,12 @@ pd.date_range('2012-05-02 12:56:31', periods=5)
 
 
 
-
+```py
     DatetimeIndex(['2012-05-02 12:56:31', '2012-05-03 12:56:31',
                    '2012-05-04 12:56:31', '2012-05-05 12:56:31',
                    '2012-05-06 12:56:31'],
                   dtype='datetime64[ns]', freq='D')
-
+```
 
 
 
@@ -624,11 +624,11 @@ pd.date_range('2012-05-02 12:56:31', periods=5, normalize=True)
 
 
 
-
+```py
     DatetimeIndex(['2012-05-02', '2012-05-03', '2012-05-04', '2012-05-05',
                    '2012-05-06'],
                   dtype='datetime64[ns]', freq='D')
-
+```
 
 
 ### Frequencies and Date Offsets
@@ -641,10 +641,9 @@ hour
 ```
 
 
-
-
+```py
     <Hour>
-
+```
 
 
 
@@ -655,9 +654,9 @@ four_hours
 
 
 
-
+```py
     <4 * Hours>
-
+```
 
 
 
@@ -667,7 +666,7 @@ pd.date_range('2000-01-01', '2000-01-03 23:59', freq='4h')
 
 
 
-
+```py
     DatetimeIndex(['2000-01-01 00:00:00', '2000-01-01 04:00:00',
                    '2000-01-01 08:00:00', '2000-01-01 12:00:00',
                    '2000-01-01 16:00:00', '2000-01-01 20:00:00',
@@ -679,7 +678,7 @@ pd.date_range('2000-01-01', '2000-01-03 23:59', freq='4h')
                    '2000-01-03 16:00:00', '2000-01-03 20:00:00'],
                   dtype='datetime64[ns]', freq='4H')
 
-
+```
 
 
 ```python
@@ -688,9 +687,9 @@ Hour(2) + Minute(30)
 
 
 
-
+```py
     <150 * Minutes>
-
+```
 
 
 
@@ -700,14 +699,14 @@ pd.date_range('2000-01-01', periods=10, freq='1h30min')
 
 
 
-
+```py
     DatetimeIndex(['2000-01-01 00:00:00', '2000-01-01 01:30:00',
                    '2000-01-01 03:00:00', '2000-01-01 04:30:00',
                    '2000-01-01 06:00:00', '2000-01-01 07:30:00',
                    '2000-01-01 09:00:00', '2000-01-01 10:30:00',
                    '2000-01-01 12:00:00', '2000-01-01 13:30:00'],
                   dtype='datetime64[ns]', freq='90T')
-
+```
 
 
 #### Week of month dates
@@ -720,7 +719,7 @@ list(rng)
 
 
 
-
+```py
     [Timestamp('2012-01-20 00:00:00', freq='WOM-3FRI'),
      Timestamp('2012-02-17 00:00:00', freq='WOM-3FRI'),
      Timestamp('2012-03-16 00:00:00', freq='WOM-3FRI'),
@@ -729,7 +728,7 @@ list(rng)
      Timestamp('2012-06-15 00:00:00', freq='WOM-3FRI'),
      Timestamp('2012-07-20 00:00:00', freq='WOM-3FRI'),
      Timestamp('2012-08-17 00:00:00', freq='WOM-3FRI')]
-
+```
 
 
 ### Shifting (Leading and Lagging) Data
@@ -745,17 +744,17 @@ ts.shift(-2)
 
 
 
-
+```py
     2000-01-31   -0.117388
     2000-02-29   -0.517795
     2000-03-31         NaN
     2000-04-30         NaN
     Freq: M, dtype: float64
+```
 
-
-
+```py
 ts / ts.shift(1) - 1
-
+```
 
 ```python
 ts.shift(2, freq='M')
@@ -763,13 +762,13 @@ ts.shift(2, freq='M')
 
 
 
-
+```py
     2000-03-31   -0.066748
     2000-04-30    0.838639
     2000-05-31   -0.117388
     2000-06-30   -0.517795
     Freq: M, dtype: float64
-
+```
 
 
 
@@ -780,13 +779,13 @@ ts.shift(1, freq='90T')
 
 
 
-
+```py
     2000-01-31 01:30:00   -0.066748
     2000-02-29 01:30:00    0.838639
     2000-03-31 01:30:00   -0.117388
     2000-04-30 01:30:00   -0.517795
     Freq: M, dtype: float64
-
+```
 
 
 #### Shifting dates with offsets
@@ -800,22 +799,22 @@ now + 3 * Day()
 
 
 
-
+```py
     Timestamp('2011-11-20 00:00:00')
+```
 
 
 
-
-```python
+```py
 now + MonthEnd()
 now + MonthEnd(2)
 ```
 
 
 
-
+```py
     Timestamp('2011-12-31 00:00:00')
-
+```
 
 
 
@@ -827,9 +826,9 @@ offset.rollback(now)
 
 
 
-
+```py
     Timestamp('2011-10-31 00:00:00')
-
+```
 
 
 
@@ -2676,5 +2675,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NDk1NTM3LC03OTQ4ODA1MjddfQ==
+eyJoaXN0b3J5IjpbNDQxNjMwMjIwLC03OTQ4ODA1MjddfQ==
 -->
