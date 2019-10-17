@@ -985,7 +985,7 @@ ts_eastern.tz_convert('Europe/Berlin')
 
 
 
-
+```py
     2012-03-09 15:30:00+01:00   -0.202469
     2012-03-10 15:30:00+01:00    0.050718
     2012-03-11 14:30:00+01:00    0.639869
@@ -993,7 +993,7 @@ ts_eastern.tz_convert('Europe/Berlin')
     2012-03-13 14:30:00+01:00   -0.797246
     2012-03-14 14:30:00+01:00    0.472879
     Freq: D, dtype: float64
-
+```
 
 
 
@@ -1002,14 +1002,13 @@ ts.index.tz_localize('Asia/Shanghai')
 ```
 
 
+```py
 
-
-    DatetimeIndex(['2012-03-09 09:30:00+08:00', '2012-03-10 09:30:00+08:00',
+DatetimeIndex(['2012-03-09 09:30:00+08:00', '2012-03-10 09:30:00+08:00',
                    '2012-03-11 09:30:00+08:00', '2012-03-12 09:30:00+08:00',
                    '2012-03-13 09:30:00+08:00', '2012-03-14 09:30:00+08:00'],
                   dtype='datetime64[ns, Asia/Shanghai]', freq='D')
-
-
+```
 
 ### Operations with Time Zone−Aware Timestamp Objects
 
@@ -1022,9 +1021,9 @@ stamp_utc.tz_convert('America/New_York')
 
 
 
-
+```py
     Timestamp('2011-03-11 23:00:00-0500', tz='America/New_York')
-
+```
 
 
 
@@ -1035,9 +1034,9 @@ stamp_moscow
 
 
 
-
+```py
     Timestamp('2011-03-12 04:00:00+0300', tz='Europe/Moscow')
-
+```
 
 
 
@@ -1048,10 +1047,9 @@ stamp_utc.tz_convert('America/New_York').value
 
 
 
-
+```py
     1299902400000000000
-
-
+```
 
 
 ```python
@@ -1063,9 +1061,9 @@ stamp + Hour()
 
 
 
-
+```py
     Timestamp('2012-03-12 02:30:00-0400', tz='US/Eastern')
-
+```
 
 
 
@@ -1097,13 +1095,13 @@ result.index
 
 
 
-
-    DatetimeIndex(['2012-03-07 09:30:00+00:00', '2012-03-08 09:30:00+00:00',
+```py
+DatetimeIndex(['2012-03-07 09:30:00+00:00', '2012-03-08 09:30:00+00:00',
                    '2012-03-09 09:30:00+00:00', '2012-03-12 09:30:00+00:00',
                    '2012-03-13 09:30:00+00:00', '2012-03-14 09:30:00+00:00',
                    '2012-03-15 09:30:00+00:00'],
                   dtype='datetime64[ns, UTC]', freq='B')
-
+```
 
 
 ## Periods and Period Arithmetic
@@ -1116,9 +1114,9 @@ p
 
 
 
-
+```py
     Period('2007', 'A-DEC')
-
+```
 
 
 
@@ -1129,9 +1127,9 @@ p - 2
 
 
 
-
-    Period('2005', 'A-DEC')
-
+```py
+Period('2005', 'A-DEC')
+```
 
 
 
@@ -1141,7 +1139,7 @@ pd.Period('2014', freq='A-DEC') - p
 
 
 
-```p
+```py
     <7 * YearEnds: month=12>
 ```
 
@@ -2678,5 +2676,5 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MzMwODgxLC03OTQ4ODA1MjddfQ==
+eyJoaXN0b3J5IjpbLTExNjQ0MDc2OTksLTc5NDg4MDUyN119
 -->
