@@ -1,6 +1,7 @@
 Note for Pandas Tutorials
 ==
 - [Pandas API Reference ](https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.read_html.html)
+- [Pandas DataFrame Doc](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#reindexing-selection-label-manipulation)
 
 ## การตั้งหัวข้อเพื่อศึกษา
 ที่มา : [https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955](https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955)
@@ -20,6 +21,6 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODI0Njk0OCwxNzAzMTIxMjgxLC00ND
-E0MTYxMzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjA5Nzk1NjAsLTYwODI0Njk0OCwxNz
+AzMTIxMjgxLC00NDE0MTYxMzddfQ==
 -->
