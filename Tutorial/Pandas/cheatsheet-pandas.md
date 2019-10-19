@@ -23,9 +23,27 @@ Pandas เป็น Library ใน Python ที่ทำให้เราเ�
 
 โค้ดบางส่วนมาจากคลาส Data Wrangling ที่แอดมินเรียน และจากเว็บไซต์ [MyCheatSheet](https://mycheatsheets.com/pandas) ครับ
 
-### กำหนดค่าให้ Pandas สำหรับทำงานบน Jupyter Notebook
+### Configuring Pandas
+กำหนดค่าให้ Pandas สำหรับทำงานบน Jupyter Notebook
+```py
+# import numpy and pandas
+import numpy as np
+import pandas as pd
 
+# used for dates
+import datetime
+from datetime import datetime, date
 
+# Set some pandas options controlling output format
+pd.set_option('display.notebook_repr_html', False)
+pd.set_option('display.max_columns', 20)
+pd.set_option('display.max_rows', 15)
+pd.set_option('display.width', 90)
+
+# bring in matplotlib for graphics
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
 
 ### วิธีเช็ค Version Pandas
 
@@ -383,5 +401,5 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDMxMzcwNiwyMDE3ODI1NTY2XX0=
+eyJoaXN0b3J5IjpbOTg5NjQ1MzU2LDIwMTc4MjU1NjZdfQ==
 -->
