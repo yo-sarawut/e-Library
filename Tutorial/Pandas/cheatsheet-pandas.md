@@ -51,8 +51,10 @@ import matplotlib.pyplot as plt
 ```py
 print ("Pandas version",pandas.__version__)
 ```
+output
+```py
 Pandas version 0.24.1
-
+```
 
 ### วิธีการโหลดไฟล์ CSV (Import)
 
@@ -404,6 +406,6 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTQwMTQyMCw5ODk2NDUzNTYsMjAxNz
-gyNTU2Nl19
+eyJoaXN0b3J5IjpbOTI5MzM5NjI4LDk4OTY0NTM1NiwyMDE3OD
+I1NTY2XX0=
 -->
