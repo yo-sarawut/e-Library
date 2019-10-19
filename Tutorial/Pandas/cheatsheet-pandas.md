@@ -51,6 +51,9 @@ import matplotlib.pyplot as plt
 ```py
 print ("Pandas version",pandas.__version__)
 ```
+Pandas version 0.24.1
+
+
 ### วิธีการโหลดไฟล์ CSV (Import)
 
 จุดเริ่มต้นของการทำ Data Exploration & Analysis ใน Pandas ก็คือการโหลดไฟล์ข้อมูลแบบ CSV มาใช้งานนั่นเองครับ
@@ -401,5 +404,6 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5NjQ1MzU2LDIwMTc4MjU1NjZdfQ==
+eyJoaXN0b3J5IjpbMTg1NTQwMTQyMCw5ODk2NDUzNTYsMjAxNz
+gyNTU2Nl19
 -->
