@@ -17,7 +17,7 @@ PANTONE 19-4055
 - [Dash Store clicks example](https://dash.plot.ly/dash-core-components/store)
 - [รวมบทความ Dash](https://medium.com/plotly/introducing-dash-5ecf7191b503)
 - [Dash-recipes : Example on GitHub](https://github.com/plotly/dash-recipes)
-- [Dash ]
+- [Dash simple-example-chart-apps](https://github.com/plotly/simple-example-chart-apps)
 
 ## ชื่อโปรแกรม 
 
@@ -345,7 +345,7 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTkwMzYxLC01MTc4MDU3OSwtMTEzNT
-A5MTkzMSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NTcxNjQ1
-MCwtOTQwODQxMzQyLC0yMTE2MTMzMTIxXX0=
+eyJoaXN0b3J5IjpbMTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMz
+UwOTE5MzEsLTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0
+NTAsLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
 -->
