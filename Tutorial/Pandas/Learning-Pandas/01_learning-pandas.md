@@ -1,5 +1,5 @@
-
-
+Learning Pandas Second Edition
+==
 ![Laarning Pandas](https://static.packt-cdn.com/products/9781787123137/cover/smaller)
 
 
@@ -31,5 +31,5 @@ Summary
 
 >Source : [PacktPub.com](https://www.packtpub.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5OTA5NDIwXX0=
+eyJoaXN0b3J5IjpbODk1NzM5MTM5XX0=
 -->
