@@ -1,4 +1,5 @@
-3Representing Univariate Data with the Series
+3 Representing Univariate Data with the Series
+===
 
 # Configuring pandas
 
@@ -1515,5 +1516,5 @@ copy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDkzODQzMF19
+eyJoaXN0b3J5IjpbLTY1NjIzNDU5MV19
 -->
