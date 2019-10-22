@@ -12,33 +12,33 @@ The Python programming language natively implements a number of data structures.
 ![](https://miro.medium.com/max/519/1*oNuaSOlSozUchdxiOE1ieQ.jpeg)
 ```py
 key-value mapping
-```py
+```
 A dictionary in python is a mapping object that maps keys to values, where the keys are unique within a collection and the values can hold any arbitrary value. In addition to being unique, keys are also required to be hashable.
 
 An object is said to be hashable if it has a hash value (implemented by a  `__hash__()`  method) that does not change during the object’s lifetime. Most commonly, we use immutable data types such as strings, integers, and tuples (only if they contain similarly immutable types) as dictionary keys.
 
 A dictionary’s data is always enclosed by a pair of curly braces  `{ }`, and would normally look like this:
-
+```py
 my_dict = {"first_name": "John", "last_name":"Snow", "age":16, "gender":"Male"}
-
+```
 We have created a dictionary named  `my_dict`  where each key-value pair is separated by a full colon, with the key-value pairs as:
-
--   `first_name`  -  `John`
--   `last_name`  -  `Snow`
--   `age`  -  `16`
--   `gender`  -  `Male`
-
+```py
+first_name - John
+last_name - Snow
+age - 16
+gender - Male
+```
 Typically dictionaries store associative data, i.e data that is related. Examples of such data include the attributes of an object,  `SQL`  query results and csv-formatted information. Throughout this article, we will be using dictionaries to store job listing details from  [Kaggle](https://www.kaggle.com/ardenn/brighter-monday-job-listings/data).
 
 # Comparisons
 
 Dictionaries are an implementation of  [Associative Arrays](https://en.wikipedia.org/wiki/Associative_array). All Associative arrays have a structure of (key, value) pairs, where each key is unique for every collection. Other languages also have similar implementations, such as:
-
+```py
 -   Maps in Go
 -   std::map in C++
 -   Maps in Java
 -   JavaScript objects
-
+```
 Unlike sequenced data types like lists and tuples, where indexing is achieved using positional indices, dictionaries are indexed using their keys. Therefore, individual values can be accessed using these keys.
 
 # Dictionary Operations
@@ -46,19 +46,19 @@ Unlike sequenced data types like lists and tuples, where indexing is achieved us
 ## 1. Creation
 
 -   We initialize an empty dictionary using a pair of curly braces. This approach is often used when we expect to store some data at later stages of our operation.
-
+```py
 empty_dict = {}
-
+```
 In the line above, we have created an empty dictionary named  `empty_dict`.
 
 -   For instances when we have our data beforehand, we use curly braces with the key-value pairs. We can now create a dictionary to represent the second row of data in the  `jobs.csv`  file.
-
->>> job1 = {"title":"Production Manager",  
+```py
+job1 = {"title":"Production Manager",  
 "location":"Rest of Kenya",  
 "job_type":"Full Time",  
 "employer":"The African Talent Company (TATC)",  
 "category":"Farming"}
-
+```
 We just created a dictionary with the keys  `title`,`location`,  `job_type`,  `employer`,  `category`  and assigned it to the variable  `job1`.
 
 -   Dictionaries can also be created using the  `dict()`  constructor. To do this we pass the constructor a sequence of key-value pairs. We could also pass in named arguments.  
@@ -211,5 +211,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU4ODU2MF19
+eyJoaXN0b3J5IjpbMTE4MzU0NDM1MF19
 -->
