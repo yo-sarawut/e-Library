@@ -200,8 +200,28 @@ Our dataset has about 860 listings, suppose we wanted to display the properties 
 
 Let’s iterate over  `job2`  using a  `for-loop`  using all the three methods. Furthermore we'll use the  `csv`  module to read our csv-formatted data in to a list of dictionaries, then we'll iterate through all the dictionaries and print out the keys and values.
 ```py
-
-
+# Iterating through the dictionary itself
+for x in job2:
+    print(x) # prints the keys of job2
+    
+# Using keys()
+for key in job2.keys():
+    print(key) # prints the keys of job2
+    
+# Using values()
+for val in job2.values():
+    print(val) # prints the values of job2
+    
+# Dictionary iteration use case
+import csv
+with open('jobs.csv','r') as csv_file:
+    reader = csv.DictReader(csv_file)
+    for job in reader:
+        
+        # Using items()
+        for key,val in job.items():
+            # Apply any additional processing
+            print(key, val) #print the keys and values of each job
 ```
 
 Dictionary Iteration
@@ -218,7 +238,17 @@ Borrowing from our description of dictionaries earlier, this data type is meant 
 If we use the  `items()`  iterable we could sort the items of our dictionary as we please. However, this doesn't give us our original dictionary, but a list of key-value tuples in a sorted order.
 
 Say we wanted to display the job details in the above example in alphabetical order, We would need to alter our iteration to give sorted results. Lets walk through the example again an see how we would achieve that functionality.
-
+```py
+ith open('jobs.csv','r') as csv_file:
+    reader = csv.DictReader(csv_file)
+    for job in reader:
+        
+        # Using sorted() to sort a dictionary's items on the keys
+        for key,val in sorted(job.items(),key=lambda item:item[0]):
+        
+            # Apply any additional processing
+            print(key, val) #print the keys and values of each job
+```
 Iteration
 
 -   In this example we use python’s inbuilt  `sorted()`  function which takes in an iterable (our dictionary's items).
@@ -241,7 +271,35 @@ To implement this functionality we use the iterable unpacking operator (`**`).
 
 What if we needed  `Job`  objects to work with, instead of dictionaries? We shouldn't have to do some heavy lifting to get our data reorganized in to objects.  
 Let's see how we could translate our dictionaries into objects, by again tweaking our previous code.
+```py
+Define a Job Class
+class Job:
+    def __init__(self,
+                 title="Job Title",
+                 location="Job Location",
+                 job_type="Job Type",
+                 employer="Job Employer",
+                 category="Job Category",):       
+        self.title = title
+        self.location = location
+        self.job_type = job_type
+        self.employer = employer
+        self.category = category
+    def __str__(self):
+        return self.title
 
+# Creating a job object without unpacking
+Job("Marketing & Business Development Manager","Mombasa","Full Time",
+    "KUSCCO Limited (Kenya Union of Savings & Credit Co-operatives Limited)",
+    "Marketing & Communications")
+
+with open('jobs.csv','r') as csv_file:
+    reader = csv.DictReader(csv_file)
+    for job in reader:
+        
+        # Creating a job object with unpacking
+        Job(**job)
+```
 Dictionary Unpacking
 
 -   To instantiate a new  `Job`  object, traditionally, we would need to pass in all the required arguments. However, with unpacking, we just pass in a dictionary with the  `**`  operator before it.  
@@ -282,5 +340,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODg3NjYyNV19
+eyJoaXN0b3J5IjpbMTI5OTc5OTUyNV19
 -->
