@@ -25,7 +25,8 @@ sep = " " or sep='\t'
 Using the dictionary
 ```python
 # c1, c2, c3, c4 are column names. 
-d_dic ={'first_col_name':c1,'second_col_names':c2,'3rd_col_name':c3} df = pd.DataFrame(data = d_dic)
+d_dic ={'first_col_name':c1,'second_col_names':c2,'3rd_col_name':c3} 
+df = pd.DataFrame(data = d_dic)
 ```
 Using NumPy arrays
 ```python
@@ -36,7 +37,7 @@ any_numpy_array
 df = pd.DataFrame(data=np_data, columns = list_of_Col_names)
 ```
 3. How to visualize the top and bottom x values in a data frame?
-```python
+```py
 df.head(num_of_rows_to_view) #top_values
 df.tail(num_of_rows_to_view) #bottom_values
 col = list_of_columns_to_view 
@@ -222,5 +223,5 @@ For any data analysis project as a beginner, you may require to know these opera
 **Contact**
 If you liked this post, please clap and share it with others who might find it useful. I really love data science and if you are interested in it too, let’s connect on LinkedIn or follow me here on towards data science platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg3NzQ5OTNdfQ==
+eyJoaXN0b3J5IjpbMTA3NjcyMzI1Ml19
 -->
