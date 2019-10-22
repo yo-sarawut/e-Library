@@ -704,10 +704,10 @@ Let’s see examples of subset selection of lists using integers:
 some_list = ['a', 'two', 10, 4, 0, 'asdf', 'mgmt', 434, 99]
  some_list[5]  
   ```
-   ```py
-'asdf
+```py
+asdf
  ```
-  ```py
+ ```py
  some_list[-1]  
   ```
    ```py
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTgyMjgxNF19
+eyJoaXN0b3J5IjpbMTEzNzI5OTIxM119
 -->
