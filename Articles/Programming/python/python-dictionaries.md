@@ -63,7 +63,17 @@ We just created a dictionary with the keys  `title`,`location`,  `job_type`,  `e
 
 -   Dictionaries can also be created using the  `dict()`  constructor. To do this we pass the constructor a sequence of key-value pairs. We could also pass in named arguments.  
     Let's create a dictionary to represent the third row of data in the  `jobs.csv`  file, using both of these methods.
-
+```py
+# create an empty dictionary
+empty_property = dict()
+# create dictionary using a list of key-value tuples
+job2 = dict([
+  ("title","Marketing & Business Development Manager"),("location","Mombasa"),
+  ("job_type","Full Time"),
+  ("employer","KUSCCO Limited (Kenya Union of Savings & Credit Co-operatives Limited)"),
+  ("category","Marketing & Communications")
+])
+```
 Creating dictionary with list of key-value tuples
 
 We passed a sequence, in this case a list of key-value tuples, to the  `dict()`  constructor to create our dictionary, and assigned it to the variable  `job2`.
@@ -82,7 +92,15 @@ Indexing
 -   In the example above we use indexing to access the  `title`  from  `job2`  after making sure it is available using  `in`.
 -   If you are like me, this is probably a lot of work. The good news, however, is that we have a better tool — the  `get()`  method. This method works by giving out a value if the key exists, or returning  `None`.  `None`  sounds better than an error, right?  
     What if we want to go even further, and return something, a placeholder of sorts?  `get()`  takes a second argument, a default value to be used in place of  `None`. Now let's use  `in`  to check if  `title`  exists in  `job2`, then we can use indexing to retrieve its value. We'll also go ahead and use  `get()`  to retrieve  `salary`  from  `job2`.
-
+```py
+# Using keyword arguments
+dict(
+  title="Marketing & Business Development Manager",
+  location="Mombasa",job_type="Full Time",
+  employer="KUSCCO Limited (Kenya Union of Savings & Credit Co-operatives Limited)",
+  category="Marketing & Communications"
+)
+```
 Accessing items
 
 Here, we use  `get()`  to access the  `title`  and  `salary`.
@@ -211,5 +229,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzE4NzI3M119
+eyJoaXN0b3J5IjpbNjY4MDU5ODE2XX0=
 -->
