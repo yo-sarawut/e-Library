@@ -78,6 +78,8 @@ Creating dictionary with list of key-value tuples
 
 We passed a sequence, in this case a list of key-value tuples, to the  `dict()`  constructor to create our dictionary, and assigned it to the variable  `job2`.
 
+
+
 Creating dictionary with dict( )
 
 Here, we created a dictionary using named arguments. The keys are the argument names, while the values are the argument values. It is however important to note that this method is only suitable when our keys are just simple strings.
@@ -229,5 +231,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MDU5ODE2XX0=
+eyJoaXN0b3J5IjpbMTAzNzMwODYyMF19
 -->
