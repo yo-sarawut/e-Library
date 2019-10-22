@@ -832,7 +832,7 @@ Christina     Melon
 Aaron         Mango  
 Name: food, dtype: object
   ```
-Again, I recommend against doing this and always use  `**.iloc**`  or  `**.loc**`
+Again, I recommend against doing this and always use  `**.iloc**`  or  `.loc`
 
 # Importing data without choosing an index column
 
@@ -963,7 +963,7 @@ df[['age', 'age', 'age']]
 ![](https://miro.medium.com/max/209/1*fEtloDbpCd9Z3qv_O1MCuQ.png)
 
 
-Summary of Part 1
+## Summary of Part 1
 We covered an incredible amount of ground. Let’s summarize all the main points:
 - Before learning pandas, ensure you have the fundamentals of Python
 - Always refer to the documentation when learning new pandas operations
@@ -983,12 +983,12 @@ We covered an incredible amount of ground. Let’s summarize all the main points
 - .loc can make selections with either a single label, a list of labels, or a slice of labels
 - .loc makes row selections first followed by column selections: df.loc[row_selection, col_selection]
 - .iloc is analogous to .loc but uses only integer location to refer to rows or columns.
-.ix is deprecated and should never be used
-.loc and .iloc work the same for Series except they only select based on the index as there are no columns
-Pandas combines the power of python lists (selection via integer location) and dictionaries (selection by label)
-You can use just the indexing operator to select rows from a DataFrame, but I recommend against this and instead sticking with the explicit .loc and .iloc
-Normally data is imported without setting an index. Use the set_index method to use a column as an index.
-You can select a single column as a Series from a DataFrame with dot notation
+- .ix is deprecated and should never be used
+- .loc and .iloc work the same for Series except they only select based on the index as there are no columns
+- Pandas combines the power of python lists (selection via integer location) and dictionaries (selection by label)
+- You can use just the indexing operator to select rows from a DataFrame, but I recommend against this and instead sticking with the explicit .loc and .iloc
+- Normally data is imported without setting an index. Use the set_index method to use a column as an index.
+- You can select a single column as a Series from a DataFrame with dot notation
 # Way more to the story
 
 This is only part 1 of the series, so there is much more to cover on how to select subsets of data in pandas. Some of the explanations in this part will be expanded to include other possibilities.
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MTU1NDMyXX0=
+eyJoaXN0b3J5IjpbLTk5MTgyMjgxNF19
 -->
