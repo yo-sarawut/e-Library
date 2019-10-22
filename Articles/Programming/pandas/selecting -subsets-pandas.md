@@ -905,8 +905,7 @@ It is common to see pandas code that reads in a DataFrame with a RangeIndex and 
   ```py
 df2_idx = df2.set_index('Names')  
 df2_idx
-
-![](https://miro.medium.com/max/60/1*3x34RRUQyGKE9lkI-Za6yw.png?q=20)
+  ```
 
 ![](https://miro.medium.com/max/400/1*3x34RRUQyGKE9lkI-Za6yw.png)
 
@@ -917,8 +916,10 @@ Notice that this DataFrame does not look exactly like our first one from the ver
 # DataFrame column selection with dot notation
 
 Pandas allows you to select a single column as a Series by using  **dot notation**. This is also referred to as  **attribute access**. You simply place the name of the column without quotes following a dot and the DataFrame like this:
-
->>> df.state  
+  ```py
+df.state  
+  ```
+  ```py
 Jane         NY  
 Niko         TX  
 Aaron        FL  
@@ -935,18 +936,18 @@ Dean         32
 Christina    33  
 Cornelia     69  
 Name: age, dtype: int64
-
+  ```
 # Pros and cons when selecting columns by attribute access
 
 The best benefit of selecting columns like this is that you get help when chaining methods after selection. For instance, if you place another dot after the column name and press  **tab**, a list of all the Series methods will appear in a pop-up menu. It will look like this:
 
-![](https://miro.medium.com/max/60/1*-LvX7f1u0S8xRPXp_YLJfw.png?q=20)
+
 
 ![](https://miro.medium.com/max/468/1*-LvX7f1u0S8xRPXp_YLJfw.png)
 
 This help disappears when you use just the indexing operator:
 
-![](https://miro.medium.com/max/60/1*eV73GAR5_rkckmt_pGXAVQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/443/1*eV73GAR5_rkckmt_pGXAVQ.png)
 
@@ -955,10 +956,9 @@ The biggest drawback is that you cannot select columns that have spaces or other
 # Selecting the same column twice?
 
 This is rather peculiar, but you can actually select the same column more than once:
-
+  ```py
 df[['age', 'age', 'age']]
-
-![](https://miro.medium.com/max/48/1*fEtloDbpCd9Z3qv_O1MCuQ.png?q=20)
+  ```
 
 ![](https://miro.medium.com/max/209/1*fEtloDbpCd9Z3qv_O1MCuQ.png)
 
@@ -1010,5 +1010,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTYzNTcxOTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzMyMTk3NzVdfQ==
 -->
