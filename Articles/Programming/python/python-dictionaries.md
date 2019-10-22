@@ -200,7 +200,7 @@ Most dictionary operations have a time complexity of O(1) — implying that the 
 Creating a dictionary runs in a linear time of O(N), where “N” is the number of key-value pairs.  
 Similarly, all iterations run in O(N) since the loop has to run N times.
 
-![](https://miro.medium.com/max/30/1*7m8zUws--GJbd_4UorQVYQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/682/1*7m8zUws--GJbd_4UorQVYQ.png)
 
@@ -211,5 +211,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzU0NDM1MF19
+eyJoaXN0b3J5IjpbLTg4MzE4NzI3M119
 -->
