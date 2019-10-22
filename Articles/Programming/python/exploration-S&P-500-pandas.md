@@ -7,34 +7,37 @@ In this article we want to explore whether it is true that staying in the market
 Import the Python libraries that are commonly used for data analysis and data exploration such as Pandas and Matplotlib.
 
 In [1]:
-
-**import** **pandas** **as** **pd**  
-**import** **numpy** **as** **np**  
-**import** **matplotlib.pyplot** **as** **plt**
-
+```py
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
 Read the files with S&P 500 data into Pandas dataframes.
 
 In [2]:
-
+```py
 df1 = pd.read_csv('SP5001.csv')  
 df2 = pd.read_csv('SP5002.csv')  
-df3 = pd.read_csv('SP5003.csv')df = pd.concat([df1,df2,df3])
-
+df3 = pd.read_csv('SP5003.csv')
+df = pd.concat([df1,df2,df3])
+```
 The dataset has a number of columns such as Open, Close etc. For the purposes of our exploration we will focus only on the Close price since we are interested in trends and not necessarily accuracy of returns.
 
 In [3]:
-
+```py
 df.head()
-
-![](https://miro.medium.com/max/30/1*SsOiGgSupnC8UWCrBjWNDw.png?q=20)
+```
 
 ![](https://miro.medium.com/max/603/1*SsOiGgSupnC8UWCrBjWNDw.png)
 
 Take a look at the datatypes
 
 In [4]:
-
-df.info()<class 'pandas.core.frame.DataFrame'>  
+```py
+df.info()
+```
+```py
+<class 'pandas.core.frame.DataFrame'>  
 Int64Index: 15429 entries, 0 to 118  
 Data columns (total 7 columns):  
 Adj Close    15429 non-null float64  
@@ -46,7 +49,7 @@ Open         15429 non-null float64
 Volume       15429 non-null int64  
 dtypes: float64(5), int64(1), object(1)  
 memory usage: 964.3+ KB
-
+```
 The datatype of the Date field needs to be converted into datetime64. This will help with plotting and computations as we shall see ahead.
 
 In [5]:
@@ -273,5 +276,5 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 >  [Source](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA0MzY0OV19
+eyJoaXN0b3J5IjpbMTIyNDA3NDE3OV19
 -->
