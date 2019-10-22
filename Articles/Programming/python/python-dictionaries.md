@@ -78,7 +78,15 @@ Creating dictionary with list of key-value tuples
 
 We passed a sequence, in this case a list of key-value tuples, to the  `dict()`  constructor to create our dictionary, and assigned it to the variable  `job2`.
 
-
+```py
+# Using keyword arguments
+dict(
+  title="Marketing & Business Development Manager",
+  location="Mombasa",job_type="Full Time",
+  employer="KUSCCO Limited (Kenya Union of Savings & Credit Co-operatives Limited)",
+  category="Marketing & Communications"
+)
+```
 
 Creating dictionary with dict( )
 
@@ -88,7 +96,15 @@ Here, we created a dictionary using named arguments. The keys are the argument n
 
 As we mentioned earlier on, dictionaries are indexed using their keys.  
 To access a particular value in a dictionary we use the indexing operator (key inside square brackets). However, to use this method, we need to make sure the key we intend to retrieve exists, lest we get a  `KeyError`. Checking for availability of a key is as easy as using the  `in`  operator.
+```py
+# Check existence of title
+"title" in job2 # returns True
 
+"salary" in job2 # returns False
+
+# Using key indexing
+job2["title"] # return 'Marketing & Business Development Manager'
+```
 Indexing
 
 -   In the example above we use indexing to access the  `title`  from  `job2`  after making sure it is available using  `in`.
@@ -117,7 +133,20 @@ Dictionaries can be modified directly using the keys or using the  `update()`  m
 -   Modify the  `job_type`  to be "Part time".
 -   Update the  `salary`  to 20000.
 -   Update the dictionary to include a new item (available) with a value of  `True`.
+```py
+# Adding a new entry for salary using the index
+job2["salary"] = 10000
 
+# Modifying the entry for job_type using the index
+job2["job_type"] = "Part time"
+
+# Modifying the salary entry using update
+job2.update({"salary":20000})
+
+# Adding the available entry using update
+job2.update({"available":True})
+
+```
 Updating dictionaries
 
 To add a new entry, we use syntax similar to indexing. If the key exists, then the value will be modified, however, if the key doesn’t exist, a new entry will be created with the specified key and value.
@@ -231,5 +260,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzMwODYyMF19
+eyJoaXN0b3J5IjpbODQ3OTg1Mjk2XX0=
 -->
