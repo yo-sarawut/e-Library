@@ -145,7 +145,6 @@ job2.update({"salary":20000})
 
 # Adding the available entry using update
 job2.update({"available":True})
-
 ```
 Updating dictionaries
 
@@ -155,13 +154,32 @@ To add a new entry, we use syntax similar to indexing. If the key exists, then t
 -   Next, we use the  `update()`  method to change the  `salary`  value to 20000, since  `salary`  is already a key in the dictionary. Finally, we apply  `update()`  to the dictionary, a new entry is created with a key of  `available`  and value of  `True`.
 
 A particularly nice use case for  `update()`  is when we need to merge two dictionaries. Say we have another dictionary  `extra_info`  containing extra fields for a job, and we would like to merge this with  `job2`.
+```py
+extra_info = {
+  "verified":True,
+  "qualification":"Undergraduate Degree",
+  "taxable":True}
+
+# Merge extra_info with job2
+job2.update(extra_info)
+```
 
 Merging dictionaries
 
 ## 4. Deletion
 
 We can now remove the just created  `salary`  entry from  `job2`, and remove everything from  `job1`.
+```py
+del job2["salary"]
+del job2["available"]
+print(job2) #return a dictionary without 'salary' and 'available' entries
 
+job1.clear()
+print(job1) #return an empty dictionary
+
+del job1
+print(job1) # return NameError
+```
 Deletion
 
 To remove the entries associated with the  `salary`  and  `available`  keys from  `job2`, we use the  `del`  keyword. Now if we go ahead and print  `job2`, the  `salary`  and  `available`  entries are gone.
@@ -181,6 +199,10 @@ But why would we need to iterate over a dictionary?
 Our dataset has about 860 listings, suppose we wanted to display the properties of all these on our website, it wouldn’t make sense to write the same markup 860 times. It would be efficient to dynamically render the data using a loop.
 
 Let’s iterate over  `job2`  using a  `for-loop`  using all the three methods. Furthermore we'll use the  `csv`  module to read our csv-formatted data in to a list of dictionaries, then we'll iterate through all the dictionaries and print out the keys and values.
+```py
+
+
+```
 
 Dictionary Iteration
 
@@ -260,5 +282,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3OTg1Mjk2XX0=
+eyJoaXN0b3J5IjpbMTQ5ODg3NjYyNV19
 -->
