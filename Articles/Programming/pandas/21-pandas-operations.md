@@ -9,17 +9,17 @@ A CSV file is comma-separated so in order to read a CSV file, do:
 ```python
 df = pd.read_csv(file_path, sep=’,’, header = 0, index_col=False,names=None)
 ```
-**Explanation:**
+Explanation:
 
-`read_csv` function has a plethora of parameters and I have specified only a few, ones that you may use most often. A few key points:
+`read_csv` function has a plethora of parameters and I have specified only a few, ones that you may use most often. 
+A few key points:
 
-- header=0 means you have the names of columns in the first row in the file and if you don’t you will have to specify header=None
-- index_col = False means to not use the first column of the data as an index in the data frame, you might want to set it to true if the first column is really an index.
-- names and want it to be inferred from csv file, which means that your header = some_number contains column names. Otherwise, you can specify the names in here in the same order as you have the data in the csv file. 
+a) `header=0` means you have the names of columns in the first row in the file and if you don’t you will have to specify `header=None`
+b) `index_col = False` means to not use the first column of the data as an index in the data frame, you might want to set it to true if the first column is really an index.
+c) `names = None` implies you are not specifying the column names and want it to be inferred from csv file, which means that your `header = some_number `contains column names. Otherwise, you can specify the names in here in the same order as you have the data in the csv file. 
 If you are reading a text file separated by space or tab, you could simply change the sep to be:
 
-```python
-sep = " " or sep='\t'
+`sep = " "` or `sep='\t'`
 ```
 1. How to create a data frame using a dictionary of pre-existing columns or NumPy 2D arrays?
 Using the dictionary
@@ -174,7 +174,7 @@ df.groupby(['age']).agg(list)
 ```
 20. How to create duplicates for other columns for each element in a list of a particular column?
 The question may be a little confusing. What I actually mean is, suppose you have the following data frame df:
-```
+```py
 Age Height(in cm)
 20  180
 20  175
@@ -183,7 +183,7 @@ Age Height(in cm)
 16  170
 ```
 After applying group-by with a list aggregator, you may get something like:
-```
+```py
 Age Height(in cm)
 20  [180,175]
 18  [165,163]
@@ -193,25 +193,25 @@ Now, what if you want to go back to the original data frame by undoing the last 
 `df['height'].explode()` will give the desired outcome.
 21. How to concatenate two data frames?
 Suppose you have two data-frames df1 and df2 with the given columns name, age, and height and you would want to achieve the concatenation of the two columns. `axis=0` is the vertical axis. Here, the result data-frame will have the columns appended from the data-frames:
-```python
+```py
 df1 --> name,age,height
 df2---> name,age,height
 result = pd.concat([df1,df2],axis=0)
 ```
 For horizontal concatenation,
-```python
+```py
 df1--> name,age
 df2--->height,salary
 result = pd.concat([df1,df2], axis=1) 
 ```
 22. How to merge two data frames?
 For the previous example, assume you have an employee database forming two dataframes like
-```python
+```py
 df1--> name, age, height
 df2---> name, salary, pincode, sick_leaves_taken
 ```
 You may want to combine these two dataframe such that each row has all details of an employee. In order to acheive this, you would have to perform a merge operation.
-```python
+```py
 df1.merge(df2, on=['name'],how='inner')
 ```
 This operation will provide a dataframe where each row will comprise of name, age, height, salary, pincode, `sick_leaves_taken.`
@@ -223,5 +223,5 @@ For any data analysis project as a beginner, you may require to know these opera
 **Contact**
 If you liked this post, please clap and share it with others who might find it useful. I really love data science and if you are interested in it too, let’s connect on LinkedIn or follow me here on towards data science platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjcyMzI1Ml19
+eyJoaXN0b3J5IjpbLTIwMTY5Mzk3NTBdfQ==
 -->
