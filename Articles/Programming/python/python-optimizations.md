@@ -35,19 +35,24 @@ my_func.__code__.co_consts(None, 86400,
 (2, 4, 2, 4, 2, 4, 2, 4, 2, 4), 
 'This is a sequence with a lot of characters', 
 100)
+```
 As you can see, on the output above Python has already pre-calculated the constant values and short sequences, instead of having 60*60*24 the function has already the constant value 86400 , the same thing happens with the tuple and the short string, but as you can see the long sequence didn’t get pre-calculated and instead we get two different constants, 'This is a sequence with a lot of characters' and 100 . As mentioned above, Python has to balance between storage and computation.
 Membership Tests: Replacing mutable data structures for inmutable data structures
 What Python does here is basically transforming mutable data structures to its inmutable version. Lists get transformed into tuples and sets to frozensets.
 For instance,
+```py
 def my_func(element):
     if element in ["a", "b", "c"]:
         print(element)
+  ```
 The code above will be transformed to this,
+```py
 def my_func(element):
     if element in ("a", "b", "c"):
         print(element)
+  ```
 This is done just because accessing to the inmutable version of a data structure is faster than accessing the mutable one. You can check this doing the same thing as before running the follwing code,
-```
+```py
 my_func.__code__.co_consts
 ```
 The output should be the following,
@@ -72,5 +77,5 @@ If you are interested on Python optimizations you could check out my article abo
 
 > Written with [StackEdit](https://medium.com/@gmotzespina/python-optimizations-a822db1f6bf5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMzkyNDkzXX0=
+eyJoaXN0b3J5IjpbMjExNDI4NDQ3OF19
 -->
