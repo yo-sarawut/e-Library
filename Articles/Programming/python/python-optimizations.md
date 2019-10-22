@@ -6,24 +6,31 @@ Python Optimizations
 Peephole is a way Python optimizes certain things of your program at compile time by either pre-calculating constant expressions or transforming certain data structures.
 Constant Expressions
 Optimizing constant expressions is really simple. What Python does is basically pre-calculate constants. Suppose that along your program you have the following multiplication for some reason,
+```py
 secondsInADay = 60*60*24
+```
 What python will do is pre-calculate that multiplication and will replace it for 86400 . You might be wondering why not just write directly 86400 in code, the answer is clarity. On the expression above you can see that in order to calculate how many seconds a day has, you have to multiply 60 seconds time 60 minutes of an hour times 24 hours of a day. This way your code might look clearer. Python won’t make that calculation each time that multiplication appears, it will just pre-calculate it and replace it for the final value.
 Short sequences also get pre-calculated. Imagine you have this code,
+```py
 myTuple = (2, 4)*5      # -> (2, 4, 2, 4, 2, 4, 2, 4, 2, 4)
 myString = "qwerty "*2  # -> "qwerty qwerty "
+```
 As you can see on the code above we have two variables, the first one is a tuple multiplied by 5 and the second one is a short string multiplied by 2, this short sequences will be pre-calculated and Python will replace the original expression with the value on the comments. It is worth to mention that Python has to balance between storage and computation, if it pre-calculates long sequences the program might be faster but it will end up using a lot of memory.
 In order to see that this is happening you can simply open a Python console and write the following code,
+```py
 def my_func():
     a = 60*60*24
     myString = ("querty ") * 2
     myTupple = (2, 4) *5
     myString = ("This is a sequence with a lot of characters") * 100
+```
 Once this function is declared you can write the following code to access all the constants declared on the scope of that funcion,
+```py
 my_func.__code__.co_consts
+```
 The output should be the following,
->>> my_func.__code__.co_consts
-(None, 
-86400, 
+```py
+my_func.__code__.co_consts(None, 86400, 
 'querty querty ', 
 (2, 4, 2, 4, 2, 4, 2, 4, 2, 4), 
 'This is a sequence with a lot of characters', 
@@ -57,10 +64,13 @@ def my_func(element):
     if element in {"a", "b", "c"}:
         print(element)
  my_func.__code__.co_consts
+ ```
+ ```py
 (None, frozenset({'a', 'b', 'c'}))
+```
 If you are interested on Python optimizations you could check out my article about Python optimizations (Intering).
 
 > Written with [StackEdit](https://medium.com/@gmotzespina/python-optimizations-a822db1f6bf5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYwNDc0NTVdfQ==
+eyJoaXN0b3J5IjpbODAwMzkyNDkzXX0=
 -->
