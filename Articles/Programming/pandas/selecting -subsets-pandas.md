@@ -418,7 +418,7 @@ Select a slice of rows and a list of columns:
 ```py
 df.loc['Jane':'Penelope', ['state', 'color']]
 ```
-![](https://miro.medium.com/max/60/1*NA-MxX9soaLLhnq34cp7Rg.png?q=20)
+
 
 ![](https://miro.medium.com/max/190/1*NA-MxX9soaLLhnq34cp7Rg.png)
 
@@ -433,7 +433,7 @@ Select a slice of rows and columns
 ```py
 df.loc[:'Dean', 'height':]
 ```
-![](https://miro.medium.com/max/60/1*hguNxXIZc878r11XzzAW_Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/208/1*hguNxXIZc878r11XzzAW_Q.png)
 
@@ -443,7 +443,7 @@ It is possible to select all of the rows by using a single colon. You can then s
 ```py
 df.loc[:, ['food', 'color']]
 ```
-![](https://miro.medium.com/max/48/1*oRPKw_82d0_PFNB5Cho1zw.png?q=20)
+
 
 ![](https://miro.medium.com/max/204/1*oRPKw_82d0_PFNB5Cho1zw.png)
 
@@ -451,7 +451,7 @@ You can also use this notation to select all of the columns:
 ```py
 df.loc[['Penelope','Cornelia'], :]
 ```
-![](https://miro.medium.com/max/60/1*LfdbzoBocHPGMXT5ZkpKRA.png?q=20)
+
 
 ![](https://miro.medium.com/max/404/1*LfdbzoBocHPGMXT5ZkpKRA.png)
 
@@ -459,7 +459,7 @@ But, it isn’t necessary as we have seen, so you can leave out that last colon:
 ```py
 df.loc[['Penelope','Cornelia']]
 ```
-![](https://miro.medium.com/max/60/1*LfdbzoBocHPGMXT5ZkpKRA.png?q=20)
+
 
 ![](https://miro.medium.com/max/404/1*LfdbzoBocHPGMXT5ZkpKRA.png)
 
@@ -471,7 +471,6 @@ rows = ['Jane', 'Niko', 'Dean', 'Penelope', 'Christina']
 cols = ['state', 'age', 'height', 'score']  
 df.loc[rows, cols]
 ```
-![](https://miro.medium.com/max/60/1*WG_BZ7r77RZtRIiSxZVzqQ.png?q=20)
 
 ![](https://miro.medium.com/max/292/1*WG_BZ7r77RZtRIiSxZVzqQ.png)
 
@@ -509,7 +508,7 @@ Use a list of integers to select multiple rows:
 ```py
 df.iloc[[5, 2, 4]]       # remember, don't do df.iloc[5, 2, 4]
 ```
-![](https://miro.medium.com/max/60/1*WpJZ25LMTESDrozrs7Y5qA.png?q=20)
+
 
 ![](https://miro.medium.com/max/402/1*WpJZ25LMTESDrozrs7Y5qA.png)
 
@@ -519,7 +518,7 @@ Slice notation works just like a list in this instance and is exclusive of the l
 ```py
 df.iloc[3:5]
 ```
-![](https://miro.medium.com/max/60/1*RgXHsZiNzAd8Z_0BK7Olqg.png?q=20)
+
 
 ![](https://miro.medium.com/max/410/1*RgXHsZiNzAd8Z_0BK7Olqg.png)
 
@@ -527,7 +526,7 @@ Select 3rd position until end:
 ```py
 df.iloc[3:]
 ```
-![](https://miro.medium.com/max/60/1*vDDHDznwNeGHYrM18V3ABA.png?q=20)
+
 
 ![](https://miro.medium.com/max/398/1*vDDHDznwNeGHYrM18V3ABA.png)
 
@@ -535,7 +534,7 @@ Select 3rd position to end by 2:
 ```py
 df.iloc[3::2]
 ```
-![](https://miro.medium.com/max/60/1*_MGwbnVitEnnH_RoOAxLxw.png?q=20)
+
 
 ![](https://miro.medium.com/max/396/1*_MGwbnVitEnnH_RoOAxLxw.png)
 
@@ -547,7 +546,7 @@ Select two rows and two columns:
 ```py
 df.iloc[[2,3], [0, 4]]
 ```
-![](https://miro.medium.com/max/60/1*xdBEnpt4APUgtFnmo9uoAw.png?q=20)
+
 
 ![](https://miro.medium.com/max/198/1*xdBEnpt4APUgtFnmo9uoAw.png)
 
@@ -555,7 +554,6 @@ Select a slice of the rows and two columns:
 ```py
 df.iloc[3:6, [1, 4]]
 ```
-![](https://miro.medium.com/max/60/1*4Ff8OMPaU6u1GEG88CrBEQ.png?q=20)
 
 ![](https://miro.medium.com/max/202/1*4Ff8OMPaU6u1GEG88CrBEQ.png)
 
@@ -563,7 +561,7 @@ Select slices for both
 ```py
 df.iloc[2:5, 2:5]
 ```
-![](https://miro.medium.com/max/60/1*jFvBH1eyLSs09-SQIWa2Eg.png?q=20)
+
 
 ![](https://miro.medium.com/max/262/1*jFvBH1eyLSs09-SQIWa2Eg.png)
 
@@ -757,18 +755,18 @@ There are a few more items that are important and belong in this tutorial and wi
 Above, I used just the indexing operator to select a column or columns from a DataFrame. But, it can also be used to select rows using a  **slice**. This behavior is very confusing in my opinion. The entire operation changes completely when a slice is passed.
 
 Let’s use an integer slice as our first example:
+  ```py
+ df[3:6]
+  ```
 
->>> df[3:6]
-
-![](https://miro.medium.com/max/60/1*VLlVzvrycrlMeQw_OPnlmg.png?q=20)
 
 ![](https://miro.medium.com/max/408/1*VLlVzvrycrlMeQw_OPnlmg.png)
 
 To add to this confusion, you can slice by labels as well.
 
->>> df['Aaron':'Christina']
-
-![](https://miro.medium.com/max/60/1*ckgKLl2gSA39EB2I1GH2hw.png?q=20)
+  ```py
+df['Aaron':'Christina']
+  ```
 
 ![](https://miro.medium.com/max/398/1*ckgKLl2gSA39EB2I1GH2hw.png)
 
@@ -777,31 +775,35 @@ To add to this confusion, you can slice by labels as well.
 This feature is not deprecated and completely up to you whether you wish to use it. But, I highly prefer not to select rows in this manner as can be ambiguous, especially if you have integers in your index.
 
 Using  `**.iloc**`  and  `**.loc**`  is explicit and clearly tells the person reading the code what is going to happen. Let's rewrite the above using  `**.iloc**`  and  `**.loc**`.
-
->>> df.iloc[3:6]      # More explicit that df[3:6]
-
-![](https://miro.medium.com/max/60/1*VLlVzvrycrlMeQw_OPnlmg.png?q=20)
+  ```py
+df.iloc[3:6]      # More explicit that df[3:6]
+  ```
 
 ![](https://miro.medium.com/max/408/1*VLlVzvrycrlMeQw_OPnlmg.png)
+  ```py
+ df.loc['Aaron':'Christina'] 
+  ```
 
->>> df.loc['Aaron':'Christina'] 
-
-![](https://miro.medium.com/max/60/1*ckgKLl2gSA39EB2I1GH2hw.png?q=20)
 
 ![](https://miro.medium.com/max/398/1*ckgKLl2gSA39EB2I1GH2hw.png)
 
 # Cannot simultaneously select rows and columns with  `[]`
 
 An exception will be raised if you try and select rows and columns simultaneously with just the indexing operator. You must use  `**.loc**`  or  `**.iloc**`  to do so.
-
->>> df[3:6, 'Aaron':'Christina']  
+  ```py
+df[3:6, 'Aaron':'Christina']  
+  ```
+```py
 TypeError: unhashable type: 'slice'
-
+  ```
+  
 # Using just the indexing operator to select rows from a Series — Confusing!
 
 You can also use just the indexing operator with a Series. Again, this is confusing because it can accept integers or labels. Let’s see some examples
-
->>> food  
+  ```py
+food  
+  ```
+  ```py
 Jane          Steak  
 Niko           Lamb  
 Aaron         Mango  
@@ -818,16 +820,18 @@ Aaron        Mango
 Penelope     Apple  
 Dean        Cheese  
 Name: food, dtype: object
-
+```
 Since Series don’t have columns you can use a single label and list of labels to make selections as well
-
->>> food['Dean']  
+  ```py
+food['Dean']  
+  ```
+```py
 'Cheese'>>> food[['Dean', 'Christina', 'Aaron']]  
 Dean         Cheese  
 Christina     Melon  
 Aaron         Mango  
 Name: food, dtype: object
-
+  ```
 Again, I recommend against doing this and always use  `**.iloc**`  or  `**.loc**`
 
 # Importing data without choosing an index column
@@ -835,66 +839,72 @@ Again, I recommend against doing this and always use  `**.iloc**`  or  `**.loc**
 We imported data by choosing the first column to be the index with the  `**index_col**`  parameter of the  `**read_csv**`  function. This is not typically how most DataFrames are read into pandas.
 
 Usually, all the columns in the csv file become DataFrame columns. Pandas will use the integers 0 to n-1 as the labels. See the example data below with a slightly different dataset:
-
->>> df2 = pd.read_csv('data/sample_data2.csv')  
->>> df2
-
-![](https://miro.medium.com/max/60/1*WIHN9IKCZ2b9AJMVybtkqg.png?q=20)
+  ```py
+ df2 = pd.read_csv('data/sample_data2.csv')  
+df2
+  ```
 
 ![](https://miro.medium.com/max/425/1*WIHN9IKCZ2b9AJMVybtkqg.png)
 
 # The default  `RangeIndex`
 
 If you don’t specify a column to be the index when first reading in the data, pandas will use the integers 0 to n-1 as the index. This technically creates a  `**RangeIndex**`  object. Let's take a look at it.
-
->>> df2.index  
+  ```py
+df2.index  
+  ```
+   ```py
 RangeIndex(start=0, stop=7, step=1)
-
+  ```
 This object is similar to Python  `**range**`  objects. Let's create one:
-
->>> range(7)  
+  ```py
+range(7) 
+  ```
+  ```py
 range(0, 7)
-
+  ```
 Converting both of these objects to a list produces the exact same thing:
-
->>> list(df2.index)  
-[0, 1, 2, 3, 4, 5, 6]>>> list(range(7))  
+  ```py
+ list(df2.index)  
+   ```
+ ```py
 [0, 1, 2, 3, 4, 5, 6]
-
+  ```
+  ```py
+list(range(7))  
+  ```
+  ```py
+[0, 1, 2, 3, 4, 5, 6]
+  ```
 For now, it’s not at all important that you have a  `**RangeIndex**`. Selections from it happen just the same with  `**.loc**`  and  `**.iloc**`. Let's look at some examples.
-
->>> df2.loc[[2, 4, 5], ['food', 'color']]
-
-![](https://miro.medium.com/max/60/1*CM8GwO6O4DjNlNB43AoKZQ.png?q=20)
+  ```py
+df2.loc[[2, 4, 5], ['food', 'color']]
+  ```
 
 ![](https://miro.medium.com/max/143/1*CM8GwO6O4DjNlNB43AoKZQ.png)
-
->>> df2.iloc[[2, 4, 5], [3,2]]
-
-![](https://miro.medium.com/max/60/1*UaTEMv6chUaFv5mXIunb0g.png?q=20)
+  ```py
+df2.iloc[[2, 4, 5], [3,2]]
+  ```
 
 ![](https://miro.medium.com/max/150/1*UaTEMv6chUaFv5mXIunb0g.png)
 
 There is a subtle difference when using a slice.  `**.iloc**`  excludes the last value, while  `**.loc**`  includes it:
-
->>> df2.iloc[:3]
-
-![](https://miro.medium.com/max/60/1*pTp1BxEPoLERdhE6X-FVdg.png?q=20)
+  ```py
+df2.iloc[:3]
+  ```
 
 ![](https://miro.medium.com/max/408/1*pTp1BxEPoLERdhE6X-FVdg.png)
-
->>> df2.loc[:3]
-
-![](https://miro.medium.com/max/60/1*jEJWfGHzkyE24Wv7oy64Cw.png?q=20)
+  ```py
+df2.loc[:3]
+  ```
 
 ![](https://miro.medium.com/max/420/1*jEJWfGHzkyE24Wv7oy64Cw.png)
 
 # Setting an index from a column after reading in data
 
 It is common to see pandas code that reads in a DataFrame with a RangeIndex and then sets the index to be one of the columns. This is typically done with the  `**set_index**`  method:
-
->>> df2_idx = df2.set_index('Names')  
->>> df2_idx
+  ```py
+df2_idx = df2.set_index('Names')  
+df2_idx
 
 ![](https://miro.medium.com/max/60/1*3x34RRUQyGKE9lkI-Za6yw.png?q=20)
 
@@ -1000,5 +1010,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTUxODAyOV19
+eyJoaXN0b3J5IjpbLTE1OTYzNTcxOTFdfQ==
 -->
