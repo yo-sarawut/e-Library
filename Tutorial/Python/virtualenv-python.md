@@ -143,9 +143,6 @@ pip install -r <file requirement>
 เจ้า pip ก็จะลง library ทุกตัวให้อัตโนมัติ ของเพียงแค่ version ของ python เหมือนกัน เพราะ บางทีถ้าเรา freeze library จาก python 3.7 แล้วไปลงใน python 3.6 version ของ library บางตัวอาจจะไม่มีก็ได้ครับ
 
 ### สรุป
-|  |  |
-|--|--|
-|  |  |
 
 |Command	|Descriptions|
 |----------------------|------------------------|
@@ -153,10 +150,10 @@ pip install -r <file requirement>
 |<env_name>/Scripts/activate|	ใช้งาน environment|
 |deactivate|	ออกจาก environtment|
 |pip install <library_name>	|ติดตั้ง library|
-pip freeze	แสดงรายชื่อ library
-สัญลักษณ์ > <output_file>	เป็นการบอกให้เขียนใส่ <output_file>
+|pip freeze|	แสดงรายชื่อ library|
+|สัญลักษณ์ > <output_file>|	เป็นการบอกให้เขียนใส่ <output_file>|
 
 >Source : [skconan.com](https://www.skconan.com/python-virtualenv/?fbclid=IwAR0ZOR242MyfDn-VQucYVdicrAoLuJ25Z_w3z_aI2yvYXx5wbAc_XOwVqpQ).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1MDIyODM3XX0=
+eyJoaXN0b3J5IjpbLTEwNDE0NDg3NjddfQ==
 -->
