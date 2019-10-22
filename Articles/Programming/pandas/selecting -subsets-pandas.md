@@ -962,35 +962,33 @@ df[['age', 'age', 'age']]
 
 ![](https://miro.medium.com/max/209/1*fEtloDbpCd9Z3qv_O1MCuQ.png)
 
-# Summary of Part 1
 
+Summary of Part 1
 We covered an incredible amount of ground. Let’s summarize all the main points:
-
--   Before learning pandas, ensure you have the fundamentals of Python
--   Always refer to the documentation when learning new pandas operations
--   The DataFrame and the Series are the containers of data
--   A DataFrame is two-dimensional, tabular data
--   A Series is a single dimension of data
--   The three components of a DataFrame are the  **index**, the  **columns**  and the  **data**  (or  **values**)
--   Each row and column of the DataFrame is referenced by both a  **label**  and an  **integer location**
--   There are three primary ways to select subsets from a DataFrame —  `**[]**`,  `**.loc**`  and  `**.iloc**`
--   I use the term  **just the indexing operator**  to refer to  `**[]**`  immediately following a DataFrame/Series
--   Just the indexing operator’s primary purpose is to select a column or columns from a DataFrame
--   Using a single column name to just the indexing operator returns a single column of data as a Series
--   Passing multiple columns in a list to just the indexing operator returns a DataFrame
--   A Series has two components, the  **index**  and the  **data**  (**values**). It has no columns
--   `**.loc**`  makes selections  **only by label**
--   `**.loc**`  can simultaneously select rows and columns
--   `**.loc**`  can make selections with either a single label, a list of labels, or a slice of labels
--   `**.loc**`  makes row selections first followed by column selections:  `**df.loc[row_selection, col_selection]**`
--   `**.iloc**`  is analogous to  **.**`**loc**`  but uses only  **integer location**  to refer to rows or columns.
--   `**.ix**`  is deprecated and should never be used
--   `**.loc**`  and  `**.iloc**`  work the same for Series except they only select based on the index as there are no columns
--   Pandas combines the power of python lists (selection via integer location) and dictionaries (selection by label)
--   You can use just the indexing operator to select rows from a DataFrame, but I recommend against this and instead sticking with the explicit  `**.loc**`  and  `**.iloc**`
--   Normally data is imported without setting an index. Use the  `**set_index**`  method to use a column as an index.
--   You can select a single column as a Series from a DataFrame with dot notation
-
+- Before learning pandas, ensure you have the fundamentals of Python
+Always refer to the documentation when learning new pandas operations
+The DataFrame and the Series are the containers of data
+A DataFrame is two-dimensional, tabular data
+A Series is a single dimension of data
+The three components of a DataFrame are the index, the columns and the data (or values)
+Each row and column of the DataFrame is referenced by both a label and an integer location
+There are three primary ways to select subsets from a DataFrame — [], .loc and .iloc
+I use the term just the indexing operator to refer to [] immediately following a DataFrame/Series
+Just the indexing operator’s primary purpose is to select a column or columns from a DataFrame
+Using a single column name to just the indexing operator returns a single column of data as a Series
+Passing multiple columns in a list to just the indexing operator returns a DataFrame
+A Series has two components, the index and the data (values). It has no columns
+.loc makes selections only by label
+.loc can simultaneously select rows and columns
+.loc can make selections with either a single label, a list of labels, or a slice of labels
+.loc makes row selections first followed by column selections: df.loc[row_selection, col_selection]
+.iloc is analogous to .loc but uses only integer location to refer to rows or columns.
+.ix is deprecated and should never be used
+.loc and .iloc work the same for Series except they only select based on the index as there are no columns
+Pandas combines the power of python lists (selection via integer location) and dictionaries (selection by label)
+You can use just the indexing operator to select rows from a DataFrame, but I recommend against this and instead sticking with the explicit .loc and .iloc
+Normally data is imported without setting an index. Use the set_index method to use a column as an index.
+You can select a single column as a Series from a DataFrame with dot notation
 # Way more to the story
 
 This is only part 1 of the series, so there is much more to cover on how to select subsets of data in pandas. Some of the explanations in this part will be expanded to include other possibilities.
@@ -1010,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzMyMTk3NzVdfQ==
+eyJoaXN0b3J5IjpbLTM3MzU1NjAxN119
 -->
