@@ -18,8 +18,8 @@ from datetime import datetime, date
 
 # Set some pandas options controlling output format
 pd.set_option('display.notebook_repr_html', False)
-pd.set_option('display.max_columns', 8)
-pd.set_option('display.max_rows', 10)
+pd.set_option('display.max_columns', 20)
+pd.set_option('display.max_rows', 15)
 pd.set_option('display.width', 80)
 
 # bring in matplotlib for graphics
@@ -739,5 +739,5 @@ df.Close.plot();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MzgzMTZdfQ==
+eyJoaXN0b3J5IjpbLTU4NTUzMDY2NSw1NjgzODMxNl19
 -->
