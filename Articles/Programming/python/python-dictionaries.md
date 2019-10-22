@@ -314,7 +314,17 @@ Compared to lists and tuples, dictionaries take up more space in memory, since t
 -   Since dictionaries are unordered, it would not be sensible to store strictly arranged data in them.  
     A possible candidate data type for this scenario would be the  [OrderedDict](https://docs.python.org/3/library/collections.html#collections.OrderedDict)  from the  [collections](https://docs.python.org/3/library/collections.html)  module. An  `OrderedDict`  is a subclass of the regular  `dict`  class, with the advantage of tracking the order in which keys were added.
 -   Dictionaries are well-designed to let us find a value instantly without necessarily having to search through the entire collection, hence we should not use loops for such an operation.
-
+```py
+# How not to search for a value and return it
+key_i_need = "location"
+target = ""
+for key in job2:
+    if key == key_i_need:
+        target = job2[key]
+        
+# How to search efficiently
+target = job2.get("location")
+```
 Antipatterns
 
 We have a variable  `key_i_need`  containing the key we want to search for. We have used a for loop to traverse the collection, comparing the key at each step with our variable. If we get a match, we assign that key's value to the variable  `target`.  
@@ -340,5 +350,5 @@ Dictionary Operations —  [https://www.ics.uci.edu/~brgallar/week8_2.html](http
 Dictionaries come in very handy for regular python usage. They are suitable for use with unordered data that relies on relations. Caution should however be exercised to ensure we do not use dictionaries in the wrong way and end up slowing down execution of our code. For further reading please refer to the official python documentation on  [mapping types](https://docs.python.org/3/library/stdtypes.html#typesmapping).
 > Written with [StackEdit](https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTc5OTUyNV19
+eyJoaXN0b3J5IjpbLTI5Mzk2MjYxXX0=
 -->
