@@ -1,7 +1,14 @@
+EXPERIENTIAL LEARNING: 8 ข้อครูควรรู้ เมื่อจัดการเรียนรู้ผ่านประสบการณ์
+===
+-   เพราะหัวใจของการศึกษาคือ การเรียนรู้ผ่านประสบการณ์จริง
+-   ครูคือผู้ช่วยคนสำคัญที่จะเปิดโอกาสให้นักเรียน โดยเน้นการเรียนรู้ที่เด็กได้คิดเองทำเอง และนำสิ่งที่เรียนรู้ไปใช้กับชีวิตและการทำงานจริง
+-   ครูและผู้สนใจการศึกษาแบบนี้ เริ่มต้นได้ด้วย ‘ทฤษฎีการเรียนรู้จากประสบการณ์ หรือ Experiential Learning Theory
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+> Source: [The Potential](https://thepotential.org/2019/07/31/eight-experiential-learning/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTk5MTM3MzcxNl19
 -->
