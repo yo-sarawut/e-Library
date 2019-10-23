@@ -116,67 +116,67 @@ dataframe2 = dataframe.loc[:,dataframe.isnull().any()]
 dataframe3 = dataframe.loc[:,dataframe.notnull().all()]
 ```
 ### วิธีเลือกแถวตามเงื่อนไขที่ต้องการ
-
+```py
 dataframe[dataframe['C1']>50] # เงื่อนไขแบบง่าย ๆ
 dataframe2 = dataframe.loc[dataframe.C1.isin([1,2,3])] # เงื่อนไขแบบซับซ้อน
-
-ถ้ามีหลายเงื่อนไขเราสามารถใช้ & (and) หรือ | (or) ได้
-
+```
+ถ้ามีหลายเงื่อนไขเราสามารถใช้ **& (and)** หรือ **| (or)** ได้
+```py
 dataframe[(dataframe['C1']>50) & ((dataframe['C2']<25) | (dataframe['C2']>75))]
-
+```
 หรือใช้ Query เป็นเงื่อนไขได้ด้วย มีประโยชน์มากเวลาเรามีเงื่อนไขแปลก ๆ ไม่ต้องเขียนลูปขึ้นมาเองเลยครับ
-
+```py
 dataframe2 = dataframe.query('C1 > C2')
-
+```
 ### วิธีเพิ่มคอลัมน์ใหม่
 
 สามารถเพิ่มคอลัมน์ใหม่ได้ 2 แบบ คือ
 
 1.  เพิ่มโดยอิงจากคอลัมน์เดิม (เช่น เอาคอลัมน์เดิม + 10 หรือ เอาคอลัมน์ A – คอลัมน์ B มีประโยชน์มากตอนทำ Feature Engineering)
 2.  เพิ่มคอลัมน์โดยตั้งค่า Fix ไปเลยสำหรับทุกแถว ส่วนใหญ่จะใช้วิธีนี้เวลาเราอยากได้ค่าอะไรแปลก ๆ ที่ต้องเขียนลูปเพื่อใส่ค่า ก็สร้างคอลัมน์แบบ Fix ค่าก่อน แล้วต่อด้วยลูป
-
+```py
 df['new'] = dataframe['old'] + 10 # use old values
 df['new2'] = 5 # apply the same value
-
+```
 ### การสลับ Row <-> Column (Transpose)
 
 ถ้าเราต้องการ Transpose (อารมณ์เหมือน Vector) เราสามารถใช้คำสั่งนี้ได้เลย
-
+```py
 dataframe.T
-
+```
 ### การต่อ DataFrame
 
 การต่อ Data Frame คือการเอา Data Set 2 ชุดมาต่อกันในแถวตั้งหรือแนวนอน สำหรับการต่อแบบปะติดไปเลย
 
 มี 2 คำสั่งที่เหมือนกัน คือ concat กับ append แต่ให้ใช้ concat ไปเลย เพราะ append เป็นคำสั่งที่ไม่ Memory Efficient
-
+```py
 pd.concat([df1,df2], axis=1) # รวมกัน 2 คอลัมน์ (axis = 0 คือแถว, axis = 1 คือคอลัมน์)
 pd.concat([df1,df2,df3)] # รวมมากกว่า 2 คอลัมน์ก็ได้
 pd.concat(…, ignore_index=True) # รวมเสร็จแล้ว reset index ให้ด้วย ควรใช้ ไม่งั้นจะเจอ row ID ซ้ำกันตอนรวมร่าง
 pd.concat(…, join='inner') # รวมร่างเฉพาะคอลัมน์ที่ df1 กับ df2 มีทั้งคู่
 pd.concat(…, keys=['source1', 'source2']) # เพิ่มคอลัมน์เข้าไปด้วยเพื่อระบุว่า Row แต่ละอันมาจาก Data Frame อันไหน
 pd.concat(…, join_axes=[df2.index]) # เลือกรวมร่างเฉพาะ row index ที่เรากำหนดได้
-
+```
 ### การต่อ DataFrame แบบ Join
 
 ถ้าต้องการต่อ DataFrame แบบ Advance หน่อย เราก็สามารถ Join DataFrame ได้เหมือน Join Table ใครเขียน SQL มาก่อนน่าจะถนัดเลย
-
+```py
 pd.merge(df1, df2, left_on="col1", right_on="col2", how="inner")
-
+```
 เราสามารถเปลี่ยนตรง how=”inner” เป็น “outer”, “left”, “right” เพื่อเปลี่ยนเป็น Outer Join, Left Join, Right Join ได้อีกด้วย
 
 ### การหาค่า Mean, Sum, Max (Aggregate) แบบทั้ง DataFrame
 
 Pandas สามารถสั่ง Aggregate เพื่อหาค่า Mean, Sum, และ Max ได้เลย เหมาะมากเวลาเราต้องการรวบข้อมูลก่อนเอาไป Visualize หรือต้องการทำ Feature Engineering ก็ได้
-
+```py
 newdf = df.agg(['sum', 'max','mean'])
-
+```
 ### การ Aggregate แบบตามกลุ่มที่ต้องการ
 
 บางทีเราอยาก Aggregate ข้อมูลตามการจัดกลุ่มในคอลัมน์อื่น เช่น เราอยากได้รายจ่ายทั้งหมดของแต่ละคน (ต้อง aggregate sum ของคอลัมน์รายจ่าย โดยแบ่งกลุ่มตามคอลัมน์ User ID) ใช้แบบนี้
-
+```py
 aggregate = dataframe.groupby('C1').sum()
-
+```
 ### การรัน Function เดียวกันทุกแถว หรือทุกคอลัมน์
 
 เวลาเราอยากรันคำสั่งอะไรสักอย่างสำหรับทุกแถว หรือทุกคอลัมน์ เราสามารถเขียนได้แบบนี้
@@ -371,5 +371,5 @@ dataframe.to_csv('dataframe.csv')
 
 > Source: [Data TH.com - Data Science ชิลชิล](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODExODMxM119
+eyJoaXN0b3J5IjpbLTU3MDcwNjA0NF19
 -->
