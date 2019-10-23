@@ -19,17 +19,19 @@ At the very beginning, by importing the last version of the data set (that you h
 ``` py
 import pandas as pd  
 df = pd.read_csv('data_immo.clean.csv', delimiter='\t')  
-df.head(1).T ## I like the transpose function as it gives you a better view
+df.head(1).T 
+## I like the transpose function as it gives you a better view
 ``` 
-![](https://miro.medium.com/max/16/1*z7akDcjftqGVoxxkKGNK-Q.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/232/1*z7akDcjftqGVoxxkKGNK-Q.jpeg)
 
 _using the transpose on one line allows you to see easily type of data and column name_
+``` py
+df.describe() 
+## Always worth checking
+``` 
 
-df.describe() ## Always worth checking
-
-![](https://miro.medium.com/max/30/1*-Z9tupV_TodaAzKSHBQqkA.jpeg?q=20)
 
 ![](https://miro.medium.com/max/650/1*-Z9tupV_TodaAzKSHBQqkA.jpeg)
 
@@ -46,7 +48,8 @@ We import the datetime if we want to actually do other stuff from the datetime c
 import datetime  
 df['date'] = pd.to_datetime(df['date_year_month'],format= '%Y%m') ## This will create a new column that contains your datetime element  
 ##Let's not stop here and analyze the different element identified in that column   
-df['date'].value_counts() ##Unique values and number of occurences
+df['date'].value_counts() 
+##Unique values and number of occurences
 ``` 
 ![](https://miro.medium.com/max/14/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg?q=20)
 
@@ -209,5 +212,5 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMjQ3NzAxXX0=
+eyJoaXN0b3J5IjpbLTE2MjA1NDE4MThdfQ==
 -->
