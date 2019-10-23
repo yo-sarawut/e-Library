@@ -20,7 +20,7 @@ c) `names = None` implies you are not specifying the column names and want it to
 If you are reading a text file separated by space or tab, you could simply change the sep to be:
 
 `sep = " "` or `sep='\t'`
-```
+
 1. How to create a data frame using a dictionary of pre-existing columns or NumPy 2D arrays?
 Using the dictionary
 ```python
@@ -29,11 +29,11 @@ d_dic ={'first_col_name':c1,'second_col_names':c2,'3rd_col_name':c3}
 df = pd.DataFrame(data = d_dic)
 ```
 Using NumPy arrays
-```python
+```py
 np_data = np.zeros((no_of_samples,no_of_features)) 
 ```
 any_numpy_array
-```python
+```py
 df = pd.DataFrame(data=np_data, columns = list_of_Col_names)
 ```
 3. How to visualize the top and bottom x values in a data frame?
@@ -223,5 +223,5 @@ For any data analysis project as a beginner, you may require to know these opera
 **Contact**
 If you liked this post, please clap and share it with others who might find it useful. I really love data science and if you are interested in it too, let’s connect on LinkedIn or follow me here on towards data science platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY5Mzk3NTBdfQ==
+eyJoaXN0b3J5IjpbLTkxMzQ0MjA1NCwtMjAxNjkzOTc1MF19
 -->
