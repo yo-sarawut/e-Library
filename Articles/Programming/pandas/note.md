@@ -4,7 +4,7 @@ Note for Pandas Tutorial
 ## บทความน่าสนใจ
 
 - [Data Cleaning with Python and Pandas: Detecting Missing Values](https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
-- []()
+- [Series หลายบทความเกี่ยวกับ Pandas ของ Dunder-Data](https://medium.com/dunder-data)
 
 
 ## ตัวอย่างหัวข้อการเรียนรู้ Pandas
@@ -48,5 +48,5 @@ Note for Pandas Tutorial
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTk4MjU2MF19
+eyJoaXN0b3J5IjpbLTI3NjAyMTc0Nl19
 -->
