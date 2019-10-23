@@ -143,10 +143,11 @@ Sometimes after we performed group by, we’d like to aggregate the values in th
 df = pd.DataFrame(dict(A=['A','A','A','A','A','B','B','B','B'],  
                        B=[1,1,1,2,2,1,1,1,2],  
                        C=['CA','NY','CA','FL','FL',       
-                          'WA','FL','NY','WA']))tbl = df[['A', 'B', 'C']].drop_duplicates()\  
+                          'WA','FL','NY','WA']))
+tbl = df[['A', 'B', 'C']].drop_duplicates()\  
                          .groupby(['A','B'])['C']\  
                          .apply(list)\  
-                         .reset_index()# list to string (separated by commas)   
+                         .reset_index() # list to string (separated by commas)   
 tbl['C'] = tbl.apply(lambda x: (','.join([str(s) for s in x['C']])), axis = 1)
 ``` 
 
@@ -161,7 +162,8 @@ This is another common data manipulation. All you need is  `.apply()`.
 ``` py
 df = pd.DataFrame(dict(A=[2,6,3],  
                        B=[2,2,6],   
-                       C=[3,2,3]))df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
+                       C=[3,2,3]))
+df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
 df.loc['row_total'] = df.apply(lambda x: x.sum())
 ``` 
 
@@ -188,6 +190,6 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjg5ODExLC0zNTgwOTM5MjksLTE0MD
-g0MzYwNTddfQ==
+eyJoaXN0b3J5IjpbLTYwMzA2ODg2NSwtMzU4MDkzOTI5LC0xND
+A4NDM2MDU3XX0=
 -->
