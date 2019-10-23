@@ -147,6 +147,10 @@ Reference :
 - [https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2)
 - [https://mgronline.com/science/detail/9530000028451](https://mgronline.com/science/detail/9530000028451)
 - [https://www.sanook.com/campus/926492/](https://www.sanook.com/campus/926492/)
+
+ข้อมูล
+- [What is the time? บอกเวลาภาษาอังกฤษ](https://www.dailyenglish.in.th/whats-the-time/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjQyNzU0LDgxNDMyNjIyN119
+eyJoaXN0b3J5IjpbMTg4MTExOTE2MywtNzYyNDI3NTQsODE0Mz
+I2MjI3XX0=
 -->
