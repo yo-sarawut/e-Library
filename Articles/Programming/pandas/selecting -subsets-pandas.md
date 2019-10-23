@@ -14,7 +14,7 @@ This article is available as a  [Jupyter Notebook](https://github.com/tdpetrou/L
 
 This is the beginning of a four-part series on how to select subsets of data from a pandas DataFrame or Series. Pandas offers a wide variety of options for subset selection which necessitates multiple articles. This series is broken down into the following four topics.
 
-1.  [Selection with](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) `[[]](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)`[,](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) `[.loc](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)` [and](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) `[.iloc](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)`
+1.  [Selection with](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) [[]](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)[,](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) [.loc](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) [and](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c) [.iloc](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c)`
 2.  [Boolean indexing](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-39e811c81a0c)
 3.  [Assigning subsets of data](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-3-d5704b4b9116)
 4.  [How NOT to select subsets of data](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzI5OTIxM119
+eyJoaXN0b3J5IjpbMTIzNzc1MzM0NSwxMTM3Mjk5MjEzXX0=
 -->
