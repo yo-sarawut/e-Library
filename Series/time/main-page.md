@@ -14,6 +14,24 @@
 ด้วยความก้าวหน้าทางเทคโนโลยีสารสนเทศ ทำให้ปัจจุบันเราสามารถใช้ระบบชี้ตำแหน่งบนผิวโลก (global positioning system) ร่วมกับโพรโทคอลเวลาเครือข่าย (network time protocol) เพื่อช่วยให้การรักษาเวลาทั่วโลกเป็นไปในทางเดียวกัน
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference :
+- [https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2OTU3MDUxXX0=
+eyJoaXN0b3J5IjpbMTEyMDUzODkwNF19
 -->
