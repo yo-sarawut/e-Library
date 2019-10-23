@@ -350,20 +350,20 @@ thisdata = thisdata.add_prefix('data_')
 เราสามารถ Replace ทั้ง DataFrame ได้เลยแบบนี้
 ```py
 dataframe2 = dataframe.replace(1, -100)
-```p
+```
 เราสามารถ Replace หลายค่าพร้อมกันได้ด้วยครับ และสามารถกำหนด Column ที่ต้องการให้แทนค่าได้ด้วย
-
+```py
 df['city'].replace({
         'BKK':'Bangkok',
         'BNK':'Bangkok'
     }, inplace=True)
-
+```
 ### วิธีการ Export DataFrame เป็นไฟล์ CSV
 
 หลังจากที่เราจัดการ Data เรียบร้อยแล้ว ก็สามารถ Export เป็น CSV เอาไปใช้ต่อกับโปรแกรมอื่น หรืองานส่วนอื่น ๆ ได้ (แอดทำบ่อยเพราะบางทีต้องสลับ Python <-> R รัว ๆ)
-
+```py
 dataframe.to_csv('dataframe.csv')
-
+```
 
 
 
@@ -371,5 +371,5 @@ dataframe.to_csv('dataframe.csv')
 
 > Source: [Data TH.com - Data Science ชิลชิล](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjYyMzkzOV19
+eyJoaXN0b3J5IjpbNzA2NzIyMjFdfQ==
 -->
