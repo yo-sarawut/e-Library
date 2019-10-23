@@ -276,7 +276,7 @@ df[['food']]
 
 Although, this resembles the Series from above, it is technically a DataFrame, a different object.
 
-# Column order doesn’t matter
+## Column order doesn’t matter
 
 When selecting multiple columns, you can select them in any order that you choose. It doesn’t have to be the same order as the original DataFrame. For instance, let’s select  `height`  and  `color`.
 ```py
@@ -286,12 +286,12 @@ df[['height', 'color']]
 
 ![](https://miro.medium.com/max/203/1*JJ5KTFSgyFEGTWvWsN_GSA.png)
 
-# Exceptions
+## Exceptions
 
 There are a couple common exceptions that arise when doing selections with just the indexing operator.
 
--   If you misspell a word, you will get a  `**KeyError**`
--   If you forgot to use a list to contain multiple columns you will also get a  `**KeyError**`
+-   If you misspell a word, you will get a  **KeyError**
+-   If you forgot to use a list to contain multiple columns you will also get a  **KeyError**
 ```py
  df['hight']  
  ```
@@ -299,14 +299,14 @@ There are a couple common exceptions that arise when doing selections with just 
 KeyError: 'hight'>>> df['color', 'age'] # should be:  df[['color', 'age']]  
 KeyError: ('color', 'age')
 ```
-# Summary of just the indexing operator
+## Summary of just the indexing operator
 
 -   Its primary purpose is to select columns by the column names
--   Select a single column as a Series by passing the column name directly to it:  `**df['col_name']**`
--   Select multiple columns as a DataFrame by passing a  **list**  to it:  `**df[['col_name1', 'col_name2']]**`
+-   Select a single column as a Series by passing the column name directly to it:  **df['col_name']**
+-   Select multiple columns as a DataFrame by passing a  **list**  to it:  **df[['col_name1, col_name2']]**
 -   You actually can select rows with it, but this will not be shown here as it is confusing and not used often.
 
-# Getting started with  `.loc`
+## Getting started with  `.loc`
 
 The  `**.loc**`  indexer selects data in a different way than just the indexing operator. It can select subsets of rows or columns. It can also simultaneously select subsets of rows and columns. Most importantly, it only selects data by the  **LABEL**  of the rows and columns.
 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU3NzUwMDEsMTEzNzI5OTIxM119
+eyJoaXN0b3J5IjpbMTY0NjA0NTAxNSwxMTM3Mjk5MjEzXX0=
 -->
