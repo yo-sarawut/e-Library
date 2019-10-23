@@ -44,9 +44,12 @@ Note for ideas
 
 - [[vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)] , [Document](https://webpack.js.org/concepts/loaders/) , [vue-md-loader](https://github.com/wxsms/vue-md-loader)
 - [บอกเวลาภาษาอังกฤษ](https://www.dailyenglish.in.th/whats-the-time/)
+
+- [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgzODEzNDksMTYxNDE4NTY3NCwtMT
-cxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1ODI3MDYsMTk4NTkz
-ODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5MjEsLTM2OTMzOTMzNy
-wtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzODI1Nzg2NTUsLTE0OTgzODEzNDksMT
+YxNDE4NTY3NCwtMTcxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1
+ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5Mj
+EsLTM2OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
+
 -->
