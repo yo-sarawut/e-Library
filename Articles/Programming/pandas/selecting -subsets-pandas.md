@@ -569,7 +569,7 @@ Select a single row and column
 ```py
 df.iloc[0, 2]  
 ```
-```
+```py
 'Steak'
 ```
 Select all the rows and a single column
@@ -590,13 +590,13 @@ Name: score, dtype: float64
 
 Early in the development of pandas, there existed another indexer,  `**ix**`. This indexer was capable of selecting both by label and by integer location. While it was versatile, it caused lots of confusion because it's not explicit. Sometimes integers can also be labels for rows or columns. Thus there were instances where it was ambiguous.
 
-You can still call  `**.ix**`, but it has been deprecated, so please  **never use it**.
+You can still call  **.ix**, but it has been deprecated, so please  **never use it**.
 
-# Selecting subsets of Series
+## Selecting subsets of Series
 
-We can also, of course, do subset selection with a Series. Earlier I recommended using just the indexing operator for column selection on a DataFrame. Since Series do not have columns, I suggest using only  `**.loc**`  and  `**.iloc**`. You can use just the indexing operator, but its ambiguous as it can take both labels and integers. I will come back to this at the end of the tutorial.
+We can also, of course, do subset selection with a Series. Earlier I recommended using just the indexing operator for column selection on a DataFrame. Since Series do not have columns, I suggest using only  **.loc**  and  **.iloc**. You can use just the indexing operator, but its ambiguous as it can take both labels and integers. I will come back to this at the end of the tutorial.
 
-Typically, you will create a Series by selecting a single column from a DataFrame. Let’s select the  `**food**`  column:
+Typically, you will create a Series by selecting a single column from a DataFrame. Let’s select the  **food**  column:
 ```py
 food = df['food']  
 food  
@@ -665,7 +665,7 @@ Name: food, dtype: object
 ```
 # Series selection with  `.iloc`
 
-Series subset selection with  `**.iloc**`  happens similarly to  `**.loc**`  except it uses integer location. You can use a single integer, a list of integers or a slice of integers. Let's see some examples.
+Series subset selection with  **.iloc**  happens similarly to  **.loc**  except it uses integer location. You can use a single integer, a list of integers or a slice of integers. Let's see some examples.
 
 Select a single value:
 ```py 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgyMTkzNiwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbMTM4NTMxODA1MCwxMTM3Mjk5MjEzXX0=
 -->
