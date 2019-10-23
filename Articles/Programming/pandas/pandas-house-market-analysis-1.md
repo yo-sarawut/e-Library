@@ -356,20 +356,21 @@ This time, we will use the method select from numpy :
 df['bedrooms']  =  np.where(df['bedrooms'].isnull(),  df['rooms']-1,  df['bedrooms'])
  ```   
 4.  **Filling the Surface**  
-    For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
+For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
     If we can the average surface for the 2, 3 and 4 room apartment, we could assign the mean value to these room.
     
     For realizing this, we are going to use one of the most important function of pandas. The  **groupby**.
     
   ``` py    
-  df.groupby(['rooms'])['surface'].mean()  ##it should give you something like :
+df.groupby(['rooms'])['surface'].mean()  
+##it should give you something like :
 ```     
- ```     
+ ```py     
 2.0  89.988924    
  3.0  91.100000
  4.0  100.400000
 ```    
-    It is interesting to see that the average surface for your 2 and 3 rooms apartment are not that different.  
+It is interesting to see that the average surface for your 2 and 3 rooms apartment are not that different.  
     Most probably our data are not that clean and some 3 rooms apartment were fetched as 2 rooms apartment.
  
 
@@ -381,18 +382,18 @@ conditions  =  [
 ]    
 choices  =  [90,91.1,100]    
  df['surface']  =  np.select(conditions,choices,default=90.5)#default in between 2 and 3 rooms
-  ```   
+```   
 5.  **Filling the construction year**  
-    On this one, this is pretty hard as the construction year can be really random. You cannot really guess a construction year based on the previous data.  
-    On that case, in order to not false the data to much, I would chose to fill the blank with the mean of this dimension.  
+  On this one, this is pretty hard as the construction year can be really random. You cannot really guess a construction year based on the previous data.  
+On that case, in order to not false the data to much, I would chose to fill the blank with the mean of this dimension.  
     This is another method you can use quick often with pandas :
     
  ``` py
 df['construction_year'].fillna(df['construction_year'].mean(),inplace=True)
   ```   
 6.  **Filling the rest…**  
-    As you may notice while doing a df.isnull().sum() some other columns have NaN but they are actually calculation of other columns.  
-    So you just have to redo the calculation with your primary columns filled and all the NaN will disappear.
+As you may notice while doing a df.isnull().sum() some other columns have NaN but they are actually calculation of other columns.  
+So you just have to redo the calculation with your primary columns filled and all the NaN will disappear.
 
 I hope this tutorial on how to clean your data will help you if you are discovering Data Analysis with Python and Pandas.  
 This is a very important part of working with Data and if you plan to machine learning, cleaning the data and creating value out of NaN data points is one of the most important aspect of Machine Learning.
@@ -402,5 +403,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM5ODEyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzc3NTI2MzldfQ==
 -->
