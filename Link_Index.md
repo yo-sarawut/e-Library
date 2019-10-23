@@ -2,6 +2,12 @@
 
 Link Index
  ===============
+## แหล่งรวมความรู้
+
+- [CU ห้องสมุดออนไลน์ (Online Library) ของจุฬาลงกรณ์มหาวิทยาลัย ](http://www.media.lic.chula.ac.th/#!/)
+
+
+
 # Python
 
 ## Tutorials
@@ -215,10 +221,10 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAxNjUyMywtMTk2MDU5OTM0NSwtNz
-EwNDk2MDc4LDIxNDYwOTA5MDksLTkyMDQ0NzcyMCwxOTU3ODk3
-MTcsLTE3NzI1MTg0NTAsMTY3Mjg3MzMzNiwtMTkyNzU3MDc2MS
-wtNDQ4MzAzMDMwLC03NzU0NTk5NDgsLTE1Mzk1NTU3NTEsNTEz
-ODMwNjIwLDEyNjA5NjUxNjYsLTk1OTY1NTMyMywtMTk0NTU0ND
-M0NCw0NzQ0MjYzNjJdfQ==
+eyJoaXN0b3J5IjpbMTExNjk1NDI5OSwtMTkxMDE2NTIzLC0xOT
+YwNTk5MzQ1LC03MTA0OTYwNzgsMjE0NjA5MDkwOSwtOTIwNDQ3
+NzIwLDE5NTc4OTcxNywtMTc3MjUxODQ1MCwxNjcyODczMzM2LC
+0xOTI3NTcwNzYxLC00NDgzMDMwMzAsLTc3NTQ1OTk0OCwtMTUz
+OTU1NTc1MSw1MTM4MzA2MjAsMTI2MDk2NTE2NiwtOTU5NjU1Mz
+IzLC0xOTQ1NTQ0MzQ0LDQ3NDQyNjM2Ml19
 -->
