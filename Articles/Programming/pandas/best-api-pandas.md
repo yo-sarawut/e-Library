@@ -308,7 +308,7 @@ The dot notation provides no additional functionality over the brackets and does
 
 I suggest using only the brackets for selecting a single column of data. Having just a single approach to this very common task will make your Pandas code much more consistent.
 
-# The deprecated  `ix`  indexer - never use it
+## The deprecated  `ix`  indexer - never use it
 
 Pandas allows you to select rows by either label or integer location. This flexible dual selection capability is a great cause of confusion for beginners. The  `ix`  indexer was created in the early days of Pandas to select rows and columns by both label and integer location. This turned out to be quite ambiguous as Pandas row and column names can be both integers and strings.
 
@@ -316,7 +316,7 @@ To make selections explicit, the`loc`  and  `iloc`  indexers were made available
 
 ## **Guidance:** Every trace of ix should be removed and replaced with  `loc`  or  `iloc`
 
-# Selection with at and iat
+## Selection with at and iat
 
 Two additional indexers,  `at`  and  `iat`, exist that select a single cell of a DataFrame. These provide a slight performance advantage over their analogous  `loc`  and  `iloc`indexers. But, they introduce the additional burden of having to remember what they do. Also, for most data analyses, the increase in performance isn’t useful unless it’s being done at scale. And if performance truly is an issue, then taking your data out of a DataFrame and into a NumPy array will give you a large performance gain.
 
@@ -339,13 +339,13 @@ While  `iat`  is a little less than twice as fast as`iloc`, selection with a Num
 
 ## Guidance: Use NumPy arrays if your application relies on performance for selecting a single cell of data and not  `at`  or  `iat`.
 
-# Method Duplication
+## Method Duplication
 
 There are multiple methods in Pandas that do the exact same thing. Whenever two methods share the same exact underlying functionality, we say that they are  **aliases**  of each other. Having duplication in a library is completely unnecessary, pollutes the namespace and forces analysts to remember one more bit of information about a library.
 
 This next section covers several instances of duplication along with other instances of methods that are very similar to one another.
 
-# `read_csv`  vs  `read_table`  duplication
+## `read_csv`  vs  `read_table`  duplication
 
 One example of duplication is with the  `read_csv`  and  `read_table`  functions. They both do the same exact thing, read in data from a text file. The only difference is that  `read_csv`  defaults the delimiter to a comma, while  `read_table`  uses tab as its default.
 
@@ -368,7 +368,7 @@ I made a post in  [the Pandas Github repo](https://github.com/pandas-dev/pandas/
 
 ## **Guidance: Only use** `read_csv to read in delimitted text files`
 
-# `isna`  vs  `isnull`  and  `notna`  vs  `notnull`
+## `isna`  vs  `isnull`  and  `notna`  vs  `notnull`
 
 The  `isna`  and  `isnull`  methods both determine whether each value in the DataFrame is missing or not. The result will always be a DataFrame (or Series) of all boolean values.
 
@@ -393,7 +393,7 @@ You can also avoid ever using  `notna`  since Pandas provides the inversion oper
 
 ## **Guidance:** Use only  `isna`  and  `notna`
 
-# Arithmetic and Comparison Operators and their Corresponding Methods
+## Arithmetic and Comparison Operators and their Corresponding Methods
 
 All arithmetic operators have corresponding methods that function similarly.
 
@@ -476,8 +476,8 @@ If you are enjoying this article, consider purchasing the  [All Access Pass!](ht
 
 So far we haven’t seen an explicit need for the methods over the operators. Let’s see an example where we absolutely need the method to complete the task. The college dataset contains 9 consecutive columns holding the relative frequency of the undergraduate population by race. The first column is  `ugds_white`  and the last  `ugds_unkn`. Let's select these columns now into their own DataFrame.
 ```python
- college_race = college_idx.loc[:, ‘ugds_white’:’ugds_unkn’]  
- college_race.head()
+college_race = college_idx.loc[:, ‘ugds_white’:’ugds_unkn’]  
+college_race.head()
 ```
 
 ![](https://miro.medium.com/max/1076/1*__Co7Qx7JYY1bAeJC2ctJw.png)
@@ -504,7 +504,7 @@ We then multiply the  `college_race`  DataFrame by this Series. Intuitively, thi
 
 ![](https://miro.medium.com/max/1134/1*X3bdE6iFrFKTLLqrkipLAg.png)
 ```python
- df_attempt.shape
+df_attempt.shape
  ```
  ```python
  (7535, 7544)
@@ -645,13 +645,13 @@ Let’s see if there is a performance difference between each method.
 ```python
 %timeit -n 5 max(ugds)
 ```
-```
+```py
 717 µs ± 46.5 µs per loop 
 ```
 ```python
 %timeit -n 5 ugds.max()
 ```
-```
+```py
 172 µs ± 81.9 µs per loop
 ```
 ## min performance
@@ -693,7 +693,7 @@ Notice that there is no performance difference when calling the  `abs`  function
 
 ## **Guidance:** Use the Pandas method over any built-in Python function with the same name.
 
-# Standardizing  `groupby Aggregation`
+## Standardizing  `groupby Aggregation`
 
 There are a number of syntaxes that get used for the  `groupby`  method when performing an aggregation. I suggest choosing a single syntax so that all of your code looks the same.
 
@@ -743,7 +743,7 @@ Name: satmtmid, dtype: float64
 ```
 Method 2b: The  `aggregate`  method is an alias for  `agg`  and can also be used. This returns the same Series as above.
 ```python
- college.groupby('stabbr')['satmtmid'].aggregate('max').head()
+college.groupby('stabbr')['satmtmid'].aggregate('max').head()
 ```
 Method 3: You can call the aggregating method directly without calling  `agg`. This returns the same Series as above.
 ```python
@@ -765,7 +765,7 @@ This problem isn’t solvable using the other syntaxes.
 
 ## **Guidance** — Use `df.groupby('grouping column').agg({'aggregating column': 'aggregating function'})` as your primary syntax of choice
 
-# Handling a MultiIndex
+## Handling a MultiIndex
 
 A MultiIndex or multi-level index is a cumbersome addition to a Pandas DataFrame that occasionally makes data easier to view, but often makes it more difficult to manipulate. You usually encounter a MultiIndex after a call to`groupby`  when using multiple grouping columns or multiple aggregating columns.
 
@@ -809,7 +809,7 @@ From here, we can use the  `reset_index`  method to make each index level an act
 
 ## Guidance: Avoid using a MultiIndex. Flatten it after a call to  `groupby`  by renaming columns and resetting the index.
 
-# The similarity between groupby, pivot_table, and crosstab
+## The similarity between groupby, pivot_table, and crosstab
 
 Some users might be surprised to find that a`groupby`  (when aggregating),  `pivot_table`, and  `pd.crosstab`  are essentially identical. However, there are specific use cases for each, so all still meet the threshold for being included in a minimally sufficient subset of Pandas.
 
@@ -877,10 +877,10 @@ The  `pivot_table`  method and the  `crosstab`  function can both produce the ex
 ![](https://miro.medium.com/max/484/1*3pi9dGXNr0ZnFre6Sk_Jxg.png)
 
 The  `crosstab`  function produces the exact same result with the following syntax.
-
+```py
  pd.crosstab(index=emp['gender'], columns=emp['race'],   
                 values=emp['salary'], aggfunc='mean').round(-3)
-
+```
 ## crosstab was built for counting
 
 A  [crosstabulation](https://en.wikipedia.org/wiki/Contingency_table)  (also known as a contingency table) shows the frequency between two variables. This is the default functionality for  `crosstab`  if given two columns. Let’s show this by counting the frequency of all race and gender combinations. Notice that there is no need to provide an  `aggfunc`.
@@ -918,7 +918,7 @@ You also have the option of normalizing over the rows using the string ‘index�
 
 All other situations where the  `crosstab`  function may be used can be handled with  `pivot_table`. It is possible to manually calculate the relative frequencies after running  `pivot_table`  so  `crosstab`  isn’t all that necessary. But, it does do this calculation in a single readable line of code, so I will continue to use it.
 
-# pivot vs pivot_table
+## pivot vs pivot_table
 
 There exists a  `pivot`  method that is nearly useless and can basically be ignored. It functions similarly to  `pivot_table`  but does not do any aggregation. It only has three parameters,  `index`,  `columns`, and  `values`. All three of these parameters are present in  `pivot_table`. It reshapes the data without an aggregation. Let’s see an example with a new simple dataset.
 ```python
@@ -954,9 +954,9 @@ There are a couple major issues with the  `pivot`  method. First, it can only ha
 
 Attempting to pivot this will not work as now the combination for both Texas and Florida with Oranges have multiple rows.
 ```python
- df2.pivot(index='state', columns='fruit', values='weight')
+df2.pivot(index='state', columns='fruit', values='weight')
 ```
-```
+```py
 ValueError: Index contains duplicate entries, cannot reshape
 ```
 If you would like to reshape this data, you will need to decide on how you would like to aggregate the values.
@@ -965,7 +965,7 @@ If you would like to reshape this data, you will need to decide on how you would
 
 `pivot_table`  can accomplish all of what  `pivot`  can do. In the case that you do not need to perform an aggregation, you still must provide an aggregation function.
 
-# The similarity between melt and stack
+## The similarity between melt and stack
 
 The  `melt`  and  `stack`  methods reshape data in the same exact manner. The major difference is that the  `melt`  method does not work with data in the index while  `stack`  does. It’s easier to describe how they work with an example. Let’s begin by reading in a small dataset of arrival delay of airlines for a few airports.
 ```python
@@ -993,7 +993,7 @@ The  `stack`  method can produce nearly identical data, but it places the reshap
 
 Now, we can use  `stack`  without setting any parameters to get nearly the same result as  `melt`.
 ```python
- ad_idx.stack()
+ad_idx.stack()
 ```
 ```python
 airline       
@@ -1030,7 +1030,7 @@ I prefer  `melt`  as you can rename columns directly and you can avoid dealing w
 
 ## Guidance — Use  `melt`  over  `stack`  because it allows you to rename columns and it avoids a MultiIndex
 
-# The Similarity between pivot and unstack
+## The Similarity between pivot and unstack
 
 We’ve already seen how the  `pivot`  method words.  `unstack`  is its analog that works with values in the index. Let’s look at the simple DataFrame that we used with  `pivot`.
 ```python
@@ -1208,5 +1208,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjIwODc5M119
+eyJoaXN0b3J5IjpbLTg1Nzk1NzczMV19
 -->
