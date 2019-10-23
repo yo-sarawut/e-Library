@@ -4,13 +4,13 @@ Selecting Subsets of Data in Pandas
 
 This article is available as a  [Jupyter Notebook](https://github.com/tdpetrou/Learn-Pandas/blob/master/Learn-Pandas/Selecting%20Subsets/01%20Selecting%20Subsets%20with%20%5B%20%5D%2C%20.loc%20and%20.iloc.ipynb)  complete with exercises at the bottom to practice and  [detailed solutions](https://github.com/tdpetrou/Learn-Pandas/blob/master/Learn-Pandas/Selecting%20Subsets/Solutions.ipynb)  in another notebook.
 
-# Become an Expert
+## Become an Expert
 
 -   My book  [Master Data Analysis with Python](http://b.link/MDAPM)  is the most comprehensive text on the market to learn data analysis using Python and comes with 300+ exercises and projects.
 -   Sign-up for the  **FREE**  [Intro to Pandas class](http://b.link/IntroToPandasM)
 -   Follow me on  [Twitter @TedPetrou](http://b.link/tedpetrouM)  for my daily data science tricks
 
-# Part 1: Selection with  `[ ]`,  `.loc`  and  `.iloc`
+## Part 1: Selection with  `[ ]`,  `.loc`  and  `.iloc`
 
 This is the beginning of a four-part series on how to select subsets of data from a pandas DataFrame or Series. Pandas offers a wide variety of options for subset selection which necessitates multiple articles. This series is broken down into the following four topics.
 
@@ -19,7 +19,7 @@ This is the beginning of a four-part series on how to select subsets of data fro
 3.  [Assigning subsets of data](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-3-d5704b4b9116)
 4.  [How NOT to select subsets of data](https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-part-4-c4216f84d388)
 
-# Assumptions before we begin
+## Assumptions before we begin
 
 These series of articles assume you have no knowledge of pandas, but that you understand the fundamentals of the Python programming language. It also assumes that you have installed pandas on your machine.
 
@@ -32,15 +32,15 @@ If you have no knowledge of Python then I suggest completing the following two b
 
 I also have a book titled Exercise Python ($15) which covers the fundamentals as well as providing 100+ exercises with detailed solutions.
 
-# The importance of making subset selections
+## The importance of making subset selections
 
 You might be wondering why there need to be so many articles on selecting subsets of data. This topic is extremely important to pandas and it’s unfortunate that it is fairly complicated because subset selection happens frequently during an actual analysis. Because you are frequently making subset selections, you need to master it in order to make your life with pandas easier.
 
-# Always reference the documentation
+## Always reference the documentation
 
 The material in this article is also covered in the official pandas documentation on  [Indexing and Selecting Data](http://pandas.pydata.org/pandas-docs/stable/indexing.html). I highly recommend that you read that part of the documentation along with this tutorial. In fact, the documentation is one of the primary means for mastering pandas. I wrote a step-by-step article,  [How to Learn Pandas](https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955), which gives suggestions on how to use the documentation as you master pandas.
 
-# The anatomy of a DataFrame and a Series
+## The anatomy of a DataFrame and a Series
 
 The pandas library has two primary containers of data, the DataFrame and the Series. You will spend nearly all your time working with both of the objects when you use pandas. The DataFrame is used more than the Series, so let’s take a look at an image of it first.
 
@@ -52,7 +52,7 @@ Anatomy of a DataFrame
 
 This image comes with some added illustrations to highlight its components. At first glance, the DataFrame looks like any other two-dimensional table of data that you have seen. It has rows and it has columns. Technically, there are three main components of the DataFrame.
 
-# The three components of a DataFrame
+## The three components of a DataFrame
 
 A DataFrame is composed of three different components, the  **index**,  **columns**, and the  **data**. The data is also known as the  **values**.
 
@@ -62,21 +62,21 @@ The columns are the sequence of values at the very top of the DataFrame. They ar
 
 Everything else not in bold font is the data or values. You will sometimes hear DataFrames referred to as  **tabular**  data. This is just another name for a rectangular table data with rows and columns.
 
-# Axis and axes
+## Axis and axes
 
 It is also common terminology to refer to the rows or columns as an  **axis**. Collectively, we call them  **axes**. So, a row is an axis and a column is another axis.
 
 The word axis appears as a parameter in many DataFrame methods. Pandas allows you to choose the direction of how the method will work with this parameter. This has nothing to do with subset selection so you can just ignore it for now.
 
-# Each row has a label and each column has a label
+## Each row has a label and each column has a label
 
 The main takeaway from the DataFrame anatomy is that each row has a label and each column has a label. These labels are used to refer to specific rows or columns in the DataFrame. It’s the same as how humans use names to refer to specific people.
 
-# What is subset selection?
+## What is subset selection?
 
 Before we start doing subset selection, it might be good to define what it is. Subset selection is simply selecting particular rows and columns of data from a DataFrame (or Series). This could mean selecting all the rows and some of the columns, some of the rows and all of the columns, or some of each of the rows and columns.
 
-# Example selecting some columns and all rows
+## Example selecting some columns and all rows
 
 Let’s see some images of subset selection. We will first look at a sample DataFrame with fake data.
 
@@ -97,7 +97,7 @@ Our final DataFrame would look like this:
 
 ![](https://miro.medium.com/max/241/1*lvkfp1UmWVp-ugCilEn7iw.png)
 
-# Example selecting some rows and all columns
+## Example selecting some rows and all columns
 
 We can also make selections that select just some of the rows. Let’s select the rows with labels  `Aaron`  and  `Dean`  along with all of the columns:
 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzc1MzM0NSwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbODU0OTI4MjU3LDExMzcyOTkyMTNdfQ==
 -->
