@@ -52,7 +52,7 @@ csvdf.sample()
 ```py
 df.info()
 ```
-![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 2](https://blog.datath.com/wp-content/uploads/2017/11/sample-info-pandas.jpg)](https://blog.datath.com/cheatsheet-pandas/sample-info-pandas/)
+![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 2](https://blog.datath.com/wp-content/uploads/2017/11/sample-info-pandas.jpg)
 ```py
 df.info() # จะแสดงสรุปข้อมูลมาให้
 ```
@@ -371,5 +371,5 @@ dataframe.to_csv('dataframe.csv')
 
 > Source: [Data TH.com - Data Science ชิลชิล](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NzIyMjFdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTgyMDk3OV19
 -->
