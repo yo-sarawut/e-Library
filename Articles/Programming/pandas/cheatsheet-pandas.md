@@ -54,67 +54,67 @@ df.info()
 ```
 ![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 2](https://blog.datath.com/wp-content/uploads/2017/11/sample-info-pandas.jpg)](https://blog.datath.com/cheatsheet-pandas/sample-info-pandas/)
 ```py
-df.info() จะแสดงสรุปข้อมูลมาให้
-
+df.info() # จะแสดงสรุปข้อมูลมาให้
+```
 นอกจากนั้นยังมีคำสั่ง df.dtypes (ไม่มีวงเล็บ) สำหรับดู Data Type แต่ละคอลัมน์อย่างเดียว
 
 ### วิธีแปลงประเภทข้อมูล (Data Type) ใน Data Frame
 
 บางครั้งประเภทข้อมูลของคอลัมน์เป็น String แต่เราต้องการ Integer หรือเราต้องการ Date เราสามารถแปลงข้อมูลได้ง่าย ๆ ดังนี้เลยครับ
-
+```py
 df['hour'] = pd.to_numeric(df['hour']) # แปลงเป็น Numeric
 df['hour'] = df['hour'].astype('int') # อีกวิธีในการแปลงค่า สามารถใช้วิธีนี้แปลงเป็น float ได้
-
+```
 ### วิธีเช็ค Summary ของแต่ละคอลัมน์ (count, min, max, mean)
 
 ถ้าเราอยากรู้ Distribution คร่าว ๆ ของแต่ละคอลัมน์ว่าเป็นอย่างไร สามารถใช้คำสั่ง describe() ได้
-
+```py
 df.describe()
-
+```
 ### วิธีเช็ค Summary (count, min, max, mean) แบบแยกกลุ่ม
 
 บางครั้งเราไม่ได้ต้องการรู้ Summary ของทั้งคอลัมน์ แต่อยากให้แยกตามแต่ละค่าในคอลัมน์นั้น ๆ ครับ ซึ่งมีประโยชน์มากเวลาเราทำ Data Analysis แล้วอยากรู้ว่าบางกลุ่มมีอะไรผิดปกติหรือเปล่า
-
+```py
 test = df.groupby(['Gender'])
 test.describe()
-
+```
 ### วิธีสร้าง DataFrame ใหม่
 
 วิธีสร้างแบบง่ายที่สุด ถ้าต้องการข้อมูลหลายรูปแบบ เราสามารถใช้ Dictionary แบบนี้เลยครับ
-
+```py
 dataframe = pandas.DataFrame({
     'C1': pandas.date_range('20170101', periods=4),
     'C2' : [10,20,30,40],
     'C3': pandas.Categorical(['A','B','C','D']),
     'C4': 1})
-
+```
 แต่ถ้าเราต้องการแค่เป็นแบบตัวเลขทั่วไป ใช้ Numpy แบบนี้ได้เลย
-
+```py
 array = numpy.array([(1,2,3), (4,5,6),(7,8,9)])
 dataframe = pandas.DataFrame(array,columns=['C1','C2','C3'])
-
+```
 ### วิธีเลือกหลายคอลัมน์จาก DataFrame
 
 ปกติถ้าเราต้องการเลือกแค่ 1 Column ก็เขียนแบบนี้ได้เลย
-
+```py
 df['C1']
-
+```
 แต่ถ้าต้องการเลือกหลายคอลัมน์ ให้ทำแบบนี้
-
+```py
 df[['C1','C2']]
-
+```
 ### วิธีเลือกคอลัมน์ตามเงื่อนไขที่ต้องการ
 
 บางทีเราอยาก Filter เฉพาะคอลัมน์ที่มีค่าตามที่เราต้องการโดยใช้ .loc ได้ โดยสามารถเลือก Filter แบบ .all() (ทุกค่าในคอลัมน์ต้องตรงตามเงื่อนไข) หรือ .any() (บางค่าในคอลัมน์ต้องตรงตามเงื่อนไข)
-
+```py
 dataframe2 = dataframe.loc[:,(dataframe>50).any()]
 dataframe3 = dataframe.loc[:,(dataframe>50).all()]
-
+```
 เราสามารถใช้หาคอลัมน์ที่มี Missing Values หรือหาคอลัมน์ที่ไม่มี Missing Values เลยก็ได้
-
+```py
 dataframe2 = dataframe.loc[:,dataframe.isnull().any()]
 dataframe3 = dataframe.loc[:,dataframe.notnull().all()]
-
+```
 ### วิธีเลือกแถวตามเงื่อนไขที่ต้องการ
 
 dataframe[dataframe['C1']>50] # เงื่อนไขแบบง่าย ๆ
@@ -371,5 +371,5 @@ dataframe.to_csv('dataframe.csv')
 
 > Source: [Data TH.com - Data Science ชิลชิล](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NjAyMTkxXX0=
+eyJoaXN0b3J5IjpbLTE2ODExODMxM119
 -->
