@@ -2,6 +2,8 @@
 Note for Pandas Tutorial
 ==
 
+
+
 ## ตัวอย่างหัวข้อการเรียนรู้ Pandas
 
 2 เทคนิคการใช้ Pandas
@@ -43,5 +45,5 @@ Note for Pandas Tutorial
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU1MTU5ODldfQ==
+eyJoaXN0b3J5IjpbLTY1NTcxMTM1M119
 -->
