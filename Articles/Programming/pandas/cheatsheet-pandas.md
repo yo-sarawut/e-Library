@@ -180,39 +180,39 @@ aggregate = dataframe.groupby('C1').sum()
 ### การรัน Function เดียวกันทุกแถว หรือทุกคอลัมน์
 
 เวลาเราอยากรันคำสั่งอะไรสักอย่างสำหรับทุกแถว หรือทุกคอลัมน์ เราสามารถเขียนได้แบบนี้
-
+```py
 # sum for columns
 sum_columns = dataframe[['C1','C2']].apply(sum,axis=0)
 # sum for rows
 sum_rows = dataframe[['C1','C2']].apply(sum,axis=1)
-
+```
 เหมือนกับฟังก์ชั่น apply() ใน R นั่นเอง
 
 ### รันคำสั่งที่เขียนเองกับทุกแถวใน 1 คอลัมน์
 
 ถ้าต้องการรันคำสั่ง (Function) ที่เขียนเอง สำหรับทุกแถวในคอลัมน์อันใดอันหนึ่ง ใช้แบบนี้ได้
-
+```py
 dataframe['C1'] = dataframe['C1'].map(lambda x: x-100)
-
+```
 ### รันคำสั่งที่เขียนเองกับทุกค่า
 
 ถ้าต้องการรันคำสั่งที่เขียนเองกับทุกค่าใน DataFrame ใช้โค้ดนี้
-
+```py
 function_result = dataframe.applymap(lambda x: x*10)
-
+```
 หรือใช้ transform ก็ได้
-
+```py
 new_dataframe = dataframe.transform(lambda x: x*100)
-
+```
 ### คำนวณ Correlation & Covariance
 
 เวลาเราอยากรู้ว่าค่าต่าง ๆ ใน Data Set เรา Correlate กันมั้ย
-
+```py
 dataframe.corr() # Correlation
 dataframe.cov() # Covariance
-
+```
 แต่ค่าที่ออกมาเป็นตัวเลขอาจจะดูยากนิดนึง เราสามารถพลอตสวย ๆ ด้วย Seaborn ได้ครับ สามารถใช้โค้ดด้านล่างนี้ได้เลย
-
+```py
 import seaborn as sns
 
 corr = modeldf.corr()
@@ -225,8 +225,8 @@ cmap = sns.diverging_palette(10, 10, as_cmap=True)
 
 # Draw the heatmap with the mask and correct aspect ratio
 sns.heatmap(corr, annot=True)
-
-[![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 3](https://blog.datath.com/wp-content/uploads/2017/11/seaborn-correlation-heatmap.jpg)](https://blog.datath.com/cheatsheet-pandas/seaborn-correlation-heatmap/)
+```
+![Cheatsheet วิธีใช้ และเทคนิคใน Pandas (Python) ฉบับสมบูรณ์ 3](https://blog.datath.com/wp-content/uploads/2017/11/seaborn-correlation-heatmap.jpg)
 
 Correlation Plot สวย ๆ ด้วย Seaborn
 
@@ -235,25 +235,25 @@ Correlation Plot สวย ๆ ด้วย Seaborn
 Cross Tabulation มีประโยชน์มากเวลาเราอยากรู้ว่ามี Data ที่ตรงกับกรุ๊ป A ของคอลัมน์ 1 และกรุ๊ป B ของคอลัมน์ 2 เท่าไหร่ เช่น มีนักเรียนผู้ชาย (คอลัมน์ gender) กี่คนในมัธยมปลาย (คอลัมน์ education) แบบนี้เป็นต้น
 
 หรือถ้าใครใช้ PivotTable ใน Excel มาก่อน ก็เหมือนกันเลยครับ
-
+```py
 aggregate = pandas.crosstab(dataframe.C1, dataframe.C2)
-
+```
 ### วิธีหาค่า Unique ในแต่ละคอลัมน์
 
 คำสั่งนี้มีประโยชน์มาก เอาไว้ใช้เช็คว่าแต่ละคอลัมน์มีค่าแปลก ๆ มั้ย
 
 ตัวอย่างการใช้งานก็คือ เราอยากรู้ว่า มีบ้านไหนที่มีจำนวนห้องนอนแปลก ๆ มั้ย (เช่น 50 ห้องนอน หรือ -5 ห้องนอน) ก็หาค่า unique จากคอลัมน์ “bedrooms”
-
+```py
 dataframe['C1'].unique()
-
+```
 ### วิธีเช็คว่ามีแถวไหนข้อมูลซ้ำมั้ย (Duplicated)
 
 อันนี้มีประโยชน์มาก เอาไว้ใช้เช็คว่ามีข้อมูลแปลก ๆ มั้ย เช่น ทุกคอลัมน์ซ้ำกันหมด (อันนี้มีโอกาสว่าเป็นข้อมูลซ้ำ อาจจะต้องลบออก) หรือซ้ำกันบางคอลัมน์ (อันนี้ต้องเช็คอีกทีว่าคืออะไร)
-
+```py
 dataframe.duplicated() # หาอันที่เหมือนกันทุกคอลัมน์
 dataframe.duplicated('C1') # หาอันที่ซ้ำกันเฉพาะคอลัมน์ C1
 dataframe.duplicated(['C1', 'C2']) # หาอันที่ซ้ำกันเฉพาะคอลัมน์ C1 และ C2
-
+```
 ปกติแล้วถ้ามีไอเทมซ้ำ คำสั่งนี้จะไม่แสดงไอเทมแรกในกลุ่มที่ซ้ำ (เช่น ถ้า C1=5 มี 2 แถว มันจะแสดงเฉพาะแถวที่ 2) เราสามารถใส่ Argument  **keep=False**  เข้าไปเพื่อบังคับให้มันแสดงทุกแถวได้
 
 นอกจากนั้นเรายังสามารถนับจำนวนแถวที่ Duplicate และลบทิ้งได้ด้วย
@@ -371,5 +371,5 @@ dataframe.to_csv('dataframe.csv')
 
 > Source: [Data TH.com - Data Science ชิลชิล](https://blog.datath.com/cheatsheet-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDcwNjA0NF19
+eyJoaXN0b3J5IjpbLTQxMzAxMjg1M119
 -->
