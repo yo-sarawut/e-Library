@@ -211,35 +211,35 @@ type(index)
 ```py
 pandas.core.indexes.base.Index
 ```
-```
+```py
  type(columns) 
  ```
- ``` 
+ ``` py
 pandas.core.indexes.base.Index
 ```
-```
+```py
 type(values)  
 ```
-```
+```py
 numpy.ndarray
 ```
-# Understanding these types
+## Understanding these types
 
-Interestingly, both the index and the columns are the same type. They are both a pandas  `**Index**`  object. This object is quite powerful in itself, but for now you can just think of it as a sequence of labels for either the rows or the columns.
+Interestingly, both the index and the columns are the same type. They are both a pandas  **Index**  object. This object is quite powerful in itself, but for now you can just think of it as a sequence of labels for either the rows or the columns.
 
-The values are a NumPy  `**ndarray**`, which stands for n-dimensional array, and is the primary container of data in the NumPy library. Pandas is built directly on top of NumPy and it's this array that is responsible for the bulk of the workload.
+The values are a NumPy  **ndarray**, which stands for n-dimensional array, and is the primary container of data in the NumPy library. Pandas is built directly on top of NumPy and it's this array that is responsible for the bulk of the workload.
 
-# Beginning with just the indexing operator on DataFrames
+## Beginning with just the indexing operator on DataFrames
 
 We will begin our journey of selecting subsets by using just the indexing operator on a DataFrame. Its main purpose is to select a single column or multiple columns of data.
 
-# Selecting a single column as a Series
+## Selecting a single column as a Series
 
 To select a single column of data, simply put the name of the column in-between the brackets. Let’s select the food column:
 ```py
 df['food']  
 ```
-```result
+```py
 Jane          Steak  
 Niko           Lamb  
 Aaron         Mango  
@@ -249,13 +249,13 @@ Christina     Melon
 Cornelia      Beans  
 Name: food, dtype: object
 ```
-# Anatomy of a Series
+## Anatomy of a Series
 
 Selecting a single column of data returns the other pandas data container, the Series. A Series is a one-dimensional sequence of labeled data. There are two main components of a Series, the  **index**  and the  **data**(or  **values**). There are NO columns in a Series.
 
 The visual display of a Series is just plain text, as opposed to the nicely styled table for DataFrames. The sequence of person names on the left is the index. The sequence of food items on the right is the values.
 
-You will also notice two extra pieces of data on the bottom of the Series. The  **name**  of the Series becomes the old-column name. You will also see the data type or  `**dtype**`  of the Series. You can ignore both these items for now.
+You will also notice two extra pieces of data on the bottom of the Series. The  **name**  of the Series becomes the old-column name. You will also see the data type or  **dtype**  of the Series. You can ignore both these items for now.
 
 # Selecting multiple columns with just the indexing operator
 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTczNjI3OTUsMTEzNzI5OTIxM119
+eyJoaXN0b3J5IjpbLTE3MzU3NzUwMDEsMTEzNzI5OTIxM119
 -->
