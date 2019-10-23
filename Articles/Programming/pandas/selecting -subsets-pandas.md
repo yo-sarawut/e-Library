@@ -426,7 +426,7 @@ Select a single row and a single column. This returns a scalar value.
 ```py
 df.loc['Jane', 'age']  
 ```
-```
+```py
 30
 ```
 Select a slice of rows and columns
@@ -437,7 +437,7 @@ df.loc[:'Dean', 'height':]
 
 ![](https://miro.medium.com/max/208/1*hguNxXIZc878r11XzzAW_Q.png)
 
-# Selecting all of the rows and some columns
+## Selecting all of the rows and some columns
 
 It is possible to select all of the rows by using a single colon. You can then select columns as normal:
 ```py
@@ -463,7 +463,7 @@ df.loc[['Penelope','Cornelia']]
 
 ![](https://miro.medium.com/max/404/1*LfdbzoBocHPGMXT5ZkpKRA.png)
 
-# Assign row and column selections to variables
+## Assign row and column selections to variables
 
 It might be easier to assign row and column selections to variables before you use  `.loc`. This is useful if you are selecting many rows or columns:
 ```py
@@ -538,7 +538,7 @@ df.iloc[3::2]
 
 ![](https://miro.medium.com/max/396/1*_MGwbnVitEnnH_RoOAxLxw.png)
 
-# Selecting rows and columns simultaneously with  `.iloc`
+## Selecting rows and columns simultaneously with  `.iloc`
 
 Just like with  `.iloc`  any combination of a single integer, lists of integers or slices can be used to select rows and columns simultaneously. Just remember to separate the selections with a  **comma**.
 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgyMTYwMDIsMTEzNzI5OTIxM119
+eyJoaXN0b3J5IjpbLTEyNjgyMTkzNiwxMTM3Mjk5MjEzXX0=
 -->
