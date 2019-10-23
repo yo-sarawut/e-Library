@@ -308,15 +308,15 @@ KeyError: ('color', 'age')
 
 ## Getting started with  `.loc`
 
-The  `**.loc**`  indexer selects data in a different way than just the indexing operator. It can select subsets of rows or columns. It can also simultaneously select subsets of rows and columns. Most importantly, it only selects data by the  **LABEL**  of the rows and columns.
+The  = **.loc**  indexer selects data in a different way than just the indexing operator. It can select subsets of rows or columns. It can also simultaneously select subsets of rows and columns. Most importantly, it only selects data by the  **LABEL**  of the rows and columns.
 
 # Select a single row as a Series with  `.loc`
 
-The  `**.loc**`  indexer will return a single row as a Series when given a single row label. Let's select the row for  `**Niko**`.
+The  **.loc**  indexer will return a single row as a Series when given a single row label. Let's select the row for  **Niko**.
 ```py
 df.loc['Niko']  
 ```
-```
+```py
 state        TX  
 color     green  
 food       Lamb  
@@ -325,29 +325,29 @@ height       70
 score       8.3  
 Name: Niko, dtype: object
 ```
-We now have a Series, where the old column names are now the index labels. The  `**name**`  of the Series has become the old index label,  `**Niko**`  in this case.
+We now have a Series, where the old column names are now the index labels. The  **name**  of the Series has become the old index label,  **Niko**  in this case.
 
-# Select multiple rows as a DataFrame with  `.loc`
+## Select multiple rows as a DataFrame with  `.loc`
 
-To select multiple rows, put all the row labels you want to select in a list and pass that to  `**.loc**`. Let's select  `Niko`  and  `Penelope`.
+To select multiple rows, put all the row labels you want to select in a list and pass that to  **.loc**. Let's select  `Niko`  and  `Penelope`.
 ```py
  df.loc[['Niko', 'Penelope']]
 ```
-![](https://miro.medium.com/max/60/1*r-KQCeJEsK2Ba9zdKOrFyw.png?q=20)
+
 
 ![](https://miro.medium.com/max/397/1*r-KQCeJEsK2Ba9zdKOrFyw.png)
 
-# Use slice notation to select a range of rows with  `.loc`
+## Use slice notation to select a range of rows with  `.loc`
 
 It is possible to ‘slice’ the rows of a DataFrame with  `.loc`  by using  **slice notation**. Slice notation uses a colon to separate  **start**,  **stop**  and  **step**  values. For instance we can select all the rows from  `Niko`  through  `Dean`  like this:
-```ot
+```py
 df.loc['Niko':'Dean']
 ```
-![](https://miro.medium.com/max/60/1*LjZswKJUDlUFHnLRIs-tag.png?q=20)
+
 
 ![](https://miro.medium.com/max/400/1*LjZswKJUDlUFHnLRIs-tag.png)
 
-# `.loc`  includes the last value with slice notation
+## `.loc`  includes the last value with slice notation
 
 Notice that the row labeled with  `Dean`  was kept. In other data containers such as Python lists, the last value is excluded.
 
@@ -357,7 +357,7 @@ You can use slice notation similarly to how you use it with lists. Let’s slice
 ```py
 df.loc[:'Aaron']
 ```
-![](https://miro.medium.com/max/60/1*-_lSxZREXisX6Hc7vanI8w.png?q=20)
+
 
 ![](https://miro.medium.com/max/397/1*-_lSxZREXisX6Hc7vanI8w.png)
 
@@ -365,7 +365,7 @@ Slice from  `Niko`  to  `Christina`  stepping by 2:
 ```py
 df.loc['Niko':'Christina':2]
 ```
-![](https://miro.medium.com/max/60/1*RVd_oBYyVDjY_yDCGQ5fZg.png?q=20)
+
 
 ![](https://miro.medium.com/max/403/1*RVd_oBYyVDjY_yDCGQ5fZg.png)
 
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjA0NTAxNSwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbNzUxODkyNDEzLDExMzcyOTkyMTNdfQ==
 -->
