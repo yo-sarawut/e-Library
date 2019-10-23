@@ -127,14 +127,16 @@ One of the interesting to do with your data is to see reverse the view on them b
 One of interesting analyze that we could do is to see the average price per zip code. In order to have really comparison, we will take the price per square meter (price_surface).
 
 This will return a groupby object, the best would be to store it in a variable.
-
-df_groupby_zip = df.groupby('zip')['price_surface'].mean() ## The good thing is that you can do a groupby on multiple elements.   
-```   
+```py 
+df_groupby_zip = df.groupby('zip')['price_surface'].mean() 
+## The good thing is that you can do a groupby on multiple elements.  
+``` 
+```py   
 df_groupby_zip_room =  df.groupby(['zip','rooms'])['price'].mean()
 ``` 
 This method is actually very powerful. At this state, it gives a clearer view and a new way to see your data. You may also be like “that is nice, it gets ride of the complexity but I would like to know what is actually going on”  
 What if I tell you that you can work with this method in order to see what is going on (how many data points have been aggregated) but adding more calculation into a single command.
-``` 
+```py 
 df_groupby_zip_agg = df.groupby('zip').agg({'price_surface' : ['mean','count','max']})
 ``` 
 WHAT ??? In one line ?  
@@ -144,7 +146,7 @@ As you could have guessed, it would just requires that we add another column nam
 
 The problem comes here as the  _price_surface_ column will have a multiple index and this is not easy to deal with.  
 The way I use to select only one column from the  _price_surface_ data type is to use .loc[] selection.
-``` 
+```py 
 df_groupby_zip_agg.loc[:,('price_surface','mean')]
 ``` 
 # Pandas Visualization
@@ -153,7 +155,7 @@ Pandas has matplotlib integrated in order to realize some easy visualizations.
 You have already seen the boxplot which is quite interesting to have a view on your data set distribution. On the next part of this article, we will see how to create such visualization in order to see your data set.
 
 In order to see the visualization, you want to write this line of code :
-``` py
+```py 
 %matplotlib inline #will generate the graph in your console
 ``` 
 As I explained earlier, the cool thing with our data set is that it is a time series.  
@@ -214,5 +216,5 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzIyNjgxNl19
+eyJoaXN0b3J5IjpbLTUzMDU0NzM3MF19
 -->
