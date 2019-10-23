@@ -51,7 +51,7 @@ df['date'] = pd.to_datetime(df['date_year_month'],format= '%Y%m') ## This will c
 df['date'].value_counts() 
 ##Unique values and number of occurences
 ``` 
-![](https://miro.medium.com/max/14/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/199/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg)
 
@@ -67,7 +67,7 @@ ax = df['price'].plot(kind='box', title='box plot visualization - price') #retur
 ax.set_ylabel('price')  
 ax.set_xlabel('data set')
 ``` 
-![](https://miro.medium.com/max/30/1*0EyOqPEfQVY0H21E_kPD4w.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/533/1*0EyOqPEfQVY0H21E_kPD4w.jpeg)
 
@@ -76,16 +76,16 @@ _oh oh… what are those data points near 0 ?_
 Here you can see that most of the values (25–75%) are within 210 k and 500 K€.  
 But you can also see some extra point and more importantly, it seems that there are data points to clean. We have a price for it but it is 0, which is impossible, even if I would really like this.
 ``` py
-df[df['price'] == df['price'].min()] ## look for the data that match the minimum.  
+df[df['price'] == df['price'].min()] 
+## look for the data that match the minimum.  
 ``` 
 ## In case you want to have some margin against the minimum, you can do something like this   
   
 df[df['price'] < df['price'].min()*1.1] ## Will take everything below 10% more than the minimum.  
 ## it doesn't work in our case as our minimum is 0 but we can set a hardcap nothing below 50K.   
- ```  
+ ```py
 df[df['price'] < 50000]
 ``` 
-![](https://miro.medium.com/max/30/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg?q=20)
 
 ![](https://miro.medium.com/max/1256/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg)
 
@@ -93,12 +93,14 @@ Let’s keep them for now, we could use that data later on.
 We are just removing them away from the main analysis and keep them in a separate data frame.
 ``` py
 df_0_price = df[df['price'] < 50000].copy()  
-df_0_price.reset_index(inplace=True,drop=True) ## let's reset their index  
+df_0_price.reset_index(inplace=True,drop=True) 
+## let's reset their index  
 df = df[df['price'] > 50000]  
-df.reset_index(inplace=True,drop=True) ## let's reset their index  
+df.reset_index(inplace=True,drop=True) 
+## let's reset their index  
 df['price'].plot(kind='box')
 ``` 
-![](https://miro.medium.com/max/30/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/499/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg)
 
@@ -212,5 +214,5 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA1NDE4MThdfQ==
+eyJoaXN0b3J5IjpbLTgwNzIyNjgxNl19
 -->
