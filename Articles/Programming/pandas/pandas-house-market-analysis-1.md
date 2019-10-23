@@ -299,16 +299,16 @@ what you would need to do is to calculate the distribution between an the up flo
 You can easily calculate that the number of ground floor apartment represent around 10% of this column.  
 Therefore we would need to replace 1/10 of the na with a “ground floor” value.
     
-    We can do that by simply creating a function :
+We can do that by simply creating a function :
     
-   ```py 
+```py 
 def fill10pct():
 	if  np.random.random_integers(0,9)  ==  0:
 		  return  'ground floor'    
     else:    
 	    return  'up floor'
   ```   
-    Then you need to apply this to the your rows :
+Then you need to apply this to the your rows :
  ``` py
 for  index,  value in  df.iterrows():
 	if  df.loc[index,'floor']=='nan':    
@@ -330,9 +330,9 @@ You can run a df[‘floor’].value_counts() to check if the distribution was ke
 (df['rooms'].isnull())  &amp;  (df['bedrooms'].notnull())]    
 choices  =  [2,df['bedrooms']+1]
 ```  
-    And we are going to use the numpy select function to decide which option to apply
- ``` 
-    df['rooms']  =  np.select(conditions,  choices,  default=2)
+And we are going to use the numpy select function to decide which option to apply
+ ```py 
+df['rooms']  =  np.select(conditions,  choices,  default=2)
 ```     
  
     
@@ -350,7 +350,8 @@ df['rooms']  =  np.select(conditions,choices,default=2)
 ```   
 3.  **Filling the bedrooms**  
     Filling the bedroom is actually the opposite logic. If you have the number of room, you can actually guess the number of bedroom.  
-    This time, we will use the method select from numpy :
+    
+This time, we will use the method select from numpy :
 ``` py
 df['bedrooms']  =  np.where(df['bedrooms'].isnull(),  df['rooms']-1,  df['bedrooms'])
  ```   
@@ -401,5 +402,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTMwNTcxM119
+eyJoaXN0b3J5IjpbLTE3NDM5ODEyMjRdfQ==
 -->
