@@ -16,7 +16,7 @@ def color_negative_red(val):
                  )  
 df.style.applymap(color_negative_red)
 ``` 
-![](https://miro.medium.com/max/27/1*5bo6KYcrLL-M94WCAkh0cQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/116/1*5bo6KYcrLL-M94WCAkh0cQ.png)
 
@@ -29,7 +29,7 @@ df.style.set_table_styles(
   'props': [('background-color', 'yellow')]}]  
 )
 ``` 
-![](https://miro.medium.com/max/30/1*QJljhjp-loj8ZChihhK7EA.png?q=20)
+
 
 ![](https://miro.medium.com/max/251/1*QJljhjp-loj8ZChihhK7EA.png)
 
@@ -54,7 +54,7 @@ columns=['airlines', 'departure','arrival'])df.style.set_table_styles(
 ]  
 ).hide_index()
 ``` 
-![](https://miro.medium.com/max/30/1*cCPVfB6_nbh6WT99DMgduA.png?q=20)
+
 
 ![](https://miro.medium.com/max/251/1*cCPVfB6_nbh6WT99DMgduA.png)
 
@@ -97,22 +97,22 @@ df = pd.DataFrame(dict(A=['coke', 'sprite', 'coke', 'sprite',
 ``` 
 And the result will look like this:
 
-![](https://miro.medium.com/max/30/1*KVE7ixZmoTuG42El5SSh7A.png?q=20)
+
 
 ![](https://miro.medium.com/max/326/1*KVE7ixZmoTuG42El5SSh7A.png)
 
 Both the rows and columns are multi-indexed. A quick solution to change it to a dataframe without multi-indices is
-
+``` py
 tbl = tbl.reset_index()  
 tbl.columns = ['A', 'B', 'col_1_max', 'col_2_sum', 'col_2_min', 'count']
-
+``` 
 If you would like to have the column renaming process automated, you can do  `tbl.columns.get_level_values(0)`  and  `tbl.columns.get_level_values(1)`  to extract the indices in each level and combine them.
 
 ## 4. Column slicing
 
 Some of you might be familiar with this already, but I still find it very useful when handling a dataframe with a ton of columns.
 ``` py
-df.iloc[:,2:5].head()             # select the 2nd to the 4th column  
+df.iloc[:,2:5].head()   # select the 2nd to the 4th column  
 df.loc[:,'column_x':].head()     
 # select all columns starting from 'column_x'
 ``` 
@@ -132,7 +132,7 @@ df['random_ID'] = df.groupby(['A', 'B'])'random_ID_all'].rank(method='first',asc
 ``` 
 to get
 
-![](https://miro.medium.com/max/30/1*Z1elLpesz3V6ZM-C-v3VHA.png?q=20)
+
 
 ![](https://miro.medium.com/max/331/1*Z1elLpesz3V6ZM-C-v3VHA.png)
 
@@ -149,7 +149,7 @@ df = pd.DataFrame(dict(A=['A','A','A','A','A','B','B','B','B'],
                          .reset_index()# list to string (separated by commas)   
 tbl['C'] = tbl.apply(lambda x: (','.join([str(s) for s in x['C']])), axis = 1)
 ``` 
-![](https://miro.medium.com/max/27/1*4efJCJxBpjhaYnQ4tTAfoQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/140/1*4efJCJxBpjhaYnQ4tTAfoQ.png)
 
@@ -164,7 +164,7 @@ df = pd.DataFrame(dict(A=[2,6,3],
                        C=[3,2,3]))df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
 df.loc['row_total'] = df.apply(lambda x: x.sum())
 ``` 
-![](https://miro.medium.com/max/30/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/225/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png)
 
@@ -186,6 +186,6 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MDY1NTIyLC0zNTgwOTM5MjksLTE0MD
-g0MzYwNTddfQ==
+eyJoaXN0b3J5IjpbLTQ3OTEyMzMwMSwtMzU4MDkzOTI5LC0xND
+A4NDM2MDU3XX0=
 -->
