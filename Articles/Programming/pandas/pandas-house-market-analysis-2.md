@@ -166,7 +166,7 @@ ddf = df.set_index('date')
 ddf_gby_mean = ddf.groupby('date').mean()  
 ddf_gby_mean[['price_room','price']].plot()
 ``` 
-![](https://miro.medium.com/max/30/1*8rAT1CRtMIpxs47XOlQsgA.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/503/1*8rAT1CRtMIpxs47XOlQsgA.jpeg)
 
@@ -182,7 +182,7 @@ You could change the type, using the  _kind_  attribute but there are so much mo
 ``` py
 ddf_gby_mean[['price_room','price']].plot(kind='area',title='price per room & price overtime',figsize=(10,7),cmap='tab20')
 ``` 
-![](https://miro.medium.com/max/30/1*h55hIX5TwTW4faKYnBh3nQ.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/632/1*h55hIX5TwTW4faKYnBh3nQ.jpeg)
 
@@ -194,7 +194,7 @@ We get a higher price average, this may be because the maximum has been increase
 graph = pd.DataFrame(df.groupby('date').agg({'price':['max','count']})) ##setting a new view with groupby  
 ax = graph.loc[:,('price','max')].plot(kind='line',title='Maximum price per month',figsize=(13,6))
 ``` 
-![](https://miro.medium.com/max/30/1*zPOKO8PssBUMw8jevFD-Rg.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/792/1*zPOKO8PssBUMw8jevFD-Rg.jpeg)
 
@@ -205,7 +205,6 @@ Pandas graphic representation are quite useful and will help you to get a good u
 import seaborn as sns  
 sns.relplot(x="construction_year", y="price", hue='rooms',sizes=(20, 400), alpha=.7, height=10, data=df)
 ``` 
-![](https://miro.medium.com/max/30/1*emFc3QWRSvrIP_piXGl8pw.jpeg?q=20)
 
 ![](https://miro.medium.com/max/855/1*emFc3QWRSvrIP_piXGl8pw.jpeg)
 
@@ -216,5 +215,5 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDU0NzM3MF19
+eyJoaXN0b3J5IjpbLTExNTE0ODczMzZdfQ==
 -->
