@@ -789,7 +789,7 @@ df.iloc[3:6]      # More explicit that df[3:6]
 
 ## Cannot simultaneously select rows and columns with  `[]`
 
-An exception will be raised if you try and select rows and columns simultaneously with just the indexing operator. You must use  `**.loc**`  or  **.iloc**  to do so.
+An exception will be raised if you try and select rows and columns simultaneously with just the indexing operator. You must use  **.loc**  or  **.iloc**  to do so.
   ```py
 df[3:6, 'Aaron':'Christina']  
   ```
@@ -797,13 +797,13 @@ df[3:6, 'Aaron':'Christina']
 TypeError: unhashable type: 'slice'
   ```
   
-# Using just the indexing operator to select rows from a Series — Confusing!
+## Using just the indexing operator to select rows from a Series — Confusing!
 
 You can also use just the indexing operator with a Series. Again, this is confusing because it can accept integers or labels. Let’s see some examples
-  ```py
+```py
 food  
   ```
-  ```py
+ ```py
 Jane          Steak  
 Niko           Lamb  
 Aaron         Mango  
@@ -811,10 +811,20 @@ Penelope      Apple
 Dean         Cheese  
 Christina     Melon  
 Cornelia      Beans  
-Name: food, dtype: object>>> food[2:4]  
+Name: food, dtype: object
+ ```
+  ```py
+food[2:4]  
+ ```
+  ```py
 Aaron       Mango  
 Penelope    Apple  
-Name: food, dtype: object>>> food['Niko':'Dean']  
+Name: food, dtype: object
+ ```
+  ```py
+food['Niko':'Dean']
+ ```
+  ```py  
 Niko          Lamb  
 Aaron        Mango  
 Penelope     Apple  
@@ -1008,5 +1018,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODI3MjQ5NSwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbNjMzNTk5OTAwLDExMzcyOTkyMTNdfQ==
 -->
