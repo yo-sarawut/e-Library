@@ -128,6 +128,18 @@
 
 การเขียนบอกเวลานิยมใช้จุด (.) คั่นระหว่างตัวเลขบอกเวลาเป็นนาฬิกากับนาที และใช้อักษรย่อ น. แทนคำว่านาฬิกา
 
+![enter image description here](https://sites.google.com/site/suthidajansong/_/rsrc/1516877600955/home/hnwy-thi3-wela/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B23.jpg)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,5 +148,5 @@ Reference :
 - [https://mgronline.com/science/detail/9530000028451](https://mgronline.com/science/detail/9530000028451)
 - [https://www.sanook.com/campus/926492/](https://www.sanook.com/campus/926492/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjkyMTc4OSw4MTQzMjYyMjddfQ==
+eyJoaXN0b3J5IjpbLTc2MjQyNzU0LDgxNDMyNjIyN119
 -->
