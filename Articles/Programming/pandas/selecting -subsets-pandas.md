@@ -836,17 +836,22 @@ Since Series don’t have columns you can use a single label and list of labels 
 food['Dean']  
   ```
 ```py
-'Cheese'>>> food[['Dean', 'Christina', 'Aaron']]  
+'Cheese'
+ ```
+  ```py
+food[['Dean', 'Christina', 'Aaron']]  
+ ```
+  ```py
 Dean         Cheese  
 Christina     Melon  
 Aaron         Mango  
 Name: food, dtype: object
   ```
-Again, I recommend against doing this and always use  `**.iloc**`  or  `.loc`
+Again, I recommend against doing this and always use  **.iloc**  or  `.loc`
 
-# Importing data without choosing an index column
+## Importing data without choosing an index column
 
-We imported data by choosing the first column to be the index with the  `**index_col**`  parameter of the  `**read_csv**`  function. This is not typically how most DataFrames are read into pandas.
+We imported data by choosing the first column to be the index with the  **index_col**  parameter of the  **read_csv**  function. This is not typically how most DataFrames are read into pandas.
 
 Usually, all the columns in the csv file become DataFrame columns. Pandas will use the integers 0 to n-1 as the labels. See the example data below with a slightly different dataset:
   ```py
@@ -856,7 +861,7 @@ df2
 
 ![](https://miro.medium.com/max/425/1*WIHN9IKCZ2b9AJMVybtkqg.png)
 
-# The default  `RangeIndex`
+## The default  `RangeIndex`
 
 If you don’t specify a column to be the index when first reading in the data, pandas will use the integers 0 to n-1 as the index. This technically creates a  `**RangeIndex**`  object. Let's take a look at it.
   ```py
@@ -865,7 +870,7 @@ df2.index
    ```py
 RangeIndex(start=0, stop=7, step=1)
   ```
-This object is similar to Python  `**range**`  objects. Let's create one:
+This object is similar to Python  **range** objects. Let's create one:
   ```py
 range(7) 
   ```
@@ -897,7 +902,7 @@ df2.iloc[[2, 4, 5], [3,2]]
 
 ![](https://miro.medium.com/max/150/1*UaTEMv6chUaFv5mXIunb0g.png)
 
-There is a subtle difference when using a slice.  `**.iloc**`  excludes the last value, while  `**.loc**`  includes it:
+There is a subtle difference when using a slice.  **.iloc**  excludes the last value, while  **.loc**  includes it:
   ```py
 df2.iloc[:3]
   ```
@@ -1018,5 +1023,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNTk5OTAwLDExMzcyOTkyMTNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTI2NzA5OCwxMTM3Mjk5MjEzXX0=
 -->
