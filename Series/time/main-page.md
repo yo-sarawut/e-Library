@@ -94,6 +94,8 @@
 
 ## ต้นกำเนิดของนาฬิกา
 
+![enter image description here](http://2.bp.blogspot.com/-f77X4HwsEH8/VCF4qitLa1I/AAAAAAAAAB8/zRWW7Z-x_9o/s1600/clock+1.jpg)
+
 
 
 
@@ -108,5 +110,5 @@ Reference :
 - [https://mgronline.com/science/detail/9530000028451](https://mgronline.com/science/detail/9530000028451)
 - [https://www.sanook.com/campus/926492/](https://www.sanook.com/campus/926492/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MzI2MjI3XX0=
+eyJoaXN0b3J5IjpbLTEyMzY2Nzg0NDYsODE0MzI2MjI3XX0=
 -->
