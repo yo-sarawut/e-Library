@@ -170,22 +170,24 @@ df.loc['row_total'] = df.apply(lambda x: x.sum())
 
 ## 8. Check memory usage
 
-`.memory_usage(deep=True)`  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
+**.memory_usage(deep=True)**  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
 
 ## 9. Cumulative sum
 
-From time to time, cumulative sum is required when you generate some statistical outcomes. Simply do  `df['cumulative_sum'] = df['target_column'].cumsum()`  .
-
+From time to time, cumulative sum is required when you generate some statistical outcomes. Simply do  `
+``` py
+df['cumulative_sum'] = df['target_column'].cumsum() .
+``` 
 ## 10. Crosstab
 
 When you need to count the frequencies for groups formed by 3+ features,  `pd.crosstab()`  can make your life easier.
 
-![](https://miro.medium.com/max/30/1*HudH3sdzlrnempURsvWbwg.png?q=20)
+
 
 ![](https://miro.medium.com/max/750/1*HudH3sdzlrnempURsvWbwg.png)
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTEyMzMwMSwtMzU4MDkzOTI5LC0xND
-A4NDM2MDU3XX0=
+eyJoaXN0b3J5IjpbMTcxMjg5ODExLC0zNTgwOTM5MjksLTE0MD
+g0MzYwNTddfQ==
 -->
