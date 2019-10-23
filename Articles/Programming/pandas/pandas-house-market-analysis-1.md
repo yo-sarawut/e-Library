@@ -93,12 +93,7 @@ df.dtypes  ##it will give you something like this :
  df.columns  #it will give you something like this :
  ```    
    ``` py
-    Index(['index0',  'terrace',  'bedrooms',  'construction_year',  'date_month',
-    
-    'date_year',  'date_year_month',  'floor',  'rooms',  'price_room',
-    
-    'price_surface',  'price',  'scout_id',  'surface'],
-    
+Index(['index0',  'terrace',  'bedrooms',  'construction_year',  'date_month','date_year',  'date_year_month',  'floor',  'rooms',  'price_room', 'price_surface',  'price',  'scout_id',  'surface'],    
     dtype='object')
   ```   
 
@@ -406,5 +401,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAxNjM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTEzODI5MjI4NjhdfQ==
 -->
