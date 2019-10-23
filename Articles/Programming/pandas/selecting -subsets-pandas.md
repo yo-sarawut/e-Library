@@ -361,7 +361,7 @@ df.loc[:'Aaron']
 
 ![](https://miro.medium.com/max/397/1*-_lSxZREXisX6Hc7vanI8w.png)
 
-Slice from  `Niko`  to  `Christina`  stepping by 2:
+Slice from  `Niko`  to  `Christina`  stepping by **2**:
 ```py
 df.loc['Niko':'Christina':2]
 ```
@@ -369,15 +369,15 @@ df.loc['Niko':'Christina':2]
 
 ![](https://miro.medium.com/max/403/1*RVd_oBYyVDjY_yDCGQ5fZg.png)
 
-Slice from  `Dean`  to the end:
+Slice from  `Dean`  to the **end**:
 ```py
 df.loc['Dean':]
 ```
-![](https://miro.medium.com/max/60/1*lbGk9hPAvv4CEOCTjGSGSA.png?q=20)
+
 
 ![](https://miro.medium.com/max/400/1*lbGk9hPAvv4CEOCTjGSGSA.png)
 
-# Selecting rows and columns simultaneously with  `.loc`
+## Selecting rows and columns simultaneously with  `.loc`
 
 Unlike just the indexing operator, it is possible to select rows and columns simultaneously with  `.loc`. You do it by separating your row and column selections by a  **comma**. It will look something like this:
 
@@ -385,17 +385,17 @@ Unlike just the indexing operator, it is possible to select rows and columns sim
 df.loc[row_selection, column_selection]
 ```
 
-# Select two rows and three columns
+## Select two rows and three columns
 
 For instance, if we wanted to select the rows  `Dean`  and  `Cornelia`  along with the columns  `age`,  `state`  and  `score`  we would do this:
 ```py
 df.loc[['Dean', 'Cornelia'], ['age', 'state', 'score']]
 ```
-![](https://miro.medium.com/max/60/1*03DYVgodNXVjcx_V9Hj6PQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/226/1*03DYVgodNXVjcx_V9Hj6PQ.png)
 
-# Use any combination of selections for either row or columns for  `.loc`
+## Use any combination of selections for either row or columns for  `.loc`
 
 Row or column selections can be any of the following as we have already seen:
 
@@ -403,13 +403,13 @@ Row or column selections can be any of the following as we have already seen:
 -   A list of labels
 -   A slice with labels
 
-We can use any of these three for either row or column selections with  `**.loc**`. Let's see some examples.
+We can use any of these three for either row or column selections with  **.loc**. Let's see some examples.
 
 Let’s select two rows and a single column:
 ```py
 df.loc[['Dean', 'Aaron'], 'food']  
 ```
-```
+```py
 Dean     Cheese  
 Aaron     Mango  
 Name: food, dtype: object
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxODkyNDEzLDExMzcyOTkyMTNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTgyMTYwMDIsMTEzNzI5OTIxM119
 -->
