@@ -151,15 +151,15 @@ A real subset selection will have something inside of the square brackets. All s
 
 Notice that the square brackets also follow  `.loc`  and  `.iloc`. All indexing in Python happens inside of these square brackets.
 
-# A term for just those square brackets
+## A term for just those square brackets
 
-The term  **indexing operator**  is used to refer to the square brackets following an object. The  `**.loc**`  and  `**.iloc**`  indexers also use the indexing operator to make selections. I will use the term  **just the indexing operator**  to refer to  `**df[]**`. This will distinguish it from  `**df.loc[]**`  and  `**df.iloc[]**`.
+The term  **indexing operator**  is used to refer to the square brackets following an object. The  **.loc**  and  **.iloc**  indexers also use the indexing operator to make selections. I will use the term  **just the indexing operator**  to refer to  **df[]**. This will distinguish it from  **df.loc[]** and  **df.iloc[]**.
 
-# Read in data into a DataFrame with  `read_csv`
+## Read in data into a DataFrame with  `read_csv`
 
 Let’s begin using pandas to read in a DataFrame, and from there, use the indexing operator by itself to select subsets of data. All the data for these tutorials are in the  **data**  directory.
 
-We will use the  `**read_csv**`  function to read in data into a DataFrame. We pass the path to the file as the first argument to the function. We will also use the  `**index_col**`  parameter to select the first column of data as the index (more on this later).
+We will use the  **read_csv**  function to read in data into a DataFrame. We pass the path to the file as the first argument to the function. We will also use the  **index_col**  parameter to select the first column of data as the index (more on this later).
 ```python
 import pandas as pd  
 import numpy as np
@@ -170,7 +170,7 @@ df
 
 ![](https://miro.medium.com/max/407/1*8F3TgEXSmJ3G4cRkiY56-Q.png)
 
-# Extracting the individual DataFrame components
+## Extracting the individual DataFrame components
 
 Earlier, we mentioned the three components of the DataFrame. The index, columns and data (values). We can extract each of these components into their own variables. Let’s do that and then inspect them:
 ```py
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxMzU4OTkwLDExMzcyOTkyMTNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTczNjI3OTUsMTEzNzI5OTIxM119
 -->
