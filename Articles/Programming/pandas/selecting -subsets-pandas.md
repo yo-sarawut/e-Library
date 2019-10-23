@@ -914,9 +914,9 @@ df2.loc[:3]
 
 ![](https://miro.medium.com/max/420/1*jEJWfGHzkyE24Wv7oy64Cw.png)
 
-# Setting an index from a column after reading in data
+## Setting an index from a column after reading in data
 
-It is common to see pandas code that reads in a DataFrame with a RangeIndex and then sets the index to be one of the columns. This is typically done with the  `**set_index**`  method:
+It is common to see pandas code that reads in a DataFrame with a RangeIndex and then sets the index to be one of the columns. This is typically done with the  **set_index**  method:
   ```py
 df2_idx = df2.set_index('Names')  
 df2_idx
@@ -924,16 +924,16 @@ df2_idx
 
 ![](https://miro.medium.com/max/400/1*3x34RRUQyGKE9lkI-Za6yw.png)
 
-# The index has a name
+## The index has a name
 
-Notice that this DataFrame does not look exactly like our first one from the very top of this tutorial. Directly above the index is the bold-faced word  `**Names**`. This is technically the  **name**  of the index. Our original DataFrame had no name for its index. You can ignore this small detail for now. Subset selections will happen in the same fashion.
+Notice that this DataFrame does not look exactly like our first one from the very top of this tutorial. Directly above the index is the bold-faced word  **Names**. This is technically the  **name**  of the index. Our original DataFrame had no name for its index. You can ignore this small detail for now. Subset selections will happen in the same fashion.
 
-# DataFrame column selection with dot notation
+## DataFrame column selection with dot notation
 
 Pandas allows you to select a single column as a Series by using  **dot notation**. This is also referred to as  **attribute access**. You simply place the name of the column without quotes following a dot and the DataFrame like this:
-  ```py
+```py
 df.state  
-  ```
+```
   ```py
 Jane         NY  
 Niko         TX  
@@ -942,7 +942,12 @@ Penelope     AL
 Dean         AK  
 Christina    TX  
 Cornelia     TX  
-Name: state, dtype: object>>> df.age  
+Name: state, dtype: object
+```
+```py
+df.age 
+```
+```py 
 Jane         30  
 Niko          2  
 Aaron        12  
@@ -951,8 +956,8 @@ Dean         32
 Christina    33  
 Cornelia     69  
 Name: age, dtype: int64
-  ```
-# Pros and cons when selecting columns by attribute access
+```
+## Pros and cons when selecting columns by attribute access
 
 The best benefit of selecting columns like this is that you get help when chaining methods after selection. For instance, if you place another dot after the column name and press  **tab**, a list of all the Series methods will appear in a pop-up menu. It will look like this:
 
@@ -1023,5 +1028,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI2NzA5OCwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbLTEyNTc5NTIyNDgsMTEzNzI5OTIxM119
 -->
