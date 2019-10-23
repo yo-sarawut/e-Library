@@ -110,9 +110,23 @@
 
 ที่มาข้อมูล : http://th.answers.yahoo.com/
 
+## การบอกเวลา
 
+### ส่วนประกอบของเวลา
 
+นาฬิกาเป็นเครื่องมือที่ใช้บอกเวลา บนหน้าปักนาฬิกาจะมีตัวเลข12ตัวคือ1,2,3…12 เข็มยาว เข็มสั้น และเข็มวินาที เพื่อใช้บอกเวลา
 
+![enter image description here](https://sites.google.com/site/suthidajansong/_/rsrc/1516877462780/home/hnwy-thi3-wela/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B21.jpg)
+
+การบอกเวลาเป็นนาฬิกาและนาที
+
+การบอกเวลาในแต่ละวันจะเริ่มที่0นาฬิกา และสิ้นสุดที่ 24 นาฬิกา โดยแบ่งออกเป็น2ช่วงคือ ช่วงเวลากลางวันจะเริ่มตั้งแต่ 6 นาฬิกา ถึง12นาฬิกา และช่วงเวลากลางคืนจะเริ่มตั้งแต่ 18นาฬิกาถึง 6 นาฬิกา
+
+![enter image description here](https://sites.google.com/site/suthidajansong/_/rsrc/1516877547858/home/hnwy-thi3-wela/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B22.jpg)
+
+การเขียนบอกเวลาโดยใช้จุดและการอ่าน
+
+การเขียนบอกเวลานิยมใช้จุด (.) คั่นระหว่างตัวเลขบอกเวลาเป็นนาฬิกากับนาที และใช้อักษรย่อ น. แทนคำว่านาฬิกา
 
 
 
@@ -122,5 +136,5 @@ Reference :
 - [https://mgronline.com/science/detail/9530000028451](https://mgronline.com/science/detail/9530000028451)
 - [https://www.sanook.com/campus/926492/](https://www.sanook.com/campus/926492/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDcxMTY3MjUsODE0MzI2MjI3XX0=
+eyJoaXN0b3J5IjpbLTY5NjkyMTc4OSw4MTQzMjYyMjddfQ==
 -->
