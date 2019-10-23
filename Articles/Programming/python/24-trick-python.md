@@ -6,39 +6,38 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 
 ## **1. Unpacking Array Items**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/01.png)
 
 ## **2. Swapping Variables**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/02.png)
 
 **3. Profile And Stats Of Your Code**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/03.png)
 
 **4. Repeat String**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/04.png)
 
 **5. Slicing**
 
-![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)(http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)
-
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/05.png)
 **6. Reversing**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/06.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/06.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/06.png)
 
 **7. Negative Index**
 
 ถ้าคุณต้องการที่จะเริ่มต้นจาก Character ตัวสุดท้าย สามารถใช้ Negative Index ได้
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/07.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/07.png)
+[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/07.png)
 
 **8. Intersect Sets**
 
 กรณีต้องการดึงสมาชิกที่ซ้ำกันของทั้ง 2 Sets
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/08.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/08.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/08.png)
 
 **9. Difference In Sets**
 
@@ -135,5 +134,5 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODExMjg2OV19
+eyJoaXN0b3J5IjpbMTYxOTU1MDk1Nl19
 -->
