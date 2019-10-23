@@ -5,8 +5,10 @@ Link Index
 ## แหล่งรวมความรู้
 
 - [CU Learning Innovation Center ห้องสมุดออนไลน์ (Online Library) ของจุฬาลงกรณ์มหาวิทยาลัย ](http://www.media.lic.chula.ac.th/#!/)
+- 
 ![enter image description here](http://www.media.lic.chula.ac.th/assets/img/head-logo.svg)
 
+จุฬาลงกรณ์มหาวิทยาลัยจัดทำห้องสมุดออนไลน์ (Online Library) สู่สังคมไทย เพื่อเผยแพร่ผลงานทางวิชาการ ความรู้ทั่วไป ไม่ว่าจะเป็นด้านสุขภาพ การเงิน ธุรกิจ ภาษา วัฒนธรรม เทคโนโลยี จากคณาจารย์ผู้เชี่ยวชาญในศาสตร์และสาขาต่างๆ รวมถึงผลงานของนิสิตจุฬาลงกรณ์มหาวิทยาลัยที่โดดเด่น โดยมีเป้าหมายส่งเสริมให้ประชาชนทั่วไปสามารถเรียนรู้ตามอัธยาศัยได้ทุกสถานที่ ทุกเวลา ตามเจตนารมณ์ของจุฬาลงกรณ์มหาวิทยาลัยในการสร้างสรรค์องค์ความรู้และนวัตกรรม เพื่อสนับสนุนสังคมแห่งการเรียนรู้ตลอดชีวิต (Lifelong Learning)
 
 
 
@@ -223,7 +225,7 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxOTU4MzM3LC0xOTEwMTY1MjMsLTE5Nj
+eyJoaXN0b3J5IjpbLTM0NjUyNTczLC0xOTEwMTY1MjMsLTE5Nj
 A1OTkzNDUsLTcxMDQ5NjA3OCwyMTQ2MDkwOTA5LC05MjA0NDc3
 MjAsMTk1Nzg5NzE3LC0xNzcyNTE4NDUwLDE2NzI4NzMzMzYsLT
 E5Mjc1NzA3NjEsLTQ0ODMwMzAzMCwtNzc1NDU5OTQ4LC0xNTM5
