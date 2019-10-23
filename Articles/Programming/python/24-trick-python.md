@@ -31,7 +31,7 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 
 ถ้าคุณต้องการที่จะเริ่มต้นจาก Character ตัวสุดท้าย สามารถใช้ Negative Index ได้
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/07.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/07.png)
 
 **8. Intersect Sets**
 
@@ -77,7 +77,7 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 ![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/14.png)
 **15. One Liner For Loops**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/15.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/15.png)
 
 **16. Combining Lists Using Zip**
 
@@ -85,13 +85,13 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 -   Collection ใหม่ จะมี Items ที่แต่ละ Item ประกอบด้วย 1 Element จากแต่ละ Collection ที่ถูก Input เข้ามา
 -   ช่วยให้เราสามารถ Transverse ได้หลาย Collection ในเวลาเดียวกัน
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/16.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/16.png)
 
 **17. Free up Memory**
 
 เราสามารถเคลียร์หน่วยความจำ (Garbage Collection) แบบ Manual ได้ตามต้องการ
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/17.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/17.png)
 
 **18. Using Decorators**
 
@@ -101,36 +101,36 @@ Python เป็นอีกหนึ่งภาษา Programming ที่ไ
 
 _(ตัวอย่างนี้ แสดงถึงวิธีการ_ _Print ชื่อ Function นี่เป็นเพียงตัวอย่าง Code เพื่อแสดงให้เห็นถึงวิธีที่คุณสามารถเรียกใช้ Decorator คุณสามารถใช้ Decorator เพื่อเรียก Loggers ของคุณ, perform security operations เป็นต้น)_
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_1.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_1.png)
 
 และเมื่อเราใช้มันใน Function จะเป็นลักษณะดังนี้:
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_2.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_2.png)
 
 **19. Unzipping**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/19.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/19.png)
 
 **20. Joining Collection**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/20.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/20.png)
 
 **21. Memory Footprint Of An Object**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/21.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/21.png)
 **22. Print Current Directory**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/22.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/22.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/22.png)
 
 **23. Print Imported Modules**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/23.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/23.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/23.png)
 
 **24. Get Current Process Id**
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/24.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/24.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/24.png)
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY5OTQ5NDhdfQ==
+eyJoaXN0b3J5IjpbLTExODI1NTg4MDZdfQ==
 -->
