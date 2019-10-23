@@ -973,7 +973,7 @@ This help disappears when you use just the indexing operator:
 
 The biggest drawback is that you cannot select columns that have spaces or other characters that are not valid as Python identifiers (variable names).
 
-# Selecting the same column twice?
+## Selecting the same column twice?
 
 This is rather peculiar, but you can actually select the same column more than once:
   ```py
@@ -1009,18 +1009,18 @@ We covered an incredible amount of ground. Let’s summarize all the main points
 - You can use just the indexing operator to select rows from a DataFrame, but I recommend against this and instead sticking with the explicit .loc and .iloc
 - Normally data is imported without setting an index. Use the set_index method to use a column as an index.
 - You can select a single column as a Series from a DataFrame with dot notation
-# Way more to the story
+## Way more to the story
 
 This is only part 1 of the series, so there is much more to cover on how to select subsets of data in pandas. Some of the explanations in this part will be expanded to include other possibilities.
 
-# Exercises
+## Exercises
 
 This best way to learn pandas is to practice on your own. All these exercises will use the Chicago food inspections dataset found  [here at data.world](https://data.world/cityofchicago/food-inspections-map).
 
 -   Download the  [Jupyter Notebook](https://github.com/tdpetrou/Learn-Pandas/blob/master/Learn-Pandas/Selecting%20Subsets/01%20Selecting%20Subsets%20with%20%5B%20%5D%2C%20.loc%20and%20.iloc.ipynb)  to get started on the exercises.
 -   Make sure to  [review the detailed solutions](https://github.com/tdpetrou/Learn-Pandas/blob/master/Learn-Pandas/Selecting%20Subsets/Solutions.ipynb)  as well after you attempt the exercises
 
-# Get the All Access Pass!
+## Get the All Access Pass!
 
 Get all of my current and future material for one low price with the  [All Access Pass!](http://b.link/ddallaccessm)  The primary courses available are the following:
 
@@ -1028,5 +1028,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc5NTIyNDgsMTEzNzI5OTIxM119
+eyJoaXN0b3J5IjpbLTEyNjM0OTE0MDQsMTEzNzI5OTIxM119
 -->
