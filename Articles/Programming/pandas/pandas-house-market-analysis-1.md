@@ -58,52 +58,39 @@ On the following steps, you will see how to realize basic cleaning with python p
     ``` 
 2.  import your data set in your environment.  
     In my example, I am using ipython (or called jupyter notebook). I really like this environment for exploration. When things get serious, I usually go to Spyder.  
-     ``` py
+ ``` py
 df  =  pd.read_csv('data_immoscout.csv',delimiter='\t')  # df is going to be our dataframe. (place where we store all the data). I used tab as delimiter.
   ``` 
 3.  Look at the data you have. Using the .head() function will give a preview of your data.  
   ```py
-  df.head()  ## use df.head(20) to see the first 20 lines
+df.head()  ## use df.head(20) to see the first 20 lines
   ``` 
 4.  On top of df.head(), you can also try to see the exact type the data have been processed.  
     In order to do that, you can use the  
     
-   ``` py
-    df.dtypes  ##it will give you something like this :
-    
-    index0 int64
-    
-    terrace object
-    
-    bedrooms object
-    
-    construction_year object
-    
-    date_month int64
-    
-    date_year int64
-    
-    date_year_month object
-    
-    floor object
-    
-    rooms object
-    
-    price_room object
-    
-    price_surface object
-    
-    price object
-    
-    surface object
-    
-    zip int64
-    
+ ``` py
+df.dtypes  ##it will give you something like this :
+ ``` 
+ ``` py   
+    index0 int64    
+    terrace object    
+    bedrooms object    
+    construction_year object    
+    date_month int64    
+    date_year int64    
+    date_year_month object    
+    floor object    
+    rooms object    
+    price_room object    
+    price_surface object    
+    price object    
+    surface object    
+    zip int64    
     dtype:  object
  ```    
 5.  Look at the type of column you have is quite important because this usually give you an idea of the type of data store. Or type of data that should be store.     
-   ``` py
-    df.columns  #it will give you something like this :
+``` py
+ df.columns  #it will give you something like this :
  ```    
    ``` py
     Index(['index0',  'terrace',  'bedrooms',  'construction_year',  'date_month',
@@ -419,5 +406,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxOTUxMzUxXX0=
+eyJoaXN0b3J5IjpbLTIwMDAxNjM1MjRdfQ==
 -->
