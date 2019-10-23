@@ -40,7 +40,8 @@ dict(departure=['SFO', 'SFO', 'LAX', 'LAX', 'JFK', 'SFO'],
      arrival=['ORD', 'DFW', 'DFW', 'ATL', 'ATL', 'ORD'],  
      airlines=['Delta','JetBlue','Delta',’AA','SouthWest',    
                'Delta']),  
-columns=['airlines', 'departure','arrival'])df.style.set_table_styles(  
+columns=['airlines', 'departure','arrival'])
+df.style.set_table_styles(  
 [{'selector': 'tr:nth-of-type(odd)',  
   'props': [('background', '#eee')]},   
  {'selector': 'tr:nth-of-type(even)',  
@@ -92,8 +93,10 @@ df = pd.DataFrame(dict(A=['coke', 'sprite', 'coke', 'sprite',
                        B=['alpha','gamma', 'alpha', 'beta',  
                           'gamma', 'beta', 'beta'],  
                        col_1=[1,2,3,4,5,6,7],  
-                       col_2=[1,6,2,4,7,9,3]))tbl = df.groupby(['A','B']).agg({'col_1': ['max', np.mean],  
-                                 'col_2': ['sum','min','count']})# 'count' will always be the count for number of rows in each group.
+                       col_2=[1,6,2,4,7,9,3]))
+tbl = df.groupby(['A','B']).agg({'col_1': ['max', np.mean],  
+                                 'col_2': ['sum','min','count']})
+# 'count' will always be the count for number of rows in each group.
 ``` 
 And the result will look like this:
 
@@ -190,6 +193,6 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzA2ODg2NSwtMzU4MDkzOTI5LC0xND
-A4NDM2MDU3XX0=
+eyJoaXN0b3J5IjpbNTA3NTMwOTYxLC0zNTgwOTM5MjksLTE0MD
+g0MzYwNTddfQ==
 -->
