@@ -4,7 +4,9 @@ Link Index
  ===============
 ## แหล่งรวมความรู้
 
-- [CU ห้องสมุดออนไลน์ (Online Library) ของจุฬาลงกรณ์มหาวิทยาลัย ](http://www.media.lic.chula.ac.th/#!/)
+- [CU Learning Innovation Center ห้องสมุดออนไลน์ (Online Library) ของจุฬาลงกรณ์มหาวิทยาลัย ](http://www.media.lic.chula.ac.th/#!/)
+![enter image description here](http://www.media.lic.chula.ac.th/assets/img/head-logo.svg)
+
 
 
 
@@ -221,10 +223,10 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjk1NDI5OSwtMTkxMDE2NTIzLC0xOT
-YwNTk5MzQ1LC03MTA0OTYwNzgsMjE0NjA5MDkwOSwtOTIwNDQ3
-NzIwLDE5NTc4OTcxNywtMTc3MjUxODQ1MCwxNjcyODczMzM2LC
-0xOTI3NTcwNzYxLC00NDgzMDMwMzAsLTc3NTQ1OTk0OCwtMTUz
-OTU1NTc1MSw1MTM4MzA2MjAsMTI2MDk2NTE2NiwtOTU5NjU1Mz
-IzLC0xOTQ1NTQ0MzQ0LDQ3NDQyNjM2Ml19
+eyJoaXN0b3J5IjpbNDUxOTU4MzM3LC0xOTEwMTY1MjMsLTE5Nj
+A1OTkzNDUsLTcxMDQ5NjA3OCwyMTQ2MDkwOTA5LC05MjA0NDc3
+MjAsMTk1Nzg5NzE3LC0xNzcyNTE4NDUwLDE2NzI4NzMzMzYsLT
+E5Mjc1NzA3NjEsLTQ0ODMwMzAzMCwtNzc1NDU5OTQ4LC0xNTM5
+NTU1NzUxLDUxMzgzMDYyMCwxMjYwOTY1MTY2LC05NTk2NTUzMj
+MsLTE5NDU1NDQzNDQsNDc0NDI2MzYyXX0=
 -->
