@@ -742,15 +742,15 @@ d['A']
   ```py
 27
  ```
-# Pandas has power of lists and dictionaries
+## Pandas has power of lists and dictionaries
 
 DataFrames and Series are able to make selections with integers like a list and with labels like a dictionary.
 
-# Extra Topics
+## Extra Topics
 
 There are a few more items that are important and belong in this tutorial and will be mentioned now.
 
-# Using just the indexing operator to select rows from a DataFrame — Confusing!
+## Using just the indexing operator to select rows from a DataFrame — Confusing!
 
 Above, I used just the indexing operator to select a column or columns from a DataFrame. But, it can also be used to select rows using a  **slice**. This behavior is very confusing in my opinion. The entire operation changes completely when a slice is passed.
 
@@ -770,11 +770,11 @@ df['Aaron':'Christina']
 
 ![](https://miro.medium.com/max/398/1*ckgKLl2gSA39EB2I1GH2hw.png)
 
-# I recommend not doing this!
+## I recommend not doing this!
 
 This feature is not deprecated and completely up to you whether you wish to use it. But, I highly prefer not to select rows in this manner as can be ambiguous, especially if you have integers in your index.
 
-Using  `**.iloc**`  and  `**.loc**`  is explicit and clearly tells the person reading the code what is going to happen. Let's rewrite the above using  `**.iloc**`  and  `**.loc**`.
+Using  **.iloc**  and  **.loc**  is explicit and clearly tells the person reading the code what is going to happen. Let's rewrite the above using  **.iloc** and  **.loc**.
   ```py
 df.iloc[3:6]      # More explicit that df[3:6]
   ```
@@ -787,9 +787,9 @@ df.iloc[3:6]      # More explicit that df[3:6]
 
 ![](https://miro.medium.com/max/398/1*ckgKLl2gSA39EB2I1GH2hw.png)
 
-# Cannot simultaneously select rows and columns with  `[]`
+## Cannot simultaneously select rows and columns with  `[]`
 
-An exception will be raised if you try and select rows and columns simultaneously with just the indexing operator. You must use  `**.loc**`  or  `**.iloc**`  to do so.
+An exception will be raised if you try and select rows and columns simultaneously with just the indexing operator. You must use  `**.loc**`  or  **.iloc**  to do so.
   ```py
 df[3:6, 'Aaron':'Christina']  
   ```
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTMxODA1MCwxMTM3Mjk5MjEzXX0=
+eyJoaXN0b3J5IjpbMjAwODI3MjQ5NSwxMTM3Mjk5MjEzXX0=
 -->
