@@ -234,7 +234,7 @@ df.drop(df[df['price'].isna()].index,inplace  =  True)
 ``` 
 As we are deleting useless information, we can take the opportunity to delete the index0 column as you could have seen that pandas automatically generate an index to your dataframe.  
 In order to delete a column completely, you will need to realize this action :
-``` 
+```py
 df.drop(['index0'],axis=1,inplace=True)  #axis = 1 make sure that you are deleting column
 ``` 
 Now we want to have the correct data type recognize by pandas.  
@@ -289,15 +289,15 @@ As explained previously, before doing any analysis, you would want to feel the m
    ```  
       
 ``` py    
-   up floor  687    
-   nan  112    
-   ground floor  69    
-   Name:  floor,  dtype:  int64
+up floor  687    
+nan  112    
+ground floor  69    
+Name:  floor,  dtype:  int64
 ```     
       
-    what you would need to do is to calculate the distribution between an the up floor and the ground floor and apply this distribution to the remaining data.  
-    You can easily calculate that the number of ground floor apartment represent around 10% of this column.  
-    Therefore we would need to replace 1/10 of the na with a “ground floor” value.
+what you would need to do is to calculate the distribution between an the up floor and the ground floor and apply this distribution to the remaining data.  
+You can easily calculate that the number of ground floor apartment represent around 10% of this column.  
+Therefore we would need to replace 1/10 of the na with a “ground floor” value.
     
     We can do that by simply creating a function :
     
@@ -401,5 +401,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI5MjI4NjhdfQ==
+eyJoaXN0b3J5IjpbMTA2OTMwNTcxM119
 -->
