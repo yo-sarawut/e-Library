@@ -111,7 +111,7 @@ Our final DataFrame would like:
 
 ![](https://miro.medium.com/max/390/1*T02_TrcvbfKkU7U7J2-ugw.png)
 
-# Example selecting some rows and some columns
+## Example selecting some rows and some columns
 
 Let’s combine the selections from above and select the columns  `color`,  `age`, and  `height`  for only the rows with labels  `Aaron`  and  `Dean`.
 
@@ -123,7 +123,7 @@ Our final DataFrame would look like this:
 
 ![](https://miro.medium.com/max/216/1*wXdCm9RlUbMiPS9Q-cFa9g.png)
 
-# Pandas dual references: by label and by integer location
+## Pandas dual references: by label and by integer location
 
 We already mentioned that each row and each column have a specific label that can be used to reference them. This is displayed in bold font in the DataFrame.
 
@@ -133,13 +133,13 @@ The rows with labels  `Aaron`  and  `Dean`  can also be referenced by their resp
 
 The documentation refers to integer location as  **position**. I don’t particularly like this terminology as its not as explicit as integer location. The key thing term here is INTEGER.
 
-# What’s the difference between indexing and selecting subsets of data?
+## What’s the difference between indexing and selecting subsets of data?
 
 The documentation uses the term  **indexing**  frequently. This term is essentially just a one-word phrase to say ‘subset selection’. I prefer the term subset selection as, again, it is more descriptive of what is actually happening. Indexing is also the term used in the official Python documentation.
 
-# Focusing only on  `[]`,  `.loc`, and  `.iloc`
+## Focusing only on  `[]`,  `.loc`, and  `.iloc`
 
-There are many ways to select subsets of data, but in this article we will only cover the usage of the square brackets (`**[]**`),  `**.loc**`  and  `**.iloc**`. Collectively, they are called the  **indexers**. These are by far the most common ways to select data. A different part of this Series will discuss a few methods that can be used to make subset selections.
+There are many ways to select subsets of data, but in this article we will only cover the usage of the square brackets  **[ ]**,  **.loc** and  **.iloc**. Collectively, they are called the  **indexers**. These are by far the most common ways to select data. A different part of this Series will discuss a few methods that can be used to make subset selections.
 
 If you have a DataFrame,  `df`, your subset selection will look something like the following:
 ```
@@ -1008,5 +1008,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Data Analysis with Python](http://b.link/MDAPM)
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0OTI4MjU3LDExMzcyOTkyMTNdfQ==
+eyJoaXN0b3J5IjpbMzAxMzU4OTkwLDExMzcyOTkyMTNdfQ==
 -->
