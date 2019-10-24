@@ -16,8 +16,9 @@
 ## Tool Create e-Book + Website
 
 - Hugo Template
-	- Landing Page
-	- Post [https://themes.gohugo.io//theme/hugo-refresh]
+	- [Landing Page 1](https://themes.gohugo.io/theme/meghna-hugo/#services)
+	- [Landing Page 2](https://themes.gohugo.io//theme/airspace-hugo/)
+	- [Post](https://themes.gohugo.io//theme/hugo-refresh)
 
 
 - [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
@@ -75,11 +76,11 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0NzgxNzI3LC0xMzQwMTg1NzIwLC01Mj
-A0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYz
-NDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNj
-g4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MTY4ODM5
-MDIsOTk0NzA3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0LDE2MT
-kwMTk4NTEsNzE3NzIzODcxLC04MTAwMDMwNjAsMTc4MTI4MDY5
-MV19
+eyJoaXN0b3J5IjpbLTExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNT
+IwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2
+MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLT
+Y4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgz
+OTAyLDk5NDcwNzM4MiwtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNj
+E5MDE5ODUxLDcxNzcyMzg3MSwtODEwMDAzMDYwLDE3ODEyODA2
+OTFdfQ==
 -->
