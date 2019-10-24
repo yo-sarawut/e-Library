@@ -125,7 +125,8 @@ Weather App
 
 
 ## Moon phase calculation (คำนวณดวงจันทร์)
-- 
+- https://gist.github.com/L-A/3497902
+- [http://www.voidware.com/moon_phase.htm](http://www.voidware.com/moon_phase.htm)
 ```js
 var MoonInfo = function(day, month, year) {
 
@@ -270,11 +271,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTQyMTM3MywtMTk4MDA5NTA3MSw1ND
-I5NTMzMzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUs
-ODgyOTE4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NTczNj
-c2MywxMDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5Nywx
-NDgxOTQzNTU2LDMwODYwNjI5NiwtOTI0OTA0NTEsMTk3Nzk1Mj
-AwMSwxNjU0MjkxNDkzLC0xNDE5MzEyNDA0LC0xODEwMDU2NTY4
-XX0=
+eyJoaXN0b3J5IjpbLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNT
+QyOTUzMzM1LDIxNDI1MzY2Niw3NTQyNDYyNTAsMzM1MzY4NzI1
+LDg4MjkxODI5LDg4MjkxODI5LC0yMTIxMzM4NzExLDEyNjU3Mz
+Y3NjMsMTA3MzA0ODQ5NSwtMTY1NzcxOTcyNyw3NzYzNzM3OTcs
+MTQ4MTk0MzU1NiwzMDg2MDYyOTYsLTkyNDkwNDUxLDE5Nzc5NT
+IwMDEsMTY1NDI5MTQ5MywtMTQxOTMxMjQwNCwtMTgxMDA1NjU2
+OF19
 -->
