@@ -15,6 +15,10 @@
 
 ## Tool Create e-Book + Website
 
+- Hugo Template
+	- Landing Page
+	- Post [https://themes.gohugo.io//theme/hugo-refresh]
+
 
 - [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
 - [Jekyll themes — a curated directory](https://jekyllthemes.io/theme/documentation)
@@ -71,10 +75,11 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAxODU3MjAsLTUyMDQ1OTQwMiwtNT
-ExMDQ0MTIxLC0yMzAyOTA3NzcsLTExMjY0NjM0NDksMTAyNzU2
-MjkwMiwyMTQzNDM2OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMT
-g0ODg5NTg0MSwxMDc0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDcz
-ODIsLTE2NjM0OTYxNTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MT
-c3MjM4NzEsLTgxMDAwMzA2MCwxNzgxMjgwNjkxXX0=
+eyJoaXN0b3J5IjpbNDE0NzgxNzI3LC0xMzQwMTg1NzIwLC01Mj
+A0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYz
+NDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNj
+g4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MTY4ODM5
+MDIsOTk0NzA3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0LDE2MT
+kwMTk4NTEsNzE3NzIzODcxLC04MTAwMDMwNjAsMTc4MTI4MDY5
+MV19
 -->
