@@ -16,7 +16,7 @@ def color_negative_red(val):
                  )  
 df.style.applymap(color_negative_red)
 ``` 
-
+![](https://miro.medium.com/max/27/1*5bo6KYcrLL-M94WCAkh0cQ.png?q=20)
 
 ![](https://miro.medium.com/max/116/1*5bo6KYcrLL-M94WCAkh0cQ.png)
 
@@ -29,7 +29,7 @@ df.style.set_table_styles(
   'props': [('background-color', 'yellow')]}]  
 )
 ``` 
-
+![](https://miro.medium.com/max/30/1*QJljhjp-loj8ZChihhK7EA.png?q=20)
 
 ![](https://miro.medium.com/max/251/1*QJljhjp-loj8ZChihhK7EA.png)
 
@@ -55,7 +55,7 @@ df.style.set_table_styles(
 ]  
 ).hide_index()
 ``` 
-
+![](https://miro.medium.com/max/30/1*cCPVfB6_nbh6WT99DMgduA.png?q=20)
 
 ![](https://miro.medium.com/max/251/1*cCPVfB6_nbh6WT99DMgduA.png)
 
@@ -100,7 +100,7 @@ tbl = df.groupby(['A','B']).agg({'col_1': ['max', np.mean],
 ``` 
 And the result will look like this:
 
-
+![](https://miro.medium.com/max/30/1*KVE7ixZmoTuG42El5SSh7A.png?q=20)
 
 ![](https://miro.medium.com/max/326/1*KVE7ixZmoTuG42El5SSh7A.png)
 
@@ -115,7 +115,7 @@ If you would like to have the column renaming process automated, you can do  `tb
 
 Some of you might be familiar with this already, but I still find it very useful when handling a dataframe with a ton of columns.
 ``` py
-df.iloc[:,2:5].head()   # select the 2nd to the 4th column  
+df.iloc[:,2:5].head()             # select the 2nd to the 4th column  
 df.loc[:,'column_x':].head()     
 # select all columns starting from 'column_x'
 ``` 
@@ -135,7 +135,7 @@ df['random_ID'] = df.groupby(['A', 'B'])'random_ID_all'].rank(method='first',asc
 ``` 
 to get
 
-
+![](https://miro.medium.com/max/30/1*Z1elLpesz3V6ZM-C-v3VHA.png?q=20)
 
 ![](https://miro.medium.com/max/331/1*Z1elLpesz3V6ZM-C-v3VHA.png)
 
@@ -153,7 +153,7 @@ tbl = df[['A', 'B', 'C']].drop_duplicates()\
                          .reset_index() # list to string (separated by commas)   
 tbl['C'] = tbl.apply(lambda x: (','.join([str(s) for s in x['C']])), axis = 1)
 ``` 
-
+![](https://miro.medium.com/max/27/1*4efJCJxBpjhaYnQ4tTAfoQ.png?q=20)
 
 ![](https://miro.medium.com/max/140/1*4efJCJxBpjhaYnQ4tTAfoQ.png)
 
@@ -169,30 +169,30 @@ df = pd.DataFrame(dict(A=[2,6,3],
 df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
 df.loc['row_total'] = df.apply(lambda x: x.sum())
 ``` 
-
+![](https://miro.medium.com/max/30/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png?q=20)
 
 ![](https://miro.medium.com/max/225/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png)
 
 ## 8. Check memory usage
 
-**.memory_usage(deep=True)**  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
+**`.memory_usage(deep=True)**`  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
 
 ## 9. Cumulative sum
 
 From time to time, cumulative sum is required when you generate some statistical outcomes. Simply do  `
 ``` py
-df['cumulative_sum'] = df['target_column'].cumsum() .
+df['cumulative_sum'] = df['target_column'].cumsum()`  .
 ``` 
 ## 10. Crosstab
 
 When you need to count the frequencies for groups formed by 3+ features,  `pd.crosstab()`  can make your life easier.
 
-
+![](https://miro.medium.com/max/30/1*HudH3sdzlrnempURsvWbwg.png?q=20)
 
 ![](https://miro.medium.com/max/750/1*HudH3sdzlrnempURsvWbwg.png)
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3NTMwOTYxLC0zNTgwOTM5MjksLTE0MD
-g0MzYwNTddfQ==
+eyJoaXN0b3J5IjpbLTczMjE3OTE5OCw1MDc1MzA5NjEsLTM1OD
+A5MzkyOSwtMTQwODQzNjA1N119
 -->
