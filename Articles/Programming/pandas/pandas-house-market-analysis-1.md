@@ -58,42 +58,61 @@ On the following steps, you will see how to realize basic cleaning with python p
     ``` 
 2.  import your data set in your environment.  
     In my example, I am using ipython (or called jupyter notebook). I really like this environment for exploration. When things get serious, I usually go to Spyder.  
- ``` py
-df  =  pd.read_csv('data_immoscout.csv',delimiter='\t')  # df is going to be our dataframe. (place where we store all the data). I used tab as delimiter.
-  ``` 
+    ``` py
+    df  =  pd.read_csv('data_immoscout.csv',delimiter='\t')  # df is going to be our dataframe. (place where we store all the data). I used tab as delimiter.
+    ``` 
 3.  Look at the data you have. Using the .head() function will give a preview of your data.  
   ```py
-df.head()  ## use df.head(20) to see the first 20 lines
+  df.head()  ## use df.head(20) to see the first 20 lines
   ``` 
 4.  On top of df.head(), you can also try to see the exact type the data have been processed.  
     In order to do that, you can use the  
     
- ``` py
-df.dtypes  ##it will give you something like this :
+   ``` py
+    df.dtypes  ##it will give you something like this :
  ``` 
  ``` py   
-    index0 int64    
-    terrace object    
-    bedrooms object    
-    construction_year object    
-    date_month int64    
-    date_year int64    
-    date_year_month object    
-    floor object    
-    rooms object    
-    price_room object    
-    price_surface object    
-    price object    
-    surface object    
-    zip int64    
+    index0 int64
+    
+    terrace object
+    
+    bedrooms object
+    
+    construction_year object
+    
+    date_month int64
+    
+    date_year int64
+    
+    date_year_month object
+    
+    floor object
+    
+    rooms object
+    
+    price_room object
+    
+    price_surface object
+    
+    price object
+    
+    surface object
+    
+    zip int64
+    
     dtype:  object
  ```    
 5.  Look at the type of column you have is quite important because this usually give you an idea of the type of data store. Or type of data that should be store.     
-``` py
- df.columns  #it will give you something like this :
+   ``` py
+    df.columns  #it will give you something like this :
  ```    
    ``` py
-Index(['index0',  'terrace',  'bedrooms',  'construction_year',  'date_month','date_year',  'date_year_month',  'floor',  'rooms',  'price_room', 'price_surface',  'price',  'scout_id',  'surface'],    
+    Index(['index0',  'terrace',  'bedrooms',  'construction_year',  'date_month',
+    
+    'date_year',  'date_year_month',  'floor',  'rooms',  'price_room',
+    
+    'price_surface',  'price',  'scout_id',  'surface'],
+    
     dtype='object')
   ```   
 
@@ -234,7 +253,7 @@ df.drop(df[df['price'].isna()].index,inplace  =  True)
 ``` 
 As we are deleting useless information, we can take the opportunity to delete the index0 column as you could have seen that pandas automatically generate an index to your dataframe.  
 In order to delete a column completely, you will need to realize this action :
-```py
+```py 
 df.drop(['index0'],axis=1,inplace=True)  #axis = 1 make sure that you are deleting column
 ``` 
 Now we want to have the correct data type recognize by pandas.  
@@ -289,26 +308,26 @@ As explained previously, before doing any analysis, you would want to feel the m
    ```  
       
 ``` py    
-up floor  687    
-nan  112    
-ground floor  69    
-Name:  floor,  dtype:  int64
+   up floor  687    
+   nan  112    
+   ground floor  69    
+   Name:  floor,  dtype:  int64
 ```     
       
-what you would need to do is to calculate the distribution between an the up floor and the ground floor and apply this distribution to the remaining data.  
-You can easily calculate that the number of ground floor apartment represent around 10% of this column.  
-Therefore we would need to replace 1/10 of the na with a “ground floor” value.
+    what you would need to do is to calculate the distribution between an the up floor and the ground floor and apply this distribution to the remaining data.  
+    You can easily calculate that the number of ground floor apartment represent around 10% of this column.  
+    Therefore we would need to replace 1/10 of the na with a “ground floor” value.
     
-We can do that by simply creating a function :
+    We can do that by simply creating a function :
     
-```py 
+   ```py 
 def fill10pct():
 	if  np.random.random_integers(0,9)  ==  0:
 		  return  'ground floor'    
     else:    
 	    return  'up floor'
   ```   
-Then you need to apply this to the your rows :
+    Then you need to apply this to the your rows :
  ``` py
 for  index,  value in  df.iterrows():
 	if  df.loc[index,'floor']=='nan':    
@@ -330,9 +349,9 @@ You can run a df[‘floor’].value_counts() to check if the distribution was ke
 (df['rooms'].isnull())  &amp;  (df['bedrooms'].notnull())]    
 choices  =  [2,df['bedrooms']+1]
 ```  
-And we are going to use the numpy select function to decide which option to apply
+    And we are going to use the numpy select function to decide which option to apply
  ```py 
-df['rooms']  =  np.select(conditions,  choices,  default=2)
+    df['rooms']  =  np.select(conditions,  choices,  default=2)
 ```     
  
     
@@ -356,13 +375,13 @@ This time, we will use the method select from numpy :
 df['bedrooms']  =  np.where(df['bedrooms'].isnull(),  df['rooms']-1,  df['bedrooms'])
  ```   
 4.  **Filling the Surface**  
-For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
+    For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
     If we can the average surface for the 2, 3 and 4 room apartment, we could assign the mean value to these room.
     
     For realizing this, we are going to use one of the most important function of pandas. The  **groupby**.
     
   ``` py    
-df.groupby(['rooms'])['surface'].mean()  
+  df.groupby(['rooms'])['surface'].mean()  
 ##it should give you something like :
 ```     
  ```py     
@@ -370,7 +389,7 @@ df.groupby(['rooms'])['surface'].mean()
  3.0  91.100000
  4.0  100.400000
 ```    
-It is interesting to see that the average surface for your 2 and 3 rooms apartment are not that different.  
+    It is interesting to see that the average surface for your 2 and 3 rooms apartment are not that different.  
     Most probably our data are not that clean and some 3 rooms apartment were fetched as 2 rooms apartment.
  
 
@@ -382,18 +401,18 @@ conditions  =  [
 ]    
 choices  =  [90,91.1,100]    
  df['surface']  =  np.select(conditions,choices,default=90.5)#default in between 2 and 3 rooms
-```   
+  ```   
 5.  **Filling the construction year**  
-  On this one, this is pretty hard as the construction year can be really random. You cannot really guess a construction year based on the previous data.  
-On that case, in order to not false the data to much, I would chose to fill the blank with the mean of this dimension.  
+    On this one, this is pretty hard as the construction year can be really random. You cannot really guess a construction year based on the previous data.  
+    On that case, in order to not false the data to much, I would chose to fill the blank with the mean of this dimension.  
     This is another method you can use quick often with pandas :
     
  ``` py
 df['construction_year'].fillna(df['construction_year'].mean(),inplace=True)
   ```   
 6.  **Filling the rest…**  
-As you may notice while doing a df.isnull().sum() some other columns have NaN but they are actually calculation of other columns.  
-So you just have to redo the calculation with your primary columns filled and all the NaN will disappear.
+    As you may notice while doing a df.isnull().sum() some other columns have NaN but they are actually calculation of other columns.  
+    So you just have to redo the calculation with your primary columns filled and all the NaN will disappear.
 
 I hope this tutorial on how to clean your data will help you if you are discovering Data Analysis with Python and Pandas.  
 This is a very important part of working with Data and if you plan to machine learning, cleaning the data and creating value out of NaN data points is one of the most important aspect of Machine Learning.
@@ -403,5 +422,5 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc3NTI2MzldfQ==
+eyJoaXN0b3J5IjpbODM5NzU5NjAxLC0xNDM3NzUyNjM5XX0=
 -->
