@@ -124,7 +124,7 @@ Weather App
 - https://www.shutterstock.com/video/search/?irgwc=1&utm_medium=Affiliate&utm_campaign=Oxford%20Media%20Solutions&utm_source=51471&utm_term=
 
 
-
+## Moon phase calculation (คำนวณดวงจันทร์)
 ```js
 var MoonInfo = function(day, month, year) {
 
@@ -269,11 +269,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0MDcyNzg0LC0xOTgwMDk1MDcxLDU0Mj
-k1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4
-ODI5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2Nz
-YzLDEwNzMwNDg0OTUsLTE2NTc3MTk3MjcsNzc2MzczNzk3LDE0
-ODE5NDM1NTYsMzA4NjA2Mjk2LC05MjQ5MDQ1MSwxOTc3OTUyMD
-AxLDE2NTQyOTE0OTMsLTE0MTkzMTI0MDQsLTE4MTAwNTY1Njhd
-fQ==
+eyJoaXN0b3J5IjpbLTIxOTE5MDU5MCwtMTk4MDA5NTA3MSw1ND
+I5NTMzMzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUs
+ODgyOTE4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NTczNj
+c2MywxMDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5Nywx
+NDgxOTQzNTU2LDMwODYwNjI5NiwtOTI0OTA0NTEsMTk3Nzk1Mj
+AwMSwxNjU0MjkxNDkzLC0xNDE5MzEyNDA0LC0xODEwMDU2NTY4
+XX0=
 -->
