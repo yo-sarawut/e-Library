@@ -476,8 +476,8 @@ If you are enjoying this article, consider purchasing the  [All Access Pass!](ht
 
 So far we haven’t seen an explicit need for the methods over the operators. Let’s see an example where we absolutely need the method to complete the task. The college dataset contains 9 consecutive columns holding the relative frequency of the undergraduate population by race. The first column is  `ugds_white`  and the last  `ugds_unkn`. Let's select these columns now into their own DataFrame.
 ```python
-college_race = college_idx.loc[:, ‘ugds_white’:’ugds_unkn’]  
-college_race.head()
+ college_race = college_idx.loc[:, ‘ugds_white’:’ugds_unkn’]  
+ college_race.head()
 ```
 
 ![](https://miro.medium.com/max/1076/1*__Co7Qx7JYY1bAeJC2ctJw.png)
@@ -504,7 +504,7 @@ We then multiply the  `college_race`  DataFrame by this Series. Intuitively, thi
 
 ![](https://miro.medium.com/max/1134/1*X3bdE6iFrFKTLLqrkipLAg.png)
 ```python
-df_attempt.shape
+ df_attempt.shape
  ```
  ```python
  (7535, 7544)
@@ -743,7 +743,7 @@ Name: satmtmid, dtype: float64
 ```
 Method 2b: The  `aggregate`  method is an alias for  `agg`  and can also be used. This returns the same Series as above.
 ```python
-college.groupby('stabbr')['satmtmid'].aggregate('max').head()
+ college.groupby('stabbr')['satmtmid'].aggregate('max').head()
 ```
 Method 3: You can call the aggregating method directly without calling  `agg`. This returns the same Series as above.
 ```python
@@ -954,7 +954,7 @@ There are a couple major issues with the  `pivot`  method. First, it can only ha
 
 Attempting to pivot this will not work as now the combination for both Texas and Florida with Oranges have multiple rows.
 ```python
-df2.pivot(index='state', columns='fruit', values='weight')
+ df2.pivot(index='state', columns='fruit', values='weight')
 ```
 ```py
 ValueError: Index contains duplicate entries, cannot reshape
@@ -993,7 +993,7 @@ The  `stack`  method can produce nearly identical data, but it places the reshap
 
 Now, we can use  `stack`  without setting any parameters to get nearly the same result as  `melt`.
 ```python
-ad_idx.stack()
+ ad_idx.stack()
 ```
 ```python
 airline       
@@ -1208,5 +1208,5 @@ Get all of my current and future material for one low price with the  [All Acces
 -   [Master Machine Learning with Python](http://b.link/MMLPM)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Nzk1NzczMV19
+eyJoaXN0b3J5IjpbLTEzNTE4NjUzMzUsLTg1Nzk1NzczMV19
 -->
