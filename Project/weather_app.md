@@ -125,6 +125,7 @@ Weather App
 
 
 ## Moon phase calculation (คำนวณดวงจันทร์)
+- 
 ```js
 var MoonInfo = function(day, month, year) {
 
@@ -269,7 +270,7 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTE5MDU5MCwtMTk4MDA5NTA3MSw1ND
+eyJoaXN0b3J5IjpbMTQzNTQyMTM3MywtMTk4MDA5NTA3MSw1ND
 I5NTMzMzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUs
 ODgyOTE4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NTczNj
 c2MywxMDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5Nywx
