@@ -9,18 +9,20 @@ A CSV file is comma-separated so in order to read a CSV file, do:
 ```python
 df = pd.read_csv(file_path, sep=’,’, header = 0, index_col=False,names=None)
 ```
-Explanation:
+**Explanation:**
 
 `read_csv` function has a plethora of parameters and I have specified only a few, ones that you may use most often. 
 A few key points:
 
-a) `header=0` means you have the names of columns in the first row in the file and if you don’t you will have to specify `header=None`
-b) `index_col = False` means to not use the first column of the data as an index in the data frame, you might want to set it to true if the first column is really an index.
-c) `names = None` implies you are not specifying the column names and want it to be inferred from csv file, which means that your `header = some_number `contains column names. Otherwise, you can specify the names in here in the same order as you have the data in the csv file. 
+a) `- header=0` means you have the names of columns in the first row in the file and if you don’t you will have to specify `header=None`
+b) `
+- index_col = False` means to not use the first column of the data as an index in the data frame, you might want to set it to true if the first column is really an index.
+c) `names = None` implies you are not specifying the column- names and want it to be inferred from csv file, which means that your `header = some_number `contains column names. Otherwise, you can specify the names in here in the same order as you have the data in the csv file. 
 If you are reading a text file separated by space or tab, you could simply change the sep to be:
 
-`sep = " "` or `sep='\t'`
-
+```python
+sep = " "` or `sep='\t'`
+```
 1. How to create a data frame using a dictionary of pre-existing columns or NumPy 2D arrays?
 Using the dictionary
 ```python
@@ -29,15 +31,15 @@ d_dic ={'first_col_name':c1,'second_col_names':c2,'3rd_col_name':c3}
 df = pd.DataFrame(data = d_dic)
 ```
 Using NumPy arrays
-```py
+```python
 np_data = np.zeros((no_of_samples,no_of_features)) 
 ```
 any_numpy_array
-```py
+```python
 df = pd.DataFrame(data=np_data, columns = list_of_Col_names)
 ```
 3. How to visualize the top and bottom x values in a data frame?
-```py
+```python
 df.head(num_of_rows_to_view) #top_values
 df.tail(num_of_rows_to_view) #bottom_values
 col = list_of_columns_to_view 
@@ -193,25 +195,25 @@ Now, what if you want to go back to the original data frame by undoing the last 
 `df['height'].explode()` will give the desired outcome.
 21. How to concatenate two data frames?
 Suppose you have two data-frames df1 and df2 with the given columns name, age, and height and you would want to achieve the concatenation of the two columns. `axis=0` is the vertical axis. Here, the result data-frame will have the columns appended from the data-frames:
-```py
+```python
 df1 --> name,age,height
 df2---> name,age,height
 result = pd.concat([df1,df2],axis=0)
 ```
 For horizontal concatenation,
-```py
+```python
 df1--> name,age
 df2--->height,salary
 result = pd.concat([df1,df2], axis=1) 
 ```
 22. How to merge two data frames?
 For the previous example, assume you have an employee database forming two dataframes like
-```py
+```python
 df1--> name, age, height
 df2---> name, salary, pincode, sick_leaves_taken
 ```
 You may want to combine these two dataframe such that each row has all details of an employee. In order to acheive this, you would have to perform a merge operation.
-```py
+```python
 df1.merge(df2, on=['name'],how='inner')
 ```
 This operation will provide a dataframe where each row will comprise of name, age, height, salary, pincode, `sick_leaves_taken.`
@@ -223,5 +225,6 @@ For any data analysis project as a beginner, you may require to know these opera
 **Contact**
 If you liked this post, please clap and share it with others who might find it useful. I really love data science and if you are interested in it too, let’s connect on LinkedIn or follow me here on towards data science platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQ0MjA1NCwtMjAxNjkzOTc1MF19
+eyJoaXN0b3J5IjpbLTg0MDg0MTc0MiwtOTEzNDQyMDU0LC0yMD
+E2OTM5NzUwXX0=
 -->
