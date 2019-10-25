@@ -30,6 +30,7 @@ PANTONE 19-4055
 - [Plotly](https://dash-gallery.plotly.host/dash-web-trader/)
 - [Dash](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
 - [ThaiQuants Data : รวม link ข้อมูลต่าง ๆ ของ SET](http://thaiquants.com/data/)
+- [CNBC รวมข้อมูล ETF แยกตามหมวดหมู่ ง่ายต่อการค้นหา](https://www.cnbc.com/index-etfs/)
 - [D3 for Python/](https://python-graph-gallery.com/)
 - [==Stock-Portfolio-Optimizer: Python + Vue==](https://github.com/PPPW/stock-portfolio-optimizer)
 ![enter image description here](https://github.com/PPPW/stock-portfolio-optimizer/raw/master/images/demo.GIF)
@@ -346,8 +347,8 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4NjczNDUyLDE3NDc3NjY1NjcsLTUxNz
-gwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTAsMTgwMTIzNTAw
-MCwxOTg1NzE2NDUwLC05NDA4NDEzNDIsLTIxMTYxMzMxMjFdfQ
-==
+eyJoaXN0b3J5IjpbOTE2MTY1ODgzLDcyODY3MzQ1MiwxNzQ3Nz
+Y2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkzMSwtNjYxNzY4OTEw
+LDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOTQwODQxMzQyLC0yMT
+E2MTMzMTIxXX0=
 -->
