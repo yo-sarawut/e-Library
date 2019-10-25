@@ -406,7 +406,7 @@ The parse method will be called on each URL in the  `start_urls`  array
 
 We then need to tune Scrapy a little bit in order for our Spider to behave nicely against the target website.
 
-```
+```py
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 AUTOTHROTTLE_ENABLED = True
@@ -418,9 +418,8 @@ You should always turn this on. It will make sure the target website will not sl
 
 You can run this code with the Scrapy CLI and with different output format (CSV, JSON, XML, and so on):
 
-```
+```py
 scrapy crawl hacker-news -o links.json
-
 ```
 
 And that's it! You will now have all your links in a nicely formatted JSON file.
@@ -481,5 +480,5 @@ The big drawback is that Chrome needs lots of memory / CPU power. With some fine
 
 If you want to run several Chrome instances concurrently, you will need powerful servers (the cost of which goes up quickly) and constant monitoring of resources.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDE0MjkwMl19
+eyJoaXN0b3J5IjpbLTkyNjI3MjgwOF19
 -->
