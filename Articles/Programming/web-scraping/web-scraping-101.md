@@ -420,6 +420,7 @@ You can run this code with the Scrapy CLI and with different output format (CSV,
 
 ```py
 scrapy crawl hacker-news -o links.json
+
 ```
 
 And that's it! You will now have all your links in a nicely formatted JSON file.
@@ -480,5 +481,5 @@ The big drawback is that Chrome needs lots of memory / CPU power. With some fine
 
 If you want to run several Chrome instances concurrently, you will need powerful servers (the cost of which goes up quickly) and constant monitoring of resources.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjI3MjgwOF19
+eyJoaXN0b3J5IjpbMTE0NzQ5NDg5MCwtOTI2MjcyODA4XX0=
 -->
