@@ -37,7 +37,37 @@ Note for Articles
 
 นอกจากความสามารถที่จะเชื่อแล้ว มนุษย์ยังมีความสามารถพิเศษที่ไม่มีใครเหมือน นั่นคือ การใช้ความเชื่อและ “นิยาย” เหล่านี้มาทำให้สมาชิกเป็นหนึ่งเดียวกัน ตลอดจนสามารถจัดการกับคนจำนวนมากได้โดยได้รับความร่วมมือจากสมาชิกอีกด้วย ​มนุษย์เป็นสัตว์ชนิดเดียวที่มีจินตนาการ สามารถแต่งเรื่องขึ้นในสมอง และเชื่อเรื่องแต่งเหล่านั้นได้ เช่น หากทำชั่วจะตายไปแล้วตกนรก ไม่ว่านรกมีจริงหรือไม่ก็ตามแต่ ตราบที่มีคนเชื่อว่าจริง ก็สามารถนำมาใช้กำกับพฤติกรรมมนุษย์ได้ ในขณะที่ลิงชิมแปนซี ญาติที่ใกล้ชิดเราที่สุด ไม่สามารถคิดหรือจินตนาการอย่างนั้นได้ ​ความสามารถในการจัดการของมนุษย์ อันมีพื้นฐานมาจากการเชื่อ “นิยาย” เหล่านี้ร่วมกัน จนมนุษย์ยอมรับพระเจ้า ผีสางเทวดา กฎหมาย กฎกติกา ผู้นำ ฯลฯ ทำให้เราสามารถปราบคู่แข่งคือสมาชิกสกุล Homo ทั้งหลาย ตลอดจนสัตว์ร้าย และเอาชนะภัยพิบัติธรรมชาติ จนทำให้เราอยู่รอดมาได้อย่างดียิ่ง
 
+
+```asciidoc
+.Table Attributes
+[cols=>1h;2d,width=50%,frame=topbot]
+|===
+| Attribute Name | Values
+
+| options
+| header,footer,autowidth
+
+| cols
+| colspec[;colspec;...]
+
+| grid
+| all \| cols \| rows \| none
+
+| frame
+| all \| sides \| topbot \| none
+
+| stripes
+| all \| even \| odd \| none
+
+| width
+| (0%..100%)
+
+| format
+| psv {vbar} csv {vbar} dsv
+|===
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODc2OTM5OCw4MDYwMTU2MTYsOTIzMT
-c5MDgxLDE4Njg2NjEwNzQsLTIwOTkyOTIzMzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMzIxNzQ5NDIsLTg1ODc2OTM5OCw4MD
+YwMTU2MTYsOTIzMTc5MDgxLDE4Njg2NjEwNzQsLTIwOTkyOTIz
+MzZdfQ==
 -->
