@@ -76,7 +76,7 @@
 ด้านเทคโนโลยีสารสนเทศและการสื่อสารที่จำเป็นต่อธุรกรรมทางอิเล็กทรอนิกส์ ว่าด้วย
 การรักษาความมั่นคงปลอดภัยสารสนเทศส าหรับผู้ให้บริการจัดทำ ส่งมอบ  และเก็บรักษาข้อมูลอิเล็กทรอนิกส์ (INFORMATION SECURITY FOR DATA MESSAGE GENERATION,
 TRANSFER AND STORAGE SERVICE PROVIDERS) (ขมธอ. 21 -2562) ลงวันที่
-11 มกราคม พ.ศ. 2562
+11 มกราคม พ.ศ. 2562 [ [ดาวน์โหลดข้อเสนอแนะมาตรฐาน] ](https://standard.etda.or.th/wp-content/uploads/2019/05/20180702-ER-ServiceProvider-Security-V08-24F.pdf) 
 	- หน่วยงานรับรองจะออกหนังสือรับรองระบบสารสนเทศส าหรับผู้ให้บริการ เมื่อผลการตรวจประเมินสอดคล้องกับหลักเกณฑ์การตรวจประเมินที่กำหนด   
 2. ยื่นคำขอทดสอบระบบรับส่งข้อมูลกับกรมสรรพากร 
 	1. แจ้งความประสงค์เป็นผู้ให้บริการนำส่งข้อมูลอิเล็กทรอนิกส์  พร้อมแนบเอกสาร
@@ -100,7 +100,7 @@ TRANSFER AND STORAGE SERVICE PROVIDERS) (ขมธอ. 21 -2562) ลงวัน
 ผู้ให้บริการนำส่งข้อมูลอิเล็กทรอนิกส์ ยื่นเอกสารการรับรองจากหน่วยงานรับรองกับกรมสรรพากร เพื่อพิจารณาเปิดสิทธิให้บริการนำส่งข้อมูล
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTc3NzgxOCwxMzI1MjE4MzgyLC03ND
-I0NjUyMDQsLTE2NjE5OTI5NTEsLTkxNDg3NDg5MSw4MzMyOTIx
-NzksLTc2MzYxNTgyOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDUxNjkyMTU1LC01NzE3Nzc4MTgsMTMyNT
+IxODM4MiwtNzQyNDY1MjA0LC0xNjYxOTkyOTUxLC05MTQ4NzQ4
+OTEsODMzMjkyMTc5LC03NjM2MTU4MjksNzMwOTk4MTE2XX0=
 -->
