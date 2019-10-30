@@ -252,53 +252,15 @@ a//b
 
 จะเป็นการให้ค่าตัวแปร กำหนดให้ a = 10
 
-Operator
-
-Example
-
-Result of a
-
-+=
-
-a += 3
-
-13
-
--=
-
-a -= 3
-
-7
-
-*=
-
-a *= 3
-
-30
-
-/
-
-a / b
-
-1.4285714
-
-%
-
-a %= 3
-
-1
-
-** =
-
-a** = 3
-
-1000
-
-//=
-
-a//=3
-
-1
+|Operator|Example|Result of a|
+|---------|---------|---------|
+|+=|a += 3|13.0|
+|-=|a -= 3|7.0|
+|3|*=|a *= 3|30.0|
+|4|/|a / b|1.4285714|
+|5|%|a %= 3|1.0|
+|6|** =|a** = 3|1000.0|
+|7|//=|a//=3|1.0|
 
   
 
@@ -483,5 +445,5 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODk4NDYzNV19
+eyJoaXN0b3J5IjpbLTE2ODIyNDQ3NDUsLTgxODk4NDYzNV19
 -->
