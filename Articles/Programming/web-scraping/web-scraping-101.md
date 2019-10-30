@@ -1,6 +1,6 @@
 Web Scraping 101 in Python : overview of the tools & the pros and cons of each
 ===
-
+> [Source :](https://www.freecodecamp.org/news/web-scraping-101-in-python/?fbclid=IwAR3NQnIccNopJwhBiiGZ3sgqmcWjwt4gkMniP2V9h0Vm0xSvu7wVgvcKO8A)
 
 ### Summary:
 
@@ -481,5 +481,6 @@ The big drawback is that Chrome needs lots of memory / CPU power. With some fine
 
 If you want to run several Chrome instances concurrently, you will need powerful servers (the cost of which goes up quickly) and constant monitoring of resources.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzQ5NDg5MCwtOTI2MjcyODA4XX0=
+eyJoaXN0b3J5IjpbNzQ1NTI4NjQ0LDExNDc0OTQ4OTAsLTkyNj
+I3MjgwOF19
 -->
