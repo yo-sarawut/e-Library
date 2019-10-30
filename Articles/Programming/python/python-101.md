@@ -29,17 +29,10 @@ print("Hello ",name)
 
 ### 2. Numeric
 
-Type
-
-Description
-
-Integer
-
-จำนวนเต็ม เช่น 10, 20
-
-Float
-
-ทศนิยม เช่น 10.0, 20.5
+|Type|Description|
+|L---------|-----------------|
+|Integer|จำนวนเต็ม เช่น 10, 20|
+|Float|ทศนิยม เช่น 10.0, 20.5|
 
 ต่อมาลองรับ input เป็น integer 1 ตัว และ float 1 ตัว แล้วเอามาบวกกันแสดงผลรับเป็น integer
 
@@ -315,6 +308,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTUzNzg4Nyw3MzU0MjgwNzksLTgxOD
-k4NDYzNV19
+eyJoaXN0b3J5IjpbLTY3MjAxNTksLTY0NTUzNzg4Nyw3MzU0Mj
+gwNzksLTgxODk4NDYzNV19
 -->
