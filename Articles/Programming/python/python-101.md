@@ -182,70 +182,15 @@ print(a.dtype)
 
 จะเป็นตัวดำเนินเกี่ยวกับ Math โดยจะสรุปไว้ตามตารางข้างล่างนะครับ กำหนดให้ a = 10, b = 7
 
-Operator
-
-Description
-
-Example
-
-Result
-
-+
-
-การบวก
-
-a + b
-
-17
-
--
-
-การลบ
-
-a - b
-
-3
-
-*
-
-การคูณ
-
-a * b
-
-70
-
-/
-
-การหาร
-
-a / b
-
-1.4285714
-
-%
-
-การหาเศษ จากการหาร
-
-a % b
-
-3
-
-**
-
-การยกกำลัง
-
-a**b
-
-10000000
-
-//
-
-การหารแบบไม่เอาเศษ
-
-a//b
-
-1
-
+|  |Operator|Description|Example|Result|
+|-----------|---------|---------|---------|---------|
+|0|+|การบวก|a + b|17.0|
+|1|-|การลบ|a - b|3.0|
+|2|*|การคูณ|a * b|70.0|
+|3|/|การหาร|a / b|1.4285714|
+|4|%|การหาเศษ จากการหาร|a % b|3.0|
+|5|**|การยกกำลัง|a**b|10000000.0|
+|6|//|การหารแบบไม่เอาเศษ|a//b|1.0|
   
 
 ### 2. Assignment Operators
@@ -267,6 +212,14 @@ a//b
 ### 3. Comparison Operators
 
 จะเป็นการเปรียบเทียบ กำหนดให้ a = 10, b = 10
+|  |Operator|Description|Example|Result|
+|:-----:|:-------:|:---------:|:---------|---------|
+|0|==|ความเท่ากัน|a == b|True|
+|1|!=|ความไม่เท่ากัน|a != b|False|
+|2|>|มากกว่า|a > b|False|
+|3|<|น้อยกว่า|a < b|False|
+|4|>=|มากกว่าเท่ากับ|a >= b|True|
+|5|<=|น้อยกว่าเท่ากับ|a <= b|True|
 
 
 ### 4. Logical Operators
@@ -390,5 +343,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDI4MDc5LC04MTg5ODQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTExMzExNzQ1OTQsNzM1NDI4MDc5LC04MT
+g5ODQ2MzVdfQ==
 -->
