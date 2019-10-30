@@ -1,7 +1,9 @@
 
+กฎ 40% ของหน่วย SEAL
+===
+
 ![enter image description here](https://anontawong.files.wordpress.com/2016/07/20160704_40percent1.png?w=676)
 
-วันนี้มีเรื่องน่าสนใจจากเว็บ Bigthink.com มาเล่าให้ฟังครับ
 
 มาจากบทความชื่อ Navy SEALs Have a ’40 Percent Rule’ and It’s the Key to Overcoming Mental Barriers เขียนโดย Jesse Itzler
 
@@ -79,5 +81,5 @@
 
 > ที่มาบทความ [anontawong.com](https://anontawong.com/2016/07/03/40-percent-rule/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTg2OTMwNl19
+eyJoaXN0b3J5IjpbNTI3ODMxODI2XX0=
 -->
