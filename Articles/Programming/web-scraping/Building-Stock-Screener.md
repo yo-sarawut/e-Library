@@ -90,7 +90,7 @@ This step is very important, as it constraints the data that the scraper will be
 
 ![](https://miro.medium.com/max/1788/1*OsvtQfQIrANi30-irYfaBA.jpeg)
 
-Yahoo Finance page for Apple Inc. (AAPL)
+**Yahoo Finance page for Apple Inc. (AAPL)**
 
 While the summary tab contains some very useful information about this stock, we’re interested in indicators which tell us more about the health of this company. For this, we’ll turn to the statistics tab, which looks like so-
 
@@ -110,7 +110,7 @@ Before we can talk about the scraping methodology, you need to understand Beauti
 
 The scraping methodology refers to the method by which beautiful soup finds the relevant  `<div>'s <table>'s`  etc. inside the web page’s HTML source code. This is usually achieved by inspecting the different elements (right click -> inspect element) inside a web page, till you can find a consistent class, attribute etc. which captures all the data you want. Here’s some photos of me inspecting elements in the Yahoo Finance pages to further show this point.
 
-![](https://miro.medium.com/max/30/1*ZPePjyqGLeYBkuQCERxfdw.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/1639/1*ZPePjyqGLeYBkuQCERxfdw.jpeg)
 
@@ -131,19 +131,19 @@ Now we start with our actual python program. Here’s our algorithm, laid out st
 5.  For each row store  `<span>`text as key and  `<td>`  text as corresponding value in dictionary
 
 Here’s the syntax of the function, which accepts a stock symbol (for reference):
-
+```py
 def scrape_yahoo(stock):
-
+```
 Now building on this, we need to create the URL (using the stock symbol) and extract the HTML from the web page using urllib2 and Beautiful Soup-
-
+```py
  url = ('http://finance.yahoo.com/q/ks?s=' + stock)  
   page = urllib2.urlopen(url)  
   soup = BeautifulSoup(page, 'html.parser')
-
+```
 Now we move on to finding the relevant tables and processing each of the rows.
 
 _Note: technicals is an empty dictionary initialized earlier._
-
+```py
  tables = soup.findAll('table', {"class" : 'table-qsp-stats'}) for table in tables:  
     table_body = table.find('tbody')  
     rows = table_body.find_all('tr') for row in rows:  
@@ -155,7 +155,7 @@ _Note: technicals is an empty dictionary initialized earlier._
       col_val = row.find_all('td')  
       col_val = [cell.text.strip() for cell in col_val]  
       technicals[col_name[0]] = col_val[1]
-
+```
 The full code for this data scraper can be found  [on this github repository](https://github.com/hr23232323/stock_data_scraper).
 
 # Wrap up and what next?
@@ -164,5 +164,5 @@ So now you have it! A way to scrape stock data off of Yahoo Finance for use in y
 
 If you have any questions, feedback or comments, feel free to get in touch with me through  [LinkedIn](https://www.linkedin.com/in/harshrana1997/), or my  [website](http://www.harshrana.com/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAzMjUxNV19
+eyJoaXN0b3J5IjpbMTEwOTUwOTk4MF19
 -->
