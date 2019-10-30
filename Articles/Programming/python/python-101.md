@@ -183,7 +183,7 @@ print(a.dtype)
 จะเป็นตัวดำเนินเกี่ยวกับ Math โดยจะสรุปไว้ตามตารางข้างล่างนะครับ กำหนดให้ a = 10, b = 7
 
 |  |Operator|Description|Example|Result|
-|-----------|---------|---------|---------|---------|
+|:----:|:-------:|:---------:|:---------:|---------:|
 |0|+|การบวก|a + b|17.0|
 |1|-|การลบ|a - b|3.0|
 |2|*|การคูณ|a * b|70.0|
@@ -213,7 +213,7 @@ print(a.dtype)
 
 จะเป็นการเปรียบเทียบ กำหนดให้ a = 10, b = 10
 |  |Operator|Description|Example|Result|
-|:-----:|:-------:|:---------:|:---------|---------|
+|:-----:|:-------:|:---------:|:---------:|:---------:|
 |0|==|ความเท่ากัน|a == b|True|
 |1|!=|ความไม่เท่ากัน|a != b|False|
 |2|>|มากกว่า|a > b|False|
@@ -343,6 +343,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzExNzQ1OTQsNzM1NDI4MDc5LC04MT
-g5ODQ2MzVdfQ==
+eyJoaXN0b3J5IjpbNzcyNDQyNTU1LDczNTQyODA3OSwtODE4OT
+g0NjM1XX0=
 -->
