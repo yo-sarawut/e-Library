@@ -4,10 +4,7 @@
 
 ![enter image description here](https://anontawong.files.wordpress.com/2016/07/20160704_40percent1.png?w=676)
 
-
-มาจากบทความชื่อ Navy SEALs Have a ’40 Percent Rule’ and It’s the Key to Overcoming Mental Barriers เขียนโดย Jesse Itzler
-
-ผมเองเคยแต่ได้ยินว่าหน่วย SEAL นี่เป็นทหารขั้นเทพมากๆ พอมาหาข้อมูลเพิ่มเติมถึงรู้ว่า SEAL ย่อมาจาก SEa, Air, Land นั่นหมายถึงหน่วยงานที่สามารถปฏิบัติการได้ทั้งทางน้ำ ทางอากาศ และทางบกนั่นเอง
+มาจากบทความชื่อ Navy SEALs Have a ’40 Percent Rule’ and It’s the Key to Overcoming Mental Barriers เขียนโดย Jesse Itzler ผมเองเคยแต่ได้ยินว่าหน่วย SEAL นี่เป็นทหารขั้นเทพมากๆ พอมาหาข้อมูลเพิ่มเติมถึงรู้ว่า SEAL ย่อมาจาก SEa, Air, Land นั่นหมายถึงหน่วยงานที่สามารถปฏิบัติการได้ทั้งทางน้ำ ทางอากาศ และทางบกนั่นเอง
 
 ชื่อภาษาไทยของหน่วย SEAL คือ หน่วยทำลายใต้น้ำจู่โจม  และก่อนจะเป็นหน่วย SEAL ได้ต้องผ่านการฝึกหฤโหดเจ็ดเดือนเต็มๆ ไปดูภาพการฝึกได้ที่เว็บพันทิปที่คุณ BR Style เขียนแชร์ไว้ครับ
 
@@ -81,5 +78,5 @@
 
 > ที่มาบทความ [anontawong.com](https://anontawong.com/2016/07/03/40-percent-rule/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3ODMxODI2XX0=
+eyJoaXN0b3J5IjpbMTg3MDgyMjgzMCw1Mjc4MzE4MjZdfQ==
 -->
