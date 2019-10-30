@@ -1,3 +1,6 @@
+Python 101 ฉบับรวบลัด
+===
+
 ## การแสดงผล และรับข้อมูล
 
 เริ่มแรกลอง print “hello world” กันก่อน
@@ -81,7 +84,7 @@ score = [20, 40, 30, 50, 35]
 มีเก้าอี้อยู่ 4 แถว แถวละ 3 ตัว เราก็วาดตารางขึ้นมาก่อน
 
 |  |คอลัมน์ 1|คอลัมน์ 2|คอลัมน์ 3|
-|-----|------|:------:|:------:|
+|:-----:|:------:|:------:|:------:|
 |0|แถว1|A|J|L|nan|
 |1|แถว2|F|B|I|nan|
 |2|แถว3|D|C|H|nan|
@@ -312,6 +315,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDM5NTY5Miw3MzU0MjgwNzksLTgxOD
+eyJoaXN0b3J5IjpbLTY0NTUzNzg4Nyw3MzU0MjgwNzksLTgxOD
 k4NDYzNV19
 -->
