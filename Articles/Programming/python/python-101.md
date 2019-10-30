@@ -30,7 +30,7 @@ print("Hello ",name)
 ### 2. Numeric
 
 |Type|Description|
-|L---------|-----------------|
+|:---------:|-----------------|
 |Integer|จำนวนเต็ม เช่น 10, 20|
 |Float|ทศนิยม เช่น 10.0, 20.5|
 
@@ -308,6 +308,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjAxNTksLTY0NTUzNzg4Nyw3MzU0Mj
-gwNzksLTgxODk4NDYzNV19
+eyJoaXN0b3J5IjpbMTE3MzY1MjU3OSwtNjQ1NTM3ODg3LDczNT
+QyODA3OSwtODE4OTg0NjM1XX0=
 -->
