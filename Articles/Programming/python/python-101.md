@@ -369,43 +369,13 @@ True
 
 
 |Operator|	Description|	Example|	Result|
-|---------|------------|----------|------------|
+|:-------:|------------|:--------:|:----------:|
 |and|	ต้องจริงทั้ง 2 ค่า ถึงจะเป็นจริง นอกนั้นเป็นเท็จ|	a and b	|False|
 |or|	ต้องเท็จ 2 ค่า ถึงจะเป็นเท็จ นอกนั้นเป็นจริง|a or b|	True|
 |not|	ให้ค่าตรงข้าม	|not (a and a)|	False|
 
 
-Operator
 
-Description
-
-Example
-
-Result
-
-and
-
-ต้องจริงทั้ง 2 ค่า ถึงจะเป็นจริง นอกนั้นเป็นเท็จ
-
-a and b
-
-False
-
-or
-
-ต้องเท็จ 2 ค่า ถึงจะเป็นเท็จ นอกนั้นเป็นจริง
-
-a or b
-
-True
-
-not
-
-ให้ค่าตรงข้าม
-
-not (a and a)
-
-False
 
 ## If-Else Condition
 
@@ -513,5 +483,5 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3NDAzOTg2XX0=
+eyJoaXN0b3J5IjpbLTgxODk4NDYzNV19
 -->
