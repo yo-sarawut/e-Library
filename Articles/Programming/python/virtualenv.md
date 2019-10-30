@@ -144,6 +144,18 @@ pip install -r <file requirement>
 
 ### สรุป
 
+
+
+|Command|	Descriptions|
+|-------|-----------------|
+|virtualenv <env_name>|	สร้าง environment|
+|<env_name>/Scripts/activate|	ใช้งาน environment
+|deactivate	ออกจาก environtment
+|pip install <library_name>	ติดตั้ง library
+|pip freeze	แสดงรายชื่อ library
+สัญลักษณ์ > <output_file>	เป็นการบอกให้เขียนใส่ <output_file>
+
+
 Command
 
 Descriptions
@@ -179,5 +191,5 @@ pip freeze
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDUwNDUyXX0=
+eyJoaXN0b3J5IjpbLTUyODU3OTg2Ml19
 -->
