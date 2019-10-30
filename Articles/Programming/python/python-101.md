@@ -80,12 +80,12 @@ score = [20, 40, 30, 50, 35]
 
 มีเก้าอี้อยู่ 4 แถว แถวละ 3 ตัว เราก็วาดตารางขึ้นมาก่อน
 
-|  |คอลัมน์|1|คอลัมน์.1|2|คอลัมน์.2|3|
-|-------|------|------|------|------|------|------|
-|0|แถว|1|A|J|L|nan|
-|1|แถว|2|F|B|I|nan|
-|2|แถว|3|D|C|H|nan|
-|3|แถว|4|G|E|K|nan|
+|  |คอลัมน์ 1|คอลัมน์ 2|คอลัมน์ 3|
+|-----|------|:------:|:------:|
+|0|แถว1|A|J|L|nan|
+|1|แถว2|F|B|I|nan|
+|2|แถว3|D|C|H|nan|
+|3|แถว4|G|E|K|nan|
 
 เราก็จะสร้าง List แบบนี้
 
@@ -312,6 +312,6 @@ for i in range(start, stop)
 
 > ที่มาบทความ : [skconan.com](https://www.skconan.com/python-cheat-101/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDY0NTQ3Nyw3MzU0MjgwNzksLTgxOD
+eyJoaXN0b3J5IjpbMTUwMDM5NTY5Miw3MzU0MjgwNzksLTgxOD
 k4NDYzNV19
 -->
