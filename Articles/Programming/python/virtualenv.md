@@ -149,47 +149,16 @@ pip install -r <file requirement>
 |Command|	Descriptions|
 |-------|-----------------|
 |virtualenv <env_name>|	สร้าง environment|
-|<env_name>/Scripts/activate|	ใช้งาน environment
-|deactivate	ออกจาก environtment
-|pip install <library_name>	ติดตั้ง library
-|pip freeze	แสดงรายชื่อ library
-สัญลักษณ์ > <output_file>	เป็นการบอกให้เขียนใส่ <output_file>
+|<env_name>/Scripts/activate|	ใช้งาน environment|
+|deactivate	|ออกจาก environtment|
+|pip install <library_name>|	ติดตั้ง library|
+|pip freeze|	แสดงรายชื่อ library|
+|สัญลักษณ์ > <output_file>	|เป็นการบอกให้เขียนใส่ <output_file>|
 
 
-Command
 
-Descriptions
 
-virtualenv <env_name>
-
-สร้าง environment
-
-<env_name>/Scripts/activate
-
-ใช้งาน environment
-
-deactivate
-
-ออกจาก environtment
-
-pip install <library_name>
-
-ติดตั้ง library
-
-pip freeze
-
-แสดงรายชื่อ library
-
-สัญลักษณ์ > <output_file>
-
-เป็นการบอกให้เขียนใส่ <output_file>
-
-[หากใครชอบเนื้อหาที่ผมเขียน สามารถร่วมกัน Donate เพื่อเป็นค่ากาแฟได้นะครับ ^^](https://www.skconan.com/donate)
-
-  
-ใครที่สงสัยจุดไหน หรือพบว่าจุดไหนที่ผมอธิบายผิด สามารถเข้ามาพูดคุยกันได้นะครับ inbox มาที่ Facebook, Twitter เลยก็ได้ครับ หรือ mail มาที่ supakit.kr@gmail.com จะยินดีมากเลยครับ
-
-> Written with [StackEdit](https://stackedit.io/).
+> ที่มาบทความ [skconan.com](https://www.skconan.com/python-virtualenv/?fbclid=IwAR3fxMtdaTGVhcV_8G7syMIs0n4fpx-0n58q5CdafU1IkZ727cZFO5ZxSjE).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODU3OTg2Ml19
+eyJoaXN0b3J5IjpbNTI1Mjg4NTQxXX0=
 -->
