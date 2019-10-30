@@ -1,5 +1,6 @@
 การใช้งาน Virtualenv
 ===
+
 ### Virtualenv คืออะไร
 
 Virtualenv(ironment) คือ environment ของ python เช่น คุณทำโปรแกรมอยู่ 2 ตัว A กับ B แล้วเวลาคุณจะติดตั้ง library ถ้าคุณ pip install ลงไปเลย
@@ -78,7 +79,7 @@ Set-ExecutionPolicy RemoteSigned
 
 คราวนี้ถ้าเราอยากรู้ว่า environment ของเรามี library อะไรอยู่บ้างก็ให้ลองสั่ง
 
-```shell
+```py
 pip freeze
 ```
 
@@ -86,7 +87,7 @@ pip freeze
 
 ซึ่งเราจะยังไม่เห็น library ใดๆ คราวนนี้เรามาลองติดตั้ง library OpenCV กัน
 
-```shell
+```py
 pip install opencv-python
 ```
 
@@ -94,7 +95,7 @@ pip install opencv-python
 
 แล้วลอง pip freeze อีกรอบ เราก็จะเห็นว่ามี library OpenCV เพิ่มเข้ามา
 
-```shell
+```py
 numpy==1.16.3
 opencv-python==4.1.0.25
 ```
@@ -178,5 +179,5 @@ pip freeze
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjY4NTk1XX0=
+eyJoaXN0b3J5IjpbMTIyMDUwNDUyXX0=
 -->
