@@ -60,7 +60,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 
 หลังจากเราวาง OKR ขององค์แล้ว เราก็ต้อง Breakdown มาในระดับ แผนก ทีม และ บุคคล เราลองมาดูตัวอย่างของการวางเป้าหมายตั้งแต่ระดับองค์กรไปสู่ระดับบุคคล
 
-![](https://miro.medium.com/max/60/0*xh6N33P-xD7i8Nc_.?q=20)
+
 
 ![](https://miro.medium.com/max/638/0*xh6N33P-xD7i8Nc_.)
 
@@ -74,7 +74,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 
 # **OKR Guildeline**
 
-![](https://miro.medium.com/max/60/0*ulxLk8ZlnguBeXxK.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*ulxLk8ZlnguBeXxK.)
 
@@ -105,7 +105,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
     20% Support other ทำงานที่ช่วยคนอื่น :: ประมาณ2 Objectives  
     10% Improve yourself พัฒนาตนเองเพื่อให้ทำงานได้ดีขึ้น เช่น การเรียนรู้เพิ่มเติม ไปอบรมสัมมนา เป็นต้น (คนมักละเลยในส่วนนี้)
 
-![](https://miro.medium.com/max/60/0*RdVridtJi7C4lwj2.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*RdVridtJi7C4lwj2.)
 
@@ -113,7 +113,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 
 อย่างที่กล่าวไปข้างต้น OKR ที่ดี ควรสอดคล้องกันทั้งองค์กร และ แต่ละทีมโดย 50%
 
-![](https://miro.medium.com/max/60/0*FBBXYR1Q8NVO0EIy.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*FBBXYR1Q8NVO0EIy.)
 
@@ -123,7 +123,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 -   อัพเดทสถานะ และ ประเมินแต่ละ OKR เป็นประจำ (รายอาทิตย์ รายเดือน)
 -   เมื่อแต่ละเป้าหมาย complete 70–80% ถือว่าทำได้ดีแล้ว
 
-![](https://miro.medium.com/max/60/0*eW8VOfDxqBu-Beg2.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*eW8VOfDxqBu-Beg2.)
 
@@ -137,7 +137,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 
 # OKR Grading
 
-![](https://miro.medium.com/max/60/0*PExGsafOObSxGelM.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*PExGsafOObSxGelM.)
 
@@ -150,7 +150,7 @@ Image Source ::  [https://cdn-images-1.medium.com/max/544/1*NcqDRER6K5sd61w3JmEE
 
 **ตัวอย่างการให้คะแนน OKR**
 
-![](https://miro.medium.com/max/60/0*N_U6ZvLbqzZpFlye.?q=20)
+
 
 ![](https://miro.medium.com/max/638/0*N_U6ZvLbqzZpFlye.)
 
@@ -160,7 +160,7 @@ Image Source :: BetterWorks on Slideshare
 
 สำหรับใครที่อยากลอง เริ่มตั้ง OKR ในปีหน้า รูปภาพนี้เป็น Timeline ที่ดีในการปรับใช้ OKR ในองค์กร
 
-![](https://miro.medium.com/max/46/0*fvuW_99ebbmJvzym.?q=20)
+
 
 ![](https://miro.medium.com/max/700/0*fvuW_99ebbmJvzym.)
 
@@ -185,7 +185,7 @@ image source ::  [Lattice](https://lattice.com/blog/okr-101/)
 
 # OKR Process timeline
 
-![](https://miro.medium.com/max/60/0*AaTt8fjSlnQYgs0p.?q=20)
+
 
 ![](https://miro.medium.com/max/1920/0*AaTt8fjSlnQYgs0p.)
 
@@ -196,5 +196,5 @@ image source ::  [Lattice](https://lattice.com/blog/okr-101/)
 
 Ref : [Medium](https://medium.com/@nichakuadkaew/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%9A%E0%B8%9A-okr-objective-key-result-%E0%B8%88%E0%B8%B2%E0%B8%81-ex-googler-bf3ca88339b8)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MDgxMDE1XX0=
+eyJoaXN0b3J5IjpbMTIwNDU5MzQyNSw1NDQwODEwMTVdfQ==
 -->
