@@ -13,7 +13,7 @@ If you haven’t already, check out  [Part 1](https://medium.com/@hr23232323/bui
 
 In the last part, we built a web scraper to crawl through yahoo finance and collect information about companies we’re interested in. We utilized BeautifulSoup library to create the scraper and were successfully able to scrape data.
 
-![](https://miro.medium.com/max/60/1*5egzSFtjkNxLH9erb1mgrA.png?q=20)
+
 
 ![](https://miro.medium.com/max/975/1*5egzSFtjkNxLH9erb1mgrA.png)
 
@@ -57,5 +57,5 @@ So now you have it! A way to store scraped stock data off of Yahoo Finance for u
 
 > ที่มาบทความ : [Medium.com](https://medium.com/@hr23232323/building-a-stock-screener-in-python-part-2-f40b64889293).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE1NjkxNzBdfQ==
+eyJoaXN0b3J5IjpbLTU4Njk0NjMyM119
 -->
