@@ -34,15 +34,15 @@ KPI = Key Performance Indicator
 [KPI ดัชนีชี้วัดความสำเร็จ : เคล็ดลับสู่ความสำเร็จ](https://hcm-jinjer.com/thai-media/orgdevelopment/190402-kpi/)
 
 ## OKR คืออะไรกันแน่?
+```
+OKR = Objective and Key Results
 
-**OKR = Objective and Key Results**
+เครื่องมือในการตั้งเป้าหมายและการกำหนดตัววัดผล
 
-**เครื่องมือในการตั้งเป้าหมายและการกำหนดตัววัดผล**
+Objective -> เป้าหมาย
 
-**Objective -> เป้าหมาย**
-
-**Key Results -> ตัววัดผล**
-
+Key Results -> ตัววัดผล
+```
 อย่างที่บอกไปว่า OKR ก็คือเครื่องมือในการตั้งเป้าหมายและการกำหนดตัววัดผลในคราวเดียวกันนั่นเอง ซึ่งหลายองค์กรใช้เป็นเครื่องมือสำคัญในการขับเคลื่อนองค์กรไปสู่ความสำเร็จ เพราะมีเป้าหมายที่เห็นได้ชัดเจน และมีพันธกิจที่ชี้ไปถึงวิธีเดินทางสู่เป้าหมายได้เข้าใจง่าย รวมถึงนำไปปฎิบัติได้อย่างมีประสิทธิภาพมากขึ้น เรามาลองเจาะลึกลงไปในรายละเอียดของ OKR กันดีกว่าว่าจะประกอบไปด้วยอะไร และมีความสำคัญอย่างไรบ้าง
 
 ![](https://hcm-jinjer.com/thai-media/wp/wp-content/uploads/2019/06/shutterstock_1338283313.png)
@@ -166,5 +166,5 @@ KPI = Key Performance Indicator
 
 > ที่มาบทความ [hcm-jinjer.com](https://hcm-jinjer.com/thai-media/orgdevelopment/190607-okr-objective-key-results/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODI1NjYwNV19
+eyJoaXN0b3J5IjpbMzU0NjM3MDQ1XX0=
 -->
