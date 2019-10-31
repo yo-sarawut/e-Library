@@ -1,6 +1,6 @@
 Note for Articles
 ==
-
+- [การแบ่งหมวดหมู่ใน Me](https://medium.com/topics)
 - [นิทานเรื่อง big data กับหนังสือในห้องสมุด](https://blog.skooldio.com/%e0%b8%99%e0%b8%b4%e0%b8%97%e0%b8%b2%e0%b8%99%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-big-data-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%b7%e0%b8%ad/)
 - [API คืออะไร? อธิบายแบบคนไม่เขียนโปรแกรมรู้เรื่องได้มั้ย?](https://blog.skooldio.com/api-%e0%b8%84%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3/)
 - [Code คืออะไร? เข้าใจผ่านหนัง The Matrix](https://blog.skooldio.com/code-%e0%b8%84%e0%b8%b7%e0%b8%ad%e0%b8%ad%e0%b8%b0%e0%b9%84%e0%b8%a3-%e0%b9%80%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b9%83%e0%b8%88%e0%b8%9c%e0%b9%88%e0%b8%b2%e0%b8%99-the-matrix/)
@@ -67,7 +67,7 @@ Note for Articles
 |===
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIxNzQ5NDIsLTg1ODc2OTM5OCw4MD
-YwMTU2MTYsOTIzMTc5MDgxLDE4Njg2NjEwNzQsLTIwOTkyOTIz
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDIwNDg2MiwtMTIzMjE3NDk0MiwtOD
+U4NzY5Mzk4LDgwNjAxNTYxNiw5MjMxNzkwODEsMTg2ODY2MTA3
+NCwtMjA5OTI5MjMzNl19
 -->
