@@ -1,6 +1,8 @@
 Note for Tutorials 
 ===
 
+- [Flask](https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C/python-framework-flask/4328-chapter-1-steps-to-writing-python-using-flask-to-render-a-form-page.html)
+
 ## การเรียงหัวข้อ 
 [Source :](https://www.programiz.com/python-programming/keyword-list)
 ### Python Introduction
@@ -64,5 +66,5 @@ Python Examples
 
 ### Python Date and time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODkyNDE3NV19
+eyJoaXN0b3J5IjpbLTIyODMzNDk3NCwtNTQ4OTI0MTc1XX0=
 -->
