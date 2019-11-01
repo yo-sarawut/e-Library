@@ -65,7 +65,7 @@ A sized image: ![Alt](img.jpg =60x50)
 Code
 ---------------------------
 
-Some `inline code`.
+	Some `inline code`.
 
 	```
 	// A code block
@@ -267,5 +267,5 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzY3OTc1MF19
+eyJoaXN0b3J5IjpbMTM4MTE1NDM5OF19
 -->
