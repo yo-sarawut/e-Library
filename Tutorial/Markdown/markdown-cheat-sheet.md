@@ -1,4 +1,5 @@
-
+Markdown Cheat Sheet
+===
 
 
 
@@ -66,15 +67,15 @@ Code
 
 Some `inline code`.
 
-```
-// A code block
-var foo = 'bar';
-```
+	```
+	// A code block
+	var foo = 'bar';
+	```
 
-```javascript
-// An highlighted block
-var foo = 'bar';
-```
+	```javascript
+	// An highlighted block
+	var foo = 'bar';
+	```
 
 
 
@@ -266,5 +267,5 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk4NTk1MzJdfQ==
+eyJoaXN0b3J5IjpbMTIzMzY3OTc1MF19
 -->
