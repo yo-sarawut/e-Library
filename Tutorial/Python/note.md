@@ -1,6 +1,7 @@
 Note for Pandas tutorials
 ===
 - [Python for Everybody](https://books.trinket.io/pfe/index.html)
+
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51e7gE9IqCL._SX348_BO1,204,203,200_.jpg)
 
 - [VitoshAcademy](https://www.vitoshacademy.com/category/python/)
@@ -11,5 +12,6 @@ Note for Pandas tutorials
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUxNzAzMjMsNDQ0MjY4MjRdfQ==
+eyJoaXN0b3J5IjpbMjAxMDI5Mzg4NywtMTM1NTE3MDMyMyw0ND
+QyNjgyNF19
 -->
