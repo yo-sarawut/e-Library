@@ -4,8 +4,8 @@
 - [e-Libraly](https://e_libraly.gitlab.io/knowledge_base/)
 - [e-Import](https://app.gitbook.com/@e-import/s/e-import/)
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
-- [e-Tax Invoice & Receipt]()
-
+- [e-Tax Inv=ceipt]()
+- [==Setup Jupyternotebook for markdown==](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 #  Tutorials
 
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
@@ -116,11 +116,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTQzNTQyMSwxNzg5ODMyNTc1LC0xNz
-AxOTM0NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3
-ODUsMTg1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5My
-wtNTQ1NzQzMjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2
-OTM1MzU3LC0xMDY2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5Nj
-Q3MDgsLTE2Nzk4Mzc3LC0xNzIxNDI1NTM5LC0xMTg4MDQ4OTEy
-LDE5NDU0NjQ4MjZdfQ==
+eyJoaXN0b3J5IjpbMTI5MDc5NjQ3MSwxOTE5NDM1NDIxLDE3OD
+k4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OTk5MjU1
+ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1NTMxLC
+0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOSwxNjY1
+Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NTMsLTczMDc1OT
+M4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3MjE0MjU1Mzks
+LTExODgwNDg5MTJdfQ==
 -->
