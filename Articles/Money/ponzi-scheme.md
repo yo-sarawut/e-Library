@@ -41,6 +41,9 @@ TAXBugnoms
 10. สุดท้ายเคสแม่มณี ควรเป็นตัวอย่างให้เราคิดได้ว่า เราควรมีความรู้เรื่องการเงินพื้นฐานมากๆ และใช้ชีวิตอย่างประมาทให้น้อยที่สุด และหวังว่าจะไม่มีเหตุการณ์แบบนี้เกิดขึ้นอีกต่อไปในสังคมไทย
 
 > ที่มาบทความ [TAXBugnoms](https://www.facebook.com/TaxBugnoms/).
+- [https://www.bangkokbiznews.com/](https://www.bangkokbiznews.com/)
+- [https://aommoney.com/](https://aommoney.com/)
+- [https://www.sanook.com/](https://www.sanook.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg1MjUyNywtMTc0ODQyNTY2M119
+eyJoaXN0b3J5IjpbMjA1MTc1OTg5NSwtMTc0ODQyNTY2M119
 -->
