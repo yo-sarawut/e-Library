@@ -18,9 +18,9 @@
 
 - ให้ข้อมูลเฉพาะด้านดีของโปรเจค อ้างอิงความสำเร็จของการลงทุนของคนก่อนหน้า 
 
-ส่งท้ายผมไปเจอบทความในเ
-เราเรียนรู้เรื่องเงิน จากกรณี แม่มณี อะไรบ้าง
-TAXBugnoms
+ส่งท้ายผมไปเจอบทความในเพจ **TAXBugnoms** เรื่อง **"เราเรียนรู้เรื่องเงิน จากกรณี แม่มณี อะไรบ้าง"** จึงขอนำบทความดังกล่าวเพื่อใช้ไว้เตือนสติตนเอง และคนใกล้ชิด ให้รู้เท่าทันกลโกง พวกนี้ และเพื่อหมั่นหาความรู้เพิ่มเติมในเรื่องการเงิน
+
+
 
 1. รวยเร็วเป็นไปได้ แต่รวยง่ายๆไม่มี 
 
@@ -42,10 +42,13 @@ TAXBugnoms
 
 10. สุดท้ายเคสแม่มณี ควรเป็นตัวอย่างให้เราคิดได้ว่า เราควรมีความรู้เรื่องการเงินพื้นฐานมาก ๆ และใช้ชีวิตอย่างประมาทให้น้อยที่สุด และหวังว่าจะไม่มีเหตุการณ์แบบนี้เกิดขึ้นอีกต่อไปในสังคมไทย
 
-> ที่มาบทความ [TAXBugnoms](https://www.facebook.com/TaxBugnoms/).
-- [https://www.bangkokbiznews.com/](https://www.bangkokbiznews.com/)
-- [https://aommoney.com/](https://aommoney.com/)
-- [https://www.sanook.com/](https://www.sanook.com/)
+ผู้เสียหายสามารถแจ้งข้อมูล/เบาะแสได้ที่เว็บไซต์กรมสอบสวนคดีพิเศษ หรือติดต่อกองคดีธุรกิจการเงินนอกระบบ กรมสอบสวนคดีพิเศษ โทร. 0-2142- 2831 หรือ สายด่วนกรมสอบสวนคดีพิเศษ โทร. 1202 โทรฟรีครับ
+
+> Reference
+- [TAXBugnoms](https://www.facebook.com/TaxBugnoms/).
+- [https://www.bangkokbiznews.com](https://www.bangkokbiznews.com/)
+- [https://aommoney.com](https://aommoney.com/)
+- [https://www.sanook.com](https://www.sanook.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjMxMjk3NiwtMTc0ODQyNTY2M119
+eyJoaXN0b3J5IjpbLTYxODEwNzYwOCwtMTc0ODQyNTY2M119
 -->
