@@ -2,6 +2,9 @@ Note for Tutorials
 ===
 
 - [Flask](https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C/python-framework-flask/4328-chapter-1-steps-to-writing-python-using-flask-to-render-a-form-page.html)
+- [WW2 Aerial bombing operations vs. Weather](https://www.kaggle.com/gzstoyanov/ww2-aerial-bombing-operations-vs-weather)
+- [Predicting Risk/Return on Financial Investment](https://www.kaggle.com/mmmarchetti/predicting-risk-return-on-financial-investment)
+- 
 
 ## การเรียงหัวข้อ 
 [Source :](https://www.programiz.com/python-programming/keyword-list)
@@ -66,5 +69,6 @@ Python Examples
 
 ### Python Date and time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODMzNDk3NCwtNTQ4OTI0MTc1XX0=
+eyJoaXN0b3J5IjpbLTEzNjEzNTgyNTcsLTIyODMzNDk3NCwtNT
+Q4OTI0MTc1XX0=
 -->
