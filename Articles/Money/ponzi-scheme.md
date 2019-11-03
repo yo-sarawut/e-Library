@@ -18,8 +18,8 @@
 
 - ให้ข้อมูลเฉพาะด้านดีของโปรเจค อ้างอิงความสำเร็จของการลงทุนของคนก่อนหน้า 
 
-
-
+ส่งท้ายผมไปเจอบทความในเ
+เราเรียนรู้เรื่องเงิน จากกรณี แม่มณี อะไรบ้าง
 TAXBugnoms
 
 1. รวยเร็วเป็นไปได้ แต่รวยง่ายๆไม่มี 
@@ -47,5 +47,5 @@ TAXBugnoms
 - [https://aommoney.com/](https://aommoney.com/)
 - [https://www.sanook.com/](https://www.sanook.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMjUxNTYwLC0xNzQ4NDI1NjYzXX0=
+eyJoaXN0b3J5IjpbMTQ1MjMxMjk3NiwtMTc0ODQyNTY2M119
 -->
