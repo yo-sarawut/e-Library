@@ -1,6 +1,11 @@
 Note for Web App
 ==
 
+
+
+
+
+
 ## แหล่งข้อมูลดี ๆ 
 - [**FreeFrontend แหล่งรวมของดีมีคุณภาพสำหรับสร้าง web**](https://freefrontend.com)
 - [best web design resources, tools, guides and collections of templates and themes](https://templateflip.com/resources/)
@@ -9,6 +14,11 @@ Note for Web App
 - [https://tympanus.net](https://tympanus.net/)
 - [https://freshdesignweb.com/free-website-templates/](https://freshdesignweb.com/free-website-templates/)
 - [Tool Online](https://superdevresources.com/tools/)
+
+## Ideas
+- [Program to display Astrological sign or Zodiac sign for given date of birth : โปรแกรมแสดง](https://www.geeksforgeeks.org/program-display-astrological-sign-zodiac-sign-given-date-birth/)
+
+
 ## Articles
 
 - [How to Build Unique, Beautiful Websites with Tailwind CSS](https://www.sitepoint.com/tailwind-unique-beautiful-websites/)
@@ -51,8 +61,8 @@ Note for Web App
 
 - [100 FREE HTML5 CSS3 Registration/Sign-in Forms](https://www.templatemonster.com/blog/html5-css3-registration-forms/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY5MTA3NDEsMjAxOTc3MjA4NiwtMT
-QzOTg2MDYxNywxMDM4NzY0NzcyLC0xOTM1NjQyMDk0LC02NTQ3
-Njc3ODcsMTU3MTg2MTQxMCwtNDU5MjY2MzgsNTczNTg0NDY2LC
-0xODM0NzY1NDQ2LC01MzM5MTUyMjRdfQ==
+eyJoaXN0b3J5IjpbMTkyMDYxNTgyOCwtMTk5NjkxMDc0MSwyMD
+E5NzcyMDg2LC0xNDM5ODYwNjE3LDEwMzg3NjQ3NzIsLTE5MzU2
+NDIwOTQsLTY1NDc2Nzc4NywxNTcxODYxNDEwLC00NTkyNjYzOC
+w1NzM1ODQ0NjYsLTE4MzQ3NjU0NDYsLTUzMzkxNTIyNF19
 -->
