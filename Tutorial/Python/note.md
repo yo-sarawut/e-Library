@@ -10,8 +10,10 @@ Note for Pandas tutorials
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51odwG5ljvL._SX384_BO1,204,203,200_.jpg)
 
 
-> Written with [StackEdit](https://stackedit.io/).
+- [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDI5Mzg4NywtMTM1NTE3MDMyMyw0ND
-QyNjgyNF19
+eyJoaXN0b3J5IjpbMzkyMjg1NDIxLDIwMTAyOTM4ODcsLTEzNT
+UxNzAzMjMsNDQ0MjY4MjRdfQ==
 -->
