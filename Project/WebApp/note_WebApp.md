@@ -16,7 +16,8 @@ Note for Web App
 - [Tool Online](https://superdevresources.com/tools/)
 
 ## Ideas
-- [Program to display Astrological sign or Zodiac sign for given date of birth : โปรแกรมแสดง](https://www.geeksforgeeks.org/program-display-astrological-sign-zodiac-sign-given-date-birth/)
+- [Program to display Astrological sign or Zodiac sign for given date of birth : โปรแกรมแสดงว่าวันเกิดคุณอยู่ในราศีใด](https://www.geeksforgeeks.org/program-display-astrological-sign-zodiac-sign-given-date-birth/)
+- [เกี่ยวกับ ip address](https://netaddr.readthedocs.io/en/latest/introduction.html)[]
 
 
 ## Articles
@@ -61,7 +62,7 @@ Note for Web App
 
 - [100 FREE HTML5 CSS3 Registration/Sign-in Forms](https://www.templatemonster.com/blog/html5-css3-registration-forms/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDYxNTgyOCwtMTk5NjkxMDc0MSwyMD
+eyJoaXN0b3J5IjpbLTkyODM5MDkzMiwtMTk5NjkxMDc0MSwyMD
 E5NzcyMDg2LC0xNDM5ODYwNjE3LDEwMzg3NjQ3NzIsLTE5MzU2
 NDIwOTQsLTY1NDc2Nzc4NywxNTcxODYxNDEwLC00NTkyNjYzOC
 w1NzM1ODQ0NjYsLTE4MzQ3NjU0NDYsLTUzMzkxNTIyNF19
