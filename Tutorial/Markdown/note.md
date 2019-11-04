@@ -5,10 +5,6 @@ Note for Markdown
 - [บทความชุดการเขียนเว็บเพจแบบ Markdown](https://www.gotoknow.org/wiki/pages/100)
 
 
-
-<https://www.gotoknow.org/wiki/pages/100>
-> [!IMPORTANT]
-> This is IMPORTANT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzMjg0ODQzXX0=
+eyJoaXN0b3J5IjpbLTExOTk0MjQ4NThdfQ==
 -->
