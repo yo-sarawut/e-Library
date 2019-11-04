@@ -15,9 +15,7 @@
 
 ## e-Book Free
 
-- [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-![enter image description here](https://pbpython.com/images/whirlwind-tour-python.jpg)
 # ==ควรศึกษา==
 
 - [ Let’s get started with ==**GitHub!**==](https://guides.github.com/activities/hello-world/)
@@ -121,11 +119,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MjkwNjQ4LC0yMDI0MjM3ODcsLTI2ND
-Y3MzE2NywxODQ4NTYxMjYzLDEyOTA3OTY0NzEsMTkxOTQzNTQy
-MSwxNzg5ODMyNTc1LC0xNzAxOTM0NjQ5LC0zMDU4Njk2ODksNz
-k5OTI1NTg0LDE1NDg2MTU3ODUsMTg1NTYwNzI1MSwtMjA0MDc5
-NTUzMSwtMTc5MTc4Njk5MywtNTQ1NzQzMjkwLDE4OTk4MzQzMD
-ksMTY2NTI4NzYzNCwxNTE2OTM1MzU3LC0xMDY2NTkyNzUzLC03
-MzA3NTkzODNdfQ==
+eyJoaXN0b3J5IjpbLTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMj
+QyMzc4NywtMjY0NjczMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3
+MSwxOTE5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLT
+MwNTg2OTY4OSw3OTk5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3
+MjUxLC0yMDQwNzk1NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOT
+AsMTg5OTgzNDMwOSwxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEw
+NjY1OTI3NTNdfQ==
 -->
