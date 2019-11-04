@@ -48,7 +48,7 @@ Homo sapiens อยู่รอดและครองโลกมาได้ 
 
 และศาสนาที่ประสบความสำเร็จมากที่สุดในสายตาของเขาก็คือ ระบบทุนนิยม..
 
-> Written with [StackEdit](https://stackedit.io/).
+> ที่มาบทความ [ลงทุนแมน](https://www.longtunman.com/3144).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODUzNDIyNl19
+eyJoaXN0b3J5IjpbMTU1NjAyOTA2MV19
 -->
