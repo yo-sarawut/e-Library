@@ -12,8 +12,29 @@ Note for Pandas tutorials
 
 - [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 
+![enter image description here](https://jakevdp.github.io/WhirlwindTourOfPython/figures/cover-large.gif)
 
+## Index[](https://jakevdp.github.io/WhirlwindTourOfPython/#Index)
+
+1.  [Introduction](https://jakevdp.github.io/WhirlwindTourOfPython/00-introduction.html)
+2.  [How to Run Python Code](https://jakevdp.github.io/WhirlwindTourOfPython/01-how-to-run-python-code.html)
+3.  [Basic Python Syntax](https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html)
+4.  [Python Semantics: Variables](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html)
+5.  [Python Semantics: Operators](https://jakevdp.github.io/WhirlwindTourOfPython/04-semantics-operators.html)
+6.  [Built-In Scalar Types](https://jakevdp.github.io/WhirlwindTourOfPython/05-built-in-scalar-types.html)
+7.  [Built-In Data Structures](https://jakevdp.github.io/WhirlwindTourOfPython/06-built-in-data-structures.html)
+8.  [Control Flow Statements](https://jakevdp.github.io/WhirlwindTourOfPython/07-control-flow-statements.html)
+9.  [Defining Functions](https://jakevdp.github.io/WhirlwindTourOfPython/08-defining-functions.html)
+10.  [Errors and Exceptions](https://jakevdp.github.io/WhirlwindTourOfPython/09-errors-and-exceptions.html)
+11.  [Iterators](https://jakevdp.github.io/WhirlwindTourOfPython/10-iterators.html)
+12.  [List Comprehensions](https://jakevdp.github.io/WhirlwindTourOfPython/11-list-comprehensions.html)
+13.  [Generators and Generator Expressions](https://jakevdp.github.io/WhirlwindTourOfPython/12-generators.html)
+14.  [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html)
+15.  [Strings and Regular Expressions](https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html)
+16.  [Preview of Data Science Tools](https://jakevdp.github.io/WhirlwindTourOfPython/15-preview-of-data-science-tools.html)
+17.  [Resources for Further Learning](https://jakevdp.github.io/WhirlwindTourOfPython/16-further-resources.html)
+18.  [Appendix: Code To Reproduce Figures](https://jakevdp.github.io/WhirlwindTourOfPython/17-figures.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMjg1NDIxLDIwMTAyOTM4ODcsLTEzNT
-UxNzAzMjMsNDQ0MjY4MjRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTUxMjA2MzIsMjAxMDI5Mzg4NywtMT
+M1NTE3MDMyMyw0NDQyNjgyNF19
 -->
