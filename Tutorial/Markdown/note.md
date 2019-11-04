@@ -7,6 +7,8 @@ Note for Markdown
 
 
 <https://www.gotoknow.org/wiki/pages/100>
+> [!IMPORTANT]
+> This is IMPORTANT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NDEyMTMyXX0=
+eyJoaXN0b3J5IjpbNDIzMjg0ODQzXX0=
 -->
