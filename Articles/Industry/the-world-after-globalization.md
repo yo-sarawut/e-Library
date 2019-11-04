@@ -3,7 +3,7 @@
 
 > บทความของ [ดร.ปิยศักดิ์ มานะสันต์](https://www.bangkokbiznews.com/blog/detail/648626?fbclid=IwAR0U4-6sd5-lLFexDDnt8LmvESI5MnZ-MDr4BlcilLnWt00BJbnNTPZsIWM).
 
-
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiOsGYwmmGUAJFnzZv2CccxPhi9YV-XiXzRExS9q6LSL356i_a)
 
 **จะเป็นโชคดีหรือโชคร้ายของคนยุคผู้อ่านและผู้เขียนก็ไม่ทราบได้ ที่กำลังอยู่ในยุคเปลี่ยนผ่านขนานใหญ่**
 
@@ -41,5 +41,5 @@
 
 **เศรษฐกิจผันผวน การค้าโดดเดี่ยว การเมืองอึมครึม แต่เทคโนโลยีให้ความหวัง เป็นสิ่งที่รอเราในทศวรรษหน้า ผู้อ่านทั้งหลาย เตรียมพร้อมแล้วหรือยัง**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTYwMjIxMF19
+eyJoaXN0b3J5IjpbLTExMDU1MjExNTIsMjEzNTYwMjIxMF19
 -->
