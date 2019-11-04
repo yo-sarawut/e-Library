@@ -1,7 +1,7 @@
 
 # e-Book
 - [GitBook_notebook](https://app.gitbook.com/@yo-sarawut/s/workspace/)
-- [e-Libraly](https://e_libraly.gitlab.io/knowledge_base/)
+- [e-Library](https://dragon_e-library.gitlab.io/knowledge_base/)
 - [e-Import](https://app.gitbook.com/@e-import/s/e-import/)
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
 - [e-Tax Inv=ceipt]()
@@ -117,11 +117,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODU2MTI2MywxMjkwNzk2NDcxLDE5MT
-k0MzU0MjEsMTc4OTgzMjU3NSwtMTcwMTkzNDY0OSwtMzA1ODY5
-Njg5LDc5OTkyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcyNTEsLT
-IwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxODk5
-ODM0MzA5LDE2NjUyODc2MzQsMTUxNjkzNTM1NywtMTA2NjU5Mj
-c1MywtNzMwNzU5MzgzLC0xODc3OTY0NzA4LC0xNjc5ODM3Nywt
-MTcyMTQyNTUzOV19
+eyJoaXN0b3J5IjpbLTI2NDY3MzE2NywxODQ4NTYxMjYzLDEyOT
+A3OTY0NzEsMTkxOTQzNTQyMSwxNzg5ODMyNTc1LC0xNzAxOTM0
+NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3ODUsMT
+g1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5MywtNTQ1
+NzQzMjkwLDE4OTk4MzQzMDksMTY2NTI4NzYzNCwxNTE2OTM1Mz
+U3LC0xMDY2NTkyNzUzLC03MzA3NTkzODMsLTE4Nzc5NjQ3MDgs
+LTE2Nzk4Mzc3XX0=
 -->
