@@ -23,7 +23,7 @@ Link Index
 - [**Full Stack Python**](https://www.fullstackpython.com/)
 - [**Python Data Science Handbook**](https://jakevdp.github.io/PythonDataScienceHandbook/index.html?fbclid=IwAR32hy1mDx0FESTiav8FkEENgm_Kv_DOc0ntvEbUJved1YZibHTVMui0-rc)
 - [**Automate the Boring Stuff with Python**(e-Book)](https://automatetheboringstuff.com/#toc)
-- 
+- [ThisPointer.com](https://thispointer.com//)
 - [Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Python Tutorials](https://openwritings.net/python-tutorials)
 - [Book:A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/Category:Book:A_Beginner%27s_Python_Tutorial)
@@ -226,7 +226,7 @@ Quantmod makes creating interactive financial charts easy and intuitive. Further
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTAxNzM1MiwtMzQ2NTI1NzMsLTE5MT
+eyJoaXN0b3J5IjpbLTE3NDczNTY2NCwtMzQ2NTI1NzMsLTE5MT
 AxNjUyMywtMTk2MDU5OTM0NSwtNzEwNDk2MDc4LDIxNDYwOTA5
 MDksLTkyMDQ0NzcyMCwxOTU3ODk3MTcsLTE3NzI1MTg0NTAsMT
 Y3Mjg3MzMzNiwtMTkyNzU3MDc2MSwtNDQ4MzAzMDMwLC03NzU0
