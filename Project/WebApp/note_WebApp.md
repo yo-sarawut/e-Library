@@ -62,9 +62,16 @@ Note for Web App
 
 - [100 FREE HTML5 CSS3 Registration/Sign-in Forms](https://www.templatemonster.com/blog/html5-css3-registration-forms/)
 - [WebThem สวย ๆ ให้ downloads ฟรี](https://webthemez.com/tag/free/page/11/)
+
+<div class="w3-panel w3-sand w3-leftbar">  
+<p><i class="fa fa-quote-right w3-xxlarge w3-opacity"></i>  
+<span class="w3-serif w3-xlarge">  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit ...</span></p>  
+</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNzc5OTc1LC0xOTk2OTEwNzQxLDIwMT
-k3NzIwODYsLTE0Mzk4NjA2MTcsMTAzODc2NDc3MiwtMTkzNTY0
-MjA5NCwtNjU0NzY3Nzg3LDE1NzE4NjE0MTAsLTQ1OTI2NjM4LD
-U3MzU4NDQ2NiwtMTgzNDc2NTQ0NiwtNTMzOTE1MjI0XX0=
+eyJoaXN0b3J5IjpbMTkwNzY4OTA4Myw1MTM3Nzk5NzUsLTE5OT
+Y5MTA3NDEsMjAxOTc3MjA4NiwtMTQzOTg2MDYxNywxMDM4NzY0
+NzcyLC0xOTM1NjQyMDk0LC02NTQ3Njc3ODcsMTU3MTg2MTQxMC
+wtNDU5MjY2MzgsNTczNTg0NDY2LC0xODM0NzY1NDQ2LC01MzM5
+MTUyMjRdfQ==
 -->
