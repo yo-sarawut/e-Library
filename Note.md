@@ -11,6 +11,7 @@
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
 - [PYTHON TUTORIAL & Example](https://www.programiz.com/python-programming/time/sleep)
 - [ตัวอย่างการทำ Project ด้วย Python](https://pythonprogramming.net)
+- [](https://pythontesting.net/start-here/)
 
 ## e-Book Free
 
@@ -116,11 +117,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ![enter image description here](https://blog.skooldio.com/wp-content/uploads/2018/02/metrix.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDc5NjQ3MSwxOTE5NDM1NDIxLDE3OD
-k4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OTk5MjU1
-ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1NTMxLC
-0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOSwxNjY1
-Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OTI3NTMsLTczMDc1OT
-M4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcsLTE3MjE0MjU1Mzks
-LTExODgwNDg5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODkyODIwNTAsMTI5MDc5NjQ3MSwxOT
+E5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2
+OTY4OSw3OTk5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC
+0yMDQwNzk1NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5
+OTgzNDMwOSwxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEwNjY1OT
+I3NTMsLTczMDc1OTM4MywtMTg3Nzk2NDcwOCwtMTY3OTgzNzcs
+LTE3MjE0MjU1MzldfQ==
 -->
