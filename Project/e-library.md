@@ -5,7 +5,7 @@
 - [ทำบล็อคด้วย Gatsby บนเว็บ Devahoy](https://devahoy.com/blog/2019/07/how-devahoy-create-blog-with-gatsby/)
 - [มาสร้าง Static เว็บด้วย GatsbyJS กันเถอะ](https://medium.com/@phayao/%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-static-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-gatsbyjs-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-a6ba65968d03)
 - [Building Blazing-fast static site with Gatsby](https://arnondora.in.th/gatsby-js-tutorial-1)
-- 
+- [Gatby Starter Blog on GitHub](https://github.com/gatsbyjs/gatsby-starter-blog)
 
 
 
@@ -88,11 +88,11 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTQ0MzUxLC0xMTU1MDkzMzQsLTEzND
-AxODU3MjAsLTUyMDQ1OTQwMiwtNTExMDQ0MTIxLC0yMzAyOTA3
-NzcsLTExMjY0NjM0NDksMTAyNzU2MjkwMiwyMTQzNDM2OTMsMT
-EwMzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0MSwxMDc0Njg2
-NTI0LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2NjM0OTYxNTMsMj
-cwMDY2NTQsMTYxOTAxOTg1MSw3MTc3MjM4NzEsLTgxMDAwMzA2
-MF19
+eyJoaXN0b3J5IjpbLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMT
+M0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5
+MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5My
+wxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2
+ODY1MjQsNjE2ODgzOTAyLDk5NDcwNzM4MiwtMTY2MzQ5NjE1My
+wyNzAwNjY1NCwxNjE5MDE5ODUxLDcxNzcyMzg3MSwtODEwMDAz
+MDYwXX0=
 -->
