@@ -1,7 +1,7 @@
 ปัจจุบันเราต้องเผชิญกับความท้าทายอะไรบ้าง
 ===
 
-บรรยายโดย คุณอรพงศ์ เทียนเงิน ผู้จัดการใหญ่ ธนาคารไทยพาณิชย์
+==บรรยายโดย คุณอรพงศ์ เทียนเงิน ผู้จัดการใหญ่ ธนาคารไทยพาณิชย์==
 
 สรุป โดย ดร.ธีรศานต์ @iczz สหัสสพาศน์ ผู้อำนวยการหลักสูตร  [DNAbySPU.com](http://dnabyspu.com/?fbclid=IwAR1tS26Ybn2QYeOQf5Z_zQVINjYdL1Eqj59F3fyi6fqITopF8T47FksZvn4)
 
@@ -70,5 +70,6 @@
 ชมคลิปเต็ม ::  [https://youtu.be/Q1KPtLdY4xk](https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FQ1KPtLdY4xk%3Ffbclid%3DIwAR1Gfzh-dhqIHla5oCg1iRLZlsYBLpyKKOz1gBzVTqNthDkyr3YR24zCL9M&h=AT0fy5NkhBPWmE5DszKEcpTne9W1f0bW-bWklaLbPECdry_qYqZf8KBQ9RX39o-ODmGE-p4xgov766-UYKhCqBrcwXnVOYgo3WbgAWZR5lbbHCtoZWjgcbvmc_YW4AQsxsD6y56H8ilkC_6-FCbFAOPH1UjhkLdmJA)  
 หมายเหตุ เห็นว่าน่าจะมีประโยชน์ต่อมุมมองของการแข่งขันในยุคปัจจุบัน จึงขออนุญาตสรุปประเด็นที่สำคัญ เพื่อให้อ่านได้จบในเวลา 5 นาที เพื่อเป็นประโยชน์สำหรับท่านที่อาจไม่ได้ดูคลิปเต็ม ด้วยเวลา 25.45 นาที
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTkyMzQxOSwtMTQ0NDYzMzEyOV19
+eyJoaXN0b3J5IjpbLTE0NTMyNDA2MTMsLTE0NDQ2MzMxMjldfQ
+==
 -->
