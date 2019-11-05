@@ -2,7 +2,9 @@ Note for Pandas Tutorials
 ==
 - [Pandas API Reference ](https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.read_html.html)
 - [Pandas DataFrame Doc](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#reindexing-selection-label-manipulation)
+**String**
 - [https://www.th.w3ki.com/python/string_rstrip.html](https://www.th.w3ki.com/python/string_rstrip.html)
+- [https://phyblas.hinaboshi.com/tsuchinoko11](https://phyblas.hinaboshi.com/tsuchinoko11)
 
 ----
 
@@ -48,6 +50,6 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1MjAyNjUsLTEzNjA5Nzk1NjAsLT
-YwODI0Njk0OCwxNzAzMTIxMjgxLC00NDE0MTYxMzddfQ==
+eyJoaXN0b3J5IjpbNTY0NjEzMTYsLTEzNjA5Nzk1NjAsLTYwOD
+I0Njk0OCwxNzAzMTIxMjgxLC00NDE0MTYxMzddfQ==
 -->
