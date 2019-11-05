@@ -3,6 +3,32 @@ Note for Pandas Tutorials
 - [Pandas API Reference ](https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.read_html.html)
 - [Pandas DataFrame Doc](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#reindexing-selection-label-manipulation)
 
+----
+
+
+## Pandas API
+
+**(ตัวอย่างการแบ่งหัวข้อ)**
+
+[API reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html#)
+
+-   [Input/output](https://pandas.pydata.org/pandas-docs/stable/reference/io.html)
+-   [General functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html)
+-   [Series](https://pandas.pydata.org/pandas-docs/stable/reference/series.html)
+-   [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)
+-   [Pandas arrays](https://pandas.pydata.org/pandas-docs/stable/reference/arrays.html)
+-   [Panel](https://pandas.pydata.org/pandas-docs/stable/reference/panel.html)
+-   [Index objects](https://pandas.pydata.org/pandas-docs/stable/reference/indexing.html)
+-   [Date offsets](https://pandas.pydata.org/pandas-docs/stable/reference/offset_frequency.html)
+-   [Frequencies](https://pandas.pydata.org/pandas-docs/stable/reference/offset_frequency.html#frequencies)
+-   [Window](https://pandas.pydata.org/pandas-docs/stable/reference/window.html)
+-   [GroupBy](https://pandas.pydata.org/pandas-docs/stable/reference/groupby.html)
+-   [Resampling](https://pandas.pydata.org/pandas-docs/stable/reference/resampling.html)
+-   [Style](https://pandas.pydata.org/pandas-docs/stable/reference/style.html)
+-   [Plotting](https://pandas.pydata.org/pandas-docs/stable/reference/plotting.html)
+-   [General utility functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html)
+-   [Extensions](https://pandas.pydata.org/pandas-docs/stable/reference/extensions.html)
+
 ## การตั้งหัวข้อเพื่อศึกษา
 ที่มา : [https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955](https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955)
 
@@ -21,6 +47,6 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA5Nzk1NjAsLTYwODI0Njk0OCwxNz
-AzMTIxMjgxLC00NDE0MTYxMzddfQ==
+eyJoaXN0b3J5IjpbNDUzNjEyOTE3LC0xMzYwOTc5NTYwLC02MD
+gyNDY5NDgsMTcwMzEyMTI4MSwtNDQxNDE2MTM3XX0=
 -->
