@@ -33,6 +33,8 @@ Weather App
 - [Web Scraping 101 with Python](https://www.scrapingninja.co/blog/web-scraping-101-with-python)
 - [Web Scraping with Python BeautifulSoup and Requests](https://dev.to/kashaziz/web-scraping-with-python-beautifulsoup-and-requests-2n71)
 - [https://earth.nullschool.net](https://earth.nullschool.net/)
+- [https://csform.com/build-a-weather-app-with-ionic-templates/](https://csform.com/build-a-weather-app-with-ionic-templates/)
+- 
 
 
 ## Example
@@ -277,11 +279,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODkyNjk2MywxNDQyMDgwMjM2LC0xNj
-MxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMzNSwyMTQyNTM2
-NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4ODI5MTgyOSw4ODI5MT
-gyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYzLDEwNzMwNDg0OTUs
-LTE2NTc3MTk3MjcsNzc2MzczNzk3LDE0ODE5NDM1NTYsMzA4Nj
-A2Mjk2LC05MjQ5MDQ1MSwxOTc3OTUyMDAxLDE2NTQyOTE0OTNd
-fQ==
+eyJoaXN0b3J5IjpbLTMyMTgwMTI0LDE3NTg5MjY5NjMsMTQ0Mj
+A4MDIzNiwtMTYzMTg3ODA0MywtMTk4MDA5NTA3MSw1NDI5NTMz
+MzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUsODgyOT
+E4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NTczNjc2Mywx
+MDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5NywxNDgxOT
+QzNTU2LDMwODYwNjI5NiwtOTI0OTA0NTEsMTk3Nzk1MjAwMV19
+
 -->
