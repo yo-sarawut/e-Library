@@ -21,7 +21,8 @@ Weather App
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c0/Lunar_libration_with_phase2.gif)
 
 # Template Weather App
-- 
+- [https://www.themezy.com/free-website-templates/128-steel-weather-free-responsive-website-template](https://www.themezy.com/free-website-templates/128-steel-weather-free-responsive-website-template)
+- [https://w3layouts.com/tag/weather-widgets/](https://w3layouts.com/tag/weather-widgets/)
 
 # Weather Forecasts
 
@@ -276,11 +277,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc3MzM1NDAsMTQ0MjA4MDIzNiwtMT
-YzMTg3ODA0MywtMTk4MDA5NTA3MSw1NDI5NTMzMzUsMjE0MjUz
-NjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUsODgyOTE4MjksODgyOT
-E4MjksLTIxMjEzMzg3MTEsMTI2NTczNjc2MywxMDczMDQ4NDk1
-LC0xNjU3NzE5NzI3LDc3NjM3Mzc5NywxNDgxOTQzNTU2LDMwOD
-YwNjI5NiwtOTI0OTA0NTEsMTk3Nzk1MjAwMSwxNjU0MjkxNDkz
-XX0=
+eyJoaXN0b3J5IjpbMTc1ODkyNjk2MywxNDQyMDgwMjM2LC0xNj
+MxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMzNSwyMTQyNTM2
+NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4ODI5MTgyOSw4ODI5MT
+gyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYzLDEwNzMwNDg0OTUs
+LTE2NTc3MTk3MjcsNzc2MzczNzk3LDE0ODE5NDM1NTYsMzA4Nj
+A2Mjk2LC05MjQ5MDQ1MSwxOTc3OTUyMDAxLDE2NTQyOTE0OTNd
+fQ==
 -->
