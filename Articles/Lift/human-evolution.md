@@ -69,5 +69,7 @@
 
 > ที่มาบทความ : [NATIONAL GEOGRAPHIC ภาษาไทย](https://ngthai.com/science/24384/human-evolution/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUxMzA0NjBdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEh1bWFuIEV2b2x1dGlpb2
+5cbmV4dGVuc2lvbnM6XG4gIHByZXNldDogemVyb1xuIiwiaGlz
+dG9yeSI6Wy05MjY1ODg4MTgsLTEyODUxMzA0NjBdfQ==
 -->
