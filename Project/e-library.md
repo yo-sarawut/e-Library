@@ -1,7 +1,14 @@
 
 ## Create Website
 
-### ## Gatsby
+### Gatsby
+- [ทำบล็อคด้วย Gatsby บนเว็บ Devahoy](https://devahoy.com/blog/2019/07/how-devahoy-create-blog-with-gatsby/)
+- [มาสร้าง Static เว็บด้วย GatsbyJS กันเถอะ](https://medium.com/@phayao/%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-static-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-gatsbyjs-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-a6ba65968d03)
+- 
+
+
+
+
 
 ## เนื้อหาน่าสนใจ
 
@@ -80,7 +87,7 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTg2OTA2MiwtMTE1NTA5MzM0LC0xMz
+eyJoaXN0b3J5IjpbLTk1NDEwMjk2MCwtMTE1NTA5MzM0LC0xMz
 QwMTg1NzIwLC01MjA0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkw
 Nzc3LC0xMTI2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLD
 ExMDMwNjI0MSwtNjg4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4
