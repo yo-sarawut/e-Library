@@ -301,5 +301,7 @@ Toyota ค้นพบว่า ในใจของลูกค้ารถ FC
 
 ส่วนผู้บริโภคอย่างเรา ก็อย่าได้ชะล่าใจ ผลกระทบที่มันเกิดจากพวกเรา ท้ายสุดมันก็จะเป็นบูมเมอแรงที่ไปวนผ่านบริษัทรถแล้วกลับมาหาเรา อนาคตกำลังจะมาแล้ว แต่คุณ จะยังอยู่กับอดีตที่คุณชื่นชอบได้อีกนานแค่ไหนกัน
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Nzg2ODQzMywtMjExMDgzMDg4N119
+eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
+B6ZXJvXG4iLCJoaXN0b3J5IjpbMTc0NzEyNjg1NiwxOTY3ODY4
+NDMzLC0yMTEwODMwODg3XX0=
 -->
