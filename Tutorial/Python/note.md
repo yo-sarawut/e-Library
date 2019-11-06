@@ -1,5 +1,7 @@
 Note for Pandas tutorials
 ===
+
+- [Python e-Book Downloads](https://www.google.com/search?&q=index+of+python+Programming+|+development+.pdf)
 - [Python for Everybody](https://books.trinket.io/pfe/index.html)
 
 ![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51e7gE9IqCL._SX348_BO1,204,203,200_.jpg)
@@ -35,6 +37,6 @@ Note for Pandas tutorials
 17.  [Resources for Further Learning](https://jakevdp.github.io/WhirlwindTourOfPython/16-further-resources.html)
 18.  [Appendix: Code To Reproduce Figures](https://jakevdp.github.io/WhirlwindTourOfPython/17-figures.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUxMjA2MzIsMjAxMDI5Mzg4NywtMT
-M1NTE3MDMyMyw0NDQyNjgyNF19
+eyJoaXN0b3J5IjpbLTIwNjQzODU5OSwtMTM5NTEyMDYzMiwyMD
+EwMjkzODg3LC0xMzU1MTcwMzIzLDQ0NDI2ODI0XX0=
 -->
