@@ -44,8 +44,11 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
   
 จะเห็นได้ว่า Markdown จะเขียนในรูปแบบทีง่ายกว่า HTML สะดวกในการอ่าน และเขียนมาก  
 ## กำหนดขนาดของการแสดงภาพ
+```html
+<img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="700" height="300">  
+``` 
+<img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="700" height="300">  
 
-<img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="500" height="200">  
 
 ## หัวเรื่อง (Headings)  
 ```  
@@ -391,5 +394,5 @@ ___
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzIxMjkzMCwtNzc2NzQzODkyXX0=
+eyJoaXN0b3J5IjpbLTQxNjk1Mjc0NiwtNzc2NzQzODkyXX0=
 -->
