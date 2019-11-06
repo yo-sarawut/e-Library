@@ -6,6 +6,10 @@
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
 - [e-Tax Inv=ceipt]()
 - [==Setup Jupyternotebook for markdown==](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
+# Color :
+- 
+
+![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/galaxy_blue.jpg)
 #  Tutorials
 
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
@@ -119,11 +123,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMj
-QyMzc4NywtMjY0NjczMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3
-MSwxOTE5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLT
-MwNTg2OTY4OSw3OTk5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3
-MjUxLC0yMDQwNzk1NTMxLC0xNzkxNzg2OTkzLC01NDU3NDMyOT
-AsMTg5OTgzNDMwOSwxNjY1Mjg3NjM0LDE1MTY5MzUzNTcsLTEw
-NjY1OTI3NTNdfQ==
+eyJoaXN0b3J5IjpbLTMxNjUwMjM1MiwtNjU2ODUwMTY5LDcyOD
+I5MDY0OCwtMjAyNDIzNzg3LC0yNjQ2NzMxNjcsMTg0ODU2MTI2
+MywxMjkwNzk2NDcxLDE5MTk0MzU0MjEsMTc4OTgzMjU3NSwtMT
+cwMTkzNDY0OSwtMzA1ODY5Njg5LDc5OTkyNTU4NCwxNTQ4NjE1
+Nzg1LDE4NTU2MDcyNTEsLTIwNDA3OTU1MzEsLTE3OTE3ODY5OT
+MsLTU0NTc0MzI5MCwxODk5ODM0MzA5LDE2NjUyODc2MzQsMTUx
+NjkzNTM1N119
 -->
