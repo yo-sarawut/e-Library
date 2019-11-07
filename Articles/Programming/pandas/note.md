@@ -5,6 +5,8 @@ Note for Pandas Tutorial
 
 - [Data Cleaning with Python and Pandas: Detecting Missing Values](https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
 - [Series หลายบทความเกี่ยวกับ Pandas ของ Dunder-Data](https://medium.com/dunder-data)
+- [How to scrape Yahoo Finance and extract fundamental stock market data using Python, LXML, and Pandas](https://www.mattbutton.com/2019/01/24/how-to-scrape-yahoo-finance-and-extract-fundamental-stock-market-data-using-python-lxml-and-pandas/)
+- [Historical Stock Prices and Volumes from Python to a CSV File](https://www.red-gate.com/simple-talk/sql/bi/historical-stock-prices-volumes-python-csv-file/)
 
 
 ## ตัวอย่างหัวข้อการเรียนรู้ Pandas
@@ -48,5 +50,5 @@ Note for Pandas Tutorial
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjAyMTc0Nl19
+eyJoaXN0b3J5IjpbLTM1MjE3MTE2NCwtMjc2MDIxNzQ2XX0=
 -->
