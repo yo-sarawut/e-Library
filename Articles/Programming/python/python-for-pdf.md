@@ -3,11 +3,11 @@ Python for Pdf
 ===
 ![enter image description here](https://miro.medium.com/proxy/1*F1oFCwu6_4ork7pWE__IIg.jpeg)
 
-# Why Python for PDF processing
+## Why Python for PDF processing
 
 PDF processing comes under text analytics. Most of the Text Analytics Library or frameworks are designed in Python only. This gives leverage on text analytics. Once you extract the useful information from PDF you can easily use that data into any Machine Learning or Natural Language Processing Model.
 
-# Common Python Libraries
+## Common Python Libraries
 
 Here is the list of some Python Libraries could be used to handle PDF files
 
@@ -18,7 +18,7 @@ Here is the list of some Python Libraries could be used to handle PDF files
 5.  [**PDFQuery**](https://github.com/jcushman/pdfquery) is a light wrapper around pdfminer, lxml and pyquery. It’s designed to reliably extract data from sets of PDFs with as little code as possible.
 6.  [**xpdf**](https://github.com/ecatkins/xpdf_python) Python wrapper for xpdf (currently just the “pdftotext” utility)
 
-# Extracting Text from pdf
+## Extracting Text from pdf
 
 First, we need to Install the
 ```py
@@ -43,7 +43,7 @@ print(pageObj.extractText())
 ```
 You can read more Details from  [here](https://www.geeksforgeeks.org/working-with-pdf-files-in-python/)
 
-# Reading the Table data from pdf
+## Reading the Table data from pdf
 
 In order to work with the Table data in Pdf, we can use Tabula-py
 ```py
@@ -60,24 +60,24 @@ df = tabula.read_pdf("offense.pdf")
 df.head()
 ```
 If you Pdf file contain Multiple Table
-```
+```py
 df = tabula.read_pdf(“offense.pdf”,multiple_tables=True)
 ```
 you can extract Information from the specific part of any specific page of PDF
-```
+```py
 tabula.read_pdf("offense.pdf", area=(126,149,212,462), pages=1)
 ```
 If you want the output into JSON Format
-```
+```py
 tabula.read_pdf("offense.pdf", output_format="json")
 ```
-# Export Pdf into Excel
+## Export Pdf into Excel
 
 you can us Below code to convert the PDF Data into Excel or CSV
-
+```py
 tabula.convert_into("offense.pdf", "offense_testing.xlsx", output_format="xlsx")
-
-# Further Readings
+```
+## Further Readings
 
 you can find the complete code and Pdf files in  [This Github Link](https://github.com/umer7/Python-for-PDF)
 
@@ -88,5 +88,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUyMjcxMjRdfQ==
+eyJoaXN0b3J5IjpbMTMwMzMxNjQyMl19
 -->
