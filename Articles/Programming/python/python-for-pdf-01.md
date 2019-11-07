@@ -124,9 +124,10 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 2.  [Working with PDF files in Python](https://www.geeksforgeeks.org/working-with-pdf-files-in-python/)  using PyPDF2
 3.  [Working with PDF and Word Documents](https://automatetheboringstuff.com/chapter13/)
 4. [3 WAYS TO SCRAPE TABLES FROM PDFS WITH PYTHON](http://theautomatic.net/2019/05/24/3-ways-to-scrape-tables-from-pdfs-with-python/)
+5. [How to Convert a PDF to Excel](https://tomassetti.me/how-to-convert-a-pdf-to-excel/)
 
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMzEwMTk3XX0=
+eyJoaXN0b3J5IjpbNTczNjk3ODQ5XX0=
 -->
