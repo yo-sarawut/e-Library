@@ -54,13 +54,13 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 <p>Click on the w3schools logo to download the image:<p>
 
 <a href="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" download>
-  <img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="142" height="142">
+  <img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="1042" height="142">
 </a>
 ``` 
 <p>Click on the w3schools logo to download the image:<p>
 
 <a href="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" download>
-  <img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="142" height="142">
+  <img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="1042" height="142">
 </a>
 
 ## หัวเรื่อง (Headings)  
@@ -407,5 +407,6 @@ ___
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MTgyMjc5LC03NzY3NDM4OTJdfQ==
+eyJoaXN0b3J5IjpbMTg2NDc0OTE2NywzNjgxODIyNzksLTc3Nj
+c0Mzg5Ml19
 -->
