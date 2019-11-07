@@ -21,25 +21,36 @@ Here is the list of some Python Libraries could be used to handle PDF files
 # Extracting Text from pdf
 
 First, we need to Install the
-
+```py
 !pip install PyPDF2
-
-Following is the code to extract simple Text from pdf using PyPDF2
 ```
-# modules for **import** PyPDF2# pdf file object  
-# you can find find the pdf file with complete code in belowpdfFileObj **=** open('example.pdf', 'rb')# pdf reader objectpdfReader **=** PyPDF2.PdfFileReader(pdfFileObj)# number of pages in pdf**print**(pdfReader.numPages)# a page objectpageObj **=** pdfReader.getPage(0)# extracting text from page.  
-# this will print the text you can also save that into Stringprint(pageObj.extractText())
-
+Following is the code to extract simple Text from pdf using PyPDF2
+```py
+# modules for 
+import PyPDF2
+# pdf file object
+# you can find find the pdf file with complete code in below
+pdfFileObj = open('example.pdf', 'rb')
+# pdf reader object
+pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+# number of pages in pdf
+print(pdfReader.numPages)
+# a page object
+pageObj = pdfReader.getPage(0)
+# extracting text from page.
+# this will print the text you can also save that into String
+print(pageObj.extractText())
+```
 You can read more Details from  [here](https://www.geeksforgeeks.org/working-with-pdf-files-in-python/)
 
 # Reading the Table data from pdf
 
 In order to work with the Table data in Pdf, we can use Tabula-py
-
+```py
 pip install tabula-py
-
+```
 Following is the code to extract simple Text from pdf using PyPDF2
-
+```
 import tabula# readinf the PDF file that contain Table Data  
 # you can find find the pdf file with complete code in below  
 # read_pdf will save the pdf table into Pandas Dataframedf = tabula.read_pdf("offense.pdf")# in order to print first 5 lines of Tabledf.head()
@@ -73,5 +84,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTczNzMxNl19
+eyJoaXN0b3J5IjpbNzE2NjcxNzU3XX0=
 -->
