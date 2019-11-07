@@ -71,6 +71,8 @@ If you want the output into JSON Format
 ```py
 tabula.read_pdf("offense.pdf", output_format="json")
 ```
+
+
 ## Export Pdf into Excel
 
 you can us Below code to convert the PDF Data into Excel or CSV
@@ -88,5 +90,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzMxNjQyMl19
+eyJoaXN0b3J5IjpbMTE0ODQxNjQxOF19
 -->
