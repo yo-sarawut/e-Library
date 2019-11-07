@@ -78,6 +78,16 @@ with open(NewPDFfilename, "wb") as outputStream:
 ```
 ![enter image description here](https://i.stack.imgur.com/0kWSg.png)
 
+```py
+#the table will be returned in a list of dataframe,for working with dataframe you need pandas
+import pandas as pd
+import tabula
+file = "filename.pdf"
+path = 'enter your directory path here'  + file
+df = tabula.read_pdf(path, pages = '1', multiple_tables = True)
+print(df)
+```
+
 
 If you Pdf file contain Multiple Table
 ```py
@@ -110,5 +120,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzYyMzE5MF19
+eyJoaXN0b3J5IjpbMTk0NTk3NDQ3Ml19
 -->
