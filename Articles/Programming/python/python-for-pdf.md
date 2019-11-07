@@ -50,23 +50,27 @@ In order to work with the Table data in Pdf, we can use Tabula-py
 pip install tabula-py
 ```
 Following is the code to extract simple Text from pdf using PyPDF2
+```py
+import tabula
+# readinf the PDF file that contain Table Data
+# you can find find the pdf file with complete code in below
+# read_pdf will save the pdf table into Pandas Dataframe
+df = tabula.read_pdf("offense.pdf")
+# in order to print first 5 lines of Table
+df.head()
 ```
-import tabula# readinf the PDF file that contain Table Data  
-# you can find find the pdf file with complete code in below  
-# read_pdf will save the pdf table into Pandas Dataframedf = tabula.read_pdf("offense.pdf")# in order to print first 5 lines of Tabledf.head()
-
 If you Pdf file contain Multiple Table
-
+```
 df = tabula.read_pdf(“offense.pdf”,multiple_tables=True)
-
+```
 you can extract Information from the specific part of any specific page of PDF
-
+```
 tabula.read_pdf("offense.pdf", area=(126,149,212,462), pages=1)
-
+```
 If you want the output into JSON Format
-
+```
 tabula.read_pdf("offense.pdf", output_format="json")
-
+```
 # Export Pdf into Excel
 
 you can us Below code to convert the PDF Data into Excel or CSV
@@ -84,5 +88,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NjcxNzU3XX0=
+eyJoaXN0b3J5IjpbLTE0NDUyMjcxMjRdfQ==
 -->
