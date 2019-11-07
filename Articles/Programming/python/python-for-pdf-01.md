@@ -87,7 +87,14 @@ path = 'enter your directory path here'  + file
 df = tabula.read_pdf(path, pages = '1', multiple_tables = True)
 print(df)
 ```
+Your question is near similar with:
 
+-   [Extract / Identify Tables from PDF python](https://stackoverflow.com/questions/28532770/extract-identify-tables-from-pdf-python)    
+-   [Extracting tables from a pdf](https://stackoverflow.com/questions/27927880/extracting-tables-from-a-pdf)    
+-   [Extract table from a PDF](https://stackoverflow.com/questions/17591426/extract-table-from-a-pdf)    
+-   [How to scrape tables in thousands of PDF files?](https://stackoverflow.com/questions/25125178/how-to-scrape-tables-in-thousands-of-pdf-files)    
+-   [PDF Data and Table Scraping to Excel](https://stackoverflow.com/questions/29868541/pdf-data-and-table-scraping-to-excel)    
+-   [Extracting table contents from a collection of PDF files](https://stackoverflow.com/questions/17217194/extracting-table-contents-from-a-collection-of-pdf-files/26110587#26110587)
 
 If you Pdf file contain Multiple Table
 ```py
@@ -116,9 +123,10 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 1.  This question on StackOverflow also has a lot of useful link in its Answer  [How to extract table as text from the PDF using Python?](https://stackoverflow.com/questions/47533875/how-to-extract-table-as-text-from-the-pdf-using-python)
 2.  [Working with PDF files in Python](https://www.geeksforgeeks.org/working-with-pdf-files-in-python/)  using PyPDF2
 3.  [Working with PDF and Word Documents](https://automatetheboringstuff.com/chapter13/)
+4. [3 WAYS TO SCRAPE TABLES FROM PDFS WITH PYTHON](http://theautomatic.net/2019/05/24/3-ways-to-scrape-tables-from-pdfs-with-python/)
 
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTk3NDQ3Ml19
+eyJoaXN0b3J5IjpbNjAzMzEwMTk3XX0=
 -->
