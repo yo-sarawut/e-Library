@@ -87,12 +87,20 @@ Hosted directly from your GitHub repository. Just edit, push, and your changes a
 - [showdown-markdown-editor](https://github.com/jhuix/showdown-markdown-editor)
 
 ![enter image description here](https://raw.githubusercontent.com/jhuix/showdown-markdown-editor/master/docs/screenshot/preview-intro.png)
+
+- **Power shell Install**
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+```
+choco install hugo-extended -confirm
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMT
-M0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5
-MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5My
-wxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2
-ODY1MjQsNjE2ODgzOTAyLDk5NDcwNzM4MiwtMTY2MzQ5NjE1My
-wyNzAwNjY1NCwxNjE5MDE5ODUxLDcxNzcyMzg3MSwtODEwMDAz
-MDYwXX0=
+eyJoaXN0b3J5IjpbNTU5OTI4MDgyLC0xODYwNTg2ODMxLC0xMT
+U1MDkzMzQsLTEzNDAxODU3MjAsLTUyMDQ1OTQwMiwtNTExMDQ0
+MTIxLC0yMzAyOTA3NzcsLTExMjY0NjM0NDksMTAyNzU2MjkwMi
+wyMTQzNDM2OTMsMTEwMzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5
+NTg0MSwxMDc0Njg2NTI0LDYxNjg4MzkwMiw5OTQ3MDczODIsLT
+E2NjM0OTYxNTMsMjcwMDY2NTQsMTYxOTAxOTg1MSw3MTc3MjM4
+NzFdfQ==
 -->
