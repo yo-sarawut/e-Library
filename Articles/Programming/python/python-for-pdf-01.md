@@ -59,6 +59,26 @@ df = tabula.read_pdf("offense.pdf")
 # in order to print first 5 lines of Table
 df.head()
 ```
+```py
+import PyPDF2
+
+PDFfilename = "Sammamish.pdf" #filename of your PDF/directory where your PDF is stored
+
+pfr = PyPDF2.PdfFileReader(open(PDFfilename, "rb")) #PdfFileReader object
+
+pg4 = pfr.getPage(126) #extract pg 127
+
+writer = PyPDF2.PdfFileWriter() #create PdfFileWriter object
+#add pages
+writer.addPage(pg4)
+
+NewPDFfilename = "allTables.pdf" #filename of your PDF/directory where you want your new PDF to be
+with open(NewPDFfilename, "wb") as outputStream:
+    writer.write(outputStream) #write pages to new PDF
+```
+![enter image description here](https://i.stack.imgur.com/0kWSg.png)
+
+
 If you Pdf file contain Multiple Table
 ```py
 df = tabula.read_pdf(“offense.pdf”,multiple_tables=True)
@@ -90,5 +110,5 @@ you can find the complete code and Pdf files in  [This Github Link](https://gith
 
 > ที่มาบทความ [towardsdatascience.com](https://towardsdatascience.com/python-for-pdf-ef0fac2808b0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQxNjQxOF19
+eyJoaXN0b3J5IjpbMTIzNzYyMzE5MF19
 -->
