@@ -79,9 +79,34 @@ with sqlite3.connect(db_filename) as conn:
         print('DB already exists.')
 ```
 
+![enter image description here](https://cdn.journaldev.com/wp-content/uploads/2018/04/create-schema-with-db-test.png)
+
+## Cursor Select
+```py
+import sqlite3
+
+db_filename = 'journaldev.db'
+
+with sqlite3.connect(db_filename) as conn:
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    select id, name, day_effort, book from chapter
+    where book = 'JournalDev'
+    """)
+
+    for row in cursor.fetchall():
+        id, name, day_effort, book = row
+        print('{:2d} ({}) {:2d} ({})'.format(
+            id, name, day_effort, book))
+```
+
+![enter image description here](https://cdn.journaldev.com/wp-content/uploads/2018/04/fetch-data.png)
+
+##
 
 
 > Source : [journaldev.com](https://www.journaldev.com/20515/python-sqlite-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDY1MzYzMSwxNjI2NzU5MDc4XX0=
+eyJoaXN0b3J5IjpbMTYxMTc2OTMwMCwxNjI2NzU5MDc4XX0=
 -->
