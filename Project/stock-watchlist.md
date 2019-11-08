@@ -2,7 +2,9 @@ Note for Project Stock watch list
  ======= 
 # Theme Color
 
-![enter image description here](https://bitbucket.org/gragon_develop/code-snippet/raw/709a6d545027e6a85f0bd92084270721eb2914a3/data_center/img/theme_color.jpg)
+- [https://www.w3schools.com/colors/colors_2019.asp](https://www.w3schools.com/colors/colors_2019.asp)
+
+![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/galaxy_blue.jpg)
 
 **Name : Galaxy Blue**
 
@@ -351,8 +353,8 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjc5MjQ3Nyw5MTYxNjU4ODMsNzI4Nj
-czNDUyLDE3NDc3NjY1NjcsLTUxNzgwNTc5LC0xMTM1MDkxOTMx
-LC02NjE3Njg5MTAsMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05ND
-A4NDEzNDIsLTIxMTYxMzMxMjFdfQ==
+eyJoaXN0b3J5IjpbMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2Nz
+M0NTIsMTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEs
+LTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MD
+g0MTM0MiwtMjExNjEzMzEyMV19
 -->
