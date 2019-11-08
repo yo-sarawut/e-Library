@@ -10,6 +10,10 @@ Note for Project Stock watch list
 
 PANTONE 19-4055
 
+## ศึกษาเพิ่มเติม
+
+- [Stock Data Analysis with Python (Second Edition)](https://ntguardian.wordpress.com/2018/07/17/stock-data-analysis-python-v2/)
+- [Python for Finance](https://learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
 
 
 **==Dash==**
@@ -347,8 +351,8 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MTY1ODgzLDcyODY3MzQ1MiwxNzQ3Nz
-Y2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkzMSwtNjYxNzY4OTEw
-LDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOTQwODQxMzQyLC0yMT
-E2MTMzMTIxXX0=
+eyJoaXN0b3J5IjpbLTYwMjc5MjQ3Nyw5MTYxNjU4ODMsNzI4Nj
+czNDUyLDE3NDc3NjY1NjcsLTUxNzgwNTc5LC0xMTM1MDkxOTMx
+LC02NjE3Njg5MTAsMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05ND
+A4NDEzNDIsLTIxMTYxMzMxMjFdfQ==
 -->
