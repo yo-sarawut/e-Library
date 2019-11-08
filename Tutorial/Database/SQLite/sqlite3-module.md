@@ -103,10 +103,54 @@ with sqlite3.connect(db_filename) as conn:
 
 ![enter image description here](https://cdn.journaldev.com/wp-content/uploads/2018/04/fetch-data.png)
 
-##
+## Getting Metadata of Table
+
+```py
+import sqlite3
+
+db_filename = 'journaldev.db'
+
+with sqlite3.connect(db_filename) as connection:
+    cursor = connection.cursor()
+
+    cursor.execute("""
+    select * from chapter where book = 'JournalDev'
+    """)
+
+    print('Chapter table has these columns:')
+    for column_info in cursor.description:
+        print(column_info)
+```
+![enter image description here](https://cdn.journaldev.com/wp-content/uploads/2018/04/table-metadata.png)
+
+## Using Named Parameters
+
+import sqlite3
+import sys
+
+db_filename = 'journaldev.db'
+book_name = sys.argv[1]
+
+with sqlite3.connect(db_filename) as conn:
+    cursor = conn.cursor()
+
+    query = """
+    select id, name, day_effort, book from chapter
+    where book = :book_name
+    """
+
+    cursor.execute(query, {'book_name': book_name})
+    for row in cursor.fetchall():
+        id, name, day_effort, book = row
+        print('{:2d} ({}) {:2d} ({})'.format(
+            id, name, day_effort, book))
+
+
+
+
 
 
 > Source : [journaldev.com](https://www.journaldev.com/20515/python-sqlite-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTc2OTMwMCwxNjI2NzU5MDc4XX0=
+eyJoaXN0b3J5IjpbMTM0NjQ3MTUxMCwxNjI2NzU5MDc4XX0=
 -->
