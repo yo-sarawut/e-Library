@@ -40,6 +40,7 @@ Weather App
 ## Example
 
 - [Obtain Historical Weather Forecast data in CSV format using Python](https://www.freecodecamp.org/news/obtain-historical-weather-forecast-data-in-csv-format-using-python/)
+- [OpenWeatherMap API Python](https://www.simplifiedpython.net/openweathermap-api-python/)
 - [ตัวอย่าง web มีข้อมูลหลากหลาย TimeAndDate](https://www.timeanddate.com)
 - [Raindar, desktop Weather App](https://www.learnpyqt.com/apps/create-desktop-weather-app/)
 - [Find current weather of any city using openweathermap API](https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/)
@@ -279,11 +280,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTgwMTI0LDE3NTg5MjY5NjMsMTQ0Mj
-A4MDIzNiwtMTYzMTg3ODA0MywtMTk4MDA5NTA3MSw1NDI5NTMz
-MzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUsODgyOT
-E4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NTczNjc2Mywx
-MDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5NywxNDgxOT
-QzNTU2LDMwODYwNjI5NiwtOTI0OTA0NTEsMTk3Nzk1MjAwMV19
+eyJoaXN0b3J5IjpbMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1OD
+kyNjk2MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1
+MDcxLDU0Mjk1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNT
+M2ODcyNSw4ODI5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwx
+MjY1NzM2NzYzLDEwNzMwNDg0OTUsLTE2NTc3MTk3MjcsNzc2Mz
+czNzk3LDE0ODE5NDM1NTYsMzA4NjA2Mjk2LC05MjQ5MDQ1MV19
 
 -->
