@@ -2,6 +2,8 @@ Note for ideas
 ==
 - [Speech Recognition Python – Converting Speech to Text](https://www.simplifiedpython.net/speech-recognition-python/)
 - [Generate QR Code With Python](https://www.simplifiedpython.net/how-to-generate-qr-code-with-python/)
+- [PDF To Text Python – Extract Text From PDF Documents Using PyPDF2 Module](https://www.simplifiedpython.net/pdf-to-text-python-extract-text-from-pdf-documents-using-pypdf2-module/)
+- [Python Tic Tac Toe Using Artificial Intelligence](https://www.simplifiedpython.net/python-tic-tac-toe-using-artificial-intelligence/)
 - [Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/) :  [[Demo]](http://tympanus.net/Tutorials/SVGDrums/)
 ![enter image description here](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2016/03/AnimatedDrumKit_800x600.jpg)
 
@@ -48,9 +50,9 @@ Note for ideas
 
 - [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTg3Nzg5OCwtNjIxNjMzODExLC0xMz
-gyNTc4NjU1LC0xNDk4MzgxMzQ5LDE2MTQxODU2NzQsLTE3MTYy
-NjE0ODEsLTQzNTQyNjMxOCwxODg0NTgyNzA2LDE5ODU5Mzg3MD
-UsMTM5MTQ4ODc3NCwxNzQ3MzA4OTIxLC0zNjkzMzkzMzcsLTE5
-NDU3NzUzNDcsMjE5MDAwNTExXX0=
+eyJoaXN0b3J5IjpbLTY5Mzg2NDUxOCwyMTM5ODc3ODk4LC02Mj
+E2MzM4MTEsLTEzODI1Nzg2NTUsLTE0OTgzODEzNDksMTYxNDE4
+NTY3NCwtMTcxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1ODI3MD
+YsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5MjEsLTM2
+OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
 -->
