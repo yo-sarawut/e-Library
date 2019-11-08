@@ -189,6 +189,8 @@ with sqlite3.connect(db_filename) as conn1:
         show_books(conn3)
 ```
 
+![enter image description here](https://cdn.journaldev.com/wp-content/uploads/2018/04/transactions.png)
+
 
 
 
@@ -197,5 +199,5 @@ with sqlite3.connect(db_filename) as conn1:
 
 > Source : [journaldev.com](https://www.journaldev.com/20515/python-sqlite-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg3MTQ0MzAsMTYyNjc1OTA3OF19
+eyJoaXN0b3J5IjpbMTE1MjQyODIxLDE2MjY3NTkwNzhdfQ==
 -->
