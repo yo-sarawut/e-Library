@@ -1,6 +1,7 @@
 Note for ideas
 ==
-
+- [Speech Recognition Python – Converting Speech to Text](https://www.simplifiedpython.net/speech-recognition-python/)
+- 
 - [Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/) :  [[Demo]](http://tympanus.net/Tutorials/SVGDrums/)
 ![enter image description here](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2016/03/AnimatedDrumKit_800x600.jpg)
 
@@ -47,9 +48,9 @@ Note for ideas
 
 - [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI1Nzg2NTUsLTE0OTgzODEzNDksMT
-YxNDE4NTY3NCwtMTcxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1
-ODI3MDYsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5Mj
-EsLTM2OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
-
+eyJoaXN0b3J5IjpbLTYyMTYzMzgxMSwtMTM4MjU3ODY1NSwtMT
+Q5ODM4MTM0OSwxNjE0MTg1Njc0LC0xNzE2MjYxNDgxLC00MzU0
+MjYzMTgsMTg4NDU4MjcwNiwxOTg1OTM4NzA1LDEzOTE0ODg3Nz
+QsMTc0NzMwODkyMSwtMzY5MzM5MzM3LC0xOTQ1Nzc1MzQ3LDIx
+OTAwMDUxMV19
 -->
