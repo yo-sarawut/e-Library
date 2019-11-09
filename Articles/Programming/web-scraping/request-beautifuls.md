@@ -137,7 +137,7 @@ With Python's `requests` library we're getting a web page by using `get()` on th
 
 There's an interesting website called *AllSides* that has a [media bias rating table](https://www.allsides.com/media-bias/media-bias-ratings) where users can agree or disagree with the rating. 
 
-<img src="assets/Media Bias Ratings AllSides.jpg">
+![enter image description here](https://github.com/yosarawut/e-Library/raw/master/img/Media%20Bias%20Ratings%20AllSides.jpg)
 
 Since there's nothing in their robots.txt that disallows us from scraping this section of the site, I'm assuming it's okay to go ahead and extract this data for our project. Let's request the this first page:
 
@@ -145,9 +145,7 @@ Since there's nothing in their robots.txt that disallows us from scraping this s
   
 
 ```python
-
 !pip install requests
-
 ```
 
   
@@ -155,11 +153,9 @@ Since there's nothing in their robots.txt that disallows us from scraping this s
 
 ```python
 import requests  
-
 url = 'https://www.allsides.com/media-bias/media-bias-ratings' 
 r = requests.get(url)
 print(r.content[:100])
-
 ```
 
   
@@ -188,20 +184,15 @@ We create a new BeautifulSoup object by passing the constructor our newly acquir
   
 
 ```python
-
 !pip install beautifulsoup4
-
 ```
 
   
   
 
 ```python
-
 from bs4 import BeautifulSoup
-
 soup = BeautifulSoup(r.content, 'html.parser')
-
 ```
  
 This `soup` object defines a bunch of methods — many of which can achieve the same result — that we can use to extract data from the HTML. Let's start with finding elements.
@@ -265,7 +256,6 @@ Our data is housed in a table on AllSides, and by inspecting the header element 
   
 
 <br  />
-
 <video  src="assets/finding table in HTML.mp4"  width="700px"  controls></video>
 
   
@@ -275,43 +265,24 @@ Simplifying the table's HTML, the structure looks like this (comments `<!-- -->`
   
 
 ```html
-
 <table>
-
 <thead>
-
 <!-- header information -->
-
 </thead>
-
 <tbody>
-
 <tr  class="odd views-row-first">  <!-- begin table row -->
-
 <td  class="views-field views-field-title source-title">  <!-- table cell -->
-
 <!-- outlet name -->
-
 </td>
-
 <td  class="views-field views-field-field-bias-image">  <!-- table cell -->
-
 <!-- bias data -->
-
 </td>
-
 <td  class="views-field views-field-nothing-1 what-do-you-think">  <!-- table cell -->
-
 <!-- agree / disagree buttons -->
-
 </td>
-
 <td  class="views-field views-field-nothing community-feedback">  <!-- table cell -->
-
 <!-- agree / disagree data -->
-
 </td>
-
 </tr>  <!-- end table row -->
 
 <!-- more rows -->
@@ -1089,5 +1060,6 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MjA1NzMsNzM3MTUzNDAwXX0=
+eyJoaXN0b3J5IjpbLTk0MTIwNDk4MSw2OTcyMDU3Myw3MzcxNT
+M0MDBdfQ==
 -->
