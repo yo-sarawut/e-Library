@@ -778,7 +778,6 @@ Finally, since there's 265 news source pages and the wait time between pages is 
 
 ```python
 from tqdm import tqdm_notebook
-
 for d in tqdm_notebook(data):
 	r = requests.get(d['allsides_page'])
 	soup = BeautifulSoup(r.content, 'html.parser')
@@ -788,7 +787,6 @@ try:
 except  TypeError:
 	pass
 sleep(10)
-
 ```
 
   
@@ -810,7 +808,6 @@ The first thing we'll want to do now is save that data to a file so we don't hav
 
 ```python
 import json  
-
 with  open('allsides.json', 'w') as f:
 json.dump(data, f)
 ```
@@ -1039,6 +1036,6 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcyNDYxMzUsNjk3MjA1NzMsNzM3MT
+eyJoaXN0b3J5IjpbLTExMjQ1MDQzMjksNjk3MjA1NzMsNzM3MT
 UzNDAwXX0=
 -->
