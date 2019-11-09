@@ -983,7 +983,7 @@ Now filter the DataFrame by "agreeance_text":
 
 ```python
 df[df['agreeance_text'] == 'strongly disagrees']  
-
+```
 It looks like much of the community disagrees strongly with certain outlets being rated with a "center" bias.
 
   
@@ -995,10 +995,8 @@ Let's make a quick visualization of agreeance. Since there's too many news sourc
 
 ```python
 df['total_votes'] = df['agree'] + df['disagree']
-df.sort_values('total_votes', ascending=False, inplace=True) 
-
+df.sort_values('total_votes', ascending=False, inplace=True)
 df.head(10)
-
 ```
 
   
@@ -1013,11 +1011,8 @@ To make a bar plot we'll use Matplotlib with Seaborn's dark grid style:
   
 
 ```python
-
 import matplotlib.pyplot as plt
-
 plt.style.use('seaborn-darkgrid')
-
 ```
 
   
@@ -1028,13 +1023,8 @@ As mentioned above, we have too many news outlets to plot comfortably, so just m
   
 
 ```python
-
 df2 = df.head(25).copy()
-
-  
-
 df2.head()
-
 ```
 
   
@@ -1049,33 +1039,14 @@ Below, we first create a figure and axes, plot the agree bars, plot the disagree
   
 
 ```python
-
 fig, ax = plt.subplots(figsize=(20, 10))
-
-  
-
 ax.bar(df2.index, df2['agree'], color='#5DAF83')
-
 ax.bar(df2.index, df2['disagree'], bottom=df2['agree'], color='#AF3B3B')
-
-  
-
 ax.set_ylabel = 'Total feedback'
-
-  
-
 plt.yticks(fontsize='x-large')
-
-plt.xticks(rotation=60, ha='right', fontsize='x-large', rotation_mode='anchor')
-
-  
-
-plt.legend(['Agree', 'Disagree'], fontsize='xx-large')
-
+plt.xticks(rotation=60, ha='right', fontsize='x-large', rotation_mode='anchor')  
 plt.title('AllSides Bias Rating vs. Community Feedback', fontsize='xx-large')
-
 plt.show()
-
 ```
 
   
@@ -1094,21 +1065,10 @@ Instead of making one axes, we'll create a new one for each bias to make six tot
   
 
 ```python
-
 df3 = df.copy()
-
-  
-
 fig = plt.figure(figsize=(15,15))
-
-  
-
 biases = df3['bias'].unique()
-
-  
-
 for i, bias in  enumerate(biases):
-
 # Get top 10 news sources for this bias and sort index alphabetically
 
 temp_df = df3[df3['bias'] == bias].iloc[:10]
@@ -1188,5 +1148,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTMxMjcyM119
+eyJoaXN0b3J5IjpbLTEyNTMwMTM2NF19
 -->
