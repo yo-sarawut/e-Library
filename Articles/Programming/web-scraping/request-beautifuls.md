@@ -774,12 +774,12 @@ for page in pages:
 		d['allsides_page'] = 'https://www.allsides.com' + 	
 		row.select_one('.source-title a')['href']
 		d['bias'] = row.select_one('.views-field-field-bias-image a')['href'].split('/')[-1]
-	d['agree'] = int(row.select_one('.agree').text)
-	d['disagree'] = int(row.select_one('.disagree').text)
-	d['agree_ratio'] = d['agree'] / d['disagree']
-	d['agreeance_text'] = get_agreeance_text(d['agree_ratio'])
-	data.append(d)
-	sleep(10)
+		d['agree'] = int(row.select_one('.agree').text)
+		d['disagree'] = int(row.select_one('.disagree').text)
+		d['agree_ratio'] = d['agree'] / d['disagree']
+		d['agreeance_text'] = get_agreeance_text(d['agree_ratio'])
+		data.append(d)
+		sleep(10)
 
 ```
 
@@ -798,51 +798,28 @@ If we go to [ABC News' page](https://www.allsides.com/news-source/abc-news-media
   
 
 ```html
-
 <div  class="row-fluid source-links gray-bg-box">
-
 <div  class="container">
-
 <a  href="https://www.facebook.com/ABCNews/"  class="facebook">
-
 <i  class="fa fa-facebook"  aria-hidden="true"></i><span>Facebook</span>
-
 </a>
-
 <a  href="https://twitter.com/ABC"  class="twitter">
-
 <i  class="fa fa-twitter"  aria-hidden="true"></i>
-
 <span>Twitter</span>
-
 </a>
-
 <a  href="https://en.wikipedia.org/wiki/ABC_News"  class="wikipedia">
-
 <i  class="fa fa-wikipedia-w"  aria-hidden="true"></i>
-
 <span>Wikipedia</span>
-
 </a>
-
 <a  href="http://abcnews.go.com/"  class="www"><i  class="fa fa-globe"  aria-hidden="true">
-
 </i><span>ABC News</span>
-
 </a>
-
 <a  href="/contact"  class="improve-this-page">
-
 <i  class="fa fa-line-chart"  aria-hidden="true"></i>
-
 <span>Improve this page</span>
-
 </a>
-
 </div>
-
 </div>
-
 ```
 
 Notice the anchor tag (`<a>`) that contains the link to ABC News has a class of "www". Pretty easy to get with what we've already learned:
@@ -851,9 +828,7 @@ Notice the anchor tag (`<a>`) that contains the link to ABC News has a class of 
   
 
 ```python
-
 website = soup.select_one('.www')['href']
-
 ```
 
   
@@ -876,36 +851,23 @@ Finally, since there's 265 news source pages and the wait time between pages is 
   
 
 ```python
-
 !pip install tqdm
-
 ```
 
   
   
 
 ```python
-
 from tqdm import tqdm_notebook
 
-  
-
 for d in tqdm_notebook(data):
-
-r = requests.get(d['allsides_page'])
-
-soup = BeautifulSoup(r.content, 'html.parser')
-
+	r = requests.get(d['allsides_page'])
+	soup = BeautifulSoup(r.content, 'html.parser')
 try:
-
 website = soup.select_one('.www')['href']
-
 d['website'] = website
-
 except  TypeError:
-
 pass
-
 sleep(10)
 
 ```
@@ -1263,5 +1225,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzQyOTYzNV19
+eyJoaXN0b3J5IjpbOTA0ODQ1MzQ3XX0=
 -->
