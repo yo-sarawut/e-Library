@@ -1,8 +1,7 @@
 
 
 Ultimate Guide to Web Scraping with Python Part 1: Requests and BeautifulSoup
-===
-  
+===  
   
   
   
@@ -167,7 +166,7 @@ There's an interesting website called *AllSides* that has a [media bias rating t
 
   
 
-<img  src="assets/Media Bias Ratings AllSides.jpg">
+
 
   
 
@@ -186,19 +185,10 @@ Since there's nothing in their robots.txt that disallows us from scraping this s
   
 
 ```python
+import requests  
 
-import requests
-
-  
-
-url = 'https://www.allsides.com/media-bias/media-bias-ratings'
-
-  
-
+url = 'https://www.allsides.com/media-bias/media-bias-ratings' 
 r = requests.get(url)
-
-  
-
 print(r.content[:100])
 
 ```
@@ -241,14 +231,10 @@ We create a new BeautifulSoup object by passing the constructor our newly acquir
 
 from bs4 import BeautifulSoup
 
-  
-
 soup = BeautifulSoup(r.content, 'html.parser')
 
 ```
-
-  
-
+ 
 This `soup` object defines a bunch of methods — many of which can achieve the same result — that we can use to extract data from the HTML. Let's start with finding elements.
 
   
@@ -1431,5 +1417,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxODQ1MF19
+eyJoaXN0b3J5IjpbNTgzMTUzMDg3XX0=
 -->
