@@ -7,12 +7,16 @@
 - [https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/](https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/)
 - [==Theme Doc==](https://themes.gohugo.io/hugo-refresh/)
 
+## Theme
+- [Hugo Fresh](https://themes.gohugo.io/hugo-fresh/)
+- [Hugo ReFresh](https://themes.gohugo.io/hugo-refresh/)
+
 ## Example
 - [https://rjordaney.is/](https://rjordaney.is/)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA4NTUzNzUsMTM0NzQzOTE1LDIzOT
-UyODgwNV19
+eyJoaXN0b3J5IjpbLTE5NzExMTA0NDYsLTIxMzA4NTUzNzUsMT
+M0NzQzOTE1LDIzOTUyODgwNV19
 -->
