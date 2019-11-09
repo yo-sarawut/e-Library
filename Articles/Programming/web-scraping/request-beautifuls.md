@@ -422,14 +422,8 @@ Getting the outlet name is pretty easy: just get the first row in `rows` and run
 
 ```python
 
-row = rows[0]
-
-  
-
+row = rows[0] 
 name = row.select_one('.source-title').text.strip()
-
-  
-
 print(name)
 
 ```
@@ -460,13 +454,8 @@ We also need the link to this news source's page on AllSides. If we look back at
   
 
 ```python
-
 allsides_page = row.select_one('.source-title a')['href']
-
 allsides_page = 'https://www.allsides.com' + allsides_page
-
-  
-
 print(allsides_page)
 
 ```
@@ -496,17 +485,11 @@ We can see that the rating is displayed as an image so how can we get the rating
   
 
 ```html
-
 <td  class="views-field views-field-field-bias-image">
-
 <a  href="/media-bias/left-center">
-
 <img  src="..."  width="144"  height="24"  alt="Political News Media Bias Rating: Lean Left"  title="Political News Media Bias Rating: Lean Left">
-
 </a>
-
 </td>
-
 ```
 
   
@@ -517,12 +500,8 @@ We could also pull the `alt` attribute, but the link looks easier. Let's grab it
   
 
 ```python
-
 bias = row.select_one('.views-field-field-bias-image a')['href']
-
 bias = bias.split('/')[-1]
-
-  
 
 print(bias)
 
@@ -543,7 +522,6 @@ After that we extract the `href` just like before, but now we only want the last
   
 
 <br  />
-
 <video  src="assets/agree ratio community feedback.mp4"  width="700px"  controls></video>
 
   
@@ -553,43 +531,24 @@ The last thing to scrape is the agree/disagree ratio from the community feedback
   
 
 ```html
-
 <td  class="views-field views-field-nothing community-feedback">
-
 <div  class="getratingval">
-
 <div  class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno"  id="rate-node-76-4-1">
-
 <div  class="item-list">
-
 <ul>
-
 <li  class="first">
-
 <a  class="rate-button rate-btn"  href="..."  id="rate-button-3">agree</a>
-
 </li>
-
 <li  class="last">
-
 <a  class="rate-button rate-btn"  href="..."  id="rate-button-4">disagree</a>
-
 </li>
-
 </ul>
-
 </div>
-
 <div  class="rate-details">
-
 <span  class="agree">8241</span>/<span  class="disagree">6568</span>
-
 </div>
-
 </div>
-
 </div>
-
 </td>
 
 ```
@@ -1417,5 +1376,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTUzMDg3XX0=
+eyJoaXN0b3J5IjpbNDgwMTk5OTI3XX0=
 -->
