@@ -1070,49 +1070,26 @@ fig = plt.figure(figsize=(15,15))
 biases = df3['bias'].unique()
 for i, bias in  enumerate(biases):
 # Get top 10 news sources for this bias and sort index alphabetically
-
 temp_df = df3[df3['bias'] == bias].iloc[:10]
-
 temp_df.sort_index(inplace=True)
-
 # Get max votes, i.e. the y value for tallest bar in this temp dataframe
-
 max_votes = temp_df['total_votes'].max()
-
 # Add a new subplot in the correct grid position
-
 ax = fig.add_subplot(len(biases) / 2, 2, i + 1)
-
 # Create the stacked bars
-
 ax.bar(temp_df.index, temp_df['agree'], color='#5DAF83')
-
 ax.bar(temp_df.index, temp_df['disagree'], bottom=temp_df['agree'], color='#AF3B3B')
-
 # Place text for the ratio on top of each bar
-
 for x, y, ratio in  zip(ax.get_xticks(), temp_df['total_votes'], temp_df['agree_ratio']):
-
 ax.text(x, y + (0.02 * max_votes), f"{ratio:.2f}", ha='center')
-
 ax.set_ylabel('Total feedback')
-
 ax.set_title(bias.title())
-
 # Make y limit larger to compensate for text on bars
-
 ax.set_ylim(0, max_votes + (0.12 * max_votes))
-
 # Rotate tick labels so they don't overlap
-
 plt.setp(ax.get_xticklabels(), rotation=30, ha='right')
-
-  
-
 plt.tight_layout(w_pad=3.0, h_pad=1.0)
-
 plt.show()
-
 ```
 
   
@@ -1142,11 +1119,6 @@ These sorts of things will be addressed later when we build more complex scraper
   
   
 
-```python
-
-  
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwMTM2NF19
+eyJoaXN0b3J5IjpbNzM3MTUzNDAwXX0=
 -->
