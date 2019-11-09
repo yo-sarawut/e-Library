@@ -639,17 +639,11 @@ It turned out the logic was located in the eleventh JS file and they have a func
 <tr>
 <td>$0.33 < ratio \leq 0.5$</td>
 <td>strongly disagrees</td>
-
 </tr>
-
 <tr>
-
 <td>$ratio \leq 0.33$</td>
-
 <td>absolutely disagrees</td>
-
 </tr>
-
 </table>
 
   
@@ -660,31 +654,18 @@ Let's make a function that replicates this logic:
   
 
 ```python
-
 def  get_agreeance_text(ratio):
-
 if ratio > 3: return  "absolutely agrees"
-
 elif  2 < ratio <= 3: return  "strongly agrees"
-
 elif  1.5 < ratio <= 2: return  "agrees"
-
 elif  1 < ratio <= 1.5: return  "somewhat agrees"
-
 elif ratio == 1: return  "neutral"
-
 elif  0.67 < ratio < 1: return  "somewhat disagrees"
-
 elif  0.5 < ratio <= 0.67: return  "disagrees"
-
 elif  0.33 < ratio <= 0.5: return  "strongly disagrees"
-
 elif ratio <= 0.33: return  "absolutely disagrees"
-
 else: return  None
-
 print(get_agreeance_text(2.5))
-
 ```
 
   
@@ -695,18 +676,12 @@ Now that we have the general logic for a single row and we can generate the agre
   
 
 ```python
-
 data= []
-
-  
-
 for row in rows:
-
-d = dict()
-
-d['name'] = row.select_one('.source-title').text.strip()
-
-d['allsides_page'] = 'https://www.allsides.com' + row.select_one('.source-title a')['href']
+	d = dict()
+	d['name'] = row.select_one('.source-title').text.strip()
+	d['allsides_page'] = 'https://www.allsides.com' + 
+	row.select_one('.source-title a')['href']
 
 d['bias'] = row.select_one('.views-field-field-bias-image a')['href'].split('/')[-1]
 
@@ -1327,5 +1302,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTk4MDU4NV19
+eyJoaXN0b3J5IjpbLTE1MjU2ODM1MzFdfQ==
 -->
