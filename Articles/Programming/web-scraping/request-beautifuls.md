@@ -682,19 +682,13 @@ for row in rows:
 	d['name'] = row.select_one('.source-title').text.strip()
 	d['allsides_page'] = 'https://www.allsides.com' + 
 	row.select_one('.source-title a')['href']
-
-d['bias'] = row.select_one('.views-field-field-bias-image a')['href'].split('/')[-1]
-
-d['agree'] = int(row.select_one('.agree').text)
-
-d['disagree'] = int(row.select_one('.disagree').text)
-
-d['agree_ratio'] = d['agree'] / d['disagree']
-
-d['agreeance_text'] = get_agreeance_text(d['agree_ratio'])
-
-data.append(d)
-
+	d['bias'] = row.select_one('.views-field-field-bias-image a')
+	['href'].split('/')[-1]
+	d['agree'] = int(row.select_one('.agree').text)
+	d['disagree'] = int(row.select_one('.disagree').text)
+	d['agree_ratio'] = d['agree'] / d['disagree']
+	d['agreeance_text'] = get_agreeance_text(d['agree_ratio'])
+	data.append(d)
 ```
 
   
@@ -709,9 +703,7 @@ Our `data` list now contains a dictionary containing key information for every r
   
 
 ```python
-
 print(data[0])
-
 ```
 
   
@@ -734,17 +726,11 @@ Right now, the easiest way to get all pages is just to manually make a list of t
   
 
 ```python
-
 pages = [
-
 'https://www.allsides.com/media-bias/media-bias-ratings',
-
 'https://www.allsides.com/media-bias/media-bias-ratings?page=1',
-
 'https://www.allsides.com/media-bias/media-bias-ratings?page=2'
-
 ]
-
 ```
 
   
@@ -775,37 +761,18 @@ By combining all the steps we've done up to this point and adding a loop over pa
   
 
 ```python
-
 from time import sleep
 
-  
-
-data= []
-
-  
-
+data= []  
 for page in pages:
-
 r = requests.get(page)
-
 soup = BeautifulSoup(r.content, 'html.parser')
-
 rows = soup.select('tbody tr')
-
-  
-
 for row in rows:
-
 d = dict()
-
-  
-
 d['name'] = row.select_one('.source-title').text.strip()
-
 d['allsides_page'] = 'https://www.allsides.com' + row.select_one('.source-title a')['href']
-
 d['bias'] = row.select_one('.views-field-field-bias-image a')['href'].split('/')[-1]
-
 d['agree'] = int(row.select_one('.agree').text)
 
 d['disagree'] = int(row.select_one('.disagree').text)
@@ -1302,5 +1269,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU2ODM1MzFdfQ==
+eyJoaXN0b3J5IjpbMTc4NjU4NDg4M119
 -->
