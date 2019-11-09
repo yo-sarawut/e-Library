@@ -864,10 +864,10 @@ for d in tqdm_notebook(data):
 	r = requests.get(d['allsides_page'])
 	soup = BeautifulSoup(r.content, 'html.parser')
 try:
-website = soup.select_one('.www')['href']
-d['website'] = website
+	website = soup.select_one('.www')['href']
+	d['website'] = website
 except  TypeError:
-pass
+	pass
 sleep(10)
 
 ```
@@ -890,15 +890,10 @@ The first thing we'll want to do now is save that data to a file so we don't hav
   
 
 ```python
-
-import json
-
-  
+import json  
 
 with  open('allsides.json', 'w') as f:
-
 json.dump(data, f)
-
 ```
 
   
@@ -909,11 +904,8 @@ To load it back in when you need it:
   
 
 ```python
-
 with  open('allsides.json', 'r') as f:
-
 data = json.load(f)
-
 ```
 
   
@@ -940,21 +932,11 @@ To find where the community absolutely agrees we can do a simple list comprehens
   
 
 ```python
-
 abs_agree = [d for d in data if d['agreeance_text'] == 'absolutely agrees']
-
-  
-
 print(f"{'Outlet':<20} {'Bias':<20}")
-
 print("-" * 30)
-
-  
-
 for d in abs_agree:
-
-print(f"{d['name']:<20} {d['bias']:<20}")
-
+	print(f"{d['name']:<20} {d['bias']:<20}")
 ```
 
   
@@ -985,19 +967,9 @@ Now to the DataFrame:
   
 
 ```python
-
 import pandas as pd
-
-  
-
-df = pd.read_json(open('allsides.json', 'r'))
-
-  
-
+df = pd.read_json(open('allsides.json', 'r'))  
 df.set_index('name', inplace=True)
-
-  
-
 df.head()
 
 ```
@@ -1010,12 +982,7 @@ Now filter the DataFrame by "agreeance_text":
   
 
 ```python
-
-df[df['agreeance_text'] == 'strongly disagrees']
-
-```
-
-  
+df[df['agreeance_text'] == 'strongly disagrees']  
 
 It looks like much of the community disagrees strongly with certain outlets being rated with a "center" bias.
 
@@ -1027,12 +994,8 @@ Let's make a quick visualization of agreeance. Since there's too many news sourc
   
 
 ```python
-
 df['total_votes'] = df['agree'] + df['disagree']
-
-df.sort_values('total_votes', ascending=False, inplace=True)
-
-  
+df.sort_values('total_votes', ascending=False, inplace=True) 
 
 df.head(10)
 
@@ -1225,5 +1188,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0ODQ1MzQ3XX0=
+eyJoaXN0b3J5IjpbMTQzMTMxMjcyM119
 -->
