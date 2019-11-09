@@ -550,7 +550,6 @@ The last thing to scrape is the agree/disagree ratio from the community feedback
 </div>
 </div>
 </td>
-
 ```
 
   
@@ -561,22 +560,11 @@ The numbers we want are located in two `span` elements in the last `div`. Both `
   
 
 ```python
-
 agree = row.select_one('.agree').text
-
 agree = int(agree)
-
-  
-
 disagree = row.select_one('.disagree').text
-
 disagree = int(disagree)
-
-  
-
-agree_ratio = agree / disagree
-
-  
+agree_ratio = agree / disagree 
 
 print(f"Agree: {agree}, Disagree: {disagree}, Ratio {agree_ratio:.2f}")
 
@@ -598,9 +586,7 @@ If you look at the page in your browser you'll notice that they say how much the
   
 
 ```python
-
 print(row.select_one('.community-feedback-rating-page'))
-
 ```
 
   
@@ -618,75 +604,40 @@ It turned out the logic was located in the eleventh JS file and they have a func
   
 
 <table  width="300px">
-
 <thead>
-
 <td>Range</td>
-
 <td>Agreeance</td>
-
 </thead>
-
 <tr>
-
 <td>$ratio > 3$</td>
-
 <td>absolutely agrees</td>
-
 </tr>
-
 <tr>
-
 <td>$2 < ratio \leq 3$</td>
-
 <td>strongly agrees</td>
-
 </tr>
-
 <tr>
-
 <td>$1.5 < ratio \leq 2$</td>
-
 <td>agrees</td>
-
 </tr>
-
 <tr>
-
 <td>$1 < ratio \leq 1.5$</td>
-
 <td>somewhat agrees</td>
-
 </tr>
-
 <tr>
-
 <td>$ratio = 1$</td>
-
 <td>neutral</td>
-
 </tr>
-
 <tr>
-
 <td>$0.67 < ratio < 1$</td>
-
 <td>somewhat disgrees</td>
-
 </tr>
-
 <tr>
-
 <td>$0.5 < ratio \leq 0.67$</td>
-
 <td>disgrees</td>
-
 </tr>
-
 <tr>
-
 <td>$0.33 < ratio \leq 0.5$</td>
-
 <td>strongly disagrees</td>
 
 </tr>
@@ -1376,5 +1327,5 @@ These sorts of things will be addressed later when we build more complex scraper
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwMTk5OTI3XX0=
+eyJoaXN0b3J5IjpbLTczMTk4MDU4NV19
 -->
