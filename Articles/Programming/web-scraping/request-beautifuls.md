@@ -139,7 +139,7 @@ This project will primarily be run through a Jupyter notebook, which is done for
 
 With Python's `requests` library we're getting a web page by using `get()` on the URL. The response `r` contains many things, but using `r.content` will give us the HTML. Once we have the HTML we can then parse it for the data we're interested in analyzing.
 
-  
+  ![enter image description here](http://localhost:8888/notebooks/Developer/Python/Tutorials/article-resources-master/Ultimate%20Guide%20to%20Web%20Scraping/Part%201%20-%20Requests%20and%20BeautifulSoup/assets/Media%20Bias%20Ratings%20AllSides.jpg)
 
 There's an interesting website called *AllSides* that has a [media bias rating table](https://www.allsides.com/media-bias/media-bias-ratings) where users can agree or disagree with the rating.
 
@@ -1099,5 +1099,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzI4MTc3MCw3MzcxNTM0MDBdfQ==
+eyJoaXN0b3J5IjpbLTE0MTA0NzY3NDAsNzM3MTUzNDAwXX0=
 -->
