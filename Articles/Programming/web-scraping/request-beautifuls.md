@@ -284,13 +284,9 @@ Simplifying the table's HTML, the structure looks like this (comments `<!-- -->`
 <!-- agree / disagree data -->
 </td>
 </tr>  <!-- end table row -->
-
 <!-- more rows -->
-
 </tbody>
-
 </table>
-
 ```
 
   
@@ -301,9 +297,7 @@ So to get each row, we just select all `<tr>` inside `<tbody>`:
   
 
 ```python
-
 rows = soup.select('tbody tr')
-
 ```
 
   
@@ -339,13 +333,9 @@ Below is a breakdown of how to extract each one.
 Let's look at the first cell:
 
 ```html
-
 <td  class="views-field views-field-title source-title">
-
 <a  href="/news-source/abc-news-media-bias">ABC News</a>
-
 </td>
-
 ```
 
   
@@ -361,11 +351,9 @@ Getting the outlet name is pretty easy: just get the first row in `rows` and run
   
 
 ```python
-
 row = rows[0] 
 name = row.select_one('.source-title').text.strip()
 print(name)
-
 ```
 
   
@@ -397,7 +385,6 @@ We also need the link to this news source's page on AllSides. If we look back at
 allsides_page = row.select_one('.source-title a')['href']
 allsides_page = 'https://www.allsides.com' + allsides_page
 print(allsides_page)
-
 ```
 
   
@@ -442,9 +429,7 @@ We could also pull the `alt` attribute, but the link looks easier. Let's grab it
 ```python
 bias = row.select_one('.views-field-field-bias-image a')['href']
 bias = bias.split('/')[-1]
-
 print(bias)
-
 ```
 
   
@@ -505,9 +490,7 @@ agree = int(agree)
 disagree = row.select_one('.disagree').text
 disagree = int(disagree)
 agree_ratio = agree / disagree 
-
 print(f"Agree: {agree}, Disagree: {disagree}, Ratio {agree_ratio:.2f}")
-
 ```
 
   
@@ -682,11 +665,8 @@ According to AllSides' *robots.txt* we need to make sure we wait ten seconds bef
 Our loop will:
 
 - request a page
-
 - parse the page
-
 - wait ten seconds
-
 - repeat for next page.
 
   
@@ -720,7 +700,6 @@ for page in pages:
 		d['agreeance_text'] = get_agreeance_text(d['agree_ratio'])
 		data.append(d)
 		sleep(10)
-
 ```
 
   
@@ -1060,6 +1039,6 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTIwNDk4MSw2OTcyMDU3Myw3MzcxNT
-M0MDBdfQ==
+eyJoaXN0b3J5IjpbLTE3MDcyNDYxMzUsNjk3MjA1NzMsNzM3MT
+UzNDAwXX0=
 -->
