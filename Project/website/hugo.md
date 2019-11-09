@@ -7,8 +7,12 @@
 - [https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/](https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/)
 - [==Theme Doc==](https://themes.gohugo.io/hugo-refresh/)
 
+## Example
+- [https://rjordaney.is/](https://rjordaney.is/)
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzQzOTE1LDIzOTUyODgwNV19
+eyJoaXN0b3J5IjpbLTIxMzA4NTUzNzUsMTM0NzQzOTE1LDIzOT
+UyODgwNV19
 -->
