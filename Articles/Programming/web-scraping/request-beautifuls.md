@@ -42,15 +42,10 @@ Below is a function that wraps the `open()` function to reduce a lot of repetiti
   
 
 ```python
-
 def  save_html(html, path):
-
-with  open(path, 'wb') as f:
-
-f.write(html)
-
+	with  open(path, 'wb') as f:
+		f.write(html)
 save_html(r.content, 'google_com')
-
 ```
 
   
@@ -67,15 +62,10 @@ To retrieve our saved file we'll make another function to wrap reading the HTML 
   
 
 ```python
-
 def  open_html(path):
-
-with  open(path, 'rb') as f:
-
-return f.read()
-
-html = open_html('google_com')
-
+	with  open(path, 'rb') as f:
+		return f.read()
+	html = open_html('google_com')
 ```
 
   
@@ -95,19 +85,11 @@ Each site usually has a **robots.txt** on the root of their domain. This is wher
   
 
 ```text
-
 User-agent: *
-
 Crawl-delay: 10
-
 Allow: /pages/
-
 Disallow: /scripts/
-
-  
-
 # more stuff
-
 ```
 
   
@@ -137,11 +119,8 @@ Many times you'll see a `*` next to Allow or Disallow which means you are either
 Sometimes there will be a disallow all pages followed by allowed pages like this:
 
 ```text
-
 Disallow: *
-
 Allow: /pages/
-
 ```
 
 This means that you're not allowed to scrape anything *except* the subfolder */pages/*. Essentially, you just want to read the rules in order where the next rule overrides the previous rule.
@@ -1120,5 +1099,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MTUzNDAwXX0=
+eyJoaXN0b3J5IjpbMTQ3MzI4MTc3MCw3MzcxNTM0MDBdfQ==
 -->
