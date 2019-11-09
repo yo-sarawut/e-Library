@@ -127,27 +127,17 @@ This means that you're not allowed to scrape anything *except* the subfolder */p
 
   
 
-## Scraping Project: Getting Media Bias Data
 
-  
+## Scraping Project: Getting Media Bias Data
 
 This project will primarily be run through a Jupyter notebook, which is done for teaching purposes and is not the usual way scrapers are programmed. After showing you the pieces, we'll put it all together into a Python script that can be run from command line or your IDE of choice.
 
-  
-
 ### Making web requests
-
 With Python's `requests` library we're getting a web page by using `get()` on the URL. The response `r` contains many things, but using `r.content` will give us the HTML. Once we have the HTML we can then parse it for the data we're interested in analyzing.
 
-  ![enter image description here](http://localhost:8888/notebooks/Developer/Python/Tutorials/article-resources-master/Ultimate%20Guide%20to%20Web%20Scraping/Part%201%20-%20Requests%20and%20BeautifulSoup/assets/Media%20Bias%20Ratings%20AllSides.jpg)
+There's an interesting website called *AllSides* that has a [media bias rating table](https://www.allsides.com/media-bias/media-bias-ratings) where users can agree or disagree with the rating. 
 
-There's an interesting website called *AllSides* that has a [media bias rating table](https://www.allsides.com/media-bias/media-bias-ratings) where users can agree or disagree with the rating.
-
-  
-
-
-
-  
+<img src="assets/Media Bias Ratings AllSides.jpg">
 
 Since there's nothing in their robots.txt that disallows us from scraping this section of the site, I'm assuming it's okay to go ahead and extract this data for our project. Let's request the this first page:
 
@@ -1099,5 +1089,5 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA0NzY3NDAsNzM3MTUzNDAwXX0=
+eyJoaXN0b3J5IjpbNjk3MjA1NzMsNzM3MTUzNDAwXX0=
 -->
