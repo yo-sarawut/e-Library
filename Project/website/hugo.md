@@ -7,6 +7,11 @@
 - [https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/](https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/)
 - [==Theme Doc==](https://themes.gohugo.io/hugo-refresh/)
 
+## Tool
+
+- [Hokus CMS]()
+
+
 ## Theme
 
 - [==**Hugo Docs**==](https://github.com/gohugoio/hugo/tree/master/docs)
@@ -40,7 +45,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTcxNjcyNywyMDcyNTczMzU0LDM0Mz
-g0MDYxOCwxNTM3MDg0ODY5LC0yMTMwODU1Mzc1LDEzNDc0Mzkx
-NSwyMzk1Mjg4MDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MjIzMDg4ODQsMTk5NTcxNjcyNywyMD
+cyNTczMzU0LDM0Mzg0MDYxOCwxNTM3MDg0ODY5LC0yMTMwODU1
+Mzc1LDEzNDc0MzkxNSwyMzk1Mjg4MDVdfQ==
 -->
