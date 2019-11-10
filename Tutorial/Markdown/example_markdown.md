@@ -72,8 +72,13 @@ Markdown คือข้อความธรรมดา ๆ นี่เอง
 ##### หัวเรื่อง 5  
 ###### หัวเรื่อง 6  
 ```  
-> ขาดภาพการแสดงผล  
->  
+# หัวเรื่อง 1  
+## หัวเรื่อง 2  
+### หัวเรื่อง 3  
+#### หัวเรื่อง 4  
+##### หัวเรื่อง 5  
+###### หัวเรื่อง 6  
+
 ## Paragraphs เขียนย่อหน้า  
   
 เราสามารถขั้นย่อหน้าได้โดยการกด `Enter` 2 ครั้ง หรือเว้นเอาไว้ 1 บรรทัด  
@@ -407,6 +412,6 @@ ___
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDc0OTE2NywzNjgxODIyNzksLTc3Nj
-c0Mzg5Ml19
+eyJoaXN0b3J5IjpbMTQxMzk0ODk4NiwxODY0NzQ5MTY3LDM2OD
+E4MjI3OSwtNzc2NzQzODkyXX0=
 -->
