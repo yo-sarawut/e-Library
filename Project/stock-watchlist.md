@@ -14,6 +14,7 @@ PANTONE 19-4055
 
 ## ศึกษาเพิ่มเติม
 
+- [Awesome-Quant](https://github.com/wilsonfreitas/awesome-quant#data-sources)   Awesome libraries, packages and resources for Quants (Quantitative Finance)
 - [Stock Data Analysis with Python (Second Edition)](https://ntguardian.wordpress.com/2018/07/17/stock-data-analysis-python-v2/)
 - [Python for Finance](https://learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
 
@@ -353,8 +354,8 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2Nz
-M0NTIsMTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEs
-LTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MD
-g0MTM0MiwtMjExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbLTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MT
+Y1ODgzLDcyODY3MzQ1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwt
+MTEzNTA5MTkzMSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NT
+cxNjQ1MCwtOTQwODQxMzQyLC0yMTE2MTMzMTIxXX0=
 -->
