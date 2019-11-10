@@ -16,6 +16,9 @@ Note for Pandas tutorials
 
 ![enter image description here](https://jakevdp.github.io/WhirlwindTourOfPython/figures/cover-large.gif)
 
+- [Time Series Forecasting คืออะไร? + e-Book](https://blog.datath.com/time-series-forecasting/)
+![enter image description here](https://blog.datath.com/wp-content/uploads/2018/06/fpp2_book_cover.jpg)
+
 ## Index[](https://jakevdp.github.io/WhirlwindTourOfPython/#Index)
 
 1.  [Introduction](https://jakevdp.github.io/WhirlwindTourOfPython/00-introduction.html)
@@ -37,6 +40,7 @@ Note for Pandas tutorials
 17.  [Resources for Further Learning](https://jakevdp.github.io/WhirlwindTourOfPython/16-further-resources.html)
 18.  [Appendix: Code To Reproduce Figures](https://jakevdp.github.io/WhirlwindTourOfPython/17-figures.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQzODU5OSwtMTM5NTEyMDYzMiwyMD
-EwMjkzODg3LC0xMzU1MTcwMzIzLDQ0NDI2ODI0XX0=
+eyJoaXN0b3J5IjpbLTE3ODgxMDA0ODcsLTIwNjQzODU5OSwtMT
+M5NTEyMDYzMiwyMDEwMjkzODg3LC0xMzU1MTcwMzIzLDQ0NDI2
+ODI0XX0=
 -->
