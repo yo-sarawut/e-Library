@@ -130,6 +130,34 @@
 
 ![enter image description here](https://sites.google.com/site/suthidajansong/_/rsrc/1516877600955/home/hnwy-thi3-wela/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B23.jpg)
 
+หน่วย	ขนาด
+นาโนวินาที	
+1
+1,000,000,000
+ วินาที
+ไมโครวินาที	
+1
+1,000,000
+ วินาที
+มิลลิวินาที	
+1
+1,000
+ วินาที
+วินาที	หน่วยฐานในระบบเอสไอ
+นาที	60 วินาที
+ชั่วโมง	60 นาที
+วัน	24 ชั่วโมง
+สัปดาห์	7 วัน
+ปักษ์	14 หรือ 15 วัน; 2 สัปดาห์
+เดือน	28 ถึง 31 วัน
+ไตรมาส	3 เดือน
+ปี (ปีปฏิทิน)	12 เดือน
+ปีสุริยคติ	365.24219 วัน (โดยเฉลี่ย)
+ทศวรรษ	10 ปี
+ศตวรรษ	100 ปี
+สหัสวรรษ	1,000 ปี
+ทศสหัสวรรษ	10,000 ปี
+
 
 
 
@@ -151,6 +179,6 @@ Reference :
 ข้อมูล
 - [What is the time? บอกเวลาภาษาอังกฤษ](https://www.dailyenglish.in.th/whats-the-time/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTExOTE2MywtNzYyNDI3NTQsODE0Mz
-I2MjI3XX0=
+eyJoaXN0b3J5IjpbMTA2ODA2MjM4MCwxODgxMTE5MTYzLC03Nj
+I0Mjc1NCw4MTQzMjYyMjddfQ==
 -->
