@@ -21,7 +21,9 @@
 
 ## บทความ
 
-- []
+- [[Develop] สร้าง Blog แบบคลู ๆ ด้วย Markdown](https://medium.com/@p.srinikorn/develop-%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-blog-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%84%E0%B8%A5%E0%B8%B9-%E0%B9%86-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-markdown-fc45b65cde38)
+- [[Build + Deploy] Hugo ขึ้น GitHub Pages แบบคลู ๆ](https://medium.com/@p.srinikorn/build-deploy-hugo-%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99-github-pages-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%84%E0%B8%A5%E0%B8%B9-%E0%B9%86-80b4e760754e)
+- 
 - [Hugo + Firebase: How to create your own static website for free in minutes](https://medium.com/free-code-camp/hugo-firebase-how-to-create-your-own-dynamic-website-for-free-in-minutes-463b4fb7bf5a)
 - [Content Management with Gatsby, Contentful & Netlify](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
 - [Six steps to building your website from scratch](https://medium.com/@khollobaugh/https-medium-com-khollobaugh-six-steps-to-building-your-website-from-scratch-a713288cc6d)
@@ -35,7 +37,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDg2MDAwNSwzNDM4NDA2MTgsMTUzNz
+eyJoaXN0b3J5IjpbMjA3MjU3MzM1NCwzNDM4NDA2MTgsMTUzNz
 A4NDg2OSwtMjEzMDg1NTM3NSwxMzQ3NDM5MTUsMjM5NTI4ODA1
 XX0=
 -->
