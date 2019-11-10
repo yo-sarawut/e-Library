@@ -18,12 +18,19 @@
 [on github :](https://github.com/PippoRJ/hugo-refresh)
 
 
+
+## บทความ
+
+- [Hugo + Firebase: How to create your own static website for free in minutes](https://medium.com/free-code-camp/hugo-firebase-how-to-create-your-own-dynamic-website-for-free-in-minutes-463b4fb7bf5a)
+- [Content Management with Gatsby, Contentful & Netlify](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
+
 ## Example
 - [https://rjordaney.is/](https://rjordaney.is/)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzODQwNjE4LDE1MzcwODQ4NjksLTIxMz
-A4NTUzNzUsMTM0NzQzOTE1LDIzOTUyODgwNV19
+eyJoaXN0b3J5IjpbLTE1ODQ0NTk5NjEsMzQzODQwNjE4LDE1Mz
+cwODQ4NjksLTIxMzA4NTUzNzUsMTM0NzQzOTE1LDIzOTUyODgw
+NV19
 -->
