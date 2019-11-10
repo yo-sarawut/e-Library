@@ -9,7 +9,7 @@
 
 ## Theme
 
-- {Hugo Doc](https://github.com/gohugoio/hugo/tree/master/docs)
+- [==**Hugo Doc**==](https://github.com/gohugoio/hugo/tree/master/docs)
 - [Hugo Fresh](https://themes.gohugo.io/hugo-fresh/)
 ![enter image description here](https://d33wubrfki0l68.cloudfront.net/759b7396fd8035fb2d147f63abad98ba7d401a31/d34c2/hugo-fresh/screenshot-hugo-fresh_hu59575f96195d76c58e16ef86a2d7af31_99859_750x500_fill_catmullrom_top_2.png)
 
@@ -39,7 +39,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzE1NDA4OCwyMDcyNTczMzU0LDM0Mz
+eyJoaXN0b3J5IjpbLTk2NjU1MjU4NCwyMDcyNTczMzU0LDM0Mz
 g0MDYxOCwxNTM3MDg0ODY5LC0yMTMwODU1Mzc1LDEzNDc0Mzkx
 NSwyMzk1Mjg4MDVdfQ==
 -->
