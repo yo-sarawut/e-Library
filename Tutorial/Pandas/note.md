@@ -1,6 +1,6 @@
 Note for Pandas Tutorials
 ==
-- [Pandas on GitHub](https://github.com/pandas-dev/pandas/tree/v0.25.3) ศึกษาการใช้งาน และเป็นแนวท
+- [Pandas on GitHub](https://github.com/pandas-dev/pandas/tree/v0.25.3) ศึกษาการใช้งาน และเป็นแนวทางในการ สร้าง Functions & Module
 - [Pandas API Reference ](https://pandas.pydata.org/pandas-docs/version/0.21/generated/pandas.read_html.html)
 - [Pandas DataFrame Doc](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#reindexing-selection-label-manipulation)
 **String**
@@ -51,7 +51,7 @@ Note for Pandas Tutorials
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY4ODM5ODksNTY0NjEzMTYsLTEzNj
-A5Nzk1NjAsLTYwODI0Njk0OCwxNzAzMTIxMjgxLC00NDE0MTYx
-MzddfQ==
+eyJoaXN0b3J5IjpbMTYwNzQ5MDMxNiw1NjQ2MTMxNiwtMTM2MD
+k3OTU2MCwtNjA4MjQ2OTQ4LDE3MDMxMjEyODEsLTQ0MTQxNjEz
+N119
 -->
