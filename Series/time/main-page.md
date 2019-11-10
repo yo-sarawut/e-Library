@@ -130,13 +130,17 @@
 
 ![enter image description here](https://sites.google.com/site/suthidajansong/_/rsrc/1516877600955/home/hnwy-thi3-wela/%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B23.jpg)
 
-หน่วย	ขนาด
-นาโนวินาที	
-1
-1,000,000,000
- วินาที
-ไมโครวินาที	
-1
+### หน่วยของเวลาที่ควรทราบ
+
+|  |  |
+|--|--|
+|  |  |
+
+
+|หน่วย	|ขนาด|
+|--|--|
+|นาโนวินาที|1/1,000,000,000  วินาที|
+|ไมโครวินาที|1
 1,000,000
  วินาที
 มิลลิวินาที	
@@ -179,6 +183,6 @@ Reference :
 ข้อมูล
 - [What is the time? บอกเวลาภาษาอังกฤษ](https://www.dailyenglish.in.th/whats-the-time/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODA2MjM4MCwxODgxMTE5MTYzLC03Nj
-I0Mjc1NCw4MTQzMjYyMjddfQ==
+eyJoaXN0b3J5IjpbLTE5MDExMTI0OTcsMTg4MTExOTE2MywtNz
+YyNDI3NTQsODE0MzI2MjI3XX0=
 -->
