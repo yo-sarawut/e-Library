@@ -4,6 +4,8 @@
 
 [![](http://www.lesa.biz/_/rsrc/1432186890512/astronomy/celestial-sphere/celestial-motion/celes_sp_polar.jpg?height=289&width=320)](http://www.lesa.biz/astronomy/celestial-sphere/celestial-motion/celes_sp_polar.jpg?attredirects=0)
 
+<img src="https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg" alt="W3Schools" width="700" height="300">  
+
   
 
 _ภาพที่ 1 จินตนาการจากอวกาศ_  
@@ -119,5 +121,5 @@ _ภาพที่ 2 ตำแหน่งของกลุ่มดาวน�
 - http://www.lesa.biz/astronomy/celestial-sphere/celestial-motion/diurnal-motion
 - [http://www.lesa.biz/astronomy/celestial-sphere/ecliptic/annual-motion](http://www.lesa.biz/astronomy/celestial-sphere/ecliptic/annual-motion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MTY1MjU1LC0xODY0NDU4MTcwXX0=
+eyJoaXN0b3J5IjpbMjE5NzMwNDQzLC0xODY0NDU4MTcwXX0=
 -->
