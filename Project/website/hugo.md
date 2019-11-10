@@ -21,8 +21,13 @@
 
 ## บทความ
 
+- []
 - [Hugo + Firebase: How to create your own static website for free in minutes](https://medium.com/free-code-camp/hugo-firebase-how-to-create-your-own-dynamic-website-for-free-in-minutes-463b4fb7bf5a)
 - [Content Management with Gatsby, Contentful & Netlify](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
+- [Six steps to building your website from scratch](https://medium.com/@khollobaugh/https-medium-com-khollobaugh-six-steps-to-building-your-website-from-scratch-a713288cc6d)
+- [Why you should use GatsbyJS to build static sites](https://medium.com/free-code-camp/why-you-should-use-gatsbyjs-to-build-static-sites-4f90eb6d1a7b)
+- [12 Factor Applications with GatsbyJS](https://medium.com/@wonderboymusic/12-factor-applications-with-gatsbyjs-ef8a2b1f883a)
+- 
 
 ## Example
 - [https://rjordaney.is/](https://rjordaney.is/)
@@ -30,7 +35,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ0NTk5NjEsMzQzODQwNjE4LDE1Mz
-cwODQ4NjksLTIxMzA4NTUzNzUsMTM0NzQzOTE1LDIzOTUyODgw
-NV19
+eyJoaXN0b3J5IjpbMTI5NDg2MDAwNSwzNDM4NDA2MTgsMTUzNz
+A4NDg2OSwtMjEzMDg1NTM3NSwxMzQ3NDM5MTUsMjM5NTI4ODA1
+XX0=
 -->
