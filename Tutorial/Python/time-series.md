@@ -310,7 +310,7 @@ longer_ts['2001-05']
 
 
 
-```py
+```result
     2001-05-01   -0.622547
     2001-05-02    0.936289
     2001-05-03    0.750018
@@ -2672,5 +2672,6 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDI1OTM3OSwtNzk0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbLTMxMjAzMDk0NSwxODYwMjU5Mzc5LC03OT
+Q4ODA1MjddfQ==
 -->
