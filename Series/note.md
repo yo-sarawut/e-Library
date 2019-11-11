@@ -12,10 +12,9 @@
 
 ## เทควันโด
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Taekwondo_kids_at_China.jpg/220px-Taekwondo_kids_at_China.jpg)
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flickr_-_The_U.S._Army_-_Taekwondo_champion.jpg/220px-Flickr_-_The_U.S._Army_-_Taekwondo_champion.jpg)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6V9fGLrSSvEwXlEUWzd-Twv0Fi8Yx0VZqmblA6uK-F5PUuTk)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzkyMTI2LC0zNDc5NDU5MTksLTIwMD
-A3MjQxNDZdfQ==
+eyJoaXN0b3J5IjpbMTE3MTU1ODIzMSwtMzQ3OTQ1OTE5LC0yMD
+AwNzI0MTQ2XX0=
 -->
