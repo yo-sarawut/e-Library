@@ -203,7 +203,7 @@ ts + ts[::2]
 
 
 
-```py
+```bush
     2011-01-02   -0.409415
     2011-01-05         NaN
     2011-01-07   -1.038877
@@ -215,27 +215,27 @@ ts + ts[::2]
 
 
 
-```python
+```py
 ts.index.dtype
 ```
 
 
 
-```py
-    dtype('<M8[ns]')
+```bush
+dtype('<M8[ns]')
 ```
 
 
 
-```python
+```py
 stamp = ts.index[0]
 stamp
 ```
 
 
 
-```py
-    Timestamp('2011-01-02 00:00:00')
+```bush
+Timestamp('2011-01-02 00:00:00')
 ```
 
 
@@ -249,8 +249,8 @@ ts[stamp]
 
 
 
-```py
-    -0.5194387150567381
+```bush
+-0.5194387150567381
 ```
 
 
@@ -262,8 +262,8 @@ ts['20110110']
 
 
 
-```py
-    1.9657805725027142
+```bush
+ 1.9657805725027142
 ```
 
 
@@ -277,7 +277,7 @@ longer_ts['2001']
 
 
 
-```py
+```bush
     2001-01-01    1.599534
     2001-01-02    0.474071
     2001-01-03    0.151326
@@ -308,9 +308,7 @@ longer_ts['2001']
 longer_ts['2001-05']
 ```
 
-
-
-```result
+```bush
     2001-05-01   -0.622547
     2001-05-02    0.936289
     2001-05-03    0.750018
@@ -2672,6 +2670,6 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjAzMDk0NSwxODYwMjU5Mzc5LC03OT
-Q4ODA1MjddfQ==
+eyJoaXN0b3J5IjpbLTg5NjM4NDE2LDE4NjAyNTkzNzksLTc5ND
+g4MDUyN119
 -->
