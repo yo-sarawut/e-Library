@@ -18,6 +18,7 @@
 - [https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/](https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/)
 - [ลองทำบล็อกด้วย Hugo แล้วโฮสต์บน Firebase ](https://nosemicolon.dev/blog/programming/hugo-firebase-tutorial-1/)
 - [หัดใช้ Hugo เขียน blog](https://siritas.gitlab.io/posts/learn-to-blogging-with-hugo/)
+- [Hello Hugo](https://pakin.me/blog/hello-hugo/)
 
 
 
@@ -63,5 +64,5 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU1MTQ1NzhdfQ==
+eyJoaXN0b3J5IjpbMjMzNjU4MTIyLC0xMjY1NTE0NTc4XX0=
 -->
