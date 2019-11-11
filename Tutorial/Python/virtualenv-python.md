@@ -35,7 +35,7 @@ pip install virtualenv
 
 ในทีนี้ผมจะสร้าง python environment ชื่อ env โดยสั่ง
 
-```shell
+```py
 virtualenv.exe env
 ```
 
@@ -43,7 +43,7 @@ virtualenv.exe env
 
 เวลาจะใช้งานก็สั่ง command
 
-```shell
+```py
 .\env\Scripts\activate
 ```
   
@@ -64,7 +64,7 @@ Set-ExecutionPolicy AllSigned
   
 กับ
 
-```shell
+```py
 Set-ExecutionPolicy RemoteSigned
 ```
 
@@ -78,7 +78,7 @@ Set-ExecutionPolicy RemoteSigned
 
 คราวนี้ถ้าเราอยากรู้ว่า environment ของเรามี library อะไรอยู่บ้างก็ให้ลองสั่ง
 
-```shell
+```py
 pip freeze
 ```
 
@@ -86,7 +86,7 @@ pip freeze
 
 ซึ่งเราจะยังไม่เห็น library ใดๆ คราวนนี้เรามาลองติดตั้ง library OpenCV กัน
 
-```shell
+```py
 pip install opencv-python
 ```
 
@@ -94,11 +94,10 @@ pip install opencv-python
 
 แล้วลอง pip freeze อีกรอบ เราก็จะเห็นว่ามี library OpenCV เพิ่มเข้ามา
 
-```shell
+```py
 numpy==1.16.3
 opencv-python==4.1.0.25
 ```
-
   
 
 ทีนี้ก็มาลองทดสอบ library ที่เพิ่งลงกันครับ
@@ -107,7 +106,7 @@ opencv-python==4.1.0.25
 
 ถ้าเราใช้งาน environment เสร็จแล้ว ก็ให้สั่ง
 
-```shell
+```py
 deactivate
 ```
 
@@ -121,7 +120,7 @@ deactivate
 
 สมมติ ว่าเราทำโปรเจคเสร็จ แล้วคนอื่นอยากนำไปใช้งานต่อ ให้เราสั่ง
 
-```shell
+```py
 pip freeze > requirement.txt
 ```
 
@@ -129,7 +128,7 @@ pip freeze > requirement.txt
 
 เพื่อจะรวบรวม library ไว้ในไฟล์ requirement.txt เราอาจจะใช้ชื่อไฟล์อื่นก็ได้นะครับ
 
-[![pip freeze](https://www.skconan.com/static/1793746c981b2c1dc6cce89125108a35/fb8a0/pip-freeze.png)](https://www.skconan.com/static/1793746c981b2c1dc6cce89125108a35/cab54/pip-freeze.png)  
+![pip freeze](https://www.skconan.com/static/1793746c981b2c1dc6cce89125108a35/fb8a0/pip-freeze.png)
 
 เวลาคนอื่นเอาไปใช้ เค้าก็จะสั่ง
 
@@ -154,5 +153,5 @@ pip install -r <file requirement>
 
 >Source : [skconan.com](https://www.skconan.com/python-virtualenv/?fbclid=IwAR0ZOR242MyfDn-VQucYVdicrAoLuJ25Z_w3z_aI2yvYXx5wbAc_XOwVqpQ).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mjk4OTk3OSwtMTA0MTQ0ODc2N119
+eyJoaXN0b3J5IjpbMTcwNzY3MjA5MCwtMTA0MTQ0ODc2N119
 -->
