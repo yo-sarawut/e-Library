@@ -118,14 +118,14 @@ datetime.datetime(1997, 1, 31, 22, 45)
 
 
 
-```python
+```bush
 parse('6/12/2011', dayfirst=True)
 ```
 
 
 
-```py
-    datetime.datetime(2011, 12, 6, 0, 0)
+```bush
+datetime.datetime(2011, 12, 6, 0, 0)
 ```
 
 
@@ -137,13 +137,13 @@ pd.to_datetime(datestrs)
 
 
 
-```py
-    DatetimeIndex(['2011-07-06 12:00:00', '2011-08-06 00:00:00'], dtype='datetime64[ns]', freq=None)
+```bush
+DatetimeIndex(['2011-07-06 12:00:00', '2011-08-06 00:00:00'], dtype='datetime64[ns]', freq=None)
 ```
 
 
 
-```python
+```py
 idx = pd.to_datetime(datestrs + [None])
 idx
 idx[2]
@@ -152,8 +152,8 @@ pd.isnull(idx)
 
 
 
-```py
-    array([False, False,  True])
+```bush
+array([False, False,  True])
 ```
 
 
@@ -171,7 +171,7 @@ ts
 
 
 
-```py
+```bush
     2011-01-02   -0.204708
     2011-01-05    0.478943
     2011-01-07   -0.519439
@@ -189,8 +189,8 @@ ts.index
 
 
 
-```py
-    DatetimeIndex(['2011-01-02', '2011-01-05', '2011-01-07', '2011-01-08',
+```bush
+DatetimeIndex(['2011-01-02', '2011-01-05', '2011-01-07', '2011-01-08',
                    '2011-01-10', '2011-01-12'],
                   dtype='datetime64[ns]', freq=None)
 ```
@@ -2670,6 +2670,6 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjM4NDE2LDE4NjAyNTkzNzksLTc5ND
-g4MDUyN119
+eyJoaXN0b3J5IjpbLTIwMDcyNjgxNzAsMTg2MDI1OTM3OSwtNz
+k0ODgwNTI3XX0=
 -->
