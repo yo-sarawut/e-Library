@@ -25,7 +25,7 @@ now.year, now.month, now.day
 
 
 
-```py
+```bush
 (2019, 10, 17)
 ```
 
@@ -40,7 +40,7 @@ delta.seconds
 
 
 
-```py
+```bush
 56700
 ```
 
@@ -55,7 +55,7 @@ start - 2 * timedelta(12)
 
 
 
-```py
+```bush
 datetime.datetime(2010, 12, 14, 0, 0)
 ```
 
@@ -71,13 +71,13 @@ stamp.strftime('%Y-%m-%d')
 
 
 
-```py
+```bush
 '2011-01-03'
 ```
 
 
 
-```python
+```py
 value = '2011-01-03'
 datetime.strptime(value, '%Y-%m-%d')
 datestrs = ['7/6/2011', '8/6/2011']
@@ -86,7 +86,7 @@ datestrs = ['7/6/2011', '8/6/2011']
 
 
 
-```py
+```bush
 [datetime.datetime(2011, 7, 6, 0, 0), 
 datetime.datetime(2011, 8, 6, 0, 0)]
 ```
@@ -100,25 +100,25 @@ parse('2011-01-03')
 
 
 
-```py
+```bush
 datetime.datetime(2011, 1, 3, 0, 0)
 ```
 
 
 
-```python
+```py
 parse('Jan 31, 1997 10:45 PM')
 ```
 
 
 
-```py
+```bush
 datetime.datetime(1997, 1, 31, 22, 45)
 ```
 
 
 
-```bush
+```py
 parse('6/12/2011', dayfirst=True)
 ```
 
@@ -2670,6 +2670,6 @@ pd.options.display.max_rows = PREVIOUS_MAX_ROWS
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcyNjgxNzAsMTg2MDI1OTM3OSwtNz
-k0ODgwNTI3XX0=
+eyJoaXN0b3J5IjpbNjU5MzI0MDU4LDE4NjAyNTkzNzksLTc5ND
+g4MDUyN119
 -->
