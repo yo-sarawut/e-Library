@@ -6,6 +6,9 @@
 - [แนะนำฟอนต์ Noto Sans Thai](https://kittipongint.com/%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C-noto-sans-thai/)
 - [Downlad Googles Noto Font (Official site)](https://www.google.com/get/noto/)
 
+## CSS
+- [Tailwind CSS](https://pakin.me/blog/tailwind-css/)
+
 
 # Tutorials
 
@@ -64,5 +67,6 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzNjU4MTIyLC0xMjY1NTE0NTc4XX0=
+eyJoaXN0b3J5IjpbOTc4NzA0MDA5LDIzMzY1ODEyMiwtMTI2NT
+UxNDU3OF19
 -->
