@@ -3,8 +3,8 @@
 ## Font
 - [ความลงตัวของ Font บนเว็บไซต์](https://medium.com/@shin_ji/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B8%AD%E0%B8%87-font-%E0%B8%9A%E0%B8%99%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C-60ccb6edc97e)
 - [Noto Sans Thai Regular](http://thaisignmaker.com/korkhorkore/?product/page/4895/Noto+Sans+Thai+Regular)
-- 
-
+- [แนะนำฟอนต์ Noto Sans Thai](https://kittipongint.com/%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C-noto-sans-thai/)
+- [Downlad Googles Noto Font]()
 
 
 # Tutorials
@@ -63,5 +63,5 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzQ3MzM5N119
+eyJoaXN0b3J5IjpbLTcyNDkxMjAwNF19
 -->
