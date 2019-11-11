@@ -46,15 +46,14 @@ virtualenv.exe env
 ```shell
 .\env\Scripts\activate
 ```
-
   
-[![pip 00](https://www.skconan.com/static/4532781f8248da2f308149f100b825e7/fb8a0/pip-00.png)](https://www.skconan.com/static/4532781f8248da2f308149f100b825e7/e1a0c/pip-00.png)  
+![pip 00](https://www.skconan.com/static/4532781f8248da2f308149f100b825e7/fb8a0/pip-00.png)
 
 ### Note:
 
 สำหรับใครที่ใช้ Virtualenv แล้วติดปัญหาเกี่ยวกับ execution policies แบบในรูปด้านล่าง
 
-[![virtualenv error](https://www.skconan.com/static/83dcaa6797ca6992755add5f6e4baf32/fb8a0/virtualenv-error.png)](https://www.skconan.com/static/83dcaa6797ca6992755add5f6e4baf32/e1a0c/virtualenv-error.png)  
+![virtualenv error](https://www.skconan.com/static/83dcaa6797ca6992755add5f6e4baf32/fb8a0/virtualenv-error.png)
 
 ก็ให้เปิด Powershell หรือ Command Prompt แบบ Admin แล้วสั่ง
 
@@ -104,7 +103,7 @@ opencv-python==4.1.0.25
 
 ทีนี้ก็มาลองทดสอบ library ที่เพิ่งลงกันครับ
 
-[![use cv2](https://www.skconan.com/static/98028e7c1d764ae8e4cb5f48fac51861/fb8a0/use-cv2.png)](https://www.skconan.com/static/98028e7c1d764ae8e4cb5f48fac51861/e1a0c/use-cv2.png)  
+![use cv2](https://www.skconan.com/static/98028e7c1d764ae8e4cb5f48fac51861/fb8a0/use-cv2.png)
 
 ถ้าเราใช้งาน environment เสร็จแล้ว ก็ให้สั่ง
 
@@ -134,7 +133,7 @@ pip freeze > requirement.txt
 
 เวลาคนอื่นเอาไปใช้ เค้าก็จะสั่ง
 
-```shell
+```ยั
 pip install -r <file requirement>
 ```
 
@@ -155,5 +154,5 @@ pip install -r <file requirement>
 
 >Source : [skconan.com](https://www.skconan.com/python-virtualenv/?fbclid=IwAR0ZOR242MyfDn-VQucYVdicrAoLuJ25Z_w3z_aI2yvYXx5wbAc_XOwVqpQ).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0NDg3NjddfQ==
+eyJoaXN0b3J5IjpbLTU3Mjk4OTk3OSwtMTA0MTQ0ODc2N119
 -->
