@@ -13,10 +13,12 @@
 
 # Tutorials
 
-## สอนใช้งาน Hugo
+## Manual 
 
-- [คู่มือภาษาโปรแกรมมิ่ง Go (ฉบับภาษาไทย + Textbook)](https://www.patanasongsivilai.com/blog/golang/) , [คู่มือภาษาไทย](https://www.dropbox.com/sh/is3hwdqa1dpsb99/AADfQKrDju44z2Xx6ukE9WpOa/%E0%B8%AB%E0%B8%81%E0%B8%9A%E0%B8%97%E0%B9%81%E0%B8%A3%E0%B8%81.pdf?dl=0), [Go Bootcamp](https://softcover.s3-us-west-2.amazonaws.com/38/GoBootcamp/ebooks/GoBootcamp.pdf?X-Amz-Expires=14400&X-Amz-Date=20191112T084311Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20191112/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=bf10a5d1304f6faaee4673b73f930e4e0499dc162428586ca31712129a0536a4),  [](https://softcover.s3-us-west-2.amazonaws.com/38/GoBootcamp/ebooks/GoBootcamp.pdf?X-Amz-Expires=14400&X-Amz-Date=20191112T084311Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20191112/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=bf10a5d1304f6faaee4673b73f930e4e0499dc162428586ca31712129a0536a4)
-- 
+- [คู่มือภาษาโปรแกรมมิ่ง Go (ฉบับภาษาไทย + Textbook)](https://www.patanasongsivilai.com/blog/golang/) , [คู่มือภาษาไทย](https://www.dropbox.com/sh/is3hwdqa1dpsb99/AADfQKrDju44z2Xx6ukE9WpOa/%E0%B8%AB%E0%B8%81%E0%B8%9A%E0%B8%97%E0%B9%81%E0%B8%A3%E0%B8%81.pdf?dl=0), [Go Bootcamp](https://softcover.s3-us-west-2.amazonaws.com/38/GoBootcamp/ebooks/GoBootcamp.pdf?X-Amz-Expires=14400&X-Amz-Date=20191112T084311Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20191112/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=bf10a5d1304f6faaee4673b73f930e4e0499dc162428586ca31712129a0536a4),  [The Little Go Book](https://softcover.s3-us-west-2.amazonaws.com/38/GoBootcamp/ebooks/GoBootcamp.pdf?X-Amz-Expires=14400&X-Amz-Date=20191112T084311Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJMNNDDBSYVXVHGAA/20191112/us-west-2/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=bf10a5d1304f6faaee4673b73f930e4e0499dc162428586ca31712129a0536a4)
+-----
+## สอนการใช้งาน
+
 - [==Theme Doc==](https://themes.gohugo.io/hugo-refresh/)
 - [Build/Deploy Hugo to GitHub Pages](https://bozzlab.github.io/post/hugo-build/)
 - [https://www.nomkhonwaan.com/2015/12/16/hugo-static-site-generator](https://www.nomkhonwaan.com/2015/12/16/hugo-static-site-generator)
@@ -76,7 +78,7 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDI3NTMzNiwtMTM5NzM4MTUwOCwtMT
-Q5MzcyNDAxLDE3OTY0MTg1NzksOTc4NzA0MDA5LDIzMzY1ODEy
-MiwtMTI2NTUxNDU3OF19
+eyJoaXN0b3J5IjpbNTM4ODU1NzcsLTEzOTczODE1MDgsLTE0OT
+M3MjQwMSwxNzk2NDE4NTc5LDk3ODcwNDAwOSwyMzM2NTgxMjIs
+LTEyNjU1MTQ1NzhdfQ==
 -->
