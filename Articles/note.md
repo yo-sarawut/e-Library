@@ -35,7 +35,7 @@ Note for Articles
 
 ![enter image description here](https://t0.longtunman.com/wp-content/uploads/2017/11/thor.jpg)
 
-- [Growth Mindset สำคัญกว่าความฉลาด]()
+- [Growth Mindset สำคัญกว่าความฉลาด](https://shakrit.com/growth-mindset-%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%89%E0%B8%A5%E0%B8%B2%E0%B8%94-1e5dff46007a)
 
 
 
@@ -77,7 +77,7 @@ Note for Articles
 |===
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE3MTY1NDcsLTEyMzIxNzQ5NDIsLT
-g1ODc2OTM5OCw4MDYwMTU2MTYsOTIzMTc5MDgxLDE4Njg2NjEw
-NzQsLTIwOTkyOTIzMzZdfQ==
+eyJoaXN0b3J5IjpbNzI1MTQ2MjQ5LC0xMjMyMTc0OTQyLC04NT
+g3NjkzOTgsODA2MDE1NjE2LDkyMzE3OTA4MSwxODY4NjYxMDc0
+LC0yMDk5MjkyMzM2XX0=
 -->
