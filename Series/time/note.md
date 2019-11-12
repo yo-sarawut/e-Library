@@ -13,7 +13,7 @@ Note
 
 ![enter image description here](https://uatscimath.ipst.ac.th/images/2017/lesson/7868/7868-1.jpg)
 
-
+- ### [ฤดูบนโลก](https://uatscimath.ipst.ac.th/lesson-earthscience/item/7116-2017-06-04-06-54-39)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODUzMzMwMF19
+eyJoaXN0b3J5IjpbNzQ2ODg0NDgyXX0=
 -->
