@@ -33,7 +33,13 @@ Note for Articles
 ## For Kids
 - [CIVILIZATION 1439 AD: ตำนาน THOR](https://www.longtunman.com/3067)
 
-![enter image description here](https://s0.longtunman.com/wp-content/uploads/2017/11/thor.jpg)
+![enter image description here](https://t0.longtunman.com/wp-content/uploads/2017/11/thor.jpg)
+
+- [Growth Mindset สำคัญกว่าความฉลาด]()
+
+
+
+
 
 ## Intro Homo Sapian
 
@@ -71,7 +77,7 @@ Note for Articles
 |===
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NTA5NTE0LC0xMjMyMTc0OTQyLC04NT
-g3NjkzOTgsODA2MDE1NjE2LDkyMzE3OTA4MSwxODY4NjYxMDc0
-LC0yMDk5MjkyMzM2XX0=
+eyJoaXN0b3J5IjpbLTEwNjE3MTY1NDcsLTEyMzIxNzQ5NDIsLT
+g1ODc2OTM5OCw4MDYwMTU2MTYsOTIzMTc5MDgxLDE4Njg2NjEw
+NzQsLTIwOTkyOTIzMzZdfQ==
 -->
