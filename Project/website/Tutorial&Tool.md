@@ -15,6 +15,8 @@
 
 ## สอนใช้งาน Hugo
 
+- [คู่มือภาษาโปรแกรมมิ่ง Go (ฉบับภาษาไทย + Textbook)](https://www.patanasongsivilai.com/blog/golang/) , [คู่มือภาษ]
+- 
 - [==Theme Doc==](https://themes.gohugo.io/hugo-refresh/)
 - [Build/Deploy Hugo to GitHub Pages](https://bozzlab.github.io/post/hugo-build/)
 - [https://www.nomkhonwaan.com/2015/12/16/hugo-static-site-generator](https://www.nomkhonwaan.com/2015/12/16/hugo-static-site-generator)
@@ -74,7 +76,7 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTczODE1MDgsLTE0OTM3MjQwMSwxNz
-k2NDE4NTc5LDk3ODcwNDAwOSwyMzM2NTgxMjIsLTEyNjU1MTQ1
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDAxOTU5MTIsLTEzOTczODE1MDgsLT
+E0OTM3MjQwMSwxNzk2NDE4NTc5LDk3ODcwNDAwOSwyMzM2NTgx
+MjIsLTEyNjU1MTQ1NzhdfQ==
 -->
