@@ -9,6 +9,10 @@
 - [==Setup Jupyternotebook for markdown==](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 # Color :
 - [https://www.w3schools.com/colors/colors_2019.asp](https://www.w3schools.com/colors/colors_2019.asp)
+- 
+Galaxy Blue
+HEX: #2A4B7C
+PANTONE 19-4055
 
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/galaxy_blue.jpg)
 #  Tutorials
@@ -124,11 +128,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDMzNDU2Niw5ODU2OTgzNTksLTY1Nj
-g1MDE2OSw3MjgyOTA2NDgsLTIwMjQyMzc4NywtMjY0NjczMTY3
-LDE4NDg1NjEyNjMsMTI5MDc5NjQ3MSwxOTE5NDM1NDIxLDE3OD
-k4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OTk5MjU1
-ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1NTMxLC
-0xNzkxNzg2OTkzLC01NDU3NDMyOTAsMTg5OTgzNDMwOSwxNjY1
-Mjg3NjM0XX0=
+eyJoaXN0b3J5IjpbLTg2MDgwMjIyOCwtNTEwMzM0NTY2LDk4NT
+Y5ODM1OSwtNjU2ODUwMTY5LDcyODI5MDY0OCwtMjAyNDIzNzg3
+LC0yNjQ2NzMxNjcsMTg0ODU2MTI2MywxMjkwNzk2NDcxLDE5MT
+k0MzU0MjEsMTc4OTgzMjU3NSwtMTcwMTkzNDY0OSwtMzA1ODY5
+Njg5LDc5OTkyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcyNTEsLT
+IwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxODk5
+ODM0MzA5XX0=
 -->
