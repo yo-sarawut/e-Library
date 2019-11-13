@@ -176,7 +176,7 @@ df.groupby(['age']).agg(list)
 ```
 20. How to create duplicates for other columns for each element in a list of a particular column?
 The question may be a little confusing. What I actually mean is, suppose you have the following data frame df:
-```py
+```
 Age Height(in cm)
 20  180
 20  175
@@ -185,7 +185,7 @@ Age Height(in cm)
 16  170
 ```
 After applying group-by with a list aggregator, you may get something like:
-```py
+```
 Age Height(in cm)
 20  [180,175]
 18  [165,163]
@@ -225,6 +225,6 @@ For any data analysis project as a beginner, you may require to know these opera
 **Contact**
 If you liked this post, please clap and share it with others who might find it useful. I really love data science and if you are interested in it too, let’s connect on LinkedIn or follow me here on towards data science platform.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDg0MTc0MiwtOTEzNDQyMDU0LC0yMD
-E2OTM5NzUwXX0=
+eyJoaXN0b3J5IjpbMTAwNDYzNjMwNiwtODQwODQxNzQyLC05MT
+M0NDIwNTQsLTIwMTY5Mzk3NTBdfQ==
 -->
