@@ -135,7 +135,7 @@ df['random_ID'] = df.groupby(['A', 'B'])'random_ID_all'].rank(method='first',asc
 ``` 
 to get
 
-![](https://miro.medium.com/max/30/1*Z1elLpesz3V6ZM-C-v3VHA.png?q=20)
+
 
 ![](https://miro.medium.com/max/331/1*Z1elLpesz3V6ZM-C-v3VHA.png)
 
@@ -153,7 +153,7 @@ tbl = df[['A', 'B', 'C']].drop_duplicates()\
                          .reset_index() # list to string (separated by commas)   
 tbl['C'] = tbl.apply(lambda x: (','.join([str(s) for s in x['C']])), axis = 1)
 ``` 
-![](https://miro.medium.com/max/27/1*4efJCJxBpjhaYnQ4tTAfoQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/140/1*4efJCJxBpjhaYnQ4tTAfoQ.png)
 
@@ -169,13 +169,13 @@ df = pd.DataFrame(dict(A=[2,6,3],
 df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
 df.loc['row_total'] = df.apply(lambda x: x.sum())
 ``` 
-![](https://miro.medium.com/max/30/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/225/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png)
 
 ## 8. Check memory usage
 
-**`.memory_usage(deep=True)**`  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
+**.memory_usage(deep=True)**  can be used on Pandas dataframes to see the amount of memory used (in bytes) for each column. It’s useful when building machine learning models which may require a lot memory in training.
 
 ## 9. Cumulative sum
 
@@ -187,12 +187,11 @@ df['cumulative_sum'] = df['target_column'].cumsum()`  .
 
 When you need to count the frequencies for groups formed by 3+ features,  `pd.crosstab()`  can make your life easier.
 
-![](https://miro.medium.com/max/30/1*HudH3sdzlrnempURsvWbwg.png?q=20)
 
 ![](https://miro.medium.com/max/750/1*HudH3sdzlrnempURsvWbwg.png)
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU4MTI1MzgsNTA3NTMwOTYxLC0zNT
+eyJoaXN0b3J5IjpbLTExOTMzMTYyMzgsNTA3NTMwOTYxLC0zNT
 gwOTM5MjksLTE0MDg0MzYwNTddfQ==
 -->
