@@ -321,12 +321,17 @@ for  index,  value in  df.iterrows():
 You can run a df[‘floor’].value_counts() to check if the distribution was kept.
     
 2.  **Filling the room**  
- Now we will try to fill the room.  
-    We will try a different technique here. We have some information that can help us identify how many rooms there is in total.  
-    There are the bedroom information, so in Germany in the post of apartment, the bedrooms are the only room counted separated from the number of room.  
-    Which is : 3 rooms mean 2 bedroom, one big room and a kitchen and a bathroom.  
-    So we could say that the number of room is number of bedroom + 1But what if we don’t have the number of bedrooms ?  
-    Then, to make it simple we can say that the number of room is 2. which is the minimum I would get.For this we will create our 2 conditions (there is a number of bedroom, or there isn’t)
+
+Now we will try to fill the room.  
+
+We will try a different technique here. We have some information that can help us identify how many rooms there is in total.  
+
+There are the bedroom information, so in Germany in the post of apartment, the bedrooms are the only room counted separated from the number of room.  
+Which is : 3 rooms mean 2 bedroom, one big room and a kitchen and a bathroom.  
+    
+So we could say that the number of room is number of bedroom + 1But what if we don’t have the number of bedrooms ?  
+
+Then, to make it simple we can say that the number of room is 2. which is the minimum I would get.For this we will create our 2 conditions (there is a number of bedroom, or there isn’t)
     
 ```py   
  conditions  =  [  
@@ -334,9 +339,9 @@ You can run a df[‘floor’].value_counts() to check if the distribution was ke
 (df['rooms'].isnull())  &amp;  (df['bedrooms'].notnull())]    
 choices  =  [2,df['bedrooms']+1]
 ```  
-    And we are going to use the numpy select function to decide which option to apply
+And we are going to use the numpy select function to decide which option to apply
  ```py 
-    df['rooms']  =  np.select(conditions,  choices,  default=2)
+df['rooms']  =  np.select(conditions,  choices,  default=2)
 ```     
  
     
@@ -353,17 +358,17 @@ choices  =  [2,3,df['bedrooms']+1]
 df['rooms']  =  np.select(conditions,choices,default=2)
 ```   
 3.  **Filling the bedrooms**  
-    Filling the bedroom is actually the opposite logic. If you have the number of room, you can actually guess the number of bedroom.  
+Filling the bedroom is actually the opposite logic. If you have the number of room, you can actually guess the number of bedroom.  
     
 This time, we will use the method select from numpy :
 ``` py
 df['bedrooms']  =  np.where(df['bedrooms'].isnull(),  df['rooms']-1,  df['bedrooms'])
  ```   
 4.  **Filling the Surface**  
-    For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
-    If we can the average surface for the 2, 3 and 4 room apartment, we could assign the mean value to these room.
+For the surface, we are missing 211 data points. We can have the same strategy than the number of rooms. Extrapolate the surface of the existing apartment to fill the missing value of the surface.  
+If we can the average surface for the 2, 3 and 4 room apartment, we could assign the mean value to these room.
     
-    For realizing this, we are going to use one of the most important function of pandas. The  **groupby**.
+For realizing this, we are going to use one of the most important function of pandas. The  **groupby**.
     
   ``` py    
   df.groupby(['rooms'])['surface'].mean()  
@@ -407,6 +412,6 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDczODQ3Miw4Mzk3NTk2MDEsLTE0Mz
+eyJoaXN0b3J5IjpbLTgwMjE5MTI4Miw4Mzk3NTk2MDEsLTE0Mz
 c3NTI2MzldfQ==
 -->
