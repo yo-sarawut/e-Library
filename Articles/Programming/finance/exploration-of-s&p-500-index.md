@@ -108,31 +108,30 @@ tday = 2747.62dfm['Return'] = (tday - dfm['Close'])/dfm['Close']*100
 ```
 So if one had bought one unit of S&P 500 back in 1957 then it would at today’s price return 6138%.
 
-In [13]:
-```
+
+```py
 dfm.head()
 ```
-![](https://miro.medium.com/max/30/1*pTyQtGoT1o4N9TibZyuEtA.png?q=20)
+
 
 ![](https://miro.medium.com/max/255/1*pTyQtGoT1o4N9TibZyuEtA.png)
 
 We calculated the returns for every day that we have data for in our dataframe dating back to 1957. Over the past 30 year period here is the return of a single unit of S&P 500 over time as of Nov. 6, 2018.
 
-In [29]:
-```
+
+```py
 dfm.iloc[-360:,1].plot()
 ```
-![](https://miro.medium.com/max/30/1*pEfsf2y0sK7R5fxIaXFvmw.png?q=20)
 
 ![](https://miro.medium.com/max/392/1*pEfsf2y0sK7R5fxIaXFvmw.png)
 
 Now let us explore the yearly average data
 
-In [15]:
-```
+
+```py
 dfy.head()
 ```
-![](https://miro.medium.com/max/23/1*7Nnj1Txfi6RMUUqWjB-uRQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/162/1*7Nnj1Txfi6RMUUqWjB-uRQ.png)
 
@@ -140,11 +139,11 @@ The chart above is useful to show the distribution of return over time. It confi
 
 It will be interesting to see how much the five, ten, fifteen, twenty, twenty five and thirty year returns have changed over time. For this we will use the yearly average data.
 
-In [16]:
-```
+
+```py
 dfy['5y'] = dfy['Close'].shift(5)
 ```
-In [17]:
+
 ```py
 dfy['10y'] = dfy['Close'].shift(10)  
 dfy['15y'] = dfy['Close'].shift(15)  
@@ -154,21 +153,21 @@ dfy['30y'] = dfy['Close'].shift(30)
 ```
 Create a new dataframe to calculate the five year returns over time
 
-In [18]:
+
 ```py
 fiveyearreturn = dfy[['Close','5y']].dropna()  
 fiveyearreturn['Return'] = (fiveyearreturn['Close'] - fiveyearreturn['5y'])/fiveyearreturn['5y']*100
 ```
 Create a boxplot and a kde plot of 5 year returns. The vast majority of the 5 year returns are above zero, which means that more often than not, it is hard to lose money in the market if held over a 5 year period. Although there are some years with negative returns. So had the index been purchased during some months, you could still be in the red after 5 years!
 
-In [19]:
+
 ```py
 plt.figure(figsize=(12,6))  
 ax = plt.subplot(121)  
 fiveyearreturn['Return'].plot(kind='box')ax = plt.subplot(122)  
 fiveyearreturn['Return'].plot(kind='kde')
 ```
-![](https://miro.medium.com/max/30/1*XJMhB1tavRN6LvHHwLKOvQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/728/1*XJMhB1tavRN6LvHHwLKOvQ.png)
 ```py
@@ -177,7 +176,7 @@ tenyearreturn['Return'] = (tenyearreturn['Close'] - tenyearreturn['10y'])/tenyea
 ```
 A look at the 10 year returns shows that holding S&P 500 index over 10 years shows a largely positive returns, with a median return of 85%. Vast majority of the returns were over 100%. In some years the returns were above 300% while in others it may have been below 0%!
 
-In [21]:
+
 ```py
 plt.figure(figsize=(12,6))  
 ax = plt.subplot(121)  
@@ -185,35 +184,33 @@ tenyearreturn['Return'].plot(kind='box')
 ax = plt.subplot(122)  
 tenyearreturn['Return'].plot(kind='kde')
 ```
-![](https://miro.medium.com/max/30/1*TCorVs6j1-zTe3TsaYHDvA.png?q=20)
+
 
 ![](https://miro.medium.com/max/712/1*TCorVs6j1-zTe3TsaYHDvA.png)
 
 Repeating this exercise for 15, 20, 25 and 30 years will provide the following plots:
 
-![](https://miro.medium.com/max/30/1*QVAlfyiREfSAXaIoeCAa4Q.png?q=20)
 
 ![](https://miro.medium.com/max/718/1*QVAlfyiREfSAXaIoeCAa4Q.png)
 
-15 Years
+**15 Years**
 
-![](https://miro.medium.com/max/30/1*atx1phMQwSPgiu0NB-SLDw.png?q=20)
+
 
 ![](https://miro.medium.com/max/716/1*atx1phMQwSPgiu0NB-SLDw.png)
 
-20 Years
+**20 Years**
 
-![](https://miro.medium.com/max/30/1*D-0vpCRHAlegRJQf3Y-1ww.png?q=20)
+
 
 ![](https://miro.medium.com/max/726/1*D-0vpCRHAlegRJQf3Y-1ww.png)
 
-25 Years
+**25 Years**
 
-![](https://miro.medium.com/max/30/1*9CaSGp3mlQ_U27vg4fePaA.png?q=20)
 
 ![](https://miro.medium.com/max/717/1*9CaSGp3mlQ_U27vg4fePaA.png)
 
-30 Years
+**30 Years**
 ```py
 combinedreturn = pd.concat([fiveyearreturn['Return'], tenyearreturn['Return'],   
           fifteenyearreturn['Return'], twentyyearreturn['Return'],   
@@ -221,7 +218,7 @@ combinedreturn = pd.concat([fiveyearreturn['Return'], tenyearreturn['Return'],
 ```
 Here is a side by side box plot of returns over 5, 10, 15, 20, 25 and 30 year periods.
 
-In [28]:
+
 ```py
 combinedreturn.plot(kind='box', figsize=(8,6))
 ```
@@ -275,6 +272,6 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 [Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTcxMzYzNSwtMTU4Mzc5OTIsLTE4OD
+eyJoaXN0b3J5IjpbMjEwODQ2NDY5NSwtMTU4Mzc5OTIsLTE4OD
 QyMTI0MzJdfQ==
 -->
