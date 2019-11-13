@@ -222,23 +222,23 @@ Here is a side by side box plot of returns over 5, 10, 15, 20, 25 and 30 year pe
 ```py
 combinedreturn.plot(kind='box', figsize=(8,6))
 ```
-![](https://miro.medium.com/max/30/1*5bYYSZ0jKw9hweZGKnB_Xw.png?q=20)
+
 
 ![](https://miro.medium.com/max/544/1*5bYYSZ0jKw9hweZGKnB_Xw.png)
-```
+
 Combined Returns for 5,10,15,20,25 and 30 Year Returns
-```
+
 This chart aligns with our understanding of the markets that keeping money over longer term has a greater chance of producing returns and lesser chance of losing money, however some people may have had better success with some of their 20 year investments than those that they bought at the wrong time and held for longer than 20 years.
 
 So what are those periods when the five year returns were negative? Some of these years are familiar such as 2003, 2009 etc.
 
-![](https://miro.medium.com/max/13/1*txbP12Vg54XlcD-CaV9Nag.png?q=20)
+
 
 ![](https://miro.medium.com/max/152/1*txbP12Vg54XlcD-CaV9Nag.png)
 
 Years with Negative 5 year returns
 
-![](https://miro.medium.com/max/29/1*Ml4zkN3EqepJ95Ywy8d57g.png?q=20)
+
 
 ![](https://miro.medium.com/max/157/1*Ml4zkN3EqepJ95Ywy8d57g.png)
 
@@ -248,7 +248,7 @@ Years with Negative 10 year returns
 
 Take 2010 and 10 years prior to 2010. What did S&P do during this period?
 
-![](https://miro.medium.com/max/30/1*lZuMmKODkFUMk8YIbciOpg.png?q=20)
+
 
 ![](https://miro.medium.com/max/513/1*lZuMmKODkFUMk8YIbciOpg.png)
 
@@ -256,7 +256,7 @@ My son is 10 years from college. If I invest 10,000 in S&P today and 10 years fr
 
 But the S&P need not look like this. Could it look like the 10 years leading up to 2000.
 
-![](https://miro.medium.com/max/30/1*DDpqBewIT1uhz1HMzJZh2w.png?q=20)
+
 
 ![](https://miro.medium.com/max/515/1*DDpqBewIT1uhz1HMzJZh2w.png)
 
@@ -264,7 +264,7 @@ Now someone in 1991 would have done well in the market over a 10 year period.
 
 Now let us look at the period from 2008 onward and compare it side by side with the period from 1991 through 2000. The returns have been spectacular in both periods, especially 2009 onward. The similarity is uncanny.
 
-![](https://miro.medium.com/max/30/1*_0bhK_4a4B5wj6JrnMZYWw.png?q=20)
+
 
 ![](https://miro.medium.com/max/748/1*_0bhK_4a4B5wj6JrnMZYWw.png)
 
@@ -272,6 +272,6 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 [Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODQ2NDY5NSwtMTU4Mzc5OTIsLTE4OD
-QyMTI0MzJdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY0Njc0NjUsLTE1ODM3OTkyLC0xOD
+g0MjEyNDMyXX0=
 -->
