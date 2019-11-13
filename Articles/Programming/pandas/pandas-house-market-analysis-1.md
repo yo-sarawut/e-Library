@@ -72,35 +72,23 @@ df  =  pd.read_csv('data_immoscout.csv',delimiter='\t')
    ``` py
     df.dtypes  ##it will give you something like this :
  ``` 
- ```py   
-index0 int64    
-terrace object
+ ```result
+index0 		int64    
+terrace 	object    
+bedrooms 	object    
+construction_year object    
+date_month 	int64    
+date_year 	int64    
+date_year_month object    
+floor object    
+rooms object    
+price_room object    
+price_surface object    
+price object    
+surface object    
+zip int64
     
-bedrooms object
-    
-construction_year object
-    
-date_month int64
-    
-    date_year int64
-    
-    date_year_month object
-    
-    floor object
-    
-    rooms object
-    
-    price_room object
-    
-    price_surface object
-    
-    price object
-    
-    surface object
-    
-    zip int64
-    
-    dtype:  object
+dtype:  object
  ```    
 5.  Look at the type of column you have is quite important because this usually give you an idea of the type of data store. Or type of data that should be store.     
    ``` py
@@ -422,6 +410,6 @@ As the title suggest, we will have a 2nd article where we actually analyze the d
 Don’t hesitate to comment and give your tip to analyze this data set.  
 As explained above, both data set (the clean one and the uncleane one) and the Jupyter notebook are available on my Github account : https://github.com/pitchmuc/munich_housemarket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTIxMDY2Myw4Mzk3NTk2MDEsLTE0Mz
-c3NTI2MzldfQ==
+eyJoaXN0b3J5IjpbLTY1NjE5ODMzLDgzOTc1OTYwMSwtMTQzNz
+c1MjYzOV19
 -->
