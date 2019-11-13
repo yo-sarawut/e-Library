@@ -134,9 +134,6 @@
 
 ### หน่วยของเวลาที่ควรทราบ
 
-|  |  |
-|--|--|
-|  |  |
 
 
 |หน่วย	|ขนาด     |
@@ -168,6 +165,7 @@ Reference :
 ข้อมูล
 - [What is the time? บอกเวลาภาษาอังกฤษ](https://www.dailyenglish.in.th/whats-the-time/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwNjg0NTM2LC0zMDA2MzU3MzIsMTg4MT
-ExOTE2MywtNzYyNDI3NTQsODE0MzI2MjI3XX0=
+eyJoaXN0b3J5IjpbMjEyNjIwNjkyNCw1OTA2ODQ1MzYsLTMwMD
+YzNTczMiwxODgxMTE5MTYzLC03NjI0Mjc1NCw4MTQzMjYyMjdd
+fQ==
 -->
