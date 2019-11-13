@@ -22,7 +22,7 @@ df = pd.read_csv('data_immo.clean.csv', delimiter='\t')
 df.head(1).T 
 ## I like the transpose function as it gives you a better view
 ``` 
-
+![](https://miro.medium.com/max/16/1*z7akDcjftqGVoxxkKGNK-Q.jpeg?q=20)
 
 ![](https://miro.medium.com/max/232/1*z7akDcjftqGVoxxkKGNK-Q.jpeg)
 
@@ -32,6 +32,8 @@ _using the transpose on one line allows you to see easily type of data and colum
 df.describe() 
 ## Always worth checking
 ``` 
+
+![](https://miro.medium.com/max/30/1*-Z9tupV_TodaAzKSHBQqkA.jpeg?q=20)
 
 ![](https://miro.medium.com/max/650/1*-Z9tupV_TodaAzKSHBQqkA.jpeg)
 
@@ -51,7 +53,7 @@ df['date'] = pd.to_datetime(df['date_year_month'],format= '%Y%m') ## This will c
 df['date'].value_counts() 
 ##Unique values and number of occurences
 ``` 
-
+![](https://miro.medium.com/max/14/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg?q=20)
 
 ![](https://miro.medium.com/max/199/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg)
 
@@ -67,7 +69,7 @@ ax = df['price'].plot(kind='box', title='box plot visualization - price') #retur
 ax.set_ylabel('price')  
 ax.set_xlabel('data set')
 ``` 
-
+![](https://miro.medium.com/max/30/1*0EyOqPEfQVY0H21E_kPD4w.jpeg?q=20)
 
 ![](https://miro.medium.com/max/533/1*0EyOqPEfQVY0H21E_kPD4w.jpeg)
 
@@ -79,16 +81,16 @@ But you can also see some extra point and more importantly, it seems that there 
 df[df['price'] == df['price'].min()] 
 ## look for the data that match the minimum.  
 ``` 
-In case you want to have some margin against the minimum, you can do something like this   
+## In case you want to have some margin against the minimum, you can do something like this   
   ```py
 df[df['price'] < df['price'].min()*1.1] 
 ``` 
- Will take everything below 10% more than the minimum.  
-it doesn't work in our case as our minimum is 0 but we can set a hardcap nothing below 50K.   
+## Will take everything below 10% more than the minimum.  
+## it doesn't work in our case as our minimum is 0 but we can set a hardcap nothing below 50K.   
  ```py  
 df[df['price'] < 50000]
 ``` 
-
+![](https://miro.medium.com/max/30/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg?q=20)
 
 ![](https://miro.medium.com/max/1256/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg)
 
@@ -103,7 +105,7 @@ df.reset_index(inplace=True,drop=True)
 ## let's reset their index  
 df['price'].plot(kind='box')
 ``` 
-
+![](https://miro.medium.com/max/30/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg?q=20)
 
 ![](https://miro.medium.com/max/499/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg)
 
@@ -169,7 +171,7 @@ ddf = df.set_index('date')
 ddf_gby_mean = ddf.groupby('date').mean()  
 ddf_gby_mean[['price_room','price']].plot()
 ``` 
-
+![](https://miro.medium.com/max/30/1*8rAT1CRtMIpxs47XOlQsgA.jpeg?q=20)
 
 ![](https://miro.medium.com/max/503/1*8rAT1CRtMIpxs47XOlQsgA.jpeg)
 
@@ -185,7 +187,7 @@ You could change the type, using the  _kind_  attribute but there are so much mo
 ``` py
 ddf_gby_mean[['price_room','price']].plot(kind='area',title='price per room & price overtime',figsize=(10,7),cmap='tab20')
 ``` 
-
+![](https://miro.medium.com/max/30/1*h55hIX5TwTW4faKYnBh3nQ.jpeg?q=20)
 
 ![](https://miro.medium.com/max/632/1*h55hIX5TwTW4faKYnBh3nQ.jpeg)
 
@@ -197,7 +199,7 @@ We get a higher price average, this may be because the maximum has been increase
 graph = pd.DataFrame(df.groupby('date').agg({'price':['max','count']})) ##setting a new view with groupby  
 ax = graph.loc[:,('price','max')].plot(kind='line',title='Maximum price per month',figsize=(13,6))
 ``` 
-
+![](https://miro.medium.com/max/30/1*zPOKO8PssBUMw8jevFD-Rg.jpeg?q=20)
 
 ![](https://miro.medium.com/max/792/1*zPOKO8PssBUMw8jevFD-Rg.jpeg)
 
@@ -208,7 +210,7 @@ Pandas graphic representation are quite useful and will help you to get a good u
 import seaborn as sns  
 sns.relplot(x="construction_year", y="price", hue='rooms',sizes=(20, 400), alpha=.7, height=10, data=df)
 ``` 
-
+![](https://miro.medium.com/max/30/1*emFc3QWRSvrIP_piXGl8pw.jpeg?q=20)
 
 ![](https://miro.medium.com/max/855/1*emFc3QWRSvrIP_piXGl8pw.jpeg)
 
@@ -219,6 +221,6 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ4MDg3NzMsLTExNTE0ODczMzZdfQ
-==
+eyJoaXN0b3J5IjpbMTMzMzgwODEyNCwtMjEwNDgwODc3MywtMT
+E1MTQ4NzMzNl19
 -->
