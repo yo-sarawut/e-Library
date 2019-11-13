@@ -79,10 +79,12 @@ But you can also see some extra point and more importantly, it seems that there 
 df[df['price'] == df['price'].min()] 
 ## look for the data that match the minimum.  
 ``` 
-## In case you want to have some margin against the minimum, you can do something like this   
-  
-df[df['price'] < df['price'].min()*1.1] ## Will take everything below 10% more than the minimum.  
-## it doesn't work in our case as our minimum is 0 but we can set a hardcap nothing below 50K.   
+### In case you want to have some margin against the minimum, you can do something like this   
+  ```py
+df[df['price'] < df['price'].min()*1.1] 
+``` 
+### Will take everything below 10% more than the minimum.  
+### it doesn't work in our case as our minimum is 0 but we can set a hardcap nothing below 50K.   
  ```py  
 df[df['price'] < 50000]
 ``` 
@@ -150,7 +152,7 @@ The way I use to select only one column from the  _price_surface_ data type is t
 ```py 
 df_groupby_zip_agg.loc[:,('price_surface','mean')]
 ``` 
-# Pandas Visualization
+## Pandas Visualization
 
 Pandas has matplotlib integrated in order to realize some easy visualizations.  
 You have already seen the boxplot which is quite interesting to have a view on your data set distribution. On the next part of this article, we will see how to create such visualization in order to see your data set.
@@ -217,6 +219,5 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQzODU5OTUsLTExNTE0ODczMzZdfQ
-==
+eyJoaXN0b3J5IjpbLTMyMTYwMzAwNCwtMTE1MTQ4NzMzNl19
 -->
