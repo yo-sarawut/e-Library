@@ -29,7 +29,7 @@ df.style.set_table_styles(
   'props': [('background-color', 'yellow')]}]  
 )
 ``` 
-![](https://miro.medium.com/max/30/1*QJljhjp-loj8ZChihhK7EA.png?q=20)
+
 
 ![](https://miro.medium.com/max/251/1*QJljhjp-loj8ZChihhK7EA.png)
 
@@ -55,7 +55,7 @@ df.style.set_table_styles(
 ]  
 ).hide_index()
 ``` 
-![](https://miro.medium.com/max/30/1*cCPVfB6_nbh6WT99DMgduA.png?q=20)
+
 
 ![](https://miro.medium.com/max/251/1*cCPVfB6_nbh6WT99DMgduA.png)
 
@@ -100,7 +100,7 @@ tbl = df.groupby(['A','B']).agg({'col_1': ['max', np.mean],
 ``` 
 And the result will look like this:
 
-![](https://miro.medium.com/max/30/1*KVE7ixZmoTuG42El5SSh7A.png?q=20)
+
 
 ![](https://miro.medium.com/max/326/1*KVE7ixZmoTuG42El5SSh7A.png)
 
@@ -193,6 +193,6 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjE3OTE5OCw1MDc1MzA5NjEsLTM1OD
-A5MzkyOSwtMTQwODQzNjA1N119
+eyJoaXN0b3J5IjpbLTE0NzU4MTI1MzgsNTA3NTMwOTYxLC0zNT
+gwOTM5MjksLTE0MDg0MzYwNTddfQ==
 -->
