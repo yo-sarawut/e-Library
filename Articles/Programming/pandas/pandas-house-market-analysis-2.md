@@ -13,7 +13,7 @@ If you don’t clean your data, then you could analyse wrong data points and it 
 
 On this article, we will go deeper on what the pandas library can do for you regarding the analysis of your data set and some visualization. I like the idiom “_A picture is worth a thousand words_”. I am also very visual so it really helps to picture what you are seeing in your data set.
 
-# Pandas methods overview
+## Pandas methods overview
 
 At the very beginning, by importing the last version of the data set (that you have cleaned or retrieved from my github account), you can start by doing some method that will give you some information.
 ``` py
@@ -22,17 +22,16 @@ df = pd.read_csv('data_immo.clean.csv', delimiter='\t')
 df.head(1).T 
 ## I like the transpose function as it gives you a better view
 ``` 
-![](https://miro.medium.com/max/16/1*z7akDcjftqGVoxxkKGNK-Q.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/232/1*z7akDcjftqGVoxxkKGNK-Q.jpeg)
 
 _using the transpose on one line allows you to see easily type of data and column name_
+
 ``` py
 df.describe() 
 ## Always worth checking
 ``` 
-
-![](https://miro.medium.com/max/30/1*-Z9tupV_TodaAzKSHBQqkA.jpeg?q=20)
 
 ![](https://miro.medium.com/max/650/1*-Z9tupV_TodaAzKSHBQqkA.jpeg)
 
@@ -52,7 +51,7 @@ df['date'] = pd.to_datetime(df['date_year_month'],format= '%Y%m') ## This will c
 df['date'].value_counts() 
 ##Unique values and number of occurences
 ``` 
-![](https://miro.medium.com/max/14/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/199/1*Ijhj5zuT1BgkRH9JIlXg_g.jpeg)
 
@@ -68,7 +67,7 @@ ax = df['price'].plot(kind='box', title='box plot visualization - price') #retur
 ax.set_ylabel('price')  
 ax.set_xlabel('data set')
 ``` 
-![](https://miro.medium.com/max/30/1*0EyOqPEfQVY0H21E_kPD4w.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/533/1*0EyOqPEfQVY0H21E_kPD4w.jpeg)
 
@@ -87,7 +86,7 @@ df[df['price'] < df['price'].min()*1.1] ## Will take everything below 10% more t
  ```py  
 df[df['price'] < 50000]
 ``` 
-![](https://miro.medium.com/max/30/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/1256/1*u0dafcOtkfLUPOh_wI-ECQ.jpeg)
 
@@ -102,7 +101,7 @@ df.reset_index(inplace=True,drop=True)
 ## let's reset their index  
 df['price'].plot(kind='box')
 ``` 
-![](https://miro.medium.com/max/30/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/499/1*X3yF22qT7nBQ2Zn4iT_hXg.jpeg)
 
@@ -218,5 +217,6 @@ Overall, the usage of plotting functions are often coming from a wrapper around 
 
 I hope this post was helping on knowing how to use pandas to actually doing basic data analysis. I planned to cover more topics and visualization but this is getting already long. I will be back ;)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0OTgwMTYzLC0xMTUxNDg3MzM2XX0=
+eyJoaXN0b3J5IjpbLTE4NzQzODU5OTUsLTExNTE0ODczMzZdfQ
+==
 -->
