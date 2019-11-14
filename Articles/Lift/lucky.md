@@ -3,7 +3,7 @@
 
 โลกธุรกิจไม่เคยใจดีกับผู้ที่ไม่ค่อยฉลาด เรียนไม่เก่ง ไม่ได้ดี เด่น ดัง ประตูแห่งโอกาสแทบจะปิดตายกับคนเหล่านั้นเสมอ..
 
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvFUcgi9f4T77HziCjJLgixypOCS5TCGrXB8y3CNG11J3AgDi)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIKTIvXpbz6nBz469rIFwgpd0-_9cyxes5dfKAi11i7nXKaWWv)
 
 คุณสมชาย เหล่าสายเชือ้ มหาเศรษฐีแห่งอีสาน เจ้าของโตโยต้าดีเยี่ยม เริ่มต้นจากติดลบทั้งชาติกำเนิด และสมองที่ได้รับมา คุณสมชายเล่าให้ฟังว่า ตอนเด็กหัวทึบมาก สอบตกครั้งแล้วครั้งเล่า มีแต่คนเรียกไอ้โง่ กว่าจะจบ ป. 5 ก็ตอนอายุ 17 ปี คุณสมชายเคยให้สัมภาษณ์ว่าคนอื่นหัดร้องเพลงหนึ่งเพลงอาจจะสิบนาทีแต่เขาต้องใช้เวลาสามเดือนก็ยังไม่ได้
 
@@ -35,5 +35,5 @@
 
 > ที่มาบทความ [FB : เขียนไว้ให้เธอ](https://www.facebook.com/permalink.php?story_fbid=104371211028588&id=101815121284197&__tn__=K-R).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjcwOThdfQ==
+eyJoaXN0b3J5IjpbLTEwOTU0NTQ1MDJdfQ==
 -->
