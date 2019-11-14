@@ -1,5 +1,5 @@
 
-Python SQLite
+SQLite for Python
 ===
 
 ## Create Database
@@ -199,5 +199,6 @@ with sqlite3.connect(db_filename) as conn1:
 
 > Source : [journaldev.com](https://www.journaldev.com/20515/python-sqlite-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjQyODIxLDE2MjY3NTkwNzhdfQ==
+eyJoaXN0b3J5IjpbLTQzMzk2NjM3MiwxMTUyNDI4MjEsMTYyNj
+c1OTA3OF19
 -->
