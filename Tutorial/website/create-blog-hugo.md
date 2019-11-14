@@ -142,8 +142,6 @@ hugo server -D
 
 ```
 
-Copy
-
 -   หลังจาก run server ให้ลองเข้าไป port ที่ hugo เปิดให้เรา อันนี้ถ้าใครทำตาม แล้วได้ port ไม่เหมือนกัน ไม่ต้องแปลกใจ เพราะผมใช้ port เยอะ มากจนไม่รู้ว่าต้องเปิดและปิดตัวไหน
 
 ![image](https://bozzlab.github.io/img/hugo-serv.png)
@@ -163,7 +161,6 @@ vi layouts/partials/hero.html
 
 ```
 
-Copy
 
 ถ้าสมมุติไม่มีใน folder หลักของเรา ก็ให้ก็อป layouts จาก theme มาใส่ใน path layouts/ ของ project เราเลยนะครับ
 
@@ -181,5 +178,5 @@ Copy
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjcyMTUxODddfQ==
+eyJoaXN0b3J5IjpbNjMzNjk2NTI1LC0xMTI3MjE1MTg3XX0=
 -->
