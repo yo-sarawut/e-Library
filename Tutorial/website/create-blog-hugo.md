@@ -1,7 +1,7 @@
 
 ## [[Develop] สร้าง Blog แบบคลู ๆ ด้วย Markdown](https://bozzlab.github.io/post/hugo-blog/)
 
-#[Markdown](https://bozzlab.github.io/tags/markdown/) #[Blog](https://bozzlab.github.io/tags/blog/) #[Hugo](https://bozzlab.github.io/tags/hugo/) #[Website](https://bozzlab.github.io/tags/website/) #[base16](https://bozzlab.github.io/tags/base16/) ![](https://bozzlab.github.io/img/hugo.png)
+![](https://bozzlab.github.io/img/hugo.png)
 
 # สร้างบล็อคด้วย Markdown + Hugo
 
@@ -181,5 +181,5 @@ Copy
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MTAyNTg5XX0=
+eyJoaXN0b3J5IjpbLTExMjcyMTUxODddfQ==
 -->
