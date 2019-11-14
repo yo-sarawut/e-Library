@@ -176,7 +176,7 @@ vi layouts/partials/hero.html
 
 ## [Build + Deploy Hugo โดยใช้ Host บน GitHub Pages](https://bozzlab.github.io/post/hugo-build/)
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [ที่มาบทความ : ](https://bozzlab.github.io/post/hugo-blog/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNjk2NTI1LC0xMTI3MjE1MTg3XX0=
+eyJoaXN0b3J5IjpbMTA0MTQ4NTQ2NiwtMTEyNzIxNTE4N119
 -->
