@@ -142,7 +142,9 @@ Stennis เป็นผู้ที่มีบทบาทในการผล
 >**ที่มาบทความ** ทีมงาน [Spaceth.co](https://spaceth.co/)
 
 
-
+{{< quote >}}  
+Make it as simple as possible, but not simpler.  
+{{< /quote >}}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIyNjk4NF19
+eyJoaXN0b3J5IjpbLTYyMjM1OTI0MywtMTE1MjI2OTg0XX0=
 -->
