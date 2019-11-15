@@ -1,6 +1,6 @@
 จรวดรุ่นใหม่ของ SpaceX เดินทางระหว่างทวีป จนถึงระหว่างดวงดาว
 ===
-บทความโดย Nutn0n
+>บทความโดย Nutn0n
 October 1, 2017
 
 เดินทางจากโลกสู่โลก โลกสู่สถานีอวกาศ โลกสู่ดวงจันทร์ และโลกสู่ดาวอังคารด้วยยานอวกาศรุ่นเดียวกัน แผนการใหม่ของ SpaceX ที่จะช่วยให้อวกาศใกล้ตัวมากขึ้น
@@ -112,5 +112,5 @@ SpaceX – [Making Life Multiplanetary](https://www.youtube.com/watch?v=tdUX3ypD
 
 > Written with [StackEdit](https://spaceth.co/spacex-2017-bfr-plan/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNjQwNTkwXX0=
+eyJoaXN0b3J5IjpbMjkxMjUzNjEyXX0=
 -->
