@@ -138,10 +138,11 @@ Stennis เป็นผู้ที่มีบทบาทในการผล
 
 เราทุกคนอยู่บนเส้นทางของการเรียนรู้ ความผิดพลาดไม่ใช่สิ่งที่เลวร้าย แต่ความผิดพลาดที่ไม่ให้บทเรียนต่างหากคือสิ่งที่เลวร้าย
 
-**เรียบเรียงโดย** ทีมงาน [Spaceth.co](https://spaceth.co/)
+
+>**ที่มาบทความ** ทีมงาน [Spaceth.co](https://spaceth.co/)
 
 
-> Written with [StackEdit](https://spaceth.co/exclusive-trip-uss-john-c-stennis/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk1NTY2N119
+eyJoaXN0b3J5IjpbLTExNTIyNjk4NF19
 -->
