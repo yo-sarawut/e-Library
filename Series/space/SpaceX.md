@@ -111,6 +111,8 @@ SpaceX – [Making Life Multiplanetary](https://www.youtube.com/watch?v=tdUX3ypD
 
 
 > Written with [StackEdit](https://spaceth.co/spacex-2017-bfr-plan/).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMjUzNjEyXX0=
+eyJoaXN0b3J5IjpbOTQ5NDYwMCwyOTEyNTM2MTJdfQ==
 -->
