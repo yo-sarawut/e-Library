@@ -132,6 +132,22 @@ Weather App
 - https://www.videvo.net/free-motion-graphics/?page=1
 - https://www.shutterstock.com/video/search/?irgwc=1&utm_medium=Affiliate&utm_campaign=Oxford%20Media%20Solutions&utm_source=51471&utm_term=
 
+## คำศัพท์
+
+ความหมาย  
+1 = ท้องฟ้าแจ่มใส (Clear)  
+2 = มีเมฆบางส่วน (Partly cloudy)  
+3 = เมฆเป็นส่วนมาก (Cloudy)  
+4 = มีเมฆมาก (Overcast)  
+5 = ฝนตกเล็กน้อย (Light rain)  
+6 = ฝนปานกลาง (Moderate rain)  
+7 = ฝนตกหนัก (Heavy rain)  
+8 = ฝนฟ้าคะนอง (Thunderstorm)  
+9 = อากาศหนาวจัด (Very cold)  
+10 = อากาศหนาว (Cold)  
+11 = อากาศเย็น (Cool)  
+12 = อากาศร้อนจัด (Very hot)
+
 
 ## Moon phase calculation (คำนวณดวงจันทร์)
 - https://gist.github.com/L-A/3497902
@@ -280,11 +296,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1OD
-kyNjk2MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1
-MDcxLDU0Mjk1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNT
-M2ODcyNSw4ODI5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwx
-MjY1NzM2NzYzLDEwNzMwNDg0OTUsLTE2NTc3MTk3MjcsNzc2Mz
-czNzk3LDE0ODE5NDM1NTYsMzA4NjA2Mjk2LC05MjQ5MDQ1MV19
-
+eyJoaXN0b3J5IjpbLTExNDIxMjc5OCwyMTQ1NTM3MzUxLC0zMj
+E4MDEyNCwxNzU4OTI2OTYzLDE0NDIwODAyMzYsLTE2MzE4Nzgw
+NDMsLTE5ODAwOTUwNzEsNTQyOTUzMzM1LDIxNDI1MzY2Niw3NT
+QyNDYyNTAsMzM1MzY4NzI1LDg4MjkxODI5LDg4MjkxODI5LC0y
+MTIxMzM4NzExLDEyNjU3MzY3NjMsMTA3MzA0ODQ5NSwtMTY1Nz
+cxOTcyNyw3NzYzNzM3OTcsMTQ4MTk0MzU1NiwzMDg2MDYyOTZd
+fQ==
 -->
