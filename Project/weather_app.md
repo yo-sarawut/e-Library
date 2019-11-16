@@ -16,6 +16,7 @@ Weather App
 - 
 - [Download Data Particulate Air Pollution (PM2.5) in Thailand](http://berkeleyearth.lbl.gov/air-quality/local/Thailand/Bangkok/Bangkok) , Text file : http://berkeleyearth.lbl.gov/air-quality/maps/cities/Thailand/Bangkok/Bangkok.txt
 - [Weather API : Open Weather Map](https://openweathermap.org/city)
+- [API กรมอุต]
 - [การคำนวณดิถี](https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B4%E0%B8%96%E0%B8%B5)
 
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c0/Lunar_libration_with_phase2.gif)
@@ -296,11 +297,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIxMjc5OCwyMTQ1NTM3MzUxLC0zMj
-E4MDEyNCwxNzU4OTI2OTYzLDE0NDIwODAyMzYsLTE2MzE4Nzgw
-NDMsLTE5ODAwOTUwNzEsNTQyOTUzMzM1LDIxNDI1MzY2Niw3NT
-QyNDYyNTAsMzM1MzY4NzI1LDg4MjkxODI5LDg4MjkxODI5LC0y
-MTIxMzM4NzExLDEyNjU3MzY3NjMsMTA3MzA0ODQ5NSwtMTY1Nz
-cxOTcyNyw3NzYzNzM3OTcsMTQ4MTk0MzU1NiwzMDg2MDYyOTZd
+eyJoaXN0b3J5IjpbNjkwNjA0NDA4LC0xMTQyMTI3OTgsMjE0NT
+UzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxNDQyMDgwMjM2
+LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMzNSwyMT
+QyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4ODI5MTgyOSw4
+ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYzLDEwNzMwND
+g0OTUsLTE2NTc3MTk3MjcsNzc2MzczNzk3LDE0ODE5NDM1NTZd
 fQ==
 -->
