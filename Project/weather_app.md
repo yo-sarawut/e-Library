@@ -4,6 +4,7 @@ Weather App
 
 - [DarkSky API](https://darksky.net/dev/docs) 
 e-mail : hotmail, 
+Weather Keys : bf5d2ca68d5cba107e1017360c1e80d9
 Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 - [python-weather-api](https://code.google.com/archive/p/python-weather-api/) , [YouTube](https://www.youtube.com/watch?v=dXO-4xhTVqI&t=28s)
@@ -301,11 +302,11 @@ var MoonInfo = function(day, month, year) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc2NTU0ODUsLTc4MzY2OTMxNCwtMT
-E0MjEyNzk4LDIxNDU1MzczNTEsLTMyMTgwMTI0LDE3NTg5MjY5
-NjMsMTQ0MjA4MDIzNiwtMTYzMTg3ODA0MywtMTk4MDA5NTA3MS
-w1NDI5NTMzMzUsMjE0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3
-MjUsODgyOTE4MjksODgyOTE4MjksLTIxMjEzMzg3MTEsMTI2NT
-czNjc2MywxMDczMDQ4NDk1LC0xNjU3NzE5NzI3LDc3NjM3Mzc5
+eyJoaXN0b3J5IjpbMzk4NzMxMzE4LC0xNTY3NjU1NDg1LC03OD
+M2NjkzMTQsLTExNDIxMjc5OCwyMTQ1NTM3MzUxLC0zMjE4MDEy
+NCwxNzU4OTI2OTYzLDE0NDIwODAyMzYsLTE2MzE4NzgwNDMsLT
+E5ODAwOTUwNzEsNTQyOTUzMzM1LDIxNDI1MzY2Niw3NTQyNDYy
+NTAsMzM1MzY4NzI1LDg4MjkxODI5LDg4MjkxODI5LC0yMTIxMz
+M4NzExLDEyNjU3MzY3NjMsMTA3MzA0ODQ5NSwtMTY1NzcxOTcy
 N119
 -->
