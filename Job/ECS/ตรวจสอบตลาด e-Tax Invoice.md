@@ -1,7 +1,7 @@
 ตรวจสอบตลาดและความเคลื่อนไหว e-Tax Invoice
 ==========
 
-## [InvoiceChain](https://www.etaxth.com/)
+## [InvoiceChain](https://www.etaxth.com/) by Netbay
 
 **e-Tax Invoice and e-Receipt**  All-in-one Management Platform
 
@@ -17,7 +17,7 @@ InvoiceChain เป็นแพลตฟอร์มที่ช่วยให�
 
 
 
-## [บริษัท วัน อิเล็กทรอนิกส์ บิลลิ่ง จำกัด](https://etax.one.th/)
+## [บริษัท วัน อิเล็กทรอนิกส์ บิลลิ่ง จำกัด](https://etax.one.th/) by INET
 
 _ตัวแทนจำหน่าย_
 
@@ -159,8 +159,8 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MT
-MwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAx
-LC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MT
-c5MDY2NV19
+eyJoaXN0b3J5IjpbLTE2NjY1MjQ1OTAsMTk3MjE5ODcwMyw1Mj
+A3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4
+NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMT
+kwNjk3MzIsMTY1MTc5MDY2NV19
 -->
