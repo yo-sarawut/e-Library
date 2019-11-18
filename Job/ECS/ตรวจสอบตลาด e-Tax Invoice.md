@@ -114,12 +114,16 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 **Software SignDoc** โปรแกรม SignDoc เป็นโปรแกรมประยุกต์ที่ใช้ เทคโนโลยีกุญแจสาธารณะ หรือ Public Key Infrastructure (PKI) เพื่อสร้าง ลายมือชื่อดิจิทัล (Digital Signature) บนไฟล์ PDF โดยลายมือชื่อดิจิทัล มีคุณสมบัติดังนี้ 
 
 1. เพื่อยืนยันตัวตนของผู้จัดทำหรือเจ้าของไฟล์ (Authentication) 
-  2.เพื่อใช้ตรวจสอบความถูกต้องของข้อมูล (Data Integrity) ทั้งนี้ ไฟล์เอกสารใดที่ลงลายมือชื่อดิจิทัลแล้ว จะไม่สามารถแก้ไขได้ หรือ ถ้าหากมีการแก้ไข ผู้รับไฟล์ดังกล่าวจะทราบจากการตรวจสอบว่ามีการแก้ไขเกิดขึ้น 
-  3.หากมีการลงลายมือชื่อดิจิทัลบนไฟล์ใดๆแล้ว ผู้ส่งที่เป็นเจ้าของลายมือชื่อดิจิทัลนั้น ไม่สามารถปฏิเสธได้ว่าเป็นผู้ลงลายมือชื่อไฟล์นั้นๆ (Non-Repudiation) 
+2. เพื่อใช้ตรวจสอบความถูกต้องของข้อมูล (Data Integrity) ทั้งนี้ ไฟล์เอกสารใดที่ลงลายมือชื่อดิจิทัลแล้ว จะไม่สามารถแก้ไขได้ หรือ ถ้าหากมีการแก้ไข ผู้รับไฟล์ดังกล่าวจะทราบจากการตรวจสอบว่ามีการแก้ไขเกิดขึ้น 
+3. หากมีการลงลายมือชื่อดิจิทัลบนไฟล์ใดๆแล้ว ผู้ส่งที่เป็นเจ้าของลายมือชื่อดิจิทัลนั้น ไม่สามารถปฏิเสธได้ว่าเป็นผู้ลงลายมือชื่อไฟล์นั้นๆ (Non-Repudiation) 
 
+![enter image description here](https://static.wixstatic.com/media/48bfa0_8c657fa012704044b4459ca218ca93f5~mv2.png/v1/fill/w_940,h_358,al_c,q_80,usm_0.66_1.00_0.01/sign_flow.webp)
 
+**จุดเด่นของ SignDoc**
 
+- สนับสนุนการสร้างลายมือชื่อดิจิทัลบนไฟล์ PDF ใดๆ ได้ทั้งในรูปแบบ Batch signing และ Online signing (ผ่าน Web Service) สามารถทำงานได้กับ คีย์และใบรับรองอิเล็กทรอนิกส์ ที่จัดเก็บอยู่ในรูปแบบไฟล์ และ อุปกรณ์ฮาร์ดแวร์ (Hardware Security Module) ที่ได้มาตรฐาน FIPS 140-2 Level 3+ 
 
+สามารถกำหนดตำแหน่ง รูปแบบตัวอักษร หรือ รูปภาพ สำหรับการแสดงลายมือชื่อดิจิทัล ได้ตามความต้องการ 
 
 
 
@@ -144,8 +148,8 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1ODU1NjYzLDUyMDc2Njc4MSwxMzkxMz
-A3NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC03MjY1MTEyMDEs
-LTk3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNz
-kwNjY1XX0=
+eyJoaXN0b3J5IjpbLTg3NTM5ODQ0MSw1MjA3NjY3ODEsMTM5MT
+MwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAx
+LC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MT
+c5MDY2NV19
 -->
