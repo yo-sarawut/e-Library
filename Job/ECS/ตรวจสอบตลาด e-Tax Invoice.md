@@ -148,7 +148,9 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 - เอกสารไฟล์PDF อื่นๆ (other PDF files)
 
 
-
+EZTax for E-Tax Invoice/Receipt
+===
+EZTax ระบบที่ใช้จัดทำข้อมูลใบกำกับภาษี ใบเพิ่มหนี้ ใบลดหนี้ และใบรับให้อยู่ในรูปแบบอิเล็กทรอนิกส์หรือรูปแบบ XML File โดยสร้างลายมือชื่อดิจิทัล (Digital Signature) เพื่อใช้ประกอบธุรกรรมทางอิเล็กทรอนิกส์ ซึ่งพัฒนาโดยบริษัท I AM Consulting
 
 
 
@@ -167,8 +169,9 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUyODYzNzgsLTIwNTY2NTQ3MzQsMT
-k3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQw
-NzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsOD
-M0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5MDY2NV19
+eyJoaXN0b3J5IjpbNDk4NzE5Mzg5LC0xNzc1Mjg2Mzc4LC0yMD
+U2NjU0NzM0LDE5NzIxOTg3MDMsNTIwNzY2NzgxLDEzOTEzMDc1
+NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOT
+cxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2
+NjVdfQ==
 -->
