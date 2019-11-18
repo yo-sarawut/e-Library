@@ -105,7 +105,7 @@ Advertisement
 
 ![โค้ชเช](https://i0.wp.com/goodlifeupdate.com/app/uploads/2015/07/1407979827274-i-300x200.jpg)
 
-<iframe width="727" height="409" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="727" height="409" src="https://i0.wp.com/goodlifeupdate.com/app/uploads/2015/07/1407979827274-i-300x200.jpg" frameborder="0"  allowfullscreen></iframe>
 
 
 ผมซื้อคอนโดอยู่ย่านศรีนครินทร์ และตอนนี้ลูกชายวัย 5 ขวบของผม (ชเว ยุน มิน) ก็เรียนอยู่ที่โรงเรียนนานาชาติ ด้วยความที่ผมต้องเดินทางบ่อย และต้องทุ่มเทเวลาให้กับการฝึกซ้อมนักกีฬาเยอะมาก ช่วงแรกก็เลยมีปัญหาครอบครัว เกิดความไม่เข้าใจกับภรรยา (คิม อุน ซุก) เหมือนกัน เพราะเธอต้องดูแลลูกเล็ก ๆ คนเดียว ที่สำคัญ เธอยังพูดภาษาไทยไม่ได้ เวลาลูกไม่สบายจะไปหาหมอก็ลำบาก แต่ตอนนี้เธอพูดภาษาไทยได้บ้างแล้ว และมีเพื่อนที่นี่เยอะขึ้น จึงใช้ชีวิตได้อย่างสบาย
@@ -131,5 +131,5 @@ Advertisement
 
 > Written with [StackEdit](https://goodlifeupdate.com/inspiration/1326.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MDY3MzM1XX0=
+eyJoaXN0b3J5IjpbMTk4MDQ0NDMxXX0=
 -->
