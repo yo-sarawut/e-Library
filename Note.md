@@ -5,7 +5,7 @@
 - [e-Library](https://dragon_e-library.gitlab.io/knowledge_base/)
 - [e-Import](https://app.gitbook.com/@e-import/s/e-import/)
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
-- [e-Tax Inv=ceipt]()
+- [e-Tax Inv&Rceipt]()
 - [==Setup Jupyternotebook for markdown==](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 # Color :
 - [https://www.w3schools.com/colors/colors_2019.asp](https://www.w3schools.com/colors/colors_2019.asp)
@@ -128,11 +128,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDgwMjIyOCwtNTEwMzM0NTY2LDk4NT
-Y5ODM1OSwtNjU2ODUwMTY5LDcyODI5MDY0OCwtMjAyNDIzNzg3
-LC0yNjQ2NzMxNjcsMTg0ODU2MTI2MywxMjkwNzk2NDcxLDE5MT
-k0MzU0MjEsMTc4OTgzMjU3NSwtMTcwMTkzNDY0OSwtMzA1ODY5
-Njg5LDc5OTkyNTU4NCwxNTQ4NjE1Nzg1LDE4NTU2MDcyNTEsLT
-IwNDA3OTU1MzEsLTE3OTE3ODY5OTMsLTU0NTc0MzI5MCwxODk5
-ODM0MzA5XX0=
+eyJoaXN0b3J5IjpbLTYyNzk4MjQ0MSwtODYwODAyMjI4LC01MT
+AzMzQ1NjYsOTg1Njk4MzU5LC02NTY4NTAxNjksNzI4MjkwNjQ4
+LC0yMDI0MjM3ODcsLTI2NDY3MzE2NywxODQ4NTYxMjYzLDEyOT
+A3OTY0NzEsMTkxOTQzNTQyMSwxNzg5ODMyNTc1LC0xNzAxOTM0
+NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3ODUsMT
+g1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5MywtNTQ1
+NzQzMjkwXX0=
 -->
