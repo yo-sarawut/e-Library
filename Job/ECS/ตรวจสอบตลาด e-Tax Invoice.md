@@ -70,7 +70,10 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 -   ระบบการจัดการเอกสาร จัดเก็บเอกสารภายในองค์กร โดยแยกหมวดหมู่ ประเภทเอกสาร และแผนก เพื่อง่ายต่อการเข้าถึงและใช้งาน
 -   ระบบแจ้งเตือนอัตโนมัติ สามารถตั้งค่าวัน เวลา หมดอายุของเอกสาร และมีการแจ้งเตือนกรณีเอกสารใกล้หมดอายุผ่านทางอีเมล
 
-[https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg](https://github.com/yosarawut/knowledge-base/raw/master/img/UIH-ManagementTeam.jpg)
+### Management Team
+
+![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/UIH-ManagementTeam.jpg)
+
 
 
 
@@ -114,7 +117,7 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjA3OTQxLDEzOTEzMDc1NjAsLTc3MT
+eyJoaXN0b3J5IjpbNTIwNzY2NzgxLDEzOTEzMDc1NjAsLTc3MT
 Y0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOTcxNzA2ODYx
 LDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
