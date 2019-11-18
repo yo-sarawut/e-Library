@@ -314,10 +314,10 @@ var MoonInfo = function(day, month, year) {
 | wsNNN |Wind speed at pressure level NNN hpa |ความเร็วลมสูงสุดที่ระดับความกดอากาศ NNN hpa |m/s |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
 |||||| แปลงหน่วยเป็น knots โดยการ x 1.94 |
 | wdNNN |Wind direction at pressure level NNN hpa |ทิศทางลมสูงสุดที่ระดับความกดอากาศ NNN hpa |degree |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
-| cloudlow |Cloud fraction at low level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับต่ำ |% |nan |
-| cloudmed |Cloud fraction at medium level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับกลาง |% |nan |
-| cloudhigh |Cloud fraction at high level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับสูง |% |nan |
-| swdown |Downward short wave flux at ground sureface |ปริมาณรังสีคลื่นสั้นที่ระดับพื้นผิว |W m-2 |nan |
+| cloudlow |Cloud fraction at low level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับต่ำ |% ||
+| cloudmed |Cloud fraction at medium level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับกลาง |% | |
+| cloudhigh |Cloud fraction at high level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับสูง |% | |
+| swdown |Downward short wave flux at ground sureface |ปริมาณรังสีคลื่นสั้นที่ระดับพื้นผิว |W m-2 | |
 |cond	|Weather condition	|สภาพอากาศโดยทั่วไป	||-	ความหมาย
 |		|				|							|						|1 = ท้องฟ้าแจ่มใส (Clear)|
 |||||2 = มีเมฆบางส่วน (Partly cloudy)|
@@ -332,11 +332,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDA5NjIxMywyMTYyNTYyODksMzk4Nz
-MxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5
-OCwyMTQ1NTM3MzUxLC0zMjE4MDEyNCwxNzU4OTI2OTYzLDE0ND
-IwODAyMzYsLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNTQyOTUz
-MzM1LDIxNDI1MzY2Niw3NTQyNDYyNTAsMzM1MzY4NzI1LDg4Mj
-kxODI5LDg4MjkxODI5LC0yMTIxMzM4NzExLDEyNjU3MzY3NjNd
-fQ==
+eyJoaXN0b3J5IjpbLTE2NTUyNTI0NTMsMjE2MjU2Mjg5LDM5OD
+czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
+OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
+QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
+MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4OD
+I5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYz
+XX0=
 -->
