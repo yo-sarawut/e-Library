@@ -52,6 +52,16 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 
 ![enter image description here](https://www.getinvoice.net/wp-content/uploads/2018/06/ma-2.png)
 
+![enter image description here](https://www.getinvoice.net/wp-content/uploads/2018/08/etax_article_6.jpg)
+
+### นำ Robotic Process Automation (RPA) มาช่วยทำ e-tax invoice
+
+
+
+
+
+
+
 
 
 ## [SMART TAX](https://www.uih.co.th/)
@@ -175,9 +185,9 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEyMDU2MjYsNDk4NDI2NjgxLC0xNz
-c1Mjg2Mzc4LC0yMDU2NjU0NzM0LDE5NzIxOTg3MDMsNTIwNzY2
-NzgxLDEzOTEzMDc1NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLT
-cyNjUxMTIwMSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5
-NzMyLDE2NTE3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbNTU5MDEzMjgsLTE1MTEyMDU2MjYsNDk4ND
+I2NjgxLC0xNzc1Mjg2Mzc4LC0yMDU2NjU0NzM0LDE5NzIxOTg3
+MDMsNTIwNzY2NzgxLDEzOTEzMDc1NjAsLTc3MTY0MDcxMCw2OD
+kzMTk0ODQsLTcyNjUxMTIwMSwtOTcxNzA2ODYxLDgzNDc4OTY4
+MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
