@@ -43,6 +43,45 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 
 ![enter image description here](https://www.getinvoice.net/wp-content/uploads/2018/06/ma-2.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
 
 ลูกค้าสามารถใช้บริการจัดสร้างและบริหารจัดการระบบลงลายมือชื่อดิจิทัลบนใบกำกับภาษี/ใบรับแบบครบวงจร ของ TDID โดยเราจะเป็นผู้จัดเตรียมระบบลงลายมือชื่อดิจิทัล บนใบกำกับภาษี/ใบรับ ให้กับลูกค้าโดยใช้ซอฟต์แวร์และฮาร์ดแวร์(HSM)มาตรฐาน ติดตั้ง ณ ศูนย์ปฎิบัติการคอมพิวเตอร์ของ TDID พร้อม Operate ให้แบบ 24X7
@@ -52,7 +91,7 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MzE5NDg0LC03MjY1MTEyMDEsLTk3MT
-cwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNzkwNjY1
-XX0=
+eyJoaXN0b3J5IjpbLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNj
+UxMTIwMSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMy
+LDE2NTE3OTA2NjVdfQ==
 -->
