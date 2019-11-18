@@ -75,11 +75,33 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/UIH-ManagementTeam.jpg)
 
 
+## SignTax for E-Tax Invoice
 
+![enter image description here](https://static.wixstatic.com/media/48bfa0_17b5689f0f2241f4986160515163264c~mv2.png/v1/fill/w_940,h_445,al_c,q_85,usm_0.66_1.00_0.01/etax_flow.webp)
 
+Software SignTax เป็นซอฟต์แวร์ที่ถูกพัฒนาขึ้นสำหรับใช้สร้างฟอแมตและลงลายมือชื่อบนใบกำกับภาษีอิเล็กทรอนิกส์ที่สอดคล้องกับความต้องการของกรมสรรพากร โดยซอฟต์แวร์สามารถ 
 
+  1. สร้าง File XML ตามรูปแบบที่สรรพากรกำหนดจากข้อมูลใบกำกับภาษีและลงลายมือชื่อดิจิทัล บนไฟล์ XML เพื่อนำส่งกรมสรรพากร ในทุกรอบเดือน 
+  2. สร้างลายมือชื่อดิจิทัลบนใบกำกับภาษีที่อยู่ในรูปแบบของไฟล์ PDF สำหรับนำส่งผู้ซื้อ 
 
+SignTax เป็นระบบที่ใช้งานได้จริง ถูกต้อง เชื่อถือ และเป็นที่ยอมรับแน่นอน ตามมาตรฐานของกรมสรรพากร อีกทั้ง ระบบถูกพัฒนาจากทีมงานผู้เชี่ยวชาญด้านบัญชีและ IT ซึ่งทีมงานสามารถให้คำปรึกษาและสนับสนุนทั้งระบบการออกใบกำกับภาษี และระบบ IT รวมถึงปรับแต่งตามความต้องการไม่ต้องพึ่งพิงต่างประเทศ
 
+### Core Features:
+
+-   สนับสนุนการ Signing ข้อมูลทั้งแบบ Batch และ Online    
+-   มีฟังก์ชันในการรับข้อมูลภาษีเป็น text file แล้วสร้างไฟล์ใบกำกับภาษีเป็น XML Format ตามมาตรฐานที่สรรพากรกำหนด
+    
+-   สามารถกำหนดตำแหน่งและขนาดลายมือดิจิทัลบนไฟล์ใบกำกับภาษี (PDF) ได้ตามต้องการ
+    
+-   สามารถกำหนดการแสดงลายมือชื่อดิจิทัลเป็นรูปภาพได้ (เช่น scanned signature image)
+    
+-   สามารถทำงานร่วมกับอุปกรณ์จัดเก็บใบรับรองฯและคีย์ ที่ได้มาตรฐานสากลตามที่กรมสรรพากรกำหนด
+    
+-   มีฟังก์ชั่นในการส่งใบกำกับภาษีที่ลงลายมือชื่อดิจิทัลแล้วให้กับลูกค้าผ่านอีเมล
+    
+-   สนับสนุนการทำงานบน Window Cluster
+    
+-   มีฟังก์ชั่นจัดทำรายงานและเรียกดูข้อมูลจากใบกำกับภาษีอิเล็กทรอนิกส์
 
 
 
@@ -117,7 +139,8 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNzY2NzgxLDEzOTEzMDc1NjAsLTc3MT
-Y0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOTcxNzA2ODYx
-LDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbLTE3NDUwMTIxMTIsNTIwNzY2NzgxLDEzOT
+EzMDc1NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIw
+MSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NT
+E3OTA2NjVdfQ==
 -->
