@@ -6,6 +6,10 @@
 
 ลูกค้าสามารถใช้บริการจัดสร้างและบริหารจัดการระบบลงลายมือชื่อดิจิทัลบนใบกำกับภาษี/ใบรับแบบครบวงจร ของ TDID โดยเราจะเป็นผู้จัดเตรียมระบบลงลายมือชื่อดิจิทัล บนใบกำกับภาษี/ใบรับ ให้กับลูกค้าโดยใช้ซอฟต์แวร์และฮาร์ดแวร์(HSM)มาตรฐาน ติดตั้ง ณ ศูนย์ปฎิบัติการคอมพิวเตอร์ของ TDID พร้อม Operate ให้แบบ 24X7
 
+![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page1.jpg)
+
+https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
+
 ## [บริษัท วัน อิเล็กทรอนิกส์ บิลลิ่ง จำกัด](https://etax.one.th/)
 
 _ตัวแทนจำหน่าย_
@@ -28,6 +32,6 @@ _ตัวแทนจำหน่าย_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0Nzg5NjgzLC0yMTkwNjk3MzIsODM0Nz
-g5NjgzLDE2NTE3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbLTk3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOT
+A2OTczMiwxNjUxNzkwNjY1XX0=
 -->
