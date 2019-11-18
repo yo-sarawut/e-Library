@@ -31,7 +31,13 @@ _ตัวแทนจำหน่าย_
 
 
 ## [Get Invoice](https://www.getinvoice.net/)
+
+GetInvoice คือโซลูชั่นสำหรับการจัดทำ ส่งมอบ และเก็บรักษาใบกำกับภาษีอิเล็กทรอนิกส์ และใบรับอิเล็กทรอนิกส์ ( e-Tax Invoice & e-Receipt ) ตามที่กฎหมายกำหนด ใบกำกับภาษีอิเล็กทรอนิกส์ที่จัดทำเป็นแบบ PDF/A-3 สร้าง XML ตรงตามมาตรฐาน ขมธอ3-2560 สามารถเชื่อมโยงกับระบบบัญชีหรือ ERP ได้ทุกค่าย ทำการจัดเก็บเอกสารอัตโนมัติภายใต้โครงสร้างการจัดเก็บที่ดีที่สุดจากประสบการณ์ของทีมงานผู้เชี่ยวชาญกว่า 20 ปี มีหุ่นยนต์ทำหน้าที่ upload ข้อมูลให้สรรพากรแทนคุณช่วยคุณประหยัดเวลาได้มากขึ้น ติดต่อเพื่อชมการสาธิตได้แล้ววันนี้
+
+![enter image description here](https://www.getinvoice.net/wp-content/uploads/2018/06/ma-2.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjI0MzgxMiwtOTcxNzA2ODYxLDgzND
+eyJoaXN0b3J5IjpbLTUxNDI0MDgwMSwtOTcxNzA2ODYxLDgzND
 c4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
