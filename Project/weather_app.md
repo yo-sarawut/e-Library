@@ -318,25 +318,25 @@ var MoonInfo = function(day, month, year) {
 | cloudmed |Cloud fraction at medium level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับกลาง |% |nan |
 | cloudhigh |Cloud fraction at high level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับสูง |% |nan |
 | swdown |Downward short wave flux at ground sureface |ปริมาณรังสีคลื่นสั้นที่ระดับพื้นผิว |W m-2 |nan |
-|cond	|Weather condition	|สภาพอากาศโดยทั่วไป	|-	ความหมาย|
-|||||						|							|						|1 = ท้องฟ้าแจ่มใส (Clear)|
-||||2 = มีเมฆบางส่วน (Partly cloudy)|
-||||3 = เมฆเป็นส่วนมาก (Cloudy)|
-||||4 = มีเมฆมาก (Overcast)|
-||||5 = ฝนตกเล็กน้อย (Light rain)|
-6 = ฝนปานกลาง (Moderate rain)|
-7 = ฝนตกหนัก (Heavy rain)|
-8 = ฝนฟ้าคะนอง (Thunderstorm)|
-9 = อากาศหนาวจัด (Very cold)|
-10 = อากาศหนาว (Cold)|
-11 = อากาศเย็น (Cool)|
-12 = อากาศร้อนจัด (Very hot)|
+|cond	|Weather condition	|สภาพอากาศโดยทั่วไป	|-	ความหมาย||
+|		|				|							|						|1 = ท้องฟ้าแจ่มใส (Clear)|
+|||||2 = มีเมฆบางส่วน (Partly cloudy)|
+|||||3 = เมฆเป็นส่วนมาก (Cloudy)|
+|||||4 = มีเมฆมาก (Overcast)|
+|||||5 = ฝนตกเล็กน้อย (Light rain)|
+|||||6 = ฝนปานกลาง (Moderate rain)|
+|||||7 = ฝนตกหนัก (Heavy rain)|
+|||||8 = ฝนฟ้าคะนอง (Thunderstorm)|
+|||||9 = อากาศหนาวจัด (Very cold)|
+|||||10 = อากาศหนาว (Cold)|
+|||||11 = อากาศเย็น (Cool)|
+|||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1OTQyMzgsMjE2MjU2Mjg5LDM5ODczMT
-MxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3OTgs
-MjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxNDQyMD
-gwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMz
-NSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4ODI5MT
-gyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYzXX0=
-
+eyJoaXN0b3J5IjpbLTEyODg0NDMyMzYsMjE2MjU2Mjg5LDM5OD
+czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
+OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
+QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
+MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4OD
+I5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYz
+XX0=
 -->
