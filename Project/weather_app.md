@@ -303,22 +303,22 @@ var MoonInfo = function(day, month, year) {
 
 | ตัวแปรข้อมูล |ความหมาย |คำอธิบาย |หน่วย |หมายเหตุ |
 |----------|----------|----------|-----|----------|
-| tc_max |Max temperature |อุณหภูมิสูงสุด ที่ระดับพื้นผิว |°C |nan |
-| tc_min |Min temperature |อุณหภูมิต่ำสุด ที่ระดับพื้นผิว |°C |nan |
-| rh |Relative humidity |ความชื้นสัมพัทธเฉลี่ย ที่ระดับพื้นผิว |% |nan |
-| slp |Sea level pressure |ความกดอากาศเฉลี่ย ที่ระดับน้ำทะเล |hpa |nan |
-| psfc |Surface pressure |ความกดอากาศที่ระดับพื้นผิว |Pa |nan |
-| rain |Rain volume |ปริมาณฝนรวม 24 ชม. |mm |nan |
+| tc_max |Max temperature |อุณหภูมิสูงสุด ที่ระดับพื้นผิว |°C | |
+| tc_min |Min temperature |อุณหภูมิต่ำสุด ที่ระดับพื้นผิว |°C | |
+| rh |Relative humidity |ความชื้นสัมพัทธเฉลี่ย ที่ระดับพื้นผิว |% | |
+| slp |Sea level pressure |ความกดอากาศเฉลี่ย ที่ระดับน้ำทะเล |hpa | |
+| psfc |Surface pressure |ความกดอากาศที่ระดับพื้นผิว |Pa ||
+| rain |Rain volume |ปริมาณฝนรวม 24 ชม. |mm ||
 | ws10m |Wind speed at 10m |ความเร็วลมสูงสุดที่ระดับความสูง 10 เมตร |m/s |แปลงหน่วยเป็น knots โดยการ x 1.94 |
-| wd10m |Wind direction at 10m |ทิศทางลมสูงสุดที่ระดับความสูง 10 เมตร |degree |nan |
+| wd10m |Wind direction at 10m |ทิศทางลมสูงสุดที่ระดับความสูง 10 เมตร |degree | |
 | wsNNN |Wind speed at pressure level NNN hpa |ความเร็วลมสูงสุดที่ระดับความกดอากาศ NNN hpa |m/s |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
-| แปลงหน่วยเป็น knots โดยการ x 1.94 |nan |nan |nan |nan |
+| แปลงหน่วยเป็น knots โดยการ x 1.94 |nan |nan |nan | |
 | wdNNN |Wind direction at pressure level NNN hpa |ทิศทางลมสูงสุดที่ระดับความกดอากาศ NNN hpa |degree |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
 | cloudlow |Cloud fraction at low level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับต่ำ |% |nan |
 | cloudmed |Cloud fraction at medium level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับกลาง |% |nan |
 | cloudhigh |Cloud fraction at high level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับสูง |% |nan |
 | swdown |Downward short wave flux at ground sureface |ปริมาณรังสีคลื่นสั้นที่ระดับพื้นผิว |W m-2 |nan |
-|cond	|Weather condition	|สภาพอากาศโดยทั่วไป	|-	ความหมาย||
+|cond	|Weather condition	|สภาพอากาศโดยทั่วไป	||-	ความหมาย
 |		|				|							|						|1 = ท้องฟ้าแจ่มใส (Clear)|
 |||||2 = มีเมฆบางส่วน (Partly cloudy)|
 |||||3 = เมฆเป็นส่วนมาก (Cloudy)|
@@ -332,11 +332,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg0NDMyMzYsMjE2MjU2Mjg5LDM5OD
-czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
-OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
-QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
-MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4OD
-I5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYz
-XX0=
+eyJoaXN0b3J5IjpbMTAzNjgwMDk4MiwyMTYyNTYyODksMzk4Nz
+MxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5
+OCwyMTQ1NTM3MzUxLC0zMjE4MDEyNCwxNzU4OTI2OTYzLDE0ND
+IwODAyMzYsLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNTQyOTUz
+MzM1LDIxNDI1MzY2Niw3NTQyNDYyNTAsMzM1MzY4NzI1LDg4Mj
+kxODI5LDg4MjkxODI5LC0yMTIxMzM4NzExLDEyNjU3MzY3NjNd
+fQ==
 -->
