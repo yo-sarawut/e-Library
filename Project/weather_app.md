@@ -302,7 +302,7 @@ var MoonInfo = function(day, month, year) {
 ```
 
 | ตัวแปรข้อมูล |ความหมาย |คำอธิบาย |หน่วย |หมายเหตุ |
-|----------|----------|----------|-----|----------|
+|:----------:|----------|----------|:-----:|----------|
 | tc_max |Max temperature |อุณหภูมิสูงสุด ที่ระดับพื้นผิว |°C | |
 | tc_min |Min temperature |อุณหภูมิต่ำสุด ที่ระดับพื้นผิว |°C | |
 | rh |Relative humidity |ความชื้นสัมพัทธเฉลี่ย ที่ระดับพื้นผิว |% | |
@@ -332,11 +332,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUyNTI0NTMsMjE2MjU2Mjg5LDM5OD
-czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
-OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
-QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
-MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcyNSw4OD
-I5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMSwxMjY1NzM2NzYz
-XX0=
+eyJoaXN0b3J5IjpbLTYyMzQ3ODQ0MywyMTYyNTYyODksMzk4Nz
+MxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5
+OCwyMTQ1NTM3MzUxLC0zMjE4MDEyNCwxNzU4OTI2OTYzLDE0ND
+IwODAyMzYsLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNTQyOTUz
+MzM1LDIxNDI1MzY2Niw3NTQyNDYyNTAsMzM1MzY4NzI1LDg4Mj
+kxODI5LDg4MjkxODI5LC0yMTIxMzM4NzExLDEyNjU3MzY3NjNd
+fQ==
 -->
