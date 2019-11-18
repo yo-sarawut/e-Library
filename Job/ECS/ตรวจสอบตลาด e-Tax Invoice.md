@@ -56,7 +56,34 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 
 ### นำ Robotic Process Automation (RPA) มาช่วยทำ e-tax invoice
 
+บริษัท Deloitte ประเทศสหรัฐอเมริกา ได้มีการสำรวจข้อมูลจากบริษัททางการเงิน, การบัญชี และบริษัทให้คำปรึกษาชั้นนำมากกว่า 1,700 บริษัท มี 52.8% บอกว่าในปีนี้ (2018) องค์กรของพวกเขามีแผนที่จะปรับปรุงวิธีการทำงาน โดยการนำ robotic process automation (RPA), analytic และเทคโนโลยีอื่นที่ใช้สำหรับงานด้านการเงินและการบัญชี และ 34.7% มองว่าการนำ robotic process automation (RPA) เข้ามาใช้กับงานด้านการเงินและการบัญชี เพื่อช่วยเพิ่มประสิทธิภาพและควบคุมกระบวนการทำงานภายในคืองานสำคัญที่จะต้องทำเร่งด่วน และหนึ่งในงานด้านการบัญชีที่เราสามารถนำ robotic process automation เข้ามาช่วยงานได้คือเรื่อง  [**“ใบกำกับภาษีอิเล็กทรอนิกส์” (e-tax invoice)**](https://www.getinvoice.net/%e0%b9%83%e0%b8%84%e0%b8%a3-%e0%b9%86-%e0%b9%80%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b8%81%e0%b9%87%e0%b8%a3%e0%b8%b9%e0%b9%89%e0%b8%88%e0%b8%b1%e0%b8%81-e-tax-invoice-%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%87/)  ผมขอเล่าจากภาพนะครับ
 
+![RPA help e-tax invoice process](https://www.getinvoice.net/wp-content/uploads/2018/08/RPA-for-etax-01.png)
+
+_รูปการนำ robotic process automation (RPA) มาใช้ในการทำ e-tax invoice_
+
+จากรูป เราสามารถช่วยลดการทำงานของคนได้โดยการนำ robotic process automation (RPA) มาใช้งาน
+
+### ขั้นตอนการทำงานของ robotic process automation
+
+1.  ให้ robot ทำการดึงข้อมูล (Extract) ข้อมูลใบแจ้งหนี้จากระบบ ERP ออกมา จะเป็นไฟล์รูปแบบไหนก็ขึ้นอยู่กับระบบต้นทางที่ไปดึงข้อมูล ซึ่งระบบ ERP นี้มีหลายหลายมาก ทั้งเป็น web application, windows application, AS400 ฯลฯ เนื่องจาก robot มีคุณสมบัติที่สามารถเข้าใช้งาน application ได้หลายรูปแบบ จึงทำให้ใช้งานกับ application ส่วนใหญ่ได้
+
+2.  Robot จะนำข้อมูลใบแจ้งหนี้ที่ได้มา ไปบันทึกต่อให้ในระบบบัญชี บางท่านอาจจะสงสัยว่า robot จะบันทึกข้อมูลให้เราได้อย่างไร ให้นึกภาพตามอย่างนี้นะครับ ปกติคนทำงานจะต้องใช้คีย์บอร์ดเพื่อพิมพ์ตัวอักษรและใช้เมาส์เพื่อเลื่อน Pointer พอเป็น robot ก็พิมพ์ตัวอักษรและเลื่อน pointer ได้เช่นกัน แต่ไม่ต้องใช้คีย์บอร์และเมาส์ เราเพียงแค่บอก robot ว่าเอาข้อมูลจากที่ไหนมาคีย์ คีย์ในช่องไหน และกดปุ่มไหนเมื่อต้องการบันทึกข้อมูล ทั้งนี้การทำงานในลักษณะนี้ ส่วนใหญ่แล้วจะมีในบริษัทขนาดปานกลางถึงขนาดใหญ่ เนื่องจากมีจำนวน transaction ที่ค่อนข้างเยอะ การใช้คนในการบันทึกบัญชีอาจจะเป็นเรื่องที่น่าเบื่อและมีความผิดพลาดที่เกิดจากคนได้ง่าย ในการที่จะพัฒนาให้เป็นระบบที่เป็นอัตโนมัติมากขึ้นนั้น คุณสามารถให้ robot ทำงานในส่วนนี้แทนคุณได้ โดยสามารถเราสอนให้ robot รู้ว่ารายการขายแบบนี้ จะต้องลงบัญชีหมวดไหน ฝั่งเดบิต หรือเครดิต
+
+4.  ต่อมาก็ถึงขั้นตอนการสร้างใบกำกับภาษีอิเล็กทรอนิกส์ (e-tax invoice) ก็จะขึ้นอยู่กับวิธีการที่แต่ละองค์กรเลือกส่ง e-tax invoice ให้กรมสรรพากรผ่านช่องทางไหน หากเลือกส่ง e-tax invoice by email ปัจจุบันนี้กรมสรรพากรบังคับให้ส่งเป็น  **[PDF/A-3](https://www.getinvoice.net/%e0%b8%a3%e0%b8%b9%e0%b9%89%e0%b8%88%e0%b8%b1%e0%b8%81-pdf-a-3-%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%97%e0%b8%b3-e-tax-invoice-%e0%b8%81%e0%b8%b1%e0%b8%99/)** แล้ว หรือถ้าเลือกเป็น web upload ก็จะต้องทำเป็นไฟล์ XML ตาม “ข้อเสนอแนะมาตรฐานด้านเทคโนโลยีสารสนเทศ และการสื่อสารที่จำเป็นต่อธุรกรรมทางอิเล็กทรอนิกส์ ว่าด้วยข้อความอิเล็กทรอนิกส์ สำหรับการซื้อขายสินค้าและบริการ (ขมธอ.3-2560)” และทำการลงลายเซ็นดิจิตอลของผู้ประกอบการให้เรียบร้อย ขั้นตอนนี้เราสามารถเลือกได้ว่าจะทำระบบขึ้นมาเอง หรือจัดหาระบบจากผู้เชี่ยวชาญ หรือจะเลือกใช้บริการ cloud service จากผู้ให้บริการที่มีความเชี่ยวชาญก็ได้ ผมขอยกตัวอย่างว่าเราเลือกใช้วิธีการส่งข้อมูลให้สรรพากรผ่าน web upload โดยใช้ cloud service เราก็ทำแค่เพียงกำหนดให้ robot ส่งข้อมูลในรูปแบบที่ cloud service ต้องการ เช่น ระบบ  [**GetInvoice**](https://www.getinvoice.net/getinvoice)  รับข้อมูลในรูปแบบไฟล์ XML เราก็ให้ robot นำข้อมูลใบแจ้งหนี้มาสร้างไฟล์ XML และนำที่ทำได้ upload ไปให้ระบบ  [**GetInvoice**](https://www.getinvoice.net/getinvoice)  เท่านี้เราก็จะได้ไฟล์ XML ที่ลงลายเซ็นดิจิตอลเรียบร้อยกลับมา
+
+![](https://www.getinvoice.net/wp-content/uploads/2018/08/XML_example.png)
+
+_รูปตัวอย่างไฟล์ XML เพื่อนำเข้าระบบ GetInvoice_
+
+4.  เมื่อเราได้ไฟล์ XML กลับมาแล้ว เราก็ทำการบอก robot ให้เอาไฟล์นี้ upload ไปยังเวปไซด์ของกรมสรรพากร เพียงเท่านี้ ก็จะจบกระบวนการทำ e-tax invoice เพื่อส่งไปให้กรมสรรพากรแบบถูกต้องแล้ว แต่…ไฟล์ XML ที่เราได้มาจำนวนมากนี้ เราจะดูแลอย่างไรดี
+5.  คำตอบก็คือ เราก็จัดหาโปรแกรมพวก Document Management เข้ามาเก็บไฟล์ XML เหล่านี้ เช่น MS Sharepoint,  **Alfresco**, OpenText Documentum, Kimios, Nuxeo ฯลฯ แต่เราก็จะต้องลงทุกซื้อเครื่องแม่ข่าย และระบบ security ที่มีมาตรฐานเพื่อป้องกันการเข้าถึงไฟล์ข้อมูลจากบุคคลภายนอกที่ไม่ประสงค์ดี หรือเราอาจจะเลือกเก็บไฟล์ไว้กับผู้ให้บริการ cloud storage อย่างเช่น dropbox ก็เป็นได้ และผมเองก็ขอแนะนำ cloud storage ที่เหมาะสำหรับการเก็บเอกสารอิเล็กทรอนิกส์สำหรับนักบัญชีโดยเฉพาะ คือ  **iDex**  ซึ่งในเว็ปนี้คุณสามารถใช้บริการได้ฟรี บริหารจัดการเอกสารได้ง่าย และยังสามารถค้นหาข้อมูลได้จากเนื้อหาในไฟล์ได้ด้วย
+
+![rpa flow example](https://www.getinvoice.net/wp-content/uploads/2018/08/example_flow.jpg)
+
+_รูปตัวอย่างหน้าจอออกแบบกระบวนการทำงานของ robotic process automation (RPA)_
+
+สองปีที่ผ่านมากิจกรรมการส่งเสริม  [e-tax invoice / e-receipt](https://www.getinvoice.net/%e0%b9%83%e0%b8%84%e0%b8%a3-%e0%b9%86-%e0%b9%80%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b8%81%e0%b9%87%e0%b8%a3%e0%b8%b9%e0%b9%89%e0%b8%88%e0%b8%b1%e0%b8%81-e-tax-invoice-%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%87/)  จากกรมสรรพากรมีมาอย่างต่อเนื่อง หลายๆ คนเริ่มมองเห็นข้อดีและคิดอยากจะทำ แต่ติดปัญหาตรงที่ไม่รู้จะเริ่มอย่างไร บางบริษัทฯก็มีปริมาณข้อมูลมีจำนวนมากที่หากต้องใช้คนนั่งทำก็อาจจะเสียเวลากับการต้องทำกระบวนการบางอย่างที่ต้องทำเพิ่มจากเดิมที่เคยทำอยู่ ผมคิดว่าการนำ robotic process automation (RPA) เข้ามาช่วยการทำงานในส่วนนี้ จะเอื้อประโยชน์ให้ได้ ไม่ใช่เพียงแค่การทำ e-tax invoice เท่านั้น แต่ยังสามารถช่วยลดงานที่ใช้คนทำแบบซ้ำ ๆ ทุกวันได้ เพื่อที่เราจะได้นำทรัพยากรคนมาทำงานที่มีประโยชน์กับองค์กรของเราต่อไป
 
 
 
@@ -182,12 +209,12 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page1.jpg)
 
-https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
+![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MDEzMjgsLTE1MTEyMDU2MjYsNDk4ND
-I2NjgxLC0xNzc1Mjg2Mzc4LC0yMDU2NjU0NzM0LDE5NzIxOTg3
-MDMsNTIwNzY2NzgxLDEzOTEzMDc1NjAsLTc3MTY0MDcxMCw2OD
-kzMTk0ODQsLTcyNjUxMTIwMSwtOTcxNzA2ODYxLDgzNDc4OTY4
-MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbLTkxODA3NzgzNywtMTUxMTIwNTYyNiw0OT
+g0MjY2ODEsLTE3NzUyODYzNzgsLTIwNTY2NTQ3MzQsMTk3MjE5
+ODcwMyw1MjA3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLD
+Y4OTMxOTQ4NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5
+NjgzLC0yMTkwNjk3MzIsMTY1MTc5MDY2NV19
 -->
