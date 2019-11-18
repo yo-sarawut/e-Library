@@ -79,7 +79,7 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 
 ![enter image description here](https://static.wixstatic.com/media/48bfa0_17b5689f0f2241f4986160515163264c~mv2.png/v1/fill/w_940,h_445,al_c,q_85,usm_0.66_1.00_0.01/etax_flow.webp)
 
-Software SignTax เป็นซอฟต์แวร์ที่ถูกพัฒนาขึ้นสำหรับใช้สร้างฟอแมตและลงลายมือชื่อบนใบกำกับภาษีอิเล็กทรอนิกส์ที่สอดคล้องกับความต้องการของกรมสรรพากร โดยซอฟต์แวร์สามารถ 
+Software **SignTax** เป็นซอฟต์แวร์ที่ถูกพัฒนาขึ้นสำหรับใช้สร้างฟอแมตและลงลายมือชื่อบนใบกำกับภาษีอิเล็กทรอนิกส์ที่สอดคล้องกับความต้องการของกรมสรรพากร โดยซอฟต์แวร์สามารถ 
 
   1. สร้าง File XML ตามรูปแบบที่สรรพากรกำหนดจากข้อมูลใบกำกับภาษีและลงลายมือชื่อดิจิทัล บนไฟล์ XML เพื่อนำส่งกรมสรรพากร ในทุกรอบเดือน 
   2. สร้างลายมือชื่อดิจิทัลบนใบกำกับภาษีที่อยู่ในรูปแบบของไฟล์ PDF สำหรับนำส่งผู้ซื้อ 
@@ -108,10 +108,14 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 -   มี Real-time Audit Logs
 
 
+## SignDoc for PDF Signing
 
 
+**Software SignDoc** โปรแกรม SignDoc เป็นโปรแกรมประยุกต์ที่ใช้ เทคโนโลยีกุญแจสาธารณะ หรือ Public Key Infrastructure (PKI) เพื่อสร้าง ลายมือชื่อดิจิทัล (Digital Signature) บนไฟล์ PDF โดยลายมือชื่อดิจิทัล มีคุณสมบัติดังนี้ 
 
-
+1. เพื่อยืนยันตัวตนของผู้จัดทำหรือเจ้าของไฟล์ (Authentication) 
+  2.เพื่อใช้ตรวจสอบความถูกต้องของข้อมูล (Data Integrity) ทั้งนี้ ไฟล์เอกสารใดที่ลงลายมือชื่อดิจิทัลแล้ว จะไม่สามารถแก้ไขได้ หรือ ถ้าหากมีการแก้ไข ผู้รับไฟล์ดังกล่าวจะทราบจากการตรวจสอบว่ามีการแก้ไขเกิดขึ้น 
+  3.หากมีการลงลายมือชื่อดิจิทัลบนไฟล์ใดๆแล้ว ผู้ส่งที่เป็นเจ้าของลายมือชื่อดิจิทัลนั้น ไม่สามารถปฏิเสธได้ว่าเป็นผู้ลงลายมือชื่อไฟล์นั้นๆ (Non-Repudiation) 
 
 
 
@@ -140,8 +144,8 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIxNDM3NDAsNTIwNzY2NzgxLDEzOT
-EzMDc1NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIw
-MSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NT
-E3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbODQ1ODU1NjYzLDUyMDc2Njc4MSwxMzkxMz
+A3NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC03MjY1MTEyMDEs
+LTk3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNz
+kwNjY1XX0=
 -->
