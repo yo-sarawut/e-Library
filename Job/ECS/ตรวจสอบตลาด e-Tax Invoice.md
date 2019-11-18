@@ -1,5 +1,6 @@
-ตรวจสอบตลาดและความเคลื่อนไหว e-Tax Invoice
+รายงานความเคลื่อนไหวระบบ e-Tax Invoice
 ==========
+18/11/2562
 
 ## [InvoiceChain](https://www.etaxth.com/) by Netbay
 
@@ -174,9 +175,9 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NDI2NjgxLC0xNzc1Mjg2Mzc4LC0yMD
-U2NjU0NzM0LDE5NzIxOTg3MDMsNTIwNzY2NzgxLDEzOTEzMDc1
-NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOT
-cxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTI5OTg3NTE2MSw0OTg0MjY2ODEsLTE3Nz
+UyODYzNzgsLTIwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3
+ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNz
+I2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3
+MzIsMTY1MTc5MDY2NV19
 -->
