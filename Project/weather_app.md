@@ -6,7 +6,7 @@ Weather App
 e-mail : hotmail, 
 Weather Keys : bf5d2ca68d5cba107e1017360c1e80d9
 Secret Keys : bab7a8d7a5970c295679de9c67e907a5
-
+- [Weather API : Open Weather Map](https://openweathermap.org/city)
 - [python-weather-api](https://code.google.com/archive/p/python-weather-api/) , [YouTube](https://www.youtube.com/watch?v=dXO-4xhTVqI&t=28s)
 
 - [**==The right way to check the weather==**](https://github.com/chubin/wttr.in)
@@ -20,7 +20,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [Weather Widget A responsive and flexible weather widget](http://www.prepbootstrap.com/bootstrap-template/weather-widget)
 - 
 - [Download Data Particulate Air Pollution (PM2.5) in Thailand](http://berkeleyearth.lbl.gov/air-quality/local/Thailand/Bangkok/Bangkok) , Text file : http://berkeleyearth.lbl.gov/air-quality/maps/cities/Thailand/Bangkok/Bangkok.txt
-- [Weather API : Open Weather Map](https://openweathermap.org/city)
+
 - [API กรมอุตินิยมวิทยา](https://data.tmd.go.th/nwpapi/doc/apidoc/forecast_location.html)
 - [การคำนวณดิถี](https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B4%E0%B8%96%E0%B8%B5)
 
@@ -332,11 +332,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzQ3ODQ0MywyMTYyNTYyODksMzk4Nz
-MxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5
-OCwyMTQ1NTM3MzUxLC0zMjE4MDEyNCwxNzU4OTI2OTYzLDE0ND
-IwODAyMzYsLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNTQyOTUz
-MzM1LDIxNDI1MzY2Niw3NTQyNDYyNTAsMzM1MzY4NzI1LDg4Mj
-kxODI5LDg4MjkxODI5LC0yMTIxMzM4NzExLDEyNjU3MzY3NjNd
-fQ==
+eyJoaXN0b3J5IjpbMzI1MTEwMTA5LC02MjM0Nzg0NDMsMjE2Mj
+U2Mjg5LDM5ODczMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0
+LC0xMTQyMTI3OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1OD
+kyNjk2MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1
+MDcxLDU0Mjk1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNT
+M2ODcyNSw4ODI5MTgyOSw4ODI5MTgyOSwtMjEyMTMzODcxMV19
+
 -->
