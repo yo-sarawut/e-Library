@@ -2,7 +2,7 @@
 ==========
 
 
-## [**TDID ประชาสัมพันธ์**](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
+## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
 
 ลูกค้าสามารถใช้บริการจัดสร้างและบริหารจัดการระบบลงลายมือชื่อดิจิทัลบนใบกำกับภาษี/ใบรับแบบครบวงจร ของ TDID โดยเราจะเป็นผู้จัดเตรียมระบบลงลายมือชื่อดิจิทัล บนใบกำกับภาษี/ใบรับ ให้กับลูกค้าโดยใช้ซอฟต์แวร์และฮาร์ดแวร์(HSM)มาตรฐาน ติดตั้ง ณ ศูนย์ปฎิบัติการคอมพิวเตอร์ของ TDID พร้อม Operate ให้แบบ 24X7
 
@@ -30,8 +30,8 @@ _ตัวแทนจำหน่าย_
 ![enter image description here](https://etax.one.th/static/img/ExampleService.e5fdcbd.jpg)
 
 
-
+## [Get Invoice](https://www.getinvoice.net/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOT
-A2OTczMiwxNjUxNzkwNjY1XX0=
+eyJoaXN0b3J5IjpbLTM5NjI0MzgxMiwtOTcxNzA2ODYxLDgzND
+c4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
