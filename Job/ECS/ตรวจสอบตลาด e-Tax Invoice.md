@@ -121,12 +121,20 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 
 **จุดเด่นของ SignDoc**
 
-- สนับสนุนการสร้างลายมือชื่อดิจิทัลบนไฟล์ PDF ใดๆ ได้ทั้งในรูปแบบ Batch signing และ Online signing (ผ่าน Web Service) สามารถทำงานได้กับ คีย์และใบรับรองอิเล็กทรอนิกส์ ที่จัดเก็บอยู่ในรูปแบบไฟล์ และ อุปกรณ์ฮาร์ดแวร์ (Hardware Security Module) ที่ได้มาตรฐาน FIPS 140-2 Level 3+ 
+- สนับสนุนการสร้างลายมือชื่อดิจิทัลบนไฟล์ PDF ใดๆ ได้ทั้งในรูปแบบ Batch signing และ Online signing (ผ่าน Web Service)
+-  สามารถทำงานได้กับ คีย์และใบรับรองอิเล็กทรอนิกส์ ที่จัดเก็บอยู่ในรูปแบบไฟล์ และ อุปกรณ์ฮาร์ดแวร์ (Hardware Security Module) ที่ได้มาตรฐาน FIPS 140-2 Level 3+ 
+- สามารถกำหนดตำแหน่ง รูปแบบตัวอักษร หรือ รูปภาพ สำหรับการแสดงลายมือชื่อดิจิทัล ได้ตามความต้องการ 
 
-สามารถกำหนดตำแหน่ง รูปแบบตัวอักษร หรือ รูปภาพ สำหรับการแสดงลายมือชื่อดิจิทัล ได้ตามความต้องการ 
 
-
-
+**การใช้งาน SignDoc **
+- กรมธรรม์อิเล็กทรอนิกส์ (e-Policy) 
+- เอกสารเสนอขายอิเล็กทรอนิกส์ (e-proposal)
+- ใบเสร็จรับเงิน (e-receipt)
+- ใบกำกับภาษี (e-Tax invoice) 
+- เอกสารสัญญา (E-Contract) 
+- ใบเสนอราคา (quotation) 
+- ใบสั่งซื้อ (purchase order) 
+- เอกสารไฟล์PDF อื่นๆ (other PDF files)
 
 
 
@@ -148,7 +156,7 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTM5ODQ0MSw1MjA3NjY3ODEsMTM5MT
+eyJoaXN0b3J5IjpbMTU1OTY5Njc1NCw1MjA3NjY3ODEsMTM5MT
 MwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAx
 LC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MT
 c5MDY2NV19
