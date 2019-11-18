@@ -312,7 +312,7 @@ var MoonInfo = function(day, month, year) {
 | ws10m |Wind speed at 10m |ความเร็วลมสูงสุดที่ระดับความสูง 10 เมตร |m/s |แปลงหน่วยเป็น knots โดยการ x 1.94 |
 | wd10m |Wind direction at 10m |ทิศทางลมสูงสุดที่ระดับความสูง 10 เมตร |degree | |
 | wsNNN |Wind speed at pressure level NNN hpa |ความเร็วลมสูงสุดที่ระดับความกดอากาศ NNN hpa |m/s |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
-| แปลงหน่วยเป็น knots โดยการ x 1.94 |nan |nan |nan | |
+|||||| แปลงหน่วยเป็น knots โดยการ x 1.94 |
 | wdNNN |Wind direction at pressure level NNN hpa |ทิศทางลมสูงสุดที่ระดับความกดอากาศ NNN hpa |degree |NNN มีค่าที่ระดับ 925, 850, 700, 500, และ 200 hpa |
 | cloudlow |Cloud fraction at low level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับต่ำ |% |nan |
 | cloudmed |Cloud fraction at medium level |ปริมาณเมฆเฉลี่ยที่ความสูงระดับกลาง |% |nan |
@@ -332,7 +332,7 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjgwMDk4MiwyMTYyNTYyODksMzk4Nz
+eyJoaXN0b3J5IjpbMTg5MDA5NjIxMywyMTYyNTYyODksMzk4Nz
 MxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5
 OCwyMTQ1NTM3MzUxLC0zMjE4MDEyNCwxNzU4OTI2OTYzLDE0ND
 IwODAyMzYsLTE2MzE4NzgwNDMsLTE5ODAwOTUwNzEsNTQyOTUz
