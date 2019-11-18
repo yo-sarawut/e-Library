@@ -164,6 +164,7 @@ EZTax ระบบที่ใช้จัดทำข้อมูลใบก�
 **SAP EZTax**
 Package ที่ออกแบบมาเพื่อทำงานกับระบบ SAP ได้อย่างสมบูรณ์แบบและ Seamless Integration
 
+
 ## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
 
 ลูกค้าสามารถใช้บริการจัดสร้างและบริหารจัดการระบบลงลายมือชื่อดิจิทัลบนใบกำกับภาษี/ใบรับแบบครบวงจร ของ TDID โดยเราจะเป็นผู้จัดเตรียมระบบลงลายมือชื่อดิจิทัล บนใบกำกับภาษี/ใบรับ ให้กับลูกค้าโดยใช้ซอฟต์แวร์และฮาร์ดแวร์(HSM)มาตรฐาน ติดตั้ง ณ ศูนย์ปฎิบัติการคอมพิวเตอร์ของ TDID พร้อม Operate ให้แบบ 24X7
@@ -173,9 +174,9 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTE5NDg1NSwtMTc3NTI4NjM3OCwtMj
-A1NjY1NDczNCwxOTcyMTk4NzAzLDUyMDc2Njc4MSwxMzkxMzA3
-NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC03MjY1MTEyMDEsLT
-k3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNzkw
-NjY1XX0=
+eyJoaXN0b3J5IjpbNDk4NDI2NjgxLC0xNzc1Mjg2Mzc4LC0yMD
+U2NjU0NzM0LDE5NzIxOTg3MDMsNTIwNzY2NzgxLDEzOTEzMDc1
+NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOT
+cxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2
+NjVdfQ==
 -->
