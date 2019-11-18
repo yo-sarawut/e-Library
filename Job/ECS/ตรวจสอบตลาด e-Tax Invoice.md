@@ -19,6 +19,8 @@ InvoiceChain เป็นแพลตฟอร์มที่ช่วยให�
 
 ## [บริษัท วัน อิเล็กทรอนิกส์ บิลลิ่ง จำกัด](https://etax.one.th/) by INET
 
+![enter image description here](https://etax.one.th/static/img/etaxpic-4.18046b9.jpg)
+
 _ตัวแทนจำหน่าย_
 
 1768 อาคารไทยซัมมิท ทาวเวอร์ ชั้น 16 ถ.เพชรบุรีตัดใหม่  
@@ -159,8 +161,8 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY1MjQ1OTAsMTk3MjE5ODcwMyw1Mj
-A3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4
-NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMT
-kwNjk3MzIsMTY1MTc5MDY2NV19
+eyJoaXN0b3J5IjpbNjI1NjUzMjI0LDE5NzIxOTg3MDMsNTIwNz
+Y2NzgxLDEzOTEzMDc1NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQs
+LTcyNjUxMTIwMSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MD
+Y5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
