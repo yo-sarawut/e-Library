@@ -7,6 +7,10 @@
 
 แพลตฟอร์มสำหรับจัดทำ นำส่ง และจัดเก็บ เอกสารใบกำกับภาษีอิเล็กทรอนิกส์ (e-Tax Invoice) ครบวงจรตามมาตรฐานของกรมสรรพากร และสำนักงานพัฒนาธุรกรรมอิเล็กทรอนิกส์ (ETDA) พร้อมเชื่อมต่อกับซอฟท์แวร์บัญชี หรือระบบ ERP ใดก็ได้ พร้อมให้คุณก้าวสู่ยุคดิจิตอลได้อย่างสมบูรณ์แบบ
 
+InvoiceChain เป็นแพลตฟอร์มที่ช่วยให้้ผู้ประกอบสร้าง นำส่ง จัดเก็บและจัดการเอกสารอิเล็กทรอนิกส์ (e-Tax Invoice) ตามมาตรฐานของกรมสรรพากร เราให้บริการในรูปแบบ pay-per-use หรือ จ่ายตามการใช้งานจริง ผู้ประกอบการทุกขนาด และทุกราย สามารถใช้ระบบ InvoiceChain ได้โดยไม่ต้องลงทุน Hardware และ Software ราคาสูง โดยสามารถเลือก Package ที่เหมาะสมกับธุรกิจของท่านได้
+
+คุณจึงสามารถเริ่มใช้ระบบใบกำกับภาษีอิเล็กทรอนิกส์เพื่อลดต้นทุนของบริษัทได้ง่ายและรวดเร็ว
+
 
 
 ## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
@@ -45,6 +49,7 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjUxMTIwMSwtOTcxNzA2ODYxLDgzND
-c4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
+eyJoaXN0b3J5IjpbLTYwMTE1NDMzOCwtNzI2NTExMjAxLC05Nz
+E3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5MDY2
+NV19
 -->
