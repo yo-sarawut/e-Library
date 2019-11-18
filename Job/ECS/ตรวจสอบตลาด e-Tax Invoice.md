@@ -148,17 +148,21 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 - เอกสารไฟล์PDF อื่นๆ (other PDF files)
 
 
-EZTax for E-Tax Invoice/Receipt
+[EZTax for E-Tax Invoice/Receipt](https://www.iamconsulting.co.th/en/solution-detail.php?Id=7)
 ===
 EZTax ระบบที่ใช้จัดทำข้อมูลใบกำกับภาษี ใบเพิ่มหนี้ ใบลดหนี้ และใบรับให้อยู่ในรูปแบบอิเล็กทรอนิกส์หรือรูปแบบ XML File โดยสร้างลายมือชื่อดิจิทัล (Digital Signature) เพื่อใช้ประกอบธุรกรรมทางอิเล็กทรอนิกส์ ซึ่งพัฒนาโดยบริษัท I AM Consulting
 
+**Why EZTax**
+เราเป็น Service Provider ที่ให้บริการ E-Tax Invoice/Receipt อย่างครบวงจร
+จากประสบการณ์การเป็นที่ปรึกษาระบบ SAP เราจึงพัฒนาระบบ EZTax โดยคำนึงถึงกระบวนการทางธุรกิจเพื่อให้ลูกค้าใช้งานได้ง่าย สะดวก รวดเร็ว เชื่อมโยงกับระบบงาน SAP และ ERP อื่นๆ อย่างมีประสิทธิภาพ
 
+![enter image description here](https://www.iamconsulting.co.th/backoffice/ckeditor/plugins/imageuploader/uploads/150dd16bd.png)
 
+**EZTax As a Service**
+การทำ E-Tax Invoice/receipt ในรูปแบบ eTax as a service ที่สามารถเลือกใช้งานได้ตามความต้องการของลูกค้า และคิดค่าบริการในลักษณะจ่ายตามจริง (Pay as You go) โดยให้บริการอยู่บน cloud ตามมาตราฐานระดับสากล พร้อมบริการช่วยเหลือ EZTax Call Center ที่ให้บริการ 24x7
 
-
-
-
-
+**SAP EZTax**
+Package ที่ออกแบบมาเพื่อทำงานกับระบบ SAP ได้อย่างสมบูรณ์แบบและ Seamless Integration
 
 ## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
 
@@ -169,9 +173,9 @@ EZTax ระบบที่ใช้จัดทำข้อมูลใบก�
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NzE5Mzg5LC0xNzc1Mjg2Mzc4LC0yMD
-U2NjU0NzM0LDE5NzIxOTg3MDMsNTIwNzY2NzgxLDEzOTEzMDc1
-NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIwMSwtOT
-cxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2
-NjVdfQ==
+eyJoaXN0b3J5IjpbMTA5OTE5NDg1NSwtMTc3NTI4NjM3OCwtMj
+A1NjY1NDczNCwxOTcyMTk4NzAzLDUyMDc2Njc4MSwxMzkxMzA3
+NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC03MjY1MTEyMDEsLT
+k3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNzkw
+NjY1XX0=
 -->
