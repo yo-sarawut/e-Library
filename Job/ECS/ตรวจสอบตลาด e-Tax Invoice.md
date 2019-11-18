@@ -1,6 +1,14 @@
 ตรวจสอบตลาดและความเคลื่อนไหว e-Tax Invoice
 ==========
 
+# InvoiceChain  
+
+#### e-Tax Invoice and e-Receipt  
+All-in-one Management Platform
+
+แพลตฟอร์มสำหรับจัดทำ นำส่ง และจัดเก็บ เอกสารใบกำกับภาษีอิเล็กทรอนิกส์ (e-Tax Invoice) ครบวงจรตามมาตรฐานของกรมสรรพากร และสำนักงานพัฒนาธุรกรรมอิเล็กทรอนิกส์ (ETDA) พร้อมเชื่อมต่อกับซอฟท์แวร์บัญชี หรือระบบ ERP ใดก็ได้ พร้อมให้คุณก้าวสู่ยุคดิจิตอลได้อย่างสมบูรณ์แบบ
+
+
 
 ## [TDID ](http://www.thaidigitalid.com/wp-content/uploads/2018/04/e-TaxInvoiceBrochure.pdf)
 
@@ -38,6 +46,6 @@ GetInvoice คือโซลูชั่นสำหรับการจัด
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDI0MDgwMSwtOTcxNzA2ODYxLDgzND
+eyJoaXN0b3J5IjpbMTMzMTE0MDcwOSwtOTcxNzA2ODYxLDgzND
 c4OTY4MywtMjE5MDY5NzMyLDE2NTE3OTA2NjVdfQ==
 -->
