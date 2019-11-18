@@ -89,22 +89,23 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 ### Core Features:
 
 -   สนับสนุนการ Signing ข้อมูลทั้งแบบ Batch และ Online    
--   มีฟังก์ชันในการรับข้อมูลภาษีเป็น text file แล้วสร้างไฟล์ใบกำกับภาษีเป็น XML Format ตามมาตรฐานที่สรรพากรกำหนด
-    
--   สามารถกำหนดตำแหน่งและขนาดลายมือดิจิทัลบนไฟล์ใบกำกับภาษี (PDF) ได้ตามต้องการ
-    
--   สามารถกำหนดการแสดงลายมือชื่อดิจิทัลเป็นรูปภาพได้ (เช่น scanned signature image)
-    
--   สามารถทำงานร่วมกับอุปกรณ์จัดเก็บใบรับรองฯและคีย์ ที่ได้มาตรฐานสากลตามที่กรมสรรพากรกำหนด
-    
--   มีฟังก์ชั่นในการส่งใบกำกับภาษีที่ลงลายมือชื่อดิจิทัลแล้วให้กับลูกค้าผ่านอีเมล
-    
--   สนับสนุนการทำงานบน Window Cluster
-    
+-   มีฟังก์ชันในการรับข้อมูลภาษีเป็น text file แล้วสร้างไฟล์ใบกำกับภาษีเป็น XML Format ตามมาตรฐานที่สรรพากรกำหนด    
+-   สามารถกำหนดตำแหน่งและขนาดลายมือดิจิทัลบนไฟล์ใบกำกับภาษี (PDF) ได้ตามต้องการ    
+-   สามารถกำหนดการแสดงลายมือชื่อดิจิทัลเป็นรูปภาพได้ (เช่น scanned signature image)    
+-   สามารถทำงานร่วมกับอุปกรณ์จัดเก็บใบรับรองฯและคีย์ ที่ได้มาตรฐานสากลตามที่กรมสรรพากรกำหนด    
+-   มีฟังก์ชั่นในการส่งใบกำกับภาษีที่ลงลายมือชื่อดิจิทัลแล้วให้กับลูกค้าผ่านอีเมล    
+-   สนับสนุนการทำงานบน Window Cluster    
 -   มีฟังก์ชั่นจัดทำรายงานและเรียกดูข้อมูลจากใบกำกับภาษีอิเล็กทรอนิกส์
 
+### Security Features:
 
-
+-   ผ่านการทดสอบด้านความปลอดภัย (Vulnerability Assessment and Penetration test)
+    
+-   มีฟังก์ชั่นการ login ระบบ ผ่าน 2-Factor authentication
+    
+-   มีฟังก์ชั่น Password authentication ระหว่างโปรแกรม SignTax และ Web service Client
+    
+-   มี Real-time Audit Logs
 
 
 
@@ -139,7 +140,7 @@ SignTax เป็นระบบที่ใช้งานได้จริง
 https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUwMTIxMTIsNTIwNzY2NzgxLDEzOT
+eyJoaXN0b3J5IjpbLTE3MjIxNDM3NDAsNTIwNzY2NzgxLDEzOT
 EzMDc1NjAsLTc3MTY0MDcxMCw2ODkzMTk0ODQsLTcyNjUxMTIw
 MSwtOTcxNzA2ODYxLDgzNDc4OTY4MywtMjE5MDY5NzMyLDE2NT
 E3OTA2NjVdfQ==
