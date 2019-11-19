@@ -2,7 +2,8 @@
 Note for God of Greek
 ===
 
-- [ตำนานเทพเจ้ากรีก]()
+- [ตำนานเทพเจ้ากรีก](https://sites.google.com/site/tamnanthephceakrik/)
+- [ปฐมเทพ](https://mythologygreekk.weebly.com/1361136003617364836073614.html)
 
 ## เพกาซัส (Pegasus)
 
@@ -13,5 +14,5 @@ Note for God of Greek
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjkyMDA5MV19
+eyJoaXN0b3J5IjpbMTI0NDMxMDkyM119
 -->
