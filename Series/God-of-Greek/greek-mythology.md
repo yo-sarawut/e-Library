@@ -104,11 +104,10 @@
 
 6.  เทพซีอุส (Zeus)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946429819/home/6.jpg?height=200&width=96)](https://sites.google.com/site/tamnanthephceakrik/home/6.jpg?attredirects=0)
+![enter image description here](http://3.bp.blogspot.com/-heSnskxyksg/Va7-XR935kI/AAAAAAAACh4/biXRkSU46H8/s1600/Angry+Zeus.jpg)
 
   
-
-  
+ 
 
 เทพซีอุส (Zeus)  เชื่อว่าเป็นเจ้าแห่งเทพเจ้าทั้งหลาย ถือเป็นผู้รอบรู้ด้านการพยากรณ์อากาศ และเป็นเทพผู้คุมกฎแห่งสวรรค์ ซึ่งเขายังต้องทำหน้าที่ผดุงความยุติธรรมตามกฎหมายอีกด้วย พลังอำนาจในการต่อสู้ของเทพซีอุสเป็นที่น่าเกรงขามอย่างยิ่ง เทพซีอุสมีสัญลักษณ์แห่งพลังอำนาจเป็น สายฟ้า (Thunderbolt)
 
@@ -306,6 +305,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTI4MjU5MSwtNzgyNTk1NjI2LC02OD
+eyJoaXN0b3J5IjpbMTU4OTA4NjEyMCwtNzgyNTk1NjI2LC02OD
 MyODEyNDgsLTY5OTE3Nzc3XX0=
 -->
