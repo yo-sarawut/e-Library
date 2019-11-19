@@ -145,7 +145,7 @@
 
 8.  เทพาอาเรส (Ares)  หรือ Mars
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946454256/home/8.jpg?height=200&width=114)](https://sites.google.com/site/tamnanthephceakrik/home/8.jpg?attredirects=0)
+![enter image description here](https://3.bp.blogspot.com/-3mXbeJpU7j0/XCnw6tR6dBI/AAAAAAACRX8/a7_Gd5ug0dUHB90VO_WD6mTOVw2IIZsJQCLcBGAs/s1600/nicholas-elias-elias-aresgodofwar.jpg)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMzMxNDc4LDk4Nzk4MzQ2MiwtMTY5MT
+eyJoaXN0b3J5IjpbMzY2MDgwMjIyLDk4Nzk4MzQ2MiwtMTY5MT
 k2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEyNDgsLTY5OTE3Nzc3
 XX0=
 -->
