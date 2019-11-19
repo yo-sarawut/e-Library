@@ -209,9 +209,9 @@
 
 เทพฮาเดสจ้าวแห่งแดนบาดาล มีอุปนิสัยที่ค่อนข้างจะเย็นชา และแข็งกร้าว ไร้ซึ่งความเวทนาปรานีแก่ผู้ใด แต่พระองค์ก็ทรงตัดสินความถูกผิดไปด้วยความมียุติธรรมตลอดเวลา จึงเป็นเหตุให้ท้าวเธอไม่สามารถหาสตรีมาเป็นชายาครองบัลลังก์ในปรโลกร่วมกันได้เสียที ครั้งหนึ่งเมื่อท้าวเธอเสด็จขึ้นมาบนพื้นโลก และได้พบเจอกับหญิงงามที่มีชื่อว่า เพอร์เซโฟนี (Persephone)  ผู้เป็นธิดาองค์เดียวของเจ้าแม่โพสพเทวี ดีมีเตอร์ ด้วยความงามที่นางมี จึงทำให้ฮาเดสลืมไปว่านางคนนี้ก็คือหลานแท้ๆของตนเอง เนื่องจากดีมิเตอร์เทวีถือเป็นน้องนางของพระองค์ จ้าวแห่งแดนบาดาลจึงได้ไปฉุดเอาตัวของเพอร์เซโฟนีลงไปเป็นคู่ครองในดินแดนใต้พิภพ แม้ตัวนางเองจะไม่ได้เต็ม ใจเลยสักนิด
 
-11. เทพีอาเทน่า (Athena)
+## 11. เทพีอาเทน่า (Athena)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946481130/home/11.jpg?height=200&width=122)](https://sites.google.com/site/tamnanthephceakrik/home/11.jpg?attredirects=0)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaJ0lAjaq5bR4R0m2jcTn0jnZdL6uPG9sXweKxfSAtvU32C-va)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTc5MzMxLDM2NjA4MDIyMiw5ODc5OD
-M0NjIsLTE2OTE5NjgzNTAsLTc4MjU5NTYyNiwtNjgzMjgxMjQ4
-LC02OTkxNzc3N119
+eyJoaXN0b3J5IjpbLTExMjg3MTU0MDIsMzY2MDgwMjIyLDk4Nz
+k4MzQ2MiwtMTY5MTk2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEy
+NDgsLTY5OTE3Nzc3XX0=
 -->
