@@ -19,9 +19,9 @@
 
 ในราตรีก่อนที่วาเลนตินุสจะเสียชีวิตจากการถูกตัดศีรษะ เขาได้ส่งจดหมายฉบับสุดท้ายให้แก่จูเลีย ซึ่งลงท้ายจดหมายว่า “From Your Valentine” วาเลนตินุสเสียชีวิตในวันที่ 14 กุมภาพันธ์ ค.ศ. 270 และศพของวาเลนตินุสถูกเก็บไว้ในโบสถ์พราซีเดส (Praxedes) ที่กกรุงโรม ใกล้หลุมศพนั้น จูเลียได้ปลูกต้นอามันต์ หรืออัลมอลต์สีชมพู เอาไว้เพื่อมอบแต่วาเลนตินุสผู้เป็นที่รัก จนทุกวันนี้ ต้นอามันต์สีชมพูจึงกลายเป็นตัวแทนแห่งความรักนิรันดร์และมิตรภาพอันแสนยาวนาน
 
-2. เทพีไนกี้ (Nike) เทพีแห่งชัยชนะ
+## 2. เทพีไนกี้ (Nike) เทพีแห่งชัยชนะ
 
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9v009chdnvNW5VItes97ocwAWajDD6pGSjMs-PIkuw24OqRSb&s)
+![enter image description here](https://scontent.fbkk22-1.fna.fbcdn.net/v/t31.0-8/s960x960/1502172_669931873105216_5743326502767514350_o.jpg?_nc_cat=100&_nc_oc=AQnK6b6EP0Fnahg0cEIrdKC8oJQTJcFaQg9dawNpVqZOR7rIX485e5PdxVDov4by-JQ&_nc_ht=scontent.fbkk22-1.fna&oh=5709e138d88125b5fbdd27a9b757517c&oe=5E4E6D8D)
 
   
 
@@ -308,6 +308,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDI2MzM1NiwtNjgzMjgxMjQ4LC02OT
-kxNzc3N119
+eyJoaXN0b3J5IjpbLTEzMTYwMjc1NDgsLTY4MzI4MTI0OCwtNj
+k5MTc3NzddfQ==
 -->
