@@ -125,7 +125,7 @@
 
 7.  เทพีฮีร่า (Hera)  หรือ จูโน (Juno)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946443849/home/7.jpg?height=200&width=113)](https://sites.google.com/site/tamnanthephceakrik/home/7.jpg?attredirects=0)
+![enter image description here](http://2.bp.blogspot.com/-wHg-EYbpCfw/UiE7SaE6sPI/AAAAAAAAAIs/JVPuyfWCOGo/s1600/Hera.gif)
 
   
 
@@ -305,6 +305,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTA4NjEyMCwtNzgyNTk1NjI2LC02OD
-MyODEyNDgsLTY5OTE3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE2OTE5NjgzNTAsLTc4MjU5NTYyNiwtNj
+gzMjgxMjQ4LC02OTkxNzc3N119
 -->
