@@ -21,7 +21,7 @@
 
 2. เทพีไนกี้ (Nike) เทพีแห่งชัยชนะ
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946396922/home/2.jpg?height=200&width=132)](https://sites.google.com/site/tamnanthephceakrik/home/2.jpg?attredirects=0)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9v009chdnvNW5VItes97ocwAWajDD6pGSjMs-PIkuw24OqRSb&s)
 
   
 
@@ -308,5 +308,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzI4MTI0OCwtNjk5MTc3NzddfQ==
+eyJoaXN0b3J5IjpbMTQxNDI2MzM1NiwtNjgzMjgxMjQ4LC02OT
+kxNzc3N119
 -->
