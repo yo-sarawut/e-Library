@@ -143,7 +143,7 @@
 
 เจ้าแม่รู้สึกโกรธในความไม่ซื่อสัตย์ของเทพซูสอย่างเต็มที ฮีร่าจึงได้ขอความร่วมมือกับเทพโปเซดอน ผู้เป็นเชษฐาของเทพซูสเอง รวมไปถึงเทพอพอลโลกับเทวีเอเธน่าด้วย ทุกคนรวมหัวกันจับองค์เทพซูสมัดไว้อย่างแน่นหนา จนเกือบจะทำให้เทพซูสสูญเสียอำนาจอยู่แล้ว แต่พอดีว่ายังชายาของเทพซูสอีกองค์หนึ่งที่มีชื่อว่า มีทิส (หมายความว่าภูมิปัญญา) ได้เข้ามาช่วยเหลือเทพซูสได้ทันเวลา โดยไปนำตัวอาอีกีออน (Aegaeon)  ผู้เป็นอสูรร้อยแขนที่น่ากลัว เข้ามาช่วยเหลือเทพซูสได้อย่างทันท่วงที อสูรตนนี้มีฤทธิ์อย่างมาก จนเทพเทวาทั้งหลายต้องยอมแพ้ไปตาม ๆ กัน เมื่ออาอีกีออนเข้ามาช่วยซูส จึงทำให้บรรดาผู้คิดคดหนีหน้าหายไปหมด และแผนการณ์ครั้งนี้ก็ถูกล้มครืนในที่สุด
 
-8.  เทพาอาเรส (Ares)  หรือ Mars
+## 8.  เทพาอาเรส (Ares)  หรือ Mars
 
 ![enter image description here](https://3.bp.blogspot.com/-3mXbeJpU7j0/XCnw6tR6dBI/AAAAAAACRX8/a7_Gd5ug0dUHB90VO_WD6mTOVw2IIZsJQCLcBGAs/s1600/nicholas-elias-elias-aresgodofwar.jpg)
 
@@ -169,9 +169,9 @@
 
 อาเรสก็มีตำนานด้านความรักเหมือนเทพองค์อื่นๆ เขาได้เร่ร่อนหารักไปเรื่อยๆในโอลิมปัส แต่ไม่ได้ยกย่องให้ใครเป็นชายา อย่างไรก็ตาม มีเรื่องราวความรักของอาเรสที่สำคัญอยู่ครั้งหนึ่ง เรื่องราวนี้เกิดขึ้นตอนที่ได้ลักลอบไปเป็นชู้กับเทวีแห่งความงามและความรัก ที่มีชื่อว่า อโฟรไดท์
 
-9.  เทพีเฮสเทีย (Hestia)
+## 9.  เทพีเฮสเทีย (Hestia)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946462996/home/9.jpg?height=200&width=97)](https://sites.google.com/site/tamnanthephceakrik/home/9.jpg?attredirects=0)
+![enter image description here](https://wachirapanz1.files.wordpress.com/2015/02/hestia1.jpg)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MDgwMjIyLDk4Nzk4MzQ2MiwtMTY5MT
-k2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEyNDgsLTY5OTE3Nzc3
-XX0=
+eyJoaXN0b3J5IjpbLTE1OTEzMDcwOTksMzY2MDgwMjIyLDk4Nz
+k4MzQ2MiwtMTY5MTk2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEy
+NDgsLTY5OTE3Nzc3XX0=
 -->
