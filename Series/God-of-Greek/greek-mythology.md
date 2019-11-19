@@ -71,7 +71,7 @@
 
 ## 4.  เทพอพอลโล (Apollo)
 
-![enter image description here](http://img.online-station.net/_news/2013/0318/5_Zeus___Ascension.jpg)
+![enter image description here](https://trvsdjam.com/wp-content/uploads/2019/10/Apollo-by-Montjart-apollo-41112124-900-1189-768x1015.jpg)
   
 
 อพอลโล (Apollo)  ถือเป็นเทพคู่แฝดกับเทวีอาร์เตมิส ผู้เป็นเทพครองดวงอาทิตย์ คู่กับอาร์เตมิสที่ถือเป็นเทพแห่งดวงจันทร์
@@ -305,6 +305,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE5NjgzNTAsLTc4MjU5NTYyNiwtNj
-gzMjgxMjQ4LC02OTkxNzc3N119
+eyJoaXN0b3J5IjpbOTg3OTgzNDYyLC0xNjkxOTY4MzUwLC03OD
+I1OTU2MjYsLTY4MzI4MTI0OCwtNjk5MTc3NzddfQ==
 -->
