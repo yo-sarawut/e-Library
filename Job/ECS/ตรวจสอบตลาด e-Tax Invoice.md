@@ -135,7 +135,7 @@ Software **SignTax** เป็นซอฟต์แวร์ที่ถูก�
 
 SignTax เป็นระบบที่ใช้งานได้จริง ถูกต้อง เชื่อถือ และเป็นที่ยอมรับแน่นอน ตามมาตรฐานของกรมสรรพากร อีกทั้ง ระบบถูกพัฒนาจากทีมงานผู้เชี่ยวชาญด้านบัญชีและ IT ซึ่งทีมงานสามารถให้คำปรึกษาและสนับสนุนทั้งระบบการออกใบกำกับภาษี และระบบ IT รวมถึงปรับแต่งตามความต้องการไม่ต้องพึ่งพิงต่างประเทศ
 
-<iframe height="100%" width="100%" src="https://static.wixstatic.com/media/48bfa0_17b5689f0f2241f4986160515163264c~mv2.png/v1/fill/w_940,h_445,al_c,q_85,usm_0.66_1.00_0.01/etax_flow.webp" style="border:none"></iframe>
+<iframe height="500px" width="1000px" src="https://static.wixstatic.com/media/48bfa0_17b5689f0f2241f4986160515163264c~mv2.png/v1/fill/w_940,h_445,al_c,q_85,usm_0.66_1.00_0.01/etax_flow.webp" style="border:none"></iframe>
 
 ### Core Features:
 
@@ -214,7 +214,7 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjI4NzMxOCw4MDQ5MDM3MTAsLTkxOD
+eyJoaXN0b3J5IjpbMTMyMTE1MjAyOCw4MDQ5MDM3MTAsLTkxOD
 A3NzgzNywtMTUxMTIwNTYyNiw0OTg0MjY2ODEsLTE3NzUyODYz
 NzgsLTIwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3ODEsMT
 M5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTEx
