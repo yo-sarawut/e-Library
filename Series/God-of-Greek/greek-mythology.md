@@ -33,9 +33,9 @@
 
 ปัจจุบัน เทพีไนกี้ได้รับความยกย่องโดยใช้เป็นชื่อและโลโก้ของผลิตภัณฑ์การกีฬายี่ห้อดังในสหรัฐอเมริกาและเป็นที่รู้จักกันทั่วโลก ลักษณะของโลโก้ที่เป็นรูปโค้งยาวคล้ายเครื่องหมายถูก ก็คือ ลักษณะของปีกของเทพีไนกี้นั่นเอง นอกจากนี้ ไนกี้ยังเป็นเทพีที่เป็นสัญลักษณ์อยู่บนกระโปรงหน้ารถยี่ห้อโรลส์-รอยซ์ อันเป็นเอกลักษณ์แสนพิเศษโดยเฉพาะของรถยนต์ประเทศอังกฤษ รวมไปถึงการ์ตูนญี่ปุ่นเรื่องเซนต์เซย์ย่า ก็มีการนำเทพีไนกี้ไปเป็นตัวละคร โดยเทพีไนกี้ได้กลายร่างเป็นคทาในมือขวาของคิโด ซาโอริ หรือเทพีอาธีน่าที่ลงมาเกิดในโลกมนุษย์นั่นเอง
 
-3.  เพอร์ซุส (perseus)
+## 3.  เพอร์ซุส (Perseus)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946405792/home/3.jpg?height=200&width=149)](https://sites.google.com/site/tamnanthephceakrik/home/3.jpg?attredirects=0)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf25l2iHd6MKSLhp3e586aPu6WivUyMSGxdJNgf1hpjgVEZ_iX)
 
   
 
@@ -308,6 +308,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYwMjc1NDgsLTY4MzI4MTI0OCwtNj
-k5MTc3NzddfQ==
+eyJoaXN0b3J5IjpbLTc4MjU5NTYyNiwtNjgzMjgxMjQ4LC02OT
+kxNzc3N119
 -->
