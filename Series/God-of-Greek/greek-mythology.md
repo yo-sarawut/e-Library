@@ -71,7 +71,6 @@
 
 4.  เทพอพอลโล (Apollo)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946414723/home/4.jpg?height=200&width=180)](https://sites.google.com/site/tamnanthephceakrik/home/4.jpg?attredirects=0)
 
   
 
@@ -308,6 +307,6 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjU5NTYyNiwtNjgzMjgxMjQ4LC02OT
-kxNzc3N119
+eyJoaXN0b3J5IjpbMTgyMDI2MTY2MCwtNzgyNTk1NjI2LC02OD
+MyODEyNDgsLTY5OTE3Nzc3XX0=
 -->
