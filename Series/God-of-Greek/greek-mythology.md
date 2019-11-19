@@ -245,9 +245,9 @@
 
 นอกจากชื่อ เอเธน่า หรือ มิเนอร์วา แล้ว ชาวกรีกและชาวโรมันยังเรียกชื่อเจ้าแม่ในอีกหลายรูปแบบ โดยชื่อที่แพร่หลายมากที่สุด ได้แก่ พัลลัส (Pallas)  ทำให้จนบางที เจ้าแม่ก็ถูกเรียกชื่อควบว่าเป็น พัลลัสเอเธน่า เลยก็มี ซึ่งต้นเหตุที่ชื่อนี้ถูกเรียกกันอย่างกว้างขวาง ก็เพราะครั้งหนึ่งเจ้าแม่เคยปราบยักษ์ตัวหนึ่งที่มีชื่อว่า พัลลัส แม้ตำนานจะไม่ปรากฏชัดแจ้ง แต่ก็มีเรื่องเล่ากันมาว่า เจ้าแม่สามารถฆ่ายักษ์ตนนี้ได้สำเร็จ และถลกเอาหนังของยักษ์ออกมาคลุมองค์ ทำให้กลายเป็นที่มาของชื่อเรียกนี้ไปในที่สุด อีกทั้ง รูปปั้นประติมาหรืออนุสาวรีย์ของพระองค์ ก็ถูกเรียกว่า พัลเลเดียม (Palladium)  ซึ่งคำว่า Palladium  ในภาษาอังกฤษก็หมายความถึง ภาวะหรือปัจจัยที่นำพาความคุ้มครอง หรือความปลอดภัยให้บังเกิดแก่หมู่ชน เปรียบเสมือนพัลเลเดียมที่ชาวโรมันรักษาเอาไว้ในวิหารเวสตานั่นเอง
 
-12.  เทพีอโฟรไดท์ (Aphrodite)  หรือ Venus
+## 12.  เทพีอโฟรไดท์ (Aphrodite)  หรือ Venus
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946489285/home/12.jpg?height=127&width=200)](https://sites.google.com/site/tamnanthephceakrik/home/12.jpg?attredirects=0)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdwTKyTcsgFME21yLcd3etyvH1wmU2wRAg0SljH0YklR6kXRw3)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg3MTU0MDIsMzY2MDgwMjIyLDk4Nz
-k4MzQ2MiwtMTY5MTk2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEy
-NDgsLTY5OTE3Nzc3XX0=
+eyJoaXN0b3J5IjpbMTk4NjE0NzkxMCwtMTEyODcxNTQwMiwzNj
+YwODAyMjIsOTg3OTgzNDYyLC0xNjkxOTY4MzUwLC03ODI1OTU2
+MjYsLTY4MzI4MTI0OCwtNjk5MTc3NzddfQ==
 -->
