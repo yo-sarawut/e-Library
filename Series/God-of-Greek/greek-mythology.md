@@ -283,7 +283,7 @@
 
 13.เทพแพน (Pan)
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483947294010/home/13.jpg?height=200&width=141)](https://sites.google.com/site/tamnanthephceakrik/home/13.jpg?attredirects=0)
+![enter image description here](http://variety.phuketindex.com/wp-content/uploads/2010/09/pan.jpg)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjE0NzkxMCwtMTEyODcxNTQwMiwzNj
-YwODAyMjIsOTg3OTgzNDYyLC0xNjkxOTY4MzUwLC03ODI1OTU2
-MjYsLTY4MzI4MTI0OCwtNjk5MTc3NzddfQ==
+eyJoaXN0b3J5IjpbLTE4NTM2ODU3MjYsLTExMjg3MTU0MDIsMz
+Y2MDgwMjIyLDk4Nzk4MzQ2MiwtMTY5MTk2ODM1MCwtNzgyNTk1
+NjI2LC02ODMyODEyNDgsLTY5OTE3Nzc3XX0=
 -->
