@@ -191,9 +191,9 @@
 
 พรหมจารีเวสตัลมีหน้าที่พิเศษในการอารักขาดูแลวัตถุลึกลับมากๆสิ่งหนึ่ง ที่คนต่างเรียกกันว่า พัลเลเดียม (Palladium)  ผู้คนเชื่อว่า สิ่งนี้เป็นวัตถุที่อีเนียสนำไปจากกรุงทรอย แต่ก็ไม่มีผู้ใดเว้นเสียแต่คณะเวสตัล ที่ทราบว่าสิ่งๆนั้นเป็นอะไรแน่ บ้างก็กล่าวกันว่าเป็นเพียงรูปปั้นของเจ้าแม่เอเธน่า แต่บ้างก็คิดกันว่าเป็น โล่ที่ร่วงหล่นลงมาจากสวรรค์ เมื่อศึกกรุงทรอย ชาวเมืองในกรุงทรอยถือว่าสิ่งนี้ถือเป็นของคู่บ้านคู่เมือง หากยังมีของสิ่งนี้อยู่ กรุงทรอยจะไม่แตกเป็นเด็ดขาด แต่เมื่อยูลิซิสกับไดโอมิดิสผู้เป็นทหารเอกของฝ่ายกรีกได้ขโมยเอาสิ่งนี้ไป กรุงทรอย จึงล้มสลายลง บ้างก็มีตำนานเล่าว่า ความจริงแล้วกรุงทรอยแตกเพราะเสียขวัญ และเสียท่าต่อกรีกมากกว่า
 
-10.  เทพฮาเดส (Hades)  หรือเทพเจ้าพลูโต
+## 10.  เทพฮาเดส (Hades)  หรือเทพเจ้าพลูโต
 
-[![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946473557/home/10.jpg?height=200&width=170)](https://sites.google.com/site/tamnanthephceakrik/home/10.jpg?attredirects=0)
+![enter image description here](http://6688trading.com/wp-content/uploads/2019/04/%E0%B8%A2%E0%B8%A1%E0%B9%82%E0%B8%A5%E0%B8%81.png)
 
   
 
@@ -307,7 +307,7 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEzMDcwOTksMzY2MDgwMjIyLDk4Nz
-k4MzQ2MiwtMTY5MTk2ODM1MCwtNzgyNTk1NjI2LC02ODMyODEy
-NDgsLTY5OTE3Nzc3XX0=
+eyJoaXN0b3J5IjpbMTE1MTc5MzMxLDM2NjA4MDIyMiw5ODc5OD
+M0NjIsLTE2OTE5NjgzNTAsLTc4MjU5NTYyNiwtNjgzMjgxMjQ4
+LC02OTkxNzc3N119
 -->
