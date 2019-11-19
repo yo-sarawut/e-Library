@@ -4,9 +4,9 @@
 
 ![enter image description here](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483776187027/home/5555555.jpg)
 
-## เซนต์วานเลนไทน์
+## เซนต์วานเลนไทน์ ([Saint Valentine](https://www.crusaders-for-christ.com/saint-of-the-day/saint-valentine-february-14th)
 
-![](https://sites.google.com/site/tamnanthephceakrik/_/rsrc/1483946388792/home/1.jpg?height=200&width=173)
+![enter image description here](https://www.crusaders-for-christ.com/uploads/8/9/4/8/8948848/1037999.jpg)
 
 
 วันวาเลนไทน์ กำเนิดขึ้นมาในกรุงโรม หรืออาณาจักรโรมัน ตั้งแต่ศตวรรษที่ 3 ในช่วงยุคของจักรพรรดิคลอดิอุส ที่สอง (Claudius II) เดิมทีจักรพรรดิคลอดิอุสมีนิสัยชอบข่มเหงรังแกผู้อื่น เขามักบังคับให้ชาวโรมันทุกคนต้องสักการะพระเจ้าทั้ง 12 องค์ ใครคิดต่อต้านจะได้รับทำโทษ นอกจากนี้ ยังห้ามไม่ให้เกี่ยวข้องกับพวกคริสเตียนด้วย ทั้งนี้ มีนักบุญผู้หนึ่งที่ชื่อว่า วาเลนตินุส (Valentinus) เขาเกิดความเลื่อมใสศรัทธาต่อพระคริสเป็นอย่างมาก ถึงขนาดให้คำไว้ว่า ความตายหรือสิ่งใดไม่มีทางเปลี่ยนแปลงความคิดของเขาได้ ด้วยการต่อต้านครั้งนี้ จึงทำให้เขาถูกขังคุก
@@ -308,5 +308,5 @@
 
 > [ที่มาบทความ :](https://sites.google.com/site/tamnanthephceakrik/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTE3Nzc3XX0=
+eyJoaXN0b3J5IjpbOTkxODAxODcsLTY5OTE3Nzc3XX0=
 -->
