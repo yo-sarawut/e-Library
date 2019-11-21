@@ -2,7 +2,7 @@ Note for Pandas tutorials
 ===
 
 - [Python Tutorial บทเรียนมากมายตั้งแต่ขั้น Begin - Advance](https://www.journaldev.com/python-tutorial)
-
+- [Python Excel Tutorial: The Definitive Guide ; DataCamp](https://www.datacamp.com/community/tutorials/python-excel-tutorial)
 - [Python e-Book Downloads](https://www.google.com/search?&q=index+of+python+Programming+|+development+.pdf)
 - [Python for Everybody](https://books.trinket.io/pfe/index.html)
 
@@ -42,7 +42,7 @@ Note for Pandas tutorials
 17.  [Resources for Further Learning](https://jakevdp.github.io/WhirlwindTourOfPython/16-further-resources.html)
 18.  [Appendix: Code To Reproduce Figures](https://jakevdp.github.io/WhirlwindTourOfPython/17-figures.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1MjU2NzI4LC0xNzg4MTAwNDg3LC0yMD
+eyJoaXN0b3J5IjpbMjUzMTU3MTMzLC0xNzg4MTAwNDg3LC0yMD
 Y0Mzg1OTksLTEzOTUxMjA2MzIsMjAxMDI5Mzg4NywtMTM1NTE3
 MDMyMyw0NDQyNjgyNF19
 -->
