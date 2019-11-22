@@ -153,7 +153,7 @@ Stennis เป็นผู้ที่มีบทบาทในการผล
 
 ไม่ใช่เรื่องง่ายๆ เลยที่คนต่างชาติจะได้ขึ้นไปเยือนบนเรือรบอันทรงอานุภาพลำหนึ่งของสหรัฐอเมริกาอย่าง  **"ยูเอสเอส จอห์น ซี สเตนนิส" (USS John C. Stennis (CVN 74) )**  จึงต้องบอกว่าเป็นโชคดีมากๆ สำหรับ  **MGR online**  ที่ทางสถานเอกอัครราชทูตสหรัฐอเมริกา ประจำกรุงเทพมหานคร ได้เชิญให้ขึ้นไปร่วมสัมผัสความยิ่งใหญ่ในเรือ ซึ่งแล่นมาเทียบท่ายังท่าเรือแหลมฉบัง อ.ศรีราชา จ.ชลบุรี ตั้งแต่เมื่อวันที่ 10 ก.พ.ที่ผ่านมา  
 
-<iframe width="560" height="315"
+<iframe width="800" height="500"
 src="https://www.youtube.com/embed/VBRKLUyi3mw" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -244,5 +244,6 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzOTQ1MzQwLC0xMTUyMjY5ODRdfQ==
+eyJoaXN0b3J5IjpbNDA1NjA0MjczLDIyMzk0NTM0MCwtMTE1Mj
+I2OTg0XX0=
 -->
