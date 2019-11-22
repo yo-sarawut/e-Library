@@ -104,13 +104,13 @@
   
 จีนประมูลซื้อเรือลำนี้มาเมื่อปี 1998 วาร์แย็กมาถึงจีนในสภาพมีแต่โครง ไร้เครื่องยนต์ ไร้หางเสือ และระบบปฏิบัติการใด ๆ ทั้งนี้ ก็ถูกจับต่อเติมสร้างเพิ่มจนเสร็จสมบูรณ์ ในที่สุดก็เกิดเป็นเรือบรรทุกอากาศยานเหลียวหนิง เข้าประจำการรับใช้กองทัพเรือจีนในปี 2012  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : จีน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 304 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 66,000 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 32 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 2,626 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยาน 30 ลำ, เฮลิคอปเตอร์ 24 ลำ, จรวด 60 ลูก, ขีปนาวุธ 192 ลูก  
+- สัญชาติ : จีน  
+- จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
+- ความยาว : 304 เมตร  
+- ขนาดระวาง : 66,000 ตัน  
+- ความเร็วสูงสุด : 32 นอต  
+- เรือ : 2,626 คน  
+- ยุทโธปกรณ์ : อากาศยาน 30 ลำ, เฮลิคอปเตอร์ 24 ลำ, จรวด 60 ลูก, ขีปนาวุธ 192 ลูก  
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/005_1.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
@@ -118,22 +118,21 @@
 ภาพจาก  [wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/Chinese_aircraft_carrier_Liaoning)  
 
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **6. ไอเอ็นเอส วิกรมาทิตย์ (INS Vikramaditya)**  
+## 6. ไอเอ็นเอส วิกรมาทิตย์ (INS Vikramaditya) 
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/006.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 ภาพจาก  [indiannavy/wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/INS_Vikramaditya)  
 
   
 เรือไอเอ็นเอส วิกรมาทิตย์ เป็นเรือของทัพเรืออินเดีย ที่รับช่วงต่อมาจากเรือกอร์สคอฟ (Gorshkov) ของสหภาพโซเวียตที่ปลดประจำการลงในปี 1996 เนื่องจากเห็นว่าสิ้นเปลืองงบประมาณในการเดินเรือมากเกินไป อินเดียซื้อมันมาในราคา 78 ล้านบาท ทำการต่อเติมใหม่ และนำเข้าประจำการเมื่อปี 2013 ไอเอ็นเอส วิกรมาทิตย์ มีขนาดยาว 282 เมตร ขนาดระวาง 45,400 ตัน มีการติดตั้งระบบกลั่นน้ำเค็มบนเรือ รองรับอากาศยาน 16 ลำ และเฮลิคอปเตอร์ 10 ลำ  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : อินเดีย  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 282 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 45,400 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 32 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 1,400 คน  
+- สัญชาติ : อินเดีย  
+- จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
+- ความยาว : 282 เมตร  
+- ขนาดระวาง : 45,400 ตัน  
+- ความเร็วสูงสุด : 32 นอต  
+- เรือ : 1,400 คน  
  **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยาน 16 ลำ, เฮลิคอปเตอร์ 10 ลำ  
   
 ![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **7. ชาร์ลส์ เดอ โกล เรือบรรทุกอากาศยานพลังงานนิวเคลียร์ (Charles de Gaulle nuclear-powered aircraft carrier)**  
@@ -214,5 +213,5 @@
 
 > Source : [Kapook.com](https://hilight.kapook.com/view/130789).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkzNDc0MjZdfQ==
+eyJoaXN0b3J5IjpbMTMxMDM1ODIxNV19
 -->
