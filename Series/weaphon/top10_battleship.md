@@ -67,19 +67,18 @@
   
 เรือชั้นนิมิทซ์ ของสหรัฐฯ เป็นเรือบรรทุกอากาศยานที่มีขนาดใหญ่ที่สุดในโลกในปัจจุบัน โดยมีขนาดยาว 332 เมตร ขนาดระวาง 100,000 ตัน จากการขับเคลื่อนด้วยพลังงานนิวเคลียร์ ทำให้นิมิทซ์สามารถปฏิบัติการได้โดยไม่จำเป็นต้องเติมเชื้อเพลิงยาวนานถึง 20 ปี อย่างไรก็ตามมันประจำการรับใช้ทัพเรือสหรัฐฯ มาตั้งแต่ปี 1975 โดยคาดว่าจะมีอายุการใช้งานได้ประมาณ 50 ปี แต่กระนั้นทัพเรือสหรัฐฯ ก็ได้เตรียมเรือลำใหม่ที่ใหญ่กว่าเพื่อเข้าประจำการแทนแล้ว คือ เรือบรรทุกอากาศยานชั้นเจอรัลด์-อาร์ ฟอร์ด (Gerald R. Ford-class aircraft carrier)  
   
--สัญชาติ : สหรัฐอเมริกา  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 10 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 332 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 100,000 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 30 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 5,000 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : เครื่องบินทิ้งระเบิดและเครื่องบินรบได้ 85-90 ลำ, ระบบป้องกันขีปนาวุธ  
+- สัญชาติ : สหรัฐอเมริกา  
+- จำนวนเรือในชั้นเดียวกัน : 10 ลำ  
+- ความยาว : 332 เมตร  
+- ขนาดระวาง : 100,000 ตัน  
+- ความเร็วสูงสุด : 30 นอต  
+- เรือ : 5,000 คน  
+- ยุทโธปกรณ์ : เครื่องบินทิ้งระเบิดและเครื่องบินรบได้ 85-90 ลำ, ระบบป้องกันขีปนาวุธ  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **4. เรือบรรทุกอากาศยานชั้นคุซเนทซอฟ (Admiral Kuznetsov-class aircraft carrier)**  
+## 4. เรือบรรทุกอากาศยานชั้นคุซเนทซอฟ (Admiral Kuznetsov-class aircraft carrier)
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/004.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 ภาพจาก  [wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/Kuznetsov-class_aircraft_carrier)
 
   
@@ -87,19 +86,18 @@
   
 นอกจากนี้ ที่จริงแล้วเรือบรรทุกอากาศยานลำนี้ ยังมีพี่น้องในคลาสเดียวกันอีกหนึ่งลำชื่อ วาร์แย็ก (Varyag) ทว่ายูเครนซึ่งเป็นผู้สร้างเรือ ไม่ได้สร้างให้แล้วเสร็จ ก็ได้ขายไปให้กับจีน ซึ่งได้รับไปสร้างต่อให้เสร็จสมบูรณ์ และกลายเป็นเรือบรรทุกอากาศยานในลำดับถัดไป  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : รัสเซีย  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 305 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 55,000 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 29 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 2,356 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยาน 52 ลำ, จรวด 60 ลูก, ขีปนาวุธ 192 ลูก  
+ - สัญชาติ : รัสเซีย  
+- จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
+- ความยาว : 305 เมตร  
+- ขนาดระวาง : 55,000 ตัน  
+- ความเร็วสูงสุด : 29 นอต  
+- เรือ : 2,356 คน  
+- ยุทโธปกรณ์ : อากาศยาน 52 ลำ, จรวด 60 ลูก, ขีปนาวุธ 192 ลูก  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **5. เรือบรรทุกอากาศยานเหลียวหนิง (Liaoning aircraft carrier)**  
+## 5. เรือบรรทุกอากาศยานเหลียวหนิง (Liaoning aircraft carrier) 
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/005.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 วาร์แย็ก  
 ภาพจาก  [wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/Chinese_aircraft_carrier_Liaoning)  
 
@@ -216,5 +214,5 @@
 
 > Source : [Kapook.com](https://hilight.kapook.com/view/130789).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE1MzA2NDNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjkzNDc0MjZdfQ==
 -->
