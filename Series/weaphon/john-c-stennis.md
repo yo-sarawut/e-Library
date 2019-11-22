@@ -141,9 +141,13 @@ Stennis เป็นผู้ที่มีบทบาทในการผล
 
 >**ที่มาบทความ** ทีมงาน [Spaceth.co](https://spaceth.co/)
 
-![] width="420" height="315"
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+![](https://www.youtube.com/VBRKLUyi3mw) 
+
+width="420" height="315"
 src="https://www.youtube.com/v/VBRKLUyi3mw">
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTUzOTkyMywtMTE1MjI2OTg0XX0=
+eyJoaXN0b3J5IjpbMjA4Mjc4NjU3LC0xMTUyMjY5ODRdfQ==
 -->
