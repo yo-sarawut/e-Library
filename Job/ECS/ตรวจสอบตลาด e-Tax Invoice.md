@@ -1,4 +1,4 @@
-สำรวจผลิตภัณฑ์ในระบบ e-Tax Invoice
+สำรวจผลิตภัณฑ์ในรายงานความเคลื่อนไหวระบบ e-Tax Invoice
 ==========
 > update : 18/11/2562
 
@@ -214,10 +214,10 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODMwNjY4MiwxMzIxMTUyMDI4LDgwND
-kwMzcxMCwtOTE4MDc3ODM3LC0xNTExMjA1NjI2LDQ5ODQyNjY4
-MSwtMTc3NTI4NjM3OCwtMjA1NjY1NDczNCwxOTcyMTk4NzAzLD
-UyMDc2Njc4MSwxMzkxMzA3NTYwLC03NzE2NDA3MTAsNjg5MzE5
-NDg0LC03MjY1MTEyMDEsLTk3MTcwNjg2MSw4MzQ3ODk2ODMsLT
-IxOTA2OTczMiwxNjUxNzkwNjY1XX0=
+eyJoaXN0b3J5IjpbNzI0OTg5MTI5LDIwNDgzMDY2ODIsMTMyMT
+E1MjAyOCw4MDQ5MDM3MTAsLTkxODA3NzgzNywtMTUxMTIwNTYy
+Niw0OTg0MjY2ODEsLTE3NzUyODYzNzgsLTIwNTY2NTQ3MzQsMT
+k3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQw
+NzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsOD
+M0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5MDY2NV19
 -->
