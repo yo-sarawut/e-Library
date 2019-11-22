@@ -36,13 +36,12 @@
 - ขนาดระวาง : 27,000 ตัน  
 - ความเร็วสูงสุด : 30 นอต  
 - ลูกเรือ : 970 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : เฮลิคอปเตอร์ 14 ลำ, ระบบต่อต้านการโจมตีใต้น้ำ  
+- ยุทโธปกรณ์ : เฮลิคอปเตอร์ 14 ลำ, ระบบต่อต้านการโจมตีใต้น้ำ  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **2. เรือรบประจัญบานชั้นยามาโตะ (Yamato-class battleship)**  
+## 2. เรือรบประจัญบานชั้นยามาโตะ (Yamato-class battleship)
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/002.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 ภาพจาก  [wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/Yamato-class_battleship)
 
   
@@ -50,15 +49,15 @@
   
 เรือรบประจัญบานชั้นยามาโตะได้ร่วมปฏิบัติการกับกองเรือผสมแห่งญี่ปุ่นในสงครามเพิร์ลฮาร์เบอร์เมื่อปี 1941 ได้ลั่นปืนใหญ่โจมตีคู่ต่อสู้ในสงครามอ่าวเลเต ของฟิลิปปินส์ ในปี 1944 ก่อนจะถูกจมโดยการโจมตีของฝูงบินทัพอเมริกาในปี 1945  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : ญี่ปุ่น  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 2 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 262 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 70,000 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 27 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 2,332 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : ปืน 9x46 ซม. ปืน 12x155 และ 12x127 มม., อากาศยาน 7 ลำ  
+- สัญชาติ : ญี่ปุ่น  
+- จำนวนเรือในชั้นเดียวกัน : 2 ลำ  
+- ความยาว : 262 เมตร  
+- ขนาดระวาง : 70,000 ตัน  
+- ความเร็วสูงสุด : 27 นอต  
+- เรือ : 2,332 คน  
+- ยุทโธปกรณ์ : ปืน 9x46 ซม. ปืน 12x155 และ 12x127 มม., อากาศยาน 7 ลำ  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **3. เรือบรรทุกอากาศยานพลังงานนิวเคลียร์ชั้นนิมิทซ์ (Nimitz-Class nuclear-powered aircraft carrier)**  
+## 3. เรือบรรทุกอากาศยานพลังงานนิวเคลียร์ชั้นนิมิทซ์ (Nimitz-Class nuclear-powered aircraft carrier)
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/003.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
@@ -68,7 +67,7 @@
   
 เรือชั้นนิมิทซ์ ของสหรัฐฯ เป็นเรือบรรทุกอากาศยานที่มีขนาดใหญ่ที่สุดในโลกในปัจจุบัน โดยมีขนาดยาว 332 เมตร ขนาดระวาง 100,000 ตัน จากการขับเคลื่อนด้วยพลังงานนิวเคลียร์ ทำให้นิมิทซ์สามารถปฏิบัติการได้โดยไม่จำเป็นต้องเติมเชื้อเพลิงยาวนานถึง 20 ปี อย่างไรก็ตามมันประจำการรับใช้ทัพเรือสหรัฐฯ มาตั้งแต่ปี 1975 โดยคาดว่าจะมีอายุการใช้งานได้ประมาณ 50 ปี แต่กระนั้นทัพเรือสหรัฐฯ ก็ได้เตรียมเรือลำใหม่ที่ใหญ่กว่าเพื่อเข้าประจำการแทนแล้ว คือ เรือบรรทุกอากาศยานชั้นเจอรัลด์-อาร์ ฟอร์ด (Gerald R. Ford-class aircraft carrier)  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : สหรัฐอเมริกา  
+-สัญชาติ : สหรัฐอเมริกา  
  **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 10 ลำ  
  **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 332 เมตร  
  **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 100,000 ตัน  
@@ -217,5 +216,5 @@
 
 > Source : [Kapook.com](https://hilight.kapook.com/view/130789).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDQ2MjM1NV19
+eyJoaXN0b3J5IjpbLTE3MTE1MzA2NDNdfQ==
 -->
