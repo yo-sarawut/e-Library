@@ -1,5 +1,5 @@
 
-เพกาซัส (Pegasus )
+เพกาซัส (Pegasus)
 ===
 
 เป็นหนึ่งในสัตว์ที่ปรากฎในเทพนิยายกรีก เพกาซัสมีรูปร่างเป็นม้ากำยำพ่วงพีสีขาวบริสุทธิ์ และมีปีกใหญ่โตราวกับนกพิราบ แต่ไม่มีเขาเหมือนยูนิคอร์น
@@ -38,5 +38,5 @@
 
 > Source :  [https://10502sippakorn.wordpress.com](https://10502sippakorn.wordpress.com/2016/12/06/3-%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%B2%E0%B8%8B%E0%B8%B1%E0%B8%AApegasus/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTEzNDMyOF19
+eyJoaXN0b3J5IjpbLTgzOTUzMzQ1NF19
 -->
