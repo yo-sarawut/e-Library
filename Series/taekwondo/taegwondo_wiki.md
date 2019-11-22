@@ -1,7 +1,8 @@
 เทควันโด
 ===
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnJo1GBeHWhqMqPsYgNz7-RS-GlZjx6N6by4uIkQ49JAqxEBm)
 
+
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC2pMlDILOYxZBMA7jQHZ8OftqW2tL6MWzfnOK9DayhDUEz56o)
 เทควันโด (เกาหลี: 태권도, MC: Taegwondo, MR: T'aekwŏndo, แท-ควัน-โด) เป็นศิลปะการต่อสู้ป้องกันตัวโดยไม่ใช้อาวุธของชาวเกาหลี คำว่า "เท" (태; แท) แปลว่า เท้าหรือการโจมตีด้วยเท้า; "ควัน" (권) แปลว่า มือหรือการโจมตีด้วยมือ; "โด" (도) แปลว่า วิถีหรือสติปัญญา ดังนั้นเทควันโดโดยทั่วไป หมายถึง วิถีแห่งการใช้มือและเท้าในการต่อสู้และป้องกันตัว หรือการใช้มือและเท้าในการต่อสู้และป้องกันตัวอย่างมีสติ
 
 จากประวัติศาสตร์ซึ่งเผยแพร่ในช่วงแรกนั้น หลังสงครามโลกครั้งที่สองสงบลง เกาหลีที่ถูกยึดครองโดยญี่ปุ่นในปี 1910-1945 เทควันโดได้ถูกสร้างขึ้นโดยใช้คาราเต้ของญี่ปุ่นเป็นพื้นฐาน แล้วผสมผสานกับศิลปะการต่อสู้ของเกาหลีประเภทอื่นเช่น taekyon subak ทำให้เทควันโดเป็นการต่อสู้ที่แตกต่างสวยงาม โดยใช้เท้าเป็นหลักซึ่งแตกต่างจากคาราเต้ ทั้งรูปแบบการต่อสู้ จุดเด่น การยืน ฟุตเวิร์ก อย่างชัดเจน
@@ -37,7 +38,7 @@
 
 ## การเรียนเทควันโด
 
-![enter image description here](https://img.huffingtonpost.com/asset/5d8f0f002200003300deacdb.jpeg?cache=kFtwbMs7vD&ops=300_219)
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnJo1GBeHWhqMqPsYgNz7-RS-GlZjx6N6by4uIkQ49JAqxEBm)
 
 การเลือกที่เรียนสามารถเรียนเทควันโดได้ทั่วประเทศซึ่งควรดูจาก
 
@@ -80,5 +81,6 @@
 
 > Source :  [th.wikipedia.org](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%82%E0%B8%94).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjUxOTk0NywtMTIxOTQ3MTIyOV19
+eyJoaXN0b3J5IjpbLTEwMDQ4MTAzMzIsLTEyMTk0NzEyMjldfQ
+==
 -->
