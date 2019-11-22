@@ -116,6 +116,8 @@ if __name__ == '__main__':
 Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 ### แทรกรูป Gitbook
+
+
 ```
 <img src="![](https://miro.medium.com/max/1280/1*41oEHeq_kwMWNX9KQGMtIQ.jpeg)" alt="" border="0";>
 ```
@@ -128,11 +130,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzk4MjQ0MSwtODYwODAyMjI4LC01MT
-AzMzQ1NjYsOTg1Njk4MzU5LC02NTY4NTAxNjksNzI4MjkwNjQ4
-LC0yMDI0MjM3ODcsLTI2NDY3MzE2NywxODQ4NTYxMjYzLDEyOT
-A3OTY0NzEsMTkxOTQzNTQyMSwxNzg5ODMyNTc1LC0xNzAxOTM0
-NjQ5LC0zMDU4Njk2ODksNzk5OTI1NTg0LDE1NDg2MTU3ODUsMT
-g1NTYwNzI1MSwtMjA0MDc5NTUzMSwtMTc5MTc4Njk5MywtNTQ1
-NzQzMjkwXX0=
+eyJoaXN0b3J5IjpbLTU2MDc4Mjc4OSwtNjI3OTgyNDQxLC04Nj
+A4MDIyMjgsLTUxMDMzNDU2Niw5ODU2OTgzNTksLTY1Njg1MDE2
+OSw3MjgyOTA2NDgsLTIwMjQyMzc4NywtMjY0NjczMTY3LDE4ND
+g1NjEyNjMsMTI5MDc5NjQ3MSwxOTE5NDM1NDIxLDE3ODk4MzI1
+NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OTk5MjU1ODQsMT
+U0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1NTMxLC0xNzkx
+Nzg2OTkzXX0=
 -->
