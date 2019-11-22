@@ -122,6 +122,13 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 ```
 <img src="![](https://miro.medium.com/max/1280/1*41oEHeq_kwMWNX9KQGMtIQ.jpeg)" alt="" border="0";>
 ```
+### Youtube
+```
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+
+```
+
 [https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control](https://ecs_knowledge_center.gitlab.io/e-customs/e-Import/Manual/data-structure.html#import-declaration-control)
 
 
@@ -131,11 +138,11 @@ Token : 7jC9C8Ar613bOLx5wpeY2C17
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3MjQ1NTE3LC02Mjc5ODI0NDEsLTg2MD
-gwMjIyOCwtNTEwMzM0NTY2LDk4NTY5ODM1OSwtNjU2ODUwMTY5
-LDcyODI5MDY0OCwtMjAyNDIzNzg3LC0yNjQ2NzMxNjcsMTg0OD
-U2MTI2MywxMjkwNzk2NDcxLDE5MTk0MzU0MjEsMTc4OTgzMjU3
-NSwtMTcwMTkzNDY0OSwtMzA1ODY5Njg5LDc5OTkyNTU4NCwxNT
-Q4NjE1Nzg1LDE4NTU2MDcyNTEsLTIwNDA3OTU1MzEsLTE3OTE3
-ODY5OTNdfQ==
+eyJoaXN0b3J5IjpbNTIxMTA5MzYyLDY4NzI0NTUxNywtNjI3OT
+gyNDQxLC04NjA4MDIyMjgsLTUxMDMzNDU2Niw5ODU2OTgzNTks
+LTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMjQyMzc4NywtMjY0Nj
+czMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3MSwxOTE5NDM1NDIx
+LDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OT
+k5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1
+NTMxXX0=
 -->
