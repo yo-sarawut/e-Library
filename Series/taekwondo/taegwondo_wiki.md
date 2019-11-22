@@ -49,6 +49,8 @@
 
 ## หลักสูตรการเรียน
 
+![enter image description here](http://www.thannam.net/pic_news/1314093136.jpg)
+
 เรียนท่าเตะ และท่าต่อสู้ป้องกันตัวประกอบด้วยท่าพื้นฐาน
 - การใช้มือจู่โจม ในท่าต่างๆ มือ เท้า เข่า ศอก จะเห็นได้จากท่าสอดแทรกที่ใช้ใน สเตป ตอนสอบสาย
 
@@ -78,5 +80,5 @@
 
 > Source :  [th.wikipedia.org](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%82%E0%B8%94).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTQ4Mzg5OSwtMTIxOTQ3MTIyOV19
+eyJoaXN0b3J5IjpbMTk4NjUxOTk0NywtMTIxOTQ3MTIyOV19
 -->
