@@ -144,11 +144,7 @@ Stennis เป็นผู้ที่มีบทบาทในการผล
 
 
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/VBRKLUyi3mw" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
 
 พาชม USS John C. Stennis เรือรบบรรทุกอากาศยานสหรัฐ ยิ่งใหญ่สมฐานะมหาอำนาจ!
 ===
@@ -156,6 +152,12 @@ allowfullscreen></iframe>
 ![enter image description here](https://mpics.mgronline.com/pics/Images/562000001811101.JPEG)
 
 ไม่ใช่เรื่องง่ายๆ เลยที่คนต่างชาติจะได้ขึ้นไปเยือนบนเรือรบอันทรงอานุภาพลำหนึ่งของสหรัฐอเมริกาอย่าง  **"ยูเอสเอส จอห์น ซี สเตนนิส" (USS John C. Stennis (CVN 74) )**  จึงต้องบอกว่าเป็นโชคดีมากๆ สำหรับ  **MGR online**  ที่ทางสถานเอกอัครราชทูตสหรัฐอเมริกา ประจำกรุงเทพมหานคร ได้เชิญให้ขึ้นไปร่วมสัมผัสความยิ่งใหญ่ในเรือ ซึ่งแล่นมาเทียบท่ายังท่าเรือแหลมฉบัง อ.ศรีราชา จ.ชลบุรี ตั้งแต่เมื่อวันที่ 10 ก.พ.ที่ผ่านมา  
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/VBRKLUyi3mw" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
   
 
 ![](https://mpics.mgronline.com/pics/Images/562000001811102.JPEG)
@@ -238,9 +240,9 @@ allowfullscreen></iframe>
 
 ![](https://mpics.mgronline.com/pics/Images/562000001811114.JPEG)
 
-> Source : []()
+> Source : [mgronline.com](https://mgronline.com/onlinesection/detail/9620000017497)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYwMDczMzQsLTExNTIyNjk4NF19
+eyJoaXN0b3J5IjpbMjIzOTQ1MzQwLC0xMTUyMjY5ODRdfQ==
 -->
