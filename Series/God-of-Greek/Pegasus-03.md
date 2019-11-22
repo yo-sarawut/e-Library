@@ -1,0 +1,60 @@
+
+เปิดตำนาน “เพกาซัส” ม้ามีปีก
+==
+
+Pegasus เป็นสัตว์ยอดเยี่ยมซึ่งสามารถพบได้ในตำนานเทวดาภาษากรีก เจ้าสัตว์ตัวนี้มีรูปร่างเสมือนม้า กายสีขาวแต่ว่ามีปีก ซึ่งบิดาของมันบางครั้งก็อาจจะเป็นเทวดาที่สมุทรอย่าง Poseidon ตอนที่แม่เป็น Medusa Pegasus นั้นมีชื่อเสียงจากการที่ได้ให้ความให้การช่วยเหลือ Perseus แล้วก็ Bellerophon สำหรับเพื่อการทำภารกิจ
+
+![](https://miro.medium.com/max/60/0*n2awNfHJxCwIBXF-.jpg?q=20)
+
+![](https://miro.medium.com/max/1400/0*n2awNfHJxCwIBXF-.jpg)
+
+Pegasus เกิดขึ้นมาในตอนที่ Perseus สะบั้นคอของ Medusa ขาด แล้วก็ทันทีทันใดเจ้าม้ามีปีกตัวนี้ก็บินออกมาจากคอที่ขาดนั้น  [**UFABET**](https://www.ufa-th.net/ufabet/)  ข้างในข้างหลังนี้ Pegasus ได้เป็นเป็นยานพาหนะของ Bellerophon แล้วก็ยังเผชิญได้จากการช่วยวีรบุรุษสำหรับเพื่อการกำจัดสัตว์ร้ายยกตัวอย่างเช่น Chimera รวมทั้งเรื่องราวการบินไปที่ Olympus
+
+ในนิยายของ Hesiod เขียนไว้ว่า Medusa ได้ร่วมเพศกับ Poseidon ท่ามกลางทุ่งดอกไม้ จนถึงก่อเกิดเป็น Pegasus กับ Chrysaor
+
+![](https://miro.medium.com/max/56/0*68poWxSl7FWpxoXu.jpg?q=20)
+
+![](https://miro.medium.com/max/610/0*68poWxSl7FWpxoXu.jpg)
+
+Hesiod ยังพูดถึงภายหลังที่ Pegasus ได้กำเนิดออกมาเจ้าม้าก็ได้บินไปที่ Olympus ซึ่งเป็นที่อยู่ราชสำนักของ Zeus แล้วก็ Pegasus  [**UFABET**](https://www.ufa-th.net/ufabet/)  ก็ได้รับหน้าที่แปลงเป็นยานพาหนะของทวยเทพเทวดาสายฟ้า
+
+แต่ว่าในตำนานอีกแบบพูดว่า Pegasus ได้ใช้เวลาอยู่บนโลกก่อนจะบินไปที่ Olympus รวมทั้งระหว่างนั้น Pegasus ก็ได้ให้ความช่วยเหลือเกื้อกูลสองวีรบุรุษอย่าง Perseus รวมทั้ง Bellerophon
+
+ภายหลังการเสียชีวิตของ Medusa Perseus ก็ได้กลับไปอยู่ที่บ้านของเขา รวมทั้งกลางทางก็ได้ยินเรื่องของหญิงงามที่ถูกตรึงโซ่ไว้กับหิน  [**UFABET**](https://www.ufa-th.net/ufabet/)  โน่นเป็น Andromeda บุตรสาวของกษัตริย์และก็ราชินีที่ Ethiopia รวมทั้งด้วยเหตุว่าราชินีได้ไปคุยโตว่าบุตรสาวตนเองนั้นงามกว่า Nereids ผู้ติดตามของ Poseidon
+
+![](https://miro.medium.com/max/46/0*XMaj_wp0PGBJRHki.jpg?q=20)
+
+![](https://miro.medium.com/max/542/0*XMaj_wp0PGBJRHki.jpg)
+
+Poseidon โกรธมากๆก็เลยได้ลงอาญาพลเมืองของ Ethiopia โดยทำให้น้ำหลาก ซึ่งโน่นเป็นเพียงแค่ขั้นตอนแรกเพียงแค่นั้น  [**UFABET**](https://www.ufa-th.net/ufabet/)  ถัดมาก็ได้ส่งสัตว์สมุทรยักษ์ Cetus รุกรามพวกเขา ซึ่งทางเดียวที่จะทำให้ Poseidon หายโกรธเป็นการบวงสรวง Andromeda นี่ก็เลยเป็นเหตุผลให้คุณถูกตรึงไว้กับหิน
+
+และก็เมื่อ Perseus ทราบเข้าก็ได้เสนอตัวเข้าช่วยเจ้าฟ้าหญิง และก็จะช่วยจัดแจงกับตัวประหลาด Cetus แต่ว่ามีเงื่อนไขเป็นเขาจะต้องได้สมรสกับ Andromeda ซึ่งกษัตริย์ที่ Ethiopia ก็ตกลง รวมทั้งเมื่อ Cetus จะมาจัดแจงกับเจ้าฟ้าหญิง มันก็จะต้องถูกสาปให้เปลี่ยนเป็นหิน จากผลการมองดูหัวของ Medusa ที่ Perseus มีอยู่
+
+ถัดมาจะคือเรื่องของ Pegasus และก็ Bellerophon ซึ่งว่าตามตำนานหนึ่ง Bellorophon ได้มาที่เมืองที่ Tiryns ซึ่งเป็นที่ที่ Proetus เป็นราชาอยู่ แต่ว่าราชินี Stheneboea ได้กำเนิดหลงเสน่ห์กับ Bellerophon เข้าให้
+
+ถึง Bellerophon จะไม่ยอมรับความรักที่ได้จาก Stheneboea โน่นทำให้คุณขายหน้ามากมาย คุณก็เลยไปโป้ปดมดเท็จผัวตนเองว่า Bellerophon ได้กระทำให้ท่าให้ทางแก่คุณ ก็เลยอยากได้ให้ประหารเขาเสีย  [**UFABET**](https://www.ufa-th.net/ufabet/)  โน่นทำให้ Proetus โกรธเกรี้ยวมากมาย แล้วก็ส่ง Bellerophon ไปให้พ่อบุญธรรม Iobates จัดแจง
+
+![](https://miro.medium.com/max/60/0*ProSFMyIPUT-WaOw.jpg?q=20)
+
+![](https://miro.medium.com/max/800/0*ProSFMyIPUT-WaOw.jpg)
+
+Iobates กษัตริย์ที่ Lycia ได้อ่านจดหมายที่ลูกเขาขอร้องให้ทำประหาร Bellerophon ซะ แต่ว่าแทนที่จะประหาร  [**UFABET**](https://www.ufa-th.net/ufabet/)  เขากลับตกลงใจให้ภารกิจกับ Bellerophon โดยให้เขาไปจัดแจง Chimera โดยที่ไม่คิดว่าเขาจะสามารถรอดกลับมาได้
+
+ขณะทำการเตรียมการ Bellerophon ได้ไปขอความเห็นจากนักทำนายชื่อ Polyeidos ได้เขาได้รับข้อแนะนำให้ไปค้นหา Pegasus มาช่วย แต่ว่าบางตำนานก็พูดว่า Polyeidos รู้ที่อยู่ของ Pegasus และก็ช่วยทำให้ Bellerophon ฝึกฝน Pegasus ให้เชื่องได้
+
+แต่ว่าอีกบางนำนานก็บอกว่า Poseidon ซึ่งเป็นบิดาลับๆของ Bellerophon ได้นำ Pegasus มาให้เขาเอง แต่ว่าตำนานที่ได้รับความนิยมเยอะที่สุดเป็น Athena นำ Pegasus มาให้กับ Bellerophon เอง  [**UFABET**](https://www.ufa-th.net/ufabet/)  แล้วก็จากการช่วยเหลือเกื้อกูลของ Pegasus ทำให้ Bellerophon ก็สามารถกำจัด Chimera ลงได้
+
+![](https://miro.medium.com/max/60/0*wluirAWvVI00bjJp.jpeg?q=20)
+
+![](https://miro.medium.com/max/700/0*wluirAWvVI00bjJp.jpeg)
+
+ถัดมาความหยิ่งตัวของ Bellerophon ก็มากเพิ่มขึ้น  [**UFABET**](https://www.ufa-th.net/ufabet/)  แล้วก็เขาต้องการที่กำลังจะได้อยู่ในชั้นสูงของ Olympus รวมทั้ง Zeus ได้ตระหนักถึงความใฝ่สูงของวีรบุรุษคนนี้ เขาได้ส่งตัวถัดไปต่อย Pegasus ทำให้ Bellerophon สูญเสียความสมดุลแล้วก็หลุดล่วงไปยังโลก
+
+ส่วนเจ้าม้า Pegasus ก็ยังได้อยู่บน Olympus แล้วก็รับใช้ Zeus ทวยเทพเทวดาสายฟ้าถัดไปนานเท่านาน…
+
+แม้พวกเราเอ่ยถึงสัตว์ที่เป็นยานพาหนะที่มักโผล่มาในรูปภาพยนต์หรืออนิเมชั่นที่เกี่ยวกับเทพนิยายภาษากรีก แน่ๆว่าชื่อของเจ้าม้ามีปีก “Pegasus” จำเป็นต้องโผล่ออกมาจริงแท้แน่นอน  [**UFABET**](https://www.ufa-th.net/ufabet/)
+
+> Written with [StackEdit](https://medium.com/@Doraemonz/%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99-%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%B2%E0%B8%8B%E0%B8%B1%E0%B8%AA-%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%B5%E0%B8%81-f9991c2155ca).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAwMDYzOTU5OV19
+-->
