@@ -133,13 +133,12 @@
 - ขนาดระวาง : 45,400 ตัน  
 - ความเร็วสูงสุด : 32 นอต  
 - เรือ : 1,400 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยาน 16 ลำ, เฮลิคอปเตอร์ 10 ลำ  
+- ยุทโธปกรณ์ : อากาศยาน 16 ลำ, เฮลิคอปเตอร์ 10 ลำ  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **7. ชาร์ลส์ เดอ โกล เรือบรรทุกอากาศยานพลังงานนิวเคลียร์ (Charles de Gaulle nuclear-powered aircraft carrier)**  
+## ชาร์ลส์ เดอ โกล เรือบรรทุกอากาศยานพลังงานนิวเคลียร์ (Charles de Gaulle nuclear-powered aircraft carrier)
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/007.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 ภาพจาก  [usni](https://www.kapook.com/webout.php?url=http://news.usni.org/2015/01/07/french-carrier-deploy-indian-ocean-join-isis-fight)
 
   
@@ -147,30 +146,29 @@
   
 ปูมประวัติสมัยก่อสร้างเรือชาร์ลส์ เดอ โกล มีความน่าสนใจไม่น้อย ในปี 1993 หนังสือพิมพ์เดอะการ์เดียนอ้างว่า วิศวกรกลุ่มหนึ่งที่เข้าเยี่ยมการก่อสร้างเรือเป็นสายลับ MI6 ของอังกฤษ ที่พยายามล้วงข้อมูลทางเทคนิค แต่อย่างไรก็ตาม ในภายหลังเดอะการ์เดียนก็ได้ตีพิมพ์ใหม่ปฏิเสธข่าวดังกล่าวนี้ โดยข้อมูลมาจากทั้งฝ่ายรัฐบาลอังกฤษและฝรั่งเศสเอง  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : ฝรั่งเศส  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 261 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 42,000 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 32 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : 1,950 คน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยาน 40 ลำ, ระบบป้องกันขีปนาวุธ  
+- สัญชาติ : ฝรั่งเศส  
+- จำนวนเรือในชั้นเดียวกัน : 1 ลำ  
+- ความยาว : 261 เมตร  
+- ขนาดระวาง : 42,000 ตัน  
+- ความเร็วสูงสุด : 32 นอต  
+- เรือ : 1,950 คน  
+- ยุทโธปกรณ์ : อากาศยาน 40 ลำ, ระบบป้องกันขีปนาวุธ  
   
-![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **8. เรือโจมตีสะเทินชั้นวาสพ์ (Wasp Class amphibious assault ship)**  
+## 8. เรือโจมตีสะเทินชั้นวาสพ์ (Wasp Class amphibious assault ship)  
   
 
 ![10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ](https://hilight.kapook.com/img_cms2/user/surattana/bell_2558/sep_01/008.jpg "10 สุดยอดเรือรบที่ทรงพลังและใหญ่ที่สุดในโลก ")  
-
 ภาพจาก  [wikipedia](https://www.kapook.com/webout.php?url=https://en.wikipedia.org/wiki/USS_Wasp_%28LHD-1%29)
 
   
 เรือโจมตีสะเทินชั้นวาสพ์ของสหรัฐฯ ถูกออกแบบมาเพื่อบรรทุกเฮลิคอปเตอร์โดยเฉพาะ บนดาดฟ้าเรือยังมีลิฟต์ขนอากาศยานที่พับได้อยู่ 2 ตัว ซึ่งจะพับเข้าหาตัวเรือ เพื่อให้สามารถล่องผ่านช่องแคบ อาทิ คลองปานามาได้  
   
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** สัญชาติ : สหรัฐอเมริกา  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** จำนวนเรือในชั้นเดียวกัน : 8 ลำ  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความยาว : 253 เมตร  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ขนาดระวาง : 40,500 ตัน  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ความเร็วสูงสุด : 22 นอต  
- **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ลูกเรือ : ลูกเรือ 1,298 คน นาวิกโยธิน 1,894 นาย  
+- สัญชาติ : สหรัฐอเมริกา  
+- จำนวนเรือในชั้นเดียวกัน : 8 ลำ  
+- ความยาว : 253 เมตร  
+- ขนาดระวาง : 40,500 ตัน  
+- ความเร็วสูงสุด : 22 นอต  
+- เรือ : ลูกเรือ 1,298 คน นาวิกโยธิน 1,894 นาย  
  **![](https://hilight.kapook.com/img_cms2/icon_2015/ann78_1.gif)** ยุทโธปกรณ์ : อากาศยานขึ้นลงในแนวดิ่ง 6 ลำ, เฮลิคอปเตอร์ 24 ลำ, ระบบต่อต้านขีปนาวุธ  
   
 ![](https://hilight.kapook.com/img_cms2/icon_2015/ann-154.gif)  **9. เรือบรรทุกอากาศยานชั้นอินวิซิเบิล (Invincible class aircraft carrier)**  
@@ -213,5 +211,5 @@
 
 > Source : [Kapook.com](https://hilight.kapook.com/view/130789).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDM1ODIxNV19
+eyJoaXN0b3J5IjpbLTQxMjMxNDgyMl19
 -->
