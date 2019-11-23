@@ -45,7 +45,9 @@
 
 ดูคลิปที่นายกฯ สิงคโปร์ พูดเต็ม ๆ ได้ที่ YouTube ของ  [Prime Minister's Office, Singapore](https://www.youtube.com/watch?v=p_vmthF_UI4&index=1&list=PLqvAkd0-laMczDSFxxlJ44EzE9hsSOpjD)  (มี Subtitle ภาษาอังกฤษ)
 
-_อ้างอิงข้อมูลจาก  [ChannelNewsAsia](https://www.channelnewsasia.com/news/singapore/good-design-thinking-critical-in-transforming-singapore-again-pm-10107590)  ,  [The Strairs Times](http://www.straitstimes.com/singapore/pm-lee-calls-for-reimagining-of-singapore)  และ  [The New Paper](http://www.tnp.sg/news/singapore/pm-lee-time-reimagine-and-rebuild-singapore)_
+อ้างอิงข้อมูลจาก  [ChannelNewsAsia](https://www.channelnewsasia.com/news/singapore/good-design-thinking-critical-in-transforming-singapore-again-pm-10107590)  ,  [The Strairs Times](http://www.straitstimes.com/singapore/pm-lee-calls-for-reimagining-of-singapore)  และ  [The New Paper](http://www.tnp.sg/news/singapore/pm-lee-time-reimagine-and-rebuild-singapore)
+
+> [Tags : Design Thinking ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkxNDEzNjVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDE3NDc2NDRdfQ==
 -->
