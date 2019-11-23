@@ -16,7 +16,7 @@
 
 นายกฯ สิงคโปร์ได้พูดถึงการสร้าง “**กระบวนการคิดเชิงออกแบบ**” หรือ “**Design Thinking**” ที่ดีนั้นเป็นสิ่งสำคัญที่ทำให้ประเทศสิงคโปร์เปลี่ยนจากประเทศโลกที่สามขึ้นมาเป็นประเทศอันดับต้น ๆ ของโลก และ Design Thinking มีความสำคัญต่อการเปลี่ยนแปลงของสิงคโปร์ รวมถึงจะทำให้สิงคโปร์ยังสามารถเป็นประเทศชั้นนำของโลกได้ต่อไป
 
-[![](https://storage.googleapis.com/techsauce-prod/uploads/2015/09/800px-Merlion_and_the_Singapore_Skyline.jpg)](https://storage.googleapis.com/techsauce-prod/uploads/2015/09/800px-Merlion_and_the_Singapore_Skyline.jpg)
+![](https://storage.googleapis.com/techsauce-prod/uploads/2015/09/800px-Merlion_and_the_Singapore_Skyline.jpg)
 
 โดย 'ลี เซียน ลุง' กล่าวถึง 'ลี กวน ยู' อดีตนายกรัฐมนตรีและรัฐบุรุษของสิงคโปร์ผู้ล่วงลับไป (และยังเป็นบิดาของนายกฯ สิงคโปร์ผู้นี้อีกด้วย) ว่า “สิงคโปร์เป็นชาติที่มาจากการออกแบบหรือ Design ขึ้นมา ไม่มีสิ่งใดในสิงคโปร์ที่เป็นอยู่ในวันนี้ เกิดขึ้นมาตามธรรมชาติ หรือเกิดขึ้นมาด้วยตัวเอง เช่น การเติบโตของเศรษฐกิจ การยืนอยู่ในแถวหน้าในระดับโลก ความสามัคคีของหลากหลายเชื้อชาติ ซึ่งเชื้อชาติของพวกเราก็ไม่ได้มาจากสิงคโปร์ตั้งแต่แรก”
 
@@ -49,5 +49,6 @@
 
 > [Tags : Design Thinking ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE3NDc2NDRdfQ==
+eyJoaXN0b3J5IjpbLTE4ODA2MDY4ODQsLTE0NDE3NDc2NDRdfQ
+==
 -->
