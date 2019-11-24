@@ -1,6 +1,7 @@
 คุณลักษณะสำคัญ ของคนที่จะประสบความสำเร็จ และช่วยองค์กรได้ดีจริง ๆ
 ===
 
+![enter image description here](https://betanews.com/2018/05/30/an-inside-look-at-googles-hiring-and-onboarding-processes/&psig=AOvVaw3j-bM-rrkJYSLBcU8Ezgnk&ust=1574647173380000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLij1ofggeYCFQAAAAAdAAAAABAD)
 Google ซึ่งเป็นบริษัทยักษ์ใหญ่ ตั้งสถาบันการศึกษาของตัวเอง ได้วิจัยสรุปออกมาว่า คนที่จะประสบความสำเร็จ และช่วยองค์กรได้ดีจริงๆนั้น จะต้องมีคุณลักษณะสำคัญ ดังนี้
 
 1. being a good coach; การเป็นโค้ชที่ดี คำนี้ฟังยากนิดหน่อย แต่เป็นคำทันสมัยมาก โค้ชคือผู้นำทาง โดยเฉพาะ Life Coach หรือ โค้ชชีวิต นำผู้อื่นได้โดยการตั้งคำถาม แต่ไม่ใช่บอกตรงๆ
@@ -25,5 +26,5 @@ Google ซึ่งเป็นบริษัทยักษ์ใหญ่ ต
 
 > Source: [FB : สมเกียรติ โอสถสภา(https://www.facebook.com/somkiat.osotsapa?__tn__=%2CdCH-R-R&eid=ARBwAH3V55lA_yrBmQZWeBDxdi3JrkrQoMeNkMGNAHjzBcIT2-WCzaeq4NvA6xHESCsJSCndfc_CUOaS&hc_ref=ARRlXdl5V0Hn540zHDJMSQoyP5uRKWdJaRoWHSR4qdJOogPmkhXg0uI9E7dH2Z4CDeY&fref=nf&hc_location=group).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0OTU0ODM2XX0=
+eyJoaXN0b3J5IjpbOTc5ODI1MzY3XX0=
 -->
