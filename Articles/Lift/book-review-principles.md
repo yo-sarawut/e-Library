@@ -519,6 +519,10 @@ Work is either 1) a job you do to earn the money to pay for the life you want to
 **ถ้าจะให้สรุปหนังสือเล่มนี้ในหนึ่งประโยคผมนึกถึง คำพูดนี้ นี้จากภาพยนต์เรื่อง Rocky Balboa ครับ**
 
 โลกไม่ได้มีแต่แสงแดดและสายรุ้ง มันมีทั้งความโหดร้ายและหยาบคายมาก โลกไม่แคร์หรอกว่าคุณจะแกร่งแค่ไหน มันจะซ้อมคุณจนทรุด และกดคุณอยู่อย่างนั้นตลอดไปถ้าคุณยอมมัน ไม่ว่าคุณหรือผมก็ไม่มีใครหรอกที่ชกได้หนักเท่าชีวิต แต่มันไม่เกี่ยวว่าคุณหมัดหนักแค่ไหน แต่มันอยู่ที่ว่าคุณรับหมัดได้หนักแค่ไหนตั้งหากล่ะ และลุยต่อไปข้างหน้า รับและลุยต่อไปข้างหน้า ชัยชนะต้องแบบนั้นภาพยนตร์ Rocky Balboa
+
+ข้อมูลเพิ่มเติม
+- [https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1](https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA3ODMyMTcsNzYwNzkyNTQxXX0=
+eyJoaXN0b3J5IjpbLTE4NjUwMzk0MjMsLTIxMjA3ODMyMTcsNz
+YwNzkyNTQxXX0=
 -->
