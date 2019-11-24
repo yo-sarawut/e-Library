@@ -1,9 +1,9 @@
 
-Explore topics
+[Explore topics](https://medium.com/topics)
 ==
 
 
-Arts & Entertainment
+## Arts & Entertainment
 
 [Art](https://medium.com/topic/art)
 
@@ -89,7 +89,9 @@ Arts & Entertainment
 
 [](https://medium.com/topic/writing)
 
-Industry
+
+
+## Industry
 
 [Biotech](https://medium.com/topic/biotech)
 
@@ -139,7 +141,7 @@ Industry
 
 [](https://medium.com/topic/work)
 
-Innovation & Tech
+## Innovation & Tech
 
 [Accessibility](https://medium.com/topic/accessibility)
 
@@ -229,7 +231,7 @@ Innovation & Tech
 
 [](https://medium.com/topic/visual-design)
 
-Life
+## Life
 
 [Addiction](https://medium.com/topic/addiction)
 
@@ -315,7 +317,7 @@ Life
 
 [](https://medium.com/topic/travel)
 
-Society
+## Society
 
 [Basic Income](https://medium.com/topic/basic-income)
 
@@ -413,5 +415,5 @@ Society
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjgyNDY5XX0=
+eyJoaXN0b3J5IjpbLTEzODAxNzgwOTRdfQ==
 -->
