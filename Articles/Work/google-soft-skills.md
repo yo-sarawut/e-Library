@@ -1,0 +1,7 @@
+คุณลักษณะสำคัญ ของคนที่จะประสบความสำเร็จ และช่วยองค์กรได้ดีจริง ๆ
+
+
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NDYzNzZdfQ==
+-->
