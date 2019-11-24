@@ -37,6 +37,7 @@
 
 - [==**Hugo Docs**==](https://github.com/gohugoio/hugo/tree/master/docs)
 - [[==**GitLab Docs**==](https://gitlab.com/rimgitlab/gitlab-docs)
+- [Hugo-Book/](https://themes.gohugo.io/hugo-book/) , []
 - [Hugo Fresh](https://themes.gohugo.io/hugo-fresh/)
 ![enter image description here](https://d33wubrfki0l68.cloudfront.net/759b7396fd8035fb2d147f63abad98ba7d401a31/d34c2/hugo-fresh/screenshot-hugo-fresh_hu59575f96195d76c58e16ef86a2d7af31_99859_750x500_fill_catmullrom_top_2.png)
 
@@ -79,7 +80,7 @@
 
 - [เริ่มต้นใหม่ด้วย Next.js (5 ตอน)](https://medium.com/dev-it/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-next-js-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-686593f1ca43)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MDQ5MjI5LDUzODg1NTc3LC0xMzk3Mz
-gxNTA4LC0xNDkzNzI0MDEsMTc5NjQxODU3OSw5Nzg3MDQwMDks
-MjMzNjU4MTIyLC0xMjY1NTE0NTc4XX0=
+eyJoaXN0b3J5IjpbLTE1Njc2NTM0MzQsMzM0MDQ5MjI5LDUzOD
+g1NTc3LC0xMzk3MzgxNTA4LC0xNDkzNzI0MDEsMTc5NjQxODU3
+OSw5Nzg3MDQwMDksMjMzNjU4MTIyLC0xMjY1NTE0NTc4XX0=
 -->
