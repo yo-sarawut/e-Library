@@ -104,6 +104,8 @@
 
 ### อีลอน มักส์
 
+![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRMa6QzM5GNWrcyUxv-JqcRjOm4Nf9QKl5x0AkAHMhoSsW71Oq)
+
 เรย์ เล่าให้ฟังว่าตอนที่ เทสล่า (Tesla) ออกรถรุ่นแรกมาขายเขาได้มีโอกาสพบปะพูดคุยกับ อีลอน มักส์ หลังจากคุยเรื่องรถซักพักเขาก็ถาม อีลอน ว่าทำไมถึงได้ตั้งบริษัท สเปซเอ็กซ์ (SpaceX) ล่ะ
 
 คำตอบที่ไดัรับทำให้ เรย์ ต้องประหลาดใจในความกล้าของ อีลอน
@@ -332,6 +334,8 @@ In order to have the best life possible you have to
 
 ## พาร์ทที่ 3 : หลักการ ในการทำงาน (Work Principle)
 
+![enter image description here](https://stock2morrow.com/ckfinder/userfiles/images/principals-edited.png)
+
 องค์กรคือเครื่องจักรที่ประกอบไปด้วย 2 ส่วนที่ใหญ่ที่สุดอันได้แก่ 1 คน 2 วัฒนธรรม การขับเคลื่อนองค์กรให้สำเร็จมันไม่มีอะไรยากและสำคัญไปกว่าการได้คนที่ถูกต้อง และการทำให้วัฒนธรรมองค์กรนั้นเหมาะสม
 
 สำหรับคนส่วนใหญ่การได้เป็นส่วนหนึ่งของสังคมที่ดี และมีเป้าหมายร่วมกันมีค่ามากกว่าเงินซะอีก (For most people, being part of a great community on a shared mission is even more rewarding than money)
@@ -526,6 +530,6 @@ Work is either 1) a job you do to earn the money to pay for the life you want to
 ข้อมูลเพิ่มเติม
 - [https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1](https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjE1OTgyNiwxMzE4NzgwNjM1LC0xOD
-Y1MDM5NDIzLC0yMTIwNzgzMjE3LDc2MDc5MjU0MV19
+eyJoaXN0b3J5IjpbLTIwMDQ1NjM0MzMsMTMxODc4MDYzNSwtMT
+g2NTAzOTQyMywtMjEyMDc4MzIxNyw3NjA3OTI1NDFdfQ==
 -->
