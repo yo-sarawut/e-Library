@@ -3,8 +3,8 @@
 ===
 
 
-> โดย รวิศ หาญอุตสาหะ : 02/02/2019
-> Source : [missiontothemoon.co](https://missiontothemoon.co/book-review-principles/).
+> - โดย รวิศ หาญอุตสาหะ : 02/02/2019
+> - Source : [missiontothemoon.co](https://missiontothemoon.co/book-review-principles/).
 
 
 ![enter image description here](https://cdn-images-1.medium.com/max/1600/1*L8LKQjivytnTWzJtVyK2NA.png)
@@ -523,6 +523,6 @@ Work is either 1) a job you do to earn the money to pay for the life you want to
 ข้อมูลเพิ่มเติม
 - [https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1](https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUwMzk0MjMsLTIxMjA3ODMyMTcsNz
-YwNzkyNTQxXX0=
+eyJoaXN0b3J5IjpbMTMxODc4MDYzNSwtMTg2NTAzOTQyMywtMj
+EyMDc4MzIxNyw3NjA3OTI1NDFdfQ==
 -->
