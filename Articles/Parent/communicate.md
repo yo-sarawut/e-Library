@@ -2,7 +2,14 @@
 “โอบกอดบุตรหลาน ฟังเสียงเขา ลดเสียงเรา ประสบการณ์เก่าใช้ไม่ได้กับอนาคต”
 ===
 
-> ภิญโญ ไตรสุริยธรรมา [ThePotential.org](https://thepotential.org/2018/12/28/pinyo-trisuriyathama/?fbclid=IwAR05YjcIvYhFx-JOrSJ8UPfObwJBl5d6_lb5D7CY-AmOQS-6G_vkIVTSZM4).
+> ภิญโญ ไตรสุริยธรรมา : December 28, 2018 [ThePotential.org](https://thepotential.org/2018/12/28/pinyo-trisuriyathama/?fbclid=IwAR05YjcIvYhFx-JOrSJ8UPfObwJBl5d6_lb5D7CY-AmOQS-6G_vkIVTSZM4).
+
+>- “เราฟังลูกค้าได้ ฟังเจ้านายได้ ฟังลูกน้องได้ แต่ทำไมเราไม่เคยเปิดใจฟังลูกตัวเองบ้าง”
+>- “เรามีเวลาเล่นเฟซบุ๊ค ดูละคร ส่องไอจี แต่ไม่มีเวลาสนทนาเรื่องปัญหาและอนาคตลูก เรา outsource การศึกษาให้กับโรงเรียนได้ แต่การสร้างอนาคต เราต้อง insource กลับมาสนทนากับลูก”
+>- “ในอนาคต ลูกต้องเป็นผู้กำหนดธงนำ ธงต้องมีหนึ่งเดียว และเป็นธงของลูก ไม่ใช่ธงของพ่อแม่”
+>- ทั้งหมดนี้คือบทข้อคิดเล็กๆ น้อยๆ จาก ภิญโญ ไตรสุริยธรรมา ที่หวังว่าน่าจะเป็นประโยชน์กับพ่อแม่และบุตรหลาน
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUzNDg1ODFdfQ==
+eyJoaXN0b3J5IjpbNTc0NDA2NDg2XX0=
 -->
