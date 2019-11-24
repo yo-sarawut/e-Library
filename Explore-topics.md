@@ -413,7 +413,7 @@
 
 [World](https://medium.com/topic/world)
 
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxNzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMjE0MjIzNzE4OF19
 -->
