@@ -40,6 +40,9 @@
 
 สิ่งที่ผมจะสรุปนี้ไม่ได้เป็นทุกอย่างที่อยู่ในหนังสือนะครับ ผมจะเขียนโดยการสะท้อน สิ่งที่ผมรู้สึกเมื่อได้อ่านหนังสือเล่มนี้ เพราะว่ายังไงก็ดีผมเชื่อว่าทุกคนควรจะต้องอ่านหนังสือเล่มนี้ด้วยตัวเองครับ และคุณเองก็ต้องสะท้อนความรู้สึกด้วยตัวเอง ซึ่งมันคงไม่เหมือนของผมแน่นอน
 
+![enter image description here](https://stock2morrow.com/ckfinder/userfiles/images/ray1.jpg)
+*เครดิตรูป : http://fortune.com/2017/09/13/ray-dalio-bridgewater-associates-book/*
+
 ## พาร์ทที่ 1 : ชีวิตของ เรย์ ดาลิโอ (Ray Dalio)
 
 ในช่วงปี ค.ศ. 1970 เรย์ทำงานเป็นที่ปรึกษาให้กับหลายบริษัท รวมถึงบริษัท แมคโดนัลด์ (Mcdonald’s) และบริษัท เลน โปรเซสซิ่ง (Lane Processing) ซึ่งเป็นผู้ผลิตไก่รายใหญ่ที่สุดของประเทศ
@@ -523,6 +526,6 @@ Work is either 1) a job you do to earn the money to pay for the life you want to
 ข้อมูลเพิ่มเติม
 - [https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1](https://www.facebook.com/moneyland.biz/photos/a.211384809772750/352200339024529/?type=3&theater&ifg=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODc4MDYzNSwtMTg2NTAzOTQyMywtMj
-EyMDc4MzIxNyw3NjA3OTI1NDFdfQ==
+eyJoaXN0b3J5IjpbLTU5NjE1OTgyNiwxMzE4NzgwNjM1LC0xOD
+Y1MDM5NDIzLC0yMTIwNzgzMjE3LDc2MDc5MjU0MV19
 -->
