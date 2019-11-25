@@ -3,6 +3,7 @@ Weather App
 ## Tool
 
 - [คำนวณดาราศาสตร์พื้นฐานด้วย PyEphem](https://python3.wannaphong.com/2017/02/pyephem.html)
+- [ดึงข้อมูลราคาน้ำมันด้วยภาษา Python](https://python3.wannaphong.com/2016/05/python_28.html)
 - [DarkSky API](https://darksky.net/dev/docs) 
 e-mail : hotmail, 
 Weather Keys : bf5d2ca68d5cba107e1017360c1e80d9
@@ -334,11 +335,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODMyNTY4OCwxOTc4NjQyNzgyLDMyNT
-ExMDEwOSwtNjIzNDc4NDQzLDIxNjI1NjI4OSwzOTg3MzEzMTgs
-LTE1Njc2NTU0ODUsLTc4MzY2OTMxNCwtMTE0MjEyNzk4LDIxND
-U1MzczNTEsLTMyMTgwMTI0LDE3NTg5MjY5NjMsMTQ0MjA4MDIz
-NiwtMTYzMTg3ODA0MywtMTk4MDA5NTA3MSw1NDI5NTMzMzUsMj
-E0MjUzNjY2LDc1NDI0NjI1MCwzMzUzNjg3MjUsODgyOTE4Mjld
-fQ==
+eyJoaXN0b3J5IjpbLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5Nz
+g2NDI3ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMjE2MjU2Mjg5
+LDM5ODczMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMT
+QyMTI3OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2
+MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLD
+U0Mjk1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcy
+NV19
 -->
