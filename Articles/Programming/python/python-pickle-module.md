@@ -159,6 +159,8 @@ As you can see, thanks to the Pickle module, serialization of Python objects is 
 Pickling has some disadvantages, the biggest of which might be the fact that you can only unpickle your data using Python – if you need a cross-language solution, JSON is definitely a better option. And finally, remember that pickles can be used to carry the code that you don't necessarily want to execute. Similarly to pickled food, as long as you get your pickles from trusted sources, you should be fine.
 
 Reference : [https://stackabuse.com/introduction-to-the-python-pickle-module/](https://stackabuse.com/introduction-to-the-python-pickle-module/)
+
+ศึกษาเพิ่มเติม : [https://python3.wannaphong.com/](https://python3.wannaphong.com/2016/07/pickle-python.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMyNTE2NDldfQ==
+eyJoaXN0b3J5IjpbLTg3MDg4NzY5MSwtMTEzMzI1MTY0OV19
 -->
