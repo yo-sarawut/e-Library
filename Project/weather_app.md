@@ -65,6 +65,14 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ## Example
 
+- https://www.learnpyqt.com/apps/create-desktop-weather-app/
+- https://codereview.stackexchange.com/questions/141279/create-a-weather-app-in-python
+- https://natebruneau.com/create-a-python-simple-weather-app/
+- https://github.com/udubnate/LearningPython/blob/master/SimpleWeatherApp/pyWeather.py
+- https://python-forum.io/Thread-Flask-Weather-app-Updatet
+- http://www.bitforestinfo.com/2017/01/how-to-create-weather-app-using-python.html
+- https://github.com/surajsinghbisht054/weather
+
 
 - [วิธีดึงค่าพายากรณ์อากาศจาก Yahoo API ง่ายๆ](http://stockcoder.blogspot.com/2016/12/yahoo-api.html)
 ![enter image description here](https://4.bp.blogspot.com/-WGvN3aDmMfk/WFfXW4ZwYRI/AAAAAAAAAGg/z0pKUze9UbY5eWvhPD5iR6GPIs2psCXIwCLcB/s1600/Screen+Shot+2559-12-19+at+7.48.04+PM.png)
@@ -110,6 +118,8 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
 - [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
+
+
 
 
 ## Tool
@@ -335,11 +345,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5Nz
-g2NDI3ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMjE2MjU2Mjg5
-LDM5ODczMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMT
-QyMTI3OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2
-MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLD
-U0Mjk1MzMzNSwyMTQyNTM2NjYsNzU0MjQ2MjUwLDMzNTM2ODcy
-NV19
+eyJoaXN0b3J5IjpbMTU5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1ND
+gzMjU2ODgsMTk3ODY0Mjc4MiwzMjUxMTAxMDksLTYyMzQ3ODQ0
+MywyMTYyNTYyODksMzk4NzMxMzE4LC0xNTY3NjU1NDg1LC03OD
+M2NjkzMTQsLTExNDIxMjc5OCwyMTQ1NTM3MzUxLC0zMjE4MDEy
+NCwxNzU4OTI2OTYzLDE0NDIwODAyMzYsLTE2MzE4NzgwNDMsLT
+E5ODAwOTUwNzEsNTQyOTUzMzM1LDIxNDI1MzY2Niw3NTQyNDYy
+NTBdfQ==
 -->
