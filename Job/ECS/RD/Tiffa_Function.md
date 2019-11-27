@@ -4,6 +4,12 @@ Tiffa
 
 ## จุดเด่น
 
+- การจะเพิ่มเติม Function โปรแกรม หรือปรับปรุงการพิมพ์
+
+![enter image description here](https://github.com/ecs-support/knowledge-center/raw/master/img/27-11-2019 10-00-48.jpg)
+
+![enter image description here](https://github.com/ecs-support/knowledge-center/raw/master/img/27-11-2019%2009-33-31.jpg)
+
 
 
 
@@ -17,6 +23,6 @@ Tiffa
 
 ![enter image description here](https://github.com/ecs-support/knowledge-center/raw/master/img/27-11-2019%2009-33-31.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDc0MzczOSwxMjI3Njg2Mzg1LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTIwNTkwODU4MjUsMTk2MDc0MzczOSwxMj
+I3Njg2Mzg1LDczMDk5ODExNl19
 -->
