@@ -85,6 +85,10 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://vuejsexamples.com/content/images/2018/02/weatherapp.png)
 
+- [Weather checking me project for learning Vue.js (Auto Location)](https://vuejsexamples.com/weather-checking-me-project-for-learning-vue-js/)
+
+![enter image description here](https://vuejsexamples.com/content/images/2019/11/vue-weather.jpg)
+
 - [Flask Weather App : **auto-detects** local weather based off of user's external **IP address**](https://github.com/M0nica/flask_weather)
 
 ![enter image description here](https://raw.githubusercontent.com/M0nica/flask_weather/master/static/nyc_weather_screenshot.png)
@@ -345,11 +349,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYyMzQ2NTksMjc2MTEyMTM2LDE1OT
-IzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3
-ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5OD
-czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
-OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
-QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
-MzMzNV19
+eyJoaXN0b3J5IjpbLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTksMj
+c2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1
+Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMj
+E2MjU2Mjg5LDM5ODczMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5
+MzE0LC0xMTQyMTI3OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMT
+c1ODkyNjk2MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgw
+MDk1MDcxXX0=
 -->
