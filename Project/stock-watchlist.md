@@ -49,6 +49,11 @@ PANTONE 19-4055
 
 ![enter image description here](https://github.com/mycaule/portfolio/raw/master/img/Screenshot.png)
 
+- [A hackable charting lib for traders](https://vuejsexamples.com/a-hackable-charting-lib-for-traders/)
+
+![enter image description here](https://vuejsexamples.com/content/images/2019/10/README-0027a833.png)
+
+
 - [flask-stock-visualizer](https://github.com/realpython/flask-stock-visualizer) , [บทความ](https://realpython.com/web-development-with-flask-fetching-data-with-requests/) ==[น่าจะปรับเป็น line chart ได้]==
 
 ![enter image description here](https://files.realpython.com/media/flask-stock-visualizer.0427ad74f1f8.png)
@@ -354,8 +359,9 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MT
-Y1ODgzLDcyODY3MzQ1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwt
-MTEzNTA5MTkzMSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NT
-cxNjQ1MCwtOTQwODQxMzQyLC0yMTE2MTMzMTIxXX0=
+eyJoaXN0b3J5IjpbLTgxNzY2NTYzOSwtNTk2MDM4ODQ2LDE4Mj
+g4MzU4NSw5MTYxNjU4ODMsNzI4NjczNDUyLDE3NDc3NjY1Njcs
+LTUxNzgwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTAsMTgwMT
+IzNTAwMCwxOTg1NzE2NDUwLC05NDA4NDEzNDIsLTIxMTYxMzMx
+MjFdfQ==
 -->
