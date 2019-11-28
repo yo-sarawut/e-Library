@@ -119,7 +119,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
 - [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
 
-
+- [PyOWM library](https://pyowm.readthedocs.io/en/latest/usage-examples-v2/weather-api-usage-examples.html#)
 
 
 ## Tool
@@ -345,11 +345,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOT
-U3OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5
-LC02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5ODczMTMxOCwtMTU2Nz
-Y1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3OTgsMjE0NTUzNzM1
-MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxNDQyMDgwMjM2LC0xNj
-MxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMzNSwyMTQyNTM2
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTE4MjYyMzQ2NTksMjc2MTEyMTM2LDE1OT
+IzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3
+ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5OD
+czMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3
+OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxND
+QyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1
+MzMzNV19
 -->
