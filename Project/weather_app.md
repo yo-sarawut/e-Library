@@ -11,7 +11,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [Weather API : Open Weather Map](https://openweathermap.org/city)
 - [python-weather-api](https://code.google.com/archive/p/python-weather-api/) , [YouTube](https://www.youtube.com/watch?v=dXO-4xhTVqI&t=28s)
 - [หาวัน Julian Date ด้วย Python](https://python3.wannaphong.com/2016/07/julian-date-python.html)
-
+- [WeatherDesk](https://github.com/bharadwaj-raju/WeatherDesk)
 - [**==The right way to check the weather==**](https://github.com/chubin/wttr.in)
 ![enter image description here](https://camo.githubusercontent.com/5d8ff78e9f5e4b2233d3bcf9de0cef12e8db3866/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4336392d77734957304141634144352e6a7067)
 - [ธงประเทศ](https://www.superrich1965.com/currency.php)
@@ -345,11 +345,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1ND
-gzMjU2ODgsMTk3ODY0Mjc4MiwzMjUxMTAxMDksLTYyMzQ3ODQ0
-MywyMTYyNTYyODksMzk4NzMxMzE4LC0xNTY3NjU1NDg1LC03OD
-M2NjkzMTQsLTExNDIxMjc5OCwyMTQ1NTM3MzUxLC0zMjE4MDEy
-NCwxNzU4OTI2OTYzLDE0NDIwODAyMzYsLTE2MzE4NzgwNDMsLT
-E5ODAwOTUwNzEsNTQyOTUzMzM1LDIxNDI1MzY2Niw3NTQyNDYy
-NTBdfQ==
+eyJoaXN0b3J5IjpbMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOT
+U3OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5
+LC02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5ODczMTMxOCwtMTU2Nz
+Y1NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3OTgsMjE0NTUzNzM1
+MSwtMzIxODAxMjQsMTc1ODkyNjk2MywxNDQyMDgwMjM2LC0xNj
+MxODc4MDQzLC0xOTgwMDk1MDcxLDU0Mjk1MzMzNSwyMTQyNTM2
+NjZdfQ==
 -->
