@@ -101,12 +101,18 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 ```
 choco install hugo-extended -confirm
 ```
+
+
+## Lifelong Learning
+
+- [ความหมาย Lifelong Learning คืออะไร](https://www.yournextu.com/the-meaning-of-lifelong-learning/?gclid=Cj0KCQiAoIPvBRDgARIsAHsCw096G-dy8ZWvLuohpj6sAlGR-YPPbb4tRzyaNWIOcGZ8OPAn81dw8lUaAkvQEALw_wcB)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ5NDEwMzcsLTE4NjA1ODY4MzEsLT
-ExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEw
-NDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOT
-AyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4
-ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgzOTAyLDk5NDcwNzM4Mi
-wtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNjE5MDE5ODUxLDcxNzcy
-Mzg3MV19
+eyJoaXN0b3J5IjpbLTEyNjkwOTAyMzIsLTE1MjQ5NDEwMzcsLT
+E4NjA1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNTIw
+NDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2Mz
+Q0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4
+ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgzOT
+AyLDk5NDcwNzM4MiwtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNjE5
+MDE5ODUxXX0=
 -->
