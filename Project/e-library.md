@@ -106,13 +106,15 @@ choco install hugo-extended -confirm
 ## Lifelong Learning
 
 - [ความหมาย Lifelong Learning คืออะไร](https://www.yournextu.com/the-meaning-of-lifelong-learning/?gclid=Cj0KCQiAoIPvBRDgARIsAHsCw096G-dy8ZWvLuohpj6sAlGR-YPPbb4tRzyaNWIOcGZ8OPAn81dw8lUaAkvQEALw_wcB)
+- [Knowledge Sharing](http://www.thailibrary.in.th/)
+- [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjkwOTAyMzIsLTE1MjQ5NDEwMzcsLT
-E4NjA1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNTIw
-NDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2Mz
-Q0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4
-ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2ODgzOT
-AyLDk5NDcwNzM4MiwtMTY2MzQ5NjE1MywyNzAwNjY1NCwxNjE5
-MDE5ODUxXX0=
+eyJoaXN0b3J5IjpbLTg0ODc4MDMxMCwtMTUyNDk0MTAzNywtMT
+g2MDU4NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1NzIwLC01MjA0
+NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYzND
+Q5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4
+NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MTY4ODM5MD
+IsOTk0NzA3MzgyLC0xNjYzNDk2MTUzLDI3MDA2NjU0LDE2MTkw
+MTk4NTFdfQ==
 -->
