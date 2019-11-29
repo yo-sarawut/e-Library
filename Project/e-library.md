@@ -108,9 +108,9 @@ choco install hugo-extended -confirm
 - [ความหมาย Lifelong Learning คืออะไร](https://www.yournextu.com/the-meaning-of-lifelong-learning/?gclid=Cj0KCQiAoIPvBRDgARIsAHsCw096G-dy8ZWvLuohpj6sAlGR-YPPbb4tRzyaNWIOcGZ8OPAn81dw8lUaAkvQEALw_wcB)
 - [Knowledge Sharing](http://www.thailibrary.in.th/)
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
-- 
+- [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODc4MDMxMCwtMTUyNDk0MTAzNywtMT
+eyJoaXN0b3J5IjpbLTkwNjA4MzM2MCwtMTUyNDk0MTAzNywtMT
 g2MDU4NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1NzIwLC01MjA0
 NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYzND
 Q5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4
