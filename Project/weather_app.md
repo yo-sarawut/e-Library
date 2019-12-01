@@ -19,6 +19,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 ![enter image description here](https://camo.githubusercontent.com/0cc2a70059ed45e7eb0e845aa576e12eeefb9b93/687474703a2f2f692e696d6775722e636f6d2f586d5a573271332e706e67)
 
 - [WorldWeatherSymbols](https://github.com/OGCMetOceanDWG/WorldWeatherSymbols)
+- [Forecast Font](https://webdesignbestfirm.com/forecastfont.html)  : A web-font for creating multi-layered weather icons
 
 - [Weather Widget A responsive and flexible weather widget](http://www.prepbootstrap.com/bootstrap-template/weather-widget)
 - 
@@ -349,11 +350,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTksMj
-c2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1
-Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5LC02MjM0Nzg0NDMsMj
-E2MjU2Mjg5LDM5ODczMTMxOCwtMTU2NzY1NTQ4NSwtNzgzNjY5
-MzE0LC0xMTQyMTI3OTgsMjE0NTUzNzM1MSwtMzIxODAxMjQsMT
-c1ODkyNjk2MywxNDQyMDgwMjM2LC0xNjMxODc4MDQzLC0xOTgw
-MDk1MDcxXX0=
+eyJoaXN0b3J5IjpbLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLT
+E4MjYyMzQ2NTksMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3
+OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5LC
+02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5ODczMTMxOCwtMTU2NzY1
+NTQ4NSwtNzgzNjY5MzE0LC0xMTQyMTI3OTgsMjE0NTUzNzM1MS
+wtMzIxODAxMjQsMTc1ODkyNjk2MywxNDQyMDgwMjM2LC0xNjMx
+ODc4MDQzXX0=
 -->
