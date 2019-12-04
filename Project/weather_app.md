@@ -78,6 +78,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - http://www.bitforestinfo.com/2017/01/how-to-create-weather-app-using-python.html
 - https://github.com/surajsinghbisht054/weather
 - [Create a Multipage Dash Application](https://towardsdatascience.com/create-a-multipage-dash-application-eceac464de91)
+- [Generating Dashboards using Python Dash Framework](http://learnaitech.com/dashboards-generation-using-python-dash-framework/)
 
 
 - [วิธีดึงค่าพายากรณ์อากาศจาก Yahoo API ง่ายๆ](http://stockcoder.blogspot.com/2016/12/yahoo-api.html)
@@ -357,11 +358,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1OD
-E4NjkwMjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYx
-LC0xODI3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LD
-I3NjExMjEzNiwxNTkyMzAyMDcyLC02MTk1NzkxNDksMTU0ODMy
-NTY4OCwxOTc4NjQyNzgyLDMyNTExMDEwOSwtNjIzNDc4NDQzLD
-IxNjI1NjI4OSwzOTg3MzEzMTgsLTE1Njc2NTU0ODUsLTc4MzY2
-OTMxNF19
+eyJoaXN0b3J5IjpbMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNT
+g4NTAyNzkxLDU4MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNzks
+LTE1MzcwNTM5NjEsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLT
+E4MjYyMzQ2NTksMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3
+OTE0OSwxNTQ4MzI1Njg4LDE5Nzg2NDI3ODIsMzI1MTEwMTA5LC
+02MjM0Nzg0NDMsMjE2MjU2Mjg5LDM5ODczMTMxOCwtMTU2NzY1
+NTQ4NV19
 -->
