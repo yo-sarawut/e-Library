@@ -1,19 +1,18 @@
 Articel Category
 =====
-> - Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
+
 
 
 | Main topic |หัวข้อหลัก |
-|----------|----------|
-| Academic disciplines? (26 C, 40 P) |นักวิชาการสาขาวิชา (26 C, 40 P) |
-| Business? (34 C, 21 P) |ธุรกิจ (34 C, 21 P) |
+|------------|----------------|
+| ==Business==? (34 C, 21 P) |ธุรกิจ (34 C, 21 P) |
 | Concepts? (9 C, 38 P) |แนวคิด (9 C, 38 P) |
 | Contemporary history? (22 C, 11 P) |ประวัติศาสตร์ร่วมสมัย (22 C, 11 P) |
 | Contemporary history timelines? (5 C, 41 P) |ช่วงเวลาประวัติศาสตร์ร่วมสมัย (5 C, 41 P) |
 | Crime? (35 C, 90 P) |อาชญากรรม (35 C, 90 P) |
-| Culture? (49 C, 76 P) |วัฒนธรรม (49 C, 76 P) |
-| Economy? (21 C, 1 P) |เศรษฐกิจ (21 ​​C, 1 P) |
-| Education? (46 C, 18 P) |การศึกษา (46 C, 18 P) |
+| ==Culture==? (49 C, 76 P) |วัฒนธรรม (49 C, 76 P) |
+| ==Economy==? (21 C, 1 P) |เศรษฐกิจ (21 ​​C, 1 P) |
+| ==Education==? (46 C, 18 P) |การศึกษา (46 C, 18 P) |
 | Energy? (33 C, 36 P) |พลังงาน (33 C, 36 P) |
 | Entertainment? (52 C, 42 P) |ความบันเทิง (52 C, 42 P) |
 | Events? (26 C, 3 P) |กิจกรรม (26 C, 3 P) |
@@ -21,11 +20,11 @@ Articel Category
 | Geography? (31 C, 73 P) |ภูมิศาสตร์ (31 C, 73 P) |
 | Government? (72 C, 73 P) |รัฐบาล (72 C, 73 P) |
 | Health? (46 C, 9 P) |สุขภาพ (46 C, 9 P) |
-| History? (33 C, 14 P) |ประวัติศาสตร์ (33 C, 14 P) |
-| Human behavior? (51 C, 183 P) |พฤติกรรมมนุษย์ (51 C, 183 P) |
+| ==History==? (33 C, 14 P) |ประวัติศาสตร์ (33 C, 14 P) |
+| ==Human behavior==? (51 C, 183 P) |พฤติกรรมมนุษย์ (51 C, 183 P) |
 | Humanities? (42 C, 43 P) |มนุษยศาสตร์ (42 C, 43 P) |
-| Industry? (29 C, 48 P) |อุตสาหกรรม (29 C, 48 P) |
-| Knowledge? (34 C, 108 P) |ความรู้ (34 C, 108 P) |
+| ==Industry==? (29 C, 48 P) |อุตสาหกรรม (29 C, 48 P) |
+| ==Knowledge==? (34 C, 108 P) |ความรู้ (34 C, 108 P) |
 | Language? (27 C, 60 P) |ภาษา (27 C, 60 P) |
 | Law? (42 C, 6 P) |กฎหมาย (42 C, 6 P) |
 | Life? (17 C, 13 P) |ชีวิต (17 C, 13 P) |
@@ -50,7 +49,7 @@ Articel Category
 | Universe? (5 C, 2 P) |จักรวาล (5 C, 2 P) |
 | World? (22 C, 17 P) |โลก (22 C, 17 P) |
 
-> Written with [StackEdit](https://stackedit.io/).
+> - Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMzYyOTE4XX0=
+eyJoaXN0b3J5IjpbLTE4NzU0NDYyOTJdfQ==
 -->
