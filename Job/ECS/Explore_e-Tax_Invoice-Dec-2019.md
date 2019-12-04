@@ -14,7 +14,7 @@ eTaxGo ระบบจัดทำกำกับภาษีในรูปแ�
 
 
 
-> Update [StackEdit](https://stackedit.io/).
+> Update [04/12/2019](/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg5MDkzNDRdfQ==
+eyJoaXN0b3J5IjpbLTUzNDUzNDUxNF19
 -->
