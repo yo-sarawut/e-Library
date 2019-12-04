@@ -27,7 +27,7 @@ Articel Category
 | ==Knowledge==? (34 C, 108 P) |ความรู้ (34 C, 108 P) |
 | Language? (27 C, 60 P) |ภาษา (27 C, 60 P) |
 | Law? (42 C, 6 P) |กฎหมาย (42 C, 6 P) |
-| Life? (17 C, 13 P) |ชีวิต (17 C, 13 P) |
+| ==Life==? (17 C, 13 P) |ชีวิต (17 C, 13 P) |
 | Manufacturing? (17 C, 83 P) |ผลิต (17 C, 83 P) |
 | Mass media? (52 C, 66 P) |สื่อมวลชน (52 C, 66 P) |
 | Mathematics? (25 C, 15 P) |คณิตศาสตร์ (25 C, 15 P) |
@@ -37,19 +37,19 @@ Articel Category
 | Music? (38 C, 4 P) |เพลง (38 C, 4 P) |
 | Nature? (22 C, 17 P) |ธรรมชาติ (22 C, 17 P) |
 | Objects? (13 C, 2 P) |วัตถุ (13 C, 2 P) |
-| Organizations? (36 C, 3 P) |องค์กร (36 C, 3 P) |
-| People? (42 C, 2 P) |ผู้คน (42 C, 2 P) |
-| Philosophy? (18 C, 41 P) |ปรัชญา (18 C, 41 P) |
+| ==Organizations==? (36 C, 3 P) |องค์กร (36 C, 3 P) |
+| ==People==? (42 C, 2 P) |ผู้คน (42 C, 2 P) |
+| ==Philosophy==? (18 C, 41 P) |ปรัชญา (18 C, 41 P) |
 | Politics? (36 C, 66 P) |การเมือง (36 C, 66 P) |
 | Religion? (34 C, 58 P) |ศาสนา (34 C, 58 P) |
-| Science? (35 C, 9 P) |วิทยาศาสตร์ (35 C, 9 P) |
+| ==Science==? (35 C, 9 P) |วิทยาศาสตร์ (35 C, 9 P) |
 | Society? (42 C, 18 P) |โซเชียล (42 C, 18 P) |
 | Sports? (53 C, 3 P) |กีฬา (53 C, 3 P) |
-| Technology? (31 C, 13 P) |เทคโนโลยี (31 C, 13 P) |
-| Universe? (5 C, 2 P) |จักรวาล (5 C, 2 P) |
-| World? (22 C, 17 P) |โลก (22 C, 17 P) |
+| ==Technology==? (31 C, 13 P) |เทคโนโลยี (31 C, 13 P) |
+| ==Universe==? (5 C, 2 P) |จักรวาล (5 C, 2 P) |
+| ==World==? (22 C, 17 P) |โลก (22 C, 17 P) |
 
 > - Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU0NDYyOTJdfQ==
+eyJoaXN0b3J5IjpbLTE4ODc4ODcyNTJdfQ==
 -->
