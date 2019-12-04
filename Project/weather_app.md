@@ -77,6 +77,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - https://python-forum.io/Thread-Flask-Weather-app-Updatet
 - http://www.bitforestinfo.com/2017/01/how-to-create-weather-app-using-python.html
 - https://github.com/surajsinghbisht054/weather
+- [Create a Multipage Dash Application]()
 
 
 - [วิธีดึงค่าพายากรณ์อากาศจาก Yahoo API ง่ายๆ](http://stockcoder.blogspot.com/2016/12/yahoo-api.html)
@@ -356,11 +357,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MT
-YxODc0LDMyMTM4MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5
-MSwtMTg3MDk4MTg5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMT
-U5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1NDgzMjU2ODgsMTk3ODY0
-Mjc4MiwzMjUxMTAxMDksLTYyMzQ3ODQ0MywyMTYyNTYyODksMz
-k4NzMxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIx
-Mjc5OF19
+eyJoaXN0b3J5IjpbMTUyMzc0NzQ0MCwtMTU4ODUwMjc5MSw1OD
+E4NjkwMjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYx
+LC0xODI3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LD
+I3NjExMjEzNiwxNTkyMzAyMDcyLC02MTk1NzkxNDksMTU0ODMy
+NTY4OCwxOTc4NjQyNzgyLDMyNTExMDEwOSwtNjIzNDc4NDQzLD
+IxNjI1NjI4OSwzOTg3MzEzMTgsLTE1Njc2NTU0ODUsLTc4MzY2
+OTMxNF19
 -->
