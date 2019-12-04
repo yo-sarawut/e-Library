@@ -13,6 +13,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [python-weather-api](https://code.google.com/archive/p/python-weather-api/) , [YouTube](https://www.youtube.com/watch?v=dXO-4xhTVqI&t=28s)
 - [ForcastIO Python 3](https://github.com/bitpixdigital/forecastiopy3)  A Python wrapper for the Forecast.io API. This is a fork of David Ervideira's forecastiopy, ported for Python 3. If you are not using Python 3
 - [หาวัน Julian Date ด้วย Python](https://python3.wannaphong.com/2016/07/julian-date-python.html)
+- [**Template:Convert/list of units**](https://en.wikipedia.org/wiki/Template:Convert/list_of_units#Temperature)
 - [WeatherDesk](https://github.com/bharadwaj-raju/WeatherDesk)
 - [**==The right way to check the weather==**](https://github.com/chubin/wttr.in)
 ![enter image description here](https://camo.githubusercontent.com/5d8ff78e9f5e4b2233d3bcf9de0cef12e8db3866/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4336392d77734957304141634144352e6a7067)
@@ -355,11 +356,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MT
-I3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MTg5
-OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMTU5MjMwMjA3MiwtNj
-E5NTc5MTQ5LDE1NDgzMjU2ODgsMTk3ODY0Mjc4MiwzMjUxMTAx
-MDksLTYyMzQ3ODQ0MywyMTYyNTYyODksMzk4NzMxMzE4LC0xNT
-Y3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIxMjc5OCwyMTQ1NTM3
-MzUxXX0=
+eyJoaXN0b3J5IjpbLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MT
+YxODc0LDMyMTM4MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5
+MSwtMTg3MDk4MTg5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMT
+U5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1NDgzMjU2ODgsMTk3ODY0
+Mjc4MiwzMjUxMTAxMDksLTYyMzQ3ODQ0MywyMTYyNTYyODksMz
+k4NzMxMzE4LC0xNTY3NjU1NDg1LC03ODM2NjkzMTQsLTExNDIx
+Mjc5OF19
 -->
