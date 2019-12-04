@@ -1,7 +1,27 @@
-Articel Category
+
+Wikipedia:Contents/Portals
 =====
+- [https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
+
+| Main topic |หัวข้อหลัก |
+|--------------|---------------|
+| General reference |การอ้างอิงทั่วไป |
+| Culture and the arts |วัฒนธรรมและศิลปะ |
+| Geography and places |ภูมิศาสตร์และสถานที่ต่างๆ |
+| Health and fitness |สุขภาพและการออกกำลังกาย |
+| History and events |ประวัติและกิจกรรม |
+| Human activities |กิจกรรมของมนุษย์ |
+| Mathematics and logic |คณิตศาสตร์และตรรกะ |
+| Natural and physical sciences |วิทยาศาสตร์ธรรมชาติและกายภาพ |
+| People and self |ผู้คนและตนเอง |
+| Philosophy and thinking |ปรัชญาและความคิด |
+| Religion and belief systems |ศาสนาและระบบความเชื่อ |
+| Society and social sciences |สังคมและสังคมศาสตร์ |
+| Technology and applied sciences |เทคโนโลยีและวิทยาศาสตร์ประยุกต์ |
 
 
+Articel Category
+====
 
 | Main topic |หัวข้อหลัก |
 |------------|----------------|
@@ -51,5 +71,5 @@ Articel Category
 
 > - Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc4ODcyNTJdfQ==
+eyJoaXN0b3J5IjpbMTkwODMwNzkyMSwtMTg4Nzg4NzI1Ml19
 -->
