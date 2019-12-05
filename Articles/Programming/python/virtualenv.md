@@ -36,7 +36,7 @@ pip install virtualenv
 ในทีนี้ผมจะสร้าง python environment ชื่อ env โดยสั่ง
 
 ```shell
-virtualenv.exe env
+virtualenv.exe venv
 ```
 
   
@@ -44,7 +44,7 @@ virtualenv.exe env
 เวลาจะใช้งานก็สั่ง command
 
 ```shell
-.\env\Scripts\activate
+.\venv\Scripts\activate
 ```
 
   
@@ -160,5 +160,5 @@ pip install -r <file requirement>
 
 > ที่มาบทความ [skconan.com](https://www.skconan.com/python-virtualenv/?fbclid=IwAR3fxMtdaTGVhcV_8G7syMIs0n4fpx-0n58q5CdafU1IkZ727cZFO5ZxSjE).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1Mjg4NTQxXX0=
+eyJoaXN0b3J5IjpbLTIwNDExMjMxMjcsNTI1Mjg4NTQxXX0=
 -->
