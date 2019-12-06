@@ -79,7 +79,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - https://github.com/surajsinghbisht054/weather
 - [Create a Multipage Dash Application](https://towardsdatascience.com/create-a-multipage-dash-application-eceac464de91)
 - [Generating Dashboards using Python Dash Framework](http://learnaitech.com/dashboards-generation-using-python-dash-framework/)
-- [Weather forecast](https://github.com/sharnett/myweather) : simple weather forecast webpage http://www.seanweather.com
+- [Weather Forecast](https://github.com/sharnett/myweather) : simple weather forecast webpage http://www.seanweather.com
 
 
 - [วิธีดึงค่าพายากรณ์อากาศจาก Yahoo API ง่ายๆ](http://stockcoder.blogspot.com/2016/12/yahoo-api.html)
@@ -359,11 +359,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzODc5NjQ1LDIwNTAxOTM4ODEsLTM4NT
-UyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsNDYxNjE4NzQs
-MzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xODI3NDk2OTkxLC0xOD
-cwOTgxODk4LC0xODI2MjM0NjU5LDI3NjExMjEzNiwxNTkyMzAy
-MDcyLC02MTk1NzkxNDksMTU0ODMyNTY4OCwxOTc4NjQyNzgyLD
-MyNTExMDEwOSwtNjIzNDc4NDQzLDIxNjI1NjI4OSwzOTg3MzEz
-MThdfQ==
+eyJoaXN0b3J5IjpbMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zOD
+U1MjE0MzUsLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0
+LDMyMTM4MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMT
+g3MDk4MTg5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMTU5MjMw
+MjA3MiwtNjE5NTc5MTQ5LDE1NDgzMjU2ODgsMTk3ODY0Mjc4Mi
+wzMjUxMTAxMDksLTYyMzQ3ODQ0MywyMTYyNTYyODksMzk4NzMx
+MzE4XX0=
 -->
