@@ -53,6 +53,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ## Example
 
+- [A minimal example generating HTML with Python Jinja]()
 - [Obtain Historical Weather Forecast data in CSV format using Python](https://www.freecodecamp.org/news/obtain-historical-weather-forecast-data-in-csv-format-using-python/)
 - [OpenWeatherMap API Python](https://www.simplifiedpython.net/openweathermap-api-python/)
 - [ตัวอย่าง web มีข้อมูลหลากหลาย TimeAndDate](https://www.timeanddate.com)
@@ -359,11 +360,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zOD
-U1MjE0MzUsLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0
-LDMyMTM4MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMT
-g3MDk4MTg5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMTU5MjMw
-MjA3MiwtNjE5NTc5MTQ5LDE1NDgzMjU2ODgsMTk3ODY0Mjc4Mi
-wzMjUxMTAxMDksLTYyMzQ3ODQ0MywyMTYyNTYyODksMzk4NzMx
-MzE4XX0=
+eyJoaXN0b3J5IjpbLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNT
+AxOTM4ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4Njkw
+MjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xOD
+I3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LDI3NjEx
+MjEzNiwxNTkyMzAyMDcyLC02MTk1NzkxNDksMTU0ODMyNTY4OC
+wxOTc4NjQyNzgyLDMyNTExMDEwOSwtNjIzNDc4NDQzLDIxNjI1
+NjI4OV19
 -->
