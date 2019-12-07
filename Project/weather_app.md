@@ -62,6 +62,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [Create Very Beautiful Weather Showing app Using Python](http://www.bitforestinfo.com/2017/01/how-to-create-weather-app-using-python.html) , [Project อื่น ๆ](http://www.bitforestinfo.com/p/projects.html)
 - [Easy Weather Forecast Flask Web App with Python](https://www.codeastar.com/flask-easy-web-app-python/)
 - [Using the Open Weather Map API with Python](https://code-maven.com/openweathermap-api-using-python)
+- [Easy AccuWeather Forecast in Python]()
 
 
 
@@ -360,11 +361,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNT
-AxOTM4ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4Njkw
-MjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xOD
-I3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LDI3NjEx
-MjEzNiwxNTkyMzAyMDcyLC02MTk1NzkxNDksMTU0ODMyNTY4OC
-wxOTc4NjQyNzgyLDMyNTExMDEwOSwtNjIzNDc4NDQzLDIxNjI1
-NjI4OV19
+eyJoaXN0b3J5IjpbLTEwMjAzMDQ5MzgsLTg1NjA3MjE3NiwxNz
+czNzk2MjIxLDIwNTAxOTM4ODEsLTM4NTUyMTQzNSwtMTU4ODUw
+Mjc5MSw1ODE4NjkwMjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNT
+M3MDUzOTYxLC0xODI3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2
+MjM0NjU5LDI3NjExMjEzNiwxNTkyMzAyMDcyLC02MTk1NzkxND
+ksMTU0ODMyNTY4OCwxOTc4NjQyNzgyLDMyNTExMDEwOSwtNjIz
+NDc4NDQzXX0=
 -->
