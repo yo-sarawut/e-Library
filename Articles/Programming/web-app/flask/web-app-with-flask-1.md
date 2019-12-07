@@ -70,9 +70,9 @@ Before we dive in I would like to touch on some of the principles that will guid
 
 If you did not already know, Python has a “development philosophy” called the  [Zen of Python (also known as PEP 20)](http://www.python.org/dev/peps/pep-0020/). To give it a read, simply open a python interpreter and type:
 
->>>
 
->>> import this
+
+import this
 
 and then you’ll see:
 
@@ -511,5 +511,6 @@ Thanks for reading and tune in next time!
 
 Reference : https://realpython.com/python-web-applications-with-flask-part-i/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTExOTcyMTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMDY0NjEyMzgsLTEwOTExOTcyMTBdfQ
+==
 -->
