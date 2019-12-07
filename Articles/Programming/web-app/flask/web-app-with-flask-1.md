@@ -97,7 +97,7 @@ and then you’ll see:
 > Although practicality beats purity.
 > 
 > Errors should never pass silently.
-> 
+ 
 > Unless explicitly silenced.
 > 
 > In the face of ambiguity, refuse the temptation to guess.
@@ -511,6 +511,6 @@ Thanks for reading and tune in next time!
 
 Reference : https://realpython.com/python-web-applications-with-flask-part-i/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY0NjEyMzgsLTEwOTExOTcyMTBdfQ
+eyJoaXN0b3J5IjpbLTE1MjA1MjUwMDgsLTEwOTExOTcyMTBdfQ
 ==
 -->
