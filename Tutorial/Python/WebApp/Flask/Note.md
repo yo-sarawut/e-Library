@@ -6,6 +6,11 @@ Flask Framework
 - [Learning-flask](https://pythonise.com/series/learning-flask)
 
 
+## Article
+ 
+- [Getting started with Python Flask framework (Part 1)](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13) , [Part 2]()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDU1MzM1XX0=
+eyJoaXN0b3J5IjpbLTExMjQ0ODc1MTddfQ==
 -->
