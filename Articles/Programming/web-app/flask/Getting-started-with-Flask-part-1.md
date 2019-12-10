@@ -5,7 +5,7 @@ Getting started with Python Flask framework (Part 1)
 
 Flask is a python web framework based on Werkzeug, Jinja2. Flask is easy to understand and also a prerequisite for Django.
 
-**Setting up the Flask (Ubuntu)**
+## Setting up the Flask (Ubuntu)
 
 Setting up the Flask in Ubuntu is very easy just go to the terminal or press Ctrl+Alt+T , this will open up the terminal and paste the following below commands :-
 ```
@@ -18,7 +18,7 @@ Note:- All python libraries are installed by using either  **pip install**  or  
 
 Above two commands will install python and flask framework globally.
 
-**Setting up the Flask (Windows)**
+## Setting up the Flask (Windows)
 
 Windows users needs to install Python from  [_here_](https://www.python.org/downloads/)_._
 
@@ -26,25 +26,25 @@ Also Download & Install Git Bash from below link.
 
 [](https://git-scm.com/download/win?source=post_page-----a4931ce0ea13----------------------)
 
-## 
-```py
+ 
+```
 Git — Downloading Package
-```py
-### 
+```
+
 
 You are downloading the latest ( 2.15.1) 64-bit version of Git for Windows. This is the most recent maintained build…
 
-#### 
 
+```
 git-scm.com
-
+```
 Git bash will allow the windows users to run terminal commands in windows operating system. So, After Installing Git Bash Run the below command to install the Flask Framework.
-
+```py
 $ pip install Flask
+```
 
-----------
 
-**Routing**
+## Routing
 
 Modern web applications have beautiful URLs. This helps people remember the URLs, which is especially handy for applications that are used from mobile devices with slower network connections. If the user can directly go to the desired page without having to hit the index page it is more likely they will like the page and come back next time.
 
@@ -264,5 +264,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU0MDYyODBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjY1MjQxNDJdfQ==
 -->
