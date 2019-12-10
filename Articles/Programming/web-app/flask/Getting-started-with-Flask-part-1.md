@@ -8,10 +8,10 @@ Flask is a python web framework based on Werkzeug, Jinja2. Flask is easy to unde
 **Setting up the Flask (Ubuntu)**
 
 Setting up the Flask in Ubuntu is very easy just go to the terminal or press Ctrl+Alt+T , this will open up the terminal and paste the following below commands :-
-
+```
 $ sudo apt-get install python  
 $ sudo pip install Flask
-
+```
 Since Flask is a python web framework, so you have to install Python first and then you can install python Flask Framework.
 
 Note:- All python libraries are installed by using either  **pip install**  or  **easy_install**
@@ -27,9 +27,9 @@ Also Download & Install Git Bash from below link.
 [](https://git-scm.com/download/win?source=post_page-----a4931ce0ea13----------------------)
 
 ## 
-
+```py
 Git — Downloading Package
-
+```py
 ### 
 
 You are downloading the latest ( 2.15.1) 64-bit version of Git for Windows. This is the most recent maintained build…
@@ -264,5 +264,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkxNjA4MjZdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU0MDYyODBdfQ==
 -->
