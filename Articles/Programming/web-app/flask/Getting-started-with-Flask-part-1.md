@@ -201,24 +201,28 @@ So when this template will render to the user, then it will show  **hi techkylab
 
 First we write the code to render a template and passed a list of users to the template.
 ```py
-**from** flask **import** Flask, url_for, render_template@app.route('/user/')  
-def profile():  
- users = [  
-  'Techkylabs',  
-  'Rishabh'  
- ]  
+from flask import Flask, url_for, render_template
+@app.route('/user/')
+def profile():
+ users = [
+  'Techkylabs',
+  'Rishabh'
+ ]
  return render_template('profile.html', names=users)
 ```
 Now in our template we will print all of the users that we have just passed.
 ```html
-<!DOCTYPE html>  
-<html>  
-<head>  
- <title>Techkylabs</title>  
-</head>  
-<body><h1>Hello All</h1>{% for name in names %}  
-  <p>{{ name }}</p>  
-{% endfor %}</body>  
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Techkylabs</title>
+</head>
+<body>
+<h1>Hello All</h1>
+{% for name in names %}
+  <p>{{ name }}</p>
+{% endfor %}
+</body>
 </html>
 ```
 So this is what i was talking about that we need to close the tag with a special  **end**.
@@ -226,29 +230,38 @@ So this is what i was talking about that we need to close the tag with a special
 Above template will print all of the users name.
 
 Let us quickly wrap it up
-
-# Importing the Libraries & Functions  
-from flask import Flask, render_template, url_for# Creating an instance of Flask  
-app = Flask(__name__)# A route without parameter@app.route('/')  
-@app.route**(**'/home'**)**  
-**def** home**():**  
-    **return** 'Hello World!'# A route with parameter  
-@app.route**(**'/home/<int:id>'**)**  
-**def** myId**(id):**  
-    **return** 'hello my id is %d' % id@app.route**(**'/user/'**)**  
-**def** profile**():**  
-    **return** render_template**(**'proifle.html', title="techkylabs"**)**# projects function  
-@app.route**(**'/projects/'**)**  
-**def** projects**():**  
-    **return** url_for('home')# home function  
-@app.route**(**'/profile/<int:id>'**)**  
-**def** myProfile**(id):**  
-    **return** 'The project page id is %d' %id# projects function  
-@app.route**(**'/projects/'**)**  
-**def** projects**():**  
-    **return** url_for('myProfile', id=1)if __name__ == '__main__':  
+```py
+# Importing the Libraries & Functions
+from flask import Flask, render_template, url_for
+# Creating an instance of Flask
+app = Flask(__name__)
+# A route without parameter
+@app.route('/')
+@app.route('/home')
+def home():
+    return 'Hello World!'
+# A route with parameter
+@app.route('/home/<int:id>')
+def myId(id):
+    return 'hello my id is %d' % id
+@app.route('/user/')
+def profile():
+    return render_template('proifle.html', title="techkylabs")
+# projects function
+@app.route('/projects/')
+def projects():
+    return url_for('home')
+# home function
+@app.route('/profile/<int:id>')
+def myProfile(id):
+    return 'The project page id is %d' %id
+# projects function
+@app.route('/projects/')
+def projects():
+    return url_for('myProfile', id=1)
+if __name__ == '__main__':
   app.run(host='0.0.0.0', port=8080, debug=True)
-
+```
 Explanation to above python script
 
 1.  First import the Flask from flask library
@@ -272,5 +285,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY3MjUyODZdfQ==
+eyJoaXN0b3J5IjpbMTE3NTAwMjUwM119
 -->
