@@ -145,24 +145,25 @@ def projects():
 
 Generating HTML from within Python is not fun and actually pretty cumbersome because we have to do the HTML escaping on your own to keep the application secure. Because of that Flask configures the  [Jinja2](http://jinja.pocoo.org/)  template engine for you automatically.
 
-So, To render a template you can use the  `[**render_template()**](http://flask.pocoo.org/docs/0.12/api/#flask.render_template)`  method. All you have to do is provide the name of or path to the template and the variables you want to pass to the template engine as keyword arguments.
+So, To render a template you can use the  `render_template()(http://flask.pocoo.org/docs/0.12/api/#flask.render_template)`  method. All you have to do is provide the name of or path to the template and the variables you want to pass to the template engine as keyword arguments.
 
 **Example 1:-**
+```py
+from flask import Flask, url_for, render_template
 
-**from** flask **import** Flask, url_for, render_template  
-  
-@app.route**(**'/home/'**)**  
-**def** home**():**  
-    **return** render_template**(**'index.html'**)**
-
+@app.route('/home/')
+def home():
+    return render_template('index.html')
+```
 **Example 2:-**
 
 In this example I will show you how to pass some values in HMTL templates using Flask  **render_template().**
-
-**from** flask **import** Flask, url_for, render_template@app.route**(**'/user/'**)**  
-**def** profile**():**  
-    **return** render_template**(**'proifle.html', title="techkylabs"**)**
-
+```py
+from flask import Flask, url_for, render_template
+@app.route('/user/')
+def profile():
+    return render_template('proifle.html', title="techkylabs")
+```
 **Explanation**
 
 1.  First we need to import render_template from flask.
@@ -271,5 +272,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTgwMDQ0N119
+eyJoaXN0b3J5IjpbLTE5NjY1MDI2MTldfQ==
 -->
