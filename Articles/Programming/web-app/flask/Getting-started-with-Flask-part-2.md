@@ -90,7 +90,6 @@ This example will show you how you can serve an Image file in templates.
 2.  Then in  **src**  attribute we use  **url_for()**  provided by flask framework, in this function we passed ‘**static**’ as first argument which tells the flask that this would be an static file and then passed ‘**filename**’ as second argument and assigns the  **filename.extension_of_file** to it.
 3.  Lastly we put all this stuff in this special curly braces “**{{ }}**” & what it does, it will just print the full path to file & ultimately the image will be shown up in the browser.
 
-![](https://miro.medium.com/max/60/1*XDk4SWsApr81rFS21tcpiw.png?q=20)
 
 ![](https://miro.medium.com/max/155/1*XDk4SWsApr81rFS21tcpiw.png)
 
@@ -101,7 +100,7 @@ Also your file name could be anything you want. In my case it was “**techkylab
 **Special Note :** In Above examples, I assume that all of your static files are stored directly in your static folder but in case when you have all of CSS files in a sub directory called ‘**css**’ under the static folder, similarly Your JS files in ‘**js**’ and image files in ‘**images**’. Then you have to give relative path to your respective files in  **filename** argument of  **url_for()**
 
 **Example For CSS File**
-
+```html
 <!doctype html>  
 <html>  
   <head>  
@@ -110,7 +109,7 @@ Also your file name could be anything you want. In my case it was “**techkylab
   <body>     
   </body>  
 </html>
-
+```
 Similarly now you can assign relative path to your JS and image files.
 
 ----------
@@ -131,7 +130,7 @@ Now Let me show you, how we can use some of the above methods in python flask fr
 **Note :-** By default, a route only answers to  `GET`  requests, but that can be changed by providing the  `methods`  argument to the  `[**r**](http://flask.pocoo.org/docs/0.12/api/#flask.Flask.route)**oute()**`  decorator attached to the functions.
 
 **Example :**
-
+```py
 from flask import Flask, request, render_templateapp = Flask(__name__)@app.route('/', methods=['GET', 'POST'])  
 def home():  
  if request.method == 'POST':  
@@ -139,7 +138,7 @@ def home():
  else:  
   return render_template('index.html')if __name__ == '__main__':  
  app.run(host='0.0.0.0', port=8080, debug=True)
-
+```
 **Explanation**
 
 1.  First I just import Flask, request, render_template from flask.
@@ -165,7 +164,7 @@ Sounds complicated but don’t worry it is actually very simple.
 Suppose we make an template and named it  **main_layout.html,** this template defines a simple HTML skeleton document that you might in your other templates as well. So now, It’s the job of your all “child” templates (i.e your other templates) to fill the empty blocks with content.
 
 **main_layout.html**
-
+```html
 <!doctype html>  
 <html>  
   <head>  
@@ -181,11 +180,11 @@ Suppose we make an template and named it  **main_layout.html,** this template de
       {% endblock %}        
     </footer></body>  
 </html>
-
+```
 **Note :-** In above template I have taken 3 blocks named as (title, content & footer) But you can name it whatever you like. But then you will need to make sure that you call these blocks name correctly when you extends this template in other template.
 
 **home.html**
-
+```html
 {% extends 'main_layout.html' %}{% block title %}  
   Techkylabs  
 {% endblock %}{% block content %}  
@@ -193,7 +192,7 @@ Suppose we make an template and named it  **main_layout.html,** this template de
 {% endblock %}{% block footer %}  
   {{ super() }}  
 {% endblock %}
-
+```
 **Explanation**
 
 In  **home.html** we use`{% extends %}`  tag which is the key here. It tells the template engine that this template “extends” another template which in our case is ‘**main_layout.html**’. When the template system evaluates this template, first it locates the parent.
@@ -223,5 +222,5 @@ Follow us on other social accounts:  [Facebook](https://www.facebook.com/techkyl
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-2-5838ddc5d9a7).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDQzNDgyNV19
+eyJoaXN0b3J5IjpbLTExMjQ1MTYwMDZdfQ==
 -->
