@@ -94,17 +94,20 @@ As you can see above, I have made two functions and a route for each of them and
 Many times we need to redirect the users to a specific page after on happening of an event. So we do this in Flask by using  **url_for** function, this function accepts the name of an function as its first argument to which we want to redirect the user and the number of arguments, which are passed in route of the function to which we want to redirect.
 
 **Example 1**:-
-
-# import the necessary libs & functions   
-from flask import Flask, url_for# Create instance of flask  
-app = Flask(__name__)# home function  
-@app.route**(**'/home/'**)**  
-**def** home**():**  
-    **return** 'The project page'# projects function  
-@app.route**(**'/projects/'**)**  
-**def** projects**():**  
-    **return** url_for('home')
-
+```py
+# import the necessary libs & functions 
+from flask import Flask, url_for
+# Create instance of flask
+app = Flask(__name__)
+# home function
+@app.route('/home/')
+def home():
+    return 'The project page'
+# projects function
+@app.route('/projects/')
+def projects():
+    return url_for('home')
+```
 **Explantion**
 
 1.  First we need to import  **url_for**  from flask.
@@ -115,17 +118,20 @@ app = Flask(__name__)# home function
 **Example 2:-**
 
 In this example i will show you how to use  **url_for** function to redirect a user to a function which have some parameters in their routes.
-
-# import the necessary libs & functions   
-from flask import Flask, url_for# Create instance of flask  
-app = Flask(__name__)# home function  
-@app.route**(**'/profile/<int:id>'**)**  
-**def** myProfile**(id):**  
-    **return** 'The project page'# projects function  
-@app.route**(**'/projects/'**)**  
-**def** projects**():**  
-    **return** url_for('myProfile', id=1)
-
+```py
+# import the necessary libs & functions 
+from flask import Flask, url_for
+# Create instance of flask
+app = Flask(__name__)
+# home function
+@app.route('/profile/<int:id>')
+def myProfile(id):
+    return 'The project page'
+# projects function
+@app.route('/projects/')
+def projects():
+    return url_for('myProfile', id=1)
+```
 **Explantion**
 
 1.  First we had imported  **url_for**  from flask.
@@ -265,5 +271,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDI0NTk1NV19
+eyJoaXN0b3J5IjpbLTkyOTgwMDQ0N119
 -->
