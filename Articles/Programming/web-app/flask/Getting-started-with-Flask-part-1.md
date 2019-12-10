@@ -176,7 +176,7 @@ def profile():
 But In above example I am assuming that you have all of your HTML templates files in your  **templates** folder. Therefore I just typed “**profile.html**” which is the name of the template in my case, otherwise I need to specify the full path with the template name as the first argument of  **render_template**.
 
 **profile.html**
-
+```html
 <!DOCTYPE html>  
 <html>  
 <head>  
@@ -184,23 +184,23 @@ But In above example I am assuming that you have all of your HTML templates file
 </head>  
 <body><h1> hi {{ title }} </h1></body>  
 </html>
-
+```
 So when this template will render to the user, then it will show  **hi techkylabs**
 
 **Note:-** When we generate HTML template from python then we need to use Jinja to print or show something that is being generated from python, In my case I used  **{{}}** to print the value of title.
 
 **Commonly used Jinja**
 
-1.  **{{}} -**We used dual curly braces when we need to just print something.
+1.  {{}} We used dual curly braces when we need to just print something.
 
-2.  **{% %} -**We used this wired braces with % when we need to print values of a list or also when we need to check if then else conditions in templates.
+2. {% %} We used this wired braces with % when we need to print values of a list or also when we need to check if then else conditions in templates.
 
 **Note:-** Always remember one thing that when we use  **{% %}** in our template then we need to close this as  **{% end %}**.
 
 **Example with {% %} in templates :-**
 
 First we write the code to render a template and passed a list of users to the template.
-
+```py
 **from** flask **import** Flask, url_for, render_template@app.route('/user/')  
 def profile():  
  users = [  
@@ -208,9 +208,9 @@ def profile():
   'Rishabh'  
  ]  
  return render_template('profile.html', names=users)
-
+```
 Now in our template we will print all of the users that we have just passed.
-
+```html
 <!DOCTYPE html>  
 <html>  
 <head>  
@@ -220,7 +220,7 @@ Now in our template we will print all of the users that we have just passed.
   <p>{{ name }}</p>  
 {% endfor %}</body>  
 </html>
-
+```
 So this is what i was talking about that we need to close the tag with a special  **end**.
 
 Above template will print all of the users name.
@@ -272,5 +272,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY1MDI2MTldfQ==
+eyJoaXN0b3J5IjpbLTExNTY3MjUyODZdfQ==
 -->
