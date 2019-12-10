@@ -51,17 +51,17 @@ Modern web applications have beautiful URLs. This helps people remember the URLs
 So basically a route is just a URL which returns a template to a user.
 
 **Syntax for building a Route**
-
+```
 @app.route(“make your url here”)
-
+```
 Here “**app**” is just an instance of the Class “**Flask**”.
 
-Example -
-
+**Example -**
+```
 @app.route("/"**)  
 AND  
 **@app.route("/home")
-
+```
 **Add variables to Routes**
 
 Many times we need to send parameters and values in the url’s, either in the form of query parameters or in the relative url.
@@ -77,13 +77,14 @@ Given Below is a list of Converters that Flask supports.
 5.  string -**it is a default converter and used for sending names or text.**
 
 Example:-
-
-@app.route**(**'/home/<name>'**)**  
-**def** home**(name):**  
-    **return** 'your name is %s' % name@app.route**(**'/home/<int:id>'**)**  
-**def** showId**(**id**):**  
-    **return** 'your is %d' % id
-
+```py
+@app.route('/home/<name>')
+def home(name):
+    return 'your name is %s' % name
+@app.route('/home/<int:id>')
+def showId(id):
+    return 'your is %d' % id
+```
 Note:- Always remember that all parameters that you sends to the route, they must be passed in there respective functions.
 
 As you can see above, I have made two functions and a route for each of them and i also passed the parameter in their respective functions which i sends to the route.
@@ -264,5 +265,5 @@ So this is small tutorial to get started with python flask. Stay tunned with us 
 
 > Source :  [medium.com](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY1MjQxNDJdfQ==
+eyJoaXN0b3J5IjpbLTc0MDI0NTk1NV19
 -->
