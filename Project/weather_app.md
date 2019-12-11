@@ -20,6 +20,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [ธงประเทศ](https://www.superrich1965.com/currency.php)
 - [weather-icons](https://github.com/erikflowers/weather-icons)
 ![enter image description here](https://camo.githubusercontent.com/0cc2a70059ed45e7eb0e845aa576e12eeefb9b93/687474703a2f2f692e696d6775722e636f6d2f586d5a573271332e706e67)
+- [==API List== to see the class names ==weather-icons==.](https://erikflowers.github.io/weather-icons/api-list.html)
 
 - [WorldWeatherSymbols](https://github.com/OGCMetOceanDWG/WorldWeatherSymbols)
 - [Forecast Font](https://webdesignbestfirm.com/forecastfont.html)  : A web-font for creating multi-layered weather icons
@@ -365,11 +366,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTc0NTE5MywtMTkyMjA4MzY3LC0xOT
-EwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNzYsMTc3Mzc5
-NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0MzUsLTE1ODg1MDI3OT
-EsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MTI3OSwtMTUzNzA1
-Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MTg5OCwtMTgyNjIzND
-Y1OSwyNzYxMTIxMzYsMTU5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1
-NDgzMjU2ODhdfQ==
+eyJoaXN0b3J5IjpbLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMT
+kyMjA4MzY3LC0xOTEwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYw
+NzIxNzYsMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0Mz
+UsLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4
+MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MT
+g5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMTU5MjMwMjA3Miwt
+NjE5NTc5MTQ5XX0=
 -->
