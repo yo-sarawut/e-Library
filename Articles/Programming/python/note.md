@@ -5,10 +5,11 @@ Note for Python Tutorials
 - [First Python Notebook](https://www.firstpythonnotebook.org/index.html)
 - [Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code/)
 - [Python’s Requests Library (Guide)](https://realpython.com/python-requests/)
-- 
+- [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/)
+- [Interactive Data Visualization in Python With Bokeh](https://realpython.com/python-data-visualization-bokeh/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzkyNDM3MiwtMTUyNjU0NTY3MSwtMT
+eyJoaXN0b3J5IjpbMTQ2Mzk1ODY3NCwtMTUyNjU0NTY3MSwtMT
 kzNzI4NjIxM119
 -->
