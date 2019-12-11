@@ -103,6 +103,10 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://raw.githubusercontent.com/M0nica/flask_weather/master/static/nyc_weather_screenshot.png)
 
+- []()
+
+![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2017/06/cool_weather_widget_Free27-06-2017_524662891.jpg)
+
 - [Small VueJS application to fetch weather data from the Bureau of Meteorology](https://vuejsexamples.com/small-vuejs-application-to-fetch-weather-data-from-the-bureau-of-meteorology/)
 
 ![enter image description here](https://vuejsexamples.com/content/images/2018/10/Karratha-Weather.jpg)
@@ -361,11 +365,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMT
-gzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1MDE5
-Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4MTg2OTAyNS
-w0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5NjEsLTE4Mjc0
-OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTksMjc2MTEyMT
-M2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5
-Nzg2NDI3ODJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ2NjY1MzksLTE5MjIwODM2NywtMT
+kxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3
+OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNz
+kxLDU4MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1Mzcw
+NTM5NjEsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMz
+Q2NTksMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwx
+NTQ4MzI1Njg4XX0=
 -->
