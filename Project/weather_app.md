@@ -23,7 +23,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 - [WorldWeatherSymbols](https://github.com/OGCMetOceanDWG/WorldWeatherSymbols)
 - [Forecast Font](https://webdesignbestfirm.com/forecastfont.html)  : A web-font for creating multi-layered weather icons
-- [Yahoo ==Sunrise/Sunset== widget](https://codepen.io/guybrush0/pen/cexJH), Link
+- [Yahoo ==Sunrise/Sunset== widget](https://codepen.io/guybrush0/pen/cexJH), [**Link 2**](https://www.codeseek.co/guybrush0/yahoo-sunrise-sunset-widget-cexJH),  [**Link 3**](https://codepen.io/xangfi/details/pJICx)
 - [Weather Widget A responsive and flexible weather widget](http://www.prepbootstrap.com/bootstrap-template/weather-widget)
 - [100 DAYS - 100 PROJECTS CHALLENGE](https://www.florin-pop.com/blog/2019/09/100-days-100-projects/)
 - [sunrise-and-sunset.com](https://www.sunrise-and-sunset.com/en)
@@ -361,11 +361,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMjcwNzAsLTE5MTA0NzUyMjQsLTE4Mz
-Q4MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOTM4
-ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsND
-YxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xODI3NDk2
-OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LDI3NjExMjEzNi
-wxNTkyMzAyMDcyLC02MTk1NzkxNDksMTU0ODMyNTY4OCwxOTc4
-NjQyNzgyXX0=
+eyJoaXN0b3J5IjpbLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMT
+gzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1MDE5
+Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4MTg2OTAyNS
+w0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5NjEsLTE4Mjc0
+OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTksMjc2MTEyMT
+M2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwxNTQ4MzI1Njg4LDE5
+Nzg2NDI3ODJdfQ==
 -->
