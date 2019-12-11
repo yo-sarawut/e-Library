@@ -103,7 +103,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://raw.githubusercontent.com/M0nica/flask_weather/master/static/nyc_weather_screenshot.png)
 
-- []()
+- [Cool Weather Widget](https://w3layouts.com/cool-weather-widget-flat-responsive-widget-template/)
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2017/06/cool_weather_widget_Free27-06-2017_524662891.jpg)
 
@@ -365,11 +365,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ2NjY1MzksLTE5MjIwODM2NywtMT
-kxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3
-OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNz
-kxLDU4MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1Mzcw
-NTM5NjEsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMz
-Q2NTksMjc2MTEyMTM2LDE1OTIzMDIwNzIsLTYxOTU3OTE0OSwx
-NTQ4MzI1Njg4XX0=
+eyJoaXN0b3J5IjpbLTc1OTc0NTE5MywtMTkyMjA4MzY3LC0xOT
+EwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNzYsMTc3Mzc5
+NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0MzUsLTE1ODg1MDI3OT
+EsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MTI3OSwtMTUzNzA1
+Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MTg5OCwtMTgyNjIzND
+Y1OSwyNzYxMTIxMzYsMTU5MjMwMjA3MiwtNjE5NTc5MTQ5LDE1
+NDgzMjU2ODhdfQ==
 -->
