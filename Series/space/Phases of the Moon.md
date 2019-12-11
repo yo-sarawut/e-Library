@@ -14,7 +14,13 @@ Phases of the Moon ดิถีของดวงจันทร์
   
 นอกไปจากนี้ การที่ดวงจันทร์มีคาบในการหมุนรอบตัวเองเท่ากับคาบในการโคจรรอบโลกอย่างพอดี (ซึ่งเกิดจากกระบวนการที่เรียกว่า Tidal lock) ทำให้ดวงจันทร์หันด้านเดิมเข้าหาโลกเสมอ เราเรียกด้านที่เราเห็นว่า "ด้านใกล้ของดวงจันทร์" (near side of the moon) และ "ด้านไกลของดวงจันทร์" (far side of the moon)
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [StackEdit](https://www.facebook.com/matiponblog/photos/a.255101608033386/316359538574259/?type=1&theater).
+
+## ข้อมูลเพิ่มเติม
+
+- [https://genesic.home.blog/moon-phases/](https://genesic.home.blog/moon-phases/)
+- [http://www.lesa.biz/astronomy/astro-events/moon-phases](http://www.lesa.biz/astronomy/astro-events/moon-phases)
+- [==Stellarium== เป็นซอฟต์แวร์เสรี/รหัสเปิด ใช้เป็นท้องฟ้าจำลองสำหรับคอมพิวเตอร์ของคุณ สามารถแสดงท้องฟ้าเหมือนจริงแบบ 3 มิติ ใกล้เคียงกับที่เห็นด้วยตาเปล่า, กล้องสองตา หรือกล้องโทรทรรศน์](http://stellarium.org/th/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQyMTQ3MjBdfQ==
+eyJoaXN0b3J5IjpbNjA0NjA2NywtMTE2NDIxNDcyMF19
 -->
