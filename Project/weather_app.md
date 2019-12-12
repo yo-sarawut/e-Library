@@ -153,6 +153,10 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/03/screenshot.jpg)
 
+- [https://w3layouts.com/thunder-weather-widget-responsive-template/](https://w3layouts.com/thunder-weather-widget-responsive-template/)
+
+![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/01/thunder_weather_widget.jpg)
+
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
 - [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
 
@@ -382,11 +386,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xND
-QxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3
-NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMj
-EsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4
-MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5Nj
-EsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTks
-Mjc2MTEyMTM2XX0=
+eyJoaXN0b3J5IjpbLTE4Njg5ODY0NjUsMTU4MzQ5MjI3NiwtMj
+c3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIw
+ODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMT
+c2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0x
+NTg4NTAyNzkxLDU4MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNz
+ksLTE1MzcwNTM5NjEsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgs
+LTE4MjYyMzQ2NTldfQ==
 -->
