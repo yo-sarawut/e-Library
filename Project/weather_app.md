@@ -153,7 +153,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/03/screenshot.jpg)
 
-- [https://w3layouts.com/thunder-weather-widget-responsive-template/](https://w3layouts.com/thunder-weather-widget-responsive-template/)
+- [Thunder Weather Widget](https://w3layouts.com/thunder-weather-widget-responsive-template/)
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/01/thunder_weather_widget.jpg)
 
@@ -386,11 +386,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg5ODY0NjUsMTU4MzQ5MjI3NiwtMj
-c3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIw
-ODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMT
-c2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0x
-NTg4NTAyNzkxLDU4MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNz
-ksLTE1MzcwNTM5NjEsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgs
-LTE4MjYyMzQ2NTldfQ==
+eyJoaXN0b3J5IjpbMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNz
+c1MDk3MzcsLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4
+MzY3LC0xOTEwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNz
+YsMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0MzUsLTE1
+ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MTI3OS
+wtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MTg5OCwt
+MTgyNjIzNDY1OV19
 -->
