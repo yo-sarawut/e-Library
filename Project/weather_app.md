@@ -149,7 +149,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2017/04/flatty_weather_report_Free18-02-2017_82998378.jpg)
 
-- [https://w3layouts.com/animated-weather-widget-responsive-widget-template/](https://w3layouts.com/animated-weather-widget-responsive-widget-template/)
+- [Animated Weather Widget](https://w3layouts.com/animated-weather-widget-responsive-widget-template/)
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/03/screenshot.jpg)
 
@@ -382,11 +382,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY5MzAxNjgsLTI3NzUwOTczNywtMT
-Q0MTkxOTE4NSwtNzU5NzQ1MTkzLC0xOTIyMDgzNjcsLTE5MTA0
-NzUyMjQsLTE4MzQ4MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2Mj
-IxLDIwNTAxOTM4ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1
-ODE4NjkwMjUsNDYxNjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOT
-YxLC0xODI3NDk2OTkxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5
-LDI3NjExMjEzNl19
+eyJoaXN0b3J5IjpbMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xND
+QxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3
+NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMj
+EsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4
+MTg2OTAyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5Nj
+EsLTE4Mjc0OTY5OTEsLTE4NzA5ODE4OTgsLTE4MjYyMzQ2NTks
+Mjc2MTEyMTM2XX0=
 -->
