@@ -137,6 +137,10 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ![enter image description here](https://image.shutterstock.com/display_pic_with_logo/174663258/1507738973/stock-vector-weather-forecast-smartphone-application-vector-template-mobile-app-page-blue-interface-weather-1507738973.jpg)
 
+- [Sunny Weather Widget — Web Element](https://w3layouts.com/sunny-weather-widget-flat-responsive-widget-template/)
+
+![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/07/sunny_weather_widget.jpg)
+
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
 - [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
 
@@ -366,11 +370,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMT
-kyMjA4MzY3LC0xOTEwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYw
-NzIxNzYsMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0Mz
-UsLTE1ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4
-MTI3OSwtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MT
-g5OCwtMTgyNjIzNDY1OSwyNzYxMTIxMzYsMTU5MjMwMjA3Miwt
-NjE5NTc5MTQ5XX0=
+eyJoaXN0b3J5IjpbMTE3MzU0NDY3OSwtMTQ0MTkxOTE4NSwtNz
+U5NzQ1MTkzLC0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4
+MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOTM4OD
+EsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsNDYx
+NjE4NzQsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xODI3NDk2OT
+kxLC0xODcwOTgxODk4LC0xODI2MjM0NjU5LDI3NjExMjEzNiwx
+NTkyMzAyMDcyXX0=
 -->
