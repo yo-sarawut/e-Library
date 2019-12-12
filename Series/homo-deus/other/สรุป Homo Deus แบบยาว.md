@@ -1,7 +1,10 @@
 
 Series สรุปหนังสือ Homo Deus แบบยาว
+ ===
+ 
+![enter image description here](https://t0.blockdit.com/photos/2019/11/5ddc7fc6ab78db27a211b3ad.jpg)
 
-บทที่ 1 : The New Human Agenda
+## บทที่ 1 : The New Human Agenda
 
 จุดมุ่งหมายเดิมของมนุษยชาติ (Origin human Agenda) คือ การแก้ไขปัญหา ความอดอยาก (Famine) โรคระบาด(Plaque) และภาวะสงคราม (Wars)
 
@@ -239,5 +242,5 @@ Humanism คือความเชื่อว่า ตัวมันเอ�
 
 > Written with [StackEdit](https://www.blockdit.com/articles/5df0ec7615bfa13693531000?fbclid=IwAR3iAOEamEUQ3yIE_4U94cr8VXcV8m3Q9vHhksHktRx8Tsm4_vZKJu7dN3Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY2MTUwNzRdfQ==
+eyJoaXN0b3J5IjpbMTcxNzI5NDMwNF19
 -->
