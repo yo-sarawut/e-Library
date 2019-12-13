@@ -165,6 +165,7 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 
 ## Tool
 
+- [Weather icons : openweathermap](https://openweathermap.org/weather-conditions)
 - [Free animated SVG weather icons](https://www.amcharts.com/free-animated-svg-weather-icons/)
 - [50 Free Weather Icon Sets to Download](https://www.hongkiat.com/blog/free-weather-iconsets/)
 - [80+ Best Free Weather Icon Sets (2019 Update)](https://365webresources.com/weather-icon-sets-shouldnt-miss/)
@@ -386,11 +387,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNz
-c1MDk3MzcsLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4
-MzY3LC0xOTEwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNz
-YsMTc3Mzc5NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0MzUsLTE1
-ODg1MDI3OTEsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MTI3OS
-wtMTUzNzA1Mzk2MSwtMTgyNzQ5Njk5MSwtMTg3MDk4MTg5OCwt
-MTgyNjIzNDY1OV19
+eyJoaXN0b3J5IjpbMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1OD
+M0OTIyNzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1
+MTkzLC0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4MzM1ND
+UsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOTM4ODEsLTM4
+NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsNDYxNjE4Nz
+QsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xODI3NDk2OTkxLC0x
+ODcwOTgxODk4XX0=
 -->
