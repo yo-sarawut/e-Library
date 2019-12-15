@@ -36,6 +36,8 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c0/Lunar_libration_with_phase2.gif)
 
 # Template Weather App
+
+- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 - [https://www.themezy.com/free-website-templates/128-steel-weather-free-responsive-website-template](https://www.themezy.com/free-website-templates/128-steel-weather-free-responsive-website-template)
 - [https://w3layouts.com/tag/weather-widgets/](https://w3layouts.com/tag/weather-widgets/)
 
@@ -387,11 +389,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1OD
-M0OTIyNzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1
-MTkzLC0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4MzM1ND
-UsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOTM4ODEsLTM4
-NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsNDYxNjE4Nz
-QsMzIxMzgxMjc5LC0xNTM3MDUzOTYxLC0xODI3NDk2OTkxLC0x
-ODcwOTgxODk4XX0=
+eyJoaXN0b3J5IjpbLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNj
+IzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5
+MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNC
+wtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1
+MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4MTg2OT
+AyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5NjEsLTE4
+Mjc0OTY5OTFdfQ==
 -->
