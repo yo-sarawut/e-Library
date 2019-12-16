@@ -15,6 +15,9 @@ Secret Keys : bab7a8d7a5970c295679de9c67e907a5
 - [หาวัน Julian Date ด้วย Python](https://python3.wannaphong.com/2016/07/julian-date-python.html)
 - [**Template:Convert/list of units**](https://en.wikipedia.org/wiki/Template:Convert/list_of_units#Temperature)
 - [WeatherDesk](https://github.com/bharadwaj-raju/WeatherDesk)
+- [คำนวณดาราศาสตร์พื้นฐานด้วย PyEphem](https://rhodesmill.org/pyephem/quick.html#phases-of-the-moon) , [Link บทความ](https://python3.wannaphong.com/2017/02/pyephem.html)
+
+PyEphem เป็นโมดูลสำหรับงานคำนวณดาราศาสตร์พื้นฐานในภาษาไพทอน โดยสามารถคำนวณตำแหน่งของดวงอาทิตย์และดวงจันทร์ของโลก รวมไปถึงตำแหน่งของดาวหาง ตามเวลาที่กำหนดได้ และนอกจากนั้น สามารถคำนวณวันเวลาวันพระจันทร์เต็มดวงและดับได้ด้วย และมีความสามารถอื่น ๆ อีก
 - [**==The right way to check the weather==**](https://github.com/chubin/wttr.in)
 ![enter image description here](https://camo.githubusercontent.com/5d8ff78e9f5e4b2233d3bcf9de0cef12e8db3866/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4336392d77734957304141634144352e6a7067)
 - [ธงประเทศ](https://www.superrich1965.com/currency.php)
@@ -389,11 +392,11 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNj
-IzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5
-MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNC
-wtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1
-MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkxLDU4MTg2OT
-AyNSw0NjE2MTg3NCwzMjEzODEyNzksLTE1MzcwNTM5NjEsLTE4
-Mjc0OTY5OTFdfQ==
+eyJoaXN0b3J5IjpbLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEzNT
+c5OTEwODMsMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MDk3
+MzcsLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3LC
+0xOTEwNDc1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNzYsMTc3
+Mzc5NjIyMSwyMDUwMTkzODgxLC0zODU1MjE0MzUsLTE1ODg1MD
+I3OTEsNTgxODY5MDI1LDQ2MTYxODc0LDMyMTM4MTI3OSwtMTUz
+NzA1Mzk2MV19
 -->
