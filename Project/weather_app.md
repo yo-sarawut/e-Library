@@ -392,15 +392,38 @@ var MoonInfo = function(day, month, year) {
 |||||11 = อากาศเย็น (Cool)|
 |||||12 = อากาศร้อนจัด (Very hot)|
 
+---
 
 
+'Clear': 'ท้องฟ้าแจ่มใส',
 
+'Partly cloudy': 'มีเมฆบางส่วน',
+
+'Cloudy': 'เมฆเป็นส่วนมาก',
+
+'Overcast': 'มีเมฆมาก',
+
+'Light rain': 'ฝนตกเล็กน้อย',
+
+'Moderate rain': 'ฝนปานกลาง',
+
+'Heavy rain': 'ฝนตกหนัก',
+
+'Thunderstorm': 'ฝนฟ้าคะนอง',
+
+'Very cold': 'อากาศหนาวจัด',
+
+'Cold': 'อากาศหนาว',
+
+'Cool': 'อากาศเย็น',
+
+'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk4NzM0NCwtNDc3NDU3NjA4LC0xMz
-k1NjE2MzEsMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1ODM0OTIy
-NzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1MTkzLC
-0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4MzM1NDUsLTg1
-NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOTM4ODEsLTM4NTUyMT
-QzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUsNDYxNjE4NzQsMzIx
-MzgxMjc5XX0=
+eyJoaXN0b3J5IjpbLTIxMjg5MjgzMTgsLTEyMTk4NzM0NCwtND
+c3NDU3NjA4LC0xMzk1NjE2MzEsMTM1Nzk5MTA4MywxMDYyMzA2
+NTYwLDE1ODM0OTIyNzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NS
+wtNzU5NzQ1MTkzLC0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4
+MzQ4MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOT
+M4ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUs
+NDYxNjE4NzRdfQ==
 -->
