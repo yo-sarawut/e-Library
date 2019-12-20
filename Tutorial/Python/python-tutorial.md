@@ -54,48 +54,32 @@ Python Tutorial can be broadly divided into the following categories.
 |[Python Operators](https://www.journaldev.com/14082/python-operators)|
 Arithmetic, Comparison, Bitwise, Logical, and Assignment Operators. Learn about the operator precedence in Python programming.|
 |[Python if-else](https://www.journaldev.com/14092/python-if-else-elif)
-
 |Python Conditional Logic, examples of if-else and elif conditional logic.|
-
 |[Python for loop](https://www.journaldev.com/14136/python-for-loop-example)
-
 |Python for loop examples. Also, learn about nested for loops in Python.|
-
 |[Python while loop](https://www.journaldev.com/14152/python-while-loop)
-
 |Python while loop, nested while loop and infinite while loop examples.|
-
 |[Python break continue](https://www.journaldev.com/14161/python-break-python-continue)
-
 |A brief tutorial on Python break keyword and continue statement.|
+[Python pass statement](https://www.journaldev.com/14240/python-pass-statement)|Learn about pass statement and the best practices to use them in your code.|
+|[Python loop](https://www.journaldev.com/14245/python-loop-example)
+|Learn how to loop over a sequence, reverse looping, traversing through multiple sequences at once.|
+|[Python functions](https://www.journaldev.com/14256/python-function-arguments)
+|Learn how to define a function in Python, different types of arguments|
+|[Python Recursion](https://www.journaldev.com/14271/python-recursion-fibonacci)
+|How to implement recursion in Python, printing Fibonacci series using recursion.|
 
-[Python pass statement](https://www.journaldev.com/14240/python-pass-statement)
+|[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)
 
-Learn about pass statement and the best practices to use them in your code.
+|What is Python Anonymous function? How and when to use anonymous function in Python.|
 
-[Python loop](https://www.journaldev.com/14245/python-loop-example)
+|[Python Modules](https://www.journaldev.com/14329/python-modules)
 
-Learn how to loop over a sequence, reverse looping, traversing through multiple sequences at once.
+|Understand what is a module in Python. Difference between module and package and how to import a module in your program.|
 
-[Python functions](https://www.journaldev.com/14256/python-function-arguments)
+|[Python Package](https://www.journaldev.com/14339/python-package)
 
-Learn how to define a function in Python, different types of arguments
-
-[Python Recursion](https://www.journaldev.com/14271/python-recursion-fibonacci)
-
-How to implement recursion in Python, printing Fibonacci series using recursion.
-
-[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)
-
-What is Python Anonymous function? How and when to use anonymous function in Python.
-
-[Python Modules](https://www.journaldev.com/14329/python-modules)
-
-Understand what is a module in Python. Difference between module and package and how to import a module in your program.
-
-[Python Package](https://www.journaldev.com/14339/python-package)
-
-Quick introduction to Python packages and how to use them.
+|Quick introduction to Python packages and how to use them.|
 
 [Python Numbers](https://www.journaldev.com/14347/python-numbers)
 
@@ -1053,5 +1037,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjAwNDI5OF19
+eyJoaXN0b3J5IjpbMzc5MjY1NzJdfQ==
 -->
