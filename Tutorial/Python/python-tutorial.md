@@ -64,13 +64,9 @@ Python Tutorial can be broadly divided into the following categories.
 |[Python Package](https://www.journaldev.com/14339/python-package)|Quick introduction to Python packages and how to use them.|
 [Python Numbers](https://www.journaldev.com/14347/python-numbers)|Different types of numbers, type conversion and complex numbers in Python|
 [Python List](https://www.journaldev.com/14353/python-list)|Python List functions – create, update, delete, append and iterate through elements.|
-
-|[Python Tuple](https://www.journaldev.com/14362/python-tuple)
-|Learn about accessing tuple elements, update and delete tuple, important tuple functions.|
-
-[Python String](https://www.journaldev.com/14385/python-string)
-
-A brief introduction of String in Python and important Python string functions.
+|[Python Tuple](https://www.journaldev.com/14362/python-tuple)|Learn about accessing tuple elements, update and delete tuple, important tuple functions.|
+|[Python String](https://www.journaldev.com/14385/python-string
+)| A brief introduction of String in Python and important Python string functions.|
 
 [Python set](https://www.journaldev.com/14394/python-set)
 
@@ -1012,5 +1008,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4Nzc1MDU4XX0=
+eyJoaXN0b3J5IjpbLTQwMzI1OTA0NF19
 -->
