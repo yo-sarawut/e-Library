@@ -49,38 +49,20 @@ Python Tutorial can be broadly divided into the following categories.
 |[Python Tutorial for Beginners](https://www.journaldev.com/13949/python-tutorial-beginners)|Brief information about Python programming language and its advantages. Learn how to install Python on Windows, Linux/Ubuntu and Mac OS operating systems.|
 |[Python Keywords & Identifiers](https://www.journaldev.com/13996/python-keywords-identifiers)|An article about keywords, identifiers and variables in Python. Learn about the rules for writing valid identifiers.|
 |[Python comments and statements](https://www.journaldev.com/14012/python-comment-python-statement)|Quick introduction to different types of comments and statements with example code.|
-|[Python Data Types](https://www.journaldev.com/14036/python-data-types)|Numeric, String, List, Tuple and Dict data types introduction.|
-|[Python IO](https://www.journaldev.com/14056/python-input-output-python-import)|File Operations – Read, Write, Open, Close. Taking input from user and import statement.|
-|[Python Operators](https://www.journaldev.com/14082/python-operators)|
-Arithmetic, Comparison, Bitwise, Logical, and Assignment Operators. Learn about the operator precedence in Python programming.|
-|[Python if-else](https://www.journaldev.com/14092/python-if-else-elif)
-|Python Conditional Logic, examples of if-else and elif conditional logic.|
-|[Python for loop](https://www.journaldev.com/14136/python-for-loop-example)
+|[Python Data Types](https://www.journaldev.com/14036/python-data-types)|Numeric, String, List, Tuple and Dict data types introduction.||[Python IO](https://www.journaldev.com/14056/python-input-output-python-import)|File Operations – Read, Write, Open, Close. Taking input from user and import statement.|
+|[Python Operators](https://www.journaldev.com/14082/python-operators)|Arithmetic, Comparison, Bitwise, Logical, and Assignment Operators. Learn about the operator precedence in Python programming.||[Python if-else](https://www.journaldev.com/14092/python-if-else-elif)|Python Conditional Logic, examples of if-else and elif conditional logic.||[Python for loop](https://www.journaldev.com/14136/python-for-loop-example)
 |Python for loop examples. Also, learn about nested for loops in Python.|
-|[Python while loop](https://www.journaldev.com/14152/python-while-loop)
-|Python while loop, nested while loop and infinite while loop examples.|
-|[Python break continue](https://www.journaldev.com/14161/python-break-python-continue)
-|A brief tutorial on Python break keyword and continue statement.|
+|[Python while loop](https://www.journaldev.com/14152/python-while-loop)|Python while loop, nested while loop and infinite while loop examples.|
+|[Python break continue](https://www.journaldev.com/14161/python-break-python-continue)|A brief tutorial on Python break keyword and continue statement.|
 [Python pass statement](https://www.journaldev.com/14240/python-pass-statement)|Learn about pass statement and the best practices to use them in your code.|
-|[Python loop](https://www.journaldev.com/14245/python-loop-example)
-|Learn how to loop over a sequence, reverse looping, traversing through multiple sequences at once.|
-|[Python functions](https://www.journaldev.com/14256/python-function-arguments)
-|Learn how to define a function in Python, different types of arguments|
+|[Python loop](https://www.journaldev.com/14245/python-loop-example)|Learn how to loop over a sequence, reverse looping, traversing through multiple sequences at once.|
+|[Python functions](https://www.journaldev.com/14256/python-function-arguments)|Learn how to define a function in Python, different types of arguments|
 |[Python Recursion](https://www.journaldev.com/14271/python-recursion-fibonacci)
-|How to implement recursion in Python, printing Fibonacci series using recursion.|
-
-|[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)
-
+|How to implement recursion in Python, printing Fibonacci series using recursion.||[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)
 |What is Python Anonymous function? How and when to use anonymous function in Python.|
-
 |[Python Modules](https://www.journaldev.com/14329/python-modules)
-
-|Understand what is a module in Python. Difference between module and package and how to import a module in your program.|
-
-|[Python Package](https://www.journaldev.com/14339/python-package)
-
+|Understand what is a module in Python. Difference between module and package and how to import a module in your program.||[Python Package](https://www.journaldev.com/14339/python-package)
 |Quick introduction to Python packages and how to use them.|
-
 [Python Numbers](https://www.journaldev.com/14347/python-numbers)
 
 Different types of numbers, type conversion and complex numbers in Python
@@ -1037,5 +1019,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MjY1NzJdfQ==
+eyJoaXN0b3J5IjpbODY3Mzk0MDc2XX0=
 -->
