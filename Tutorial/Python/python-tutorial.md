@@ -44,9 +44,12 @@ Python Tutorial can be broadly divided into the following categories.
 
 ### Python Basics
 
-Topic
+| Topic | Description |
+|--------|--|
+|  |  |
 
-Description
+
+
 
 [Python Tutorial for Beginners](https://www.journaldev.com/13949/python-tutorial-beginners)
 
@@ -1072,5 +1075,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY3MTE3NjFdfQ==
+eyJoaXN0b3J5IjpbMTk5NTY0OTg0MV19
 -->
