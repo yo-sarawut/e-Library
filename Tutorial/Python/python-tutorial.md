@@ -57,9 +57,7 @@ Python Tutorial can be broadly divided into the following categories.
 [Python pass statement](https://www.journaldev.com/14240/python-pass-statement)|Learn about pass statement and the best practices to use them in your code.|
 |[Python loop](https://www.journaldev.com/14245/python-loop-example)|Learn how to loop over a sequence, reverse looping, traversing through multiple sequences at once.|
 |[Python functions](https://www.journaldev.com/14256/python-function-arguments)|Learn how to define a function in Python, different types of arguments|
-|[Python Recursion](https://www.journaldev.com/14271/python-recursion-fibonacci)
-|How to implement recursion in Python, printing Fibonacci series using recursion.||[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)
-|What is Python Anonymous function? How and when to use anonymous function in Python.|
+|[Python Recursion](https://www.journaldev.com/14271/python-recursion-fibonacci)|How to implement recursion in Python, printing Fibonacci series using recursion.||[Python Anonymous Function](https://www.journaldev.com/14288/python-anonymous-function)|What is Python Anonymous function? How and when to use anonymous function in Python.|
 |[Python Modules](https://www.journaldev.com/14329/python-modules)|Understand what is a module in Python. Difference between module and package and how to import a module in your program.|
 |[Python Package](https://www.journaldev.com/14339/python-package)|Quick introduction to Python packages and how to use them.|
 [Python Numbers](https://www.journaldev.com/14347/python-numbers)|Different types of numbers, type conversion and complex numbers in Python|
@@ -67,16 +65,9 @@ Python Tutorial can be broadly divided into the following categories.
 |[Python Tuple](https://www.journaldev.com/14362/python-tuple)|Learn about accessing tuple elements, update and delete tuple, important tuple functions.|
 [Python String](https://www.journaldev.com/14385/python-string)| A brief introduction of String in Python and important Python string functions.|
 |[Python set](https://www.journaldev.com/14394/python-set)|Learn how to work with Set in Python.|
-|[Python Dictionary](https://www.journaldev.com/14401/python-dictionary)
-|Python dictionary operations, accessing key-value pairs, deleting dict elements.
-|
-[Python File](https://www.journaldev.com/14408/python-read-file-open-write-delete-copy)
-
-Python file operations – read, open, write, delete and copy file.
-
-[Python Directory](https://www.journaldev.com/14417/python-directory-create-rename-delete)
-
-How to create, rename and delete a directory in Python.
+|[Python Dictionary](https://www.journaldev.com/14401/python-dictionary)|Python dictionary operations, accessing key-value pairs, deleting dict elements.||
+|[Python File](https://www.journaldev.com/14408/python-read-file-open-write-delete-copy)|Python file operations – read, open, write, delete and copy file.|
+|[Python Directory](https://www.journaldev.com/14417/python-directory-create-rename-delete)|How to create, rename and delete a directory in Python.|
 
 [Python sort list](https://www.journaldev.com/14504/python-sort-list)
 
@@ -1002,5 +993,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ5MjMzODBdfQ==
+eyJoaXN0b3J5IjpbLTM4MDU5Njc2OF19
 -->
