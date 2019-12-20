@@ -45,31 +45,18 @@ Python Tutorial can be broadly divided into the following categories.
 ### Python Basics
 
 | Topic | Description |
-|--------|--|
-|  |  |
+|--------|-----------------------|
+|[Python Tutorial for Beginners](https://www.journaldev.com/13949/python-tutorial-beginners)|Brief information about Python programming language and its advantages. Learn how to install Python on Windows, Linux/Ubuntu and Mac OS operating systems.|
+|[Python Keywords & Identifiers](https://www.journaldev.com/13996/python-keywords-identifiers)|An article about keywords, identifiers and variables in Python. Learn about the rules for writing valid identifiers.|
+|[Python comments and statements](https://www.journaldev.com/14012/python-comment-python-statement)|Quick introduction to different types of comments and statements with example code.|
 
+|[Python Data Types](https://www.journaldev.com/14036/python-data-types)|
 
+Numeric, String, List, Tuple and Dict data types introduction.|
 
+|[Python IO](https://www.journaldev.com/14056/python-input-output-python-import)|
 
-[Python Tutorial for Beginners](https://www.journaldev.com/13949/python-tutorial-beginners)
-
-Brief information about Python programming language and its advantages. Learn how to install Python on Windows, Linux/Ubuntu and Mac OS operating systems.
-
-[Python Keywords & Identifiers](https://www.journaldev.com/13996/python-keywords-identifiers)
-
-An article about keywords, identifiers and variables in Python. Learn about the rules for writing valid identifiers.
-
-[Python comments and statements](https://www.journaldev.com/14012/python-comment-python-statement)
-
-Quick introduction to different types of comments and statements with example code.
-
-[Python Data Types](https://www.journaldev.com/14036/python-data-types)
-
-Numeric, String, List, Tuple and Dict data types introduction.
-
-[Python IO](https://www.journaldev.com/14056/python-input-output-python-import)
-
-File Operations – Read, Write, Open, Close. Taking input from user and import statement.
+File Operations – Read, Write, Open, Close. Taking input from user and import statement.|
 
 [Python Operators](https://www.journaldev.com/14082/python-operators)
 
@@ -1075,5 +1062,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTY0OTg0MV19
+eyJoaXN0b3J5IjpbLTkyMjI2ODcxNl19
 -->
