@@ -65,17 +65,11 @@ Python Tutorial can be broadly divided into the following categories.
 [Python Numbers](https://www.journaldev.com/14347/python-numbers)|Different types of numbers, type conversion and complex numbers in Python|
 [Python List](https://www.journaldev.com/14353/python-list)|Python List functions – create, update, delete, append and iterate through elements.|
 |[Python Tuple](https://www.journaldev.com/14362/python-tuple)|Learn about accessing tuple elements, update and delete tuple, important tuple functions.|
-|[Python String](https://www.journaldev.com/14385/python-string
-)| A brief introduction of String in Python and important Python string functions.|
-
-[Python set](https://www.journaldev.com/14394/python-set)
-
-Learn how to work with Set in Python.
-
-[Python Dictionary](https://www.journaldev.com/14401/python-dictionary)
-
-Python dictionary operations, accessing key-value pairs, deleting dict elements.
-
+[Python String](https://www.journaldev.com/14385/python-string)| A brief introduction of String in Python and important Python string functions.|
+|[Python set](https://www.journaldev.com/14394/python-set)|Learn how to work with Set in Python.|
+|[Python Dictionary](https://www.journaldev.com/14401/python-dictionary)
+|Python dictionary operations, accessing key-value pairs, deleting dict elements.
+|
 [Python File](https://www.journaldev.com/14408/python-read-file-open-write-delete-copy)
 
 Python file operations – read, open, write, delete and copy file.
@@ -1008,5 +1002,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzI1OTA0NF19
+eyJoaXN0b3J5IjpbLTEzMDQ5MjMzODBdfQ==
 -->
