@@ -1138,19 +1138,15 @@ Modal ปกติมันจะถูกซ่อนเอาไว้ รอ�
 </div>
 
 </div>
-
+```
 ปุ่มไหนที่อยากให้กดแล้วแสดง modal ก็เพิ่ม  **data-toggle=”modal” data-target=”#myModal”  
 **โดย target คือ id ของ modal
 
-1
 
-2
-
-3
-
+```html
 <a  class="btn btn-primary text-white"  data-toggle="modal"  data-target="#myModal">Read more</a>
-
-[![84](https://benzneststudios.com/blog/wp-content/uploads/2018/11/84.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/84.png "84")
+```
+![84](https://benzneststudios.com/blog/wp-content/uploads/2018/11/84.png)
 
 ## แนะนำ bootsnipp
 
@@ -1160,37 +1156,22 @@ bootsnipp จะเป็นเว็บที่รวม code หรือ com
 
 เช่นอยากลองใช้ตัวที่ชื่อว่า Timeline vertical ในเว็บของเรา
 
-[![85](https://benzneststudios.com/blog/wp-content/uploads/2018/11/85.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/85.png "85")
+![85](https://benzneststudios.com/blog/wp-content/uploads/2018/11/85.png)
 
 กดเข้าไป ข้างในจะมีรายละเอียด เช่น HTML , CSS
 
-[![87](https://benzneststudios.com/blog/wp-content/uploads/2018/11/87.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/87.png "87")
-
+![87](https://benzneststudios.com/blog/wp-content/uploads/2018/11/87.png)
 ให้ copy โค้ด HTML มาไว้ในที่ต้องการ และ copy CSS ของมันมาด้วย โดยเอาไปวางไว้ใน custom.css ของเรา
 
 จากนั้น มาเพิ่ม custom.css
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-...
-
+```html
 <link rel="stylesheet"  href="css/custom.css"  />
 
 </head>
-
-...
-
-[![86](https://benzneststudios.com/blog/wp-content/uploads/2018/11/86.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/86.png "86")
+```
+![86](https://benzneststudios.com/blog/wp-content/uploads/2018/11/86.png)
 
 ## แนะนำ Startbootstrap.com
 
@@ -1198,41 +1179,25 @@ bootsnipp จะเป็นเว็บที่รวม code หรือ com
 
 [https://startbootstrap.com/](https://startbootstrap.com/)
 
-[![88](https://benzneststudios.com/blog/wp-content/uploads/2018/11/88.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/88.png "88")
+[![88](https://benzneststudios.com/blog/wp-content/uploads/2018/11/88.png)
 
 ## การใช้ class display
 
 อันนี้เป็นความสามารถใหม่ใน ฺbootstrap4 เช่น อยากให้หน้าจอใหญ่แสดง Carousel แต่ในจอเล็กให้ซ่อน  
 ใน Bootstrap 4 สามารถใช้ class d-
 
-1
 
-2
-
-3
-
+```html
 <div class="container-fluid mt-5 p-0 d-none d-sm-none d-md-block">
-
-[![g12](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g12.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g12.gif "g12")
+```
+![g12](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g12.gif)
 
 ## Media query
 
 Media query คือการระบุเงื่อนไขเจาะจงสำหรับ css เช่น ถ้าหน้าจอขนาดมากกว่า 700px ให้ h1 , h2, h3 ขนาด 1 rem
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
+```css
 @media  (max-width:700px){
 
 h1,h2,h3{
@@ -1242,7 +1207,7 @@ font-size:1rem;
 }
 
 }
-
+```
 ## สิ่งที่ใช้ร่วมกับ Bootstrap ไม่ได้
 
 เช่น คู่แข่ง ชื่อว่า Foundation เพราะใช้ชื่อ class เหมือนกัน ตัว Foundation มีความสามารถมากกว่า Bootstrap ทำอะไร Advance ได้มากกว่า แต่ก็ต้องเรียนรู้มากกว่า
@@ -1256,5 +1221,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODY5NDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMTU0OTY3NDNdfQ==
 -->
