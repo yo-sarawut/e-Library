@@ -1212,7 +1212,7 @@ font-size:1rem;
 
 เช่น คู่แข่ง ชื่อว่า Foundation เพราะใช้ชื่อ class เหมือนกัน ตัว Foundation มีความสามารถมากกว่า Bootstrap ทำอะไร Advance ได้มากกว่า แต่ก็ต้องเรียนรู้มากกว่า
 
-[![39](https://benzneststudios.com/blog/wp-content/uploads/2018/11/39.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/39.png "39")
+[![39](https://benzneststudios.com/blog/wp-content/uploads/2018/11/39.png)
 
 ## สรุป
 
@@ -1221,5 +1221,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU0OTY3NDNdfQ==
+eyJoaXN0b3J5IjpbLTIwNTkyODEzMTBdfQ==
 -->
