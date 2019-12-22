@@ -646,80 +646,8 @@ beatae.  Voluptas,  aliquid!  Nostrum quam architecto  </p>
 ![65](https://benzneststudios.com/blog/wp-content/uploads/2018/11/65.png)
 การจะเพิ่มแถวของเนื้อหาที่ใช้ class media สามารถใช้  <ul class=”list-unstyled”>  และ <li> เข้ามาได้
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-32
-
-33
-
-34
-
-35
-
-36
-
-37
-
+```html
 <div class="col-md-6">
 
 <h3>Photo gallery</h3>
@@ -789,8 +717,8 @@ beatae.  Voluptas,  aliquid!  Nostrum quam architecto  </p>
 </ul>
 
 </div>
-
-[![66](https://benzneststudios.com/blog/wp-content/uploads/2018/11/66.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/66.png "66")
+```
+![66](https://benzneststudios.com/blog/wp-content/uploads/2018/11/66.png)
 
 ### Source code
 
@@ -800,26 +728,8 @@ beatae.  Voluptas,  aliquid!  Nostrum quam architecto  </p>
 
 เพิ่ม row ไปที่บนสุดของ container ข้างในใช้ list คือ <ul><li> … </li></ul>
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
+```html
 <body>
 
 <div class="container">
@@ -833,38 +743,16 @@ beatae.  Voluptas,  aliquid!  Nostrum quam architecto  </p>
 </div>
 
 </div>
-
+```
 ...
-
+```html
 ใน bootstrap จะใช้  
 class ชื่อ nav ใน <ul>  
 class ชื่อ nav-item ใน <li>  
 class ชื่อ nav-link ใน <a> ที่เป็นป้ายลิงค์
+```
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
+```html
 <div class="row pt-3 pb-3">
 
 <div class="col">
@@ -884,19 +772,15 @@ class ชื่อ nav-link ใน <a> ที่เป็นป้ายลิ�
 </div>
 
 </div>
-
-[![67](https://benzneststudios.com/blog/wp-content/uploads/2018/11/67.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/67.png "67")
+```
+![67](https://benzneststudios.com/blog/wp-content/uploads/2018/11/67.png)
 
 เพิ่ม ให้เมนูนึงถูกเลือกใช้ class ชื่อว่า  **active**
 
-1
 
-2
-
-3
-
+```html
 <li class="nav-item"><a  class="nav-link active"  href="#">Home</a></li>
-
+```
 เพิ่ม class  **nav-pills**  ให้กับ <ul>
 
 1
@@ -1619,5 +1503,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDI4MTcwMF19
+eyJoaXN0b3J5IjpbOTIwOTkyOTcxXX0=
 -->
