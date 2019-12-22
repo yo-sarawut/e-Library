@@ -401,59 +401,8 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 
 สร้างไฟล์ใหม่ชื่อว่า news.html ทำ grid ไว้ 2 คอลัมภ์
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
+```html
 
 <!DOCTYPE html>
 
@@ -498,52 +447,11 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 </body>
 
 </html>
-
+```
 Card โครงสร้างจะเป็นประมาณนี้
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
+```html
 
 <div class="container">
 
@@ -584,56 +492,20 @@ By Benznest
 </div>
 
 </div>
+```
+![58](https://benzneststudios.com/blog/wp-content/uploads/2018/11/58.png)
 
-[![58](https://benzneststudios.com/blog/wp-content/uploads/2018/11/58.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/58.png "58")
-
-[![56](https://benzneststudios.com/blog/wp-content/uploads/2018/11/56.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/56.png "56")
+![56](https://benzneststudios.com/blog/wp-content/uploads/2018/11/56.png)
 
 สามารถจัดแต่งโดยใช้ utilities class ได้ตามปกติ เช่น bg และ text
-
-1
-
-2
-
-3
-
+```html
 <div class="card-header bg-danger text-white">
-
-[![57](https://benzneststudios.com/blog/wp-content/uploads/2018/11/57.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/57.png "57")
+```
+![57](https://benzneststudios.com/blog/wp-content/uploads/2018/11/57.png)
 
 สามารถนำรูปมาเป็น Header ได้ โดยใช้ class ชือว่า **card-img-top**
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
+```html
 
 <div class="row">
 
@@ -662,20 +534,16 @@ By Benznest
 </div>
 
 </div>
-
-[![59](https://benzneststudios.com/blog/wp-content/uploads/2018/11/59.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/59.png "59")
+```
+![59](https://benzneststudios.com/blog/wp-content/uploads/2018/11/59.png)
 
 เพิ่มปุ่มใน card ให้ดูสวยงาม
 
-1
 
-2
-
-3
-
+```html
 <a  href="#"  class="btn btn-primary">Read more</a>
-
-[![60](https://benzneststudios.com/blog/wp-content/uploads/2018/11/60.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/60.png "60")
+```
+![60](https://benzneststudios.com/blog/wp-content/uploads/2018/11/60.png)
 
 ซึ่งถ้าจะทำสวยๆ ก็ต้องมีรูป และเนื้อหาที่เหมาะสมกัน
 
@@ -1821,5 +1689,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTgxODQ0MF19
+eyJoaXN0b3J5IjpbLTE4MjMyODExN119
 -->
