@@ -582,31 +582,13 @@ frameborder="0"  allow="accelerometer; autoplay; encrypted-media;
 
 gyroscope; picture-in-picture"  allowfullscreen></iframe>
 ```
-เพิ่ม `<div> `ครอบตัว video โดยเพิ่ม class ชื่อว่า  **embed-responsive embed-responsive-4by3  
-**4by3 คือขนาด 4:3 สามารถใช้ตัวอื่นได้เช่น 16by9, 21by9, 1by1และที่ iframe เพิ่ม class ชื่อว่า **embed-responsive-item**
+เพิ่ม `<div> `ครอบตัว video โดยเพิ่ม class ชื่อว่า `embed-responsive embed-responsive-4by3  `
+`4by3` คือขนาด 4:3 สามารถใช้ตัวอื่นได้เช่น `16by9, 21by9, 1by1`และที่ iframe เพิ่ม class ชื่อว่า `embed-responsive-item`
 
 โดยจะลองเพิ่มแถวเข้าไปต่อจากเดิม
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
+```html
 <div class="row mt-5">
 
 <div class="col">
@@ -622,45 +604,14 @@ gyroscope; picture-in-picture"  allowfullscreen></iframe>
 </div>
 
 </div>
-
-[![64](https://benzneststudios.com/blog/wp-content/uploads/2018/11/64.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/64.png "64")
+```
+![64](https://benzneststudios.com/blog/wp-content/uploads/2018/11/64.png)
 
 ลองเพิ่มคอมลัมภ์อีกอันเพื่อทำ photo gallery ด้านขวาของ video  
 ซึ่งสามารถใช้ class ชื่อว่า  **media** การทำงานของมันจะเรียงไปแนวนอน
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
+```html
 
 <div class="row mt-5">
 
@@ -691,9 +642,8 @@ beatae.  Voluptas,  aliquid!  Nostrum quam architecto  </p>
 </div>
 
 </div>
-
-[![65](https://benzneststudios.com/blog/wp-content/uploads/2018/11/65.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/65.png "65")
-
+```
+![65](https://benzneststudios.com/blog/wp-content/uploads/2018/11/65.png)
 การจะเพิ่มแถวของเนื้อหาที่ใช้ class media สามารถใช้  <ul class=”list-unstyled”>  และ <li> เข้ามาได้
 
 1
@@ -1669,5 +1619,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDU1MDVdfQ==
+eyJoaXN0b3J5IjpbLTc4NDI4MTcwMF19
 -->
