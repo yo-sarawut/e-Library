@@ -783,27 +783,19 @@ class ชื่อ nav-link ใน <a> ที่เป็นป้ายลิ�
 ```
 เพิ่ม class  **nav-pills**  ให้กับ <ul>
 
-1
 
-2
-
-3
-
+```html
 <ul class="nav nav-pills">
-
-[![68](https://benzneststudios.com/blog/wp-content/uploads/2018/11/68.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/68.png "68")
+```
+![68](https://benzneststudios.com/blog/wp-content/uploads/2018/11/68.png)
 
 หรือจะใช้ class **nav-tabs**
 
-1
 
-2
-
-3
-
+```html
 <ul class="nav nav-tabs">
-
-[![69](https://benzneststudios.com/blog/wp-content/uploads/2018/11/69.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/69.png "69")
+```
+![69](https://benzneststudios.com/blog/wp-content/uploads/2018/11/69.png)
 
 รายละเอียด
 
@@ -814,31 +806,14 @@ class ชื่อ nav-link ใน <a> ที่เป็นป้ายลิ�
 Bootstrap ต้องใช้ library เพิ่มคือ jquery กับ popper ถึงจะใช้งานได้เต็มประสิทธิภาพ ซึ่ง bootstrap ไม่มีติดมาให้ เพราะ ติด license จำเป็นต้องไปดาวน์ดหลดมาจากต้นทางผู้พัฒนา  
 ให้ดาวน์โหลด jquery js กับ popper js มาติดตั้งไว้ในโปรเจค ในโฟลดเดอร์ js
 
-[![71](https://benzneststudios.com/blog/wp-content/uploads/2018/11/71.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/71.png "71")
+[![71](https://benzneststudios.com/blog/wp-content/uploads/2018/11/71.png)
 
 เพิ่ม jquery , popper , bootstrap ไปที่ท้าย body โดยใช้คำสั่ง <script></script>  
 โดยให้ jquery และ popper อยู่ด้านบนของ bootstrap.js เพราะการอ่านโค้ดจะอ่านจากบนลงล่าง วึ่ง bootstrap เรียกใช้งาน jquery  
 จึงจำเป็นต้องอ่าน jquery มาก่อนนั่นเอง
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-...
+```html
 
 <script src="js/jquery-3.3.1.min.js"></script>
 
@@ -849,37 +824,17 @@ Bootstrap ต้องใช้ library เพิ่มคือ jquery กั�
 </body>
 
 </html>
-
+```
 ถ้าใส่ผิด สามารถ Inspect ดูที่เมนู console
 
-[![72](https://benzneststudios.com/blog/wp-content/uploads/2018/11/72.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/72.png "72")
+![72](https://benzneststudios.com/blog/wp-content/uploads/2018/11/72.png)
 
 ## การทำ dropdown
 
 เพิ่ม dropdown ให้เมนู ได้ โดยใช้  **dropdown-menu**
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
+```html
 <li class="nav-item dropdown">
 
 <a  class="nav-link dropdown-toggle"  href="#"  data-toggle="dropdown">Service</a>
@@ -897,12 +852,12 @@ Bootstrap ต้องใช้ library เพิ่มคือ jquery กั�
 </div>
 
 </li>
-
-[![73](https://benzneststudios.com/blog/wp-content/uploads/2018/11/73.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/73.png "73")
+```
+![73](https://benzneststudios.com/blog/wp-content/uploads/2018/11/73.png)
 
 ปัญหาที่ตามมาคือ เมนูแบบนี้ไม่รองรับ responsive ดังนั้นต้องไปใช้ Navbar แบบใหม่
 
-[![74](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png "74")
+![74](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png "74")
 
 ## ติตดั้ง extension
 
@@ -1503,5 +1458,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwOTkyOTcxXX0=
+eyJoaXN0b3J5IjpbLTk1MjA3OTcwXX0=
 -->
