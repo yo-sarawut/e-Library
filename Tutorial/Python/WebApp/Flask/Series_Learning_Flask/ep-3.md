@@ -62,7 +62,7 @@ def about():
 Go to  `/about`  in your browser to see the changes. You'll see a big red H1 heading at the top of the page!
 
 We can also pass a multi line string of HTML to  `return`, let's do that now:
-
+```py
 `from app import app
 
 @app.route("/")
@@ -76,7 +76,7 @@ def about():
  <p>This is a lovely little paragraph</p>
  <code>Flask is <em>awesome</em></code>
  """` 
-
+```
 Cool right? But not very practical.
 
 To make things a bit more fun, let's learn how to serve HTML files with Flask.
@@ -96,17 +96,17 @@ Move into the  `app`  directory with:
 `cd app` 
 
 Create the  `templates`  directory and move into it:
-
-`mkdir templates
-cd templates` 
-
+```
+mkdir templates
+cd templates
+```
 Let's create a template called  `index.html`:
 
 `touch index.html` 
 
 Open up  `index.html`  in your editor and add the following:
-
-`<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -121,15 +121,15 @@ Open up  `index.html`  in your editor and add the following:
   <p>This is an HTML file served up by Flask</p>
 </body>
 
-</html>` 
-
+</html>
+```
 It's not going to win any design awards but will illustrate how to render HTML files!
 
 Save and close the file.
 
 Your project file structure should now look like the following:
 
-`.
+```
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
@@ -137,8 +137,8 @@ Your project file structure should now look like the following:
 │   │   └── index.html
 │   └── views.py
 ├── requirements.txt
-└── run.py` 
-
+└── run.py
+```
 In your terminal, navigate back to the root  `app`  directory containing  `run.py`  and run the  `flask run`  command to restart the app.
 
 Before we can start serving up any HTML files, we need to import  `render_template`  from Flask. Go ahead and add the following import to the top of  `views.py`
@@ -158,8 +158,8 @@ To return an HTML template, we use the following syntax:
 Flask will look in the  `templates`  directory we've just created for  `index.html`  (It's the default place Flask will go to look for HTML files when the  `render_template`  function is called)
 
 Your  `views.py`  file should now look like this:
-
-`from app import app
+```py
+from app import app
 
 from flask import render_template
 
@@ -345,5 +345,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/rendering-html-files-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTMxMjk2Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODgyMTI5MDE4LDczMDk5ODExNl19
 -->
