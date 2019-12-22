@@ -334,79 +334,38 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 
 ใช้ class  **form-control**  ให้กับ input เพื่อให้มันรองรับ responsive และความสวยงาม
 
-1
 
-2
-
-3
-
+```html
 <input class="form-control"  type="text"  id="username"  name="username">
-
-[![51](https://benzneststudios.com/blog/wp-content/uploads/2018/11/51.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/51.png "51")
-
+```
+![51](https://benzneststudios.com/blog/wp-content/uploads/2018/11/51.png)
 ส่วนปุ่มใช้ class ชื่อว่า  **btn** และอยากได้ส้มๆก็ใส่ **btn-warning**
 
-1
 
-2
-
-3
-
+```html
 <button class="btn btn-warning text-white"  type="submit">Login</button>
-
-[![52](https://benzneststudios.com/blog/wp-content/uploads/2018/11/52.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/52.png "52")
+```
+![52](https://benzneststudios.com/blog/wp-content/uploads/2018/11/52.png)
 
 ถ้าต้องการให้ปุ่มแสดงตามขนาดจอ ก็ใช้ **btn-block**
 
-1
 
-2
-
-3
-
+```html
 <button class="btn btn-block btn-warning text-white"  type="submit">Login</button>
-
-[![53](https://benzneststudios.com/blog/wp-content/uploads/2018/11/53.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/53.png "53")
+```
+![53](https://benzneststudios.com/blog/wp-content/uploads/2018/11/53.png)
 
 ถ้าต้องการให้แสดงแบบแถวเดียวใช้ **form-inline**
-
-1
-
-2
-
-3
+```html
 
 <form action="#"  class="form-inline">
-
-[![54](https://benzneststudios.com/blog/wp-content/uploads/2018/11/54.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/54.png "54")
+```
+![54](https://benzneststudios.com/blog/wp-content/uploads/2018/11/54.png)
 
 ฟอร์มมันชิดไป ไม่สวยก็สามารถใช้ class margin มาร่วมได้
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
+```html
 
 <form action="#"  class="form-inline mt-3">
 
@@ -429,8 +388,8 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 <button class="btn btn-warning text-white"  type="submit">Login</button>
 
 </form>
-
-[![55](https://benzneststudios.com/blog/wp-content/uploads/2018/11/55.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/55.png "55")
+```
+![55](https://benzneststudios.com/blog/wp-content/uploads/2018/11/55.png)
 
 ### Source code
 
@@ -1862,5 +1821,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ1MzM1NjJdfQ==
+eyJoaXN0b3J5IjpbLTg4MTgxODQ0MF19
 -->
