@@ -99,8 +99,8 @@ We're going to create a Javascript directory and a JavaScript file and link them
 We'll create a  `js`  directory inside our  `static`  directory, along with creating a new file called  `app.js`  in the  `js`  folder.
 
 Our new app file structure will look like this:
-
-`app
+```
+app
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
@@ -116,31 +116,31 @@ Our new app file structure will look like this:
 │   │       └── index.html
 │   └── views.py
 ├── requirements.txt
-└── run.py` 
-
+└── run.py
+```
 From the  `app`  root directory, we'll run the following:
-
-`cd app
+```
+cd app
 cd static
 mkdir js
 cd js
 touch app.js` 
-
+```
 Open up the  `app.js`  file and add the following:
-
-`console.log("Hello from app.js!");` 
-
+```js
+console.log("Hello from app.js!");
+```
 Let's link our  `js`  file to our HTML template.
 
 Open up  `index.html`in your editor, and at the bottom of the page, just before the closing  `</body>`  tag, add the following:
-
-`<script src="{{ url_for('static', filename='js/app.js') }}"></script>` 
-
+```html
+<script src="{{ url_for('static', filename='js/app.js') }}"></script> 
+```
 Your  `index.html`  file should now look something like this:
 
 **app/app/templates/public/index.html**
-
-`<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -157,8 +157,8 @@ Your  `index.html`  file should now look something like this:
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 
-</html>` 
-
+</html>
+```
 Just like we did with the stylesheet, we use  `url_for`  to provide a directory and a path to our filename.
 
 Save the file, make sure your app is running with the  `flask run`  command and reload your browser.
@@ -178,7 +178,7 @@ Any guesses on how we're going to serve images?
 We're going to do exactly what we did with our CSS and JavaScript files and create a new  `img`  directory in our  `static`  directory and place all of our pictures in there.
 
 Our new app file structure will look like this:
-
+```
 `app
 ├── app
 │   ├── __init__.py
@@ -260,5 +260,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/serving-static-files-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTMwNDIyNl19
+eyJoaXN0b3J5IjpbLTQyNjQzMDU0NV19
 -->
