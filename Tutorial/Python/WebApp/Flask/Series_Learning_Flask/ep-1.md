@@ -37,17 +37,16 @@ It's best practice to update pip (Python's package manager) after creating a new
 `pip install --upgrade pip` 
 
 You should see a success message like the following
-
-`Collecting pip
+```
+Collecting pip
   Using cached https://files.pythonhosted.org/packages/46/dc/7fd5df840efb3e56c8b4f768793a237ec4ee59891959d6a215d63f727023/pip-19.0.1-py2.py3-none-any.whl
 Installing collected packages: pip
   Found existing installation: pip 18.1
     Uninstalling pip-18.1:
       Successfully uninstalled pip-18.1
 Successfully installed pip-19.0.1` 
-
 Now we're ready to install Flask!
-
+```
 ### Installing Flask
 
 You install Flask just as you would any other Python package.
@@ -55,8 +54,8 @@ You install Flask just as you would any other Python package.
 `pip install flask` 
 
 If we now run  `pip list`, you'll see the following:
-
-`Package      Version
+```
+Package      Version
 ------------ -------
 Click        7.0
 Flask        1.0.2
@@ -66,7 +65,7 @@ MarkupSafe   1.1.0
 pip          19.0.1
 setuptools   40.6.2
 Werkzeug     0.14.1` 
-
+```
 > Note - Flask comes with several other packages so don't be alarmed when you see  `MarkupSafe`  or  `itsdangerous`!
 
 Ok so we've got everything we need to start building our very simple application. Let's get to it.
@@ -88,16 +87,16 @@ First of all, we need to import  `Flask`  from  `flask`
 Now we need to create our  `Flask`  application. We're going to pass  `__name__`  to  `Flask`  and assign it to the variable  `app`
 
 Don't worry about exactly why we're doing this. We'll cover it in a more advanced episode in this series.
-
-`from flask import Flask
+```py
+from flask import Flask
 
 app = Flask(__name__)` 
-
+```
 Next up, we need to create a route or view (route and view are used interchangeably)
 
 Let's create a route and explain it line by line after:
-
-`from flask import Flask
+```py
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -107,8 +106,8 @@ def index():
 
 Let's talk through the 3 lines we just added:
 
-`@app.route("/")` 
-
+@app.route("/")` 
+```
 Routes in Flask are created using the  `@app.route`  decorator and passing in a URL or path.
 
 In this example, we've passed  `"/"`  into the  `@app.route`  decorator.  `"/"`  is the root of the website or application.
@@ -124,7 +123,7 @@ Flask will return whatever we pass to the  `return`  statement! In this case, ju
 
 We need to add 2 more lines of code before we can run our app. Add the following:
 ```py
-`from flask import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -223,5 +222,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/your-first-flask-app#creating-a-project-directory-and-virtual-environment).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTM1NTkzM119
+eyJoaXN0b3J5IjpbLTIxMTk4NzExMDFdfQ==
 -->
