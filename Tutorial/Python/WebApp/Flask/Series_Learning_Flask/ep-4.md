@@ -198,13 +198,13 @@ Our new app file structure will look like this:
 │   └── views.py
 ├── requirements.txt
 └── run.py` 
-
+```
 From the root  `app`  directory, we'll create our new directories with the following commands:
-
+```
 `cd app
 cd static
 mkdir img` 
-
+```
 Go ahead and drop any image into the  `img`  directory.
 
 Next up, let's put an  `<img>`  tag in our  `index.html`  file and render an image to the browser.
@@ -212,13 +212,13 @@ Next up, let's put an  `<img>`  tag in our  `index.html`  file and render an ima
 open up  `index.html`  and add the following just under the  `<p>`  tag in the  `<body>`:
 
 **app/app/templates/public/index.html**
-
+```html
 `<img src="{{ url_for('static', filename='img/TEST-IMG.png') }}" alt="">` 
-
+```
 Your  `index.html`  should now look like this:
 
 **app/app/templates/public/index.html**
-
+```html
 `<!DOCTYPE html>
 <html lang="en">
 
@@ -238,7 +238,7 @@ Your  `index.html`  should now look like this:
 </body>
 
 </html>` 
-
+```
 We're using the exact same  `url_for`  function to point to the path of our image.
 
 Save the file, make sure your app is running and reload the browser windows to see your image rendered!
@@ -260,5 +260,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/serving-static-files-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjQzMDU0NV19
+eyJoaXN0b3J5IjpbLTE4NzM4ODMzOTNdfQ==
 -->
