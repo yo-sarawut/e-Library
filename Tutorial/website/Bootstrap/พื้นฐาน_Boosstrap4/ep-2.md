@@ -547,31 +547,19 @@ By Benznest
 
 ซึ่งถ้าจะทำสวยๆ ก็ต้องมีรูป และเนื้อหาที่เหมาะสมกัน
 
-[![61](https://benzneststudios.com/blog/wp-content/uploads/2018/11/61.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/61.png "61")
+![61](https://benzneststudios.com/blog/wp-content/uploads/2018/11/61.png)
 
 สามารถนำรูปมาวางด้านล่างแทนได้ โดยใช้ class ชื่อว่า  **card-img-bottom**
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
+```html
 <div class="card-body">
 
 ...
 
 </div>
-
-<img class="card-img-bottom"  src="img/staffs/staff4.jpg">
-
-[![62](https://benzneststudios.com/blog/wp-content/uploads/2018/11/62.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/62.png "62")
+```
+![62](https://benzneststudios.com/blog/wp-content/uploads/2018/11/62.png)
 
 ### Source code
 
@@ -582,27 +570,19 @@ By Benznest
 การนำคลิป youtube embed มาใช้ใน bootstrap  
 ไปที่ youtube คลิกขวาที่คลิป > Copy embed code
 
-[![63a](https://benzneststudios.com/blog/wp-content/uploads/2018/11/63a.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/63a.png "63a")
+![63a](https://benzneststudios.com/blog/wp-content/uploads/2018/11/63a.png)
 
 มันจะเป็น iframe  ถ้ามี width height ให้ลบออก  เพราะ เราจะทำให้ responsive
 
-1
 
-2
-
-3
-
-4
-
-5
-
+```html
 <iframe src="https://www.youtube.com/embed/5nLWk7kzXgI?ecver=1"
 
 frameborder="0"  allow="accelerometer; autoplay; encrypted-media;
 
 gyroscope; picture-in-picture"  allowfullscreen></iframe>
-
-เพิ่ม <div> ครอบตัว video โดยเพิ่ม class ชื่อว่า  **embed-responsive embed-responsive-4by3  
+```
+เพิ่ม `<div> `ครอบตัว video โดยเพิ่ม class ชื่อว่า  **embed-responsive embed-responsive-4by3  
 **4by3 คือขนาด 4:3 สามารถใช้ตัวอื่นได้เช่น 16by9, 21by9, 1by1และที่ iframe เพิ่ม class ชื่อว่า **embed-responsive-item**
 
 โดยจะลองเพิ่มแถวเข้าไปต่อจากเดิม
@@ -1689,5 +1669,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMyODExN119
+eyJoaXN0b3J5IjpbMTg5MDU1MDVdfQ==
 -->
