@@ -174,7 +174,7 @@ def about():
  <p>This is a lovely little paragraph</p>
  <code>Flask is <em>awesome</em></code>
  """` 
-
+```
 Go to  `/index`  in your browser at  [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  to see your HTML masterpiece.
 
 Nice work. You've rendered your first HTML page with Flask!
@@ -189,7 +189,7 @@ Let's refactor our template directories and files to reflect that change.
 
 Our new file structure is going to look like the following:
 
-`.
+```
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
@@ -201,7 +201,7 @@ Our new file structure is going to look like the following:
 │   └── views.py
 ├── requirements.txt
 └── run.py` 
-
+```
 We're going to create 2 new directories within our  `templates`  directory:
 
 -   public - Will contain all of the HTML files we want to serve from  `views.py`
@@ -228,7 +228,7 @@ touch dashboard.html`
 
 Once again, your app structure should now look like this:
 
-`.
+```
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
@@ -240,7 +240,7 @@ Once again, your app structure should now look like this:
 │   └── views.py
 ├── requirements.txt
 └── run.py` 
-
+```
 Before we add any HTML to  `dashboard.html`. Let's refactor our view in  `views.py`  to serve  `index.html`  from the newly created directory.
 
 Open up  `views.py`. We're going to change the path to the file we want to serve in  `render_template`.
@@ -248,19 +248,19 @@ Open up  `views.py`. We're going to change the path to the file we want to serve
 Change this:
 
 **app/app/views.py**
-
+```py
 `@app.route("/")
 def index():
     return render_template("index.html")` 
-
+```
 To this:
 
 **app/app/views.py**
-
+```py
 `@app.route("/")
 def index():
     return render_template("public/index.html")` 
-
+```
 We've changed  `"index.html"`  to  `"public/index.html"`  to reflect our new directory structure.
 
 Start up your app and reload your browser to test everything works.
@@ -272,8 +272,8 @@ Let's add some HTML to  `dashboard.html`  and refactor our  `admin_views.py`  fi
 Open up  `dashboard.html`  and add the following:
 
 **app/app/templates/admin/dashboard.html**
-
-`<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -288,8 +288,8 @@ Open up  `dashboard.html`  and add the following:
   <p>This HTML file is served from the admin templates directory</p>
 </body>
 
-</html>` 
-
+</html>
+```
 Save and close the file.
 
 We now need to refactor the route in  `admin_views.py`. Open the file and make the following changes.
@@ -303,17 +303,17 @@ First up, we need to import  `render_template`. Add the following to the top of 
 We then need to change our file path in the  `render_template`  function.
 
 From this:
-
-`@app.route("/admin/dashboard")
+```py
+@app.route("/admin/dashboard")
 def admin_dashboard():
-    return render_template("dashboard.html")` 
-
+    return render_template("dashboard.html")
+```
 To this:
-
-`@app.route("/admin/dashboard")
+```py
+@app.route("/admin/dashboard")
 def admin_dashboard():
-    return render_template("admin/dashboard.html")` 
-
+    return render_template("admin/dashboard.html") 
+```
 Save the file and go to  `admin/dashboard`  in your browser to see the changes.
 
 And we're done! We've split up our app and created a logical file structure within our app.
@@ -345,5 +345,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/rendering-html-files-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMTI5MDE4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzMTI4OTExODksNzMwOTk4MTE2XX0=
 -->
