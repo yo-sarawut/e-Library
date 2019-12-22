@@ -123,7 +123,7 @@ Under the  `@app.route`  decorator, we simply write a standard Python function w
 Flask will return whatever we pass to the  `return`  statement! In this case, just a short  `"Hello world!"`  string.
 
 We need to add 2 more lines of code before we can run our app. Add the following:
-
+```py
 `from flask import Flask
 
 app = Flask(__name__)
@@ -139,7 +139,7 @@ Let's take a look at what we added:
 
 `if __name__ == "__main__":
     app.run()` 
-
+```
 Again, I don't want you to worry too much about what's happening here. For now just know that  `__name__`  is a special variable used by the Python interpreter to understand if a file is the main program.
 
 Just as we passed  `__name__`  into the  `Flask()`  class, the special variable  `__name__`  is equal to  `__main__`. You'll learn more about this principle as you advance through the series.
@@ -153,8 +153,8 @@ In your terminal, make sure you're in the same directory as  `app.py`  and run t
 `python app.py` 
 
 You'll see the following message in your terminal to let you know Flask is running:
-
- `* Serving Flask app "app" (lazy loading)
+```
+ * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.
    Use a production WSGI server instead.
@@ -162,7 +162,7 @@ You'll see the following message in your terminal to let you know Flask is runni
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 127.0.0.1 - - [03/Feb/2019 14:35:04] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [03/Feb/2019 14:35:04] "GET /favicon.ico HTTP/1.1" 404 -` 
-
+```
 Great, our app is running! Ignore any of the warning messages in your terminal and open up a new browser tab and head to the following URL:
 
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
@@ -176,10 +176,10 @@ So you've seen one way to run your Flask app but it's not recommended. There's a
 ### Flask environment variables
 
 To make running our app even easier, we're going to set a couple of environment variables in our shell. Run the following commands and we'll talk through them after:
-
-`export FLASK_APP=app.py
+```
+export FLASK_APP=app.py
 export FLASK_ENV=development` 
-
+```
 Running  `export FLASK_APP=app.py`  will set the  `FLASK_APP`  variable to  `app.py`
 
 Running  `export FLASK_ENV=development`  tells Flask we want to run our app in development mode
@@ -193,7 +193,7 @@ We can now run our app using the following simple command:
 `flask run` 
 
 You'll see:
-
+```
  `* Serving Flask app "app.py" (lazy loading)
  * Environment: development
  * Debug mode: on
@@ -201,7 +201,7 @@ You'll see:
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 201-167-879` 
-
+```
 You'll notice we don't get any of the warnings and that  `Environment`  is set to  `development`
 
 Head back to  [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  and you'll see the same  `Hello world!`  message as before.
@@ -223,5 +223,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/your-first-flask-app#creating-a-project-directory-and-virtual-environment).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTEzNjYzNF19
+eyJoaXN0b3J5IjpbMTg0MTM1NTkzM119
 -->
