@@ -203,37 +203,19 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 ![g5](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g5.gif)
 
 ใส่ขอบให้ตารางใช้ table-bordered
-
-1
-
-2
-
-3
-
+```html
 <table class="table table-hover table-bordered">
-
-[![44](https://benzneststudios.com/blog/wp-content/uploads/2018/11/44.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/44.png "44")
+```
+![44](https://benzneststudios.com/blog/wp-content/uploads/2018/11/44.png)
 
 ลองย่อหน้าต่างให้เล็กเป็นมุมมองมือถือ จะพบว่าตารางไม่รองรับ responsive
 
-[![46a](https://benzneststudios.com/blog/wp-content/uploads/2018/11/46a.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/46a.png "46a")
+[![46a](https://benzneststudios.com/blog/wp-content/uploads/2018/11/46a.png)
 
 วิธีการแก้ก็คือเอาตารางไปใส่ใน div class **table-responsive**
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
+```html
 <div class="table-responsive">
 
 <table class="table table-hover table-bordered">
@@ -243,14 +225,14 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 </table>
 
 </div>
-
+```
 มันจะสามารถเลื่อน ซ้ายขวาได้
 
-[![g6](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g6.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g6.gif "g6")
+![g6](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g6.gif)
 
 ใน VS Code ตรงไหนโค้ดยาวก็ย่อโค้ดได้นะ
 
-[![47](https://benzneststudios.com/blog/wp-content/uploads/2018/11/47.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/47.png "47")
+[![47](https://benzneststudios.com/blog/wp-content/uploads/2018/11/47.png)
 
 ### Source code
 
@@ -266,74 +248,8 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 
 ลองใส่ฟอร์มล็อกอิน แบบง่ายๆ
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-32
-
-33
-
-34
-
+```html
 <!DOCTYPE html>
 
 <html lang="en">
@@ -385,37 +301,13 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 </body>
 
 </html>
-
-[![48](https://benzneststudios.com/blog/wp-content/uploads/2018/11/48.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/48.png "48")
+```
+![48](https://benzneststudios.com/blog/wp-content/uploads/2018/11/48.png)
 
 ให้ใช้ class  **form-group**  จัดการแถวของฟอร์ม
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
+```html
 <form action="#">
 
 <div class="form-group">
@@ -437,8 +329,8 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 <button type="submit">Login</button>
 
 </form>
-
-[![49](https://benzneststudios.com/blog/wp-content/uploads/2018/11/49.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/49.png "49")
+```
+![49](https://benzneststudios.com/blog/wp-content/uploads/2018/11/49.png)
 
 ใช้ class  **form-control**  ให้กับ input เพื่อให้มันรองรับ responsive และความสวยงาม
 
@@ -1970,5 +1862,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY3NTEwNjJdfQ==
+eyJoaXN0b3J5IjpbLTE5MjQ1MzM1NjJdfQ==
 -->
