@@ -91,8 +91,8 @@ We're actually importing the  `app`  variable we created in the  `__init__.py`. 
 Let's add another view and pass it a different URL:
 
 **app/app/views.py**
-
-`from app import app
+```py
+from app import app
 
 @app.route("/")
 def index():
@@ -101,7 +101,7 @@ def index():
 @app.route("/about")
 def about():
     return "All about Flask"` 
-
+```
 We've added another route with the URL  `"/about"`, changed the function name to  `about`  and then told it to return  `"All about Flask"`
 
 > Tip - Routes in Flask must always start with a  `/`  slash
@@ -113,12 +113,12 @@ Before we can run our app, we need to create an entrypoint. This is where we'll 
 Go back up one directory into the parent  `app`  folder, open up  `run.py`  and add the following:
 
 **app/run.py**
-
-`from app import app
+```py
+from app import app
 
 if __name__ == "__main__":
     app.run()` 
-
+```
 We're importing the  `app`  variable from the  `app`  package that we've just created.
 
 We're then calling the  `app.run()`  method, just like in the previous tutorial by wrapping it in an  `if __name__ == "__main__":`  block.
@@ -130,10 +130,10 @@ Before we run our app, we need to set our environment variables
 > Tip - If you deactivated the virtual environment. Go ahead and re-activate it with  `source env.bin/activate`  from within the parent  `app`  directory
 
 Just like last time, we're going to set 2 environment variables:
-
-`export FLASK_APP=run.py
+```pain
+SK_APP=run.py
 export FLASK_ENV=development` 
-
+```
 We've set the  `FLASK_APP`  variable to  `run.py`  which is our Flask entry point.
 
 ### Running our app
@@ -263,5 +263,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-application-structure).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjYxMzIwMl19
+eyJoaXN0b3J5IjpbLTE2NDQ4MDQ2NjNdfQ==
 -->
