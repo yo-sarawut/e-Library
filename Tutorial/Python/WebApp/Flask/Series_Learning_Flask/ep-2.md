@@ -23,14 +23,14 @@ In the last part of this series, we created a single directory called  `app`  in
 
 Let's take a look at how our new project structure is going to look from inside our  `app`  project directory:
 
-`.
+```
 ├── app
 │   ├── __init__.py
 │   └── views.py
 ├── env
 ├── requirements.txt
 └── run.py` 
-
+```
 We're going to go through each file step by step. But for now, let's go ahead and create our structure!
 
 Make your way to the  `app`  directory you created in your home folder:
@@ -61,13 +61,13 @@ Great, we've created our basic application structure. Let's go through each file
 We'll start with the  `__init__.py`  file. Go ahead and open it up in an editor and enter the following:
 
 **app/app/__init__.py**
-
-`from flask import Flask
+```py
+from flask import Flask
 
 app = Flask(__name__)
 
 from app import views` 
-
+```
 You'll be familiar with the first 2 lines, just like we did in the last episode we're importing Flask and setting our  `app`  variable, however you'll noticed we've added  `from app import views`  at the bottom.
 
 Using this method, we can import multiple python files into our Flask app (as you'll see later)
@@ -77,13 +77,13 @@ Think of the  `__init__.py`  file as a contructor that pulls all of the parts of
 Now, let's add some views in  `views.py`
 
 **app/app/views.py**
-
+```py
 `from app import app
 
 @app.route("/")
 def index():
     return "Hello world"` 
-
+```
 Just like in our first app, we're creating a new view using the  `@app.route`  decorator and passing it a URL. The only difference is the  `from app import app`  statement at the top of the file.
 
 We're actually importing the  `app`  variable we created in the  `__init__.py`. Meaning we can access it anywhere in our package!
@@ -241,14 +241,14 @@ From the root  `app`  directory, run the following command:
 This command will create a  `requirements.txt`  file and place it in our current directory, listing all of the packages we've installed.
 
 It will look like this:
-
-`Click==7.0
+```
+Click==7.0
 Flask==1.0.2
 itsdangerous==1.1.0
 Jinja2==2.10
 MarkupSafe==1.1.0
 Werkzeug==0.14.1` 
-
+```
 > Tip - To install packages from a  `requirements.txt`  file, run  `pip install -r requirements.txt`
 
 ### Wrapping up
@@ -263,5 +263,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-application-structure).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjkzNDQ5NjBdfQ==
+eyJoaXN0b3J5IjpbLTU5MjYxMzIwMl19
 -->
