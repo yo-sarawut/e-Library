@@ -131,8 +131,8 @@ Before we run our app, we need to set our environment variables
 
 Just like last time, we're going to set 2 environment variables:
 ```pain
-SK_APP=run.py
-export FLASK_ENV=development` 
+export FLASK_APP=run.py
+export FLASK_ENV=development
 ```
 We've set the  `FLASK_APP`  variable to  `run.py`  which is our Flask entry point.
 
@@ -143,15 +143,15 @@ Run the app with the following:
 `flask run` 
 
 You'll see the following message, just like last time:
-
- `* Serving Flask app "run.py" (lazy loading)
+```
+ * Serving Flask app "run.py" (lazy loading)
  * Environment: development
  * Debug mode: on
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 306-421-612` 
-
+```
 Open up a new browser tab and head to:
 
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
@@ -182,23 +182,23 @@ Create a new file called  `admin_views.py`
 
 Your project file structure should now look like this:
 
-`.
+```
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
 │   └── views.py
 └── run.py` 
-
+```
 Open up  `admin_views.py`  and add the following:
 
 **app/app/admin_views.py**
-
-`from app import app
+```py
+from app import app
 
 @app.route("/admin/dashboard")
 def admin_dashboard():
     return "Admin dashboard"` 
-
+```
 We've done exactly the same as what we did in  `views.py`. Imported  `app`  from  `app`  and declared a new route.
 
 You'll also notice the URL is longer and contains 2 parts! You'll learn all about routing in detail later on in this series.
@@ -208,14 +208,14 @@ But before we can access this new route, we need to import  `admin_views.py`  in
 Got ahead and open up  `__init__.py`  and  `from app import admin_views`  down at the bottom. It should then look like this:
 
 **app/app/__init__.py**
-
-`from flask import Flask
+```py
+from flask import Flask
 
 app = Flask(__name__)
 
 from app import views
 from app import admin_views` 
-
+```
 Save the file and head back to the root  `app`  directory containing  `run.py`. It's time to run our app again.
 
 Once there, run the following command to run the app:
@@ -263,5 +263,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-application-structure).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ4MDQ2NjNdfQ==
+eyJoaXN0b3J5IjpbNjM5MzYwNDU2XX0=
 -->
