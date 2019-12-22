@@ -965,28 +965,24 @@ bootswatch เป็นเว็บที่รวมแหล่งธีม cs
 
 เอาไฟล์ .css ไปไว้ในโฟลเดอร์ css แนะนำเปลี่ยนชื่อเป็นชื่อธีม ไม่ควรใช้ชื่อ bootstrap ทับอันเดิม
 
-[![81](https://benzneststudios.com/blog/wp-content/uploads/2018/11/81.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/81.png "81")
+![81](https://benzneststudios.com/blog/wp-content/uploads/2018/11/81.png)
 
 ใน html ให้เปลี่ยนการใช้ bootstrap.min.css มาใช้ธีมอันใหม่
 
-1
 
-2
-
-3
-
+```html
 <link rel="stylesheet"  href="css/minty.min.css"  />
-
+```
 Refresh หน้าเว็บ
 
-[![80](https://benzneststudios.com/blog/wp-content/uploads/2018/11/80.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/80.png "80")
+![80](https://benzneststudios.com/blog/wp-content/uploads/2018/11/80.png)
 
 ## การใช้ Carousel
 
 carousel คือ ตัวสไลด์รูปภาพ  
 ใช้โค้ดลัด พิมพ์ว่า b-carousel เลือก carousel-full
 
-[![g8](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g8.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g8.gif "g8")
+![g8](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g8.gif)
 
 จากนั้นก็ปรับแต่ง carousel จะมีสามส่วน คือ  
 indicator ที่เป็นจุด ว่ารูปภาพเราคือรูปไหน  
@@ -995,85 +991,10 @@ Button คือปุ่มซ้าย ขวา
 
 active คืออันที่ถูกเลือกอยู่
 
-[![82](https://benzneststudios.com/blog/wp-content/uploads/2018/11/82.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/82.png "82")
+![82](https://benzneststudios.com/blog/wp-content/uploads/2018/11/82.png)
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-32
-
-33
-
-34
-
-35
-
-36
-
-37
-
-38
-
-39
+```html
 
 <div class="container-fluid mt-5 p-0">
 
@@ -1148,22 +1069,17 @@ active คืออันที่ถูกเลือกอยู่
 </a>
 
 </div>
-
+```
 การปรับเวลาในการเลื่อนอัตโนมัติ ทำได้โดยใช้ data-interval หน่วยเป็นมิลลิวินาที
 
-1
 
-2
-
-3
-
-4
+```html
 
 <div id="my-carousel"  class="carousel slide"  data-ride="carousel"
 
 data-interval="500">
-
-[![83](https://benzneststudios.com/blog/wp-content/uploads/2018/11/83.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/83.png "83")
+```
+![83](https://benzneststudios.com/blog/wp-content/uploads/2018/11/83.png)
 
 ### Source code
 
@@ -1174,63 +1090,17 @@ data-interval="500">
 Modal คือป๊อบอัพแบบสวยๆ อันนี้ก็ใช้บ่อยมากๆ  
 ใช้โค้ดลัดสร้าง Modal คือพิมพ์ว่ b-modal แล้วเลือก modal-full
 
-[![g10](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g10.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g10.gif "g10")
+[![g10](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g10.gif)
 
 Modal ปกติมันจะถูกซ่อนเอาไว้ รอให้เรียกใช้งาน  
 ให้เพิ่ม id ให้กับ div modal หลัก
-
-1
-
-2
-
-3
-
+```html
 <div class="modal fade"  id="myModal">
-
+```
 ปรับแต่ง modal ตามใจ โดยภายในก็แบ่งเป็น header, content , footer
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
+```html
 <div class="modal fade"  id="myModal">
 
 <div class="modal-dialog">
@@ -1386,5 +1256,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM3MTU5NjldfQ==
+eyJoaXN0b3J5IjpbMTY4ODY5NDhdfQ==
 -->
