@@ -857,78 +857,24 @@ Bootstrap ต้องใช้ library เพิ่มคือ jquery กั�
 
 ปัญหาที่ตามมาคือ เมนูแบบนี้ไม่รองรับ responsive ดังนั้นต้องไปใช้ Navbar แบบใหม่
 
-![74](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png "74")
+![74](https://benzneststudios.com/blog/wp-content/uploads/2018/11/74.png)
 
 ## ติตดั้ง extension
 
 ติดตั้ง Bootstrap v4 Snippets
 
-[![70](https://benzneststudios.com/blog/wp-content/uploads/2018/11/70.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/70.png "70")
+[![70](https://benzneststudios.com/blog/wp-content/uploads/2018/11/70.png)
 
 ## Navbar responsive
 
 พิมพ์ b-navbar มันจะ generate โค้ดมาให้
 
-[![g7](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g7.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g7.gif "g7")
+![g7](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g7.gif)
 
 ซึ่งเยอะมาก เรามีหน้าที่แก้เนื้อหาก็พอ นี่คือการใช้เครื่องมือให้เป็นประโยชน์
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
 <a  class="navbar-brand">Benznest's  blog</a>
@@ -980,49 +926,31 @@ Bootstrap ต้องใช้ library เพิ่มคือ jquery กั�
 </div>
 
 </nav>
-
+```
 Navbar อันใหม่จะรองรับ responsive
 
-[![75](https://benzneststudios.com/blog/wp-content/uploads/2018/11/75.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/75.png "75")
+![75](https://benzneststudios.com/blog/wp-content/uploads/2018/11/75.png)
 
-[![76](https://benzneststudios.com/blog/wp-content/uploads/2018/11/76.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/76.png "76")[![77](https://benzneststudios.com/blog/wp-content/uploads/2018/11/77.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/77.png "77")
+![76](https://benzneststudios.com/blog/wp-content/uploads/2018/11/76.png)![77](https://benzneststudios.com/blog/wp-content/uploads/2018/11/77.png)
 
 ปรับสีของ Navbar โดยใช้ class uitility
 
-1
 
-2
-
-3
-
-4
-
+```html
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
 
 <a  class="navbar-brand text-white">Benznest's  blog</a>
-
-[![78](https://benzneststudios.com/blog/wp-content/uploads/2018/11/78.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/78.png "78")
+```
+![78](https://benzneststudios.com/blog/wp-content/uploads/2018/11/78.png)
 
 และเนื่องจาก Navbar มันใช้ Fix-top มันจะทำให้กินเนื้อด้านบน ก็ให้เนื้อหาของเราเว้นว่างด้านบนนิดนึง โดยใช้ pt-5 ก็คือ padding top 5 rem
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-...
-
+```
 </nav>
 
 <div class="container pt-5">
-
+```
 ...
 
 ## แนะนำ Bootswatch
@@ -1033,7 +961,7 @@ bootswatch เป็นเว็บที่รวมแหล่งธีม cs
 
 กดดาวน์โหลดธีมที่ชอบ แล้วจะได้ไฟล์ .css
 
-[![79](https://benzneststudios.com/blog/wp-content/uploads/2018/11/79.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/79.png "79")
+[![79](https://benzneststudios.com/blog/wp-content/uploads/2018/11/79.png)
 
 เอาไฟล์ .css ไปไว้ในโฟลเดอร์ css แนะนำเปลี่ยนชื่อเป็นชื่อธีม ไม่ควรใช้ชื่อ bootstrap ทับอันเดิม
 
@@ -1458,5 +1386,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjA3OTcwXX0=
+eyJoaXN0b3J5IjpbLTEzMzM3MTU5NjldfQ==
 -->
