@@ -45,130 +45,8 @@
 ```
 ใส่ตารางลงไปใน container
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-32
-
-33
-
-34
-
-35
-
-36
-
-37
-
-38
-
-39
-
-40
-
-41
-
-42
-
-43
-
-44
-
-45
-
-46
-
-47
-
-48
-
-49
-
-50
-
-51
-
-52
-
-53
-
-54
-
-55
-
-56
-
-57
-
-58
-
-59
-
-60
-
-61
-
-62
-
+```html
 <!DOCTYPE html>
 
 <html lang="en">
@@ -282,37 +160,22 @@
 </body>
 
 </html>
-
+```
 จะได้แบบนี้
 
-[![40](https://benzneststudios.com/blog/wp-content/uploads/2018/11/40.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/40.png "40")
+![40](https://benzneststudios.com/blog/wp-content/uploads/2018/11/40.png)
 
 Bootstrap มี class ชื่อว่า table ทำให้ตารางสวยขึ้น
 
-1
-
-2
-
-3
-
+```html
 <table class="table">
-
-[![41](https://benzneststudios.com/blog/wp-content/uploads/2018/11/41.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/41.png "41")
+```
+![41](https://benzneststudios.com/blog/wp-content/uploads/2018/11/41.png)
 
 ปรับแต่งหัวตารางโดยใช้ utility class คือ bg- และ text-
 
-1
 
-2
-
-3
-
-4
-
-5
-
-6
-
+```html
 <table class="table">
 
 <thead>
@@ -320,32 +183,24 @@ Bootstrap มี class ชื่อว่า table ทำให้ตารา�
 <tr class="bg-primary text-white">
 
 ...
-
-[![42](https://benzneststudios.com/blog/wp-content/uploads/2018/11/42.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/42.png "42")
+```
+![42](https://benzneststudios.com/blog/wp-content/uploads/2018/11/42.png)
 
 ทำให้ตารางสลับสี ใช้ table-striped เพิ่มเข้าไป
 
-1
 
-2
-
-3
-
+```html
 <table class="table table-striped">
-
-[![43](https://benzneststudios.com/blog/wp-content/uploads/2018/11/43.png)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/43.png "43")
+```
+![43](https://benzneststudios.com/blog/wp-content/uploads/2018/11/43.png)
 
 ทำให้ตารางเลื่อสีไปตาม cursor ใช้ table-hover เพิ่มเข้าไป
 
-1
 
-2
-
-3
-
+```html
 <table class="table table-hover">
-
-[![g5](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g5.gif)](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g5.gif "g5")
+```
+![g5](https://benzneststudios.com/blog/wp-content/uploads/2018/11/g5.gif)
 
 ใส่ขอบให้ตารางใช้ table-bordered
 
@@ -2115,5 +1970,5 @@ font-size:1rem;
 
 > Written with [StackEdit](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-2/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Nzc5Nzk3OF19
+eyJoaXN0b3J5IjpbLTEwNTY3NTEwNjJdfQ==
 -->
