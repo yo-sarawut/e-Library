@@ -23,11 +23,11 @@ mkdir static
 cd static
 mkdir css
 cd css
-touch style.css` 
+touch style.css 
 ```
 Your application filestructure should now look loike this:
-
-`app
+```
+app
 ├── app
 │   ├── __init__.py
 │   ├── admin_views.py
@@ -41,26 +41,27 @@ Your application filestructure should now look loike this:
 │   │       └── index.html
 │   └── views.py
 ├── requirements.txt
-└── run.py` 
+└── run.py
+```
 
 Open up  `style.css`  in your editor and add the following:
 
 **app/app/static/css/style.css**
-
-`body {
+```css
+body {
   background-color: #f1f1f1;
-}` 
-
+}
+```
 Save and close the file for now.
 
 Next up, we'll import our new stylesheet into our  `index.html`  file in the  `public`  directory.
 
 Typically you would provide a relative path to your stylesheet in the  `<head>`, for example:
-
-`<head>
+```html
+<head>
   <link rel="stylesheet" href="path/to/your/stylesheet.css">
-</head>` 
-
+</head> 
+```
 You can use relative paths in Flask, but it'll get complicated real fast as we've split our HTML templates up into sub-directories.
 
 Thankfully, there's a better way!
@@ -72,9 +73,9 @@ Flask has a function called  `url_for`  which can be used in our HTML to provide
 Go ahead and open up  `index.html`  in your editor and in the  `<head>`  tag, add the following:
 
 **app/app/templates/public/index.html**
-
-`<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">` 
-
+```html
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+```
 > Notice the double curly braces  `{{ }}`
 
 These double curly braces are part of the Jinja templating engine that Flask uses to render our HTML templates.
@@ -259,5 +260,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/serving-static-files-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk4NTc0MV19
+eyJoaXN0b3J5IjpbMTkwNTMwNDIyNl19
 -->
