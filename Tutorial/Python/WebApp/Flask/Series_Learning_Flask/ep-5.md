@@ -18,7 +18,7 @@ Let's get coding!
 If you've been following along with this series, you'll be familiar enough with the concept of breaking up our Flask app into sub-directories and seperate files to maintain good readibility and create a clear separation of the different elements of our app.
 
 Let's take a quick at our application structure:
-
+```html
 `app
 ├── app
 │   ├── __init__.py
@@ -38,7 +38,7 @@ Let's take a quick at our application structure:
 │   └── views.py
 ├── requirements.txt
 └── run.py` 
-
+```
 > Tip - I'm generating these directory maps using the  `tree`  command in my terminal
 
 We're going to create 2 new  `templates`  directories.
@@ -57,7 +57,7 @@ Let's also create some HTML templates in those directories:
 touch app/templates/public/templates/admin_template.html` 
 
 Now let's take a quick glance at our file structure:
-
+```html
 `app
 ├── app
 │   ├── __init__.py
@@ -81,7 +81,7 @@ Now let's take a quick glance at our file structure:
 │   └── views.py
 ├── requirements.txt
 └── run.py` 
-
+```
 We've added our 2 base HTML template files to the 2 directories.
 
 > Note - To make things a little more interesting, we're going to use the Bootstrap CSS & JS library. Head over to the the Bootstrap webside to download the source files or feel free to use the Bootstrap CDN (Recommended).
@@ -97,7 +97,7 @@ You can get the jQuery source code  [here](https://code.jquery.com/jquery-3.0.0.
 Go ahead and open up  `public_template.html`  in your editor and add the following:
 
 **app/app/templates/public/templates/public_template.html**
-
+```html
 `<!doctype html>
 <html lang="en">
 
@@ -130,7 +130,7 @@ Go ahead and open up  `public_template.html`  in your editor and add the followi
 </body>
 
 </html>` 
-
+```
 Ok so we've added quite a lot of new code to this HTML file. Let's step through what we've done:
 
 > Tip - If you used the Bootstrap starter template, don't worry about importing any of the Bootstrap or jQuery CSS or JS files as they'll be delivered through the CDN
@@ -153,7 +153,7 @@ You can name a block whatever you like, however you can only use a block name on
 We should add a navigation bar to our  `public_template.html`  template. Add the following just below the opening  `<body>`  tag:
 
 **app/app/templates/public/templates/public_template.html**
-
+```html
 `<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
   <a class="navbar-brand" href="#">Flask</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -180,7 +180,7 @@ We should add a navigation bar to our  `public_template.html`  template. Add the
   </div>
 
 </nav>` 
-
+```
 Ok great, now we've got a nice navbar! Let's create a child template and put our blocks to use.
 
 ### Child templates
@@ -190,7 +190,7 @@ A child template will inherit all of the HTML from the base template and fill in
 Let's refactor  `index.html`  to be our first child template. Go ahead and open it up in an your editor and enter the following:
 
 **app/app/templates/public/index.html**
-
+```html
 `{% extends "public/templates/public_template.html" %}
 
 {% block title %}Home{% endblock %}
@@ -206,7 +206,7 @@ Let's refactor  `index.html`  to be our first child template. Go ahead and open 
 </div>
 
 {% endblock %}` 
-
+```
 Let's look at what we've done.
 
 -   We use the  `{% extends "path/to/our/template.html" %}`  syntax to import a base template
@@ -218,13 +218,13 @@ Anything inside our named blocks will be plugged into our base template!
 Let's throw in some JavaScript into the  `{% block script %}`  tags and see what happens.
 
 At the bottom of  `index.html`  add the following:
-
+```html
 `{% block script %}
 <script>
   alert("Template inheritance is awesome");
 </script>
 {% endblock %}` 
-
+```
 Save the file and reload your browser window.
 
 You should see the JavaScript alert dialogue pop up! Go ahead and close it and remove the  `{% block script %}`  and containing JavaScript we just added.
@@ -354,5 +354,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/jinja-template-inheritance).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDQ2MTg0Nl19
+eyJoaXN0b3J5IjpbLTIxMDg4ODA0OTRdfQ==
 -->
