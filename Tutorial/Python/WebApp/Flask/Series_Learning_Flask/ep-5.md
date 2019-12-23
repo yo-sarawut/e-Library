@@ -240,7 +240,7 @@ So we've got our base template for our public views. Let's do the same with our 
 Open up  `admin_template.html`  and add the following:
 
 **app/app/templates/admin/templates/admin_template.html**
-
+```html
 <!doctype html>
 <html lang="en">
 
@@ -300,7 +300,7 @@ Open up  `admin_template.html`  and add the following:
 </body>
 
 </html>` 
-
+```
 We haven't changed much here, just a few tweaks to the navbar.
 
 Now we need to refactor our  `dashboard.html`  file in the  `templates/admin`  directory to become a new child template.
@@ -308,7 +308,7 @@ Now we need to refactor our  `dashboard.html`  file in the  `templates/admin`  d
 Open up  `dashboard.html`  in your browser and change it to the following:
 
 **app/app/templates/admin/templates/admin_template.html**
-
+```html
 `{% extends "admin/templates/admin_template.html" %}
 
 {% block title %}Admin dashboard{% endblock %}
@@ -324,7 +324,7 @@ Open up  `dashboard.html`  in your browser and change it to the following:
 </div>
 
 {% endblock %}` 
-
+```
 Save the file and head back to your browser window.
 
 If you now click on the  `Admin`  link in the top right of the navbar, you'll be taken to the admin dashboard page where you'll see our new base and child templates in action!
@@ -354,5 +354,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/jinja-template-inheritance).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjUyNzYwOF19
+eyJoaXN0b3J5IjpbMTM4NDQ2MTg0Nl19
 -->
