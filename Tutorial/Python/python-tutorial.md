@@ -50,8 +50,8 @@ Python Tutorial can be broadly divided into the following categories.
 |[Python Keywords & Identifiers](https://www.journaldev.com/13996/python-keywords-identifiers)|An article about keywords, identifiers and variables in Python. Learn about the rules for writing valid identifiers.|
 |[Python comments and statements](https://www.journaldev.com/14012/python-comment-python-statement)|Quick introduction to different types of comments and statements with example code.|
 |[Python Data Types](https://www.journaldev.com/14036/python-data-types)|Numeric, String, List, Tuple and Dict data types introduction.||[Python IO](https://www.journaldev.com/14056/python-input-output-python-import)|File Operations – Read, Write, Open, Close. Taking input from user and import statement.|
-|[Python Operators](https://www.journaldev.com/14082/python-operators)|Arithmetic, Comparison, Bitwise, Logical, and Assignment Operators. Learn about the operator precedence in Python programming.||[Python if-else](https://www.journaldev.com/14092/python-if-else-elif)|Python Conditional Logic, examples of if-else and elif conditional logic.||[Python for loop](https://www.journaldev.com/14136/python-for-loop-example)
-|Python for loop examples. Also, learn about nested for loops in Python.|
+|[Python Operators](https://www.journaldev.com/14082/python-operators)|Arithmetic, Comparison, Bitwise, Logical, and Assignment Operators. Learn about the operator precedence in Python programming.||[Python if-else](https://www.journaldev.com/14092/python-if-else-elif)|Python Conditional Logic, examples of if-else and elif conditional logic.|
+|[Python for loop](https://www.journaldev.com/14136/python-for-loop-example)|Python for loop examples. Also, learn about nested for loops in Python.|
 |[Python while loop](https://www.journaldev.com/14152/python-while-loop)|Python while loop, nested while loop and infinite while loop examples.|
 |[Python break continue](https://www.journaldev.com/14161/python-break-python-continue)|A brief tutorial on Python break keyword and continue statement.|
 [Python pass statement](https://www.journaldev.com/14240/python-pass-statement)|Learn about pass statement and the best practices to use them in your code.|
@@ -993,5 +993,5 @@ References:
 
 > Source [journaldev.com](https://www.journaldev.com/python-tutorial).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDU5Njc2OF19
+eyJoaXN0b3J5IjpbLTgyMDE1OTkwNCwtMzgwNTk2NzY4XX0=
 -->
