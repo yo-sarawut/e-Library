@@ -15,6 +15,12 @@ HEX: #2A4B7C
 PANTONE 19-4055
 
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/galaxy_blue.jpg)
+
+HEX: #34558b
+
+![enter image description here](https://simpledits.com/wp-content/uploads/2019/09/20190927_2020-PANTONE-19-4052-Classic-Blue.png)
+
+
 #  Tutorials
 
 - [Python Tutorial by w3resource](https://www.w3resource.com/python/python-tutorial.php)
@@ -146,11 +152,11 @@ src="https://www.youtube.com/v/VBRKLUyi3mw">
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MDE1MzA2LDY4NzI0NTUxNywtNjI3OT
-gyNDQxLC04NjA4MDIyMjgsLTUxMDMzNDU2Niw5ODU2OTgzNTks
-LTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMjQyMzc4NywtMjY0Nj
-czMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3MSwxOTE5NDM1NDIx
-LDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2OTY4OSw3OT
-k5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3MjUxLC0yMDQwNzk1
-NTMxXX0=
+eyJoaXN0b3J5IjpbLTE2OTQxODQ0ODIsOTU1MDE1MzA2LDY4Nz
+I0NTUxNywtNjI3OTgyNDQxLC04NjA4MDIyMjgsLTUxMDMzNDU2
+Niw5ODU2OTgzNTksLTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMj
+QyMzc4NywtMjY0NjczMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3
+MSwxOTE5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLT
+MwNTg2OTY4OSw3OTk5MjU1ODQsMTU0ODYxNTc4NSwxODU1NjA3
+MjUxXX0=
 -->
