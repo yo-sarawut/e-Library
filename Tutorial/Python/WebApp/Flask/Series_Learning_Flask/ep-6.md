@@ -14,16 +14,16 @@ Let's get started!
 ### Creating a new view
 
 For this example we'll create a new view called  `jinja`. Open up  `views.py`  and add the following route:
-
+```py
 `@app.route("/jinja")
 def jinja():
     return render_template("public/jinja.html")` 
-
+```
 We'll need to create a new child template for this view. Create a file called  `jinja.html`  in the  `templates/public`, open it in your editor and add the following:
 
 **app/app/templates/public/jinja.html**
-
-`{% extends "public/templates/public_template.html" %}
+```html
+{% extends "public/templates/public_template.html" %}
 
 {% block title %}Jinja{% endblock %}
 
@@ -39,15 +39,15 @@ We'll need to create a new child template for this view. Create a file called  `
   </div>
 </div>
 
-{% endblock %}` 
-
+{% endblock %}
+```
 We should also add a link in our navbar so we access this view quickly! Go ahead and open up  `public_template.html`  in your editor.
 
 Let's switch the  `About`  link to our new  `Jinja`  view.
 
 Change this:
-
-`<li class="nav-item">
+```html
+<li class="nav-item">
   <a class="nav-link" href="/about">About</a>
 </li>` 
 
@@ -56,7 +56,7 @@ To this:
 `<li class="nav-item">
   <a class="nav-link" href="/jinja">Jinja</a>
 </li>` 
-
+```
 Reload your browser and click on the Jinja link in the nav to see our new view in action.
 
 ### Passing objects to templates
@@ -66,7 +66,7 @@ We can pass any Python object to a template by passing it to the  `render_templa
 Open up  `views.py`  and create the new  `my_name`  variable inside the  `jinja`  view:
 
 **app/app/views.py**
-
+```py
 `@app.route("/jinja")
 def jinja():
     my_name = "Julian"
@@ -122,7 +122,7 @@ Your  `jinja.html`  file should look like this:
 </div>
 
 {% endblock %}` 
-
+```
 > Tip - Going forward, we're going to separate all of the sections in our  `jinja.html`  with a heading, description and example
 
 Save the file and reload the page to see  `Hello`  and the value for  `my_name`!
@@ -132,8 +132,8 @@ We access an objects value in Jinja by passing it in between a pair of curly bra
 Let's create some more objects in our jinja view and pass them into our template. Replace the contents of the  `jinja`  function with the following:
 
 **app/app/views.py**
-
-`# Strings
+```py
+# Strings
 my_name = "Julian"
 
 # Integers
@@ -774,5 +774,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/jinja-template-design).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODU1ODM3NF19
+eyJoaXN0b3J5IjpbMTU3Njg0NDg2N119
 -->
