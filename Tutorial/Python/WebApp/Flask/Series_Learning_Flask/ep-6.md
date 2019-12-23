@@ -67,7 +67,7 @@ Open up  `views.py`  and create the new  `my_name`  variable inside the  `jinja`
 
 **app/app/views.py**
 ```py
-`@app.route("/jinja")
+@app.route("/jinja")
 def jinja():
     my_name = "Julian"
     return render_template("public/jinja.html")` 
@@ -176,22 +176,22 @@ my_remote = GitRemote(
 # Functions
 def repeat(x, qty=1):
     return x * qty` 
-
+```
 Now we need to pass our objects into our template using the  `render_template`  function. Pass them in as key/value pairs like the following:
 
 **app/app/views.py**
-
-`return render_template(
+```py
+return render_template(
     "public/jinja.html", my_name=my_name, my_age=my_age, langs=langs,
     friends=friends, colors=colors, cool=cool, GitRemote=GitRemote, 
     my_remote=my_remote, repeat=repeat
-)` 
-
+)
+```
 Your  `jinja`  view should now look like this:
 
 **app/app/views.py**
-
-`@app.route("/jinja")
+```py
+@app.route("/jinja")
 def jinja():
 
     # Strings
@@ -245,8 +245,8 @@ def jinja():
         "public/jinja.html", my_name=my_name, my_age=my_age, langs=langs,
         friends=friends, colors=colors, cool=cool, GitRemote=GitRemote, 
         my_remote=my_remote, repeat=repeat
-    )` 
-
+    )
+```
 Ok so we've added quite a lot of code to our view function, just some standard Python objects that most of which you should be fairly familiar with.
 
 We then passed them as key/value pairs into our template using the  `render_template`  function.
@@ -774,5 +774,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/jinja-template-design).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Njg0NDg2N119
+eyJoaXN0b3J5IjpbLTE5NTc0NTk3NjldfQ==
 -->
