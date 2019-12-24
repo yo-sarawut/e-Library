@@ -1,5 +1,8 @@
 Weather App
 ===
+## ความรู้
+- [ลม](http://www.marine.tmd.go.th/thai/windhtml/windhtml.html)
+
 ## Tool
 
 - [คำนวณดาราศาสตร์พื้นฐานด้วย PyEphem](https://python3.wannaphong.com/2017/02/pyephem.html)
@@ -419,11 +422,11 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg5MjgzMTgsLTEyMTk4NzM0NCwtND
-c3NDU3NjA4LC0xMzk1NjE2MzEsMTM1Nzk5MTA4MywxMDYyMzA2
-NTYwLDE1ODM0OTIyNzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NS
-wtNzU5NzQ1MTkzLC0xOTIyMDgzNjcsLTE5MTA0NzUyMjQsLTE4
-MzQ4MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2MjIxLDIwNTAxOT
-M4ODEsLTM4NTUyMTQzNSwtMTU4ODUwMjc5MSw1ODE4NjkwMjUs
-NDYxNjE4NzRdfQ==
+eyJoaXN0b3J5IjpbMTY5OTY5MjYzNywtMjEyODkyODMxOCwtMT
+IxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkx
+MDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC
+0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkx
+MDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OT
+YyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkx
+LDU4MTg2OTAyNV19
 -->
