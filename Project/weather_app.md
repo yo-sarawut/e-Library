@@ -2,6 +2,7 @@ Weather App
 ===
 ## ความรู้
 - [ลม](http://www.marine.tmd.go.th/thai/windhtml/windhtml.html)
+- [ลมสำหรับอุตุนิยมวิทยา](http://www.geog.pn.psu.ac.th/CAIClimate/6Wind49.pdf)
 
 ## Tool
 
@@ -422,7 +423,7 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTY5MjYzNywtMjEyODkyODMxOCwtMT
+eyJoaXN0b3J5IjpbLTI3NDI1MTE1OSwtMjEyODkyODMxOCwtMT
 IxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkx
 MDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC
 0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkx
