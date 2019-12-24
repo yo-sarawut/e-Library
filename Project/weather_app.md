@@ -3,6 +3,8 @@ Weather App
 ## ความรู้
 - [ลม](http://www.marine.tmd.go.th/thai/windhtml/windhtml.html)
 - [ลมสำหรับอุตุนิยมวิทยา](http://www.geog.pn.psu.ac.th/CAIClimate/6Wind49.pdf)
+- [น่ารู้เรื่องลม](https://www.scimath.org/article-science/item/2111-i-do-not-know)
+- 
 
 ## Tool
 
@@ -423,11 +425,11 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDI1MTE1OSwtMjEyODkyODMxOCwtMT
-IxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkx
-MDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC
-0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwODM2NywtMTkx
-MDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2LDE3NzM3OT
-YyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1LC0xNTg4NTAyNzkx
-LDU4MTg2OTAyNV19
+eyJoaXN0b3J5IjpbLTEwMTg1Mjg2MjUsLTI3NDI1MTE1OSwtMj
+EyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2
+MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3Ni
+wtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5
+MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MD
+cyMTc2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1
+LC0xNTg4NTAyNzkxXX0=
 -->
