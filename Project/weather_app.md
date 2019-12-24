@@ -4,7 +4,7 @@ Weather App
 - [ลม](http://www.marine.tmd.go.th/thai/windhtml/windhtml.html)
 - [ลมสำหรับอุตุนิยมวิทยา](http://www.geog.pn.psu.ac.th/CAIClimate/6Wind49.pdf)
 - [น่ารู้เรื่องลม](https://www.scimath.org/article-science/item/2111-i-do-not-know)
-- 
+- [การตรวจอากาศ สารานุกรมไทยสำหรับเยาวชนฯ](http://kanchanapisek.or.th/kp6/sub/book/book.php?book=2&chap=4&page=chap4.htm)
 
 ## Tool
 
@@ -425,7 +425,7 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg1Mjg2MjUsLTI3NDI1MTE1OSwtMj
+eyJoaXN0b3J5IjpbLTEwMjY2Njc1NjAsLTI3NDI1MTE1OSwtMj
 EyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2
 MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3Ni
 wtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5
