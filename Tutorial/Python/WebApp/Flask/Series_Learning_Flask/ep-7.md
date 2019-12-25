@@ -14,11 +14,11 @@ In this example, we'll start with a simple account sign-up form.
 Let's get started by creating a new route in  `views.py`. We'll give it the URL  `sign-up`.
 
 **app/app/views.py**
-
-`@app.route("/sign-up")
+```py
+@app.route("/sign-up")
 def sign_up():
-    return render_template("public/sign_up.html")` 
-
+    return render_template("public/sign_up.html")
+```
 We're going to be accepting  `POST`  requests on this route so we need to pass another argument to  `@app.route`
 
 We do this by passing the  `methods`  argument, along with a list of methods as the value.
@@ -33,11 +33,11 @@ Flask supports all of the common HTTP methods including:
 Let's privide our route with the  `methods`  argument and a list of methods we want the route to handle:
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```py
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
-    return render_template("public/sign_up.html")` 
-
+    return render_template("public/sign_up.html")
+```
 > Tip - Flask routes support  `GET`  requests by default, however must be declared if the  `methods`  argument is provided
 
 We need to create a new template so go ahead and create a new file called  `sign_up.html`  and place it in the  `templates/public`  directory.
@@ -45,8 +45,8 @@ We need to create a new template so go ahead and create a new file called  `sign
 Open up  `sign_up.html`  in your editor and add the following:
 
 **app/app/templates/public/sign_up.html**
-
-`{% extends "public/templates/public_template.html" %}
+```py
+{% extends "public/templates/public_template.html" %}
 
 {% block title %}Sign up{% endblock %}
 
@@ -61,15 +61,16 @@ Open up  `sign_up.html`  in your editor and add the following:
   </div>
 </div>
 
-{% endblock %}` 
+{% endblock %}
+```
 
 Save the file and open go to the  `/sign-up`  route in your browser. You should see the new page render.
 
 Let's create a form and add some input fields to our template. We're going to add fields for username, email and pasword. Go ahead and enter the following just under the  `<hr>`  tag:
 
 **app/app/templates/public/sign_up.html**
-
-`<form action="/sign-up" method="POST">
+```html
+<form action="/sign-up" method="POST">
 
   <div class="form-group">
     <label>Username</label>
@@ -309,5 +310,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-working-with-forms).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzEzNjMyM119
+eyJoaXN0b3J5IjpbNTE0NjY4NDAxXX0=
 -->
