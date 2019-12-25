@@ -14,6 +14,7 @@ Note for Web App
 - [https://tympanus.net](https://tympanus.net/)
 - [https://freshdesignweb.com/free-website-templates/](https://freshdesignweb.com/free-website-templates/)
 - [Tool Online](https://superdevresources.com/tools/)
+- [Bootsnipp](https://bootsnipp.com/)  Design elements, playground and code snippets for Bootstrap HTML/CSS/JS framework
 
 ## Ideas
 - [Program to display Astrological sign or Zodiac sign for given date of birth : โปรแกรมแสดงว่าวันเกิดคุณอยู่ในราศีใด](https://www.geeksforgeeks.org/program-display-astrological-sign-zodiac-sign-given-date-birth/)
@@ -69,9 +70,9 @@ Note for Web App
 Lorem ipsum dolor sit amet, consectetur adipiscing elit ...</span></p>  
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzY4OTA4Myw1MTM3Nzk5NzUsLTE5OT
-Y5MTA3NDEsMjAxOTc3MjA4NiwtMTQzOTg2MDYxNywxMDM4NzY0
-NzcyLC0xOTM1NjQyMDk0LC02NTQ3Njc3ODcsMTU3MTg2MTQxMC
-wtNDU5MjY2MzgsNTczNTg0NDY2LC0xODM0NzY1NDQ2LC01MzM5
-MTUyMjRdfQ==
+eyJoaXN0b3J5IjpbNTE4ODczMTk4LDE5MDc2ODkwODMsNTEzNz
+c5OTc1LC0xOTk2OTEwNzQxLDIwMTk3NzIwODYsLTE0Mzk4NjA2
+MTcsMTAzODc2NDc3MiwtMTkzNTY0MjA5NCwtNjU0NzY3Nzg3LD
+E1NzE4NjE0MTAsLTQ1OTI2NjM4LDU3MzU4NDQ2NiwtMTgzNDc2
+NTQ0NiwtNTMzOTE1MjI0XX0=
 -->
