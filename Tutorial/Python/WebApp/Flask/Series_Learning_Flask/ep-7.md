@@ -239,7 +239,7 @@ def sign_up():
 You could bypass capturing and storing the form data as a variable with the following:
 
 **app/app/views.py**
-```
+```py
 @app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
@@ -268,8 +268,8 @@ There's lots of things we could do to validate, however they're very much applic
 Let's iterate through the keys and values of our  `req`  object and look for missing fields, then return a response and message to the user:
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```py
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
     if request.method == "POST":
@@ -289,15 +289,15 @@ def sign_up():
         return redirect(request.url)
 
     return render_template("public/sign_up.html")` 
-
+```
 We'll add a message in  `sign_up.html`  to give some feedback to the user. Open up  `sign_up.html`  and add the following just under the  `<button>`  tag inside the form:
 
 **app/app/templates/public/sign_up.html**
-
-`{% if feedback %}
+```html
+{% if feedback %}
 <p class="text-danger float-right">{{ feedback }}</p>
 {% endif %}` 
-
+```
 Save and close the file.
 
 Refresh your browser and submit an empty form. You should see the error message appear to the bottom right of the form. When you submit values for all 3 fields, the feedback message doesn't appear.
@@ -310,5 +310,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-working-with-forms).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTY4MzY4XX0=
+eyJoaXN0b3J5IjpbLTg2ODM0MTQ4NV19
 -->
