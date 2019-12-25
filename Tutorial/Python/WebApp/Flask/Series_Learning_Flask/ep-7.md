@@ -138,7 +138,7 @@ Your template should now look something like this:
 </div>
 
 {% endblock %}` 
-
+```
 > Tip - To access form data in Flask, you must provide the  `name`  attribute in each of the forms  `input`  tags
 
 Pay attention to the opening  `<form>`  tag.
@@ -166,9 +166,9 @@ Before we can access any of the request data, we need to import  `request`  from
 At the top of  `views.py`, go ahead and import  `request`  from  `flask`. We'll also import  `redirect`
 
 **app/app/views.py**
-
-`from flask import request, redirect` 
-
+```py
+from flask import request, redirect` 
+```
 To access form data in our route, we use  `request.form`.
 
 Let's capture our incoming form data to a variable called  `req`, but first, we should add a conditional to validate we're receiving  `POST`  data.
@@ -176,8 +176,8 @@ Let's capture our incoming form data to a variable called  `req`, but first, we 
 We can do so by testing  `request.method`  for the  `"POST"`  method:
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```py
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
     if request.method == "POST":
@@ -187,7 +187,7 @@ def sign_up():
         return redirect(request.url)
 
     return render_template("public/sign_up.html")` 
-
+```
 The  `redirect`  function, amongst many other things allows us to redirect the client to different parts our app. We'll be exploring  `redirect`  in more detail in a future part of this series.
 
 In this case, we're instructing  `redirect`  to redirect the client to the URL of the request.
@@ -197,8 +197,8 @@ If you were to  `print(type(req))`  you'll see that the  `request.form`  object 
 Let's just  `print(req)`  and inspect the results.
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
     if request.method == "POST":
@@ -208,8 +208,8 @@ def sign_up():
 
         return redirect(request.url)
 
-    return render_template("public/sign_up.html")` 
-
+    return render_template("public/sign_up.html")
+```
 Depending on whether you supplied any input, you'll see:
 
 `ImmutableMultiDict([('username', ''), ('email', ''), ('password', '')])` 
@@ -217,8 +217,8 @@ Depending on whether you supplied any input, you'll see:
 We can treat our  `req`  object just like a normal Python dictionary, for example, to access the individual inputs from the form, we can use any of the following:
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```py
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
     if request.method == "POST":
@@ -235,12 +235,12 @@ def sign_up():
         return redirect(request.url)
 
     return render_template("public/sign_up.html")` 
-
+```
 You could bypass capturing and storing the form data as a variable with the following:
 
 **app/app/views.py**
-
-`@app.route("/sign-up", methods=["GET", "POST"])
+```
+@app.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
 
     if request.method == "POST":
@@ -257,8 +257,8 @@ def sign_up():
 
         return redirect(request.url)
 
-    return render_template("public/sign_up.html")` 
-
+    return render_template("public/sign_up.html")
+```
 We've now got each of the form values stored as a Python variable to do as we please.
 
 ### Validating form data
@@ -310,5 +310,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/flask-working-with-forms).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NjY4NDAxXX0=
+eyJoaXN0b3J5IjpbODI1NTY4MzY4XX0=
 -->
