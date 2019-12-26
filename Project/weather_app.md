@@ -41,6 +41,7 @@ PyEphem เป็นโมดูลสำหรับงานคำนวณด
 
 - [API กรมอุตินิยมวิทยา](https://data.tmd.go.th/nwpapi/doc/apidoc/forecast_location.html)
 - [การคำนวณดิถี](https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B4%E0%B8%96%E0%B8%B5)
+- [“Thai weather” แม่นยำ กระชับ ฉับไว ด้วยแอปบอกสภาพอากาศ ของกรมอุตุนิยมวิทยา](https://www.beartai.com/review/appreview/181917)
 
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c0/Lunar_libration_with_phase2.gif)
 
@@ -425,11 +426,11 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY2Njc1NjAsLTI3NDI1MTE1OSwtMj
-EyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2
-MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3Ni
-wtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5
-MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MD
-cyMTc2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4MSwtMzg1NTIxNDM1
-LC0xNTg4NTAyNzkxXX0=
+eyJoaXN0b3J5IjpbLTEzMjc3MDgwMTMsLTEwMjY2Njc1NjAsLT
+I3NDI1MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0
+NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1Nj
+AsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03
+NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzND
+gzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4
+MSwtMzg1NTIxNDM1XX0=
 -->
