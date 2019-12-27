@@ -118,7 +118,7 @@ users = {
 We'll add some logic to our  `profile`  route to look up the user and return their information:
 
 **app/app/views.py**
-```
+```py
 @app.route("/profile/<username>")
 def profile(username):
 
@@ -127,13 +127,13 @@ def profile(username):
     if username in users:
         user = users[username]
 
-    return render_template("public/profile.html", username=username, user=user)` 
-
+    return render_template("public/profile.html", username=username, user=user)
+```
 Lastly, let's refactor our  `profile.html`  to display our user information:
 
 **app/app/templates/public/dynamic.html**
-
-`{% extends "public/templates/public_template.html" %}
+```py
+{% extends "public/templates/public_template.html" %}
 
 {% block title %}Profile{% endblock %}
 
@@ -164,7 +164,8 @@ Lastly, let's refactor our  `profile.html`  to display our user information:
   </div>
 </div>
 
-{% endblock %}` 
+{% endblock %}
+```
 
 ### Requesting a dynamic route
 
@@ -183,16 +184,16 @@ In our first example, we created the  `profile`  route to expect only one variab
 Let's create a new route with multiple variables that just prints the variables and returns a simple string to the client:
 
 **app/app/views.py**
-
-`@app.route("/multiple/<foo>/<bar>/<baz>")
+```py
+@app.route("/multiple/<foo>/<bar>/<baz>")
 def multiple(foo, bar, baz):
 
     print(f"foo is {foo}")
     print(f"bar is {bar}")
     print(f"baz is {baz}")
 
-    return f"foo is {foo}, bar is {bar}, baz is {baz}"` 
-
+    return f"foo is {foo}, bar is {bar}, baz is {baz}"
+```
 Go to  `/multiple/foo/bar/baz`  in your browser, you'll see:
 
 `foo is foo, bar is bar, baz is baz` 
@@ -210,5 +211,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/generating-dynamic-urls-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ1MDk3MV19
+eyJoaXN0b3J5IjpbLTU3MzIyNTAyOF19
 -->
