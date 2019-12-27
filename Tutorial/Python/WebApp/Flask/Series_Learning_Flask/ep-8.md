@@ -16,18 +16,18 @@ Let's dive in and learn how we can generate dynamic URL's in Flask.
 First up, let's create a new route in out app. We're going to give it the URL  `/profile`:
 
 **app/app/views.py**
-
-`@app.route("/profile")
+```py
+@app.route("/profile")
 def profile():
     return render_template("public/profile.html")` 
-
+```
 We'll also create a new template for this route. Go ahead and create a file named  `profile.html`  in the  `templates/public`  directory (Or whatever directory contains your HTML files)
 
 Let's just create a simple page for now:
 
 **app/app/templates/public/dynamic.html**
-
-`{% extends "public/templates/public_template.html" %}
+```py
+{% extends "public/templates/public_template.html" %}
 
 {% block title %}Profile{% endblock %}
 
@@ -44,7 +44,8 @@ Let's just create a simple page for now:
   </div>
 </div>
 
-{% endblock %}` 
+{% endblock %}
+```
 
 > Tip - We're using the Bootstrap CSS library but feel free to use your own or leave it out completely
 
@@ -53,8 +54,9 @@ As it is, our new route isn't dynamic. We need to make some tweaks to the URL we
 Go ahead and make the following changes to the  `@app.route`  URL:
 
 **app/app/views.py**
-
-`@app.route("/profile/<username>")` 
+```py
+@app.route("/profile/<username>")
+```
 
 -   We've added trailing slash to  `/profile/`
 -   We've provided a variable in the URL path and wrapped in with two opposing arrows  `<>`  as shown.
@@ -74,10 +76,11 @@ We now have access to the  `username`  variable and its data.
 For clarity, our route now looks like this:
 
 **app/app/views.py**
-
-`@app.route("/profile/<username>")
+```py
+@app.route("/profile/<username>")
 def profile(username):
-    return render_template("public/profile.html")` 
+    return render_template("public/profile.html")
+```
 
 At this point, if you try to access the  `/profile`  route in your browser, Flask will throw an error because the  `profile`  function is expecting an value!
 
@@ -92,8 +95,8 @@ We can now work with data that comes into our app from the URL! Let's create a d
 We'll search the dictonary for the  `username`  variable and return some basic information about that user. Let's create our  `users`  dictionary:
 
 **app/app/views.py**
-
-`users = {
+```py
+users = {
     "mitsuhiko": {
         "name": "Armin Ronacher",
         "bio": "Creatof of the Flask framework",
@@ -109,13 +112,14 @@ We'll search the dictonary for the  `username`  variable and return some basic i
         "bio": "technology entrepreneur, investor, and engineer",
         "twitter_handle": "@elonmusk"
     }
-}` 
+}
+```
 
 We'll add some logic to our  `profile`  route to look up the user and return their information:
 
 **app/app/views.py**
-
-`@app.route("/profile/<username>")
+```
+@app.route("/profile/<username>")
 def profile(username):
 
     user = None
@@ -206,5 +210,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/generating-dynamic-urls-with-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MjU1MzA2XX0=
+eyJoaXN0b3J5IjpbLTcxMTQ1MDk3MV19
 -->
