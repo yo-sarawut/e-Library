@@ -209,12 +209,12 @@ Go ahead and repeat the same process in the Postman app or cURL to see the newly
 Posting  `JSON (application/json)`  will return:
 
 **Postman response body**
-
-`{
+```json
+{
     "message": "JSON received!",
     "sender": "Julian"
 }` 
-
+```
 Changing the dropdown to  `Text`  and posting will return:
 
 **Postman response body**
@@ -236,5 +236,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/working-with-json-in-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA3MDg2MjZdfQ==
+eyJoaXN0b3J5IjpbOTU3NzU4MDUwXX0=
 -->
