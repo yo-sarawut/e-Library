@@ -47,21 +47,21 @@ def json_example():
 
     print(req)
 
-    return "Thanks!"` 
-
+    return "Thanks!"
+```
 Whilst we're here, let's explicitly set an HTTP response by passing it to  `return`:
 
 **app/app/views.py**
-
-`@app.route("/json", methods=["POST"])
+```py
+@app.route("/json", methods=["POST"])
 def json_example():
 
     req = request.get_json()
 
     print(req)
 
-    return "Thanks!", 200` 
-
+    return "Thanks!", 200
+```
 ### POSTing JSON
 
 Let's post some data to our route!
@@ -116,8 +116,8 @@ We can also validate and perform some conditional testing on our incoming reques
 Let's check that our response is JSON and return a response depending on what we receive:
 
 **app/app/views.py**
-
-`@app.route("/json", methods=["POST"])
+```py
+@app.route("/json", methods=["POST"])
 def json_example():
 
     # Validate the request body contains JSON
@@ -135,8 +135,8 @@ def json_example():
     else:
 
         # The request body wasn't JSON so return a 400 HTTP status code
-        return "Request was not JSON", 400` 
-
+        return "Request was not JSON", 400 
+```
 We perform a conditional check using the  `if`  statement on the incoming request object to determine if the request body contains JSON or not.
 
 If the request contains JSON, we're printing it and returning the  `JSON received!`  string along with a  `200`  status code to indicate a successful transaction.
@@ -170,8 +170,8 @@ Let's go ahead and import them:
 Let's refactor our  `/json`  route to use  `jsonify`  and  `make_response`. We'll discuss them after:
 
 **app/app/views.py**
-
-`@app.route("/json", methods=["POST"])
+```py
+@app.route("/json", methods=["POST"])
 def json_example():
 
     if request.is_json:
@@ -190,7 +190,7 @@ def json_example():
     else:
 
         return make_response(jsonify({"message": "Request body must be JSON"}), 400)` 
-
+```
 We've created a new  `response_body`  object using a dictionary and passed it some values.
 
 We then use the  `make_response()`  function to prepare a response, to which we've provided 2 arguments:
@@ -236,5 +236,5 @@ Last modified  ·  28 Feb 2019
 
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/working-with-json-in-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzUxMDI1XX0=
+eyJoaXN0b3J5IjpbLTEyODA3MDg2MjZdfQ==
 -->
