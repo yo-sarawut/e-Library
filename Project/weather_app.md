@@ -5,6 +5,7 @@ Weather App
 - [ลมสำหรับอุตุนิยมวิทยา](http://www.geog.pn.psu.ac.th/CAIClimate/6Wind49.pdf)
 - [น่ารู้เรื่องลม](https://www.scimath.org/article-science/item/2111-i-do-not-know)
 - [การตรวจอากาศ สารานุกรมไทยสำหรับเยาวชนฯ](http://kanchanapisek.or.th/kp6/sub/book/book.php?book=2&chap=4&page=chap4.htm)
+- [Timezone](https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones)
 
 ## Tool
 
@@ -426,11 +427,11 @@ var MoonInfo = function(day, month, year) {
 
 'Very hot': 'อากาศร้อนจัด',
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc3MDgwMTMsLTEwMjY2Njc1NjAsLT
-I3NDI1MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0
-NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1Nj
-AsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03
-NTk3NDUxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzND
-gzMzU0NSwtODU2MDcyMTc2LDE3NzM3OTYyMjEsMjA1MDE5Mzg4
-MSwtMzg1NTIxNDM1XX0=
+eyJoaXN0b3J5IjpbLTI5NDQyNTU3NCwtMTMyNzcwODAxMywtMT
+AyNjY2NzU2MCwtMjc0MjUxMTU5LC0yMTI4OTI4MzE4LC0xMjE5
+ODczNDQsLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEzNTc5OTEwOD
+MsMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MDk3MzcsLTE0
+NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3LC0xOTEwND
+c1MjI0LC0xODM0ODMzNTQ1LC04NTYwNzIxNzYsMTc3Mzc5NjIy
+MSwyMDUwMTkzODgxXX0=
 -->
