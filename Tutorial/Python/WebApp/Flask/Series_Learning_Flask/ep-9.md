@@ -230,11 +230,7 @@ Flask makes working with JSON easy, providing many useful functions and methods 
 Last modified  ·  28 Feb 2019
 
 
-
-
-
-
 > Written with [StackEdit](https://pythonise.com/series/learning-flask/working-with-json-in-flask).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NzU4MDUwXX0=
+eyJoaXN0b3J5IjpbLTExNzE1NjQyNjJdfQ==
 -->
