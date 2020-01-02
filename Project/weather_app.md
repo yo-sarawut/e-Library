@@ -426,12 +426,46 @@ var MoonInfo = function(day, month, year) {
 'Cool': 'อากาศเย็น',
 
 'Very hot': 'อากาศร้อนจัด',
+
+
+## Check get data
+
+```py
+# api config
+def getTemp():
+
+    api_key = "bf5d2ca68d5cba107e1017360c1e80d9"
+    base_url = "https://api.openweathermap.org/data/2.5/weather?"
+    city_name = entry_1.get()
+    complete_url = base_url+"appid="+api_key+"&q="+city_name
+
+# module response get
+
+    response = requests.get(complete_url)
+    x=response.json()
+
+    if["cod"] !='404':
+        y = x["main"]
+        current_temprature = y["temp"]
+        current_pressure = y["pressure"]
+
+        z = x["weather"]
+        weather_description = z[0]["description"]
+
+        lable_pres.configure(text=current_pressure)
+        lable_temp.configure(text=current_temprature)
+        lable_desc.configure(text=weather_description)
+    else:
+        lable_pres.configure(text="Err")
+        lable_temp.configure(text="Err")
+        lable_desc.configure(text="Err")
+   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NTkxMzk4LC0xMzI3NzA4MDEzLC0xMD
-I2NjY3NTYwLC0yNzQyNTExNTksLTIxMjg5MjgzMTgsLTEyMTk4
-NzM0NCwtNDc3NDU3NjA4LC0xMzk1NjE2MzEsMTM1Nzk5MTA4My
-wxMDYyMzA2NTYwLDE1ODM0OTIyNzYsLTI3NzUwOTczNywtMTQ0
-MTkxOTE4NSwtNzU5NzQ1MTkzLC0xOTIyMDgzNjcsLTE5MTA0Nz
-UyMjQsLTE4MzQ4MzM1NDUsLTg1NjA3MjE3NiwxNzczNzk2MjIx
-LDIwNTAxOTM4ODFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjEyMzAwOCw3OTQ1OTEzOTgsLTEzMj
+c3MDgwMTMsLTEwMjY2Njc1NjAsLTI3NDI1MTE1OSwtMjEyODky
+ODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2MTYzMS
+wxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3
+NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwOD
+M2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2
+LDE3NzM3OTYyMjFdfQ==
 -->
