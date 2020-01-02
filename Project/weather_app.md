@@ -430,6 +430,7 @@ var MoonInfo = function(day, month, year) {
 
 ## Check get data
 
+### Example 1
 ```py
 # api config
 def getTemp():
@@ -460,12 +461,41 @@ def getTemp():
         lable_temp.configure(text="Err")
         lable_desc.configure(text="Err")
    ```
+
+### Example 2
+```py
+def run(self):
+        try:
+            params = dict(
+                q=self.location,
+                appid=OPENWEATHERMAP_API_KEY
+            )
+
+            url = 'http://api.openweathermap.org/data/2.5/weather?%s&units=metric' % urlencode(params)
+            r = requests.get(url)
+            weather = json.loads(r.text)
+
+            # Check if we had a failure (the forecast will fail in the same way).
+            if weather['cod'] != 200:
+                raise Exception(weather['message'])
+
+            url = 'http://api.openweathermap.org/data/2.5/forecast?%s&units=metric' % urlencode(params)
+            r = requests.get(url)
+            forecast = json.loads(r.text)
+
+            self.signals.result.emit(weather, forecast)
+
+        except Exception as e:
+            self.signals.error.emit(str(e))
+
+        self.signals.finished.emit()
+   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEyMzAwOCw3OTQ1OTEzOTgsLTEzMj
-c3MDgwMTMsLTEwMjY2Njc1NjAsLTI3NDI1MTE1OSwtMjEyODky
-ODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MDgsLTEzOTU2MTYzMS
-wxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4MzQ5MjI3NiwtMjc3
-NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3NDUxOTMsLTE5MjIwOD
-M2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0NSwtODU2MDcyMTc2
-LDE3NzM3OTYyMjFdfQ==
+eyJoaXN0b3J5IjpbLTIxMjYwNDU5MzgsNzk0NTkxMzk4LC0xMz
+I3NzA4MDEzLC0xMDI2NjY3NTYwLC0yNzQyNTExNTksLTIxMjg5
+MjgzMTgsLTEyMTk4NzM0NCwtNDc3NDU3NjA4LC0xMzk1NjE2Mz
+EsMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1ODM0OTIyNzYsLTI3
+NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1MTkzLC0xOTIyMD
+gzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4MzM1NDUsLTg1NjA3MjE3
+NiwxNzczNzk2MjIxXX0=
 -->
