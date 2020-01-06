@@ -173,7 +173,7 @@ PyEphem เป็นโมดูลสำหรับงานคำนวณด
 
 ![enter image description here](https://comps.canstockphoto.com/realistic-weather-widget-vector-clip-art_csp23570410.jpg)
 
-
+![enter image description here](https://w3layouts.com/wp-content/uploads/2015/09/sunlight_weather_widget.gif)
 # UI Weather Forecast
 
 - https://comps.canstockphoto.com/realistic-weather-widget-vector-clip-art_csp23570410.jpg
@@ -501,7 +501,7 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzQxOTUzOCwtMjEyNjA0NTkzOCw3OT
+eyJoaXN0b3J5IjpbMTAyMjM4MTg1NSwtMjEyNjA0NTkzOCw3OT
 Q1OTEzOTgsLTEzMjc3MDgwMTMsLTEwMjY2Njc1NjAsLTI3NDI1
 MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MD
 gsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4
