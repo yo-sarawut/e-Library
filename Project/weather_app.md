@@ -170,6 +170,16 @@ PyEphem เป็นโมดูลสำหรับงานคำนวณด
 
 ![enter image description here](https://w3layouts.b-cdn.net/wp-content/uploads/2016/01/thunder_weather_widget.jpg)
 
+
+![enter image description here](https://comps.canstockphoto.com/realistic-weather-widget-vector-clip-art_csp23570410.jpg)
+
+
+# UI Weather Forecast
+
+- https://comps.canstockphoto.com/realistic-weather-widget-vector-clip-art_csp23570410.jpg
+- https://w3layouts.com/wp-content/uploads/2015/09/sunlight_weather_widget.gif
+- 
+
 - [มาทำแอพพยากรณ์อากาศด้วย Vue.js](https://medium.com/@kongruksiamza/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-vue-js-32531b0bd420)
 - [Show the Weather Forecast in a NativeScript with Vue.js](https://developer.here.com/blog/show-the-weather-forecast-in-a-nativescript-with-vue.js-ios-and-android-application)
 
@@ -491,11 +501,11 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYwNDU5MzgsNzk0NTkxMzk4LC0xMz
-I3NzA4MDEzLC0xMDI2NjY3NTYwLC0yNzQyNTExNTksLTIxMjg5
-MjgzMTgsLTEyMTk4NzM0NCwtNDc3NDU3NjA4LC0xMzk1NjE2Mz
-EsMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1ODM0OTIyNzYsLTI3
-NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1MTkzLC0xOTIyMD
-gzNjcsLTE5MTA0NzUyMjQsLTE4MzQ4MzM1NDUsLTg1NjA3MjE3
-NiwxNzczNzk2MjIxXX0=
+eyJoaXN0b3J5IjpbLTkyMzQxOTUzOCwtMjEyNjA0NTkzOCw3OT
+Q1OTEzOTgsLTEzMjc3MDgwMTMsLTEwMjY2Njc1NjAsLTI3NDI1
+MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MD
+gsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4
+MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3ND
+UxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0
+NSwtODU2MDcyMTc2XX0=
 -->
