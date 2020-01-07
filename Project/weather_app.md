@@ -6,6 +6,7 @@ Weather App
 - [น่ารู้เรื่องลม](https://www.scimath.org/article-science/item/2111-i-do-not-know)
 - [การตรวจอากาศ สารานุกรมไทยสำหรับเยาวชนฯ](http://kanchanapisek.or.th/kp6/sub/book/book.php?book=2&chap=4&page=chap4.htm)
 - [Timezone](https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones) , [Document](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
+- [Change Autocomplete Styles in WebKit Browsers](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
 
 ## Tool
 
@@ -501,11 +502,11 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjM4MTg1NSwtMjEyNjA0NTkzOCw3OT
-Q1OTEzOTgsLTEzMjc3MDgwMTMsLTEwMjY2Njc1NjAsLTI3NDI1
-MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00Nzc0NTc2MD
-gsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMDY1NjAsMTU4
-MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5MTg1LC03NTk3ND
-UxOTMsLTE5MjIwODM2NywtMTkxMDQ3NTIyNCwtMTgzNDgzMzU0
-NSwtODU2MDcyMTc2XX0=
+eyJoaXN0b3J5IjpbMjA2NzA0ODExOSwxMDIyMzgxODU1LC0yMT
+I2MDQ1OTM4LDc5NDU5MTM5OCwtMTMyNzcwODAxMywtMTAyNjY2
+NzU2MCwtMjc0MjUxMTU5LC0yMTI4OTI4MzE4LC0xMjE5ODczND
+QsLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEzNTc5OTEwODMsMTA2
+MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MDk3MzcsLTE0NDE5MT
+kxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3LC0xOTEwNDc1MjI0
+LC0xODM0ODMzNTQ1XX0=
 -->
