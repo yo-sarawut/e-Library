@@ -7,6 +7,17 @@ Weather App
 - [การตรวจอากาศ สารานุกรมไทยสำหรับเยาวชนฯ](http://kanchanapisek.or.th/kp6/sub/book/book.php?book=2&chap=4&page=chap4.htm)
 - [Timezone](https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones) , [Document](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
 - [Change Autocomplete Styles in WebKit Browsers](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
+-  [ hashlib — Secure hashes and message digests](https://python.readthedocs.io/fr/hack-in-language/library/hashlib.html#hash-algorithms)
+
+- [SHA in Python](https://www.geeksforgeeks.org/sha-in-python/)
+
+- [JavaScript | Date Objects](https://www.geeksforgeeks.org/javascript-date-objects/)
+
+- [How to format current date in MM/DD/YYYY](geeksforgeeks.org/how-to-format-current-date-in-mm-dd-yyyy-hhmmss-format-using-javascript/)
+
+- [calculate the number of days between two dates in javascript?](https://www.geeksforgeeks.org/how-to-calculate-the-number-of-days-between-two-dates-in-javascript/)
+
+- [Python Tutorial – Learn Python 3 With Examples](https://www.geeksforgeeks.org/python-tutorial-learn-python-3-with-examples/)
 
 ## Tool
 
@@ -502,11 +513,11 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzA0ODExOSwxMDIyMzgxODU1LC0yMT
-I2MDQ1OTM4LDc5NDU5MTM5OCwtMTMyNzcwODAxMywtMTAyNjY2
-NzU2MCwtMjc0MjUxMTU5LC0yMTI4OTI4MzE4LC0xMjE5ODczND
-QsLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEzNTc5OTEwODMsMTA2
-MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MDk3MzcsLTE0NDE5MT
-kxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3LC0xOTEwNDc1MjI0
-LC0xODM0ODMzNTQ1XX0=
+eyJoaXN0b3J5IjpbLTE2NDc0NTQ1MjksMjA2NzA0ODExOSwxMD
+IyMzgxODU1LC0yMTI2MDQ1OTM4LDc5NDU5MTM5OCwtMTMyNzcw
+ODAxMywtMTAyNjY2NzU2MCwtMjc0MjUxMTU5LC0yMTI4OTI4Mz
+E4LC0xMjE5ODczNDQsLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEz
+NTc5OTEwODMsMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MD
+k3MzcsLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3
+LC0xOTEwNDc1MjI0XX0=
 -->
