@@ -69,11 +69,21 @@ var pet = {
 ```
 -   this ใน method จะอ้างอิงถึง Object ที่เป็นเจ้าของ เช่นเดียวกันกับภาษา OOP อื่น
 ```js
-var x =  10;  function run()  {  var x =  20; console.log(x);  //Output: 20 console.log(this.x);  //Output: 10  } run();
+var x = 10;
+function run() {
+    var x = 20;
+        console.log(x);          //Output: 20
+        console.log(this.x);     //Output: 10
+}
+run();
 ```
 -   this ใน function จะอ้างอิงถึง Window Object
 ```js
-<button  onclick="console.log(this.tagName);"> Click Me </button> //Output: BUTTON
+<button onclick="console.log(this.tagName);">
+    Click Me
+</button>
+
+//Output: BUTTON
 ```
 -   this ใน event handler จะอ้างอิงถึง HTML Element ที่เป็นตัวทำให้เกิด event นั้นๆ
 
@@ -196,5 +206,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDc0MTU4MF19
+eyJoaXN0b3J5IjpbMTI4MTc5ODYyOF19
 -->
