@@ -91,7 +91,11 @@ run();
 
 สำหรับคนที่เคยเขียน JavaJcript น่าจะเคยเจอ error เกี่ยวกับ null และ undefined มาบ้าง ซึ่งทั้งสองอย่างก็ล้วนแต่เป็นปัญหาเกี่ยวกับตัวแปรเวลาเขียนโค้ดเหมือนๆกัน แล้วสองอย่างนี้แตกต่างกันตรงไหน?
 ```js
-var myVarA; console.log(myVarA);  //Output: undefined  var myVarB =  null; console.log(myVarB);  //Output: null
+var myVarA;
+console.log(myVarA);   //Output: undefined
+
+var myVarB = null;
+console.log(myVarB);   //Output: null
 ```
 -   Undefined นั้นหมายถึงว่าตัวแปรนั้นถูกประกาศเรียบร้อยแล้วแต่ยังไม่ได้กำหนดค่าให้ตัวแปร
 -   Null นั้นเป็นค่าที่ใช้กำหนดให้กับตัวแปรเพื่อสื่อความหมายว่า ตัวแปรนั้นไม่มีค่าอะไร
@@ -102,14 +106,24 @@ var myVarA; console.log(myVarA);  //Output: undefined  var myVarB =  null; conso
 
 ในการเขียนโปรแกรมยังไงก็คงหนีไม่พ้นการใช้ for loop เพราะใช้ในการทำซ้ำงานต่างๆ โดยหลักๆที่ภาษาโปรแกรมอื่นๆมีกันก็น่าจะเป็น for และ for each ที่แต่ละคนคงจะเคยคุ้นเคยกันแล้ว พอมาเป็น javascript ก็มีเช่นกัน แต่ถ้าใครได้ลองหาข้อมูลดูอาจจะได้เจอกับ for-in และ for-of ที่การใช้งานก็ดูคล้ายกันไปหมด แล้วทีนี้เราจะเลือกใช้ for แบบไหนตอนไหนดี
 ```js
-let myArray =  [1,  2,  3]  for  (let index =  0; index < myArray.length; index++)  {  const element = myArray[index]; console.log(element);  }
+let myArray = [1, 2, 3]
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    console.log(element);
+}
 ```
 ```js
-//Output  1  2  3
+//Output
+1
+2
+3
 ```
 -   for – เริ่มที่ตัวพื้นฐาน สำหรับ for ตัวนี้ทุกคนต้องเคยใช้กันแน่นอน โดยจะเป็นการวนลูปตามค่า index ที่กำหนดไว้
 ```js
-let myArray =  [1,  2,  3] myArray.forEach(element =>  { console.log(element);  });
+let myArray = [1, 2, 3]
+myArray.forEach(element => {
+    console.log(element);
+});
 ```
 ```js
 //Output  1  2  3
@@ -206,5 +220,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTc5ODYyOF19
+eyJoaXN0b3J5IjpbLTEzMjM4MzA0MTQsMTI4MTc5ODYyOF19
 -->
