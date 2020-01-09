@@ -6,9 +6,22 @@
 ### 1.  **การประกาศตัวแปร Var, Let, Const ใช้แบบไหน**
 
 ในการเขียนโค้ด การประกาศตัวแปรก็เป็นสิ่งแรกๆ ที่น่าจะเจอในการเริ่มต้นศึกษาภาษานั้นๆ ใน JavaScript ก็เช่นกัน สำหรับคนที่เริ่มศึกษา JavaSctipt น่าจะเคยเห็นผ่านตามาบ้างก็คือ var, let และ const เพื่อการนำไปใช้งานอย่างถูกต้อง ลองมาดูกันว่าการประกาศแต่ละแบบนั้นต่างกันอย่างไรบ้าง
-
-function run()  {  const myNum =  191;  var one =  "One";  let two =  "Two";  {  var three =  "Three";  let four =  "Four";  } console.log(one);  //Output: One console.log(two);  //Output: Two console.log(three);  //Output: Three console.log(four);  //Uncaught ReferenceError  } run();
-
+```js
+function run() {
+    const myNum = 191;
+    var one = "One";
+    let two = "Two";
+    {
+        var three = "Three";
+        let four = "Four";
+    }
+    console.log(one);    //Output: One
+    console.log(two);    //Output: Two
+    console.log(three);  //Output: Three
+    console.log(four);   //Uncaught ReferenceError
+}
+run();
+```
 -   var – สำหรับการประกาศค่าด้วย var นั้น น่าจะเป็นแบบที่ทุกเคยเห็นกันแน่นอน ซึ่งการใช้ var นั้นเคยเป็นหลักในการประกาศตัวแปรมาก่อนที่ ES6 จะออกมา ซึ่งการประกาศด้วย var นั้นจะเป็นแบบ function scope เมื่อประกาศตัวแปรแล้วจะสมารถนำไปใช้ได้ภายในฟังก์ชันนั้นได้ทั้งหมด
 -   let – เป็นการประกาศตัวแปรที่ออกมาพร้อมกันกับ const ซึ่งมาพร้อมกับอัพเดต ES6 เพื่อช่วยให้การเขียน JavaScript นั้นง่ายขึ้น โดย let เมื่อประกาศแล้วตัวแปรจะมีค่าอยู่แค่ภายใน block scope คือแค่ภายในเครื่องหมาย { และ } ทำให้ไม่เกิดปัญหาการอ้างอิงตัวแปรเก่า เช่น การใช้ตัวแปรใน loop ค่างๆ ที่ต้องการประกาศค่าขึ้นมาใหม่
 -   const – ใช้สำหรับประกาศค่าตัวแปรที่ไม่ต้องการให้เปลี่ยนแปลงค่าได้ เพราะเมื่อประกาศค่าไปแล้วจะไม่สามรถแก้ไขค่านั้นซ้ำได้ โดย const นั้นทำงานภายใน block scope เหมือนกันกับ let
@@ -160,5 +173,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQzNzQ2OV19
+eyJoaXN0b3J5IjpbMzUxNTcwMzM4XX0=
 -->
