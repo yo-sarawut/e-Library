@@ -175,7 +175,8 @@ for (const iterator of str) {
 }
 ```
 ```js
-//Output h
+//Output 
+h
 e
 l
 l
@@ -189,8 +190,13 @@ o
 
 หลายคนที่เคยได้อ่านโค้ด JavaScript น่าจะเคยผ่านตากับ use strict ที่อยู่บรรทัดแรกของโค้ดมากันบ้าง แต่อาจจะไม่รู้ว่ามันมีไว้เพื่ออะไร use strict มีไว้เพื่อระบุว่าโค้ดในส่วนนั้นจะทำงานใน strict mode ซึ่งจะทำให้ใช้ตัวแปรที่ยังไม่ได้ประกาศไม่ได้ เนื่องจากใน javascript นั้นหากเรียกใช้ตัวแปรโดยไม่ได้ประกาศ var/let/const นำหน้าชื่อตัวแปร ตัวแปรนั้นจะถูกกำหนดเป็น global variables ดังนั้นเพื่อป้องกันความผิดพลาดในการประกาศค่าตัวแปรเราจึงสามารถใช้ use strict ได้
 ```js
-function myFunction1 ()  { x =  6; console.log(x);  //Output: 6  } myFunction1()
-
+function myFunction1 () {
+    x = 6;
+    console.log(x);    //Output: 6
+}
+myFunction1()
+```
+```js
 function myFunction2 ()  {  "use strict"; y =  7; console.log(y);  //Uncaught ReferenceError: y is not defined  } myFunction2()
 ```
 ### 8. Arrow Function ( => ) คืออะไร ?
@@ -247,5 +253,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjk1NDg1NiwxMjgxNzk4NjI4XX0=
+eyJoaXN0b3J5IjpbLTcyODU5OTY2MywxMjgxNzk4NjI4XX0=
 -->
