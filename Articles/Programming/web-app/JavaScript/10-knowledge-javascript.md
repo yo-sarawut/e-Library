@@ -92,25 +92,28 @@ let myArray =  [1,  2,  3] myArray.forEach(element =>  { console.log(element);  
 ```js
 var dog =  { name:  "Yoyo", color:  "black", age:  2  }  for  (const key in dog)  {  if  (dog.hasOwnProperty(key))  {  const element = dog[key]; console.log(key +  " : "  + element);  }  }
 ```
-```
-//Output name :  Yoyo color : black
 ```js
+//Output name :  Yoyo color : black
+```
 age :  2
 
 -   for…in – สำหรับ for-in ของ javascript นั้นใช้สำหรับวนลูป Object ซึ่งจะได้เป็นชื่อ properties ของ Object นั้นๆ หรือก็คือ key นั่นเอง
-
+```js
 // Array  var myArray =  [1,  2,  3];  for  (const iterator of myArray)  { console.log(iterator);  }
-
+```
+```
 //Output  1  2  3
-
+```
+```js
 // String  var str =  "hello";  for  (const iterator of str)  { console.log(iterator);  }
-
+```
+```js
 //Output h
 e
 l
 l
 o
-
+```
 -   for…of – ตัวสุดท้ายกับ for…of ตัวนี้จะใช้งานได้กับ iterable object หมายความว่าอะไรก็ตามที่สามารถวนลูปได้ จะสามารถใช้ for…of ได้นั่นเอง เช่น array, set หรือแม้แต่ string ก็สามารถใช้ได้
 
 นี่เป็นเพียงแค่การวนลูปด้วย for ต่างๆเท่านั้น ยังไม่นับรวม while อีก จึงขึ้นอยู่กับการใช้งาน ว่าจะเลือกใช้อันไหนให้เหมาะสมกับความต้องการของเรา
@@ -118,35 +121,35 @@ o
 ### 7. Use Strict คืออะไร ?
 
 หลายคนที่เคยได้อ่านโค้ด JavaScript น่าจะเคยผ่านตากับ use strict ที่อยู่บรรทัดแรกของโค้ดมากันบ้าง แต่อาจจะไม่รู้ว่ามันมีไว้เพื่ออะไร use strict มีไว้เพื่อระบุว่าโค้ดในส่วนนั้นจะทำงานใน strict mode ซึ่งจะทำให้ใช้ตัวแปรที่ยังไม่ได้ประกาศไม่ได้ เนื่องจากใน javascript นั้นหากเรียกใช้ตัวแปรโดยไม่ได้ประกาศ var/let/const นำหน้าชื่อตัวแปร ตัวแปรนั้นจะถูกกำหนดเป็น global variables ดังนั้นเพื่อป้องกันความผิดพลาดในการประกาศค่าตัวแปรเราจึงสามารถใช้ use strict ได้
-
+```js
 function myFunction1 ()  { x =  6; console.log(x);  //Output: 6  } myFunction1()
 
 function myFunction2 ()  {  "use strict"; y =  7; console.log(y);  //Uncaught ReferenceError: y is not defined  } myFunction2()
-
+```
 ### 8. Arrow Function ( => ) คืออะไร ?
 
 สำหรับคนที่เพิ่งเริ่มศึกษา JavaScript เวลาค้นหาข้อมูลอาจจะเจอกับเครื่องหมาย => ที่มีคนมาตอบตามกระทู้คำถามต่างๆเช่นใน Stack Overflow แล้วงงว่ามันคืออะไร ชื่อของเครื่องหมายนี้ก็ตามหัวข้อนี้เลยคือ Arrow Function เป็นสิ่งที่มาพร้อมกับ ES6 เพื่อให้สามารถเขียนฟังก์ชันได้สั้นลง
-
+```js
 // แบบปกติ sayHi =  function()  {  return  "Hi Human";  }
 
 // แบบใช้ Arrow Function sayHi =  ()  =>  {  return  "Hi Human";  }
-
+```
 ### 9. String จะใช้ ‘ ’ , “ ” หรือ ` ` ?
 
 การประกาศค่าให้กับตัวแปรชนิด string ใน JavaScript เราน่าจะเคยเห็นหรือใช้ทั้ง ‘ ’ (single quote) และ “ ” (double quote) ซึ่งทำงานได้เหมือนกันทุกประการ ขึ้นอยู่กับความชอบของแต่ละคน โดยจุดที่แตกต่างกันคือ
-
+```js
 var str =  'Hello it\'s me'; console.log(str);  //Output: Hello it's me
-
+```
 -   single quote – ต้องใช้ Escape character สำหรับพิมพ์ single quote
-
+```js
 var str =  "Hello from the \"other\" side"; console.log(str);  //Output: Hello from the "other" side
-
+```
 -   double quote – ต้องใช้ Escape character สำหรับพิมพ์ double quote
 
 จากสองแบบข้างต้นก็จะทำให้ความยากง่ายในการประกาศค่าตัวแปร string ต่างกันออกไปขึ้นอยู่กับว่าเป็นประโยคแบบไหน เราก็สามารถเลือกใช้ตามความเหมาะสมได้ แต่ยังมีอีกเครื่องหมายนึงที่ใช้ประกาศค่า string ได้ ก็คือ ` ` (backtick) ก็คือเครื่องหมายที่อยู่ปุ่มเดียวกันกับปุ่มตัวหนอนที่มักใช้สำหรับเปลี่ยนภาษากันนั่นเอง ส่วนการนำไปใช้งานนั้น
-
+```js
 str =  `Hello it's me from the "other" side`; console.log(str);  //Output: Hello it's me from the "other" side
-
+```
 -   backtick – ไม่ต้องใช้ Escape character ในเวลาที่พิมพ์ทั้ง single quote และ double quote
 
 จะเห็นได้ว่าการใช้ backtick นั้นช่วยให้การประกาศค่า string นั้นทำได้ง่ายขึ้น และโค้ดอ่านได้ง่าย แต่ท้ายที่สุกแล้วก็วนกลับไปที่ความถนัดของแต่ละคนหรือสไตล์ที่คนในทีมเลือกใช้กัน ที่จะเป็นตัวตัดสินว่าเราจะเลือกใช้รูปแบบไหนในการเขียนโค้ดของเราออกมา
@@ -154,11 +157,11 @@ str =  `Hello it's me from the "other" side`; console.log(str);  //Output: Hello
 ### 10. Boolean ใน Javascript อะไรบ้างที่เป็น True หรือเป็น False
 
 ใน javascript นั้นค่าความจริงหรือ Boolean นั้นมี 2 ค่าด้วยกันนั่นคือ true และ false แต่นอกจากสองอย่างนี้แล้วสิ่งอื่นๆก็ล้วนนำมาเป็นค่าความจริงได้ โดยหลักการมีง่ายๆคือ
-
+```js
 console.log(Boolean("hello"));  // true console.log(Boolean(5));  // true console.log(Boolean(9.99));  // true console.log(Boolean(1  +  2  +  3  +  4  +  5));  // true
-
+```
 -   อะไรก็ตามที่ “มีค่า” จะนับเป็น true เช่น “hello”, 5, 9.99, 1+2+3+4+5
-
+```js
 console.log(Boolean(""));  // false console.log(Boolean(0));  // false console.log(Boolean(-0));  // false console.log(Boolean(null));  // false console.log(Boolean(undefined));  // false
 
 -   ส่วนอะไรก็ตามที่ “ไม่มีค่า” จะนับเป็น false เช่น “”, 0, -0, null, undefined
@@ -177,5 +180,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODEwOTYyNF19
+eyJoaXN0b3J5IjpbMTQ3MjQzNTUyNl19
 -->
