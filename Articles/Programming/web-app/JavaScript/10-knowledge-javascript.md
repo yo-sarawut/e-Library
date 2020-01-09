@@ -126,26 +126,53 @@ myArray.forEach(element => {
 });
 ```
 ```js
-//Output  1  2  3
+//Output 
+1
+2
+3
 ```
 -   forEach – มาถึงตัวนี้ก็น่าจะรู้จักการทำงานของมันที่เหมือนกันกับภาษาอื่นๆ คือใช้เพื่อเข้าถึงข้อมูลใน Array ต่างๆ โดยที่เราไม่ต้องประกาศค่า index ในการวนลูปเอง แต่ forEach จะเข้าถึงข้อมูลใน Array ตั้งแต่ตำแหน่งแรกจนถึงสุดท้ายให้เรา
 ```js
-var dog =  { name:  "Yoyo", color:  "black", age:  2  }  for  (const key in dog)  {  if  (dog.hasOwnProperty(key))  {  const element = dog[key]; console.log(key +  " : "  + element);  }  }
+var dog = {
+    name: "Yoyo",
+    color: "black",
+    age: 2
+}
+
+for (const key in dog) {
+    if (dog.hasOwnProperty(key)) {
+        const element = dog[key];
+        console.log(key + " : " + element);
+    }
+}
 ```
 ```js
-//Output name :  Yoyo color : black
+//Output
+name : Yoyo
+color : black
+age : 2
 ```
-age :  2
 
 -   for…in – สำหรับ for-in ของ javascript นั้นใช้สำหรับวนลูป Object ซึ่งจะได้เป็นชื่อ properties ของ Object นั้นๆ หรือก็คือ key นั่นเอง
 ```js
-// Array  var myArray =  [1,  2,  3];  for  (const iterator of myArray)  { console.log(iterator);  }
+// Array
+var myArray = [1, 2, 3];
+for (const iterator of myArray) {
+    console.log(iterator);
+}
 ```
 ```
-//Output  1  2  3
+//Output
+1
+2
+3
 ```
 ```js
-// String  var str =  "hello";  for  (const iterator of str)  { console.log(iterator);  }
+// String
+var str = "hello";
+for (const iterator of str) {
+    console.log(iterator);
+}
 ```
 ```js
 //Output h
@@ -220,5 +247,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM4MzA0MTQsMTI4MTc5ODYyOF19
+eyJoaXN0b3J5IjpbLTY1Mjk1NDg1NiwxMjgxNzk4NjI4XX0=
 -->
