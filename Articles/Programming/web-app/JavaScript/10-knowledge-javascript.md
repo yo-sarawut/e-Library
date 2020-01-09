@@ -30,7 +30,12 @@ run();
 
 JavaScript เป็น dynamic data type คือตัวแปรหนึ่งตัวนั้น สามารถกำหนดค่าที่ชนิดแตกต่างกันให้กับตัวแปรนั้นๆได้
 ```js
-var x =  10; console.log(x);  //Output: 10 x =  "hello"; console.log(x);  //Output: hello x =  [1,  2,  3]; console.log(x);  //Output: [1,2,3]
+var x = 10;
+console.log(x);   //Output: 10
+x = "hello";
+console.log(x);   //Output: hello
+x = [1, 2, 3];
+console.log(x);   //Output: [1,2,3]
 ```
 จะเห็นว่าในตอนแรกนั้นตัวแปร x นั้นถูกกำหนดค่า string ไว้ แต่ภายหลังก็สามารถกำหนดค่าด้วย number หรือ array ให้กับตัวแปร x ได้เช่นกัน ในด้านหนึ่งนึงนี่คือความง่ายในการเขียนโค้ด แต่เมื่อโค้ดมีความซับซ้อนขึ้น หรือในการนำไปใช้ในโปรเจ็กใหญ่ๆ การที่ไม่ระบุชนิดของตัวแปรก็อาจจะกลายเป็นความยุ่งยากในการพัฒนาได้ ซึ่งถ้าอยู่ในจุดนั้นคงต้องหาทางเลือกอื่น เช่นการเปลี่ยนไปใช้ TypeScript ในการพัฒนาแทน
 
@@ -38,7 +43,11 @@ var x =  10; console.log(x);  //Output: 10 x =  "hello"; console.log(x);  //Outp
 
 การสร้างอัลกอริทึมขึ้นมา operator สำหรับการเปรียบเทียบค่าพื้นฐานย่อมเป็นสิ่งจำเป็นที่มีอยู่ในโค้ด เช่น มากกว่า, น้อยกว่า, เท่ากัน หรือ ไม่เท่ากัน สำหรับเครื่องหมายที่ใช้ในการเปรียบเทียบความเท่ากันนั้น อาจจะเคยเห็นหรือเคยใช้ทั้ง == และ === มาแล้ว แต่อาจจะยังไม่เข้าใจว่ามันมีอะไรที่ต่างกัน
 ```js
-var a =  10;  var b =  '10'; a == b // Output: true a === b // Output: false
+var a = 10;
+var b = '10';
+
+a == b       // Output: true
+a === b      // Output: false
 ```
 -   == จะใช้สำหรับเปรียบเทียบความเท่ากัน (equality)
 -   === ใช้ในการเปรียบเทียบความเหมือนกัน/เป็นอย่างเดียวกัน (identically)
@@ -49,7 +58,14 @@ var a =  10;  var b =  '10'; a == b // Output: true a === b // Output: false
 
 ในภาษาอื่นๆเช่น Java นั้น this จะใช้เพื่ออ้างอิงถึง Object ที่กำลังใช้งานอยู่ อย่างเช่น method ภายในคลาสที่ต้องการเรียกค่าตัวแปรภายในคลาสนั้น ก็สามารถระบุได้ด้วยการใช้ this แต่ในส่วนของ JavaScript นั้นจะต่างออกไป โดยจะเปลี่ยนไปตามบริบทที่ใช้งาน เช่น
 ```js
-// สร้าง Object  var pet =  { name:  "Foo", weight:  15, info:  function()  {  return  "Name: "  +  this.name+  ", Weight: "  +  this.weight;  }  };
+// สร้าง Object
+var pet = {
+  name: "Foo",
+  weight: 15,
+  info: function() {
+    return "Name: " + this.name+ ", Weight: " + this.weight;
+  }
+};
 ```
 -   this ใน method จะอ้างอิงถึง Object ที่เป็นเจ้าของ เช่นเดียวกันกับภาษา OOP อื่น
 ```js
@@ -163,7 +179,7 @@ console.log(Boolean("hello"));  // true console.log(Boolean(5));  // true consol
 -   อะไรก็ตามที่ “มีค่า” จะนับเป็น true เช่น “hello”, 5, 9.99, 1+2+3+4+5
 ```js
 console.log(Boolean(""));  // false console.log(Boolean(0));  // false console.log(Boolean(-0));  // false console.log(Boolean(null));  // false console.log(Boolean(undefined));  // false
-
+```
 -   ส่วนอะไรก็ตามที่ “ไม่มีค่า” จะนับเป็น false เช่น “”, 0, -0, null, undefined
 
 **อ้างอิง**
@@ -180,5 +196,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjQzNTUyNl19
+eyJoaXN0b3J5IjpbMTYyMDc0MTU4MF19
 -->
