@@ -8,7 +8,7 @@ If you are into  [python](https://python.org/)  , there is a fair chance that yo
 
 Hard coding your username, passwords or secret keys in your code is wrong way and it exposes you to vulnerability. Have a look at the code below:-
 
-```
+```py
 # The wrong way 
 
 user_name = 'my_user_name'
@@ -26,7 +26,7 @@ my_user_name my_password
 
 To set password and secret keys in environment variable on Mac and Linux. You will need to open and modify  [.bash_profile](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/)  . To do that open the  [terminal](https://support.apple.com/en-in/guide/terminal/welcome/mac)  on your Mac or Linux and cd to the home directory. (You can read about useful terminal commands of mac  [here](https://medium.com/@uditvashisht/10-basic-terminal-commands-every-macos-user-must-know-1052cdb6add))
 
-```c
+```py
 user desktop $ cd
 user ~ $
 
@@ -112,5 +112,5 @@ my_user_name my_password
 
 > Written with [StackEdit](https://saralgyaan.com/posts/set-passwords-and-secret-keys-in-environment-variables-maclinuxwindows-python-quicktip/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY5NDQzMjBdfQ==
+eyJoaXN0b3J5IjpbNTU3NDMzMzg1XX0=
 -->
