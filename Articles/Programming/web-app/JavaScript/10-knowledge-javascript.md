@@ -228,13 +228,15 @@ console.log(str);     //Output: Hello it's me
 ```
 -   single quote – ต้องใช้ Escape character สำหรับพิมพ์ single quote
 ```js
-var str =  "Hello from the \"other\" side"; console.log(str);  //Output: Hello from the "other" side
+var str = "Hello from the \"other\" side";
+console.log(str);     //Output: Hello from the "other" side
 ```
 -   double quote – ต้องใช้ Escape character สำหรับพิมพ์ double quote
 
 จากสองแบบข้างต้นก็จะทำให้ความยากง่ายในการประกาศค่าตัวแปร string ต่างกันออกไปขึ้นอยู่กับว่าเป็นประโยคแบบไหน เราก็สามารถเลือกใช้ตามความเหมาะสมได้ แต่ยังมีอีกเครื่องหมายนึงที่ใช้ประกาศค่า string ได้ ก็คือ ` ` (backtick) ก็คือเครื่องหมายที่อยู่ปุ่มเดียวกันกับปุ่มตัวหนอนที่มักใช้สำหรับเปลี่ยนภาษากันนั่นเอง ส่วนการนำไปใช้งานนั้น
 ```js
-str =  `Hello it's me from the "other" side`; console.log(str);  //Output: Hello it's me from the "other" side
+str = `Hello it's me from the "other" side`;
+console.log(str);     //Output: Hello it's me from the "other" side
 ```
 -   backtick – ไม่ต้องใช้ Escape character ในเวลาที่พิมพ์ทั้ง single quote และ double quote
 
@@ -244,11 +246,18 @@ str =  `Hello it's me from the "other" side`; console.log(str);  //Output: Hello
 
 ใน javascript นั้นค่าความจริงหรือ Boolean นั้นมี 2 ค่าด้วยกันนั่นคือ true และ false แต่นอกจากสองอย่างนี้แล้วสิ่งอื่นๆก็ล้วนนำมาเป็นค่าความจริงได้ โดยหลักการมีง่ายๆคือ
 ```js
-console.log(Boolean("hello"));  // true console.log(Boolean(5));  // true console.log(Boolean(9.99));  // true console.log(Boolean(1  +  2  +  3  +  4  +  5));  // true
+console.log(Boolean("hello"));            // true
+console.log(Boolean(5));                  // true
+console.log(Boolean(9.99));               // true
+console.log(Boolean(1 + 2 + 3 + 4 + 5));  // true
 ```
 -   อะไรก็ตามที่ “มีค่า” จะนับเป็น true เช่น “hello”, 5, 9.99, 1+2+3+4+5
 ```js
-console.log(Boolean(""));  // false console.log(Boolean(0));  // false console.log(Boolean(-0));  // false console.log(Boolean(null));  // false console.log(Boolean(undefined));  // false
+console.log(Boolean(""));                 // false
+console.log(Boolean(0));                  // false
+console.log(Boolean(-0));                 // false
+console.log(Boolean(null));               // false
+console.log(Boolean(undefined));          // false
 ```
 -   ส่วนอะไรก็ตามที่ “ไม่มีค่า” จะนับเป็น false เช่น “”, 0, -0, null, undefined
 
@@ -266,5 +275,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxOTgwODgsMTI4MTc5ODYyOF19
+eyJoaXN0b3J5IjpbLTEzOTI0NTE2MjIsMTI4MTc5ODYyOF19
 -->
