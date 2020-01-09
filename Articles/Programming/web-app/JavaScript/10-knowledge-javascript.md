@@ -197,21 +197,34 @@ function myFunction1 () {
 myFunction1()
 ```
 ```js
-function myFunction2 ()  {  "use strict"; y =  7; console.log(y);  //Uncaught ReferenceError: y is not defined  } myFunction2()
+function myFunction2 () {
+    "use strict";
+    y = 7;
+    console.log(y);    //Uncaught ReferenceError: y is not defined
+}
+myFunction2()
 ```
 ### 8. Arrow Function ( => ) คืออะไร ?
 
 สำหรับคนที่เพิ่งเริ่มศึกษา JavaScript เวลาค้นหาข้อมูลอาจจะเจอกับเครื่องหมาย => ที่มีคนมาตอบตามกระทู้คำถามต่างๆเช่นใน Stack Overflow แล้วงงว่ามันคืออะไร ชื่อของเครื่องหมายนี้ก็ตามหัวข้อนี้เลยคือ Arrow Function เป็นสิ่งที่มาพร้อมกับ ES6 เพื่อให้สามารถเขียนฟังก์ชันได้สั้นลง
 ```js
-// แบบปกติ sayHi =  function()  {  return  "Hi Human";  }
-
-// แบบใช้ Arrow Function sayHi =  ()  =>  {  return  "Hi Human";  }
+// แบบปกติ
+sayHi = function() {
+  return "Hi Human";
+}
+```
+```js
+// แบบใช้ Arrow Function
+sayHi = () => {
+  return "Hi Human";
+}
 ```
 ### 9. String จะใช้ ‘ ’ , “ ” หรือ ` ` ?
 
 การประกาศค่าให้กับตัวแปรชนิด string ใน JavaScript เราน่าจะเคยเห็นหรือใช้ทั้ง ‘ ’ (single quote) และ “ ” (double quote) ซึ่งทำงานได้เหมือนกันทุกประการ ขึ้นอยู่กับความชอบของแต่ละคน โดยจุดที่แตกต่างกันคือ
 ```js
-var str =  'Hello it\'s me'; console.log(str);  //Output: Hello it's me
+var str = 'Hello it\'s me';
+console.log(str);     //Output: Hello it's me
 ```
 -   single quote – ต้องใช้ Escape character สำหรับพิมพ์ single quote
 ```js
@@ -253,5 +266,5 @@ https://www.tamemo.com/post/118/what-is-js-this-bind-call-apply/
 
 > Written with [StackEdit](https://www.borntodev.com/2020/01/06/10-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89-javascript/?fbclid=IwAR1V0oMlnI4gMBj72bhjLyBz5kxVE_jkgGiUMuPcHy9A49QJJJts5vcQLj0).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODU5OTY2MywxMjgxNzk4NjI4XX0=
+eyJoaXN0b3J5IjpbMzQxOTgwODgsMTI4MTc5ODYyOF19
 -->
