@@ -60,7 +60,7 @@ pip install passlib
 ```
 or...
 ```
-`sudo apt-get install python-passlib`
+sudo apt-get install python-passlib
 ```
 Once you have passlib, let's play!
 ```py
@@ -127,5 +127,5 @@ It's like most crime. Most crimes are crimes of opportunity, your job is to not 
 
 > [Source: ](https://pythonprogramming.net/password-hashing-flask-tutorial/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDU1MzQ3OF19
+eyJoaXN0b3J5IjpbLTU0ODgzOTEwNCwtNzEwNTUzNDc4XX0=
 -->
