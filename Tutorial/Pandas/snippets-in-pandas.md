@@ -450,51 +450,18 @@ names = ['Cheap', 'Normal', 'Expensive']
 df['price_point'] = pd.cut(df.price, bins, labels=names)
 ```
 
-order_number
+|  |  |
+|--|--|
+|  |  |
 
-price
 
-price_point
-
-0
-
-PZZA0000
-
-12.99
-
-Normal
-
-1
-
-PZZA0001
-
-14.50
-
-Normal
-
-2
-
-PZZA0002
-
-19.99
-
-Expensive
-
-3
-
-PZZA0003
-
-20.99
-
-Expensive
-
-4
-
-PZZA0004
-
-21.99
-
-Expensive
+|order_number|	price|	price_point|
+|---------|-------|-------|
+|0|	PZZA0000	|12.99	|Normal|
+|1	|PZZA0001	|14.50	|Normal|
+|2	|PZZA0002	|19.99	|Expensive|
+|3|	PZZA0003	|20.99	|Expensive|
+|4	|PZZA0004	|21.99|	Expensive|
 
 ## 18. Creating a new Column by Looping
 
@@ -528,5 +495,5 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDkyMzM1NF19
+eyJoaXN0b3J5IjpbMTcwOTA4ODU4NV19
 -->
