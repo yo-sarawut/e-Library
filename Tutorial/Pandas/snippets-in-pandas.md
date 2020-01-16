@@ -47,99 +47,14 @@ df.info()       # memory footprint and datatypes
 
 Here’s the head of the pizza DataFrame…
 
-order_number
 
-date
 
-size
-
-topping
-
-price
-
-discount
-
-coupon
-
-0
-
-PZZA0001
-
-08/21/16
-
-Small
-
-Anchovies
-
-12.99
-
-3.5
-
-Yes
-
-1
-
-PZZA0000
-
-09/26/16
-
-Large
-
-Pepperoni
-
-14.50
-
-0.0
-
-No
-
-2
-
-PZZA0001
-
-09/27/16
-
-Extra Large
-
-Bell Pepper
-
-19.99
-
-0.0
-
-No
-
-3
-
-PZZA0002
-
-09/28/16
-
-Extra Large
-
-Olives
-
-20.99
-
-5.0
-
-Yes
-
-4
-
-PZZA0003
-
-09/29/16
-
-Extra Large
-
-Pepperoni
-
-21.99
-
-0.0
-
-No
+order_number	date	size	topping	price	discount	coupon
+0	PZZA0001	08/21/16	Small	Anchovies	12.99	3.5	Yes
+1	PZZA0000	09/26/16	Large	Pepperoni	14.50	0.0	No
+2	PZZA0001	09/27/16	Extra Large	Bell Pepper	19.99	0.0	No
+3	PZZA0002	09/28/16	Extra Large	Olives	20.99	5.0	Yes
+4	PZZA0003	09/29/16	Extra Large	Pepperoni	21.99	0.0	No
 
 ## 3. Adding a New Column to a DataFrame
 
@@ -204,51 +119,11 @@ filtered_data = df[(df.price > 11.99) & (df.topping == 'Pineapple')]
 
 Now we have all the pizzas with a Pineapple topping priced over 11.99.
 
-order_number
 
-date
 
-size
-
-topping
-
-price
-
-discount
-
-coupon
-
-6
-
-PZZA0006
-
-10/01/16
-
-Medium
-
-Pineapple
-
-17.50
-
-0.0
-
-No
-
-9
-
-PZZA0009
-
-10/04/16
-
-Medium
-
-Pineapple
-
-12.99
-
-2.0
-
-Yes
+order_number	date	size	topping	price	discount	coupon
+6	PZZA0006	10/01/16	Medium	Pineapple	17.50	0.0	No
+9	PZZA0009	10/04/16	Medium	Pineapple	12.99	2.0	Yes
 
 ## 6. Sorting a DataFrame by a Certain Column
 
@@ -270,51 +145,14 @@ def calculate_taxes(price):
 df['taxes'] = df.price.apply(calculate_taxes)
 ```
 
-order_number
 
-price
 
-taxes
-
-0
-
-PZZA0000
-
-12.99
-
-1.5588
-
-1
-
-PZZA0001
-
-14.50
-
-1.7400
-
-2
-
-PZZA0002
-
-19.99
-
-2.3988
-
-3
-
-PZZA0003
-
-20.99
-
-2.5188
-
-4
-
-PZZA0004
-
-21.99
-
-2.6388
+order_number	price	taxes
+0	PZZA0000	12.99	1.5588
+1	PZZA0001	14.50	1.7400
+2	PZZA0002	19.99	2.3988
+3	PZZA0003	20.99	2.5188
+4	PZZA0004	21.99	2.6388
 
 ## 8. Add a New Column with Conditional Logic
 
@@ -495,5 +333,5 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTA4ODU4NV19
+eyJoaXN0b3J5IjpbLTM2MTY2Nzg5NV19
 -->
