@@ -9,7 +9,7 @@ For this article, we are starting with a DataFrame filled with Pizza orders. If 
 
 -   DataFrame - Indexed rows and columns of data, like a spreadsheet or database table.
 -   Series = Single column of data.
--   Axis - 0 == Rows, 1 == Columns
+-   Axis - 0 ==  Rows, 1  == Columns
 -   Shape - (number_of_rows, number_of_columns) in a DataFrame
 
 ## 1. Importing a CSV File
@@ -333,5 +333,5 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTY2Nzg5NV19
+eyJoaXN0b3J5IjpbLTI5NzEwMjYzOV19
 -->
