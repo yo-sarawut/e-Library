@@ -48,8 +48,10 @@ Note for Pandas Tutorial
 2.34 วิธีการแทนค่าใน DataFrame
 2.35 วิธีการ Export DataFrame เป็นไฟล์ CSV
 
+![enter image description here](https://stooq.com/c/?s=gc.f&c=10y&t=l&a=lg&g)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTUzOTMwMTMsLTM1MjE3MTE2NCwtMj
-c2MDIxNzQ2XX0=
+eyJoaXN0b3J5IjpbLTE0NDI5NTMxOTcsLTE2OTUzOTMwMTMsLT
+M1MjE3MTE2NCwtMjc2MDIxNzQ2XX0=
 -->
