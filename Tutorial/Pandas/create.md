@@ -5,31 +5,24 @@ In this article we will discuss different techniques to create a DataFrame objec
 
 DataFrame constructor accepts a data object that can be ndarray, dictionary etc. i.e.
 
+Python
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 1
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 
 pandas.DataFrame(data=None,  index=None,  columns=None,  dtype=None,  copy=False)
 
 But if we are passing a dictionary in data, then it should contain a list like objects in value field like Series, arrays or lists etc i.e.
 
-
+```py
 # Dictionary with list object in values
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
+```
 
-# Dictionary with list object in values
-
-studentData  =  {
-
-'name'  :  ['jack',  'Riti',  'Aadi'],
-
-'age'  :  [34,  30,  16],
-
-'city'  :  ['Sydney',  'Delhi',  'New york']
-
-}
 
 On Initialising a DataFrame object with this kind of dictionary, each item (Key / Value pair) in dictionary will be converted to one column i.e. key will become Column Name and list in the value field will be the column data i.e.
 
@@ -977,5 +970,5 @@ age city name
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODQxODg4Ml19
+eyJoaXN0b3J5IjpbLTExMDEwMTIzMjldfQ==
 -->
