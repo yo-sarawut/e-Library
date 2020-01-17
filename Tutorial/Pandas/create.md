@@ -18,6 +18,7 @@ studentData = {
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
+
 # Dictionary with list object in values
 
 studentData  =  {
@@ -976,5 +977,5 @@ age city name
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ0NjkzMzJdfQ==
+eyJoaXN0b3J5IjpbLTQ2ODQxODg4Ml19
 -->
