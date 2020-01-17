@@ -32,146 +32,37 @@ Let's see what  `panel_data`  actually is by temporarily making it a dataframe a
 ```py
 panel_data.to_frame().head(9)  
 ```
-Open
 
-High
-
-Low
-
-Close
-
-Volume
-
-Date
-
-minor
-
-2010-01-04
-
-AAPL
-
-30.49
-
-30.64
-
-30.34
-
-30.57
-
-123432050.0
-
-MSFT
-
-30.62
-
-31.10
-
-30.59
-
-30.95
-
-38414185.0
-
-SPY
-
-112.37
-
-113.39
-
-111.51
-
-113.33
-
-118944541.0
-
-2010-01-05
-
-AAPL
-
-30.66
-
-30.80
-
-30.46
-
-30.63
-
-150476004.0
-
-MSFT
-
-30.85
-
-31.10
-
-30.64
-
-30.96
-
-49758862.0
-
-SPY
-
-113.26
-
-113.68
-
-112.85
-
-113.63
-
-111579866.0
-
-2010-01-06
-
-AAPL
-
-30.63
-
-30.75
-
-30.11
-
-30.14
-
-138039594.0
-
-MSFT
-
-30.88
-
-31.08
-
-30.52
-
-30.77
-
-58182332.0
-
-SPY
-
-113.52
-
-113.99
-
-113.43
-
-113.71
-
-116074402.0
+		Open	High	Low	Close	Volume
+Date	minor					
+2010-01-04	AAPL	30.49	30.64	30.34	30.57	123432050.0
+MSFT	30.62	31.10	30.59	30.95	38414185.0
+SPY	112.37	113.39	111.51	113.33	118944541.0
+2010-01-05	AAPL	30.66	30.80	30.46	30.63	150476004.0
+MSFT	30.85	31.10	30.64	30.96	49758862.0
+SPY	113.26	113.68	112.85	113.63	111579866.0
+2010-01-06	AAPL	30.63	30.75	30.11	30.14	138039594.0
+MSFT	30.88	31.08	30.52	30.77	58182332.0
+SPY	113.52	113.99	113.43	113.71	116074402.0
 
 ## Preparing the Data
 
 Let us assume we are interested in working with the  _Close_  prices which have been already been adjusted by Google finance to account for stock splits. We want to make sure that all weekdays are included in our dataset, which is very often desirable for quantitative trading strategies.
 
 Of course, some of the weekdays might be public holidays in which case no price will be available. For this reason, we will fill the missing prices with the latest available prices:
+```py
+# All we need to do is reindex close using all_weekdays as the new index
+close = close.reindex(all_weekdays)
 
-# Getting just the adjusted closing prices. This will return a Pandas DataFrame  # The index in this DataFrame is the major index of the panel_data. close = panel_data['Close']  # Getting all weekdays between 01/01/2000 and 12/31/2016 all_weekdays = pd.date_range(start=start_date, end=end_date, freq='B')  # How do we align the existing prices in adj_close with our new set of dates?  # All we need to do is reindex close using all_weekdays as the new index close = close.reindex(all_weekdays)  # Reindexing will insert missing values (NaN) for the dates that were not present  # in the original set. To cope with this, we can fill the missing by replacing them  # with the latest available price for each instrument. close = close.fillna(method='ffill')  
-
+# Reindexing will insert missing values (NaN) for the dates that were not present
+# in the original set. To cope with this, we can fill the missing by replacing them
+# with the latest available price for each instrument.
+close = close.fillna(method='ffill')
+```
 Initially,  `close`  contains all the closing prices for all instruments and all the dates that Google returned. Some of the week days might be missing from the data Google provides. For this reason we create a Series of all the weekdays between the first and last date of interest and store them in the all_weekdays variable. Getting all the weekdays is achieved by passing the  `freq=’B’`  named parameter to the  `pd.date_range()`  function. This function return a  `DatetimeIndex`  which is shown below:
 
 print(all_weekdays)  # DatetimeIndex(['2010-01-01', '2010-01-04', '2010-01-05', '2010-01-06',  #               '2010-01-07', '2010-01-08', '2010-01-11', '2010-01-12',  #               '2010-01-13', '2010-01-14',  #               ...  #               '2016-12-19', '2016-12-20', '2016-12-21', '2016-12-22',  #               '2016-12-23', '2016-12-26', '2016-12-27', '2016-12-28',  #               '2016-12-29', '2016-12-30'],  #              dtype='datetime64[ns]', length=1826, freq='B')  
-
+```
 Aligning the original DataFrame with the new DatetimeIndex is accomplished by substitution of the initial DatetimeIndex of the  `close`  DataFrame. If any of the new dates were not included in the original DatetimeIndex, the prices for that date will be filled with NaNs. For this reason, we will fill any resulting NaNs with the last available price. The final, clean DataFrame is shown below:
 
 close.head(10)  
@@ -358,5 +249,5 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYyOTAzMjldfQ==
+eyJoaXN0b3J5IjpbMzA1MzkyOTIyXX0=
 -->
