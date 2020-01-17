@@ -4,14 +4,9 @@ In this article we will discuss different techniques to create a DataFrame objec
 ## Create DataFrame from Dictionary using default Constructor
 
 DataFrame constructor accepts a data object that can be ndarray, dictionary etc. i.e.
-
-Python
-pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
-1
-pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
-
+```py
 pandas.DataFrame(data=None,  index=None,  columns=None,  dtype=None,  copy=False)
-
+```
 But if we are passing a dictionary in data, then it should contain a list like objects in value field like Series, arrays or lists etc i.e.
 
 ```py
@@ -970,5 +965,5 @@ age city name
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEwMTIzMjldfQ==
+eyJoaXN0b3J5IjpbMTA2OTA0ODgyNV19
 -->
