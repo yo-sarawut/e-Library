@@ -77,17 +77,18 @@ Aligning the original DataFrame with the new DatetimeIndex is accomplished by su
 close.head(10)  
 ```
 
-	AAPL	MSFT	SPY
-2010-01-01	NaN	NaN	NaN
-2010-01-04	30.57	30.95	113.33
-2010-01-05	30.63	30.96	113.63
-2010-01-06	30.14	30.77	113.71
-2010-01-07	30.08	30.45	114.19
-2010-01-08	30.28	30.66	114.57
-2010-01-11	30.02	30.27	114.73
-2010-01-12	29.67	30.07	113.66
-2010-01-13	30.09	30.35	114.62
-2010-01-14	29.92	30.96	114.93
+| Date |AAPL |MSFT |SPY |
+|-----|-----|-----|-----|
+| 01/01/2010 |nan |nan |nan |
+| 04/01/2010 |30.57 |30.95 |113.33 |
+| 05/01/2010 |30.63 |30.96 |113.63 |
+| 06/01/2010 |30.14 |30.77 |113.71 |
+| 07/01/2010 |30.08 |30.45 |114.19 |
+| 08/01/2010 |30.28 |30.66 |114.57 |
+| 11/01/2010 |30.02 |30.27 |114.73 |
+| 12/01/2010 |29.67 |30.07 |113.66 |
+| 13/01/2010 |30.09 |30.35 |114.62 |
+| 14/01/2010 |29.92 |30.96 |114.93 |
 
 ## Looking at the Data
 
@@ -127,5 +128,5 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NDAzMjM4LDExNTQwNTcyNDldfQ==
+eyJoaXN0b3J5IjpbLTcxOTgyNzk2LDExNTQwNTcyNDldfQ==
 -->
