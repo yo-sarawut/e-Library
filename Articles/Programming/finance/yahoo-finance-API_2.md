@@ -108,7 +108,9 @@ print('Total portfolio return is: ' +
       '{:5.2f}'.format(100 * total_portfolio_return) + '%')
 print('Average yearly return is: ' +
       '{:5.2f}'.format(100 * average_yearly_return) + '%')
-Total portfolio return is: 325.14% Average yearly return is: 8.85%
+```
+Total portfolio return is: 325.14% Average yearly return is: **8.85%**
+
 What next?
 Our strategy is a very simple example of a buy-and-hold strategy. The investor simply splits up the available funds in the three assets and keeps the same position throughout the period under investigation. Although simple, the strategy does produce a healthy 8.85% per year.
 
@@ -119,5 +121,5 @@ Also, we have said nothing at all about the risk of this strategy. Risk is the m
 See Part 3 of this series: Moving Average Trading Strategies.
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMTc4MTQyLDg0MzI4OTE1M119
+eyJoaXN0b3J5IjpbOTM3NjM1MTM4LDg0MzI4OTE1M119
 -->
