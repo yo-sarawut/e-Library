@@ -89,8 +89,35 @@ plt.show()
 ```
 ![enter image description here](https://storage.googleapis.com/lds-media/images/aapl_msft_gspc_returns.width-1200.png)
 
+So this simple investing strategy would yield a total return of more than 325% in the course of almost 16 years.
 
+How does this translate to a yearly performance? Since we have kept all weekdays in our portfolio, there are 52×5=260 weekdays each year. There are 4435 days in our simulation which corresponds roughly to 16.92 years. We will be calculating the average geometric return, that is an average return r¯ which when compounded for 16.92 years will produce the total relative return of 325.14%. So we need to solve:
+
+```py
+# Calculating the time-related parameters of the simulation
+days_per_year = 52 * 5
+total_days_in_simulation = data.shape[0]
+number_of_years = total_days_in_simulation / days_per_year
+
+# The last data point will give us the total portfolio return
+total_portfolio_return = total_relative_returns[-1]
+# Average portfolio return assuming compunding of returns
+average_yearly_return = (1 + total_portfolio_return)**(1 / number_of_years) - 1
+
+print('Total portfolio return is: ' +
+      '{:5.2f}'.format(100 * total_portfolio_return) + '%')
+print('Average yearly return is: ' +
+      '{:5.2f}'.format(100 * average_yearly_return) + '%')
+Total portfolio return is: 325.14% Average yearly return is: 8.85%
+What next?
+Our strategy is a very simple example of a buy-and-hold strategy. The investor simply splits up the available funds in the three assets and keeps the same position throughout the period under investigation. Although simple, the strategy does produce a healthy 8.85% per year.
+
+However, the simulation is not completely accurate. Let us not forget that we have used ALL weekdays in our example, but we do know that on some days the markets are not trading. This will not affect the strategy we presented as the returns on the days the markets are closed are 0, but it may potentially affect other types of strategies. Furthermore, the weights here are constant over time. Ideally, we would like weights that change over time so that we can take advantage of price swings and other market events.
+
+Also, we have said nothing at all about the risk of this strategy. Risk is the most important consideration in any investment strategy and is closely related to the expected returns. In what follows, we will start designing a more complex strategy, the weights of which will not be constant over time. At the same time we will start looking into the risk of the strategy and present appropriate metrics to measure it. Finally, we will look into the issue of optimizing the strategy parameters and how this can improve our return to risk profile.
+
+See Part 3 of this series: Moving Average Trading Strategies.
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMjg5MTUzXX0=
+eyJoaXN0b3J5IjpbNzgxMTc4MTQyLDg0MzI4OTE1M119
 -->
