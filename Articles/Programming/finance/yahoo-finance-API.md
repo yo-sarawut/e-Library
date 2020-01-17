@@ -60,13 +60,22 @@ close = close.reindex(all_weekdays)
 close = close.fillna(method='ffill')
 ```
 Initially,  `close`  contains all the closing prices for all instruments and all the dates that Google returned. Some of the week days might be missing from the data Google provides. For this reason we create a Series of all the weekdays between the first and last date of interest and store them in the all_weekdays variable. Getting all the weekdays is achieved by passing the  `freq=’B’`  named parameter to the  `pd.date_range()`  function. This function return a  `DatetimeIndex`  which is shown below:
+```py
+print(all_weekdays)
 
-print(all_weekdays)  # DatetimeIndex(['2010-01-01', '2010-01-04', '2010-01-05', '2010-01-06',  #               '2010-01-07', '2010-01-08', '2010-01-11', '2010-01-12',  #               '2010-01-13', '2010-01-14',  #               ...  #               '2016-12-19', '2016-12-20', '2016-12-21', '2016-12-22',  #               '2016-12-23', '2016-12-26', '2016-12-27', '2016-12-28',  #               '2016-12-29', '2016-12-30'],  #              dtype='datetime64[ns]', length=1826, freq='B')  
+# DatetimeIndex(['2010-01-01', '2010-01-04', '2010-01-05', '2010-01-06',
+#               '2010-01-07', '2010-01-08', '2010-01-11', '2010-01-12',
+#               '2010-01-13', '2010-01-14',
+#               ...
+#               '2016-12-19', '2016-12-20', '2016-12-21', '2016-12-22',
+#               '2016-12-23', '2016-12-26', '2016-12-27', '2016-12-28',
+#               '2016-12-29', '2016-12-30'],
+#              dtype='datetime64[ns]', length=1826, freq='B')
 ```
 Aligning the original DataFrame with the new DatetimeIndex is accomplished by substitution of the initial DatetimeIndex of the  `close`  DataFrame. If any of the new dates were not included in the original DatetimeIndex, the prices for that date will be filled with NaNs. For this reason, we will fill any resulting NaNs with the last available price. The final, clean DataFrame is shown below:
-
+```py
 close.head(10)  
-
+```
 AAPL
 
 MSFT
@@ -249,5 +258,5 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MzkyOTIyXX0=
+eyJoaXN0b3J5IjpbMTA1NjQ2NjMwMl19
 -->
