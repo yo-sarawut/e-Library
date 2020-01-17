@@ -39,10 +39,22 @@ short_rolling = data.rolling(window=20).mean()
 short_rolling.head()
 has the following format:
 ```
+```py
+# Calculating the short-window moving average
+long_rolling = data.rolling(window=100).mean()
+long_rolling.tail()
+```
+| Date |AAPL |MSFT |^GSPC |
+|-----|-----|-----|-----|
+| 26/12/2016 |110.958205 |58.41818 |2176.628791 |
+| 27/12/2016 |111.047874 |58.476117 |2177.50018 |
+| 28/12/2016 |111.1405889 |58.532936 |2178.24449 |
+| 29/12/2016 |111.233698 |58.586112 |2178.879189 |
+| 30/12/2016 |111.31527 |58.635267000000006 |2179.42699 |
 
 
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA3ODgxMDVdfQ==
+eyJoaXN0b3J5IjpbMTc3ODU1MjY4M119
 -->
