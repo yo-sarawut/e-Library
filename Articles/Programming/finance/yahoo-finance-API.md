@@ -33,18 +33,6 @@ Let's see what  `panel_data`  actually is by temporarily making it a dataframe a
 panel_data.to_frame().head(9)  
 ```
 
-		Open	High	Low	Close	Volume
-Date	minor					
-2010-01-04	AAPL	30.49	30.64	30.34	30.57	123432050.0
-MSFT	30.62	31.10	30.59	30.95	38414185.0
-SPY	112.37	113.39	111.51	113.33	118944541.0
-2010-01-05	AAPL	30.66	30.80	30.46	30.63	150476004.0
-MSFT	30.85	31.10	30.64	30.96	49758862.0
-SPY	113.26	113.68	112.85	113.63	111579866.0
-2010-01-06	AAPL	30.63	30.75	30.11	30.14	138039594.0
-MSFT	30.88	31.08	30.52	30.77	58182332.0
-SPY	113.52	113.99	113.43	113.71	116074402.0
-
 ## Preparing the Data
 
 Let us assume we are interested in working with the  _Close_  prices which have been already been adjusted by Google finance to account for stock splits. We want to make sure that all weekdays are included in our dataset, which is very often desirable for quantitative trading strategies.
@@ -128,5 +116,6 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTgyNzk2LDExNTQwNTcyNDldfQ==
+eyJoaXN0b3J5IjpbLTE3NTMyMzM2OSwtNzE5ODI3OTYsMTE1ND
+A1NzI0OV19
 -->
