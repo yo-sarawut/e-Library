@@ -96,15 +96,16 @@ Our dataset is now complete and free of missing values. We can see a summary of 
 close.describe()  
 ```
 
-	AAPL	MSFT	SPY
-count	1825.000000	1825.000000	1825.000000
-mean	79.413167	37.118405	164.674986
-std	28.302440	10.814263	37.049846
-min	27.440000	23.010000	102.200000
-25%	55.460000	27.840000	131.280000
-50%	78.440000	33.030000	165.220000
-75%	103.120000	46.110000	201.990000
-max	133.000000	63.620000	227.760000
+| Dest |AAPL |MSFT |SPY |
+|-----|-----|-----|-----|
+| count |1825.0 |1825.0 |1825.0 |
+| mean |79.413167 |37.118404999999996 |164.67498600000002 |
+| std |28.30244 |10.814263 |37.049846 |
+| min |27.44 |23.01 |102.2 |
+| 25% |55.46 |27.84 |131.28 |
+| 50% |78.44 |33.03 |165.22 |
+| 75% |103.12 |46.11 |201.99 |
+| max |133.0 |63.62 |227.76 |
 
 Suppose we would like to plot the  **MSFT time-series**. We would also like to see how the stock behaves compared to a short and longer term moving average of its price.
 
@@ -126,5 +127,5 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDA1NzI0OV19
+eyJoaXN0b3J5IjpbOTc5NDAzMjM4LDExNTQwNTcyNDldfQ==
 -->
