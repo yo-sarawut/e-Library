@@ -76,167 +76,35 @@ Aligning the original DataFrame with the new DatetimeIndex is accomplished by su
 ```py
 close.head(10)  
 ```
-AAPL
 
-MSFT
-
-SPY
-
-2010-01-01
-
-NaN
-
-NaN
-
-NaN
-
-2010-01-04
-
-30.57
-
-30.95
-
-113.33
-
-2010-01-05
-
-30.63
-
-30.96
-
-113.63
-
-2010-01-06
-
-30.14
-
-30.77
-
-113.71
-
-2010-01-07
-
-30.08
-
-30.45
-
-114.19
-
-2010-01-08
-
-30.28
-
-30.66
-
-114.57
-
-2010-01-11
-
-30.02
-
-30.27
-
-114.73
-
-2010-01-12
-
-29.67
-
-30.07
-
-113.66
-
-2010-01-13
-
-30.09
-
-30.35
-
-114.62
-
-2010-01-14
-
-29.92
-
-30.96
-
-114.93
+	AAPL	MSFT	SPY
+2010-01-01	NaN	NaN	NaN
+2010-01-04	30.57	30.95	113.33
+2010-01-05	30.63	30.96	113.63
+2010-01-06	30.14	30.77	113.71
+2010-01-07	30.08	30.45	114.19
+2010-01-08	30.28	30.66	114.57
+2010-01-11	30.02	30.27	114.73
+2010-01-12	29.67	30.07	113.66
+2010-01-13	30.09	30.35	114.62
+2010-01-14	29.92	30.96	114.93
 
 ## Looking at the Data
 
 Our dataset is now complete and free of missing values. We can see a summary of the values in each of the instrument by calling the  `describe()`  method of a Pandas DataFrame:
-
+```py
 close.describe()  
+```
 
-AAPL
-
-MSFT
-
-SPY
-
-count
-
-1825.000000
-
-1825.000000
-
-1825.000000
-
-mean
-
-79.413167
-
-37.118405
-
-164.674986
-
-std
-
-28.302440
-
-10.814263
-
-37.049846
-
-min
-
-27.440000
-
-23.010000
-
-102.200000
-
-25%
-
-55.460000
-
-27.840000
-
-131.280000
-
-50%
-
-78.440000
-
-33.030000
-
-165.220000
-
-75%
-
-103.120000
-
-46.110000
-
-201.990000
-
-max
-
-133.000000
-
-63.620000
-
-227.760000
+	AAPL	MSFT	SPY
+count	1825.000000	1825.000000	1825.000000
+mean	79.413167	37.118405	164.674986
+std	28.302440	10.814263	37.049846
+min	27.440000	23.010000	102.200000
+25%	55.460000	27.840000	131.280000
+50%	78.440000	33.030000	165.220000
+75%	103.120000	46.110000	201.990000
+max	133.000000	63.620000	227.760000
 
 Suppose we would like to plot the  **MSFT time-series**. We would also like to see how the stock behaves compared to a short and longer term moving average of its price.
 
@@ -258,5 +126,5 @@ All of this has been but a small preview of the way a quantitative analyst can l
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjQ2NjMwMl19
+eyJoaXN0b3J5IjpbMTE1NDA1NzI0OV19
 -->
