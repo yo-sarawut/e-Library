@@ -70,6 +70,7 @@ returns.head()
 log_returns = np.log(data).diff()
 log_returns.head()
 ```
+```py
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(16,12))
 
 for c in log_returns:
@@ -85,10 +86,11 @@ ax2.set_ylabel('Total relative returns (%)')
 ax2.legend(loc='best')
 
 plt.show()
-
+```
+![enter image description here](https://storage.googleapis.com/lds-media/images/aapl_msft_gspc_returns.width-1200.png)
 
 
 > Written with [StackEdit](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg0MjkzNTVdfQ==
+eyJoaXN0b3J5IjpbODQzMjg5MTUzXX0=
 -->
