@@ -280,7 +280,7 @@ The following table shows some of the more commonly overloaded mathematical oper
 
 
 |Operator|	Method|
-|:--:|--|
+|:-----:|----------|
 |+|	```__add__(self, other)```|
 |-|	```__sub__(self, other)```|
 |*|	```__mul__(self, other)```|
@@ -300,5 +300,5 @@ Python supports both function and operator overloading. In function overloading,
 
 Reference : [https://stackabuse.com/overloading-functions-and-operators-in-python/](https://stackabuse.com/overloading-functions-and-operators-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTg3OTcxNl19
+eyJoaXN0b3J5IjpbMTkyMjk1NzA5MSwtNTExODc5NzE2XX0=
 -->
