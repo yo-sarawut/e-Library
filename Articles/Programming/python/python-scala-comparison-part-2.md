@@ -66,13 +66,13 @@ df.dtypes in Python
 
 column and the dtype. So, if we are in Python and we want to check what type is the  _Age_  column, we run  `df.dtypes['Age']`, while in Scala we will need to filter and use the Tuple indexing:  `df.dtypes.filter(colTup => colTup._1 == "Age")`.
 
-# 4. Summary Statistics
+## 4. Summary Statistics
 
 This is another thing that every Data Scientist does while exploring his/her data: summary statistics. For every numerical column, we can see information such as count, mean, median, deviation, so on and so forth, to see immediately if there is something that doesn’t look right. In both cases this will return a dataframe, where the columns are the numerical columns of the original dataframe, and the rows are the statistical values.
 
 In  **Python**, we type  `df.describe()`, while in  **Scala**  `df.describe().show()`. The reason we have to add the  `.show()`  in the latter case, is because Scala doesn’t output the resulting dataframe automatically, while Python does so (as long as we don’t assign it to a new variable).
 
-# 5. Select Columns
+## 5. Select Columns
 
 Suppose we want to see a subset of columns, for example  _Name_  and  _Survived._
 
@@ -80,7 +80,7 @@ In  **Python**  we can use either  `df[['Name','Survived]]`  or  `df.loc[:,['Nam
 
 In  **Scala**, we will type  `df.select("Name","Survived").show()`. If you want to assign the subset to a new variable, remember to omit the  `.show()`.
 
-# 6. Filtering
+## 6. Filtering
 
 Let’s say we want to have a look at the  _Name_  and  _Pclass_  of the passengers who survived. We will need to filter a condition on the  _Survived_  column and then select the the other ones.
 
@@ -96,7 +96,7 @@ In  **Python**, we apply the  `.isnull()`  when passing the condition, in this c
 
 In  **Scala**, we will use  `.filter`  again:  `df.filter("Embarked IS NULL").show()`. Notice that the boolean filters we pass in Scala, kind of look like SQL queries.
 
-# 7. Imputing Null Values
+## 7. Imputing Null Values
 
 We should always give some thought before imputing null values in a dataset, because it is something that will influence our final model and we want to be careful with that. However, just for demonstrative purposes, let’s say we want to impute the string “N/A” to the null values in our dataframe.
 
@@ -119,31 +119,31 @@ Let’s say we want to calculate the maximum  _Age_  for men and women distincti
 In  **Python**  this will be  `df.groupby('Sex').mean()['Age']`. If we don’t specify  `['Age']`  after  `.mean()`, this will return a dataframe with the maximum values for all numerical columns, grouped by  _Sex_.
 
 In  **Scala**, we will need to import the aggregation function we want to use, first.
-
+```py
 import org.apache.spark.sql.functions.max  
 df.groupBy("Sex").agg(max("Age")).show()
-
-# 10. Create a New Column
+```
+## 10. Create a New Column
 
 This is really useful for feature engineering, we might want to combine two variables to see how their interaction is related to the target. For purely demonstrative purpose, let’s see how to create a column containing the product between  _Age_  and  _Fare._
 
 In  **Python**  it is pretty straightforward.
-
-`df['Age_times_Fare'] = df['Age'] * df['Fare']`
-
+```py
+df['Age_times_Fare'] = df['Age'] * df['Fare']
+```
 In  **Scala**, we will need to put  `$`  before the names of the columns we want to use, so that the column object with the corresponding name will be considered.
-
-`df = df.withColumn("AgeTimesFare", $"Age" * $"Fare")`
-
-# 11. Correlation
+```py
+df = df.withColumn("AgeTimesFare", $"Age" * $"Fare")
+```
+## 11. Correlation
 
 Exploring correlation among numerical variables and target is always convenient, and obtaining a matrix of correlation coefficients among all numeric variables is pretty easy in  **Python**, just by running  `df.corr()`. If you want to look at the correlation, let’s say between  _Age_ and  _Fare_, we will just need to specify the columns:  `df[['Age','Fare']].corr()`.
 
 In Scala, we will need to import first, and then run the command by specifying the columns.
-
+```py
 import org.apache.spark.sql.functions.corr  
 df.select(corr("Age","Fare")).show()
-
+```
 ----------
 
 This is it! I hope you found this post useful as much as it has been useful for me writing it. I intend to publish a Part III where I can walk through a machine learning model example to kind of complete the circle!
@@ -154,5 +154,5 @@ This is it! I hope you found this post useful as much as it has been useful for 
 
 > Written with [StackEdit](https://towardsdatascience.com/python-pandas-vs-scala-how-to-handle-dataframes-part-ii-d3e5efe8287d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxODYwODldfQ==
+eyJoaXN0b3J5IjpbNjI4NTY4MDQzXX0=
 -->
