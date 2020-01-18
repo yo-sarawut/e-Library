@@ -92,7 +92,7 @@ Now, here we need to add new user variable. So click on new and add both the var
 
 Now using the same code as above, we can access the environmental variables.
 
-```
+```py
 import os 
 
 user_name = os.environ.get('USER')
@@ -112,5 +112,5 @@ my_user_name my_password
 
 > Written with [StackEdit](https://saralgyaan.com/posts/set-passwords-and-secret-keys-in-environment-variables-maclinuxwindows-python-quicktip/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3NDMzMzg1XX0=
+eyJoaXN0b3J5IjpbLTE3NDM1MDQ1MjYsNTU3NDMzMzg1XX0=
 -->
