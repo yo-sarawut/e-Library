@@ -84,8 +84,10 @@ In  **Scala**, we will type  `df.select("Name","Survived").show()`. If you want 
 
 Let’s say we want to have a look at the  _Name_  and  _Pclass_  of the passengers who survived. We will need to filter a condition on the  _Survived_  column and then select the the other ones.
 
-In  **Python**, we will use  `.loc`  again, by passing the filter in the rows place and then selecting the columns with a list. Basically like the example above but substituting the  `:`  with a filter, which means  `df.loc[df['Survived'] == 1, ['Name','Pclass']]`.
-
+In  **Python**, we will use  `.loc`  again, by passing the filter in the rows place and then selecting the columns with a list. Basically like the example above but substituting the  `:`  with a filter, which means  
+```py
+df.loc[df['Survived'] == 1, ['Name','Pclass']].
+```
 In  **Scala**  we will use  `.filter`  followed by  `.select`, which will be  `df.filter("Survived = 1").select("Name","Pclass").show()`.
 
 ## 6.1. Filtering null values
@@ -108,8 +110,10 @@ In  **Scala**, quite similarly, this would be achieved with  `df = df.na.fill("N
 
 This is something that you will need to for sure in Scala, since the machine learning models will need two columns named  _features_  and  _label_  in order to be trained. However, this is something you might want to do also in Pandas if you don’t like how a column has been named, for example. For this purpose, we want to change the  _Survived_  column into  _label_.
 
-In  **Python**  we will pass a dictionary, where the key and the value are respectively the old and the new name of the column. In this case, it will be  `df.rename(columns = {"Survived": "label"}, inplace = True)`.
-
+In  **Python**  we will pass a dictionary, where the key and the value are respectively the old and the new name of the column. In this case, it will be  
+```py
+df.rename(columns = {"Survived": "label"}, inplace = True).
+```
 In  **Scala**, this equals to  `df = df.withColumnRenamed("Survived", "label")`.
 
 # 9. Group By and Aggregation
@@ -154,5 +158,5 @@ This is it! I hope you found this post useful as much as it has been useful for 
 
 > Written with [StackEdit](https://towardsdatascience.com/python-pandas-vs-scala-how-to-handle-dataframes-part-ii-d3e5efe8287d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NTY4MDQzXX0=
+eyJoaXN0b3J5IjpbNDQ5OTA3NTgxXX0=
 -->
