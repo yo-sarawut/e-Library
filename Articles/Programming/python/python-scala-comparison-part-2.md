@@ -12,53 +12,53 @@ A few days ago I published a  [post](https://towardsdatascience.com/python-vs-sc
 
 ----------
 
-# 1. Read the dataframe
+## 1. Read the dataframe
 
 I will import and name my dataframe  _df_, in  **Python**  this will be just two lines of code. This will work if you saved your  _train.csv_ in the same folder where your notebook is.
-
+```py
 import pandas as pd  
 df = pd.read_csv('train.csv')
-
+```
 **Scala**  will require more typing.
-
+```py
 var df = sqlContext  
     .read  
     .format("csv")  
     .option("header", "true")  
     .option("inferSchema", "true")  
     .load("Filestore/tables/train.csv")
-
+```
 Let’s see what’s going on up here. Scala does not assume your dataset has a header, so we need to specify that. Also, Python will assign automatically a dtype to the dataframe columns, while Scala doesn’t do so, unless we specify  `.option("inferSchema", "true")`. Also notice that I did not import Spark Dataframe, because I practice Scala in  [Databricks](https://databricks.com/), and it is preloaded. Otherwise we will need to do so.
 
 > Notice: booleans are capitalized in Python, while they are all lower-case in Scala!
 
-# 2. Display the first rows of the dataframe
+## 2. Display the first rows of the dataframe
 
 In  **Python**,  `df.head()`  will show the first five rows by default: the output will look like this.
 
-![](https://miro.medium.com/max/60/1*0ZvDRoJd9DXoPLqTp4AlAw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1948/1*0ZvDRoJd9DXoPLqTp4AlAw.png)
 
-df.head() output in Python.
+`df.head()` output in Python.
 
 If you want to see a number of rows different than five, you can just pass a different number in the parenthesis.  **Scala**, with its  `df.show()`,will display the first 20 rows by default.
 
-![](https://miro.medium.com/max/60/1*7OfENvo-y_bOk5oGmC9yqQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1802/1*7OfENvo-y_bOk5oGmC9yqQ.png)
 
-df.show() in Scala.
+`df.show()` in Scala.
 
 If we want to keep it shorter, and also get rid of the ellipsis in order to read the entire content of the columns, we can run  `df.show(5, false)`.
 
-# 3. Dataframe Columns and Dtypes
+## 3. Dataframe Columns and Dtypes
 
 To retrieve the column names, in both cases we can just type  `df.columns`:  **Scala** and  **Pandas**  will return an Array and an Index of strings, respectively.
 
 If we want to check the dtypes, the command is again the same for both languages:  `df.dtypes`. Pandas will return a Series object, while Scala will return an Array of tuples, each tuple containing respectively the name of the
 
-![](https://miro.medium.com/max/50/1*7TKnEnYemucWRQmQ_Clnmg.png?q=20)
+
 
 ![](https://miro.medium.com/max/392/1*7TKnEnYemucWRQmQ_Clnmg.png)
 
@@ -154,5 +154,5 @@ This is it! I hope you found this post useful as much as it has been useful for 
 
 > Written with [StackEdit](https://towardsdatascience.com/python-pandas-vs-scala-how-to-handle-dataframes-part-ii-d3e5efe8287d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDM3OTExMF19
+eyJoaXN0b3J5IjpbLTEwMzYxODYwODldfQ==
 -->
