@@ -155,65 +155,27 @@ dict_items([('de', 'Germany'), ('ua', 'Ukraine'), ('th', 'Thailand')])
 
 นี่เป็นผลลัพธ์การทำงานของโปรแกรม ในการใช้เมธอดใน Dictionary ในภาษา Python และจากในตัวอย่างนั้นเป็นเพียงส่วนหนึ่งของเมธอดที่มีเท่านั้น สำหรับเมธอดทั้งหมดใน Dictionary นั้นแสดงดังตารางข้างล่างนี้
 
-Methods
 
-Description
-
-clear()
-
-ลบข้อมูลทั้งหมดภายใน Dictionary
-
-copy()
-
-คัดลอก Dictionary ทั้งหมดไปยังอันใหม่
-
-get(key[, default])
-
-ส่งค่าข้อมูลใน Dictionary จาก Key ที่กำหนด ถ้าหากไม่มี Key อยู่และไม่ได้กำหนด default จะทำให้เกิดข้อผิดพลาด  `KeyError`
-
-items()
-
-ส่งค่ากลับเป็นออบเจ็คของ Key และ Value
-
-keys()
-
-ส่งค่ากลับเป็น List ของ Key ทั้งหมดใน Dictionary
-
-pop(key[, default])
-
-ส่งค่ากลับเป็นค่าสุดท้ายใน Dictionary
-
-popitem()
-
-ส่งค่ากลับเป็น Tuple ออบเจ็คของ Key และ Value
-
-setdefault(key[, default])
-
-ส่งค่ากลับเป็นค่าของ Key ที่กำหนด ถ้าหากไม่มี Key อยู่ใส่ข้อมูลเข้าไปใน Dictionary
-
-update([other])
-
-อัพเดท Dictionary กับคู่ของ Key และ Value จากออบเจ็คอื่น และเขียนทับ Key ที่มีอยู่
-
-values()
-
-ส่งค่ากลับเป็น List ของ Value ทั้งหมดใน Dictionary
-
+| Methods |Description |
+|----------|----------|
+| clear() |ลบข้อมูลทั้งหมดภายใน Dictionary |
+| copy() |คัดลอก Dictionary ทั้งหมดไปยังอันใหม่ |
+| get(key[, default]) |ส่งค่าข้อมูลใน Dictionary จาก Key ที่กำหนด ถ้าหากไม่มี Key อยู่และไม่ได้กำหนด default จะทำให้เกิดข้อผิดพลาด KeyError |
+| items() |ส่งค่ากลับเป็นออบเจ็คของ Key และ Value |
+| keys() |ส่งค่ากลับเป็น List ของ Key ทั้งหมดใน Dictionary |
+| pop(key[, default]) |ส่งค่ากลับเป็นค่าสุดท้ายใน Dictionary |
+| popitem() |ส่งค่ากลับเป็น Tuple ออบเจ็คของ Key และ Value |
+| setdefault(key[, default]) |ส่งค่ากลับเป็นค่าของ Key ที่กำหนด ถ้าหากไม่มี Key อยู่ใส่ข้อมูลเข้าไปใน Dictionary |
+| update([other]) |อัพเดท Dictionary กับคู่ของ Key และ Value จากออบเจ็คอื่น และเขียนทับ Key ที่มีอยู่ |
+| values() |ส่งค่ากลับเป็น List ของ Value ทั้งหมดใน Dictionary |
 ## Python Dictionary functions
 
 ฟังก์ชันที่เป็นพื้นฐานและสามารถใช้ได้กับโครงสร้างข้อมูลทุกประเภทคือฟังก์ชัน  `len()`  เป็นฟังก์ชันที่ใช้สำหรับนับจำนวนสมาชิกของเจ็ค และ Dictionary ยังมีฟังก์ชัน  `iter()`  ที่ทำงานเหมือนกับเมธอด  `items()`  นี่เป็นตารางของฟังก์ชันที่สามารถใช้ได้กับ Dictionary
 
-Function
-
-Description
-
-len(dict)
-
-ส่งค่ากลับเป็นจำนวนของออบเจ็คใน Dictionary
-
-iter(dict)
-
-ส่งค่ากลับเป็นออบเจ็คของ Key และ Value
+|Function|Description|
+|--------|----------|
+|len(dict)|ส่งค่ากลับเป็นจำนวนของออบเจ็คใน Dictionary|
+iter(dict)|ส่งค่ากลับเป็นออบเจ็คของ Key และ Value|
 
 คุณสามารถใช้คำสั่ง  `del`  เพื่อลบข้อมูลภายใน Dictionary ได้ เช่น คำสั่ง  `del countries['de']`  เพื่อลบสมาชิกที่มี Key ที่กำหนดออกไป และคำสั่ง  `del countries`  นั้นเป็นการลบทั้งตัวแปร
 
@@ -221,5 +183,5 @@ iter(dict)
 
 Reference :  [http://marcuscode.com/lang/python/dictionary](http://marcuscode.com/lang/python/dictionary)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzg0MzExMl19
+eyJoaXN0b3J5IjpbLTEzNjAyOTc1NDYsLTQzNzg0MzExMl19
 -->
