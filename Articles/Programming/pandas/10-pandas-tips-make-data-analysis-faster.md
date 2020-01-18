@@ -16,7 +16,6 @@ def color_negative_red(val):
                  )  
 df.style.applymap(color_negative_red)
 ``` 
-![](https://miro.medium.com/max/27/1*5bo6KYcrLL-M94WCAkh0cQ.png?q=20)
 
 ![](https://miro.medium.com/max/116/1*5bo6KYcrLL-M94WCAkh0cQ.png)
 
@@ -55,7 +54,7 @@ df.style.set_table_styles(
 ]  
 ).hide_index()
 ``` 
-![](https://miro.medium.com/max/30/1*cCPVfB6_nbh6WT99DMgduA.png?q=20)
+
 
 ![](https://miro.medium.com/max/251/1*cCPVfB6_nbh6WT99DMgduA.png)
 
@@ -100,7 +99,7 @@ tbl = df.groupby(['A','B']).agg({'col_1': ['max', np.mean],
 ``` 
 And the result will look like this:
 
-![](https://miro.medium.com/max/30/1*KVE7ixZmoTuG42El5SSh7A.png?q=20)
+
 
 ![](https://miro.medium.com/max/326/1*KVE7ixZmoTuG42El5SSh7A.png)
 
@@ -135,7 +134,7 @@ df['random_ID'] = df.groupby(['A', 'B'])'random_ID_all'].rank(method='first',asc
 ``` 
 to get
 
-![](https://miro.medium.com/max/30/1*Z1elLpesz3V6ZM-C-v3VHA.png?q=20)
+
 
 ![](https://miro.medium.com/max/331/1*Z1elLpesz3V6ZM-C-v3VHA.png)
 
@@ -153,7 +152,7 @@ tbl = df[['A', 'B', 'C']].drop_duplicates()\
                          .reset_index() # list to string (separated by commas)   
 tbl['C'] = tbl.apply(lambda x: (','.join([str(s) for s in x['C']])), axis = 1)
 ``` 
-![](https://miro.medium.com/max/27/1*4efJCJxBpjhaYnQ4tTAfoQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/140/1*4efJCJxBpjhaYnQ4tTAfoQ.png)
 
@@ -169,7 +168,7 @@ df = pd.DataFrame(dict(A=[2,6,3],
 df['col_total']     = df.apply(lambda x: x.sum(), axis=1)  
 df.loc['row_total'] = df.apply(lambda x: x.sum())
 ``` 
-![](https://miro.medium.com/max/30/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/225/1*Y_ZDUlCwPfLdEXBZGXKPnQ.png)
 
@@ -193,7 +192,7 @@ When you need to count the frequencies for groups formed by 3+ features,  `pd.cr
 
 Thanks for reading! Comment below if you find bugs / better solutions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjk3ODM2OSwtNzMyMTc5MTk4LC0xMT
-kzMzE2MjM4LDUwNzUzMDk2MSwtMzU4MDkzOTI5LC0xNDA4NDM2
-MDU3XX0=
+eyJoaXN0b3J5IjpbLTc2NzIzMzkxNSwxMTIyOTc4MzY5LC03Mz
+IxNzkxOTgsLTExOTMzMTYyMzgsNTA3NTMwOTYxLC0zNTgwOTM5
+MjksLTE0MDg0MzYwNTddfQ==
 -->
