@@ -228,13 +228,7 @@ Predicted Price on 2018-07-15 = $97.67
 
 Although all the capabilities of Stocker might already be publically available, the process of creating this tool was enjoyable, and more importantly, taught me more about data science, Python, and the stock market than any college course could. We live in an incredible age of democratized knowledge where anyone can learn  [about programming](https://www.codecademy.com/)  or even state of the art fields like  [machine learning](https://github.com/ageron/handson-ml)  without formal instruction. If you have an idea for a project but think you do not know enough or find out it has been done before, don’t let that stop you. You might develop a better solution and even if you don’t, you’ll be better off and know more than if you had never started!
 
-
-
-
-
-
-
 > [Source:](https://towardsdatascience.com/stock-analysis-in-python-a0054e2c1a4c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTI3MzA5MF19
+eyJoaXN0b3J5IjpbLTEwNTkyNzEzMTQsMTg3NTI3MzA5MF19
 -->
