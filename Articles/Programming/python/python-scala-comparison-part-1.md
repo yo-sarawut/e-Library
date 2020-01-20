@@ -10,7 +10,7 @@ Python vs. Scala: a comparison of the basic commands (Part I)
 
   
 
-I recently started playing a little bit with Scala, and I have to say it has been kind of traumatic. I **love** learning new things but after months of programming with Python, it is just not natural to set that aside and switch mode while solving Data Science problems. When learning a new language, whether it is a coding or a spoken one, it is normal for this to happen. We tend to fill in the gaps of the things we don’t know with the things we know, even if they don’t belong to the language we are trying to write/speak! When trying to learn a new language, it is important to be completely surrounded by the language you want to learn, but first of all, it is important to have well established parallelisms between the known and the new language, at least in the beginning. This works for me, a bilingual person who learned a second language really quickly, at an adult age. At the beginning, I needed connections between Italian (the language I knew) and English (the language I was learning), but as I became more and more fluent in English, I started to forget the parallelisms because it was just becoming natural and I didn’t need to translate it in my head first, anymore. The reason why I decided to write this post is, in fact, to establish parallelisms between Python and Scala, for people who are fluent in one of the two, and are starting to learn the other one, like myself.
+I recently started playing a little bit with Scala, and I have to say it has been kind of traumatic. I  **love**  learning new things but after months of programming with Python, it is just not natural to set that aside and switch mode while solving Data Science problems. When learning a new language, whether it is a coding or a spoken one, it is normal for this to happen. We tend to fill in the gaps of the things we don’t know with the things we know, even if they don’t belong to the language we are trying to write/speak! When trying to learn a new language, it is important to be completely surrounded by the language you want to learn, but first of all, it is important to have well established parallelisms between the known and the new language, at least in the beginning. This works for me, a bilingual person who learned a second language really quickly, at an adult age. At the beginning, I needed connections between Italian (the language I knew) and English (the language I was learning), but as I became more and more fluent in English, I started to forget the parallelisms because it was just becoming natural and I didn’t need to translate it in my head first, anymore. The reason why I decided to write this post is, in fact, to establish parallelisms between Python and Scala, for people who are fluent in one of the two, and are starting to learn the other one, like myself.
 
   
 
@@ -30,11 +30,11 @@ The first difference is the convention used when coding is these two languages: 
 
   
 
-When defining a new variable, function or whatever, we always pick a name that makes sense to us, that most likely will be composed by two or more words. If this is the case, in Python we will use `snake_case`, while in Scala`camelCase`: the difference is immediately noticeable. In snake case, all words all lower-case and we use `_` to separate them, in camel case there is no separation, and all words are capitalized except for the first one.
+When defining a new variable, function or whatever, we always pick a name that makes sense to us, that most likely will be composed by two or more words. If this is the case, in Python we will use  `snake_case`, while in Scala`camelCase`: the difference is immediately noticeable. In snake case, all words all lower-case and we use  `_`  to separate them, in camel case there is no separation, and all words are capitalized except for the first one.
 
   
 
-Another striking difference is how we define the variables in the two languages. In Python we just make up a name and assign it to the value we need it to be, while in Scala, we need to specify whether we are defining a variable or a value, and we do this by placing `var` or `val` respectively, before the name (notice that this is valid whether we are assigning numerical values or strings).
+Another striking difference is how we define the variables in the two languages. In Python we just make up a name and assign it to the value we need it to be, while in Scala, we need to specify whether we are defining a variable or a value, and we do this by placing  `var`  or  `val`  respectively, before the name (notice that this is valid whether we are assigning numerical values or strings).
 
   
 
@@ -50,7 +50,7 @@ Initializing values and variables in Scala.
 
   
 
-The difference between `var` and `val` is simple: variables can be modified, while values cannot. In the example represented in the image, I instantiated a`var` string and then changed it: all good. Then, I assigned the same string to a `val` and tried to change it again: not doable.
+The difference between  `var`  and  `val`  is simple: variables can be modified, while values cannot. In the example represented in the image, I instantiated a`var`  string and then changed it: all good. Then, I assigned the same string to a  `val`  and tried to change it again: not doable.
 
   
 
@@ -58,7 +58,7 @@ In Python there is no need to specify: if you want to change something you previ
 
   
 
-Another general difference regards commenting. In Python there is only one way to do it, whether it’s a single or multi-line, and that is putting a `#` before the comment, on each line:
+Another general difference regards commenting. In Python there is only one way to do it, whether it’s a single or multi-line, and that is putting a  `#`  before the comment, on each line:
 
 ```py
 
@@ -66,14 +66,14 @@ Another general difference regards commenting. In Python there is only one way t
 
 ```
 
-Scala offers a couple of ways to comment, and these are either putting `//` on each line, or wrap the comment between `/*` and `*/`:
+Scala offers a couple of ways to comment, and these are either putting  `//`  on each line, or wrap the comment between  `/*`  and  `*/`:
 
 ```
 
 // this is a commented line in Scala
-
+  
 /* and this is a multiline comment, still in Scala...
-
+  
 ...just choose! */
 
 ```
@@ -98,14 +98,14 @@ Let’s create a list containing a mix of numbers and strings.
 
 ```
 
-`my_list = [2, 5, 'apple', 78] **# Python**`
+`my_list = [2, 5, 'apple', 78]  **# Python**`
 
 ```
 
 ```
 
 var myArray = Array(2, 5, "apple", 78) **// Scala**
-
+  
 ```
 
 **/* notice that in Scala I wrapped the string between "", and that is the only way to do it! In python you can use both "" and '' indifferently */**
@@ -120,13 +120,13 @@ Both lists and arrays are zero indexed, which means that the first element is pl
 
 ```
 
-`my_list[1] **# Python** uses [] to index`
+`my_list[1]  **# Python** uses [] to index`
 
 ```
 
 ```
 
-`myArray(1) **// Scala** uses () to index`
+`myArray(1)  **// Scala**  uses () to index`
 
 ```
 
@@ -138,11 +138,11 @@ In both languages, the second index will not be counted when slicing. So, if we 
 
   
 
-`my_list[0:3] **# Python** slicing works like indexing`
+`my_list[0:3]  **# Python** slicing works like indexing`
 
   
 
-`myArray.slice(0,3) **// Scala** needs the .slice()`
+`myArray.slice(0,3)  **// Scala** needs the .slice()`
 
   
 
@@ -150,30 +150,30 @@ In both languages, the second index will not be counted when slicing. So, if we 
 
 ```py
 
-**# Python**my_list[0] # first element
-
-my_list[-1] # last element
-
-max(my_list) # maximum element
-
-min(my_list) # minimum element#
-
+**# Python**my_list[0]     # first element
+  
+my_list[-1]    # last element
+  
+max(my_list)   # maximum element
+  
+min(my_list)   # minimum element#
+ 
 ```
 
 NOTE: min() and max() will work exclusively if the list contains
-
+   
 ```
 
-# numbers only!**// Scala**myArray.head // first element
-
-myArray(0) // other way to check the first element
-
-myArray.last // last element
-
-myArray.max // maximum element
-
-myArray.min // minimum element/*
-
+# numbers only!**// Scala**myArray.head    // first element
+  
+myArray(0)      // other way to check the first element
+  
+myArray.last    // last element
+  
+myArray.max     // maximum element
+  
+myArray.min     // minimum element/*
+ 
 ```
 
 NOTE: .min and .max will work exclusively if the array contains numbers only!*/
@@ -184,19 +184,19 @@ NOTE: .min and .max will work exclusively if the array contains numbers only!*/
 
   
 
-These operations, as for min and max, will be supported only if the lists/arrays contain exclusively numbers. Also, to multiply all the elements in a Python’s list, we will need to set up a `for` loop, which will be covered further down in the post. There is no preloaded function for that, as opposed to Scala.
+These operations, as for min and max, will be supported only if the lists/arrays contain exclusively numbers. Also, to multiply all the elements in a Python’s list, we will need to set up a  `for`  loop, which will be covered further down in the post. There is no preloaded function for that, as opposed to Scala.
 
 ```py
 
-`sum(my_list) # summing elements in **Python**'s list`
+`sum(my_list) # summing elements in  **Python**'s list`
 
 ```scala
 
 // **Scala**
-
-myArray.sum // summing elements in array
-
-myArray.product // multiplying elements in array
+  
+myArray.sum   // summing elements in array
+  
+myArray.product  // multiplying elements in array
 
 ```
 
@@ -204,21 +204,21 @@ myArray.product // multiplying elements in array
 
   
 
-Lists and arrays are not ordered, so it’s common practice to add elements at the end. Let’s say we want to add the string `"last words"`:
+Lists and arrays are not ordered, so it’s common practice to add elements at the end. Let’s say we want to add the string  `"last words"`:
 
 ```py
 
-`my_list.append('last words') # adding at the end of **Python**'s list`
+`my_list.append('last words') # adding at the end of  **Python**'s list`
 
 ```
 
 ```scala
 
-`myArray :+= "last words" // adding at the end of **Scala**'s array`
+`myArray :+= "last words" // adding at the end of  **Scala**'s array`
 
 ```
 
-If, for some reason, we want to add something at the very beginning, let’s say the number `99`:
+If, for some reason, we want to add something at the very beginning, let’s say the number  `99`:
 
 ```
 
@@ -227,13 +227,13 @@ my_list.insert(0, 99)
   
 
 # this is a generic method in **Python**. The
-
+   
 # first number you specify in the parenthesis is the index of the
-
+   
 # position where you want to add the element.
-
+  
 # 0 means that you want the element to be added at the very
-
+   
 # beginningmyArray +:= 99 /* adding an element at the beginning of **Scala**'s array */
 
 ```
@@ -246,11 +246,11 @@ This is also something that we use all the time while coding, luckily there is a
 
   
 
-`print("whatever you want") # printing in **Python**`
+`print("whatever you want") # printing in  **Python**`
 
   
 
-`println("whatever you want") // printing in **Scala**`
+`println("whatever you want") // printing in  **Scala**`
 
   
 
@@ -263,17 +263,19 @@ Quite a few differences here: while Python requires indentation to create a bloc
   
 
 # for loop in **Python**
-
+ 
 ```py
 
 for i in my_list:
 
-print(i)// for loop in **Scala**
-
+  
+    print(i)// for loop in **Scala**
+  
 for (i <- myArray){
 
-println(i)
-
+  
+    println(i)
+  
 }
 
 ```
@@ -294,11 +296,11 @@ Let’s say we have a list/array with only numeric values and we want to triple 
 
   
 
-`[i*3 for i in my_list] # mapping in **Python**`
+`[i*3 for i in my_list] # mapping in  **Python**`
 
   
 
-`myArray.map(i => i*3) // mapping in **Scala**`
+`myArray.map(i => i*3) // mapping in  **Scala**`
 
   
 
@@ -310,11 +312,11 @@ Let’s say we have a list/array with only numeric values and we want to filter 
 
   
 
-`[i for i in my_list if i%3 == 0] # filtering in **Python**`
+`[i for i in my_list if i%3 == 0] # filtering in  **Python**`
 
   
 
-`myArray.filter(i => i%3 == 0) // filtering in **Scala**`
+`myArray.filter(i => i%3 == 0) // filtering in  **Scala**`
 
   
 
@@ -326,11 +328,11 @@ What if we want to find the even numbers and multiply only them by 3?
 
   
 
-`[i*3 for i in my_list if i%2 == 0] # **Python**`
+`[i*3 for i in my_list if i%2 == 0] #  **Python**`
 
   
 
-`myArray.filter(i => i%2 == 0).map(i => i*3) // **Scala**`
+`myArray.filter(i => i%2 == 0).map(i => i*3) //  **Scala**`
 
   
 
@@ -338,7 +340,7 @@ What if we want to find the even numbers and multiply only them by 3?
 
   
 
-Although they have different names in the two languages, they are exactly the same thing. They both have `keys` to which we assign `values`.
+Although they have different names in the two languages, they are exactly the same thing. They both have  `keys`  to which we assign  `values`.
 
   
 
@@ -351,17 +353,17 @@ Let’s create one storing my first, last name and age… and let’s also prete
   
 
 # **Python**
-
+  
 ```py
 
 my_dict = {
-
+  
 'first_name': 'Emma',
-
+  
 'last_name': 'Grimaldi',
-
+  
 'age': 18
-
+  
 }
 
 ```
@@ -371,25 +373,25 @@ In Scala we can do this in two different ways.
 ```scala
 
 // **Scala** mode 1
-
+  
 var myMap = (
-
+  
 "firstName" -> "Emma",
-
+  
 "lastName" -> "Grimaldi",
-
+  
 "age" -> 18
-
+  
 )// Scala mode 2
-
+  
 var myMap = (
-
+  
 ("firstName", "Emma"),
-
+  
 ("lastName", "Grimaldi"),
-
+  
 ("age", 18)
-
+  
 )
 
 ```
@@ -402,11 +404,11 @@ Let’s add my Country of origin to my dictionary/map.
 
   
 
-`my_dict['country_of_origin'] = 'Italy' # creating new key in **Python**`
+`my_dict['country_of_origin'] = 'Italy' # creating new key in  **Python**`
 
   
 
-`myMap += ("countryOfOrigin" -> "Italy") /* creating new key in **Scala** */`
+`myMap += ("countryOfOrigin" -> "Italy") /* creating new key in  **Scala**  */`
 
   
 
@@ -419,7 +421,7 @@ This works the same way as indexing lists/array, but instead of positions, we ar
   
 
 # **Python**
-
+  
 ```
 
 my_dict['first_name']/
@@ -429,7 +431,7 @@ my_dict['first_name']/
 ```
 
 / **Scala**
-
+  
 myMap("firstName")
 
 ```
@@ -443,21 +445,25 @@ If we want to print the dictionary/map, we will have to for loop in both cases, 
   
 
 # Python
-
+  
 ```py
 
 for key, value in my_dict.items():
 
-print(key)
+  
+    print(key)
 
-print(value)// Scala
-
+  
+    print(value)// Scala
+  
 for ((key, value) <- myMap){
 
-println(key)
+  
+    println(key)
 
-println(value)
-
+  
+    println(value)
+  
 }
 
 ```
@@ -466,28 +472,28 @@ println(value)
 
   
 
-Yes, they are called the same in both languages! But, while they are zero-index in Python, they are not in Scala. Let’s create a tuple `(1, 2, 3)` and then call the first value.
+Yes, they are called the same in both languages! But, while they are zero-index in Python, they are not in Scala. Let’s create a tuple  `(1, 2, 3)`  and then call the first value.
 
   
 
 # Python
-
+  
 ```
 
 my_tup = (1, 2, 3)
-
+  
 my_tup[0]
 
 ```
 
 ```
-
+  
 # the indexing is the same as lists// Scala
-
+  
 myTup = (1, 2, 3)
-
+  
 myTup._1
-
+  
 // the indexing is way different than arrays!
 
 ```
@@ -496,15 +502,15 @@ myTup._1
 
   
 
-Yes, another name in common! In both examples below, the sets will contain only `1, 3, 5` because sets don’t accept duplicates.
+Yes, another name in common! In both examples below, the sets will contain only  `1, 3, 5`  because sets don’t accept duplicates.
 
   
 
-`my_set = {1, 3, 5, 1} # in **Python**, sets are defined by curly braces`
+`my_set = {1, 3, 5, 1} # in  **Python**, sets are defined by curly braces`
 
   
 
-`mySet = Set(1, 3, 5, 1) // **Scala**`
+`mySet = Set(1, 3, 5, 1) //  **Scala**`
 
   
 
@@ -512,17 +518,18 @@ Yes, another name in common! In both examples below, the sets will contain only 
 
   
 
-We have covered a lot so far, good job if you made it down here! This is the last thing paragraph of this post, and luckily defining a function is not that different between Python and Scala. They both start with `def` and while the former requires a `return` statement, the latter does not. On the other hand, Scala wants to know what types of variables we are going to input and output, while Python doesn’t care. Let’s write a very simple function that takes a string as input and returns the first 5 characters.
+We have covered a lot so far, good job if you made it down here! This is the last thing paragraph of this post, and luckily defining a function is not that different between Python and Scala. They both start with  `def`  and while the former requires a  `return`  statement, the latter does not. On the other hand, Scala wants to know what types of variables we are going to input and output, while Python doesn’t care. Let’s write a very simple function that takes a string as input and returns the first 5 characters.
 
   
 
 # **Python**
-
+  
 ```py
 
 def  chop_string(input_string):
 
-return input_string[0:5]
+  
+    return input_string[0:5]
 
 ```
 
@@ -531,11 +538,12 @@ Indentation is also important in Python, or the function will not work. Scala in
 ```scala
 
 // **Scala**
-
+  
 def chopString(inputString: String): String = {
 
-inputString.slice(0, 5)
-
+  
+    inputString.slice(0, 5)
+  
 }
 
 ```
@@ -590,6 +598,8 @@ Feel free to check out:
   
 
 [my LinkedIn profile.](https://www.linkedin.com/in/emmagrimaldi/)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTE1NjA1MF19
+eyJoaXN0b3J5IjpbLTE5MjMwMzI4NTQsLTQxOTE1NjA1MF19
 -->
