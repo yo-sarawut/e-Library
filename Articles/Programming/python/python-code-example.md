@@ -614,10 +614,10 @@ To loop over both key and value, you can use the following:
 For Python 2.x:
 
 ```python
-    for key, item in d.iteritems():
-    ...     print items
-    
-```
+for key, item in d.iteritems():
+	 print item
+``` 
+```result
     1
     2
     3
@@ -626,9 +626,10 @@ For Python 2.x:
 Use  ****`items()`****  for Python 3.x:
 
 ```python
-    for key, item in d.items():
-    ...     print(key, items)
-    ...
+for key, item in d.items():
+    print(key, items)
+ ```
+
     x 1
     y 2
     z 3
@@ -1805,7 +1806,7 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTk1NTA3OSwtMTIyNDAzODMxMSwtNz
+eyJoaXN0b3J5IjpbLTQ0NTk2MDc0NywtMTIyNDAzODMxMSwtNz
 QzNDg5MjUzLC0xMjQ3OTAxNzMsNDM1MTgxMDUsMTY2MTUxMjc3
 LDMzMTcwNDk0MSwxODMxOTI0NjgzXX0=
 -->
