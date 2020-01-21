@@ -83,7 +83,7 @@ if 'smith' in scores.keys():
 
 คำสั่ง For loop นั้นเป็นคำสั่งที่ยืดหยุ่นและสามารถใช้งานได้อย่างหลากหลาย ในการอ่านค่าใน Dictionary นั้นเราสามารถใช้ For loop เพื่อวนอ่านค่าทั้ง Key และ Values ใน Dictionary ได้ มาดูตัวอย่างของโปรแกรม
 
-```
+```py
 countries = {'de': 'Germany', 'ua': 'Ukraine',
              'th': 'Thailand', 'nl': 'Netherlands'}
 
@@ -106,7 +106,7 @@ for v in countries.values():
 
 ในลูปที่สอง เป็นการวนอ่าน Key ทั้งหมดภายใน Dictionary โดยเมธอด  `keys()`  จะส่งค่ากลับเป็น List ของ Key ทั้งหมดและโหลดใส่ในตัวแปร  `k`  แต่ละรอบของลูป และในลูปสุดท้ายนั้นเป็นการอ่าน Value ทั้งหมด และเมธอด  `values()`  เพื่อรับค่าของ Value ทั้งหมดมาและใส่ในตัวแปร  `v`  ในแต่ละรอบของลูป
 
-```
+```py
 de Germany
 ua Ukraine
 th Thailand
@@ -122,7 +122,7 @@ Value: Germany Ukraine Thailand Netherlands
 
 เช่นเดียวกับข้อมูลประเภทอื่นๆ Dictionary มีเมธอดที่ให้คุณสามารถทำงานกับมันได้ง่ายขึ้น โดยส่วนมากแล้วมักจะเป็นเมธอดในการอัพเดทและรับค่าข้อมูลภายใน Dictionary ต่อไปมาดูตัวอย่างการใช้งานเมธอดของ Dictionary ในภาษา Python
 
-```
+```py
 countries = {'de': 'Germany', 'ua': 'Ukraine',
              'th': 'Thailand', 'nl': 'Netherlands'}
 
@@ -143,7 +143,7 @@ print(countries.items())
 
 หลังจากนั้นเป็นการเข้าถึงข้อมูลด้วยเมธอด  `get()`  โดยมี Key เป็นอาร์กิวเมนต์ซึ่งผลลัพธ์การทำงานของมันจะเหมือนกับการเข้าถึงข้อมูลโดยตรง เช่น  `countries['de']`  และเมธอด  `setdefault()`  ใช้รับค่าจากคีย์ที่กำหนด ถ้าไม่มีจะเป็นการเพิ่มค่าดังกล่าวเข้าไปใน Dictionary และต่อมาเมธอด  `popitem()`  จะนำสมาชิกตัวสุดท้ายออกจาก Dictionary และส่งค่าดังกล่าวกลับมาเป็น Tuple ออบเจ็ค ส่วนเมธอด  `items()`  นั้นจะค่ากลับมาเป็น List ของ Tuple ของออบเจ็คของ Key และ Value ทั้งหมด
 
-```
+```py
 dict_keys(['de', 'ua', 'th', 'nl'])
 dict_values(['Germany', 'Ukraine', 'Thailand', 'Netherlands'])
 Germany
@@ -183,6 +183,6 @@ iter(dict)|ส่งค่ากลับเป็นออบเจ็คขอ
 
 Reference :  [http://marcuscode.com/lang/python/dictionary](http://marcuscode.com/lang/python/dictionary)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTIwNDM1NywtMTM2MDI5NzU0NiwtND
-M3ODQzMTEyXX0=
+eyJoaXN0b3J5IjpbLTExOTU2OTE4NDUsLTEzNjAyOTc1NDYsLT
+QzNzg0MzExMl19
 -->
