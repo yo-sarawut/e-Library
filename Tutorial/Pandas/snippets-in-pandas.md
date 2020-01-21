@@ -288,10 +288,6 @@ names = ['Cheap', 'Normal', 'Expensive']
 df['price_point'] = pd.cut(df.price, bins, labels=names)
 ```
 
-|  |  |
-|--|--|
-|  |  |
-
 
 |order_number|	price|	price_point|
 |---------|-------|-------|
@@ -333,5 +329,5 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxMzQwMTUsLTI5NzEwMjYzOV19
+eyJoaXN0b3J5IjpbNTQ1MjQ3NDcsLTI5NzEwMjYzOV19
 -->
