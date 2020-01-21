@@ -17,50 +17,50 @@ Nearly all implementations of Python follow the IEEE 754 specification: Standard
 Float objects can be created using  [floating point literals](https://docs.python.org/3/reference/lexical_analysis.html#floating-point-literals):
 
 ```python
->>> 3.14
 3.14
->>> 314\.    # Trailing zero(s) not required.
+3.14
+314\.    # Trailing zero(s) not required.
 314.0
->>> .314    # Leading zero(s) not required.
+.314    # Leading zero(s) not required.
 0.314
->>> 3e0
+3e0
 3.0
->>> 3E0     # 'e' or 'E' can be used.
+3E0     # 'e' or 'E' can be used.
 3.0
->>> 3e1     # Positive value after e moves the decimal to the right.
+3e1     # Positive value after e moves the decimal to the right.
 30.0
->>> 3e-1    # Negative value after e moves the decimal to the left.
+3e-1    # Negative value after e moves the decimal to the left.
 0.3
->>> 3.14e+2 # '+' not required but can be used for exponent part.
+3.14e+2 # '+' not required but can be used for exponent part.
 314.0
 ```
 
 Numeric literals do not contain a sign, however creating negative float objects is possible by prefixing with a unary  `-`  (minus) operator with no space before the literal:
 
 ```python
->>> -3.141592653589793
 -3.141592653589793
->>> type(-3.141592653589793)
+-3.141592653589793
+type(-3.141592653589793)
 <class 'float'>
 ```
 
 Likewise, positive float objects can be prefixed with a unary  `+`  (plus) operator with no space before the literal. Usually  `+`  is omitted:
 
 ```python
->>> +3.141592653589793
++3.141592653589793
 3.141592653589793
 ```
 
 Note that leading and trailing zero(s) are valid for floating point literals.
 
 ```python
->>> 0.0
 0.0
->>> 00.00
 0.0
->>> 00100.00100
+00.00
+0.0
+00100.00100
 100.001
->>> 001e0010      # Same as 1e10
+001e0010      # Same as 1e10
 10000000000.0
 ```
 
@@ -69,66 +69,66 @@ The  [`float`  constructor](https://docs.python.org/3/library/functions.html#flo
 Creating  `float`  objects with floating point literals is preferred when possible:
 
 ```python
->>> a = 3.14         # Prefer floating point literal when possible.
->>> type(a)
+a = 3.14         # Prefer floating point literal when possible.
+type(a)
 <class 'float'>
->>> b = int(3.14)    # Works but unnecessary.
->>> type(b)
+b = int(3.14)    # Works but unnecessary.
+type(b)
 <class 'float'>
 ```
 
 However, the float constructor allows for creating float objects from other number types:
 
 ```python
->>> a = 4
->>> type(a)
+a = 4
+type(a)
 <class 'int'>
->>> print(a)
+print(a)
 4
->>> b = float(4)
->>> type(b)
+b = float(4)
+type(b)
 <class 'float'>
->>> print(b)
+print(b)
 4.0
->>> float(400000000000000000000000000000000)
+float(400000000000000000000000000000000)
 4e+32
->>> float(.00000000000000000000000000000004)
+float(.00000000000000000000000000000004)
 4e-32
->>> float(True)
+float(True)
 1.0
->>> float(False)
+float(False)
 0.0
 ```
 
 The  `float`  constructor will also make  `float`  objects from strings that represent number literals:
 
 ```python
->>> float('1')
+float('1')
 1.0
->>> float('.1')
+float('.1')
 0.1
->>> float('3.')
+float('3.')
 3.0
->>> float('1e-3')
+float('1e-3')
 0.001
->>> float('3.14')
+float('3.14')
 3.14
->>> float('-.15e-2')
+float('-.15e-2')
 -0.0015
 ```
 
 The  `float`  constructor can also be used to make numeric representations of  `NaN`  (Not a Number), negative  `infinity`  and  `infinity`  (note that strings for these are case insensitive):
 
 ```python
->>> float('nan')
+float('nan')
 nan
->>> float('inf')
+float('inf')
 inf
->>> float('-inf')
+float('-inf')
 -inf
->>> float('infinity')
+float('infinity')
 inf
->>> float('-infinity')
+float('-infinity')
 -inf
 ```
 
@@ -181,31 +181,31 @@ OperationResultNotes x or y if x is false, then y, else x (1) x and y if x is fa
 ### **`not`:**
 
 ```python
->>> not True
+not True
 False
->>> not False
+not False
 True
 ```
 
 ### **`and`:**
 
 ```python
->>> True and False    # Short-circuited at first argument.
+True and False    # Short-circuited at first argument.
 False
->>> False and True    # Second argument is evaluated.
+False and True    # Second argument is evaluated.
 False
->>> True and True     # Second argument is evaluated.
+True and True     # Second argument is evaluated.
 True
 ```
 
 ### **`or`:**
 
 ```python
->>> True or False    # Short-circuited at first argument.
+True or False    # Short-circuited at first argument.
 True
->>> False or True    # Second argument is evaluated.
+False or True    # Second argument is evaluated.
 True
->>> False or False   # Second argument is evaluated.
+False or False   # Second argument is evaluated.
 False
 ```
 
@@ -241,10 +241,10 @@ Objects that, when printed, print a message like “Type license() to see the fu
 A function definition statement does not execute the function. Executing (calling) a function is done by using the name of the function followed by parenthesis enclosing required arguments (if any).
 
 ```python
->>> def say_hello():
+def say_hello():
 ...     print('Hello')
 ...
->>> say_hello()
+say_hello()
 Hello
 ```
 
@@ -253,43 +253,43 @@ The execution of a function introduces a new symbol table used for the local var
 On the other hand, variable references first look in the local symbol table, then in the local symbol tables of enclosing functions, then in the global symbol table, and finally in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
 
 ```python
->>> a = 1
->>> b = 10
->>> def fn():
+a = 1
+b = 10
+def fn():
 ...     print(a)    # local a is not assigned, no enclosing function, global a referenced.
 ...     b = 20      # local b is assigned in the local symbol table for the function.
 ...     print(b)    # local b is referenced.
 ...
->>> fn()
+fn()
 1
 20
->>> b               # global b is not changed by the function call.
+b               # global b is not changed by the function call.
 10
 ```
 
 The actual parameters (arguments) to a function call are introduced in the local symbol table of the called function when it is called. In this way, arguments are passed using call by value (where the value is always an object reference, not the value of the object). When a function calls another function, a new local symbol table is created for that call.
 
 ```python
->>> def greet(s):
+def greet(s):
 ...     s = "Hello " + s    # s in local symbol table is reassigned.
 ...     print(s)
 ...
->>> person = "Bob"
->>> greet(person)
+person = "Bob"
+greet(person)
 Hello Bob
->>> person                  # person used to call remains bound to original object, 'Bob'.
+person                  # person used to call remains bound to original object, 'Bob'.
 'Bob'
 ```
 
 The arguments used to call a function cannot be reassigned by the function, but arguments that reference mutable objects can have their values changed:
 
 ```python
->>> def fn(arg):
+def fn(arg):
 ...     arg.append(1)
 ...
->>> a = [1, 2, 3]
->>> fn(a)
->>> a
+a = [1, 2, 3]
+fn(a)
+a
 [1, 2, 3, 1]
 ```
 
@@ -364,7 +364,7 @@ class Complex:
               ...
 
 x = Complex(3.0, -4.5)
->>> x.r, x.i
+x.r, x.i
 (3.0, -4.5)
 ```
 
@@ -477,9 +477,9 @@ myListB = myListA
 If we use the ’==’ operator or the ‘is’ operator, both will result in a  ****True****  output.
 
 ```python
->>> myListA == myListB # both lists contains similar elements
+myListA == myListB # both lists contains similar elements
 True
->>> myListB is myListA # myListB contains the same elements
+myListB is myListA # myListB contains the same elements
 True
 ```
 
@@ -494,14 +494,14 @@ myListC = [1,2,3]
 Performing the  `==`  operator still shows that both lists are the same, in terms of content.
 
 ```python
->>> myListA == myListC
+myListA == myListC
 True
 ```
 
 However, performing the  `is`  operator will now produce a  `False`  output. This is because myListA and myListC are two different variables, despite containing the same data. Even though they look the same, they are  ****different****.
 
 ```python
->>> myListA is myListC
+myListA is myListC
 False # both lists have different reference
 ```
 
@@ -522,78 +522,78 @@ One most important requirement of a dictionary is that the keys  ****must****  b
 To create an empty dictionary just use a pair of braces:
 
 ```python
-    >>> teams = {}
-    >>> type(teams)
-    >>> <class 'dict'>
+    teams = {}
+    type(teams)
+    <class 'dict'>
 ```
 
 To create a non-empty dictionary with some initial values, place a comma-seperated list of key-value pairs:
 
 ```python
-    >>> teams = {'barcelona': 1875, 'chelsea': 1910}
-    >>> teams
+    teams = {'barcelona': 1875, 'chelsea': 1910}
+    teams
     {'barcelona': 1875, 'chelsea': 1910}
 ```
 
 It’s easy to add key-value pairs to an existing dictionary:
 
 ```python
-    >>> teams['santos'] = 1787
-    >>> teams
+    teams['santos'] = 1787
+    teams
     {'chelsea': 1910, 'barcelona': 1875, 'santos': 1787} # Notice the order - Dictionaries are unordered !
-    >>> # extracting value - Just provide the key
+    # extracting value - Just provide the key
     ...
-    >>> teams['barcelona']
+    teams['barcelona']
     1875
 ```
 
 ****`del`****  operator is used to delete a key-value pair from the dict. In scenarios where a key that’s already in use is again used to store values, the old value associated with that key is completely lost. Also, keep in mind that it’s an error to extract the value using a non-existent key.
 
 ```python
-    >>> del teams['santos']
-    >>> teams
+    del teams['santos']
+    teams
     {'chelsea': 1910, 'barcelona': 1875}
-    >>> teams['chelsea'] = 2017 # overwriting    
-    >>> teams
+    teams['chelsea'] = 2017 # overwriting    
+    teams
     {'chelsea': 2017, 'barcelona': 1875}
 ```
 
 ****`in`****  keyword can be used to check whether a key exist in the dict or not:
 
 ```python
-    >>> 'sanots' in teams
+    'sanots' in teams
     False    
-    >>> 'barcelona' in teams
+    'barcelona' in teams
     True
-    >>> 'chelsea' not in teams
+    'chelsea' not in teams
     False
 ```
 
 ****`keys`****  is a built-in  _method_  that can be used to get the keys of a given dictionary. To extract the keys present in a dict as lists:
 
 ```python
-    >>> club_names = list(teams.keys())    
-    >>> club_names
+    club_names = list(teams.keys())    
+    club_names
     ['chelsea', 'barcelona']
 ```
 
 Yet another way of creating a dictionary is using the  ****`dict()`****  method:
 
 ```python
-    >>> players = dict( [('messi','argentina'), ('ronaldo','portugal'), ('kaka','brazil')] ) # sequence of key-value pair is passed  
-    >>> players
+    players = dict( [('messi','argentina'), ('ronaldo','portugal'), ('kaka','brazil')] ) # sequence of key-value pair is passed  
+    players
     {'ronaldo': 'portugal', 'kaka': 'brazil', 'messi': 'argentina'}
-    >>> 
-    >>> # If keys are simple strings, it's quite easier to specify pairs using keyword arguments
+    
+    # If keys are simple strings, it's quite easier to specify pairs using keyword arguments
     ...
-    >>> dict( totti = 38, zidane = 43 )
+    dict( totti = 38, zidane = 43 )
     {'zidane': 43, 'totti': 38}
 ```
 
 Dict comprehensions can be used as well to create dictionaries from arbitrary key and value expressions:
 
 ```python
-    >>> {x: x**2 for x in (2, 4, 6)}
+    {x: x**2 for x in (2, 4, 6)}
     {2: 4, 4: 16, 6: 36}
 ```
 
@@ -601,8 +601,8 @@ Dict comprehensions can be used as well to create dictionaries from arbitrary ke
 To simply loop over the keys in the dictionary, rather than the keys and values:
 
 ```python
-    >>> d = {'x': 1, 'y': 2, 'z': 3} 
-    >>> for key in d:
+    d = {'x': 1, 'y': 2, 'z': 3} 
+    for key in d:
     ...     print(key) # do something
     ...
     x
@@ -614,7 +614,7 @@ To loop over both key and value, you can use the following:
 For Python 2.x:
 
 ```python
-    >>> for key, item in d.iteritems():
+    for key, item in d.iteritems():
     ...     print items
     ...
     1
@@ -625,7 +625,7 @@ For Python 2.x:
 Use  ****`items()`****  for Python 3.x:
 
 ```python
-    >>> for key, item in d.items():
+    for key, item in d.items():
     ...     print(key, items)
     ...
     x 1
@@ -655,65 +655,65 @@ Built-in constants  `None`,  `True`, and  `False`  are  _objects_:
 We test the  `None`  object here.
 
 ```python
->>> id(None)
+id(None)
 4550218168
->>> type(None)
+type(None)
 <class 'NoneType'>
->>> dir(None)
+dir(None)
 [__bool__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
->>> issubclass(type(None), object)
+issubclass(type(None), object)
 True
 ```
 
 Next, let’s inspect  `True`.
 
 ```python
->>> id(True)
+id(True)
 4550117616
->>> type(True)
+type(True)
 <class 'bool'>
->>> dir(True)
+dir(True)
 ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
->>> issubclass(type(True), object)
+issubclass(type(True), object)
 True
 ```
 
 No reason to leave out  `False`!
 
 ```python
->>> id(False)
+id(False)
 4550117584
->>> type(False)
+type(False)
 <class 'bool'>
->>> dir(False)
+dir(False)
 ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
->>> issubclass(type(False), object)
+issubclass(type(False), object)
 True
 ```
 
 _Strings_, even when created by a string literals, are also  _objects_.
 
 ```python
->>> id("Hello campers!")
+id("Hello campers!")
 4570186864
->>> type('Hello campers!')
+type('Hello campers!')
 <class 'str'>
->>> dir("Hello campers!")
+dir("Hello campers!")
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
->>> issubclass(type('Hello campers!'), object)
+issubclass(type('Hello campers!'), object)
 True
 ```
 
 Same with  _numbers._
 
 ```python
->>> id(42)
+id(42)
 4550495728
->>> type(42)
+type(42)
 <class 'int'>
->>> dir(42)
+dir(42)
 ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
->>> issubclass(type(42), object)
+issubclass(type(42), object)
 True
 ```
 
@@ -724,23 +724,23 @@ In Python, functions are first class objects.
 _Functions_  in Python are also  _objects_, created with an  _identity_,  _type_, and  _value_. They too can be passed into other  _functions_:
 
 ```python
->>> id(dir)
+id(dir)
 4568035688
->>> type(dir)
+type(dir)
 <class 'builtin_function_or_method'>
->>> dir(dir)
+dir(dir)
 ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__text_signature__']
->>> issubclass(type(dir), object)
+issubclass(type(dir), object)
 True
 ```
 
 It is also possible to bind functions to a name and called the bound function using that name:
 
 ```python
->>> a = dir
->>> print(a)
+a = dir
+print(a)
 <built-in function dir>
->>> a(a)
+a(a)
 ['__call__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__self__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__text_signature__']
 ```
 
@@ -753,55 +753,55 @@ A tuple is a sequence of Python objects. Tuples are immutable which means they c
 An empty  `tuple`  is created using a pair of round brackets,  `()`:
 
 ```py
-    >>> empty_tuple = ()
-    >>> print(empty_tuple)
+    empty_tuple = ()
+    print(empty_tuple)
     ()
-    >>> type(empty_tuple)
+    type(empty_tuple)
     <class 'tuple'>
-    >>> len(empty_tuple)
+    len(empty_tuple)
     0
 ```
 
 A  `tuple`  with elements is created by separating the elements with commas (surrounding round brackets,  `()`, are optional with exceptions):
 
 ```py
-    >>> tuple_1 = 1, 2, 3       # Create tuple without round brackets.
-    >>> print(tuple_1)
+    tuple_1 = 1, 2, 3       # Create tuple without round brackets.
+    print(tuple_1)
     (1, 2, 3)
-    >>> type(tuple_1)
+    type(tuple_1)
     <class 'tuple'>
-    >>> len(tuple_1)
+    len(tuple_1)
     3
-    >>> tuple_2 = (1, 2, 3)     # Create tuple with round brackets.
-    >>> print(tuple_2)
+    tuple_2 = (1, 2, 3)     # Create tuple with round brackets.
+    print(tuple_2)
     (1, 2, 3)
-    >>> tuple_3 = 1, 2, 3,      # Trailing comma is optional.
-    >>> print(tuple_3)
+    tuple_3 = 1, 2, 3,      # Trailing comma is optional.
+    print(tuple_3)
     (1, 2, 3)
-    >>> tuple_4 = (1, 2, 3,)    # Trailing comma in round brackets is also optional.
-    >>> print(tuple_4)
+    tuple_4 = (1, 2, 3,)    # Trailing comma in round brackets is also optional.
+    print(tuple_4)
     (1, 2, 3)
 ```
 
 A  `tuple`  with a single element must have the trailing comma (with or without round brackets):
 
 ```py
-    >>> not_tuple = (2)    # No trailing comma makes this not a tuple.
-    >>> print(not_tuple)
+    not_tuple = (2)    # No trailing comma makes this not a tuple.
+    print(not_tuple)
     2
-    >>> type(not_tuple)
+    type(not_tuple)
     <class 'int'>
-    >>> a_tuple = (2,)     # Single element tuple. Requires trailing comma.
-    >>> print(a_tuple)
+    a_tuple = (2,)     # Single element tuple. Requires trailing comma.
+    print(a_tuple)
     (2,)
-    >>> type(a_tuple)
+    type(a_tuple)
     <class 'tuple'>
-    >>> len(a_tuple)
+    len(a_tuple)
     1
-    >>> also_tuple = 2,    # Round brackets omitted. Requires trailing comma.
-    >>> print(also_tuple)
+    also_tuple = 2,    # Round brackets omitted. Requires trailing comma.
+    print(also_tuple)
     (2,)
-    >>> type(also_tuple)
+    type(also_tuple)
     <class 'tuple'>
 ```
 
@@ -812,32 +812,32 @@ Note that it is actually the comma which makes a tuple, not the parentheses. The
 For example,  `f(a, b, c)`  is a function call with three arguments, while  `f((a, b, c))`  is a function call with a 3-tuple as the sole argument.
 
 ```py
-    >>> print(1,2,3,4,)          # Calls print with 4 arguments: 1, 2, 3, and 4
+    print(1,2,3,4,)          # Calls print with 4 arguments: 1, 2, 3, and 4
     1 2 3 4
-    >>> print((1,2,3,4,))        # Calls print with 1 argument: (1, 2, 3, 4,)
+    print((1,2,3,4,))        # Calls print with 1 argument: (1, 2, 3, 4,)
     (1, 2, 3, 4)
-    >>> 1, 2, 3 == (1, 2, 3)     # Equivalent to 1, 2, (3 == (1, 2, 3))
+    1, 2, 3 == (1, 2, 3)     # Equivalent to 1, 2, (3 == (1, 2, 3))
     (1, 2, False)
-    >>> (1, 2, 3) == (1, 2, 3)   # Use surrounding round brackets when ambiguous.
+    (1, 2, 3) == (1, 2, 3)   # Use surrounding round brackets when ambiguous.
     True
 ```
 
 A  `tuple`  can also be created with the  `tuple`  constructor:
 
 ```py
-    >>> empty_tuple = tuple()
-    >>> print(empty_tuple)
+    empty_tuple = tuple()
+    print(empty_tuple)
     ()
-    >>> tuple_from_list = tuple([1,2,3,4])
-    >>> print(tuple_from_list)
+    tuple_from_list = tuple([1,2,3,4])
+    print(tuple_from_list)
     (1, 2, 3, 4)
-    >>> tuple_from_string = tuple("Hello campers!")
-    >>> print(tuple_from_string)
+    tuple_from_string = tuple("Hello campers!")
+    print(tuple_from_string)
     ('H', 'e', 'l', 'l', 'o', ' ', 'c', 'a', 'm', 'p', 'e', 'r', 's', '!')
-    >>> a_tuple = 1, 2, 3
-    >>> b_tuple = tuple(a_tuple)    # If the constructor is called with a tuple for
+    a_tuple = 1, 2, 3
+    b_tuple = tuple(a_tuple)    # If the constructor is called with a tuple for
     the iterable,
-    >>> a_tuple is b_tuple          # the tuple argument is returned.
+    a_tuple is b_tuple          # the tuple argument is returned.
     True
 ```
 
@@ -846,28 +846,28 @@ A  `tuple`  can also be created with the  `tuple`  constructor:
 Elements of  `tuples`  are accessed and indexed the same way that  `lists`  are.
 
 ```py
-    >>> my_tuple = 1, 2, 9, 16, 25
-    >>> print(my_tuple)
+    my_tuple = 1, 2, 9, 16, 25
+    print(my_tuple)
     (1, 2, 9, 16, 25)
 ```
 
 _Zero indexed_
 
 ```py
-    >>> my_tuple[0]
+    my_tuple[0]
     1
-    >>> my_tuple[1]
+    my_tuple[1]
     2
-    >>> my_tuple[2]
+    my_tuple[2]
     9
 ```
 
 _Wrap around indexing_
 
 ```shell
-    >>> my_tuple[-1]
+    my_tuple[-1]
     25
-    >>> my_tuple[-2]
+    my_tuple[-2]
     16
 ```
 
@@ -876,30 +876,30 @@ _Wrap around indexing_
 The statement  `t = 12345, 54321, 'hello!'`  is an example of tuple packing: the values  `12345`,  `54321`and  `'hello!'`  are packed together in a tuple. The reverse operation is also possible:
 
 ```py
-    >>> x, y, z = t
+    x, y, z = t
 ```
 
 This is called, appropriately enough, sequence unpacking and works for any sequence on the right-hand side. Sequence unpacking requires that there are as many variables on the left side of the equals sign as there are elements in the sequence. Note that multiple assignment is really just a combination of tuple packing and sequence unpacking.
 
 ```py
-    >>> t = 1, 2, 3    # Tuple packing.
-    >>> print(t)
+    t = 1, 2, 3    # Tuple packing.
+    print(t)
     (1, 2, 3)
-    >>> a, b, c = t    # Sequence unpacking.
-    >>> print(a)
+    a, b, c = t    # Sequence unpacking.
+    print(a)
     1
-    >>> print(b)
+    print(b)
     2
-    >>> print(c)
+    print(c)
     3
-    >>> d, e, f = 4, 5, 6    # Multiple assignment combines packing and unpacking.
-    >>> print(d)
+    d, e, f = 4, 5, 6    # Multiple assignment combines packing and unpacking.
+    print(d)
     4
-    >>> print(e)
+    print(e)
     5
-    >>> print(f)
+    print(f)
     6
-    >>> a, b = 1, 2, 3       # Multiple assignment requires each variable (right)
+    a, b = 1, 2, 3       # Multiple assignment requires each variable (right)
     have a matching element (left).
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
@@ -911,13 +911,13 @@ This is called, appropriately enough, sequence unpacking and works for any seque
 `tuples`  are immutable containers, guaranteeing  ****which****  objects they contain will not change. It does  ****not**** guarantee that the objects they contain will not change:
 
 ```py
-    >>> a_list = []
-    >>> a_tuple = (a_list,)    # A tuple (immutable) with a list (mutable) element.
-    >>> print(a_tuple)
+    a_list = []
+    a_tuple = (a_list,)    # A tuple (immutable) with a list (mutable) element.
+    print(a_tuple)
     ([],)
 
-    >>> a_list.append("Hello campers!")
-    >>> print(a_tuple)         # Element of the immutable is mutated.
+    a_list.append("Hello campers!")
+    print(a_tuple)         # Element of the immutable is mutated.
     (['Hello campers!'],)
 ```
 
@@ -926,12 +926,12 @@ This is called, appropriately enough, sequence unpacking and works for any seque
 Functions can only return a single value, however, a heterogenuous  `tuple`  can be used to return multiple values from a function. One example is the built-in  `enumerate`function that returns an iterable of heterogenuous  `tuples`:
 
 ```py
-    >>> greeting = ["Hello", "campers!"]
-    >>> enumerator = enumerate(greeting)
-    >>> enumerator.next()
-    >>> enumerator.__next__()
+    greeting = ["Hello", "campers!"]
+    enumerator = enumerate(greeting)
+    enumerator.next()
+    enumerator.__next__()
     (0, 'Hello')
-    >>> enumerator.__next__()
+    enumerator.__next__()
     (1, 'campers!')
 ```
 
@@ -1808,5 +1808,5 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTkyNDY4M119
+eyJoaXN0b3J5IjpbMzMxNzA0OTQxLDE4MzE5MjQ2ODNdfQ==
 -->
