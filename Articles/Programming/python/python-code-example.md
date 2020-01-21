@@ -616,7 +616,8 @@ For Python 2.x:
 ```python
     for key, item in d.iteritems():
     ...     print items
-    ...
+    
+```
     1
     2
     3
@@ -1804,7 +1805,7 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQwMzgzMTEsLTc0MzQ4OTI1MywtMT
-I0NzkwMTczLDQzNTE4MTA1LDE2NjE1MTI3NywzMzE3MDQ5NDEs
-MTgzMTkyNDY4M119
+eyJoaXN0b3J5IjpbLTQ3OTk1NTA3OSwtMTIyNDAzODMxMSwtNz
+QzNDg5MjUzLC0xMjQ3OTAxNzMsNDM1MTgxMDUsMTY2MTUxMjc3
+LDMzMTcwNDk0MSwxODMxOTI0NjgzXX0=
 -->
