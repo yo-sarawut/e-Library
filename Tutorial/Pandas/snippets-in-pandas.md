@@ -9,7 +9,7 @@ For this article, we are starting with a DataFrame filled with Pizza orders. If 
 
 -   DataFrame - Indexed rows and columns of data, like a spreadsheet or database table.
 -   Series = Single column of data.
--   Axis - 0 ==  Rows, 1  == Columns
+-   Axis - 0 ==   Rows, 1   == Columns
 -   Shape - (number_of_rows, number_of_columns) in a DataFrame
 
 ## 1. Importing a CSV File
@@ -120,11 +120,11 @@ filtered_data = df[(df.price > 11.99) & (df.topping == 'Pineapple')]
 Now we have all the pizzas with a Pineapple topping priced over 11.99.
 
 
-
+```
 order_number	date	size	topping	price	discount	coupon
 6	PZZA0006	10/01/16	Medium	Pineapple	17.50	0.0	No
 9	PZZA0009	10/04/16	Medium	Pineapple	12.99	2.0	Yes
-
+```
 ## 6. Sorting a DataFrame by a Certain Column
 
 Pretty self-explanatory, but very useful.
@@ -146,14 +146,14 @@ df['taxes'] = df.price.apply(calculate_taxes)
 ```
 
 
-
+```
 order_number	price	taxes
 0	PZZA0000	12.99	1.5588
 1	PZZA0001	14.50	1.7400
 2	PZZA0002	19.99	2.3988
 3	PZZA0003	20.99	2.5188
 4	PZZA0004	21.99	2.6388
-
+```
 ## 8. Add a New Column with Conditional Logic
 
 The where function in numpy is useful when extracting features with conditional logic. Let’s imagine the pizza parlor is only profitable on sales above $15.00. We create a new column based on this insight like so:
@@ -333,5 +333,5 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzEwMjYzOV19
+eyJoaXN0b3J5IjpbLTEwMzYxMzQwMTUsLTI5NzEwMjYzOV19
 -->
