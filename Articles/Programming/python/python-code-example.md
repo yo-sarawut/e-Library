@@ -876,7 +876,7 @@ _Wrap around indexing_
 The statement  `t = 12345, 54321, 'hello!'`  is an example of tuple packing: the values  `12345`,  `54321`and  `'hello!'`  are packed together in a tuple. The reverse operation is also possible:
 
 ```py
-    x, y, z = t
+    x, y, z = t                
 ```
 
 This is called, appropriately enough, sequence unpacking and works for any sequence on the right-hand side. Sequence unpacking requires that there are as many variables on the left side of the equals sign as there are elements in the sequence. Note that multiple assignment is really just a combination of tuple packing and sequence unpacking.
@@ -1808,5 +1808,6 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNzA0OTQxLDE4MzE5MjQ2ODNdfQ==
+eyJoaXN0b3J5IjpbMTY2MTUxMjc3LDMzMTcwNDk0MSwxODMxOT
+I0NjgzXX0=
 -->
