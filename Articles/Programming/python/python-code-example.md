@@ -804,7 +804,6 @@ A  `tuple`  with a single element must have the trailing comma (with or without 
     type(also_tuple)
     <class 'tuple'>
 ```
-
 Round brackets are required in cases of ambiguity (if the tuple is part of a larger expression):
 
 Note that it is actually the comma which makes a tuple, not the parentheses. The parentheses are optional, except in the empty tuple case, or when they are needed to avoid syntactic ambiguity.
@@ -871,7 +870,7 @@ _Wrap around indexing_
     16
 ```
 
-****Packing and Unpacking:****
+**Packing and Unpacking:**
 
 The statement  `t = 12345, 54321, 'hello!'`  is an example of tuple pa
 
@@ -1805,7 +1804,7 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODc0OTg3LC03NDM0ODkyNTMsLTEyND
-c5MDE3Myw0MzUxODEwNSwxNjYxNTEyNzcsMzMxNzA0OTQxLDE4
-MzE5MjQ2ODNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjQwMzgzMTEsLTc0MzQ4OTI1MywtMT
+I0NzkwMTczLDQzNTE4MTA1LDE2NjE1MTI3NywzMzE3MDQ5NDEs
+MTgzMTkyNDY4M119
 -->
