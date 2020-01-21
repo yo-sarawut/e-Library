@@ -33,7 +33,7 @@ print(numbers)
 
 หลังจากที่เราได้ประกาศ Dictionary ไปแล้ว ต่อไปจะการเข้าถึงข้อมูลเพื่ออ่านและอัพเดทข้อมูลโดยผ่านทาง Key ของมัน มาดูตัวอย่างการเข้าถึงข้อมูลใน Dictionary
 
-```
+```py
 scores = {'james': 1828, 'thomas': 3628, 'danny': 9310, 'bobby': 4401}
 
 # display data
@@ -53,7 +53,7 @@ print('thomas =>', scores['thomas'])
 
 ในตัวอย่าง เรามีตัวแปร  `scores`  สำหรับเก็บคะแนนของผู้เล่นโดยชื่อเป็น Key ของ Dictionary ในการเข้าถึงข้อมูลนั้นจะใช้ Key ของมัน ในส่วนแรกเป็นการเข้าถึงข้อมูลภายใน Dictionary เพื่อแสดงผลคะแนนของแต่ละ Key ออกมาทางหน้าจอ ต่อมาเป็นการอัพเดทข้อมูลใน Dictionary โดยเราได้เพิ่มค่าให้กับ Key  `'james'`  ขึ้นไปอีก 1000 และกำหนดค่าให้กับ Key  `'thomas'`  เป็น 100 และแสดงผลอีกครั้ง
 
-```
+```py
 james => 1828
 thomas => 3628
 danny => 9310
@@ -67,7 +67,7 @@ thomas => 100
 
 ในการเข้าถึงข้อมูลภายใน Dictionary นั้น คุณต้องตรวจสอบให้แน่ใจว่า Key นั้นมีอยู่จริง ไม่เช่นนั้นโปรแกรมจะเกิดข้อผิดพลาดขึ้น ยกตัวอย่างเช่น
 
-```
+```py
 scores = {'james': 1828, 'thomas': 3628, 'danny': 9310, 'bobby': 4401}
 print(scores['smith']) # Error
 
@@ -183,5 +183,6 @@ iter(dict)|ส่งค่ากลับเป็นออบเจ็คขอ
 
 Reference :  [http://marcuscode.com/lang/python/dictionary](http://marcuscode.com/lang/python/dictionary)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjAyOTc1NDYsLTQzNzg0MzExMl19
+eyJoaXN0b3J5IjpbLTQxOTIwNDM1NywtMTM2MDI5NzU0NiwtND
+M3ODQzMTEyXX0=
 -->
