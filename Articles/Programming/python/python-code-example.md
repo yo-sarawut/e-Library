@@ -629,10 +629,10 @@ Use  ****`items()`****  for Python 3.x:
 for key, item in d.items():
     print(key, items)
  ```
-
-    x 1
-    y 2
-    z 3
+```
+ x 1
+ y 2
+ z 3
 ```
 
 # Python Objects Example
@@ -1806,7 +1806,7 @@ To get started with Pipenv, you can follow this very detailed  [guide](https://d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTk2MDc0NywtMTIyNDAzODMxMSwtNz
+eyJoaXN0b3J5IjpbMTgxMjA0NTI2NywtMTIyNDAzODMxMSwtNz
 QzNDg5MjUzLC0xMjQ3OTAxNzMsNDM1MTgxMDUsMTY2MTUxMjc3
 LDMzMTcwNDk0MSwxODMxOTI0NjgzXX0=
 -->
