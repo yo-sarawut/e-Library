@@ -1,126 +1,256 @@
 
-[How to create DataFrame from dictionary](https://thispointer.com/python-pandas-how-to-create-dataframe-from-dictionary/)
-===
-
-## Create DataFrame from Dictionary using default Constructor
-
+Create DataFrame from Dictionary using default Constructor
 DataFrame constructor accepts a data object that can be ndarray, dictionary etc. i.e.
-```py
-pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
-```
 
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
+1
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 But if we are passing a dictionary in data, then it should  contain a list like objects in value field like Series, arrays or lists etc i.e.
 
-```py
+# Dictionary with list object in values
+studentData = {
+'name' : ['jack', 'Riti', 'Aadi'],
+'age' : [34, 30, 16],
+'city' : ['Sydney', 'Delhi', 'New york']
+}
+1
+2
+3
+4
+5
+6
 # Dictionary with list object in values
 studentData = {
     'name' : ['jack', 'Riti', 'Aadi'],
     'age' : [34, 30, 16],
     'city' : ['Sydney', 'Delhi', 'New york']
 }
-```
 On Initialising a DataFrame object with this kind of dictionary, each item (Key / Value pair) in dictionary will be converted to one column i.e. key will become Column Name and list in the value field will be the column data i.e.
-```py
-'''
+
+''' 
 Pass dictionary in Dataframe constructor to create a new object
 keys will be the column names and lists in values will be column data
 '''
 dfObj = pd.DataFrame(studentData) 
-```
-```
+1
+2
+3
+4
+5
+''' 
+Pass dictionary in Dataframe constructor to create a new object
+keys will be the column names and lists in values will be column data
+'''
+dfObj = pd.DataFrame(studentData) 
+It will create a DataFrame object like this,
+
 age      city  name
 0   34    Sydney  jack
 1   30     Delhi  Riti
 2   16  New york  Aadi
-```
+1
+2
+3
+4
+   age      city  name
+0   34    Sydney  jack
+1   30     Delhi  Riti
+2   16  New york  Aadi
+All the keys in dictionary will be converted to column names and lists in each its value field will we converted to column Data.
+
 Create DataFrame from Dictionary with custom indexes
 We can also pass the index list to the DataFrame constructor to replace the default index list i.e.
 
-## Create DataFrame from not compatible dictionary
+# Pass custom names of index as list during initialization
+dfObj = pd.DataFrame(studentData, index=['a', 'b', 'c'])
+1
+2
+# Pass custom names of index as list during initialization
+dfObj = pd.DataFrame(studentData, index=['a', 'b', 'c'])
+It will create a DataFrame object like this,
+
+age      city  name
+a   34    Sydney  jack
+b   30     Delhi  Riti
+c   16  New york  Aadi
+1
+2
+3
+4
+   age      city  name
+a   34    Sydney  jack
+b   30     Delhi  Riti
+c   16  New york  Aadi
+
+ 
+Create DataFrame from not compatible dictionary
 As DataFrame constructor accepts a dictionary which should contain a list like objects in values. But what if we have a dictionary that doesn’t have lists in value i.e.
-```py
+
 studentAgeData = {
 'Jack' : 12,
 'Roma' : 13,
 'Ritika' : 10,
 'Aadi' : 11
 }
-```
+1
+2
+3
+4
+5
+6
+studentAgeData = {
+    'Jack' : 12,
+    'Roma' : 13,
+    'Ritika' : 10,
+    'Aadi' : 11
+}
 If we will directly pass this dictionary to DataFrame constructor then it will throw following error,
 ValueError: If using all scalar values, you must pass an index
 
 So, how to create a two column DataFrame object from this kind of dictionary and put all keys and values as these separate columns like this,
-```py
-'''
-Creating dataframe by converting dict to list of items
-'''
-dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
-```
-It will create a DataFrame object like this,
-```
+
 0   1
 a    Roma  13
 b    Jack  12
 c    Aadi  11
 d  Ritika  10
-```
+1
+2
+3
+4
+5
+        0   1
+a    Roma  13
+b    Jack  12
+c    Aadi  11
+d  Ritika  10
+For that we will create a list to tuples (key / value) from this dictionary and pass it to another dataframe constructor that accepts a list i.e.
 
-## Create DataFrame from Dictionary and skip data
+'''
+Creating dataframe by converting dict to list of items
+'''
+dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
+1
+2
+3
+4
+'''
+Creating dataframe by converting dict to list of items
+'''
+dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
+It will create a DataFrame object like this,
+
+0   1
+a    Roma  13
+b    Jack  12
+c    Aadi  11
+d  Ritika  10
+1
+2
+3
+4
+5
+        0   1
+a    Roma  13
+b    Jack  12
+c    Aadi  11
+d  Ritika  10
+Create DataFrame from Dictionary and skip data
 But we want to create a DataFrame object from dictionary by skipping some of the items. Let’s see how to do that,
 
 Suppose we have dictionary like this,
-```py
+
 # Dictionary with list object in values
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
-```
-Create a DataFrame from this by skipping items with key **‘age’** ,
-```py
-## Creating Dataframe from Dictionary by Skipping 2nd Item from dict
-dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
-```
+1
+2
+3
+4
+5
+6
+# Dictionary with list object in values
+studentData = {
+    'name' : ['jack', 'Riti', 'Aadi'],
+    'age' : [34, 30, 16],
+    'city' : ['Sydney', 'Delhi', 'New york']
+}
+Create a DataFrame from this by skipping items with key ‘age’ ,
 
+# Creating Dataframe from Dictionary by Skipping 2nd Item from dict
+dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
+1
+2
+# Creating Dataframe from Dictionary by Skipping 2nd Item from dict
+dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
 As in columns parameter we provided a list with only two column names. So, DataFrame should contain only 2 columns i.e.
 
-```
+name      city
+0  jack    Sydney
+1  Riti     Delhi
+2  Aadi  New york
+1
+2
+3
+4
    name      city
 0  jack    Sydney
 1  Riti     Delhi
 2  Aadi  New york
-```
-## Create DataFrame from Dictionary with different Orientation
+Create DataFrame from Dictionary with different Orientation
 We can create a DataFrame from dictionary using DataFrame.from_dict() function too i.e.
-```py
+
 DataFrame.from_dict(data, orient='columns', dtype=None)
-```
+1
+DataFrame.from_dict(data, orient='columns', dtype=None)
 It accepts a dictionary and orientation too. By default orientation is columns it means keys in dictionary will be used as columns while creating DataFrame.
 We can also pass the orientation as ‘index’, which changes the default orientation and makes the keys in dictionary as index i.e.
 
-**Dictionary :**
-```py
+Dictionary :
+
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
-```
+1
+2
+3
+4
+5
+studentData = {
+    'name' : ['jack', 'Riti', 'Aadi'],
+    'age' : [34, 30, 16],
+    'city' : ['Sydney', 'Delhi', 'New york']
+}
+Create DataFrame with index in orientation i.e.
 
-```py
 # Create dataframe from dic and make keys, index in dataframe
 dfObj = pd.DataFrame.from_dict(studentData, orient='index')
-```
-```
-          0      1         2
+1
+2
+# Create dataframe from dic and make keys, index in dataframe
+dfObj = pd.DataFrame.from_dict(studentData, orient='index')
+It will create a DataFrame object like this,
+
+0      1         2
 name    jack   Riti      Aadi
 city  Sydney  Delhi  New york
 age       34     30        16
-```
-## Create DataFrame from nested Dictionary
+1
+2
+3
+4
+           0      1         2
+name    jack   Riti      Aadi
+city  Sydney  Delhi  New york
+age       34     30        16
+Create DataFrame from nested Dictionary
 Suppose we have a nested dictionary i.e.
-```py
+
 # Nested Dictionary
 studentData = { 
 0 : {
@@ -139,34 +269,74 @@ studentData = {
 'city' : 'Delhi'
 }
 }
-```
-
-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+# Nested Dictionary
+studentData = { 
+0 : {
+    'name' : 'Aadi',
+    'age' : 16,
+    'city' : 'New york'
+    },
+1 : {
+    'name' : 'Jack',
+    'age' : 34,
+    'city' : 'Sydney'
+    },
+2 : {
+    'name' : 'Riti',
+    'age' : 30,
+    'city' : 'Delhi'
+    }
+}
 It has 3 items in it and each item contains a dictionary in value field which internally contains the same keys but with different value.
 
 We can directly pass it in DataFrame constructor, but it will use the keys of dict as columns and  DataFrame object like this will be generated i.e.
-```py
+
 '''
 Create dataframe from nested dictionary 
 '''
 dfObj = pd.DataFrame(studentData)
-```
-
-
+1
+2
+3
+4
+'''
+Create dataframe from nested dictionary 
+'''
+dfObj = pd.DataFrame(studentData)
 It will create a DataFrame object like this,
-```py
+
 0       1      2
 age         16      34     30
 city  New york  Sydney  Delhi
 name      Aadi    Jack   Riti
-```
-
+1
+2
+3
+4
+             0       1      2
+age         16      34     30
+city  New york  Sydney  Delhi
+name      Aadi    Jack   Riti
 Now let’s transpose this matrix to swap the column with indexes i.e. data will be more readable with this i.e.
-```
-0  16  New york  Aadi
-1  34    Sydney  Jack
-2  30     Delhi  Riti
-```
+
 # Transpose dataframe object
 dfObj = dfObj.transpose()
 1
@@ -592,7 +762,6 @@ Transpose the dictionary
 0  16  New york  Aadi
 1  34    Sydney  Jack
 2  30     Delhi  Riti
- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQzMzc0NTksMzU4NTY0NDg5XX0=
+eyJoaXN0b3J5IjpbMTQ1NDE1NzUwMywzNTg1NjQ0ODldfQ==
 -->
