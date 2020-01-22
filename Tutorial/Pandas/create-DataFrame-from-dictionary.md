@@ -152,10 +152,7 @@ Create dataframe from nested dictionary
 dfObj = pd.DataFrame(studentData)
 ```
 
-'''
-Create dataframe from nested dictionary 
-'''
-dfObj = pd.DataFrame(studentData)
+
 It will create a DataFrame object like this,
 ```py
 0       1      2
@@ -163,16 +160,13 @@ age         16      34     30
 city  New york  Sydney  Delhi
 name      Aadi    Jack   Riti
 ```
-1
-2
-3
-4
-             0       1      2
-age         16      34     30
-city  New york  Sydney  Delhi
-name      Aadi    Jack   Riti
-Now let’s transpose this matrix to swap the column with indexes i.e. data will be more readable with this i.e.
 
+Now let’s transpose this matrix to swap the column with indexes i.e. data will be more readable with this i.e.
+```
+0  16  New york  Aadi
+1  34    Sydney  Jack
+2  30     Delhi  Riti
+```
 # Transpose dataframe object
 dfObj = dfObj.transpose()
 1
@@ -600,5 +594,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzAxNzA4OSwzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbLTE5NjQzMzc0NTksMzU4NTY0NDg5XX0=
 -->
