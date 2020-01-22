@@ -2,10 +2,10 @@
 [Create DataFrame from Dictionary using default Constructor](https://thispointer.com/python-pandas-how-to-create-dataframe-from-dictionary/)
 ===
 DataFrame constructor accepts a data object that can be ndarray, dictionary etc. i.e.
+```py
+pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
+```
 
-pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
-1
-pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 But if we are passing a dictionary in data, then it should  contain a list like objects in value field like Series, arrays or lists etc i.e.
 
 # Dictionary with list object in values
@@ -767,5 +767,5 @@ Transpose the dictionary
 
 Python Recommendations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzMyNDA5MCwzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbMTIwNjg1NDIxLDM1ODU2NDQ4OV19
 -->
