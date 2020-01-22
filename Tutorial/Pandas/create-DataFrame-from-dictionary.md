@@ -7,19 +7,22 @@ pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 ```
 
 But if we are passing a dictionary in data, then it should  contain a list like objects in value field like Series, arrays or lists etc i.e.
-
+```py
 # Dictionary with list object in values
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
-1
-2
-3
-4
-5
-6
+```
+```py
+''' 
+Pass dictionary in Dataframe constructor to create a new object
+keys will be the column names and lists in values will be column data
+'''
+dfObj = pd.DataFrame(studentData) 
+```
+```
 # Dictionary with list object in values
 studentData = {
     'name' : ['jack', 'Riti', 'Aadi'],
@@ -767,5 +770,5 @@ Transpose the dictionary
 
 Python Recommendations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjg1NDIxLDM1ODU2NDQ4OV19
+eyJoaXN0b3J5IjpbLTE0NTU0OTgxNSwzNTg1NjQ0ODldfQ==
 -->
