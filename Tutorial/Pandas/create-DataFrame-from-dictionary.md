@@ -30,17 +30,11 @@ age      city  name
 1   30     Delhi  Riti
 2   16  New york  Aadi
 ```
-
-All the keys in dictionary will be converted to column names and lists in each its value field will we converted to column Data.
-
 Create DataFrame from Dictionary with custom indexes
 We can also pass the index list to the DataFrame constructor to replace the default index list i.e.
 
-# Pass custom names of index as list during initialization
-dfObj = pd.DataFrame(studentData, index=['a', 'b', 'c'])
-1
-2
-# Pass custom names of index as list during initialization
+
+## Pass custom names of index as list during initialization
 dfObj = pd.DataFrame(studentData, index=['a', 'b', 'c'])
 It will create a DataFrame object like this,
 
@@ -738,8 +732,6 @@ Transpose the dictionary
 1  34    Sydney  Jack
 2  30     Delhi  Riti
  
-
-Python Recommendations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMwODk1NjksMzU4NTY0NDg5XX0=
+eyJoaXN0b3J5IjpbLTE1OTQ1MjA1MTksMzU4NTY0NDg5XX0=
 -->
