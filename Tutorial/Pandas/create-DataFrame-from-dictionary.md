@@ -107,41 +107,20 @@ studentData = {
 'city' : ['Sydney', 'Delhi', 'New york']
 }
 ```
-1
-2
-3
-4
-5
-studentData = {
-    'name' : ['jack', 'Riti', 'Aadi'],
-    'age' : [34, 30, 16],
-    'city' : ['Sydney', 'Delhi', 'New york']
-}
-Create DataFrame with index in orientation i.e.
 
+```py
 # Create dataframe from dic and make keys, index in dataframe
 dfObj = pd.DataFrame.from_dict(studentData, orient='index')
-1
-2
-# Create dataframe from dic and make keys, index in dataframe
-dfObj = pd.DataFrame.from_dict(studentData, orient='index')
-It will create a DataFrame object like this,
-
-0      1         2
+```
+```
+          0      1         2
 name    jack   Riti      Aadi
 city  Sydney  Delhi  New york
 age       34     30        16
-1
-2
-3
-4
-           0      1         2
-name    jack   Riti      Aadi
-city  Sydney  Delhi  New york
-age       34     30        16
-Create DataFrame from nested Dictionary
+```
+## Create DataFrame from nested Dictionary
 Suppose we have a nested dictionary i.e.
-
+```
 # Nested Dictionary
 studentData = { 
 0 : {
@@ -655,5 +634,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDA4NDMzMCwzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbLTE5MjM2MjY5OTQsMzU4NTY0NDg5XX0=
 -->
