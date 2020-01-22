@@ -36,46 +36,16 @@ age      city  name
 Create DataFrame from Dictionary with custom indexes
 We can also pass the index list to the DataFrame constructor to replace the default index list i.e.
 
-
-## Pass custom names of index as list during initialization
-dfObj = pd.DataFrame(studentData, index=['a', 'b', 'c'])
-It will create a DataFrame object like this,
-
-age      city  name
-a   34    Sydney  jack
-b   30     Delhi  Riti
-c   16  New york  Aadi
-1
-2
-3
-4
-   age      city  name
-a   34    Sydney  jack
-b   30     Delhi  Riti
-c   16  New york  Aadi
-
- 
-Create DataFrame from not compatible dictionary
+## Create DataFrame from not compatible dictionary
 As DataFrame constructor accepts a dictionary which should contain a list like objects in values. But what if we have a dictionary that doesn’t have lists in value i.e.
-
+```py
 studentAgeData = {
 'Jack' : 12,
 'Roma' : 13,
 'Ritika' : 10,
 'Aadi' : 11
 }
-1
-2
-3
-4
-5
-6
-studentAgeData = {
-    'Jack' : 12,
-    'Roma' : 13,
-    'Ritika' : 10,
-    'Aadi' : 11
-}
+```
 If we will directly pass this dictionary to DataFrame constructor then it will throw following error,
 ValueError: If using all scalar values, you must pass an index
 
@@ -736,5 +706,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk4Mzc4MDEsMzU4NTY0NDg5XX0=
+eyJoaXN0b3J5IjpbMTc3Mzc3MDQyLDM1ODU2NDQ4OV19
 -->
