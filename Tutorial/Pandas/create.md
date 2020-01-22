@@ -20,35 +20,27 @@ studentData = {
 
 
 On Initialising a DataFrame object with this kind of dictionary, each item (Key / Value pair) in dictionary will be converted to one column i.e. key will become Column Name and list in the value field will be the column data i.e.
-
+```
 1
-
 2
-
 3
-
 4
-
 5
-
-'''
+```
 
 Pass dictionary in Dataframe constructor to create a new object
 
 keys will be the column names and lists in values will be column data
 
-'''
 
+```py
 dfObj  =  pd.DataFrame(studentData)
-
+```
 It will create a DataFrame object like this,
-
+```
 1
-
 2
-
 3
-
 4
 
 age city name
@@ -965,5 +957,5 @@ age city name
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTA0ODgyNV19
+eyJoaXN0b3J5IjpbLTEyNjc4MDE2MjQsMTA2OTA0ODgyNV19
 -->
