@@ -51,35 +51,11 @@ ValueError: If using all scalar values, you must pass an index
 
 So, how to create a two column DataFrame object from this kind of dictionary and put all keys and values as these separate columns like this,
 
-0   1
-a    Roma  13
-b    Jack  12
-c    Aadi  11
-d  Ritika  10
-1
-2
-3
-4
-5
-        0   1
-a    Roma  13
-b    Jack  12
-c    Aadi  11
-d  Ritika  10
-For that we will create a list to tuples (key / value) from this dictionary and pass it to another dataframe constructor that accepts a list i.e.
-
-'''
+'''py
 Creating dataframe by converting dict to list of items
 '''
 dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
-1
-2
-3
-4
-'''
-Creating dataframe by converting dict to list of items
-'''
-dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
+```
 It will create a DataFrame object like this,
 
 0   1
@@ -706,5 +682,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzc3MDQyLDM1ODU2NDQ4OV19
+eyJoaXN0b3J5IjpbMTA4ODYzMDk4NywzNTg1NjQ0ODldfQ==
 -->
