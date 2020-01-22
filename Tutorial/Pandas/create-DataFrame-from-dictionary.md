@@ -91,22 +91,22 @@ As in columns parameter we provided a list with only two column names. So, DataF
 1  Riti     Delhi
 2  Aadi  New york
 ```
-Create DataFrame from Dictionary with different Orientation
+## Create DataFrame from Dictionary with different Orientation
 We can create a DataFrame from dictionary using DataFrame.from_dict() function too i.e.
-
+```py
 DataFrame.from_dict(data, orient='columns', dtype=None)
-1
-DataFrame.from_dict(data, orient='columns', dtype=None)
+```
 It accepts a dictionary and orientation too. By default orientation is columns it means keys in dictionary will be used as columns while creating DataFrame.
 We can also pass the orientation as ‘index’, which changes the default orientation and makes the keys in dictionary as index i.e.
 
-Dictionary :
-
+**Dictionary :**
+```py
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
+```
 1
 2
 3
@@ -655,5 +655,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNjU2MzE2LDM1ODU2NDQ4OV19
+eyJoaXN0b3J5IjpbMTAwMDA4NDMzMCwzNTg1NjQ0ODldfQ==
 -->
