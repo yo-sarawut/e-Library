@@ -50,53 +50,34 @@ If we will directly pass this dictionary to DataFrame constructor then it will t
 ValueError: If using all scalar values, you must pass an index
 
 So, how to create a two column DataFrame object from this kind of dictionary and put all keys and values as these separate columns like this,
-
-'''py
+```py
+'''
 Creating dataframe by converting dict to list of items
 '''
 dfObj = pd.DataFrame(list(studentAgeData.items()), index=['a', 'b', 'c', 'd'])
 ```
 It will create a DataFrame object like this,
-
+```
 0   1
 a    Roma  13
 b    Jack  12
 c    Aadi  11
 d  Ritika  10
-1
-2
-3
-4
-5
-        0   1
-a    Roma  13
-b    Jack  12
-c    Aadi  11
-d  Ritika  10
-Create DataFrame from Dictionary and skip data
+```
+
+## Create DataFrame from Dictionary and skip data
 But we want to create a DataFrame object from dictionary by skipping some of the items. Let’s see how to do that,
 
 Suppose we have dictionary like this,
-
+```py
 # Dictionary with list object in values
 studentData = {
 'name' : ['jack', 'Riti', 'Aadi'],
 'age' : [34, 30, 16],
 'city' : ['Sydney', 'Delhi', 'New york']
 }
-1
-2
-3
-4
-5
-6
-# Dictionary with list object in values
-studentData = {
-    'name' : ['jack', 'Riti', 'Aadi'],
-    'age' : [34, 30, 16],
-    'city' : ['Sydney', 'Delhi', 'New york']
-}
-Create a DataFrame from this by skipping items with key ‘age’ ,
+```
+Create a DataFrame from this by skipping items with key *‘age’** ,
 
 # Creating Dataframe from Dictionary by Skipping 2nd Item from dict
 dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
@@ -682,5 +663,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODYzMDk4NywzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbMjA1NDc3MTIwMiwzNTg1NjQ0ODldfQ==
 -->
