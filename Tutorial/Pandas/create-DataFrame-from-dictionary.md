@@ -120,7 +120,7 @@ age       34     30        16
 ```
 ## Create DataFrame from nested Dictionary
 Suppose we have a nested dictionary i.e.
-```
+```py
 # Nested Dictionary
 studentData = { 
 0 : {
@@ -139,64 +139,30 @@ studentData = {
 'city' : 'Delhi'
 }
 }
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-# Nested Dictionary
-studentData = { 
-0 : {
-    'name' : 'Aadi',
-    'age' : 16,
-    'city' : 'New york'
-    },
-1 : {
-    'name' : 'Jack',
-    'age' : 34,
-    'city' : 'Sydney'
-    },
-2 : {
-    'name' : 'Riti',
-    'age' : 30,
-    'city' : 'Delhi'
-    }
-}
+```
+
+
 It has 3 items in it and each item contains a dictionary in value field which internally contains the same keys but with different value.
 
 We can directly pass it in DataFrame constructor, but it will use the keys of dict as columns and  DataFrame object like this will be generated i.e.
-
+```py
 '''
 Create dataframe from nested dictionary 
 '''
 dfObj = pd.DataFrame(studentData)
-1
-2
-3
-4
+```
+
 '''
 Create dataframe from nested dictionary 
 '''
 dfObj = pd.DataFrame(studentData)
 It will create a DataFrame object like this,
-
+```py
 0       1      2
 age         16      34     30
 city  New york  Sydney  Delhi
 name      Aadi    Jack   Riti
+```
 1
 2
 3
@@ -634,5 +600,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM2MjY5OTQsMzU4NTY0NDg5XX0=
+eyJoaXN0b3J5IjpbLTM0MzAxNzA4OSwzNTg1NjQ0ODldfQ==
 -->
