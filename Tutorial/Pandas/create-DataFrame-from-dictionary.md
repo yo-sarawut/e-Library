@@ -1,6 +1,9 @@
 
-[Create DataFrame from Dictionary using default Constructor](https://thispointer.com/python-pandas-how-to-create-dataframe-from-dictionary/)
+[How to create DataFrame from dictionary](https://thispointer.com/python-pandas-how-to-create-dataframe-from-dictionary/)
 ===
+
+## Create DataFrame from Dictionary using default Constructor
+
 DataFrame constructor accepts a data object that can be ndarray, dictionary etc. i.e.
 ```py
 pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
@@ -733,5 +736,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ1MjA1MTksMzU4NTY0NDg5XX0=
+eyJoaXN0b3J5IjpbLTE4Njk4Mzc4MDEsMzU4NTY0NDg5XX0=
 -->
