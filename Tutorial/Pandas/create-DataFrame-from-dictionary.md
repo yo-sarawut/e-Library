@@ -77,28 +77,20 @@ studentData = {
 'city' : ['Sydney', 'Delhi', 'New york']
 }
 ```
-Create a DataFrame from this by skipping items with key *‘age’** ,
+Create a DataFrame from this by skipping items with key **‘age’** ,
+```py
+## Creating Dataframe from Dictionary by Skipping 2nd Item from dict
+dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
+```
 
-# Creating Dataframe from Dictionary by Skipping 2nd Item from dict
-dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
-1
-2
-# Creating Dataframe from Dictionary by Skipping 2nd Item from dict
-dfObj = pd.DataFrame(studentData, columns=['name', 'city'])
 As in columns parameter we provided a list with only two column names. So, DataFrame should contain only 2 columns i.e.
 
-name      city
-0  jack    Sydney
-1  Riti     Delhi
-2  Aadi  New york
-1
-2
-3
-4
+```
    name      city
 0  jack    Sydney
 1  Riti     Delhi
 2  Aadi  New york
+```
 Create DataFrame from Dictionary with different Orientation
 We can create a DataFrame from dictionary using DataFrame.from_dict() function too i.e.
 
@@ -663,5 +655,5 @@ Transpose the dictionary
 2  30     Delhi  Riti
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDc3MTIwMiwzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbNDgwNjU2MzE2LDM1ODU2NDQ4OV19
 -->
