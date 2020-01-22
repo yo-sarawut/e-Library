@@ -7,59 +7,30 @@ pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)
 ```
 
 But if we are passing a dictionary in data, then it should  contain a list like objects in value field like Series, arrays or lists etc i.e.
+
 ```py
-# Dictionary with list object in values
-studentData = {
-'name' : ['jack', 'Riti', 'Aadi'],
-'age' : [34, 30, 16],
-'city' : ['Sydney', 'Delhi', 'New york']
-}
-```
-```py
-''' 
-Pass dictionary in Dataframe constructor to create a new object
-keys will be the column names and lists in values will be column data
-'''
-dfObj = pd.DataFrame(studentData) 
-```
-```
 # Dictionary with list object in values
 studentData = {
     'name' : ['jack', 'Riti', 'Aadi'],
     'age' : [34, 30, 16],
     'city' : ['Sydney', 'Delhi', 'New york']
 }
+```
 On Initialising a DataFrame object with this kind of dictionary, each item (Key / Value pair) in dictionary will be converted to one column i.e. key will become Column Name and list in the value field will be the column data i.e.
-
-''' 
+```py
+'''
 Pass dictionary in Dataframe constructor to create a new object
 keys will be the column names and lists in values will be column data
 '''
 dfObj = pd.DataFrame(studentData) 
-1
-2
-3
-4
-5
-''' 
-Pass dictionary in Dataframe constructor to create a new object
-keys will be the column names and lists in values will be column data
-'''
-dfObj = pd.DataFrame(studentData) 
-It will create a DataFrame object like this,
-
+```
+```
 age      city  name
 0   34    Sydney  jack
 1   30     Delhi  Riti
 2   16  New york  Aadi
-1
-2
-3
-4
-   age      city  name
-0   34    Sydney  jack
-1   30     Delhi  Riti
-2   16  New york  Aadi
+```
+
 All the keys in dictionary will be converted to column names and lists in each its value field will we converted to column Data.
 
 Create DataFrame from Dictionary with custom indexes
@@ -770,5 +741,5 @@ Transpose the dictionary
 
 Python Recommendations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU0OTgxNSwzNTg1NjQ0ODldfQ==
+eyJoaXN0b3J5IjpbLTE5MDMwODk1NjksMzU4NTY0NDg5XX0=
 -->
