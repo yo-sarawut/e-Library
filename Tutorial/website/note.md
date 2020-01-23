@@ -8,8 +8,9 @@ Note for Frontend
 - [สรุปการใช้งาน Bootstrap 4 แบบพื้นฐาน](https://benzneststudios.com/blog/web/bootstrap-4-basic-part-1/)
 - [สอนทำเว็บตั้งแต่พื้นฐาน สอน HTML,CSS](http://www.enjoyday.net/webtutorial/css/index.html)
 - [HTML5 Tutorials](https://1stwebdesigner.com/30-html5-tutorials/)
+- [tutorialrepublic.com](https://www.tutorialrepublic.com/javascript-examples.php)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDQ0ODkzNCw0Njc5NDExODYsMzQ1MD
-M3NTg3XX0=
+eyJoaXN0b3J5IjpbLTE4NTkwOTQ2ODYsMTk2NDQ0ODkzNCw0Nj
+c5NDExODYsMzQ1MDM3NTg3XX0=
 -->
