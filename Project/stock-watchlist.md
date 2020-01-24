@@ -37,6 +37,8 @@ PANTONE 19-4055
 ![enter image description here](https://github.com/C451/trading-vue-js/raw/master/docs/guide/assets/Guide-f7ba1f13.png)
 - [Icon ธงชาติ](https://flag-icon-css.lip.is) , [GitHub](https://github.com/lipis/flag-icon-css)  , [ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/) of a country
 - [ภาพธงชาติ (สวยงาม)](https://www.interactivebrokers.com/en/index.php?f=14193)
+- [flag component for Vue.js](https://vuejsexamples.com/one-easy-to-use-flag-component-for-vue-js-with-230-countries/)
+![enter image description here](https://vuejsexamples.com/content/images/2019/12/vueflags.jpg)
 - [Plotly](https://dash-gallery.plotly.host/dash-web-trader/)
 - [Dash](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
 - [ThaiQuants Data : รวม link ข้อมูลต่าง ๆ ของ SET](http://thaiquants.com/data/)
@@ -362,9 +364,9 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OT
-YwMzg4NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIs
-MTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MT
-c2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0
-MiwtMjExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbLTYxMTUyMDU0NywxMTc5MzcxMTcxLC04MT
+c2NjU2MzksLTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MTY1ODgz
+LDcyODY3MzQ1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwtMTEzNT
+A5MTkzMSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NTcxNjQ1
+MCwtOTQwODQxMzQyLC0yMTE2MTMzMTIxXX0=
 -->
