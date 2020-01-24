@@ -117,6 +117,8 @@ PyEphem เป็นโมดูลสำหรับงานคำนวณด
 
 ![enter image description here](https://vuejsexamples.com/content/images/2019/05/shak-vue-weatherapp.gif)
 
+- [A small and stylish weather dashboard with vue](https://vuejsexamples.com/a-small-and-stylish-weather-dashboard-with-vue/)
+![enter image description here](https://vuejsexamples.com/content/images/2019/12/The-Weather-Dashboard.jpg)
 - [A local weather Web app built with Vue.js](https://vuejsexamples.com/a-local-weather-web-app-built-with-vue-js/)
 
 ![enter image description here](https://vuejsexamples.com/content/images/2018/02/weatherapp.png)
@@ -513,11 +515,11 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc0NTQ1MjksMjA2NzA0ODExOSwxMD
-IyMzgxODU1LC0yMTI2MDQ1OTM4LDc5NDU5MTM5OCwtMTMyNzcw
-ODAxMywtMTAyNjY2NzU2MCwtMjc0MjUxMTU5LC0yMTI4OTI4Mz
-E4LC0xMjE5ODczNDQsLTQ3NzQ1NzYwOCwtMTM5NTYxNjMxLDEz
-NTc5OTEwODMsMTA2MjMwNjU2MCwxNTgzNDkyMjc2LC0yNzc1MD
-k3MzcsLTE0NDE5MTkxODUsLTc1OTc0NTE5MywtMTkyMjA4MzY3
-LC0xOTEwNDc1MjI0XX0=
+eyJoaXN0b3J5IjpbLTU1OTY0OTI2MiwtMTY0NzQ1NDUyOSwyMD
+Y3MDQ4MTE5LDEwMjIzODE4NTUsLTIxMjYwNDU5MzgsNzk0NTkx
+Mzk4LC0xMzI3NzA4MDEzLC0xMDI2NjY3NTYwLC0yNzQyNTExNT
+ksLTIxMjg5MjgzMTgsLTEyMTk4NzM0NCwtNDc3NDU3NjA4LC0x
+Mzk1NjE2MzEsMTM1Nzk5MTA4MywxMDYyMzA2NTYwLDE1ODM0OT
+IyNzYsLTI3NzUwOTczNywtMTQ0MTkxOTE4NSwtNzU5NzQ1MTkz
+LC0xOTIyMDgzNjddfQ==
 -->
