@@ -14,8 +14,10 @@
 - [NordPass :](https://nordpass.com/) 
   
 - [A Vue.js component to generate bcrypt htpasswd entries ](https://vuejsexamples.com/a-vue-js-component-to-generate-bcrypt-htpasswd-entries/)
-
+- [A simple password checker component written in vanilla js](https://vuejsexamples.com/a-simple-password-checker-component-written-in-vanilla-js/)
+![enter image description here](https://vuejsexamples.com/content/images/2020/01/Vue-Simple-Password-Meter.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzOTg1MzI3LDE4NTM5NTE3MzFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTE2NDQ1MTUsNzYzOTg1MzI3LDE4NT
+M5NTE3MzFdfQ==
 -->
