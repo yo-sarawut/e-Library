@@ -34,6 +34,7 @@ PANTONE 19-4055
 ---
 - [==trading-vue-js==](https://github.com/C451/trading-vue-js/tree/master/docs/guide#getting-started)
 
+![enter image description here](https://github.com/C451/trading-vue-js/raw/master/docs/guide/assets/Guide-f7ba1f13.png)
 - [Icon ธงชาติ](https://flag-icon-css.lip.is) , [GitHub](https://github.com/lipis/flag-icon-css)  , [ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/) of a country
 - [ภาพธงชาติ (สวยงาม)](https://www.interactivebrokers.com/en/index.php?f=14193)
 - [Plotly](https://dash-gallery.plotly.host/dash-web-trader/)
@@ -361,9 +362,9 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzIzODAwNzMsLTgxNzY2NTYzOSwtNT
-k2MDM4ODQ2LDE4Mjg4MzU4NSw5MTYxNjU4ODMsNzI4NjczNDUy
-LDE3NDc3NjY1NjcsLTUxNzgwNTc5LC0xMTM1MDkxOTMxLC02Nj
-E3Njg5MTAsMTgwMTIzNTAwMCwxOTg1NzE2NDUwLC05NDA4NDEz
-NDIsLTIxMTYxMzMxMjFdfQ==
+eyJoaXN0b3J5IjpbMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OT
+YwMzg4NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIs
+MTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MT
+c2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0
+MiwtMjExNjEzMzEyMV19
 -->
