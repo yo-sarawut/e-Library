@@ -133,17 +133,55 @@ Today, a website can be accessed from so many different devices — mobiles, tab
 Now, if you want to make sure that your website is responsive and looks good on all kinds of devices then you can do something like the code below.
 
 Add the following  `<meta>`  element to all your web pages:
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+```
 Modify the CSS to add a media query:
+```css
+/* Create two columns that floats next to each other */
+.sidebar {
+    float: left;
+    width: 30%;
+}
 
+.mainbar {
+    float: left;
+    width: 70%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .sidebar, .mainbar {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+/* Clear floats after the columns */
+.content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+```
 This basically makes the website display as a single column for devices with resolution smaller than 800px (most tablets and all smartphones). Why do this you ask? Imagine looking at a two-column website on your mobile device and trying to read the content. It’s not appealing, is it?!
 
 # Flex — The Responsive Way
 
 CSS Flexbox makes it quite simple to design flexible responsive layout for websites. It takes the concept behind float and streamlines it for easy adoption. The above code can be rewritten as follows:
+```css
+/* Flexbox Layout */
+.content {
+  display: flex;
+  flex-direction: row;
+}
 
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .sidebar, .mainbar {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+```
 It’s that simple.
 
 You can imagine your website to be a hierarchy of Flexbox elements, starting with the body element, and diving down into the depths till you reach the individual components on each page. Once you start adding  `<flex>`  elements to your website, it will become second nature to think of your layout in terms of  `<flex>`  properties. That’s how powerful Flexbox is!
@@ -186,5 +224,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxODg2MjQyXX0=
+eyJoaXN0b3J5IjpbMTAzOTQ5NTU5NF19
 -->
