@@ -137,12 +137,12 @@ var rebels = pilots.filter(function (pilot) {
 });var empire = pilots.filter(function (pilot) {  
   return pilot.faction === "Empire";  
 });
-
+```
 That’s it! And it’s even shorter with arrow functions:
-
+```js
 const rebels = pilots.filter(pilot => pilot.faction === "Rebels");  
 const empire = pilots.filter(pilot => pilot.faction === "Empire");
-
+```
 Basically, if the callback function **returns true**, the current element **will be in the resulting array**. If it returns false, it won’t be.
 
 # Combining .map(), .reduce(), and .filter()
@@ -150,7 +150,7 @@ Basically, if the callback function **returns true**, the current element **will
 Since all three are called on arrays and since  `.map()`  and  `.filter()`  both return arrays, we can easily chain our calls.
 
 Let’s check out another example. Here’s our data:
-
+```js
 var personnel = [  
   {  
     id: 5,  
@@ -188,7 +188,7 @@ var personnel = [
     isForceUser: true,  
   },  
 ];
-
+```
 Our objective: get the total score of force users only. Let’s do it step by step!
 
 First, we need to filter out the personnel who can’t use the force:
@@ -198,19 +198,19 @@ var jediPersonnel = personnel.filter(function (person) {
 });// Result: [{...}, {...}, {...}] (Luke, Ezra and Caleb)
 
 With that we have 3 elements left in our resulting array. We now need to create an array containing the total score of each Jedi.
-
+```js
 var jediScores = jediPersonnel.map(function (jedi) {  
   return jedi.pilotingScore + jedi.shootingScore;  
 });// Result: [154, 110, 156]
-
+```
 And let’s use reduce to get the total:
-
+```js
 var totalJediScore = jediScores.reduce(function (acc, score) {  
   return acc + score;  
 }, 0);// Result: 420
-
+```
 And now here’s the fun part… we can chain all of this to get what we want in a single line:
-
+```js
 var totalJediScore = personnel  
   .filter(function (person) {  
     return person.isForceUser;  
@@ -221,14 +221,14 @@ var totalJediScore = personnel
   .reduce(function (acc, score) {  
     return acc + score;  
   }, 0);
-
+```
 And look how pretty it is with arrow functions:
-
+```js
 const totalJediScore = personnel  
   .filter(person => person.isForceUser)  
   .map(jedi => jedi.pilotingScore + jedi.shootingScore)  
   .reduce((acc, score) => acc + score, 0);
-
+```
 Boom! 💥
 
 _Note: In my previous example,_ `_.map()_` _and_ `_.filter()_` _weren’t even necessary. We could easily achieve the same result with only_ `_.reduce()_`_. I left them in there for the sake of this example. Can you guess how we could only keep_ `_.reduce()_` _and get the same result with one line of code?_ [_See the solution on CodePen_](https://codepen.io/etiennetalbot/pen/EozzeZ?editors=0011)
@@ -240,7 +240,7 @@ I used to use  `for`  loops everywhere instead of  `.map()`,  `.reduce()`, and  
 ## Formatting
 
 Say you need to display a list of people, with their name and job title.
-
+```js
 var data = [  
   {  
     name: "Jan Dodonna",  
@@ -251,28 +251,28 @@ var data = [
     title: "Admiral",  
   },  
 ]
-
+```
 The API gives you the above data, but you only need the title and the last name of each person… You need to format the data. However, your app also needs to have a single view for each person, so you must write a data formatting function that both works in a list view and in a single view.
 
 That means you can’t have the  `.forEach`  loop inside of your formatting function, or else you would have to wrap your single element in an array before you pass it to the function just to make it work, like so:
-
+```js
 var result = formatElement([element])[0];  
 // Yeah... that's not right at all
-
+```
 So your loop has to wrap the call of the function, like this:
-
+```js
 data.forEach(function (element) {  
   var formatted = formatElement(element);  
   // But what then....  
 });
-
+```
 But  `.forEach()`  doesn’t return anything. It can’t. That means you have to push the results inside a predetermined array.
-
+```js
 var results = [];data.forEach(function (element) {  
   var formatted = formatElement(element);  
   results.push(formatted);  
 });
-
+```
 As a result, you have 2 functions: your  `formatElement()`  function and your function that pushes the results in your array.
 
 Why have 2 functions when you can have just one?
@@ -308,5 +308,5 @@ Follow
 
 > Written with [StackEdit](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTU1MzQwXX0=
+eyJoaXN0b3J5IjpbMzU4ODI0NTZdfQ==
 -->
