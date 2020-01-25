@@ -107,6 +107,25 @@ For designing an entire website, the basic idea to understand is that the  `<flo
   </body>
 </html>
 ```
+```css
+/* Create two columns that floats next to each other */
+.sidebar {
+    float: left;
+    width: 30%;
+}
+
+.mainbar {
+    float: left;
+    width: 70%;
+}
+
+/* Clear floats after the columns */
+.content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+```
 Today, a website can be accessed from so many different devices — mobiles, tablets, laptops, PCs. So, how would you ensure that your website looks good on any device? The answer is  **Responsive Web Design**. It has only one guiding principle:  **_A web page should look good on any device!_**
 
 [w3schools](https://www.w3schools.com/html/html_responsive.asp)  has a rather neat definition: “_Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones)._”
@@ -114,6 +133,8 @@ Today, a website can be accessed from so many different devices — mobiles, tab
 Now, if you want to make sure that your website is responsive and looks good on all kinds of devices then you can do something like the code below.
 
 Add the following  `<meta>`  element to all your web pages:
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 Modify the CSS to add a media query:
 
@@ -165,5 +186,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA5NjU2OV19
+eyJoaXN0b3J5IjpbNDkxODg2MjQyXX0=
 -->
