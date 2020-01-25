@@ -1,10 +1,6 @@
 # Simplify your JavaScript – Use .map(), .reduce(), and .filter()
 
-[![Etienne Talbot](https://miro.medium.com/fit/c/48/48/1*JKns5X9-6JmOmo4Dyqb_ug.jpeg)](https://medium.com/@etiennetalbot?source=post_page-----bd02c593cc2d----------------------)
-
-[Etienne Talbot](https://medium.com/@etiennetalbot?source=post_page-----bd02c593cc2d----------------------)
-
-Follow
+![enter image description here](https://miro.medium.com/max/2401/1*mG4yPf0dVoBk0R6csThChQ.png)
 
 [Jan 29, 2018](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d?source=post_page-----bd02c593cc2d----------------------)  ·  7  min read
 
@@ -15,7 +11,7 @@ _Take note that this article most likely applies to whatever other programming l
 # .map()
 
 Let me explain how it works with a simple example. Say you have received an array containing multiple objects – each one representing a person. The thing you really need in the end, though, is an array containing only the id of each person.
-
+```js
 // What you have  
 var officers = [  
   { id: 20, name: 'Captain Piett' },  
@@ -309,5 +305,5 @@ Follow
 
 > Written with [StackEdit](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTcxMzgxMF19
+eyJoaXN0b3J5IjpbLTgzNDgxNTk0MF19
 -->
