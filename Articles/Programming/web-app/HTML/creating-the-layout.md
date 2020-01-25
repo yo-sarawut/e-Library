@@ -223,7 +223,7 @@ By now you should be able to spot the issue with using  `<flex>`  to design an e
 ![](https://miro.medium.com/max/698/0*QriIVOGWeM4ApYXM.png)
 
 Going by the example above, you can design a layout of your website using the CSS Grid as follows.
-
+```html
 <html>
   <head>
   </head>
@@ -237,7 +237,8 @@ Going by the example above, you can design a layout of your website using the CS
     </div>
   </body>
 </html>
-
+```
+```css
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -256,7 +257,7 @@ Going by the example above, you can design a layout of your website using the CS
 .grid-container > div {
   text-align: center;
 }
-
+```
 ![](https://miro.medium.com/max/998/0*RBEc4iNzaPGQmy0F.png)
 
 The  `grid-template-areas`  is a great way to structure your layout. It’s represented visually in code and is easily understandable. Comparing this with the earlier ways (the rigid structure of the tables, the cumbersome floats and the multi-level hierarchy of the flexbox), we can see how easy the CSS Grid has made designing a layout!
@@ -279,5 +280,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ3NDIyMDhdfQ==
+eyJoaXN0b3J5IjpbLTUwOTY2Mjc4Nl19
 -->
