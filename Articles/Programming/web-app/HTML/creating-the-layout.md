@@ -86,10 +86,27 @@ When we look at the other options available, you will realise why it’s so bad 
 
 The CSS Float property is used to float elements in a website. For example, you can float an image next to a body of text. This is  `<float>`  in its simplest usage. The same concept can be used to design an entire website.
 
+```html
+img {
+  float: right;
+}
+```
 For designing an entire website, the basic idea to understand is that the  `<float>`  element can be used to design an n-column layout. We can combine this with the  `<div>`  element to create a layout as given below.
-
-Note:  _A float column should be cleared, or it will mess up the layout of elements that follow after!_
-
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="topmenu"></div>
+    <div class="content">
+      <div class="sidebar"></div>
+      <div class="mainbar"></div>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
+```
 Today, a website can be accessed from so many different devices — mobiles, tablets, laptops, PCs. So, how would you ensure that your website looks good on any device? The answer is  **Responsive Web Design**. It has only one guiding principle:  **_A web page should look good on any device!_**
 
 [w3schools](https://www.w3schools.com/html/html_responsive.asp)  has a rather neat definition: “_Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones)._”
@@ -148,5 +165,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODEwNjc5M119
+eyJoaXN0b3J5IjpbLTE4ODA5NjU2OV19
 -->
