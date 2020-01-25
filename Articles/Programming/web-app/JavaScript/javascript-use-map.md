@@ -18,29 +18,32 @@ var officers = [
   { id: 24, name: 'General Veers' },  
   { id: 56, name: 'Admiral Ozzel' },  
   { id: 88, name: 'Commander Jerjerrod' }  
-];// What you need  
+];
+```
+```
+// What you need  
 [20, 24, 56, 88]
-
+```
 There are multiple ways to achieve this. You might want to do it by creating an empty array, then using  `.forEach()`,  `.for(...of)`, or a simple  `.for()`  to meet your goal.
 
 Let’s compare!
 
 Using  `.forEach()`:
-
+```js
 var officersIds = [];officers.forEach(function (officer) {  
   officersIds.push(officer.id);  
 });
-
+```
 Notice how you have to create an empty array beforehand? Let’s see what it looks like when using  `.map()`:
-
+```js
 var officersIds = officers.map(function (officer) {  
   return officer.id  
 });
-
+```
 We can even be more concise with arrow functions (requires ES6 support, Babel or TypeScript)
-
+```js
 const officersIds = officers.map(officer => officer.id);
-
+```
 So how does  `.map()`  work? Basically is takes 2 arguments, a callback and an optional context (will be considered as  `this`  in the callback) which I did not use in the previous example. The callback runs for  **each value in the array** and  **returns each new value**  in the resulting array.
 
 Keep in mind that the resulting array will always be the same length as the original array.
@@ -52,7 +55,7 @@ Just like  `.map()`,  `.reduce()`  also runs a callback for each element of an a
 The accumulator can be pretty much anything (integer, string, object, etc.) and must be instantiated or passed when calling  `.reduce()`.
 
 Time for an example! Say you have an array with these pilots and their respective years of experience:
-
+```js
 var pilots = [  
   {  
     id: 10,  
@@ -75,7 +78,7 @@ var pilots = [
     years: 22,  
   }  
 ];
-
+```
 We need to know the total years of experience of all of them. With  `.reduce()`, it’s pretty straightforward:
 
 var totalYears = pilots.reduce(function (accumulator, pilot) {  
@@ -103,7 +106,7 @@ As you can see, using  `.reduce()`  is an easy way to generate a single value or
 What if you have an array, but only want some of the elements in it? That’s where  `.filter()`  comes in!
 
 Here’s our data:
-
+```js
 var pilots = [  
   {  
     id: 2,  
@@ -126,9 +129,9 @@ var pilots = [
     faction: "Rebels",  
   }  
 ];
-
+```
 Say we want two arrays now: one for rebel pilots, the other one for imperials. With  `.filter()`  it couldn’t be easier!
-
+```js
 var rebels = pilots.filter(function (pilot) {  
   return pilot.faction === "Rebels";  
 });var empire = pilots.filter(function (pilot) {  
@@ -305,5 +308,5 @@ Follow
 
 > Written with [StackEdit](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDgxNTk0MF19
+eyJoaXN0b3J5IjpbLTMzNTU1MzQwXX0=
 -->
