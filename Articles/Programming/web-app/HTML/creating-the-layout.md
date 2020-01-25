@@ -11,7 +11,7 @@ Photo by  [Pankaj Patel](https://unsplash.com/photos/Ylk5n_nd9dA?utm_source=unsp
 # Tables — Do Not Do This!
 
 This was used earlier when the web was still in its infancy, and there wasn’t much you could do with a website except display text. The developers had got used to designing websites using  `<table>`  element and stuck to it even when new things (CSS, images, animations, small screens) came into the picture.
-
+```html
 <html>
 <body>
 <table width="600px" cellspacing="0" cellpadding="0" align="center">
@@ -75,7 +75,7 @@ cellspacing="0" cellpadding="0">
 </table>
 </body>
 </html>
-
+```
 Websites designed using  `<table>`  element are fixed in nature. They can’t be redesigned to handle new changes, everything will have to be rewritten completely. This is because the  `<table>`  element is meant to display only tabular data, and nothing more. So do not use it for website layout!
 
 When we look at the other options available, you will realise why it’s so bad to use the Table-based layout. Especially when you are trying to create responsive websites.
@@ -148,5 +148,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTA4MTcwNl19
+eyJoaXN0b3J5IjpbLTI0ODEwNjc5M119
 -->
