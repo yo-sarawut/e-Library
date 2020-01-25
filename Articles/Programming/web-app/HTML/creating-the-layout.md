@@ -193,14 +193,69 @@ I won’t add anything more here, because there is a beautiful website which alr
 By now you should be able to spot the issue with using  `<flex>`  to design an entire layout. It is a one-dimensional tool (a row/column layout), and as such has to be adapted to be used for designing a website layout which is two-dimensional. This is why you will end up with a hierarchy of nested Flexbox elements in your layout design.
 
 **Grid**  solves this by providing a two-dimensional layout that can be designed as per your requirements. The below code creates a 3-column layout of 8 items.
-
-![](https://miro.medium.com/max/30/0*QriIVOGWeM4ApYXM.png?q=20)
-
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>  
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>  
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+    </div>
+  </body>
+</html>
+```
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  text-align: center;
+}
+```
 ![](https://miro.medium.com/max/698/0*QriIVOGWeM4ApYXM.png)
 
 Going by the example above, you can design a layout of your website using the CSS Grid as follows.
 
-![](https://miro.medium.com/max/30/0*RBEc4iNzaPGQmy0F.png?q=20)
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item1">Header</div>
+      <div class="item2">Menu</div>
+      <div class="item3">Main</div>  
+      <div class="item4">Right</div>
+      <div class="item5">Footer</div>
+    </div>
+  </body>
+</html>
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+}
 
 ![](https://miro.medium.com/max/998/0*RBEc4iNzaPGQmy0F.png)
 
@@ -224,5 +279,5 @@ _Originally published at_ [_www.amithraravi.com_](https://www.amithraravi.com/ar
 
 > Written with [StackEdit](https://medium.com/elfsight-blog/website-design-creating-the-layout-in-html-887c6b30cf13).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTQ5NTU5NF19
+eyJoaXN0b3J5IjpbLTE2MjQ3NDIyMDhdfQ==
 -->
