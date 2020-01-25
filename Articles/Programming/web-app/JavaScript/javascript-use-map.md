@@ -307,7 +307,7 @@ Follow
 #### Thanks to  Tea Rudolf  and  Laurent Jalbert Simard.
 
 
-> Written with [StackEdit](https://stackedit.io/).
+> Written with [StackEdit](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5NTcyMjZdfQ==
+eyJoaXN0b3J5IjpbMTk3MTcxMzgxMF19
 -->
