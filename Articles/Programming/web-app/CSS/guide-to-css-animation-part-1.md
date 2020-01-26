@@ -27,9 +27,8 @@ CSS animation can be a quick concept to grasp but a big topic to cover once we r
 
 This enables you to edit and fork live examples 👍
 
-You can also grab the code on Github
-
-[](https://github.com/jh3y/a-guide-to-css-animation)
+You can also grab the code on GitHub [Demo code for "A Guide to CSS Animation"
+](https://github.com/jh3y/a-guide-to-css-animation)
 
 ## 
 
@@ -246,5 +245,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzU4Mjk5MSwxOTk5NDg1ODI3XX0=
+eyJoaXN0b3J5IjpbLTEwNTM1MTcwNywxOTk5NDg1ODI3XX0=
 -->
