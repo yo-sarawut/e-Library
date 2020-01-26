@@ -67,10 +67,10 @@ For example, imagine that you want every image in a blog post to be  `2rem`  bel
 In this case, you would have to use the selector  `img + img`. Since combinator selectors match the last element, you would be forced to use  `margin-top`.
 
 **Example**
-
+```css
 img { margin-top: 2rem; }  
 img + img { margin-top: 1rem; }
-
+```
 ## Margin-bottom
 
 `margin-bottom`  is better when something requires a specific  `margin-bottom`, regardless of what element follows it.
@@ -382,5 +382,5 @@ Also if you have any other layout methods you like,  **please share in the comme
 
 > Written with [StackEdit](https://medium.com/@sargalias/layout-in-css-634c3ca3dcff).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTU3MTA4XX0=
+eyJoaXN0b3J5IjpbOTg2NTA2ODQ5LC02MDE1NzEwOF19
 -->
