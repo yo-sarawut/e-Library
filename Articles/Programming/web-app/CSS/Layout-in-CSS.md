@@ -1,5 +1,7 @@
 # Layout in CSS
 
+![enter image description here](https://miro.medium.com/max/2500/0*8O0Gk7m8pIJO35H2)
+
 _This post (_[_Layout in CSS_](https://sargalias.com/blog/layout-in-css/)_) was originally published on_ [_Sargalias_](https://sargalias.com/)_._
 
 ----------
@@ -76,9 +78,9 @@ img + img { margin-top: 1rem; }
 For example, if you want every  `h2`  to have a minimum space underneath it of  `2rem`, you would use the  `margin-bottom`property.
 
 **Example**
-
+```
 h2 { margin-bottom: 2rem; }
-
+```
 ## Both
 
 Using both is also acceptable. That way you can set minimum spacing both above and below each particular element.
@@ -186,12 +188,12 @@ In comparison, if a component needs to change its  `margin`  and such depending 
 **Implementation**
 
 Implementation of this method is extremely simple.
-
+```css
 .container {  
   display: grid;  
   gap: 2rem;  
 }
-
+```
 Consider the pen below. Note how:
 
 -   The parent sets the positioning of the components.
@@ -380,5 +382,5 @@ Also if you have any other layout methods you like,  **please share in the comme
 
 > Written with [StackEdit](https://medium.com/@sargalias/layout-in-css-634c3ca3dcff).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE3Mjg1MjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTMyMTg5NzFdfQ==
 -->
