@@ -15,7 +15,6 @@ use  **v-if** on the template tag or change the template tag into an element (di
 
 ## example
 
-![](https://miro.medium.com/max/26/1*j_WSnO7Bx0fWfX83JPphSg.png?q=20)
 
 ![](https://miro.medium.com/max/1620/1*j_WSnO7Bx0fWfX83JPphSg.png)
 
@@ -58,5 +57,5 @@ In my app the Vuex store module was named  **user**, then there were properties 
 
 I am creating a community of Vue fans, it will be free for the first 20 people. But after that it will have a fee of about $20. Why? To ensure that only people that are serious about Vue join. There are still some spots available,  [join now!](https://vue-community.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NzQzNzAwXX0=
+eyJoaXN0b3J5IjpbMjAwMDQzMzYxLDI1Nzc0MzcwMF19
 -->
