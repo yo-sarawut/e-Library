@@ -1,6 +1,7 @@
 
 A Guide to CSS Animation — Part 2
 ==
+
 # animation-iteration-count
 
 Let’s pick up from where we left off with by modifying our first animation. If you need a little refresher, this is what we had.
@@ -215,5 +216,5 @@ You can use comma separated values for your  `animation`  properties. But you co
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTM2OTE4MCwtNzYwMDM0ODEzXX0=
+eyJoaXN0b3J5IjpbMTAzNDQyNDQzMCwtNzYwMDM0ODEzXX0=
 -->
