@@ -131,7 +131,7 @@ Any custom form input component we develop or import from a third party should b
 
 There are many popular components in Vue.js community. But if we need to customize styling, it is not that easy. Some of the examples are:
 
-![](https://miro.medium.com/max/30/1*RXJwdLjdS6aCzko-RllRTg.png?q=20)
+
 
 ![](https://miro.medium.com/max/621/1*RXJwdLjdS6aCzko-RllRTg.png)
 
@@ -373,5 +373,5 @@ You can access your custom input control just like native input using  `HTMLForm
 
 [**Source :**](https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODE2NTc2N119
+eyJoaXN0b3J5IjpbLTIyNzY3OTEzNCwtMzA4MTY1NzY3XX0=
 -->
