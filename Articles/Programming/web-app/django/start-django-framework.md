@@ -7,7 +7,7 @@
 
 [Django](https://www.djangoproject.com/)  (อ่านว่าจังโก้ หรือแจงโก้ โดยไม่ออกเสียงตัว D) เป็น framework ที่ใช้ในการสร้าง Web Application ในฝั่งของ Back End ที่พัฒนาด้วยภาษา Python โดยในตัว framework จะมีส่วนประกอบทุกอย่างที่จำเป็นตั้งแต่การเชื่อมต่อฐานข้อมูล ไปจนถึงการ render ข้อมูลออกมาให้ฝั่ง Front End แสดงผลข้อมูลเหล่านั้นได้ ซึ่ง framework ในรูปแบบนี้ในภาษาอื่นๆ เช่น  [Ruby on rails](http://rubyonrails.org/)  สำหรับภาษา Ruby,  [Play Framework](https://www.playframework.com/)  สำหรับภาษา Java หรือ Scala,  [Groovy on Grails](https://grails.org/)  สำหรับภาษา Groovy,  [Laravel](https://laravel.com/)  สำหรับภาษา PHP, หรือ  [Express](https://expressjs.com/) สำหรับภาษา Javascript ของ Node.js เป็นต้น ซึ่งข้อมูลที่อ้างอิงมาจาก  [www.hotframeworks.com](http://hotframeworks.com/)  จะเห็นว่า Django มีการใช้งานอย่างแพร่หลายมาก
 
-![](https://miro.medium.com/max/30/1*dbCBacpdN_GShJIcmBoqyw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1717/1*dbCBacpdN_GShJIcmBoqyw.png)
 
@@ -38,7 +38,7 @@ Web Frameworks Popularity Ranking อ้างอิงจาก  [www.hotframew
     บน Linux, Mac พิมพ์คำสั่ง $ python3  
     จะต้องได้หน้า python console ออกมาเหมือนในรูปด้านล่างนี้
 
-![](https://miro.medium.com/max/30/1*7Rj5BCriqN-R9yHL0GpLJw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1040/1*7Rj5BCriqN-R9yHL0GpLJw.png)
 
@@ -55,7 +55,7 @@ pip3 คือ package manager ที่ใช้สำหรับติดต�
 พิมพ์คำสั่ง $ pip3 install django==1.11.5  
 แล้ว pip3 จะ download django เข้ามาติดตั้งในเครื่องให้โดยอัตโนมัติ
 
-![](https://miro.medium.com/max/30/1*wChDOkON0eudIqPdBQ6rMA.png?q=20)
+
 
 ![](https://miro.medium.com/max/802/1*wChDOkON0eudIqPdBQ6rMA.png)
 
@@ -63,7 +63,7 @@ pip3 คือ package manager ที่ใช้สำหรับติดต�
 
 4. ตรวจสอบการติดตั้ง โดยพิมพ์คำสั่ง $ django-admin ตามรูปด้านล่าง
 
-![](https://miro.medium.com/max/30/1*AQN9l6v7KgvP_61mE83i1Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/593/1*AQN9l6v7KgvP_61mE83i1Q.png)
 
@@ -78,7 +78,7 @@ NOTE: สำหรับ Linux user อาจเจอ Error
 ซึ่งหมายความว่าคำสั่ง django-admin ยังไม่ได้อยู่ใน PATH environment variable ให้ค้นหา Path ของ django-admin ด้วยคำสั่ง $ find / -name django-admin.py  
 ซึ่งโดยปกติแล้ว path จะอยู่ที่ /home/<user>/.local/bin/django-admin.py เช่น
 
-![](https://miro.medium.com/max/30/1*tX6_CTF10J7o4lf_2CZ3eg.png?q=20)
+
 
 ![](https://miro.medium.com/max/953/1*tX6_CTF10J7o4lf_2CZ3eg.png)
 
@@ -94,7 +94,7 @@ $ django-admin startproject my_library
 ```
 จะทำให้ได้โฟลเดอร์ my_library ซึ่งด้านในจะเก็บไฟล์ project ของ Django ดังนี้
 
-![](https://miro.medium.com/max/30/1*IKPrTzaqWj_vg3jXVwYtzQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/421/1*IKPrTzaqWj_vg3jXVwYtzQ.png)
 
@@ -108,7 +108,7 @@ $ django-admin startproject my_library
 
 ทดลองรัน Django Project ที่ port 8000 ด้วยคำส่ัง
 ```
-> $ py manage.py runserver 0.0.0.0:8000
+$ py manage.py runserver 0.0.0.0:8000
 ```
 หรือ สำหรับ Linux ให้รันคำสั่ง
 ```
@@ -624,5 +624,6 @@ Django Shell คือ python shell แบบหนึ่งซึ่งสา�
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NTcyOTg3LC0xMTUyMjcwMjAxXX0=
+eyJoaXN0b3J5IjpbMTQ3ODM2NjQ4OSwyMjc1NzI5ODcsLTExNT
+IyNzAyMDFdfQ==
 -->
