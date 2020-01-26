@@ -21,7 +21,7 @@ $ gatsby new gatsby-contentul-blog
 
 This will create a new Gatsby project in a folder called  `gatsby-contentful-blog`.  `cd`  into the new project and run  `gatsby develop`. Now you have the default Gatsby starter homepage:
 
-![](https://miro.medium.com/max/30/1*NbgvljiIhmEl8MfiyW1Vhw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1440/1*NbgvljiIhmEl8MfiyW1Vhw.png)
 
@@ -66,7 +66,7 @@ Open up the sidebar and click on  **Create Space**. Choose the free option and g
 
 After confirming, on the dashboard, click either the “Create Content Type” button or the “Content Model” button in the header and fill in the form that appears. Let’s call the content type  **Blog Post**  and leave the API Identifier as is. Enter any description you’d like.
 
-![](https://miro.medium.com/max/28/1*9tNdtBPtBqcsG5rpyHKYbw.png?q=20)
+
 
 ![](https://miro.medium.com/max/601/1*9tNdtBPtBqcsG5rpyHKYbw.png)
 
@@ -75,33 +75,33 @@ After creating the content type, we’ll start to add some fields to it A field 
 -   Click on the  **Add Field**  button to the right of the dashboard.
 -   Select  **Text**  as the type of field you want.
 
-![](https://miro.medium.com/max/30/1*fU0B6MH0_eA05Rx_8dNYJw.png?q=20)
+
 
 ![](https://miro.medium.com/max/684/1*fU0B6MH0_eA05Rx_8dNYJw.png)
 
 -   In the form on the next screen, enter  **title**  as the name, then click on create.
 -   Add another text field called  **body**, but after selecting  **Text**, select  **Long ext**  from the radio button on the screen below.
 
-![](https://miro.medium.com/max/30/1*qP8DGKHvp7iF_ChmANiJcg.png?q=20)
+
 
 ![](https://miro.medium.com/max/809/1*qP8DGKHvp7iF_ChmANiJcg.png)
 
 -   Add another field. Select Media as the type instead of Text and call it image.
 -   Add a  _tags_  field by selecting Text as the type. Give it tags as a name, and then select the list option on the screen below since we will be storing a list of  _tags_  in this field.
 
-![](https://miro.medium.com/max/30/1*N0wpzih4KYqg0E0pC32VPA.png?q=20)
+
 
 ![](https://miro.medium.com/max/821/1*N0wpzih4KYqg0E0pC32VPA.png)
 
 -   Lastly, create a  _slug_  field. Start by selecting Text as the type and call it slug. This time, instead of clicking Create as above, click on Create and Configure. On the next screen go to the Appearance tab and select slug as the way the field should be displayed. Also, in the Validations tab select unique field to be sure that no two blog posts have the same slugs
 
-![](https://miro.medium.com/max/30/1*fWOc-abYP2qkdEFBx9tuXA.png?q=20)
+
 
 ![](https://miro.medium.com/max/881/1*fWOc-abYP2qkdEFBx9tuXA.png)
 
 Your content model should now look like this:
 
-![](https://miro.medium.com/max/30/1*3wep8DqyueFPu1ThhUFOJg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1726/1*3wep8DqyueFPu1ThhUFOJg.png)
 
@@ -204,7 +204,7 @@ This module exports a function called  `createPages`. This function has two para
 
 At this point, kill your server and start it up again. If you enter a dud route like  `[http://localhost:8000/some-non-existent-route/](http://localhost:8000/dskl;sfd/)`  you'll see Gatsby's development 404 page. This page has a list of all the routes and as you can see the newly created pages have been set up.
 
-![](https://miro.medium.com/max/30/1*MDsb5QfV9Zix8NIXSjgpsw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1440/1*MDsb5QfV9Zix8NIXSjgpsw.png)
 
@@ -385,13 +385,13 @@ With your code pushed to GitHub, head over to  [Netlify](https://www.netlify.com
 
 Next, select a repo from the list provided. if you can’t find the repo we just created, select  **Configure the Netlify app on GitHub**. This will open a popup allowing you to choose the repo you want to authorize for use with Netlify. Follow the prompts till you find the repo. After selecting our blog project, you’ll be redirected to the Netlify deploy screen and you should now be able to select the  `gatsby-contentful-blog-starter`  repo. As you can see, Netlify knows how to build Gatsby sites so you can just click the  **Deploy Site**  button at the end of the page.
 
-![](https://miro.medium.com/max/30/1*dCCihyxDW2u7YHqqYnpUzQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1158/1*dCCihyxDW2u7YHqqYnpUzQ.png)
 
 Netlify runs Gatsby sites really easy with minimal configuration. Your new site should be ready in a few minutes.
 
-![](https://miro.medium.com/max/30/1*RZgyGNpt1_gAunFTpCF4eQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1224/1*RZgyGNpt1_gAunFTpCF4eQ.png)
 
@@ -403,7 +403,7 @@ On Netify click on  **Site Settings**  and then in the left menu, select  **Buil
 
 Now copy the  **buildhook**  url and go back to your Contentful dashboard. Hit the settings dropwdown and select  **Webhooks**. The Webhooks screen already has a template for Netlify in the bottom right. Click on this.
 
-![](https://miro.medium.com/max/30/1*XoT3vHclyt7RjAGyp9eJQQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1219/1*XoT3vHclyt7RjAGyp9eJQQ.png)
 
@@ -415,5 +415,5 @@ And that’s it! It’s been quite a journey, but now we have a working blog usi
 
 [**Source :**](https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2ODI3MzA5XX0=
+eyJoaXN0b3J5IjpbMzQ0MDU0NzQsODc2ODI3MzA5XX0=
 -->
