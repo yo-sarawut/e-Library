@@ -558,13 +558,13 @@ horror_category.save()
 
 จากนั้นลองใช้ web browser เข้าไปที่ URL :  [http://localhost:8000/admin/](http://localhost:8000/admin/)  จะได้ผลลัพธ์ดังรูปต่อไปนี้
 
-![](https://miro.medium.com/max/30/1*NqdGI5dsnQo9e_M4vuyzAQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/413/1*NqdGI5dsnQo9e_M4vuyzAQ.png)
 
 จะเห็นว่าเรายังไม่สามารถเข้าใช้งานหน้า Admin ได้เนื่องจากติด Authentication ให้ทำการเพิ่ม user ด้วยคำสั่งดังรูปต่อไปนี้
 
-![](https://miro.medium.com/max/30/1*NagloDeR6ma_NPL0zqnpLw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1182/1*NagloDeR6ma_NPL0zqnpLw.png)
 
@@ -572,17 +572,17 @@ horror_category.save()
 
 จากนั้นกลับไป Login เพื่อเข้าสู่หน้าจอ Django admin site
 
-![](https://miro.medium.com/max/30/1*x-dxACxty8WyQCzjibIfHQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1884/1*x-dxACxty8WyQCzjibIfHQ.png)
 
 จากรูปจะเห็นว่าเราสามารถแก้ไขได้เพียงแค่ Table ที่เกี่ยวกับ user และ group แต่จะไม่เห็น Table Book หรือ Category เนื่องจาก Django admin ยังไม่รู้จัก Table ทั้งสองของเรา ซึ่งเราสามารถทำให้ Django รู้จัก Table ของเราได้โดยผ่านทางไฟล์ admin.py
 
-![](https://miro.medium.com/max/25/1*uS2hUne8CYBh6ClgtyTGLw.png?q=20)
+
 
 ![](https://miro.medium.com/max/658/1*uS2hUne8CYBh6ClgtyTGLw.png)
 
-![](https://miro.medium.com/max/30/1*EdAibG1Sm1AoNhyQNfRrwQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/418/1*EdAibG1Sm1AoNhyQNfRrwQ.png)
 
@@ -594,27 +594,27 @@ horror_category.save()
 
 ![](https://miro.medium.com/max/677/1*RIs5q8rvu6i-TUjHgqqD8w.png)
 
-![](https://miro.medium.com/max/30/1*USO-3DPxIDJS9tLs9rO7TA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1320/1*USO-3DPxIDJS9tLs9rO7TA.png)
 
-![](https://miro.medium.com/max/30/1*rPNfxTyhvDWKblXExkSOxA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1858/1*rPNfxTyhvDWKblXExkSOxA.png)
 
 จะเห็นว่าการแสดงผลของ Category จะพิมพ์คำว่า Category Object ออกมา เนื่องจาก Django ไม่ทราบว่าเมื่อ object ของ class Category ถูกแปลงเป็น String แล้วจะแสดงผลอย่างไร สามารถแก้ไขตรงนี้ได้โดยการ override function โดยการแก้ไขไฟล์ models.py ดังต่อไปนี้
 
-![](https://miro.medium.com/max/30/1*AbOIqeI6iif_fwpEJSoB3g.png?q=20)
+
 
 ![](https://miro.medium.com/max/555/1*AbOIqeI6iif_fwpEJSoB3g.png)
 
 การประกาศฟังก์ชั่นภายใน class ของ python จะถูกบังคับให้ใส่ตัวแปรชื่อ self มาเสมอ ซึ่งตัวแปร self จะหมายถึง object ของตัวเอง (เหมือนกับ keyword “this” ใน java หรือ C#) ส่วนฟังก์ชั่นที่ประกาศเพิ่มคือ __str__ จะเหมือนกับฟังก์ชั่น toString() ใน Java นั่นเอง
 
-![](https://miro.medium.com/max/30/1*xt8c0x0VTKbxPDcBfqdZNA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1301/1*xt8c0x0VTKbxPDcBfqdZNA.png)
 
-![](https://miro.medium.com/max/30/1*eeNlsINlgXd08dG8sCSkPg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1305/1*eeNlsINlgXd08dG8sCSkPg.png)
 
@@ -623,6 +623,6 @@ horror_category.save()
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzczNzA2MCwyMjc1NzI5ODcsLTExNT
-IyNzAyMDFdfQ==
+eyJoaXN0b3J5IjpbNDIxNzgxMDIyLDIxMzM3MzcwNjAsMjI3NT
+cyOTg3LC0xMTUyMjcwMjAxXX0=
 -->
