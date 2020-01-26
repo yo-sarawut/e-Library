@@ -308,9 +308,9 @@ With this method, the container selects their immediate components without incre
 -   If the container has multiple siblings and it needs them spaced out, it will need to put a margin on them. This means that the components won’t take up the entire space of the container unless an  _inner container_  is used.
 
 **Implementation**
-
+```css
 .container > * { margin: 1rem; }
-
+```
 ## Alternative layout 3 — Container strongly selects components
 
 With this method the container directly selects its components and sets their spacing.
@@ -382,5 +382,5 @@ Also if you have any other layout methods you like,  **please share in the comme
 
 > Written with [StackEdit](https://medium.com/@sargalias/layout-in-css-634c3ca3dcff).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwOTk0ODQsLTYwMTU3MTA4XX0=
+eyJoaXN0b3J5IjpbLTcxMzYyMjkxMywtNjAxNTcxMDhdfQ==
 -->
