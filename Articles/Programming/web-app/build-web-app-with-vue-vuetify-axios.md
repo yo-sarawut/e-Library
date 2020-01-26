@@ -405,7 +405,7 @@ export default {
 
 The omdbapi will provide us the current ratings for the movie. We will display that value in the table,
 
-![](https://miro.medium.com/max/30/1*okaLcvRTXsW2znGn-t7Ugg.png?q=20)
+
 
 ![](https://miro.medium.com/max/667/1*okaLcvRTXsW2znGn-t7Ugg.png)
 
@@ -478,11 +478,11 @@ For this, we need to create the following:
 
 Currently mounted lifecycle hook is called only one time, when we search for one time, it displays the data, ie when searched with iron man, it shows the data. but After searching with “titan”, It shows the same data. This can be fixed by using the watch property on the props of the data called name(from the App.vue) and updated the mounted property as a method. As a result, the system will call 2 times, ie when the first loaded by the mounted lifecycle hook and again search will be handled by the watcher action for the props(name) value.
 
-![](https://miro.medium.com/max/30/1*zCH_0IVgw8MntbHXnusw9Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/1241/1*zCH_0IVgw8MntbHXnusw9Q.png)
 
-![](https://miro.medium.com/max/30/1*WnkGWlNwwevk9kAeFFQX7A.png?q=20)
+
 
 ![](https://miro.medium.com/max/1254/1*WnkGWlNwwevk9kAeFFQX7A.png)
 
@@ -496,7 +496,7 @@ Suppose, when we are calling for the API with invalid movie or movie that is not
 
 We are creating a data property by default which is false, when searched data is not returning anything, will set as true and it will display the message.
 
-![](https://miro.medium.com/max/30/1*_B2SmVA0_LbpNqQFlbQ7xg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1266/1*_B2SmVA0_LbpNqQFlbQ7xg.png)
 
@@ -522,19 +522,19 @@ For that
 
 Our final output will be this:
 
-![](https://miro.medium.com/max/30/1*hii3QStv4XyzXlL2fFpU-w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1273/1*hii3QStv4XyzXlL2fFpU-w.png)
 
 LatestMovie component.
 
-![](https://miro.medium.com/max/30/1*oxTNq1V6B3t-OGhiD0lN8Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/1272/1*oxTNq1V6B3t-OGhiD0lN8Q.png)
 
 searchMovie.vue
 
-![](https://miro.medium.com/max/30/1*6eUr_CW1OxES0OAXDBe7SA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1256/1*6eUr_CW1OxES0OAXDBe7SA.png)
 
@@ -546,5 +546,5 @@ Movie.vue
 
 I hope you have enjoyed following along. Please leave claps and comments if you liked the content and would like to discuss further!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzAxODY0NywxODkxNTM5MjE3XX0=
+eyJoaXN0b3J5IjpbLTQ0MDQ5MTM3LDE4OTE1MzkyMTddfQ==
 -->
