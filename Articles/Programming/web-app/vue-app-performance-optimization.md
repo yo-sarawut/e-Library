@@ -477,7 +477,7 @@ We are importing and registering  `admin`  Store inside  `Admin.vue`  (`/admin` 
 
 Now because  `admin`  module is imported inside  `Admin.vue`  instead of  `store.js`  it will be bundled together with code-splitted  `Admnin.vue`!
 
-![](https://miro.medium.com/max/60/1*6w7lmBHGSniC1nfz4qLdUg.png?q=20)
+
 
 ![](https://miro.medium.com/max/911/1*6w7lmBHGSniC1nfz4qLdUg.png)
 
@@ -489,7 +489,7 @@ Now we know how to use dynamic Vuex module registration to distribute our route-
 
 Let’s say we have testimonials section on our  `Home.vue`  where we want to display positive opinions about our services. There’s a lot of them so we don’t want to show them right after user enters our website. It’s much better to display them only if user want it. We can add  _“Show Testimonials”_  button that will load and display the testimonials below it after clicked.
 
-![](https://miro.medium.com/max/60/1*Y8puS6MPWVBsR_amfZT1Rw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1183/1*Y8puS6MPWVBsR_amfZT1Rw.png)
 
@@ -497,7 +497,7 @@ To store testimonials data we need one more Vuex module. Let’s call it  `testi
 
 We want  `testimonials`  module to be downloaded ONLY if user clicks the button since it’s not needed before. Let’s see how we can make use of dynamic module registration and dynamic imports to achieve this functionality.  `Testimonials.vue`  is a component inside  `Home.vue.`
 
-![](https://miro.medium.com/max/60/1*2-b6NfyNgstA2S8siebyMw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1502/1*2-b6NfyNgstA2S8siebyMw.png)
 
@@ -526,5 +526,5 @@ In the next part of the series we will learn how to lazily load individual compo
 
 [**Source :**](https://itnext.io/vue-js-app-performance-optimization-part-3-lazy-loading-vuex-modules-ed67cf555976)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0MTAxODYyXX0=
+eyJoaXN0b3J5IjpbNjgyMTA4MzE4LDQyNDEwMTg2Ml19
 -->
