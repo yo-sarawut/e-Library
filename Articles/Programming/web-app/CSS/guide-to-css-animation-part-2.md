@@ -139,7 +139,7 @@ Without using  `animation-fill-mode`  the element returns to normal size at the 
 
 Now a more common scenario for using  `animation-fill-mode`  is when showing and hiding elements. Consider a scenario where we have three elements that we want to fade in.
 
-![](https://miro.medium.com/max/60/1*RDzvBINfWRW-ayw9plJh0g.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*RDzvBINfWRW-ayw9plJh0g.png)
 
@@ -184,7 +184,7 @@ This
 
 Is equivalent to this
 
-![](https://miro.medium.com/max/60/1*H358682oCimDg_z4N4mFPg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*H358682oCimDg_z4N4mFPg.png)
 
@@ -215,5 +215,5 @@ You can use comma separated values for your  `animation`  properties. But you co
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU4ODUzMDJdfQ==
+eyJoaXN0b3J5IjpbLTc2MDAzNDgxM119
 -->
