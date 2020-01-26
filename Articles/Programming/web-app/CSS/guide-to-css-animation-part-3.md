@@ -75,19 +75,11 @@ Hear me out. CSS animation is great. But once your animations start becoming com
 
 You can make use of the JavaScript hooks to manage things a little better. But if you start developing complex timelines, don’t start reinventing the wheel. There are great tools out there to aid with animation. I can’t vouch for  [GSAP](https://greensock.com/)  enough. It’s brilliant for gaining complete control over your animations from the JavaScript side.
 
-[](https://greensock.com/)
+## [GSAP, the standard for JavaScript HTML5 animation | GreenSock](https://greensock.com/)
 
-## 
 
-GSAP, the standard for JavaScript HTML5 animation | GreenSock
 
-### 
 
-GreenSock Animation Platform (GSAP) is a suite of tools for scripted, high-performance HTML5 animations in all major…
-
-#### 
-
-greensock.com
 
 So why learn CSS animation at all?! CSS animation still has it’s place. There are plenty of things you can do with it. And you might not always be able to rely on JavaScript. Especially if a user has it disabled in their browser. Consider simpler things that you might animate such as loading spinners. These still contribute to user experience.
 
@@ -105,5 +97,5 @@ All of the demos are available in the following CodePen collection
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-3-2e497110119).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzMyMzE5MF19
+eyJoaXN0b3J5IjpbLTMzNjI1NzQ4Nl19
 -->
