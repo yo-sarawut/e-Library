@@ -43,8 +43,8 @@ The  `animation-timing-function`  property defines the speed characteristics of 
 -   `steps(number, direction <optional>)`  - provides a way to split the animation into equal steps.  `direction`  values can either be  `start`  or  `end`.  `start`  means that the first step happens at the start of the animation.  `end`  means that the last step happens at the end of the animation.  `end`  is the default value.
 
 So which one do you choose? Different scenarios will call for different easing. The following is a nice short resource about the basics of easing.
-##  Code
-[The Basics of Easing | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing)
+
+## [The Basics of Easing | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing)
 
 
 You can experiment with different easings to find what feels right in your applications. This pen shows how  `animation-timing-function`  can affect the same animation.
@@ -215,5 +215,5 @@ You can use comma separated values for your  `animation`  properties. But you co
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDAzNDgxM119
+eyJoaXN0b3J5IjpbMTIwNTM2OTE4MCwtNzYwMDM0ODEzXX0=
 -->
