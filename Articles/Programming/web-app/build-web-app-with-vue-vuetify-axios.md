@@ -53,7 +53,7 @@ Passing key and also the special string is needed. s stands for search when pass
 
 In order to check what we will receive when calling the omdbapi is by testing with postman tool or any API test mechanism. Here I am using the postman for this.
 
-![](https://miro.medium.com/max/30/1*Qz8IqTSZQG3z45WeI6yGhg.png?q=20)
+
 
 ![](https://miro.medium.com/max/968/1*Qz8IqTSZQG3z45WeI6yGhg.png)
 
@@ -546,5 +546,5 @@ Movie.vue
 
 I hope you have enjoyed following along. Please leave claps and comments if you liked the content and would like to discuss further!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTUzOTIxN119
+eyJoaXN0b3J5IjpbLTI1OTI2NjUwLDE4OTE1MzkyMTddfQ==
 -->
