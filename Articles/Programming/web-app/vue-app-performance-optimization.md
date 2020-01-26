@@ -403,7 +403,7 @@ import { adminModule } from './modules/admin'const store = new Vuex.Store({
 ```
 You can imagine that such module can be pretty huge. Even though dashboard will be used only by a small part of users and in a restricted area of application (let’s say under a special  `/admin`  route) due to centralized registration of static Vuex modules all of it’s code will end up in the main bundle.
 
-![](https://miro.medium.com/max/60/1*EMvePcANptY83r80Go3Mtg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1418/1*EMvePcANptY83r80Go3Mtg.png)
 
@@ -437,7 +437,7 @@ Let’s go back to our problem. Now that we know how to register  `admin`  modul
 
 Let’s stop for the moment to briefly understand the application we are working with.
 
-![](https://miro.medium.com/max/60/1*ult4uXG6nDjt4nzEipGECQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/928/1*ult4uXG6nDjt4nzEipGECQ.png)
 ```js
@@ -526,5 +526,5 @@ In the next part of the series we will learn how to lazily load individual compo
 
 [**Source :**](https://itnext.io/vue-js-app-performance-optimization-part-3-lazy-loading-vuex-modules-ed67cf555976)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMTA4MzE4LDQyNDEwMTg2Ml19
+eyJoaXN0b3J5IjpbMTgxNTg3ODY2Nyw0MjQxMDE4NjJdfQ==
 -->
