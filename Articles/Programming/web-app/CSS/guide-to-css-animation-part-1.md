@@ -145,12 +145,10 @@ This becomes particularly useful when we have many animations. Whether it be for
 
 You can read more about the  `Animations`  inspector in the following article.
 
-[Inspect animations | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations)
+## [Inspect animations | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations)
 
 
-Inspect and modify animations with the Chrome DevTools Animation Inspector.
 
-developers.google.com
 
 Throughout this guide I recommend using the inspector when checking out the  [demos](https://codepen.io/collection/nMpBQm/). This will allow you to replay animations and tweak them without having the reload the page 👍
 
@@ -197,5 +195,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTQ1MTE4MywxOTk5NDg1ODI3XX0=
+eyJoaXN0b3J5IjpbNDM0MzU2MzU2LDE5OTk0ODU4MjddfQ==
 -->
