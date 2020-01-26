@@ -254,13 +254,13 @@ Django Rest framework ยังช่วยทำ Document ให้โดยอ
 
 และเพิ่มบรรทัดในไฟล์ settings.py ให้ถูกต้องตามรูปต่อไปนี้
 
-![](https://miro.medium.com/max/60/1*b3iJVFbyPvzUTc6TNqpygA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1328/1*b3iJVFbyPvzUTc6TNqpygA.png)
 
 rest_tutorial/urls.py
 
-![](https://miro.medium.com/max/60/1*aKlz0SGkHIoovkADkRMLww.png?q=20)
+
 
 ![](https://miro.medium.com/max/1294/1*aKlz0SGkHIoovkADkRMLww.png)
 
@@ -270,7 +270,7 @@ settings.py
 
 [http://localhost:8000/docs/](http://localhost:8000/docs/)
 
-![](https://miro.medium.com/max/60/1*UKkH8NI27JPBN9sAvfnoHg.png?q=20)
+
 
 ![](https://miro.medium.com/max/2872/1*UKkH8NI27JPBN9sAvfnoHg.png)
 
@@ -291,5 +291,5 @@ Django Rest framework เป็น framework ที่มีขนาดให�
 
 > Written with [StackEdit](https://medium.com/@wasinthiengkunakrit/การใช้งาน-django-restframework-94e08255fe3c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE3ODQ5NDEsMTQ2MTU3Nzg0NV19
+eyJoaXN0b3J5IjpbLTkzNzY3NTUzMCwxNDYxNTc3ODQ1XX0=
 -->
