@@ -227,12 +227,12 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ## 1–3–8.  [v-on](https://vuejs.org/v2/api/#v-on)  or  @
 
-> Extremely useful! (`_@_`  is a shortcut of  `_v-on_`) It’s great for binding to events like  [mouse-enter, mouse-over](https://bl.ocks.org/mbostock/5247027), and click. You’ll be able to pass in a parameter for the event like (e). We can also use ternaries directly.
+ Extremely useful! (`_@_`  is a shortcut of  `_v-on_`) It’s great for binding to events like  [mouse-enter, mouse-over](https://bl.ocks.org/mbostock/5247027), and click. You’ll be able to pass in a parameter for the event like (e). We can also use ternaries directly.
 
 We can also do  _multiple_  bindings like the following:
-
+```html
 <div @="click: onClick, keyup: onKeyup, keydown: onKeydown"></div>
-
+```
 `**v-on**` **Modifiers**:
 
 -   `@mousemove._stop_`  is comparable to  `[e.stopPropogation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)`, which keeps the event from bubbling any further up into the DOM.
@@ -262,13 +262,13 @@ We can also do  _multiple_  bindings like the following:
 
 ----------
 
-![](https://miro.medium.com/max/30/1*KE4TcC7zLrHEs-DtnQymmQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/751/1*KE4TcC7zLrHEs-DtnQymmQ.png)
 
 Copyright ©️ Sarah Drasner at  [CSS-Tricks](https://css-tricks.com/intro-to-vue-1-rendering-directives-events/)
 
-![](https://miro.medium.com/max/30/1*zVu2ErXrxMPkmRcJvA0kaw.png?q=20)
+
 
 ![](https://miro.medium.com/max/750/1*zVu2ErXrxMPkmRcJvA0kaw.png)
 
@@ -299,6 +299,6 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMTE3MDA4LC03NTgyNTM1MjgsLTEyMj
+eyJoaXN0b3J5IjpbNDczNDY4NjM0LC03NTgyNTM1MjgsLTEyMj
 Y1MjM2NDFdfQ==
 -->
