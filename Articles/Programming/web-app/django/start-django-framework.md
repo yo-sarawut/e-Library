@@ -499,7 +499,7 @@ horror_category.save()
 
 ผลลัพธ์การดึง Category ออกจากฐานข้อมูล
 
-![](https://miro.medium.com/max/30/1*eYi3-1DBoR1TiuyjXj99Og.png?q=20)
+
 
 ![](https://miro.medium.com/max/485/1*eYi3-1DBoR1TiuyjXj99Og.png)
 
@@ -509,7 +509,7 @@ horror_category.save()
 
 เราสามารถนำความรู้ที่ได้จากส่วนนี้มาใช้ร่วมกับไฟล์ template และ views.py เพื่อส่งผลลัพธ์ที่ได้จากฐานข้อมูลกลับไปให้ผู้ใช้งานได้เห็นได้ เริ่มจากทดลองแก้ไขไฟล์ templates/index.html ดังต่อไปนี้
 
-![](https://miro.medium.com/max/30/1*jdM0GQpShaF_cX855ESa2g.png?q=20)
+
 
 ![](https://miro.medium.com/max/521/1*jdM0GQpShaF_cX855ESa2g.png)
 
@@ -523,7 +523,7 @@ horror_category.save()
 
 ไฟล์ views.py ที่แก้ไขเพื่อแสดงค่าการนับ Category และ Book ในฐานข้อมูล
 
-![](https://miro.medium.com/max/30/1*C-kv3AdJpvFwHobZ7uWV3w.png?q=20)
+
 
 ![](https://miro.medium.com/max/306/1*C-kv3AdJpvFwHobZ7uWV3w.png)
 
@@ -532,7 +532,7 @@ horror_category.save()
 
 จากนั้นทดลอง Browse หน้าเวปไปที่  [http://localhost:8000/my_index/](http://localhost:8000/my_index/)  จะได้ผลลัพธ์ดังรูปต่อไปนี้
 
-![](https://miro.medium.com/max/30/1*qForVDRn2mo9gVnbylTuSQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/367/1*qForVDRn2mo9gVnbylTuSQ.png)
 
@@ -544,7 +544,7 @@ horror_category.save()
 
 การใช้งาน Django Admin นั้นขอให้ตรวจสอบไฟล์ settings.py และแก้ไขไฟล์ urls.py ให้มีค่าตามที่แสดงในรูปด้านล่างนี้
 
-![](https://miro.medium.com/max/30/1*yFuhpCStxOLsJcYlpdh_oQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/314/1*yFuhpCStxOLsJcYlpdh_oQ.png)
 
@@ -623,6 +623,6 @@ horror_category.save()
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDk2NTcxNiwyMjc1NzI5ODcsLTExNT
+eyJoaXN0b3J5IjpbMjEzMzczNzA2MCwyMjc1NzI5ODcsLTExNT
 IyNzAyMDFdfQ==
 -->
