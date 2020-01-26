@@ -56,11 +56,11 @@ With animation, we can do things such as draw a users attention to something or 
 
 Before we start creating animations, we need to know which properties we can animate. We can’t animate every property. The following MDN article lists properties that we can animate.
 
-[Animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+## [Animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
 
 
-[Animatable: One property, two values, endless possibilities](http://leaverou.github.io/animatable/)
+## [Animatable: One property, two values, endless possibilities](http://leaverou.github.io/animatable/)
 
 
 ## Property performance
@@ -71,7 +71,7 @@ For example, animating element position will be better handled using  `transform
 
 The following article is great for understanding animation performance 👍
 
-[High Performance Animations - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
+## [High Performance Animations - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
 
 
@@ -195,5 +195,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0MzU2MzU2LDE5OTk0ODU4MjddfQ==
+eyJoaXN0b3J5IjpbMTE4NTE3MjU0MCwxOTk5NDg1ODI3XX0=
 -->
