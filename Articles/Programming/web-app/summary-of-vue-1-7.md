@@ -217,9 +217,9 @@ But, if you have a full template or component only shown in a specific circumsta
 
 ## 1–3–7.  [v-once](https://vuejs.org/v2/api/#v-pre)  &  [v-pre](https://vuejs.org/v2/api/#v-pre)
 
-> `_v-once_`  is not quite useful. It will not update once it’s been rendered.
-> 
-> `_v-pre_` is a little bit more useful. It will print out the inner text exactly how it is including code (good for documentation and debugging).
+-  `_v-once_`  is not quite useful. It will not update once it’s been rendered.
+
+-  `_v-pre_` is a little bit more useful. It will print out the inner text exactly how it is including code (good for documentation and debugging).
 
 > If you’ve worked with React before, it’s similar to debugging with JSON stringify.
 
@@ -299,5 +299,6 @@ She can be found at  [her personal website](https://sarahdrasnerdesign.com/),  [
 ----------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODI1MzUyOCwtMTIyNjUyMzY0MV19
+eyJoaXN0b3J5IjpbNTgwMTE3MDA4LC03NTgyNTM1MjgsLTEyMj
+Y1MjM2NDFdfQ==
 -->
