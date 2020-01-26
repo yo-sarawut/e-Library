@@ -62,13 +62,6 @@ Before we start creating animations, we need to know which properties we can ani
 
 [Animatable: One property, two values, endless possibilities](http://leaverou.github.io/animatable/)
 
-## 
-
-Animatable: One property, two values, endless possibilities
-
-#### 
-
-leaverou.github.io
 
 ## Property performance
 
@@ -78,21 +71,9 @@ For example, animating element position will be better handled using  `transform
 
 The following article is great for understanding animation performance 👍
 
-[](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
+[High Performance Animations - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
-## 
 
-High Performance Animations - HTML5 Rocks
-
-### 
-
-We're going to cut straight to the chase. Modern browsers can animate four things really cheaply: position, scale…
-
-#### 
-
-www.html5rocks.com
-
-----------
 
 With all that out of the way, let’s get started 💪
 
@@ -102,13 +83,13 @@ Let’s dig right in and create our first animation ⛏
 
 For this animation we will make an element spin 360 degrees. Riveting stuff I know 😅 But we need to start somewhere!
 
-![](https://miro.medium.com/freeze/max/60/1*-Ip2pjgEccC_u8_jszRNSw.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*-Ip2pjgEccC_u8_jszRNSw.gif)
 
 First, we create our animation using the  `@keyframes`  rule. The  `@keyframes`  rule takes the following structure.
 
-![](https://miro.medium.com/max/60/1*U6tWmRm-iSDgXzIvX-VN2w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*U6tWmRm-iSDgXzIvX-VN2w.png)
 
@@ -116,19 +97,19 @@ First, we create our animation using the  `@keyframes`  rule. The  `@keyframes` 
 
 We will name our animation  `spin`. To spin our element we can use the  `transform`  property and rotate from  `0deg`  to  `360deg`. We use two keyframe selectors. One to define the start of our animation(`from`) and one for the end of our animation(`to`).  `from`  and  `to`  keywords are equivalent to  `0%`  and  `100%`.
 
-![](https://miro.medium.com/max/60/1*DxclFb7IjyLy1wVcPmGQcQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*DxclFb7IjyLy1wVcPmGQcQ.png)
 
 We can take this a little further. The styles under the  `from`  keyframe selector don’t make any difference to our element. So, the  `from`  keyframe selector is redundant. We can remove it.
 
-![](https://miro.medium.com/max/60/1*786ISbKk_kNftOSkV9FRTw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*786ISbKk_kNftOSkV9FRTw.png)
 
 Now, we need to apply that animation to our element. We use the  `animation-name`  and  `animation-duration`  properties 👍
 
-![](https://miro.medium.com/max/60/1*v7XXPw-IVyxsawCje4YDUQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*v7XXPw-IVyxsawCje4YDUQ.png)
 
@@ -150,13 +131,13 @@ Open up your animation in  `Google Chrome`  and open up the  `Developer Tools`. 
 
 After refreshing, you should see something in the  `Animations`  panel, that’s our animation!
 
-![](https://miro.medium.com/max/60/1*258LLOfuE6bMFdpVRj8rIQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/342/1*258LLOfuE6bMFdpVRj8rIQ.png)
 
 Click the animation and we are able to inspect it. Now as our animation isn’t particularly complex, there isn’t much to inspect. But with the  `Animations`  inspector we can do various things. We can experiment with durations and delays as well as altering playback speed. Most importantly, we can replay our animations without having to refresh the entire page 😅
 
-![](https://miro.medium.com/freeze/max/60/1*XpYJ66aZW4R4MO9zr4NQIg.gif?q=20)
+
 
 ![](https://miro.medium.com/max/614/1*XpYJ66aZW4R4MO9zr4NQIg.gif)
 
@@ -223,5 +204,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjM2Njg2LDE5OTk0ODU4MjddfQ==
+eyJoaXN0b3J5IjpbLTcwMDA2MjE5NiwxOTk5NDg1ODI3XX0=
 -->
