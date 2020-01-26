@@ -13,37 +13,17 @@ CSS animation can be a quick concept to grasp but a big topic to cover once we r
 -   Part 1: Introduces CSS animation looking at things like performance and how to inspect animations. We will also create a basic animation and look at  `@keyframes`  composition.
 -   [Part 2](https://medium.com/@jh3y/a-guide-to-css-animation-part-2-2cd422f78567): With the basics grasped, we dig into the different things we can do with the  `animation`  properties. This includes tips on things like using  `fill-mode`  and chaining animations.
 
-[](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567)
+
 
 
 
 -   [Part 3](https://medium.com/@jh3y/a-guide-to-css-animation-part-3-2e497110119): We wrap things up with some bonus topics like using CSS variables and hooking in from JavaScript. We also discuss whether you should even use CSS animation at all. That’s right, it’s not always the best option. But there’s benefit to understanding the foundations and alternatives.
 
-[](https://codeburst.io/a-guide-to-css-animation-part-3-2e497110119)
 
-## A Guide to CSS Animation — Part 3
 
-### Let’s do some cool stuff 😎
 
-#### 
 
-codeburst.io
 
-----------
-
-# Before we get started
-
-All the code is available in this CodePen collection 🤓
-
-[](https://codepen.io/collection/nMpBQm/)
-
-## 
-
-A Guide to CSS Animation - a Collection by Jhey on CodePen
-
-#### 
-
-codepen.io
 
 This enables you to edit and fork live examples 👍
 
@@ -266,5 +246,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTAwMjQ1MywxOTk5NDg1ODI3XX0=
+eyJoaXN0b3J5IjpbMTMzNzU4Mjk5MSwxOTk5NDg1ODI3XX0=
 -->
