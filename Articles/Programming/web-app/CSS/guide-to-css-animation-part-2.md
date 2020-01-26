@@ -5,7 +5,7 @@ A Guide to CSS Animation — Part 2
 
 Let’s pick up from where we left off with by modifying our first animation. If you need a little refresher, this is what we had.
 
-![](https://miro.medium.com/freeze/max/60/1*-Ip2pjgEccC_u8_jszRNSw.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*-Ip2pjgEccC_u8_jszRNSw.gif)
 
@@ -13,13 +13,12 @@ But the animation only ran once. What if we wanted the animation to run many tim
 
 Let’s say we wanted the animation to run five times.
 
-![](https://miro.medium.com/max/60/1*jI6tr2c3WxzefQtv8gQs8w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*jI6tr2c3WxzefQtv8gQs8w.png)
 
 It’s as easy as that. Let’s turn our spinning square into a loading spinner. To do this,  `animation-iteration-count`  also accepts the keyword  `infinite`  👍
 
-![](https://miro.medium.com/max/60/1*Kjxi4yjkLLU_XYq-0HgsAg.png?q=20)
 
 ![](https://miro.medium.com/max/1448/1*Kjxi4yjkLLU_XYq-0HgsAg.png)
 
@@ -29,7 +28,7 @@ Which gives us the following 🎉
 
 Let’s take another look at that spinning square. The square does keep on spinning. But not without a little break after every spin. This is due to the  `animation-timing-function`.
 
-![](https://miro.medium.com/freeze/max/60/1*ZLekwO4QthfAWlBgM-9vpA.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*ZLekwO4QthfAWlBgM-9vpA.gif)
 
@@ -44,26 +43,15 @@ The  `animation-timing-function`  property defines the speed characteristics of 
 -   `steps(number, direction <optional>)`  - provides a way to split the animation into equal steps.  `direction`  values can either be  `start`  or  `end`.  `start`  means that the first step happens at the start of the animation.  `end`  means that the last step happens at the end of the animation.  `end`  is the default value.
 
 So which one do you choose? Different scenarios will call for different easing. The following is a nice short resource about the basics of easing.
+##  Code
+[The Basics of Easing | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing)
 
-[](https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing)
-
-## 
-
-The Basics of Easing | Web Fundamentals | Google Developers
-
-### 
-
-Learn how to soften and give weighting to your animations.
-
-#### 
-
-developers.google.com
 
 You can experiment with different easings to find what feels right in your applications. This pen shows how  `animation-timing-function`  can affect the same animation.
 
 The only ease that might be trickier to grasp is  `cubic-bezier`.
 
-[](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Cubic_B%C3%A9zier_curves)
+## [Cubic Bézier curves - Wikipedia](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Cubic_B%C3%A9zier_curves)
 
 ## 
 
@@ -247,5 +235,5 @@ You can use comma separated values for your  `animation`  properties. But you co
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg3NDQ5MDldfQ==
+eyJoaXN0b3J5IjpbMzM3Mjg5NTQ0XX0=
 -->
