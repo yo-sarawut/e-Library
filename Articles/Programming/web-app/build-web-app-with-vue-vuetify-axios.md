@@ -73,7 +73,7 @@ vue create movie-app
 ``` 
 movie-app is our app name.
 
-![](https://miro.medium.com/max/30/1*_GRlYMIq2PIy9lt-dzKlyQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1245/1*_GRlYMIq2PIy9lt-dzKlyQ.png)
 
@@ -97,13 +97,13 @@ As already discussed, we are using the Vuetify for the desgin of the App. Need t
 ``` 
 vue add vuetify
 ``` 
-![](https://miro.medium.com/max/30/1*Rs1pFRTIeysNQhdE5_UUNA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1205/1*Rs1pFRTIeysNQhdE5_UUNA.png)
 
 After installation, our front end will look like this:
 
-![](https://miro.medium.com/max/30/1*93-wXWbEjhE_91NU_7cyMg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1277/1*93-wXWbEjhE_91NU_7cyMg.png)
 
@@ -115,7 +115,7 @@ Will explain why we needed the vue-router, it will do the routing functionalitie
 ``` 
 npm install vue-router
 ``` 
-![](https://miro.medium.com/max/30/1*E9nzhzWCiJ2IuX9gghviRQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/316/1*E9nzhzWCiJ2IuX9gghviRQ.png)
 
@@ -129,7 +129,7 @@ now, need to link the router to the application and create a routes file.
 
 I am following a pattern by which create a folder called  **_router_**  in the src path and in that, will create an  **_index.js_** file
 
-![](https://miro.medium.com/max/30/1*2hVB5zeLxC01sqkgkjXiqg.png?q=20)
+
 
 ![](https://miro.medium.com/max/230/1*2hVB5zeLxC01sqkgkjXiqg.png)
 
@@ -150,7 +150,7 @@ import VueRouter from 'vue-router'Vue.use(VueRouter)export default new VueRouter
 **_3. Link the router to the app_**
 
 First, need to import the router from the path, and use that in the Vue instance. All these are done in the src/main.js file
-``` 
+```js 
 import router from ‘./router’
 ``` 
 Current main.js file will look like this:
@@ -170,7 +170,7 @@ Axios is our point of contact to call the API services in this app. Now we need 
 ``` js
 npm install axios --save
 ``` 
-![](https://miro.medium.com/max/30/1*peus5peqmkliaK4Tw1MEEw.png?q=20)
+
 
 ![](https://miro.medium.com/max/668/1*peus5peqmkliaK4Tw1MEEw.png)
 
@@ -321,7 +321,7 @@ Add the file in components/Movie.vue
 
 Register the Movie.vue to the router/index.js file
 
-import Movie from '@/components/Movie'
+import Movie from `@/components/Movie`
 
 **_Add the mode_**
 
@@ -546,5 +546,5 @@ Movie.vue
 
 I hope you have enjoyed following along. Please leave claps and comments if you liked the content and would like to discuss further!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTI2NjUwLDE4OTE1MzkyMTddfQ==
+eyJoaXN0b3J5IjpbMjEzNzAxODY0NywxODkxNTM5MjE3XX0=
 -->
