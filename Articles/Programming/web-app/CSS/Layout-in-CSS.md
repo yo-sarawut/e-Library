@@ -27,7 +27,7 @@ Before we even start looking at the layout methods, there are some important thi
 
 A component is basically HTML and CSS that goes together and is counted as a standalone entity. For example a  _button_  would be a component. A  _widget_  with all the elements it contains and its functionality may be another component.
 
-The benefit of components is that they are **reusable** and they can be placed anywhere on the website and still _look right_.
+==The benefit of components is that they are **reusable** and they can be placed anywhere on the website and still _look right_.==
 
 Also, if you structure your CSS well, you never have to worry about any unrelated CSS rules overriding anything in a component. You can be confident that your component will stay looking correct forever, unless you specifically make a change to it. This also goes for everything else you do in the project. A component will never be affected unless you deliberately intend to change it.
 
@@ -243,11 +243,11 @@ With this method, as long as the BEM block never sets its own margins, the paren
 -   Requires the child component to never have any margin.
 
 **Implementation**
-
+```html
 <div class="parent-block">  
     <div class="parent-block__element child-block">Both an element and a block</div>  
 </div>
-
+```
 ## Specific containers for components
 
 With this method, the parent block has elements specifically for positioning child components.
@@ -382,5 +382,5 @@ Also if you have any other layout methods you like,  **please share in the comme
 
 > Written with [StackEdit](https://medium.com/@sargalias/layout-in-css-634c3ca3dcff).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NTA2ODQ5LC02MDE1NzEwOF19
+eyJoaXN0b3J5IjpbNzYwOTk0ODQsLTYwMTU3MTA4XX0=
 -->
