@@ -53,33 +53,13 @@ The only ease that might be trickier to grasp is  `cubic-bezier`.
 
 ## [Cubic Bézier curves - Wikipedia](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Cubic_B%C3%A9zier_curves)
 
-## 
 
-Cubic Bézier curves - Wikipedia
-
-### 
-
-Bézier curves are also used in the time domain, particularly in animation, user interface design and smoothing cursor…
-
-#### 
-
-en.wikipedia.org
 
 In essence the  `cubic-bezier`  function defines a cubic bezier curve. There is a good explanation about the  `cubic-bezier`  function in this article
 
-[](https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function)
+## [Single Transition Timing Function | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function)
 
-## 
 
-Single Transition Timing Function | MDN
-
-### 
-
-The single-transition-timing-function CSS data type denotes a mathematical function that describes how fast…
-
-#### 
-
-developer.mozilla.org
 
 Or, you may prefer to play with the  `cubic-bezier`  function and compare it to the other easing values.  [cubic-bezier.com](http://cubic-bezier.com/)  has you covered 👍
 
@@ -87,13 +67,13 @@ Or, you may prefer to play with the  `cubic-bezier`  function and compare it to 
 
 So returning to our spinning square. How do we remove that little break? We can apply a  `linear`  timing. This replaces the default  `ease`  timing.
 
-![](https://miro.medium.com/max/60/1*ITaERJZnx5Gix2wV1djZ8w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*ITaERJZnx5Gix2wV1djZ8w.png)
 
 This would give us
 
-![](https://miro.medium.com/freeze/max/60/1*itA_VOJEAGwgdUSJFCVckQ.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*itA_VOJEAGwgdUSJFCVckQ.gif)
 
@@ -103,7 +83,7 @@ Sweet 🍭
 
 Play state is pretty simple. You can pause animations or have them running. You do this with the  `animation-play-state`  property. For our spinning square we could introduce a checkbox that toggles the play state. Using the sibling selector, we can toggle the play state 👍
 
-![](https://miro.medium.com/max/60/1*WkJUXh31d-XxMKYiBKsv3Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*WkJUXh31d-XxMKYiBKsv3Q.png)
 
@@ -115,13 +95,13 @@ Next up is delaying animations. Like  `animation-duration`,  `animation-delay`  
 
 Let’s add some extra squares and have them all spin side by side  **once**. Note we’ve changed the  `animation-timing-function`  value to  `ease-out`.
 
-![](https://miro.medium.com/freeze/max/60/1*r_w4OO-aSm4qeu-WxuDeyg.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*r_w4OO-aSm4qeu-WxuDeyg.gif)
 
 If we add a delay to each square could we create a staggered effect?
 
-![](https://miro.medium.com/max/60/1*7DTrcNdqSOcQT3yimOPSoQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*7DTrcNdqSOcQT3yimOPSoQ.png)
 
@@ -129,7 +109,7 @@ The answer is yes! 👍
 
 But, if we then wanted the squares to keep spinning we would lose the staggered effect. This is because  `animation-delay`  is only applied once before an animation begins 👎 It does not apply to every iteration of an animation. At this point we have two choices. We could experiment with different delays using the Animations Inspector. Or we could try stalling the first half of the animation by delaying the spin.
 
-![](https://miro.medium.com/max/60/1*eF33-X5vMbwtM8FlE6mlAg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*eF33-X5vMbwtM8FlE6mlAg.png)
 
@@ -147,13 +127,13 @@ The values for  `animation-fill-mode`  that will interest us are;
 
 Let’s consider an animation where we shrink an element to half its size.
 
-![](https://miro.medium.com/freeze/max/60/1*VUOlV2x_ttxTNnVCAPDAXg.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*VUOlV2x_ttxTNnVCAPDAXg.gif)
 
 Without using  `animation-fill-mode`  the element returns to normal size at the end of the animation. But using  `animation-fill-mode`  means we can keep the element at half size once the animation ends.
 
-![](https://miro.medium.com/max/60/1*5fYAMthgl7D0KGKYGRRx0Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*5fYAMthgl7D0KGKYGRRx0Q.png)
 
@@ -165,7 +145,7 @@ Now a more common scenario for using  `animation-fill-mode`  is when showing and
 
 We’d prefer a staggered effect so we give each element a different  `animation-delay`.
 
-![](https://miro.medium.com/freeze/max/60/1*frFfGF2sru6RyHlyj3_uAw.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*frFfGF2sru6RyHlyj3_uAw.gif)
 
@@ -186,7 +166,7 @@ For an example we could use  `alternate`  for something that opens and closes.
 
 How about a clapper board?
 
-![](https://miro.medium.com/freeze/max/60/1*YS2mQVJYJKKTdA5tKY3JzQ.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*YS2mQVJYJKKTdA5tKY3JzQ.gif)
 
@@ -198,7 +178,7 @@ If you’ve got this far, that’s all the animation properties 🎉 You know th
 
 This
 
-![](https://miro.medium.com/max/60/1*M-li0KTmg0QpkwuzKdkoVg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*M-li0KTmg0QpkwuzKdkoVg.png)
 
@@ -210,7 +190,7 @@ Is equivalent to this
 
 Sweet 🍭
 
-![](https://miro.medium.com/max/60/1*08nwrxY4gHU2uT2iz-gHtg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*08nwrxY4gHU2uT2iz-gHtg.png)
 
@@ -220,13 +200,13 @@ But that’s not all. Using the  `animation`  property makes it a little easier 
 
 Consider an element that we make come in from below and then rotate by 45 degrees.
 
-![](https://miro.medium.com/max/60/1*oOPotWMrPIhx-WUCrj9z6A.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*oOPotWMrPIhx-WUCrj9z6A.png)
 
 You can use comma separated values for your  `animation`  properties. But you could also do this
 
-![](https://miro.medium.com/max/60/1*v8v0Xpj91Yo08mIij91uZQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*v8v0Xpj91Yo08mIij91uZQ.png)
 
@@ -235,5 +215,5 @@ You can use comma separated values for your  `animation`  properties. But you co
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-2-2cd422f78567).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3Mjg5NTQ0XX0=
+eyJoaXN0b3J5IjpbLTEyMTU4ODUzMDJdfQ==
 -->
