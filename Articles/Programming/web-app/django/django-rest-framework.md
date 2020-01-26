@@ -44,7 +44,7 @@ HTTP Protocol คือ message ที่ใช้รับและส่งก
 
 ซึ่ง project นี้เก็บข้อมูลของ Author และ Book และมี REST API เพื่อใช้จัดการกับข้อมูลของ Author และ Book
 
-![](https://miro.medium.com/max/60/1*GZgYY82NE35c_XHLqowdVw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1034/1*GZgYY82NE35c_XHLqowdVw.png)
 
@@ -67,7 +67,7 @@ HTTP Protocol คือ message ที่ใช้รับและส่งก
 
 จากไฟล์ตัวอย่าง sample_1/views.py แสดงให้เห็นถึงการใช้ Django เพื่อ Query ข้อมูลจากฐานข้อมูลออกมาแล้ว Return กลับไปยัง client ในรูปแบบของ JSON
 
-![](https://miro.medium.com/max/42/1*TILn52a5S9khnr23qcT5BQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/940/1*TILn52a5S9khnr23qcT5BQ.png)
 
@@ -77,25 +77,25 @@ HTTP Protocol คือ message ที่ใช้รับและส่งก
 
 ตัวอย่างผลการรัน Code เป็นดังต่อไปนี้
 
-![](https://miro.medium.com/max/60/1*mUZsPAWdpUITTV77eSlNQA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1194/1*mUZsPAWdpUITTV77eSlNQA.png)
 
 ตัวอย่างการรัน Class AuthorList
 
-![](https://miro.medium.com/max/60/1*vr24rWJQKleL_FjzF2Da2Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/1252/1*vr24rWJQKleL_FjzF2Da2Q.png)
 
 ตัวอย่างการรัน Class AuthorDetail
 
-![](https://miro.medium.com/max/60/1*xgumWFwhlRbfGyPHRVhVQQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2860/1*xgumWFwhlRbfGyPHRVhVQQ.png)
 
 ตัวอย่างการรัน Class BookList
 
-![](https://miro.medium.com/max/60/1*hcmylIVjvg5E2Pfia-O3jw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1244/1*hcmylIVjvg5E2Pfia-O3jw.png)
 
@@ -109,13 +109,13 @@ HTTP Protocol คือ message ที่ใช้รับและส่งก
 
 ติดตั้งโดยใช้คำสั่ง pip ดังต่อไปนี้
 
-![](https://miro.medium.com/max/60/1*iGuO55ftypjafXxZTuOcrg.png?q=20)
+
 
 ![](https://miro.medium.com/max/1624/1*iGuO55ftypjafXxZTuOcrg.png)
 
 จากนั้นแก้ไขไฟล์ rest_tutorial/settings.py โดยเพิ่ม “rest_framework” เข้าไปใน INSTALLED_APP
 
-![](https://miro.medium.com/max/60/1*XGSnJ_9IbUJpPD1CjRNjcQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1818/1*XGSnJ_9IbUJpPD1CjRNjcQ.png)
 
@@ -127,8 +127,10 @@ Serializer คือตัวกลางที่ทำหน้าที่ใ
 
 1.  การแปลงค่าที่ query ออกมาจากฐานข้อมูลให้กลายเป็น JSON เพื่อเตรียมส่งกลับไปยัง Client (มักจะใช้กับ HTTP GET method)  
     การใช้งานรูปแบบนี้ เราสามารถ new object ของ Serializer ที่ต้องการ แล้วส่ง Django model object เข้าไปเป็น parameter ได้ทันที จากนั้นเมื่อต้องการ JSON สามารถเรียก Serializer.data ได้ เช่น  
+    ```
     author_serializer = AuthorSerializer(Author.objects.first())  
     author_json = author_serializer.data
+    ```
 2.  การแปลงค่า JSON ที่รับมาจาก client แล้วแปลงกลับมาเป็น Django object เพื่อเตรียม save ลงฐานข้อมูล (มักใช้กับ HTTP POST, PUT, PATCH method)  
     การใช้งานรูปแบบนี้จะเป็นการสร้าง object ของ serializer โดยการส่ง json ผ่านตัวแปรชื่อ data จากนั้นสามารถเรียกใช้ serializer.is_valid() เพื่อตรวจสอบความถูกต้องของ JSON หรือเรียกใช้ serializer.save() เพื่อบันทึกข้อมูลได้  
     author_serializer = AuthorSerializer(data=request_json)  
@@ -288,5 +290,5 @@ Django Rest framework เป็น framework ที่มีขนาดให�
 
 > Written with [StackEdit](https://medium.com/@wasinthiengkunakrit/การใช้งาน-django-restframework-94e08255fe3c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTU3Nzg0NV19
+eyJoaXN0b3J5IjpbLTEwMTA4NzgwLDE0NjE1Nzc4NDVdfQ==
 -->
