@@ -30,21 +30,11 @@ This enables you to edit and fork live examples 👍
 You can also grab the code on GitHub [Demo code for "A Guide to CSS Animation"
 ](https://github.com/jh3y/a-guide-to-css-animation)
 
-## 
 
-jh3y/a-guide-to-css-animation
-
-### 
-
-a-guide-to-css-animation - Demo code for "A Guide to CSS Animation"
-
-#### 
-
-github.com
 
 For all animations we are using a single  `div`  element unless stated otherwise. The basic markup comprises of something like the following
 
-![](https://miro.medium.com/max/60/1*_BxwSkXqsnUwho1e9d9-bw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*_BxwSkXqsnUwho1e9d9-bw.png)
 
@@ -56,7 +46,7 @@ The goal of this guide is to make you comfortable with creating your own CSS ani
 
 To improve usability and general user experience. But that does not mean animation should be everywhere in your sites. There’s a time and a place.
 
-![](https://miro.medium.com/freeze/max/60/1*sKmOshEF6lerZsOJuYVAew.gif?q=20)
+
 
 ![](https://miro.medium.com/max/550/1*sKmOshEF6lerZsOJuYVAew.gif)
 
@@ -66,23 +56,11 @@ With animation, we can do things such as draw a users attention to something or 
 
 Before we start creating animations, we need to know which properties we can animate. We can’t animate every property. The following MDN article lists properties that we can animate.
 
-[](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+[Animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
-## 
 
-Animatable CSS properties
 
-### 
-
-Certain CSS properties can be animated using CSS Animations or CSS Transitions. Animation means that their values can…
-
-#### 
-
-developer.mozilla.org
-
-Lea Verou also has a great demo page for animatable properties.
-
-[](http://leaverou.github.io/animatable/)
+[Animatable: One property, two values, endless possibilities](http://leaverou.github.io/animatable/)
 
 ## 
 
@@ -245,5 +223,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTM1MTcwNywxOTk5NDg1ODI3XX0=
+eyJoaXN0b3J5IjpbLTkwMjM2Njg2LDE5OTk0ODU4MjddfQ==
 -->
