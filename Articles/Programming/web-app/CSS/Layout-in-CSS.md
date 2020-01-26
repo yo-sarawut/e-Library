@@ -78,7 +78,7 @@ img + img { margin-top: 1rem; }
 For example, if you want every  `h2`  to have a minimum space underneath it of  `2rem`, you would use the  `margin-bottom`property.
 
 **Example**
-```
+```css
 h2 { margin-bottom: 2rem; }
 ```
 ## Both
@@ -86,7 +86,7 @@ h2 { margin-bottom: 2rem; }
 Using both is also acceptable. That way you can set minimum spacing both above and below each particular element.
 
 As long as you understand how  _margin-collapsing_  works, there won’t be any problem.
-
+```css
 h2 {  
   margin-top: 1rem;  
   margin-bottom: 2rem;  
@@ -101,7 +101,7 @@ h2 {
    */  
   margin-top: 1rem;  
 }
-
+```
 # Variables and standardization
 
 One very important principle to mention about layout in general, is that things should be as standardized as possible and you should have variables for common things.
@@ -327,12 +327,12 @@ The container can use any number of  _selectors_  and  _pseudo-classes_  it need
 -   Specificity is increased  **(which is probably the worst thing possible in CSS)**.
 
 **Implementation**
-
+```css
 .container {  
   .component { margin: 1rem }  
   .component:last-child { margin: 2rem }  
 }
-
+```
 ## Suggestions
 
 In the end, we don’t currently have a method which is perfect.
@@ -382,5 +382,5 @@ Also if you have any other layout methods you like,  **please share in the comme
 
 > Written with [StackEdit](https://medium.com/@sargalias/layout-in-css-634c3ca3dcff).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMyMTg5NzFdfQ==
+eyJoaXN0b3J5IjpbLTYwMTU3MTA4XX0=
 -->
