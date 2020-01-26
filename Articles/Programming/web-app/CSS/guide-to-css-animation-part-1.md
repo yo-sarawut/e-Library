@@ -145,17 +145,10 @@ This becomes particularly useful when we have many animations. Whether it be for
 
 You can read more about the  `Animations`  inspector in the following article.
 
-[](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations)
+[Inspect animations | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations)
 
-## 
-
-Inspect animations | Tools for Web Developers | Google Developers
-
-### 
 
 Inspect and modify animations with the Chrome DevTools Animation Inspector.
-
-#### 
 
 developers.google.com
 
@@ -173,7 +166,7 @@ Each selector defines styles that should apply at that point of the animation. I
 
 Let’s start with a simple example. Consider the effect of an element moving around the path of a square.
 
-![](https://miro.medium.com/freeze/max/60/1*DStBjpP9QnRY8dVVzFP8xA.gif?q=20)
+
 
 ![](https://miro.medium.com/max/480/1*DStBjpP9QnRY8dVVzFP8xA.gif)
 
@@ -181,13 +174,13 @@ We will call our animation  `squarePath`, very creative I know 😅
 
 For this example, there will be four positions for our element. For every side of the square, we use a quarter of the animation. Because our start and finish position will be the same, we can group those keyframe selectors 👍
 
-![](https://miro.medium.com/max/60/1*Z7fsLiMxqKll1vIz7WaQng.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*Z7fsLiMxqKll1vIz7WaQng.png)
 
 Apply the animation and a duration to our element 🎉
 
-![](https://miro.medium.com/max/60/1*3QVHBhCfpYuC4YauQ9umOQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1448/1*3QVHBhCfpYuC4YauQ9umOQ.png)
 
@@ -204,5 +197,5 @@ Although that will be enough to get you up and running with CSS animation, there
 
 > Written with [StackEdit](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDA2MjE5NiwxOTk5NDg1ODI3XX0=
+eyJoaXN0b3J5IjpbLTUyMTQ1MTE4MywxOTk5NDg1ODI3XX0=
 -->
