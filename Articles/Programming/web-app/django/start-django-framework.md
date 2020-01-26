@@ -425,7 +425,7 @@ Configuration ที่ทำให้เกิด Feature Static
 
 หลังจากรันคำสั่งนี้จะส่งผลให้เกิดไฟล์ใหม่ขึ้นมาภายใต้โฟลเดอร์ book_management/migrations คือไฟล์ 0001_initial.py
 
-![](https://miro.medium.com/max/25/1*ixjy-pJAzZ4YgmnRut0LwQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/658/1*ixjy-pJAzZ4YgmnRut0LwQ.png)
 
@@ -435,7 +435,7 @@ Configuration ที่ทำให้เกิด Feature Static
 
 > $ py manage.py migrate
 
-![](https://miro.medium.com/max/30/1*PykZ9lJ53q5MF8ZnGrTVpw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1072/1*PykZ9lJ53q5MF8ZnGrTVpw.png)
 
@@ -443,7 +443,7 @@ Configuration ที่ทำให้เกิด Feature Static
 
 หลังจากรันไฟล์นี้แล้วเราจะได้ไฟล์ใหม่ชื่อ db.sqlite3 ซึ่งเป็นไฟล์ฐานข้อมูลที่มี table ของ Book และ Category อยู่ภายใน และ Django จะทำการสร้าง Table Default อื่นๆ ขึ้นมาด้วย เช่น Table User, role สำหรับการทำ Authentication เป็นต้น
 
-![](https://miro.medium.com/max/24/1*G6GR9lUlAIacGLy8wGvitg.png?q=20)
+
 
 ![](https://miro.medium.com/max/361/1*G6GR9lUlAIacGLy8wGvitg.png)
 
@@ -455,24 +455,24 @@ Configuration ที่ทำให้เกิด Feature Static
 
 Django Shell คือ python shell แบบหนึ่งซึ่งสามารถเข้าใช้งานฐานข้อมูลได้ ซึ่งเป็น feature ที่สะดวกมากในการเข้าตรวจสอบ debug ฐานข้อมูล หรือทดสอบใส่ข้อมูลเข้าไปในฐานข้อมูลโดยตรง โดยเราสามารถเข้าถึง Django Shell ด้วยคำสั่ง
 ```
-> $ py manage.py shell
+$ py manage.py shell
 ```
-![](https://miro.medium.com/max/30/1*2FZr4Nh1mPRHqxY4_MWvVA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1257/1*2FZr4Nh1mPRHqxY4_MWvVA.png)
 
 ตัวอย่าง Django Shell
 
 ขั้นตอนต่อไปเป็นการ import table ของฐานข้อมูลให้กับ shell รู้จัก เพื่อเตรียมตัวทำงานกับ table เหล่านี้ต่อไป
-```
-> from book_management.models import Category, Book
+```py
+from book_management.models import Category, Book
 ```
 จากนั้นทดลองสร้าง Category ของหนังสือ ชื่อ “Horror” ด้วยคำสั่ง
+```py
+horror_category = Category(name=’Horror’)  
+horror_category.save()
 ```
-> horror_category = Category(name=’Horror’)  
-> horror_category.save()
-```
-![](https://miro.medium.com/max/30/1*FoxEn7TP-7iExO7sgVzlEg.png?q=20)
+
 
 ![](https://miro.medium.com/max/883/1*FoxEn7TP-7iExO7sgVzlEg.png)
 
@@ -480,7 +480,7 @@ Django Shell คือ python shell แบบหนึ่งซึ่งสา�
 
 จะเห็นว่าการสร้าง Record ใน Database Table นั้นสามารถทำได้อย่างง่าย คล้ายกับการสร้าง object ของ class ตามปกติ โดยในบรรทัดแรกจะเป็นคำสั่งที่ใช้ในการสร้าง object ชื่อ horror_category จาก class Category โดยมี parameter name เป็น Horror และบรรทัดที่สองคำสั่ง save() เป็นฟังก์ชั่นที่ให้ Django เปิดการเชื่อมต่อกับฐานข้อมูลและ save Record ลงฐานข้อมูลจริง
 
-![](https://miro.medium.com/max/30/1*dir4eOah1shNdTxGCd0Kow.png?q=20)
+
 
 ![](https://miro.medium.com/max/549/1*dir4eOah1shNdTxGCd0Kow.png)
 
@@ -623,6 +623,6 @@ Django Shell คือ python shell แบบหนึ่งซึ่งสา�
 
 > [Source :](https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTkyMzg1LDIyNzU3Mjk4NywtMTE1Mj
-I3MDIwMV19
+eyJoaXN0b3J5IjpbLTI5NDk2NTcxNiwyMjc1NzI5ODcsLTExNT
+IyNzAyMDFdfQ==
 -->
