@@ -127,19 +127,20 @@ Serializer คือตัวกลางที่ทำหน้าที่ใ
 
 1.  การแปลงค่าที่ query ออกมาจากฐานข้อมูลให้กลายเป็น JSON เพื่อเตรียมส่งกลับไปยัง Client (มักจะใช้กับ HTTP GET method)  
     การใช้งานรูปแบบนี้ เราสามารถ new object ของ Serializer ที่ต้องการ แล้วส่ง Django model object เข้าไปเป็น parameter ได้ทันที จากนั้นเมื่อต้องการ JSON สามารถเรียก Serializer.data ได้ เช่น  
-    ```
+   ```py
     author_serializer = AuthorSerializer(Author.objects.first())  
     author_json = author_serializer.data
-    ```
+  ```
 2.  การแปลงค่า JSON ที่รับมาจาก client แล้วแปลงกลับมาเป็น Django object เพื่อเตรียม save ลงฐานข้อมูล (มักใช้กับ HTTP POST, PUT, PATCH method)  
     การใช้งานรูปแบบนี้จะเป็นการสร้าง object ของ serializer โดยการส่ง json ผ่านตัวแปรชื่อ data จากนั้นสามารถเรียกใช้ serializer.is_valid() เพื่อตรวจสอบความถูกต้องของ JSON หรือเรียกใช้ serializer.save() เพื่อบันทึกข้อมูลได้  
+ ```
     author_serializer = AuthorSerializer(data=request_json)  
     if author_serializer.is_valid():  
     author_serializer.save()
-
+```
 จาก Project ตัวอย่างให้ดูในโฟลเดอร์ sample_2
 
-![](https://miro.medium.com/max/60/1*a8ImhB1DT4Oo4iskw-Ah9w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1240/1*a8ImhB1DT4Oo4iskw-Ah9w.png)
 
@@ -154,7 +155,7 @@ Serializer คือตัวกลางที่ทำหน้าที่ใ
 
 จากตัวอย่างใน class AuthorSerializer มีการประกาศตัวแปรใหม่ชื่อ book_count ที่จะใช้นับจำนวน Book ทั้งหมดของ Author คนนี้ ( การใช้ reverse relationship ใน Django อ่านเพิ่มเติมได้  [ที่นี่](https://docs.djangoproject.com/en/2.2/topics/db/queries/#following-relationships-backward)  ) ซึ่งจะเห็นว่าสามารถเพิ่ม field ใหม่เข้าไปใน JSON response ได้อย่างง่ายดาย
 
-![](https://miro.medium.com/max/60/1*MwNXzAjG8QhnbjJtMVHZhA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1264/1*MwNXzAjG8QhnbjJtMVHZhA.png)
 
@@ -193,7 +194,7 @@ Django Rest framework สามารถนำมาใช้ใน View เพ�
 
 ตัวอย่าง urls ของไฟล์ sample_3/urls.py
 
-![](https://miro.medium.com/max/60/1*2rG0O5nwmFIj4FMPTQUdYA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1172/1*2rG0O5nwmFIj4FMPTQUdYA.png)
 
@@ -211,7 +212,7 @@ Django Rest framework สามารถนำมาใช้ใน View เพ�
 [http://localhost:8000/library/sample_3/book](http://localhost:8000/library/sample_3/book)  
 [http://localhost:8000/library/sample_3/book/1](http://localhost:8000/library/sample_3/book/1)
 
-![](https://miro.medium.com/max/60/1*8a0-Ls3qJGeUo-NCHBVgPA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2464/1*8a0-Ls3qJGeUo-NCHBVgPA.png)
 
@@ -227,13 +228,13 @@ Viewsets ที่นำมาใช้งานในบทความนี�
 
 Router ถูกนำมาใช้ใน urls.py เพื่อช่วยลด code ที่ต้องเขียนซ้ำๆในการประกาศ URL ไปยัง View ต่าง ๆ
 
-![](https://miro.medium.com/max/60/1*N8J9BMESw9Wpdxv986fakA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1174/1*N8J9BMESw9Wpdxv986fakA.png)
 
 การประกาศ URL โดยใช้ router ของ sample_4/urls.py
 
-![](https://miro.medium.com/max/60/1*LceglSqZLVnKSPFYkaeWuw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1354/1*LceglSqZLVnKSPFYkaeWuw.png)
 
@@ -290,5 +291,5 @@ Django Rest framework เป็น framework ที่มีขนาดให�
 
 > Written with [StackEdit](https://medium.com/@wasinthiengkunakrit/การใช้งาน-django-restframework-94e08255fe3c).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA4NzgwLDE0NjE1Nzc4NDVdfQ==
+eyJoaXN0b3J5IjpbLTE5NjE3ODQ5NDEsMTQ2MTU3Nzg0NV19
 -->
