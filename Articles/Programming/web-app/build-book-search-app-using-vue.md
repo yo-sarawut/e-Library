@@ -1,6 +1,7 @@
 How to Build BookSearch App using Vue.js and ElasticSearch
 ===
-- [https://medium.appbase.io/building-booksearch-application-using-vue-and-elasticsearch-a39615f4d6b3](https://medium.appbase.io/building-booksearch-application-using-vue-and-elasticsearch-a39615f4d6b3)
+- [Source : ](https://medium.appbase.io/building-booksearch-application-using-vue-and-elasticsearch-a39615f4d6b3)
+
 ![enter image description here](https://miro.medium.com/max/2880/1*xX5Q917ujpQsdZp-gy72zw.png)
 
 In this post, we are going to build a Booksearch Application using Vue.js and ElasticSearch. You might have already heard of Vue.js, one of the fastest growing JavaScript frameworks. You might also have heard about ElasticSearch — it is the #1 search engine. In any case, I will do a walkthrough explaining the basics of Search and build the app in a step-by-step manner.
@@ -39,7 +40,7 @@ In order to make Booksearch application, we will need a dataset of some really g
 app="good-books-yj"  
 credentials="gBgUqs2tV:3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c"
 ``` 
-![](https://miro.medium.com/max/30/1*OHJ1oyLeuV30NAahXFrFOw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2880/1*OHJ1oyLeuV30NAahXFrFOw.png)
 
@@ -59,7 +60,7 @@ ReactiveSearch for Vue is a port of ReactiveSearch (written for React) that has 
 
 We will use  [Codesandbox.io](https://codesandbox.io/)  to help us build our application in a step by step fashion. Open the above link and click on the  `Open Vue`  button.
 
-![](https://miro.medium.com/max/30/1*_89jAC47icWAmGlR8cbADQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2696/1*_89jAC47icWAmGlR8cbADQ.png)
 
@@ -281,5 +282,5 @@ The documentation for all the components is available at  [https://opensource.ap
 
 Finally,  [go ★ ReactiveSearch](https://github.com/appbaseio/reactivesearch)  on Github so you can find it when you need to build that awesome search!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzg3ODMwNl19
+eyJoaXN0b3J5IjpbLTQzMjA3MjA0MSwtOTA3ODc4MzA2XX0=
 -->
