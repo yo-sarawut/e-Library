@@ -24,7 +24,7 @@ When we are asked, which preset we should use — please choose default, which m
 
 Once installation is done, you should be able to see output similar to one as on screenshot below.
 
-![](https://miro.medium.com/max/30/1*fp7u3AHbrfSWM9DIgLzNjQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2298/1*fp7u3AHbrfSWM9DIgLzNjQ.png)
 
@@ -35,13 +35,13 @@ During installation, will be created directory with having same name as your pro
 ```
 The output in console should be similar to one below, with the difference that port might be different (in time of writing this article am running different project in Vue on which am working on):
 
-![](https://miro.medium.com/max/30/1*xztKFZ5vIzIyR581ZXlJpw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1036/1*xztKFZ5vIzIyR581ZXlJpw.png)
 
 Copy Local address and open it in your browser, now you can see very first example of web app written in Vue
 
-![](https://miro.medium.com/max/30/1*SDseVdGdMAeoByihWIygkA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2552/1*SDseVdGdMAeoByihWIygkA.png)
 
@@ -53,13 +53,13 @@ npm install vuex — save
 ```
 Once it is installed, lets open our project in IDE — in my case it is  [Visual Studio Code](https://code.visualstudio.com/)  — lets take a look at  **main.js**  file:
 
-![](https://miro.medium.com/max/30/1*jH58JPRKS-uxU-vwGYhsow.png?q=20)
+
 
 ![](https://miro.medium.com/max/3334/1*jH58JPRKS-uxU-vwGYhsow.png)
 
 All of that is just simple to run boilerplate, which uses one component  **HelloWorld.vue**  to display a page with content.
 
-![](https://miro.medium.com/max/30/1*gphwDKOIZK3lV5Ok6jvjtA.png?q=20)
+
 
 ![](https://miro.medium.com/max/3348/1*gphwDKOIZK3lV5Ok6jvjtA.png)
 
@@ -73,7 +73,7 @@ Right now we have to create our store with initial state, prepare methods to upd
 
 We will have to restructure a little bit our tiny app in order to keep it clean. For those purposes we are going to create directory store in which we will have all files related with our Vuex store. Then in  **store/index.js**  file we will will create new  **Vuex.Store**  instance.
 
-![](https://miro.medium.com/max/30/1*Yb0DxT2B8UitPfD7YFydxQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/3350/1*Yb0DxT2B8UitPfD7YFydxQ.png)
 
@@ -83,7 +83,7 @@ Guess I don’t have to explain — error message is pretty straightforward here
 
 As you probably have noticed, in line number 3 we are importing file from store directory app.store.js — there is heart of our app store, there we are storing state, actions, mutations and getters. Lets take a look at it:
 
-![](https://miro.medium.com/max/30/1*Iolni40TgdWlvnhmCt9ysw.png?q=20)
+
 
 ![](https://miro.medium.com/max/3350/1*Iolni40TgdWlvnhmCt9ysw.png)
 
@@ -101,7 +101,7 @@ Since this example is just an counter which allows to increase/decrease value by
 
 Almost everything is set, now we need few updates in our  **HelloWorld.vue**  file — can be found in  **components**  directory — as well as in  **main.js**  file where we have to pass to Vue our store. Lets see:
 
-![](https://miro.medium.com/max/30/1*dqaHq81BVljYQcR7hQlfuw.png?q=20)
+
 
 ![](https://miro.medium.com/max/3348/1*dqaHq81BVljYQcR7hQlfuw.png)
 
@@ -109,7 +109,6 @@ As mentioned earlier, we moved  _Vue.use.(Vuex)_  to  _store/index.js_  file, in
 
 Lets see what has happen in  **HelloWorld.vue** — I have removed everything what was between <template></template> tags and created simple placeholder to display counter value from our store and two buttons to increase/decrease value.
 
-![](https://miro.medium.com/max/30/1*NOMitmfFVILdUilpl594VQ.png?q=20)
 
 ![](https://miro.medium.com/max/3354/1*NOMitmfFVILdUilpl594VQ.png)
 
@@ -125,5 +124,6 @@ If you have any questions feel free to reach me out! Thanks for your time!
 
 ref : [https://medium.com/@maciej.lisowski.elk/vue-vuex-store-short-tutorial-for-beginners-1befd8697654](https://medium.com/@maciej.lisowski.elk/vue-vuex-store-short-tutorial-for-beginners-1befd8697654)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI3MzczNjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDM3NzMyMzksLTIwNzI3MzczNjZdfQ
+==
 -->
