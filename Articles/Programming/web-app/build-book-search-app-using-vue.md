@@ -88,11 +88,9 @@ import ReactiveSearch from "@appbaseio/reactivesearch-vue";Vue.use(ReactiveSearc
 
 All the ReactiveSearch components are wrapped inside a container component —  `ReactiveBase`  which connects the components to an Elasticsearch index. We’ll apply this in the  `/src/App.vue`  file. You can read more about  `Reactivebase`  [here](https://opensource.appbase.io/reactive-manual/vue/getting-started/reactivebase.html).
 ``` js
-
 <ReactiveBase 
   app="good-books-yj" 
-  credentials="gBgUqs2tV:3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c"
->
+  credentials="gBgUqs2tV:3456f3bf-ea9e-4ebc-9c93-08eb13e5c87c">
   <h1>Hello from ReactiveBase ✨</h1>
 </ReactiveBase>
 
@@ -282,5 +280,5 @@ The documentation for all the components is available at  [https://opensource.ap
 
 Finally,  [go ★ ReactiveSearch](https://github.com/appbaseio/reactivesearch)  on Github so you can find it when you need to build that awesome search!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjA3MjA0MSwtOTA3ODc4MzA2XX0=
+eyJoaXN0b3J5IjpbLTIwNjcwODg4NDUsLTkwNzg3ODMwNl19
 -->
