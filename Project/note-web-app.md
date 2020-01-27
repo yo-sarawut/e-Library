@@ -14,6 +14,9 @@ Note for Website & Web App
   (<a href='https://codepen.io/sarawut-wongsanga'>@sarawut-wongsanga</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+- [A Toolbar with Buttons to invert Colors and increase Font Size](https://vuejsexamples.com/a-toolbar-with-buttons-to-invert-colors-and-increase-font-size/)
+
+![enter image description here](https://vuejsexamples.com/content/images/2019/12/vue-accessibility-toolbar.gif)
 
 ## UX&UI
 
@@ -37,5 +40,5 @@ Note for Website & Web App
 eyJoaXN0b3J5IjpbNzE0MzMxMDVdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMjg5MjE5XX0=
+eyJoaXN0b3J5IjpbMTIzNzkzNzY5MiwyMzMyODkyMTldfQ==
 -->
