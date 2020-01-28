@@ -3,6 +3,7 @@
 
 - [Hashing Passwords in Python](https://www.vitoshacademy.com/hashing-passwords-in-python/)
 - [Bad passwords and the NIST guidelines :](https://github.com/yosarawut/DataCamp-Projects/blob/master/Bad%20passwords%20and%20the%20NIST%20guidelines/notebook.ipynb)
+- [ทำไมต้อง เปลี่ยน Password และต้องมีความซับซ้อนในการป้อน Password](http://www.mvpskill.com/kb/password-must-meet-complexity-requirements.html)
 
 ## Example:
   
@@ -18,6 +19,6 @@
 ![enter image description here](https://vuejsexamples.com/content/images/2020/01/Vue-Simple-Password-Meter.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE2NDQ1MTUsNzYzOTg1MzI3LDE4NT
-M5NTE3MzFdfQ==
+eyJoaXN0b3J5IjpbLTU3NTYwMzgwNSwtMTMxMTY0NDUxNSw3Nj
+M5ODUzMjcsMTg1Mzk1MTczMV19
 -->
