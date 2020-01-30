@@ -285,7 +285,7 @@ app.getForage=function(){
 ```
 เจ้านี้ทำหน้าที่ไปดึงข้อมูลใน localForage ออกมาถ้าเจอ Item ที่มี key ว่า selectedCities ก็เอาข้อมูลออกมา getForecast แสดงผลบนแอพ ถ้าไม่เจอก็ทำการใช้ข้อมูล Inject ไปก่อนซะ
 
-![](https://miro.medium.com/max/30/1*m_wp2Ha_A_uhBeY7ka9J-w.png?q=20)
+
 
 ![](https://miro.medium.com/max/639/1*m_wp2Ha_A_uhBeY7ka9J-w.png)
 
@@ -573,5 +573,5 @@ Web Storage API:
 Udacity: Intro to Progressive Web Apps:  
 [https://www.udacity.com/course/intro-to-progressive-web-apps--ud811](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzU5Mzg5NiwxODE1MjYyODldfQ==
+eyJoaXN0b3J5IjpbLTEzNjg5MjUwOTUsMTgxNTI2Mjg5XX0=
 -->
