@@ -13,7 +13,7 @@
 
 ## เนื้อหาน่าสนใจ
 
-
+- [==How To Password Protect A Hugo Site==](https://www.aerobatic.com/blog/password-protect-a-hugo-site/)
 - [Python String format()](https://www.programiz.com/python-programming/methods/string/format) , [PyFormat](https://pyformat.info/)
 - 
 - [Accepting Payments with Stripe, Vue.js, and Flask](https://testdriven.io/blog/accepting-payments-with-stripe-vuejs-and-flask/)
@@ -110,11 +110,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjYzMzY3NCwtOTA2MDgzMzYwLC0xNT
-I0OTQxMDM3LC0xODYwNTg2ODMxLC0xMTU1MDkzMzQsLTEzNDAx
-ODU3MjAsLTUyMDQ1OTQwMiwtNTExMDQ0MTIxLC0yMzAyOTA3Nz
-csLTExMjY0NjM0NDksMTAyNzU2MjkwMiwyMTQzNDM2OTMsMTEw
-MzA2MjQxLC02ODg1NzAzMzEsMTg0ODg5NTg0MSwxMDc0Njg2NT
-I0LDYxNjg4MzkwMiw5OTQ3MDczODIsLTE2NjM0OTYxNTMsMjcw
-MDY2NTRdfQ==
+eyJoaXN0b3J5IjpbMjEyNTg1OTkwNSwtNjEyNjMzNjc0LC05MD
+YwODMzNjAsLTE1MjQ5NDEwMzcsLTE4NjA1ODY4MzEsLTExNTUw
+OTMzNCwtMTM0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMj
+EsLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIx
+NDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4ODk1OD
+QxLDEwNzQ2ODY1MjQsNjE2ODgzOTAyLDk5NDcwNzM4MiwtMTY2
+MzQ5NjE1M119
 -->
