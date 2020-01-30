@@ -35,6 +35,7 @@
 
 - [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
 - [Jekyll themes — a curated directory](https://jekyllthemes.io/theme/documentation)
+- [แหล่งรวมเครื่องมือทำ website](https://freebiesbug.com/code-stuff/miscellanea-code-stuff/page/8/)
 
 ![enter image description here](https://d1qmdf3vop2l07.cloudfront.net/enigmatic-tuba.cloudvent.net/compressed/_min_/8447064ee8ae766f6aae6063cb3b6d9b.webp)
 
@@ -110,11 +111,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTg1OTkwNSwtNjEyNjMzNjc0LC05MD
-YwODMzNjAsLTE1MjQ5NDEwMzcsLTE4NjA1ODY4MzEsLTExNTUw
-OTMzNCwtMTM0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMj
-EsLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIx
-NDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4ODk1OD
-QxLDEwNzQ2ODY1MjQsNjE2ODgzOTAyLDk5NDcwNzM4MiwtMTY2
-MzQ5NjE1M119
+eyJoaXN0b3J5IjpbMTEwMzkwNzY0MiwyMTI1ODU5OTA1LC02MT
+I2MzM2NzQsLTkwNjA4MzM2MCwtMTUyNDk0MTAzNywtMTg2MDU4
+NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1NzIwLC01MjA0NTk0MD
+IsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYzNDQ5LDEw
+Mjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4NTcwMz
+MxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2MTY4ODM5MDIsOTk0
+NzA3MzgyXX0=
 -->
