@@ -24,23 +24,11 @@ _Disclosure: I write reviews and receive compensation from the companies whose p
 
 ----------
 
-# #1.  [The Web Development Bootcamp](http://bit.ly/2yEYsoB)
+## 1.  [The Web Development Bootcamp](http://bit.ly/2yEYsoB)
 
 First thing’s first — You need to learn the basics and build a solid foundation of web development principles. There are many ways to do this, but in my opinion, this is the  **best**  and  **easiest**  way.
 
-[](http://bit.ly/2yEYsoB)
 
-## 
-
-The Web Developer Bootcamp - Udemy
-
-### 
-
-The only course you need to learn web development - HTML, CSS, JS, Node, and More!
-
-#### 
-
-bit.ly
 
 Colt Steele’s Web Development Bootcamp is the single best web development course money can buy. It’s sometimes on sale for $20 or less, and it’s packed with more than 40 hours of on-demand content.
 
@@ -56,7 +44,7 @@ Colt not only knows web development, but almost more importantly, he knows how t
 
 ----------
 
-# #2.  [The Advanced Web Development Bootcamp](http://bit.ly/2z3TnGR)
+## 2.  [The Advanced Web Development Bootcamp](http://bit.ly/2z3TnGR)
 
 Now that you’ve taken the first bootcamp and know how to build full stack web applications, it’s time to take your learning a little deeper. This course builds upon the first by introducing more complex technologies, frameworks, and tools you can use to build beautiful, responsive, web applications.
 
@@ -99,7 +87,7 @@ This course has nearly 350 lectures and 30 hours of content, you’re going to l
 
 ----------
 
-# #3. Reinforce your Skills
+## 3. Reinforce your Skills
 
 At this point, you’ve taken two online coding bootcamps and you’re hopefully starting to feel comfortable with your web development skills. You can successfully take a simple idea and build it out beautifully using a Node.js backend, and React on the front-end. Plus, you’re confident in your CSS abilities to style out a mobile first, responsive page.
 
@@ -109,14 +97,14 @@ Reading these a few months ago probably would’ve made no sense — but with yo
 
 You  **don’t**  have to work through every link I’ve provided. Think of these more like starting points.
 
-## HTML/CSS
+### HTML/CSS
 
 -   [MDN HTML Documentation](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 -   [Flexbox Froggy](http://flexboxfroggy.com/)
 -   [The CSS Box Model](https://css-tricks.com/the-css-box-model/)
 -   [Bootstrap](http://getbootstrap.com/)
 
-## JavaScript
+### JavaScript
 
 -   [JavaScript — The keyword ‘this’ for beginners](https://codeburst.io/javascript-the-keyword-this-for-beginners-fb5238d99f85)
 -   [JavaScript — Arrow Functions for Beginners](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
@@ -135,14 +123,14 @@ You  **don’t**  have to work through every link I’ve provided. Think of thes
 -   [JavaScript 30 for 30](https://javascript30.com/)  — Learn to build 30 things in 30 days with 30 tutorials. No Frameworks, No Compilers, No Libraries, No Boilerplate.
 -   [Learn FrontEnd Frameworks](https://www.udacity.com/course/front-end-frameworks--ud894)  — Free 8 Week course focused on JavaScript Frameworks. Learn to build SPA’s (Single Page Applications) in both Angular and Ember from scratch.
 
-## React
+### React
 
 -   [**create-react-app**](https://github.com/facebookincubator/create-react-app) **—** Learn the quickest way to get started with React.
 -   [**react-router**](https://github.com/ReactTraining/react-router) **—** Simple routing for React.
 -   [Navigating the React.JS Ecosystem](https://www.toptal.com/react/navigating-the-react-ecosystem)
 -   Official React  [Tutorial](https://facebook.github.io/react/tutorial/tutorial.html)
 
-## Full Stack
+### Full Stack
 
 -   [Intro to Back End Web Development](https://www.udacity.com/course/intro-to-backend--ud171)
 -   [Deploying Applications with Heroku](https://www.udacity.com/course/deploying-applications-with-heroku--ud272)
@@ -151,7 +139,7 @@ You  **don’t**  have to work through every link I’ve provided. Think of thes
 -   [Node JS and Authentication](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/)
 -   [Express JS Database Integration](https://expressjs.com/en/guide/database-integration.html)
 
-## **Databases**
+### **Databases**
 
 -   [Relational vs. Non Relational](https://www.pluralsight.com/blog/software-development/relational-non-relational-databases)
 -   [SQL vs. NoSQL](https://www.sitepoint.com/sql-vs-nosql-differences/)
@@ -159,7 +147,7 @@ You  **don’t**  have to work through every link I’ve provided. Think of thes
 -   [Express — Using a DB with Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 -   [Node JS and Databases](https://blog.risingstack.com/node-js-database-tutorial/)
 
-## Git
+### Git
 
 -   [New Developer? You should’ve learned Git yesterday.](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa)
 -   [A Step by Step Guide to Making Your First GitHub Contribution](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940)
@@ -279,5 +267,5 @@ Please consider  [**entering your email here**](https://docs.google.com/forms/d/
 
 > Source: [codeburst.io](https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NjcwMDQwXX0=
+eyJoaXN0b3J5IjpbLTU2MDUyNDIzXX0=
 -->
