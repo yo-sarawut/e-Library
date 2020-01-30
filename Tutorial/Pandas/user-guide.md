@@ -1,4 +1,6 @@
-# User Guide[](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide "Permalink to this headline")
+User Guide
+===
+> [Source : Pandas Document : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide).
 
 The User Guide covers all of pandas by topic area. Each of the subsections introduces a topic (such as “working with missing data”), and discusses how pandas approaches the problem, with many examples throughout.
 
@@ -222,7 +224,7 @@ Further information on any specific method can be obtained in the  [API referenc
     -   [Creating example data](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html#creating-example-data)
 
 
-> [Source : Pandas Document : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjUyNjg0N119
+eyJoaXN0b3J5IjpbLTE0MzIxNjYwNzMsMTcwMjUyNjg0N119
 -->
