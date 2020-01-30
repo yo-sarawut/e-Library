@@ -190,7 +190,7 @@ _ตรงนี้ใน Production อาจจะทำการ Inject จ�
 
 ทีนี้ พอ Users ลองเล่น App ของเราเพิ่มเมืองใหม่เข้ามา เราจะทำอย่างไรเพื่อ Save ข้อมูลของ Users คนนั้นไว้ ให้ครั้งต่อไป เมื่อเข้าเว็บมาก็แสดงเมืองที่เขาเลือกออกมาเลย
 
-![](https://miro.medium.com/max/28/1*LPUqCP_VuMk5AW_rEeFCqw.png?q=20)
+
 
 ![](https://miro.medium.com/max/528/1*LPUqCP_VuMk5AW_rEeFCqw.png)
 
@@ -204,7 +204,7 @@ _ตรงนี้ใน Production อาจจะทำการ Inject จ�
 
 ยุ่งไปถึงนักพัฒนาต้องทำ Storage ยุคใหม่ๆ เช่น**IndexedDB,WebSQL** ที่ทำงานได้แบบ Asynchronous, Transactional, รวมถึงสามารถเก้บ Data แบบต่างๆเช่น JSON ได้นั่นเอง
 
-![](https://miro.medium.com/max/30/1*lO6MJIZn4jJvd8-bvx85iw.png?q=20)
+
 
 ![](https://miro.medium.com/max/907/1*lO6MJIZn4jJvd8-bvx85iw.png)
 
@@ -573,5 +573,5 @@ Web Storage API:
 Udacity: Intro to Progressive Web Apps:  
 [https://www.udacity.com/course/intro-to-progressive-web-apps--ud811](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Mjk4OTgyNCwxODE1MjYyODldfQ==
+eyJoaXN0b3J5IjpbMTM4MzU5Mzg5NiwxODE1MjYyODldfQ==
 -->
