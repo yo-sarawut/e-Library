@@ -34,7 +34,7 @@
 - [Awesome Markdown]()
 
 - [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
-- [แหล่งรวมเครื่องมือทำ website](https://freebiesbug.com/code-stuff/miscellanea-code-stuff/page/8/)
+- [แหล่งรวมเครื่องมือทำ website](https://freebiesbug.com/code-stuff/miscellanea-code-stuff/page/8/) + [==Material Design Document==](https://fezvrasta.github.io/bootstrap-material-design/docs/4.0/material-design/buttons/)
 
 ![enter image description here](https://cdn.freebiesbug.com/wp-content/uploads/2014/09/google-material-design-bootstrap-580x399.jpg)
 - [Google Material Design for Bootstrap](https://freebiesbug.com/code-stuff/google-material-design-bootstrap/)
@@ -115,11 +115,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MjI3MjI0LDExMDM5MDc2NDIsMjEyNT
-g1OTkwNSwtNjEyNjMzNjc0LC05MDYwODMzNjAsLTE1MjQ5NDEw
-MzcsLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMC
-wtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEy
-NjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyND
-EsLTY4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2
-ODgzOTAyXX0=
+eyJoaXN0b3J5IjpbLTEzMDEyODUxODUsMTEwMzkwNzY0MiwyMT
+I1ODU5OTA1LC02MTI2MzM2NzQsLTkwNjA4MzM2MCwtMTUyNDk0
+MTAzNywtMTg2MDU4NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1Nz
+IwLC01MjA0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC0x
+MTI2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMwNj
+I0MSwtNjg4NTcwMzMxLDE4NDg4OTU4NDEsMTA3NDY4NjUyNCw2
+MTY4ODM5MDJdfQ==
 -->
