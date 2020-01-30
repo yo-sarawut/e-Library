@@ -29,7 +29,7 @@ Source:  [http://www.letsnurture.com/blog/progressive-web-app-an-application-in-
 
 วิธีลงเจ้า PWA นี่ก็ง่ายๆ แค่อยู่ในหน้าเว็บแล้วกด Add To Home Screen….
 
-![](https://miro.medium.com/max/17/1*vYfQT43mgPfSv_IOCo4GJg.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/250/1*vYfQT43mgPfSv_IOCo4GJg.jpeg)
 
@@ -51,7 +51,7 @@ Aliexpress.com
 
 Section นี้ขอสรุปในแบบของผมจาก Keynote ในงานวัน Progressive Web App Roadshow ที่กรุงเทพนะครับ
 
-![](https://miro.medium.com/max/30/1*rBrC06UDVTMwuVbdy78KbA.png?q=20)
+
 
 ![](https://miro.medium.com/max/607/1*rBrC06UDVTMwuVbdy78KbA.png)
 
@@ -61,7 +61,7 @@ Source: Progressive Web App Roadshow 2016
 
 ในขณะที่มาดูข้อมูลการใช้งานเว็บไซต์ พบว่าผู้ใช้มือถือในหนึ่งเดือน เข้าเว็บไซต์ต่างๆกว่า 100 เว็บไซต์ Google เลยบอกว่าปล่อยไว้อย่างงี้ไม่ได้ละ จึงปิ๊งไอเดีย จะมายกเครื่องเว็บไซต์ของเรากัน ภายใต้แนวคิด…
 
-![](https://miro.medium.com/max/30/1*3YW_iMX9BZExFmN1s04kmg.png?q=20)
+
 
 ![](https://miro.medium.com/max/593/1*3YW_iMX9BZExFmN1s04kmg.png)
 
@@ -80,7 +80,7 @@ Source: Progressive Web App Roadshow 2016
 
 1.  **ServiceWorker**
 
-![](https://miro.medium.com/max/30/1*9-3hRYImNd7E-BGEyPuXvA.png?q=20)
+
 
 ![](https://miro.medium.com/max/770/1*9-3hRYImNd7E-BGEyPuXvA.png)
 
@@ -90,7 +90,7 @@ ServiceWorker หรือ SW เอาง่ายๆคือไฟล์ Cile
 
 **หน้าที่ของ SW** ก็คือ กำหนดให้ Cache สิ่งต่างๆที่เราจำเป็นในเว็บของเราไว้ ซึ่งเราก็กำหนดได้ว่าจะให้ Cache ส่วนไหน ไม่ Cache ส่วนไหน
 
-![](https://miro.medium.com/max/30/1*zK795muTXWsQefMlUDWcTw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1249/1*zK795muTXWsQefMlUDWcTw.png)
 
@@ -100,7 +100,7 @@ Source:  [https://developers.google.com/web/fundamentals/getting-started/codelab
 
 ซึ่งเจ้าตัวนี้ก็จะทำให้เว็บไซต์ของเราทำงานเร็วขึ้นปรู๊ดปร๊าด ผิดหูผิดตา รวมถึงสามารถทำงานในโหมด Offline ได้ด้วย เนื่องจากเรา Browser สามารถไปดึง Element บางส่วนที่เรากำหนดไว้จาก Cache มาใช้งานได้เลย (ลองเล่นตัวนี้ดูครับ  [https://airhorner.com/](https://airhorner.com/)  ทำงานได้ Offline เต็มรูปแบบเลย)
 
-![](https://miro.medium.com/max/30/1*zDoTrUR1cTOQT3chmQqMRg.png?q=20)
+
 
 ![](https://miro.medium.com/max/818/1*zDoTrUR1cTOQT3chmQqMRg.png)
 
@@ -110,7 +110,7 @@ Source: Progressive Web App Roadshow 2016
 
 **2. Manifest.json**
 
-![](https://miro.medium.com/max/30/1*vaOPvP8lMkhnOdAcYQ181Q.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/1440/1*vaOPvP8lMkhnOdAcYQ181Q.jpeg)
 
@@ -140,7 +140,7 @@ Source:  [https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
 
 จากนั้นให้ทุกคนไปลง Web Server ให้เรียบร้อยก่อน Google ก็ให้ Tool ง่ายๆมา ลองเล่นได้ทาง  [https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
 
-![](https://miro.medium.com/max/30/1*1VA6orskiuy7ebnYgpR4QA.png?q=20)
+
 
 ![](https://miro.medium.com/max/1226/1*1VA6orskiuy7ebnYgpR4QA.png)
 
@@ -150,7 +150,7 @@ Source: Progressive Web App Roadshow 2016
 
 **2. มาดูโครงสร้าง App ของเรากันหน่อย**
 
-![](https://miro.medium.com/max/29/1*XH8wUS_k-hw9tGZTVBsFsA.png?q=20)
+
 
 ![](https://miro.medium.com/max/189/1*XH8wUS_k-hw9tGZTVBsFsA.png)
 
@@ -182,7 +182,7 @@ _ตรงนี้ใน Production อาจจะทำการ Inject จ�
 
 ตอนนี้แอพเราควรจะมีหน้าตาเป็นแบบนี้แล้วครับ (ตรงลูกศรสีแดง เผื่อบางท่านยังไม่ทราบว่าไอ้ Chrome Dev Tool สามารถจำลองรูปแบบหน้าจอเป็นมือถือรุ่นดังๆ ต่างๆได้นะครับ ลองเล่นดูสนุกดีครับ)
 
-![](https://miro.medium.com/max/26/1*YWpKIfVQvHhXDBZ9yfrfqw.png?q=20)
+
 
 ![](https://miro.medium.com/max/676/1*YWpKIfVQvHhXDBZ9yfrfqw.png)
 
@@ -573,5 +573,5 @@ Web Storage API:
 Udacity: Intro to Progressive Web Apps:  
 [https://www.udacity.com/course/intro-to-progressive-web-apps--ud811](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTI2Mjg5XX0=
+eyJoaXN0b3J5IjpbMTc4Mjk4OTgyNCwxODE1MjYyODldfQ==
 -->
