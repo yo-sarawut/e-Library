@@ -48,19 +48,7 @@ Colt not only knows web development, but almost more importantly, he knows how t
 
 Now that you’ve taken the first bootcamp and know how to build full stack web applications, it’s time to take your learning a little deeper. This course builds upon the first by introducing more complex technologies, frameworks, and tools you can use to build beautiful, responsive, web applications.
 
-[](http://bit.ly/2z3TnGR)
 
-## 
-
-The Advanced Web Developer Bootcamp - Udemy
-
-### 
-
-Learn React 16, Redux, D3, ES2015, Testing, CSS Flexbox, Animations, SVG, AJAX, and more!
-
-#### 
-
-bit.ly
 
 The Advanced Web Development Bootcamp is designed to take your coding skills to the next level! Don’t worry, this course is also project based. You’ll build 10+ projects and explore dozens of code challenges with solutions to ensure you understand everything!
 
@@ -267,5 +255,5 @@ Please consider  [**entering your email here**](https://docs.google.com/forms/d/
 
 > Source: [codeburst.io](https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDUyNDIzXX0=
+eyJoaXN0b3J5IjpbMjExNDkwNjAzN119
 -->
