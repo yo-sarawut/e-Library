@@ -35,11 +35,11 @@ netflix = web.get_data_yahoo("NFLX",
                             end = "2018-03-01")
 ```
 
-```
+```py
 print(netflix.head())
 ```
 
-```
+```py
 ##                 High       Low    ...          Volume  Adj Close
 ## Date                              ...                           
 ## 2009-01-02  4.357143  4.200000    ...       6605200.0   4.267143
@@ -53,7 +53,7 @@ print(netflix.head())
 
 Next we will chart the Netflix’s adjusted closing price.
 
-```
+```py
 netflix['Adj Close'].plot()
 plt.xlabel("Date")
 plt.ylabel("Adjusted")
@@ -67,18 +67,18 @@ plt.show()
 
 Once we downloaded the stock prices from yahoo finance, the next thing to do is to calculate the returns. We will again use pandas package to do the calculations. We have already downloaded the price data for Netflix above, if you haven’t done that then see the above section. We will calculate the monthly and daily price returns.
 
-```
+```py
 netflix_daily_returns = netflix['Adj Close'].pct_change()
 netflix_monthly_returns = netflix['Adj Close'].resample('M').ffill().pct_change()
 ```
 
 Looking at the head of the daily returns.
 
-```
+```py
 print(netflix_daily_returns.head())
 ```
 
-```
+```py
 ## Date
 ## 2009-01-02         NaN
 ## 2009-01-05    0.069300
@@ -90,11 +90,11 @@ print(netflix_daily_returns.head())
 
 Looking at the head of the monthly returns.
 
-```
+```py
 print(netflix_monthly_returns.head())
 ```
 
-```
+```py
 ## Date
 ## 2009-01-31         NaN
 ## 2009-02-28    0.002767
@@ -106,7 +106,7 @@ print(netflix_monthly_returns.head())
 
 ### Charting the daily and monthly for Netflix
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 ax1.plot(netflix_daily_returns)
@@ -118,7 +118,7 @@ plt.show()
 
 ![](https://www.codingfinance.com/post/2018-04-03-calc-returns-py_files/figure-html/unnamed-chunk-8-1.png)
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 ax1.plot(netflix_monthly_returns)
@@ -132,7 +132,7 @@ plt.show()
 
 After looking at the daily returns chart for Netflix we can conclude that the returns are quite volatile and the stock can move +/- 5% on any given day. To get a sense of how extreme the returns can be we can plot a histogram.
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 netflix_daily_returns.plot.hist(bins = 60)
@@ -156,7 +156,7 @@ netflix_cum_returns = (netflix_daily_returns + 1).cumprod()
 
 Next we can chart the cumulative returns of Netflix.
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 netflix_cum_returns.plot()
@@ -170,7 +170,7 @@ plt.show()
 
 This chart shows the cumulative returns since 2009 for Netflix. With the power of hindsight, one  _could_  have made $70 on a $1 investment since 2009. That is quite a remarkable performance. But as we know its easier said then done. During the 10 year or so period there were times when the investment lost 50% of its value during the  [Qwickster fiasco](https://www.codingfinance.com/post/2018-04-03-calc-returns-py/%22https://som.yale.edu/case/2012/netflix-and-qwikster%22). Very few investors can hold onto investments through such periods.
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 netflix_cum_returns = (netflix_monthly_returns + 1).cumprod()
@@ -191,7 +191,7 @@ We can visualize that the monthly returns chart is much more smoother than the d
 
 We can download the financial data for multiple stocks. We first assign the stock symbols to a variable named “tickers”", and use that to download the stock prices.
 
-```
+```py
 tickers = ["FB", "AMZN", "AAPL", "NFLX", "GOOG"]
 multpl_stocks = web.get_data_yahoo(tickers,
 start = "2013-01-01",
@@ -202,7 +202,7 @@ end = "2018-03-01")
 
 Next we will chart the stock prices for multiple stocks
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_subplot(321)
 ax2 = fig.add_subplot(322)
@@ -229,12 +229,12 @@ plt.show()
 
 Calculating the the returns for multiple stocks is just as easy as the single stock.
 
-```
+```py
 multpl_stock_daily_returns = multpl_stocks['Adj Close'].pct_change()
 multpl_stock_monthly_returns = multpl_stocks['Adj Close'].resample('M').ffill().pct_change()
 ```
 
-```
+```py
 fig = plt.figure()
 (multpl_stock_monthly_returns + 1).cumprod().plot()
 plt.show()
@@ -252,11 +252,11 @@ A contrarian could argue that given the investments in the future projects, Goog
 
 We already have the daily and monthly returns data for Netflix. Now we we will calculate the daily and monthly mean and standard deviations of the returns. We will use  **mean()**  and  **std()**  functions for our purpose.
 
-```
+```py
 print(multpl_stock_monthly_returns.mean())
 ```
 
-```
+```py
 ## Symbols
 ## AAPL    0.023860
 ## AMZN    0.031329
@@ -266,11 +266,11 @@ print(multpl_stock_monthly_returns.mean())
 ## dtype: float64
 ```
 
-```
+```py
 print(multpl_stock_monthly_returns.std())
 ```
 
-```
+```py
 ## Symbols
 ## AAPL    0.068283
 ## AMZN    0.080158
@@ -282,11 +282,11 @@ print(multpl_stock_monthly_returns.std())
 
 ## Calculating the correlation and covariance using pandas
 
-```
+```py
 print(multpl_stock_monthly_returns.corr())
 ```
 
-```
+```py
 ## Symbols      AAPL      AMZN        FB      GOOG      NFLX
 ## Symbols                                                  
 ## AAPL     1.000000  0.276006  0.156129  0.217476  0.273787
@@ -296,11 +296,11 @@ print(multpl_stock_monthly_returns.corr())
 ## NFLX     0.273787  0.475268  0.230154  0.453463  1.000000
 ```
 
-```
+```py
 print(multpl_stock_monthly_returns.cov())
 ```
 
-```
+```py
 ## Symbols      AAPL      AMZN        FB      GOOG      NFLX
 ## Symbols                                                  
 ## AAPL     0.004663  0.001511  0.000955  0.000846  0.002339
@@ -322,5 +322,5 @@ We did a lot in this port.
 
 > Written with [StackEdit](https://www.codingfinance.com/post/2018-04-03-calc-returns-py/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDY2MjE1NF19
+eyJoaXN0b3J5IjpbLTIxMTA0NTQyODFdfQ==
 -->
