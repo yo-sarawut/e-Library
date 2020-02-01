@@ -23,24 +23,24 @@ By the end of this tutorial you will be capable of doing the following tasks:
 - Calculate the Compound Annual Growth Rate(CAGR)
 4. Volatility Calculation
 
-Calculate the annualized volatility
-Calculate and plot the rolling volatilty
-Relationship between Vol and returns
+- Calculate the annualized volatility
+- Calculate and plot the rolling volatilty
+- Relationship between Vol and returns
 5. Correlation Calculation
 
-Generate pair-wise plot and analyse
-Generate correlation metrics
+- Generate pair-wise plot and analyse
+- Generate correlation metrics
 6. Returns Distribution and Analysis
 
-Plot the return distribution
-Normality test
+- Plot the return distribution
+- Normality test
 7. Monthly plot
 
-Comment on seasonality
+- Comment on seasonality
 8. Digging deep
 
-Calculate and plot the moving average
-Perform the drawdown analysis
+- Calculate and plot the moving average
+- Perform the drawdown analysis
 1. Downloading and Knowing your data
 There are multiple sources that provide APIs to download data into your python code directly.
 In this tutorial we are using Quandl's free API for sourcing financial data. The pre-requisites for using Quandl API are:
@@ -328,5 +328,5 @@ Max Drawdown period = 410 days
 Max Drawdown recovery period = 684 days
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTk0NTc5Ml19
+eyJoaXN0b3J5IjpbMTE3NzU4OTA4OF19
 -->
