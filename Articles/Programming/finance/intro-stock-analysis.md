@@ -8,19 +8,19 @@ Through this tutorial, we are providing tools that are neccessary to get access 
 
 By the end of this tutorial you will be capable of doing the following tasks:
 1. Download and Know your data
-
-Load data of any financial instrument using Quandl's Python package
-Know your data
+- Load data of any financial instrument using Quandl's Python 
+-  package
+- Know your data
 2. Plot Time Series data
 
-Plot the stock price data
-Plot subplot for price and volume traded
-Normalize the time series to see how your investment grew
+- Plot the stock price data
+- Plot subplot for price and volume traded
+- Normalize the time series to see how your investment grew
 3. Returns Calculation
 
-Calculate simple return
-Calculate and plot the daily returns
-Calculate the Compound Annual Growth Rate(CAGR)
+- Calculate simple return
+- Calculate and plot the daily returns
+- Calculate the Compound Annual Growth Rate(CAGR)
 4. Volatility Calculation
 
 Calculate the annualized volatility
@@ -328,5 +328,5 @@ Max Drawdown period = 410 days
 Max Drawdown recovery period = 684 days
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MzE1NTQ5XX0=
+eyJoaXN0b3J5IjpbMTgyNTk0NTc5Ml19
 -->
