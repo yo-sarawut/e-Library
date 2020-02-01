@@ -1,4 +1,7 @@
-Introduction to the Financial Time Series Analysis using Pandas - Part 1
+Introduction to the Financial Time Series Analysis using Pandas
+===
+- [http://www.quantsbin.com/introduction-stock-analysis-pandas1/](http://www.quantsbin.com/introduction-stock-analysis-pandas1/)
+
 As defined in Investopedia A time series is a sequence of numerical data points in successive order. Generally, observation points are successively equally spaced in time. Most of the financial data is in the time series format and hence "Financial Time Series Analysis" is an important tool for anyone trying to understand the historical movements, predict the future movements or manage the risk associated with the future movements.
 
 Through this tutorial, we are providing tools that are neccessary to get access to the financial data and perform a preliminary analysis and visualization to understand the data better.
@@ -540,5 +543,5 @@ $( document ).ready(code_toggle);
 </script>
 <form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NjMyMTk2LDExNzc1ODkwODhdfQ==
+eyJoaXN0b3J5IjpbLTc3NjE4MTEyMCwxMTc3NTg5MDg4XX0=
 -->
