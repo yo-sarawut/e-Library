@@ -8,7 +8,7 @@ In this post we will only show the code with minor explanations.
 
 Lets begin with loading the modules.
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,7 +17,7 @@ import pandas_datareader as web
 
 Next we will get the stock tickers and the price data.
 
-```
+```py
 tick = ['AMZN', 'AAPL', 'NFLX', 'XOM', 'T']
 price_data = web.get_data_yahoo(tick,
                            start = '2014-01-01',
@@ -26,18 +26,18 @@ price_data = web.get_data_yahoo(tick,
 
 Now lets calculate the log returns.
 
-```
+```py
 log_ret = np.log(price_data/price_data.shift(1))
 ```
 
 Next we will calculate the covariance matrix.
 
-```
+```py
 cov_mat = log_ret.cov() * 252
 print(cov_mat)
 ```
 
-```
+```py
 ## Symbols      AAPL      AMZN      NFLX         T       XOM
 ## Symbols                                                  
 ## AAPL     0.052338  0.023844  0.026897  0.008896  0.012677
@@ -49,7 +49,7 @@ print(cov_mat)
 
 Next we will jump right into the for loop and simulate the portfolio returns and risk on 5000 random portfolios. If you need the further explanation, please see the code in R.
 
-```
+```py
 # Simulating 5000 portfolios
 num_port = 5000
 # Creating an empty array to store portfolio weights
@@ -64,7 +64,7 @@ sharpe_ratio = np.zeros((num_port))
 
 Lets run the for loop.
 
-```
+```py
 for i in range(num_port):
   wts = np.random.uniform(size = len(price_data.columns))
   wts = wts/np.sum(wts)
@@ -72,6 +72,7 @@ for i in range(num_port):
   # saving weights in the array
   
   all_wts[i,:] = wts
+  ```
   
   # Portfolio Returns
   
@@ -186,5 +187,5 @@ plt.show();
 
 > - [https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/](https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUwNDEyNjNdfQ==
+eyJoaXN0b3J5IjpbMTM2ODAyNDYzMiwtMTAyNTA0MTI2M119
 -->
