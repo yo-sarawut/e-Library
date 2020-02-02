@@ -73,43 +73,46 @@ for i in range(num_port):
   
   all_wts[i,:] = wts
   ```
-  
+  ```py
   # Portfolio Returns
   
   port_ret = np.sum(log_ret.mean() * wts)
   port_ret = (port_ret + 1) ** 252 - 1
-  
+  ```
+  ```py
   # Saving Portfolio returns
   
   port_returns[i] = port_ret
-  
+  ```
+  ```py
   
   # Portfolio Risk
   
   port_sd = np.sqrt(np.dot(wts.T, np.dot(cov_mat, wts)))
   
   port_risk[i] = port_sd
-  
-  # Portfolio Sharpe Ratio
-  # Assuming 0% Risk Free Rate
-  
-  sr = port_ret / port_sd
-  sharpe_ratio[i] = sr
+ ```
+ ```py
+ # Portfolio Sharpe Ratio
+ # Assuming 0% Risk Free Rate
+ 
+ sr = port_ret / port_sd
+ sharpe_ratio[i] = sr
 ```
 
 Now that all the heavy lifting has been done. We will start by getting the minimum variance portfolio and the tangency portfolio.
 
-```
+```py
 names = price_data.columns
 min_var = all_wts[port_risk.argmin()]
 print(min_var)
 ```
 
-```
+```py
 ## [0.1479928  0.08456108 0.01861031 0.43988479 0.30895102]
 ```
 
-```
+```py
 max_sr = all_wts[sharpe_ratio.argmax()]
 print(max_sr)
 ```
@@ -120,7 +123,7 @@ print(max_sr)
 
 Lets see the max sharpe ratio and the minimum risk for these portfolios
 
-```
+```py
 print(sharpe_ratio.max())
 ```
 
@@ -128,7 +131,7 @@ print(sharpe_ratio.max())
 ## 1.5976782731708208
 ```
 
-```
+```py
 print(port_risk.min())
 ```
 
@@ -187,5 +190,5 @@ plt.show();
 
 > - [https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/](https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODAyNDYzMiwtMTAyNTA0MTI2M119
+eyJoaXN0b3J5IjpbMTcxNjU5MzQ5NSwtMTAyNTA0MTI2M119
 -->
