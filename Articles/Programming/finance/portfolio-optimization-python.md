@@ -143,7 +143,7 @@ Since we are only simulating 5000 portfolio, it very likely our allocations and 
 
 Now lets visualize the weights of the portfolio. First we will visualize the minimum variance portfolio.
 
-```
+```py
 min_var = pd.Series(min_var, index=names)
 min_var = min_var.sort_values()
 fig = plt.figure()
@@ -159,7 +159,7 @@ plt.show();
 
 Next we will visualize the max sharpe ratio portfolio.
 
-```
+```py
 max_sr = pd.Series(max_sr, index=names)
 max_sr = max_sr.sort_values()
 fig = plt.figure()
@@ -175,7 +175,7 @@ plt.show();
 
 Finally we can plot all the 5000 portfolios.
 
-```
+```py
 fig = plt.figure()
 ax1 = fig.add_axes([0.1,0.1,0.8,0.8])
 ax1.set_xlabel('Risk')
@@ -190,5 +190,6 @@ plt.show();
 
 > - [https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/](https://www.codingfinance.com/post/2018-05-31-portfolio-opt-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjU5MzQ5NSwtMTAyNTA0MTI2M119
+eyJoaXN0b3J5IjpbLTIwNzI3NjkzOTQsLTEwMjUwNDEyNjNdfQ
+==
 -->
