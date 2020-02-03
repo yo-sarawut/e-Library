@@ -172,12 +172,32 @@ not in	จะให้ค่า true หรือ false เมื่อเช็
 |----------|----------|----------|
 | in |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นอยู่ในกรอบที่ต้องการเช็คหรือไม่ |x in y จะ return true เมื่อ x อยู่ใน y หรือจะ return false เมื่อ x ไม่ได้อยู่ |
 | not in |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้อยู่ในกรอบที่ต้องการเช็ค |x not in y จะ return true เมื่อ x ไม่ได้อยู่ใน y และ return false เมื่อ x อยู่ใน y |
-
+```py
 name = "John"
 if name in ["John", "Rick"]:
 print("Your name is either John or Rick.")
+```
+| Operator |Description |Example |
+|----------|----------|----------|
+| is |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นชี้ไปที่ object เดียวกัน |x is y จะ return true เมื่อ x ชี้ไปที่ object เดียวกับ y หรือจะ return false เมื่อ x ไม่ได้ชี้ไปที่ object เดียวกับ y ชี้ |
+| not is |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้ชี้ไปที่ object เดียวกัน |x is y จะ return true เมื่อ x ไม่ได้ชี้ไปที่ object เดียวกับ y หรือจะ return false เมื่อ x ไม่ได้ชี้ไปที่ object เดียวกับ y ชี้ |
+```py
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
+```
+
+
+
+
+
+
+
+
+
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4ODg2NTMzLDUzMzgwODg0MV19
+eyJoaXN0b3J5IjpbMTIxNDI1MTA5OCw1MzM4MDg4NDFdfQ==
 -->
