@@ -17,14 +17,14 @@ We rebalance our portfolios quarterly and trade in a long-only fashion.
 ## **Equal Weight**
 
 This method assigns equal weights to all components. This would be most useful when the returns across all interested assets are purely random and we have no views.
-
+```py
 def equal_weighted_portfolio(w, V):
 ''
 The equal-weighted portfolio returns equal weights to each of the
 portfolio components
 '''
 return [1.0/len(w)]*len(w)
-
+```
   
 We’ll see the returns of an equal-weighted portfolio comprising of the sectoral indices below.
 
@@ -43,7 +43,7 @@ The weights are a solution to the optimization equation -
 ![](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/w-optimal-formula.PNG)
 
 Where, w is the weight, ∑ is the covariance matrix and n is the number of assets
-
+```py
 def risk_parity(w, V):
 def calculate_portfolio_variance(w,V):
 # function that calculates portfolio risk
@@ -75,7 +75,7 @@ w0 = x_t = [1.0/len(w)]*len(w)
 cons = ({'type': 'eq', 'fun': total_weight_constraint})
 res= minimize(risk_budget_objective, w0, args=[V,x_t], method='SLSQP',constraints=cons, options={'disp': True})
 return np.asmatrix(res.x)
-
+```
 ![](https://blog.quantinsti.com/portfolio-optimization-methods/images/image5.png)
 
 ![](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/risk-parity-1-1.png)
@@ -194,5 +194,5 @@ _Disclaimer: The views, opinions, and information provided within this guest pos
 
 > [Source : ](https://blog.quantinsti.com/portfolio-optimization-methods/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTU5MTg5OF19
+eyJoaXN0b3J5IjpbLTE0NjMzNzUwNzRdfQ==
 -->
