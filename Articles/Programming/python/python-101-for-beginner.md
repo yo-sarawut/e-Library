@@ -129,6 +129,7 @@ print list + tinylist # Prints concatenated lists
 #### Tuple
 
 ตัวนี้จะแปลกหน่อยถ้าคนไม่รู้จัก type นี้ มันคือ tuple ตัวแปลที่ลักษณะคล้าย List แต่จะแตกต่างกันตรงที่มันจะปิดด้วย Parentheses () ไม่ใช่ square bracket และมันจะ read-only เท่านั้น!
+```py
 tuple = ( 'abcd', 786 , 2.23, 'john', 70.2 )
 tinytuple = (123, 'john')
  
@@ -138,9 +139,27 @@ print tuple[1:3] # Prints elements starting from 2nd till 3rd
 print tuple[2:] # Prints elements starting from 3rd element
 print tinytuple * 2 # Prints list two times
 print tuple + tinytuple # Prints concatenated lists
+```
+
+#### Dictionary
+
+อันนี้มีทุกภาษาแหละ การใช้ key,value หรือ dictionary ในการเก็บข้อมูลแบบต่างๆ
+```py
+dict = {}
+dict['one'] = "This is one"
+dict[2] = "This is two"
+ 
+tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
+print dict['one'] # Prints value for 'one' key
+print dict[2] # Prints value for 2 key
+print tinydict # Prints complete dictionary
+print tinydict.keys() # Prints all the keys
+print tinydict.values() # Prints all the values
+```
+
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDYwNjMzNF19
+eyJoaXN0b3J5IjpbNjEyMzE1NjYzXX0=
 -->
