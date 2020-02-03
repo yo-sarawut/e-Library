@@ -168,9 +168,16 @@ Operator	Description	Example
 in	จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นอยู่ในกรอบที่ต้องการเช็คหรือไม่	x in y จะ return true เมื่อ x อยู่ใน y หรือจะ return false เมื่อ x ไม่ได้อยู่
 not in	จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้อยู่ในกรอบที่ต้องการเช็ค	x not in y จะ return true เมื่อ x ไม่ได้อยู่ใน y และ return false เมื่อ x อยู่ใน y
 
+| Operator |Description |Example |
+|----------|----------|----------|
+| in |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นอยู่ในกรอบที่ต้องการเช็คหรือไม่ |x in y จะ return true เมื่อ x อยู่ใน y หรือจะ return false เมื่อ x ไม่ได้อยู่ |
+| not in |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้อยู่ในกรอบที่ต้องการเช็ค |x not in y จะ return true เมื่อ x ไม่ได้อยู่ใน y และ return false เมื่อ x อยู่ใน y |
 
+name = "John"
+if name in ["John", "Rick"]:
+print("Your name is either John or Rick.")
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzODA4ODQxXX0=
+eyJoaXN0b3J5IjpbODg4ODg2NTMzLDUzMzgwODg0MV19
 -->
