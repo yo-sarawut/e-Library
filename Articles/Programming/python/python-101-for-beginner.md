@@ -303,18 +303,29 @@ help(urllib)
 
 Import เฉพาะ function ของ package เพื่อใช้งานแค่นั้น
 Import package แล้วเปลี่ยน​ alias name ก็ได้
-
-import numpy as np
- 
-np.pi #3.14XXXXX เป็นต้น
- 
-from mupy import array
- 
+```py
+import numpy as np 
+np.pi #3.14XXXXX เป็นต้น 
+from mupy import array 
 a = array([1,2,3])
+```
 
+#### Exception Handling
+
+การจัดการกับ exception ใน python ก็คล้ายๆทั่วไป แต่ที่แปลกคือเราสามารใช้ else-block เข้ามจัดการโค้ดได้ด้วย เหมือน Loop ต่างๆ
+```py
+try:
+   fh = open("testfile", "w")
+   fh.write("This is my test file for exception handling!!")
+except IOError:
+   print "Error: can\'t find file or read data"
+else:
+   print "Written content in the file successfully"
+   fh.close()
+```
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Mjc5MDE2OCw1MzM4MDg4NDFdfQ==
+eyJoaXN0b3J5IjpbLTc2MTAxODIzMiw1MzM4MDg4NDFdfQ==
 -->
