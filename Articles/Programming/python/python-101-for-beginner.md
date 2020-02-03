@@ -274,13 +274,47 @@ else:
 
 วิธีการสร้าง Function ใน Python จะใช้ “:” เป็นตัว บอกว่ากําลังจะสร้าง function แบบนี้ ไม่ซับซ้อนอะไรเรื่องนี้
 
+  ```py
+def my_function():
    print("Hello From My Function!")
  
 def sum_two_numbers(a, b):
    return a + b
+```
+#### Modules and Packages
+
+_importing_
+
+Modules ใน Python นี้คือเข้าใจง่ายมาก แค่ไฟล์ .py ไฟล์เดียว ซึ่งจะรวบรวม functions ต่างๆไว้ เพราะฉะนั้นแค่ใช้คําสั่ง import เข้ามาเลยก็จะสามารถทํางานได้เลย
+
+ซึ่งไม่จบแค่นั้นใน modules ของ python เรามี function ช่วยอีกหลายอย่าง เช่น
+
+-   สามารถ Explore Modules ได้ด้วยการใช้คําสั่ง dir(x) กับ modules
+-   ใช้คําสั่ง help(x) เพื่อดูว่ามันมี document อะไรบ้าง
+
+แต่จริงๆเปิดเว็ปเอาก็ได้น่ะ ฮรี่ๆ ง่ายกว่า
+```py
+import urllib 
+dir(urllib) 
+help(urllib)
+```
+วิธีการใช้ Package ต่างๆ
+มีหลักๆ 2 แบบคือ
+
+Import เฉพาะ function ของ package เพื่อใช้งานแค่นั้น
+Import package แล้วเปลี่ยน​ alias name ก็ได้
+
+import numpy as np
+ 
+np.pi #3.14XXXXX เป็นต้น
+ 
+from mupy import array
+ 
+a = array([1,2,3])
+
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDE4MjUyNyw1MzM4MDg4NDFdfQ==
+eyJoaXN0b3J5IjpbMTc5Mjc5MDE2OCw1MzM4MDg4NDFdfQ==
 -->
