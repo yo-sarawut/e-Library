@@ -364,7 +364,7 @@ A UTF-8 Geometric Shape can be included in a Jupyter notebook by using its decim
 
 A black circle can be inserted, as shown below:
 
-●
+
 
 ### Programming Code
 
@@ -506,5 +506,5 @@ _Disclaimer: All data and information provided in this article are for informati
 
 > [Source : ](https://blog.quantinsti.com/jupyter-notebook-tutorial-installation-components-magic-commands/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUzOTk1MzBdfQ==
+eyJoaXN0b3J5IjpbMjA1Nzg0ODY3XX0=
 -->
