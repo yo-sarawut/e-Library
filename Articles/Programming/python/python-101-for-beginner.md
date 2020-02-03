@@ -38,7 +38,13 @@ public class
  }
 }
 ```
-
+แบบ Java ใช้ Bracket
+```js
+def functionname( parameters ):
+   """function_doc"""
+   function_detail
+   return [expression]
+```
 
 
 
@@ -47,5 +53,5 @@ public class
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI4MDg3Ml19
+eyJoaXN0b3J5IjpbLTkwODAwMjI4OF19
 -->
