@@ -226,11 +226,30 @@ print("%s is %d years old." % (name, age))
 ไม่เหมือนนกับภาษา Java ที่ต้อง for แล้ววนตามตัวเลข index ( index.length() แบบนั้น ) แต่ Python สามารถใช้ list วนเข้าไปได้เลย ทําให้สะดวกสบายกว่ามาก
 
 _for loop_
+```py
+for(int i=1; i<11; i++){
+     System.out.println("Count is: " + i);
+}
+```
+แบบภาษา Java เห็นว่าต้อง set เยอะมากในการลูป
+```py
+# Prints out the numbers 0,1,2,3,4
+for x in range(5):
+   print(x)
+ 
+# Prints out 3,4,5
+for x in ["3","5"]:
+   print(x)
+```
+python ก็แค่โยน list เข้าไปให้มันลูปง่ายๆแค่นั้นเอง
 
+_while loop_
+
+อันนี้เหมือนทั่วไป ไม่มีไรแปลกใหม่
 
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUwMzI4MDgsNTMzODA4ODQxXX0=
+eyJoaXN0b3J5IjpbMTQ1ODIxMTksNTMzODA4ODQxXX0=
 -->
