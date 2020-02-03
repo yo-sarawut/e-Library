@@ -323,9 +323,40 @@ else:
    print "Written content in the file successfully"
    fh.close()
 ```
+โดยถ้าต้องการที่จัดการกับ exception ทั้งหมด ก็ทําได้โดยการไม่ใส่ specific exception ลงไปง่ายๆเลย
+
+หรือจะใส่เป็น multiple exception ก็ได้แบบตัวอยางด้านล่าง
+```py
+try:
+   You do your operations here;
+   ......................
+except:
+   If there is any exception, then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block. 
+ 
+ 
+try:
+   You do your operations here;
+   ......................
+except(Exception1[, Exception2[,...ExceptionN]]]):
+   If there is any exception from the given exception list, 
+   then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block. 
+```
+
+## Summary
+
+เนื้อหาเยอะอย่างแรง… แต่ภาพรวมของภาษา Python มีแค่นี้แหละที่เป็น Basic เพราะถ้าเรารู้เรื่องของ syntax – indent, loop, data type แค่นั้นเราก็สามารถต่อยอดได้อีกเยอะละ  
+
+จะเริ่มเขียน Python ให้ดีควรเขียนให้ถูกต้องตามสไตล์ guide ด้วยน่ะ ดูได้จากทที่นี้เลย  [Pep 8 Style guides](https://www.python.org/dev/peps/pep-0008/)
+
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTAxODIzMiw1MzM4MDg4NDFdfQ==
+eyJoaXN0b3J5IjpbMzk2ODA5OTk5LDUzMzgwODg0MV19
 -->
