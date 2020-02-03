@@ -194,18 +194,43 @@ print(x is y) # Prints out False
 name = ((city.getName() == null) ? "N/A" : city.getName());
 ```
 ไม่รู้คนอื่นเข้าง่ายรึเปล่าแต่สําหรับผมแล้วมันเข้าใจอยากที่เดียวเลย แต่ถ้าเป็นใน Python จะเป็น
-```
+```py
 'Yes' if fruit == 'Apple' else 'No'
  
 # value_when_true if condition else value_when_false
+```
+มันมีความแตกต่างกันอย่างเห็นได้ชัดในการเขียน Python กับ Java มันมีความสะดวกสบายกว่ามากๆเลย (ternary operator)
 
+#### String Formatting
 
+การ Format string ใน Python เราจะใช้ % operator เป็นตัวระบุไปที่ string และตัวแปรนั้นๆเช่น
+```py
+name = "John"
+print("Hello, %s!" % name)
+ 
+#Hello, John
+ 
+name = "John"
+age = 23
+print("%s is %d years old." % (name, age))
 
+#John is 23 years old.
+```
+ซึ่งการ Format string มีความหมายแตกต่างกันดั่งด้านล่างนี้
+
+-   %s = string
+-   %d = integer
+
+#### Loops
+
+ไม่เหมือนนกับภาษา Java ที่ต้อง for แล้ววนตามตัวเลข index ( index.length() แบบนั้น ) แต่ Python สามารถใช้ list วนเข้าไปได้เลย ทําให้สะดวกสบายกว่ามาก
+
+_for loop_
 
 
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjgwNTUwMiw1MzM4MDg4NDFdfQ==
+eyJoaXN0b3J5IjpbLTE3MjUwMzI4MDgsNTMzODA4ODQxXX0=
 -->
