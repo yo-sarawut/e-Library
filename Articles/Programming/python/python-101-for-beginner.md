@@ -156,10 +156,21 @@ print tinydict # Prints complete dictionary
 print tinydict.keys() # Prints all the keys
 print tinydict.values() # Prints all the values
 ```
+#### Operators
+
+Operator อื่นๆ ที่ใช้กันประจํา พวก +,-,*,/ หรือ % คงไม่ต้องพูดถึงเพราะเป็นพื้นฐานที่มีในทุกภาษา แต่ตัวที่น่าสนใจคือ operator 2 ตัวนี้มากกว่า
+
+1.  Membership
+2.  Identity
+
+_Membership_
+Operator	Description	Example
+in	จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นอยู่ในกรอบที่ต้องการเช็คหรือไม่	x in y จะ return true เมื่อ x อยู่ใน y หรือจะ return false เมื่อ x ไม่ได้อยู่
+not in	จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้อยู่ในกรอบที่ต้องการเช็ค	x not in y จะ return true เมื่อ x ไม่ได้อยู่ใน y และ return false เมื่อ x อยู่ใน y
 
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyMzE1NjYzXX0=
+eyJoaXN0b3J5IjpbNTMzODA4ODQxXX0=
 -->
