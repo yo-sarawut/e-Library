@@ -23,24 +23,19 @@ function พื้นฐานของการจัดการเวลา P
 
 ## String to DateTimes
 บ่อยครั้งที่เวลาเราทํางานแล้วต้องแปลง string ไปเป็น DateTime โดยใน python ใช้เพียงแค่ method เดียวในการ convert ไป
-
+```py
 from datetime import datetime 
 string_datetime = '06/11/2018' 
-#โดย %m%d%y คือ format string ที่เราต้องการจะ parse
- 
+#โดย %m%d%y คือ format string ที่เราต้องการจะ parse 
 print(datetime.strptime(string_datetime,'%m%d%y'))
- 
+ ```
+ ```
 #output: 2016-06-11 00:00:00
-DateTimes to String
-แต่ทางกลับกัน ถ้าอยากเปลี่ยนจาก DateTimes object ไปเป็น String ก้ใช้ Strfrtime แทน โดยเราต้องการให้ output ออกมาเป็นไรให้ใช้ตาม pattern เลย
+```
 
-1
-2
-3
-4
-5
-6
-7
+## DateTimes to String
+แต่ทางกลับกัน ถ้าอยากเปลี่ยนจาก DateTimes object ไปเป็น String ก้ใช้ Strfrtime แทน โดยเราต้องการให้ output ออกมาเป็นไรให้ใช้ตาม pattern เลย
+```py
 from datetime import datetime
  
 #สมมุติให้มี datetime object ชื่อว่า date_time_object  
@@ -219,5 +214,5 @@ print(diff.in_days())
 
 > [Source : ](https://www.howtoautomate.in.th/python-date-time-example/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyOTg1MDVdfQ==
+eyJoaXN0b3J5IjpbLTE4MDg3OTcyNzFdfQ==
 -->
