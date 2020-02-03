@@ -409,13 +409,9 @@ You can create tables in markdown cells, as shown below:
 
 Columns are separated by vertical bar  `|`  and rows are written in a new line. The above table is generated, as shown below:
 
-This
-
-is
-
-a
-
-table
+|This	|is|
+|-|-|
+|a|	table|
 
 ### What are the magic commands in Jupyter Notebook?
 
@@ -452,11 +448,11 @@ These magic commands are prefixed with the  `%`  value. Following are some of th
     %pip install pandas
     
 -   `%who`  list all variables from the global scope.
-    
+    ```py
     stock = 'AAPL'
     price = 222.15
     %who str
-    
+    ```
 -   `%load`  inserts the code from an external script.
     
     %load ./hello_world.py
@@ -506,5 +502,5 @@ _Disclaimer: All data and information provided in this article are for informati
 
 > [Source : ](https://blog.quantinsti.com/jupyter-notebook-tutorial-installation-components-magic-commands/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Nzg0ODY3XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ5MzM3MjBdfQ==
 -->
