@@ -45,13 +45,69 @@ def functionname( parameters ):
    function_detail
    return [expression]
 ```
+แบบ python ใช้ Indent ซึ่งตาม [สไตลด์ไกด์](https://www.python.org/dev/peps/pep-0008/#indentation) ที่ดีควรเว้น 4 Indents น่ะ
 
+_Quotation_
 
+Python รับได้หมดทั้ง 3 แบบนี้ในการใส่ quote
 
+1.  ‘…..’ ( single quote )
+2.  “…..” ( double quote )
+3.  “””……””” ( tripple double quote – สไตล์นี้ควรจะใช้กับ Document เท่านั้นน่ะ)
 
+_Comment_
 
+มี 2 รูปแบบ
+
+1.  Inline Comment # …… ( 1 sharp )
+2.  Multiple Line Comment ”’ ……. ”’ ( 3 single quote )
+
+#### Data Types
+
+Python มี data types ง่ายๆเลยแค่ 5 อย่าง
+
+1.  Numbers (int,float,long,complex)
+2.  String
+3.  List
+4.  Tuple
+5.  Dictionary
+
+ใน python เราเองไม่ต้องประกาศตัวแปรว่าเป็น type ไหนก่อนใช้ ( explicit declaration ) มันจะถูกกําหนด type เมื่อมีการ assign ค่าให้มัน
+#### Number
+```py
+no_need_to_declare_int = 2 
+no_need_to_declare_float = 3.14
+```
+
+ซึ่งใน Number เนี่ย มันจะ support type อยู่ 4 แบบคือ
+
+-   int
+-   long
+-   float
+-   complex
+
+แต่จริงๆแล้วเราไม่จําเป็นต้องรู้ก็ได้ เพราะถึงเวลาใช้ เราไม่จําเป็นต้องประกาศอะไร
+
+#### String
+
+String ใน python มีลูกเล่นมากกว่าภาษาอื่นตรงที่มีว่ามี function ในการ slice ที่แตกต่างไป โดยใช้คําสั่งต่อไปนี้
+
+-   [] สามารถใส่ Index ลงไปตรงๆได้เลย
+-   [:] เลือกจะเอาหัวหรือท้ายได้
+-   * ใช้วิธี Multiple ให้ string มีหลายตัวก็ได้
+-   concat ก็ตรงๆคือ เครื่องหมาย +
+```py
+str = 'Hello World!'
+ 
+print str # Prints complete string
+print str[0] # Prints first character of the string
+print str[2:5] # Prints characters starting from 3rd to 5th
+print str[2:] # Prints string starting from 3rd character
+print str * 2 # Prints string two times
+print str + "TEST" # Prints concatenated string
+Lists
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODAwMjI4OF19
+eyJoaXN0b3J5IjpbOTg0MjEzMTU1XX0=
 -->
