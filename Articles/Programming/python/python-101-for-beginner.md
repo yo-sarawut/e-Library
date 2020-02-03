@@ -187,9 +187,17 @@ y = [1,2,3]
 print(x == y) # Prints out True
 print(x is y) # Prints out False
 ```
+#### Condition
 
-
-
+อย่างนึงที่น่าสนใจเกี่ยวกับ Python ก็คือมันสะดวก กระทัดรัด และใช้งานได้ดีเลย เช่น ในกรณีของ If-else ใน Java แบบบรรทัดเดียวจะหน้าตาแบบนี้
+```py
+name = ((city.getName() == null) ? "N/A" : city.getName());
+```
+ไม่รู้คนอื่นเข้าง่ายรึเปล่าแต่สําหรับผมแล้วมันเข้าใจอยากที่เดียวเลย แต่ถ้าเป็นใน Python จะเป็น
+```
+'Yes' if fruit == 'Apple' else 'No'
+ 
+# value_when_true if condition else value_when_false
 
 
 
@@ -199,5 +207,5 @@ print(x is y) # Prints out False
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDI1MTA5OCw1MzM4MDg4NDFdfQ==
+eyJoaXN0b3J5IjpbMjEyMjgwNTUwMiw1MzM4MDg4NDFdfQ==
 -->
