@@ -36,57 +36,27 @@ print(datetime.strptime(string_datetime,'%m%d%y'))
 ## DateTimes to String
 แต่ทางกลับกัน ถ้าอยากเปลี่ยนจาก DateTimes object ไปเป็น String ก้ใช้ Strfrtime แทน โดยเราต้องการให้ output ออกมาเป็นไรให้ใช้ตาม pattern เลย
 ```py
-from datetime import datetime
- 
-#สมมุติให้มี datetime object ชื่อว่า date_time_object  
- 
+from datetime import datetime 
+#สมมุติให้มี datetime object ชื่อว่า date_time_object   
 print(date_time_object.strfrtime('%m%d%y'))
- 
+ ```
+ ```
 #output: 06/11/2016 เป็นต้น
-Timezone
+```
+## Timezone
 การใช้งาน DateTimes object ก็ต้องเข้าใจถึงเรื่องของ timezone ด้วย เพราะว่าเวลาบนโลกใบนี้ไม่เท่ากัน การจะใช้เวลาใน zone ไหนก็ต้องระบุให้มันด้วย
 
 โดยถ้าเป็น naive object มันจะไม่มีความสามารถด้าน timezone เพราะฉะนั้นเราต้องใช้ aware object ซึ่งมันอยู่ใน modules ของ pytz นั้นเอง โดยใช้แบบตัวอย่างข้างล่าง
+```py
+from pytz import timezone 
+from datetime import datetime 
+dt_data = datetime.strptime('2016/06/11', %y%m%d) 
+ny_tz = timezone('US/Eastern') 
+#ทีนี้มาแปลงให้เป็นเวลาของ US กันด้วย replace 
+new_dt = dt_data.replace(tzinfo=ny_tz) 
 
-
- 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-from pytz import timezone
- 
-from datetime import datetime
- 
-dt_data = datetime.strptime('2016/06/11', %y%m%d)
- 
-ny_tz = timezone('US/Eastern')
- 
-#ทีนี้มาแปลงให้เป็นเวลาของ US กันด้วย replace
- 
-new_dt = dt_data.replace(tzinfo=ny_tz)
- 
 #output: จะได้เวลาของ timezone นั้นๆ
- 
+
 #หรือต้องการจะเปลี่ยน tz ของ object ที่มีอยู่แล้วก็ทําได้โดยใช้ astimezone()
  
 la_tz = timezone('US/Pacific')
@@ -214,5 +184,5 @@ print(diff.in_days())
 
 > [Source : ](https://www.howtoautomate.in.th/python-date-time-example/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg3OTcyNzFdfQ==
+eyJoaXN0b3J5IjpbOTc2NjIwNTg2XX0=
 -->
