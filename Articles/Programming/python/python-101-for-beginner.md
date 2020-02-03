@@ -246,10 +246,41 @@ python ก็แค่โยน list เข้าไปให้มันลู�
 _while loop_
 
 อันนี้เหมือนทั่วไป ไม่มีไรแปลกใหม่
+```py
+count = 0
+while (count < 5):
+   print(count)
+   count += 1 # This is the same as count = count + 1
+```
+แต่ที่เด็ดน่ะคือ ซึ่งภาษา Java ไม่มีก็คือ มันสามารถใส่ else กับ loop ได้ เช่น
+```py
+count=0
+while(count < 5):
+   print(count)
+   count +=1
+else:
+   print("count value reached %d" %(count))
+ 
+# Prints out 1,2,3,4
+for i in range(1, 10):
+   if(i%5==0):
+      break
+   print(i)
+else:
+   print("this is not printed because for loop is terminated because of break but not due to fail in condition")
+```
 
+#### Functions
+
+วิธีการสร้าง Function ใน Python จะใช้ “:” เป็นตัว บอกว่ากําลังจะสร้าง function แบบนี้ ไม่ซับซ้อนอะไรเรื่องนี้
+
+   print("Hello From My Function!")
+ 
+def sum_two_numbers(a, b):
+   return a + b
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODIxMTksNTMzODA4ODQxXX0=
+eyJoaXN0b3J5IjpbMTIxMDE4MjUyNyw1MzM4MDg4NDFdfQ==
 -->
