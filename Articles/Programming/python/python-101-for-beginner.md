@@ -354,9 +354,21 @@ else:
 
 จะเริ่มเขียน Python ให้ดีควรเขียนให้ถูกต้องตามสไตล์ guide ด้วยน่ะ ดูได้จากทที่นี้เลย  [Pep 8 Style guides](https://www.python.org/dev/peps/pep-0008/)
 
+เดี๋ยวครั้งหน้าจะมาลงรายละเอียดตัวอื่นๆเช่นพวก Regular Expression, Files I/O อีกหน่อย จะได้ใช้งานได้ง่าย
+
+Credit Knowledge:
+
+-   https://www.tutorialspoint.com/python
+-   https://www.learnpython.org/
+-   http://stackoverflow.com/questions/8898590/short-form-for-java-if-statement
+-   http://stackoverflow.com/questions/2802726/putting-a-simple-if-then-statement-on-one-line
+
+Credit Image:
+
+-   http://www.pygamepro.com/
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-101-for-beginner/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2ODA5OTk5LDUzMzgwODg0MV19
+eyJoaXN0b3J5IjpbMjAxNjMwMzg1LDUzMzgwODg0MV19
 -->
