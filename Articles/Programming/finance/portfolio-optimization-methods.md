@@ -93,7 +93,7 @@ The weights are a solution to the equation,
 ![minimum variance](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/minimum-variance.PNG)
 
 Where, w is the weight, ∑ is the covariance matrix
-
+```py
 def minimum_variance(w0, V):
 def calculate_portfolio_var(w, pars):
 # function that calculates portfolio risk
@@ -111,7 +111,8 @@ method='SLSQP',
 constraints=cons,
 options={
 'disp': False})
-return np.asmatrix(res.x)![](https://blog.quantinsti.com/portfolio-optimization-methods/images/image12.png)
+return np.asmatrix(res.x)
+```
 
 ![minimum variance 1](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/minimum-variance-1.png)
 
@@ -128,7 +129,7 @@ The weights are a solution to the optimization problem for different levels of e
 ![](https://blog.quantinsti.com/portfolio-optimization-methods/images/image3.png)![](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/mean-variance-optimization.PNG)
 
 Where, w is the weight, ∑ is the covariance matrix and N is the number of assets, R is the expected return and q is a "risk tolerance" factor, where 0 results in the portfolio with minimal risk and ∞ results in the portfolio infinitely far out on the frontier with both expected return and risk unbounded.
-
+```py
 def mean_variance_optimization(w, V):
 def calculate_portfolio_risk(w, V):
 # function that calculates portfolio risk
@@ -155,7 +156,9 @@ for target_return in np.arange(0.005, .0402, .0005):
 opt_w = optimize(prices=prices, symbols=symbols, target_return=target_return)
 optimal_risk_all = np.append(optimal_risk_all, get_portfolio_risk(opt_w, V))
 optimal_return_all = np.append(optimal_return_all, get_portfolio_return(opt_w, w))
-return optimal_return_all, optimal_risk_all![](https://blog.quantinsti.com/portfolio-optimization-methods/images/image8.png)
+return optimal_return_all, optimal_risk_all
+```
+
 
 ![](https://d1rwhvwstyk9gu.cloudfront.net/2020/01/mvo1.png)
 
@@ -194,5 +197,5 @@ _Disclaimer: The views, opinions, and information provided within this guest pos
 
 > [Source : ](https://blog.quantinsti.com/portfolio-optimization-methods/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMzNzUwNzRdfQ==
+eyJoaXN0b3J5IjpbMTg0MjQ5NTExXX0=
 -->
