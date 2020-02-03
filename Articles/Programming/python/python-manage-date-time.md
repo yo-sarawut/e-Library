@@ -87,86 +87,43 @@ print(dt-flashback)
  
 โดยหลักการณ์ไม่มีไรมาก เราอาจจะนําไปใช้ตอนสร้าง session หรือ keys, ttl หรืออะไรก็ได้ที่เกี่ยวข้องกับการจัดการเวลาเหล่านี้ 🙂
 
-Pendulum – Helping Libraries
+## Pendulum – Helping Libraries
 หลังจากเรียนรู้ function พื้นฐานของ DateTimes, Timezone, Timedelta ที่ควรจะรู้แล้ว คราวนี้เรามาเรียนรู้เรื่องของ Pendulum ซึ่งเป็น libraries ที่ช่วยให้ชีวิตสะดวกมากขึ้นมากๆเลย 🙂
 
 เพราะคุณสมบัติในการแปลงค่าเวลามาเป็นภาษามนุษย์เนี้ยแหละ ที่ทําให้เราทํางานสะดวกมากขึ้น รวมไปถึงสั้นกระทัดรัดด้วย
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-import pendulum
- 
-#function 1 - parse & format
- 
-pendulum_obj = pendulum.parse('6/11/2018',tz='US/Eastern')
- 
-#format pendulum object to string 
- 
-print(pendulum_obj.format('%A %d/%m/%Y %H:%M'))
- 
-#function 2 - now
- 
-now = pendulum.now('Europe/Paris')
- 
-#function 3 - change timezone
- 
-pendulum.in_timezone('America/Toronto')
- 
-#function 4 - add days
- 
-now.add(days=2)
- 
-#function 5 - human readable date time when time calculation
- 
-diff = time1_obj - time2_obj
- 
+```py
+import pendulum 
+#function 1 - parse & format 
+pendulum_obj = pendulum.parse('6/11/2018',tz='US/Eastern') 
+#format pendulum object to string  
+print(pendulum_obj.format('%A %d/%m/%Y %H:%M')) 
+#function 2 - now 
+now = pendulum.now('Europe/Paris') 
+#function 3 - change timezone 
+pendulum.in_timezone('America/Toronto') 
+#function 4 - add days 
+now.add(days=2) 
+#function 5 - human readable date time when time calculation 
+diff = time1_obj - time2_obj 
 print(diff.in_word())
- 
-#example output: 2 days 23 hours 12 minutes
- 
+ #example output: 2 days 23 hours 12 minutes 
 print(diff.in_days())
- 
+ ```
+ ```
 #example output: 2 days
-สรุปแล้ว
+```
+
+**สรุปแล้ว**
+
 หลังจากลองเล่นมาทั้งหมดแล้ว สรุปไม่ใช่ default modules อย่าง DateTimes แล้วไปใช้ pendulum น่าจะง่ายกับชีวิตมากกว่าน่ะเนี้ย เพราะมันทั้ง parse, different และก็จัดการกับ timezone ได้ง่าย default modules ของ python ซะอีก
 
-ดังนั้นถ้า DateTimes ใน python แนะนําให้ใช้ “pendulum” เลย
+ดังนั้นถ้า **DateTimes** ใน python แนะนําให้ใช้ **“pendulum”** เลย
 
 
 
 
 > [Source : ](https://www.howtoautomate.in.th/python-date-time-example/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNzE3NzEwXX0=
+eyJoaXN0b3J5IjpbMTQ2MDYwOTU4OF19
 -->
