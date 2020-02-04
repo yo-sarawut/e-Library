@@ -444,11 +444,11 @@ False
 False
  pendulum.now('UTC').is_utc()
 True
-
+```
 # Fluent helpers[](https://pendulum.eustace.io/docs/#fluent-helpers "Permanent link")
 
 Pendulum provides helpers that returns a new instance with some attributes modified compared to the original instance. However, none of these helpers, with the exception of explicitely setting the timezone, will change the timezone of the instance. Specifically, setting the timestamp will not set the corresponding timezone to UTC.
-
+```py
  import pendulum
 
  dt = pendulum.now()
@@ -469,13 +469,13 @@ You can also use the  `on()`  and  `at()`  methods to change the date and the ti
 
  dt.at(10, 30).to_datetime_string()
 '2016-11-16 10:30:00'
-
+```
 You can also modify the timezone.
-
+```py
  dt.set(tz='Europe/London')
-
+```
 Setting the timezone just modify the timezone information without making any conversion while  `in_timezone()`  (or  `in_tz()`) converts the time in the appropriate timezone.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(2013, 3, 31, 2, 30)
@@ -497,13 +497,13 @@ Setting the timezone just modify the timezone information without making any con
  dt = dt.in_tz('Europe/Paris').in_tz('UTC')
  print(dt)
 '2013-03-31T02:30:00+00:00'
-
+```
 # String formatting[](https://pendulum.eustace.io/docs/#string-formatting "Permanent link")
 
 The  `__str__`  magic method is defined which allows  `DateTime`  instances to be printed as a pretty date string when used in a string context.
 
 The default string representation is the same as the one returned by the  `isoformat()`  method.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(1975, 12, 25, 14, 15, 16)
@@ -524,7 +524,7 @@ The default string representation is the same as the one returned by the  `isofo
 
  dt.to_day_datetime_string()
 'Thu, Dec 25, 1975 2:15 PM'
-
+```
 # You can also use the format() method
  dt.format('dddd Do [of] MMMM YYYY HH:mm:ss A')
 'Thursday 25th of December 1975 02:15:16 PM'
@@ -1692,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg4OTM0MjVdfQ==
+eyJoaXN0b3J5IjpbLTEyODYxODE5OTNdfQ==
 -->
