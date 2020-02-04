@@ -125,37 +125,43 @@ The next helper,  `from_format()`, is similar to the native  `datetime.strptime(
 To see all the available tokens, you can check the  [Formatter](https://pendulum.eustace.io/docs/#formatter)  section.
 
 It also accepts a  `tz`  keyword argument to specify the timezone:
-
+```py
  dt = pendulum.from_format('1975-05-21 22', 'YYYY-MM-DD HH', tz='Europe/London')
-'1975-05-21T22:00:00+01:00'
-
+ 
+#'1975-05-21T22:00:00+01:00'
+```
 The final helper is for working with unix timestamps.  `from_timestamp()`  will create a  `DateTime`  instance equal to the given timestamp and will set the timezone as well or default it to  `UTC`.
-
+```py
  dt = pendulum.from_timestamp(-1)
  print(dt)
-'1969-12-31T23:59:59+00:00'
-
+ 
+#'1969-12-31T23:59:59+00:00'
+```
+```py
  dt  = pendulum.from_timestamp(-1, tz='Europe/London')
  print(dt)
-'1970-01-01T00:59:59+01:00'
-
+ 
+#'1970-01-01T00:59:59+01:00'
+```
 Finally, if you find yourself inheriting a  `DateTime`  instance, you can create a  `DateTime`  instance via the  `instance()`  function.
-
+```py
  dt = datetime(2008, 1, 1)
  p = pendulum.instance(dt)
  print(p)
-'2008-01-01T00:00:00+00:00'
-
+ 
+#'2008-01-01T00:00:00+00:00'
+```
 # Parsing[](https://pendulum.eustace.io/docs/#parsing "Permanent link")
 
 The library natively supports the RFC 3339 format, most ISO 8601 formats and some other common formats.
-
+```py
  import pendulum
 
  dt = pendulum.parse('1975-05-21T22:00:00')
  print(dt)
-'1975-05-21T22:00:00+00:00
-
+ 
+#'1975-05-21T22:00:00+00:00
+```
 # You can pass a tz keyword to specify the timezone
  dt = pendulum.parse('1975-05-21T22:00:00', tz='Europe/Paris')
  print(dt)
@@ -1681,5 +1687,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTUzMTYwOV19
+eyJoaXN0b3J5IjpbOTYxOTk4MjE5XX0=
 -->
