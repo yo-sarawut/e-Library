@@ -17,8 +17,9 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Portfolio Management Of Multiple Strategies Using Python](https://blog.quantinsti.com/portfolio-management-strategy-python/)
 - [Time series decomposition & Prediction in Python](https://www.pythonforfinance.net/2019/07/22/time-series-decomposition-prediction-in-python/)
 - [Exploratory Data Analysis on Stock Pricing Data](https://www.codementor.io/blog/quantitative-trading-6i4dw8wj4z)
-- [How To Invest In The Strongest Stocks Every Month]()
+- [How To Invest In The Strongest Stocks Every Month](https://decodingmarkets.com/regular-investing-strongest-stocks/)
+- [Lump Sum vs. Dollar Cost Averaging](https://kykiefer.github.io/lump-sum-vs-dca.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NTI3Nzc3LDE3MTg3NTc1NjMsMTY2Mz
-g3NDkzNl19
+eyJoaXN0b3J5IjpbLTE2MzIwOTE4NDcsMTcxODc1NzU2MywxNj
+YzODc0OTM2XX0=
 -->
