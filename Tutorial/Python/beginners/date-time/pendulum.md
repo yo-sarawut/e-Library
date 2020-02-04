@@ -524,7 +524,7 @@ The default string representation is the same as the one returned by the  `isofo
 
  dt.to_day_datetime_string()
 'Thu, Dec 25, 1975 2:15 PM'
-```
+
 # You can also use the format() method
  dt.format('dddd Do [of] MMMM YYYY HH:mm:ss A')
 'Thursday 25th of December 1975 02:15:16 PM'
@@ -532,13 +532,13 @@ The default string representation is the same as the one returned by the  `isofo
 # Of course, the strftime method is still available
  dt.strftime('%A %-d%t of %B %Y %I:%M:%S %p')
 'Thursday 25th of December 1975 02:15:16 PM'
-
+```
 For localization support see the  [Localization](https://pendulum.eustace.io/docs/#localization)  section.
 
 ## Common Formats[](https://pendulum.eustace.io/docs/#common-formats "Permanent link")
 
 The following are methods to display a  `DateTime`  instance as a common format:
-
+```py
  import pendulum
 
  dt = pendulum.now()
@@ -575,19 +575,19 @@ The following are methods to display a  `DateTime`  instance as a common format:
 
  dt.to_w3c_string()
 '1975-12-25T14:15:16-05:00'
-
+```
 ## Formatter[](https://pendulum.eustace.io/docs/#formatter "Permanent link")
 
 Pendulum uses its own formatter when using the  `format()`  method.
 
 This format is more intuitive to use than the one used with  `strftime()`  and supports more directives.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(1975, 12, 25, 14, 15, 16)
  dt.format('YYYY-MM-DD HH:mm:ss')
 '1975-12-25 14:15:16'
-
+```
 ### Tokens[](https://pendulum.eustace.io/docs/#tokens "Permanent link")
 
 The following tokens are currently supported:
@@ -833,7 +833,7 @@ To escape characters in format strings, you can wrap the characters in square br
 # Comparison[](https://pendulum.eustace.io/docs/#comparison "Permanent link")
 
 Simple comparison is offered up via the basic operators. Remember that the comparison is done in the UTC timezone so things aren't always as they seem.
-
+```py
  import pendulum
 
  first = pendulum.datetime(2012, 9, 5, 23, 26, 11, 0, tz='America/Toronto')
@@ -877,7 +877,7 @@ False
 True
  first <= second
 True
-
+```
 To handle the most used cases there are some simple helper functions. For the methods that compare to  `now()`  (ex.  `is_today()`) in some manner the  `now()`  is created in the same timezone as the instance.
 
  import pendulum
@@ -1692,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYxODE5OTNdfQ==
+eyJoaXN0b3J5IjpbMTA1MjI0MTQyNF19
 -->
