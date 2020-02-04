@@ -22,9 +22,8 @@ Special care has been taken to ensure timezones are handled correctly, and are b
  dt_vancouver = pendulum.datetime(2012, 1, 1, tz='America/Vancouver')
 
  print(dt_vancouver.diff(dt_toronto).in_hours())
- ```
- ```
-3
+
+#3
 ```
 The default timezone, except when using the  `now()`, method will always be  `UTC`.
 
@@ -38,15 +37,13 @@ First there is the main  `datetime()`  helper.
 
  dt = pendulum.datetime(2015, 2, 5)
  isinstance(dt, datetime)
- ```
- ```
-True
+
+#True
 ```
 ```py
  dt.timezone.name
- ```
- ```
-'UTC'
+
+#'UTC'
 ```
 `datetime()`  sets the time to  `00:00:00`  if it's not specified, and the timezone (the  `tz`  keyword argument) to  `UTC`. It otherwise can be a  `Timezone`  instance or simply a string timezone value.
 ```py
@@ -68,9 +65,8 @@ The  `local()`  helper is similar to  `datetime()`  but automatically sets the t
 
  dt = pendulum.local(2015, 2, 5)
  print(dt.timezone.name)
- ```
- ```
-'America/Toronto'
+
+#'America/Toronto'
 ```
 `local()`  is just an alias for  `datetime(..., tz='local')`.
 
@@ -82,24 +78,22 @@ There is also the  `now()`  method.
 
  now_in_london_tz = pendulum.now('Europe/London')
  now_in_london_tz.timezone_name
- ```
- ```
-'Europe/London'
+
+#'Europe/London'
  ```
 To accompany  `now()`, a few other static instantiation helpers exist to create known instances. The only thing to really notice here is that  `today()`,  `tomorrow()`  and  `yesterday()`, besides behaving as expected, all accept a timezone parameter and each has their time value set to  `00:00:00`.
  ```py
  now = pendulum.now()
  print(now)
-  ```
-   ```
-'2016-06-28T16:51:45.978473-05:00'
- ```
+
+#2016-06-28T16:51:45.978473-05:00
+```
   ```py
  today = pendulum.today()
  print(today)
-  ```
-'2016-06-28T00:00:00-05:00'
 
+#'2016-06-28T00:00:00-05:00'
+ ```
  tomorrow = pendulum.tomorrow('Europe/London')
  print(tomorrow)
 '2016-06-29T00:00:00+01:00'
@@ -1681,5 +1675,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTc2NzkwN119
+eyJoaXN0b3J5IjpbMTQ1NDc5MDIzMF19
 -->
