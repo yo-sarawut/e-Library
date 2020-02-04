@@ -20,7 +20,6 @@ It prints out the length of posts which is 120, as expected.
 
 Using the find_all method on the newly created html_soup variable in the code above, I found the posts. I needed to examine the website’s structure to find the parent tag of the posts. Looking at the screenshot below, you can see that it’s <li class=“result-row”>. That is the tag for one single post, which is literally the box that contains all the elements I grabbed!
 
-![](https://miro.medium.com/max/30/1*ZBl8WpsjsfG98h5B4-5aMw.png?q=20)
 
 ![](https://miro.medium.com/max/1916/1*ZBl8WpsjsfG98h5B4-5aMw.png)
 
@@ -30,7 +29,6 @@ In order to scale this, make sure to work in the following way: grab the first p
 
 Class bs4.element.ResultSet is indexed, so I looked at the first apartment by indexing  `posts[0]`. Surprise, it’s all the code that belongs to that <li> tag!
 
-![](https://miro.medium.com/max/30/1*FGX4E8X4Sb6Hghq5sbCZDg.png?q=20)
 
 ![](https://miro.medium.com/max/1691/1*FGX4E8X4Sb6Hghq5sbCZDg.png)
 
@@ -50,7 +48,6 @@ The next block is the loop for all the pages for the East Bay. Since there isn�
 
 The loop starts on the first page, and for each post in that page, it works through the following logic:
 
-![](https://miro.medium.com/max/30/1*UjFFWF96FbLm2kRp9wILAA.png?q=20)
 
 ![](https://miro.medium.com/max/915/1*UjFFWF96FbLm2kRp9wILAA.png)
 
@@ -142,5 +139,5 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MDI1NzcyXX0=
+eyJoaXN0b3J5IjpbMTIxMDc2MTM4NywyMjQwMjU3NzJdfQ==
 -->
