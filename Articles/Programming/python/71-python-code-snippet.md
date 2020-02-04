@@ -1,5 +1,5 @@
 
-[The Renegade Coder](https://therenegadecoder.com/ "Go to The Renegade Coder.")[Articles](https://therenegadecoder.com/articles/ "Go to Articles.")[Code](https://therenegadecoder.com/category/code/ "Go to the Code category archives.")71 Python Code Snippets for Everyday Problems
+
 
 # 71 Python Code Snippets for Everyday Problems
 
@@ -42,7 +42,7 @@ In this section, we’ll take a look at various common scenarios that arise and 
 ### Inverting a Dictionary
 
 Sometimes when we have a dictionary, we want to be able to flip its keys and values. Of course, there are concerns like “how do we deal with duplicate values?” and “what if the values aren’t hashable?” That said, in the simple case, there are a few solutions:
-
+```py
 1.  # Use to invert dictionaries that have unique values
 2.  my_inverted_dict = dict(map(reversed, my_dict.items()))
 
@@ -61,7 +61,7 @@ Sometimes when we have a dictionary, we want to be able to flip its keys and val
 
 17.  # Use to invert dictionaries that have lists of values
 18.  my_dict = {value: key for key in my_inverted_dict for value in my_map[key]}
-
+```
 For more explanation, check out my article titled “[How to Invert a Dictionary in Python](https://therenegadecoder.com/code/how-to-invert-a-dictionary-in-python/).” It includes a breakdown of each solution, their performance metrics, and when they’re applicable. Likewise,  [I have a YouTube video](https://youtu.be/lN5qX73H2Bc)  which covers the same topic.
 
 ### Summing Elements of Two Lists
@@ -507,5 +507,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjA4OTMyNl19
+eyJoaXN0b3J5IjpbMTUxMDA4NzA4OV19
 -->
