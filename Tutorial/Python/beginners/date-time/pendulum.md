@@ -1613,7 +1613,7 @@ The testing methods allow you to set a  `DateTime`  instance (real or mock) to b
 
 -   A call to the  `now()`  method, ex.  `pendulum.now()`.
 -   When the string "now" is passed to the  `parse()`  method, ex.  `pendulum.parse('now')`
-
+```py
  import pendulum
 
 # Create testing datetime
@@ -1645,9 +1645,9 @@ Related methods will also returned values mocked according to the **now** instan
 
  print(pendulum.yesterday())
 '2001-05-20T00:00:00+00:00'
-
+```
 If you don't want to manually clear the mock (or you are afraid of forgetting), you can use the provided  `test()`  contextmanager.
-
+```py
  import pendulum
 
  known = pendulum.datetime(2001, 5, 21, 12)
@@ -1658,29 +1658,29 @@ If you don't want to manually clear the mock (or you are afraid of forgetting), 
 
  print(pendulum.now())
 '2016-07-10T22:10:33.954851-05:00'
-
+```
 # Limitations[](https://pendulum.eustace.io/docs/#limitations "Permanent link")
 
 Even though the  `DateTime`  class is a subclass of  `datetime`, there are some rare cases where it can't replace the native class directly. Here is a list (non-exhaustive) of the reported cases with a possible solution, if any:
 
 -   `sqlite3`  will use the the  `type()`  function to determine the type of the object by default. To work around it you can register a new adapter:
-    
+    ```py
     import pendulum
     from sqlite3 import register_adapter
     
     register_adapter(pendulum.DateTime, lambda val: val.isoformat(' '))
-    
+    ```
 -   `mysqlclient`  (former  `MySQLdb`) and  `PyMySQL`  will use the the  `type()`  function to determine the type of the object by default. To work around it you can register a new adapter:
-    
+    ```py
     import pendulum
     import MySQLdb.converters
     import pymysql.converters
     
     MySQLdb.converters.conversions[pendulum.DateTime] = MySQLdb.converters.DateTime2literal
     pymysql.converters.conversions[pendulum.DateTime] = pymysql.converters.escape_datetime
-    
+    ```
 -   `django`  will use the  `isoformat()`  method to store datetimes in the database. However since  `pendulum`  is always timezone aware the offset information will always be returned by  `isoformat()`  raising an error, at least for MySQL databases. To work around it you can either create your own  `DateTimeField`  or use the previous workaround for  `MySQLdb`:
-    
+    ```py
     import pendulum
     from django.db.models import DateTimeField as BaseDateTimeField
     
@@ -1693,8 +1693,8 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
                 return value.format('YYYY-MM-DD HH:mm:ss')
     
             return '' if val is None else val.isoformat()
-
-> [Source : ](https://pendulum.eustace.io/docs/.
+```
+> [Source : ](https://pendulum.eustace.io/docs/.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjM5MjYwMF19
+eyJoaXN0b3J5IjpbOTU5MTkyMDZdfQ==
 -->
