@@ -161,30 +161,30 @@ The library natively supports the RFC 3339 format, most ISO 8601 formats and som
  print(dt)
  
 #'1975-05-21T22:00:00+00:00
-```
+
 # You can pass a tz keyword to specify the timezone
  dt = pendulum.parse('1975-05-21T22:00:00', tz='Europe/Paris')
  print(dt)
-'1975-05-21T22:00:00+01:00'
+#'1975-05-21T22:00:00+01:00'
 
 # Not ISO 8601 compliant but common
  dt = pendulum.parse('1975-05-21 22:00:00')
-
+```
 If you pass a non-standard or more complicated string, it will raise an exception so it is advised to use the  `from_format()`  helper instead.
 
 However, if you want the library to fallback on the  [dateutil](https://dateutil.readthedocs.io/)  parser, you have to pass  `strict=False`.
-
+```py
  import pendulum
 
  dt = pendulum.parse('31-01-01')
 Traceback (most recent call last):
 ...
-ParserError: Unable to parse string [31-01-01]
-
+#ParserError: Unable to parse string [31-01-01]
+```
  dt = pendulum.parse('31-01-01', strict=False)
  print(dt)
-'2031-01-01T00:00:00+00:00'
-
+#'2031-01-01T00:00:00+00:00'
+```
 ## RFC 3339[](https://pendulum.eustace.io/docs/#rfc-3339 "Permanent link")
 
 STRING
@@ -1687,5 +1687,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxOTk4MjE5XX0=
+eyJoaXN0b3J5IjpbLTI2NTQxNDEyMV19
 -->
