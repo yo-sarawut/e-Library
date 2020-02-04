@@ -43,10 +43,13 @@ InvoiceChain เป็นแพลตฟอร์มที่ช่วยให�
 แขวง บางกะปิ เขต ห้วยขวาง กรุงเทพมหานคร 10310
 
 
+## [3. DataOne Asia](https://www.d1asia.co.th/)
 
 
 
-## [3. Get Invoice](https://www.getinvoice.net/)
+
+
+## [4. Get Invoice](https://www.getinvoice.net/)
 
 GetInvoice คือโซลูชั่นสำหรับการจัดทำ ส่งมอบ และเก็บรักษาใบกำกับภาษีอิเล็กทรอนิกส์ และใบรับอิเล็กทรอนิกส์ ( e-Tax Invoice & e-Receipt ) ตามที่กฎหมายกำหนด ใบกำกับภาษีอิเล็กทรอนิกส์ที่จัดทำเป็นแบบ PDF/A-3 สร้าง XML ตรงตามมาตรฐาน ขมธอ3-2560 สามารถเชื่อมโยงกับระบบบัญชีหรือ ERP ได้ทุกค่าย ทำการจัดเก็บเอกสารอัตโนมัติภายใต้โครงสร้างการจัดเก็บที่ดีที่สุดจากประสบการณ์ของทีมงานผู้เชี่ยวชาญกว่า 20 ปี มีหุ่นยนต์ทำหน้าที่ upload ข้อมูลให้สรรพากรแทนคุณช่วยคุณประหยัดเวลาได้มากขึ้น ติดต่อเพื่อชมการสาธิตได้แล้ววันนี้
 
@@ -214,11 +217,11 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI1NzQ3MzcsNzI0OTg5MTI5LDIwND
-gzMDY2ODIsMTMyMTE1MjAyOCw4MDQ5MDM3MTAsLTkxODA3Nzgz
-NywtMTUxMTIwNTYyNiw0OTg0MjY2ODEsLTE3NzUyODYzNzgsLT
-IwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MTMw
-NzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAxLC
-05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5
-MDY2NV19
+eyJoaXN0b3J5IjpbLTM5MTQxNTExMiw3MjQ5ODkxMjksMjA0OD
+MwNjY4MiwxMzIxMTUyMDI4LDgwNDkwMzcxMCwtOTE4MDc3ODM3
+LC0xNTExMjA1NjI2LDQ5ODQyNjY4MSwtMTc3NTI4NjM3OCwtMj
+A1NjY1NDczNCwxOTcyMTk4NzAzLDUyMDc2Njc4MSwxMzkxMzA3
+NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC03MjY1MTEyMDEsLT
+k3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2OTczMiwxNjUxNzkw
+NjY1XX0=
 -->
