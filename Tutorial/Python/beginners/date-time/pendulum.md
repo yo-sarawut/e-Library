@@ -879,7 +879,7 @@ True
 True
 ```
 To handle the most used cases there are some simple helper functions. For the methods that compare to  `now()`  (ex.  `is_today()`) in some manner the  `now()`  is created in the same timezone as the instance.
-
+```py
  import pendulum
 
  dt = pendulum.now()
@@ -901,9 +901,9 @@ True
 True
 
 # Addition and Subtraction[](https://pendulum.eustace.io/docs/#addition-and-subtraction "Permanent link")
-
+```
 To easily adding and subtracting time, you can use the  `add()`  and  `subtract()`  methods. Each method returns a new  `DateTime`  instance.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(2012, 1, 31)
@@ -984,7 +984,7 @@ To easily adding and subtracting time, you can use the  `add()`  and  `subtract(
 '2012-01-28 03:04:05'
  dt.sub_timedelta(timedelta(hours=3, minutes=4, seconds=5))
 '2012-01-28 00:00:00'
-
+```
 Passing negative values to  `add()`  is also possible and will act exactly like  `subtract()`
 
 # Difference[](https://pendulum.eustace.io/docs/#difference "Permanent link")
@@ -992,7 +992,7 @@ Passing negative values to  `add()`  is also possible and will act exactly like 
 The  `diff()`  method returns a  [Period](https://pendulum.eustace.io/docs/#period)  instance that represents the total duration between two  `DateTime`  instances. This interval can be then expressed in various units. These interval methods always return  _the total difference expressed_  in the specified time requested. All values are truncated and not rounded.
 
 The  `diff()`  method has a default first parameter which is the  `DateTime`  instance to compare to, or  `None`  if you want to use  `now()`. The 2nd parameter is optional and indicates if you want the return value to be the absolute value or a relative value that might have a  `-`  (negative) sign if the passed in date is less than the current instance. This will default to  `True`, return the absolute value.
-
+```py
  import pendulum
 
  dt_ottawa = pendulum.datetime(2000, 1, 1, tz='America/Toronto')
@@ -1026,7 +1026,7 @@ The  `diff()`  method has a default first parameter which is the  `DateTime`  in
 1
  dt.diff(dt.add(seconds=120)).in_minutes()
 2
-
+```
 ## Difference for Humans[](https://pendulum.eustace.io/docs/#difference-for-humans "Permanent link")
 
 The  `diff_for_humans()`  method will add a phrase after the difference value relative to the instance and the passed in instance. There are 4 possibilities:
@@ -1692,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjI0MTQyNF19
+eyJoaXN0b3J5IjpbLTY0ODI1NTI0OV19
 -->
