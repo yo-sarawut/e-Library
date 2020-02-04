@@ -15,7 +15,8 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Introduction to Stock Analysis using Pandas:](http://www.quantsbin.com/introduction-stock-analysis-pandas1/)
 - [Python for Finance, Part 2: Intro to Quantitative Trading Strategies](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/)
 - [Portfolio Management Of Multiple Strategies Using Python](https://blog.quantinsti.com/portfolio-management-strategy-python/)
+- [Time series decomposition & Prediction in Python](https://www.pythonforfinance.net/2019/07/22/time-series-decomposition-prediction-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxODQ3MTU0LDE3MTg3NTc1NjMsMTY2Mz
-g3NDkzNl19
+eyJoaXN0b3J5IjpbLTY3NjQ0NDA0MSwxNzE4NzU3NTYzLDE2Nj
+M4NzQ5MzZdfQ==
 -->
