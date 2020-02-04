@@ -110,17 +110,17 @@ The  `requests`  library assigns the text of our response to an attribute called
 Now that  `BeautifulSoup`  has parsed our HTML text into an object that we can interact with, we can begin to see how information may be extracted.
 ```py
 paragraphs = soup.find_all('p')
-
+```
 Using  `find_all`  we can tell  `BeautifulSoup`  to only return HTML paragraphs  `<p>`  from the document.
 
 If we were looking for a div with a specific ID (`#content`) in the HTML we could do that in a few different ways:
-
+```py
 1.  element = soup.select('#content')
 2.  # or
 3.  element = soup.find_all('div', id='content')
 4.  # or
 5.  element = soup.find(id='content')
-
+```
 In the Google scenario from above, we can imagine that they have a function that does something similar to grab all the links off of the page for further processing:
 
 1.  links = soup.find_all('a', href=True)
@@ -133,26 +133,17 @@ The most difficult aspect of web scraping is analyzing and learning the underlyi
 
 Imagine our HTML page contains the following table which we’d like to extract product information from:
 
-**NAME**
+|  |  |
+|--|--|
+|  |  |
 
-**CATEGORY**
-
-**PRICE**
-
-Shirt
-
-Athletic
-
-$19.99
-
-Jacket
-
-Outdoor
-
-$124.99
+|NAME	|CATEGORY|	PRICE|
+|-------|--------|
+Shirt	Athletic	$19.99
+Jacket	Outdoor	$124.99
 
 `BeautifulSoup`  allows us to parse tables and other complex elements fairly simply. Let’s look at how we’d read the table’s rows in Python:
-
+```py
 1.  # Find all the HTML tables on the page
 2.  tables = soup.find_all('table')
 
@@ -172,7 +163,7 @@ $124.99
 17.  for column in columns:
 18.  # Print the column value
 19.  print(column.text)
-
+```
 The above code snippet would print  `Shirt`, followed by  `Athletic`, and then  `$19.99`  before continuing on to the next table row. While simple, this example illustrates one of the many strategies a developer might take for retrieving data from different HTML elements on a page.
 
 ## Data Processing
@@ -195,5 +186,5 @@ Moving forward from this post, try to create a simple web scraper of your own! Y
 
 > [Source : ](https://therenegadecoder.com/code/what-is-web-scraping/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzQ1MjM5OF19
+eyJoaXN0b3J5IjpbMTk2Nzg0NTAwNV19
 -->
