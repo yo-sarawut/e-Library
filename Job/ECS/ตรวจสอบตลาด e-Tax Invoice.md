@@ -116,7 +116,7 @@ UIH ได้รับอนุมัติให้จัดทำ ส่งม
 -   ระบบการจัดการเอกสาร จัดเก็บเอกสารภายในองค์กร โดยแยกหมวดหมู่ ประเภทเอกสาร และแผนก เพื่อง่ายต่อการเข้าถึงและใช้งาน
 -   ระบบแจ้งเตือนอัตโนมัติ สามารถตั้งค่าวัน เวลา หมดอายุของเอกสาร และมีการแจ้งเตือนกรณีเอกสารใกล้หมดอายุผ่านทางอีเมล
 
-### Management Team
+### Management Team (ประธาน ตระกูลเบญจรงคกุล)
 
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/UIH-ManagementTeam.jpg)
 
@@ -214,10 +214,11 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0OTg5MTI5LDIwNDgzMDY2ODIsMTMyMT
-E1MjAyOCw4MDQ5MDM3MTAsLTkxODA3NzgzNywtMTUxMTIwNTYy
-Niw0OTg0MjY2ODEsLTE3NzUyODYzNzgsLTIwNTY2NTQ3MzQsMT
-k3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQw
-NzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsOD
-M0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5MDY2NV19
+eyJoaXN0b3J5IjpbLTE0MDI1NzQ3MzcsNzI0OTg5MTI5LDIwND
+gzMDY2ODIsMTMyMTE1MjAyOCw4MDQ5MDM3MTAsLTkxODA3Nzgz
+NywtMTUxMTIwNTYyNiw0OTg0MjY2ODEsLTE3NzUyODYzNzgsLT
+IwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3ODEsMTM5MTMw
+NzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNzI2NTExMjAxLC
+05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3MzIsMTY1MTc5
+MDY2NV19
 -->
