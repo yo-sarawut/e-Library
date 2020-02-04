@@ -25,9 +25,9 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Lump Sum or DCA Investing?](https://medium.com/@miarenauly/lump-sum-or-dca-investing-681b67014ca0)
 - [ก่อนจะลงทุนแบบ DCA เลือกหุ้นมาทดสอบด้วยเมนู Backtest กันดีกว่า ?](https://knowledge.bualuang.co.th/knowledge-base/dca_backtest/)
 - [ทดลองลงทุนในหุ้น ด้วยโปรแกรม DCA Simulation](https://www.set.or.th/set/education/html.do?name=preretire_isp_preretire-11&innerMenuId=48)
-- [คู่มือ setsmart](https://www.setsmart.com/download/SETSmart_User_Manual.pdf)
+- [คู่มือ SetSmart](https://www.setsmart.com/download/SETSmart_User_Manual.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMzYwMjAxLC0xMjI5NDcyMTc1LC0xNT
-c2MjkwNTEsLTEzOTc5NzA3MTQsLTE2MzIwOTE4NDcsMTcxODc1
-NzU2MywxNjYzODc0OTM2XX0=
+eyJoaXN0b3J5IjpbMTQ0NDYwNDU1MywtMTIyOTQ3MjE3NSwtMT
+U3NjI5MDUxLC0xMzk3OTcwNzE0LC0xNjMyMDkxODQ3LDE3MTg3
+NTc1NjMsMTY2Mzg3NDkzNl19
 -->
