@@ -94,28 +94,34 @@ To accompany  `now()`, a few other static instantiation helpers exist to create 
 
 #'2016-06-28T00:00:00-05:00'
  ```
+  ```py
  tomorrow = pendulum.tomorrow('Europe/London')
  print(tomorrow)
-'2016-06-29T00:00:00+01:00'
-
+ 
+#'2016-06-29T00:00:00+01:00'
+ ```
+  ```py
  yesterday = pendulum.yesterday()
  print(yesterday)
-'2016-06-27T00:00:00-05:00'
-
+ 
+#'2016-06-27T00:00:00-05:00'
+  ```
 Pendulum enforces timezone aware datetimes, and using them is the preferred and recommended way of using the library, however is you really need a  **naive**  `DateTime`  object, the  `naive()`  helper is there for you.
-
+```
  import pendulum
 
  naive = pendulum.naive(2015, 2, 5)
  naive.timezone
-None
 
+#None
+```
 The next helper,  `from_format()`, is similar to the native  `datetime.strptime()`  function but uses custom tokens to create a  `DateTime`  instance.
-
+```py
  dt = pendulum.from_format('1975-05-21 22', 'YYYY-MM-DD HH')
  print(dt)
-'1975-05-21T22:00:00+00:00'
-
+ 
+#'1975-05-21T22:00:00+00:00'
+```
 To see all the available tokens, you can check the  [Formatter](https://pendulum.eustace.io/docs/#formatter)  section.
 
 It also accepts a  `tz`  keyword argument to specify the timezone:
@@ -1675,5 +1681,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDc5MDIzMF19
+eyJoaXN0b3J5IjpbMTM3NTUzMTYwOV19
 -->
