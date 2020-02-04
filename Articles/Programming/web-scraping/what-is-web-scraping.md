@@ -98,9 +98,9 @@ To illustrate this, we’ll use Python plus the  `BeautifulSoup`  and  [Requests
 5.  soup = BeautifulSoup(page.text, 'html.parser')
 ```
 We’ll go through this line-by-line:
-
-1.  page = requests.get('https://google.com')
-
+```py
+page = requests.get('https://google.com')
+```
 This uses the  `requests`  library to make a request to  `https://google.com`  and return the response.
 ```py
 soup = BeautifulSoup(page.text, 'html.parser')
@@ -122,9 +122,9 @@ If we were looking for a div with a specific ID (`#content`) in the HTML we coul
 5.  element = soup.find(id='content')
 ```
 In the Google scenario from above, we can imagine that they have a function that does something similar to grab all the links off of the page for further processing:
-
-1.  links = soup.find_all('a', href=True)
-
+```py
+links = soup.find_all('a', href=True)
+```
 The above snippet will return all of the  `<a>`  elements from the HTML which are acting as links to other pages or websites. Most large-scale web scraping implementations will use a function like this to capture local links on the page, outbound links off the page, and then determine some priority for the links’ further processing.
 
 ## Working with HTML
@@ -133,14 +133,10 @@ The most difficult aspect of web scraping is analyzing and learning the underlyi
 
 Imagine our HTML page contains the following table which we’d like to extract product information from:
 
-|  |  |
-|--|--|
-|  |  |
-
 |NAME	|CATEGORY|	PRICE|
-|-------|--------|
-Shirt	Athletic	$19.99
-Jacket	Outdoor	$124.99
+|-------|--------|------|
+|Shirt	|Athletic|	$19.99|
+|Jacket	|Outdoor|	$124.99|
 
 `BeautifulSoup`  allows us to parse tables and other complex elements fairly simply. Let’s look at how we’d read the table’s rows in Python:
 ```py
@@ -186,5 +182,5 @@ Moving forward from this post, try to create a simple web scraper of your own! Y
 
 > [Source : ](https://therenegadecoder.com/code/what-is-web-scraping/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Nzg0NTAwNV19
+eyJoaXN0b3J5IjpbNTE1NDM3MjczXX0=
 -->
