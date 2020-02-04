@@ -71,14 +71,15 @@ _![e-tax solutions.png](https://www.d1asia.co.th/application/files/6815/3629/319
 
 - _Smart Signing_ ระบบลงลายมือชื่อดิจิทัลสำหรับเอกสาร E-TAX
 
-Smart Integration ระบบสำหรับเชื่อมต่อซอฟต์แวร์ระบบบัญชี หรือ ERP ของผู้ประกอบการ
+- Smart Integration ระบบสำหรับเชื่อมต่อซอฟต์แวร์ระบบบัญชี หรือ ERP ของผู้ประกอบการ
 
-Smart Forms ระบบจัดโครงสร้างข้อมูลและจัดทำเอกเอสาร E-TAX แบบอัตโนมัติ
+- Smart Forms ระบบจัดโครงสร้างข้อมูลและจัดทำเอกเอสาร E-TAX แบบอัตโนมัติ
 
-Records Management ระบบจัดเก็บ สืบค้น และบริหารจัดการเอกสาร E-TAX
+- Records Management ระบบจัดเก็บ สืบค้น และบริหารจัดการเอกสาร E-TAX
 
+## ธุรกิจหลักของดาต้าวัน
 
-
+บริษัท ดาต้าวัน เอเชีย (ประเทศไทย) จำกัด เป็นผู้ให้บริการด้านไอซีทีแบบครบวงจรที่ให้กลุ่มธุรกิจที่หลากลาย เช่น การธนาคารประกันภัย โรงพยาบาลการโทรคมนาคม หน่วยงานภาครัฐและภาคเอกชน ดาต้าวันยังได้รับมาตรฐานการให้บริการ IT Outsourcing ด้วยมาตรฐานความปลอดภัยสูงและตรงตามมาตรฐานบริหารสากล เช่น ISO 20000 และ ISO 27001 Information Security ให้องค์กรสามารถไว้ใจเรื่องไอทีกับเราและสามารถมุ่งเน้นไปที่ธุรกิจหลักขององค์กร
 
 
 ## [4. Get Invoice](https://www.getinvoice.net/)
@@ -249,11 +250,11 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg0OTk3MzIsLTM5MTQxNTExMiw3Mj
-Q5ODkxMjksMjA0ODMwNjY4MiwxMzIxMTUyMDI4LDgwNDkwMzcx
-MCwtOTE4MDc3ODM3LC0xNTExMjA1NjI2LDQ5ODQyNjY4MSwtMT
-c3NTI4NjM3OCwtMjA1NjY1NDczNCwxOTcyMTk4NzAzLDUyMDc2
-Njc4MSwxMzkxMzA3NTYwLC03NzE2NDA3MTAsNjg5MzE5NDg0LC
-03MjY1MTEyMDEsLTk3MTcwNjg2MSw4MzQ3ODk2ODMsLTIxOTA2
-OTczMl19
+eyJoaXN0b3J5IjpbODYxNTU2MzMxLC0zOTE0MTUxMTIsNzI0OT
+g5MTI5LDIwNDgzMDY2ODIsMTMyMTE1MjAyOCw4MDQ5MDM3MTAs
+LTkxODA3NzgzNywtMTUxMTIwNTYyNiw0OTg0MjY2ODEsLTE3Nz
+UyODYzNzgsLTIwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3
+ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNz
+I2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3
+MzJdfQ==
 -->
