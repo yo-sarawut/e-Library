@@ -181,8 +181,10 @@ Traceback (most recent call last):
 ...
 #ParserError: Unable to parse string [31-01-01]
 ```
+```py
  dt = pendulum.parse('31-01-01', strict=False)
  print(dt)
+ 
 #'2031-01-01T00:00:00+00:00'
 ```
 ## RFC 3339[](https://pendulum.eustace.io/docs/#rfc-3339 "Permanent link")
@@ -328,36 +330,38 @@ Time(12, 04, 23)
 # Localization[](https://pendulum.eustace.io/docs/#localization "Permanent link")
 
 Localization occurs when using the  `format()`  method which accepts a  `locale`  keyword.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(1975, 5, 21)
  dt.format('dddd DD MMMM YYYY', locale='de')
-'Mittwoch 21 Mai 1975'
+
+#'Mittwoch 21 Mai 1975'
 
  dt.format('dddd DD MMMM YYYY')
-'Wednesday 21 May 1975'
 
+#'Wednesday 21 May 1975'
+```
 `diff_for_humans()`  is also localized, you can set the locale by using  `pendulum.set_locale()`.
-
+```py
  import pendulum
 
  pendulum.set_locale('de')
  pendulum.now().add(years=1).diff_for_humans()
 'in 1 Jahr'
  pendulum.set_locale('en')
-
+```
 However, you might not want to set the locale globally. The  `diff_for_humans()`  method accept a  `locale`  keyword argument to use a locale for a specific call.
-
+```py
  pendulum.set_locale('de')
  dt = pendulum.now().add(years=1)
  dt.diff_for_humans(locale='fr')
 'dans 1 an'
-
+```
 # Attributes and Properties[](https://pendulum.eustace.io/docs/#attributes-and-properties "Permanent link")
 
 Pendulum gives access to more attributes and properties than the default  `datetime`  class.
-
+```py
  import pendulum
 
  dt = pendulum.parse('2012-09-05T23:26:11.123789')
@@ -1687,5 +1691,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTQxNDEyMV19
+eyJoaXN0b3J5IjpbLTkyMTg5MDYyMl19
 -->
