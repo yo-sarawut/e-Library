@@ -348,7 +348,7 @@ Localization occurs when using the  `format()`  method which accepts a  `locale`
 
  pendulum.set_locale('de')
  pendulum.now().add(years=1).diff_for_humans()
-'in 1 Jahr'
+#'in 1 Jahr'
  pendulum.set_locale('en')
 ```
 However, you might not want to set the locale globally. The  `diff_for_humans()`  method accept a  `locale`  keyword argument to use a locale for a specific call.
@@ -356,7 +356,7 @@ However, you might not want to set the locale globally. The  `diff_for_humans()`
  pendulum.set_locale('de')
  dt = pendulum.now().add(years=1)
  dt.diff_for_humans(locale='fr')
-'dans 1 an'
+#'dans 1 an'
 ```
 # Attributes and Properties[](https://pendulum.eustace.io/docs/#attributes-and-properties "Permanent link")
 
@@ -367,6 +367,7 @@ Pendulum gives access to more attributes and properties than the default  `datet
  dt = pendulum.parse('2012-09-05T23:26:11.123789')
 
 # These properties specifically return integers
+```py
  dt.year
 2012
  dt.month
@@ -1691,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTg5MDYyMl19
+eyJoaXN0b3J5IjpbLTEwMDg4OTM0MjVdfQ==
 -->
