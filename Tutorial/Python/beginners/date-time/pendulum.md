@@ -1232,20 +1232,20 @@ So, what happens when you add time to a  `DateTime`  instance and stumble upon a
 '2013-10-27T02:00:00+01:00'
  dt = dt.subtract(microseconds=1)
 '2013-10-27T02:59:59.999999+02:00'
-
+```
 ## Switching timezones[](https://pendulum.eustace.io/docs/#switching-timezones "Permanent link")
 
 You can easily change the timezone of a  `DateTime`  instance with the  `in_timezone()`  method.
 
 You can also use the more concise  `in_tz()`
-
+```py
  in_paris = pendulum.datetime(2016, 8, 7, 22, 24, 30, tz='Europe/Paris')
 '2016-08-07T22:24:30+02:00'
  in_paris.in_timezone('America/New_York')
 '2016-08-07T16:24:30-04:00'
  in_paris.in_tz('Asia/Tokyo')
 '2016-08-08T05:24:30+09:00'
-
+```
 ## Using the timezone library directly[](https://pendulum.eustace.io/docs/#using-the-timezone-library-directly "Permanent link")
 
 **You should avoid using the timezone library in Python < 3.6.**
@@ -1257,7 +1257,7 @@ The reason it works inside the Pendulum ecosystem is that it backported the  `fo
 Like said in the introduction, you can use the timezone library directly with standard  `datetime`  objects but with limitations, especially when adding and subtracting time around transition times.
 
 The value of the  `fold`  attribute will be used by default to determine the transition rule.
-
+```py
  from datetime import datetime
  from pendulum import timezone
 
@@ -1272,9 +1272,9 @@ The value of the  `fold`  attribute will be used by default to determine the tra
  dt = paris.convert(dt)
  dt.isoformat()
 '2013-03-31T03:30:00+02:00'
-
+```
 Instead of relying on the  `fold`  attribute, you can use the  `dst_rule`  keyword argument, this is especially useful if you want to raise errors on non-existing and ambiguous times.
-
+```py
  import pendulum
 
  dt = datetime(2013, 3, 31, 2, 30)
@@ -1289,9 +1289,9 @@ Instead of relying on the  `fold`  attribute, you can use the  `dst_rule`  keywo
 
  paris.convert(dt, dst_rule=pendulum.TRANSITION_ERROR)
 # NonExistingTime: The datetime 2013-03-31 02:30:00 does not exist
-
+```
 This works as expected. However, whenever we add or subtract a  `timedelta`  object, things get tricky.
-
+```py
  from datetime import datetime, timedelta
  from pendulum import timezone
 
@@ -1302,28 +1302,28 @@ This works as expected. However, whenever we add or subtract a  `timedelta`  obj
  dt = dt + timedelta(microseconds=1)
  dt.isoformat()
 '2013-03-31T02:00:00+01:00'
-
+```
 This is not what we expect, it should be  `2013-03-31T03:00:00+02:00`. This is actually easy to retrieve the proper datetime by using  `convert()`  again.
-
+```py
  dt = tz.convert(dt)
  dt.isoformat()
 '2013-03-31T03:00:00+02:00'
-
+```
 You can also get a normalized  `datetime`  object from a  `Timezone`  by using the  `datetime()`  method:
-
+```
  import pendulum
 
  tz = pendulum.timezone('Europe/Paris')
  dt = tz.datetime(2013, 3, 31, 2, 30)
  dt.isoformat()
 '2013-03-31T03:30:00+02:00'
-
+```
 # Duration[](https://pendulum.eustace.io/docs/#duration "Permanent link")
 
 The  `Duration`  class is inherited from the native  `timedelta`  class. It has many improvements over the base class.
 
 Even though, it inherits from the  `timedelta`  class, its behavior is slightly different. The more important to notice is that the native normalization does not happen, this is so that it feels more intuitive.
-
+```py
  import pendulum
  from datetime import datetime
 
@@ -1692,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTYzMjk1N119
+eyJoaXN0b3J5IjpbLTIwMDM5NTg0NjNdfQ==
 -->
