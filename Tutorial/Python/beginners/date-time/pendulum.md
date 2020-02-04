@@ -1536,7 +1536,7 @@ Duration(weeks=1, days=5, minutes=1, seconds=8)
 ## Instantiation[](https://pendulum.eustace.io/docs/#instantiation_2 "Permanent link")
 
 You can create an instance by using the  `period()`  helper:
-
+```py
  import pendulum
 
  start = pendulum.datetime(2000, 1, 1)
@@ -1549,7 +1549,7 @@ You can also make an inverted period:
  period = pendulum.period(end, start)
  period.remaining_days
 -2
-
+```
 If you have inverted dates but want to make sure that the period is positive, you set the  `absolute`  keyword argument to  `True`:
 
  period = pendulum.period(end, start, absolute=True)
@@ -1559,7 +1559,7 @@ If you have inverted dates but want to make sure that the period is positive, yo
 ## Range[](https://pendulum.eustace.io/docs/#range "Permanent link")
 
 If you want to iterate over a period, you can use the  `range()`  method:
-
+```py
  import pendulum
 
  start = pendulum.datetime(2000, 1, 1)
@@ -1569,7 +1569,8 @@ If you want to iterate over a period, you can use the  `range()`  method:
 
  for dt in period.range('days'):
      print(dt)
-
+```
+```
 '2000-01-01T00:00:00+00:00'
 '2000-01-02T00:00:00+00:00'
 '2000-01-03T00:00:00+00:00'
@@ -1580,31 +1581,32 @@ If you want to iterate over a period, you can use the  `range()`  method:
 '2000-01-08T00:00:00+00:00'
 '2000-01-09T00:00:00+00:00'
 '2000-01-10T00:00:00+00:00'
-
+```
 Supported units for  `range()`  are:  `years`,  `months`,  `weeks`,  `days`,  `hours`,  `minutes`  and  `seconds`
 
 You can pass an amount for the passed unit to control the length of the gap:
-
+```py
  for dt in period.range('days', 2):
      print(dt)
-
+```
+```
 '2000-01-01T00:00:00+00:00'
 '2000-01-03T00:00:00+00:00'
 '2000-01-05T00:00:00+00:00'
 '2000-01-07T00:00:00+00:00'
 '2000-01-09T00:00:00+00:00'
-
+```
 You can also directly iterate over the  `Period`  instance, the unit will be  `days`  in this case:
-
+```py
  for dt in period:
      print(dt)
-
+```
 You can check if a  `DateTime`  instance is inside a period using the  `in`  keyword:
-
+```py
  dt = pendulum.datetime(2000, 1, 4)
  dt in period
-True
-
+#True
+```
 # Testing[](https://pendulum.eustace.io/docs/#testing "Permanent link")
 
 The testing methods allow you to set a  `DateTime`  instance (real or mock) to be returned when a "now" instance is created. The provided instance will be returned specifically under the following conditions:
@@ -1694,5 +1696,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDc5MzU0OF19
+eyJoaXN0b3J5IjpbLTkyMjM5MjYwMF19
 -->
