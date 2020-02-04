@@ -1416,9 +1416,9 @@ The  `Duration`  class brings more properties than the default  `days`,  `second
 
  it.microseconds
 1234
-
+```
 If you want to get the duration in each supported unit you can use the appropriate methods.
-
+```py
 # Each method returns a float like the native
 # total_seconds() method
  it.total_weeks()
@@ -1435,9 +1435,9 @@ If you want to get the duration in each supported unit you can use the appropria
 
  it.total_seconds()
 101700084.001234
-
+```
 Similarly, the  `in_xxx()`  methods return the total duration in each supported unit as a truncated integer.
-
+```py
  it.in_weeks()
 168
 
@@ -1449,7 +1449,8 @@ Similarly, the  `in_xxx()`  methods return the total duration in each supported 
 
  it.in_minutes()
 1695001
-
+```
+```py
  it.in_seconds()
 101700084
 
@@ -1468,11 +1469,11 @@ It also has a handy  `in_words()`  method, which determines the duration represe
 
  it.in_words(locale='de')
 '168 Wochen 1 Tag 2 Stunden 1 Minute 24 Sekunden'
-
+```
 # Period[](https://pendulum.eustace.io/docs/#period "Permanent link")
 
 When you subtract a  `DateTime`  instance to another, or use the  `diff()`  method, it will return a  `Period`  instance. It inherits from the  [Duration](https://pendulum.eustace.io/docs/#duration)  class with the added benefit that it is aware of the instances that generated it, so that it can give access to more methods and properties:
-
+```py
  import pendulum
 
  start = pendulum.datetime(2000, 11, 20)
@@ -1498,9 +1499,9 @@ When you subtract a  `DateTime`  instance to another, or use the  `diff()`  meth
 # to keep the compatiblity with the timedelta class
  period.days
 5829
-
+```
 Be aware that a period, just like an interval, is compatible with the  `timedelta`  class regarding its attributes. However, its custom attributes (like  `remaining_days`) will be aware of any DST transitions that might have occurred and adjust accordingly. Let's take an example:
-
+```py
  import pendulum
 
  start = pendulum.datetime(2017, 3, 7, tz='America/Toronto')
@@ -1521,9 +1522,9 @@ Be aware that a period, just like an interval, is compatible with the  `timedelt
 0
  period.remaining_seconds
 0
-
+```
 Due to its nature (fixed duration between two datetimes), most arithmetic operations will return a  `Duration`  instead of a  `Period`.
-
+```py
  import pendulum
 
  dt1 = pendulum.datetime(2016, 8, 7, 12, 34, 56)
@@ -1531,7 +1532,7 @@ Due to its nature (fixed duration between two datetimes), most arithmetic operat
  period = pendulum.period(dt1, dt2)
  period * 2
 Duration(weeks=1, days=5, minutes=1, seconds=8)
-
+```
 ## Instantiation[](https://pendulum.eustace.io/docs/#instantiation_2 "Permanent link")
 
 You can create an instance by using the  `period()`  helper:
@@ -1693,5 +1694,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTczNjk2NDBdfQ==
+eyJoaXN0b3J5IjpbLTk4MDc5MzU0OF19
 -->
