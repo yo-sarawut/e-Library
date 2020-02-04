@@ -1342,33 +1342,34 @@ Even though, it inherits from the  `timedelta`  class, its behavior is slightly 
 0
  delta.hours
 -3
-
+```
 ## Instantiation[](https://pendulum.eustace.io/docs/#instantiation_1 "Permanent link")
 
 To create a  `Duration`  instance, you can use the  `duration()`  helper:
-
+```py
  import pendulum
 
  it = pendulum.duration(days=1177, seconds=7284, microseconds=1234)
-
+```
 Unlike the native  `timedelta`  class, durations support specifying years and months.
-
+```py
  import pendulum
 
  it = pendulum.duration(years=2, months=3)
-
+```
 However, to maintain compatibility, native methods and properties will make approximations:
-
+```py
  it.days
-820
-
+#820
+```
+```py
  it.total_seconds()
-70848000.0
-
+#70848000.0
+```
 ## Properties and Duration Methods[](https://pendulum.eustace.io/docs/#properties-and-duration-methods "Permanent link")
 
 The  `Duration`  class brings more properties than the default  `days`,  `seconds`  and  `microseconds`.
-
+```py
  import pendulum
 
  it = pendulum.duration(
@@ -1692,5 +1693,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM5NTg0NjNdfQ==
+eyJoaXN0b3J5IjpbLTE2NTczNjk2NDBdfQ==
 -->
