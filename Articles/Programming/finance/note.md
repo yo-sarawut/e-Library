@@ -19,7 +19,8 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Exploratory Data Analysis on Stock Pricing Data](https://www.codementor.io/blog/quantitative-trading-6i4dw8wj4z)
 - [How To Invest In The Strongest Stocks Every Month](https://decodingmarkets.com/regular-investing-strongest-stocks/)
 - [Lump Sum vs. Dollar Cost Averaging](https://kykiefer.github.io/lump-sum-vs-dca.html)
+- [Modern-Portfolio-Theory](https://github.com/ibiscp/Modern-Portfolio-Theory)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIwOTE4NDcsMTcxODc1NzU2MywxNj
-YzODc0OTM2XX0=
+eyJoaXN0b3J5IjpbLTEzOTc5NzA3MTQsLTE2MzIwOTE4NDcsMT
+cxODc1NzU2MywxNjYzODc0OTM2XX0=
 -->
