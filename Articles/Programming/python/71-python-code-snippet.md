@@ -267,13 +267,13 @@ Sorting is a common task that you’re expected to know how to implement in Comp
 
 30.  # Custom reverse list sort using casefold (>= Python 3.3)
 31.  my_list = sorted(my_list, key=str.casefold, reverse=True)
-
+```
 If you’re curious about how some of these solutions work, or you just want to know what some of the potential risks are, check out my article titled “[How to Sort a List of Strings in Python](https://therenegadecoder.com/code/how-to-sort-a-list-of-strings-in-python/).”
 
 ### Parsing a Spreadsheet
 
 One of the more interesting use cases for Python is data science. Unfortunately, however, that means handling a lot of raw data in various formats like text files and spreadsheets. Luckily, Python has plenty of built-in utilities for reading different file formats. For example, we can parse a spreadsheet with ease:
-
+```py
 1.  # Brute force solution
 2.  csv_mapping_list = []
 3.  with  open("/path/to/data.csv")  as my_data:
@@ -305,13 +305,13 @@ One of the more interesting use cases for Python is data science. Unfortunately,
 29.  import csv
 30.  with  open("/path/to/dict.csv")  as my_data:
 31.  csv_mapping_list = list(csv.DictReader(my_data))
-
+```
 In this case, we try to get our output in a list of dictionaries. If you want to know more about how this works, check out the complete article titled “[How to Parse a Spreadsheet in Python](https://therenegadecoder.com/code/how-to-parse-a-spreadsheet-in-python/).”
 
 ### Sorting a List of Dictionaries
 
 Once you have a list of dictionaries, you might want to organize them in some specific order. For example, if the dictionaries have a key for date, we can try sorting them in chronological order. Luckily, sorting is another relatively painless task:
-
+```py
 1.  csv_mapping_list = [
 2.  {
 3.  "Name": "Jeremy",
@@ -349,13 +349,13 @@ Once you have a list of dictionaries, you might want to organize them in some sp
 
 36.  # Iterable sorted function
 37.  csv_mapping_list = sorted(csv_mapping_list, key=lambda item: item.get("Age"))
-
+```
 All these solutions and more outlined in my article titled “[How to Sort a List of Dictionaries in Python](https://therenegadecoder.com/code/how-to-sort-a-list-of-dictionaries-in-python/).”
 
 ### Writing a List Comprehension
 
 One of my favorite Python topics to chat about is list comprehensions. As someone who grew up on languages like Java, C/C++, and C#, I had never seen anything quite like a list comprehension until I played with Python. Now, I’m positively obsessed with them. As a result, I put together an entire list of examples:
-
+```py
 1.  # Define a generic 1D list of constants
 2.  my_list = [2, 5, -4, 6]
 
@@ -386,13 +386,13 @@ One of my favorite Python topics to chat about is list comprehensions. As someon
 28.  return  [deep_copy(item)  for item in to_copy]
 29.  else:
 30.  return to_copy
-
+```
 As always, you can find a more formal explanation of all this code in my article titled “[How to Write a List Comprehension in Python](https://therenegadecoder.com/code/how-to-write-a-list-comprehension-in-python/).” As an added bonus, I have  [a YouTube video which shares several examples of list comprehensions](https://youtu.be/AEG8D4h7kls).
 
 ### Merging Two Dictionaries
 
 In this collection, we talk a lot about handling data structures like lists and dictionaries. Well, this one is no different. In particular, we’re looking at merging two dictionaries. Of course, combining two dictionaries comes with risks. For example, what if there are duplicate keys? Luckily, we have solutions for that:
-
+```py
 1.  yusuke_power = {"Yusuke Urameshi": "Spirit Gun"}
 2.  hiei_power = {"Hiei": "Jagan Eye"}
 3.  powers = dict()
@@ -418,13 +418,13 @@ In this collection, we talk a lot about handling data structures like lists and 
 23.  for dictionary in dicts:
 24.  merge_dict.update(dictionary)
 25.  return merged_dict
-
+```
 If you’re interested, I have an article which covers this exact topic called “[How to Merge Two Dictionaries in Python](https://therenegadecoder.com/code/how-to-merge-two-dictionaries-in-python/)” which features four solutions as well performance metrics.
 
 ### Formatting a String
 
 Whether we like to admit it or not, we often find ourselves burying print statements throughout our code for quick debugging purposes. After all, a well placed print statement can save you a lot of time. Unfortunately, it’s not always easy or convenient to actually display what we want. Luckily, Python has a lot of formatting options:
-
+```py
 1.  name = "Jeremy"
 2.  age = 25
 
@@ -452,7 +452,7 @@ Whether we like to admit it or not, we often find ourselves burying print statem
 
 26.  # String formatting using f-Strings (Python 3.6+)
 27.  print(f"My name is {name}, and I am {age} years old")
-
+```
 Keep in mind that these solutions don’t have to be used with print statements. In other words, feel free to use solutions like f-strings wherever you need them.
 
 As always, you can find an explanation of all these solutions and more in my article titled “[How to Format a String in Python](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).” If you’d rather see these snippets in action, check out my YouTube video titled “[6 Ways to Format a String in Python Featuring My Cat](https://youtu.be/qZMYur8VRlU).”
@@ -460,7 +460,7 @@ As always, you can find an explanation of all these solutions and more in my art
 ### Printing on the Same Line
 
 Along a similar line as formatting strings, sometimes you just need to print on the same line in Python. As the  `print`  command is currently designed, it automatically applies a newline to the end of your string. Luckily, there are a few ways around that:
-
+```py
 1.  # Python 2 only
 2.  print  "Live PD",
 
@@ -470,13 +470,13 @@ Along a similar line as formatting strings, sometimes you just need to print on 
 
 8.  # Python 3 only
 9.  print("Mob Psycho 100", end="")
-
+```
 As always, if you plan to use any of these solutions, check out the article titled “[How to Print on the Same Line in Python](https://therenegadecoder.com/code/how-to-print-on-the-same-line-in-python/)” for additional use cases and caveats.
 
 ### Testing Performance
 
 Finally, sometimes you just want to compare a couple chunks of code. Luckily, Python has a few straightforward options:
-
+```py
 1.  # Brute force solution
 2.  import datetime
 3.  start_time = datetime.datetime.now()
@@ -491,7 +491,7 @@ Finally, sometimes you just want to compare a couple chunks of code. Luckily, Py
 12.  # cProfile solution
 13.  import cProfile
 14.  cProfile.run("[(a, b) for a in (1, 3, 5) for b in (2, 4, 6)]")
-
+```
 Again, if you want more details, check the article titled “[How to Performance Test Python Code](https://therenegadecoder.com/code/how-to-performance-test-python-code/).”
 
 ## Share Your Own Problems
@@ -507,5 +507,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMTQ3Mjk2XX0=
+eyJoaXN0b3J5IjpbLTE1OTYxOTk2ODFdfQ==
 -->
