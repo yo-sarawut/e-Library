@@ -79,7 +79,7 @@ _![e-tax solutions.png](https://www.d1asia.co.th/application/files/6815/3629/319
 
 ## ธุรกิจหลักของดาต้าวัน
 
-บริษัท ดาต้าวัน เอเชีย (ประเทศไทย) จำกัด เป็นผู้ให้บริการด้านไอซีทีแบบครบวงจรที่ให้กลุ่มธุรกิจที่หลากลาย เช่น การธนาคารประกันภัย โรงพยาบาลการโทรคมนาคม หน่วยงานภาครัฐและภาคเอกชน ดาต้าวันยังได้รับมาตรฐานการให้บริการ IT Outsourcing ด้วยมาตรฐานความปลอดภัยสูงและตรงตามมาตรฐานบริหารสากล เช่น ISO 20000 และ ISO 27001 Information Security ให้องค์กรสามารถไว้ใจเรื่องไอทีกับเราและสามารถมุ่งเน้นไปที่ธุรกิจหลักขององค์กร
+บริษัท ดาต้าวัน เอเชีย (ประเทศไทย) จำกัด (ในเคลือ ==SVOA==) เป็นผู้ให้บริการด้านไอซีทีแบบครบวงจรที่ให้กลุ่มธุรกิจที่หลากลาย เช่น การธนาคารประกันภัย โรงพยาบาลการโทรคมนาคม หน่วยงานภาครัฐและภาคเอกชน ดาต้าวันยังได้รับมาตรฐานการให้บริการ IT Outsourcing ด้วยมาตรฐานความปลอดภัยสูงและตรงตามมาตรฐานบริหารสากล เช่น ISO 20000 และ ISO 27001 Information Security ให้องค์กรสามารถไว้ใจเรื่องไอทีกับเราและสามารถมุ่งเน้นไปที่ธุรกิจหลักขององค์กร
 
 
 ## [4. Get Invoice](https://www.getinvoice.net/)
@@ -250,11 +250,11 @@ Package ที่ออกแบบมาเพื่อทำงานกับ
 ![enter image description here](https://github.com/yosarawut/knowledge-base/raw/master/img/e-TaxInvoiceBrochurejpg_Page2.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNTU2MzMxLC0zOTE0MTUxMTIsNzI0OT
-g5MTI5LDIwNDgzMDY2ODIsMTMyMTE1MjAyOCw4MDQ5MDM3MTAs
-LTkxODA3NzgzNywtMTUxMTIwNTYyNiw0OTg0MjY2ODEsLTE3Nz
-UyODYzNzgsLTIwNTY2NTQ3MzQsMTk3MjE5ODcwMyw1MjA3NjY3
-ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLDY4OTMxOTQ4NCwtNz
-I2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5NjgzLC0yMTkwNjk3
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE5OTExMjQsODYxNTU2MzMxLC0zOT
+E0MTUxMTIsNzI0OTg5MTI5LDIwNDgzMDY2ODIsMTMyMTE1MjAy
+OCw4MDQ5MDM3MTAsLTkxODA3NzgzNywtMTUxMTIwNTYyNiw0OT
+g0MjY2ODEsLTE3NzUyODYzNzgsLTIwNTY2NTQ3MzQsMTk3MjE5
+ODcwMyw1MjA3NjY3ODEsMTM5MTMwNzU2MCwtNzcxNjQwNzEwLD
+Y4OTMxOTQ4NCwtNzI2NTExMjAxLC05NzE3MDY4NjEsODM0Nzg5
+NjgzXX0=
 -->
