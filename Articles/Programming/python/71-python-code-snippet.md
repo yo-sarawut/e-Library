@@ -67,7 +67,7 @@ For more explanation, check out my article titled “[How to Invert a Dictionary
 ### Summing Elements of Two Lists
 
 Let’s say you have two lists, and you want to merge them together into a single list by element. In other words, you want to add the first element of the first list to the first element of the second list and store the result in a new list. Well, there are several ways to do that:
-
+```py
 1.  ethernet_devices = [1, [7], [2], [8374163], [84302738]]
 2.  usb_devices = [1, [7], [1], [2314567], [0]]
 
@@ -90,13 +90,13 @@ Let’s say you have two lists, and you want to merge them together into a singl
 20.  # We can't forget our favorite computation library
 21.  import numpy as np
 22.  all_devices = np.add(ethernet_devices, usb_devices)
-
+```
 If you’d like a deeper explanation, check out my article titled “[How to Sum Elements of Two Lists in Python](https://therenegadecoder.com/code/how-to-sum-elements-of-two-lists-in-python/)” which even includes a fun challenge. Likewise, you might get some value out of  [my YouTube video on the same topic](https://youtu.be/-ueWDzP88eQ).
 
 ### Checking if a File Exists
 
 One of the amazing perks of Python is how easy it is to manage files. Unlike Java, Python has a built-in syntax for file reading and writing. As a result, checking if a file exists is a rather brief task:
-
+```py
 1.  # Brute force with a try-except block (Python 3+)
 2.  try:
 3.  with  open('/path/to/file', 'r')  as fh:
@@ -113,7 +113,7 @@ One of the amazing perks of Python is how easy it is to manage files. Unlike Jav
 14.  config = Path('/path/to/file')
 15.  if config.is_file():
 16.  pass
-
+```
 As always, you can learn more about these solutions in my article titled “[How to Check if a File Exists in Python](https://therenegadecoder.com/code/how-to-check-if-a-file-exists-in-python/)” which features three solutions and performances metrics.
 
 ### Converting Two Lists Into a Dictionary
@@ -121,7 +121,7 @@ As always, you can learn more about these solutions in my article titled “[How
 Previously, we talked about summing two lists in Python. As it turns out, there’s a lot we can do with two lists. For example, we could try mapping one onto the other to create a dictionary.
 
 As with many of these problems, there are a few concerns. For instance, what if the two lists aren’t the same size? Likewise, what if the keys aren’t unique or hashable? That said, in the simple case, there are some straightforward solutions:
-
+```py
 1.  column_names = ['id', 'color', 'style']
 2.  column_values = [1, 'red', 'bold']
 
@@ -139,13 +139,13 @@ As with many of these problems, there are a few concerns. For instance, what if 
 15.  pass  # Insert logic for handling duplicate keys
 16.  else:
 17.  name_to_value_dict[key] = value
-
+```
 Once again, you can find an explanation for each of these solutions and more in my article titled “[How to Convert Two Lists Into a Dictionary in Python](https://therenegadecoder.com/code/how-to-convert-two-lists-into-a-dictionary-in-python/).” If you are a visual person, you might prefer  [my YouTube video which covers mapping lists to dictionaries](https://youtu.be/SPmFkdfD_Ho)  as well.
 
 ### Checking if a List Is Empty
 
 If you come from a statically typed language like Java or C, you might be bothered by the lack of static types in Python. Sure, not knowing the type of a variable can sometimes be frustrating, but there are perks as well. For instance, we can check if a list is empty by its type flexibility—among other methods:
-
+```py
 1.  my_list = list()
 
 3.  # Check if a list is empty by its length
@@ -159,13 +159,13 @@ If you come from a statically typed language like Java or C, you might be bother
 11.  # Check if a list is empty by its type flexibility **preferred method**
 12.  if  not my_list:
 13.  pass  # the list is empty
-
+```
 If you’d like to learn more about these three solutions, check out my article titled “[How to Check if a List in Empty in Python](https://therenegadecoder.com/code/how-to-check-if-a-list-is-empty-in-python/).” If you’re in a pinch, check out  [my YouTube video which covers the same topic](https://youtu.be/k1lE5QxNAM4).
 
 ### Cloning a List
 
 One of my favorite subjects in programming is copying data types. After all, it’s never easy in this reference-based world we live, and that’s true for Python as well. Luckily, if we want to copy a list, there are a few ways to do it:
-
+```py
 1.  my_list = [27, 13, -11, 60, 39, 15]
 
 3.  # Clone a list by brute force
@@ -187,7 +187,7 @@ One of my favorite subjects in programming is copying data types. After all, it�
 
 20.  # Clone a list with multiplication?
 21.  my_duplicate_list = my_list * 1  # do not do this
-
+```
 When it comes to cloning, it’s important to be aware of the difference between shallow and deep copies. Luckily,  [I have an article covering that topic](https://therenegadecoder.com/code/be-careful-when-copying-mutable-data-types/).
 
 Finally, you can find out more about the solutions listed above in my article titled “[How to Clone a List in Python](https://therenegadecoder.com/code/how-to-clone-a-list-in-python/).” In addition, you might find value in my related YouTube video titled “[7 Ways to Copy a List in Python Featuring The Pittsburgh Penguins](https://youtu.be/ZMCte_LHml0).”
@@ -195,7 +195,7 @@ Finally, you can find out more about the solutions listed above in my article ti
 ### Retrieving the Last Item of a List
 
 Since we’re on the topic of lists, lets talk about getting the last item of a list. In most languages, this involves some convoluted mathematical expression involving the length of the list. What if I told you there is are several more interesting solutions in Python?
-
+```py
 1.  my_list = ['red', 'blue', 'green']
 
 3.  # Get the last item with brute force using len
@@ -209,7 +209,7 @@ Since we’re on the topic of lists, lets talk about getting the last item of a 
 
 12.  # Get the last item using iterable unpacking
 13.  *_, last_item = my_list
-
+```
 As always, you can learn more about these solutions from my article titled “[How to Get the Last Item of a List in Python](https://therenegadecoder.com/code/how-to-get-the-last-item-of-a-list-in-python/)” which features a challenge, performance metrics, and  [a YouTube video](https://youtu.be/wAJ1Nlk-T7w).
 
 ### Making a Python Script Shortcut
@@ -217,25 +217,25 @@ As always, you can learn more about these solutions from my article titled “[H
 Sometimes when you create a script, you want to be able to run it conveniently at the click of a button. Fortunately, there are several ways to do that.
 
 First, we can create a Windows shortcut with the following settings:
-
+```
 1.  \path\to\trc-image-titler.py -o \path\to\output
-
+```
 Likewise, we can also create a batch file with the following code:
-
+```
 1.  @echo off
 2.  \path\to\trc-image-titler.py -o \path\to\output
-
+```
 Finally, we can create a bash script with the following code:
-
+```
 1.  #!/bin/sh
 2.  python /path/to/trc-image-titler.py -o /path/to/output
-
+```
 If you’re looking for more explanation, check out the article titled “[How to Make a Python Script Shortcut with Arguments](https://therenegadecoder.com/code/how-to-make-a-python-script-shortcut-with-arguments/).”
 
 ### Sorting a List of Strings
 
 Sorting is a common task that you’re expected to know how to implement in Computer Science. Despite the intense focus on sorting algorithms in most curriculum, no one really tells you how complicated sorting can actually get. For instance, sorting numbers is straightforward, but what about sorting strings? How do we decide a proper ordering? Fortunately, there are a lot of options in Python:
-
+```py
 1.  my_list = ["leaf", "cherry", "fish"]
 
 3.  # Brute force method using bubble sort
@@ -507,5 +507,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDA4NzA4OV19
+eyJoaXN0b3J5IjpbNTkwMTQ3Mjk2XX0=
 -->
