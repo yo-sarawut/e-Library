@@ -1049,7 +1049,7 @@ The  `diff_for_humans()`  method will add a phrase after the difference value re
     -   5 months after
 
 You may also pass  `True`  as a 2nd parameter to remove the modifiers  `ago`,  `from now`, etc.
-
+```py
  import pendulum
 
 # The most typical usage is for comments
@@ -1075,9 +1075,9 @@ You may also pass  `True`  as a 2nd parameter to remove the modifiers  `ago`,  `
 
  pendulum.now().subtract(days=24).diff_for_humans(absolute=True)
 '3 weeks'
-
+```
 You can also change the locale of the string either globally by using  `pendulum.set_locale('fr')`  before the  `diff_for_humans()`  call or specifically for the call by passing the  `locale`  keyword argument. See the  [Localization](https://pendulum.eustace.io/docs/#localization)  section for more detail.
-
+```py
  import pendulum
 
  pendulum.set_locale('de')
@@ -1085,13 +1085,13 @@ You can also change the locale of the string either globally by using  `pendulum
 'in 1 Jahr'
  pendulum.now().add(years=1).diff_for_humans(locale='fr')
 'dans 1 an'
-
+```
 # Modifiers[](https://pendulum.eustace.io/docs/#modifiers "Permanent link")
 
 These group of methods perform helpful modifications to a copy of the current instance. You'll notice that the  `start_of()`,  `next()`  and  `previous()`  methods set the time to  `00:00:00`  and the  `end_of()`  methods set the time to  `23:59:59.999999`.
 
 The only one slightly different is the  `average()`  method. It returns the middle date between itself and the provided  `DateTime`  argument.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(2012, 1, 31, 12, 0, 0)
@@ -1167,7 +1167,7 @@ True
 # others that are defined that are similar
 # and tha accept month, quarter and year units
 # first_of(), last_of(), nth_of()
-
+```
 # Timezones[](https://pendulum.eustace.io/docs/#timezones "Permanent link")
 
 Timezones are an important part of every datetime library and  `pendulum`  tries to provide an easy and accurate system to handle them properly.
@@ -1177,7 +1177,7 @@ The timezone system works best inside the  `pendulum`  ecosystem but can also be
 ## Normalization[](https://pendulum.eustace.io/docs/#normalization "Permanent link")
 
 When you create a  `DateTime`  instance, the library will normalize it for the given timezone to properly handle any transition that might have occurred.
-
+```py
  import pendulum
 
  pendulum.datetime(2013, 3, 31, 2, 30, tz='Europe/Paris')
@@ -1189,9 +1189,9 @@ When you create a  `DateTime`  instance, the library will normalize it for the g
 # Here, 2:30 exists twice in the day so pendulum will
 # assume that the transition already occurred
 '2013-10-27T02:30:00+01:00'
-
+```
 You can, however, control the normalization behavior:
-
+```py
  import pendulum
 
  pendulum.datetime(2013, 3, 31, 2, 30, 0, 0, tz='Europe/Paris',
@@ -1207,13 +1207,13 @@ You can, however, control the normalization behavior:
  pendulum.datetime(2013, 10, 27, 2, 30, 0, 0, tz='Europe/Paris',
                       dst_rule=pendulum.TRANSITION_ERROR)
 # AmbiguousTime: The datetime 2013-10-27 02:30:00 is ambiguous.
-
+```
 Note that it only affects instances at creation time. Shifting time around transition times still behaves the same.
 
 ## Shifting time to transition[](https://pendulum.eustace.io/docs/#shifting-time-to-transition "Permanent link")
 
 So, what happens when you add time to a  `DateTime`  instance and stumble upon a transition time? Well  `pendulum`, provided with the context of the previous instance, will adopt the proper behavior and apply the transition accordingly.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(2013, 3, 31, 1, 59, 59, 999999,
@@ -1692,5 +1692,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODI1NTI0OV19
+eyJoaXN0b3J5IjpbMTI0NTYzMjk1N119
 -->
