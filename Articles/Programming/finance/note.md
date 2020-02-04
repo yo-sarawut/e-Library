@@ -23,7 +23,9 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Lump Sum vs. Dollar Cost Averaging : (GitHub)](https://kykiefer.github.io/lump-sum-vs-dca.html)
 - [Modern-Portfolio-Theory](https://github.com/ibiscp/Modern-Portfolio-Theory)
 - [Lump Sum or DCA Investing?](https://medium.com/@miarenauly/lump-sum-or-dca-investing-681b67014ca0)
+- [ก่อนจะลงทุนแบบ DCA เลือกหุ้นมาทดสอบด้วยเมนู Backtest กันดีกว่า ?](https://knowledge.bualuang.co.th/knowledge-base/dca_backtest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYyOTA1MSwtMTM5Nzk3MDcxNCwtMT
-YzMjA5MTg0NywxNzE4NzU3NTYzLDE2NjM4NzQ5MzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMjk0NzIxNzUsLTE1NzYyOTA1MSwtMT
+M5Nzk3MDcxNCwtMTYzMjA5MTg0NywxNzE4NzU3NTYzLDE2NjM4
+NzQ5MzZdfQ==
 -->
