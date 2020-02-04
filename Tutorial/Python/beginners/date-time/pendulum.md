@@ -15,7 +15,7 @@ Pendulum is a Python package to ease datetimes manipulation.
 It provides classes that are drop-in replacements for the native ones (they inherit from them).
 
 Special care has been taken to ensure timezones are handled correctly, and are based on the underlying  `tzinfo`  implementation. For example all comparisons are done in  `UTC`  or in the timezone of the datetime being used.
-```
+```py
  import pendulum
 
  dt_toronto = pendulum.datetime(2012, 1, 1, tz='America/Toronto')
@@ -33,23 +33,29 @@ The default timezone, except when using the  `now()`, method will always be  `UT
 There are several different methods available to create a new  `DateTime`  instance.
 
 First there is the main  `datetime()`  helper.
-
+```py
  import pendulum
 
  dt = pendulum.datetime(2015, 2, 5)
  isinstance(dt, datetime)
+ ```
+ ```
 True
+```
+```py
  dt.timezone.name
+ ```
+ ```
 'UTC'
-
+```
 `datetime()`  sets the time to  `00:00:00`  if it's not specified, and the timezone (the  `tz`  keyword argument) to  `UTC`. It otherwise can be a  `Timezone`  instance or simply a string timezone value.
-
+```py
  import pendulum
 
  pendulum.datetime(2015, 2, 5, tz='Europe/Paris')
  tz = pendulum.timezone('Europe/Paris')
  pendulum.datetime(2015, 2, 5, tz=tz)
-
+```
 Supported strings for timezones are the one provided by the  [IANA time zone database](https://www.iana.org/time-zones%3E).
 
 The special  `local`  string is also supported and will return your current timezone.
@@ -57,11 +63,12 @@ The special  `local`  string is also supported and will return your current time
 The  `tz`  argument is keyword-only, unlike in version  `1.x`
 
 The  `local()`  helper is similar to  `datetime()`  but automatically sets the timezone to the local timezone.
-
+```py
  import pendulum
 
  dt = pendulum.local(2015, 2, 5)
  print(dt.timezone.name)
+ 
 'America/Toronto'
 
 `local()`  is just an alias for  `datetime(..., tz='local')`.
@@ -1667,5 +1674,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc1MTU0MzVdfQ==
+eyJoaXN0b3J5IjpbLTM4ODc4NTI3NF19
 -->
