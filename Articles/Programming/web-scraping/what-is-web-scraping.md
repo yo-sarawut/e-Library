@@ -62,12 +62,12 @@ There are many heavily used, well built libraries for reading and working with t
 These code libraries will accept the page source as text, and a parser for handling the content of the text. They’ll return helper functions and attributes which we can use to navigate through our HTML structure in predictable ways and find the values we’re looking to extract.
 
 Scraping projects involve a good amount of time spent analyzing a web site’s HTML for classes or identifiers, which we can use to find information on the page. Using the HTML below we can begin to imagine a strategy to extract product information from the table below using the HTML elements with the classes  `products`  and  `product`.
-
+```html
 <table class="products">
   <tr class="product">...</tr>
   <tr class="product">...</tr>
 </table>
-
+```
 In the wild, HTML isn’t always as pretty and predictable. Part of the web scraping process is learning about your data and where it lives on the pages as you go along. Some websites go to great lengths to prevent web scraping, some aren’t built with scraping in mind, and others just have complicated user interfaces which our crawlers will need to navigate through.
 
 ## Robots.txt
@@ -90,26 +90,26 @@ If you’re running a website or platform it’s important to know that this fil
 ## A Simple Example
 
 To illustrate this, we’ll use Python plus the  `BeautifulSoup`  and  [Requests](https://2.python-requests.org//en/master/)  libraries.
-
+```py
 1.  import requests
 2.  from bs4 import  BeautifulSoup
 
 4.  page = requests.get('https://google.com')
 5.  soup = BeautifulSoup(page.text, 'html.parser')
-
+```
 We’ll go through this line-by-line:
 
 1.  page = requests.get('https://google.com')
 
 This uses the  `requests`  library to make a request to  `https://google.com`  and return the response.
-
-1.  soup = BeautifulSoup(page.text, 'html.parser')
-
+```py
+soup = BeautifulSoup(page.text, 'html.parser')
+```
 The  `requests`  library assigns the text of our response to an attribute called  `text`  which we use to give  `BeautifulSoup`  our HTML content. We also tell  `BeautifulSoup`  to use Python 3’s built-in HTML parser  `html.parser`.
 
 Now that  `BeautifulSoup`  has parsed our HTML text into an object that we can interact with, we can begin to see how information may be extracted.
-
-1.  paragraphs = soup.find_all('p')
+```py
+paragraphs = soup.find_all('p')
 
 Using  `find_all`  we can tell  `BeautifulSoup`  to only return HTML paragraphs  `<p>`  from the document.
 
@@ -193,7 +193,7 @@ In this post, we learned about the basics of web scraping and looked at some sim
 Moving forward from this post, try to create a simple web scraper of your own! You could potentially write a simple script that reads a tweet from a URL and prints the tweet text into your terminal. With some practice, you’ll be analyzing HTML on all the websites you visit, learning its structure, and understanding how you’d navigate its elements with a web scraper.
 
 
-> [Source : ](https://).
+> [Source : ](https://therenegadecoder.com/code/what-is-web-scraping/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzM5MzI2Ml19
+eyJoaXN0b3J5IjpbMTQ2NzQ1MjM5OF19
 -->
