@@ -68,29 +68,36 @@ The  `local()`  helper is similar to  `datetime()`  but automatically sets the t
 
  dt = pendulum.local(2015, 2, 5)
  print(dt.timezone.name)
- 
+ ```
+ ```
 'America/Toronto'
-
+```
 `local()`  is just an alias for  `datetime(..., tz='local')`.
 
 There is also the  `now()`  method.
-
+```py
  import pendulum
 
  now = pendulum.now()
 
  now_in_london_tz = pendulum.now('Europe/London')
  now_in_london_tz.timezone_name
+ ```
+ ```
 'Europe/London'
-
+ ```
 To accompany  `now()`, a few other static instantiation helpers exist to create known instances. The only thing to really notice here is that  `today()`,  `tomorrow()`  and  `yesterday()`, besides behaving as expected, all accept a timezone parameter and each has their time value set to  `00:00:00`.
-
+ ```py
  now = pendulum.now()
  print(now)
+  ```
+   ```
 '2016-06-28T16:51:45.978473-05:00'
-
+ ```
+  ```py
  today = pendulum.today()
  print(today)
+  ```
 '2016-06-28T00:00:00-05:00'
 
  tomorrow = pendulum.tomorrow('Europe/London')
@@ -1674,5 +1681,5 @@ Even though the  `DateTime`  class is a subclass of  `datetime`, there are some 
 
 > [Source : ](https://pendulum.eustace.io/docs/.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODc4NTI3NF19
+eyJoaXN0b3J5IjpbLTYwMTc2NzkwN119
 -->
