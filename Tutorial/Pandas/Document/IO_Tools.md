@@ -3,151 +3,33 @@
 
 The pandas I/O API is a set of top level  `reader`  functions accessed like  [`pandas.read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  that generally return a pandas object. The corresponding  `writer`  functions are object methods that are accessed like  [`DataFrame.to_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html#pandas.DataFrame.to_csv "pandas.DataFrame.to_csv"). Below is a table containing available  `readers`  and  `writers`.
 
-Format Type
 
-Data Description
-
-Reader
-
-Writer
-
-text
-
-[CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
-
-[read_csv](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-read-csv-table)
-
-[to_csv](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-store-in-csv)
-
-text
-
-Fixed-Width Text File
-
-[read_fwf](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-fwf-reader)
-
-text
-
-[JSON](https://www.json.org/)
-
-[read_json](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-json-reader)
-
-[to_json](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-json-writer)
-
-text
-
-[HTML](https://en.wikipedia.org/wiki/HTML)
-
-[read_html](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-read-html)
-
-[to_html](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-html)
-
-text
-
-Local clipboard
-
-[read_clipboard](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-clipboard)
-
-[to_clipboard](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-clipboard)
-
-[MS Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
-
-[read_excel](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-excel-reader)
-
-[to_excel](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-excel-writer)
-
-binary
-
-[OpenDocument](http://www.opendocumentformat.org/)
-
-[read_excel](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-ods)
-
-binary
-
-[HDF5 Format](https://support.hdfgroup.org/HDF5/whatishdf5.html)
-
-[read_hdf](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-hdf5)
-
-[to_hdf](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-hdf5)
-
-binary
-
-[Feather Format](https://github.com/wesm/feather)
-
-[read_feather](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-feather)
-
-[to_feather](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-feather)
-
-binary
-
-[Parquet Format](https://parquet.apache.org/)
-
-[read_parquet](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-parquet)
-
-[to_parquet](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-parquet)
-
-binary
-
-[ORC Format](https://https//orc.apache.org/)
-
-[read_orc](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-orc)
-
-binary
-
-[Msgpack](https://msgpack.org/index.html)
-
-[read_msgpack](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-msgpack)
-
-[to_msgpack](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-msgpack)
-
-binary
-
-[Stata](https://en.wikipedia.org/wiki/Stata)
-
-[read_stata](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-stata-reader)
-
-[to_stata](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-stata-writer)
-
-binary
-
-[SAS](https://en.wikipedia.org/wiki/SAS_(software))
-
-[read_sas](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-sas-reader)
-
-binary
-
-[SPSS](https://en.wikipedia.org/wiki/SPSS)
-
-[read_spss](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-spss-reader)
-
-binary
-
-[Python Pickle Format](https://docs.python.org/3/library/pickle.html)
-
-[read_pickle](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-pickle)
-
-[to_pickle](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-pickle)
-
-SQL
-
-[SQL](https://en.wikipedia.org/wiki/SQL)
-
-[read_sql](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-sql)
-
-[to_sql](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-sql)
-
-SQL
-
-[Google BigQuery](https://en.wikipedia.org/wiki/BigQuery)
-
-[read_gbq](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-bigquery)
-
-[to_gbq](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-bigquery)
+| Type |Data Description |Reader |Writer |
+|-----|----------|----------|----------|
+| text |CSV |read_csv |to_csv |
+| text |Fixed-Width Text File |read_fwf |- |
+| text |JSON |read_json |to_json |
+| text |HTML |read_html |to_html |
+| text |Local clipboard |read_clipboard |to_clipboard |
+| - |MS Excel |read_excel |to_excel |
+| binary |OpenDocument |read_excel |- |
+| binary |HDF5 Format |read_hdf |to_hdf |
+| binary |Feather Format |read_feather |to_feather |
+| binary |Parquet Format |read_parquet |to_parquet |
+| binary |ORC Format |read_orc |- |
+| binary |Msgpack |read_msgpack |to_msgpack |
+| binary |Stata |read_stata |to_stata |
+| binary |SAS |read_sas |- |
+| binary |SPSS |read_spss |- |
+| binary |Python Pickle Format |read_pickle |to_pickle |
+| SQL |SQL |read_sql |to_sql |
+| SQL |Google BigQuery |read_gbq |to_gbq |
 
 [Here](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-perf)  is an informal performance comparison for some of these IO methods.
 
-Note
+>Note
 
-For examples that use the  `StringIO`  class, make sure you import it according to your Python version, i.e.  `from  StringIO  import  StringIO`  for Python 2 and  `from  io  import  StringIO`  for Python 3.
+>For examples that use the  `StringIO`  class, make sure you import it according to your Python version, i.e.  `from  StringIO  import  StringIO`  for Python 2 and  `from  io  import  StringIO`  for Python 3.
 
 ## CSV & text files[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files "Permalink to this headline")
 
@@ -1996,5 +1878,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbMTk1NzE4MTIyMSwxODEyMjA4OTk0XX0=
 -->
