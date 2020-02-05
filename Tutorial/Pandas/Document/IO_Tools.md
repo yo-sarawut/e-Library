@@ -1346,21 +1346,22 @@ ParserError  Traceback (most recent call last)
 /pandas/pandas/_libs/parsers.pyx in pandas._libs.parsers.TextReader._tokenize_rows()
 
 /pandas/pandas/_libs/parsers.pyx in pandas._libs.parsers.raise_parser_error()
-
+```
 ParserError: Error tokenizing data. C error: Expected 3 fields in line 3, saw 4
 
 You can elect to skip bad lines:
-
+```py
 In [29]: pd.read_csv(StringIO(data), error_bad_lines=False)
 Skipping line 3: expected 3 fields, saw 4
-
+```
+```py
 Out[29]:
  a  b   c
 0  1  2   3
 1  8  9  10
-
+```
 You can also use the  `usecols`  parameter to eliminate extraneous column data that appear in some lines but not others:
-
+```py
 In [30]: pd.read_csv(StringIO(data), usecols=[0, 1, 2])
 
  Out[30]:
@@ -1368,7 +1369,7 @@ In [30]: pd.read_csv(StringIO(data), usecols=[0, 1, 2])
  0  1  2   3
  1  4  5   6
  2  8  9  10
-
+```
 ### Dialect[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#dialect "Permalink to this headline")
 
 The  `dialect`  keyword gives greater flexibility in specifying the file format. By default it uses the Excel dialect but you can specify either the dialect name or a  [`csv.Dialect`](https://docs.python.org/3/library/csv.html#csv.Dialect "(in Python v3.8)")  instance.
@@ -1863,5 +1864,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE0ODExNTAsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbMTg4NDcwNDgzMywxODEyMjA4OTk0XX0=
 -->
