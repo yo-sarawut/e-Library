@@ -1,6 +1,10 @@
 
 Note for Pandas Tutorial
 ==
+## เอกสารเพิ่มเติม
+- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
+
+
 ## บทความน่าสนใจ
 
 - [Data Cleaning with Python and Pandas: Detecting Missing Values](https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
@@ -52,6 +56,6 @@ Note for Pandas Tutorial
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI5NTMxOTcsLTE2OTUzOTMwMTMsLT
-M1MjE3MTE2NCwtMjc2MDIxNzQ2XX0=
+eyJoaXN0b3J5IjpbLTY4NDU5NTY5OSwtMTQ0Mjk1MzE5NywtMT
+Y5NTM5MzAxMywtMzUyMTcxMTY0LC0yNzYwMjE3NDZdfQ==
 -->
