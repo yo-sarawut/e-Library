@@ -27,9 +27,9 @@ In this tutorial, we will learn-
 These import statements are pre-defined pieces of functionality in the Python library that let you manipulates dates and times, without writing any code.
 
 Consider the following points before executing the datetime code
-
+```py
 from datetime import date
-
+```
 This line tells the Python interpreter that from the datetime module import the date class We are not writing the code for this date functionality alas just importing it for our use
 
 **Step 2**) Next, we create an instance of the date object.
@@ -375,5 +375,5 @@ For manipulating dates and times in both simple and complex ways datetime module
 
 > [Source : ](https://www.guru99.com/date-time-and-datetime-classes-in-python.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTg1NjM1MV19
+eyJoaXN0b3J5IjpbLTE4ODA4MDc4OTRdfQ==
 -->
