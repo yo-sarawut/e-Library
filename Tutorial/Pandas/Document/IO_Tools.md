@@ -664,16 +664,16 @@ Out[60]:
 0  1  3
 1  4  6
 2  7  9
-
+```
 The  `usecols`  argument can also be used to specify which columns not to use in the final result:
-
+```py
 In [61]: pd.read_csv(StringIO(data), usecols=lambda x: x not in ['a', 'c'])
 Out[61]: 
  b    d
 0  2  foo
 1  5  bar
 2  8  baz
-
+```
 In this case, the callable is specifying that we exclude the “a” and “c” columns from the output.
 
 ### Comments and empty lines[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#comments-and-empty-lines "Permalink to this headline")
@@ -681,7 +681,7 @@ In this case, the callable is specifying that we exclude the “a” and “c”
 #### Ignoring line comments and empty lines[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#ignoring-line-comments-and-empty-lines "Permalink to this headline")
 
 If the  `comment`  parameter is specified, then completely commented lines will be ignored. By default, completely blank lines will be ignored as well.
-
+```py
 In [62]: data = ('\n'
  ....:        'a,b,c\n'
  ....:        ' \n'
@@ -705,9 +705,9 @@ Out[64]:
  a  b  c
 0  1  2  3
 1  4  5  6
-
+```
 If  `skip_blank_lines=False`, then  `read_csv`  will not ignore blank lines:
-
+```py
 In [65]: data = ('a,b,c\n'
  ....:        '\n'
  ....:        '1,2,3\n'
@@ -724,11 +724,11 @@ Out[66]:
 2  NaN  NaN  NaN
 3  NaN  NaN  NaN
 4  4.0  5.0  6.0
+```
+>Warning
 
-Warning
-
-The presence of ignored lines might create ambiguities involving line numbers; the parameter  `header`  uses row numbers (ignoring commented/empty lines), while  `skiprows`  uses line numbers (including commented/empty lines):
-
+>The presence of ignored lines might create ambiguities involving line numbers; the parameter  `header`  uses row numbers (ignoring commented/empty lines), while  `skiprows`  uses line numbers (including commented/empty lines):
+```py
 In [67]: data = ('#comment\n'
  ....:        'a,b,c\n'
  ....:        'A,B,C\n'
@@ -750,9 +750,9 @@ In [70]: pd.read_csv(StringIO(data), comment='#', skiprows=2)
 Out[70]: 
  a  b  c
 0  1  2  3
-
+```
 If both  `header`  and  `skiprows`  are specified,  `header`  will be relative to the end of  `skiprows`. For example:
-
+```py
 In [71]: data = ('# empty\n'
  ....:        '# second empty line\n'
  ....:        '# third emptyline\n'
@@ -778,7 +778,7 @@ Out[73]:
  A    B     C
 0  1.0  2.0   4.0
 1  5.0  NaN  10.0
-
+```
 #### Comments[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#comments "Permalink to this headline")
 
 Sometimes comments or meta data may be included in a file:
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY5MTgwNDcsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTE1NTQyNTk4NTIsMTgxMjIwODk5NF19
 -->
