@@ -106,17 +106,17 @@ print(Dict)
 Python dictionary gives you the liberty to delete any element from the dictionary list. Suppose you don't want the name Charlie in the list, so you can delete the key element by following code.
 
 **Python 2 Example**
-```p
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 del Dict ['Charlie']
 print Dict
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 del Dict ['Charlie']
 print(Dict)
-
+```
 When you run this code, it should print the dictionary list without Charlie.
 
 -   We used the code del Dict
@@ -127,15 +127,15 @@ When you run this code, it should print the dictionary list without Charlie.
 The items() method returns a list of tuple pairs (Keys, Value) in the dictionary.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print "Students Name: %s" % Dict.items()
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print("Students Name: %s" % list(Dict.items()))
-
+```
 -   We use the code items() method for our Dict.
 -   When code was executed, it returns a list of items ( keys and values) from the dictionary
 
@@ -144,7 +144,7 @@ print("Students Name: %s" % list(Dict.items()))
 For a given list, you can also check whether our child dictionary exists in a main dictionary or not. Here we have two sub-dictionaries "Boys" and "Girls", now we want to check whether our dictionary Boys exist in our main "Dict" or not. For that, we use the forloop method with else if method.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}
@@ -153,9 +153,9 @@ for key in Dict.keys():
         print True
     else:       
         print False
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}
@@ -164,7 +164,7 @@ for key in list(Dict.keys()):
         print(True)
     else:       
         print(False)
-
+```
 -   The forloop in code checks each key in the main dictionary for Boys keys
 -   If it exists in the main dictionary, it should print true or else it should print false
 -   When you execute the code, it will print "True" for three times, as we got three elements in our "Boys" dictionary
@@ -175,7 +175,7 @@ for key in list(Dict.keys()):
 In the dictionary, you can also sort the elements. For example, if we want to print the name of the elements of our dictionary alphabetically we have to use the forloop. It will sort each element of dictionary accordingly.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}
@@ -183,9 +183,9 @@ Students = Dict.keys()
 Students.sort()
 for S in Students:
       print":".join((S,str(Dict[S])))
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}
@@ -193,7 +193,7 @@ Students = list(Dict.keys())
 Students.sort()
 for S in Students:
       print(":".join((S,str(Dict[S]))))
-
+```
 -   We declared the variable students for our dictionary "Dict."
 -   Then we use the code Students.sort, which will sort the element inside our dictionary
 -   But to sort each element in dictionary, we run the forloop by declaring variable S
@@ -208,15 +208,15 @@ The len() function gives the number of pairs in the dictionary.
 For example,
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print "Length : %d" % len (Dict)
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print("Length : %d" % len (Dict))
-
+```
 When len (Dict) function is executed it gives the output at "4" as there are four elements in our dictionary
 
 ### Variable Types
@@ -224,15 +224,15 @@ When len (Dict) function is executed it gives the output at "4" as there are fou
 Python does not require to explicitly declare the reserve memory space; it happens automatically. The assign values to variable "=" equal sign are used. The code to determine the variable type is " %type (Dict)."
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print "variable Type: %s" %type (Dict)
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print("variable Type: %s" %type (Dict))
-
+```
 -   Use the code %type to know the variable type
 -   When code was executed, it tells a variable type is a dictionary
 
@@ -241,7 +241,7 @@ print("variable Type: %s" %type (Dict))
 The compare method cmp() is used in Python to compare values and keys of two dictionaries. If method returns 0 if both dictionaries are equal, 1 if dic1 > dict2 and -1 if dict1 < dict2.
 
 **Python 2 Example**
-
+```
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}	
 print cmp(Girls, Boys)
@@ -334,5 +334,5 @@ Dictionaries in a programming language is a type of data-structure used to store
 
 > [Source : ](https://www.guru99.com/python-dictionary-beginners-tutorial.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjYxNTczOV19
+eyJoaXN0b3J5IjpbLTEzMjY3MDU5N119
 -->
