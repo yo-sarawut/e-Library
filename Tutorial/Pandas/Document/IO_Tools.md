@@ -1536,27 +1536,27 @@ A,B,C
 20090101,a,1,2
 20090102,b,3,4
 20090103,c,4,5
-
+```
 In this special case,  `read_csv`  assumes that the first column is to be used as the index of the  `DataFrame`:
-
+```py
 In [171]: pd.read_csv('foo.csv')
 Out[171]: 
  A  B  C
 20090101  a  1  2
 20090102  b  3  4
 20090103  c  4  5
-
+```
 Note that the dates weren’t automatically parsed. In that case you would need to do as before:
-
+```py
 In [172]: df = pd.read_csv('foo.csv', parse_dates=True)
 
 In [173]: df.index
 Out[173]: DatetimeIndex(['2009-01-01', '2009-01-02', '2009-01-03'], dtype='datetime64[ns]', freq=None)
-
+```
 #### Reading an index with a  `MultiIndex`[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-an-index-with-a-multiindex "Permalink to this headline")
 
 Suppose you have data indexed by two columns:
-
+```py
 In [174]: print(open('data/mindex_ex.csv').read())
 year,indiv,zit,xit
 1977,"A",1.2,.6
@@ -1574,9 +1574,9 @@ year,indiv,zit,xit
 1979,"G",3.4,1.9
 1979,"H",5.4,2.7
 1979,"I",6.4,1.2
-
+```
 The  `index_col`  argument to  `read_csv`  can take a list of column numbers to turn multiple columns into a  `MultiIndex`  for the index of the returned object:
-
+```py
 In [175]: df = pd.read_csv("data/mindex_ex.csv", index_col=[0, 1])
 
 In [176]: df
@@ -1608,11 +1608,11 @@ B      0.7  0.20
 C      0.8  0.30
 D      0.9  0.50
 E      1.4  0.90
-
+```py
 #### Reading columns with a  `MultiIndex`[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-columns-with-a-multiindex "Permalink to this headline")
 
 By specifying list of row locations for the  `header`  argument, you can read in a  `MultiIndex`  for the columns. Specifying non-consecutive rows will skip the intervening rows.
-
+```py
 In [178]: from pandas._testing import makeCustomDataframe as mkdf
 
 In [179]: df = mkdf(5, 3, r_idx_nlevels=2, c_idx_nlevels=4)
@@ -1643,9 +1643,9 @@ R_l0_g1 R_l1_g1    R1C0    R1C1    R1C2
 R_l0_g2 R_l1_g2    R2C0    R2C1    R2C2
 R_l0_g3 R_l1_g3    R3C0    R3C1    R3C2
 R_l0_g4 R_l1_g4    R4C0    R4C1    R4C2
-
+```
 `read_csv`  is also able to interpret a more common format of multi-columns indices.
-
+```py
 In [183]: print(open('mi2.csv').read())
 ,a,a,a,b,c,c
 ,q,r,s,t,u,v
@@ -1658,13 +1658,13 @@ Out[184]:
  q  r  s   t   u   v
 one  1  2  3   4   5   6
 two  7  8  9  10  11  12
-
+```
 Note: If an  `index_col`  is not specified (e.g. you don’t have an index, or wrote it with  `df.to_csv(...,  index=False)`, then any  `names`  on the columns index will be  _lost_.
 
 ### Automatically “sniffing” the delimiter[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#automatically-sniffing-the-delimiter "Permalink to this headline")
 
 `read_csv`  is capable of inferring delimited (not necessarily comma-separated) files, as pandas uses the  [`csv.Sniffer`](https://docs.python.org/3/library/csv.html#csv.Sniffer "(in Python v3.8)")  class of the csv module. For this, you have to specify  `sep=None`.
-
+```py
 In [185]: print(open('tmp2.sv').read())
 :0:1:2:3
 0:0.4691122999071863:-0.2828633443286633:-1.5090585031735124:-1.1356323710171934
@@ -1864,5 +1864,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyMjQxNzcyLDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbLTkwOTQzNTc1NiwxODEyMjA4OTk0XX0=
 -->
