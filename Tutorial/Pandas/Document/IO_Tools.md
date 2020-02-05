@@ -49,12 +49,10 @@ sepstr, defaults to  `','`  for  [`read_csv()`](https://pandas.pydata.org/pandas
 
 Delimiter to use. If sep is  `None`, the C engine cannot automatically detect the separator, but the Python parsing engine can, meaning the latter will be used and automatically detect the separator by Python’s builtin sniffer tool,  [`csv.Sniffer`](https://docs.python.org/3/library/csv.html#csv.Sniffer "(in Python v3.8)"). In addition, separators longer than 1 character and different from  `'\s+'`  will be interpreted as regular expressions and will also force the use of the Python parsing engine. Note that regex delimiters are prone to ignoring quoted data. Regex example:  `'\\r\\t'`.
 
-delimiterstr, default  `None`
-
+**delimiterstr, default**  `None`
 Alternative argument name for sep.
 
-delim_whitespaceboolean, default False
-
+**delim_whitespaceboolean, default False**
 Specifies whether or not whitespace (e.g.  `'  '`  or  `'\t'`) will be used as the delimiter. Equivalent to setting  `sep='\s+'`. If this option is set to  `True`, nothing should be passed in for the  `delimiter`  parameter.
 
 #### Column and index locations and names[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#column-and-index-locations-and-names "Permalink to this headline")
@@ -82,7 +80,7 @@ Return a subset of the columns. If list-like, all elements must either be positi
 Element order is ignored, so  `usecols=[0,  1]`  is the same as  `[1,  0]`. To instantiate a DataFrame from  `data`  with element order preserved use  `pd.read_csv(data,  usecols=['foo',  'bar'])[['foo',  'bar']]`  for columns in  `['foo',  'bar']`  order or  `pd.read_csv(data,  usecols=['foo',  'bar'])[['bar',  'foo']]`  for  `['bar',  'foo']`  order.
 
 If callable, the callable function will be evaluated against the column names, returning names where the callable function evaluates to True:
-
+```py
 In [1]: import pandas as pd
 
 In [2]: from io import StringIO
@@ -106,7 +104,7 @@ Out[5]:
 0    a     1
 1    a     2
 2    c     3
-
+```
 Using this parameter results in much faster parsing time and lower memory usage.
 
 squeezeboolean, default  `False`
@@ -1878,5 +1876,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzE4MTIyMSwxODEyMjA4OTk0XX0=
+eyJoaXN0b3J5IjpbNDk5MjYyNzQ4LDE4MTIyMDg5OTRdfQ==
 -->
