@@ -1691,7 +1691,7 @@ Out[186]:
 7           7 -0.370647 -1.157892 -1.344312  0.844885
 8           8  1.075770 -0.109050  1.643563 -1.469388
 9           9  0.357021 -0.674600 -1.776904 -0.968914
-
+```
 ### Reading multiple files to create a single DataFrame[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-multiple-files-to-create-a-single-dataframe "Permalink to this headline")
 
 It’s best to use  [`concat()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html#pandas.concat "pandas.concat")  to combine multiple files. See the  [cookbook](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html#cookbook-csv-multiple-files)  for an example.
@@ -1699,7 +1699,7 @@ It’s best to use  [`concat()`](https://pandas.pydata.org/pandas-docs/stable/re
 ### Iterating through files chunk by chunk[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#iterating-through-files-chunk-by-chunk "Permalink to this headline")
 
 Suppose you wish to iterate through a (potentially very large) file lazily rather than reading the entire file into memory, such as the following:
-
+```py
 In [187]: print(open('tmp.sv').read())
 |0|1|2|3
 0|0.4691122999071863|-0.2828633443286633|-1.5090585031735124|-1.1356323710171934
@@ -1728,9 +1728,9 @@ Out[189]:
 7           7 -0.370647 -1.157892 -1.344312  0.844885
 8           8  1.075770 -0.109050  1.643563 -1.469388
 9           9  0.357021 -0.674600 -1.776904 -0.968914
-
+```
 By specifying a  `chunksize`  to  `read_csv`, the return value will be an iterable object of type  `TextFileReader`:
-
+```py
 In [190]: reader = pd.read_csv('tmp.sv', sep='|', chunksize=4)
 
 In [191]: reader
@@ -1765,7 +1765,7 @@ Out[194]:
 2           2 -0.861849 -2.104569 -0.494929  1.071804
 3           3  0.721555 -0.706771 -1.039575  0.271860
 4           4 -0.424972  0.567020  0.276232 -1.087401
-
+```
 ### Specifying the parser engine[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-the-parser-engine "Permalink to this headline")
 
 Under the hood pandas uses a fast and efficient parser implemented in C as well as a Python implementation which is currently more feature-complete. Where possible pandas uses the C parser (specified as  `engine='c'`), but may fall back to Python if C-unsupported options are specified. Currently, C-unsupported options include:
@@ -1864,5 +1864,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTQzNTc1NiwxODEyMjA4OTk0XX0=
+eyJoaXN0b3J5IjpbLTE2OTE0MDk2NjQsMTgxMjIwODk5NF19
 -->
