@@ -1083,7 +1083,7 @@ Out[115]:
 Name: a, dtype: object
 ```
 To parse the mixed-timezone values as a datetime column, pass a partially-applied  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html#pandas.to_datetime "pandas.to_datetime")  with  `utc=True`  as the  `date_parser`.
-
+```py
 In [116]: df = pd.read_csv(StringIO(content), parse_dates=['a'],
  .....:                 date_parser=lambda col: pd.to_datetime(col, utc=True))
  .....: 
@@ -1093,28 +1093,23 @@ Out[117]:
 0   1999-12-31 19:00:00+00:00
 1   1999-12-31 18:00:00+00:00
 Name: a, dtype: datetime64[ns, UTC]
-
+```
 #### Inferring datetime format[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#inferring-datetime-format "Permalink to this headline")
 
 If you have  `parse_dates`  enabled for some or all of your columns, and your datetime strings are all formatted the same way, you may get a large speed up by setting  `infer_datetime_format=True`. If set, pandas will attempt to guess the format of your datetime strings, and then use a faster means of parsing the strings. 5-10x parsing speeds have been observed. pandas will fallback to the usual parsing if either the format cannot be guessed or the format that was guessed cannot properly parse the entire column of strings. So in general,  `infer_datetime_format`  should not have any negative consequences if enabled.
 
 Here are some examples of datetime strings that can be guessed (All representing December 30th, 2011 at 00:00:00):
 
--   “20111230”
-    
--   “2011/12/30”
-    
--   “20111230 00:00:00”
-    
--   “12/30/2011 00:00:00”
-    
--   “30/Dec/2011 00:00:00”
-    
+-   “20111230”    
+-   “2011/12/30”    
+-   “20111230 00:00:00”    
+-   “12/30/2011 00:00:00”    
+-   “30/Dec/2011 00:00:00”    
 -   “30/December/2011 00:00:00”
     
 
 Note that  `infer_datetime_format`  is sensitive to  `dayfirst`. With  `dayfirst=True`, it will guess “01/12/2011” to be December 1st. With  `dayfirst=False`  (default) it will guess “01/12/2011” to be January 12th.
-
+```py
 # Try to infer the format for the index column
 In [118]: df = pd.read_csv('foo.csv', index_col=0, parse_dates=True,
  .....:                 infer_datetime_format=True)
@@ -1127,11 +1122,11 @@ date
 2009-01-01  a  1  2
 2009-01-02  b  3  4
 2009-01-03  c  4  5
-
+```
 #### International date formats[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#international-date-formats "Permalink to this headline")
 
 While US date formats tend to be MM/DD/YYYY, many international formats use DD/MM/YYYY instead. For convenience, a  `dayfirst`  keyword is provided:
-
+```py
 In [120]: print(open('tmp.csv').read())
 date,value,cat
 1/6/2000,5,a
@@ -1151,11 +1146,11 @@ Out[122]:
 0 2000-06-01      5   a
 1 2000-06-02     10   b
 2 2000-06-03     15   c
-
+```
 ### Specifying method for floating-point conversion[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-method-for-floating-point-conversion "Permalink to this headline")
 
 The parameter  `float_precision`  can be specified in order to use a specific floating-point converter during parsing with the C engine. The options are the ordinary converter, the high-precision converter, and the round-trip converter (which is guaranteed to round-trip values after writing to a file). For example:
-
+```py
 In [123]: val = '0.3066101993807095471566981359501369297504425048828125'
 
 In [124]: data = 'a,b,c\n1,2,{0}'.format(val)
@@ -1174,13 +1169,13 @@ In [127]: abs(pd.read_csv(StringIO(data), engine='c',
  .....:                float_precision='round_trip')['c'][0] - float(val))
  .....: 
 Out[127]: 0.0
-
+```
 ### Thousand separators[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#thousand-separators "Permalink to this headline")
 
 For large numbers that have been written with a thousands separator, you can set the  `thousands`  keyword to a string of length 1 so that integers will be parsed correctly:
 
 By default, numbers with a thousands separator will be parsed as strings:
-
+```py
 In [128]: print(open('tmp.csv').read())
 ID|level|category
 Patient1|123,000|x
@@ -1867,5 +1862,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcwNjkxNTIsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTY3MzA1MzQwNywxODEyMjA4OTk0XX0=
 -->
