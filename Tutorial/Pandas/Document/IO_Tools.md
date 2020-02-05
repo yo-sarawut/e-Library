@@ -962,7 +962,7 @@ Out[102]:
 5 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD -0.59
 ```
 By default the parser removes the component date columns, but you can choose to retain them via the  `keep_date_col`  keyword:
-
+```py
 In [103]: df = pd.read_csv('tmp.csv', header=None, parse_dates=[[1, 2], [1, 3]],
  .....:                 keep_date_col=True)
  .....: 
@@ -976,11 +976,11 @@ Out[104]:
 3 1999-01-27 21:00:00 1999-01-27 21:18:00  KORD  19990127   21:00:00   21:18:00 -0.99
 4 1999-01-27 22:00:00 1999-01-27 21:56:00  KORD  19990127   22:00:00   21:56:00 -0.59
 5 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD  19990127   23:00:00   22:56:00 -0.59
-
+```
 Note that if you wish to combine multiple columns into a single date column, a nested list must be used. In other words,  `parse_dates=[1,  2]`  indicates that the second and third columns should each be parsed as separate date columns while  `parse_dates=[[1,  2]]`  means the two columns should be parsed into a single column.
 
 You can also use a dict to specify custom name columns:
-
+```py
 In [105]: date_spec = {'nominal': [1, 2], 'actual': [1, 3]}
 
 In [106]: df = pd.read_csv('tmp.csv', header=None, parse_dates=date_spec)
@@ -994,9 +994,9 @@ Out[107]:
 3 1999-01-27 21:00:00 1999-01-27 21:18:00  KORD -0.99
 4 1999-01-27 22:00:00 1999-01-27 21:56:00  KORD -0.59
 5 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD -0.59
-
+```
 It is important to remember that if multiple text columns are to be parsed into a single date column, then a new column is prepended to the data. The  index_col  specification is based off of this new set of columns rather than the original data columns:
-
+```py
 In [108]: date_spec = {'nominal': [1, 2], 'actual': [1, 3]}
 
 In [109]: df = pd.read_csv('tmp.csv', header=None, parse_dates=date_spec,
@@ -1013,23 +1013,23 @@ nominal
 1999-01-27 21:00:00 1999-01-27 21:18:00  KORD -0.99
 1999-01-27 22:00:00 1999-01-27 21:56:00  KORD -0.59
 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD -0.59
+```
+>Note
 
-Note
+>If a column or index contains an unparsable date, the entire column or index will be returned unaltered as an object data type. For non-standard datetime parsing, use  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html#pandas.to_datetime "pandas.to_datetime")  after  `pd.read_csv`.
 
-If a column or index contains an unparsable date, the entire column or index will be returned unaltered as an object data type. For non-standard datetime parsing, use  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html#pandas.to_datetime "pandas.to_datetime")  after  `pd.read_csv`.
-
-Note
+**Note**
 
 read_csv has a fast_path for parsing datetime strings in iso8601 format, e.g “2000-01-01T00:01:02+00:00” and similar variations. If you can arrange for your data to store datetimes in this format, load times will be significantly faster, ~20x has been observed.
 
-Note
+**Note**
 
 When passing a dict as the  parse_dates  argument, the order of the columns prepended is not guaranteed, because  dict  objects do not impose an ordering on their keys. On Python 2.7+ you may use  collections.OrderedDict  instead of a regular  dict  if this matters to you. Because of this, when using a dict for ‘parse_dates’ in conjunction with the  index_col  argument, it’s best to specify  index_col  as a column label rather then as an index on the resulting frame.
 
 #### Date parsing functions[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#date-parsing-functions "Permalink to this headline")
 
 Finally, the parser allows you to specify a custom  `date_parser`  function to take full advantage of the flexibility of the date parsing API:
-
+```py
 In [111]: df = pd.read_csv('tmp.csv', header=None, parse_dates=date_spec,
  .....:                 date_parser=pd.io.date_converters.parse_date_time)
  .....: 
@@ -1043,7 +1043,7 @@ Out[112]:
 3 1999-01-27 21:00:00 1999-01-27 21:18:00  KORD -0.99
 4 1999-01-27 22:00:00 1999-01-27 21:56:00  KORD -0.59
 5 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD -0.59
-
+```
 Pandas will try to call the  `date_parser`  function in three different ways. If an exception is raised, the next one is tried:
 
 1.  `date_parser`  is first called with one or more arrays as arguments, as defined using  parse_dates  (e.g.,  `date_parser(['2013',  '2013'],  ['1',  '2'])`).
@@ -1067,7 +1067,7 @@ You can explore the date parsing functionality in  [date_converters.py](https://
 #### Parsing a CSV with mixed timezones[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#parsing-a-csv-with-mixed-timezones "Permalink to this headline")
 
 Pandas cannot natively represent a column or index with mixed timezones. If your CSV file contains columns with a mixture of timezones, the default result will be an object-dtype column with strings, even with  `parse_dates`.
-
+```py
 In [113]: content = """\
  .....: a
  .....: 2000-01-01T00:00:00+05:00
@@ -1081,7 +1081,7 @@ Out[115]:
 0    2000-01-01 00:00:00+05:00
 1    2000-01-01 00:00:00+06:00
 Name: a, dtype: object
-
+```
 To parse the mixed-timezone values as a datetime column, pass a partially-applied  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html#pandas.to_datetime "pandas.to_datetime")  with  `utc=True`  as the  `date_parser`.
 
 In [116]: df = pd.read_csv(StringIO(content), parse_dates=['a'],
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEwMzA5MDksMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTExNjcwNjkxNTIsMTgxMjIwODk5NF19
 -->
