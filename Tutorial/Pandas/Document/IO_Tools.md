@@ -175,18 +175,15 @@ Number of rows of file to read. Useful for reading pieces of large files.
 **low_memoryboolean, default**  `True`
 Internally process the file in chunks, resulting in lower memory use while parsing, but possibly mixed type inference. To ensure no mixed types either set  `False`, or specify the type with the  `dtype`  parameter. Note that the entire file is read into a single  `DataFrame`  regardless, use the  `chunksize`  or  `iterator`  parameter to return the data in chunks. (Only valid with C parser)
 
-memory_mapboolean, default False
-
+**memory_mapboolean, default False**
 If a filepath is provided for  `filepath_or_buffer`, map the file object directly onto memory and access the data directly from there. Using this option can improve performance because there is no longer any I/O overhead.
 
 #### NA and missing data handling[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#na-and-missing-data-handling "Permalink to this headline")
 
-na_valuesscalar, str, list-like, or dict, default  `None`
-
+**na_valuesscalar, str, list-like, or dict, default**  `None`
 Additional strings to recognize as NA/NaN. If dict passed, specific per-column NA values. See  [na values const](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-navaluesconst)  below for a list of the values interpreted as NaN by default.
 
-keep_default_naboolean, default  `True`
-
+**keep_default_naboolean, default**  `True`
 Whether or not to include the default NaN values when parsing the data. Depending on whether  na_values  is passed in, the behavior is as follows:
 
 -   If  keep_default_na  is  `True`, and  na_values  are specified,  na_values  is appended to the default NaN values used for parsing.
@@ -322,7 +319,7 @@ If error_bad_lines is  `False`, and warn_bad_lines is  `True`, a warning for eac
 ### Specifying column data types[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-column-data-types "Permalink to this headline")
 
 You can indicate the data type for the whole  `DataFrame`  or individual columns:
-
+```py
 In [9]: import numpy as np
 
 In [10]: data = ('a,b,c,d\n'
@@ -1870,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQxNTc4MTEsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTE5MjM1MDI4NjIsMTgxMjIwODk5NF19
 -->
