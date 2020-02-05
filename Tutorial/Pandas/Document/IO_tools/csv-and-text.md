@@ -96,11 +96,11 @@ Dict of functions for converting values in certain columns. Keys can either be i
 
 **true_valueslist, default**  `None`
 **Values to consider as**  `True`.
-false_valueslist, default  `None`
-Values to consider as  `False`.
-skipinitialspaceboolean, default  `False`
-Skip spaces after delimiter.
-skiprowslist-like or integer, default  `None`
+**false_valueslist, default**  `None`
+**Values to consider as**  `False`.
+**skipinitialspaceboolean, default**  `False`
+**Skip spaces after delimiter.
+skiprowslist-like or integer, default**  `None`
 
 Line numbers to skip (0-indexed) or number of lines to skip (int) at the start of the file.
 
@@ -1795,5 +1795,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjgzNTUwNl19
+eyJoaXN0b3J5IjpbMTI0OTk2ODY5MF19
 -->
