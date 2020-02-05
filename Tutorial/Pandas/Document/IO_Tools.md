@@ -383,9 +383,9 @@ In [20]: df['col_1'].apply(type).value_counts()
 Out[20]: 
 <class 'str'>    4
 Name: col_1, dtype: int64
-
+```
 Or you can use the  [`to_numeric()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html#pandas.to_numeric "pandas.to_numeric")  function to coerce the dtypes after reading in the data,
-
+```py
 In [21]: df2 = pd.read_csv(StringIO(data))
 
 In [22]: df2['col_1'] = pd.to_numeric(df2['col_1'], errors='coerce')
@@ -402,7 +402,7 @@ In [24]: df2['col_1'].apply(type).value_counts()
 Out[24]: 
 <class 'float'>    4
 Name: col_1, dtype: int64
-
+```
 which will convert all valid parsing to floats, leaving the invalid parsing as  `NaN`.
 
 Ultimately, how you deal with reading in columns containing mixed dtypes depends on your specific needs. In the case above, if you wanted to  `NaN`  out the data anomalies, then  [`to_numeric()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html#pandas.to_numeric "pandas.to_numeric")  is probably your best option. However, if you wanted for all the data to be coerced, no matter the type, then using the  `converters`  argument of  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  would certainly be worth trying.
@@ -410,7 +410,7 @@ Ultimately, how you deal with reading in columns containing mixed dtypes depends
 Note
 
 In some cases, reading in abnormal data with columns containing mixed dtypes will result in an inconsistent dataset. If you rely on pandas to infer the dtypes of your columns, the parsing engine will go and infer the dtypes for different chunks of the data, rather than the whole dataset at once. Consequently, you can end up with column(s) with mixed dtypes. For example,
-
+```py
 In [25]: col_1 = list(range(500000)) + ['a', 'b'] + list(range(500000))
 
 In [26]: df = pd.DataFrame({'col_1': col_1})
@@ -427,13 +427,13 @@ Name: col_1, dtype: int64
 
 In [30]: mixed_df['col_1'].dtype
 Out[30]: dtype('O')
-
+```
 will result with  mixed_df  containing an  `int`  dtype for certain chunks of the column, and  `str`  for others due to the mixed dtypes from the data that was read in. It is important to note that the overall column will be marked with a  `dtype`  of  `object`, which is used for columns with mixed dtypes.
 
 ### Specifying categorical dtype[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-categorical-dtype "Permalink to this headline")
 
 `Categorical`  columns can be parsed directly by specifying  `dtype='category'`  or  `dtype=CategoricalDtype(categories,  ordered)`.
-
+```py
 In [31]: data = ('col1,col2,col3\n'
  ....:        'a,b,1\n'
  ....:        'a,b,2\n'
@@ -484,9 +484,9 @@ col1    category
 col2      object
 col3       int64
 dtype: object
-
+```
 When using  `dtype=CategoricalDtype`, “unexpected” values outside of  `dtype.categories`  are treated as missing values.
-
+```py
 In [39]: dtype = CategoricalDtype(['a', 'b', 'd'])  # No 'c'
 
 In [40]: pd.read_csv(StringIO(data), dtype={'col1': dtype}).col1
@@ -496,7 +496,7 @@ Out[40]:
 2    NaN
 Name: col1, dtype: category
 Categories (3, object): [a, b, d]
-
+```
 This matches the behavior of  `Categorical.set_categories()`.
 
 Note
@@ -504,7 +504,7 @@ Note
 With  `dtype='category'`, the resulting categories will always be parsed as strings (object dtype). If the categories are numeric they can be converted using the  [`to_numeric()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html#pandas.to_numeric "pandas.to_numeric")  function, or as appropriate, another converter such as  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html#pandas.to_datetime "pandas.to_datetime").
 
 When  `dtype`  is a  `CategoricalDtype`  with homogeneous  `categories`  ( all numeric, all datetimes, etc.), the conversion is done automatically.
-
+```py
 In [41]: df = pd.read_csv(StringIO(data), dtype='category')
 
 In [42]: df.dtypes
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM1MDI4NjIsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTEyNzU3NDQ1OTUsMTgxMjIwODk5NF19
 -->
