@@ -531,13 +531,13 @@ Out[45]:
 2    3
 Name: col3, dtype: category
 Categories (3, int64): [1, 2, 3]
-
+```
 ### Naming and using columns[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#naming-and-using-columns "Permalink to this headline")
 
 #### Handling column names[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#handling-column-names "Permalink to this headline")
 
 A file may or may not have a header row. pandas assumes the first row should be used as the column names:
-
+```py
 In [46]: data = ('a,b,c\n'
  ....:        '1,2,3\n'
  ....:        '4,5,6\n'
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU3NDQ1OTUsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbNjYzNjc1MTQyLDE4MTIyMDg5OTRdfQ==
 -->
