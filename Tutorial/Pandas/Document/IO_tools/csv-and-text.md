@@ -24,18 +24,15 @@ Specifies whether or not whitespace (e.g.  `'  '`  or  `'\t'`) will be used as t
 
 #### Column and index locations and names[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#column-and-index-locations-and-names "Permalink to this headline")
 
-headerint or list of ints, default  `'infer'`
-
+**headerint or list of ints, default**  `'infer'`
 Row number(s) to use as the column names, and the start of the data. Default behavior is to infer the column names: if no names are passed the behavior is identical to  `header=0`  and column names are inferred from the first line of the file, if column names are passed explicitly then the behavior is identical to  `header=None`. Explicitly pass  `header=0`  to be able to replace existing names.
 
 The header can be a list of ints that specify row locations for a MultiIndex on the columns e.g.  `[0,1,3]`. Intervening rows that are not specified will be skipped (e.g. 2 in this example is skipped). Note that this parameter ignores commented lines and empty lines if  `skip_blank_lines=True`, so header=0 denotes the first line of data rather than the first line of the file.
 
-namesarray-like, default  `None`
-
+**namesarray-like, default**  `None`
 List of column names to use. If file contains no header row, then you should explicitly pass  `header=None`. Duplicates in this list are not allowed.
 
-index_colint, str, sequence of int / str, or False, default  `None`
-
+**index_colint, str, sequence of int / str, or False, default** `None`
 Column(s) to use as the row labels of the  `DataFrame`, either given as string name or column index. If a sequence of int / str is given, a MultiIndex is used.
 
 Note:  `index_col=False`  can be used to force pandas to  _not_  use the first column as the index, e.g. when you have a malformed file with delimiters at the end of each line.
@@ -1798,5 +1795,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI4OTI2NzZdfQ==
+eyJoaXN0b3J5IjpbLTQxMTEzNjQ2Ml19
 -->
