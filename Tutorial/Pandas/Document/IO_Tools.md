@@ -782,15 +782,15 @@ Out[73]:
 #### Comments[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#comments "Permalink to this headline")
 
 Sometimes comments or meta data may be included in a file:
-
+```py
 In [74]: print(open('tmp.csv').read())
 ID,level,category
 Patient1,123000,x # really unpleasant
 Patient2,23000,y # wouldn't take his medicine
 Patient3,1234018,z # awesome
-
+```
 By default, the parser includes the comments in the output:
-
+```py
 In [75]: df = pd.read_csv('tmp.csv')
 
 In [76]: df
@@ -799,9 +799,9 @@ Out[76]:
 0  Patient1   123000           x # really unpleasant
 1  Patient2    23000  y # wouldn't take his medicine
 2  Patient3  1234018                     z # awesome
-
+```
 We can suppress the comments using the  `comment`  keyword:
-
+```py
 In [77]: df = pd.read_csv('tmp.csv', comment='#')
 
 In [78]: df
@@ -810,11 +810,11 @@ Out[78]:
 0  Patient1   123000       x 
 1  Patient2    23000       y 
 2  Patient3  1234018       z 
-
+```
 ### Dealing with Unicode data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#dealing-with-unicode-data "Permalink to this headline")
 
 The  `encoding`  argument should be used for encoded unicode data, which will result in byte strings being decoded to unicode in the result:
-
+```py
 In [79]: from io import BytesIO
 
 In [80]: data = (b'word,length\n'
@@ -834,13 +834,13 @@ Out[83]:
 
 In [84]: df['word'][1]
 Out[84]: 'Grüße'
-
+```
 Some formats which encode all characters as multiple bytes, like UTF-16, won’t parse correctly at all without specifying the encoding.  [Full list of Python standard encodings](https://docs.python.org/3/library/codecs.html#standard-encodings).
 
 ### Index columns and trailing delimiters[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#index-columns-and-trailing-delimiters "Permalink to this headline")
 
 If a file has one more column of data than the number of column names, the first column will be used as the  `DataFrame`’s row names:
-
+```py
 In [85]: data = ('a,b,c\n'
  ....:        '4,apple,bat,5.7\n'
  ....:        '8,orange,cow,10')
@@ -863,11 +863,11 @@ Out[88]:
 index 
 4       apple  bat   5.7
 8      orange  cow  10.0
-
+```
 Ordinarily, you can achieve this behavior using the  `index_col`  option.
 
 There are some exception cases when a file has been prepared with delimiters at the end of each data line, confusing the parser. To explicitly disable the index column inference and discard the last column, pass  `index_col=False`:
-
+```py
 In [89]: data = ('a,b,c\n'
  ....:        '4,apple,bat,\n'
  ....:        '8,orange,cow,')
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQyNTk4NTIsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbMTgxOTgyNDM1MCwxODEyMjA4OTk0XX0=
 -->
