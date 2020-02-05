@@ -54,38 +54,16 @@ Let's see an example
 
 The date.today() function also gives you the weekday number. Here is the Weekday Table which start with Monday as 0 and Sunday as 6
 
-Day
 
-WeekDay Number
-
-Monday
-
-0
-
-Tuesday
-
-1
-
-Wednesday
-
-2
-
-Thursday
-
-3
-
-Friday
-
-4
-
-Saturday
-
-5
-
-Sunday
-
-6
-
+| Day |WeekDay Number |
+|:-----:|:----------:|
+| Monday |0 |
+| Tuesday |1 |
+| Wednesday |2 |
+| Thursday |3 |
+| Friday |4 |
+| Saturday |5 |
+| Sunday |6 |
 Weekday Number is useful for arrays whose index is dependent on the Day of the week.
 
 [![Python Date & Time Tutorial: Timedelta, Datetime, & Strftime](https://www.guru99.com/images/Pythonnew/Python15.5.png "Date, time and datetime classes in Python")](https://www.guru99.com/images/Pythonnew/Python15.5.png)
@@ -101,9 +79,9 @@ When we execute the code for datetime, it gives the output with current date and
 **Step 2)**  With "DATETIME OBJECT", you can also call time class.
 
 Suppose we want to print just the current time without the date.
-
+```py
 t = datetime.time(datetime.now())
-
+```
 -   We had imported the time class. We will be assigning it the current value of time using datetime.now()
 -   We are assigning the value of the current time to the variable t.
 
@@ -375,5 +353,5 @@ For manipulating dates and times in both simple and complex ways datetime module
 
 > [Source : ](https://www.guru99.com/date-time-and-datetime-classes-in-python.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA4MDc4OTRdfQ==
+eyJoaXN0b3J5IjpbMTA4NTcxNTM2OF19
 -->
