@@ -147,7 +147,7 @@ skiprowslist-like or integer, default  `None`
 Line numbers to skip (0-indexed) or number of lines to skip (int) at the start of the file.
 
 If callable, the callable function will be evaluated against the row indices, returning True if the row should be skipped and False otherwise:
-
+```py
 In [6]: data = ('col1,col2,col3\n'
  ...:        'a,b,1\n'
  ...:        'a,b,2\n'
@@ -165,17 +165,14 @@ In [8]: pd.read_csv(StringIO(data), skiprows=lambda x: x % 2 != 0)
 Out[8]: 
  col1 col2  col3
 0    a    b     2
-
-skipfooterint, default  `0`
-
+```
+**skipfooterint, default**  `0`
 Number of lines at bottom of file to skip (unsupported with engine=’c’).
 
-nrowsint, default  `None`
-
+**nrowsint, default**  `None`
 Number of rows of file to read. Useful for reading pieces of large files.
 
-low_memoryboolean, default  `True`
-
+**low_memoryboolean, default**  `True`
 Internally process the file in chunks, resulting in lower memory use while parsing, but possibly mixed type inference. To ensure no mixed types either set  `False`, or specify the type with the  `dtype`  parameter. Note that the entire file is read into a single  `DataFrame`  regardless, use the  `chunksize`  or  `iterator`  parameter to return the data in chunks. (Only valid with C parser)
 
 memory_mapboolean, default False
@@ -1873,5 +1870,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MDI4NTYyLDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NDQxNTc4MTEsMTgxMjIwODk5NF19
 -->
