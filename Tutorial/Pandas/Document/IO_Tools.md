@@ -889,9 +889,9 @@ Out[92]:
  a       b    c
 0  4   apple  bat
 1  8  orange  cow
-
+```
 If a subset of data is being parsed using the  `usecols`  option, the  `index_col`  specification is based on that subset, not the original data.
-
+```py
 In [93]: data = ('a,b,c\n'
  ....:        '4,apple,bat,\n'
  ....:        '8,orange,cow,')
@@ -913,7 +913,7 @@ Out[96]:
  b   c
 4  bat NaN
 8  cow NaN
-
+```
 ### Date Handling[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#date-handling "Permalink to this headline")
 
 #### Specifying date columns[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-date-columns "Permalink to this headline")
@@ -921,7 +921,7 @@ Out[96]:
 To better facilitate working with datetime data,  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  uses the keyword arguments  `parse_dates`  and  `date_parser`  to allow users to specify a variety of columns and date/time formats to turn the input text data into  `datetime`  objects.
 
 The simplest case is to just pass in  `parse_dates=True`:
-
+```py
 # Use a column as an index, and parse it as dates.
 In [97]: df = pd.read_csv('foo.csv', index_col=0, parse_dates=True)
 
@@ -936,11 +936,11 @@ date
 # These are Python datetime objects
 In [99]: df.index
 Out[99]: DatetimeIndex(['2009-01-01', '2009-01-02', '2009-01-03'], dtype='datetime64[ns]', name='date', freq=None)
-
+```
 It is often the case that we may want to store date and time data separately, or store various date fields separately. the  `parse_dates`  keyword can be used to specify a combination of columns to parse the dates and/or times from.
 
 You can specify a list of column lists to  `parse_dates`, the resulting date columns will be prepended to the output (so as to not affect the existing column order) and the new column names will be the concatenation of the component column names:
-
+```py
 In [100]: print(open('tmp.csv').read())
 KORD,19990127, 19:00:00, 18:56:00, 0.8100
 KORD,19990127, 20:00:00, 19:56:00, 0.0100
@@ -960,7 +960,7 @@ Out[102]:
 3 1999-01-27 21:00:00 1999-01-27 21:18:00  KORD -0.99
 4 1999-01-27 22:00:00 1999-01-27 21:56:00  KORD -0.59
 5 1999-01-27 23:00:00 1999-01-27 22:56:00  KORD -0.59
-
+```
 By default the parser removes the component date columns, but you can choose to retain them via the  `keep_date_col`  keyword:
 
 In [103]: df = pd.read_csv('tmp.csv', header=None, parse_dates=[[1, 2], [1, 3]],
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTgyNDM1MCwxODEyMjA4OTk0XX0=
+eyJoaXN0b3J5IjpbLTIwNTEwMzA5MDksMTgxMjIwODk5NF19
 -->
