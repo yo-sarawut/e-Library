@@ -98,17 +98,11 @@ convertersdict, default  `None`
 Dict of functions for converting values in certain columns. Keys can either be integers or column labels.
 
 true_valueslist, default  `None`
-
 Values to consider as  `True`.
-
 false_valueslist, default  `None`
-
 Values to consider as  `False`.
-
 skipinitialspaceboolean, default  `False`
-
 Skip spaces after delimiter.
-
 skiprowslist-like or integer, default  `None`
 
 Line numbers to skip (0-indexed) or number of lines to skip (int) at the start of the file.
@@ -372,9 +366,9 @@ which will convert all valid parsing to floats, leaving the invalid parsing as  
 
 Ultimately, how you deal with reading in columns containing mixed dtypes depends on your specific needs. In the case above, if you wanted to  `NaN`  out the data anomalies, then  [`to_numeric()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html#pandas.to_numeric "pandas.to_numeric")  is probably your best option. However, if you wanted for all the data to be coerced, no matter the type, then using the  `converters`  argument of  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  would certainly be worth trying.
 
-Note
+>Note
 
-In some cases, reading in abnormal data with columns containing mixed dtypes will result in an inconsistent dataset. If you rely on pandas to infer the dtypes of your columns, the parsing engine will go and infer the dtypes for different chunks of the data, rather than the whole dataset at once. Consequently, you can end up with column(s) with mixed dtypes. For example,
+>In some cases, reading in abnormal data with columns containing mixed dtypes will result in an inconsistent dataset. If you rely on pandas to infer the dtypes of your columns, the parsing engine will go and infer the dtypes for different chunks of the data, rather than the whole dataset at once. Consequently, you can end up with column(s) with mixed dtypes. For example,
 ```py
 In [25]: col_1 = list(range(500000)) + ['a', 'b'] + list(range(500000))
 
@@ -1804,5 +1798,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDM4MTA0XX0=
+eyJoaXN0b3J5IjpbLTE4MTI4OTI2NzZdfQ==
 -->
