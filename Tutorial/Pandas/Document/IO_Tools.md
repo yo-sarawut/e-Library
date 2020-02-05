@@ -1798,38 +1798,24 @@ If your S3 bucket requires credentials you will need to set them as environment 
 
 The  `Series`  and  `DataFrame`  objects have an instance method  `to_csv`  which allows storing the contents of the object as a comma-separated-values file. The function takes a number of arguments. Only the first is required.
 
--   `path_or_buf`: A string path to the file to write or a file object. If a file object it must be opened with  newline=’’
-    
--   `sep`  : Field delimiter for the output file (default “,”)
-    
--   `na_rep`: A string representation of a missing value (default ‘’)
-    
--   `float_format`: Format string for floating point numbers
-    
--   `columns`: Columns to write (default None)
-    
--   `header`: Whether to write out the column names (default True)
-    
--   `index`: whether to write row (index) names (default True)
-    
+-   `path_or_buf`: A string path to the file to write or a file object. If a file object it must be opened with  newline=’’    
+-   `sep`  : Field delimiter for the output file (default “,”)    
+-   `na_rep`: A string representation of a missing value (default ‘’)    
+-   `float_format`: Format string for floating point numbers    
+-   `columns`: Columns to write (default None)    
+-   `header`: Whether to write out the column names (default True)    
+-   `index`: whether to write row (index) names (default True)    
 -   `index_label`: Column label(s) for index column(s) if desired. If None (default), and  header  and  index  are True, then the index names are used. (A sequence should be given if the  `DataFrame`  uses MultiIndex).
     
--   `mode`  : Python write mode, default ‘w’
-    
--   `encoding`: a string representing the encoding to use if the contents are non-ASCII, for Python versions prior to 3
-    
--   `line_terminator`: Character sequence denoting line end (default  os.linesep)
-    
+-   `mode`  : Python write mode, default ‘w’    
+-   `encoding`: a string representing the encoding to use if the contents are non-ASCII, for Python versions prior to 3    
+-   `line_terminator`: Character sequence denoting line end (default  os.linesep)    
 -   `quoting`: Set quoting rules as in csv module (default csv.QUOTE_MINIMAL). Note that if you have set a  float_format  then floats are converted to strings and csv.QUOTE_NONNUMERIC will treat them as non-numeric
     
--   `quotechar`: Character used to quote fields (default ‘”’)
-    
--   `doublequote`: Control quoting of  `quotechar`  in fields (default True)
-    
--   `escapechar`: Character used to escape  `sep`  and  `quotechar`  when appropriate (default None)
-    
--   `chunksize`: Number of rows to write at a time
-    
+-   `quotechar`: Character used to quote fields (default ‘”’)    
+-   `doublequote`: Control quoting of  `quotechar`  in fields (default True)    
+-   `escapechar`: Character used to escape  `sep`  and  `quotechar`  when appropriate (default None)    
+-   `chunksize`: Number of rows to write at a time    
 -   `date_format`: Format string for datetime objects
     
 
@@ -1837,32 +1823,22 @@ The  `Series`  and  `DataFrame`  objects have an instance method  `to_csv`  whic
 
 The  `DataFrame`  object has an instance method  `to_string`  which allows control over the string representation of the object. All arguments are optional:
 
--   `buf`  default None, for example a StringIO object
-    
--   `columns`  default None, which columns to write
-    
--   `col_space`  default None, minimum width of each column.
-    
--   `na_rep`  default  `NaN`, representation of NA value
-    
--   `formatters`  default None, a dictionary (by column) of functions each of which takes a single argument and returns a formatted string
-    
--   `float_format`  default None, a function which takes a single (float) argument and returns a formatted string; to be applied to floats in the  `DataFrame`.
-    
--   `sparsify`  default True, set to False for a  `DataFrame`  with a hierarchical index to print every MultiIndex key at each row.
-    
--   `index_names`  default True, will print the names of the indices
-    
--   `index`  default True, will print the index (ie, row labels)
-    
--   `header`  default True, will print the column labels
-    
--   `justify`  default  `left`, will print column headers left- or right-justified
-    
+-   `buf`  default None, for example a StringIO object    
+-   `columns`  default None, which columns to write    
+-   `col_space`  default None, minimum width of each column.    
+-   `na_rep`  default  `NaN`, representation of NA value    
+-   `formatters`  default None, a dictionary (by column) of functions each of which takes a single argument and returns a formatted string    
+-   `float_format`  default None, a function which takes a single (float) argument and returns a formatted string; to be applied to floats in the  `DataFrame`.    
+-   `sparsify`  default True, set to False for a  `DataFrame`  with a hierarchical index to print every MultiIndex key at each row.    
+-   `index_names`  default True, will print the names of the indices    
+-   `index`  default True, will print the index (ie, row labels)    
+-   `header`  default True, will print the column labels    
+-   `justify`  default  `left`, will print column headers left- or right-justified   
 
 The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,  `na_rep`,  `float_format`  arguments. There is also a  `length`  argument which, if set to  `True`, will additionally output the length of the Series.
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0MDk2NjQsMTgxMjIwODk5NF19
+eyJoaXN0b3J5IjpbLTEzMjA3MjEyODIsLTE2OTE0MDk2NjQsMT
+gxMjIwODk5NF19
 -->
