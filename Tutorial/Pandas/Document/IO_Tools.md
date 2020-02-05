@@ -1421,13 +1421,13 @@ Out[155]:
  a  b  c
 0  1  2  3
 1  4  5  6
-
+```
 The parsers make every attempt to “do the right thing” and not be fragile. Type inference is a pretty big deal. If a column can be coerced to integer dtype without altering the contents, the parser will do so. Any non-numeric columns will come through as object dtype as with the rest of pandas objects.
 
 ### Quoting and Escape Characters[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#quoting-and-escape-characters "Permalink to this headline")
 
 Quotes (and other escape characters) in embedded fields can be handled in any number of ways. One way is to use backslashes; to properly parse this data, you should pass the  `escapechar`  option:
-
+```py
 In [156]: data = 'a,b\n"hello, \\"Bob\\", nice to see you",5'
 
 In [157]: print(data)
@@ -1438,7 +1438,7 @@ In [158]: pd.read_csv(StringIO(data), escapechar='\\')
 Out[158]: 
  a  b
 0  hello, "Bob", nice to see you  5
-
+```
 ### Files with fixed width columns[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#files-with-fixed-width-columns "Permalink to this headline")
 
 While  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  reads delimited data, the  [`read_fwf()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_fwf.html#pandas.read_fwf "pandas.read_fwf")  function works with data files that have known and fixed column widths. The function parameters to  `read_fwf`  are largely the same as  read_csv  with two extra parameters, and a different usage of the  `delimiter`  parameter:
@@ -1451,16 +1451,16 @@ While  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api
     
 
 Consider a typical fixed-width data file:
-
+```py
 In [159]: print(open('bar.csv').read())
 id8141    360.242940   149.910199   11950.7
 id1594    444.953632   166.985655   11788.4
 id1849    364.136849   183.628767   11806.2
 id1230    413.836124   184.375703   11916.8
 id1948    502.953953   173.237159   12468.3
-
+```
 In order to parse this file into a  `DataFrame`, we simply need to supply the column specifications to the  read_fwf  function along with the file name:
-
+```py
 # Column specifications are a list of half-intervals
 In [160]: colspecs = [(0, 6), (8, 20), (21, 33), (34, 43)]
 
@@ -1475,9 +1475,9 @@ id1594  444.953632  166.985655  11788.4
 id1849  364.136849  183.628767  11806.2
 id1230  413.836124  184.375703  11916.8
 id1948  502.953953  173.237159  12468.3
-
+```
 Note how the parser automatically picks column names X.<column number> when  `header=None`  argument is specified. Alternatively, you can supply just the column widths for contiguous columns:
-
+```py
 # Widths are a list of integers
 In [163]: widths = [6, 14, 13, 10]
 
@@ -1491,11 +1491,11 @@ Out[165]:
 2  id1849  364.136849  183.628767  11806.2
 3  id1230  413.836124  184.375703  11916.8
 4  id1948  502.953953  173.237159  12468.3
-
+```
 The parser will take care of extra white spaces around the columns so it’s ok to have extra separation between the columns in the file.
 
 By default,  `read_fwf`  will try to infer the file’s  `colspecs`  by using the first 100 rows of the file. It can do it only in cases when the columns are aligned and correctly separated by the provided  `delimiter`  (default delimiter is whitespace).
-
+```py
 In [166]: df = pd.read_fwf('bar.csv', header=None, index_col=0)
 
 In [167]: df
@@ -1507,9 +1507,9 @@ id1594  444.953632  166.985655  11788.4
 id1849  364.136849  183.628767  11806.2
 id1230  413.836124  184.375703  11916.8
 id1948  502.953953  173.237159  12468.3
-
+```
 `read_fwf`  supports the  `dtype`  parameter for specifying the types of parsed columns to be different from the inferred type.
-
+```py
 In [168]: pd.read_fwf('bar.csv', header=None, index_col=0).dtypes
 Out[168]: 
 1    float64
@@ -1524,13 +1524,13 @@ Out[169]:
 2     object
 3    float64
 dtype: object
-
+```
 ### Indexes[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#indexes "Permalink to this headline")
 
 #### Files with an “implicit” index column[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#files-with-an-implicit-index-column "Permalink to this headline")
 
 Consider a file with one less entry in the header than the number of data column:
-
+```py
 In [170]: print(open('foo.csv').read())
 A,B,C
 20090101,a,1,2
@@ -1864,5 +1864,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3OTg4MzU3LDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbNjEyMjQxNzcyLDE4MTIyMDg5OTRdfQ==
 -->
