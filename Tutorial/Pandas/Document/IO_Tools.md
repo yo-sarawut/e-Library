@@ -579,9 +579,9 @@ Out[51]:
 1   1   2   3
 2   4   5   6
 3   7   8   9
-
+```
 If the header is in a row other than the first, pass the row number to  `header`. This will skip the preceding rows:
-
+```py
 In [52]: data = ('skip this skip it\n'
  ....:        'a,b,c\n'
  ....:        '1,2,3\n'
@@ -595,15 +595,15 @@ Out[53]:
 0  1  2  3
 1  4  5  6
 2  7  8  9
+```
+>Note
 
-Note
-
-Default behavior is to infer the column names: if no names are passed the behavior is identical to  `header=0`  and column names are inferred from the first non-blank line of the file, if column names are passed explicitly then the behavior is identical to  `header=None`.
+>Default behavior is to infer the column names: if no names are passed the behavior is identical to  `header=0`  and column names are inferred from the first non-blank line of the file, if column names are passed explicitly then the behavior is identical to  `header=None`.
 
 ### Duplicate names parsing[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#duplicate-names-parsing "Permalink to this headline")
 
 If the file or header contains duplicate names, pandas will by default distinguish between them so as to prevent overwriting data:
-
+```py
 In [54]: data = ('a,b,a\n'
  ....:        '0,1,2\n'
  ....:        '3,4,5')
@@ -614,27 +614,27 @@ Out[55]:
  a  b  a.1
 0  0  1    2
 1  3  4    5
-
+```
 There is no more duplicate data because  `mangle_dupe_cols=True`  by default, which modifies a series of duplicate columns ‘X’, …, ‘X’ to become ‘X’, ‘X.1’, …, ‘X.N’. If  `mangle_dupe_cols=False`, duplicate data can arise:
-
+```py
 In [2]: data = 'a,b,a\n0,1,2\n3,4,5'
 In [3]: pd.read_csv(StringIO(data), mangle_dupe_cols=False)
 Out[3]:
  a  b  a
 0  2  1  2
 1  5  4  5
-
+```
 To prevent users from encountering this problem with duplicate data, a  `ValueError`  exception is raised if  `mangle_dupe_cols  !=  True`:
-
+```py
 In [2]: data = 'a,b,a\n0,1,2\n3,4,5'
 In [3]: pd.read_csv(StringIO(data), mangle_dupe_cols=False)
 ...
 ValueError: Setting mangle_dupe_cols=False is not supported yet
-
+```
 #### Filtering columns (`usecols`)[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#filtering-columns-usecols "Permalink to this headline")
 
 The  `usecols`  argument allows you to select any subset of the columns in a file, either using the column names, position numbers or a callable:
-
+```py
 In [56]: data = 'a,b,c,d\n1,2,3,foo\n4,5,6,bar\n7,8,9,baz'
 
 In [57]: pd.read_csv(StringIO(data))
@@ -1867,5 +1867,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzNjc1MTQyLDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE3ODY5MTgwNDcsMTgxMjIwODk5NF19
 -->
