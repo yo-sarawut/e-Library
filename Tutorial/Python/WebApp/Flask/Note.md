@@ -1,8 +1,8 @@
 Flask Framework
 ===
 
-
-
+### เอกสารเพิ่มเติม
+- [**Flask’s Documentation**](https://flask.palletsprojects.com/en/1.1.x/)
 ## แหล่งศึกษาข้อมูล
 
 - [Learning-flask](https://pythonise.com/series/learning-flask)
@@ -15,6 +15,6 @@ Flask Framework
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc4NDUwNzcsLTEyOTQwNzkwOTcsMT
-kzNDU0MjgxMl19
+eyJoaXN0b3J5IjpbLTI2NzgwODExLC0xMjk0MDc5MDk3LDE5Mz
+Q1NDI4MTJdfQ==
 -->
