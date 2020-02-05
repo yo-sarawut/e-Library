@@ -101,7 +101,7 @@ Okay, so you can see that here I got the date and time. And then the next line, 
 Here is the complete code to get current date and time using datetime now
 
 **Here is the complete code to get current date and time using datetime now**
-
+```py
 from datetime import date
 from datetime import time
 from datetime import datetime
@@ -122,7 +122,7 @@ def main():
 
 if __name__== "__main__":
     main()
-
+```
 ## How to Format Date and Time Output with Strftime()
 
 As of now we have learned, how to use datetime and date object in Python. We will advance a step further and learn how to use a formatting function to format Time and Date.
@@ -169,7 +169,7 @@ Just by defining control code like %I/H for hour, % M for minute, %S for second,
 **24 hours** time is declared [print now.strftime("%H:%M")]
 
 **Here is the complete code to convert datetime to String object.**
-
+```py
 #
 #Example file for formatting time and date output
 #
@@ -189,7 +189,7 @@ def main():
 
 if __name__== "__main__":
     main()
-
+```
 ## How to use Timedelta Objects
 
 **With timedelta objects, you can estimate the time for both future and the past.**  In other words, it is a timespan to predict any special day, date or time.
@@ -353,5 +353,5 @@ For manipulating dates and times in both simple and complex ways datetime module
 
 > [Source : ](https://www.guru99.com/date-time-and-datetime-classes-in-python.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTcxNTM2OF19
+eyJoaXN0b3J5IjpbLTE0NTM1MjE5NjhdfQ==
 -->
