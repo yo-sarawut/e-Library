@@ -1782,10 +1782,10 @@ Specifying any of the above options will produce a  `ParserWarning`  unless the 
 ### Reading remote files[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-remote-files "Permalink to this headline")
 
 You can pass in a URL to a CSV file:
-
+```py
 df = pd.read_csv('https://download.bls.gov/pub/time.series/cu/cu.item',
                  sep='\t')
-
+```
 S3 URLs are handled as well but require installing the  [S3Fs](https://pypi.org/project/s3fs/)  library:
 
 df = pd.read_csv('s3://pandas-test/tips.csv')
@@ -1839,6 +1839,6 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA3MjEyODIsLTE2OTE0MDk2NjQsMT
+eyJoaXN0b3J5IjpbLTE2NDcxNTk5NDUsLTE2OTE0MDk2NjQsMT
 gxMjIwODk5NF19
 -->
