@@ -1787,9 +1787,9 @@ df = pd.read_csv('https://download.bls.gov/pub/time.series/cu/cu.item',
                  sep='\t')
 ```
 S3 URLs are handled as well but require installing the  [S3Fs](https://pypi.org/project/s3fs/)  library:
-
+```py
 df = pd.read_csv('s3://pandas-test/tips.csv')
-
+```
 If your S3 bucket requires credentials you will need to set them as environment variables or in the  `~/.aws/credentials`  config file, refer to the  [S3Fs documentation on credentials](https://s3fs.readthedocs.io/en/latest/#credentials).
 
 ### Writing out data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-out-data "Permalink to this headline")
@@ -1839,6 +1839,6 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDcxNTk5NDUsLTE2OTE0MDk2NjQsMT
-gxMjIwODk5NF19
+eyJoaXN0b3J5IjpbOTE1ODY0MTkyLC0xNjkxNDA5NjY0LDE4MT
+IyMDg5OTRdfQ==
 -->
