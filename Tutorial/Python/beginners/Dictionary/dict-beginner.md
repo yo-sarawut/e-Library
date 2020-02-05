@@ -21,9 +21,9 @@ In this tutorial, we are going to learn,
 -   [Dictionary Str(dict)](https://www.guru99.com/python-dictionary-beginners-tutorial.html#11)
 
 **Syntax for Python Dictionary**:
-
+```py
   Dict = { ' Tim': 18,  xyz,.. }
-
+```
 Dictionary is listed in curly brackets, inside these curly brackets, keys and values are declared. Each key is separated from its value by a colon (:) while each element is separated by commas.
 
 **Properties of Dictionary Keys**
@@ -35,15 +35,15 @@ There are two important points while using dictionary keys
 -   Dictionary keys are case sensitive- Same key name but with the different case are treated as different keys in Python dictionaries.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print (Dict['Tiffany'])
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print((Dict['Tiffany']))
-
+```
 -   In code, we have dictionary name "Dict"
 -   We declared the name and age of the person in the dictionary, where name is "Keys" and age is the"value"
 -   Now run the code
@@ -56,7 +56,7 @@ print((Dict['Tiffany']))
 You can also copy the entire dictionary to new dictionary. For example, here we have copied our original dictionary to new dictionary name "Boys" and "Girls".
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}	
@@ -64,9 +64,9 @@ studentX=Boys.copy()
 studentY=Girls.copy()
 print studentX
 print studentY
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}	
@@ -74,7 +74,7 @@ studentX=Boys.copy()
 studentY=Girls.copy()
 print(studentX)
 print(studentY)
-
+```
 -   We have the original dictionary (Dict) with the name and age of the boys and girls together
 -   But we want boys list separate from girls list, so we defined the element of boys and girls in a separate dictionary name "Boys" and "Girls."
 -   Now again we have created new dictionary name "studentX" and "studentY", where all the keys and values of boy dictionary are copied into studentX, and the girls will be copied in studentY
@@ -86,17 +86,17 @@ print(studentY)
 You can also update a dictionary by adding a new entry or a key-value pair to an existing entry or by deleting an existing entry. Here in the example we will add another name "Sarah" to our existing dictionary.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 Dict.update({"Sarah":9})
 print Dict
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 Dict.update({"Sarah":9})
 print(Dict)
-
+```
 -   Our existing dictionary "Dict" does not have the name "Sarah."
 -   We use the method Dict.update to add Sarah to our existing dictionary
 -   Now run the code, it adds Sarah to our existing dictionary
@@ -106,7 +106,7 @@ print(Dict)
 Python dictionary gives you the liberty to delete any element from the dictionary list. Suppose you don't want the name Charlie in the list, so you can delete the key element by following code.
 
 **Python 2 Example**
-
+```p
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 del Dict ['Charlie']
 print Dict
@@ -334,5 +334,5 @@ Dictionaries in a programming language is a type of data-structure used to store
 
 > [Source : ](https://www.guru99.com/python-dictionary-beginners-tutorial.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTgwODYwOF19
+eyJoaXN0b3J5IjpbMTQyNjYxNTczOV19
 -->
