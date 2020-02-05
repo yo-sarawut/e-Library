@@ -1232,13 +1232,13 @@ pd.read_csv('path_to_file.csv', keep_default_na=False, na_values=[""])
 ```
 
 Above, only an empty field will be recognized as  `NaN`.
-
+```py
 pd.read_csv('path_to_file.csv', keep_default_na=False, na_values=["NA", "0"])
-
+```
 Above, both  `NA`  and  `0`  as strings are  `NaN`.
-
+```py
 pd.read_csv('path_to_file.csv', na_values=["Nope"])
-
+```
 The default values, in addition to the string  `"Nope"`  are recognized as  `NaN`.
 
 ### Infinity[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#infinity "Permalink to this headline")
@@ -1248,7 +1248,7 @@ The default values, in addition to the string  `"Nope"`  are recognized as  `NaN
 ### Returning Series[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#returning-series "Permalink to this headline")
 
 Using the  `squeeze`  keyword, the parser will return output with a single column as a  `Series`:
-
+```py
 In [136]: print(open('tmp.csv').read())
 level
 Patient1,123000
@@ -1266,11 +1266,11 @@ Name: level, dtype: int64
 
 In [139]: type(output)
 Out[139]: pandas.core.series.Series
-
+```
 ### Boolean values[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#boolean-values "Permalink to this headline")
 
 The common values  `True`,  `False`,  `TRUE`, and  `FALSE`  are all recognized as boolean. Occasionally you might want to recognize other values as being boolean. To do this, use the  `true_values`  and  `false_values`  options as follows:
-
+```py
 In [140]: data = ('a,b,c\n'
  .....:        '1,Yes,2\n'
  .....:        '3,No,4')
@@ -1292,11 +1292,11 @@ Out[143]:
  a      b  c
 0  1   True  2
 1  3  False  4
-
+```
 ### Handling “bad” lines[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#handling-bad-lines "Permalink to this headline")
 
 Some files may have malformed lines with too few fields or too many. Lines with too few fields will have NA values filled in the trailing fields. Lines with too many fields will raise an error by default:
-
+```py
 In [144]: data = ('a,b,c\n'
  .....:        '1,2,3\n'
  .....:        '4,5,6,7\n'
@@ -1863,5 +1863,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNjc4NzczLDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzE0ODExNTAsMTgxMjIwODk5NF19
 -->
