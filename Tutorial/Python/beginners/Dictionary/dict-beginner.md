@@ -241,11 +241,11 @@ print("variable Type: %s" %type (Dict))
 The compare method cmp() is used in Python to compare values and keys of two dictionaries. If method returns 0 if both dictionaries are equal, 1 if dic1 > dict2 and -1 if dict1 < dict2.
 
 **Python 2 Example**
-```
+```py
 Boys = {'Tim': 18,'Charlie':12,'Robert':25}
 Girls = {'Tiffany':22}	
 print cmp(Girls, Boys)
-
+```
 **Python 3 Example**
 
 cmp is not supported in Python 3
@@ -259,15 +259,15 @@ cmp is not supported in Python 3
 With Str() method, you can make a dictionary into a printable string format.
 
 **Python 2 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print "printable string:%s" % str (Dict)
-
+```
 **Python 3 Example**
-
+```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
 print("printable string:%s" % str (Dict))
-
+```
 -   Use the code % str (Dict)
 -   It will return the dictionary elements into a printable string format
 
@@ -334,5 +334,5 @@ Dictionaries in a programming language is a type of data-structure used to store
 
 > [Source : ](https://www.guru99.com/python-dictionary-beginners-tutorial.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY3MDU5N119
+eyJoaXN0b3J5IjpbMjAwOTA5MDUwXX0=
 -->
