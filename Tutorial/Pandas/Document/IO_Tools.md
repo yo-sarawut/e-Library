@@ -1375,16 +1375,16 @@ In [30]: pd.read_csv(StringIO(data), usecols=[0, 1, 2])
 The  `dialect`  keyword gives greater flexibility in specifying the file format. By default it uses the Excel dialect but you can specify either the dialect name or a  [`csv.Dialect`](https://docs.python.org/3/library/csv.html#csv.Dialect "(in Python v3.8)")  instance.
 
 Suppose you had data with unenclosed quotes:
-
+```py
 In [146]: print(data)
 label1,label2,label3
 index1,"a,c,e
 index2,b,d,f
-
+```
 By default,  `read_csv`  uses the Excel dialect and treats the double quote as the quote character, which causes it to fail when it finds a newline before it finds the closing double quote.
 
 We can get around this using  `dialect`:
-
+```py
 In [147]: import csv
 
 In [148]: dia = csv.excel()
@@ -1396,9 +1396,9 @@ Out[150]:
  label1 label2 label3
 index1     "a      c      e
 index2      b      d      f
-
+```
 All of the dialect options can be specified separately by keyword arguments:
-
+```py
 In [151]: data = 'a,b,c~1,2,3~4,5,6'
 
 In [152]: pd.read_csv(StringIO(data), lineterminator='~')
@@ -1406,9 +1406,9 @@ Out[152]:
  a  b  c
 0  1  2  3
 1  4  5  6
-
+```
 Another common dialect option is  `skipinitialspace`, to skip any whitespace after a delimiter:
-
+```py
 In [153]: data = 'a, b, c\n1, 2, 3\n4, 5, 6'
 
 In [154]: print(data)
@@ -1864,5 +1864,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDcwNDgzMywxODEyMjA4OTk0XX0=
+eyJoaXN0b3J5IjpbMjk3OTg4MzU3LDE4MTIyMDg5OTRdfQ==
 -->
