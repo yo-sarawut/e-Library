@@ -94,8 +94,8 @@ convertersdict, default  `None`
 
 Dict of functions for converting values in certain columns. Keys can either be integers or column labels.
 
-true_valueslist, default  `None`
-Values to consider as  `True`.
+**true_valueslist, default**  `None`
+**Values to consider as**  `True`.
 false_valueslist, default  `None`
 Values to consider as  `False`.
 skipinitialspaceboolean, default  `False`
@@ -1795,5 +1795,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTEzNjQ2Ml19
+eyJoaXN0b3J5IjpbMTQ2NjgzNTUwNl19
 -->
