@@ -107,16 +107,13 @@ Out[5]:
 ```
 Using this parameter results in much faster parsing time and lower memory usage.
 
-squeezeboolean, default  `False`
-
+**squeezeboolean, default**  `False`
 If the parsed data only contains one column then return a  `Series`.
 
-prefixstr, default  `None`
-
+**prefixstr, default**  `None`
 Prefix to add to column numbers when no header, e.g. ‘X’ for X0, X1, …
 
-mangle_dupe_colsboolean, default  `True`
-
+**mangle_dupe_colsboolean, default**  `True`
 Duplicate columns will be specified as ‘X’, ‘X.1’…’X.N’, rather than ‘X’…’X’. Passing in  `False`  will cause data to be overwritten if there are duplicate names in the columns.
 
 #### General parsing configuration[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#general-parsing-configuration "Permalink to this headline")
@@ -1876,5 +1873,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MjYyNzQ4LDE4MTIyMDg5OTRdfQ==
+eyJoaXN0b3J5IjpbODg2MDI4NTYyLDE4MTIyMDg5OTRdfQ==
 -->
