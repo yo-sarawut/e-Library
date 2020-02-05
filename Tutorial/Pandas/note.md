@@ -1,5 +1,8 @@
 ## ศึกษาเพิ่มเติม
 
+### เอกสารเพิ่มเติม
+- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
+
 ### Tutorials
 
 - [pythonprogramming.net](https://pythonprogramming.net/)
@@ -13,6 +16,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzgzNDgxOCwtMTg4MjE5MTQyLDEwOT
-AwMDE1NDYsLTE3NzQyNDc2MTRdfQ==
+eyJoaXN0b3J5IjpbMTM0MDY4MzY1NywxNDk3ODM0ODE4LC0xOD
+gyMTkxNDIsMTA5MDAwMTU0NiwtMTc3NDI0NzYxNF19
 -->
