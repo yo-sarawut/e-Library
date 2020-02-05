@@ -1213,7 +1213,7 @@ Out[134]:
 
 In [135]: df.level.dtype
 Out[135]: dtype('int64')
-
+```
 ### NA values[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#na-values "Permalink to this headline")
 
 To control which values are parsed as missing values (which are signified by  `NaN`), specify a string in  `na_values`. If you specify a list of strings, then all values in it are considered to be missing values. If you specify a number (a  `float`, like  `5.0`  or an  `integer`  like  `5`), the corresponding equivalent values will also imply a missing value (in this case effectively  `[5.0,  5]`  are recognized as  `NaN`).
@@ -1223,12 +1223,13 @@ To completely override the default values that are recognized as missing, specif
 The default  `NaN`  recognized values are  `['-1.#IND',  '1.#QNAN',  '1.#IND',  '-1.#QNAN',  '#N/A  N/A',  '#N/A',  'N/A',  'n/a',  'NA',  '<NA>',  '#NA',  'NULL',  'null',  'NaN',  '-NaN',  'nan',  '-nan',  '']`.
 
 Let us consider some examples:
-
+```py
 pd.read_csv('path_to_file.csv', na_values=[5])
-
+```
 In the example above  `5`  and  `5.0`  will be recognized as  `NaN`, in addition to the defaults. A string will first be interpreted as a numerical  `5`, then as a  `NaN`.
-
+```py
 pd.read_csv('path_to_file.csv', keep_default_na=False, na_values=[""])
+```
 
 Above, only an empty field will be recognized as  `NaN`.
 
@@ -1862,5 +1863,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzA1MzQwNywxODEyMjA4OTk0XX0=
+eyJoaXN0b3J5IjpbMzEwNjc4NzczLDE4MTIyMDg5OTRdfQ==
 -->
