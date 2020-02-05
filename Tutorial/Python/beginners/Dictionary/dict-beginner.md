@@ -273,54 +273,16 @@ print("printable string:%s" % str (Dict))
 
 **Here is the list of all Dictionary Methods**
 
-Method
 
-Description
-
-Syntax
-
-copy()
-
-Copy the entire dictionary to new dictionary
-
-dict.copy()
-
-update()
-
-Update a dictionary by adding a new entry or a key-value pair to an  
-existing entry or by deleting an existing entry.
-
-Dict.update([other])
-
-items()
-
-Returns a list of tuple pairs (Keys, Value) in the dictionary.
-
-dictionary.items()
-
-sort()
-
-You can sort the elements
-
-dictionary.sort()
-
-len()
-
-Gives the number of pairs in the dictionary.
-
-len(dict)
-
-cmp()
-
-Compare values and keys of two dictionaries
-
-cmp(dict1, dict2)
-
-Str()
-
-Make a dictionary into a printable string format
-
-Str(dict)
+| Method |Description |Syntax |
+|----------|----------|----------|
+| copy() |Copy the entire dictionary to new dictionary |dict.copy() |
+| update() |Update a dictionary by adding a new entry or a key-value pair to an existing entry or by deleting an existing entry. |Dict.update([other]) |
+| items() |Returns a list of tuple pairs (Keys, Value) in the dictionary. |dictionary.items() |
+| sort() |You can sort the elements |dictionary.sort() |
+| len() |Gives the number of pairs in the dictionary. |len(dict) |
+| cmp() |Compare values and keys of two dictionaries |cmp(dict1, dict2) |
+| Str() |Make a dictionary into a printable string format |Str(dict) |
 
 ### Summary:
 
@@ -334,5 +296,5 @@ Dictionaries in a programming language is a type of data-structure used to store
 
 > [Source : ](https://www.guru99.com/python-dictionary-beginners-tutorial.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTA5MDUwXX0=
+eyJoaXN0b3J5IjpbNzQ3MDU3MTAwXX0=
 -->
