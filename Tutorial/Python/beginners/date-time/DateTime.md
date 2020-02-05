@@ -230,7 +230,7 @@ Confusing? Next step will help-
 The output shows that "New Year Day already went by 11 days ago."
 
 **Here is the complete working code**
-
+```py
 #
 # Example file for working with timedelta objects
 #
@@ -254,9 +254,9 @@ nyd = date(today.year, 1, 1)  # get New Year Day for the same year
 # if it has, use the replace() function to get the date for next year
 if nyd < today:
     print ("New Year day is already went by %d days ago" % ((today - nyd).days))
-
+```
 ## Python 2 Example
-
+```py
 from datetime import date
 from datetime import time
 from datetime import datetime
@@ -277,7 +277,8 @@ def main():
 
 if __name__== "__main__":
     main()
-
+```
+```py
 #
 #Example file for formatting time and date output
 #
@@ -297,7 +298,8 @@ def main():
 
 if __name__== "__main__":
     main()
-
+```
+```py
 #
 # Example file for working with timedelta objects
 #
@@ -321,7 +323,7 @@ nyd = date(today.year, 1, 1)  # get New Year Day for the same year
 # if it has, use the replace() function to get the date for next year
 if nyd < today:
     print "New Year day is already went by %d days ago" % ((today - nyd).days)
-
+```
 ### Summary
 
 For manipulating dates and times in both simple and complex ways datetime module supplies different classes or categories like
@@ -353,5 +355,5 @@ For manipulating dates and times in both simple and complex ways datetime module
 
 > [Source : ](https://www.guru99.com/date-time-and-datetime-classes-in-python.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM1MjE5NjhdfQ==
+eyJoaXN0b3J5IjpbMTI1NTI3NTQwNl19
 -->
