@@ -288,7 +288,7 @@ In [308]: print(df.to_html(float_format='{0:.10f}'.format))
 `bold_rows`  will make the row labels bold by default, but you can turn that off:
 ```py
 In [309]: print(df.to_html(bold_rows=False))
-```
+
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -310,6 +310,11 @@ In [309]: print(df.to_html(bold_rows=False))
  </tr>
  </tbody>
 </table>
+```
+| 0 |1 |
+|-----|-----|
+| -0.18474400000000002 |0.496971 |
+| -0.85624 |1.857977 |
 
 
 
@@ -584,5 +589,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzQyMzA2MSw2Njg5MDY0OTddfQ==
+eyJoaXN0b3J5IjpbODUwMjUwOTI3LDY2ODkwNjQ5N119
 -->
