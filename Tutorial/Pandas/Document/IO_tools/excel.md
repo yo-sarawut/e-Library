@@ -276,9 +276,9 @@ writer.save()
 # Seek to the beginning and read to copy the workbook to a variable in memory
 bio.seek(0)
 workbook = bio.read()
+```
 
-Note
-
+> **Note**
 `engine`  is optional but recommended. Setting the engine determines the version of workbook produced. Setting  `engine='xlrd'`  will produce an Excel 2003-format workbook (xls). Using either  `'openpyxl'`  or  `'xlsxwriter'`  will produce an Excel 2007-format workbook (xlsx). If omitted, an Excel 2007-formatted workbook is produced.
 
 ### Excel writer engines[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-writer-engines "Permalink to this headline")
@@ -300,10 +300,10 @@ To specify which writer you want to use, you can pass an engine keyword argument
     
 -   `xlwt`
     
-
+```py
 # By setting the 'engine' in the DataFrame 'to_excel()' methods.
 df.to_excel('path_to_file.xlsx', sheet_name='Sheet1', engine='xlsxwriter')
-```py
+
 # By setting the 'engine' in the ExcelWriter constructor.
 writer = pd.ExcelWriter('path_to_file.xlsx', engine='xlsxwriter')
 
@@ -328,5 +328,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgzODEwODZdfQ==
+eyJoaXN0b3J5IjpbLTIwNjI0OTQ4NzRdfQ==
 -->
