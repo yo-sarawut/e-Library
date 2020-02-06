@@ -495,11 +495,11 @@ In [315]: print(df.to_html(escape=False))
  </tbody>
 </table>
 ```
-| a |b |
-|-----|-----|
-| & |-0.474063 |
-| < |-0.230305 |
-| > |-0.400654 |
+|#| a |b |
+|--|-----|-----|
+|0| & |-0.474063 |
+|1| < |-0.230305 |
+|2| > |-0.400654 |
 
 >Note
 Some browsers may not show a difference in the rendering of the previous two HTML tables.
@@ -549,5 +549,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjczMjY1NSw2Njg5MDY0OTddfQ==
+eyJoaXN0b3J5IjpbMTMxNjIyOTYxNSw2Njg5MDY0OTddfQ==
 -->
