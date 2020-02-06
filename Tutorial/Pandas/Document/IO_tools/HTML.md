@@ -352,6 +352,33 @@ In [313]: df = pd.DataFrame({'a': list('&<>'), 'b': np.random.randn(3)})
 Escaped:
 ```py
 In [314]: print(df.to_html())
+
+<table border="1" class="dataframe">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>a</th>
+ <th>b</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>&amp;</td>
+ <td>-0.474063</td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>&lt;</td>
+ <td>-0.230305</td>
+ </tr>
+ <tr>
+ <th>2</th>
+ <td>&gt;</td>
+ <td>-0.400654</td>
+ </tr>
+ </tbody>
+</table>
 ```
 <table border="1" class="dataframe">
  <thead>
@@ -382,6 +409,32 @@ In [314]: print(df.to_html())
 
 ```py
 In [315]: print(df.to_html(escape=False))
+<table border="1" class="dataframe">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>a</th>
+ <th>b</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>&</td>
+ <td>-0.474063</td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td><</td>
+ <td>-0.230305</td>
+ </tr>
+ <tr>
+ <th>2</th>
+ <td>></td>
+ <td>-0.400654</td>
+ </tr>
+ </tbody>
+</table>
 ```
 <table border="1" class="dataframe">
  <thead>
@@ -459,5 +512,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk1NTQzMl19
+eyJoaXN0b3J5IjpbLTE5MjczMzY5MF19
 -->
