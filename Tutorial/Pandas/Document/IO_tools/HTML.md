@@ -216,24 +216,10 @@ The  `columns`  argument will limit the columns shown:
 ```py
 In [307]: print(df.to_html(columns=[0]))
 ```
-<table border="1" class="dataframe">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>0</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>-0.184744</td>
- </tr>
- <tr>
- <th>1</th>
- <td>-0.856240</td>
- </tr>
- </tbody>
-</table>
+|#| 0 |
+|--|-----|
+|0| -0.18474400000000002 |
+|#| -0.85624 |
 
 
 `float_format`  takes a Python callable to control the precision of floating point values:
@@ -263,9 +249,9 @@ In [308]: print(df.to_html(float_format='{0:.10f}'.format))
 </table>
 ```
 |#| 0 |1 |
-|-----|-----|
-| -0.18474400000000002 |0.496971 |
-| -0.85624 |1.857977 |
+|--|-----|-----|
+|0| -0.18474400000000002 |0.496971 |
+|1| -0.85624 |1.857977 |
 
 
 `bold_rows`  will make the row labels bold by default, but you can turn that off:
@@ -494,6 +480,6 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Njg1MDcyMiwxODk1MzAzOTQxLDY2OD
+eyJoaXN0b3J5IjpbLTMzNDgxMzg4NSwxODk1MzAzOTQxLDY2OD
 kwNjQ5N119
 -->
