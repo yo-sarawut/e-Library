@@ -446,19 +446,18 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 -   Benefits
     
--   [**html5lib**](https://github.com/html5lib/html5lib-python)  is far more lenient than  [**lxml**](https://lxml.de/)  and consequently deals with  _real-life markup_  in a much saner way rather than just, e.g., dropping an element without notifying you.
+	-   [**html5lib**](https://github.com/html5lib/html5lib-python)  is far more lenient than  [**lxml**](https://lxml.de/)  and consequently deals with  _real-life markup_  in a much saner way rather than just, e.g., dropping an element without notifying you.
  
--   [**html5lib**](https://github.com/html5lib/html5lib-python)  _generates valid HTML5 markup from invalid markup automatically_. This is extremely important for parsing HTML tables, since it guarantees a valid document. However, that does NOT mean that it is “correct”, since the process of fixing markup does not have a single definition.
+	-   [**html5lib**](https://github.com/html5lib/html5lib-python)  _generates valid HTML5 markup from invalid markup automatically_. This is extremely important for parsing HTML tables, since it guarantees a valid document. However, that does NOT mean that it is “correct”, since the process of fixing markup does not have a single definition.
  
-    > -   [**html5lib**](https://github.com/html5lib/html5lib-python)  is pure Python and requires no additional build steps beyond its own installation.
-    >     
-    
+	-   [**html5lib**](https://github.com/html5lib/html5lib-python)  is pure Python and requires no additional build steps beyond its own installation.
+  
 -   Drawbacks
     
-    > -   The biggest drawback to using  [**html5lib**](https://github.com/html5lib/html5lib-python)  is that it is slow as molasses. However consider the fact that many tables on the web are not big enough for the parsing algorithm runtime to matter. It is more likely that the bottleneck will be in the process of reading the raw text from the URL over the web, i.e., IO (input-output). For very large tables, this might not be true.
-    >
+	  -   The biggest drawback to using  [**html5lib**](https://github.com/html5lib/html5lib-python)  is that it is slow as molasses. However consider the fact that many tables on the web are not big enough for the parsing algorithm runtime to matter. It is more likely that the bottleneck will be in the process of reading the raw text from the URL over the web, i.e., IO (input-output). For very large tables, this might not be true.
+   
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTM3MTY3NF19
+eyJoaXN0b3J5IjpbLTE3ODk1NTQzMl19
 -->
