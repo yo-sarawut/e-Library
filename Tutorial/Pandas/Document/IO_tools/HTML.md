@@ -161,9 +161,9 @@ Or you could pass  `flavor='lxml'`  without a list:
 dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor='lxml')
 ```
 However, if you have bs4 and html5lib installed and pass  `None`  or  `['lxml',  'bs4']`  then the parse will most likely succeed. Note that  _as soon as a parse succeeds, the function will return_.
-
+```py
 dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor=['lxml', 'bs4'])
-
+```
 ### Writing to HTML files[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-to-html-files "Permalink to this headline")
 
 `DataFrame`  objects have an instance method  `to_html`  which renders the contents of the  `DataFrame`  as an HTML table. The function arguments are as in the method  `to_string`  described above.
@@ -171,7 +171,7 @@ dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor=['lxml', 'bs4'])
 Note
 
 Not all of the possible options for  `DataFrame.to_html`  are shown here for brevity’s sake. See  `to_html()`  for the full set of options.
-
+```py
 In [304]: df = pd.DataFrame(np.random.randn(2, 2))
 
 In [305]: df
@@ -179,7 +179,8 @@ Out[305]:
  0         1
 0 -0.184744  0.496971
 1 -0.856240  1.857977
-
+```
+```py
 In [306]: print(df.to_html())  # raw html
 <table border="1" class="dataframe">
  <thead>
@@ -572,5 +573,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Nzg4NDM2Ml19
+eyJoaXN0b3J5IjpbMzk4NTM4NjddfQ==
 -->
