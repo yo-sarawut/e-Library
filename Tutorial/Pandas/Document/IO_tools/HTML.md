@@ -141,7 +141,7 @@ dfs = pd.read_html(url_mcc, match='Telekom Albania', header=0,
                    converters={'MNC': str})
 ```
 Use some combination of the above:
-
+```py
 dfs = pd.read_html(url, match='Metcalf Bank', index_col=0)
 ```
 Read in pandas  `to_html`  output (with some loss of floating point precision):
@@ -166,15 +166,16 @@ dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor=['lxml', 'bs4'])
 
 `DataFrame`  objects have an instance method  `to_html`  which renders the contents of the  `DataFrame`  as an HTML table. The function arguments are as in the method  `to_string`  described above.
 
-Note
-
+> **Note**
 Not all of the possible options for  `DataFrame.to_html`  are shown here for brevity’s sake. See  `to_html()`  for the full set of options.
 ```py
 In [304]: df = pd.DataFrame(np.random.randn(2, 2))
 
 In [305]: df
+```
+```py
 Out[305]: 
- 0         1
+0         1
 0 -0.184744  0.496971
 1 -0.856240  1.857977
 ```
@@ -601,5 +602,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDkwNjIwNF19
+eyJoaXN0b3J5IjpbLTk0NjY5NTkwNl19
 -->
