@@ -439,32 +439,11 @@ In [314]: print(df.to_html())
  </tbody>
 </table>
 ```
-<table border="1" class="dataframe">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>a</th>
- <th>b</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>&amp;</td>
- <td>-0.474063</td>
- </tr>
- <tr>
- <th>1</th>
- <td>&lt;</td>
- <td>-0.230305</td>
- </tr>
- <tr>
- <th>2</th>
- <td>&gt;</td>
- <td>-0.400654</td>
- </tr>
- </tbody>
-</table>
+| a |b |
+|-----|-----|
+| & |-0.474063 |
+| < |-0.230305 |
+| > |-0.400654 |
 
 ```py
 In [315]: print(df.to_html(escape=False))
@@ -549,5 +528,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjIyOTYxNSw2Njg5MDY0OTddfQ==
+eyJoaXN0b3J5IjpbLTEzMTEyMzY0NTUsNjY4OTA2NDk3XX0=
 -->
