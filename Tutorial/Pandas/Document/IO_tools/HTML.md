@@ -205,27 +205,10 @@ In [306]: print(df.to_html())  # raw html
 ```
 
 
-<table border="1" class="dataframe">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>0</th>
- <th>1</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>-0.184744</td>
- <td>0.496971</td>
- </tr>
- <tr>
- <th>1</th>
- <td>-0.856240</td>
- <td>1.857977</td>
- </tr>
- </tbody>
-</table>
+| Operator |Description |Example |
+|----------|----------|----------|
+| is |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นชี้ไปที่ object เดียวกัน |x is y จะ return true เมื่อ x ชี้ไปที่ object เดียวกับ y หรือจะ return false เมื่อ x ไม่ได้ชี้ไปที่ object เดียวกับ y ชี้ |
+| not is |จะให้ค่า true หรือ false เมื่อเช็คว่าค่าของสิ่งนั้นไม่ได้ชี้ไปที่ object เดียวกัน |x is y จะ r
 
 
 
@@ -601,5 +584,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4OTA2NDk3XX0=
+eyJoaXN0b3J5IjpbMjExMzQyMzA2MSw2Njg5MDY0OTddfQ==
 -->
