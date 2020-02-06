@@ -45,8 +45,7 @@ Out[298]:
   
  [559 rows x 6 columns]]
 ```
-Note
-
+>**Note**
 The data from the above URL changes every Monday so the resulting data above and the data below may be slightly different.
 
 Read in the content of the file from the above URL and pass it to  `read_html`  as a string:
@@ -97,8 +96,7 @@ Out[303]:
   
  [505 rows x 7 columns]]
 ```
-Note
-
+>**Note**
 The following examples are not run by the IPython evaluator due to the fact that having so many network-accessing functions slows down the documentation build. If you spot an error or an example that doesn’t run, please do not hesitate to report it over on  [pandas GitHub issues page](https://www.github.com/pandas-dev/pandas/issues).
 
 Read a URL and match a table that contains specific text:
@@ -109,21 +107,13 @@ df_list = pd.read_html(url, match=match)
 Specify a header row (by default  `<th>`  or  `<td>`  elements located within a  `<thead>`  are used to form the column index, if multiple rows are contained within  `<thead>`  then a MultiIndex is created); if specified, the header row is taken from the data minus the parsed header elements (`<th>`  elements).
 ```py
 dfs = pd.read_html(url, header=0)
-
 Specify an index column:
-
 dfs = pd.read_html(url, index_col=0)
-
 Specify a number of rows to skip:
-
 dfs = pd.read_html(url, skiprows=0)
-
 Specify a number of rows to skip using a list (`xrange`  (Python 2 only) works as well):
-
 dfs = pd.read_html(url, skiprows=range(2))
-
 Specify an HTML attribute:
-
 dfs1 = pd.read_html(url, attrs={'id': 'table'})
 dfs2 = pd.read_html(url, attrs={'class': 'sortable'})
 print(np.array_equal(dfs1[0], dfs2[0]))  # Should be True
@@ -182,6 +172,7 @@ Out[305]:
 ```
 ```py
 In [306]: print(df.to_html())  # raw html
+
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -602,5 +593,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTEyMTQyNzJdfQ==
+eyJoaXN0b3J5IjpbMTEyODc5NDA3Ml19
 -->
