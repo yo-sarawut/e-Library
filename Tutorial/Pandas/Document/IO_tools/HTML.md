@@ -180,8 +180,32 @@ Out[305]:
 0 -0.184744  0.496971
 1 -0.856240  1.857977
 ```
-
+```py
 In [306]: print(df.to_html())  # raw html
+<table border="1" class="dataframe">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>0</th>
+ <th>1</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>-0.184744</td>
+ <td>0.496971</td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>-0.856240</td>
+ <td>1.857977</td>
+ </tr>
+ </tbody>
+</table>
+```
+
+
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -233,6 +257,28 @@ In [307]: print(df.to_html(columns=[0]))
 `float_format`  takes a Python callable to control the precision of floating point values:
 ```py
 In [308]: print(df.to_html(float_format='{0:.10f}'.format))
+
+<table border="1" class="dataframe">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>0</th>
+ <th>1</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>-0.1847438576</td>
+ <td>0.4969711327</td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>-0.8562396763</td>
+ <td>1.8579766508</td>
+ </tr>
+ </tbody>
+</table>
 ```
 <table border="1" class="dataframe">
  <thead>
@@ -288,6 +334,28 @@ In [309]: print(df.to_html(bold_rows=False))
 The  `classes`  argument provides the ability to give the resulting HTML table CSS classes. Note that these classes are  _appended_  to the existing  `'dataframe'`  class.
 ```py
 In [310]: print(df.to_html(classes=['awesome_table_class', 'even_more_awesome_class']))
+
+<table border="1" class="dataframe awesome_table_class even_more_awesome_class">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>0</th>
+ <th>1</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>-0.184744</td>
+ <td>0.496971</td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>-0.856240</td>
+ <td>1.857977</td>
+ </tr>
+ </tbody>
+</table>
 ```
 <table border="1" class="dataframe awesome_table_class even_more_awesome_class">
  <thead>
@@ -321,6 +389,28 @@ In [311]: url_df = pd.DataFrame({
  .....: 
 
 In [312]: print(url_df.to_html(render_links=True))
+
+<table border="1" class="dataframe">
+ <thead>
+ <tr style="text-align: right;">
+ <th></th>
+ <th>name</th>
+ <th>url</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th>0</th>
+ <td>Python</td>
+ <td><a href="https://www.python.org/" target="_blank">https://www.python.org/</a></td>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>Pandas</td>
+ <td><a href="https://pandas.pydata.org" target="_blank">https://pandas.pydata.org</a></td>
+ </tr>
+ </tbody>
+</table>
 ```
 <table border="1" class="dataframe">
  <thead>
@@ -512,5 +602,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjczMzY5MF19
+eyJoaXN0b3J5IjpbLTE2NTEyMTQyNzJdfQ==
 -->
