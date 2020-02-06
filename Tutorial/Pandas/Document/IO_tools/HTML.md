@@ -180,7 +180,7 @@ Out[305]:
 0 -0.184744  0.496971
 1 -0.856240  1.857977
 ```
-```py
+
 In [306]: print(df.to_html())  # raw html
 <table border="1" class="dataframe">
  <thead>
@@ -573,5 +573,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NTM4NjddfQ==
+eyJoaXN0b3J5IjpbMTg4NTA4MzQwMl19
 -->
