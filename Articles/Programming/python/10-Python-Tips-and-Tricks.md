@@ -1,5 +1,7 @@
 10 Tips & Tricks ที่ช่วยให้คุณใช้งาน Python ได้รวดเร็วขึ้น
 ====
+![enter image description here](https://revelwood.com/wp-content/uploads/2019/09/header-blog-tips-53019141.jpg)
+
 ภาษา Python ถือเป็นภาษา Programming ที่มีการใช้งานเติบโตขึ้นอย่างรวดเร็ว แม้แต่ Netflix, IBM รวมทั้งอีกหลายแห่งก็ใช้ Python ในบทความนี้จึงมาบอกถึง 10 Tips & Tricks ที่ช่วยให้คุณใช้งาน Python ได้รวดเร็วขึ้น มาให้ได้เรียนรู้กัน
 
 **1. Concatenating Strings**
@@ -98,5 +100,5 @@ Python มีความสามารถในการ Return ค่าไ�
 
 > [Source : ](https://www.techstarthailand.com/blog/detail/10-Python-Tips-and-Tricks-You-Should-Learn-Today/1205?fbclid=IwAR0PwneIt4WJb1FDvLBPMXq-Qs_Ek1OHJfjAyUMA3iaXfRD9DLhJNf4PKHI).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDI0OTkxNV19
+eyJoaXN0b3J5IjpbLTg2MTA0OTQ0M119
 -->
