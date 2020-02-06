@@ -12,7 +12,7 @@ bookToc: true
 
 ### Reading HTML content[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-html-content "Permalink to this headline")
 
-Warning
+*Warning*
 
 We  **highly encourage**  you to read the  [HTML Table Parsing gotchas](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-html-gotchas)  below regarding the issues surrounding the BeautifulSoup4/html5lib/lxml parsers.
 
@@ -23,7 +23,7 @@ Note
 `read_html`  returns a  `list`  of  `DataFrame`  objects, even if there is only a single table contained in the HTML content.
 
 Read a URL with no options:
-
+```py
 In [296]: url = 'https://www.fdic.gov/bank/individual/failed/banklist.html'
 
 In [297]: dfs = pd.read_html(url)
@@ -44,13 +44,13 @@ Out[298]:
  558                     Bank of Honolulu    Honolulu  HI  21029                   Bank of the Orient   October 13, 2000
   
  [559 rows x 6 columns]]
-
+```
 Note
 
 The data from the above URL changes every Monday so the resulting data above and the data below may be slightly different.
 
 Read in the content of the file from the above URL and pass it to  `read_html`  as a string:
-
+```py
 In [299]: with open(file_path, 'r') as f:
  .....:    dfs = pd.read_html(f.read())
  .....: 
@@ -572,5 +572,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NDUwNDc1XX0=
+eyJoaXN0b3J5IjpbLTUyMTA4OTg1NV19
 -->
