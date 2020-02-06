@@ -399,28 +399,10 @@ In [312]: print(url_df.to_html(render_links=True))
  </tbody>
 </table>
 ```
-<table border="1" class="dataframe">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>name</th>
- <th>url</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>Python</td>
- <td><a href="https://www.python.org/" target="_blank">https://www.python.org/</a></td>
- </tr>
- <tr>
- <th>1</th>
- <td>Pandas</td>
- <td><a href="https://pandas.pydata.org" target="_blank">https://pandas.pydata.org</a></td>
- </tr>
- </tbody>
-</table>
-
+| name |url |
+|-----|-----|
+| Python |https://www.python.org/ |
+| Pandas |https://pandas.pydata.org |
 
 Finally, the  `escape`  argument allows you to control whether the “<”, “>” and “&” characters escaped in the resulting HTML (by default it is  `True`). So to get the HTML without escaped characters pass  `escape=False`
 ```py
@@ -513,33 +495,11 @@ In [315]: print(df.to_html(escape=False))
  </tbody>
 </table>
 ```
-<table border="1" class="dataframe">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>a</th>
- <th>b</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>&</td>
- <td>-0.474063</td>
- </tr>
- <tr>
- <th>1</th>
- <td><</td>
- <td>-0.230305</td>
- </tr>
- <tr>
- <th>2</th>
- <td>></td>
- <td>-0.400654</td>
- </tr>
- </tbody>
-</table>
-
+| a |b |
+|-----|-----|
+| & |-0.474063 |
+| < |-0.230305 |
+| > |-0.400654 |
 
 >Note
 Some browsers may not show a difference in the rendering of the previous two HTML tables.
@@ -589,5 +549,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMjUwOTI3LDY2ODkwNjQ5N119
+eyJoaXN0b3J5IjpbMTk0NjczMjY1NSw2Njg5MDY0OTddfQ==
 -->
