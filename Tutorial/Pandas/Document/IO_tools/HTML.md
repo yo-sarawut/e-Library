@@ -71,9 +71,9 @@ Out[300]:
  504                          Bank of Honolulu      Honolulu  HI  21029                   Bank of the Orient   October 13, 2000     March 17, 2005
   
  [505 rows x 7 columns]]
-
+```
 You can even pass in an instance of  `StringIO`  if you so desire:
-
+```py
 In [301]: with open(file_path, 'r') as f:
  .....:    sio = StringIO(f.read())
  .....: 
@@ -96,18 +96,18 @@ Out[303]:
  504                          Bank of Honolulu      Honolulu  HI  21029                   Bank of the Orient   October 13, 2000     March 17, 2005
   
  [505 rows x 7 columns]]
-
+```
 Note
 
 The following examples are not run by the IPython evaluator due to the fact that having so many network-accessing functions slows down the documentation build. If you spot an error or an example that doesn’t run, please do not hesitate to report it over on  [pandas GitHub issues page](https://www.github.com/pandas-dev/pandas/issues).
 
 Read a URL and match a table that contains specific text:
-
+```py
 match = 'Metcalf Bank'
 df_list = pd.read_html(url, match=match)
-
+```
 Specify a header row (by default  `<th>`  or  `<td>`  elements located within a  `<thead>`  are used to form the column index, if multiple rows are contained within  `<thead>`  then a MultiIndex is created); if specified, the header row is taken from the data minus the parsed header elements (`<th>`  elements).
-
+```py
 dfs = pd.read_html(url, header=0)
 
 Specify an index column:
@@ -127,9 +127,9 @@ Specify an HTML attribute:
 dfs1 = pd.read_html(url, attrs={'id': 'table'})
 dfs2 = pd.read_html(url, attrs={'class': 'sortable'})
 print(np.array_equal(dfs1[0], dfs2[0]))  # Should be True
-
+```
 Specify values that should be converted to NaN:
-
+```py
 dfs = pd.read_html(url, na_values=['No Acquirer'])
 
 Specify whether to keep the default set of NaN values:
@@ -572,5 +572,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTA4OTg1NV19
+eyJoaXN0b3J5IjpbLTIwMTI0NzAzNDldfQ==
 -->
