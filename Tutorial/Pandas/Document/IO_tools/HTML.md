@@ -107,13 +107,21 @@ df_list = pd.read_html(url, match=match)
 Specify a header row (by default  `<th>`  or  `<td>`  elements located within a  `<thead>`  are used to form the column index, if multiple rows are contained within  `<thead>`  then a MultiIndex is created); if specified, the header row is taken from the data minus the parsed header elements (`<th>`  elements).
 ```py
 dfs = pd.read_html(url, header=0)
+```
 Specify an index column:
+```py
 dfs = pd.read_html(url, index_col=0)
+```
 Specify a number of rows to skip:
+```py
 dfs = pd.read_html(url, skiprows=0)
+```
 Specify a number of rows to skip using a list (`xrange`  (Python 2 only) works as well):
+```py
 dfs = pd.read_html(url, skiprows=range(2))
+```
 Specify an HTML attribute:
+```py
 dfs1 = pd.read_html(url, attrs={'id': 'table'})
 dfs2 = pd.read_html(url, attrs={'class': 'sortable'})
 print(np.array_equal(dfs1[0], dfs2[0]))  # Should be True
@@ -121,17 +129,17 @@ print(np.array_equal(dfs1[0], dfs2[0]))  # Should be True
 Specify values that should be converted to NaN:
 ```py
 dfs = pd.read_html(url, na_values=['No Acquirer'])
-
+```
 Specify whether to keep the default set of NaN values:
-
+```py
 dfs = pd.read_html(url, keep_default_na=False)
-
+```
 Specify converters for columns. This is useful for numerical text data that has leading zeros. By default columns that are numerical are cast to numeric types and the leading zeros are lost. To avoid this, we can convert these columns to strings.
-
+```py
 url_mcc = 'https://en.wikipedia.org/wiki/Mobile_country_code'
 dfs = pd.read_html(url_mcc, match='Telekom Albania', header=0,
                    converters={'MNC': str})
-
+```
 Use some combination of the above:
 
 dfs = pd.read_html(url, match='Metcalf Bank', index_col=0)
@@ -593,5 +601,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODc5NDA3Ml19
+eyJoaXN0b3J5IjpbMjEyNDkwNjIwNF19
 -->
