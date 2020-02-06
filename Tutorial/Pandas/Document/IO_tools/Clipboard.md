@@ -39,21 +39,23 @@ df
 x 1 4 p
 y 2 5 q
 z 3 6 r
-
->>> df.to_clipboard()
->>> pd.read_clipboard()
+```
+```py
+df.to_clipboard()
+pd.read_clipboard()
+```
+```py
  A B C
 x 1 4 p
 y 2 5 q
 z 3 6 r
-
+```
 We can see that we got the same content back, which we had earlier written to the clipboard.
 
-Note
-
+>**Note**
 You may need to install xclip or xsel (with PyQt5, PyQt4 or qtpy) on Linux to use these methods.
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#clipboard).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4ODMzMjg4XX0=
+eyJoaXN0b3J5IjpbNTAyMjM3MjU2XX0=
 -->
