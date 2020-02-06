@@ -52,7 +52,6 @@ Read in the content of the file from the above URL and pass it to  `read_html`  
 In [299]: with open(file_path, 'r') as f:
  .....:    dfs = pd.read_html(f.read())
  .....: 
-
 In [300]: dfs
 ```
 ```py
@@ -75,11 +74,8 @@ Out[300]:
 You can even pass in an instance of  `StringIO`  if you so desire:
 ```py
 In [301]: with open(file_path, 'r') as f:
- .....:    sio = StringIO(f.read())
- .....: 
-
+ .....:    sio = StringIO(f.read()) 
 In [302]: dfs = pd.read_html(sio)
-
 In [303]: dfs
 ```
 ```py
@@ -484,6 +480,6 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODk4Nzg0NiwxODk1MzAzOTQxLDY2OD
+eyJoaXN0b3J5IjpbMTg3NjU1MTAyMiwxODk1MzAzOTQxLDY2OD
 kwNjQ5N119
 -->
