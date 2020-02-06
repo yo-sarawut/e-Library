@@ -19,29 +19,29 @@ pd.read_excel('path_to_file.xls', sheet_name='Sheet1')
 #### `ExcelFile`  class[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excelfile-class "Permalink to this headline")
 
 To facilitate working with multiple sheets from the same file, the  `ExcelFile`  class can be used to wrap the file and can be passed into  `read_excel`  There will be a performance benefit for reading multiple sheets as the file is read into memory only once.
-
+```py
 xlsx = pd.ExcelFile('path_to_file.xls')
 df = pd.read_excel(xlsx, 'Sheet1')
-
+```
 The  `ExcelFile`  class can also be used as a context manager.
-
+```py
 with pd.ExcelFile('path_to_file.xls') as xls:
     df1 = pd.read_excel(xls, 'Sheet1')
     df2 = pd.read_excel(xls, 'Sheet2')
-
+```
 The  `sheet_names`  property will generate a list of the sheet names in the file.
 
 The primary use-case for an  `ExcelFile`  is parsing multiple sheets with different parameters:
-
+```py
 data = {}
 # For when Sheet1's format differs from Sheet2
 with pd.ExcelFile('path_to_file.xls') as xls:
     data['Sheet1'] = pd.read_excel(xls, 'Sheet1', index_col=None,
                                    na_values=['NA'])
     data['Sheet2'] = pd.read_excel(xls, 'Sheet2', index_col=1)
-
+```
 Note that if the same parsing parameters are used for all sheets, a list of sheet names can simply be passed to  `read_excel`  with no loss in performance.
-
+```py
 # using the ExcelFile class
 data = {}
 with pd.ExcelFile('path_to_file.xls') as xls:
@@ -53,23 +53,21 @@ with pd.ExcelFile('path_to_file.xls') as xls:
 # equivalent using the read_excel function
 data = pd.read_excel('path_to_file.xls', ['Sheet1', 'Sheet2'],
                      index_col=None, na_values=['NA'])
-
+```
 `ExcelFile`  can also be called with a  `xlrd.book.Book`  object as a parameter. This allows the user to control how the excel file is read. For example, sheets can be loaded on demand by calling  `xlrd.open_workbook()`  with  `on_demand=True`.
-
+```py
 import xlrd
 xlrd_book = xlrd.open_workbook('path_to_file.xls', on_demand=True)
 with pd.ExcelFile(xlrd_book) as xls:
     df1 = pd.read_excel(xls, 'Sheet1')
     df2 = pd.read_excel(xls, 'Sheet2')
-
+```
 #### Specifying sheets[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#specifying-sheets "Permalink to this headline")
 
-Note
-
+> **Note**
 The second argument is  `sheet_name`, not to be confused with  `ExcelFile.sheet_names`.
 
-Note
-
+**Note**
 An ExcelFile’s attribute  `sheet_names`  provides access to a list of sheets.
 
 -   The arguments  `sheet_name`  allows specifying the sheet or sheets to read.
@@ -328,5 +326,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxMTc0NzNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjg1OTk1ODZdfQ==
 -->
