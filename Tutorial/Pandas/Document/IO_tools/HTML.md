@@ -24,10 +24,10 @@ Note
 Read a URL with no options:
 ```py
 In [296]: url = 'https://www.fdic.gov/bank/individual/failed/banklist.html'
-
 In [297]: dfs = pd.read_html(url)
-
 In [298]: dfs
+```
+```py
 Out[298]: 
 [                               Bank Name        City  ST   CERT                Acquiring Institution       Closing Date
  0       City National Bank of New Jersey      Newark  NJ  21111                      Industrial Bank   November 1, 2019
@@ -54,6 +54,8 @@ In [299]: with open(file_path, 'r') as f:
  .....: 
 
 In [300]: dfs
+```
+```py
 Out[300]: 
 [                                    Bank Name          City  ST   CERT                Acquiring Institution       Closing Date       Updated Date
  0    Banks of Wisconsin d/b/a Bank of Kenosha       Kenosha  WI  35386                North Shore Bank, FSB       May 31, 2013       May 31, 2013
@@ -79,6 +81,8 @@ In [301]: with open(file_path, 'r') as f:
 In [302]: dfs = pd.read_html(sio)
 
 In [303]: dfs
+```
+```py
 Out[303]: 
 [                                    Bank Name          City  ST   CERT                Acquiring Institution       Closing Date       Updated Date
  0    Banks of Wisconsin d/b/a Bank of Kenosha       Kenosha  WI  35386                North Shore Bank, FSB       May 31, 2013       May 31, 2013
@@ -219,7 +223,7 @@ In [307]: print(df.to_html(columns=[0]))
 |#| 0 |
 |--|-----|
 |0| -0.18474400000000002 |
-|#| -0.85624 |
+|1| -0.85624 |
 
 
 `float_format`  takes a Python callable to control the precision of floating point values:
@@ -480,6 +484,6 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDgxMzg4NSwxODk1MzAzOTQxLDY2OD
+eyJoaXN0b3J5IjpbLTg4ODk4Nzg0NiwxODk1MzAzOTQxLDY2OD
 kwNjQ5N119
 -->
