@@ -344,27 +344,10 @@ In [310]: print(df.to_html(classes=['awesome_table_class', 'even_more_awesome_cl
  </tbody>
 </table>
 ```
-<table border="1" class="dataframe awesome_table_class even_more_awesome_class">
- <thead>
- <tr style="text-align: right;">
- <th></th>
- <th>0</th>
- <th>1</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <th>0</th>
- <td>-0.184744</td>
- <td>0.496971</td>
- </tr>
- <tr>
- <th>1</th>
- <td>-0.856240</td>
- <td>1.857977</td>
- </tr>
- </tbody>
-</table>
+| 0 |1 |
+|-----|-----|
+| -0.18474400000000002 |0.496971 |
+| -0.85624 |1.857977 |
 
 The  `render_links`  argument provides the ability to add hyperlinks to cells that contain URLs.
 
@@ -439,11 +422,11 @@ In [314]: print(df.to_html())
  </tbody>
 </table>
 ```
-| a |b |
-|-----|-----|
-| & |-0.474063 |
-| < |-0.230305 |
-| > |-0.400654 |
+|#| a |b |
+|--|-----|-----|
+|0| & |-0.474063 |
+|1| < |-0.230305 |
+|2| > |-0.400654 |
 
 ```py
 In [315]: print(df.to_html(escape=False))
@@ -528,5 +511,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTEyMzY0NTUsNjY4OTA2NDk3XX0=
+eyJoaXN0b3J5IjpbMTg5NTMwMzk0MSw2Njg5MDY0OTddfQ==
 -->
