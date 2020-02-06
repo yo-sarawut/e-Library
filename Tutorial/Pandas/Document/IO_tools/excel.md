@@ -70,16 +70,11 @@ The second argument is  `sheet_name`, not to be confused with  `ExcelFile.sheet_
 **Note**
 An ExcelFile’s attribute  `sheet_names`  provides access to a list of sheets.
 
--   The arguments  `sheet_name`  allows specifying the sheet or sheets to read.
-    
--   The default value for  `sheet_name`  is 0, indicating to read the first sheet
-    
--   Pass a string to refer to the name of a particular sheet in the workbook.
-    
--   Pass an integer to refer to the index of a sheet. Indices follow Python convention, beginning at 0.
-    
--   Pass a list of either strings or integers, to return a dictionary of specified sheets.
-    
+-   The arguments  `sheet_name`  allows specifying the sheet or sheets to read.    
+-   The default value for  `sheet_name`  is 0, indicating to read the first sheet    
+-   Pass a string to refer to the name of a particular sheet in the workbook.    
+-   Pass an integer to refer to the index of a sheet. Indices follow Python convention, beginning at 0.    
+-   Pass a list of either strings or integers, to return a dictionary of specified sheets.    
 -   Pass a  `None`  to return a dictionary of all available sheets.
     
 
@@ -92,20 +87,20 @@ Using the sheet index:
 pd.read_excel('path_to_file.xls', 0, index_col=None, na_values=['NA'])
 
 Using all default values:
-
+```py
 # Returns a DataFrame
 pd.read_excel('path_to_file.xls')
-
+```
 Using None to get all sheets:
 
 # Returns a dictionary of DataFrames
 pd.read_excel('path_to_file.xls', sheet_name=None)
 
 Using a list to get multiple sheets:
-
+```py
 # Returns the 1st and 4th sheet, as a dictionary of DataFrames.
 pd.read_excel('path_to_file.xls', sheet_name=['Sheet1', 3])
-
+```
 `read_excel`  can read more than one sheet, by setting  `sheet_name`  to either a list of sheet names, a list of sheet positions, or  `None`  to read all sheets. Sheets can be specified by sheet index or sheet name, using an integer or string, respectively.
 
 #### Reading a  `MultiIndex`[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#reading-a-multiindex "Permalink to this headline")
@@ -113,7 +108,7 @@ pd.read_excel('path_to_file.xls', sheet_name=['Sheet1', 3])
 `read_excel`  can read a  `MultiIndex`  index, by passing a list of columns to  `index_col`  and a  `MultiIndex`  column by passing a list of rows to  `header`. If either the  `index`  or  `columns`  have serialized level names those will be read in as well by specifying the rows/columns that make up the levels.
 
 For example, to read in a  `MultiIndex`  index without names:
-
+```py
 In [316]: df = pd.DataFrame({'a': [1, 2, 3, 4], 'b': [5, 6, 7, 8]},
  .....:                  index=pd.MultiIndex.from_product([['a', 'b'], ['c', 'd']]))
  .....: 
@@ -123,13 +118,15 @@ In [317]: df.to_excel('path_to_file.xlsx')
 In [318]: df = pd.read_excel('path_to_file.xlsx', index_col=[0, 1])
 
 In [319]: df
+```
+```py
 Out[319]: 
  a  b
 a c  1  5
  d  2  6
 b c  3  7
  d  4  8
-
+```
 If the index has level names, they will parsed as well, using the same parameters.
 
 In [320]: df.index = df.index.set_names(['lvl1', 'lvl2'])
@@ -326,5 +323,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg1OTk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTQ5NTYyMzg4NF19
 -->
