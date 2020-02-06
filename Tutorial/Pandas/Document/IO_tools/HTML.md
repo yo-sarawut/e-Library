@@ -1,9 +1,8 @@
 ---
 bookFlatSection: true
-
 title: HTML
-
 bookToc: true
+weight: 2
 
 ---
 
@@ -602,5 +601,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjY5NTkwNl19
+eyJoaXN0b3J5IjpbLTkyOTQwNzMyOF19
 -->
