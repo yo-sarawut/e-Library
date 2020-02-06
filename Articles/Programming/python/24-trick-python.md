@@ -2,6 +2,8 @@
 24 เคล็ดลับ การใช้งาน Python
 ===
 
+![enter image description here](https://www.esn-groningen.nl/wp-content/uploads/2019/09/BlogFeatureImage-Tips-and-Tricks-for-Using-the-New-ClickDimensions-Drag-and-Drop-2.0-Email-Editor-01.png)
+
 Python เป็นอีกหนึ่งภาษา Programming ที่ได้รับความนิยม ถูกนำไปใช้ในการเขียน Program ได้หลากหลายประเภท โดยไม่ได้จำกัดอยู่ที่งานเฉพาะทางใดทางหนึ่ง ไม่ว่าจะเป็นการพัฒนา Web หรือด้าน Data Science และ Machine Learning เป็นต้น จึงทำให้มีการนำไปใช้กันอย่างแพร่หลาย วันนี้เรามาดู 24 เคล็ดลับ การใช้งาน Python ที่จะช่วยให้คุณประหยัดเวลาและทำงานได้สะดวกขึ้น โดยดูตัวอย่างการใช้งานในแต่ละหัวข้อกันได้เลย
 
 ## **1. Unpacking Array Items**
@@ -139,6 +141,6 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDc4ODMxMiwyNzAwNTk4MjMsLTExOD
+eyJoaXN0b3J5IjpbLTMyMjcwMjY0MSwyNzAwNTk4MjMsLTExOD
 I1NTg4MDZdfQ==
 -->
