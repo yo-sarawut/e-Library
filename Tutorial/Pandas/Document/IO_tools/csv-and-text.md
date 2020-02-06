@@ -1,5 +1,13 @@
-# [CSV & text files](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files "Permalink to this headline")
+---
+bookFlatSection: true
+title: CSV & Text files
+bookToc: true
+weight: 1
 
+---
+
+[CSV & text files](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#csv-text-files "Permalink to this headline")
+===
 The workhorse function for reading text files (a.k.a. flat files) is  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv"). See the  [cookbook](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html#cookbook-csv)  for some advanced strategies.
 
 ### Parsing options[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#parsing-options "Permalink to this headline")
@@ -1795,5 +1803,5 @@ The  `Series`  object also has a  `to_string`  method, but with only the  `buf`,
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTk2ODY5MF19
+eyJoaXN0b3J5IjpbMTk4NDgzMDU1MywxMjQ5OTY4NjkwXX0=
 -->
