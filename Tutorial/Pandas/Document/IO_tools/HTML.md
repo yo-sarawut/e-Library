@@ -599,7 +599,7 @@ There are some versioning issues surrounding the libraries that are used to pars
 	  -   The biggest drawback to using  [**html5lib**](https://github.com/html5lib/html5lib-python)  is that it is slow as molasses. However consider the fact that many tables on the web are not big enough for the parsing algorithm runtime to matter. It is more likely that the bottleneck will be in the process of reading the raw text from the URL over the web, i.e., IO (input-output). For very large tables, this might not be true.
    
 
-> [Source : ](https://).
+> [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTQwNzMyOF19
+eyJoaXN0b3J5IjpbNjY4OTA2NDk3XX0=
 -->
