@@ -258,8 +258,9 @@ In [308]: print(df.to_html(float_format='{0:.10f}'.format))
 
 
 `bold_rows`  will make the row labels bold by default, but you can turn that off:
-
+```py
 In [309]: print(df.to_html(bold_rows=False))
+```
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -282,25 +283,12 @@ In [309]: print(df.to_html(bold_rows=False))
  </tbody>
 </table>
 
-0
 
-1
-
-0
-
--0.184744
-
-0.496971
-
-1
-
--0.856240
-
-1.857977
 
 The  `classes`  argument provides the ability to give the resulting HTML table CSS classes. Note that these classes are  _appended_  to the existing  `'dataframe'`  class.
-
+```py
 In [310]: print(df.to_html(classes=['awesome_table_class', 'even_more_awesome_class']))
+```
 <table border="1" class="dataframe awesome_table_class even_more_awesome_class">
  <thead>
  <tr style="text-align: right;">
@@ -326,13 +314,14 @@ In [310]: print(df.to_html(classes=['awesome_table_class', 'even_more_awesome_cl
 The  `render_links`  argument provides the ability to add hyperlinks to cells that contain URLs.
 
 New in version 0.24.
-
+```py
 In [311]: url_df = pd.DataFrame({
  .....:    'name': ['Python', 'Pandas'],
  .....:    'url': ['https://www.python.org/', 'https://pandas.pydata.org']})
  .....: 
 
 In [312]: print(url_df.to_html(render_links=True))
+```
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -355,31 +344,15 @@ In [312]: print(url_df.to_html(render_links=True))
  </tbody>
 </table>
 
-HTML:
-
-name
-
-url
-
-0
-
-Python
-
-[https://www.python.org/](https://www.python.org/)
-
-1
-
-Pandas
-
-[https://pandas.pydata.org](https://pandas.pydata.org/)
 
 Finally, the  `escape`  argument allows you to control whether the “<”, “>” and “&” characters escaped in the resulting HTML (by default it is  `True`). So to get the HTML without escaped characters pass  `escape=False`
-
+```py
 In [313]: df = pd.DataFrame({'a': list('&<>'), 'b': np.random.randn(3)})
-
+```
 Escaped:
-
+```py
 In [314]: print(df.to_html())
+```
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -531,5 +504,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYwOTYxODVdfQ==
+eyJoaXN0b3J5IjpbLTE1NDgwMTM0MDVdfQ==
 -->
