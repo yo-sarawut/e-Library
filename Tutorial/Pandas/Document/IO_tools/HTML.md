@@ -380,31 +380,9 @@ In [314]: print(df.to_html())
  </tbody>
 </table>
 
-a
-
-b
-
-0
-
-&
-
--0.474063
-
-1
-
-<
-
--0.230305
-
-2
-
->
-
--0.400654
-
-Not escaped:
-
+```py
 In [315]: print(df.to_html(escape=False))
+```
 <table border="1" class="dataframe">
  <thead>
  <tr style="text-align: right;">
@@ -432,30 +410,8 @@ In [315]: print(df.to_html(escape=False))
  </tbody>
 </table>
 
-a
 
-b
-
-0
-
-&
-
--0.474063
-
-1
-
-<
-
--0.230305
-
-2
-
->
-
--0.400654
-
-Note
-
+>Note
 Some browsers may not show a difference in the rendering of the previous two HTML tables.
 
 ### HTML Table Parsing Gotchas[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#html-table-parsing-gotchas "Permalink to this headline")
@@ -473,12 +429,12 @@ There are some versioning issues surrounding the libraries that are used to pars
     
 -   Drawbacks
     
-    > -   [**lxml**](https://lxml.de/)  does  _not_  make any guarantees about the results of its parse  _unless_  it is given  [**strictly valid markup**](https://validator.w3.org/docs/help.html#validation_basics).
-    >     
-    > -   In light of the above, we have chosen to allow you, the user, to use the  [**lxml**](https://lxml.de/)  backend, but  **this backend will use**  [**html5lib**](https://github.com/html5lib/html5lib-python)  if  [**lxml**](https://lxml.de/)  fails to parse
-    >     
-    > -   It is therefore  _highly recommended_  that you install both  [**BeautifulSoup4**](https://www.crummy.com/software/BeautifulSoup)  and  [**html5lib**](https://github.com/html5lib/html5lib-python), so that you will still get a valid result (provided everything else is valid) even if  [**lxml**](https://lxml.de/)  fails.
-    >     
+ -   [**lxml**](https://lxml.de/)  does  _not_  make any guarantees about the results of its parse  _unless_  it is given  [**strictly valid markup**](https://validator.w3.org/docs/help.html#validation_basics).
+   
+ -   In light of the above, we have chosen to allow you, the user, to use the  [**lxml**](https://lxml.de/)  backend, but  **this backend will use**  [**html5lib**](https://github.com/html5lib/html5lib-python)  if  [**lxml**](https://lxml.de/)  fails to parse
+  
+ -   It is therefore  _highly recommended_  that you install both  [**BeautifulSoup4**](https://www.crummy.com/software/BeautifulSoup)  and  [**html5lib**](https://github.com/html5lib/html5lib-python), so that you will still get a valid result (provided everything else is valid) even if  [**lxml**](https://lxml.de/)  fails.
+   
     
 
 **Issues with**  [**BeautifulSoup4**](https://www.crummy.com/software/BeautifulSoup)  **using**  [**lxml**](https://lxml.de/)  **as a backend**
@@ -490,10 +446,10 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 -   Benefits
     
-    > -   [**html5lib**](https://github.com/html5lib/html5lib-python)  is far more lenient than  [**lxml**](https://lxml.de/)  and consequently deals with  _real-life markup_  in a much saner way rather than just, e.g., dropping an element without notifying you.
-    >     
-    > -   [**html5lib**](https://github.com/html5lib/html5lib-python)  _generates valid HTML5 markup from invalid markup automatically_. This is extremely important for parsing HTML tables, since it guarantees a valid document. However, that does NOT mean that it is “correct”, since the process of fixing markup does not have a single definition.
-    >     
+-   [**html5lib**](https://github.com/html5lib/html5lib-python)  is far more lenient than  [**lxml**](https://lxml.de/)  and consequently deals with  _real-life markup_  in a much saner way rather than just, e.g., dropping an element without notifying you.
+ 
+-   [**html5lib**](https://github.com/html5lib/html5lib-python)  _generates valid HTML5 markup from invalid markup automatically_. This is extremely important for parsing HTML tables, since it guarantees a valid document. However, that does NOT mean that it is “correct”, since the process of fixing markup does not have a single definition.
+ 
     > -   [**html5lib**](https://github.com/html5lib/html5lib-python)  is pure Python and requires no additional build steps beyond its own installation.
     >     
     
@@ -504,5 +460,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgwMTM0MDVdfQ==
+eyJoaXN0b3J5IjpbMTk5OTM3MTY3NF19
 -->
