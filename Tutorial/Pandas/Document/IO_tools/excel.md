@@ -246,18 +246,18 @@ The  `DataFrame`  will be written in a way that tries to mimic the REPL output. 
 df.to_excel('path_to_file.xlsx', index_label='label', merge_cells=False)
 ```
 In order to write separate  `DataFrames`  to separate sheets in a single Excel file, one can pass an  `ExcelWriter`.
-
+```py
 with pd.ExcelWriter('path_to_file.xlsx') as writer:
     df1.to_excel(writer, sheet_name='Sheet1')
     df2.to_excel(writer, sheet_name='Sheet2')
-
+```
 >**Note**
 Wringing a little more performance out of  `read_excel`  Internally, Excel stores all numeric data as floats. Because this can produce unexpected behavior when reading in data, pandas defaults to trying to convert integers to floats if it doesn’t lose information (`1.0  -->  1`). You can pass  `convert_float=False`  to disable this behavior, which may give a slight performance improvement.
 
 #### Writing Excel files to memory[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-excel-files-to-memory "Permalink to this headline")
 
 Pandas supports writing Excel files to buffer-like objects such as  `StringIO`  or  `BytesIO`  using  `ExcelWriter`.
-
+```py
 # Safe import for either Python 2.x or 3.x
 try:
     from io import BytesIO
@@ -328,5 +328,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI0OTQ4NzRdfQ==
+eyJoaXN0b3J5IjpbMzI5NTA2Mzk4XX0=
 -->
