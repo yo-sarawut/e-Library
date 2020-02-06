@@ -303,7 +303,7 @@ To specify which writer you want to use, you can pass an engine keyword argument
 
 # By setting the 'engine' in the DataFrame 'to_excel()' methods.
 df.to_excel('path_to_file.xlsx', sheet_name='Sheet1', engine='xlsxwriter')
-
+```py
 # By setting the 'engine' in the ExcelWriter constructor.
 writer = pd.ExcelWriter('path_to_file.xlsx', engine='xlsxwriter')
 
@@ -312,7 +312,7 @@ from pandas import options  # noqa: E402
 options.io.excel.xlsx.writer = 'xlsxwriter'
 
 df.to_excel('path_to_file.xlsx', sheet_name='Sheet1')
-
+```
 ### Style and formatting[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#style-and-formatting "Permalink to this headline")
 
 The look and feel of Excel worksheets created from pandas can be modified using the following parameters on the  `DataFrame`’s  `to_excel`  method.
@@ -328,5 +328,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTkwODA4MV19
+eyJoaXN0b3J5IjpbLTE0MTgzODEwODZdfQ==
 -->
