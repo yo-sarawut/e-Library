@@ -145,21 +145,21 @@ dfs = pd.read_html(url_mcc, match='Telekom Albania', header=0,
 Use some combination of the above:
 
 dfs = pd.read_html(url, match='Metcalf Bank', index_col=0)
-
+```
 Read in pandas  `to_html`  output (with some loss of floating point precision):
-
+```py
 df = pd.DataFrame(np.random.randn(2, 2))
 s = df.to_html(float_format='{0:.40g}'.format)
 dfin = pd.read_html(s, index_col=0)
-
+```
 The  `lxml`  backend will raise an error on a failed parse if that is the only parser you provide. If you only have a single parser you can provide just a string, but it is considered good practice to pass a list with one string if, for example, the function expects a sequence of strings. You may use:
-
+```py
 dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor=['lxml'])
-
+```
 Or you could pass  `flavor='lxml'`  without a list:
-
+```py
 dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor='lxml')
-
+```
 However, if you have bs4 and html5lib installed and pass  `None`  or  `['lxml',  'bs4']`  then the parse will most likely succeed. Note that  _as soon as a parse succeeds, the function will return_.
 
 dfs = pd.read_html(url, 'Metcalf Bank', index_col=0, flavor=['lxml', 'bs4'])
@@ -572,5 +572,5 @@ There are some versioning issues surrounding the libraries that are used to pars
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI0NzAzNDldfQ==
+eyJoaXN0b3J5IjpbLTI2Nzg4NDM2Ml19
 -->
