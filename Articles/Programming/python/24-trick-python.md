@@ -111,7 +111,7 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 และเมื่อเราใช้มันใน Function จะเป็นลักษณะดังนี้:
 
-[![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_2.png)](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_2.png)
+![](http://images.techstarthailand.com/images/blog/Article2019/TopPythonTips/18_2.png)
 
 **19. Unzipping**
 
@@ -139,5 +139,6 @@ _(ตัวอย่างนี้ แสดงถึงวิธีการ_ 
 
 **ที่มา:** [**_https://medium.com/_**](https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMDU5ODIzLC0xMTgyNTU4ODA2XX0=
+eyJoaXN0b3J5IjpbLTQwNTY0OTYyNywyNzAwNTk4MjMsLTExOD
+I1NTg4MDZdfQ==
 -->
