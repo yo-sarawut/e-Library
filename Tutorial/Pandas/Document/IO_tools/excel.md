@@ -121,14 +121,15 @@ In [319]: df
 ```
 ```py
 Out[319]: 
- a  b
+
+     a  b
 a c  1  5
- d  2  6
+  d  2  6
 b c  3  7
- d  4  8
+  d  4  8
 ```
 If the index has level names, they will parsed as well, using the same parameters.
-
+```py
 In [320]: df.index = df.index.set_names(['lvl1', 'lvl2'])
 
 In [321]: df.to_excel('path_to_file.xlsx')
@@ -136,16 +137,18 @@ In [321]: df.to_excel('path_to_file.xlsx')
 In [322]: df = pd.read_excel('path_to_file.xlsx', index_col=[0, 1])
 
 In [323]: df
+```
+```py
 Out[323]: 
- a  b
-lvl1 lvl2 
+           a  b
+lvl1 lvl2      
 a    c     1  5
- d     2  6
+     d     2  6
 b    c     3  7
- d     4  8
-
+     d     4  8
+```
 If the source file has both  `MultiIndex`  index and columns, lists specifying each should be passed to  `index_col`  and  `header`:
-
+```py
 In [324]: df.columns = pd.MultiIndex.from_product([['a'], ['b', 'd']],
  .....:                                        names=['c1', 'c2'])
  .....: 
@@ -155,15 +158,18 @@ In [325]: df.to_excel('path_to_file.xlsx')
 In [326]: df = pd.read_excel('path_to_file.xlsx', index_col=[0, 1], header=[0, 1])
 
 In [327]: df
+```
+```py
 Out[327]: 
-c1         a 
+c1         a   
 c2         b  d
-lvl1 lvl2 
+lvl1 lvl2      
 a    c     1  5
- d     2  6
+     d     2  6
 b    c     3  7
- d     4  8
+     d     4  8
 
+```
 #### Parsing specific columns[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#parsing-specific-columns "Permalink to this headline")
 
 It is often the case that users will insert columns to do temporary computations in Excel and you may not want to read in those columns.  `read_excel`  takes a  `usecols`  keyword to allow you to specify a subset of columns to parse.
@@ -323,5 +329,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTYyMzg4NF19
+eyJoaXN0b3J5IjpbMzg2MDQ0OTI2XX0=
 -->
