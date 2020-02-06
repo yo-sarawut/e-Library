@@ -179,25 +179,25 @@ Deprecated since version 0.24.0.
 Passing in an integer for  `usecols`  has been deprecated. Please pass in a list of ints from 0 to  `usecols`  inclusive instead.
 
 If  `usecols`  is an integer, then it is assumed to indicate the last column to be parsed.
-
+```py
 pd.read_excel('path_to_file.xls', 'Sheet1', usecols=2)
-
+```
 You can also specify a comma-delimited set of Excel columns and ranges as a string:
 
 pd.read_excel('path_to_file.xls', 'Sheet1', usecols='A,C:E')
 
 If  `usecols`  is a list of integers, then it is assumed to be the file column indices to be parsed.
-
+```py
 pd.read_excel('path_to_file.xls', 'Sheet1', usecols=[0, 2, 3])
-
+```
 Element order is ignored, so  `usecols=[0,  1]`  is the same as  `[1,  0]`.
 
 New in version 0.24.
 
 If  `usecols`  is a list of strings, it is assumed that each string corresponds to a column name provided either by the user in  `names`  or inferred from the document header row(s). Those strings define which columns will be parsed:
-
+```py
 pd.read_excel('path_to_file.xls', 'Sheet1', usecols=['foo', 'bar'])
-
+```
 Element order is ignored, so  `usecols=['baz',  'joe']`  is the same as  `['joe',  'baz']`.
 
 New in version 0.24.
@@ -215,16 +215,16 @@ pd.read_excel('path_to_file.xls', 'Sheet1', parse_dates=['date_strings'])
 #### Cell converters[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#cell-converters "Permalink to this headline")
 
 It is possible to transform the contents of Excel cells via the  `converters`  option. For instance, to convert a column to boolean:
-
+```py
 pd.read_excel('path_to_file.xls', 'Sheet1', converters={'MyBools': bool})
-
+```
 This options handles missing values and treats exceptions in the converters as missing data. Transformations are applied cell by cell rather than to the column as a whole, so the array dtype is not guaranteed. For instance, a column of integers with missing values cannot be transformed to an array with integer dtype, because NaN is strictly a float. You can manually mask missing data to recover integer dtype:
-
+```py
 def cfun(x):
     return int(x) if x else -1
 
 pd.read_excel('path_to_file.xls', 'Sheet1', converters={'MyInts': cfun})
-
+```
 #### Dtype specifications[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#dtype-specifications "Permalink to this headline")
 
 As an alternative to converters, the type for an entire column can be specified using the  dtype  keyword, which takes a dictionary mapping column names to types. To interpret data with no type inference, use the type  `str`  or  `object`.
@@ -236,23 +236,22 @@ pd.read_excel('path_to_file.xls', dtype={'MyInts': 'int64', 'MyText': str})
 #### Writing Excel files to disk[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-excel-files-to-disk "Permalink to this headline")
 
 To write a  `DataFrame`  object to a sheet of an Excel file, you can use the  `to_excel`  instance method. The arguments are largely the same as  `to_csv`  described above, the first argument being the name of the excel file, and the optional second argument the name of the sheet to which the  `DataFrame`  should be written. For example:
-
+```py
 df.to_excel('path_to_file.xlsx', sheet_name='Sheet1')
-
+```
 Files with a  `.xls`  extension will be written using  `xlwt`  and those with a  `.xlsx`  extension will be written using  `xlsxwriter`  (if available) or  `openpyxl`.
 
 The  `DataFrame`  will be written in a way that tries to mimic the REPL output. The  `index_label`  will be placed in the second row instead of the first. You can place it in the first row by setting the  `merge_cells`  option in  `to_excel()`  to  `False`:
-
+```py
 df.to_excel('path_to_file.xlsx', index_label='label', merge_cells=False)
-
+```
 In order to write separate  `DataFrames`  to separate sheets in a single Excel file, one can pass an  `ExcelWriter`.
 
 with pd.ExcelWriter('path_to_file.xlsx') as writer:
     df1.to_excel(writer, sheet_name='Sheet1')
     df2.to_excel(writer, sheet_name='Sheet2')
 
-Note
-
+>**Note**
 Wringing a little more performance out of  `read_excel`  Internally, Excel stores all numeric data as floats. Because this can produce unexpected behavior when reading in data, pandas defaults to trying to convert integers to floats if it doesn’t lose information (`1.0  -->  1`). You can pass  `convert_float=False`  to disable this behavior, which may give a slight performance improvement.
 
 #### Writing Excel files to memory[](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#writing-excel-files-to-memory "Permalink to this headline")
@@ -329,5 +328,5 @@ Using the  [Xlsxwriter](https://xlsxwriter.readthedocs.io/)  engine provides man
 
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#excel-files).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MDQ0OTI2XX0=
+eyJoaXN0b3J5IjpbLTc2MTkwODA4MV19
 -->
