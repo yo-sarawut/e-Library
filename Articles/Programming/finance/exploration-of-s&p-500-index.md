@@ -71,7 +71,7 @@ dfd = dfd.set_index('Date')
 Take a look at the first few rows of the dataframe
 
 
-```
+```py
 dfd.head()
 ```
 
@@ -272,6 +272,6 @@ So it is quite possible that the S&P will look like the 2000 to 2010 period in t
 
 [Source: ](https://medium.com/@rajivsresearch/exploration-of-s-p-500-index-using-pandas-and-matplotlib-48271c833365)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY0Njc0NjUsLTE1ODM3OTkyLC0xOD
-g0MjEyNDMyXX0=
+eyJoaXN0b3J5IjpbLTExOTU2ODcyOTYsLTEwMjY0Njc0NjUsLT
+E1ODM3OTkyLC0xODg0MjEyNDMyXX0=
 -->
