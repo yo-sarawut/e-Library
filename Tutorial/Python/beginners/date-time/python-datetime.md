@@ -284,12 +284,11 @@ dtdt.replace(second=0,microsecond=0)
 %U	หรือ %W ลำดับของสัปดาห์ภายในปี
 %c	แสดงวันเวลาในรูปแบบเดียวกับ ctime()
 %x	เดือน/ปี/วัน
-%X	
-ชั่วโมง:นาที:วินาที
+%X	ชั่วโมง:นาที:วินาที
 ```
   
 ตัวอย่าง
-
+```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
 print(dtdt.strftime('%a'))  # ได้ Tue  
 print(dtdt.strftime('%A'))  # ได้ Tuesday  
@@ -312,7 +311,7 @@ print(dtdt.strftime('%W'))  # ได้ 25
 print(dtdt.strftime('%c'))  # ได้ Tue Jun 21 17:35:30 2016  
 print(dtdt.strftime('%x'))  # ได้ 06/21/16  
 print(dtdt.strftime('%X'))  # ได้ 17:35:30
-
+```
   
   
   
@@ -320,31 +319,14 @@ print(dtdt.strftime('%X'))  # ได้ 17:35:30
 เราสามารถสร้าง datetime.datetime ขึ้นมาจากเมธอดของคลาส datetime.datetime เองได้ด้วย  
   
 เมธอดเหล่านั้นได้แก่
-
-now()
-
-สร้าง datetime.datetime ขึ้นจากเวลาขณะนี้
-
-utcnow()
-
-สร้าง datetime.datetime ขึ้นจากเวลาขณะนี้ในเขตเวลาสากล
-
-fromtimestamp()
-
-สร้าง datetime.datetime ขึ้นจาก timestamp โดยอิงเวลาท้องถิ่น
-
-utcfromtimestamp()
-
-สร้าง datetime.datetime ขึ้นจาก timestamp โดยอิงเวลาสากล
-
-combine()
-
-สร้าง datetime.datetime โดยใช้ datetime.date และ datetime.time มารวมกัน
-
-strptime()
-
-สร้าง datetime.datetime ขึ้นจากกระบวนการตรงข้ามกับ strftime
-
+```py
+now()	สร้าง datetime.datetime ขึ้นจากเวลาขณะนี้
+utcnow()	สร้าง datetime.datetime ขึ้นจากเวลาขณะนี้ในเขตเวลาสากล
+fromtimestamp()	สร้าง datetime.datetime ขึ้นจาก timestamp โดยอิงเวลาท้องถิ่น
+utcfromtimestamp()	สร้าง datetime.datetime ขึ้นจาก timestamp โดยอิงเวลาสากล
+combine()	สร้าง datetime.datetime โดยใช้ datetime.date และ datetime.time มารวมกัน
+strptime()	สร้าง datetime.datetime ขึ้นจากกระบวนการตรงข้ามกับ strftime
+```
   
 ตัวอย่าง
 
@@ -380,5 +362,5 @@ print(datetime.datetime.strptime(r,fmt))  # ได้ 1842-11-05 08:41:32
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3OTUwOTldfQ==
+eyJoaXN0b3J5IjpbLTMwODU2MTgzMV19
 -->
