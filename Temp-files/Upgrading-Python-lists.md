@@ -57,7 +57,7 @@ It creates a new instance of L with the current elements and the new elements. P
 
 Let’s try  `__mul__`  as well.
 
-![](https://miro.medium.com/max/30/1*xRSy5Zi1CtlYB4fKJkpS6g.png?q=20)
+
 
 ![](https://miro.medium.com/max/2292/1*xRSy5Zi1CtlYB4fKJkpS6g.png)
 
@@ -65,13 +65,12 @@ It replicates the list 2 times. Also, notice that it prints only the first 10 el
 
 You can find unique elements in an L.
 
-![](https://miro.medium.com/max/30/1*x0Il7TcO1pZOy4gIh90IJg.png?q=20)
 
 ![](https://miro.medium.com/max/2282/1*x0Il7TcO1pZOy4gIh90IJg.png)
 
 You can easily convert it to a dictionary.
 
-![](https://miro.medium.com/max/30/1*OM9Wr1oITnuZypgvKiqbKw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2284/1*OM9Wr1oITnuZypgvKiqbKw.png)
 
@@ -79,19 +78,19 @@ However, the real power of L is with its indexing capabilities.
 
 1.  Indexing with a list of indexes
 
-![](https://miro.medium.com/max/30/1*_Iyr28dxSBx2-BJKUNQUBA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2280/1*_Iyr28dxSBx2-BJKUNQUBA.png)
 
 2. Indexing with booleans
 
-![](https://miro.medium.com/max/30/1*0DxzoDBFXfAl6HLOWnvDxw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2288/1*0DxzoDBFXfAl6HLOWnvDxw.png)
 
 3. Multiple assignment
 
-![](https://miro.medium.com/max/30/1*N0DTcq3S7xsDui3ssmNv_Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/2310/1*N0DTcq3S7xsDui3ssmNv_Q.png)
 
@@ -110,5 +109,5 @@ All in all it’s a great data structure and can easily be used instead of lists
 
 > [Source : ](https://towardsdatascience.com/upgrading-python-lists-35440096ec36).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ3ODM0OTldfQ==
+eyJoaXN0b3J5IjpbNjcwOTE2NzE4XX0=
 -->
