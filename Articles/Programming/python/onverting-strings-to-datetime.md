@@ -15,7 +15,7 @@ print ('Current date/time: {}'.format(datetime.datetime.now()))
 
 Running this code will print an output similar to below:
 
-```sh
+```py
 $ python3 datetime-print-1.py
 Current date/time: 2018-06-29 08:15:27.243860
 
@@ -39,7 +39,7 @@ print('Date-time:', date_time_obj)
 
 Running it will print the below output:
 
-```sh
+```py
 $ python3 datetime-print-2.py
 Date: 2018-06-29
 Time: 08:15:27.243860
@@ -67,7 +67,7 @@ print('Date-time:', date_time_obj)
 
 From the following output you can see that the string was successfully parsed since it is being properly printed by the  `datetime`  object here.
 
-```sh
+```py
 $ python3 datetime-print-3.py
 Date: 2018-06-28
 Time: 07:40:00
@@ -103,7 +103,7 @@ print(dtime.tzinfo)
 
 This code will print:
 
-```sh
+```py
 $ python3 datetime-tzinfo-1.py
 2018-06-29 22:16:36.132767
 None
@@ -124,7 +124,7 @@ print(dtime.tzinfo)
 
 Output:
 
-```sh
+```py
 $ python3 datetime-tzinfo-2.py
 2018-06-29 17:08:00.586525+00:00
 UTC
@@ -152,7 +152,7 @@ print(timezone_date_time_obj.tzinfo)
 
 Output:
 
-```sh
+```py
 $ python3 datetime-tzinfo-3.py
 2018-06-29 17:08:00-04:00
 America/New_York
@@ -183,7 +183,7 @@ print('Europe/London:', london_datetime_obj)
 
 First, it created one datetime object with the current time on "America/New_York" timezone. Then using  `astimezone()`  method, we have converted this  `datetime`  to "Europe/London" timezone. Both  `datetime`s will print different values like:
 
-```sh
+```py
 $ python3 datetime-tzinfo-4.py
 America/New_York: 2018-06-29 22:21:41.349491-04:00
 Europe/London: 2018-06-30 03:21:41.349491+01:00
@@ -313,7 +313,7 @@ print(dt.tzinfo)
 
 Output:
 
-```sh
+```py
 $ python3 maya-1.py
 2018-04-29
 17:45:25
@@ -335,7 +335,7 @@ print(dt.tzinfo)
 
 Output:
 
-```sh
+```py
 $ python3 maya-2.py
 2018-04-29
 13:45:25
@@ -477,7 +477,7 @@ print(dt.time())
 
 Output:
 
-```sh
+```py
 $ python3 arrow-2.py
 2018-04-29T13:45:25-04:00
 2018-04-29
@@ -557,5 +557,6 @@ One more problem we face is dealing with timezones. The best way to handle them 
 
 > Source [stackabuse.com](https://stackabuse.com/converting-strings-to-datetime-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjI0MjMxNSwtMTgzNjA2OTAyM119
+eyJoaXN0b3J5IjpbLTE2NzQ4MDE1MDEsLTE4MzYwNjkwMjNdfQ
+==
 -->
