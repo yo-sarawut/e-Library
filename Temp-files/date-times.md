@@ -143,68 +143,17 @@ Here is a list of functions available with the  _calendar_  module −
 |Sr.No.|Function with Description|
 |:-------:|-----------------------|
 |1|**calendar.calendar(year,w=2,l=1,c=6)**  Returns a multiline string with a calendar for year year formatted into three columns separated by c spaces. w is the width in characters of each date; each line has length 21*w+18+2*c. l is the number of lines for each week.|
-|2|**calendar.firstweekday( )**
-
-Returns the current setting for the weekday that starts each week. By default, when calendar is first imported, this is 0, meaning Monday.|
-
-|3|
-
-**calendar.isleap(year)**
-
-Returns True if year is a leap year; otherwise, False.|
-|4|
-
-**calendar.leapdays(y1,y2)**
-
-Returns the total number of leap days in the years within range(y1,y2).|
-
-|5|
-
-**calendar.month(year,month,w=2,l=1)**
-
-Returns a multiline string with a calendar for month month of year year, one line per week plus two header lines. w is the width in characters of each date; each line has length 7*w+6. l is the number of lines for each week.|
-
-|6|
-
-**calendar.monthcalendar(year,month)**
-
-Returns a list of lists of ints. Each sublist denotes a week. Days outside month month of year year are set to 0; days within the month are set to their day-of-month, 1 and up.|
-
-|7|
-
-**calendar.monthrange(year,month)**
-
-Returns two integers. The first one is the code of the weekday for the first day of the month month in year year; the second one is the number of days in the month. Weekday codes are 0 (Monday) to 6 (Sunday); month numbers are 1 to 12.|
-
-|8|
-
-**calendar.prcal(year,w=2,l=1,c=6)**
-
-Like print calendar.calendar(year,w,l,c).|
-
-|9|
-
-**calendar.prmonth(year,month,w=2,l=1)**
-
-Like print calendar.month(year,month,w,l).|
-
-|10|
-
-**calendar.setfirstweekday(weekday)**
-
-Sets the first day of each week to weekday code weekday. Weekday codes are 0 (Monday) to 6 (Sunday).|
-
-|11|
-
-**calendar.timegm(tupletime)**
-
-The inverse of time.gmtime: accepts a time instant in time-tuple form and returns the same instant as a floating-point number of seconds since the epoch.|
-
-|12|
-
-**calendar.weekday(year,month,day)**
-
-Returns the weekday code for the given date. Weekday codes are 0 (Monday) to 6 (Sunday); month numbers are 1 (January) to 12 (December).|
+|2|**calendar.firstweekday( )**  Returns the current setting for the weekday that starts each week. By default, when calendar is first imported, this is 0, meaning Monday.|
+|3|**calendar.isleap(year)**  Returns True if year is a leap year; otherwise, False.|
+|4|**calendar.leapdays(y1,y2)**  Returns the total number of leap days in the years within range(y1,y2).|
+|5|**calendar.month(year,month,w=2,l=1)**  Returns a multiline string with a calendar for month month of year year, one line per week plus two header lines. w is the width in characters of each date; each line has length 7*w+6. l is the number of lines for each week.|
+|6|**calendar.monthcalendar(year,month)**  Returns a list of lists of ints. Each sublist denotes a week. Days outside month month of year year are set to 0; days within the month are set to their day-of-month, 1 and up.|
+|7|**calendar.monthrange(year,month)**  Returns two integers. The first one is the code of the weekday for the first day of the month month in year year; the second one is the number of days in the month. Weekday codes are 0 (Monday) to 6 (Sunday); month numbers are 1 to 12.|
+|8|**calendar.prcal(year,w=2,l=1,c=6)**  Like print calendar.calendar(year,w,l,c).|
+|9|**calendar.prmonth(year,month,w=2,l=1)**  Like print calendar.month(year,month,w,l).|
+|10|**calendar.setfirstweekday(weekday)**  Sets the first day of each week to weekday code weekday. Weekday codes are 0 (Monday) to 6 (Sunday).|
+|11|**calendar.timegm(tupletime)**  The inverse of time.gmtime: accepts a time instant in time-tuple form and returns the same instant as a floating-point number of seconds since the epoch.|
+|12|**calendar.weekday(year,month,day)**  Returns the weekday code for the given date. Weekday codes are 0 (Monday) to 6 (Sunday); month numbers are 1 (January) to 12 (December).|
 
 ## Other Modules & Functions
 
@@ -218,5 +167,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MjgxNjkwLC0zNTkxNjQwMzJdfQ==
+eyJoaXN0b3J5IjpbMTUyMTgyNDk2NCwtMzU5MTY0MDMyXX0=
 -->
