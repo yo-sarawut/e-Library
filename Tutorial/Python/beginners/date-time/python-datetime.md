@@ -167,7 +167,8 @@ datetime.timedelta(7,2,1)%datetime.timedelta(0,0,999999)
   
 สำหรับการเปรียบเทียบระหว่างเวลานั้น datetime.datetime นึงจะมากกว่าอีก datetime.datetime หนึ่งเมื่อเป็นเวลาช้ากว่า ส่วน datetime.timedelta ก็เทียบตามความยาวของเวลา
 ```py
-datetime.datetime(2016,6,21)>datetime.datetime(2016,6,20)  # ได้ True
+datetime.datetime(2016,6,21)>datetime.datetime(2016,6,20)  
+# ได้ True
 ```
   
   
@@ -177,19 +178,19 @@ datetime.datetime(2016,6,21)>datetime.datetime(2016,6,20)  # ได้ True
 สามารถแสดงค่าทั้งหมดเป็นวินาทีได้ด้วยเมธอด total_seconds()  
   
 ตัวอย่าง
-
+```py
 tdt = datetime.timedelta(3,70000,400000)  
 print(tdt.days)  # ได้ 3  
 print(tdt.seconds)  # ได้ 70000  
 print(tdt.microseconds)  # ได้ 400000  
 print(tdt.total_seconds())  # ได้ 329200.4
-
+```
   
   
   
 **แอตทริบิวต์และเมธอดของ datetime.datetime**  
 ภายในออบเจ็กต์ datetime.datetime นั้นเก็บข้อมูลของปี, เดือน, วัน, ชั่วโมง, นาที, วินาที, ไมโครวินาที เอาไว้โดยสามารถดูค่าแต่ละค่าได้ที่แอตทริบิวต์ year, month, day, hour, minute, second, microsecond
-
+```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
 print(dtdt.year)  # ได้ 2016  
 print(dtdt.month)  # ได้ 6  
@@ -198,10 +199,10 @@ print(dtdt.hour)  # ได้ 17
 print(dtdt.minute)  # ได้ 35  
 print(dtdt.second)  # ได้ 30  
 print(dtdt.microsecond)  # ได้ 115421
-
+```
   
 datetime.datetime ยังประกอบด้วยเมธอดต่างๆที่ใช้แสดงผลข้อมูลส่วนต่างๆในรูปแบบต่างๆ ได้แก่
-
+```py
 date()
 
 แสดงส่วนวันเดือนปีในรูป datetime.date
@@ -218,8 +219,7 @@ isoweekday()
 
 แสดงเลขวันในสัปดาห์ โดยวันจันทร์เป็น 1 วันอาทิตย์เป็น 7
 
-isocalendar()
-
+isocalendar()	
 แสดงผลวันเดือนปีในรูปแบบทูเพิล
 
 ctime()
@@ -230,14 +230,10 @@ timetuple()
 
 แสดงวันเวลาในรูปออบเจ็กต์ time.struct_time
 
-timestamp()
+timestamp()	แสดงเวลาในรูปของจำนวนวินาทีนับจากเที่ยงคืนเวลา UTC ของวันที่ 1 ม.ค. 1970
 
-แสดงเวลาในรูปของจำนวนวินาทีนับจากเที่ยงคืนเวลา UTC ของวันที่ 1 ม.ค. 1970
-
-isoformat()
-
-แสดงวันเวลาในรูป  _ปี-เดือน-วันTชั่วโมง:นาที:วินาที.ไมโครวินาที_
-
+isoformat()	แสดงวันเวลาในรูป  _ปี-เดือน-วันTชั่วโมง:นาที:วินาที.ไมโครวินาที_
+```
   
 สำหรับ isoformat ถ้าใส่อาร์กิวเมนต์ลงไปจะเป็นตัวคั่นระหว่างวันกับชั่วโมงแทนตัว T  
   
@@ -457,5 +453,5 @@ print(datetime.datetime.strptime(r,fmt))  # ได้ 1842-11-05 08:41:32
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAyMjIxODJdfQ==
+eyJoaXN0b3J5IjpbODgzNDYxMTNdfQ==
 -->
