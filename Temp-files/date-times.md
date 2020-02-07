@@ -58,23 +58,25 @@ The above tuple is equivalent to  **struct_time**  structure. This structure has
 
 To translate a time instant from a  _seconds since the epoch_  floating-point value into a time-tuple, pass the floating-point value to a function (e.g., localtime) that returns a time-tuple with all nine items valid.
 
-[Live Demo](http://tpcg.io/T9ZAOe)
-
-#!/usr/bin/python  import time; localtime = time.localtime(time.time())  print  "Local current time :", localtime
-
+```py
+#!/usr/bin/python  
+import time; 
+localtime = time.localtime(time.time())  
+print  "Local current time :", localtime
+```
 This would produce the following result, which could be formatted in any other presentable form −
-
+```py
 Local current time : time.struct_time(tm_year=2013, tm_mon=7, 
 tm_mday=17, tm_hour=21, tm_min=26, tm_sec=3, tm_wday=2, tm_yday=198, tm_isdst=0)
-
+```
 ## Getting formatted time
 
 You can format any time as per your requirement, but simple method to get time in readable format is asctime() −
 
-[Live Demo](http://tpcg.io/Pn2IUS)
-
-#!/usr/bin/python  import time; localtime = time.asctime( time.localtime(time.time())  )  print  "Local current time :", localtime
-
+```py
+#!/usr/bin/python  
+import time; localtime = time.asctime( time.localtime(time.time())  )  print  "Local current time :", localtime
+```
 This would produce the following result −
 
 Local current time : Tue Jan 13 10:17:09 2009
@@ -296,5 +298,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDU3NTEsLTM1OTE2NDAzMl19
+eyJoaXN0b3J5IjpbMjI1NDExMzY5LC0zNTkxNjQwMzJdfQ==
 -->
