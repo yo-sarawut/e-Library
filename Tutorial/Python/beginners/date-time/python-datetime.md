@@ -115,51 +115,60 @@ print(datetime.timedelta(111.9999999))
 **การคำนวณของ datetime.datetime และ datetime.timedelta**  
 เมื่อนำ datetime.datetime มาลบกันจะได้ผลออกมาเป็น datetime.timedelta ซึ่งเก็บค่าระยะเวลาระหว่างสองเวลาที่เอามาลบกันนั้น เช่น
 ```py
-datetime.datetime(2016,6,21)-datetime.datetime(2016,6,20)  # ได้ datetime.timedelta(1)
+datetime.datetime(2016,6,21)-datetime.datetime(2016,6,20)  
+# ได้ datetime.timedelta(1)
 ```
   
 เนื่องจากหน่วยที่เก็บใน datetime.timedelta นั้นใหญ่สุดเป็นวัน และรองลงมาเป็นวินาที ดังนั้นหน่วยอื่นก็จะถูกแปลงเป็นวันและวินาทีหมด
-
-datetime.datetime(2016,6,21,7)-datetime.datetime(2016,6,21,3)  # ได้ datetime.timedelta(0, 14400)  
-datetime.datetime(2016,6,21)-datetime.datetime(1905,6,21)  # ได้ datetime.timedelta(40543)
-
+```py
+datetime.datetime(2016,6,21,7)-datetime.datetime(2016,6,21,3)  
+# ได้ datetime.timedelta(0, 14400)  
+datetime.datetime(2016,6,21)-datetime.datetime(1905,6,21)  
+# ได้ datetime.timedelta(40543)
+```
   
 นอกจากการลบกันแล้ว datetime.datetime และ datetime.datetime ด้วยกันไม่สามารถนำมาคำนวณอย่างอื่นได้เลย ทั้งบวก, คูณ, และยกกำลัง  
   
 แต่ datetime.datetime สามารถนำมาบวกหรือลบกับ datetime.timedelta ได้ ซึ่งก็จะได้ผลเป็น datetime.datetime ตัวใหม่ เช่น
-
+```py
 datetime.datetime(2016,6,21)+datetime.timedelta(0.71)  # ได้ datetime.datetime(2016, 6, 21, 17, 2, 24)  
 datetime.datetime(2016,6,21)-datetime.timedelta(1,1,1)  # ได้ datetime.datetime(2016, 6, 19, 23, 59, 58, 999999)
-
+```
   
 ส่วน datetime.timedelta นั้นสามารถเอามาคูณหรือหารกับตัวเลขได้ แต่ไม่สามารถบวกหรือลบหรือยกกำลังได้
-
-datetime.timedelta(1,1,1)*2 # ได้ datetime.timedelta(2, 2, 2)  
-datetime.timedelta(1,1,1)/2  # ได้ datetime.timedelta(0, 43200, 500000)
-
+```py
+datetime.timedelta(1,1,1)*2 
+# ได้ datetime.timedelta(2, 2, 2)  
+datetime.timedelta(1,1,1)/2  
+# ได้ datetime.timedelta(0, 43200, 500000)
+```
   
 datetime.timedelta กับ datetime.timedelta สามารถนำมาบวกหรือลบกันได้ แต่ไม่สามารถคูณหรือยกกำลังกันได้
-
-datetime.timedelta(1,1)+datetime.timedelta(0,0,111)  # ได้ datetime.timedelta(1, 1, 111)  
-datetime.timedelta(1,1,1)-datetime.timedelta(1,1,1)  # ได้ datetime.timedelta(0)
-
+```py
+datetime.timedelta(1,1)+datetime.timedelta(0,0,111)  
+# ได้ datetime.timedelta(1, 1, 111)  
+datetime.timedelta(1,1,1)-datetime.timedelta(1,1,1)  
+# ได้ datetime.timedelta(0)
+```
   
 และสามารถหารกันได้ ผลที่ได้คือค่าจำนวนเท่าของระยะเวลา
-
-datetime.timedelta(1,1,1)/datetime.timedelta(1)  # ได้ 1.0000115740856481
-
+```py
+datetime.timedelta(1,1,1)/datetime.timedelta(1)  
+# ได้ 1.0000115740856481
+```
   
 และสามารถหารเอาเศษได้
-
-datetime.timedelta(7,1,1)%datetime.timedelta(1)  # ได้ datetime.timedelta(0, 1, 1)  
-datetime.timedelta(7,2,1)%datetime.timedelta(0,0,999999)  # ได้ datetime.timedelta(0, 0, 604803)
-
+```py
+datetime.timedelta(7,1,1)%datetime.timedelta(1)  
+# ได้ datetime.timedelta(0, 1, 1)  
+datetime.timedelta(7,2,1)%datetime.timedelta(0,0,999999)  
+# ได้ datetime.timedelta(0, 0, 604803)
+```
   
 สำหรับการเปรียบเทียบระหว่างเวลานั้น datetime.datetime นึงจะมากกว่าอีก datetime.datetime หนึ่งเมื่อเป็นเวลาช้ากว่า ส่วน datetime.timedelta ก็เทียบตามความยาวของเวลา
-
+```py
 datetime.datetime(2016,6,21)>datetime.datetime(2016,6,20)  # ได้ True
-
-  
+```
   
   
 **แอตทริบิวต์และเมธอดของ datetime.timedelta**  
@@ -448,5 +457,5 @@ print(datetime.datetime.strptime(r,fmt))  # ได้ 1842-11-05 08:41:32
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTU2OTc4MV19
+eyJoaXN0b3J5IjpbLTE0ODAyMjIxODJdfQ==
 -->
