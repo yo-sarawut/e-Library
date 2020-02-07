@@ -1,6 +1,6 @@
 ---
 bookFlatSection: true
-title: CSV & Text files
+title: Format a String in Python
 bookToc: true
 
 ---
@@ -288,5 +288,5 @@ At ant rate, thanks again for your support, and a special thanks to  [all my pat
 
 > [Source : ](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU5ODQwOTldfQ==
+eyJoaXN0b3J5IjpbLTIwNDMzMzU4ODddfQ==
 -->
