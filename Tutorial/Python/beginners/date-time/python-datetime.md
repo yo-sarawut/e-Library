@@ -105,7 +105,7 @@ print(datetime.timedelta(111.9999999))
   
   
 **การคำนวณของ datetime.datetime และ datetime.timedelta**  
-เมื่อนำ datetime.datetime มาลบกันจะได้ผลออกมาเป็น datetime.timedelta ซึ่งเก็บค่าระยะเวลาระหว่างสองเวลาที่เอามาลบกันนั้น เช่น
+เมื่อนำ `datetime.datetime` มาลบกันจะได้ผลออกมาเป็น `datetime.timedelta `ซึ่งเก็บค่าระยะเวลาระหว่างสองเวลาที่เอามาลบกันนั้น เช่น
 ```py
 datetime.datetime(2016,6,21)-datetime.datetime(2016,6,20)  
 # ได้ datetime.timedelta(1)
@@ -165,9 +165,9 @@ datetime.datetime(2016,6,21)>datetime.datetime(2016,6,20)
   
   
 **แอตทริบิวต์และเมธอดของ datetime.timedelta**  
-ค่าของวัน, วินาที และไมโครวินาที ถูกเก็บอยู่ในแอตทริบิวต์ days, seconds และ microseconds ตามลำดับ  
+ค่าของวัน, วินาที และไมโครวินาที ถูกเก็บอยู่ในแอตทริบิวต์ `days, seconds และ microseconds` ตามลำดับ  
   
-สามารถแสดงค่าทั้งหมดเป็นวินาทีได้ด้วยเมธอด total_seconds()  
+สามารถแสดงค่าทั้งหมดเป็นวินาทีได้ด้วยเมธอด `total_seconds()` 
   
 ตัวอย่าง
 ```py
@@ -181,7 +181,7 @@ print(tdt.total_seconds())  # ได้ 329200.4
   
   
 **แอตทริบิวต์และเมธอดของ datetime.datetime**  
-ภายในออบเจ็กต์ datetime.datetime นั้นเก็บข้อมูลของปี, เดือน, วัน, ชั่วโมง, นาที, วินาที, ไมโครวินาที เอาไว้โดยสามารถดูค่าแต่ละค่าได้ที่แอตทริบิวต์ year, month, day, hour, minute, second, microsecond
+ภายในออบเจ็กต์ datetime.datetime นั้นเก็บข้อมูลของปี, เดือน, วัน, ชั่วโมง, นาที, วินาที, ไมโครวินาที เอาไว้โดยสามารถดูค่าแต่ละค่าได้ที่แอตทริบิวต์ `year, month, day, hour, minute, second, microsecond`
 ```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
 print(dtdt.year)  # ได้ 2016  
@@ -222,7 +222,7 @@ print(dtdt.isoformat())  # ได้ 2016-06-21T17:35:30.115421
 print(dtdt.isoformat(' '))  # ได้ 2016-06-21 17:35:30.115421
 ```
   
-สำหรับ timestamp() ค่าจะเป็น 0 ที่เวลา 7 โมงเช้าของวันที่ 1 ม.ค. 1970 เนื่องจากไทยอยู่เขตเวลา +7
+สำหรับ `timestamp()` ค่าจะเป็น 0 ที่เวลา 7 โมงเช้าของวันที่ `1 ม.ค. 1970` เนื่องจากไทยอยู่เขตเวลา +7
 ```py
 print(dtdt.timestamp())  
 # ได้ 1466505330.115421  
@@ -355,5 +355,5 @@ print(datetime.datetime.strptime(r,fmt))
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzMyNTY1NCwtNjM4MzUxNTA3XX0=
+eyJoaXN0b3J5IjpbNzgzNjIxNjYsLTYzODM1MTUwN119
 -->
