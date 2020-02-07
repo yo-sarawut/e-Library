@@ -44,22 +44,22 @@ Once again, I’ve updated one of my Python articles to include a nice video sum
 ## Problem Introduction
 
 Whether we’re trying to prompt a user or output a nice error message, string formatting can always be challenging. After all, the syntax varies from language to language which can feel like learning a metalanguage. For instance, in languages like Java and C, string formatting relies on understanding concepts like variable arguments and format specifiers:
-
+```py
 1.  printf("Hi, %s", Jeremy); # Prints "Hi, Jeremy"
-
+```
 Of course, string formatting gets more complicated as we introduce different data types. For example, numbers have their own set of specifiers:  `%d`,  `%f`, etc. And, we can even specify how the numbers look in terms of padding and truncation.
 
 That said, I don’t you’re here to learn string formatting in C, so how do we accomplish the same thing in Python? In this article, we’ll take a look at several methods—some silly—just to illustrate how many ways there are to solve this problem.
 
 To get started, we’ll need a universal example which contains a few pitfalls like mixing numbers and strings. The following code snippet will serve as our base for the remainder of the article:
-
+```py
 1.  name = "Jeremy"
 2.  age = 25
-
+```
 Using these variables, we’ll want to construct the following sentence:
-
+```py
 1.  print("My name is Jeremy, and I am 25 years old.")
-
+```
 Of course, feel free to swap the name and age with your name and age!
 
 ## Solutions
@@ -288,5 +288,5 @@ At ant rate, thanks again for your support, and a special thanks to  [all my pat
 
 > [Source : ](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNTkwOTA2XX0=
+eyJoaXN0b3J5IjpbMTA4NDI0NzQ0NV19
 -->
