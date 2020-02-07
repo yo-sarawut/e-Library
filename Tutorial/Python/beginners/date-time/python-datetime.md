@@ -14,22 +14,11 @@ import  datetime
   
 **ออบเจ็กต์พิเศษใน datetime**  
 มอดูล datetime นั้นมีการนิยามคลาสของออบเจ็กต์สำหรับเก็บค่าวันเดือนปีและเวลาโดยเฉพาะ มีอยู่ ๔ ชนิดคือ
-```py
-datetime.date
-```
-ออบเจ็กต์เก็บค่าวันเดือนปี
-```py
-datetime.time
-```
-ออบเจ็กต์เก็บค่าเวลา
-```py
-datetime.datetime
-```
-เป็นออบเจ็กต์ที่เอา datetime.date กับ datetime.time มารวมกัน เก็บค่าทั้งวันเดือนปีและเวลา
-```py
-datetime.timedelta
-```
-ออบเจ็กต์เก็บค่าระยะห่างระหว่างเวลาซึ่งมีหน่วยเป็นวันและวินาที
+
+- `datetime.date`	ออบเจ็กต์เก็บค่าวันเดือนปี
+- `datetime.time`	ออบเจ็กต์เก็บค่าเวลา
+-`datetime.datetime`	เป็นออบเจ็กต์ที่เอา datetime.date กับ datetime.time มารวมกัน เก็บค่าทั้งวันเดือนปีและเวลา
+`datetime.timedelta`	ออบเจ็กต์เก็บค่าระยะห่างระหว่างเวลาซึ่งมีหน่วยเป็นวันและวินาที
 
   
 `datetime.date` จะเก็บค่าตัวเลขปี เดือน วัน ทั้งหมดเป็นจำนวนเต็มเอาไว้ ในการสร้าง `datetime.date` จะต้องใส่ค่าปี, เดือน, วัน ตามลำดับ เช่น
@@ -365,5 +354,5 @@ print(datetime.datetime.strptime(r,fmt))
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODM1MTUwN119
+eyJoaXN0b3J5IjpbMzkxMTAwMjY0LC02MzgzNTE1MDddfQ==
 -->
