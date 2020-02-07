@@ -6,9 +6,9 @@
 - [therenegadecoder.com](https://therenegadecoder.com/category/code/)
 
 
-# Python Tutorial
+# [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
 
--   Python Basic Tutorial
+## Python Basic Tutorial
 -   [Python - Home](https://www.tutorialspoint.com/python/index.htm)
 -   [Python - Overview](https://www.tutorialspoint.com/python/python_overview.htm)
 -   [Python - Environment Setup](https://www.tutorialspoint.com/python/python_environment.htm)
@@ -28,7 +28,7 @@
 -   [Python - Files I/O](https://www.tutorialspoint.com/python/python_files_io.htm)
 -   [Python - Exceptions](https://www.tutorialspoint.com/python/python_exceptions.htm)
 
--   Python Advanced Tutorial
+## Python Advanced Tutorial
 -   [Python - Classes/Objects](https://www.tutorialspoint.com/python/python_classes_objects.htm)
 -   [Python - Reg Expressions](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
 -   [Python - CGI Programming](https://www.tutorialspoint.com/python/python_cgi_programming.htm)
@@ -40,13 +40,13 @@
 -   [Python - GUI Programming](https://www.tutorialspoint.com/python/python_gui_programming.htm)
 -   [Python - Further Extensions](https://www.tutorialspoint.com/python/python_further_extensions.htm)
 
--   Python Useful Resources
+## Python Useful Resources
 -   [Python - Questions and Answers](https://www.tutorialspoint.com/python/python_questions_answers.htm)
 -   [Python - Quick Guide](https://www.tutorialspoint.com/python/python_quick_guide.htm)
 -   [Python - Tools/Utilities](https://www.tutorialspoint.com/python/python_tools_utilities.htm)
 -   [Python - Useful Resources](https://www.tutorialspoint.com/python/python_useful_resources.htm)
 -   [Python - Discussion](https://www.tutorialspoint.com/python/python_discussion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzI5OTIyNywxNzI4NDk3MDk4LC0zMj
-MyNTYwMzEsMTk1NDA1NTAzXX0=
+eyJoaXN0b3J5IjpbNzk4Mjg1MTAsMTcyODQ5NzA5OCwtMzIzMj
+U2MDMxLDE5NTQwNTUwM119
 -->
