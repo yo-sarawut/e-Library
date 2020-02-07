@@ -127,19 +127,10 @@ Let us go through the functions briefly −
 
 There are following two important attributes available with time module −
 
-|Sr.No.|Attribute with Description
-
-1
-
-**time.timezone**
-
-Attribute time.timezone is the offset in seconds of the local time zone (without DST) from UTC (>0 in the Americas; <=0 in most of Europe, Asia, Africa).
-
-2
-
-**time.tzname**
-
-Attribute time.tzname is a pair of locale-dependent strings, which are the names of the local time zone without and with DST, respectively.
+|Sr.No.|Attribute with Description|
+|:------:|-------------------------|
+|1|**time.timezone**  Attribute time.timezone is the offset in seconds of the local time zone (without DST) from UTC (>0 in the Americas; <=0 in most of Europe, Asia, Africa).|
+|2|**time.tzname**  Attribute time.tzname is a pair of locale-dependent strings, which are the names of the local time zone without and with DST, respectively.|
 
 ## The  _calendar_  Module
 
@@ -237,5 +228,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkyOTYyMzMsLTM1OTE2NDAzMl19
+eyJoaXN0b3J5IjpbMTYwNTYyMTgzMiwtMzU5MTY0MDMyXX0=
 -->
