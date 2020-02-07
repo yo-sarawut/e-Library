@@ -69,9 +69,9 @@ As it turns out, there are quite a few ways to format a string. We’ll start fr
 ### Format a String Using Concatenation
 
 If you’re like me, concatenation is something you learned when you first started to code. As a result, concatenation can seem like a quick shortcut to string formatting:
-
+```py
 1.  print("My name is " + name + ", and I am " + age + " years old.")
-
+```
 Unfortunately,  _a solution like this won’t work_. If you tried to run this code, you’ll get a nasty error that looks something like this:
 
 > Traceback (most recent call last):  
@@ -80,9 +80,9 @@ Unfortunately,  _a solution like this won’t work_. If you tried to run this co
 > TypeError: can only concatenate str (not “int”) to str
 
 Hopefully, the  `TypeError`  gives you the hint that the interpreter doesn’t like it when we try to concatenate a string with an integer. In other words, we need to cast the  `age`  variable to a string:
-
+```py
 1.  print("My name is " + name + ", and I am " + str(age) + " years old.")
-
+```
 And, that’s it! For small strings, this is probably fine, but it’s not super readable. Also, it’s really easy to forget spaces on either side of the variables we’re concatenating. Luckily, there are other ways to build a string.
 
 ### Format a String Using Multiple Print Statements
@@ -104,9 +104,9 @@ Again, this is definitely hard to read, and I wouldn’t even advise it for smal
 ### Format a String Using the Join Function
 
 Continuing our quest for the most ridiculous way of formatting a string, I bring you the  `join`  function. If you’re not familiar with this function, it’s basically a more efficient way to concatenate strings. In addition, it allows us to provide a separator to place between our concatenated strings. Of course, we won’t be needing that:
-
+```py
 1.  print(''.join(["My name is ", name, ", and I am ", str(age), " years old"]))
-
+```
 Here, we’ve called the  `join`  method on an empty separator string. As an argument, we’ve passed it a list of strings. Naturally, join will combine this list of strings into a single string without any separators.
 
 Oddly enough, I sort of like this solution because it’s surprisingly readable. Unfortunately, there are a few drawbacks. For instance, we have to convert all our variables to strings manually. In addition, this line is already pretty long. Though, I suppose we could break everything out onto its own line.
@@ -116,9 +116,9 @@ At any rate, with these three out of the way, we can finally start getting to so
 ### Format a String Using the % Operator
 
 Now, we’re starting to get into the actual string formatting techniques. As it turns out, Python has its own set of formatting tools similar to  `printf`  from C:
-
+```py
 1.  print("My name is %s, and I am %d years old."  % (name, age))
-
+```
 Here, we’ve constructed a new string with  `%s`  replaced by  `name`  and  `%d`  replaced by age.
 
 In addition to knowing  [the format specifiers](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting), we’ll want to learn the syntax. In particular, our template string is following by the modulo operator. Of course, in this context, we can call it the string formatting or  **interpolation**  operator.
@@ -132,17 +132,17 @@ Speaking of format specifiers, what if we want to print out an object directly? 
 ### Format a String Using the Format Function
 
 Instead of using a fancy overloaded operator, we can make our code even more readable by using the  `format`  function for strings:
-
+```py
 1.  print("My name is {}, and I am {} years old".format(name, age))
-
+```
 Previously, we would have had to use format specifiers to get the behavior we wanted, but now we can just use braces. In other words, we’ve eliminated a problem from the previous solution.
 
 From what I understand, this method leverages the  `__format__`  method for objects, so we can pass just about anything to this method without issue. There goes yet another problem! Of course, if the class doesn’t have  `__str__`  or  `__repr__`  overridden, then the object will not print nicely. That said, I still count that as a win over the previous solution.
 
 As it turns out, we can eliminate our ordering issue from the previous solution as well. All we have to do is provide keyword arguments:
-
+```py
 1.  print("My name is {n}, and I am {a} years old".format(a=age, n=name))
-
+```
 In this example, we named the age keyword  `a`  and the name keyword  `n`. That way, we could place the keywords inside their respective braces. To further drive home the point, we can even reorder the arguments without issue. Now that’s pretty cool!
 
 Of course, I should warn you that this solution  [may pose a security threat](https://lucumr.pocoo.org/2016/12/29/careful-with-str-format/)  to your application depending on how you’re using it. If you’re writing your own format strings, there shouldn’t be any issues. However, if your accepting format strings from your users, you might want to be careful.
@@ -150,9 +150,9 @@ Of course, I should warn you that this solution  [may pose a security threat](ht
 ### Format a String Using f-Strings
 
 Another way to perform string interpolation is using Python’s latest f-String feature (Python 3.6+). With this feature, all we need to do is prefix a string with the letter  `f`  and insert braces just like before. However, this time, we can insert the name of our variables directly:
-
+```py
 1.  print(f"My name is {name}, and I am {age} years old")
-
+```
 Now, that is incredibly elegant. No longer do we have to worry about:
 
 -   Mapping arguments to format specifiers
@@ -288,5 +288,5 @@ At ant rate, thanks again for your support, and a special thanks to  [all my pat
 
 > [Source : ](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDI0NzQ0NV19
+eyJoaXN0b3J5IjpbMTUwOTM4MjcyMF19
 -->
