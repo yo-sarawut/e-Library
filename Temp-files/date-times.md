@@ -111,72 +111,67 @@ There is a popular  **time**  module available in Python which provides function
 | Sr.No. |Function with Description|
 |:-----:|-------------------------------|
 |1 |[time.altzone](https://www.tutorialspoint.com/python/time_altzone.htm)  The offset of the local DST timezone, in seconds west of UTC, if one is defined. This is negative if the local DST timezone is east of UTC (as in Western Europe, including the UK). Only use this if daylight is nonzero.|
+|2|[time.asctime([tupletime])](https://www.tutorialspoint.com/python/time_asctime.htm)  Accepts a time-tuple and returns a readable 24-character string such as 'Tue Dec 11 18:07:14 2008'.|
 
-|2|
-
-[time.asctime([tupletime])](https://www.tutorialspoint.com/python/time_asctime.htm)
-
-Accepts a time-tuple and returns a readable 24-character string such as 'Tue Dec 11 18:07:14 2008'.|
-
-3
+|3|
 
 [time.clock( )](https://www.tutorialspoint.com/python/time_clock.htm)
 
-Returns the current CPU time as a floating-point number of seconds. To measure computational costs of different approaches, the value of time.clock is more useful than that of time.time().
+Returns the current CPU time as a floating-point number of seconds. To measure computational costs of different approaches, the value of time.clock is more useful than that of time.time().|
 
-4
+|4|
 
 [time.ctime([secs])](https://www.tutorialspoint.com/python/time_ctime.htm)
 
-Like asctime(localtime(secs)) and without arguments is like asctime( )
+Like asctime(localtime(secs)) and without arguments is like asctime( )|
 
-5
+|5|
 
 [time.gmtime([secs])](https://www.tutorialspoint.com/python/time_gmtime.htm)
 
-Accepts an instant expressed in seconds since the epoch and returns a time-tuple t with the UTC time. Note : t.tm_isdst is always 0
+Accepts an instant expressed in seconds since the epoch and returns a time-tuple t with the UTC time. Note : t.tm_isdst is always 0|
 
-6
+|6|
 
 [time.localtime([secs])](https://www.tutorialspoint.com/python/time_localtime.htm)
 
-Accepts an instant expressed in seconds since the epoch and returns a time-tuple t with the local time (t.tm_isdst is 0 or 1, depending on whether DST applies to instant secs by local rules).
+Accepts an instant expressed in seconds since the epoch and returns a time-tuple t with the local time (t.tm_isdst is 0 or 1, depending on whether DST applies to instant secs by local rules).|
 
-7
+|7|
 
 [time.mktime(tupletime)](https://www.tutorialspoint.com/python/time_mktime.htm)
 
-Accepts an instant expressed as a time-tuple in local time and returns a floating-point value with the instant expressed in seconds since the epoch.
+Accepts an instant expressed as a time-tuple in local time and returns a floating-point value with the instant expressed in seconds since the epoch.|
 
-8
+|8|
 
 [time.sleep(secs)](https://www.tutorialspoint.com/python/time_sleep.htm)
 
-Suspends the calling thread for secs seconds.
+Suspends the calling thread for secs seconds.|
 
-9
+|9|
 
 [time.strftime(fmt[,tupletime])](https://www.tutorialspoint.com/python/time_strftime.htm)
 
-Accepts an instant expressed as a time-tuple in local time and returns a string representing the instant as specified by string fmt.
+Accepts an instant expressed as a time-tuple in local time and returns a string representing the instant as specified by string fmt.|
 
-10
+|10|
 
 [time.strptime(str,fmt='%a %b %d %H:%M:%S %Y')](https://www.tutorialspoint.com/python/time_strptime.htm)
 
-Parses str according to format string fmt and returns the instant in time-tuple format.
+Parses str according to format string fmt and returns the instant in time-tuple format.|
 
-11
+|11|
 
 [time.time( )](https://www.tutorialspoint.com/python/time_time.htm)
 
-Returns the current time instant, a floating-point number of seconds since the epoch.
+Returns the current time instant, a floating-point number of seconds since the epoch.|
 
-12
+|12|
 
 [time.tzset()](https://www.tutorialspoint.com/python/time_tzset.htm)
 
-Resets the time conversion rules used by the library routines. The environment variable TZ specifies how this is done.
+Resets the time conversion rules used by the library routines. The environment variable TZ specifies how this is done.|
 
 Let us go through the functions briefly −
 
@@ -294,5 +289,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTMzMjAyOSwtMzU5MTY0MDMyXX0=
+eyJoaXN0b3J5IjpbMjA3NzU1NDMsLTM1OTE2NDAzMl19
 -->
