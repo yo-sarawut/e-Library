@@ -16,7 +16,7 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [Python for Finance, Part 2: Intro to Quantitative Trading Strategies](https://www.learndatasci.com/tutorials/python-finance-part-2-intro-quantitative-trading-strategies/)
 - [Portfolio Management Of Multiple Strategies Using Python](https://blog.quantinsti.com/portfolio-management-strategy-python/)
 - [Time series decomposition & Prediction in Python](https://www.pythonforfinance.net/2019/07/22/time-series-decomposition-prediction-in-python/)
-- Building a Stock Screener in Python [Part 1]()
+- Building a Stock Screener in Python [Part 1](https://medium.com/@hr23232323/building-a-stock-screener-for-free-in-python-1d1d334eb76d) , [Part 2](https://medium.com/@hr23232323/building-a-stock-screener-in-python-part-2-f40b64889293)
 
 ### DCA  Investing
 - [Exploratory Data Analysis on Stock Pricing Data](https://www.codementor.io/blog/quantitative-trading-6i4dw8wj4z)
@@ -28,7 +28,7 @@ If you would like to run the code yourself, you can find it  [on my Github here]
 - [ทดลองลงทุนในหุ้น ด้วยโปรแกรม DCA Simulation](https://www.set.or.th/set/education/html.do?name=preretire_isp_preretire-11&innerMenuId=48)
 - [คู่มือ SetSmart](https://www.setsmart.com/download/SETSmart_User_Manual.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDg3MTI3MiwxNDQ0NjA0NTUzLC0xMj
+eyJoaXN0b3J5IjpbMTQxMzIwOTY4OSwxNDQ0NjA0NTUzLC0xMj
 I5NDcyMTc1LC0xNTc2MjkwNTEsLTEzOTc5NzA3MTQsLTE2MzIw
 OTE4NDcsMTcxODc1NzU2MywxNjYzODc0OTM2XX0=
 -->
