@@ -166,7 +166,7 @@ At any rate, that’s all I have for string formatting solutions. Now, let’s s
 ## Performance
 
 As always, I like to setup on all of our solutions in strings first:
-
+```py
 1.  setup = """
 2.  name = "Jeremy"
 3.  age = 25
@@ -195,11 +195,11 @@ As always, I like to setup on all of our solutions in strings first:
 26.  f_string = """
 27.  f"My name is {name}, and I am {age} years old"
 28.  """
-
+```
 For my sanity, I had to remove the print statements. As a result, I wasn’t able to test the  `print`  solution. That said, feel free to try your hand at it. I ran into some issues with the output string slowing down the test, and I even tried rerouting  `stdout`  to deal with it. It was a nightmare to say the least.
 
 At any rate, it’s just a matter of calling our  `timeit`  commands now:
-
+```py
 1.  >>> import timeit
 2.  >>> min(timeit.repeat(stmt=concatenation, setup=setup, repeat=10))
 3.  0.4947876000000022
@@ -213,7 +213,7 @@ At any rate, it’s just a matter of calling our  `timeit`  commands now:
 11.  0.49794210000000305
 12.  >>> min(timeit.repeat(stmt=f_string, setup=setup, repeat=10))
 13.  0.1918610999999828
-
+```
 As is often the case with these new features in Python, they are incredibly optimized. As a matter of fact, the only solution that even comes close to competing with the f-String solution is the modulus operator solution.
 
 Also, I think it’s worth noting how much slower the  `format`  function is when the arguments are named rather than ordered. In fact, it’s about as slow as concatenation which I expected to be horrendous. After all, strings are immutable, so concatenation should be pretty bad.
@@ -239,7 +239,7 @@ As always, check the comments below for a copy of my solution to the Mad Libs pr
 ## A Little Recap
 
 With all that said, here are all of the solutions in one unified location:
-
+```py
 1.  name = "Jeremy"
 2.  age = 25
 
@@ -267,7 +267,7 @@ With all that said, here are all of the solutions in one unified location:
 
 26.  # String formatting using f-Strings (Python 3.6+)
 27.  print(f"My name is {name}, and I am {age} years old")
-
+```
 And with that, we’re done. If you liked this article and want more content like this to hit your inbox,  [subscribe to our newsletter](https://newsletter.therenegadecoder.com/). Even better,  [become a member of The Renegade Coder community](https://www.patreon.com/TheRenegadeCoder)  and earn cool rewards like attribution at the end of an article like this one.
 
 Alternatively, you’re welcome to do your typical online shopping through the following Amazon affiliate links:
@@ -288,5 +288,5 @@ At ant rate, thanks again for your support, and a special thanks to  [all my pat
 
 > [Source : ](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTM4MjcyMF19
+eyJoaXN0b3J5IjpbLTEyMzU5ODQwOTldfQ==
 -->
