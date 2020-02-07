@@ -203,42 +203,21 @@ print(dtdt.microsecond)  # ได้ 115421
   
 datetime.datetime ยังประกอบด้วยเมธอดต่างๆที่ใช้แสดงผลข้อมูลส่วนต่างๆในรูปแบบต่างๆ ได้แก่
 ```py
-date()
-
-แสดงส่วนวันเดือนปีในรูป datetime.date
-
-time()
-
-แสดงส่วนเวลาในรูป datetime.time
-
-weekday()
-
-แสดงเลขวันในสัปดาห์ โดยวันจันทร์เป็น 0 วันอาทิตย์เป็น 6
-
-isoweekday()
-
-แสดงเลขวันในสัปดาห์ โดยวันจันทร์เป็น 1 วันอาทิตย์เป็น 7
-
-isocalendar()	
-แสดงผลวันเดือนปีในรูปแบบทูเพิล
-
-ctime()
-
-แสดงวันเวลาในรูป  _วันในสัปดาห์ เดือน วัน ชั่วโมง:นาที:วินาที ปี_
-
-timetuple()
-
-แสดงวันเวลาในรูปออบเจ็กต์ time.struct_time
-
+date()	แสดงส่วนวันเดือนปีในรูป datetime.date
+time()	แสดงส่วนเวลาในรูป datetime.time
+weekday()	แสดงเลขวันในสัปดาห์ โดยวันจันทร์เป็น 0 วันอาทิตย์เป็น 6
+isoweekday()	แสดงเลขวันในสัปดาห์ โดยวันจันทร์เป็น 1 วันอาทิตย์เป็น 7
+isocalendar()	แสดงผลวันเดือนปีในรูปแบบทูเพิล
+ctime()	แสดงวันเวลาในรูป  _วันในสัปดาห์ เดือน วัน ชั่วโมง:นาที:วินาที ปี_
+timetuple()	แสดงวันเวลาในรูปออบเจ็กต์ time.struct_time
 timestamp()	แสดงเวลาในรูปของจำนวนวินาทีนับจากเที่ยงคืนเวลา UTC ของวันที่ 1 ม.ค. 1970
-
 isoformat()	แสดงวันเวลาในรูป  _ปี-เดือน-วันTชั่วโมง:นาที:วินาที.ไมโครวินาที_
 ```
   
 สำหรับ isoformat ถ้าใส่อาร์กิวเมนต์ลงไปจะเป็นตัวคั่นระหว่างวันกับชั่วโมงแทนตัว T  
   
 ตัวอย่างเมธอดต่างๆ
-
+```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
 print(dtdt.date())  # ได้ 2016-06-21  
 print(dtdt.time())  # ได้ 17:35:30.115421  
@@ -249,15 +228,18 @@ print(dtdt.ctime())  # ได้ Tue Jun 21 17:35:30 2016
 print(dtdt.timetuple())  # ได้ time.struct_time(tm_year=2016, tm_mon=6, tm_mday=21, tm_hour=17, tm_min=35, tm_sec=30, tm_wday=1, tm_yday=173, tm_isdst=-1)  
 print(dtdt.isoformat())  # ได้ 2016-06-21T17:35:30.115421  
 print(dtdt.isoformat(' '))  # ได้ 2016-06-21 17:35:30.115421
-
+```
   
 สำหรับ timestamp() ค่าจะเป็น 0 ที่เวลา 7 โมงเช้าของวันที่ 1 ม.ค. 1970 เนื่องจากไทยอยู่เขตเวลา +7
+```py
+print(dtdt.timestamp())  
+# ได้ 1466505330.115421  
+print(datetime.datetime(1970,1,1,0,0,0).timestamp())  
+# ได้ -25200.0  
+print(datetime.datetime(1970,1,1,7,0,0).timestamp())  
+# ได้ 0.0
 
-print(dtdt.timestamp())  # ได้ 1466505330.115421  
-print(datetime.datetime(1970,1,1,0,0,0).timestamp())  # ได้ -25200.0  
-print(datetime.datetime(1970,1,1,7,0,0).timestamp())  # ได้ 0.0
-
-  
+```
   
   
 **การแก้ค่าวันเวลาใน datetime.datetime**  
@@ -266,7 +248,7 @@ print(datetime.datetime(1970,1,1,7,0,0).timestamp())  # ได้ 0.0
 เพียงแต่ว่าเมธอดนี้ไม่ได้ทำการเปลี่ยนแปลงตัว datetime.datetime แค่คืนค่าของ datetime.datetime ที่ถูกแก้แล้วกลับมาเท่านั้น  
   
 ตัวอย่าง
-
+```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
 dtdt.replace(2015)  # ได้ datetime.datetime(2015, 6, 21, 17, 35, 30, 115421)  
 dtdt.replace(month=7)  # ได้ datetime.datetime(2016, 7, 21, 17, 35, 30, 115421)  
@@ -453,5 +435,5 @@ print(datetime.datetime.strptime(r,fmt))  # ได้ 1842-11-05 08:41:32
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNDYxMTNdfQ==
+eyJoaXN0b3J5IjpbMzk0NzY3MTRdfQ==
 -->
