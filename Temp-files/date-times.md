@@ -108,21 +108,15 @@ Mo Tu We Th Fr Sa Su
 
 There is a popular  **time**  module available in Python which provides functions for working with times and for converting between representations. Here is the list of all available methods −
 
-| a |b |
-|-----|-----|
+| Sr.No. |Function with Description|
+|:-----:|-------------------------------|
+|1 |[time.altzone](https://www.tutorialspoint.com/python/time_altzone.htm)  The offset of the local DST timezone, in seconds west of UTC, if one is defined. This is negative if the local DST timezone is east of UTC (as in Western Europe, including the UK). Only use this if daylight is nonzero.|
 
-
-Function with Description
-
-1 [time.altzone](https://www.tutorialspoint.com/python/time_altzone.htm)
-
-The offset of the local DST timezone, in seconds west of UTC, if one is defined. This is negative if the local DST timezone is east of UTC (as in Western Europe, including the UK). Only use this if daylight is nonzero.
-
-2
+|2|
 
 [time.asctime([tupletime])](https://www.tutorialspoint.com/python/time_asctime.htm)
 
-Accepts a time-tuple and returns a readable 24-character string such as 'Tue Dec 11 18:07:14 2008'.
+Accepts a time-tuple and returns a readable 24-character string such as 'Tue Dec 11 18:07:14 2008'.|
 
 3
 
@@ -300,5 +294,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTA5NDQ2NCwtMzU5MTY0MDMyXX0=
+eyJoaXN0b3J5IjpbMTcwNTMzMjAyOSwtMzU5MTY0MDMyXX0=
 -->
