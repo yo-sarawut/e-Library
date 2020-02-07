@@ -151,9 +151,9 @@ To use the  `timeit`  library, we have to set up some strings for testing:
 22.  dict_unpacking = """\
 23.  powers = {**yusuke_power, **hiei_power}
 24.  """
-```p
+```
 With our strings setup, we can begin our performance test:
-
+```py
 1.  >>> import timeit
 2.  >>> timeit.timeit(stmt=brute_force, setup=setup)
 3.  1.517404469999974
@@ -163,7 +163,7 @@ With our strings setup, we can begin our performance test:
 7.  0.7273476979999032
 8.  >>> timeit.timeit(stmt=dict_unpacking, setup=setup)
 9.  0.2897768919999635
-
+```
 As it turns out, dictionary unpacking is very fast. For reference, I performed the testing on a Surface Go with Windows 10 and Python 3.7.1.
 
 ## A Little Recap
@@ -173,7 +173,7 @@ Well, that’s all I have in terms of typical solutions. All that said, be aware
 Also, it’s worth noting that all of these solutions perform  [a shallow copy](https://therenegadecoder.com/code/be-careful-when-copying-mutable-data-types/)  of the dictionaries. As a result, dictionaries that may be nested or store objects will only have their references copied, not the actual values. If that’s a constraint in your application, you may need to write your own recursive copy function.
 
 At any rate, here are all the solutions:
-
+```py
 1.  yusuke_power = {"Yusuke Urameshi": "Spirit Gun"}
 2.  hiei_power = {"Hiei": "Jagan Eye"}
 3.  powers = dict()
@@ -199,7 +199,7 @@ At any rate, here are all the solutions:
 23.  for dictionary in dicts:
 24.  merge_dict.update(dictionary)
 25.  return merged_dict
-
+```
 And, that’s it! As always, I appreciate the support. If you liked this article, do me a favor and share it with someone. For those feeling extra generous,  [consider becoming a member of The Renegade Coder](https://www.patreon.com/TheRenegadeCoder). If you’re not convinced, check out some of these other Python articles:
 
 -   [Rock Paper Scissors Using Modular Arithmetic](https://therenegadecoder.com/code/rock-paper-scissors-using-modular-arithmetic/)
@@ -211,5 +211,5 @@ Once again, thanks for the support! Before you go, share your recommendation for
 
 > [Source : ](https://therenegadecoder.com/code/how-to-merge-two-dictionaries-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk4NDY5OCwtNTA4NjY4OTczXX0=
+eyJoaXN0b3J5IjpbLTQ0MzgyNTEyMiwtNTA4NjY4OTczXX0=
 -->
