@@ -250,10 +250,13 @@ print(datetime.datetime(1970,1,1,7,0,0).timestamp())
 ตัวอย่าง
 ```py
 dtdt = datetime.datetime(2016,6,21,17,35,30,115421)  
-dtdt.replace(2015)  # ได้ datetime.datetime(2015, 6, 21, 17, 35, 30, 115421)  
-dtdt.replace(month=7)  # ได้ datetime.datetime(2016, 7, 21, 17, 35, 30, 115421)  
-dtdt.replace(second=0,microsecond=0)  # ได้ datetime.datetime(2016, 6, 21, 17, 35)
-
+dtdt.replace(2015)  
+# ได้ datetime.datetime(2015, 6, 21, 17, 35, 30, 115421)  
+dtdt.replace(month=7)  
+# ได้ datetime.datetime(2016, 7, 21, 17, 35, 30, 115421)  
+dtdt.replace(second=0,microsecond=0)  
+# ได้ datetime.datetime(2016, 6, 21, 17, 35)
+```
   
   
   
@@ -261,31 +264,13 @@ dtdt.replace(second=0,microsecond=0)  # ได้ datetime.datetime(2016, 6, 21,
 นอกจาก การแสดงผล datetime.datetime ด้วยเมธอดตามที่กล่าวมาข้างต้น เราสามารถให้แสดงผลวันเวลาในรูปแบบตามที่ต้องการซึ่งกำหนดเองได้โดยใช้เมธอด strftime  
   
 อาร์กิวเมนต์ที่ต้องใส่คือสายอักขระที่ประกอบไปด้วย % ตามด้วยอักษร ซึ่งแทนค่าในส่วนต่างๆในรูปแบบต่างๆของวันเวลา ซึ่งสรุปได้ตามนี้
-
-%a
-
-วันในสัปดาห์ในรูปย่อ
-
-%A
-
-วันในสัปดาห์เป็นชื่อเต็ม
-
-%w
-
-วันในสัปดาห์เป็นตัวเลข อาทิตย์เป็น 0 เสาร์เป็น 6
-
-%d
-
-วันที่ในรูปเลขสองหลัก (เติม 0 เมื่อมีหลักเดียว)
-
-%b
-
-ชื่อเดือนในรูปย่อ
-
-%B
-
-ชื่อเดือนเป็นชื่อเต็ม
-
+```py
+%a	วันในสัปดาห์ในรูปย่อ
+%A	วันในสัปดาห์เป็นชื่อเต็ม
+%w	วันในสัปดาห์เป็นตัวเลข อาทิตย์เป็น 0 เสาร์เป็น 6	
+%d	วันที่ในรูปเลขสองหลัก (เติม 0 เมื่อมีหลักเดียว)
+%b	ชื่อเดือนในรูปย่อ
+%B	ชื่อเดือนเป็นชื่อเต็ม
 %m
 
 เลขเดือนเป็นเลขสองหลัก (เติม 0 เมื่อมีหลักเดียว)
@@ -341,7 +326,7 @@ dtdt.replace(second=0,microsecond=0)  # ได้ datetime.datetime(2016, 6, 21,
 %X
 
 ชั่วโมง:นาที:วินาที
-
+```
   
 ตัวอย่าง
 
@@ -435,5 +420,5 @@ print(datetime.datetime.strptime(r,fmt))  # ได้ 1842-11-05 08:41:32
 
 > [Source : ](https://phyblas.hinaboshi.com/20160621)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NzY3MTRdfQ==
+eyJoaXN0b3J5IjpbLTQyMTUzMzIwN119
 -->
