@@ -241,7 +241,7 @@ for date in date_array:
 
 Output:
 
-```sh
+```py
 $ python3 dateutil-1.py
 Parsing: 2018-06-29 08:15:27.243860
 2018-06-29
@@ -373,7 +373,7 @@ for date in date_array:
 
 Output:
 
-```sh
+```py
 $ python3 maya-3.py
 Parsing: 2018-06-29 08:15:27.243860
 2018-06-29 08:15:27.243860+00:00
@@ -455,7 +455,7 @@ print(dt.tzinfo)
 
 Output:
 
-```sh
+```py
 $ python3 arrow-1.py
 2018-04-29
 17:45:25
@@ -512,12 +512,11 @@ for date in date_array:
     print(dt.date())
     print(dt.time())
     print(dt.tzinfo)
-
 ```
 
 This code will fail for the date-time strings that have been commented out. The output for other strings will be:
 
-```sh
+```py
 $ python3 arrow-3.py
 Parsing: 2018-06-29 08:15:27.243860
 2018-06-29T08:15:27.243860+00:00
@@ -558,5 +557,5 @@ One more problem we face is dealing with timezones. The best way to handle them 
 
 > Source [stackabuse.com](https://stackabuse.com/converting-strings-to-datetime-in-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYwNjkwMjNdfQ==
+eyJoaXN0b3J5IjpbMTkyNjI0MjMxNSwtMTgzNjA2OTAyM119
 -->
