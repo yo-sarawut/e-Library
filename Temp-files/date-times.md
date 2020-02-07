@@ -75,24 +75,26 @@ You can format any time as per your requirement, but simple method to get time i
 
 ```py
 #!/usr/bin/python  
-import time; localtime = time.asctime( time.localtime(time.time())  )  print  "Local current time :", localtime
+import time; 
+localtime = time.asctime( time.localtime(time.time())  )  
+print  "Local current time :", localtime
 ```
 This would produce the following result −
-
+```py
 Local current time : Tue Jan 13 10:17:09 2009
-
+```
 ## Getting calendar for a month
 
 The calendar module gives a wide range of methods to play with yearly and monthly calendars. Here, we print a calendar for a given month ( Jan 2008 ) −
 
-[Live Demo](http://tpcg.io/R9vlY8)
-
+```py
 #!/usr/bin/python  import calendar
-
-cal = calendar.month(2008,  1)  print  "Here is the calendar:"  print cal
-
+cal = calendar.month(2008,  1)  
+print  "Here is the calendar:"  
+print cal
+```
 This would produce the following result −
-
+```py
 Here is the calendar:
    January 2008
 Mo Tu We Th Fr Sa Su
@@ -101,18 +103,18 @@ Mo Tu We Th Fr Sa Su
 14 15 16 17 18 19 20
 21 22 23 24 25 26 27
 28 29 30 31
-
+```
 ## The  _time_  Module
 
 There is a popular  **time**  module available in Python which provides functions for working with times and for converting between representations. Here is the list of all available methods −
 
-Sr.No.
+| a |b |
+|-----|-----|
+
 
 Function with Description
 
-1
-
-[time.altzone](https://www.tutorialspoint.com/python/time_altzone.htm)
+1 [time.altzone](https://www.tutorialspoint.com/python/time_altzone.htm)
 
 The offset of the local DST timezone, in seconds west of UTC, if one is defined. This is negative if the local DST timezone is east of UTC (as in Western Europe, including the UK). Only use this if daylight is nonzero.
 
@@ -298,5 +300,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NDExMzY5LC0zNTkxNjQwMzJdfQ==
+eyJoaXN0b3J5IjpbMTYyOTA5NDQ2NCwtMzU5MTY0MDMyXX0=
 -->
