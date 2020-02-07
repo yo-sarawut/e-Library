@@ -9,7 +9,7 @@ There is a popular  **time**  module available in Python which provides function
 
 ## Example
 
-[Live Demo](http://tpcg.io/AiJa9O)
+
 ```py
 #!/usr/bin/python  
 import time;  # This is required to include time module. 
@@ -167,5 +167,6 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://www.tutorialspoint.com/python/python_date_time.htm).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY0NTE1MzksLTM1OTE2NDAzMl19
+eyJoaXN0b3J5IjpbMzkxOTYyODc1LC0xMTI2NDUxNTM5LC0zNT
+kxNjQwMzJdfQ==
 -->
