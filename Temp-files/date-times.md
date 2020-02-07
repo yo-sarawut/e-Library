@@ -10,9 +10,9 @@ There is a popular  **time**  module available in Python which provides function
 ## Example
 
 [Live Demo](http://tpcg.io/AiJa9O)
-
+```py
 #!/usr/bin/python  import time;  # This is required to include time module. ticks = time.time()  print  "Number of ticks since 12:00am, January 1, 1970:", ticks
-
+```
 This would produce a result something as follows −
 
 Number of ticks since 12:00am, January 1, 1970: 7186862.73399
@@ -387,5 +387,5 @@ If you are interested, then here you would find a list of other important module
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTY5MTU3NF19
+eyJoaXN0b3J5IjpbMTg4NDQ0NjczMV19
 -->
