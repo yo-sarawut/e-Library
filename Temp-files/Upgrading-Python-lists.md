@@ -1,6 +1,6 @@
 ---
 bookFlatSection: true
-title: Format a String in Python
+title: Upgrading Python lists
 bookToc: true
 
 ---
@@ -109,5 +109,5 @@ All in all it’s a great data structure and can easily be used instead of lists
 
 > [Source : ](https://towardsdatascience.com/upgrading-python-lists-35440096ec36).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwOTE2NzE4XX0=
+eyJoaXN0b3J5IjpbMjEzMDQwOTY5OCw2NzA5MTY3MThdfQ==
 -->
