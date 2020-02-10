@@ -1449,47 +1449,47 @@ An exception on this basic propagation rule are  _reductions_  (such as the mean
 For logical operations,  `pd.NA`  follows the rules of the  [three-valued logic](https://en.wikipedia.org/wiki/Three-valued_logic)  (or  _Kleene logic_, similarly to R, SQL and Julia). This logic means to only propagate missing values when it is logically required.
 
 For example, for the logical “or” operation (`|`), if one of the operands is  `True`, we already know the result will be  `True`, regardless of the other value (so regardless the missing value would be  `True`  or  `False`). In this case,  `pd.NA`  does not propagate:
-
+```py
 In [155]: True | False
-Out[155]: True
+#Out[155]: True
 
 In [156]: True | pd.NA
-Out[156]: True
+#Out[156]: True
 
 In [157]: pd.NA | True
-Out[157]: True
-
+#Out[157]: True
+```
 On the other hand, if one of the operands is  `False`, the result depends on the value of the other operand. Therefore, in this case  `pd.NA`  propagates:
-
+```py
 In [158]: False | True
-Out[158]: True
+#Out[158]: True
 
 In [159]: False | False
-Out[159]: False
+#Out[159]: False
 
 In [160]: False | pd.NA
-Out[160]: <NA>
-
+#Out[160]: <NA>
+```
 The behaviour of the logical “and” operation (`&`) can be derived using similar logic (where now  `pd.NA`  will not propagate if one of the operands is already  `False`):
-
+```py
 In [161]: False & True
-Out[161]: False
+#Out[161]: False
 
 In [162]: False & False
-Out[162]: False
+#Out[162]: False
 
 In [163]: False & pd.NA
-Out[163]: False
+#Out[163]: False
 
 In [164]: True & True
-Out[164]: True
+#Out[164]: True
 
 In [165]: True & False
-Out[165]: False
+#Out[165]: False
 
 In [166]: True & pd.NA
-Out[166]: <NA>
-
+#Out[166]: <NA>
+```
 ### `NA`  in a boolean context[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-in-a-boolean-context "Permalink to this headline")
 
 Since the actual value of an NA is unknown, it is ambiguous to convert NA to a boolean value. The following raises an error:
@@ -1519,8 +1519,7 @@ Out[168]: <NA>
 In [169]: np.add(pd.NA, 1)
 Out[169]: <NA>
 ```
-> **Warning
-
+> **Warning**
 Currently, ufuncs involving an ndarray and  `NA`  will return an object-dtype filled with NA values.
 ```py
 In [170]: a = np.array([1, 2, 3])
@@ -1573,5 +1572,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI2MTY4MzIsMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbNTY5NTc4NTAxLDEwMzE4NDk1MTRdfQ==
 -->
