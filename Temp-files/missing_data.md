@@ -568,13 +568,15 @@ c  NaN  1.212112 -0.173215
 e  NaN  0.000000  0.000000
 f  NaN  0.000000  0.000000
 h  NaN -0.706771 -1.039575
-
+```
+```py
 In [58]: df.dropna(axis=0)
 Out[58]: 
 Empty DataFrame
 Columns: [one, two, three]
 Index: []
-
+```
+```py
 In [59]: df.dropna(axis=1)
 Out[59]: 
  two     three
@@ -586,7 +588,7 @@ h -0.706771 -1.039575
 
 In [60]: df['one'].dropna()
 Out[60]: Series([], Name: one, dtype: float64)
-
+```
 An equivalent  [`dropna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dropna.html#pandas.Series.dropna "pandas.Series.dropna")  is available for Series. DataFrame.dropna has considerably more options than Series.dropna, which can be examined  [in the API](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#api-dataframe-missing).
 
 ## Interpolation[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#interpolation "Permalink to this headline")
@@ -594,7 +596,7 @@ An equivalent  [`dropna()`](https://pandas.pydata.org/pandas-docs/stable/referen
 New in version 0.23.0: The  `limit_area`  keyword argument was added.
 
 Both Series and DataFrame objects have  [`interpolate()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html#pandas.DataFrame.interpolate "pandas.DataFrame.interpolate")  that, by default, performs linear interpolation at missing data points.
-
+```py
 In [61]: ts
 Out[61]: 
 2000-01-31    0.469112
@@ -609,15 +611,17 @@ Out[61]:
 2008-03-31   -8.184940
 2008-04-30   -9.011531
 Freq: BM, Length: 100, dtype: float64
-
+```
+```py
 In [62]: ts.count()
 Out[62]: 66
 
 In [63]: ts.plot()
+```
 Out[63]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc64878b650>
 
 ![../_images/series_before_interpolate.png](https://pandas.pydata.org/pandas-docs/stable/_images/series_before_interpolate.png)
-
+```py
 In [64]: ts.interpolate()
 Out[64]: 
 2000-01-31    0.469112
@@ -632,17 +636,19 @@ Out[64]:
 2008-03-31   -8.184940
 2008-04-30   -9.011531
 Freq: BM, Length: 100, dtype: float64
-
+```
+```py
 In [65]: ts.interpolate().count()
 Out[65]: 100
 
 In [66]: ts.interpolate().plot()
+```
 Out[66]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc648722910>
 
 ![../_images/series_interpolate.png](https://pandas.pydata.org/pandas-docs/stable/_images/series_interpolate.png)
 
 Index aware interpolation is available via the  `method`  keyword:
-
+```py
 In [67]: ts2
 Out[67]: 
 2000-01-31    0.469112
@@ -651,7 +657,8 @@ Out[67]:
 2005-01-31         NaN
 2008-04-30   -9.011531
 dtype: float64
-
+```
+```py
 In [68]: ts2.interpolate()
 Out[68]: 
 2000-01-31    0.469112
@@ -660,7 +667,8 @@ Out[68]:
 2005-01-31   -7.398284
 2008-04-30   -9.011531
 dtype: float64
-
+```
+```py
 In [69]: ts2.interpolate(method='time')
 Out[69]: 
 2000-01-31    0.469112
@@ -669,7 +677,7 @@ Out[69]:
 2005-01-31   -7.190866
 2008-04-30   -9.011531
 dtype: float64
-
+```
 For a floating-point index, use  `method='values'`:
 ```py
 In [70]: ser
@@ -1554,5 +1562,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTE5NjcyMSwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTQzNjE4NzYwOCwxMDMxODQ5NTE0XX0=
 -->
