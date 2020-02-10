@@ -27,7 +27,7 @@ In [3]: df['five'] = df['one'] > 0
 In [4]: df
 ```
 ```
-Out[4]: 
+#Out[4]: 
  one       two     three four   five
 a  0.469112 -0.282863 -1.509059  bar   True
 c -1.135632  1.212112 -0.173215  bar  False
@@ -41,7 +41,7 @@ In [5]: df2 = df.reindex(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])
 In [6]: df2
 ```
 ```
-Out[6]: 
+#Out[6]: 
  one       two     three four   five
 a  0.469112 -0.282863 -1.509059  bar   True
 b       NaN       NaN       NaN  NaN    NaN
@@ -57,7 +57,7 @@ To make detecting missing values easier (and across different array dtypes), pan
 In [7]: df2['one']
 ```
 ```
-Out[7]: 
+#Out[7]: 
 a    0.469112
 b         NaN
 c   -1.135632
@@ -72,7 +72,7 @@ Name: one, dtype: float64
 In [8]: pd.isna(df2['one'])
 ```
 ```
-Out[8]: 
+#Out[8]: 
 a    False
 b     True
 c    False
@@ -87,7 +87,7 @@ Name: one, dtype: bool
 In [9]: df2['four'].notna()
 ```
 ```
-Out[9]: 
+#Out[9]: 
 a     True
 b    False
 c     True
@@ -119,13 +119,13 @@ One has to be mindful that in Python (and NumPy), the  `nan's`  don’t compare 
 In [11]: None == None        # noqa: E711
 ```
 ```
-Out[11]: True
+#Out[11]: True
 ```
 ```py
 In [12]: np.nan == np.nan
 ```
 ```
-Out[12]: False
+#Out[12]: False
 ```
 
 So as compared to above, a scalar equality comparison versus a  `None/np.nan`  doesn’t provide useful information.
@@ -151,7 +151,7 @@ Because  `NaN`  is a float, a column of integers with even one missing values is
 In [14]: pd.Series([1, 2, np.nan, 4], dtype=pd.Int64Dtype())
 ```
 ```
-Out[14]: 
+#Out[14]: 
 0       1
 1       2
 2    <NA>
@@ -173,7 +173,7 @@ In [16]: df2['timestamp'] = pd.Timestamp('20120101')
 In [17]: df2
 ```
 ```
-Out[17]: 
+#Out[17]: 
  one       two     three four   five  timestamp
 a  0.469112 -0.282863 -1.509059  bar   True 2012-01-01
 c -1.135632  1.212112 -0.173215  bar  False 2012-01-01
@@ -187,7 +187,7 @@ In [18]: df2.loc[['a', 'c', 'h'], ['one', 'timestamp']] = np.nan
 In [19]: df2
 ```
 ```
-Out[19]: 
+#Out[19]: 
  one       two     three four   five  timestamp
 a       NaN -0.282863 -1.509059  bar   True        NaT
 c       NaN  1.212112 -0.173215  bar  False        NaT
@@ -199,7 +199,7 @@ h       NaN -0.706771 -1.039575  bar   True        NaT
 In [20]: df2.dtypes.value_counts()
 ```
 ```
-Out[20]: 
+#Out[20]: 
 float64           3
 datetime64[ns]    1
 bool              1
@@ -219,7 +219,7 @@ In [22]: s.loc[0] = None
 In [23]: s
 ```
 ```
-Out[23]: 
+#Out[23]: 
 0    NaN
 1    2.0
 2    3.0
@@ -235,7 +235,7 @@ In [26]: s.loc[1] = np.nan
 In [27]: s
 ```
 ```
-Out[27]: 
+#Out[27]: 
 0    None
 1     NaN
 2       c
@@ -248,7 +248,7 @@ Missing values propagate naturally through arithmetic operations between pandas 
 In [28]: a
 ```
 ```
-Out[28]: 
+#Out[28]: 
  one       two
 a       NaN -0.282863
 c       NaN  1.212112
@@ -260,7 +260,7 @@ h -2.104569 -0.706771
 In [29]: b
 ```
 ```
-Out[29]: 
+#Out[29]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  1.212112 -0.173215
@@ -272,7 +272,7 @@ h       NaN -0.706771 -1.039575
 In [30]: a + b
 ```
 ```
-Out[30]: 
+#Out[30]: 
  one  three       two
 a       NaN    NaN -0.565727
 c       NaN    NaN  2.424224
@@ -292,7 +292,7 @@ The descriptive statistics and computational methods discussed in the  [data str
 In [31]: df
 ```
 ```
-Out[31]: 
+#Out[31]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  1.212112 -0.173215
@@ -304,13 +304,13 @@ h       NaN -0.706771 -1.039575
 In [32]: df['one'].sum()
 ```
 ```
-Out[32]: -1.9853605075978744
+#Out[32]: -1.9853605075978744
 ```
 ```py
 In [33]: df.mean(1)
 ```
 ```
-Out[33]: 
+#Out[33]: 
 a   -0.895961
 c    0.519449
 e   -0.595625
@@ -322,7 +322,7 @@ dtype: float64
 In [34]: df.cumsum()
 ```
 ```
-Out[34]: 
+#Out[34]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  0.929249 -1.682273
@@ -334,7 +334,7 @@ h       NaN -1.316688 -2.511893
 In [35]: df.cumsum(skipna=False)
 ```
 ```
-Out[35]: 
+#Out[35]: 
  one       two     three
 a  NaN -0.282863 -1.509059
 c  NaN  0.929249 -1.682273
@@ -352,27 +352,27 @@ The sum of an empty or all-NA Series or column of a DataFrame is 0.
 In [36]: pd.Series([np.nan]).sum()
 ```
 ```
-Out[36]: 0.0
+#Out[36]: 0.0
 ```
 ```py
 In [37]: pd.Series([], dtype="float64").sum()
-Out[37]: 0.0
+#Out[37]: 0.0
 ```
 The product of an empty or all-NA Series or column of a DataFrame is 1.
 ```py
 In [38]: pd.Series([np.nan]).prod()
-Out[38]: 1.0
+#Out[38]: 1.0
 ```
 ```py
 In [39]: pd.Series([], dtype="float64").prod()
-Out[39]: 1.0
+#Out[39]: 1.0
 ```
 ## NA values in GroupBy[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-values-in-groupby "Permalink to this headline")
 
 NA groups in GroupBy are automatically excluded. This behavior is consistent with R, for example:
 ```py
 In [40]: df
-Out[40]: 
+#Out[40]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  1.212112 -0.173215
@@ -382,7 +382,7 @@ h       NaN -0.706771 -1.039575
 ```
 ```py
 In [41]: df.groupby('one').mean()
-Out[41]: 
+#Out[41]: 
  two     three
 one 
 -2.104569 -0.494929  1.071804
@@ -401,7 +401,7 @@ pandas objects are equipped with various data manipulation methods for dealing w
 **Replace NA with a scalar value**
 ```py
 In [42]: df2
-Out[42]: 
+#Out[42]: 
  one       two     three four   five  timestamp
 a       NaN -0.282863 -1.509059  bar   True        NaT
 c       NaN  1.212112 -0.173215  bar  False        NaT
@@ -411,7 +411,7 @@ h       NaN -0.706771 -1.039575  bar   True        NaT
 ```
 ```py
 In [43]: df2.fillna(0)
-Out[43]: 
+#Out[43]: 
  one       two     three four   five            timestamp
 a  0.000000 -0.282863 -1.509059  bar   True                    0
 c  0.000000  1.212112 -0.173215  bar  False                    0
@@ -421,7 +421,7 @@ h  0.000000 -0.706771 -1.039575  bar   True                    0
 ```
 ```py
 In [44]: df2['one'].fillna('missing')
-Out[44]: 
+#Out[44]: 
 a     missing
 c     missing
 e    0.119209
@@ -434,7 +434,7 @@ Name: one, dtype: object
 Using the same filling arguments as  [reindexing](https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics-reindexing), we can propagate non-NA values forward or backward:
 ```py
 In [45]: df
-Out[45]: 
+#Out[45]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  1.212112 -0.173215
@@ -444,7 +444,7 @@ h       NaN -0.706771 -1.039575
 ```
 ```py
 In [46]: df.fillna(method='pad')
-Out[46]: 
+#Out[46]: 
  one       two     three
 a       NaN -0.282863 -1.509059
 c       NaN  1.212112 -0.173215
@@ -457,7 +457,7 @@ h -2.104569 -0.706771 -1.039575
 If we only want consecutive gaps filled up to a certain number of data points, we can use the  limit  keyword:
 ```py
 In [47]: df
-Out[47]: 
+#Out[47]: 
  one       two     three
 a  NaN -0.282863 -1.509059
 c  NaN  1.212112 -0.173215
@@ -467,7 +467,7 @@ h  NaN -0.706771 -1.039575
 ```
 ```py
 In [48]: df.fillna(method='pad', limit=1)
-Out[48]: 
+#Out[48]: 
  one       two     three
 a  NaN -0.282863 -1.509059
 c  NaN  1.212112 -0.173215
@@ -506,7 +506,7 @@ In [51]: dff.iloc[4:6, 1] = np.nan
 In [52]: dff.iloc[5:8, 2] = np.nan
 
 In [53]: dff
-Out[53]: 
+#Out[53]: 
  A         B         C
 0  0.271860 -0.424972  0.567020
 1  0.276232 -1.087401 -0.673690
@@ -521,7 +521,7 @@ Out[53]:
 ```
 ```py
 In [54]: dff.fillna(dff.mean())
-Out[54]: 
+#Out[54]: 
  A         B         C
 0  0.271860 -0.424972  0.567020
 1  0.276232 -1.087401 -0.673690
@@ -536,7 +536,7 @@ Out[54]:
 ```
 ```py
 In [55]: dff.fillna(dff.mean()['B':'C'])
-Out[55]: 
+#Out[55]: 
  A         B         C
 0  0.271860 -0.424972  0.567020
 1  0.276232 -1.087401 -0.673690
@@ -552,7 +552,7 @@ Out[55]:
 Same result as above, but is aligning the ‘fill’ value which is a Series in this case.
 ```py
 In [56]: dff.where(pd.notna(dff), dff.mean(), axis='columns')
-Out[56]: 
+#Out[56]: 
  A         B         C
 0  0.271860 -0.424972  0.567020
 1  0.276232 -1.087401 -0.673690
@@ -570,7 +570,7 @@ Out[56]:
 You may wish to simply exclude labels from a data set which refer to missing data. To do this, use  [`dropna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html#pandas.DataFrame.dropna "pandas.DataFrame.dropna"):
 ```py
 In [57]: df
-Out[57]: 
+#Out[57]: 
  one       two     three
 a  NaN -0.282863 -1.509059
 c  NaN  1.212112 -0.173215
@@ -580,14 +580,14 @@ h  NaN -0.706771 -1.039575
 ```
 ```py
 In [58]: df.dropna(axis=0)
-Out[58]: 
+#Out[58]: 
 Empty DataFrame
 Columns: [one, two, three]
 Index: []
 ```
 ```py
 In [59]: df.dropna(axis=1)
-Out[59]: 
+#Out[59]: 
  two     three
 a -0.282863 -1.509059
 c  1.212112 -0.173215
@@ -596,7 +596,7 @@ f  0.000000  0.000000
 h -0.706771 -1.039575
 
 In [60]: df['one'].dropna()
-Out[60]: Series([], Name: one, dtype: float64)
+#Out[60]: Series([], Name: one, dtype: float64)
 ```
 An equivalent  [`dropna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dropna.html#pandas.Series.dropna "pandas.Series.dropna")  is available for Series. DataFrame.dropna has considerably more options than Series.dropna, which can be examined  [in the API](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#api-dataframe-missing).
 
@@ -607,7 +607,7 @@ New in version 0.23.0: The  `limit_area`  keyword argument was added.
 Both Series and DataFrame objects have  [`interpolate()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html#pandas.DataFrame.interpolate "pandas.DataFrame.interpolate")  that, by default, performs linear interpolation at missing data points.
 ```py
 In [61]: ts
-Out[61]: 
+#Out[61]: 
 2000-01-31    0.469112
 2000-02-29         NaN
 2000-03-31         NaN
@@ -623,16 +623,16 @@ Freq: BM, Length: 100, dtype: float64
 ```
 ```py
 In [62]: ts.count()
-Out[62]: 66
+#Out[62]: 66
 
 In [63]: ts.plot()
 ```
-Out[63]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc64878b650>
+#Out[63]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc64878b650>
 
 ![../_images/series_before_interpolate.png](https://pandas.pydata.org/pandas-docs/stable/_images/series_before_interpolate.png)
 ```py
 In [64]: ts.interpolate()
-Out[64]: 
+#Out[64]: 
 2000-01-31    0.469112
 2000-02-29    0.434469
 2000-03-31    0.399826
@@ -648,18 +648,18 @@ Freq: BM, Length: 100, dtype: float64
 ```
 ```py
 In [65]: ts.interpolate().count()
-Out[65]: 100
+#Out[65]: 100
 
 In [66]: ts.interpolate().plot()
 ```
-Out[66]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc648722910>
+#Out[66]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc648722910>
 
 ![../_images/series_interpolate.png](https://pandas.pydata.org/pandas-docs/stable/_images/series_interpolate.png)
 
 Index aware interpolation is available via the  `method`  keyword:
 ```py
 In [67]: ts2
-Out[67]: 
+#Out[67]: 
 2000-01-31    0.469112
 2000-02-29         NaN
 2002-07-31   -5.785037
@@ -669,7 +669,7 @@ dtype: float64
 ```
 ```py
 In [68]: ts2.interpolate()
-Out[68]: 
+#Out[68]: 
 2000-01-31    0.469112
 2000-02-29   -2.657962
 2002-07-31   -5.785037
@@ -679,7 +679,7 @@ dtype: float64
 ```
 ```py
 In [69]: ts2.interpolate(method='time')
-Out[69]: 
+#Out[69]: 
 2000-01-31    0.469112
 2000-02-29    0.270241
 2002-07-31   -5.785037
@@ -690,7 +690,7 @@ dtype: float64
 For a floating-point index, use  `method='values'`:
 ```py
 In [70]: ser
-Out[70]: 
+#Out[70]: 
 0.0      0.0
 1.0      NaN
 10.0    10.0
@@ -698,7 +698,7 @@ dtype: float64
 ```
 ```py
 In [71]: ser.interpolate()
-Out[71]: 
+#Out[71]: 
 0.0      0.0
 1.0      5.0
 10.0    10.0
@@ -706,7 +706,7 @@ dtype: float64
 ```
 ```py
 In [72]: ser.interpolate(method='values')
-Out[72]: 
+#Out[72]: 
 0.0      0.0
 1.0      1.0
 10.0    10.0
@@ -719,7 +719,7 @@ In [73]: df = pd.DataFrame({'A': [1, 2.1, np.nan, 4.7, 5.6, 6.8],
  ....: 
 
 In [74]: df
-Out[74]: 
+#Out[74]: 
  A      B
 0  1.0   0.25
 1  2.1    NaN
@@ -730,7 +730,7 @@ Out[74]:
 ```
 ```py
 In [75]: df.interpolate()
-Out[75]: 
+#Out[75]: 
  A      B
 0  1.0   0.25
 1  2.1   1.50
@@ -739,7 +739,7 @@ Out[75]:
 4  5.6  12.20
 5  6.8  14.40
 ```
-The  `method`  argument gives access to fancier interpolation methods. If you have  [scipy](http://www.scipy.org/)  installed, you can pass the name of a 1-d interpolation routine to  `method`. You’ll want to consult the full scipy interpolation  [documentation](http://docs.scipy.org/doc/scipy/reference/interpolate.html#univariate-interpolation)  and reference  [guide](http://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)  for details. The appropriate interpolation method will depend on the type of data you are working with.
+The  `method`  argument gives access to fancier interpolation methods. If you have  [scipy](http://www.scipy.org/)  installed, you can pass the name of a 1-d interpolation r#Outine to  `method`. You’ll want to consult the full scipy interpolation  [documentation](http://docs.scipy.org/doc/scipy/reference/interpolate.html#univariate-interpolation)  and reference  [guide](http://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)  for details. The appropriate interpolation method will depend on the type of data you are working with.
 
 -   If you are dealing with a time series that is growing at an increasing rate,  `method='quadratic'`  may be appropriate.
     
@@ -753,7 +753,7 @@ Warning
 These methods require  `scipy`.
 ```py
 In [76]: df.interpolate(method='barycentric')
-Out[76]: 
+#Out[76]: 
  A       B
 0  1.00   0.250
 1  2.10  -7.660
@@ -764,7 +764,7 @@ Out[76]:
 ```
 ```py
 In [77]: df.interpolate(method='pchip')
-Out[77]: 
+#Out[77]: 
  A          B
 0  1.00000   0.250000
 1  2.10000   0.672808
@@ -775,7 +775,7 @@ Out[77]:
 ```
 ```py
 In [78]: df.interpolate(method='akima')
-Out[78]: 
+#Out[78]: 
  A          B
 0  1.000000   0.250000
 1  2.100000  -0.873316
@@ -787,7 +787,7 @@ Out[78]:
 When interpolating via a polynomial or spline approximation, you must also specify the degree or order of the approximation:
 ```py
 In [79]: df.interpolate(method='spline', order=2)
-Out[79]: 
+#Out[79]: 
  A          B
 0  1.000000   0.250000
 1  2.100000  -0.428598
@@ -798,7 +798,7 @@ Out[79]:
 ```
 ```py
 In [80]: df.interpolate(method='polynomial', order=2)
-Out[80]: 
+#Out[80]: 
  A          B
 0  1.000000   0.250000
 1  2.100000  -2.703846
@@ -823,7 +823,7 @@ In [86]: df = pd.DataFrame({m: ser.interpolate(method=m) for m in methods})
 
 In [87]: df.plot()
 ```
-Out[87]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc649e9f7d0>
+#Out[87]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc649e9f7d0>
 
 ![../_images/compare_interpolations.png](https://pandas.pydata.org/pandas-docs/stable/_images/compare_interpolations.png)
 
@@ -837,7 +837,7 @@ In [89]: new_index = ser.index | pd.Index([49.25, 49.5, 49.75, 50.25, 50.5, 50.7
 In [90]: interp_s = ser.reindex(new_index).interpolate(method='pchip')
 
 In [91]: interp_s[49:51]
-Out[91]: 
+#Out[91]: 
 49.00    0.471410
 49.25    0.476841
 49.50    0.481780
@@ -858,7 +858,7 @@ In [92]: ser = pd.Series([np.nan, np.nan, 5, np.nan, np.nan,
  ....: 
 
 In [93]: ser
-Out[93]: 
+#Out[93]: 
 0     NaN
 1     NaN
 2     5.0
@@ -873,7 +873,7 @@ dtype: float64
 ```py
 # fill all consecutive values in a forward direction
 In [94]: ser.interpolate()
-Out[94]: 
+#Out[94]: 
 0     NaN
 1     NaN
 2     5.0
@@ -888,7 +888,7 @@ dtype: float64
 ```py
 # fill one consecutive value in a forward direction
 In [95]: ser.interpolate(limit=1)
-Out[95]: 
+#Out[95]: 
 0     NaN
 1     NaN
 2     5.0
@@ -905,7 +905,7 @@ By default,  `NaN`  values are filled in a  `forward`  direction. Use  `limit_di
 ```py
 # fill one consecutive value backwards
 In [96]: ser.interpolate(limit=1, limit_direction='backward')
-Out[96]: 
+#Out[96]: 
 0     NaN
 1     5.0
 2     5.0
@@ -920,7 +920,7 @@ dtype: float64
 ```py
 # fill one consecutive value in both directions
 In [97]: ser.interpolate(limit=1, limit_direction='both')
-Out[97]: 
+#Out[97]: 
 0     NaN
 1     5.0
 2     5.0
@@ -935,7 +935,7 @@ dtype: float64
 ```py
 # fill all consecutive values in both directions
 In [98]: ser.interpolate(limit_direction='both')
-Out[98]: 
+#Out[98]: 
 0     5.0
 1     5.0
 2     5.0
@@ -947,11 +947,11 @@ Out[98]:
 8    13.0
 dtype: float64
 ```
-By default,  `NaN`  values are filled whether they are inside (surrounded by) existing valid values, or outside existing valid values. Introduced in v0.23 the  `limit_area`  parameter restricts filling to either inside or outside values.
+By default,  `NaN`  values are filled whether they are inside (surrounded by) existing valid values, or #Outside existing valid values. Introduced in v0.23 the  `limit_area`  parameter restricts filling to either inside or #Outside values.
 ```py
 # fill one consecutive inside value in both directions
 In [99]: ser.interpolate(limit_direction='both', limit_area='inside', limit=1)
-Out[99]: 
+#Out[99]: 
 0     NaN
 1     NaN
 2     5.0
@@ -964,9 +964,9 @@ Out[99]:
 dtype: float64
 ```
 ```py
-# fill all consecutive outside values backward
-In [100]: ser.interpolate(limit_direction='backward', limit_area='outside')
-Out[100]: 
+# fill all consecutive #Outside values backward
+In [100]: ser.interpolate(limit_direction='backward', limit_area='#Outside')
+#Out[100]: 
 0     5.0
 1     5.0
 2     5.0
@@ -979,9 +979,9 @@ Out[100]:
 dtype: float64
 ```
 ```py
-# fill all consecutive outside values in both directions
-In [101]: ser.interpolate(limit_direction='both', limit_area='outside')
-Out[101]: 
+# fill all consecutive #Outside values in both directions
+In [101]: ser.interpolate(limit_direction='both', limit_area='#Outside')
+#Out[101]: 
 0     5.0
 1     5.0
 2     5.0
@@ -1004,7 +1004,7 @@ For a Series, you can replace a single value or a list of values by another valu
 In [102]: ser = pd.Series([0., 1., 2., 3., 4.])
 
 In [103]: ser.replace(0, 5)
-Out[103]: 
+#Out[103]: 
 0    5.0
 1    1.0
 2    2.0
@@ -1015,7 +1015,7 @@ dtype: float64
 You can replace a list of values by a list of other values:
 
 In [104]: ser.replace([0, 1, 2, 3, 4], [4, 3, 2, 1, 0])
-Out[104]: 
+#Out[104]: 
 0    4.0
 1    3.0
 2    2.0
@@ -1026,7 +1026,7 @@ dtype: float64
 You can also specify a mapping dict:
 ```
 In [105]: ser.replace({0: 10, 1: 100})
-Out[105]: 
+#Out[105]: 
 0     10.0
 1    100.0
 2      2.0
@@ -1039,7 +1039,7 @@ For a DataFrame, you can specify individual values by column:
 In [106]: df = pd.DataFrame({'a': [0, 1, 2, 3, 4], 'b': [5, 6, 7, 8, 9]})
 
 In [107]: df.replace({'a': 0, 'b': 5}, 100)
-Out[107]: 
+#Out[107]: 
  a    b
 0  100  100
 1    1    6
@@ -1050,7 +1050,7 @@ Out[107]:
 Instead of replacing with specified values, you can treat all given values as missing and interpolate over them:
 ```
 In [108]: ser.replace([1, 2, 3], method='pad')
-Out[108]: 
+#Out[108]: 
 0    0.0
 1    0.0
 2    0.0
@@ -1062,7 +1062,7 @@ dtype: float64
 
 Note
 
-Python strings prefixed with the  `r`  character such as  `r'hello  world'`  are so-called “raw” strings. They have different semantics regarding backslashes than strings without this prefix. Backslashes in raw strings will be interpreted as an escaped backslash, e.g.,  `r'\'  ==  '\\'`. You should  [read about them](https://docs.python.org/3/reference/lexical_analysis.html#string-literals)  if this is unclear.
+Python strings prefixed with the  `r`  character such as  `r'hello  world'`  are so-called “raw” strings. They have different semantics regarding backslashes than strings with#Out this prefix. Backslashes in raw strings will be interpreted as an escaped backslash, e.g.,  `r'\'  ==  '\\'`. You should  [read ab#Out them](https://docs.python.org/3/reference/lexical_analysis.html#string-literals)  if this is unclear.
 
 Replace the ‘.’ with  `NaN`  (str -> str):
 
@@ -1071,7 +1071,7 @@ In [109]: d = {'a': list(range(4)), 'b': list('ab..'), 'c': ['a', 'b', np.nan, '
 In [110]: df = pd.DataFrame(d)
 
 In [111]: df.replace('.', np.nan)
-Out[111]: 
+#Out[111]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1081,7 +1081,7 @@ Out[111]:
 Now do it with a regular expression that removes surrounding whitespace (regex -> regex):
 
 In [112]: df.replace(r'\s*\.\s*', np.nan, regex=True)
-Out[112]: 
+#Out[112]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1091,7 +1091,7 @@ Out[112]:
 Replace a few different values (list -> list):
 
 In [113]: df.replace(['a', '.'], ['b', np.nan])
-Out[113]: 
+#Out[113]: 
  a    b    c
 0  0    b    b
 1  1    b    b
@@ -1101,7 +1101,7 @@ Out[113]:
 list of regex -> list of regex:
 
 In [114]: df.replace([r'\.', r'(a)'], ['dot', r'\1stuff'], regex=True)
-Out[114]: 
+#Out[114]: 
  a       b       c
 0  0  astuff  astuff
 1  1       b       b
@@ -1111,7 +1111,7 @@ Out[114]:
 Only search in column  `'b'`  (dict -> dict):
 
 In [115]: df.replace({'b': '.'}, {'b': np.nan})
-Out[115]: 
+#Out[115]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1121,7 +1121,7 @@ Out[115]:
 Same as the previous example, but use a regular expression for searching instead (dict of regex -> dict):
 
 In [116]: df.replace({'b': r'\s*\.\s*'}, {'b': np.nan}, regex=True)
-Out[116]: 
+#Out[116]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1131,7 +1131,7 @@ Out[116]:
 You can pass nested dictionaries of regular expressions that use  `regex=True`:
 
 In [117]: df.replace({'b': {'b': r''}}, regex=True)
-Out[117]: 
+#Out[117]: 
  a  b    c
 0  0  a    a
 1  1       b
@@ -1141,7 +1141,7 @@ Out[117]:
 Alternatively, you can pass the nested dictionary like so:
 
 In [118]: df.replace(regex={'b': {r'\s*\.\s*': np.nan}})
-Out[118]: 
+#Out[118]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1151,7 +1151,7 @@ Out[118]:
 You can also use the group of a regular expression match when replacing (dict of regex -> dict of regex), this works for lists as well.
 
 In [119]: df.replace({'b': r'\s*(\.)\s*'}, {'b': r'\1ty'}, regex=True)
-Out[119]: 
+#Out[119]: 
  a    b    c
 0  0    a    a
 1  1    b    b
@@ -1161,7 +1161,7 @@ Out[119]:
 You can pass a list of regular expressions, of which those that match will be replaced with a scalar (list of regex -> regex).
 
 In [120]: df.replace([r'\s*\.\s*', r'a|b'], np.nan, regex=True)
-Out[120]: 
+#Out[120]: 
  a   b    c
 0  0 NaN  NaN
 1  1 NaN  NaN
@@ -1171,7 +1171,7 @@ Out[120]:
 All of the regular expression examples can also be passed with the  `to_replace`  argument as the  `regex`  argument. In this case the  `value`  argument must be passed explicitly by name or  `regex`  must be a nested dictionary. The previous example, in this case, would then be:
 
 In [121]: df.replace(regex=[r'\s*\.\s*', r'a|b'], value=np.nan)
-Out[121]: 
+#Out[121]: 
  a   b    c
 0  0 NaN  NaN
 1  1 NaN  NaN
@@ -1193,7 +1193,7 @@ In [122]: df = pd.DataFrame(np.random.randn(10, 2))
 In [123]: df[np.random.rand(df.shape[0]) > 0.5] = 1.5
 
 In [124]: df.replace(1.5, np.nan)
-Out[124]: 
+#Out[124]: 
  0         1
 0 -0.844214 -1.021415
 1  0.432396 -0.323580
@@ -1211,7 +1211,7 @@ Replacing more than one value is possible by passing a list.
 In [125]: df00 = df.iloc[0, 0]
 
 In [126]: df.replace([1.5, df00], [np.nan, 'a'])
-Out[126]: 
+#Out[126]: 
  0         1
 0         a  -1.02141
 1  0.432396  -0.32358
@@ -1225,7 +1225,7 @@ Out[126]:
 9       NaN       NaN
 
 In [127]: df[1].dtype
-Out[127]: dtype('float64')
+#Out[127]: dtype('float64')
 
 You can also operate on the DataFrame in place:
 
@@ -1246,7 +1246,7 @@ However, when replacing a  _single_  object such as,
 In [129]: s = pd.Series([True, False, True])
 
 In [130]: s.replace('a string', 'another string')
-Out[130]: 
+#Out[130]: 
 0     True
 1    False
 2     True
@@ -1283,7 +1283,7 @@ For example:
 In [131]: s = pd.Series(np.random.randn(5), index=[0, 2, 4, 6, 7])
 
 In [132]: s > 0
-Out[132]: 
+#Out[132]: 
 0    True
 2    True
 4    True
@@ -1292,12 +1292,12 @@ Out[132]:
 dtype: bool
 
 In [133]: (s > 0).dtype
-Out[133]: dtype('bool')
+#Out[133]: dtype('bool')
 
 In [134]: crit = (s > 0).reindex(list(range(8)))
 
 In [135]: crit
-Out[135]: 
+#Out[135]: 
 0    True
 1     NaN
 2    True
@@ -1309,7 +1309,7 @@ Out[135]:
 dtype: object
 
 In [136]: crit.dtype
-Out[136]: dtype('O')
+#Out[136]: dtype('O')
 
 Ordinarily NumPy will complain if you try to use an object array (even if it contains boolean values) instead of a boolean array to get or set values from an ndarray (e.g. selecting values based on some criteria). If a boolean vector contains NAs, an exception will be generated:
 
@@ -1340,7 +1340,7 @@ ValueError: cannot mask with array containing NA / NaN values
 However, these can be filled in using  [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna")  and it will work fine:
 
 In [139]: reindexed[crit.fillna(False)]
-Out[139]: 
+#Out[139]: 
 0    0.126504
 2    0.696198
 4    0.697416
@@ -1349,7 +1349,7 @@ Out[139]:
 dtype: float64
 
 In [140]: reindexed[crit.fillna(True)]
-Out[140]: 
+#Out[140]: 
 0    0.126504
 1    0.000000
 2    0.696198
@@ -1365,7 +1365,7 @@ Pandas provides a nullable integer dtype, but you must explicitly request it whe
 In [141]: s = pd.Series([0, 1, np.nan, 3, 4], dtype="Int64")
 
 In [142]: s
-Out[142]: 
+#Out[142]: 
 0       0
 1       1
 2    <NA>
@@ -1379,7 +1379,7 @@ See  [Nullable integer data type](https://pandas.pydata.org/pandas-docs/stable/u
 
 Warning
 
-Experimental: the behaviour of  `pd.NA`  can still change without warning.
+Experimental: the behaviour of  `pd.NA`  can still change with#Out warning.
 
 New in version 1.0.0.
 
@@ -1392,56 +1392,56 @@ For example, when having missing values in a Series with the nullable integer dt
 In [143]: s = pd.Series([1, 2, None], dtype="Int64")
 
 In [144]: s
-Out[144]: 
+#Out[144]: 
 0       1
 1       2
 2    <NA>
 dtype: Int64
 
 In [145]: s[2]
-Out[145]: <NA>
+#Out[145]: <NA>
 
 In [146]: s[2] is pd.NA
-Out[146]: True
+#Out[146]: True
 
 Currently, pandas does not yet use those data types by default (when creating a DataFrame or Series, or when reading in data), so you need to specify the dtype explicitly. An easy way to convert to those dtypes is explained  [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#missing-data-na-conversion).
 
 ### Propagation in arithmetic and comparison operations[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#propagation-in-arithmetic-and-comparison-operations "Permalink to this headline")
 
-In general, missing values  _propagate_  in operations involving  `pd.NA`. When one of the operands is unknown, the outcome of the operation is also unknown.
+In general, missing values  _propagate_  in operations involving  `pd.NA`. When one of the operands is unknown, the #Outcome of the operation is also unknown.
 
 For example,  `pd.NA`  propagates in arithmetic operations, similarly to  `np.nan`:
 
 In [147]: pd.NA + 1
-Out[147]: <NA>
+#Out[147]: <NA>
 
 In [148]: "a" * pd.NA
-Out[148]: <NA>
+#Out[148]: <NA>
 
 There are a few special cases when the result is known, even when one of the operands is  `NA`.
 
 In [149]: pd.NA ** 0
-Out[149]: 1
+#Out[149]: 1
 
 In [150]: 1 ** pd.NA
-Out[150]: 1
+#Out[150]: 1
 
 In equality and comparison operations,  `pd.NA`  also propagates. This deviates from the behaviour of  `np.nan`, where comparisons with  `np.nan`  always return  `False`.
 
 In [151]: pd.NA == 1
-Out[151]: <NA>
+#Out[151]: <NA>
 
 In [152]: pd.NA == pd.NA
-Out[152]: <NA>
+#Out[152]: <NA>
 
 In [153]: pd.NA < 2.5
-Out[153]: <NA>
-
+#Out[153]: <NA>
+```
 To check if a value is equal to  `pd.NA`, the  [`isna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html#pandas.isna "pandas.isna")  function can be used:
-
+```py
 In [154]: pd.isna(pd.NA)
-Out[154]: True
-
+#Out[154]: True
+```
 An exception on this basic propagation rule are  _reductions_  (such as the mean or the minimum), where pandas defaults to skipping missing values. See  [above](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#missing-data-calculations)  for more.
 
 ### Logical operations[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#logical-operations "Permalink to this headline")
@@ -1513,11 +1513,11 @@ A similar situation occurs when using Series or DataFrame objects in  `if`  stat
 `pandas.NA`  implements NumPy’s  `__array_ufunc__`  protocol. Most ufuncs work with  `NA`, and generally return  `NA`:
 ```py
 In [168]: np.log(pd.NA)
-Out[168]: <NA>
+#Out[168]: <NA>
 ```
 ```py
 In [169]: np.add(pd.NA, 1)
-Out[169]: <NA>
+#Out[169]: <NA>
 ```
 > **Warning**
 Currently, ufuncs involving an ndarray and  `NA`  will return an object-dtype filled with NA values.
@@ -1525,7 +1525,7 @@ Currently, ufuncs involving an ndarray and  `NA`  will return an object-dtype fi
 In [170]: a = np.array([1, 2, 3])
 
 In [171]: np.greater(a, pd.NA)
-Out[171]: array([<NA>, <NA>, <NA>], dtype=object)
+#Out[171]: array([<NA>, <NA>, <NA>], dtype=object)
 ```
 The return type here may change to return a different array type in the future.
 
@@ -1540,7 +1540,7 @@ In this example, while the dtypes of all columns are changed, we show the result
 In [172]: bb = pd.read_csv('data/baseball.csv', index_col='id')
 
 In [173]: bb[bb.columns[:10]].dtypes
-Out[173]: 
+#Out[173]: 
 player    object
 year       int64
 stint      int64
@@ -1557,7 +1557,7 @@ dtype: object
 In [174]: bbn = bb.convert_dtypes()
 
 In [175]: bbn[bbn.columns[:10]].dtypes
-Out[175]: 
+#Out[175]: 
 player    string
 year       Int64
 stint      Int64
@@ -1572,5 +1572,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NTc4NTAxLDEwMzE4NDk1MTRdfQ==
+eyJoaXN0b3J5IjpbMTcyMjk4OTI5MiwxMDMxODQ5NTE0XX0=
 -->
