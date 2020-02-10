@@ -100,10 +100,9 @@ Name: four, dtype: bool
 ```
 ```py
 In [10]: df2.isna()
-```py
 ```
-Out[10]: 
- one    two  three   four   five
+```
+one    two  three   four   five
 a  False  False  False  False  False
 b   True   True   True   True   True
 c  False  False  False  False  False
@@ -114,19 +113,27 @@ g   True   True   True   True   True
 h  False  False  False  False  False
 ```
 
->**Warning**
+> **Warning**
 One has to be mindful that in Python (and NumPy), the  `nan's`  don’t compare equal, but  `None's`  **do**. Note that pandas/NumPy uses the fact that  `np.nan  !=  np.nan`, and treats  `None`  like  `np.nan`.
-
-In [11]: None == None                                                 # noqa: E711
+```py
+In [11]: None == None        # noqa: E711
+```
+```
 Out[11]: True
-
+```
+```py
 In [12]: np.nan == np.nan
+```
+```
 Out[12]: False
+```
 
 So as compared to above, a scalar equality comparison versus a  `None/np.nan`  doesn’t provide useful information.
-
+```py
 In [13]: df2['one'] == np.nan
-Out[13]: 
+```
+```
+ 
 a    False
 b    False
 c    False
@@ -136,6 +143,7 @@ f    False
 g    False
 h    False
 Name: one, dtype: bool
+```
 
 ### Integer dtypes and missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#integer-dtypes-and-missing-data "Permalink to this headline")
 
@@ -1499,5 +1507,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MTQ5NTk1LDEwMzE4NDk1MTRdfQ==
+eyJoaXN0b3J5IjpbMTM5ODUwNjU1MiwxMDMxODQ5NTE0XX0=
 -->
