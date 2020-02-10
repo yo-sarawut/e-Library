@@ -111,10 +111,10 @@ All in all it’s a great data structure and can easily be used instead of lists
 
 
 
-|NO.|Description  |file  link  operator
-|--|--|
+|NO.|Description  |File  |Link  |Action | Update|
+|:----:|--|
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMTE2OTk1LDY3MDkxNjcxOF19
+eyJoaXN0b3J5IjpbNDY5NzQ0MDg2LDY3MDkxNjcxOF19
 -->
