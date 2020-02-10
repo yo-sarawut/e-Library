@@ -1511,22 +1511,23 @@ A similar situation occurs when using Series or DataFrame objects in  `if`  stat
 ### NumPy ufuncs[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#numpy-ufuncs "Permalink to this headline")
 
 `pandas.NA`  implements NumPy’s  `__array_ufunc__`  protocol. Most ufuncs work with  `NA`, and generally return  `NA`:
-
+```py
 In [168]: np.log(pd.NA)
 Out[168]: <NA>
-
+```
+```py
 In [169]: np.add(pd.NA, 1)
 Out[169]: <NA>
-
-Warning
+```
+> **Warning
 
 Currently, ufuncs involving an ndarray and  `NA`  will return an object-dtype filled with NA values.
-
+```py
 In [170]: a = np.array([1, 2, 3])
 
 In [171]: np.greater(a, pd.NA)
 Out[171]: array([<NA>, <NA>, <NA>], dtype=object)
-
+```
 The return type here may change to return a different array type in the future.
 
 See  [DataFrame interoperability with NumPy functions](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dsintro-numpy-interop)  for more on ufuncs.
@@ -1536,7 +1537,7 @@ See  [DataFrame interoperability with NumPy functions](https://pandas.pydata.org
 If you have a DataFrame or Series using traditional types that have missing data represented using  `np.nan`, there are convenience methods  [`convert_dtypes()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.convert_dtypes.html#pandas.Series.convert_dtypes "pandas.Series.convert_dtypes")  in Series and  [`convert_dtypes()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.convert_dtypes.html#pandas.DataFrame.convert_dtypes "pandas.DataFrame.convert_dtypes")  in DataFrame that can convert data to use the newer dtypes for integers, strings and booleans listed  [here](https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics-dtypes). This is especially helpful after reading in data sets when letting the readers such as  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv "pandas.read_csv")  and  [`read_excel()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html#pandas.read_excel "pandas.read_excel")  infer default dtypes.
 
 In this example, while the dtypes of all columns are changed, we show the results for the first 10 columns.
-
+```py
 In [172]: bb = pd.read_csv('data/baseball.csv', index_col='id')
 
 In [173]: bb[bb.columns[:10]].dtypes
@@ -1552,7 +1553,8 @@ r          int64
 h          int64
 X2b        int64
 dtype: object
-
+```
+```py
 In [174]: bbn = bb.convert_dtypes()
 
 In [175]: bbn[bbn.columns[:10]].dtypes
@@ -1568,8 +1570,8 @@ r          Int64
 h          Int64
 X2b        Int64
 dtype: object
-
-> [Source : ](https://).
+```
+> [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTY5MjA2MSwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTEwMjI2MTY4MzIsMTAzMTg0OTUxNF19
 -->
