@@ -303,9 +303,13 @@ h       NaN -0.706771 -1.039575
 ```py
 In [32]: df['one'].sum()
 ```
+```
 Out[32]: -1.9853605075978744
-
+```
+```py
 In [33]: df.mean(1)
+```
+```
 Out[33]: 
 a   -0.895961
 c    0.519449
@@ -313,8 +317,11 @@ e   -0.595625
 f   -0.509232
 h   -0.873173
 dtype: float64
-
+```
+```py
 In [34]: df.cumsum()
+```
+```
 Out[34]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -322,8 +329,11 @@ c       NaN  0.929249 -1.682273
 e  0.119209 -0.114987 -2.544122
 f -1.985361 -0.609917 -1.472318
 h       NaN -1.316688 -2.511893
-
+```
+```py
 In [35]: df.cumsum(skipna=False)
+```
+```
 Out[35]: 
  one       two     three
 a  NaN -0.282863 -1.509059
@@ -331,10 +341,10 @@ c  NaN  0.929249 -1.682273
 e  NaN -0.114987 -2.544122
 f  NaN -0.609917 -1.472318
 h  NaN -1.316688 -2.511893
-
+```
 ## Sum/prod of empties/nans[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#sum-prod-of-empties-nans "Permalink to this headline")
 
-Warning
+> **Warning**
 
 This behavior is now standard as of v0.22.0 and is consistent with the default in  `numpy`; previously sum/prod of all-NA or empty Series/DataFrames would return NaN. See  [v0.22.0 whatsnew](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.22.0.html#whatsnew-0220)  for more.
 
@@ -1529,5 +1539,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTA0OTI3NywxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbMjA0MDUxNjExOCwxMDMxODQ5NTE0XX0=
 -->
