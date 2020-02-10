@@ -354,21 +354,23 @@ In [36]: pd.Series([np.nan]).sum()
 ```
 Out[36]: 0.0
 ```
+```py
 In [37]: pd.Series([], dtype="float64").sum()
 Out[37]: 0.0
-
+```
 The product of an empty or all-NA Series or column of a DataFrame is 1.
-
+```py
 In [38]: pd.Series([np.nan]).prod()
 Out[38]: 1.0
-
+```
+```py
 In [39]: pd.Series([], dtype="float64").prod()
 Out[39]: 1.0
-
+```
 ## NA values in GroupBy[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-values-in-groupby "Permalink to this headline")
 
 NA groups in GroupBy are automatically excluded. This behavior is consistent with R, for example:
-
+```py
 In [40]: df
 Out[40]: 
  one       two     three
@@ -377,14 +379,15 @@ c       NaN  1.212112 -0.173215
 e  0.119209 -1.044236 -0.861849
 f -2.104569 -0.494929  1.071804
 h       NaN -0.706771 -1.039575
-
+```
+```py
 In [41]: df.groupby('one').mean()
 Out[41]: 
  two     three
 one 
 -2.104569 -0.494929  1.071804
  0.119209 -1.044236 -0.861849
-
+```
 See the groupby section  [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#groupby-missing)  for more information.
 
 ### Cleaning / filling missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#cleaning-filling-missing-data "Permalink to this headline")
@@ -396,7 +399,7 @@ pandas objects are equipped with various data manipulation methods for dealing w
 [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna")  can “fill in” NA values with non-NA data in a couple of ways, which we illustrate:
 
 **Replace NA with a scalar value**
-
+```py
 In [42]: df2
 Out[42]: 
  one       two     three four   five  timestamp
@@ -405,7 +408,8 @@ c       NaN  1.212112 -0.173215  bar  False        NaT
 e  0.119209 -1.044236 -0.861849  bar   True 2012-01-01
 f -2.104569 -0.494929  1.071804  bar  False 2012-01-01
 h       NaN -0.706771 -1.039575  bar   True        NaT
-
+```
+```py
 In [43]: df2.fillna(0)
 Out[43]: 
  one       two     three four   five            timestamp
@@ -414,7 +418,8 @@ c  0.000000  1.212112 -0.173215  bar  False                    0
 e  0.119209 -1.044236 -0.861849  bar   True  2012-01-01 00:00:00
 f -2.104569 -0.494929  1.071804  bar  False  2012-01-01 00:00:00
 h  0.000000 -0.706771 -1.039575  bar   True                    0
-
+```
+```py
 In [44]: df2['one'].fillna('missing')
 Out[44]: 
 a     missing
@@ -423,7 +428,7 @@ e    0.119209
 f    -2.10457
 h     missing
 Name: one, dtype: object
-
+```
 **Fill gaps forward or backward**
 
 Using the same filling arguments as  [reindexing](https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics-reindexing), we can propagate non-NA values forward or backward:
@@ -1566,5 +1571,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTUzNzMyNywxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTI3MTY5MjA2MSwxMDMxODQ5NTE0XX0=
 -->
