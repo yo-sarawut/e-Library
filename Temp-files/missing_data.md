@@ -783,9 +783,9 @@ Out[80]:
 3  4.700000   4.000000
 4  5.600000  12.200000
 5  6.800000  14.400000
-
+```
 Compare several methods:
-
+```py
 In [81]: np.random.seed(2)
 
 In [82]: ser = pd.Series(np.arange(1, 10.1, .25) ** 2 + np.random.randn(37))
@@ -799,12 +799,13 @@ In [85]: methods = ['linear', 'quadratic', 'cubic']
 In [86]: df = pd.DataFrame({m: ser.interpolate(method=m) for m in methods})
 
 In [87]: df.plot()
+```
 Out[87]: <matplotlib.axes._subplots.AxesSubplot at 0x7fc649e9f7d0>
 
 ![../_images/compare_interpolations.png](https://pandas.pydata.org/pandas-docs/stable/_images/compare_interpolations.png)
 
 Another use case is interpolation at  _new_  values. Suppose you have 100 observations from some distribution. And let’s suppose that you’re particularly interested in what’s happening around the middle. You can mix pandas’  `reindex`  and  `interpolate`  methods to interpolate at the new values.
-
+```py
 In [88]: ser = pd.Series(np.sort(np.random.uniform(size=100)))
 
 # interpolate at new_index
@@ -824,11 +825,11 @@ Out[91]:
 50.75    0.495763
 51.00    0.497074
 dtype: float64
-
+```
 ### Interpolation limits[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#interpolation-limits "Permalink to this headline")
 
 Like other pandas fill methods,  [`interpolate()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.interpolate.html#pandas.DataFrame.interpolate "pandas.DataFrame.interpolate")  accepts a  `limit`  keyword argument. Use this argument to limit the number of consecutive  `NaN`  values filled since the last valid observation:
-
+```py
 In [92]: ser = pd.Series([np.nan, np.nan, 5, np.nan, np.nan,
  ....:                 np.nan, 13, np.nan, np.nan])
  ....: 
@@ -845,7 +846,8 @@ Out[93]:
 7     NaN
 8     NaN
 dtype: float64
-
+```
+```py
 # fill all consecutive values in a forward direction
 In [94]: ser.interpolate()
 Out[94]: 
@@ -859,7 +861,8 @@ Out[94]:
 7    13.0
 8    13.0
 dtype: float64
-
+```
+```py
 # fill one consecutive value in a forward direction
 In [95]: ser.interpolate(limit=1)
 Out[95]: 
@@ -873,9 +876,10 @@ Out[95]:
 7    13.0
 8     NaN
 dtype: float64
+```
 
 By default,  `NaN`  values are filled in a  `forward`  direction. Use  `limit_direction`  parameter to fill  `backward`  or from  `both`  directions.
-
+```py
 # fill one consecutive value backwards
 In [96]: ser.interpolate(limit=1, limit_direction='backward')
 Out[96]: 
@@ -889,6 +893,7 @@ Out[96]:
 7     NaN
 8     NaN
 dtype: float64
+```
 ```py
 # fill one consecutive value in both directions
 In [97]: ser.interpolate(limit=1, limit_direction='both')
@@ -1543,5 +1548,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTM4MDE1NSwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTE2NTgyNjg0OTMsMTAzMTg0OTUxNF19
 -->
