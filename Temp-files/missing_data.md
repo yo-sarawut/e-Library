@@ -83,7 +83,10 @@ g     True
 h    False
 Name: one, dtype: bool
 ```
+```py
 In [9]: df2['four'].notna()
+```
+```
 Out[9]: 
 a     True
 b    False
@@ -94,8 +97,11 @@ f     True
 g    False
 h     True
 Name: four, dtype: bool
-
+```
+```py
 In [10]: df2.isna()
+```py
+```
 Out[10]: 
  one    two  three   four   five
 a  False  False  False  False  False
@@ -106,9 +112,9 @@ e  False  False  False  False  False
 f  False  False  False  False  False
 g   True   True   True   True   True
 h  False  False  False  False  False
+```
 
-Warning
-
+>**Warning**
 One has to be mindful that in Python (and NumPy), the  `nan's`  don’t compare equal, but  `None's`  **do**. Note that pandas/NumPy uses the fact that  `np.nan  !=  np.nan`, and treats  `None`  like  `np.nan`.
 
 In [11]: None == None                                                 # noqa: E711
@@ -1493,5 +1499,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbNzM2MTQ5NTk1LDEwMzE4NDk1MTRdfQ==
 -->
