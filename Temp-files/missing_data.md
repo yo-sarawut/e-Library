@@ -186,7 +186,7 @@ In [18]: df2.loc[['a', 'c', 'h'], ['one', 'timestamp']] = np.nan
 
 In [19]: df2
 ```
-```py
+```
 Out[19]: 
  one       two     three four   five  timestamp
 a       NaN -0.282863 -1.509059  bar   True        NaT
@@ -194,49 +194,53 @@ c       NaN  1.212112 -0.173215  bar  False        NaT
 e  0.119209 -1.044236 -0.861849  bar   True 2012-01-01
 f -2.104569 -0.494929  1.071804  bar  False 2012-01-01
 h       NaN -0.706771 -1.039575  bar   True        NaT
-
+```
+```py
 In [20]: df2.dtypes.value_counts()
+```
+```
 Out[20]: 
 float64           3
 datetime64[ns]    1
 bool              1
 object            1
 dtype: int64
-
+```
 ## Inserting missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#inserting-missing-data "Permalink to this headline")
 
 You can insert missing values by simply assigning to containers. The actual missing value used will be chosen based on the dtype.
 
 For example, numeric containers will always use  `NaN`  regardless of the missing value type chosen:
-
+```py
 In [21]: s = pd.Series([1, 2, 3])
 
 In [22]: s.loc[0] = None
 
 In [23]: s
+```
+```
 Out[23]: 
 0    NaN
 1    2.0
 2    3.0
 dtype: float64
-
+```
 Likewise, datetime containers will always use  `NaT`.
 
 For object containers, pandas will use the value given:
-
+```py
 In [24]: s = pd.Series(["a", "b", "c"])
-
 In [25]: s.loc[0] = None
-
 In [26]: s.loc[1] = np.nan
-
 In [27]: s
+```
+```
 Out[27]: 
 0    None
 1     NaN
 2       c
 dtype: object
-
+```
 ## Calculations with missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#calculations-with-missing-data "Permalink to this headline")
 
 Missing values propagate naturally through arithmetic operations between pandas objects.
@@ -1513,5 +1517,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjk3ODcyNCwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTk0Mzc4MzI0OCwxMDMxODQ5NTE0XX0=
 -->
