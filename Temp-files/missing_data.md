@@ -345,14 +345,15 @@ h  NaN -1.316688 -2.511893
 ## Sum/prod of empties/nans[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#sum-prod-of-empties-nans "Permalink to this headline")
 
 > **Warning**
-
 This behavior is now standard as of v0.22.0 and is consistent with the default in  `numpy`; previously sum/prod of all-NA or empty Series/DataFrames would return NaN. See  [v0.22.0 whatsnew](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.22.0.html#whatsnew-0220)  for more.
 
 The sum of an empty or all-NA Series or column of a DataFrame is 0.
-
+```py
 In [36]: pd.Series([np.nan]).sum()
+```
+```
 Out[36]: 0.0
-
+```
 In [37]: pd.Series([], dtype="float64").sum()
 Out[37]: 0.0
 
@@ -1003,7 +1004,7 @@ Out[105]:
 dtype: float64
 
 For a DataFrame, you can specify individual values by column:
-
+```
 In [106]: df = pd.DataFrame({'a': [0, 1, 2, 3, 4], 'b': [5, 6, 7, 8, 9]})
 
 In [107]: df.replace({'a': 0, 'b': 5}, 100)
@@ -1014,9 +1015,9 @@ Out[107]:
 2    2    7
 3    3    8
 4    4    9
-
+```
 Instead of replacing with specified values, you can treat all given values as missing and interpolate over them:
-
+```
 In [108]: ser.replace([1, 2, 3], method='pad')
 Out[108]: 
 0    0.0
@@ -1025,7 +1026,7 @@ Out[108]:
 3    0.0
 4    4.0
 dtype: float64
-
+```
 ## String/regular expression replacement[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#string-regular-expression-replacement "Permalink to this headline")
 
 Note
@@ -1539,5 +1540,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDUxNjExOCwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTE4MTIyMTk4NjEsMTAzMTg0OTUxNF19
 -->
