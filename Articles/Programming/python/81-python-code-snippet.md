@@ -163,7 +163,7 @@ If you’d like to learn more about these three solutions, check out my article 
 ### Cloning a List
 
 One of my favorite subjects in programming is copying data types. After all, it’s never easy in this reference-based world we live, and that’s true for Python as well. Luckily, if we want to copy a list, there are a few ways to do it:
-
+```py
 1.  my_list = [27, 13, -11, 60, 39, 15]
 
 3.  # Clone a list by brute force
@@ -185,7 +185,7 @@ One of my favorite subjects in programming is copying data types. After all, it�
 
 20.  # Clone a list with multiplication?
 21.  my_duplicate_list = my_list * 1  # do not do this
-
+```
 When it comes to cloning, it’s important to be aware of the difference between shallow and deep copies. Luckily,  [I have an article covering that topic](https://therenegadecoder.com/code/be-careful-when-copying-mutable-data-types/).
 
 Finally, you can find out more about the solutions listed above in my article titled “[How to Clone a List in Python](https://therenegadecoder.com/code/how-to-clone-a-list-in-python/).” In addition, you might find value in my related YouTube video titled “[7 Ways to Copy a List in Python Featuring The Pittsburgh Penguins](https://youtu.be/ZMCte_LHml0).”
@@ -193,7 +193,7 @@ Finally, you can find out more about the solutions listed above in my article ti
 ### Retrieving the Last Item of a List
 
 Since we’re on the topic of lists, lets talk about getting the last item of a list. In most languages, this involves some convoluted mathematical expression involving the length of the list. What if I told you there is are several more interesting solutions in Python?
-
+```py
 1.  my_list = ['red', 'blue', 'green']
 
 3.  # Get the last item with brute force using len
@@ -207,7 +207,7 @@ Since we’re on the topic of lists, lets talk about getting the last item of a 
 
 12.  # Get the last item using iterable unpacking
 13.  *_, last_item = my_list
-
+```
 As always, you can learn more about these solutions from my article titled “[How to Get the Last Item of a List in Python](https://therenegadecoder.com/code/how-to-get-the-last-item-of-a-list-in-python/)” which features a challenge, performance metrics, and  [a YouTube video](https://youtu.be/wAJ1Nlk-T7w).
 
 ### Making a Python Script Shortcut
@@ -215,25 +215,25 @@ As always, you can learn more about these solutions from my article titled “[H
 Sometimes when you create a script, you want to be able to run it conveniently at the click of a button. Fortunately, there are several ways to do that.
 
 First, we can create a Windows shortcut with the following settings:
-
+```py
 1.  \path\to\trc-image-titler.py -o \path\to\output
-
+```
 Likewise, we can also create a batch file with the following code:
-
+```py
 1.  @echo off
 2.  \path\to\trc-image-titler.py -o \path\to\output
-
+```
 Finally, we can create a bash script with the following code:
-
+```py
 1.  #!/bin/sh
 2.  python /path/to/trc-image-titler.py -o /path/to/output
-
+```
 If you’re looking for more explanation, check out the article titled “[How to Make a Python Script Shortcut with Arguments](https://therenegadecoder.com/code/how-to-make-a-python-script-shortcut-with-arguments/).”
 
 ### Sorting a List of Strings
 
 Sorting is a common task that you’re expected to know how to implement in Computer Science. Despite the intense focus on sorting algorithms in most curriculum, no one really tells you how complicated sorting can actually get. For instance, sorting numbers is straightforward, but what about sorting strings? How do we decide a proper ordering? Fortunately, there are a lot of options in Python:
-
+```py
 1.  my_list = ["leaf", "cherry", "fish"]
 
 3.  # Brute force method using bubble sort
@@ -265,13 +265,13 @@ Sorting is a common task that you’re expected to know how to implement in Comp
 
 30.  # Custom reverse list sort using casefold (>= Python 3.3)
 31.  my_list = sorted(my_list, key=str.casefold, reverse=True)
-
+```
 If you’re curious about how some of these solutions work, or you just want to know what some of the potential risks are, check out my article titled “[How to Sort a List of Strings in Python](https://therenegadecoder.com/code/how-to-sort-a-list-of-strings-in-python/).”
 
 ### Parsing a Spreadsheet
 
 One of the more interesting use cases for Python is data science. Unfortunately, however, that means handling a lot of raw data in various formats like text files and spreadsheets. Luckily, Python has plenty of built-in utilities for reading different file formats. For example, we can parse a spreadsheet with ease:
-
+```py
 1.  # Brute force solution
 2.  csv_mapping_list = []
 3.  with  open("/path/to/data.csv")  as my_data:
@@ -303,13 +303,13 @@ One of the more interesting use cases for Python is data science. Unfortunately,
 29.  import csv
 30.  with  open("/path/to/dict.csv")  as my_data:
 31.  csv_mapping_list = list(csv.DictReader(my_data))
-
+```
 In this case, we try to get our output in a list of dictionaries. If you want to know more about how this works, check out the complete article titled “[How to Parse a Spreadsheet in Python](https://therenegadecoder.com/code/how-to-parse-a-spreadsheet-in-python/).”
 
 ### Sorting a List of Dictionaries
 
 Once you have a list of dictionaries, you might want to organize them in some specific order. For example, if the dictionaries have a key for date, we can try sorting them in chronological order. Luckily, sorting is another relatively painless task:
-
+```py
 1.  csv_mapping_list = [
 2.  {
 3.  "Name": "Jeremy",
@@ -347,13 +347,13 @@ Once you have a list of dictionaries, you might want to organize them in some sp
 
 36.  # Iterable sorted function
 37.  csv_mapping_list = sorted(csv_mapping_list, key=lambda item: item.get("Age"))
-
+```
 All these solutions and more outlined in my article titled “[How to Sort a List of Dictionaries in Python](https://therenegadecoder.com/code/how-to-sort-a-list-of-dictionaries-in-python/).”
 
 ### Writing a List Comprehension
 
 One of my favorite Python topics to chat about is list comprehensions. As someone who grew up on languages like Java, C/C++, and C#, I had never seen anything quite like a list comprehension until I played with Python. Now, I’m positively obsessed with them. As a result, I put together an entire list of examples:
-
+```py
 1.  # Define a generic 1D list of constants
 2.  my_list = [2, 5, -4, 6]
 
@@ -384,13 +384,13 @@ One of my favorite Python topics to chat about is list comprehensions. As someon
 28.  return  [deep_copy(item)  for item in to_copy]
 29.  else:
 30.  return to_copy
-
+```
 As always, you can find a more formal explanation of all this code in my article titled “[How to Write a List Comprehension in Python](https://therenegadecoder.com/code/how-to-write-a-list-comprehension-in-python/).” As an added bonus, I have  [a YouTube video which shares several examples of list comprehensions](https://youtu.be/AEG8D4h7kls).
 
 ### Merging Two Dictionaries
 
 In this collection, we talk a lot about handling data structures like lists and dictionaries. Well, this one is no different. In particular, we’re looking at merging two dictionaries. Of course, combining two dictionaries comes with risks. For example, what if there are duplicate keys? Luckily, we have solutions for that:
-
+```py
 1.  yusuke_power = {"Yusuke Urameshi": "Spirit Gun"}
 2.  hiei_power = {"Hiei": "Jagan Eye"}
 3.  powers = dict()
@@ -416,7 +416,7 @@ In this collection, we talk a lot about handling data structures like lists and 
 23.  for dictionary in dicts:
 24.  merge_dict.update(dictionary)
 25.  return merged_dict
-
+```py
 If you’re interested, I have an article which covers this exact topic called “[How to Merge Two Dictionaries in Python](https://therenegadecoder.com/code/how-to-merge-two-dictionaries-in-python/)” which features four solutions as well performance metrics.
 
 ### Formatting a String
@@ -586,5 +586,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/?fbclid=IwAR2JY-lL1H3SsP84scrFX8dbj6P31JeMwCT0knIHt2KFTsaT0uh486bY4B4).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjE4NTQzN119
+eyJoaXN0b3J5IjpbLTEwODcwMjY3NjRdfQ==
 -->
