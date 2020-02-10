@@ -40,7 +40,7 @@ In this section, we’ll take a look at various common scenarios that arise and 
 ### Inverting a Dictionary
 
 Sometimes when we have a dictionary, we want to be able to flip its keys and values. Of course, there are concerns like “how do we deal with duplicate values?” and “what if the values aren’t hashable?” That said, in the simple case, there are a few solutions:
-
+```py
 1.  # Use to invert dictionaries that have unique values
 2.  my_inverted_dict = dict(map(reversed, my_dict.items()))
 
@@ -59,13 +59,13 @@ Sometimes when we have a dictionary, we want to be able to flip its keys and val
 
 17.  # Use to invert dictionaries that have lists of values
 18.  my_dict = {value: key for key in my_inverted_dict for value in my_map[key]}
-
+```
 For more explanation, check out my article titled “[How to Invert a Dictionary in Python](https://therenegadecoder.com/code/how-to-invert-a-dictionary-in-python/).” It includes a breakdown of each solution, their performance metrics, and when they’re applicable. Likewise,  [I have a YouTube video](https://youtu.be/lN5qX73H2Bc)  which covers the same topic.
 
 ### Summing Elements of Two Lists
 
 Let’s say you have two lists, and you want to merge them together into a single list by element. In other words, you want to add the first element of the first list to the first element of the second list and store the result in a new list. Well, there are several ways to do that:
-
+```py
 1.  ethernet_devices = [1, [7], [2], [8374163], [84302738]]
 2.  usb_devices = [1, [7], [1], [2314567], [0]]
 
@@ -88,13 +88,13 @@ Let’s say you have two lists, and you want to merge them together into a singl
 20.  # We can't forget our favorite computation library
 21.  import numpy as np
 22.  all_devices = np.add(ethernet_devices, usb_devices)
-
+```
 If you’d like a deeper explanation, check out my article titled “[How to Sum Elements of Two Lists in Python](https://therenegadecoder.com/code/how-to-sum-elements-of-two-lists-in-python/)” which even includes a fun challenge. Likewise, you might get some value out of  [my YouTube video on the same topic](https://youtu.be/-ueWDzP88eQ).
 
 ### Checking if a File Exists
 
 One of the amazing perks of Python is how easy it is to manage files. Unlike Java, Python has a built-in syntax for file reading and writing. As a result, checking if a file exists is a rather brief task:
-
+```py
 1.  # Brute force with a try-except block (Python 3+)
 2.  try:
 3.  with  open('/path/to/file', 'r')  as fh:
@@ -111,7 +111,7 @@ One of the amazing perks of Python is how easy it is to manage files. Unlike Jav
 14.  config = Path('/path/to/file')
 15.  if config.is_file():
 16.  pass
-
+```
 As always, you can learn more about these solutions in my article titled “[How to Check if a File Exists in Python](https://therenegadecoder.com/code/how-to-check-if-a-file-exists-in-python/)” which features three solutions and performances metrics.
 
 ### Converting Two Lists Into a Dictionary
@@ -119,7 +119,7 @@ As always, you can learn more about these solutions in my article titled “[How
 Previously, we talked about summing two lists in Python. As it turns out, there’s a lot we can do with two lists. For example, we could try mapping one onto the other to create a dictionary.
 
 As with many of these problems, there are a few concerns. For instance, what if the two lists aren’t the same size? Likewise, what if the keys aren’t unique or hashable? That said, in the simple case, there are some straightforward solutions:
-
+```py
 1.  column_names = ['id', 'color', 'style']
 2.  column_values = [1, 'red', 'bold']
 
@@ -137,13 +137,13 @@ As with many of these problems, there are a few concerns. For instance, what if 
 15.  pass  # Insert logic for handling duplicate keys
 16.  else:
 17.  name_to_value_dict[key] = value
-
+```
 Once again, you can find an explanation for each of these solutions and more in my article titled “[How to Convert Two Lists Into a Dictionary in Python](https://therenegadecoder.com/code/how-to-convert-two-lists-into-a-dictionary-in-python/).” If you are a visual person, you might prefer  [my YouTube video which covers mapping lists to dictionaries](https://youtu.be/SPmFkdfD_Ho)  as well.
 
 ### Checking if a List Is Empty
 
 If you come from a statically typed language like Java or C, you might be bothered by the lack of static types in Python. Sure, not knowing the type of a variable can sometimes be frustrating, but there are perks as well. For instance, we can check if a list is empty by its type flexibility—among other methods:
-
+```py
 1.  my_list = list()
 
 3.  # Check if a list is empty by its length
@@ -157,7 +157,7 @@ If you come from a statically typed language like Java or C, you might be bother
 11.  # Check if a list is empty by its type flexibility **preferred method**
 12.  if  not my_list:
 13.  pass  # the list is empty
-
+```
 If you’d like to learn more about these three solutions, check out my article titled “[How to Check if a List in Empty in Python](https://therenegadecoder.com/code/how-to-check-if-a-list-is-empty-in-python/).” If you’re in a pinch, check out  [my YouTube video which covers the same topic](https://youtu.be/k1lE5QxNAM4).
 
 ### Cloning a List
@@ -586,5 +586,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/?fbclid=IwAR2JY-lL1H3SsP84scrFX8dbj6P31JeMwCT0knIHt2KFTsaT0uh486bY4B4).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAxMjExMl19
+eyJoaXN0b3J5IjpbMTU5MjE4NTQzN119
 -->
