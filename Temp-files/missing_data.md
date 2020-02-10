@@ -244,8 +244,10 @@ dtype: object
 ## Calculations with missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#calculations-with-missing-data "Permalink to this headline")
 
 Missing values propagate naturally through arithmetic operations between pandas objects.
-
+```py
 In [28]: a
+```
+```
 Out[28]: 
  one       two
 a       NaN -0.282863
@@ -253,8 +255,11 @@ c       NaN  1.212112
 e  0.119209 -1.044236
 f -2.104569 -0.494929
 h -2.104569 -0.706771
-
+```
+```py
 In [29]: b
+```
+```
 Out[29]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -262,8 +267,10 @@ c       NaN  1.212112 -0.173215
 e  0.119209 -1.044236 -0.861849
 f -2.104569 -0.494929  1.071804
 h       NaN -0.706771 -1.039575
-
+```
+```py
 In [30]: a + b
+```
 Out[30]: 
  one  three       two
 a       NaN    NaN -0.565727
@@ -1517,5 +1524,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzc4MzI0OCwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTIxNDEzMTQ5MzEsMTAzMTg0OTUxNF19
 -->
