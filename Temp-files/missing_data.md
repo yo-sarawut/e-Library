@@ -271,6 +271,7 @@ h       NaN -0.706771 -1.039575
 ```py
 In [30]: a + b
 ```
+```
 Out[30]: 
  one  three       two
 a       NaN    NaN -0.565727
@@ -278,7 +279,7 @@ c       NaN    NaN  2.424224
 e  0.238417    NaN -2.088472
 f -4.209138    NaN -0.989859
 h       NaN    NaN -1.413542
-
+```
 The descriptive statistics and computational methods discussed in the  [data structure overview](https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics-stats)  (and listed  [here](https://pandas.pydata.org/pandas-docs/stable/reference/series.html#api-series-stats)  and  [here](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html#api-dataframe-stats)) are all written to account for missing data. For example:
 
 -   When summing data, NA (missing) values will be treated as zero.
@@ -287,8 +288,10 @@ The descriptive statistics and computational methods discussed in the  [data str
     
 -   Cumulative methods like  [`cumsum()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.cumsum.html#pandas.DataFrame.cumsum "pandas.DataFrame.cumsum")  and  [`cumprod()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.cumprod.html#pandas.DataFrame.cumprod "pandas.DataFrame.cumprod")  ignore NA values by default, but preserve them in the resulting arrays. To override this behaviour and include NA values, use  `skipna=False`.
     
-
+```py
 In [31]: df
+```
+```
 Out[31]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -296,8 +299,10 @@ c       NaN  1.212112 -0.173215
 e  0.119209 -1.044236 -0.861849
 f -2.104569 -0.494929  1.071804
 h       NaN -0.706771 -1.039575
-
+```
+```py
 In [32]: df['one'].sum()
+```
 Out[32]: -1.9853605075978744
 
 In [33]: df.mean(1)
@@ -1524,5 +1529,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDEzMTQ5MzEsMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbLTY4OTA0OTI3NywxMDMxODQ5NTE0XX0=
 -->
