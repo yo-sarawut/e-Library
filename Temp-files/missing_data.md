@@ -889,7 +889,7 @@ Out[96]:
 7     NaN
 8     NaN
 dtype: float64
-
+```py
 # fill one consecutive value in both directions
 In [97]: ser.interpolate(limit=1, limit_direction='both')
 Out[97]: 
@@ -903,7 +903,8 @@ Out[97]:
 7    13.0
 8     NaN
 dtype: float64
-
+```
+```py
 # fill all consecutive values in both directions
 In [98]: ser.interpolate(limit_direction='both')
 Out[98]: 
@@ -917,9 +918,9 @@ Out[98]:
 7    13.0
 8    13.0
 dtype: float64
-
+```
 By default,  `NaN`  values are filled whether they are inside (surrounded by) existing valid values, or outside existing valid values. Introduced in v0.23 the  `limit_area`  parameter restricts filling to either inside or outside values.
-
+```py
 # fill one consecutive inside value in both directions
 In [99]: ser.interpolate(limit_direction='both', limit_area='inside', limit=1)
 Out[99]: 
@@ -933,7 +934,8 @@ Out[99]:
 7     NaN
 8     NaN
 dtype: float64
-
+```
+```py
 # fill all consecutive outside values backward
 In [100]: ser.interpolate(limit_direction='backward', limit_area='outside')
 Out[100]: 
@@ -947,7 +949,8 @@ Out[100]:
 7     NaN
 8     NaN
 dtype: float64
-
+```
+```py
 # fill all consecutive outside values in both directions
 In [101]: ser.interpolate(limit_direction='both', limit_area='outside')
 Out[101]: 
@@ -961,7 +964,7 @@ Out[101]:
 7    13.0
 8    13.0
 dtype: float64
-
+```
 ## Replacing generic values[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#replacing-generic-values "Permalink to this headline")
 
 Often times we want to replace arbitrary values with other values.
@@ -969,7 +972,7 @@ Often times we want to replace arbitrary values with other values.
 [`replace()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.replace.html#pandas.Series.replace "pandas.Series.replace")  in Series and  [`replace()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html#pandas.DataFrame.replace "pandas.DataFrame.replace")  in DataFrame provides an efficient yet flexible way to perform such replacements.
 
 For a Series, you can replace a single value or a list of values by another value:
-
+```py
 In [102]: ser = pd.Series([0., 1., 2., 3., 4.])
 
 In [103]: ser.replace(0, 5)
@@ -980,7 +983,7 @@ Out[103]:
 3    3.0
 4    4.0
 dtype: float64
-
+```
 You can replace a list of values by a list of other values:
 
 In [104]: ser.replace([0, 1, 2, 3, 4], [4, 3, 2, 1, 0])
@@ -993,7 +996,7 @@ Out[104]:
 dtype: float64
 
 You can also specify a mapping dict:
-
+```
 In [105]: ser.replace({0: 10, 1: 100})
 Out[105]: 
 0     10.0
@@ -1002,7 +1005,7 @@ Out[105]:
 3      3.0
 4      4.0
 dtype: float64
-
+```
 For a DataFrame, you can specify individual values by column:
 ```
 In [106]: df = pd.DataFrame({'a': [0, 1, 2, 3, 4], 'b': [5, 6, 7, 8, 9]})
@@ -1540,5 +1543,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTIyMTk4NjEsMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbMTcyNTM4MDE1NSwxMDMxODQ5NTE0XX0=
 -->
