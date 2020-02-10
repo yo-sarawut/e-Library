@@ -108,6 +108,13 @@ All in all it’s a great data structure and can easily be used instead of lists
 
 
 > [Source : ](https://towardsdatascience.com/upgrading-python-lists-35440096ec36).
+
+
+
+|NO.|Description  |file  link  operator
+|--|--|
+|  |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDQwOTY5OCw2NzA5MTY3MThdfQ==
+eyJoaXN0b3J5IjpbNTEyMTE2OTk1LDY3MDkxNjcxOF19
 -->
