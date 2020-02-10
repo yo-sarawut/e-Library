@@ -1,15 +1,14 @@
 
-# [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#working-with-missing-data "Permalink to this headline")
+# [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
 
 In this section, we will discuss missing (also referred to as NA) values in pandas.
 
-Note
-
+>**Note**
 The choice of using  `NaN`  internally to denote missing data was largely for simplicity and performance reasons. Starting from pandas 1.0, some optional data types start experimenting with a native  `NA`  scalar using a mask-based approach. See  [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#missing-data-na)  for more.
 
 See the  [cookbook](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html#cookbook-missing-data)  for some advanced strategies.
 
-## Values considered “missing”[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#values-considered-missing "Permalink to this headline")
+## [Values considered “missing”](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#values-considered-missing "Permalink to this headline")
 
 As data comes in many shapes and forms, pandas aims to be flexible with regard to handling missing data. While  `NaN`  is the default missing value marker for reasons of computational speed and convenience, we need to be able to easily detect this value with data of different types: floating point, integer, boolean, and general object. In many cases, however, the Python  `None`  will arise and we wish to also consider that “missing” or “not available” or “NA”.
 
@@ -1484,5 +1483,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNTM0MzM1XX0=
+eyJoaXN0b3J5IjpbLTEyNjQ5OTg4MjhdfQ==
 -->
