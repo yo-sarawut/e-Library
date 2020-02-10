@@ -1013,7 +1013,7 @@ In [103]: ser.replace(0, 5)
 dtype: float64
 ```
 You can replace a list of values by a list of other values:
-
+```py
 In [104]: ser.replace([0, 1, 2, 3, 4], [4, 3, 2, 1, 0])
 #Out[104]: 
 0    4.0
@@ -1022,9 +1022,9 @@ In [104]: ser.replace([0, 1, 2, 3, 4], [4, 3, 2, 1, 0])
 3    1.0
 4    0.0
 dtype: float64
-
-You can also specify a mapping dict:
 ```
+You can also specify a mapping dict:
+```py
 In [105]: ser.replace({0: 10, 1: 100})
 #Out[105]: 
 0     10.0
@@ -1035,7 +1035,7 @@ In [105]: ser.replace({0: 10, 1: 100})
 dtype: float64
 ```
 For a DataFrame, you can specify individual values by column:
-```
+```py
 In [106]: df = pd.DataFrame({'a': [0, 1, 2, 3, 4], 'b': [5, 6, 7, 8, 9]})
 
 In [107]: df.replace({'a': 0, 'b': 5}, 100)
@@ -1048,7 +1048,7 @@ In [107]: df.replace({'a': 0, 'b': 5}, 100)
 4    4    9
 ```
 Instead of replacing with specified values, you can treat all given values as missing and interpolate over them:
-```
+```py
 In [108]: ser.replace([1, 2, 3], method='pad')
 #Out[108]: 
 0    0.0
@@ -1065,7 +1065,7 @@ Note
 Python strings prefixed with the  `r`  character such as  `r'hello  world'`  are so-called “raw” strings. They have different semantics regarding backslashes than strings with#Out this prefix. Backslashes in raw strings will be interpreted as an escaped backslash, e.g.,  `r'\'  ==  '\\'`. You should  [read ab#Out them](https://docs.python.org/3/reference/lexical_analysis.html#string-literals)  if this is unclear.
 
 Replace the ‘.’ with  `NaN`  (str -> str):
-
+```py
 In [109]: d = {'a': list(range(4)), 'b': list('ab..'), 'c': ['a', 'b', np.nan, 'd']}
 
 In [110]: df = pd.DataFrame(d)
@@ -1077,9 +1077,9 @@ In [111]: df.replace('.', np.nan)
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 Now do it with a regular expression that removes surrounding whitespace (regex -> regex):
-
+```py
 In [112]: df.replace(r'\s*\.\s*', np.nan, regex=True)
 #Out[112]: 
  a    b    c
@@ -1087,9 +1087,9 @@ In [112]: df.replace(r'\s*\.\s*', np.nan, regex=True)
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 Replace a few different values (list -> list):
-
+```py
 In [113]: df.replace(['a', '.'], ['b', np.nan])
 #Out[113]: 
  a    b    c
@@ -1097,9 +1097,9 @@ In [113]: df.replace(['a', '.'], ['b', np.nan])
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 list of regex -> list of regex:
-
+```py
 In [114]: df.replace([r'\.', r'(a)'], ['dot', r'\1stuff'], regex=True)
 #Out[114]: 
  a       b       c
@@ -1107,9 +1107,9 @@ In [114]: df.replace([r'\.', r'(a)'], ['dot', r'\1stuff'], regex=True)
 1  1       b       b
 2  2     dot     NaN
 3  3     dot       d
-
+```
 Only search in column  `'b'`  (dict -> dict):
-
+```py
 In [115]: df.replace({'b': '.'}, {'b': np.nan})
 #Out[115]: 
  a    b    c
@@ -1117,9 +1117,9 @@ In [115]: df.replace({'b': '.'}, {'b': np.nan})
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 Same as the previous example, but use a regular expression for searching instead (dict of regex -> dict):
-
+```py
 In [116]: df.replace({'b': r'\s*\.\s*'}, {'b': np.nan}, regex=True)
 #Out[116]: 
  a    b    c
@@ -1127,9 +1127,9 @@ In [116]: df.replace({'b': r'\s*\.\s*'}, {'b': np.nan}, regex=True)
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 You can pass nested dictionaries of regular expressions that use  `regex=True`:
-
+```py
 In [117]: df.replace({'b': {'b': r''}}, regex=True)
 #Out[117]: 
  a  b    c
@@ -1560,5 +1560,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzYwNjY2MywxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTE5NjU3MzQxMTYsMTAzMTg0OTUxNF19
 -->
