@@ -133,7 +133,6 @@ So as compared to above, a scalar equality comparison versus a  `None/np.nan`  d
 In [13]: df2['one'] == np.nan
 ```
 ```
- 
 a    False
 b    False
 c    False
@@ -148,15 +147,17 @@ Name: one, dtype: bool
 ### Integer dtypes and missing data[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#integer-dtypes-and-missing-data "Permalink to this headline")
 
 Because  `NaN`  is a float, a column of integers with even one missing values is cast to floating-point dtype (see  [Support for integer NA](https://pandas.pydata.org/pandas-docs/stable/user_guide/gotchas.html#gotchas-intna)  for more). Pandas provides a nullable integer array, which can be used by explicitly requesting the dtype:
-
+```py
 In [14]: pd.Series([1, 2, np.nan, 4], dtype=pd.Int64Dtype())
+```
+```
 Out[14]: 
 0       1
 1       2
 2    <NA>
 3       4
 dtype: Int64
-
+```
 Alternatively, the string alias  `dtype='Int64'`  (note the capital  `"I"`) can be used.
 
 See  [Nullable integer data type](https://pandas.pydata.org/pandas-docs/stable/user_guide/integer_na.html#integer-na)  for more.
@@ -164,12 +165,14 @@ See  [Nullable integer data type](https://pandas.pydata.org/pandas-docs/stable/u
 ### Datetimes[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#datetimes "Permalink to this headline")
 
 For datetime64[ns] types,  `NaT`  represents missing values. This is a pseudo-native sentinel value that can be represented by NumPy in a singular dtype (datetime64[ns]). pandas objects provide compatibility between  `NaT`  and  `NaN`.
-
+```py
 In [15]: df2 = df.copy()
 
 In [16]: df2['timestamp'] = pd.Timestamp('20120101')
 
 In [17]: df2
+```
+```
 Out[17]: 
  one       two     three four   five  timestamp
 a  0.469112 -0.282863 -1.509059  bar   True 2012-01-01
@@ -177,10 +180,13 @@ c -1.135632  1.212112 -0.173215  bar  False 2012-01-01
 e  0.119209 -1.044236 -0.861849  bar   True 2012-01-01
 f -2.104569 -0.494929  1.071804  bar  False 2012-01-01
 h  0.721555 -0.706771 -1.039575  bar   True 2012-01-01
-
+```
+```py
 In [18]: df2.loc[['a', 'c', 'h'], ['one', 'timestamp']] = np.nan
 
 In [19]: df2
+```
+```py
 Out[19]: 
  one       two     three four   five  timestamp
 a       NaN -0.282863 -1.509059  bar   True        NaT
@@ -1507,5 +1513,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODUwNjU1MiwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbMTM5Mjk3ODcyNCwxMDMxODQ5NTE0XX0=
 -->
