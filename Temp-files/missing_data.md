@@ -1242,7 +1242,7 @@ TypeError: Cannot compare types 'ndarray(dtype=bool)' and 'str'
 will raise a  `TypeError`  because one of the  `dict`  keys is not of the correct type for replacement.
 
 However, when replacing a  _single_  object such as,
-
+```py
 In [129]: s = pd.Series([True, False, True])
 
 In [130]: s.replace('a string', 'another string')
@@ -1251,32 +1251,18 @@ In [130]: s.replace('a string', 'another string')
 1    False
 2     True
 dtype: bool
-
+```
 the original  `NDFrame`  object will be returned untouched. We’re working on unifying this API, but for backwards compatibility reasons we cannot break the latter behavior. See  [GH6354](https://github.com/pandas-dev/pandas/issues/6354)  for more details.
 
 ### Missing data casting rules and indexing[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#missing-data-casting-rules-and-indexing "Permalink to this headline")
 
 While pandas supports storing arrays of integer and boolean type, these types are not capable of storing missing data. Until we can switch to using a native NA type in NumPy, we’ve established some “casting rules”. When a reindexing operation introduces missing data, the Series will be cast according to the rules introduced in the table below.
-
-data type
-
-Cast to
-
-integer
-
-float
-
-boolean
-
-object
-
-float
-
-no cast
-
-object
-
-no cast
+| data type | Cast to |
+|-----------|-----------|
+| integer | float |
+|boolean|object|
+|float|no cast|
+|object|no cast|
 
 For example:
 ```py
@@ -1573,5 +1559,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMzk0NzM1LDEwMzE4NDk1MTRdfQ==
+eyJoaXN0b3J5IjpbODg1NTI3OTM0LDEwMzE4NDk1MTRdfQ==
 -->
