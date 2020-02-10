@@ -1338,7 +1338,7 @@ ValueError  Traceback (most recent call last)
 ValueError: cannot mask with array containing NA / NaN values
 
 However, these can be filled in using  [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna")  and it will work fine:
-
+```py
 In [139]: reindexed[crit.fillna(False)]
 #Out[139]: 
 0    0.126504
@@ -1347,7 +1347,8 @@ In [139]: reindexed[crit.fillna(False)]
 6    0.601516
 7    0.003659
 dtype: float64
-
+```
+```py
 In [140]: reindexed[crit.fillna(True)]
 #Out[140]: 
 0    0.126504
@@ -1359,9 +1360,9 @@ In [140]: reindexed[crit.fillna(True)]
 6    0.601516
 7    0.003659
 dtype: float64
-
+```
 Pandas provides a nullable integer dtype, but you must explicitly request it when creating the series or column. Notice that we use a capital “I” in the  `dtype="Int64"`.
-
+```py
 In [141]: s = pd.Series([0, 1, np.nan, 3, 4], dtype="Int64")
 
 In [142]: s
@@ -1372,7 +1373,7 @@ In [142]: s
 3       3
 4       4
 dtype: Int64
-
+```
 See  [Nullable integer data type](https://pandas.pydata.org/pandas-docs/stable/user_guide/integer_na.html#integer-na)  for more.
 
 ## Experimental  `NA`  scalar to denote missing values[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#experimental-na-scalar-to-denote-missing-values "Permalink to this headline")
@@ -1388,7 +1389,7 @@ Starting from pandas 1.0, an experimental  `pd.NA`  value (singleton) is availab
 The goal of  `pd.NA`  is provide a “missing” indicator that can be used consistently across data types (instead of  `np.nan`,  `None`  or  `pd.NaT`  depending on the data type).
 
 For example, when having missing values in a Series with the nullable integer dtype, it will use  `pd.NA`:
-
+```py
 In [143]: s = pd.Series([1, 2, None], dtype="Int64")
 
 In [144]: s
@@ -1403,7 +1404,7 @@ In [145]: s[2]
 
 In [146]: s[2] is pd.NA
 #Out[146]: True
-
+```
 Currently, pandas does not yet use those data types by default (when creating a DataFrame or Series, or when reading in data), so you need to specify the dtype explicitly. An easy way to convert to those dtypes is explained  [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#missing-data-na-conversion).
 
 ### Propagation in arithmetic and comparison operations[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#propagation-in-arithmetic-and-comparison-operations "Permalink to this headline")
@@ -1411,23 +1412,23 @@ Currently, pandas does not yet use those data types by default (when creating a 
 In general, missing values  _propagate_  in operations involving  `pd.NA`. When one of the operands is unknown, the #Outcome of the operation is also unknown.
 
 For example,  `pd.NA`  propagates in arithmetic operations, similarly to  `np.nan`:
-
+```py
 In [147]: pd.NA + 1
 #Out[147]: <NA>
 
 In [148]: "a" * pd.NA
 #Out[148]: <NA>
-
+```
 There are a few special cases when the result is known, even when one of the operands is  `NA`.
-
+```py
 In [149]: pd.NA ** 0
 #Out[149]: 1
 
 In [150]: 1 ** pd.NA
 #Out[150]: 1
-
+```
 In equality and comparison operations,  `pd.NA`  also propagates. This deviates from the behaviour of  `np.nan`, where comparisons with  `np.nan`  always return  `False`.
-
+```py
 In [151]: pd.NA == 1
 #Out[151]: <NA>
 
@@ -1572,5 +1573,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjk4OTI5MiwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbMTc5MTMyMDE1NywxMDMxODQ5NTE0XX0=
 -->
