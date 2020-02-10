@@ -427,7 +427,7 @@ Name: one, dtype: object
 **Fill gaps forward or backward**
 
 Using the same filling arguments as  [reindexing](https://pandas.pydata.org/pandas-docs/stable/getting_started/basics.html#basics-reindexing), we can propagate non-NA values forward or backward:
-
+```py
 In [45]: df
 Out[45]: 
  one       two     three
@@ -436,7 +436,8 @@ c       NaN  1.212112 -0.173215
 e  0.119209 -1.044236 -0.861849
 f -2.104569 -0.494929  1.071804
 h       NaN -0.706771 -1.039575
-
+```
+```py
 In [46]: df.fillna(method='pad')
 Out[46]: 
  one       two     three
@@ -445,11 +446,11 @@ c       NaN  1.212112 -0.173215
 e  0.119209 -1.044236 -0.861849
 f -2.104569 -0.494929  1.071804
 h -2.104569 -0.706771 -1.039575
-
+```
 **Limit the amount of filling**
 
 If we only want consecutive gaps filled up to a certain number of data points, we can use the  limit  keyword:
-
+```py
 In [47]: df
 Out[47]: 
  one       two     three
@@ -458,7 +459,8 @@ c  NaN  1.212112 -0.173215
 e  NaN       NaN       NaN
 f  NaN       NaN       NaN
 h  NaN -0.706771 -1.039575
-
+```
+```py
 In [48]: df.fillna(method='pad', limit=1)
 Out[48]: 
  one       two     three
@@ -467,7 +469,7 @@ c  NaN  1.212112 -0.173215
 e  NaN  1.212112 -0.173215
 f  NaN       NaN       NaN
 h  NaN -0.706771 -1.039575
-
+```
 To remind you, these are the available filling methods:
 
 Method
@@ -489,7 +491,7 @@ With time series data, using pad/ffill is extremely common so that the “last k
 ## Filling with a PandasObject[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#filling-with-a-pandasobject "Permalink to this headline")
 
 You can also fillna using a dict or Series that is alignable. The labels of the dict or index of the Series must match the columns of the frame you wish to fill. The use case of this is to fill a DataFrame with the mean of that column.
-
+```py
 In [49]: dff = pd.DataFrame(np.random.randn(10, 3), columns=list('ABC'))
 
 In [50]: dff.iloc[3:5, 0] = np.nan
@@ -511,7 +513,8 @@ Out[53]:
 7  0.357021 -0.674600       NaN
 8 -0.968914 -1.294524  0.413738
 9  0.276662 -0.472035 -0.013960
-
+```
+```py
 In [54]: dff.fillna(dff.mean())
 Out[54]: 
  A         B         C
@@ -525,7 +528,8 @@ Out[54]:
 7  0.357021 -0.674600 -0.293543
 8 -0.968914 -1.294524  0.413738
 9  0.276662 -0.472035 -0.013960
-
+```
+```py
 In [55]: dff.fillna(dff.mean()['B':'C'])
 Out[55]: 
  A         B         C
@@ -539,9 +543,9 @@ Out[55]:
 7  0.357021 -0.674600 -0.293543
 8 -0.968914 -1.294524  0.413738
 9  0.276662 -0.472035 -0.013960
-
+```
 Same result as above, but is aligning the ‘fill’ value which is a Series in this case.
-
+```py
 In [56]: dff.where(pd.notna(dff), dff.mean(), axis='columns')
 Out[56]: 
  A         B         C
@@ -555,11 +559,11 @@ Out[56]:
 7  0.357021 -0.674600 -0.293543
 8 -0.968914 -1.294524  0.413738
 9  0.276662 -0.472035 -0.013960
-
+```
 ## Dropping axis labels with missing data: dropna[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#dropping-axis-labels-with-missing-data-dropna "Permalink to this headline")
 
 You may wish to simply exclude labels from a data set which refer to missing data. To do this, use  [`dropna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html#pandas.DataFrame.dropna "pandas.DataFrame.dropna"):
-
+```py
 In [57]: df
 Out[57]: 
  one       two     three
@@ -1562,5 +1566,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE4NzYwOCwxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTMxNTUzNzMyNywxMDMxODQ5NTE0XX0=
 -->
