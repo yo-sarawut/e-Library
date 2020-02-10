@@ -1279,7 +1279,7 @@ object
 no cast
 
 For example:
-
+```py
 In [131]: s = pd.Series(np.random.randn(5), index=[0, 2, 4, 6, 7])
 
 In [132]: s > 0
@@ -1310,9 +1310,9 @@ dtype: object
 
 In [136]: crit.dtype
 #Out[136]: dtype('O')
-
+```
 Ordinarily NumPy will complain if you try to use an object array (even if it contains boolean values) instead of a boolean array to get or set values from an ndarray (e.g. selecting values based on some criteria). If a boolean vector contains NAs, an exception will be generated:
-
+```py
 In [137]: reindexed = s.reindex(list(range(8))).fillna(0)
 
 In [138]: reindexed[crit]
@@ -1336,7 +1336,7 @@ ValueError  Traceback (most recent call last)
   138             return True
 
 ValueError: cannot mask with array containing NA / NaN values
-
+```
 However, these can be filled in using  [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna")  and it will work fine:
 ```py
 In [139]: reindexed[crit.fillna(False)]
@@ -1573,5 +1573,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTMyMDE1NywxMDMxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbNTQzMzk0NzM1LDEwMzE4NDk1MTRdfQ==
 -->
