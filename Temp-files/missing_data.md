@@ -1137,9 +1137,9 @@ In [117]: df.replace({'b': {'b': r''}}, regex=True)
 1  1       b
 2  2  .  NaN
 3  3  .    d
-
+```
 Alternatively, you can pass the nested dictionary like so:
-
+```py
 In [118]: df.replace(regex={'b': {r'\s*\.\s*': np.nan}})
 #Out[118]: 
  a    b    c
@@ -1147,9 +1147,9 @@ In [118]: df.replace(regex={'b': {r'\s*\.\s*': np.nan}})
 1  1    b    b
 2  2  NaN  NaN
 3  3  NaN    d
-
+```
 You can also use the group of a regular expression match when replacing (dict of regex -> dict of regex), this works for lists as well.
-
+```py
 In [119]: df.replace({'b': r'\s*(\.)\s*'}, {'b': r'\1ty'}, regex=True)
 #Out[119]: 
  a    b    c
@@ -1157,9 +1157,9 @@ In [119]: df.replace({'b': r'\s*(\.)\s*'}, {'b': r'\1ty'}, regex=True)
 1  1    b    b
 2  2  .ty  NaN
 3  3  .ty    d
-
+```
 You can pass a list of regular expressions, of which those that match will be replaced with a scalar (list of regex -> regex).
-
+```py
 In [120]: df.replace([r'\s*\.\s*', r'a|b'], np.nan, regex=True)
 #Out[120]: 
  a   b    c
@@ -1167,9 +1167,9 @@ In [120]: df.replace([r'\s*\.\s*', r'a|b'], np.nan, regex=True)
 1  1 NaN  NaN
 2  2 NaN  NaN
 3  3 NaN    d
-
+```
 All of the regular expression examples can also be passed with the  `to_replace`  argument as the  `regex`  argument. In this case the  `value`  argument must be passed explicitly by name or  `regex`  must be a nested dictionary. The previous example, in this case, would then be:
-
+```py
 In [121]: df.replace(regex=[r'\s*\.\s*', r'a|b'], value=np.nan)
 #Out[121]: 
  a   b    c
@@ -1177,7 +1177,7 @@ In [121]: df.replace(regex=[r'\s*\.\s*', r'a|b'], value=np.nan)
 1  1 NaN  NaN
 2  2 NaN  NaN
 3  3 NaN    d
-
+```
 This can be convenient if you do not want to pass  `regex=True`  every time you want to use a regular expression.
 
 Note
@@ -1187,7 +1187,7 @@ Anywhere in the above  `replace`  examples that you see a regular expression a c
 ## Numeric replacement[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#numeric-replacement "Permalink to this headline")
 
 [`replace()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html#pandas.DataFrame.replace "pandas.DataFrame.replace")  is similar to  [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna").
-
+```py
 In [122]: df = pd.DataFrame(np.random.randn(10, 2))
 
 In [123]: df[np.random.rand(df.shape[0]) > 0.5] = 1.5
@@ -1205,9 +1205,9 @@ In [124]: df.replace(1.5, np.nan)
 7  0.591667 -0.183257
 8  1.019855 -1.482465
 9       NaN       NaN
-
+```
 Replacing more than one value is possible by passing a list.
-
+```py
 In [125]: df00 = df.iloc[0, 0]
 
 In [126]: df.replace([1.5, df00], [np.nan, 'a'])
@@ -1226,19 +1226,20 @@ In [126]: df.replace([1.5, df00], [np.nan, 'a'])
 
 In [127]: df[1].dtype
 #Out[127]: dtype('float64')
-
+```
 You can also operate on the DataFrame in place:
-
+```py
 In [128]: df.replace(1.5, np.nan, inplace=True)
-
+```
 Warning
 
 When replacing multiple  `bool`  or  `datetime64`  objects, the first argument to  `replace`  (`to_replace`) must match the type of the value being replaced. For example,
-
->>> s = pd.Series([True, False, True])
->>> s.replace({'a string': 'new value', True: False})  # raises
-TypeError: Cannot compare types 'ndarray(dtype=bool)' and 'str'
-
+```py
+ s = pd.Series([True, False, True])
+ s.replace({'a string': 'new value', True: False})  # raises
+ 
+# TypeError: Cannot compare types 'ndarray(dtype=bool)' and 'str'
+```
 will raise a  `TypeError`  because one of the  `dict`  keys is not of the correct type for replacement.
 
 However, when replacing a  _single_  object such as,
@@ -1559,5 +1560,5 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NTI3OTM0LDEwMzE4NDk1MTRdfQ==
+eyJoaXN0b3J5IjpbMTU3NzYwNjY2MywxMDMxODQ5NTE0XX0=
 -->
