@@ -416,13 +416,13 @@ In this collection, we talk a lot about handling data structures like lists and 
 23.  for dictionary in dicts:
 24.  merge_dict.update(dictionary)
 25.  return merged_dict
-```py
+```
 If you’re interested, I have an article which covers this exact topic called “[How to Merge Two Dictionaries in Python](https://therenegadecoder.com/code/how-to-merge-two-dictionaries-in-python/)” which features four solutions as well performance metrics.
 
 ### Formatting a String
 
 Whether we like to admit it or not, we often find ourselves burying print statements throughout our code for quick debugging purposes. After all, a well placed print statement can save you a lot of time. Unfortunately, it’s not always easy or convenient to actually display what we want. Luckily, Python has a lot of formatting options:
-
+```py
 1.  name = "Jeremy"
 2.  age = 25
 
@@ -450,7 +450,7 @@ Whether we like to admit it or not, we often find ourselves burying print statem
 
 26.  # String formatting using f-Strings (Python 3.6+)
 27.  print(f"My name is {name}, and I am {age} years old")
-
+```
 Keep in mind that these solutions don’t have to be used with print statements. In other words, feel free to use solutions like f-strings wherever you need them.
 
 As always, you can find an explanation of all these solutions and more in my article titled “[How to Format a String in Python](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).” If you’d rather see these snippets in action, check out my YouTube video titled “[6 Ways to Format a String in Python Featuring My Cat](https://youtu.be/qZMYur8VRlU).”
@@ -458,7 +458,7 @@ As always, you can find an explanation of all these solutions and more in my art
 ### Printing on the Same Line
 
 Along a similar line as formatting strings, sometimes you just need to print on the same line in Python. As the  `print`  command is currently designed, it automatically applies a newline to the end of your string. Luckily, there are a few ways around that:
-
+```py
 1.  # Python 2 only
 2.  print  "Live PD",
 
@@ -468,13 +468,13 @@ Along a similar line as formatting strings, sometimes you just need to print on 
 
 8.  # Python 3 only
 9.  print("Mob Psycho 100", end="")
-
+```
 As always, if you plan to use any of these solutions, check out the article titled “[How to Print on the Same Line in Python](https://therenegadecoder.com/code/how-to-print-on-the-same-line-in-python/)” for additional use cases and caveats.
 
 ### Testing Performance
 
 Finally, sometimes you just want to compare a couple chunks of code. Luckily, Python has a few straightforward options:
-
+```py
 1.  # Brute force solution
 2.  import datetime
 3.  start_time = datetime.datetime.now()
@@ -489,13 +489,13 @@ Finally, sometimes you just want to compare a couple chunks of code. Luckily, Py
 12.  # cProfile solution
 13.  import cProfile
 14.  cProfile.run("[(a, b) for a in (1, 3, 5) for b in (2, 4, 6)]")
-
+```
 Again, if you want more details, check the article titled “[How to Performance Test Python Code](https://therenegadecoder.com/code/how-to-performance-test-python-code/).”
 
 ### Performing a Reverse Dictionary Lookup
 
 Earlier we talked about reversing a dictionary which is fine in some circumstances. Of course, if our dictionary is enormous, it might not make sense to outright flip the dict. Instead, we can lookup a key based on a value:
-
+```py
 1.  my_dict = {"color": "red", "width": 17, "height": 19}
 2.  value_to_find = "red"
 
@@ -528,13 +528,13 @@ Earlier we talked about reversing a dictionary which is fine in some circumstanc
 30.  for key, value in my_dict.items():
 31.  my_inverted_dict.setdefault(value, list()).append(key)
 32.  print(f'{my_inverted_dict[value_to_find]}: {value_to_find}')
-
+```
 If this seems helpful, you can check out the source article titled “[How to Perform a Reverse Dictionary Lookup in Python](https://therenegadecoder.com/code/how-to-perform-a-reverse-dictionary-lookup-in-python/)“. One of the things I loved about writing this article was learning about generator expressions. If you’re seeing them for the first time, you might want to check it out.
 
 ### Checking if a String Contains a Substring
 
 One thing I find myself searching more often than I should is the way to check if a string contains a substring in Python. Unlike most programming languages, Python leverages a nice keyword for this problem. Of course, there are also method-based solutions as well:
-
+```py
 1.  addresses = [
 2.  "123 Elm Street",
 3.  "531 Oak Street",
@@ -568,7 +568,7 @@ One thing I find myself searching more often than I should is the way to check i
 31.  for address in addresses:
 32.  if street in address:
 33.  print(address)
-
+```
 If you’re like me and forget about the  `in`  keyword, you might want to bookmark the “[How to Check if a String Contains a Substring](https://therenegadecoder.com/code/how-to-check-if-a-string-contains-a-substring-in-python/)” article.
 
 ## Share Your Own Problems
@@ -586,5 +586,5 @@ Otherwise, thanks for stopping by! I appreciate the support.
 
 > [Source : ](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/?fbclid=IwAR2JY-lL1H3SsP84scrFX8dbj6P31JeMwCT0knIHt2KFTsaT0uh486bY4B4).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODcwMjY3NjRdfQ==
+eyJoaXN0b3J5IjpbMTM0NDg5Mjk2Nl19
 -->
