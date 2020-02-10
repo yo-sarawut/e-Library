@@ -671,30 +671,32 @@ Out[69]:
 dtype: float64
 
 For a floating-point index, use  `method='values'`:
-
+```py
 In [70]: ser
 Out[70]: 
 0.0      0.0
 1.0      NaN
 10.0    10.0
 dtype: float64
-
+```
+```py
 In [71]: ser.interpolate()
 Out[71]: 
 0.0      0.0
 1.0      5.0
 10.0    10.0
 dtype: float64
-
+```
+```py
 In [72]: ser.interpolate(method='values')
 Out[72]: 
 0.0      0.0
 1.0      1.0
 10.0    10.0
 dtype: float64
-
+```
 You can also interpolate with a DataFrame:
-
+```py
 In [73]: df = pd.DataFrame({'A': [1, 2.1, np.nan, 4.7, 5.6, 6.8],
  ....:                   'B': [.25, np.nan, np.nan, 4, 12.2, 14.4]})
  ....: 
@@ -708,7 +710,8 @@ Out[74]:
 3  4.7   4.00
 4  5.6  12.20
 5  6.8  14.40
-
+```
+```py
 In [75]: df.interpolate()
 Out[75]: 
  A      B
@@ -718,7 +721,7 @@ Out[75]:
 3  4.7   4.00
 4  5.6  12.20
 5  6.8  14.40
-
+```
 The  `method`  argument gives access to fancier interpolation methods. If you have  [scipy](http://www.scipy.org/)  installed, you can pass the name of a 1-d interpolation routine to  `method`. You’ll want to consult the full scipy interpolation  [documentation](http://docs.scipy.org/doc/scipy/reference/interpolate.html#univariate-interpolation)  and reference  [guide](http://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html)  for details. The appropriate interpolation method will depend on the type of data you are working with.
 
 -   If you are dealing with a time series that is growing at an increasing rate,  `method='quadratic'`  may be appropriate.
@@ -731,7 +734,7 @@ The  `method`  argument gives access to fancier interpolation methods. If you ha
 Warning
 
 These methods require  `scipy`.
-
+```py
 In [76]: df.interpolate(method='barycentric')
 Out[76]: 
  A       B
@@ -741,7 +744,8 @@ Out[76]:
 3  4.70   4.000
 4  5.60  12.200
 5  6.80  14.400
-
+```
+```py
 In [77]: df.interpolate(method='pchip')
 Out[77]: 
  A          B
@@ -751,7 +755,8 @@ Out[77]:
 3  4.70000   4.000000
 4  5.60000  12.200000
 5  6.80000  14.400000
-
+```
+```py
 In [78]: df.interpolate(method='akima')
 Out[78]: 
  A          B
@@ -761,9 +766,9 @@ Out[78]:
 3  4.700000   4.000000
 4  5.600000  12.200000
 5  6.800000  14.400000
-
+```
 When interpolating via a polynomial or spline approximation, you must also specify the degree or order of the approximation:
-
+```py
 In [79]: df.interpolate(method='spline', order=2)
 Out[79]: 
  A          B
@@ -773,7 +778,8 @@ Out[79]:
 3  4.700000   4.000000
 4  5.600000  12.200000
 5  6.800000  14.400000
-
+```
+```py
 In [80]: df.interpolate(method='polynomial', order=2)
 Out[80]: 
  A          B
@@ -1548,5 +1554,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgyNjg0OTMsMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbMjAyNTE5NjcyMSwxMDMxODQ5NTE0XX0=
 -->
