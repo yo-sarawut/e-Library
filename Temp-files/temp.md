@@ -15,7 +15,7 @@ As data comes in many shapes and forms, pandas aims to be flexible with regard t
 Note
 
 If you want to consider  `inf`  and  `-inf`  to be “NA” in computations, you can set  `pandas.options.mode.use_inf_as_na  =  True`.
-
+```py
 In [1]: df = pd.DataFrame(np.random.randn(5, 3), index=['a', 'c', 'e', 'f', 'h'],
  ...:                  columns=['one', 'two', 'three'])
  ...: 
@@ -25,6 +25,8 @@ In [2]: df['four'] = 'bar'
 In [3]: df['five'] = df['one'] > 0
 
 In [4]: df
+```
+```
 Out[4]: 
  one       two     three four   five
 a  0.469112 -0.282863 -1.509059  bar   True
@@ -32,10 +34,13 @@ c -1.135632  1.212112 -0.173215  bar  False
 e  0.119209 -1.044236 -0.861849  bar   True
 f -2.104569 -0.494929  1.071804  bar  False
 h  0.721555 -0.706771 -1.039575  bar   True
-
+```
+```py
 In [5]: df2 = df.reindex(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])
 
 In [6]: df2
+```
+```
 Out[6]: 
  one       two     three four   five
 a  0.469112 -0.282863 -1.509059  bar   True
@@ -46,10 +51,12 @@ e  0.119209 -1.044236 -0.861849  bar   True
 f -2.104569 -0.494929  1.071804  bar  False
 g       NaN       NaN       NaN  NaN    NaN
 h  0.721555 -0.706771 -1.039575  bar   True
-
+```
 To make detecting missing values easier (and across different array dtypes), pandas provides the  [`isna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html#pandas.isna "pandas.isna")  and  [`notna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.notna.html#pandas.notna "pandas.notna")  functions, which are also methods on Series and DataFrame objects:
-
+```py
 In [7]: df2['one']
+```
+```
 Out[7]: 
 a    0.469112
 b         NaN
@@ -60,7 +67,7 @@ f   -2.104569
 g         NaN
 h    0.721555
 Name: one, dtype: float64
-
+```
 In [8]: pd.isna(df2['one'])
 Out[8]: 
 a    False
@@ -1483,5 +1490,5 @@ dtype: object
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ5OTg4MjhdfQ==
+eyJoaXN0b3J5IjpbLTI3ODg3Njk5N119
 -->
