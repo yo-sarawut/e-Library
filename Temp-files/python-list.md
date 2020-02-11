@@ -306,10 +306,9 @@ a = [10, 20, 30, 40]
  
 filter(lambda num: num < 30, a)
 ```
-1
-
-`list``(``filter``(``lambda` `num: num <` `30``, a))`
-
+```py
+list(filter(lambda num: num < 30, a))
+```
 ![python filter list](https://i0.wp.com/theautomatic.net/wp-content/uploads/2019/01/python-filter-list-function.png?w=640)
 
 ## **How to reverse the elements in a list**
@@ -317,16 +316,15 @@ filter(lambda num: num < 30, a)
 #### **Option 1)**
 
 There’s a few different ways to reverse the elements in a list. One way is using the  **inplace**  method called  **reverse**, like so:
-
-1
-
-`nums.reverse()`
-
+```py
+nums.reverse()
+```
 This will reverse the elements of our list,  **nums**, while storing the results of that reversal back in nums. So if we run the below line of code, we can see now that nums contains its original elements in reverse.
 
-1
 
-`nums`
+```py
+nums
+```
 
 ![python reverse a list](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-reverse-elements-in-a-list.png?w=640)
 
@@ -334,16 +332,14 @@ This will reverse the elements of our list,  **nums**, while storing the results
 
 Another way of reversing a list is using bracket notation, like this:
 
-1
-
-`nums[::``-``1``]`
-
+```py
+nums[::-1]
+```
 Doing the above will reverse the elements of  **nums**, but won’t store the results back into  **nums**  unless we tell it to, like this:
 
-1
-
-`nums` `=` `nums[::``-``1``]`
-
+```py
+nums = nums[::-1]
+```
 ![python quick way to reverse a list](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-reverse-list-double-colon.png?w=640)
 
 ## **How to count the occurrence of an element in a list**
@@ -497,5 +493,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjI4OTAyOCwxMzUwMjgyNzgyXX0=
+eyJoaXN0b3J5IjpbLTg5ODg5NTU3MCwxMzUwMjgyNzgyXX0=
 -->
