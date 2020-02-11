@@ -273,15 +273,12 @@ Notice from the snapshot above that the  **pop**  method returns the value of th
 
 Now, we can insert those numbers back into our list:
 
-1
 
-2
-
-3
-
-`nums.insert(``5``,` `200``)`
-
-`nums.insert(``3``,` `20``)`
+```py
+nums.insert(5, 200)
+ 
+nums.insert(3, 20)
+```
 
 ![python insert list method](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-insert-method.png?w=640)
 
@@ -289,10 +286,9 @@ Now, we can insert those numbers back into our list:
 
 To clear out all elements of a list we can use the  **clear**  method:
 
-1
-
-`nums.clear()`
-
+```py
+nums.clear()
+```
 ![python clear all elements from a list](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-clear-method.png?w=640)
 
   
@@ -305,16 +301,11 @@ Lists can be filtered using the  **filter**  function. The  **filter**  function
 
 The actual object returned by  **filter**  is not a list (as of Python >= 3.0) – but instead, is called a filter object. To convert this to a list, we just need to wrap the list function around the filter object.
 
-1
-
-2
-
-3
-
-`a` `=` `[``10``,` `20``,` `30``,` `40``]`
-
-`filter``(``lambda` `num: num <` `30``, a)`
-
+```py
+a = [10, 20, 30, 40]
+ 
+filter(lambda num: num < 30, a)
+```
 1
 
 `list``(``filter``(``lambda` `num: num <` `30``, a))`
@@ -506,5 +497,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MDMzODY2LDEzNTAyODI3ODJdfQ==
+eyJoaXN0b3J5IjpbMjAwMjI4OTAyOCwxMzUwMjgyNzgyXX0=
 -->
