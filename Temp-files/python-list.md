@@ -1,7 +1,7 @@
 # TUTORIAL FOR PYTHON LISTS
 
 -   [Home](http://theautomatic.net/)
--   Tutorial for Python Lists
+
 
 ![python lists tutorial](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-lists-tutorial.jpg?w=640)
 
@@ -46,27 +46,21 @@ A  **list**  in  [Python](http://theautomatic.net/category/python/)  is a contai
 
 Below we define a list containing five numbers – 4, 5, 10, 20, and 34.
 
+
 1
-
-`nums` `=` `[``4``,` `5``,` `10``,` `20``,` `34``]`
-
+nums = [4, 5, 10, 20, 34]
 We can also define a list of strings:
 
 1
-
-`strings` `=` `[``"this"``,` `"is"``,` `"another"``,` `"list"``]`
-
+strings = ["this", "is", "another", "list"]
 Or – here’s a mixed data type list:
 
 1
-
-`[``"example"``,` `"of"``,` `"a"``,` `42``,` `10``,` `"mixed"``,` `"data type list"``,` `5``]`
-
+["example", "of", "a", 42, 10, "mixed", "data type list", 5]
 Lists can also contain other lists. These lists are called nested lists. Below we define a list where the last element is just an integer, 100, but the other elements of the list are lists themselves.
 
 1
-
-`nested_list` `=` `[[``"inner list"``,` `10``], [``"second inner list"``],` `100``]`
+nested_list = [["inner list", 10], ["second inner list"], 100]
 
 ## **Referring to list elements by index**
 
@@ -605,5 +599,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODg3MTI5M119
+eyJoaXN0b3J5IjpbNTE4Mzk3NTQwXX0=
 -->
