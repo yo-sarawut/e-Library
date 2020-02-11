@@ -1,3 +1,4 @@
+
 # TUTORIAL FOR PYTHON LISTS
 
 -   [Home](http://theautomatic.net/)
@@ -85,32 +86,22 @@ nums[-3] # returns 10
 
 What if want to grab more than one element at a time from a list? For instance, how would we retrieve the first three elements of our  **nums**  list?
 
-1
-
-2
-
-3
-
-`nums[``0``:``3``]`
-
-`nums[:``3``]`
-
+```py
+nums[0:3]
+ 
+nums[:3]
+```
 Each of the above will return the first three elements of the list  **nums**. The  **0:3**  means that Python will return the elements in the list indexed 0, 1, and 2 – but not 3. So it will include all the elements up until, but not including the third-indexed element.
 
 ![python slice list](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-slice-list.png?w=640)
 
 Here’s a few more examples:
 
-1
-
-2
-
-3
-
-`nums[``1``:``4``]`
-
-`nums[``1``:``3``]`
-
+```py
+nums[1:4]
+ 
+nums[1:3]
+```
 The first example above will retrieve the elements indexed 1, 2, and 3 (but not 4) of  **nums**. The second example retrieves the elements indexed 1 and 2 (but not 3).
 
 ![python how to slice list](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-slice-list2.png?w=640)
@@ -578,5 +569,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY2NTY0MThdfQ==
+eyJoaXN0b3J5IjpbMTYyNzA5MTI5MF19
 -->
