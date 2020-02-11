@@ -1454,10 +1454,10 @@ In [165]: True & False
 In [166]: True & pd.NA
 #Out[166]: <NA>
 ```
-### `NA`  in a boolean context[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-in-a-boolean-context "Permalink to this headline")
+### [`NA`  in a boolean context](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-in-a-boolean-context "Permalink to this headline")
 
 Since the actual value of an NA is unknown, it is ambiguous to convert NA to a boolean value. The following raises an error:
-
+```py
 In [167]: bool(pd.NA)
 ---------------------------------------------------------------------------
 TypeError  Traceback (most recent call last)
@@ -1467,7 +1467,7 @@ TypeError  Traceback (most recent call last)
 /pandas/pandas/_libs/missing.pyx in pandas._libs.missing.NAType.__bool__()
 
 TypeError: boolean value of NA is ambiguous
-
+```
 This also means that  `pd.NA`  cannot be used in a context where it is evaluated to a boolean, such as  `if  condition:  ...`  where  `condition`  can potentially be  `pd.NA`. In such cases,  [`isna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html#pandas.isna "pandas.isna")  can be used to check for  `pd.NA`  or  `condition`  being  `pd.NA`  can be avoided, for example by filling missing values beforehand.
 
 A similar situation occurs when using Series or DataFrame objects in  `if`  statements, see  [Using if/truth statements with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/gotchas.html#gotchas-truth).
@@ -1536,6 +1536,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTAwMDQxMiwtODAzMTEyMzE0LC0xOT
+eyJoaXN0b3J5IjpbLTEwNTY4OTA5MywtODAzMTEyMzE0LC0xOT
 Y1NzM0MTE2LDEwMzE4NDk1MTRdfQ==
 -->
