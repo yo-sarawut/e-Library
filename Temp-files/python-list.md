@@ -163,7 +163,7 @@ An example of  **mutability**  is via appending elements to a list. To append el
 ```py
 # append 100 to the end of our list, nums
 
-nums.append(``100``)
+nums.append(100)
 ```
 ![python list append](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/list-append-method.png?w=640)
 
@@ -176,28 +176,15 @@ nums.append(300)
 
 Each of these append examples demonstrates how lists are mutable because they each show how the definition of  **nums**  can be changed after its initialization without a new initialization. In other words, we could have taken our original list and then redefined that list multiple times to append elements to the end of the list, like this:
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-`nums` `=` `[``4``,` `5``,` `10``,` `20``,` `34``]`
-
-`nums` `=` `[``4``,` `5``,` `10``,` `20``,` `34``,` `100``]`
-
-`nums` `=` `[``4``,` `5``,` `10``,` `20``,` `34``,` `100``,` `200``]`
-
-`nums` `=` `[``4``,` `5``,` `10``,` `20``,` `34``,` `100``,` `200``,` `300``]`
-
+```py
+nums = [4, 5, 10, 20, 34]
+ 
+nums = [4, 5, 10, 20, 34, 100]
+ 
+nums = [4, 5, 10, 20, 34, 100, 200]
+ 
+nums = [4, 5, 10, 20, 34, 100, 200, 300]
+```
 …But we don’t have to. We can accomplish what the code above does with the  **append**  method because of the fact that lists are mutable, and therefore, we can  _mutate_, or change, lists without reinitialization.
 
 Also, because  **append**  is  **inplace**, we don’t have to run the last chunk of code above where we’re redefining  **nums**  because the method automatically changes  **nums**  to have the appended values.
@@ -208,10 +195,9 @@ The  **append**  method above appends an element to the  _end_  of a list, but w
 
 Taking the previous value of  **nums**  as  **[4, 5, 10, 20, 34, 100, 200, 300]**, let’s insert the string “test” into the third indexed position of the list.
 
-1
-
-`nums.insert(``3``,` `"test"``)`
-
+```py
+nums.insert(3, "test")
+```
 The  **insert**  method takes two parameters. The first is the index in the list we want to insert some element. The second parameter is the element we want to insert. In this case, we insert the string “test” into the third index of the list, nums.
 
 ![python insert element into a list at specific index](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-insert-element-into-list.png?w=640)
@@ -220,10 +206,9 @@ Putting an element into the nth  position in a list will shift the elements in t
 
 Below we insert the string “test” again – though this time we put it into the seventh-indexed position.
 
-1
-
-`nums.insert(``7``,` `"test"``)`
-
+```py
+nums.insert(7, "test")
+```
 ![python insert into list](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-insert-method.png?w=640)
 
 ## **How to append another list of elements to a list**
@@ -535,5 +520,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzYyOTcxNV19
+eyJoaXN0b3J5IjpbMTM1MDI4Mjc4Ml19
 -->
