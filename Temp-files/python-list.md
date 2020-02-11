@@ -229,10 +229,9 @@ nums.extend([1000, 2000, 3000])
 
 The  **extend**  method can be viewed as a shortcut for writing the below code:
 
-1
-
-`nums` `=` `nums` `+` `[``1000``,` `2000``,` `3000``]`
-
+```py
+nums = nums + [1000, 2000, 3000]
+```
 The above code will take the initial list,  **nums**, and append the numbers 1000, 2000, and 3000 to the end of the list – just like the  **extend**  method. The difference is that in this case we have to redefine  **nums**  to be equal to this concatenation, whereas the  **extend**  method is  **inplace**.
 
   
@@ -243,24 +242,14 @@ The above code will take the initial list,  **nums**, and append the numbers 100
 
 We can remove elements of a list that equal a specific value using the  **remove**  method. The  **remove**  method will take out the first occurrence of the input value for a given list (and only the first occurrence). For instance, let’s say we want to get rid of the string “test” we inserted into  **nums**  in an earlier section.
 
-1
 
-2
-
-3
-
-4
-
-5
-
-`# remove first occurrence of "test"`
-
-`nums.remove(``"test"``)`
-
-`# remove next occurrence of "test"`
-
-`nums.remove(``"test"``)`
-
+```py
+# remove first occurrence of "test"
+nums.remove("test")
+ 
+# remove next occurrence of "test"
+nums.remove("test")
+```
 Each time we run  **nums.remove(“test”)**, Python will remove the first found occurrence of the string “test” in the list. Thus, running the first line above will remove “test” from the third-indexed position in  **nums**. Running the second line will remove the next (and in this case, only other) occurrence of “test” in the list.
 
 ![python list remove first occurrence of element](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-remove-element-first-occurrence.png?w=640)
@@ -269,23 +258,14 @@ Each time we run  **nums.remove(“test”)**, Python will remove the first foun
 
 Elements can also be removed from a list based off index. For example, if we want to remove the element in the third-indexed position from a list, we could do this:
 
-1
 
-2
-
-3
-
-4
-
-5
-
-`# remove element in the third-indexed position`
-
-`nums.pop(``3``)`
-
-`# or remove the element in the fifth-indexed position`
-
-`nums.pop(``5``)`
+```py
+# remove element in the third-indexed position
+nums.pop(3)
+ 
+# or remove the element in the fifth-indexed position
+nums.pop(5)
+```
 
 ![python list pop method](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-pop-method.png?w=640)
 
@@ -526,5 +506,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ0MjUzMjIsMTM1MDI4Mjc4Ml19
+eyJoaXN0b3J5IjpbMzU4MDMzODY2LDEzNTAyODI3ODJdfQ==
 -->
