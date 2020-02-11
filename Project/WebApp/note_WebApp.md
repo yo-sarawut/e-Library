@@ -6,6 +6,9 @@ Note for Web App
 - [Shiny Knob Control with jQuery and CSS3](https://tutorialzine.com/2011/11/pretty-switches-css3-jquery)
 ![enter image description here](https://tutorialzine.com/media/2011/11/shiny-switch-rotation.jpg)
 
+- [Buttons With Built-in Progress Meters](https://tutorialzine.com/2013/10/buttons-built-in-progress-meters)
+
+
 
 
 
@@ -73,9 +76,9 @@ Note for Web App
 Lorem ipsum dolor sit amet, consectetur adipiscing elit ...</span></p>  
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTExMzE0OCw1MTg4NzMxOTgsMTkwNz
-Y4OTA4Myw1MTM3Nzk5NzUsLTE5OTY5MTA3NDEsMjAxOTc3MjA4
-NiwtMTQzOTg2MDYxNywxMDM4NzY0NzcyLC0xOTM1NjQyMDk0LC
-02NTQ3Njc3ODcsMTU3MTg2MTQxMCwtNDU5MjY2MzgsNTczNTg0
-NDY2LC0xODM0NzY1NDQ2LC01MzM5MTUyMjRdfQ==
+eyJoaXN0b3J5IjpbNzQ1MjU1NzE1LDUxODg3MzE5OCwxOTA3Nj
+g5MDgzLDUxMzc3OTk3NSwtMTk5NjkxMDc0MSwyMDE5NzcyMDg2
+LC0xNDM5ODYwNjE3LDEwMzg3NjQ3NzIsLTE5MzU2NDIwOTQsLT
+Y1NDc2Nzc4NywxNTcxODYxNDEwLC00NTkyNjYzOCw1NzM1ODQ0
+NjYsLTE4MzQ3NjU0NDYsLTUzMzkxNTIyNF19
 -->
