@@ -181,8 +181,7 @@ h  0.721555 -0.706771 -1.039575  bar   True 2012-01-01
 In [18]: df2.loc[['a', 'c', 'h'], ['one', 'timestamp']] = np.nan
 
 In [19]: df2
-```
-```
+
 #Out[19]: 
  one       two     three four   five  timestamp
 a       NaN -0.282863 -1.509059  bar   True        NaT
@@ -193,8 +192,7 @@ h       NaN -0.706771 -1.039575  bar   True        NaT
 ```
 ```py
 In [20]: df2.dtypes.value_counts()
-```
-```
+
 #Out[20]: 
 float64           3
 datetime64[ns]    1
@@ -209,12 +207,9 @@ You can insert missing values by simply assigning to containers. The actual miss
 For example, numeric containers will always use  `NaN`  regardless of the missing value type chosen:
 ```py
 In [21]: s = pd.Series([1, 2, 3])
-
 In [22]: s.loc[0] = None
-
 In [23]: s
-```
-```
+
 #Out[23]: 
 0    NaN
 1    2.0
@@ -229,8 +224,7 @@ In [24]: s = pd.Series(["a", "b", "c"])
 In [25]: s.loc[0] = None
 In [26]: s.loc[1] = np.nan
 In [27]: s
-```
-```
+
 #Out[27]: 
 0    None
 1     NaN
@@ -242,8 +236,7 @@ dtype: object
 Missing values propagate naturally through arithmetic operations between pandas objects.
 ```py
 In [28]: a
-```
-```
+
 #Out[28]: 
  one       two
 a       NaN -0.282863
@@ -254,8 +247,7 @@ h -2.104569 -0.706771
 ```
 ```py
 In [29]: b
-```
-```
+
 #Out[29]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -266,8 +258,7 @@ h       NaN -0.706771 -1.039575
 ```
 ```py
 In [30]: a + b
-```
-```
+
 #Out[30]: 
  one  three       two
 a       NaN    NaN -0.565727
@@ -286,8 +277,7 @@ The descriptive statistics and computational methods discussed in the  [data str
     
 ```py
 In [31]: df
-```
-```
+
 #Out[31]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -298,14 +288,12 @@ h       NaN -0.706771 -1.039575
 ```
 ```py
 In [32]: df['one'].sum()
-```
-```
+
 #Out[32]: -1.9853605075978744
 ```
 ```py
 In [33]: df.mean(1)
-```
-```
+
 #Out[33]: 
 a   -0.895961
 c    0.519449
@@ -316,8 +304,7 @@ dtype: float64
 ```
 ```py
 In [34]: df.cumsum()
-```
-```
+
 #Out[34]: 
  one       two     three
 a       NaN -0.282863 -1.509059
@@ -328,8 +315,7 @@ h       NaN -1.316688 -2.511893
 ```
 ```py
 In [35]: df.cumsum(skipna=False)
-```
-```
+
 #Out[35]: 
  one       two     three
 a  NaN -0.282863 -1.509059
@@ -1556,6 +1542,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMwNTc3MzYsLTE5NjU3MzQxMTYsMT
-AzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbOTIyOTI2MzY0LC0xOTY1NzM0MTE2LDEwMz
+E4NDk1MTRdfQ==
 -->
