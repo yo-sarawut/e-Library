@@ -1,5 +1,4 @@
 Python vs. Scala: a comparison of the basic commands (Part I)
-
 ===
 
 [**Source :**](https://towardsdatascience.com/python-vs-scala-a-comparison-of-the-basic-commands-fae23b3ede23)
@@ -601,5 +600,6 @@ Feel free to check out:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMwMzI4NTQsLTQxOTE1NjA1MF19
+eyJoaXN0b3J5IjpbNzE4NDUxMzg4LC0xOTIzMDMyODU0LC00MT
+kxNTYwNTBdfQ==
 -->
