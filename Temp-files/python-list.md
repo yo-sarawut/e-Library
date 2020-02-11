@@ -46,22 +46,20 @@ A  **list**  in  [Python](http://theautomatic.net/category/python/)  is a contai
 
 Below we define a list containing five numbers – 4, 5, 10, 20, and 34.
 
-
-1
+```py
 nums = [4, 5, 10, 20, 34]
-We can also define a list of strings:
+# We can also define a list of strings:
 
-1
+
 strings = ["this", "is", "another", "list"]
-Or – here’s a mixed data type list:
+# Or – here’s a mixed data type list:
 
-1
+
 ["example", "of", "a", 42, 10, "mixed", "data type list", 5]
-Lists can also contain other lists. These lists are called nested lists. Below we define a list where the last element is just an integer, 100, but the other elements of the list are lists themselves.
+# Lists can also contain other lists. These lists are called nested lists. Below we define a list where the last element is just an integer, 100, but the other elements of the list are lists themselves.
 
-1
 nested_list = [["inner list", 10], ["second inner list"], 100]
-
+```
 ## **Referring to list elements by index**
 
 One property of lists is that each element in the list can be referred to by an index i.e. there is an order to the elements in the list. In other words, there is the concept of the first element, second element, third element, and so on. Since Python is  [zero-indexed](https://en.wikipedia.org/wiki/Zero-based_numbering), the  **0th**  element of the list defined above is 4. The  **1st**  element is 5, the  **2nd**  is 10, and so on.
@@ -599,5 +597,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4Mzk3NTQwXX0=
+eyJoaXN0b3J5IjpbOTEyODExNzQyXX0=
 -->
