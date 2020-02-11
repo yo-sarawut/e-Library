@@ -409,47 +409,26 @@ b = [10, 20, 30, 40, 50]
 len(b) # returns 5
 ```
 You can also get the length of a list using the  **__len__**  method. Note the double underscore on each side of  _len_.
-
-1
-
-2
-
-3
-
-4
-
-5
-
-`a` `=` `[``4``,` `5``,` `6``]`
-
-`a.__len__()` `# returns 3`
-
-`b` `=` `[``10``,` `20``,` `30``,` `40``,` `50``]`
-
-`b.__len__()` `# returns 5`
-
+```py
+ a = [4, 5, 6]
+a.__len__() # returns 3
+ 
+b = [10, 20, 30, 40, 50]
+b.__len__() # returns 5
+```
 ## **How to get the index where an element first occurs**
 
 Figuring out where in a list an element first occurs can be done using the  **index**  method.
 
-1
-
-2
-
-3
-
-4
-
-5
-
-`strings` `=` `[``"this"``,` `"is"``,` `"another"``,` `"list"``]`
-
-`strings.index(``"another"``)` `# returns 2`
-
-`strings.index(``"list"``)` `# returns 3`
-
+```py
+strings = ["this", "is", "another", "list"]
+ 
+strings.index("another") # returns 2
+ 
+strings.index("list") # returns 3
+```
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MzM0NzcsMTM1MDI4Mjc4Ml19
+eyJoaXN0b3J5IjpbMzcyOTk1Njk1LDEzNTAyODI3ODJdfQ==
 -->
