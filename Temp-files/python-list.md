@@ -66,40 +66,21 @@ One property of lists is that each element in the list can be referred to by an 
 
 We refer to elements in a list by index using bracket notation like this:
 
-1
+```py
+nums[0] # returns 4
+ 
+nums[1] # returns 5
+ 
+nums[2] # returns 10
 
-2
+# We can also refer to elements starting from the end of the list using negative indices.
 
-3
-
-4
-
-5
-
-`nums[``0``]` `# returns 4`
-
-`nums[``1``]` `# returns 5`
-
-`nums[``2``]` `# returns 10`
-
-We can also refer to elements starting from the end of the list using negative indices.
-
-1
-
-2
-
-3
-
-4
-
-5
-
-`nums[``-``1``]` `# returns 34`
-
-`nums[``-``2``]` `# returns 20`
-
-`nums[``-``3``]` `# returns 10`
-
+nums[-1] # returns 34
+ 
+nums[-2] # returns 20
+ 
+nums[-3] # returns 10
+```
 ## **Slicing a list**
 
 What if want to grab more than one element at a time from a list? For instance, how would we retrieve the first three elements of our  **nums**  list?
@@ -597,5 +578,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyODExNzQyXX0=
+eyJoaXN0b3J5IjpbLTE1ODY2NTY0MThdfQ==
 -->
