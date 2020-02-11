@@ -324,7 +324,7 @@ e  NaN -0.114987 -2.544122
 f  NaN -0.609917 -1.472318
 h  NaN -1.316688 -2.511893
 ```
-## Sum/prod of empties/nans[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#sum-prod-of-empties-nans "Permalink to this headline")
+## [Sum/prod of empties/nans](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#sum-prod-of-empties-nans "Permalink to this headline")
 
 > **Warning**
 This behavior is now standard as of v0.22.0 and is consistent with the default in  `numpy`; previously sum/prod of all-NA or empty Series/DataFrames would return NaN. See  [v0.22.0 whatsnew](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.22.0.html#whatsnew-0220)  for more.
@@ -349,7 +349,7 @@ In [38]: pd.Series([np.nan]).prod()
 In [39]: pd.Series([], dtype="float64").prod()
 #Out[39]: 1.0
 ```
-## NA values in GroupBy[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-values-in-groupby "Permalink to this headline")
+## [NA values in GroupBy](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#na-values-in-groupby "Permalink to this headline")
 
 NA groups in GroupBy are automatically excluded. This behavior is consistent with R, for example:
 ```py
@@ -376,7 +376,7 @@ See the groupby section  [here](https://pandas.pydata.org/pandas-docs/stable/use
 
 pandas objects are equipped with various data manipulation methods for dealing with missing data.
 
-## Filling missing values: fillna[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#filling-missing-values-fillna "Permalink to this headline")
+## [Filling missing values: fillna](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#filling-missing-values-fillna "Permalink to this headline")
 
 [`fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html#pandas.DataFrame.fillna "pandas.DataFrame.fillna")  can “fill in” NA values with non-NA data in a couple of ways, which we illustrate:
 
@@ -1542,6 +1542,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyOTI2MzY0LC0xOTY1NzM0MTE2LDEwMz
-E4NDk1MTRdfQ==
+eyJoaXN0b3J5IjpbLTgwMzExMjMxNCwtMTk2NTczNDExNiwxMD
+MxODQ5NTE0XX0=
 -->
