@@ -110,34 +110,21 @@ The first example above will retrieve the elements indexed 1, 2, and 3 (but not 
 
 Lists can be combined using the “+” operator.
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-`list_1` `=` `[``3``,` `4``,` `5``]`
-
-`list_2` `=` `[``6``,` `7``,` `8``]`
-
-`list_3` `=` `list_1` `+` `list_2`
-
-`list_3`
-
+```py
+list_1 = [3, 4, 5]
+list_2 = [6, 7, 8]
+ 
+list_3 = list_1 + list_2
+ 
+list_3
+```
 ![python how to combine lists](https://i2.wp.com/theautomatic.net/wp-content/uploads/2019/01/python-combine-lists.png?w=640)
 
 We can also chain together multiple concatenation operations:
 
-1
-
-`[``1``,` `2``,` `3``]` `+` `[``4``,` `5``,` `6``]` `+` `[``"python"``,` `"is"``,` `"awesome"``]` `+` `[[``"nested list"``]]`
-
+```py
+[1, 2, 3] + [4, 5, 6] + ["python", "is", "awesome"] + [["nested list"]]
+```
 ![python concatenate lists](https://i1.wp.com/theautomatic.net/wp-content/uploads/2019/01/python-concatenate-lists.png?w=640)
 
 ## **Lists are mutable**
@@ -146,22 +133,13 @@ Another property of lists is that they are  **mutable**. We’ll see examples of
 
 Suppose, for example, we wanted to change the 0th element of the strings list above. We can do that by referencing just the 0th element of the list, and setting it equal to some other value.
 
-1
-
-2
-
-3
-
-4
-
-5
-
-`strings` `=` `[``"this"``,` `"is"``,` `"another"``,` `"list"``]`
-
-`strings[``0``]` `=` `"that"`
-
-`strings`
-
+```py
+strings = ["this", "is", "another", "list"]
+ 
+strings[0] = "that"
+ 
+strings
+```
 ![python change element in list at specific index](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-mutability-example.png?w=640)
 
 The above code is an alternative to the below where we redefine the full list  **strings**. The  **mutability**  of lists gives us the ability to shorten the amount of code we write to adjust the values they contain.
@@ -569,5 +547,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzA5MTI5MF19
+eyJoaXN0b3J5IjpbLTE1MzQ4MzgxOThdfQ==
 -->
