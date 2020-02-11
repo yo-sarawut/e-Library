@@ -380,64 +380,34 @@ Lists can be copied using the  **copy**  method.
 
 Sorting a list can be done using the  **sort**  method like this:
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-`# define a new list`
-
-`new_list` `=` `[``10``,` `4``,` `17``,` `21``,` `8``,` `12``,` `2``]`
-
-`# sort list`
-
-`new_list.sort()`
-
-`# see results stored in new_list`
-
-`new_list`
-
+```py
+# define a new list
+new_list = [10, 4, 17, 21, 8, 12, 2]
+ 
+# sort list
+new_list.sort()
+ 
+# see results stored in new_list
+new_list
+```
 ![how to sort a list in python](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-sort-list.png?w=640)
 
 You can also sort a list using the  **sorted**  function:
 
-1
-
-`sorted_list` `=` `sorted``(new_list)`
-
+```py
+sorted_list = sorted(new_list)
+```
 ## **How to get the length of a list**
 
 Getting the length of a list can be done in a couple of different ways. The first, more commonly seen way, is using Python’s built-in  **len**  function.
 
-1
-
-2
-
-3
-
-4
-
-5
-
-`a` `=` `[``4``,` `5``,` `6``]`
-
-`len``(a)` `# returns 3`
-
-`b` `=` `[``10``,` `20``,` `30``,` `40``,` `50``]`
-
-`len``(b)` `# returns 5`
-
+```py
+a = [4, 5, 6]
+len(a) # returns 3
+ 
+b = [10, 20, 30, 40, 50]
+len(b) # returns 5
+```
 You can also get the length of a list using the  **__len__**  method. Note the double underscore on each side of  _len_.
 
 1
@@ -481,5 +451,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjAwNTA0ODgsMTM1MDI4Mjc4Ml19
+eyJoaXN0b3J5IjpbNjg1MzM0NzcsMTM1MDI4Mjc4Ml19
 -->
