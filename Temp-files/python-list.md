@@ -144,10 +144,9 @@ strings
 
 The above code is an alternative to the below where we redefine the full list  **strings**. The  **mutability**  of lists gives us the ability to shorten the amount of code we write to adjust the values they contain.
 
-1
-
-`strings` `=` `[``"that"``,` `"is"``,` `"another"``,` `"list"``]`
-
+```py
+strings = ["that", "is", "another", "list"]
+```
 Some of the additional examples below will show how lists can be mutated, or changed, after they have been defined.
 
 ## **Lists support inplace methods**
@@ -161,29 +160,18 @@ Lists in Python have several inplace methods. These are methods, or functions, t
 ## **How to append elements in a list**
 
 An example of  **mutability**  is via appending elements to a list. To append elements to a list, one at at a time, we can use the (aptly-named)  **append**  method. This method is also an example of an  **inplace**  operation.
+```py
+# append 100 to the end of our list, nums
 
-1
-
-2
-
-`# append 100 to the end of our list, nums`
-
-`nums.append(``100``)`
-
+nums.append(``100``)
+```
 ![python list append](https://i0.wp.com/theautomatic.net/wp-content/uploads/2018/12/list-append-method.png?w=640)
 
 Below we append 200 to the end of  **nums**, followed by 300.
-
-1
-
-2
-
-3
-
-`nums.append(``200``)`
-
-`nums.append(``300``)`
-
+```py
+nums.append(200)
+nums.append(300)
+```
 ![python append to list](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-list-append2.png?w=640)
 
 Each of these append examples demonstrates how lists are mutable because they each show how the definition of  **nums**  can be changed after its initialization without a new initialization. In other words, we could have taken our original list and then redefined that list multiple times to append elements to the end of the list, like this:
@@ -547,5 +535,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ4MzgxOThdfQ==
+eyJoaXN0b3J5IjpbMTYzNzYyOTcxNV19
 -->
