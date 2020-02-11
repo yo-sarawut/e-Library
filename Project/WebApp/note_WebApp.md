@@ -7,7 +7,7 @@ Note for Web App
 ![enter image description here](https://tutorialzine.com/media/2011/11/shiny-switch-rotation.jpg)
 
 - [Buttons With Built-in Progress Meters](https://tutorialzine.com/2013/10/buttons-built-in-progress-meters)
-
+![enter image description here](https://tutorialzine.com/media/2013/10/buttons_progress_meters.jpg)
 
 
 
@@ -76,7 +76,7 @@ Note for Web App
 Lorem ipsum dolor sit amet, consectetur adipiscing elit ...</span></p>  
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MjU1NzE1LDUxODg3MzE5OCwxOTA3Nj
+eyJoaXN0b3J5IjpbOTQ4MDQ2MDQwLDUxODg3MzE5OCwxOTA3Nj
 g5MDgzLDUxMzc3OTk3NSwtMTk5NjkxMDc0MSwyMDE5NzcyMDg2
 LC0xNDM5ODYwNjE3LDEwMzg3NjQ3NzIsLTE5MzU2NDIwOTQsLT
 Y1NDc2Nzc4NywxNTcxODYxNDEwLC00NTkyNjYzOCw1NzM1ODQ0
