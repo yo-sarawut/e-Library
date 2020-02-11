@@ -346,40 +346,28 @@ nums = nums[::-1]
 
 To count how many times an element occurs in a list, we can use the  **count**  method, like this (using a different list this time):
 
-1
-
-2
-
-3
-
-`x` `=` `[``10``,` `10``,` `30``,` `20``,` `50``,` `50``,` `30``,` `30``,` `30``]`
-
-`x.count(``30``)`
-
+```py
+x = [10, 10, 30, 20, 50, 50, 30, 30, 30]
+ 
+x.count(30)
+```
 Here, running  **x.count(30)**  will return 4 because 30 occurs four times in  **x**.
 
 ![python count how many times an element occurs or appears in a list](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/list-count-method.png?w=640)
 
 Likewise, if we want to count how many times 50 appears, or 10 appears, we would do this:
 
-1
-
-2
-
-3
-
-`x.count(``50``)`
-
-`x.count(``10``)`
-
+```py
+x.count(50)
+ 
+x.count(10)
+```
 ![python count how many times an element occurs or appears in a list](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-count-occurence-of-element-in-a-list.png?w=640)
 
 If we try to use the  **count**  method for an element that doesn’t occur in the list, Python will return zero:
-
-1
-
-`x.count(``100``)`
-
+```py
+x.count(100)
+```
 ![python count zero elements in a list](https://i1.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-count-method.png?w=640)
 
 ## **How to copy a list**
@@ -493,5 +481,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODg5NTU3MCwxMzUwMjgyNzgyXX0=
+eyJoaXN0b3J5IjpbLTEwMjAwNTA0ODgsMTM1MDI4Mjc4Ml19
 -->
