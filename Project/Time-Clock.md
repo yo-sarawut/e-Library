@@ -1,3 +1,7 @@
+## Tutorials
+
+- [How to Make a Digital Clock with jQuery and CSS3](https://tutorialzine.com/2013/06/digital-clock)
+
 
 ## Example
 
@@ -13,5 +17,5 @@
 
 ![Simple and visually-pleasing Pomodoro timer](https://vuejsexamples.com/content/images/2019/12/pomotroid.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzIzMzYxN119
+eyJoaXN0b3J5IjpbLTM4MzYxNDE3LDExODMyMzM2MTddfQ==
 -->
