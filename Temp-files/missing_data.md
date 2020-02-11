@@ -458,8 +458,11 @@ f  NaN       NaN       NaN
 h  NaN -0.706771 -1.039575
 ```
 To remind you, these are the available filling methods:
-
-Method
+| Method | Action |
+|------|----------|
+| pad / ffill | Fill values forward |
+|bfill / backfill|Fill values backward|
+|Method
 
 Action
 
@@ -1542,6 +1545,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzExMjMxNCwtMTk2NTczNDExNiwxMD
-MxODQ5NTE0XX0=
+eyJoaXN0b3J5IjpbLTE2MTMwNzk2NCwtODAzMTEyMzE0LC0xOT
+Y1NzM0MTE2LDEwMzE4NDk1MTRdfQ==
 -->
