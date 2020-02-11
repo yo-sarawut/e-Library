@@ -10,7 +10,9 @@ Note for Frontend
 - [HTML5 Tutorials](https://1stwebdesigner.com/30-html5-tutorials/)
 - [tutorialrepublic.com](https://www.tutorialrepublic.com/javascript-examples.php)
 - [https://webdevtrick.com/](https://webdevtrick.com/)
+- [https://tutorialzine.com/tag/css](https://tutorialzine.com/tag/css)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNDA3MzQsLTE4NTkwOTQ2ODYsMTk2ND
-Q0ODkzNCw0Njc5NDExODYsMzQ1MDM3NTg3XX0=
+eyJoaXN0b3J5IjpbLTUxNzY5ODI0LDg3MjQwNzM0LC0xODU5MD
+k0Njg2LDE5NjQ0NDg5MzQsNDY3OTQxMTg2LDM0NTAzNzU4N119
+
 -->
