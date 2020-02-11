@@ -458,27 +458,18 @@ f  NaN       NaN       NaN
 h  NaN -0.706771 -1.039575
 ```
 To remind you, these are the available filling methods:
+
 | Method | Action |
 |------|----------|
 | pad / ffill | Fill values forward |
 |bfill / backfill|Fill values backward|
-|Method
 
-Action
-
-pad / ffill
-
-Fill values forward
-
-bfill / backfill
-
-Fill values backward
 
 With time series data, using pad/ffill is extremely common so that the “last known value” is available at every time point.
 
 [`ffill()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.ffill.html#pandas.DataFrame.ffill "pandas.DataFrame.ffill")  is equivalent to  `fillna(method='ffill')`  and  [`bfill()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.bfill.html#pandas.DataFrame.bfill "pandas.DataFrame.bfill")  is equivalent to  `fillna(method='bfill')`
 
-## Filling with a PandasObject[](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#filling-with-a-pandasobject "Permalink to this headline")
+## [Filling with a PandasObject](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html#filling-with-a-pandasobject "Permalink to this headline")
 
 You can also fillna using a dict or Series that is alignable. The labels of the dict or index of the Series must match the columns of the frame you wish to fill. The use case of this is to fill a DataFrame with the mean of that column.
 ```py
@@ -1545,6 +1536,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMwNzk2NCwtODAzMTEyMzE0LC0xOT
+eyJoaXN0b3J5IjpbMjAwOTAwMDQxMiwtODAzMTEyMzE0LC0xOT
 Y1NzM0MTE2LDEwMzE4NDk1MTRdfQ==
 -->
