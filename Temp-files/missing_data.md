@@ -117,22 +117,20 @@ h  False  False  False  False  False
 One has to be mindful that in Python (and NumPy), the  `nan's`  don’t compare equal, but  `None's`  **do**. Note that pandas/NumPy uses the fact that  `np.nan  !=  np.nan`, and treats  `None`  like  `np.nan`.
 ```py
 In [11]: None == None        # noqa: E711
-```
-```
+
+
 #Out[11]: True
 ```
 ```py
 In [12]: np.nan == np.nan
-```
-```
+
 #Out[12]: False
 ```
 
 So as compared to above, a scalar equality comparison versus a  `None/np.nan`  doesn’t provide useful information.
 ```py
 In [13]: df2['one'] == np.nan
-```
-```
+
 a    False
 b    False
 c    False
@@ -149,8 +147,7 @@ Name: one, dtype: bool
 Because  `NaN`  is a float, a column of integers with even one missing values is cast to floating-point dtype (see  [Support for integer NA](https://pandas.pydata.org/pandas-docs/stable/user_guide/gotchas.html#gotchas-intna)  for more). Pandas provides a nullable integer array, which can be used by explicitly requesting the dtype:
 ```py
 In [14]: pd.Series([1, 2, np.nan, 4], dtype=pd.Int64Dtype())
-```
-```
+
 #Out[14]: 
 0       1
 1       2
@@ -171,8 +168,7 @@ In [15]: df2 = df.copy()
 In [16]: df2['timestamp'] = pd.Timestamp('20120101')
 
 In [17]: df2
-```
-```
+
 #Out[17]: 
  one       two     three four   five  timestamp
 a  0.469112 -0.282863 -1.509059  bar   True 2012-01-01
@@ -1560,5 +1556,6 @@ dtype: object
 ```
 > [Source : ](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU3MzQxMTYsMTAzMTg0OTUxNF19
+eyJoaXN0b3J5IjpbLTE3NjMwNTc3MzYsLTE5NjU3MzQxMTYsMT
+AzMTg0OTUxNF19
 -->
