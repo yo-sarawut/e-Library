@@ -1,4 +1,5 @@
 
+
 # TUTORIAL FOR PYTHON LISTS
 
 -   [Home](http://theautomatic.net/)
@@ -520,5 +521,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDI4Mjc4Ml19
+eyJoaXN0b3J5IjpbMjk1Mzc5NjYwLDEzNTAyODI3ODJdfQ==
 -->
