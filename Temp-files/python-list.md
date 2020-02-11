@@ -1,4 +1,9 @@
+---
+bookFlatSection: true
+title: Python Lists
+bookToc: False
 
+---
 
 # TUTORIAL FOR PYTHON LISTS
 
@@ -216,10 +221,10 @@ nums.insert(7, "test")
 
 One of my favorite methods for dealing with lists is the  **extend**  method because it can append an entire other list of elements at once to your list.
 
-1
 
-`nums.extend([``1000``,` `2000``,` `3000``])`
-
+```py
+nums.extend([1000, 2000, 3000])
+```
 ![python extend method append an entire list to another list](https://i2.wp.com/theautomatic.net/wp-content/uploads/2018/12/python-extend-method.png?w=640)
 
 The  **extend**  method can be viewed as a shortcut for writing the below code:
@@ -521,5 +526,5 @@ Figuring out where in a list an element first occurs can be done using the  **in
 
 > [Source : ](http://theautomatic.net/tutorial-for-python-lists/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1Mzc5NjYwLDEzNTAyODI3ODJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjQ0MjUzMjIsMTM1MDI4Mjc4Ml19
 -->
