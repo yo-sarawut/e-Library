@@ -51,13 +51,16 @@
 
 <table>
   <tr>
-    <td colspan="2">A</td>
+	    <td colspan="2">ตรวจปล่อย</td>
     <td>Two</td>
       <td>Three</td>
   </tr>
   <tr>
-    <td colspan="2">A</td>
+    <td>A</td>
     <td>B</td>
+    <td>B</td>
+    <td>B</td>
+    
   </tr>
 </table>
 
@@ -89,7 +92,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2OTk2NDA1LDUzMDgxMjIyNiw3OTgyOD
+eyJoaXN0b3J5IjpbODI0MDkxMTE1LDUzMDgxMjIyNiw3OTgyOD
 UxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEsMTk1NDA1NTAzXX0=
 
 -->
