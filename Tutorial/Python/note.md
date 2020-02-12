@@ -71,9 +71,9 @@
 -----
 
 | One    | Two | Three | Four    | Five  | Six |
-| -|-|-|-|-|
+| -|-|-|-|-|-|
 | Span <td colspan=3>triple  <td colspan=2>double|
-
+| One    | Two | Three | Four    | Five  | Six |
 
 ------
 
@@ -94,7 +94,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUwNzQ4OCwxMzYzODM3NzM1LDUzMD
+eyJoaXN0b3J5IjpbMTY4NzcxNDA4OSwxMzYzODM3NzM1LDUzMD
 gxMjIyNiw3OTgyODUxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEs
 MTk1NDA1NTAzXX0=
 -->
