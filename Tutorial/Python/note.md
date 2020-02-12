@@ -49,12 +49,12 @@
 
 
 
-|A| B |<br>**==heading2==**<tr>**===heading3=== ||
-|--|--|--|--|
+|A| B |<tr>==heading2==****||
+|-----|----|----|------|
 |  a| b |a| b |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDUxNTg3Miw1MzA4MTIyMjYsNzk4Mj
+eyJoaXN0b3J5IjpbLTMzODczMzM4NCw1MzA4MTIyMjYsNzk4Mj
 g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
 
 -->
