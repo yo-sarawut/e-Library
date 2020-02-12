@@ -70,11 +70,11 @@
 
 -----
 
-| One    | Two | Three | Four    | Five  | Six |
+| One    | Two  <td colspan=2>3 & 4  | Five  | Six 
 | -|-|-|-|-|-|
-| Span <td colspan=3>triple  <td colspan=2>double|
-| One    | Two | Three | Four    | Five  | Six |
-
+| Span <td colspan=3>triple  <td colspan=2>double
+| One    | Two | Three | Four    | Five  | Six 
+| One    | Two | Three | Four    | Five  | Six 
 ------
 
 | > | horizontal merged cell        |
@@ -94,7 +94,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzcxNDA4OSwxMzYzODM3NzM1LDUzMD
-gxMjIyNiw3OTgyODUxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEs
-MTk1NDA1NTAzXX0=
+eyJoaXN0b3J5IjpbMTgxNDMxMzc3LDEzNjM4Mzc3MzUsNTMwOD
+EyMjI2LDc5ODI4NTEwLDE3Mjg0OTcwOTgsLTMyMzI1NjAzMSwx
+OTU0MDU1MDNdfQ==
 -->
