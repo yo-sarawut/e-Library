@@ -30,6 +30,7 @@ Note for Web App
 ## Articles
 
 - [How to Build Unique, Beautiful Websites with Tailwind CSS](https://www.sitepoint.com/tailwind-unique-beautiful-websites/)
+- [Building dashboards with Django and D3 ](https://dreisbach.us/articles/building-dashboards-with-django-and-d3/)
 
 ## Downloads 
 
@@ -76,9 +77,10 @@ Note for Web App
 Lorem ipsum dolor sit amet, consectetur adipiscing elit ...</span></p>  
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MDQ2MDQwLDUxODg3MzE5OCwxOTA3Nj
-g5MDgzLDUxMzc3OTk3NSwtMTk5NjkxMDc0MSwyMDE5NzcyMDg2
-LC0xNDM5ODYwNjE3LDEwMzg3NjQ3NzIsLTE5MzU2NDIwOTQsLT
-Y1NDc2Nzc4NywxNTcxODYxNDEwLC00NTkyNjYzOCw1NzM1ODQ0
-NjYsLTE4MzQ3NjU0NDYsLTUzMzkxNTIyNF19
+eyJoaXN0b3J5IjpbMjU1NjE0NjM3LDk0ODA0NjA0MCw1MTg4Nz
+MxOTgsMTkwNzY4OTA4Myw1MTM3Nzk5NzUsLTE5OTY5MTA3NDEs
+MjAxOTc3MjA4NiwtMTQzOTg2MDYxNywxMDM4NzY0NzcyLC0xOT
+M1NjQyMDk0LC02NTQ3Njc3ODcsMTU3MTg2MTQxMCwtNDU5MjY2
+MzgsNTczNTg0NDY2LC0xODM0NzY1NDQ2LC01MzM5MTUyMjRdfQ
+==
 -->
