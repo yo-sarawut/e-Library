@@ -48,10 +48,20 @@
 -   [Python - Discussion](https://www.tutorialspoint.com/python/python_discussion.htm)
 
 
+
+
+| One    | Two | Three | Four    | Five  | Six |
+|-|-|-|-|-|-
+| Span <td colspan=3>triple  <td colspan=2>double |
+
+
 |\2. horizontal merged cell |
 |/2. vertical merged cell | data1 |
 |data2|
 
+| > | horizontal merged cell        |
+| vertical merged cell      | data1 |
+| ^                        | data2 |
 
 |A| B |heading<i>||
 |-----|----|----|------|
@@ -66,7 +76,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNjc0NDg5LDUzMDgxMjIyNiw3OTgyOD
+eyJoaXN0b3J5IjpbOTI2NTY2NDU0LDUzMDgxMjIyNiw3OTgyOD
 UxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEsMTk1NDA1NTAzXX0=
 
 -->
