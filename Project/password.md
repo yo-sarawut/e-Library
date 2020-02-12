@@ -8,6 +8,7 @@
 ## Example:
   
 - [Nayuki (เจ้าเดิม) :](https://www.nayuki.io/page/random-password-generator-javascript) 
+- [Full Password Example](https://www.w3.org/WAI/tutorials/forms/examples/password/)
   
 - [EXTREMELY STRONG PASSWORD GENERATOR :](http://code.activestate.com/recipes/578169-extremely-strong-password-generator/?fbclid=IwAR03nTAgKsIHZRWx_Al-QIM2yrmpm_BE4GYJJZyLAfsfPnvo_slZdhGZMIk)
   
@@ -25,6 +26,7 @@
 ![enter image description here](https://webdevtrick.com/wp-content/uploads/bootstrap-password-strength-980x515.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODM5NDcwMiwtNTc1NjAzODA1LC0xMz
-ExNjQ0NTE1LDc2Mzk4NTMyNywxODUzOTUxNzMxXX0=
+eyJoaXN0b3J5IjpbLTE3OTI4MDE3MDUsLTcxODM5NDcwMiwtNT
+c1NjAzODA1LC0xMzExNjQ0NTE1LDc2Mzk4NTMyNywxODUzOTUx
+NzMxXX0=
 -->
