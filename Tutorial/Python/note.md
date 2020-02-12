@@ -53,8 +53,16 @@
 |-----|----|----|------|
 |  a| b |a| b |
 
+```
+| One    | Two | Three | Four    | Five  | Six 
+| -
+| Span <td colspan=3>triple  <td colspan=2>double
+```
+| One    | Two | Three | Four    | Five  | Six |
+| -
+| Span <td colspan=3>triple  <td colspan=2>double
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjgwOTIyOSw1MzA4MTIyMjYsNzk4Mj
+eyJoaXN0b3J5IjpbMTA1NDc3MTMwNSw1MzA4MTIyMjYsNzk4Mj
 g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
 
 -->
