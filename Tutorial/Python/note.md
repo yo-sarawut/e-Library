@@ -63,8 +63,8 @@
 | vertical merged cell      | data1 |
 | ^                        | data2 |
 
-|A| B |heading<i>||
-|-----|----|----|------|
+|A| B |<td colspan=2>triple|
+|-----|----|----||
 |  a| b |a| b |
 
 ```
@@ -76,7 +76,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY4MTcwMTEsNTMwODEyMjI2LDc5OD
-I4NTEwLDE3Mjg0OTcwOTgsLTMyMzI1NjAzMSwxOTU0MDU1MDNd
-fQ==
+eyJoaXN0b3J5IjpbLTkyMDYxOTEwMSw1MzA4MTIyMjYsNzk4Mj
+g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
+
 -->
