@@ -97,20 +97,20 @@
 
 <table>
   <tr>
-	    <td colspan="2">ขาออก</td>
-    <td colspan="2">ขาเข้า</td>
+<td colspan="2">ขาออก</td>
+<td colspan="2">ขาเข้า</td>
   <tr>
     <td>ตรวจปล่อย</td>
     <td>รับบรรทุก</td>
     <td>ตรวจปล่อย</td>
     <td>รับบรรทุก</td>
+ | One    | Two | 
 
-  </tr>
 
 </table>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAwNjU0MjUsMTM2MzgzNzczNSw1Mz
+eyJoaXN0b3J5IjpbLTExMjY2ODgwODAsMTM2MzgzNzczNSw1Mz
 A4MTIyMjYsNzk4Mjg1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMx
 LDE5NTQwNTUwM119
 -->
