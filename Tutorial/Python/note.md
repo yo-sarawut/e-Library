@@ -51,14 +51,17 @@
 
 <table>
   <tr>
-    <td>One</td>
+    <td colspan="2">A</td>
     <td>Two</td>
+      <td>Three</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+    <td colspan="2">A</td>
+    <td>B</td>
   </tr>
 </table>
-------
+
+----------
 
 | One    | Two | Three | Four | Five  | Six |
 |---|---|---|---|---|---|
@@ -86,7 +89,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NzE5NzY0LDUzMDgxMjIyNiw3OTgyOD
+eyJoaXN0b3J5IjpbNDM2OTk2NDA1LDUzMDgxMjIyNiw3OTgyOD
 UxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEsMTk1NDA1NTAzXX0=
 
 -->
