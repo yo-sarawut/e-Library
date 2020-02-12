@@ -4,7 +4,7 @@
 - [Python Tutorials : saralgyaan.com](https://saralgyaan.com/posts/category/python/tutorials/)
 - [https://www.tutorialspoint.com/](https://www.tutorialspoint.com/)
 - [therenegadecoder.com](https://therenegadecoder.com/category/code/)
-
+- [Full Stack Python]()
 
 # [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
 
@@ -47,6 +47,6 @@
 -   [Python - Useful Resources](https://www.tutorialspoint.com/python/python_useful_resources.htm)
 -   [Python - Discussion](https://www.tutorialspoint.com/python/python_discussion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4Mjg1MTAsMTcyODQ5NzA5OCwtMzIzMj
-U2MDMxLDE5NTQwNTUwM119
+eyJoaXN0b3J5IjpbLTE5NTk3MTM4MzUsNzk4Mjg1MTAsMTcyOD
+Q5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
 -->
