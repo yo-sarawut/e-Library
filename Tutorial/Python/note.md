@@ -93,8 +93,23 @@
 | One    | Two | Three | Four    | Five  | Six |
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
+
+
+<table>
+  <tr>
+	    <td colspan="2">ขาออก</td>
+    <td colspan="2">ขาเข้า</td>
+  <tr>
+    <td>ตรวจปล่อย</td>
+    <td>รับบรรทุก</td>
+    <td>ตรวจปล่อย</td>
+    <td>รับบรรทุก</td>
+    
+  </tr>
+
+</table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDMxMzc3LDEzNjM4Mzc3MzUsNTMwOD
-EyMjI2LDc5ODI4NTEwLDE3Mjg0OTcwOTgsLTMyMzI1NjAzMSwx
-OTU0MDU1MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ5NjIwNDcsMTM2MzgzNzczNSw1Mz
+A4MTIyMjYsNzk4Mjg1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMx
+LDE5NTQwNTUwM119
 -->
