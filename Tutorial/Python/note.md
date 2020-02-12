@@ -69,9 +69,13 @@
 | Span <td colspan=3>triple  <td colspan=2>double </td>|A|
 
 -----
-|\2. horizontal merged cell |
-|/2. vertical merged cell | data1 |
-|data2|
+
+| One    | Two | Three | Four    | Five  | Six |
+| -|-|-|-|-|
+| Span <td colspan=3>triple  <td colspan=2>double|
+
+
+------
 
 | > | horizontal merged cell        |
 | vertical merged cell      | data1 |
@@ -90,7 +94,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzgzNzczNSw1MzA4MTIyMjYsNzk4Mj
-g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
-
+eyJoaXN0b3J5IjpbLTE5MTUwNzQ4OCwxMzYzODM3NzM1LDUzMD
+gxMjIyNiw3OTgyODUxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEs
+MTk1NDA1NTAzXX0=
 -->
