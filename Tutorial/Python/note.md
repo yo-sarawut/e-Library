@@ -51,15 +51,13 @@
 
 <table>
   <tr>
-	    <td colspan="2">ตรวจปล่อย</td>
-    <td>Two</td>
-      <td>Three</td>
-  </tr>
+	    <td colspan="2">ขาออก</td>
+    <td colspan="2">ขาเข้า</td>
   <tr>
-    <td>A</td>
-    <td>B</td>
-    <td>B</td>
-    <td>B</td>
+    <td>ตรวจปล่อย</td>
+    <td>รับบรรทุก</td>
+    <td>ตรวจปล่อย</td>
+    <td>รับบรรทุก</td>
     
   </tr>
 </table>
@@ -92,7 +90,7 @@
 | -
 | Span <td colspan=3>triple  <td colspan=2>double|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MDkxMTE1LDUzMDgxMjIyNiw3OTgyOD
-UxMCwxNzI4NDk3MDk4LC0zMjMyNTYwMzEsMTk1NDA1NTAzXX0=
+eyJoaXN0b3J5IjpbMTM2MzgzNzczNSw1MzA4MTIyMjYsNzk4Mj
+g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
 
 -->
