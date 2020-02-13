@@ -25,8 +25,12 @@
 - [Bootstrap Password Strength Validation Checker | With Progress Bar](https://webdevtrick.com/bootstrap-password-strength-validation/)
 ![enter image description here](https://webdevtrick.com/wp-content/uploads/bootstrap-password-strength-980x515.jpg)
 
+- [Beautiful Password Strength Meter](https://tutorialzine.com/2012/06/beautiful-password-strength-indicator)
+
+![enter image description here](https://tutorialzine.com/media/2012/06/password-strength-css3.jpg)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI4MDE3MDUsLTcxODM5NDcwMiwtNT
-c1NjAzODA1LC0xMzExNjQ0NTE1LDc2Mzk4NTMyNywxODUzOTUx
-NzMxXX0=
+eyJoaXN0b3J5IjpbMTcyMzQ4OTE1NywtMTc5MjgwMTcwNSwtNz
+E4Mzk0NzAyLC01NzU2MDM4MDUsLTEzMTE2NDQ1MTUsNzYzOTg1
+MzI3LDE4NTM5NTE3MzFdfQ==
 -->
