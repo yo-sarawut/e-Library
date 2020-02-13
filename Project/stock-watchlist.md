@@ -43,7 +43,7 @@ PANTONE 19-4055
 - [Dash](https://dash.plot.ly/?_ga=2.231596575.1202284478.1569165803-1447185323.1556647892)
 - [ThaiQuants Data : รวม link ข้อมูลต่าง ๆ ของ SET](http://thaiquants.com/data/)
 - [CNBC รวมข้อมูล ETF แยกตามหมวดหมู่ ง่ายต่อการค้นหา](https://www.cnbc.com/index-etfs/)
-- [Web interactivebrokers รวบรวม Symbols หลักทรัพย์ต่าง ๆ](https://www.interactivebrokers.com.hk/en/index.php?f=2222&exch=kse&showcategories=FUTGRP#productbuffer)
+- [Web : InteractiveBrokers รวบรวม Symbols หลักทรัพย์ต่าง ๆ](https://www.interactivebrokers.com.hk/en/index.php?f=2222&exch=kse&showcategories=FUTGRP#productbuffer)
 - [D3 for Python/](https://python-graph-gallery.com/)
 - [==Stock-Portfolio-Optimizer: Python + Vue==](https://github.com/PPPW/stock-portfolio-optimizer)
 ![enter image description here](https://github.com/PPPW/stock-portfolio-optimizer/raw/master/images/demo.GIF)
@@ -366,7 +366,7 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUwNTIwOTcsNTk1Mjg1ODQzLDExNz
+eyJoaXN0b3J5IjpbLTEzMTk1OTU4MDMsNTk1Mjg1ODQzLDExNz
 kzNzExNzEsLTgxNzY2NTYzOSwtNTk2MDM4ODQ2LDE4Mjg4MzU4
 NSw5MTYxNjU4ODMsNzI4NjczNDUyLDE3NDc3NjY1NjcsLTUxNz
 gwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTAsMTgwMTIzNTAw
