@@ -9,56 +9,56 @@ Bootstrap 4 brings many changes and new features to the grid system we are all s
 ## 1. Basic Grid
 
 By now everyone knows how the Bootstrap grid works. We've got rows separated into 12 equal pieces, and columns that go inside the rows. Each column can take anywhere from 1 to 12 spaces:
-
+```html
 <div class="row">
    <div class="col-xs-2">.col-xs-2</div>
    <div class="col-xs-4">.col-xs-4</div>
    <div class="col-xs-6">.col-xs-6</div>
 </div>
-
+```
 Structurally nothing has changed, the grid still has rows and 12 columns. However, there are changes in the width of containers, as well as other small stuff like the lowest breakpoint tier being renamed from  `.col-xs-`  to simply  `.col-`
-
+```html
 <div class="row">
    <div class="col-2">.col-2</div>
    <div class="col-4">.col-4</div>
    <div class="col-6">.col-6</div>
 </div>
-
+```
 To help you better visualize the changes, we've prepared side-by-side  [demos](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?1-basic-grid)  of both new flex and old non-flex grids. You can check them out below:
 
-[![1-basic-grid.png](https://tutorialzine.com/media/2017/01/1-basic-grid.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?1-basic-grid)
+![1-basic-grid.png](https://tutorialzine.com/media/2017/01/1-basic-grid.png)
 
 A Basic Bootstrap Grid
 
 ## 2. Automatic Layout
 
 A cool new feature of the Bootstrap 4 grid is the auto-layout mode. It lets developers leave out the size of columns, making them automatically distribute the space in that row.
-
+```html
 <div class="row">
     <div class="col">.col</div>
     <div class="col">.col</div>
     <div class="col">.col</div>
 </div>
-
+```
 Sizeless columns share the available space equally, always filling up the entire row. If we want a column to be bigger or smaller, we can still do that with a  `.col-size`  class.
 
-[![2-auto-layout.png](https://tutorialzine.com/media/2017/01/2-auto-layout.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?2-auto-layout)
+![2-auto-layout.png](https://tutorialzine.com/media/2017/01/2-auto-layout.png)
 
 Automatic Layout
 
 ## 3. Column Wrapping
 
 When the sum of all columns in a row is over 12, the first extra column will move to the next line. This is known as column wrapping and works the same way it did in non-flexbox bootstrap.
-
+```html
 <div class="row">
    <div class="col-6">.col-6</div>
    <div class="col-6">.col-6</div>
    <div class="col-3">.col-3, This column will move to the next line.</div>
 </div>
-
+```
 The only thing to note here is that when using the auto layout, a sizeless column that took up only a couple of spaces, can take up the entire row once it wraps.
 
-[![3-column-wrapping.png](https://tutorialzine.com/media/2017/01/3-column-wrapping.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?3-column-wrapping)
+![3-column-wrapping.png](https://tutorialzine.com/media/2017/01/3-column-wrapping.png)
 
 Column Wrapping
 
@@ -177,5 +177,5 @@ This wraps up our introduction to the new Bootstrap 4 grid system. Feel free to 
 
 > [Source : ](https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDc2MzU2XX0=
+eyJoaXN0b3J5IjpbMzkzNzY5Nzk4XX0=
 -->
