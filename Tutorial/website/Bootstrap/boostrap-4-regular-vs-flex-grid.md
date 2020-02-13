@@ -74,7 +74,7 @@ As we mentioned in the intro, Bootstrap 4 has a new XL grid tier on top of the o
 
 Other than that, there haven't been any changes to the way responsiveness works.
 
-[![4-responsiveness.png](https://tutorialzine.com/media/2017/01/4-responsiveness.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?4-responsive-grid)
+![4-responsiveness.png](https://tutorialzine.com/media/2017/01/4-responsiveness.png)
 
 Responsive Grid
 
@@ -82,33 +82,32 @@ Responsive Grid
 
 The old grid system was built on floated elements and because of that every column has a different height, depending on the content it holds.
 
-[![4-column-height-reg.png](https://tutorialzine.com/media/2016/11/4-column-height-reg.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?5-column-height)
+![4-column-height-reg.png](https://tutorialzine.com/media/2016/11/4-column-height-reg.png)
 
 Column Height In Bootstrap 3
 
 In flexbox layouts all cells in a row are aligned to be as tall as the column with most content.
 
-[![5-column-height.png](https://tutorialzine.com/media/2017/01/5-column-height.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?5-column-height)
-
+![5-column-height.png](https://tutorialzine.com/media/2017/01/5-column-height.png)
 Column Height in Bootstrap 4
 
 ## 6. Horizontal Alignment
 
 In old Bootstrap, positioning columns horizontally is done via an offset system. Offsets work like empty columns and allow us to move elements to the right (e.g an  `.col-xs-offset-3`  moves the column 3 spaces to the right). This can be a little annoying as we need to manually adjust the amount of spaces needed.
-
+```html
 <div class="row">
     <div class="col-xs-6 col-xs-offset-3">This column is now centered.</div>
 </div>
-
+```
 Thanks to the  [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)  property, horizontal positioning in flex-strap is as easy as adding the correct class.
-
+```html
 <div class="row justify-content-center">
     <div class="col-6">All columns in that row will be automatically centered.</div>
 </div>
-
+```
 Also, if you want to use offsets, you can still do that as well! Just keep in mind that the classes are now shortened to  `.offset-xs-*`.
 
-[![6-horizontal-alignmenet.png](https://tutorialzine.com/media/2017/01/6-horizontal-alignmenet.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?6-horizontal-alignment)
+![6-horizontal-alignmenet.png](https://tutorialzine.com/media/2017/01/6-horizontal-alignmenet.png)
 
 Horizontal Alignment
 
@@ -119,7 +118,7 @@ There are no options for vertical alignment in the Bootstrap 3 grid. The only wa
 Flexbox, on the other hand, is great at layout alignment and gives us not one, but two ways to vertically position columns:
 
 Vertically align the whole row:
-
+```html
 <div class="row align-items-center">
     <div class="col">Middle</div>
 </div>  
@@ -129,16 +128,16 @@ Vertically align the whole row:
 <div class="row align-items-start">
     <div class="col">Top</div>
 </div>
-
+```
 Align individual columns within the row:
-
+```html
 <div class="row">
     <div class="col align-self-start">Top</div>
     <div class="col align-self-center">Middle</div>
     <div class="col align-self-end">Bottom</div>
 </div>
-
-[![7-vertical-align.png](https://tutorialzine.com/media/2017/01/7-vertical-align.png)](https://demo.tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid/?7-vertical-alignment)
+```
+![7-vertical-align.png](https://tutorialzine.com/media/2017/01/7-vertical-align.png)
 
 Vertical Alignment
 
@@ -177,5 +176,5 @@ This wraps up our introduction to the new Bootstrap 4 grid system. Feel free to 
 
 > [Source : ](https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzNzY5Nzk4XX0=
+eyJoaXN0b3J5IjpbOTY2NDcwMTM4XX0=
 -->
