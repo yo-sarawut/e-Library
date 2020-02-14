@@ -75,7 +75,7 @@ PANTONE 19-4055
 
 ![enter image description here](https://raw.githubusercontent.com/ranaroussi/quantstats/dev/docs/snapshot.jpg)
 
-- [ QTPyLib, my Python library for algo traders](https://aroussi.com/post/the-future-of-qtpylib) , [GitHub](https://github.com/ranaroussi/qtpylib)
+- [ QTPyLib, my Python library for algo traders](https://aroussi.com/post/the-future-of-qtpylib) , [GitHub](https://github.com/ranaroussi/qtpylib), [Document](https://qtpylib.io/docs/latest/index.html)
 
 ![enter image description here](https://aroussi.com//assets/img/qtpylib-ui.png)
 
@@ -374,10 +374,10 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NDE3NjM3LC0xMzE5NTk1ODAzLDU5NT
-I4NTg0MywxMTc5MzcxMTcxLC04MTc2NjU2MzksLTU5NjAzODg0
-NiwxODI4ODM1ODUsOTE2MTY1ODgzLDcyODY3MzQ1MiwxNzQ3Nz
-Y2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkzMSwtNjYxNzY4OTEw
-LDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOTQwODQxMzQyLC0yMT
-E2MTMzMTIxXX0=
+eyJoaXN0b3J5IjpbMTY5NDQxMDM5MSwtMTMxOTU5NTgwMyw1OT
+UyODU4NDMsMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4
+NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nz
+c2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkx
+MCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0MiwtMj
+ExNjEzMzEyMV19
 -->
