@@ -1,9 +1,10 @@
 System Resources Information
 =====
 - [Freecodecamp : Check the temperature of your CPU using Python (and other cool tricks)](https://www.freecodecamp.org/news/using-psutil-in-python-8623d9fac8dd/)
+- [Accessing CPU temperature in python](https://stackoverflow.com/questions/3262603/accessing-cpu-temperature-in-python)
 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTc5NTI4OF19
+eyJoaXN0b3J5IjpbNzM2MzMwMTQwXX0=
 -->
