@@ -70,6 +70,7 @@ PANTONE 19-4055
 - [https://github.com/quantopian/pyfolio/blob/master/pyfolio/timeseries.py](https://github.com/quantopian/pyfolio/blob/master/pyfolio/timeseries.py)
 - [https://github.com/tmthydvnprt/compfipy](https://github.com/tmthydvnprt/compfipy)
 -  [pyfolio](https://github.com/quantopian/pyfolio/tree/master/pyfolio)
+- [quantstats]
 
 ## Dash App
 - [New York Oil and Gas](https://dash-gallery.plotly.host/dash-oil-and-gas/)
@@ -366,10 +367,10 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk1OTU4MDMsNTk1Mjg1ODQzLDExNz
-kzNzExNzEsLTgxNzY2NTYzOSwtNTk2MDM4ODQ2LDE4Mjg4MzU4
-NSw5MTYxNjU4ODMsNzI4NjczNDUyLDE3NDc3NjY1NjcsLTUxNz
-gwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTAsMTgwMTIzNTAw
-MCwxOTg1NzE2NDUwLC05NDA4NDEzNDIsLTIxMTYxMzMxMjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MDQ2NDg0OCwtMTMxOTU5NTgwMyw1OT
+UyODU4NDMsMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4
+NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nz
+c2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkx
+MCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0MiwtMj
+ExNjEzMzEyMV19
 -->
