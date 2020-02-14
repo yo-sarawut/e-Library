@@ -22,14 +22,14 @@
 
 ![Vue/Vuex Admin template](https://vuejsexamples.com/content/images/2019/11/k-theme003-vue.jpg)
 
-- [VUE RADIAL PROGRESS](https://github.com/wyzantinc/vue-radial-progress)
+- [VUE RADIAL PROGRESS](https://github.com/wyzantinc/vue-radial-progress) , [Demo](https://wyzantinc.github.io/vue-radial-progress/)
 
-![enter image description here](https://freefrontend.com/assets/img/vue-progress-bars/vue-radial-progress.mp4)
+
 
 - [Simple and visually-pleasing Pomodoro timer](https://vuejsexamples.com/simple-and-visually-pleasing-pomodoro-timer/)
 
 ![Simple and visually-pleasing Pomodoro timer](https://vuejsexamples.com/content/images/2019/12/pomotroid.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTg2NjI5NywtMTE0NjgxOTIyMSwxMT
-gzMjMzNjE3XX0=
+eyJoaXN0b3J5IjpbLTE4NjQwNjU2MzMsLTExNDY4MTkyMjEsMT
+E4MzIzMzYxN119
 -->
