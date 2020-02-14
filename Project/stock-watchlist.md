@@ -70,9 +70,12 @@ PANTONE 19-4055
 - [https://github.com/quantopian/pyfolio/blob/master/pyfolio/timeseries.py](https://github.com/quantopian/pyfolio/blob/master/pyfolio/timeseries.py)
 - [https://github.com/tmthydvnprt/compfipy](https://github.com/tmthydvnprt/compfipy)
 -  [pyfolio](https://github.com/quantopian/pyfolio/tree/master/pyfolio)
+- [QTPyLib, Pythonic Algorithmic Trading](https://qtpylib.io/docs/latest/index.html)
 - [QuantStats: Portfolio analytics for quants](https://github.com/ranaroussi/quantstats)
 
 ![enter image description here](https://raw.githubusercontent.com/ranaroussi/quantstats/dev/docs/snapshot.jpg)
+
+- [
 
 ## Dash App
 - [New York Oil and Gas](https://dash-gallery.plotly.host/dash-oil-and-gas/)
@@ -369,7 +372,7 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODc3MzI3NywtMTMxOTU5NTgwMyw1OT
+eyJoaXN0b3J5IjpbMTY2Mjc0MTYyMCwtMTMxOTU5NTgwMyw1OT
 UyODU4NDMsMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4
 NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nz
 c2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkx
