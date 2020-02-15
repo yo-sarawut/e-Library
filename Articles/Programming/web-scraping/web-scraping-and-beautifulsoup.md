@@ -1,3 +1,10 @@
+---
+bookFlatSection: true
+title: Web Scraping and BeautifulSoup
+bookToc: true
+
+---
+
  Web Scraping and BeautifulSoup
  ===
  - [https://www.dataquest.io/blog/web-scraping-beautifulsoup/](https://www.dataquest.io/blog/web-scraping-beautifulsoup/)
@@ -929,5 +936,5 @@ To build upon what we’ve learned, here are a few next steps to consider:
 -   Scrape additional data about the movies.
 -   Find a different website to scrape something that interests you. For example, you could scrape data about  [laptops](https://www.walmart.com/browse/electronics/laptop-computers/hp/3944_3951_132960/YnJhbmQ6SFAie?page=1#searchProductResult)  to see how prices vary over time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNTM1OTI3XX0=
+eyJoaXN0b3J5IjpbMTM4NzA3OTI4NywyNjM1MzU5MjddfQ==
 -->
