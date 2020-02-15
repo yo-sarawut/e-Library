@@ -337,23 +337,23 @@ for job_elem in job_elems:
 ```
 Run the above code snippet and you’ll see the text content displayed. However, you’ll also get a lot of  [whitespace](https://realpython.com/lessons/whitespace-expressions-and-statements/). Since you’re now working with Python strings, you can  `.strip()`  the superfluous whitespace. You can also apply any other familiar Python string methods to further clean up your text.
 
-**Note:**  The web is messy and you can’t rely on a page structure to be consistent throughout. Therefore, you’ll more often than not run into errors while parsing HTML.
+> **Note:**  The web is messy and you can’t rely on a page structure to be consistent throughout. Therefore, you’ll more often than not run into errors while parsing HTML.
 
 When you run the above code, you might encounter an  `AttributeError`:
-
-`AttributeError: 'NoneType' object has no attribute 'text'` 
-
+```
+AttributeError: 'NoneType' object has no attribute 'text'
+```
 If that’s the case, then take a step back and inspect your previous results. Were there any items with a value of  `None`? You might have noticed that the structure of the page is not entirely uniform. There could be an advertisement in there that displays in a different way than the normal job postings, which may return different results. For this tutorial, you can safely disregard the problematic element and skip over it while parsing the HTML:
-
-`for job_elem in job_elems:
+```py
+for job_elem in job_elems:
     title_elem = job_elem.find('h2', class_='title')
     company_elem = job_elem.find('div', class_='company')
     location_elem = job_elem.find('div', class_='location')
  if None in (title_elem, company_elem, location_elem): continue    print(title_elem.text.strip())
     print(company_elem.text.strip())
     print(location_elem.text.strip())
-    print()` 
-
+    print()
+```
 Feel free to explore why one of the elements is returned as  `None`. You can use the conditional statement you wrote above to  `print()`  out and inspect the relevant element in more detail. What do you think is going on there?
 
 After you complete the above steps try running your script again. The results finally look much better:
@@ -461,6 +461,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0OTk1MjMsLTE3MDEzNzYxNzNdfQ
-==
+eyJoaXN0b3J5IjpbLTUxMDAzMjA2MiwtMTcwMTM3NjE3M119
 -->
