@@ -943,7 +943,8 @@ KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16`
 
 ```py
 df.dtypes
-
+```
+```
 COUNTRY            object
 POP               float64
 AREA              float64
@@ -951,7 +952,7 @@ GDP               float64
 CONT               object
 IND_DAY    datetime64[ns]
 dtype: object` 
-
+```
 These are the same ones that you specified before using  `.to_pickle()`.
 
 As a word of caution, you should always beware of loading pickles from untrusted sources.  **This can be dangerous!**  When you unpickle an untrustworthy file, it could execute arbitrary code on your machine, gain remote access to your computer, or otherwise  [exploit your device](https://blog.nelhage.com/2011/03/exploiting-pickle/)  in other ways.
@@ -989,10 +990,12 @@ Here, you create a compressed  `.csv`  file as an  [archive](https://realpython.
 You can open this compressed file as usual with the Pandas  `read_csv()`  function:
 
 
-
-` df = pd.read_csv('data.csv.zip', index_col=0,
+```py
+df = pd.read_csv('data.csv.zip', index_col=0,
 ...                  parse_dates=['IND_DAY'])
- df
+df
+ ```
+ ```
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -1014,7 +1017,7 @@ DZA     Algeria    43.38   2381.74    167.56     Africa 1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America 1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania        NaT
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16` 
-
+```
 `read_csv()`  decompresses the file before reading it into a  `DataFrame`.
 
 You can specify the type of compression with the optional parameter  `compression`, which can take on any of the following values:
@@ -1031,16 +1034,16 @@ The default value  `compression='infer'`  indicates that Pandas should deduce th
 Here’s how you would compress a pickle file:
 
 
-
-` df = pd.DataFrame(data=data).T
+```py
+df = pd.DataFrame(data=data).T
  df.to_pickle('data.pickle.compress', compression='gzip')` 
-
+```
 You should get the file  `data.pickle.compress`  that you can later decompress and read:
 
 
-
-` df = pd.read_pickle('data.pickle.compress', compression='gzip')` 
-
+```py
+df = pd.read_pickle('data.pickle.compress', compression='gzip')` 
+```
 `df`  again corresponds to the  `DataFrame`  with the same data as before.
 
 You can give the other compression methods a try, as well. If you’re using pickle files, then keep in mind that the  `.zip`  format supports reading only.
@@ -1050,9 +1053,11 @@ You can give the other compression methods a try, as well. If you’re using pic
 The Pandas  `read_csv()`  and  `read_excel()`  functions have the optional parameter  `usecols`  that you can use to specify the columns you want to load from the file. You can pass the list of column names as the corresponding argument:
 
 
-
-` df = pd.read_csv('data.csv', usecols=['COUNTRY', 'AREA'])
+```py
+df = pd.read_csv('data.csv', usecols=['COUNTRY', 'AREA'])
  df
+ ```
+ ```
  COUNTRY      AREA
 0        China   9596.96
 1        India   3287.26
@@ -1074,14 +1079,14 @@ The Pandas  `read_csv()`  and  `read_excel()`  functions have the optional param
 17      Canada   9984.67
 18   Australia   7692.02
 19  Kazakhstan   2724.90` 
-
+```
 Now you have a  `DataFrame`  that contains less data than before. Here, there are only the names of the countries and their areas.
 
 Instead of the column names, you can also pass their indices:
 
 
 
-` df = pd.read_csv('data.csv',index_col=0, usecols=[0, 1, 3])
+df = pd.read_csv('data.csv',index_col=0, usecols=[0, 1, 3])
  df
  COUNTRY      AREA
 CHN       China   9596.96
@@ -1366,6 +1371,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDQ5NzU4NCwtOTg1NTU0MDE3LDc2OT
-g3NTA5NywzNTg0MDYxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE2ODIxOTQ3MjAsLTk4NTU1NDAxNyw3Nj
+k4NzUwOTcsMzU4NDA2MTEyXX0=
 -->
