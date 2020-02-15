@@ -1240,8 +1240,10 @@ The dictionary  `dtypes`  specifies the desired data types for each column. It�
 Now you can verify that each numeric column needs 80 bytes, or 4 bytes per item:
 
 
-
+```py
 df.dtypes
+```
+```
 COUNTRY            object
 POP               float32
 AREA              float32
@@ -1249,7 +1251,11 @@ GDP               float32
 CONT               object
 IND_DAY    datetime64[ns]
 dtype: object
- df.memory_usage()
+```
+```py
+df.memory_usage()
+```
+```
 Index      160
 COUNTRY    160
 POP         80
@@ -1258,11 +1264,13 @@ GDP         80
 CONT       160
 IND_DAY    160
 dtype: int64
+```
+```py
  df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
 240
  df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
 240` 
-
+```
 Each value is a floating-point number of 32 bits or 4 bytes. The three numeric columns contain 20 items each. In total, you’ll need 240 bytes of memory when you work with the type  `float32`. This is half the size of the 480 bytes you’d need to work with  `float64`.
 
 In addition to saving memory, you can significantly reduce the time required to process data by using  `float32`  instead of  `float64`  in some cases.
@@ -1272,15 +1280,15 @@ In addition to saving memory, you can significantly reduce the time required to 
 Another way to deal with very large datasets is to split the data into smaller  **chunks**  and process one chunk at a time. If you use  `read_csv()`,  `read_json()`  or  `read_sql()`, then you can specify the optional parameter  `chunksize`:
 
 
-
-` data_chunk = pd.read_csv('data.csv', index_col=0, chunksize=8)
+```py
+data_chunk = pd.read_csv('data.csv', index_col=0, chunksize=8)
  type(data_chunk)
-<class 'pandas.io.parsers.TextFileReader'>
- hasattr(data_chunk, '__iter__')
-True
- hasattr(data_chunk, '__next__')
-True` 
-
+# <class 'pandas.io.parsers.TextFileReader'>
+hasattr(data_chunk, '__iter__')
+# True
+hasattr(data_chunk, '__next__')
+# True
+```
 `chunksize`  defaults to  `None`  and can take on an integer value that indicates the number of items in a single chunk. When  `chunksize`  is an integer,  `read_csv()`  returns an iterable that you can use in a  [`for`  loop](https://realpython.com/courses/python-for-loop/)  to get and process only a fragment of the dataset in each iteration:
 
 
@@ -1349,6 +1357,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAwNjA4ODEsNzY5ODc1MDk3LDM1OD
-QwNjExMl19
+eyJoaXN0b3J5IjpbLTk2Nzg0NTA4MCw3Njk4NzUwOTcsMzU4ND
+A2MTEyXX0=
 -->
