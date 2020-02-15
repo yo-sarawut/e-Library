@@ -285,29 +285,29 @@ When you use the element’s ID, you’re able to pick one element out from amon
 ### Find Elements by HTML Class Name
 
 You’ve seen that every job posting is wrapped in a  `<section>`  element with the class  `card-content`. Now you can work with your new Beautiful Soup object called  `results`  and select only the job postings. These are, after all, the parts of the HTML that you’re interested in! You can do this in one line of code:
-
-`job_elems = results.find_all('section', class_='card-content')` 
-
+```py
+job_elems = results.find_all('section', class_='card-content') 
+```
 Here, you call  `.find_all()`  on a Beautiful Soup object, which returns an  [iterable](https://realpython.com/courses/python-for-loop/)  containing all the HTML for all the job listings displayed on that page.
 
 Take a look at all of them:
-
-`for job_elem in job_elems:
-    print(job_elem, end='\n'*2)` 
-
+```py
+for job_elem in job_elems:
+    print(job_elem, end='\n'*2) 
+```
 That’s already pretty neat, but there’s still a lot of HTML! You’ve seen earlier that your page has descriptive class names on some elements. Let’s pick out only those:
-
-`for job_elem in job_elems:
+```py
+for job_elem in job_elems:
     # Each job_elem is a new BeautifulSoup object.
     # You can use the same methods on it as you did before.
  title_elem = job_elem.find('h2', class_='title') company_elem = job_elem.find('div', class_='company') location_elem = job_elem.find('div', class_='location')    print(title_elem)
     print(company_elem)
     print(location_elem)
-    print()` 
-
+    print()
+```
 Great! You’re getting closer and closer to the data you’re actually interested in. Still, there’s a lot going on with all those HTML tags and attributes floating around:
-
-`<h2 class="title"><a data-bypass="true" data-m_impr_a_placement_id="JSR2CW" data-m_impr_j_cid="4" data-m_impr_j_coc="" data-m_impr_j_jawsid="371676273" data-m_impr_j_jobid="0" data-m_impr_j_jpm="2" data-m_impr_j_jpt="3" data-m_impr_j_lat="30.1882" data-m_impr_j_lid="619" data-m_impr_j_long="-95.6732" data-m_impr_j_occid="11838" data-m_impr_j_p="3" data-m_impr_j_postingid="4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" data-m_impr_j_pvc="4496dab8-a60c-4f02-a2d1-6213320e7213" data-m_impr_s_t="t" data-m_impr_uuid="0b620778-73c7-4550-9db5-df4efad23538" href="https://job-openings.monster.com/python-developer-woodlands-wa-us-lancesoft-inc/4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" onclick="clickJobTitle('plid=619&amp;pcid=4&amp;poccid=11838','Software Developer',''); clickJobTitleSiteCat('{&quot;events.event48&quot;:&quot;true&quot;,&quot;eVar25&quot;:&quot;Python Developer&quot;,&quot;eVar66&quot;:&quot;Monster&quot;,&quot;eVar67&quot;:&quot;JSR2CW&quot;,&quot;eVar26&quot;:&quot;_LanceSoft Inc&quot;,&quot;eVar31&quot;:&quot;Woodlands_WA_&quot;,&quot;prop24&quot;:&quot;2019-07-02T12:00&quot;,&quot;eVar53&quot;:&quot;1500127001001&quot;,&quot;eVar50&quot;:&quot;Aggregated&quot;,&quot;eVar74&quot;:&quot;regular&quot;}')">Python Developer
+```html
+<h2 class="title"><a data-bypass="true" data-m_impr_a_placement_id="JSR2CW" data-m_impr_j_cid="4" data-m_impr_j_coc="" data-m_impr_j_jawsid="371676273" data-m_impr_j_jobid="0" data-m_impr_j_jpm="2" data-m_impr_j_jpt="3" data-m_impr_j_lat="30.1882" data-m_impr_j_lid="619" data-m_impr_j_long="-95.6732" data-m_impr_j_occid="11838" data-m_impr_j_p="3" data-m_impr_j_postingid="4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" data-m_impr_j_pvc="4496dab8-a60c-4f02-a2d1-6213320e7213" data-m_impr_s_t="t" data-m_impr_uuid="0b620778-73c7-4550-9db5-df4efad23538" href="https://job-openings.monster.com/python-developer-woodlands-wa-us-lancesoft-inc/4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" onclick="clickJobTitle('plid=619&amp;pcid=4&amp;poccid=11838','Software Developer',''); clickJobTitleSiteCat('{&quot;events.event48&quot;:&quot;true&quot;,&quot;eVar25&quot;:&quot;Python Developer&quot;,&quot;eVar66&quot;:&quot;Monster&quot;,&quot;eVar67&quot;:&quot;JSR2CW&quot;,&quot;eVar26&quot;:&quot;_LanceSoft Inc&quot;,&quot;eVar31&quot;:&quot;Woodlands_WA_&quot;,&quot;prop24&quot;:&quot;2019-07-02T12:00&quot;,&quot;eVar53&quot;:&quot;1500127001001&quot;,&quot;eVar50&quot;:&quot;Aggregated&quot;,&quot;eVar74&quot;:&quot;regular&quot;}')">Python Developer
 </a></h2>
 <div class="company">
 <span class="name">LanceSoft Inc</span>
@@ -318,15 +318,15 @@ Great! You’re getting closer and closer to the data you’re actually interest
 <span class="name">
 Woodlands, WA
 </span>
-</div>` 
-
+</div> 
+```
 You’ll see how to narrow down this output in the next section.
 
 ### Extract Text From HTML Elements
 
 For now, you only want to see the title, company, and location of each job posting. And behold! Beautiful Soup has got you covered. You can add  `.text`  to a Beautiful Soup object to return only the  **text content**  of the HTML elements that the object contains:
-
-`for job_elem in job_elems:
+```py
+for job_elem in job_elems:
     title_elem = job_elem.find('h2', class_='title')
     company_elem = job_elem.find('div', class_='company')
     location_elem = job_elem.find('div', class_='location')
@@ -458,5 +458,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTExMjgwLC0xNzAxMzc2MTczXX0=
+eyJoaXN0b3J5IjpbOTExMjE5OTYzLC0xNzAxMzc2MTczXX0=
 -->
