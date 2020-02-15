@@ -253,8 +253,8 @@ from bs4 import BeautifulSoup
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 page = requests.get(URL)
 
-soup = BeautifulSoup(page.content, 'html.parser')` 
-
+soup = BeautifulSoup(page.content, 'html.parser')
+```
 When you add the two highlighted lines of code, you’re creating a Beautiful Soup object that takes the HTML content you scraped earlier as its input. When you instantiate the object, you also instruct Beautiful Soup to use the appropriate parser.
 
 ### Find Elements by ID
@@ -263,22 +263,23 @@ In an HTML web page, every element can have an  `id`  attribute assigned. As the
 
 Switch back to developer tools and identify the HTML object that contains all of the job postings. Explore by hovering over parts of the page and using right-click to  _Inspect_.
 
-**Note:**  Keep in mind that it’s helpful to periodically switch back to your browser and interactively explore the page using developer tools. This helps you learn how to find the exact elements you’re looking for.
+> **Note:**  Keep in mind that it’s helpful to periodically switch back to your browser and interactively explore the page using developer tools. This helps you learn how to find the exact elements you’re looking for.
 
 At the time of this writing, the element you’re looking for is a  `<div>`  with an  `id`  attribute that has the value  `"ResultsContainer"`. It has a couple of other attributes as well, but below is the gist of what you’re looking for:
-
-`<div id="ResultsContainer">
+```html
+<div id="ResultsContainer">
     <!-- all the job listings -->
-</div>` 
-
+</div> 
+```
 Beautiful Soup allows you to find that specific element easily by its ID:
-
-`results = soup.find(id='ResultsContainer')` 
+```py
+results = soup.find(id='ResultsContainer')
+```
 
 For easier viewing, you can  `.prettify()`  any Beautiful Soup object when you print it out. If you call this method on the  `results`  variable that you just assigned above, then you should see all the HTML contained within the  `<div>`:
-
-`print(results.prettify())` 
-
+```py
+print(results.prettify())
+```
 When you use the element’s ID, you’re able to pick one element out from among the rest of the HTML. This allows you to work with only this specific part of the page’s HTML. It looks like the soup just got a little thinner! However, it’s still quite dense.
 
 ### Find Elements by HTML Class Name
@@ -457,5 +458,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTI4NjY3LC0xNzAxMzc2MTczXX0=
+eyJoaXN0b3J5IjpbMTE0MTExMjgwLC0xNzAxMzc2MTczXX0=
 -->
