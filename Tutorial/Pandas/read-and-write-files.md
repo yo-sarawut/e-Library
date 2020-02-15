@@ -1085,9 +1085,11 @@ Now you have a  `DataFrame`  that contains less data than before. Here, there ar
 Instead of the column names, you can also pass their indices:
 
 
-
+```py
 df = pd.read_csv('data.csv',index_col=0, usecols=[0, 1, 3])
- df
+df
+```
+```
  COUNTRY      AREA
 CHN       China   9596.96
 IND       India   3287.26
@@ -1109,7 +1111,7 @@ DZA     Algeria   2381.74
 CAN      Canada   9984.67
 AUS   Australia   7692.02
 KAZ  Kazakhstan   2724.90` 
-
+```
 Expand the code block below to compare these results with the file  `'data.csv'`:
 
 data.csvShow/Hide
@@ -1123,11 +1125,13 @@ You can see the following columns:
 Simlarly,  `read_sql()`  has the optional parameter  `columns`  that takes a list of column names to read:
 
 
-
-` df = pd.read_sql('data.db', con=engine, index_col='ID',
+```py
+df = pd.read_sql('data.db', con=engine, index_col='ID',
 ...                  columns=['COUNTRY', 'AREA'])
- df.index.name = None
- df
+df.index.name = None
+df
+```
+```
  COUNTRY      AREA
 CHN       China   9596.96
 IND       India   3287.26
@@ -1149,7 +1153,7 @@ DZA     Algeria   2381.74
 CAN      Canada   9984.67
 AUS   Australia   7692.02
 KAZ  Kazakhstan   2724.90` 
-
+```
 Again, the  `DataFrame`  only contains the columns with the names of the countries and areas. If  `columns`  is  `None`  or omitted, then all of the columns will be read, as  [you saw before](https://realpython.com/pandas-read-write-files/#sql-files). The default behavior is  `columns=None`.
 
 ### Omit Rows
@@ -1371,6 +1375,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODIxOTQ3MjAsLTk4NTU1NDAxNyw3Nj
-k4NzUwOTcsMzU4NDA2MTEyXX0=
+eyJoaXN0b3J5IjpbMjI1NzU1NTIyLC05ODU1NTQwMTcsNzY5OD
+c1MDk3LDM1ODQwNjExMl19
 -->
