@@ -638,11 +638,16 @@ weather = pd.DataFrame({
 weather
 ```
 
-
-|      | desc       | period   | short_desc   | temp   |   temp_num | is_night   |
-|:----------------|:-----------|:---------|:-------------|:-------|-----------:|:-----------| 
-|0| 'Tonight:', 'Mostly', 'clear,', 'with', 'a', 'low', 'around', '49.', 'W… |Tonight|Mostly Clear      | Low: 49   °F     |         49 | True       |\n| (2, 'Thursday', 'Night:', 'Mostly', 'clear,', 'with', 'a', 'low', 'aroun…', 'ThursdayNight', 'Mostly', 'Clear') | Low:       | 50       | °F           | 50     |       True |            |\n| (4, 'Friday', 'Night:', 'A', '20', 'percent', 'chance', 'of', 'rain', 'afte…', 'FridayNight', 'Slight')         | ChanceRain | Low:     | 57           | °F     |         57 | True       |\n| (6, 'Saturday', 'Night:', 'Rain', 'likely.', 'Cloudy,', 'with', 'a', 'l…', 'SaturdayNight', 'Rain', 'Likely')   | Low:       | 57       | °F           | 57     |       True |            |\n| (8, 'Sunday', 'Night:', 'A', 'chance', 'of', 'rain.', 'Mostly', 'cloudy…', 'SundayNight', 'Chance', 'Rain')     | Low:       | 55       | °F           | 55     |       True |            |
-
+desc period short_desc  temp
+0 Tonight:  Mostly clear,  with    a       low    around 49.       W…            Tonight     Mostly       Clear   Low:         49    °F
+1 Thursday: Sunny, with    a       high    near   63.    North     wi…           Thursday    Sunny        High:     63         °F  None
+2 Thursday  Night: Mostly  clear,  with    a      low    aroun…    ThursdayNight Mostly      Clear         Low:     50         °F  None
+3 Friday:   Sunny, with    a       high    near   67.    Southeast …             Friday      Sunny        High:     67         °F  None
+4 Friday    Night: A       20      percent chance of     rain      afte…         FridayNight Slight  ChanceRain   Low:         57    °F
+5 Saturday: Rain   likely. Cloudy, with    a      high   ne…       Saturday      Rain        Likely       High:     64         °F  None
+6 Saturday  Night: Rain    likely. Cloudy, with   a      l…        SaturdayNight Rain        Likely        Low:     57         °F  None
+7 Sunday:   Rain   likely. Cloudy, with    a      high   near…     Sunday        Rain        Likely       High:     64         °F  None
+8 Sunday    Night: A       chance  of      rain.  Mostly cloudy…   SundayNight   Chance      Rain          Low:     55         °F  None
 
 ---
 
@@ -727,5 +732,5 @@ If you want to learn more about any of the topics covered here, check out our in
 
 > [Source : ](https://www.dataquest.io/blog/web-scraping-tutorial-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTY2MzU4M119
+eyJoaXN0b3J5IjpbOTY4MjMzOTAyXX0=
 -->
