@@ -255,11 +255,9 @@ Please note that you don’t have to install  _all_  these packages. For example
 ### Write an Excel File
 
 Once you have those packages installed, you can save your  `DataFrame`  in an Excel file with  [`.to_excel()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html):
-
->>>
-
-`>>> df.to_excel('data.xlsx')` 
-
+```py
+df.to_excel('data.xlsx')` 
+```
 The argument  `'data.xlsx'`  represents the target file and, optionally, its path. The above statement should create the file  `data.xlsx`  in your current working directory. That file should look like this:
 
 [![mmst-pandas-rw-files-excel](https://files.realpython.com/media/excel.ca33ad30becb.png)](https://files.realpython.com/media/excel.ca33ad30becb.png)
@@ -269,11 +267,11 @@ The first column of the file contains the labels of the rows, while the other co
 ### Read an Excel File
 
 You can load data from Excel files with  [`read_excel()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html):
-
->>>
-
-`>>> df = pd.read_excel('data.xlsx', index_col=0)
->>> df
+```py
+df = pd.read_excel('data.xlsx', index_col=0)
+df
+```
+```
  COUNTRY      POP      AREA       GDP       CONT     IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia         NaN
 IND       India  1351.16   3287.26   2575.67       Asia  1947-08-15
@@ -295,7 +293,7 @@ DZA     Algeria    43.38   2381.74    167.56     Africa  1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America  1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania         NaN
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia  1991-12-16` 
-
+```
 `read_excel()`  returns a new  `DataFrame`  that contains the values from  `data.xlsx`. You can also use  `read_excel()`  with  [OpenDocument spreadsheets](http://www.opendocumentformat.org/aboutODF/), or  `.ods`  files.
 
 You’ll learn more about working with Excel files  [later on in this tutorial](https://realpython.com/pandas-read-write-files/#excel-files). You can also check out  [Using Pandas to Read Large Excel Files in Python](https://realpython.com/working-with-large-excel-files-in-pandas/).
@@ -346,11 +344,13 @@ You’ve already learned  [how to read and write CSV files](https://realpython.c
 
 `path_or_buff`  is the first argument  `.to_csv()`  will get. It can be any string that represents a valid file path that includes the file name and its extension. You’ve seen this in a  [previous example](https://realpython.com/pandas-read-write-files/#using-the-pandas-read_csv-and-to_csv-functions). However, if you omit  `path_or_buff`, then  `.to_csv()`  won’t create any files. Instead, it’ll return the corresponding string:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> s = df.to_csv()
->>> print(s)
+```py
+df = pd.DataFrame(data=data).T
+s = df.to_csv()
+print(s)
+```
+```
 ,COUNTRY,POP,AREA,GDP,CONT,IND_DAY
 CHN,China,1398.72,9596.96,12234.78,Asia,
 IND,India,1351.16,3287.26,2575.67,Asia,1947-08-15
@@ -372,7 +372,7 @@ DZA,Algeria,43.38,2381.74,167.56,Africa,1962-07-05
 CAN,Canada,37.59,9984.67,1647.12,N.America,1867-07-01
 AUS,Australia,25.47,7692.02,1408.68,Oceania,
 KAZ,Kazakhstan,18.53,2724.9,159.41,Asia,1991-12-16` 
-
+```
 Now you have the string  `s`  instead of a CSV file. You also have some  **missing values**  in your  `DataFrame`  object. For example, the continent for Russia and the independence days for several countries (China, Japan, and so on) are not available. In data science and machine learning, you must handle missing values carefully. Pandas excels here! By default, Pandas uses the  [NaN value](https://en.wikipedia.org/wiki/NaN)  to replace the missing values.
 
 **Note:**  [`nan`](https://en.wikipedia.org/wiki/NaN), which stands for “not a number,” is a particular floating-point value in Python.
@@ -1334,5 +1334,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTYzOTQ0NSwzNTg0MDYxMTJdfQ==
+eyJoaXN0b3J5IjpbMjEzNDM0OTIwNCwzNTg0MDYxMTJdfQ==
 -->
