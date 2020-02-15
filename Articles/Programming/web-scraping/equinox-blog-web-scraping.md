@@ -172,8 +172,7 @@ soup.find_all(‘p’, class_=’outer-text’)
 เราก็จะได้ผลลัพธ์ของ tag ที่มี class  `outer-text` ออกมาตามนี้
 ```html
 [<p class="outer-text first-item" id="second">  
- <b>  
-                 First outer paragraph.  
+ <b>               First outer paragraph.  
              </b>  
  </p>, <p class="outer-text">  
  <b>  
@@ -197,5 +196,5 @@ When performing data science tasks, it's common to want to use data found on the
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0NzgxNDVdfQ==
+eyJoaXN0b3J5IjpbMTY3ODQxNTAyMV19
 -->
