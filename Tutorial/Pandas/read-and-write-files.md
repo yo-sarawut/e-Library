@@ -27,17 +27,17 @@ Let’s start reading and writing files!
 The code in this tutorial is executed with CPython 3.7.4 and Pandas 0.25.1. It would be beneficial to make sure you have the latest versions of Python and Pandas on your machine. You might want to create a new  [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)  and install the dependencies for this tutorial.
 
 First, you’ll need the Pandas library. You may already have it installed. If you don’t, then you can install it with  [pip](https://realpython.com/what-is-pip/):
-
-`$ pip install pandas` 
-
+``` 
+$ pip install pandas
+``` 
 Once the installation process completes, you should have Pandas installed and ready.
 
 **[Anaconda](https://www.anaconda.com/)**  is an excellent Python distribution that comes with Python, many useful packages like Pandas, and a package and environment manager called  [Conda](https://docs.conda.io/en/latest/). To learn more about Anaconda, check out  [Setting Up Python for Machine Learning on Windows](https://realpython.com/python-windows-machine-learning-setup/).
 
 If you don’t have Pandas in your virtual environment, then you can install it with Conda:
-
-`$ conda install pandas` 
-
+``` 
+$ conda install pandas
+``` 
 Conda is powerful as it manages the dependencies and their versions. To learn more about working with Conda, you can check out the  [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Preparing Data
@@ -1591,5 +1591,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzczMjA0OF19
+eyJoaXN0b3J5IjpbMzU4NDA2MTEyXX0=
 -->
