@@ -330,8 +330,11 @@ for job_elem in job_elems:
     title_elem = job_elem.find('h2', class_='title')
     company_elem = job_elem.find('div', class_='company')
     location_elem = job_elem.find('div', class_='location')
- print(title_elem.text) print(company_elem.text) print(location_elem.text)    print()` 
-
+ print(title_elem.text) 
+ print(company_elem.text) 
+ print(location_elem.text)    
+ print()
+```
 Run the above code snippet and you’ll see the text content displayed. However, you’ll also get a lot of  [whitespace](https://realpython.com/lessons/whitespace-expressions-and-statements/). Since you’re now working with Python strings, you can  `.strip()`  the superfluous whitespace. You can also apply any other familiar Python string methods to further clean up your text.
 
 **Note:**  The web is messy and you can’t rely on a page structure to be consistent throughout. Therefore, you’ll more often than not run into errors while parsing HTML.
@@ -458,5 +461,6 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMjE5OTYzLC0xNzAxMzc2MTczXX0=
+eyJoaXN0b3J5IjpbLTEwNDY0OTk1MjMsLTE3MDEzNzYxNzNdfQ
+==
 -->
