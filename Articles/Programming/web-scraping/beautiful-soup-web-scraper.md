@@ -357,41 +357,41 @@ for job_elem in job_elems:
 Feel free to explore why one of the elements is returned as  `None`. You can use the conditional statement you wrote above to  `print()`  out and inspect the relevant element in more detail. What do you think is going on there?
 
 After you complete the above steps try running your script again. The results finally look much better:
-
-`Python Developer
+```
+Python Developer
 LanceSoft Inc
 Woodlands, WA
 
 Senior Engagement Manager
 Zuora
-Sydney, NSW` 
-
+Sydney, NSW 
+```
 ### Find Elements by Class Name and Text Content
 
 By now, you’ve cleaned up the list of jobs that you saw on the website. While that’s pretty neat already, you can make your script more useful. However, not all of the job listings seem to be developer jobs that you’d be interested in as a Python developer. So instead of printing out all of the jobs from the page, you’ll first filter them for some keywords.
 
 You know that job titles in the page are kept within  `<h2>`  elements. To filter only for specific ones, you can use the  [`string`  argument](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-string-argument):
-
-`python_jobs = results.find_all('h2', string='Python Developer')` 
-
+```py
+python_jobs = results.find_all('h2', string='Python Developer')` 
+```
 This code finds all  `<h2>`  elements where the contained string matches  `'Python Developer'`  exactly. Note that you’re directly calling the method on your first  `results`  variable. If you go ahead and  `print()`  the output of the above code snippet to your console, then you might be disappointed because it will probably be empty:
-
-`[]` 
-
+```py
+[] 
+```
 There was definitely a job with that title in the search results, so why is it not showing up? When you use  `string=`  like you did above, your program looks for  _exactly_  that string. Any differences in capitalization or whitespace will prevent the element from matching. In the next section, you’ll find a way to make the string more general.
 
 #### Pass a Function to a Beautiful Soup Method
 
 In addition to strings, you can often pass functions as arguments to Beautiful Soup methods. You can change the previous line of code to use a function instead:
-
-`python_jobs = results.find_all('h2',
-                               string=lambda text: 'python' in text.lower())` 
-
+```py
+python_jobs = results.find_all('h2',
+                               string=lambda text: 'python' in text.lower())
+```
 Now you’re passing an  **anonymous function**  to the  `string=`  argument. The  [lambda function](https://realpython.com/courses/python-lambda-functions/)  looks at the text of each  `<h2>`  element, converts it to lowercase, and checks whether the substring  `'python'`  is found anywhere in there. Now you’ve got a match:
 
 >>>
-
-`>>> print(len(python_jobs))
+```py
+print(len(python_jobs))
 1` 
 
 Your program has found a match!
@@ -461,5 +461,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDAzMjA2MiwtMTcwMTM3NjE3M119
+eyJoaXN0b3J5IjpbMTU0ODA4NDk1MiwtMTcwMTM3NjE3M119
 -->
