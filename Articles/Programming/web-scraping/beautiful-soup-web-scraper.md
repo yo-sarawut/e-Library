@@ -86,8 +86,9 @@ You can see that there’s a list of jobs returned on the left side, and there a
 ### Decipher the Information in URLs
 
 A lot of information can be encoded in a URL. Your web scraping journey will be much easier if you first become familiar with how URLs work and what they’re made of. Try to pick apart the URL of the site you’re currently on:
-
-`https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia` 
+```
+https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia
+```
 
 You can deconstruct the above URL into two main parts:
 
@@ -144,16 +145,16 @@ Play around and explore! The more you get to know the page you’re working with
 ## Part 2: Scrape HTML Content From a Page
 
 Now that you have an idea of what you’re working with, it’s time to get started using Python. First, you’ll want to get the site’s HTML code into your Python script so that you can interact with it. For this task, you’ll use Python’s  [`requests`](https://realpython.com/python-requests/)  library. Type the following in your terminal to install it:
-
-`$ pip3 install requests` 
-
+```shell
+$ pip3 install requests
+```
 Then open up a new file in your favorite  [text editor](https://realpython.com/python-ides-code-editors-guide/). All you need to retrieve the HTML are a few lines of code:
-
-`import requests
+```py
+import requests
 
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 page = requests.get(URL)` 
-
+```
 This code performs an  [HTTP request](https://realpython.com/courses/python-requests/)  to the given URL. It retrieves the HTML data that the server sends back and stores that data in a Python object.
 
 If you take a look at the downloaded content, then you’ll notice that it looks very similar to the HTML you were inspecting earlier with developer tools. To improve the structure of how the HTML is displayed in your console output, you can print the object’s  `.content`  attribute with  [`pprint()`](https://docs.python.org/3/library/pprint.html).
@@ -456,5 +457,6 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDQwNTM1LC0xNzAxMzc2MTczXX0=
+eyJoaXN0b3J5IjpbLTExNTYwMzA5NjQsLTE3MDEzNzYxNzNdfQ
+==
 -->
