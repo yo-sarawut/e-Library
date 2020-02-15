@@ -143,11 +143,11 @@ import pandas as pd`
 Now that you have Pandas imported, you can use the  [`DataFrame`  constructor](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)  and  `data`  to create a  `DataFrame`  object.
 
 `data`  is organized in such a way that the country codes correspond to columns. You can reverse the rows and columns of a  `DataFrame`  with the property  [`.T`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.T.html):
-
->>>
-
-`>>> df = pd.DataFrame(data=data).T
->>> df
+```py
+df = pd.DataFrame(data=data).T
+df
+```
+```
  COUNTRY      POP     AREA      GDP       CONT     IND_DAY
 CHN       China  1398.72  9596.96  12234.8       Asia         NaN
 IND       India  1351.16  3287.26  2575.67       Asia  1947-08-15
@@ -169,17 +169,15 @@ DZA     Algeria    43.38  2381.74   167.56     Africa  1962-07-05
 CAN      Canada    37.59  9984.67  1647.12  N.America  1867-07-01
 AUS   Australia    25.47  7692.02  1408.68    Oceania         NaN
 KAZ  Kazakhstan    18.53   2724.9   159.41       Asia  1991-12-16` 
-
+```
 Now you have your  `DataFrame`  object populated with the data about each country.
 
 **Note:**  You can use  [`.transpose()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.transpose.html)  instead of  `.T`  to reverse the rows and columns of your dataset. If you use  `.transpose()`, then you can set the optional parameter  `copy`  to specify if you want to copy the underlying data. The default behavior is  `False`.
 
 Versions of Python older than 3.6 did not guarantee the order of keys in dictionaries. To ensure the order of columns is maintained for older versions of Python and Pandas, you can specify  `index=columns`:
-
->>>
-
-`>>> df = pd.DataFrame(data=data, index=columns).T` 
-
+```py
+df = pd.DataFrame(data=data, index=columns).T` 
+```
 Now that you’ve prepared your data, you’re ready to start working with files!
 
 ## Using the Pandas  `read_csv()`  and  `.to_csv()`  Functions
@@ -203,11 +201,11 @@ This text file contains the data separated with  **commas**. The first column co
 ### Read a CSV File
 
 Once your data is saved in a CSV file, you’ll likely want to load and use it from time to time. You can do that with the Pandas  [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)  function:
-
->>>
-
-`>>> df = pd.read_csv('data.csv', index_col=0)
->>> df
+```py
+df = pd.read_csv('data.csv', index_col=0)
+df
+```
+```py
  COUNTRY      POP      AREA       GDP       CONT     IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia         NaN
 IND       India  1351.16   3287.26   2575.67       Asia  1947-08-15
@@ -229,7 +227,7 @@ DZA     Algeria    43.38   2381.74    167.56     Africa  1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America  1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania         NaN
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia  1991-12-16` 
-
+```
 In this case, the Pandas  `read_csv()`  function returns a new  `DataFrame`  with the data and labels from the file  `data.csv`, which you specified with the first argument. This string can be any valid path, including  [URLs](https://en.wikipedia.org/wiki/URL).
 
 The parameter  `index_col`  specifies the column from the CSV file that contains the row labels. You assign a zero-based column index to this parameter. You should determine the value of  `index_col`  when the CSV file contains the row labels to avoid loading them as data.
@@ -1336,5 +1334,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY4MTQ3MDMsMzU4NDA2MTEyXX0=
+eyJoaXN0b3J5IjpbLTQzNTYzOTQ0NSwzNTg0MDYxMTJdfQ==
 -->
