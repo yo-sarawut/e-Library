@@ -61,8 +61,22 @@ This is how the data looks as a table:
 
 
 | CODE   | COUNTRY    |     POP |     AREA |      GDP | CONT      | IND_DAY    |
-|:-------|:-----------|--------:|---------:|---------:|:----------|:-----------|\n
-| CHN    | China      | 1398.72 |  9596.96 | 12234.8  | Asia      | nan        |\n| IND    | India      | 1351.16 |  3287.26 |  2575.67 | Asia      | 15/08/1947 |\n| USA    | US         |  329.74 |  9833.52 | 19485.4  | N.America | 1776-07-04 |\n| IDN    | Indonesia  |  268.07 |  1910.93 |  1015.54 | Asia      | 17/08/1945 |\n| BRA    | Brazil     |  210.32 |  8515.77 |  2055.51 | S.America | 1822-09-07 |\n| PAK    | Pakistan   |  205.71 |   881.91 |   302.14 | Asia      | 14/08/1947 |\n| NGA    | Nigeria    |  200.96 |   923.77 |   375.77 | Africa    | 01/10/1960 |\n| BGD    | Bangladesh |  167.09 |   147.57 |   245.63 | Asia      | 26/03/1971 |\n| RUS    | Russia     |  146.79 | 17098.2  |  1530.75 | nan       | 12/06/1992 |\n| MEX    | Mexico     |  126.58 |  1964.38 |  1158.23 | N.America | 1810-09-16 |\n| JPN    | Japan      |  126.22 |   377.97 |  4872.42 | Asia      | nan        |\n| DEU    | Germany    |   83.02 |   357.11 |  3693.2  | Europe    | nan        |\n| FRA    | France     |   67.02 |   640.68 |  2582.49 | Europe    | 1789-07-14 |\n| GBR    | UK         |   66.44 |   242.5  |  2631.23 | Europe    | nan        |\n| ITA    | Italy      |   60.36 |   301.34 |  1943.84 | Europe    | nan        |\n| ARG    | Argentina  |   44.94 |  2780.4  |   637.49 | S.America | 1816-07-09 |\n| DZA    | Algeria    |   43.38 |  2381.74 |   167.56 | Africa    | 05/07/1962 |\n| CAN    | Canada     |   37.59 |  9984.67 |  1647.12 | N.America | 1867-07-01 |\n| AUS    | Australia  |   25.47 |  7692.02 |  1408.68 | Oceania   | nan        |\n| KAZ    | Kazakhstan |   18.53 |  2724.9  |   159.41 | Asia      | 16/12/1991 |
+|:-------|:-----------|--------:|---------:|---------:|:----------|:-----------|
+| CHN    | China      | 1398.72 |  9596.96 | 12234.8  | Asia      | nan        |
+| IND    | India      | 1351.16 |  3287.26 |  2575.67 | Asia      | 15/08/1947 |
+| USA    | US         |  329.74 |  9833.52 | 19485.4  | N.America | 1776-07-04 |
+| IDN    | Indonesia  |  268.07 |  1910.93 |  1015.54 | Asia      | 17/08/1945 |
+| BRA    | Brazil     |  210.32 |  8515.77 |  2055.51 | S.America | 1822-09-07 |
+| PAK    | Pakistan   |  205.71 |   881.91 |   302.14 | Asia      | 14/08/1947 |
+| NGA    | Nigeria    |  200.96 |   923.77 |   375.77 | Africa    | 01/10/1960 |
+| BGD    | Bangladesh |  167.09 |   147.57 |   245.63 | Asia      | 26/03/1971 |
+| RUS    | Russia     |  146.79 | 17098.2  |  1530.75 | nan       | 12/06/1992 |
+| MEX    | Mexico     |  126.58 |  1964.38 |  1158.23 | N.America | 1810-09-16 |
+| JPN    | Japan      |  126.22 |   377.97 |  4872.42 | Asia      | nan        |
+| DEU    | Germany    |   83.02 |   357.11 |  3693.2  | Europe    | nan        |
+| FRA    | France     |   67.02 |   640.68 |  2582.49 | Europe    | 1789-07-14 |
+| GBR    | UK         |   66.44 |   242.5  |  2631.23 | Europe    | nan        |
+| ITA    | Italy      |   60.36 |   301.34 |  1943.84 | Europe    | nan        |\n| ARG    | Argentina  |   44.94 |  2780.4  |   637.49 | S.America | 1816-07-09 |\n| DZA    | Algeria    |   43.38 |  2381.74 |   167.56 | Africa    | 05/07/1962 |\n| CAN    | Canada     |   37.59 |  9984.67 |  1647.12 | N.America | 1867-07-01 |\n| AUS    | Australia  |   25.47 |  7692.02 |  1408.68 | Oceania   | nan        |\n| KAZ    | Kazakhstan |   18.53 |  2724.9  |   159.41 | Asia      | 16/12/1991 |
 
 You may notice that some of the data is missing. For example, the continent for Russia is not specified because it spreads across both Europe and Asia. There are also several missing independence days because the  [data source](https://en.wikipedia.org/wiki/List_of_national_independence_days)  omits them.
 
@@ -1318,5 +1332,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzIzODkzOSwzNTg0MDYxMTJdfQ==
+eyJoaXN0b3J5IjpbMTI4OTI4ODM5NywzNTg0MDYxMTJdfQ==
 -->
