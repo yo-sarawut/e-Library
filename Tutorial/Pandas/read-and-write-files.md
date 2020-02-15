@@ -76,13 +76,18 @@ This is how the data looks as a table:
 | DEU    | Germany    |   83.02 |   357.11 |  3693.2  | Europe    | nan        |
 | FRA    | France     |   67.02 |   640.68 |  2582.49 | Europe    | 1789-07-14 |
 | GBR    | UK         |   66.44 |   242.5  |  2631.23 | Europe    | nan        |
-| ITA    | Italy      |   60.36 |   301.34 |  1943.84 | Europe    | nan        |\n| ARG    | Argentina  |   44.94 |  2780.4  |   637.49 | S.America | 1816-07-09 |\n| DZA    | Algeria    |   43.38 |  2381.74 |   167.56 | Africa    | 05/07/1962 |\n| CAN    | Canada     |   37.59 |  9984.67 |  1647.12 | N.America | 1867-07-01 |\n| AUS    | Australia  |   25.47 |  7692.02 |  1408.68 | Oceania   | nan        |\n| KAZ    | Kazakhstan |   18.53 |  2724.9  |   159.41 | Asia      | 16/12/1991 |
+| ITA    | Italy      |   60.36 |   301.34 |  1943.84 | Europe    | nan        |
+| ARG    | Argentina  |   44.94 |  2780.4  |   637.49 | S.America | 1816-07-09 |
+| DZA    | Algeria    |   43.38 |  2381.74 |   167.56 | Africa    | 05/07/1962 |
+| CAN    | Canada     |   37.59 |  9984.67 |  1647.12 | N.America | 1867-07-01|
+ | AUS    | Australia  |   25.47 |  7692.02 |  1408.68 | Oceania   | nan        |
+ | KAZ    | Kazakhstan |   18.53 |  2724.9  |   159.41 | Asia      | 16/12/1991 |
 
 You may notice that some of the data is missing. For example, the continent for Russia is not specified because it spreads across both Europe and Asia. There are also several missing independence days because the  [data source](https://en.wikipedia.org/wiki/List_of_national_independence_days)  omits them.
 
 You can organize this data in Python using a nested  [dictionary](https://realpython.com/python-dicts/):
-
-`data = {
+```py
+data = {
     'CHN': {'COUNTRY': 'China', 'POP': 1_398.72, 'AREA': 9_596.96,
             'GDP': 12_234.78, 'CONT': 'Asia'},
     'IND': {'COUNTRY': 'India', 'POP': 1_351.16, 'AREA': 3_287.26,
@@ -126,16 +131,15 @@ You can organize this data in Python using a nested  [dictionary](https://realpy
             'GDP': 159.41, 'CONT': 'Asia', 'IND_DAY': '1991-12-16'}
 }
 
-columns = ('COUNTRY', 'POP', 'AREA', 'GDP', 'CONT', 'IND_DAY')` 
+columns = ('COUNTRY', 'POP', 'AREA', 'GDP', 'CONT', 'IND_DAY')
+```
 
 Each row of the table is written as an inner dictionary whose keys are the column names and values are the corresponding data. These dictionaries are then collected as the values in the outer  `data`  dictionary. The corresponding keys for  `data`  are the three-letter country codes.
 
 You can use this  `data`  to create an instance of a Pandas  [`DataFrame`](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html). First, you need to import Pandas:
-
->>>
-
-`>>> import pandas as pd` 
-
+```py
+import pandas as pd` 
+```
 Now that you have Pandas imported, you can use the  [`DataFrame`  constructor](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)  and  `data`  to create a  `DataFrame`  object.
 
 `data`  is organized in such a way that the country codes correspond to columns. You can reverse the rows and columns of a  `DataFrame`  with the property  [`.T`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.T.html):
@@ -1332,5 +1336,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTI4ODM5NywzNTg0MDYxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NDY4MTQ3MDMsMzU4NDA2MTEyXX0=
 -->
