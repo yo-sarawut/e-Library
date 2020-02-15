@@ -148,7 +148,7 @@ Note that all paths, except  `root_path`, are relative to the Blueprint’s dire
 
 The  `Blueprint`  object  `example_blueprint`  has methods and decorators that allow you to record operations to be executed when registering the Flask Blueprint in an application to extend it. One of the most used decorators is  `route`. It allows you to associate a view function to a URL route. The following code block shows how this decorator is used:
 
-`@example_blueprint.route('/')
+@example_blueprint.route('/')
 def index():
     return "This is an example app"` 
 
@@ -446,5 +446,5 @@ You can use what you’ve learned in this tutorial to start organizing your appl
 
 > [Source : ](https://realpython.com/flask-blueprint/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTQwNjAyM119
+eyJoaXN0b3J5IjpbLTExMTAwNDE3NDEsMTExOTQwNjAyM119
 -->
