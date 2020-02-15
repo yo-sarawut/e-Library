@@ -615,7 +615,7 @@ temps = [t.get_text() for t in seven_day.select(".tombstone-container .temp")]
 descs = [d["title"] for d in seven_day.select(".tombstone-container img")]print(short_descs)print(temps)print(descs)
 ```
 
-```python
+```py
 ['Mostly Clear', 'Sunny', 'Mostly Clear', 'Sunny', 'Slight ChanceRain', 'Rain Likely', 'Rain Likely', 'Rain Likely', 'Chance Rain']
 ['Low: 49 °F', 'High: 63 °F', 'Low: 50 °F', 'High: 67 °F', 'Low: 57 °F', 'High: 64 °F', 'Low: 57 °F', 'High: 64 °F', 'Low: 55 °F']
 ['Tonight: Mostly clear, with a low around 49. West northwest wind 12 to 17 mph decreasing to 6 to 11 mph after midnight. Winds could gust as high as 23 mph. ', 'Thursday: Sunny, with a high near 63. North wind 3 to 5 mph. ', 'Thursday Night: Mostly clear, with a low around 50. Light and variable wind becoming east southeast 5 to 8 mph after midnight. ', 'Friday: Sunny, with a high near 67. Southeast wind around 9 mph. ', 'Friday Night: A 20 percent chance of rain after 11pm. Partly cloudy, with a low around 57. South southeast wind 13 to 15 mph, with gusts as high as 20 mph. New precipitation amounts of less than a tenth of an inch possible. ', 'Saturday: Rain likely. Cloudy, with a high near 64. Chance of precipitation is 70%. New precipitation amounts between a quarter and half of an inch possible. ', 'Saturday Night: Rain likely. Cloudy, with a low around 57. Chance of precipitation is 60%.', 'Sunday: Rain likely. Cloudy, with a high near 64.', 'Sunday Night: A chance of rain. Mostly cloudy, with a low around 55.']
@@ -648,8 +648,8 @@ weather
 |	|desc|	period	|short_desc|temp	|temp_num|	is_night|
 |:----------------|:-----------|:---------|:-------------|:-------|-----------:|:-----------| 
 |0	|Tonight: Mostly clear, with a low around 49. W…|	Tonight	|Mostly Clear|	Low: 49 °F|	49|	True|
-|2|	Thursday Night: Mostly clear, with a low aroun…	ThursdayNight	Mostly Clear	Low: 50 °F	50	True
-4	Friday Night: A 20 percent chance of rain afte…	FridayNight	Slight ChanceRain	Low: 57 °F	57	True
+|2|	Thursday Night: Mostly clear, with a low aroun…	|ThursdayNight	|Mostly Clear|	Low: 50 °F|	50|	True|
+|4|	Friday Night: A 20 percent chance of rain afte…	|FridayNight|	Slight ChanceRain|	Low: 57 °F	57	True
 6	Saturday Night: Rain likely. Cloudy, with a l…	SaturdayNight	Rain Likely	Low: 57 °F	57	True
 8	Sunday Night: A chance of rain. Mostly cloudy…	SundayNight	Chance Rain	Low: 55 °F	55	True
 
@@ -808,5 +808,5 @@ If you want to learn more about any of the topics covered here, check out our in
 
 > [Source : ](https://www.dataquest.io/blog/web-scraping-tutorial-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjgxMjQ0MTNdfQ==
+eyJoaXN0b3J5IjpbLTUwODcyMTEzOF19
 -->
