@@ -9,6 +9,7 @@ bookToc: True
 
 Beautiful Soup: Build a Web Scraper With Python
 ===
+![enter image description here](https://files.realpython.com/media/Build-a-Web-Scraper-With-Requests-and-Beautiful-Soup_Watermarked.37918fb3906c.jpg)
 
 The incredible amount of data on the Internet is a rich resource for any field of research or personal interest. To effectively harvest that data, you’ll need to become skilled at  **web scraping**. The Python libraries  `requests`  and Beautiful Soup are powerful tools for the job. If you like to learn with hands-on examples and you have a basic understanding of Python and HTML, then this tutorial is for you.
 
@@ -20,7 +21,7 @@ The incredible amount of data on the Internet is a rich resource for any field o
 
 This is a powerful project because you’ll be able to apply the same process and the same tools to any static website out there on the World Wide Web. You can download the source code for the project and all examples in this tutorial by clicking on the link below:
 
-**Get Sample Code:**  [Click here to get the sample code you'll use](https://realpython.com/bonus/beautiful-soup/)  for the project and examples in this tutorial.
+> **Get Sample Code:**  [Click here to get the sample code you'll use](https://realpython.com/bonus/beautiful-soup/)  for the project and examples in this tutorial.
 
 Let’s get started!
 
@@ -113,9 +114,9 @@ Try to change the search parameters and observe how that affects your URL. Go ah
 Change these values to observe the changes in the URL.
 
 Next, try to change the values directly in your URL. See what happens when you paste the following URL into your browser’s address bar:
-
-`https://www.monster.com/jobs/search/?q=Programmer&where=New-York` 
-
+```
+https://www.monster.com/jobs/search/?q=Programmer&where=New-York 
+```
 You’ll notice that changes in the search box of the site are directly reflected in the URL’s query parameters and vice versa. If you change either of them, then you’ll see different results on the website. When you explore URLs, you can get information on how to retrieve data from the website’s server.
 
 ### Inspect the Site Using Developer Tools
@@ -455,5 +456,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjcwNjQ3NywtMTcwMTM3NjE3M119
+eyJoaXN0b3J5IjpbLTM0MDQwNTM1LC0xNzAxMzc2MTczXX0=
 -->
