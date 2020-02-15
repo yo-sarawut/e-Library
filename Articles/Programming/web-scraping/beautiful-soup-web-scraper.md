@@ -389,14 +389,13 @@ python_jobs = results.find_all('h2',
 ```
 Now you’re passing an  **anonymous function**  to the  `string=`  argument. The  [lambda function](https://realpython.com/courses/python-lambda-functions/)  looks at the text of each  `<h2>`  element, converts it to lowercase, and checks whether the substring  `'python'`  is found anywhere in there. Now you’ve got a match:
 
->>>
 ```py
 print(len(python_jobs))
-1` 
-
+# 1
+```
 Your program has found a match!
 
-**Note:**  In case you still don’t get a match, try adapting your search string. The job offers on this page are constantly changing and there might not be a job listed that includes the substring  `'python'`  in its title at the time that you’re working through this tutorial.
+>**Note:**  In case you still don’t get a match, try adapting your search string. The job offers on this page are constantly changing and there might not be a job listed that includes the substring  `'python'`  in its title at the time that you’re working through this tutorial.
 
 The process of finding specific elements depending on their text content is a powerful way to filter your HTML response for the information that you’re looking for. Beautiful Soup allows you to use either exact strings or functions as arguments for filtering text in Beautiful Soup objects.
 
@@ -407,14 +406,15 @@ At this point, your Python script already scrapes the site and filters its HTML 
 While you were inspecting the page, you found that the link is part of the element that has the  `title`  HTML class. The current code strips away the entire link when accessing the  `.text`  attribute of its parent element. As you’ve seen before,  `.text`  only contains the visible text content of an HTML element. Tags and attributes are not part of that. To get the actual URL, you want to  **extract**  one of those attributes instead of discarding it.
 
 Look at the list of filtered results  `python_jobs`  that you created above. The URL is contained in the  `href`  attribute of the nested  `<a>`  tag. Start by fetching the  `<a>`  element. Then, extract the value of its  `href`  attribute using square-bracket notation:
-
-`python_jobs = results.find_all('h2',
+```py
+python_jobs = results.find_all('h2',
                                string=lambda text: "python" in text.lower())
 
 for p_job in python_jobs:
- link = p_job.find('a')['href']    print(p_job.text.strip())
-    print(f"Apply here: {link}\n")` 
-
+	 link = p_job.find('a')['href']    
+	 print(p_job.text.strip())
+	 print(f"Apply here: {link}\n")
+```
 The filtered results will only show links to job opportunities that include  `python`  in their title. You can use the same square-bracket notation to extract other HTML attributes as well. A common use case is to fetch the URL of a link, as you did above.
 
 ## Building the Job Search Tool
@@ -461,5 +461,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODA4NDk1MiwtMTcwMTM3NjE3M119
+eyJoaXN0b3J5IjpbLTExODk3NzMyMiwtMTcwMTM3NjE3M119
 -->
