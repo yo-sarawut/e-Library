@@ -1,4 +1,9 @@
+---
+bookFlatSection: true
+title: Web Scraping NBA Stats
+bookToc: true
 
+---
 Web Scraping NBA Stats
 ===
 [Source:](https://towardsdatascience.com/web-scraping-nba-stats-4b4f8c525994)
@@ -80,5 +85,5 @@ To conclude this quick walk through, web scraping can be a simple task, but for 
 -   **HTML Tags:**  [Source 1](https://html.com/tags/)  |  [Source 2](https://www.w3schools.com/tags/)
 -   **BeautifulSoup:**  [Source 1](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe)  |  [Source 2](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODIzNjQyOV19
+eyJoaXN0b3J5IjpbLTEyMTE2OTcyNzAsLTMwODIzNjQyOV19
 -->
