@@ -164,8 +164,8 @@ If you take a look at the downloaded content, then you’ll notice that it looks
 The website you’re scraping in this tutorial serves  **static HTML content**. In this scenario, the server that hosts the site sends back HTML documents that already contain all the data you’ll get to see as a user.
 
 When you inspected the page with developer tools earlier on, you discovered that a job posting consists of the following long and messy-looking HTML:
-
-`<section class="card-content" data-jobid="4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" onclick="MKImpressionTrackingMouseDownHijack(this, event)">
+```html
+<section class="card-content" data-jobid="4755ec59-d0db-4ce9-8385-b4df7c1e9f7c" onclick="MKImpressionTrackingMouseDownHijack(this, event)">
 <div class="flex-row">
 <div class="mux-company-logo thumbnail"></div>
 <div class="summary">
@@ -196,11 +196,11 @@ Woodlands, WA
 </span>
 </div>
 </div>
-</section>` 
-
+</section>
+```
 It can be difficult to wrap your head around such a long block of HTML code. To make it easier to read, you can use an  [HTML formatter](https://htmlformatter.com/)  to automatically clean it up a little more. Good readability helps you better understand the structure of any code block. While it may or may not help to improve the formatting of the HTML, it’s always worth a try.
 
-**Note:**  Keep in mind that every website will look different. That’s why it’s necessary to inspect and understand the structure of the site you’re currently working with before moving forward.
+>**Note:**  Keep in mind that every website will look different. That’s why it’s necessary to inspect and understand the structure of the site you’re currently working with before moving forward.
 
 The HTML above definitely has a few confusing parts in it. For example, you can scroll to the right to see the large number of attributes that the  `<a>`  element has. Luckily, the  **class names**  on the elements that you’re interested in are relatively straightforward:
 
@@ -226,7 +226,7 @@ Static sites are easier to work with because the server sends you an HTML page t
 
 On the other hand, with a  **dynamic website**  the server might not send back any HTML at all. Instead, you’ll receive JavaScript code as a response. This will look completely different from what you saw when you inspected the page with your browser’s developer tools.
 
-**Note:**  To offload work from the server to the clients’ machines, many modern websites avoid crunching numbers on their servers whenever possible. Instead, they’ll send  **JavaScript**  code that your browser will execute locally to produce the desired HTML.
+> **Note:**  To offload work from the server to the clients’ machines, many modern websites avoid crunching numbers on their servers whenever possible. Instead, they’ll send  **JavaScript**  code that your browser will execute locally to produce the desired HTML.
 
 As mentioned before, what happens in the browser is not related to what happens in your script. Your browser will diligently execute the JavaScript code it receives back from a server and create the DOM and HTML for you locally. However, doing a request to a dynamic website in your Python script will  _not_  provide you with the HTML page content.
 
@@ -234,7 +234,7 @@ When you use  `requests`, you’ll only receive what the server sends back. In t
 
 For example,  `requests-html`  is a project created by the author of the  `requests`  library that allows you to easily render JavaScript using syntax that’s similar to the syntax in  `requests`. It also includes capabilities for parsing the data by using Beautiful Soup under the hood.
 
-**Note:**  Another popular choice for scraping dynamic content is  [**Selenium**](https://realpython.com/modern-web-automation-with-python-and-selenium/). You can think of Selenium as a slimmed-down browser that executes the JavaScript code for you before passing on the rendered HTML response to your script.
+> **Note:**  Another popular choice for scraping dynamic content is  [**Selenium**](https://realpython.com/modern-web-automation-with-python-and-selenium/). You can think of Selenium as a slimmed-down browser that executes the JavaScript code for you before passing on the rendered HTML response to your script.
 
 You won’t go deeper into scraping dynamically-generated content in this tutorial. For now, it’s enough for you to remember that you’ll need to look into the above-mentioned options if the page you’re interested in is generated in your browser dynamically.
 
@@ -243,12 +243,12 @@ You won’t go deeper into scraping dynamically-generated content in this tutori
 You’ve successfully scraped some HTML from the Internet, but when you look at it now, it just seems like a huge mess. There are tons of HTML elements here and there, thousands of attributes scattered around—and wasn’t there some JavaScript mixed in as well? It’s time to parse this lengthy code response with Beautiful Soup to make it more accessible and pick out the data that you’re interested in.
 
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  is a Python library for  **parsing structured data**. It allows you to interact with HTML in a similar way to how you would interact with a web page using developer tools. Beautiful Soup exposes a couple of intuitive functions you can use to explore the HTML you received. To get started, use your terminal to install the Beautiful Soup library:
-
-`$ pip3 install beautifulsoup4` 
-
+```py
+$ pip3 install beautifulsoup4
+```
 Then, import the library and create a Beautiful Soup object:
-
-`import requests
+```py
+import requests
 from bs4 import BeautifulSoup 
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 page = requests.get(URL)
@@ -457,6 +457,5 @@ You can download the source code for the sample script that you built in this tu
 
 > [Source : ](https://realpython.com/beautiful-soup-web-scraper-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYwMzA5NjQsLTE3MDEzNzYxNzNdfQ
-==
+eyJoaXN0b3J5IjpbLTM3NTI4NjY3LC0xNzAxMzc2MTczXX0=
 -->
