@@ -1193,8 +1193,10 @@ dtype: object`
 The columns with the floating-point numbers are 64-bit floats. Each number of this type  `float64`  consumes 64 bits or 8 bytes. Each column has 20 numbers and requires 160 bytes. You can verify this with  [`.memory_usage()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.memory_usage.html):
 
 
-
-` df.memory_usage()
+```py
+df.memory_usage()
+```
+```
 Index      160
 COUNTRY    160
 POP        160
@@ -1203,40 +1205,43 @@ GDP        160
 CONT       160
 IND_DAY    160
 dtype: int64` 
-
+```
 `.memory_usage()`  returns an instance of  `Series`  with the memory usage of each column in bytes. You can conveniently combine it with  `.loc[]`  and  [`.sum()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.sum.html)  to get the memory for a group of columns:
 
 
-
-` df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
-480` 
-
+```py
+df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
+```
+```
+480 
+```
 This example shows how you can combine the numeric columns  `'POP'`,  `'AREA'`, and  `'GDP'`  to get their total memory requirement. The argument  `index=False`  excludes data for row labels from the resulting  `Series`  object. For these three columns, you’ll need 480 bytes.
 
 You can also extract the data values in the form of a NumPy array with  [`.to_numpy()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  or  [`.values`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html). Then, use the  [`.nbytes`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nbytes.html)  attribute to get the total bytes consumed by the items of the array:
 
 
-
-` df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
-480` 
+```py
+df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
+# 480
+```
 
 The result is the same 480 bytes. So, how do you save memory?
 
 In this case, you can specify that your numeric columns  `'POP'`,  `'AREA'`, and  `'GDP'`  should have the type  `float32`. Use the optional parameter  `dtype`  to do this:
 
 
-
-` dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
+```py
+dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
  df = pd.read_csv('data.csv', index_col=0, dtype=dtypes,
 ...                  parse_dates=['IND_DAY'])` 
-
+```
 The dictionary  `dtypes`  specifies the desired data types for each column. It’s passed to the Pandas  `read_csv()`  function as the argument that corresponds to the parameter  `dtype`.
 
 Now you can verify that each numeric column needs 80 bytes, or 4 bytes per item:
 
 
 
-` df.dtypes
+df.dtypes
 COUNTRY            object
 POP               float32
 AREA              float32
@@ -1344,6 +1349,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjcyNTEyOTQsNzY5ODc1MDk3LDM1OD
+eyJoaXN0b3J5IjpbLTEzNDAwNjA4ODEsNzY5ODc1MDk3LDM1OD
 QwNjExMl19
 -->
