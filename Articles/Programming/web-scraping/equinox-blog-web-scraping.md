@@ -1,3 +1,12 @@
+---
+title: "ทำ Web Scraping ด้วย BeautifulSoup"
+
+date: 2020-01215T11:42:26+06:00
+
+bookToc: True
+
+---
+
 ทำ Web Scraping ด้วย BeautifulSoup กัน
 ===
 
@@ -188,5 +197,5 @@ When performing data science tasks, it's common to want to use data found on the
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzAwMjQ0MF19
+eyJoaXN0b3J5IjpbLTE4MTM0NzgxNDVdfQ==
 -->
