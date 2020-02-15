@@ -854,7 +854,9 @@ The parameter  `index_col`  specifies the name of the column with the row labels
 
 ```py
 df.index.name = None
- df
+df
+```
+```
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -876,7 +878,7 @@ DZA     Algeria    43.38   2381.74    167.56     Africa 1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America 1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania        NaT
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16` 
-
+```
 Now you have the same  `DataFrame`  object as before.
 
 Note that the continent for Russia is now  `None`  instead of  `nan`. If you want to fill the missing values with  `nan`, then you can use  [`.fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html):
@@ -898,20 +900,22 @@ Pickling is the act of converting Python objects into  [byte streams](https://en
 You can save your  `DataFrame`  in a pickle file with  [`.to_pickle()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_pickle.html):
 
 
-
-` dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
+```py
+dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
 ...           'IND_DAY': 'datetime64'}
  df = pd.DataFrame(data=data).T.astype(dtype=dtypes)
- df.to_pickle('data.pickle')` 
-
+ df.to_pickle('data.pickle')
+```
 Like you did with databases, it can be convenient first to specify the data types. Then, you create a file  `data.pickle`  to contain your data. You could also pass an integer value to the optional parameter  `protocol`, which specifies the  [protocol](https://docs.python.org/3/library/pickle.html#module-interface)  of the pickler.
 
 You can get the data from a pickle file with  [`read_pickle()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_pickle.html):
 
 
-
-` df = pd.read_pickle('data.pickle')
- df
+```py
+df = pd.read_pickle('data.pickle')
+df
+```
+```
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -933,12 +937,13 @@ DZA     Algeria    43.38   2381.74    167.56     Africa 1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America 1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania        NaT
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16` 
-
+```
 `read_pickle()`  returns the  `DataFrame`  with the stored data. You can also check the data types:
 
 
+```py
+df.dtypes
 
-` df.dtypes
 COUNTRY            object
 POP               float64
 AREA              float64
@@ -1361,6 +1366,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE1OTc3NjksLTk4NTU1NDAxNyw3Nj
-k4NzUwOTcsMzU4NDA2MTEyXX0=
+eyJoaXN0b3J5IjpbLTUxNDQ5NzU4NCwtOTg1NTU0MDE3LDc2OT
+g3NTA5NywzNTg0MDYxMTJdfQ==
 -->
