@@ -32,17 +32,38 @@ Every user will benefit at least from time-to-time from the ability to interact 
 !echo Hello World!!
 pip freeze | grep pandas
 ```
+```py
 Hello World!
 pandas==0.23.4
+```
 It is also possible to use Python variables in your shell commands by prepending a $ symbol consistent with bash style variable names.
 
-
+```py
 message = 'This is nifty'
 !echo $message
-
+```
+```py
 This is nifty
+```
+Note that the shell in which ! commands are executed is discarded after execution completes, so commands like cd will have no effect. However, IPython magics offer a solution.
+
+Basic Magics
+Magics are handy commands built into the IPython kernel that make it easier to perform particular tasks. Although they often resemble unix commands, under the hood they are all implemented in Python. There exist far more magics than it would make sense to cover here, but it’s worth highlighting a variety of examples. We will start with a few basics before moving on to more interesting cases.
+
+There are two categories of magic: line magics and cell magics. Respectively, they act on a single line or can be spread across multiple lines or entire cells. To see the available magics, you can do the following:
+
+%lsmagic
+Available line magics:
+
+Available cell magics:%%! %%HTML %%SVG %%bash %%capture %%cmd %%debug %%file %%html %%javascript %%js %%latex %%markdown %%perl %%prun %%pypy %%python %%python2 %%python3 %%ruby %%script %%sh %%svg %%sx %%system %%time %%timeit %%writefile
+Automagic is ON, % prefix IS NOT needed for line magics.
+As you can see, there are loads! Most are listed in the official documentation, which is intended as a reference but can be somewhat obtuse in places. Line magics start with a percent character %, and cell magics start with two, %%.
+
+It’s worth noting that ! is really just a fancy magic syntax for shell commands, and as you may have noticed IPython provides magics in place of those shell commands that alter the state of the shell and are thus lost by !. Examples include %cd, %alias and %env.
+
+Let’s go through some more examples.
 
 > [Source : ](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4OTEwOTMwXX0=
+eyJoaXN0b3J5IjpbNzI3ODI2MTQ0XX0=
 -->
