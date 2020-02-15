@@ -645,13 +645,7 @@ weather
 
 
 ---
-|	|desc|	period	|short_desc|temp	|temp_num|	is_night|
-|:----------------|:-----------|:---------|:-------------|:-------|-----------:|:-----------| 
-|0	|Tonight: Mostly clear, with a low around 49. W…|	Tonight	|Mostly Clear|	Low: 49 °F|	49|	True|
-|2|	Thursday Night: Mostly clear, with a low aroun…	|ThursdayNight	|Mostly Clear|	Low: 50 °F|	50|	True|
-|4|	Friday Night: A 20 percent chance of rain afte…	|FridayNight|	Slight ChanceRain|	Low: 57 °F|	57|	True|
-|6|	Saturday Night: Rain likely. Cloudy, with a l…	|SaturdayNight	|Rain Likely|	Low: 57 °F|	57	|True|
-|8	|Sunday Night: A chance of rain. Mostly cloudy…	|SundayNight	|Chance Rain|	Low: 55 °F|	55|	True|
+
 
 
 We can now do some analysis on the data. For example, we can use a regular expression and the  [Series.str.extract](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.extract.html)  method to pull out the numeric temperature values:
@@ -709,88 +703,13 @@ Name: temp, dtype: bool
 ```python
 weather[is_night]
 ```
-
-desc
-
-period
-
-short_desc
-
-temp
-
-temp_num
-
-is_night
-
-0
-
-Tonight: Mostly clear, with a low around 49. W…
-
-Tonight
-
-Mostly Clear
-
-Low: 49 °F
-
-49
-
-True
-
-2
-
-Thursday Night: Mostly clear, with a low aroun…
-
-ThursdayNight
-
-Mostly Clear
-
-Low: 50 °F
-
-50
-
-True
-
-4
-
-Friday Night: A 20 percent chance of rain afte…
-
-FridayNight
-
-Slight ChanceRain
-
-Low: 57 °F
-
-57
-
-True
-
-6
-
-Saturday Night: Rain likely. Cloudy, with a l…
-
-SaturdayNight
-
-Rain Likely
-
-Low: 57 °F
-
-57
-
-True
-
-8
-
-Sunday Night: A chance of rain. Mostly cloudy…
-
-SundayNight
-
-Chance Rain
-
-Low: 55 °F
-
-55
-
-True
+|	|desc|	period	|short_desc|temp	|temp_num|	is_night|
+|:----------------|:-----------|:---------|:-------------|:-------|-----------:|:-----------| 
+|0	|Tonight: Mostly clear, with a low around 49. W…|	Tonight	|Mostly Clear|	Low: 49 °F|	49|	True|
+|2|	Thursday Night: Mostly clear, with a low aroun…	|ThursdayNight	|Mostly Clear|	Low: 50 °F|	50|	True|
+|4|	Friday Night: A 20 percent chance of rain afte…	|FridayNight|	Slight ChanceRain|	Low: 57 °F|	57|	True|
+|6|	Saturday Night: Rain likely. Cloudy, with a l…	|SaturdayNight	|Rain Likely|	Low: 57 °F|	57	|True|
+|8	|Sunday Night: A chance of rain. Mostly cloudy…	|SundayNight	|Chance Rain|	Low: 55 °F|	55|	True|
 
 ## Next Steps
 
@@ -808,5 +727,5 @@ If you want to learn more about any of the topics covered here, check out our in
 
 > [Source : ](https://www.dataquest.io/blog/web-scraping-tutorial-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI4NjEwNDhdfQ==
+eyJoaXN0b3J5IjpbMTg0NTY2MzU4M119
 -->
