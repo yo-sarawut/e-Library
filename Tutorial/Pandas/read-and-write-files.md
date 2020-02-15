@@ -188,9 +188,9 @@ A  [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_
 
 You can save your Pandas  `DataFrame`  as a CSV file with  [`.to_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html):
 
->>>
 
-`>>> df.to_csv('data.csv')` 
+
+` df.to_csv('data.csv')` 
 
 That’s it! You’ve created the file  `data.csv`  in your current working directory. You can expand the code block below to see how your CSV file should look:
 
@@ -385,18 +385,18 @@ You can get a  `nan`  value with any of the following functions:
 
 The continent that corresponds to Russia in  `df`  is  `nan`:
 
->>>
 
-`>>> df.loc['RUS', 'CONT']
+
+` df.loc['RUS', 'CONT']
 nan` 
 
 This example uses  [`.loc[]`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html)  to get data with the specified row and column names.
 
 When you save your  `DataFrame`  to a CSV file, empty strings (`''`) will represent the missing data. You can see this both in your file  `data.csv`  and in the string  `s`. If you want to change this behavior, then use the optional parameter  `na_rep`:
 
->>>
 
-`>>> df.to_csv('new-data.csv', na_rep='(missing)')` 
+
+` df.to_csv('new-data.csv', na_rep='(missing)')` 
 
 This code produces the file  `new-data.csv`  where the missing values are no longer empty strings. You can expand the code block below to see how this file should look:
 
@@ -479,7 +479,7 @@ dtype: object
 ```py
 df['IND_DAY']
 ```
-```py
+```
 CHN          NaT
 IND   1947-08-15
 USA   1776-07-04
@@ -501,15 +501,15 @@ CAN   1867-07-01
 AUS          NaT
 KAZ   1991-12-16
 Name: IND_DAY, dtype: datetime64[ns]` 
-
+```
 Now, you have 32-bit floating-point numbers ()`float32`) as specified with  `dtype`. These differ slightly from the original 64-bit numbers because of smaller  **precision**. The values in the last column are considered as dates and have the data type  `datetime64`. That’s why the  `NaN`  values in this column are replaced with  `NaT`.
 
 Now that you have real dates, you can save them in the format you like:
 
->>>
 
-`>>> df = pd.read_csv('data.csv', index_col=0, parse_dates=['IND_DAY'])
->>> df.to_csv('formatted-data.csv', date_format='%B %d, %Y')` 
+
+` df = pd.read_csv('data.csv', index_col=0, parse_dates=['IND_DAY'])
+ df.to_csv('formatted-data.csv', date_format='%B %d, %Y')` 
 
 Here, you’ve specified the parameter  `date_format`  to be  `'%B %d, %Y'`. You can expand the code block below to see the resulting file:
 
@@ -526,10 +526,10 @@ There are several other optional parameters that you can use with  `.to_csv()`:
 
 Here’s how you would pass arguments for  `sep`  and  `header`:
 
->>>
 
-`>>> s = df.to_csv(sep=';', header=False)
->>> print(s)
+
+` s = df.to_csv(sep=';', header=False)
+ print(s)
 CHN;China;1398.72;9596.96;12234.78;Asia;
 IND;India;1351.16;3287.26;2575.67;Asia;1947-08-15
 USA;US;329.74;9833.52;19485.39;N.America;1776-07-04
@@ -561,10 +561,10 @@ The Pandas  `read_csv()`  function has many additional options for managing miss
 
 You can save the data from your  `DataFrame`  to a JSON file with  [`.to_json()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_json.html). Start by creating a  `DataFrame`  object again. Use the dictionary  `data`  that holds the data about countries and then apply  `.to_json()`:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df.to_json('data-columns.json')` 
+
+` df = pd.DataFrame(data=data).T
+ df.to_json('data-columns.json')` 
 
 This code produces the file  `data-columns.json`. You can expand the code block below to see how this file should look:
 
@@ -574,9 +574,9 @@ data-columns.jsonShow/Hide
 
 You can get a different file structure if you pass an argument for the optional parameter  `orient`:
 
->>>
 
-`>>> df.to_json('data-index.json', orient='index')` 
+
+` df.to_json('data-index.json', orient='index')` 
 
 The  `orient`  parameter defaults to  `'columns'`. Here, you’ve set it to  `index`.
 
@@ -588,9 +588,9 @@ data-index.jsonShow/Hide
 
 There are few more options for  `orient`. One of them is  `'records'`:
 
->>>
 
-`>>> df.to_json('data-records.json', orient='records')` 
+
+` df.to_json('data-records.json', orient='records')` 
 
 This code should yield the file  `data-records.json`. You can expand the code block below to see the content:
 
@@ -600,9 +600,9 @@ data-records.jsonShow/Hide
 
 You can get another interesting file structure with  `orient='split'`:
 
->>>
 
-`>>> df.to_json('data-split.json', orient='split')` 
+
+` df.to_json('data-split.json', orient='split')` 
 
 The resulting file is  `data-split.json`. You can expand the code block below to see how this file should look:
 
@@ -618,11 +618,11 @@ If you don’t provide the value for the optional parameter  `path_or_buf`  that
 
 There are other optional parameters you can use. For instance, you can set  `index=False`  to forego saving row labels. You can manipulate precision with  `double_precision`, and dates with  `date_format`  and  `date_unit`. These last two parameters are particularly important when you have time series among your data:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df['IND_DAY'] = pd.to_datetime(df['IND_DAY'])
->>> df.dtypes
+
+` df = pd.DataFrame(data=data).T
+ df['IND_DAY'] = pd.to_datetime(df['IND_DAY'])
+ df.dtypes
 COUNTRY            object
 POP                object
 AREA               object
@@ -631,7 +631,7 @@ CONT               object
 IND_DAY    datetime64[ns]
 dtype: object
 
->>> df.to_json('data-time.json')` 
+ df.to_json('data-time.json')` 
 
 In this example, you’ve created the  `DataFrame`  from the dictionary  `data`  and used  [`to_datetime()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html)  to convert the values in the last column to  `datetime64`. You can expand the code block below to see the resulting file:
 
@@ -641,11 +641,11 @@ In this file, you have large integers instead of dates for the independence days
 
 However, if you pass  `date_format='iso'`, then you’ll get the dates in the ISO 8601 format. In addition,  `date_unit`  decides the units of time:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df['IND_DAY'] = pd.to_datetime(df['IND_DAY'])
->>> df.to_json('new-data-time.json', date_format='iso', date_unit='s')` 
+
+` df = pd.DataFrame(data=data).T
+ df['IND_DAY'] = pd.to_datetime(df['IND_DAY'])
+ df.to_json('new-data-time.json', date_format='iso', date_unit='s')` 
 
 This code produces the following JSON file:
 
@@ -655,9 +655,9 @@ The dates in the resulting file are in the ISO 8601 format.
 
 You can load the data from a JSON file with  [`read_json()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html):
 
->>>
 
-`>>> df = pd.read_json('data-index.json', orient='index',
+
+` df = pd.read_json('data-index.json', orient='index',
 ...                   convert_dates=['IND_DAY'])` 
 
 The parameter  `convert_dates`  has a similar purpose as  `parse_dates`  when you use it to read CSV files. The optional parameter  `orient`  is very important because it specifies how Pandas understands the structure of the file.
@@ -683,7 +683,7 @@ You can also use Conda to install the same packages:
 
 Once you have these libraries, you can save the contents of your  `DataFrame`  as an HTML file with  [`.to_html()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_html.html):
 
->>>
+
 
 `df = pd.DataFrame(data=data).T
 df.to_html('data.html')` 
@@ -709,9 +709,9 @@ You use parameters like these to specify different aspects of the resulting file
 
 You can create a  `DataFrame`  object from a suitable HTML file using  [`read_html()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_html.html), which will return a  `DataFrame`  instance or a list of them:
 
->>>
 
-`>>> df = pd.read_html('data.html', index_col=0, parse_dates=['IND_DAY'])` 
+
+` df = pd.read_html('data.html', index_col=0, parse_dates=['IND_DAY'])` 
 
 This is very similar to what you did when reading CSV files. You also have parameters that help you work with dates, missing values, precision, encoding, HTML parsers, and more.
 
@@ -719,18 +719,18 @@ This is very similar to what you did when reading CSV files. You also have param
 
 You’ve already learned  [how to read and write Excel files with Pandas](https://realpython.com/pandas-read-write-files/#using-pandas-to-write-and-read-excel-files). However, there are a few more options worth considering. For one, when you use  `.to_excel()`, you can specify the name of the target worksheet with the optional parameter  `sheet_name`:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df.to_excel('data.xlsx', sheet_name='COUNTRIES')` 
+
+` df = pd.DataFrame(data=data).T
+ df.to_excel('data.xlsx', sheet_name='COUNTRIES')` 
 
 Here, you create a file  `data.xlsx`  with a worksheet called  `COUNTRIES`  that stores the data. The string  `'data.xlsx'`  is the argument for the parameter  `excel_writer`  that defines the name of the Excel file or its path.
 
 The optional parameters  `startrow`  and  `startcol`  both default to  `0`  and indicate the upper left-most cell where the data should start being written:
 
->>>
 
-`>>> df.to_excel('data-shifted.xlsx', sheet_name='COUNTRIES',
+
+` df.to_excel('data-shifted.xlsx', sheet_name='COUNTRIES',
 ...             startrow=2, startcol=4)` 
 
 Here, you specify that the table should start in the third row and the fifth column. You also used zero-based indexing, so the third row is denoted by  `2`  and the fifth column by  `4`.
@@ -750,11 +750,11 @@ As you can see, the table starts in the third row  `2`  and the fifth column  `E
 
 Here’s how you would use this parameter in your code:
 
->>>
 
-`>>> df = pd.read_excel('data.xlsx', sheet_name=0, index_col=0,
+
+` df = pd.read_excel('data.xlsx', sheet_name=0, index_col=0,
 ...                    parse_dates=['IND_DAY'])
->>> df = pd.read_excel('data.xlsx', sheet_name='COUNTRIES', index_col=0,
+ df = pd.read_excel('data.xlsx', sheet_name='COUNTRIES', index_col=0,
 ...                    parse_dates=['IND_DAY'])` 
 
 Both statements above create the same  `DataFrame`  because the  `sheet_name`  parameters have the same values. In both cases,  `sheet_name=0`  and  `sheet_name='COUNTRIES'`  refer to the same worksheet. The argument  `parse_dates=['IND_DAY']`  tells Pandas to try to consider the values in this column as dates or times.
@@ -775,19 +775,19 @@ You can also install it with Conda:
 
 Once you have SQLAlchemy installed, import  `create_engine()`  and create a database engine:
 
->>>
 
-`>>> from sqlalchemy import create_engine
->>> engine = create_engine('sqlite:///data.db', echo=False)` 
+
+` from sqlalchemy import create_engine
+ engine = create_engine('sqlite:///data.db', echo=False)` 
 
 Now that you have everything set up, the next step is to create a  `DataFrame`  object. It’s convenient to specify the data types and apply  [`.to_sql()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html).
 
->>>
 
-`>>> dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
+
+` dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
 ...           'IND_DAY': 'datetime64'}
->>> df = pd.DataFrame(data=data).T.astype(dtype=dtypes)
->>> df.dtypes
+ df = pd.DataFrame(data=data).T.astype(dtype=dtypes)
+ df.dtypes
 COUNTRY            object
 POP               float64
 AREA              float64
@@ -800,9 +800,9 @@ dtype: object`
 
 Once you’ve created your  `DataFrame`, you can save it to the database with  [`.to_sql()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html):
 
->>>
 
-`>>> df.to_sql('data.db', con=engine, index_label='ID')` 
+
+` df.to_sql('data.db', con=engine, index_label='ID')` 
 
 The parameter  `con`  is used to specify the database connection or engine that you want to use. The optional parameter  `index_label`  specifies how to call the database column with the row labels. You’ll often see it take on the value  `ID`,  `Id`, or  `id`.
 
@@ -820,10 +820,10 @@ There are a few more optional parameters. For example, you can use  `schema`  to
 
 You can load the data from the database with  [`read_sql()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html):
 
->>>
 
-`>>> df = pd.read_sql('data.db', con=engine, index_col='ID')
->>> df
+
+` df = pd.read_sql('data.db', con=engine, index_col='ID')
+ df
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 ID
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
@@ -849,10 +849,10 @@ KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16`
 
 The parameter  `index_col`  specifies the name of the column with the row labels. Note that this inserts an extra row after the header that starts with  `ID`. You can fix this behavior with the following line of code:
 
->>>
 
-`>>> df.index.name = None
->>> df
+
+` df.index.name = None
+ df
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -879,9 +879,9 @@ Now you have the same  `DataFrame`  object as before.
 
 Note that the continent for Russia is now  `None`  instead of  `nan`. If you want to fill the missing values with  `nan`, then you can use  [`.fillna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html):
 
->>>
 
-`>>> df.fillna(value=float('nan'), inplace=True)` 
+
+` df.fillna(value=float('nan'), inplace=True)` 
 
 `.fillna()`  replaces all missing values with whatever you pass to  `value`. Here, you passed  `float('nan')`, which says to fill all missing values with  `nan`.
 
@@ -895,21 +895,21 @@ Pickling is the act of converting Python objects into  [byte streams](https://en
 
 You can save your  `DataFrame`  in a pickle file with  [`.to_pickle()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_pickle.html):
 
->>>
 
-`>>> dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
+
+` dtypes = {'POP': 'float64', 'AREA': 'float64', 'GDP': 'float64',
 ...           'IND_DAY': 'datetime64'}
->>> df = pd.DataFrame(data=data).T.astype(dtype=dtypes)
->>> df.to_pickle('data.pickle')` 
+ df = pd.DataFrame(data=data).T.astype(dtype=dtypes)
+ df.to_pickle('data.pickle')` 
 
 Like you did with databases, it can be convenient first to specify the data types. Then, you create a file  `data.pickle`  to contain your data. You could also pass an integer value to the optional parameter  `protocol`, which specifies the  [protocol](https://docs.python.org/3/library/pickle.html#module-interface)  of the pickler.
 
 You can get the data from a pickle file with  [`read_pickle()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_pickle.html):
 
->>>
 
-`>>> df = pd.read_pickle('data.pickle')
->>> df
+
+` df = pd.read_pickle('data.pickle')
+ df
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -934,9 +934,9 @@ KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16`
 
 `read_pickle()`  returns the  `DataFrame`  with the stored data. You can also check the data types:
 
->>>
 
-`>>> df.dtypes
+
+` df.dtypes
 COUNTRY            object
 POP               float64
 AREA              float64
@@ -972,20 +972,20 @@ You can create an  [archive file](https://en.wikipedia.org/wiki/Archive_file)  l
 
 Pandas can deduce the compression type by itself:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df.to_csv('data.csv.zip')` 
+
+` df = pd.DataFrame(data=data).T
+ df.to_csv('data.csv.zip')` 
 
 Here, you create a compressed  `.csv`  file as an  [archive](https://realpython.com/working-with-files-in-python/#archiving). The size of the regular  `.csv`  file is 1048 bytes, while the compressed file only has 766 bytes.
 
 You can open this compressed file as usual with the Pandas  `read_csv()`  function:
 
->>>
 
-`>>> df = pd.read_csv('data.csv.zip', index_col=0,
+
+` df = pd.read_csv('data.csv.zip', index_col=0,
 ...                  parse_dates=['IND_DAY'])
->>> df
+ df
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
 IND       India  1351.16   3287.26   2575.67       Asia 1947-08-15
@@ -1023,16 +1023,16 @@ The default value  `compression='infer'`  indicates that Pandas should deduce th
 
 Here’s how you would compress a pickle file:
 
->>>
 
-`>>> df = pd.DataFrame(data=data).T
->>> df.to_pickle('data.pickle.compress', compression='gzip')` 
+
+` df = pd.DataFrame(data=data).T
+ df.to_pickle('data.pickle.compress', compression='gzip')` 
 
 You should get the file  `data.pickle.compress`  that you can later decompress and read:
 
->>>
 
-`>>> df = pd.read_pickle('data.pickle.compress', compression='gzip')` 
+
+` df = pd.read_pickle('data.pickle.compress', compression='gzip')` 
 
 `df`  again corresponds to the  `DataFrame`  with the same data as before.
 
@@ -1042,10 +1042,10 @@ You can give the other compression methods a try, as well. If you’re using pic
 
 The Pandas  `read_csv()`  and  `read_excel()`  functions have the optional parameter  `usecols`  that you can use to specify the columns you want to load from the file. You can pass the list of column names as the corresponding argument:
 
->>>
 
-`>>> df = pd.read_csv('data.csv', usecols=['COUNTRY', 'AREA'])
->>> df
+
+` df = pd.read_csv('data.csv', usecols=['COUNTRY', 'AREA'])
+ df
  COUNTRY      AREA
 0        China   9596.96
 1        India   3287.26
@@ -1072,10 +1072,10 @@ Now you have a  `DataFrame`  that contains less data than before. Here, there ar
 
 Instead of the column names, you can also pass their indices:
 
->>>
 
-`>>> df = pd.read_csv('data.csv',index_col=0, usecols=[0, 1, 3])
->>> df
+
+` df = pd.read_csv('data.csv',index_col=0, usecols=[0, 1, 3])
+ df
  COUNTRY      AREA
 CHN       China   9596.96
 IND       India   3287.26
@@ -1110,12 +1110,12 @@ You can see the following columns:
 
 Simlarly,  `read_sql()`  has the optional parameter  `columns`  that takes a list of column names to read:
 
->>>
 
-`>>> df = pd.read_sql('data.db', con=engine, index_col='ID',
+
+` df = pd.read_sql('data.db', con=engine, index_col='ID',
 ...                  columns=['COUNTRY', 'AREA'])
->>> df.index.name = None
->>> df
+ df.index.name = None
+ df
  COUNTRY      AREA
 CHN       China   9596.96
 IND       India   3287.26
@@ -1150,10 +1150,12 @@ When you test an algorithm for data processing or machine learning, you often do
 
 Here’s how you would skip rows with odd zero-based indices, keeping the even ones:
 
->>>
 
-`>>> df = pd.read_csv('data.csv', index_col=0, skiprows=range(1, 20, 2))
->>> df
+```py
+df = pd.read_csv('data.csv', index_col=0, skiprows=range(1, 20, 2))
+df
+ ```
+ ```
  COUNTRY      POP     AREA      GDP       CONT     IND_DAY
 IND       India  1351.16  3287.26  2575.67       Asia  1947-08-15
 IDN   Indonesia   268.07  1910.93  1015.54       Asia  1945-08-17
@@ -1165,7 +1167,7 @@ GBR          UK    66.44   242.50  2631.23     Europe         NaN
 ARG   Argentina    44.94  2780.40   637.49  S.America  1816-07-09
 CAN      Canada    37.59  9984.67  1647.12  N.America  1867-07-01
 KAZ  Kazakhstan    18.53  2724.90   159.41       Asia  1991-12-16` 
-
+```
 In this example,  `skiprows`  is  `range(1, 20, 2)`  and corresponds to the values  `1`,  `3`, …,  `19`. The instances of the Python built-in class  [`range`](https://docs.python.org/3/library/stdtypes.html#range)  behave like sequences. The first row of the file  `data.csv`  is the header row. It has the index  `0`, so Pandas loads it in. The second row with index  `1`  corresponds to the label  `CHN`, and Pandas skips it. The third row with the index  `2`  and label  `IND`  is loaded, and so on.
 
 If you want to choose rows randomly, then  `skiprows`  can be a list or NumPy array with  [pseudo-random](https://realpython.com/python-random/)  numbers, obtained either with  [pure Python](https://docs.python.org/3/library/random.html)  or with  [NumPy](https://docs.scipy.org/doc/numpy/reference/random/index.html).
@@ -1174,10 +1176,12 @@ If you want to choose rows randomly, then  `skiprows`  can be a list or NumPy ar
 
 If you’re okay with less precise data types, then you can potentially save a significant amount of memory! First, get the data types with  `.dtypes`  again:
 
->>>
 
-`>>> df = pd.read_csv('data.csv', index_col=0, parse_dates=['IND_DAY'])
->>> df.dtypes
+```py
+df = pd.read_csv('data.csv', index_col=0, parse_dates=['IND_DAY'])
+df.dtypes
+```
+```
 COUNTRY            object
 POP               float64
 AREA              float64
@@ -1185,12 +1189,12 @@ GDP               float64
 CONT               object
 IND_DAY    datetime64[ns]
 dtype: object` 
-
+```
 The columns with the floating-point numbers are 64-bit floats. Each number of this type  `float64`  consumes 64 bits or 8 bytes. Each column has 20 numbers and requires 160 bytes. You can verify this with  [`.memory_usage()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.memory_usage.html):
 
->>>
 
-`>>> df.memory_usage()
+
+` df.memory_usage()
 Index      160
 COUNTRY    160
 POP        160
@@ -1202,37 +1206,37 @@ dtype: int64`
 
 `.memory_usage()`  returns an instance of  `Series`  with the memory usage of each column in bytes. You can conveniently combine it with  `.loc[]`  and  [`.sum()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.sum.html)  to get the memory for a group of columns:
 
->>>
 
-`>>> df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
+
+` df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
 480` 
 
 This example shows how you can combine the numeric columns  `'POP'`,  `'AREA'`, and  `'GDP'`  to get their total memory requirement. The argument  `index=False`  excludes data for row labels from the resulting  `Series`  object. For these three columns, you’ll need 480 bytes.
 
 You can also extract the data values in the form of a NumPy array with  [`.to_numpy()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  or  [`.values`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html). Then, use the  [`.nbytes`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nbytes.html)  attribute to get the total bytes consumed by the items of the array:
 
->>>
 
-`>>> df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
+
+` df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
 480` 
 
 The result is the same 480 bytes. So, how do you save memory?
 
 In this case, you can specify that your numeric columns  `'POP'`,  `'AREA'`, and  `'GDP'`  should have the type  `float32`. Use the optional parameter  `dtype`  to do this:
 
->>>
 
-`>>> dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
->>> df = pd.read_csv('data.csv', index_col=0, dtype=dtypes,
+
+` dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
+ df = pd.read_csv('data.csv', index_col=0, dtype=dtypes,
 ...                  parse_dates=['IND_DAY'])` 
 
 The dictionary  `dtypes`  specifies the desired data types for each column. It’s passed to the Pandas  `read_csv()`  function as the argument that corresponds to the parameter  `dtype`.
 
 Now you can verify that each numeric column needs 80 bytes, or 4 bytes per item:
 
->>>
 
-`>>> df.dtypes
+
+` df.dtypes
 COUNTRY            object
 POP               float32
 AREA              float32
@@ -1240,7 +1244,7 @@ GDP               float32
 CONT               object
 IND_DAY    datetime64[ns]
 dtype: object
->>> df.memory_usage()
+ df.memory_usage()
 Index      160
 COUNTRY    160
 POP         80
@@ -1249,9 +1253,9 @@ GDP         80
 CONT       160
 IND_DAY    160
 dtype: int64
->>> df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
+ df.loc[:, ['POP', 'AREA', 'GDP']].memory_usage(index=False).sum()
 240
->>> df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
+ df.loc[:, ['POP', 'AREA', 'GDP']].to_numpy().nbytes
 240` 
 
 Each value is a floating-point number of 32 bits or 4 bytes. The three numeric columns contain 20 items each. In total, you’ll need 240 bytes of memory when you work with the type  `float32`. This is half the size of the 480 bytes you’d need to work with  `float64`.
@@ -1262,21 +1266,21 @@ In addition to saving memory, you can significantly reduce the time required to 
 
 Another way to deal with very large datasets is to split the data into smaller  **chunks**  and process one chunk at a time. If you use  `read_csv()`,  `read_json()`  or  `read_sql()`, then you can specify the optional parameter  `chunksize`:
 
->>>
 
-`>>> data_chunk = pd.read_csv('data.csv', index_col=0, chunksize=8)
->>> type(data_chunk)
+
+` data_chunk = pd.read_csv('data.csv', index_col=0, chunksize=8)
+ type(data_chunk)
 <class 'pandas.io.parsers.TextFileReader'>
->>> hasattr(data_chunk, '__iter__')
+ hasattr(data_chunk, '__iter__')
 True
->>> hasattr(data_chunk, '__next__')
+ hasattr(data_chunk, '__next__')
 True` 
 
 `chunksize`  defaults to  `None`  and can take on an integer value that indicates the number of items in a single chunk. When  `chunksize`  is an integer,  `read_csv()`  returns an iterable that you can use in a  [`for`  loop](https://realpython.com/courses/python-for-loop/)  to get and process only a fragment of the dataset in each iteration:
 
->>>
 
-`>>> for df_chunk in pd.read_csv('data.csv', index_col=0, chunksize=8):
+
+` for df_chunk in pd.read_csv('data.csv', index_col=0, chunksize=8):
 ...     print(df_chunk, end='\n\n')
 ...     print('memory:', df_chunk.memory_usage().sum(), 'bytes',
 ...           end='\n\n\n')
@@ -1340,6 +1344,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDM2NTY5LDc2OTg3NTA5NywzNTg0MD
-YxMTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MjcyNTEyOTQsNzY5ODc1MDk3LDM1OD
+QwNjExMl19
 -->
