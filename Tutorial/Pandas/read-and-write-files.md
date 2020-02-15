@@ -1,6 +1,6 @@
 ---
 bookFlatSection: true
-title: Web Scraping NBA Stats
+title: Read and Write Files
 bookToc: true
 
 ---
@@ -1375,6 +1375,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NzU1NTIyLC05ODU1NTQwMTcsNzY5OD
-c1MDk3LDM1ODQwNjExMl19
+eyJoaXN0b3J5IjpbMTc5ODA3MzIsLTk4NTU1NDAxNyw3Njk4Nz
+UwOTcsMzU4NDA2MTEyXX0=
 -->
