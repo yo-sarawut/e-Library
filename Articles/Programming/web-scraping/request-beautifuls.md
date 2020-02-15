@@ -3,7 +3,7 @@
 Ultimate Guide to Web Scraping with Python Part 1: Requests and BeautifulSoup
 ===  
   
-  
+![](https://miro.medium.com/max/900/1*DNTLycFqmcfwB5iNMCvPFg.jpeg)  
   
 
 After the 2016 election I became much more interested in media bias and the manipulation of individuals through advertising. This series will be a walkthrough of a web scraping project that monitors political news from both left and right wing media outlets and performs an analysis on the rhetoric being used, the ads being displayed, and the sentiment of certain topics.
@@ -1036,6 +1036,6 @@ These sorts of things will be addressed later when we build more complex scraper
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ1MDQzMjksNjk3MjA1NzMsNzM3MT
-UzNDAwXX0=
+eyJoaXN0b3J5IjpbMTUxNDgzMDQxNywtMTEyNDUwNDMyOSw2OT
+cyMDU3Myw3MzcxNTM0MDBdfQ==
 -->
