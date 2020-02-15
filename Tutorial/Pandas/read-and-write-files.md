@@ -1292,12 +1292,13 @@ hasattr(data_chunk, '__next__')
 `chunksize`  defaults to  `None`  and can take on an integer value that indicates the number of items in a single chunk. When  `chunksize`  is an integer,  `read_csv()`  returns an iterable that you can use in a  [`for`  loop](https://realpython.com/courses/python-for-loop/)  to get and process only a fragment of the dataset in each iteration:
 
 
-
-` for df_chunk in pd.read_csv('data.csv', index_col=0, chunksize=8):
+```py
+for df_chunk in pd.read_csv('data.csv', index_col=0, chunksize=8):
 ...     print(df_chunk, end='\n\n')
 ...     print('memory:', df_chunk.memory_usage().sum(), 'bytes',
 ...           end='\n\n\n')
-...
+```
+```
  COUNTRY      POP     AREA       GDP       CONT     IND_DAY
 CHN       China  1398.72  9596.96  12234.78       Asia         NaN
 IND       India  1351.16  3287.26   2575.67       Asia  1947-08-15
@@ -1309,7 +1310,8 @@ NGA     Nigeria   200.96   923.77    375.77     Africa  1960-10-01
 BGD  Bangladesh   167.09   147.57    245.63       Asia  1971-03-26
 
 memory: 448 bytes
-
+```
+```
  COUNTRY     POP      AREA      GDP       CONT     IND_DAY
 RUS     Russia  146.79  17098.25  1530.75        NaN  1992-06-12
 MEX     Mexico  126.58   1964.38  1158.23  N.America  1810-09-16
@@ -1329,7 +1331,7 @@ AUS   Australia  25.47  7692.02  1408.68    Oceania         NaN
 KAZ  Kazakhstan  18.53  2724.90   159.41       Asia  1991-12-16
 
 memory: 224 bytes` 
-
+```
 In this example, the  `chunksize`  is  `8`. The first iteration of the  `for`  loop returns a  `DataFrame`  with the first eight rows of the dataset only. The second iteration returns another  `DataFrame`  with the next eight rows. The third and last iteration returns the remaining four rows.
 
 **Note:**  You can also pass  `iterator=True`  to force the Pandas  `read_csv()`  function to return an iterator object instead of a  `DataFrame`  object.
@@ -1357,6 +1359,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Nzg0NTA4MCw3Njk4NzUwOTcsMzU4ND
+eyJoaXN0b3J5IjpbLTk4NTU1NDAxNyw3Njk4NzUwOTcsMzU4ND
 A2MTEyXX0=
 -->
