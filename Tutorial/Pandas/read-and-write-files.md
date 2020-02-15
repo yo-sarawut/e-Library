@@ -445,11 +445,11 @@ KAZ  Kazakhstan    18.53   2724.90    159.41       Asia  1991-12-16`
 Here, you’ve marked the string  `'(missing)'`  as a new missing data label, and Pandas replaced it with  `nan`  when it read the file.
 
 When you load data from a file, Pandas assigns the  [data types](https://docs.scipy.org/doc/numpy/user/basics.types.html)  to the values of each column by default. You can check these types with  [`.dtypes`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dtypes.html):
-
->>>
-
-`>>> df = pd.read_csv('data.csv', index_col=0)
->>> df.dtypes
+```py
+df = pd.read_csv('data.csv', index_col=0)
+df.dtypes
+```
+```
 COUNTRY     object
 POP        float64
 AREA       float64
@@ -457,17 +457,17 @@ GDP        float64
 CONT        object
 IND_DAY     object
 dtype: object` 
-
+```
 The columns with strings and dates (`'COUNTRY'`,  `'CONT'`, and  `'IND_DAY'`) have the data type  `object`. Meanwhile, the numeric columns contain 64-bit floating-point numbers (`float64`).
 
 You can use the parameter  `dtype`  to specify the desired data types and  `parse_dates`  to force use of  [datetimes](https://docs.scipy.org/doc/numpy/reference/arrays.datetime.html):
-
->>>
-
-`>>> dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
->>> df = pd.read_csv('data.csv', index_col=0, dtype=dtypes,
-...                  parse_dates=['IND_DAY'])
->>> df.dtypes
+```py
+dtypes = {'POP': 'float32', 'AREA': 'float32', 'GDP': 'float32'}
+df = pd.read_csv('data.csv', index_col=0, dtype=dtypes,
+                  parse_dates=['IND_DAY'])
+df.dtypes
+```
+```
 COUNTRY            object
 POP               float32
 AREA              float32
@@ -475,7 +475,11 @@ GDP               float32
 CONT               object
 IND_DAY    datetime64[ns]
 dtype: object
->>> df['IND_DAY']
+```
+```py
+df['IND_DAY']
+```
+```py
 CHN          NaT
 IND   1947-08-15
 USA   1776-07-04
@@ -1336,5 +1340,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5ODc1MDk3LDM1ODQwNjExMl19
+eyJoaXN0b3J5IjpbLTY0NDM2NTY5LDc2OTg3NTA5NywzNTg0MD
+YxMTJdfQ==
 -->
