@@ -821,9 +821,11 @@ There are a few more optional parameters. For example, you can use  `schema`  to
 You can load the data from the database with  [`read_sql()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html):
 
 
-
-` df = pd.read_sql('data.db', con=engine, index_col='ID')
- df
+```py
+df = pd.read_sql('data.db', con=engine, index_col='ID')
+df
+```
+```
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 ID
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
@@ -846,12 +848,12 @@ DZA     Algeria    43.38   2381.74    167.56     Africa 1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America 1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania        NaT
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia 1991-12-16` 
-
+```
 The parameter  `index_col`  specifies the name of the column with the row labels. Note that this inserts an extra row after the header that starts with  `ID`. You can fix this behavior with the following line of code:
 
 
-
-` df.index.name = None
+```py
+df.index.name = None
  df
  COUNTRY      POP      AREA       GDP       CONT    IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia        NaT
@@ -1359,6 +1361,6 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTU1NDAxNyw3Njk4NzUwOTcsMzU4ND
-A2MTEyXX0=
+eyJoaXN0b3J5IjpbLTEyMDE1OTc3NjksLTk4NTU1NDAxNyw3Nj
+k4NzUwOTcsMzU4NDA2MTEyXX0=
 -->
