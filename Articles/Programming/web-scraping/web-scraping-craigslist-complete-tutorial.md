@@ -1,8 +1,9 @@
-
+---
 bookFlatSection: true
-title: Web Scraping Using BeautifulSoup
+title: Web Scraping Craigslist
 bookToc: true
 
+---
 Web Scraping Craigslist: A Complete Tutorial
 ===
 
@@ -411,6 +412,6 @@ Well, there you have it! Take a look at this the next time you’re in the marke
 
 >  [Source :](https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY3OTg0NjIsNzIyMDkwNDU5LDg4NT
-gxMjI4M119
+eyJoaXN0b3J5IjpbLTg4NDUxNDQ3OSw3MjIwOTA0NTksODg1OD
+EyMjgzXX0=
 -->
