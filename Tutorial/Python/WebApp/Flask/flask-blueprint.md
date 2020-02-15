@@ -34,10 +34,10 @@ The above command installs Flask version  `1.1.1`. This is the version you’ll 
 
 After you install Flask, you’re ready to start implementing its functionality. Since Flask doesn’t impose any restrictions on project structure, you can organize your project’s code as you want. For your first application, you can use a very straightforward layout, as shown below. A single file will contain all the application logic:
 ```
-`app/
+app/
 |
-└── app.py` 
-
+└── app.py
+```
 The file  `app.py`  will contain the definition of the application and its views.
 
 When you create a Flask application, you start by creating a  `Flask`  object that represents your application, and then you associate  **views**  to  **routes**. Flask takes care of dispatching incoming requests to the correct view based on the request URL and the routes you’ve defined.
@@ -57,9 +57,9 @@ def index():
 This code creates the object  `app`, which belongs to the  `Flask`  class. The view function  `index()`  is linked to the route  `/`  using the  `app.route`  decorator. To learn more about decorators, check out  [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)  and  [Python Decorators 101](https://realpython.com/courses/python-decorators-101/).
 
 You can run the application with the following command:
-
-`$ flask run` 
-
+```py
+$ flask run
+```
 By default, Flask will run the application you defined in  `app.py`  on port 5000. While the application is running, go to  `http://localhost:5000`  using your web browser. You’ll see a page showing the message,  `This is an example app`.
 
 The chosen project layout is great for very small applications, but it doesn’t scale well. As your code grows, it can become harder for you to maintain everything in a single file. So, when your application grows in size or complexity, you may want to  **structure**  your code in a different way to keep it maintainable and clear to understand. Throughout this tutorial, you’ll learn how to use a Flask Blueprint to achieve this.
@@ -69,43 +69,44 @@ The chosen project layout is great for very small applications, but it doesn’t
 Flask Blueprints encapsulate  **functionality**, such as views, templates, and other resources. To get a taste for how a Flask Blueprint would work, you can refactor the previous application by moving the  `index`  view into a Flask Blueprint. To do so, you have to create a Flask Blueprint that contains the  `index`  view and then use it in the application.
 
 This is what the file structure looks like for this new application:
-
-`app/
+```
+app/
 |
 ├── app.py
-└── example_blueprint.py` 
-
+└── example_blueprint.py 
+```
 `example_blueprint.py`  will contain the Flask Blueprint implementation. You’ll then modify  `app.py`  to use it.
 
 The following code block shows how you can implement this Flask Blueprint in  `example_blueprint.py`. It contains a view at the route  `/`  that returns the text  `This is an example app`:
-
-`from flask import Blueprint
+```py
+from flask import Blueprint
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 
 @example_blueprint.route('/')
 def index():
     return "This is an example app"` 
-
+```
 In the above code, you can see the steps common to most Flask Blueprint definitions:
 
 1.  **Create**  a  `Blueprint`  object called  `example_blueprint`.
 2.  **Add**  views to  `example_blueprint`  using the  `route`  decorator.
 
 The following code block shows how your application imports and uses the Flask Blueprint:
-
-`from flask import Flask
+```py
+from flask import Flask
 from example_blueprint import example_blueprint
 
 app = Flask(__name__)
 app.register_blueprint(example_blueprint)` 
+```
 
 To use any Flask Blueprint, you have to import it and then  **register**  it in the application using  `register_blueprint()`. When a Flask Blueprint is registered, the application is extended with its contents.
 
 You can run the application with the following command:
-
-`$ flask run` 
-
+```py
+$ flask run
+```
 While the application is running, go to  `http://localhost:5000`  using your web browser. You’ll see a page showing the message,  `This is an example app`.
 
 ## How Flask Blueprints Work
@@ -445,5 +446,5 @@ You can use what you’ve learned in this tutorial to start organizing your appl
 
 > [Source : ](https://realpython.com/flask-blueprint/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODkzODIzOV19
+eyJoaXN0b3J5IjpbMTExOTQwNjAyM119
 -->
