@@ -28,7 +28,21 @@ Now we’re ready to become Jupyter wizards!
 
 Every user will benefit at least from time-to-time from the ability to interact directly with the operating system from within their notebook. Any line in a code cell that you begin with an exclamation mark will be executed as a shell command. This can be useful when dealing with datasets or other files, and managing your Python packages. As a simple illustration:
 
+```py
+!echo Hello World!!
+pip freeze | grep pandas
+```
+Hello World!
+pandas==0.23.4
+It is also possible to use Python variables in your shell commands by prepending a $ symbol consistent with bash style variable names.
+
+
+message = 'This is nifty'
+!echo $message
+
+This is nifty
+
 > [Source : ](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MDM0NzE1XX0=
+eyJoaXN0b3J5IjpbODE4OTEwOTMwXX0=
 -->
