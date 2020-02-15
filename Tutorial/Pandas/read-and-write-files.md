@@ -415,9 +415,11 @@ When Pandas reads files, it considers the empty string (`''`) and a few others a
 
 If you don’t want this behavior, then you can pass  `keep_default_na=False`  to the Pandas  `read_csv()`  function. To specify other labels for missing values, use the parameter  `na_values`:
 
->>>
 
-`>>> pd.read_csv('new-data.csv', index_col=0, na_values='(missing)')
+```py
+pd.read_csv('new-data.csv', index_col=0, na_values='(missing)')
+```
+```
  COUNTRY      POP      AREA       GDP       CONT     IND_DAY
 CHN       China  1398.72   9596.96  12234.78       Asia         NaN
 IND       India  1351.16   3287.26   2575.67       Asia  1947-08-15
@@ -439,7 +441,7 @@ DZA     Algeria    43.38   2381.74    167.56     Africa  1962-07-05
 CAN      Canada    37.59   9984.67   1647.12  N.America  1867-07-01
 AUS   Australia    25.47   7692.02   1408.68    Oceania         NaN
 KAZ  Kazakhstan    18.53   2724.90    159.41       Asia  1991-12-16` 
-
+```
 Here, you’ve marked the string  `'(missing)'`  as a new missing data label, and Pandas replaced it with  `nan`  when it read the file.
 
 When you load data from a file, Pandas assigns the  [data types](https://docs.scipy.org/doc/numpy/user/basics.types.html)  to the values of each column by default. You can check these types with  [`.dtypes`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dtypes.html):
@@ -1334,5 +1336,5 @@ You’ve mastered a significant step in the machine learning and data science pr
 
 > [Source : ](https://realpython.com/pandas-read-write-files/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDM0OTIwNCwzNTg0MDYxMTJdfQ==
+eyJoaXN0b3J5IjpbNzY5ODc1MDk3LDM1ODQwNjExMl19
 -->
