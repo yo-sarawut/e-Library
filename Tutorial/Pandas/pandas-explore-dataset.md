@@ -490,35 +490,33 @@ It’s easier to keep in mind the distinction between  `.loc`  and  `.iloc`  tha
 **Note:**  In addition to being confusing for  `Series`  with numeric labels, the Python indexing operator has some  **performance drawbacks**. It’s perfectly okay to use it in interactive sessions for ad-hoc analysis, but for production code, the  `.loc`  and  `.iloc`  data access methods are preferable. For further details, check out the Pandas User Guide section on  [indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html).
 
 `.loc`  and  `.iloc`  also support the features you would expect from indexing operators, like slicing. However, these data access methods have an important difference. While  `.iloc`  excludes the closing element,  `.loc`  includes it. Take a look at this code block:
-
+```py
 # Return the elements with the implicit index: 1, 2
->>> colors.iloc[1:3]
-2    purple
-3      blue
-dtype: object` 
+colors.iloc[1:3]
 
+# 2    purple
+# 3      blue
+dtype: object` 
+```
 If you compare this code with the image above, then you can see that  `colors.iloc[1:3]`  returns the elements with the  **positional indices**  of  `1`  and  `2`. The closing item  `"green"`  with a positional index of  `3`  is excluded.
 
 On the other hand,  `.loc`  includes the closing element:
-
->>>
-
-`>>> # Return the elements with the explicit index between 3 and 8
+```py
+# Return the elements with the explicit index between 3 and 8
 >>> colors.loc[3:8]
+
 3      blue
 5     green
 8    yellow
 dtype: object` 
-
+```
 This code block says to return all elements with a  **label index**  between  `3`  and  `8`. Here, the closing item  `"yellow"`  has a label index of  `8`  and is included in the output.
 
 You can also pass a negative positional index to  `.iloc`:
-
->>>
-
-`>>> colors.iloc[-2]
-'green'` 
-
+```py
+colors.iloc[-2]
+# 'green'` 
+```
 You start from the end of the  `Series`  and return the second element.
 
 **Note:**  There used to be an  `.ix`  indexer, which tried to guess whether it should apply positional or label indexing depending on the data type of the index. Because it caused a lot of confusion, it has been deprecated since Pandas version 0.20.0.
@@ -539,10 +537,8 @@ Since a  `DataFrame`  consists of  `Series`  objects, you can use the very same 
 ### Using the Indexing Operator
 
 If you think of a  `DataFrame`  as a dictionary whose values are  `Series`, then it makes sense that you can access its columns with the indexing operator:
-
->>>
-
-`>>> city_data["revenue"]
+```py
+>>> city_data["revenue"]
 Amsterdam    4200
 Tokyo        6500
 Toronto      8000
@@ -1120,5 +1116,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ3ODE5NTksMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbOTkwNzg2NjI0LDEyMDUwODI2NTRdfQ==
 -->
