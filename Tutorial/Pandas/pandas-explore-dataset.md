@@ -820,36 +820,33 @@ df.info()
 ```
 You’ll see the same output as before:
 
-[![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)](https://files.realpython.com/media/info.80fdd50f4ff7.png)
-
+![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)
 Ten of your columns have the data type  `object`. Most of these  `object`  columns contain arbitrary text, but there are also some candidates for data type  **conversion**. For example, take a look at the  `date_game`  column:
-
->>>
-
-`>>> df["date_game"] = pd.to_datetime(df["date_game"])` 
-
+```py
+df["date_game"] = pd.to_datetime(df["date_game"])
+```
 Here, you use  `.to_datetime()`  to specify all game dates as  `datetime`  objects.
 
 Other columns contain text that are a bit more structured. The  `game_location`  column can have only three different values:
 
->>>
-
-`>>> df["game_location"].nunique()
+```py
+>>> df["game_location"].nunique()
 3
 >>> df["game_location"].value_counts()
 A    63138
 H    63138
 N       38
-Name: game_location, dtype: int64` 
+Name: game_location, dtype: int64
+```
 
 Which data type would you use in a  [relational database](https://realpython.com/data-engineer-interview-questions-python/#questions-on-relational-databases)  for such a column? You would probably not use a  `varchar`  type, but rather an  `enum`. Pandas provides the  `categorical`  data type for the same purpose:
 
->>>
-
-`>>> df["game_location"] = pd.Categorical(df["game_location"])
+```py
+>>> df["game_location"] = pd.Categorical(df["game_location"])
 >>> df["game_location"].dtype
-CategoricalDtype(categories=['A', 'H', 'N'], ordered=False)` 
 
+# CategoricalDtype(categories=['A', 'H', 'N'], ordered=False)` 
+```
 **`categorical`  data**  has a few advantages over unstructured text. When you specify the  `categorical`  data type, you make validation easier and save a ton of memory, as Pandas will only use the unique values internally. The higher the ratio of total values to unique values, the more space savings you’ll get.
 
 Run  `df.info()`  again. You should see that changing the  `game_location`  data type from  `object`  to  `categorical`  has decreased the memory usage.
@@ -1110,5 +1107,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTE2OTU2LDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbMTMxNjg5OTI4MSwxMjA1MDgyNjU0XX0=
 -->
