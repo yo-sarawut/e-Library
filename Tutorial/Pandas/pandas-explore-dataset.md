@@ -556,28 +556,30 @@ If the column name is a string, then you can use attribute-style accessing with 
 ```py
 city_data.revenue
 
-Amsterdam    4200
-Tokyo        6500
-Toronto      8000
-Name: revenue, dtype: int64` 
+# Amsterdam    4200
+# Tokyo        6500
+ # Toronto      8000
+# Name: revenue, dtype: int64` 
 ```
 `city_data["revenue"]`  and  `city_data.revenue`  return the same output.
 
 There’s one situation where accessing  `DataFrame`  elements with dot notation may not work or may lead to surprises. This is when a column name coincides with a  `DataFrame`  attribute or method name:
-
->>>
-
-`>>> toys = pd.DataFrame([
+```py
+toys = pd.DataFrame([
 ...     {"name": "ball", "shape": "sphere"},
 ...     {"name": "Rubik's cube", "shape": "cube"}
 ... ])
 >>> toys["shape"]
+```
+```
 0    sphere
 1      cube
 Name: shape, dtype: object
+```
+```py
 >>> toys.shape
 (2, 2)` 
-
+```
 The indexing operation  `toys["shape"]`  returns the correct data, but the attribute-style operation  `toys.shape`  still returns the shape of the  `DataFrame`. You should only use attribute-style accessing in interactive sessions or for read operations. You shouldn’t use it for production code or for manipulating data (such as defining new columns).
 
 ### Using  `.loc`  and  `.iloc`
@@ -610,14 +612,13 @@ Alright, you’ve used  `.loc`  and  `.iloc`  on small data structures. Now, it�
 Solution: NBA accessing rowsShow/Hide
 
 For a  `DataFrame`, the data access methods  `.loc`  and  `.iloc`  also accept a second parameter. While the first parameter selects rows based on the indices, the second parameter selects the columns. You can use these parameters together to select a  **subset**  of rows and columns from your  `DataFrame`:
-
->>>
-
-`>>> city_data.loc["Amsterdam": "Tokyo", "revenue"]
+```py
+city_data.loc["Amsterdam": "Tokyo", "revenue"]#
+# output
 Amsterdam    4200
 Tokyo        6500
 Name: revenue, dtype: int64` 
-
+```
 Note that you separate the parameters with a comma (`,`). The first parameter,  `"Amsterdam" : "Tokyo,"`  says to select all rows between those two labels. The second parameter comes after the comma and says to select the  `"revenue"`  column.
 
 It’s time to see the same construct in action with the bigger  `nba`  dataset. Select all games between the labels  `5555`  and  `5559`. You’re only interested in the names of the teams and the scores, so select those elements as well. Expand the code block below to see a solution:
@@ -1119,5 +1120,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI1Mzk4MjEsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbMTU0MDMxODEyNSwxMjA1MDgyNjU0XX0=
 -->
