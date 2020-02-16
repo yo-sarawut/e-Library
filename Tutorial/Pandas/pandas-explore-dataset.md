@@ -1001,37 +1001,35 @@ Barcelona   3400.0             2.0    Spain      0.0
 Rotterdam      NaN             NaN  Holland      0.0` 
 ``````
 Note how Pandas added  `NaN`  for the missing values. If you want to combine only the cities that appear in both  `DataFrame`  objects, then you can set the  `join`  parameter to  `inner`:
-
->>>
-
-`>>> pd.concat([all_city_data, city_countries], axis=1, join="inner")
- revenue  employee_count  country  capital
+```py
+pd.concat([all_city_data, city_countries], axis=1, join="inner")
+```
+```
+revenue  employee_count  country  capital
 Amsterdam     4200             5.0  Holland        1
 Tokyo         6500             8.0    Japan        1
 Toronto       8000             NaN   Canada        0
-Barcelona     3400             2.0    Spain        0` 
-
+Barcelona     3400             2.0    Spain        0
+```
 While it’s most straightforward to combine data based on the index, it’s not the only possibility. You can use  `.merge()`  to implement a join operation similar to the one from SQL:
-
->>>
-
-`>>> countries = pd.DataFrame({
+```py
+countries = pd.DataFrame({
 ...     "population_millions": [17, 127, 37],
 ...     "continent": ["Europe", "Asia", "North America"]
 ... }, index= ["Holland", "Japan", "Canada"])
->>> pd.merge(cities, countries, left_on="country", right_index=True)` 
 
+pd.merge(cities, countries, left_on="country", right_index=True) 
+```
 Here, you pass the parameter  `left_on="country"`  to  `.merge()`  to indicate what column you want to join on. The result is a bigger  `DataFrame`  that contains not only city data, but also the population and continent of the respective countries:
 
-[![Pandas merge](https://files.realpython.com/media/merge.2725ee7f0ea9.png)](https://files.realpython.com/media/merge.2725ee7f0ea9.png)
+![Pandas merge](https://files.realpython.com/media/merge.2725ee7f0ea9.png)
 
 Note that the result contains only the cities where the country is known and appears in the joined  `DataFrame`.
 
 `.merge()`  performs an inner join by default. If you want to include all cities in the result, then you need to provide the  `how`  parameter:
 
->>>
-
-`>>> pd.merge(
+```py
+pd.merge(
 ...     cities,
 ...     countries,
 ...     left_on="country",
@@ -1105,5 +1103,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1NzAzOCwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTE5Nzc1MDk5MzQsMTIwNTA4MjY1NF19
 -->
