@@ -63,7 +63,7 @@ As you saw before, UNIX systems define the epoch as January 1, 1970. The Win32 A
 
 You can use  `time.gmtime()`  to determine your system’s epoch:
 ```py
- import time
+import time
 time.gmtime(0)
 
 ## output
@@ -266,15 +266,15 @@ In fact, Python’s  `time`  module, which is  [implemented in C](https://github
 
 Now, you can access specific elements of  `time_obj`  using the attribute’s name rather than an index:
 
->>>
+```py
+day_of_year = time_obj.tm_yday
+day_of_year
+# 57
 
-`>>> day_of_year = time_obj.tm_yday
->>> day_of_year
-57
->>> day_of_month = time_obj.tm_mday
->>> day_of_month
-26` 
-
+day_of_month = time_obj.tm_mday
+day_of_month
+# 26 
+```
 Beyond the readability and usability of  `struct_time`, it is also important to know because it is the return type of many of the functions in the Python  `time`  module.
 
 ## Converting Python Time in Seconds to an Object
@@ -298,12 +298,12 @@ To convert a Python time float to a UTC-based  `struct_time`, the Python  `time`
 
 You’ve seen  `gmtime()`  used once before in this article:
 
->>>
 
-`>>> import time
->>> time.gmtime(0)
+```py
+import time
+time.gmtime(0)
 time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)` 
-
+```
 You used this call to discover your system’s epoch. Now, you have a better foundation for understanding what’s actually happening here.
 
 `gmtime()`  converts the number of elapsed seconds since the epoch to a  `struct_time`  in UTC. In this case, you’ve passed  `0`  as the number of seconds, meaning you’re trying to find the epoch, itself, in UTC.
@@ -723,5 +723,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTU1MTA2NSwtMjM0OTM4OTg4XX0=
+eyJoaXN0b3J5IjpbLTExOTAzNDk5NDcsLTIzNDkzODk4OF19
 -->
