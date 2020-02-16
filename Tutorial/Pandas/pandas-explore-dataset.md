@@ -703,29 +703,28 @@ Remember, a column of a  `DataFrame`  is actually a  `Series`  object. For this 
 points = nba["pts"]
 type(points)
 # <class 'pandas.core.series.Series'>
->>> points.sum()
-# 12976235` 
+
+points.sum()
+# 12976235
 ```
 A  `DataFrame`  can have multiple columns, which introduces new possibilities for aggregations, like  **grouping**:
+```py
+nba.groupby("fran_id", sort=False)["pts"].sum()
 
->>>
-
-`>>> nba.groupby("fran_id", sort=False)["pts"].sum()
+# output
 fran_id
 Huskies           3995
 Knicks          582497
 Stags            20398
 Falcons           3797
 Capitols         22387
-...` 
+```
 
 By default, Pandas sorts the group keys during the call to  `.groupby()`. If you don’t want to sort, then pass  `sort=False`. This parameter can lead to performance gains.
 
 You can also group by multiple columns:
-
->>>
-
-`>>> nba[
+```py
+nba[
 ...     (nba["fran_id"] == "Spurs") &
 ...     (nba["year_id"] > 2010)
 ... ].groupby(["year_id", "game_result"])["game_id"].count()
@@ -1115,5 +1114,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMTkwNzA1LDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbMTY1Mjk4MTMxLDEyMDUwODI2NTRdfQ==
 -->
