@@ -613,7 +613,8 @@ Solution: NBA accessing rowsShow/Hide
 
 For a  `DataFrame`, the data access methods  `.loc`  and  `.iloc`  also accept a second parameter. While the first parameter selects rows based on the indices, the second parameter selects the columns. You can use these parameters together to select a  **subset**  of rows and columns from your  `DataFrame`:
 ```py
-city_data.loc["Amsterdam": "Tokyo", "revenue"]#
+city_data.loc["Amsterdam": "Tokyo", "revenue"]
+
 # output
 Amsterdam    4200
 Tokyo        6500
@@ -630,38 +631,34 @@ With data access methods like  `.loc`  and  `.iloc`, you can select just the rig
 ## Querying Your Dataset
 
 You’ve seen how to access subsets of a huge dataset based on its indices. Now, you’ll select rows based on the values in your dataset’s columns to  **query**  your data. For example, you can create a new  `DataFrame`  that contains only games played after 2010:
+```py
+current_decade = nba[nba["year_id"] > 2010]
+current_decade.shape
 
->>>
-
-`>>> current_decade = nba[nba["year_id"] > 2010]
->>> current_decade.shape
-(12658, 23)` 
-
+# (12658, 23) 
+```
 You still have all 23 columns, but your new  `DataFrame`  only consists of rows where the value in the  `"year_id"`  column is greater than  `2010`.
 
 You can also select the rows where a specific field is not null:
+```py
+games_with_notes = nba[nba["notes"].notnull()]
+games_with_notes.shape
 
->>>
-
-`>>> games_with_notes = nba[nba["notes"].notnull()]
->>> games_with_notes.shape
-(5424, 23)` 
-
+# (5424, 23)
+```
 This can be helpful if you want to avoid any missing values in a column. You can also use  `.notna()`  to achieve the same goal.
 
 You can even access values of the  `object`  data type as  `str`  and perform  [string methods](https://realpython.com/courses/splitting-concatenating-and-joining-strings-python/)  on them:
-
->>>
-
-`>>> ers = nba[nba["fran_id"].str.endswith("ers")]
->>> ers.shape
-(27797, 23)` 
-
+```py
+ers = nba[nba["fran_id"].str.endswith("ers")]
+ers.shape
+# (27797, 23) 
+```
 You use  `.str.endswith()`  to filter your dataset and find all games where the home team’s name ends with  `"ers"`.
 
 You can combine multiple criteria and query your dataset as well. To do this, be sure to put each one in parentheses and use the logical  [operators](https://realpython.com/python-operators-expressions/)  `|`  and  `&`  to separate them.
 
-**Note:**  The operators  `and`,  `or`,  `&&`, and  `||`  won’t work here. If you’re curious as to why then check out the section on how the Pandas Python library uses Boolean operators in  [Python Pandas: Tricks & Features You May Not Know](https://realpython.com/python-pandas-tricks/#8-understand-how-pandas-uses-boolean-operators).
+>**Note:**  The operators  `and`,  `or`,  `&&`, and  `||`  won’t work here. If you’re curious as to why then check out the section on how the Pandas Python library uses Boolean operators in  [Python Pandas: Tricks & Features You May Not Know](https://realpython.com/python-pandas-tricks/#8-understand-how-pandas-uses-boolean-operators).
 
 Do a search for Baltimore games where both teams scored over 100 points. In order to see each game only once, you’ll need to exclude duplicates:
 
@@ -1120,5 +1117,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDMxODEyNSwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTQxMzk1Mjg0NCwxMjA1MDgyNjU0XX0=
 -->
