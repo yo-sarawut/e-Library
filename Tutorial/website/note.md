@@ -12,8 +12,9 @@ Note for Frontend
 - [tutorialrepublic.com](https://www.tutorialrepublic.com/javascript-examples.php)
 - [https://webdevtrick.com/](https://webdevtrick.com/)
 - [https://tutorialzine.com/tag/css](https://tutorialzine.com/tag/css)
+- [YouTube Tutorials + Example Source Code](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA/playlists)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NTQyOTY1LC01MTc2OTgyNCw4NzI0MD
-czNCwtMTg1OTA5NDY4NiwxOTY0NDQ4OTM0LDQ2Nzk0MTE4Niwz
-NDUwMzc1ODddfQ==
+eyJoaXN0b3J5IjpbLTQyOTg0NjI3OCwzNDY1NDI5NjUsLTUxNz
+Y5ODI0LDg3MjQwNzM0LC0xODU5MDk0Njg2LDE5NjQ0NDg5MzQs
+NDY3OTQxMTg2LDM0NTAzNzU4N119
 -->
