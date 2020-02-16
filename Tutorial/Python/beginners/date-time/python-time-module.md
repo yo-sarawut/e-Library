@@ -245,10 +245,11 @@ While the tuple provides a more manageable interface for working with Python tim
 The problem with the tuple construct is that it still looks like a bunch of numbers, even though it’s better organized than a single, seconds-based number.
 
 `struct_time`  provides a solution to this by utilizing  [`NamedTuple`](https://dbader.org/blog/writing-clean-python-with-namedtuples), from Python’s  `collections`  module, to associate the tuple’s sequence of numbers with useful identifiers:
+
 ```py
- from time import struct_time
->>> time_tuple = (2019, 2, 26, 7, 6, 55, 1, 57, 0)
->>> time_obj = struct_time(time_tuple)
+from time import struct_time
+time_tuple = (2019, 2, 26, 7, 6, 55, 1, 57, 0)
+time_obj = struct_time(time_tuple)
 time_obj
 
 ## output
@@ -722,5 +723,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjkyNzk3NCwtMjM0OTM4OTg4XX0=
+eyJoaXN0b3J5IjpbLTE4NzIyODU0NzYsLTIzNDkzODk4OF19
 -->
