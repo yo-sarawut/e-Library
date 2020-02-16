@@ -389,8 +389,8 @@ When you do this, your program will use  `templates/products/view.html`  instead
 ### Providing Functionality Other Than Views
 
 So far, you’ve only seen Blueprints that extend applications with views, but Flask Blueprints don’t have to provide just views! They can extend applications with  **templates, static files, and template filters**. For example, you could create a  **Flask Blueprint**  to provide a set of icons and use it across your applications. This would be the file structure for such a Blueprint:
-
-`app/
+```
+app/
 |
 └── icons/
     ├── static/
@@ -400,17 +400,17 @@ So far, you’ve only seen Blueprints that extend applications with views, but F
     |
     ├── __init__.py
     └── icons.py` 
-
+```
 The  `static`  folder contains the icon files and  `icons.py`  is the Flask Blueprint definition.
 
 This is how  `icons.py`  might look:
-
-`from flask import Blueprint
+```py
+from flask import Blueprint
 
 icons_bp = Blueprint('icons_bp', __name__,
     static_folder='static',
-    static_url_path='icons')` 
-
+    static_url_path='icons') 
+```
 This code defines the  `icons_bp`  Flask Blueprint that exposes the files in the static directory under the  `/icons/`  URL. Note that this Blueprint does not define any route.
 
 When you can create Blueprints that package views and other types of content, you make your code and assets more reusable across your applications. You’ll learn more about Flask Blueprint reusability in the following section.
@@ -446,5 +446,6 @@ You can use what you’ve learned in this tutorial to start organizing your appl
 
 > [Source : ](https://realpython.com/flask-blueprint/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAwNDE3NDEsMTExOTQwNjAyM119
+eyJoaXN0b3J5IjpbMTc0NjI3NzA0MCwtMTExMDA0MTc0MSwxMT
+E5NDA2MDIzXX0=
 -->
