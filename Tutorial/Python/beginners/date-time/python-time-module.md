@@ -221,16 +221,17 @@ When you represent time as a tuple, each element in your tuple corresponds to a 
 Using the methods you’ve already learned, you can represent the same Python time in two different ways:
 
 ```py
- from time import time, ctime
- t = time()
+from time import time, ctime
+t = time()
 t
-1551186415.360564
-ctime(t)
+# 1551186415.360564
 
+ctime(t)
 # 'Tue Feb 26 07:06:55 2019'
 ```
->>> time_tuple = (2019, 2, 26, 7, 6, 55, 1, 57, 0)` 
-
+```py
+time_tuple = (2019, 2, 26, 7, 6, 55, 1, 57, 0)
+```
 In this case, both  `t`  and  `time_tuple`  represent the same time, but the tuple provides a more readable interface for working with time components.
 
 **Technical Detail:**  Actually, if you look at the Python time represented by  `time_tuple`  in seconds (which you’ll see how to do later in this article), you’ll see that it resolves to  `1551186415.0`  rather than  `1551186415.360564`.
@@ -244,14 +245,15 @@ While the tuple provides a more manageable interface for working with Python tim
 The problem with the tuple construct is that it still looks like a bunch of numbers, even though it’s better organized than a single, seconds-based number.
 
 `struct_time`  provides a solution to this by utilizing  [`NamedTuple`](https://dbader.org/blog/writing-clean-python-with-namedtuples), from Python’s  `collections`  module, to associate the tuple’s sequence of numbers with useful identifiers:
-
->>>
-
-`>>> from time import struct_time
+```py
+ from time import struct_time
 >>> time_tuple = (2019, 2, 26, 7, 6, 55, 1, 57, 0)
 >>> time_obj = struct_time(time_tuple)
->>> time_obj
+time_obj
+
+## output
 time.struct_time(tm_year=2019, tm_mon=2, tm_mday=26, tm_hour=7, tm_min=6, tm_sec=55, tm_wday=1, tm_yday=57, tm_isdst=0)` 
+```
 
 **Technical Detail:**  If you’re coming from another language, the terms  `struct`  and  `object`  might be in opposition to one another.
 
@@ -720,5 +722,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjcyNjYwMiwtMjM0OTM4OTg4XX0=
+eyJoaXN0b3J5IjpbLTM3MjkyNzk3NCwtMjM0OTM4OTg4XX0=
 -->
