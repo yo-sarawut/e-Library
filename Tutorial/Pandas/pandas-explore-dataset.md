@@ -728,6 +728,8 @@ nba[
 ...     (nba["fran_id"] == "Spurs") &
 ...     (nba["year_id"] > 2010)
 ... ].groupby(["year_id", "game_result"])["game_id"].count()
+```
+```
 year_id  game_result
 2011     L              25
  W              63
@@ -740,7 +742,7 @@ year_id  game_result
 2015     L              31
  W              58
 Name: game_id, dtype: int64` 
-
+```
 You can practice these basics with an exercise. Take a look at the Golden State Warriors’ 2014-15 season (`year_id: 2015`). How many wins and losses did they score during the regular season and the playoffs? Expand the code block below for the solution:
 
 Solution: AggregationShow/Hide
@@ -752,28 +754,24 @@ In the examples above, you’ve only scratched the surface of the aggregation fu
 You’ll need to know how to  **manipulate**  your dataset’s columns in different phases of the data analysis process. You can add and drop columns as part of the initial  [data cleaning](https://realpython.com/python-data-cleaning-numpy-pandas/)  phase, or later based on the insights of your analysis.
 
 Create a copy of your original  `DataFrame`  to work with:
+```py
+df = nba.copy()
+df.shape
 
->>>
-
-`>>> df = nba.copy()
->>> df.shape
-(126314, 23)` 
-
+# (126314, 23)
+```
 You can define new columns based on the existing ones:
+```py
+df["difference"] = df.pts - df.opp_pts
+df.shape
 
->>>
-
-`>>> df["difference"] = df.pts - df.opp_pts
->>> df.shape
-(126314, 24)` 
-
+# (126314, 24)
+```
 Here, you used the  `"pts"`  and  `"opp_pts"`  columns to create a new one called  `"difference"`. This new column has the same functions as the old ones:
-
->>>
-
-`>>> df["difference"].max()
-68` 
-
+```py
+df["difference"].max()
+68
+```py
 Here, you used an aggregation function  `.max()`  to find the largest value of your new column.
 
 You can also rename the columns of your dataset. It seems that  `"game_result"`  and  `"game_location"`  are too verbose, so go ahead and rename them now:
@@ -1114,5 +1112,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mjk4MTMxLDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbLTE1NDM3NzU1NjksMTIwNTA4MjY1NF19
 -->
