@@ -87,38 +87,33 @@ Now you can use the Pandas Python library to take a look at your data:
  nba = pd.read_csv("nba_all_elo.csv")
 type(nba)
 
-<class 'pandas.core.frame.DataFrame'>` 
-
+# <class 'pandas.core.frame.DataFrame'> 
+```
 Here, you follow the convention of importing Pandas in Python with the  `pd`  alias. Then, you use  `.read_csv()`  to read in your dataset and store it as a  `DataFrame`  object in the variable  `nba`.
 
 **Note:**  Is your data not in CSV format? No worries! The Pandas Python library provides several similar functions like  `read_json()`,  `read_html()`, and  `read_sql_table()`. To learn how to work with these file formats, check out  [Reading and Writing Files With Pandas](https://realpython.com/pandas-read-write-files/)  or consult the  [docs](https://pandas.pydata.org/pandas-docs/stable/reference/io.html).
 
 You can see how much data  `nba`  contains:
+```py
+len(nba)
+# 126314
 
->>>
-
-`>>> len(nba)
-126314
->>> nba.shape
-(126314, 23)` 
-
+nba.shape
+# (126314, 23) 
+```
 You use the Python built-in function  `len()`  to determine the number of rows. You also use the  `.shape`  attribute of the  `DataFrame`  to see its  **dimensionality**. The result is a tuple containing the number of rows and columns.
 
 Now you know that there are 126,314 rows and 23 columns in your dataset. But how can you be sure the dataset really contains basketball stats? You can have a look at the first five rows with  `.head()`:
-
->>>
-
-`>>> nba.head()` 
-
+```py
+nba.head()
+```
 If you’re following along with a Jupyter notebook, then you’ll see a result like this:
 
-[![Pandas DataFrame .head()](https://files.realpython.com/media/head.7c86dafd4141.png)](https://files.realpython.com/media/head.7c86dafd4141.png)
+![Pandas DataFrame .head()](https://files.realpython.com/media/head.7c86dafd4141.png)
 
 Unless your screen is quite large, your output probably won’t display all 23 columns. Somewhere in the middle, you’ll see a column of ellipses (`...`) indicating the missing data. If you’re working in a terminal, then that’s probably more readable than wrapping long rows. However, Jupyter notebooks will allow you to scroll. You can configure Pandas to display all 23 columns like this:
 
->>>
-
-`>>> pd.set_option("display.max.columns", None)` 
+pd.set_option("display.max.columns", None)` 
 
 While it’s practical to see all the columns, you probably won’t need six decimal places! Change it to two:
 
@@ -1139,5 +1134,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY4MTE1LDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbLTI3OTMzNzM3NCwxMjA1MDgyNjU0XX0=
 -->
