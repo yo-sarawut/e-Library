@@ -48,12 +48,11 @@ The epoch, then, is the starting point against which you can measure the passage
 For example, if you define the epoch to be midnight on January 1, 1970 UTC—the epoch as defined on Windows and most UNIX systems—then you can represent midnight on January 2, 1970 UTC as  `86400`  seconds since the epoch.
 
 This is because there are 60 seconds in a minute, 60 minutes in an hour, and 24 hours in a day. January 2, 1970 UTC is only one day after the epoch, so you can apply basic math to arrive at that result:
+```py
+60 * 60 * 24
 
->>>
-
-`>>> 60 * 60 * 24
-86400` 
-
+# 86400
+```
 It is also important to note that you can still represent time before the epoch. The number of seconds would just be negative.
 
 For example, you would represent midnight on December 31, 1969 UTC (using an epoch of January 1, 1970) as  `-86400`  seconds.
@@ -67,8 +66,9 @@ You can use  `time.gmtime()`  to determine your system’s epoch:
  import time
 time.gmtime(0)
 
-# time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, 
-# tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)` 
+## output
+time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, 
+tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)
 ```
 You’ll learn about  `gmtime()`  and  `struct_time`  throughout the course of this article. For now, just know that you can use  `time`  to discover the epoch using this function.
 
@@ -723,5 +723,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIyODU0NzYsLTIzNDkzODk4OF19
+eyJoaXN0b3J5IjpbMjExNTU1MTA2NSwtMjM0OTM4OTg4XX0=
 -->
