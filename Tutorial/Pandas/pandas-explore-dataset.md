@@ -897,18 +897,21 @@ Now, the resulting  `DataFrame`  contains all 126,314 games, but not the sometim
 If there’s a meaningful default value for your use case, then you can also replace the missing values with that:
 
 ```py
->>> data_with_default_notes = nba.copy()
->>> data_with_default_notes["notes"].fillna(
+data_with_default_notes = nba.copy()
+data_with_default_notes["notes"].fillna(
 ...     value="no notes at all",
 ...     inplace=True
 ... )
->>> data_with_default_notes["notes"].describe()
+
+data_with_default_notes["notes"].describe()
+
+# output
 count              126314
 unique                232
 top       no notes at all
 freq               120890
-Name: notes, dtype: object` 
-
+Name: notes, dtype: object
+```
 Here, you fill the empty  `notes`  rows with the string  `"no notes at all"`.
 
 ### Invalid Values
@@ -917,16 +920,14 @@ Here, you fill the empty  `notes`  rows with the string  `"no notes at all"`.
 
 One thing you can do is validate the ranges of your data. For this,  `.describe()`  is quite handy. Recall that it returns the following output:
 
-[![Pandas DataFrame .describe()](https://files.realpython.com/media/describe.0be00956e704.png)](https://files.realpython.com/media/describe.0be00956e704.png)
+![Pandas DataFrame .describe()](https://files.realpython.com/media/describe.0be00956e704.png)
 
 The  `year_id`  varies between 1947 and 2015. That sounds plausible.
 
 What about  `pts`? How can the minimum be  `0`? Let’s have a look at those games:
-
->>>
-
-`>>> nba[nba["pts"] == 0]` 
-
+```py
+nba[nba["pts"] == 0]
+```
 This query returns a single row:
 
 [![Pandas DataFrame query](https://files.realpython.com/media/0_to_2_game.820df65c4193.png)](https://files.realpython.com/media/0_to_2_game.820df65c4193.png)
@@ -1105,5 +1106,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc3NDIyMjUsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTg3NDE3MDg3MywxMjA1MDgyNjU0XX0=
 -->
