@@ -112,24 +112,20 @@ If you’re following along with a Jupyter notebook, then you’ll see a result 
 ![Pandas DataFrame .head()](https://files.realpython.com/media/head.7c86dafd4141.png)
 
 Unless your screen is quite large, your output probably won’t display all 23 columns. Somewhere in the middle, you’ll see a column of ellipses (`...`) indicating the missing data. If you’re working in a terminal, then that’s probably more readable than wrapping long rows. However, Jupyter notebooks will allow you to scroll. You can configure Pandas to display all 23 columns like this:
-
-pd.set_option("display.max.columns", None)` 
-
+```py
+pd.set_option("display.max.columns", None) 
+```
 While it’s practical to see all the columns, you probably won’t need six decimal places! Change it to two:
-
->>>
-
-`>>> pd.set_option("display.precision", 2)` 
-
+```py
+pd.set_option("display.precision", 2) 
+```
 To verify that you’ve changed the options successfully, you can execute  `.head()`  again, or you can display the last five rows with  `.tail()`  instead:
-
->>>
-
-`>>> nba.tail()` 
-
+```py
+nba.tail()
+```
 Now, you should see all the columns, and your data should show two decimal places:
 
-[![Pandas DataFrame .tail()](https://files.realpython.com/media/tail.0dc48c8c2803.png)](https://files.realpython.com/media/tail.0dc48c8c2803.png)
+![Pandas DataFrame .tail()](https://files.realpython.com/media/tail.0dc48c8c2803.png)
 
 You can discover some further possibilities of  `.head()`  and  `.tail()`  with a small exercise. Can you print the last three lines of your  `DataFrame`? Expand the code block below to see the solution:
 
@@ -148,14 +144,12 @@ You’ve imported a CSV file with the Pandas Python library and had a first look
 The first step in getting to know your data is to discover the different  [data types](https://realpython.com/python-data-types/)  it contains. While you can put anything into a list, the columns of a  `DataFrame`  contain values of a specific data type. When you compare Pandas and Python data structures, you’ll see that this behavior makes Pandas much faster!
 
 You can display all columns and their data types with  `.info()`:
-
->>>
-
-`>>> nba.info()` 
-
+```py
+nba.info()
+```
 This will produce the following output:
 
-[![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)](https://files.realpython.com/media/info.80fdd50f4ff7.png)
+![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)
 
 You’ll see a list of all the columns in your dataset and the type of data each column contains. Here, you can see the data types  `int64`,  `float64`, and  `object`. Pandas uses the  [NumPy](https://realpython.com/numpy-array-programming/)  library to work with these types. Later, you’ll meet the more complex  `categorical`  data type, which the Pandas Python library implements itself.
 
@@ -166,11 +160,9 @@ Although you can store arbitrary Python objects in the  `object`  data type, you
 ### Showing Basics Statistics
 
 Now that you’ve seen what data types are in your dataset, it’s time to get an overview of the values each column contains. You can do this with  `.describe()`:
-
->>>
-
-`>>> nba.describe()` 
-
+```py
+nba.describe()` 
+```
 This function shows you some basic descriptive statistics for all numeric columns:
 
 [![Pandas DataFrame .describe()](https://files.realpython.com/media/describe.0be00956e704.png)](https://files.realpython.com/media/describe.0be00956e704.png)
@@ -1134,5 +1126,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTMzNzM3NCwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTIwMjY2NzMyOTMsMTIwNTA4MjY1NF19
 -->
