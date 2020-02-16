@@ -193,7 +193,8 @@ SDS      11
 ```
 ```py
 nba["fran_id"].value_counts()
-
+```
+```
 Name: team_id, Length: 104, dtype: int64
 Lakers          6024
 Celtics         5997
@@ -201,22 +202,23 @@ Knicks          5769
 ...
 Huskies           60
 Name: fran_id, dtype: int64` 
-
+```
 It seems that a team named  `"Lakers"`  played 6024 games, but only 5078 of those were played by the Los Angeles Lakers. Find out who the other  `"Lakers"`  team is:
-
->>>
-
-`>>> nba.loc[nba["fran_id"] == "Lakers", "team_id"].value_counts()
+```py
+nba.loc[nba["fran_id"] == "Lakers", "team_id"].value_counts()
+```
+```
 LAL    5078
 MNL     946
 Name: team_id, dtype: int64` 
-
+```
 Indeed, the Minneapolis Lakers (`"MNL"`) played 946 games. You can even find out when they played those games:
+```py
+nba.loc[nba["team_id"] == "MNL", "date_game"].min()
 
->>>
-
-`>>> nba.loc[nba["team_id"] == "MNL", "date_game"].min()
-'1/1/1949'
+# '1/1/1949'
+```
+```py
 >>> nba.loc[nba["team_id"] == "MNL", "date_game"].max()
 '4/9/1959'
 >>> nba.loc[nba["team_id"] == "MNL", "date_game"].agg(("min", "max"))
@@ -1127,5 +1129,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NjMwNTQ0LDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbMzExNzI2MTYsMTIwNTA4MjY1NF19
 -->
