@@ -561,34 +561,15 @@ df['date'] = date_series
 df.head()
 ```
   
-date
 
-0
-
-2019-08-10
-
-1
-
-2019-08-11
-
-2
-
-2019-08-12
-
-3
-
-2019-08-13
-
-4
-
-2019-08-14
+```
 	date
 0	2019-08-10
 1	2019-08-11
 2	2019-08-12
 3	2019-08-13
 4	2019-08-14
-
+```
 Now, let’s create separate columns for each element of the date by using the relevant Python datetime (accessed with  `dt`) attributes:
 
 ```python
@@ -601,88 +582,14 @@ df['minute'] = df['date'].dt.minute
 df.head()
 ```
 
-date
 
-year
-
-month
-
-day
-
-hour
-
-minute
-
-0
-
-2019-08-10
-
-2019
-
-8
-
-10
-
-0
-
-0
-
-1
-
-2019-08-11
-
-2019
-
-8
-
-11
-
-0
-
-0
-
-2
-
-2019-08-12
-
-2019
-
-8
-
-12
-
-0
-
-0
-
-3
-
-2019-08-13
-
-2019
-
-8
-
-13
-
-0
-
-0
-
-4
-
-2019-08-14
-
-2019
-
-8
-
-14
-
-0
-
-0
-
+| date |year |month |day |hour |minute |
+|-----|-----|-----|-----|-----|----------|
+| 2019-08-10 |2019 |8 |10 |0 |0 |
+| 2019-08-11 |2019 |8 |11 |0 |0 |
+| 2019-08-12 |2019 |8 |12 |0 |0 |
+| 2019-08-13 |2019 |8 |13 |0 |0 |
+| 2019-08-14 |2019 |8 |14 |0 |0 |
 #### Get Weekday and Day of Year[](https://www.dataquest.io/blog/python-datetime-tutorial/#Get-Weekday-and-Day-of-Year)  
 
 Pandas is also capable of getting other elements, like the day of the week and the day of the year, from its datetime objects. Again, we can use  `dt`  attributes to do this. Note that here, as in Python generally, the week starts on Monday at index 0, so day of the week 5 is  _Saturday_.
@@ -952,5 +859,5 @@ In this tutorial, we’ve taken a deep dive into Python datetime, and also done 
 
 > [Source : ](https://www.dataquest.io/blog/python-datetime-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODA3NjAwMF19
+eyJoaXN0b3J5IjpbMjk3OTA0MDYwXX0=
 -->
