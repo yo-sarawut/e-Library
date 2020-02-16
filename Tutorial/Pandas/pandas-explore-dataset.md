@@ -299,7 +299,7 @@ Here, the index is a list of city names represented by strings. You may have not
 
 Here’s how to construct a  `Series`  with a label index from a Python dictionary:
 ```py
- city_employee_count = pd.Series({"Amsterdam": 5, "Tokyo": 8})
+city_employee_count = pd.Series({"Amsterdam": 5, "Tokyo": 8})
 city_employee_count
 ```
 ```
@@ -310,16 +310,16 @@ dtype: int64
 The dictionary keys become the index, and the dictionary values are the  `Series`  values.
 
 Just like dictionaries,  `Series`  also support  `.keys()`  and the  `in`  keyword:
+```py
+city_employee_count.keys()
+#  Index(['Amsterdam', 'Tokyo'], dtype='object')
 
->>>
+"Tokyo" in city_employee_count
+# True
 
-`>>> city_employee_count.keys()
-Index(['Amsterdam', 'Tokyo'], dtype='object')
->>> "Tokyo" in city_employee_count
-True
->>> "New York" in city_employee_count
-False` 
-
+"New York" in city_employee_count
+#  False` 
+```
 You can use these methods to answer questions about your dataset quickly.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -334,26 +334,24 @@ If you’ve followed along with the  `Series`  examples, then you should already
 2.  `city_employee_count`
 
 You can combine these objects into a  `DataFrame`  by providing a dictionary in the constructor. The dictionary keys will become the column names, and the values should contain the  `Series`  objects:
-
->>>
-
-`>>> city_data = pd.DataFrame({
+```py
+city_data = pd.DataFrame({
 ...     "revenue": city_revenues,
 ...     "employee_count": city_employee_count
 ... })
->>> city_data
- revenue  employee_count
+city_data
+```
+```
+revenue  employee_count
 Amsterdam     4200             5.0
 Tokyo         6500             8.0
-Toronto       8000             NaN` 
-
+Toronto       8000             NaN
+```
 Note how Pandas replaced the missing  `employee_count`  value for Toronto with  `NaN`.
 
 The new  `DataFrame`  index is the union of the two  `Series`  indices:
-
->>>
-
-`>>> city_data.index
+```py
+city_data.index
 Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')` 
 
 Just like a  `Series`, a  `DataFrame`  also stores its values in a NumPy array:
@@ -1129,5 +1127,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk2OTI5NTQsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTg2ODk3NTU5MiwxMjA1MDgyNjU0XX0=
 -->
