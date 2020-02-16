@@ -7,6 +7,10 @@
 - [therenegadecoder.com](https://therenegadecoder.com/category/code/)
 - [Full Stack Python](https://www.fullstackpython.com/)
 
+## Article
+- [xlwings Tutorial: Make Excel Faster Using Python](https://www.dataquest.io/blog/python-excel-xlwings-tutorial/)
+- [5 Steps to Learning Python the Right Way](https://www.dataquest.io/blog/learn-python-the-right-way/)
+
 # [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 ## Python Basic Tutorial
@@ -110,7 +114,7 @@
 
 <table border="2" width="0">  <tr>  <th></th><th>Column Header One</th><th>Column Header Two</th><th>Column Header Three</th>  </tr>  <tr>  <td align="right">Row Hdr 1</td><td align="left">Left Aligned</td><td align="center">Centre Aligned</td><td align="right">Right Aligned</td>  </tr>  <tr>  <td align="right">Row Hdr 2</td><td colspan="2" align="left">colspan the next cell</td><td align="right">Row 2, Col 3</td>  </tr>  <tr>  <td align="right">Row Hdr 3</td><td colspan="3" align="left">colspan the next two cells</td>  </tr>  <tr>  <td align="right">Row Hdr 4</td><td rowspan="2" align="left">rowspan the next cell down</td><td align="center"></td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 5</td><td align="center">Column 2</td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 6</td><td rowspan="3" align="left">Merge Down 2</td><td colspan="2" align="center">Merge Right</td>  </tr>  <tr>  <td align="right">Row Hdr 7</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 8</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg0MDQ2Miw3OTE3MjI1MzQsMTM2Mz
-gzNzczNSw1MzA4MTIyMjYsNzk4Mjg1MTAsMTcyODQ5NzA5OCwt
-MzIzMjU2MDMxLDE5NTQwNTUwM119
+eyJoaXN0b3J5IjpbNDc0MjY4Nzc3LC0xMTU4NDA0NjIsNzkxNz
+IyNTM0LDEzNjM4Mzc3MzUsNTMwODEyMjI2LDc5ODI4NTEwLDE3
+Mjg0OTcwOTgsLTMyMzI1NjAzMSwxOTU0MDU1MDNdfQ==
 -->
