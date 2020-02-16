@@ -584,7 +584,7 @@ df.head()
 
 
 | date |year |month |day |hour |minute |
-|-----|-----|-----|-----|-----|----------|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 2019-08-10 |2019 |8 |10 |0 |0 |
 | 2019-08-11 |2019 |8 |11 |0 |0 |
 | 2019-08-12 |2019 |8 |12 |0 |0 |
@@ -602,123 +602,14 @@ df['dayofyear'] = df['date'].dt.dayofyear
 df.head()
 ```
 
-date
 
-year
-
-month
-
-day
-
-hour
-
-minute
-
-weekday
-
-day_name
-
-dayofyear
-
-0
-
-2019-08-10
-
-2019
-
-8
-
-10
-
-0
-
-0
-
-5
-
-Saturday
-
-222
-
-1
-
-2019-08-11
-
-2019
-
-8
-
-11
-
-0
-
-0
-
-6
-
-Sunday
-
-223
-
-2
-
-2019-08-12
-
-2019
-
-8
-
-12
-
-0
-
-0
-
-0
-
-Monday
-
-224
-
-3
-
-2019-08-13
-
-2019
-
-8
-
-13
-
-0
-
-0
-
-1
-
-Tuesday
-
-225
-
-4
-
-2019-08-14
-
-2019
-
-8
-
-14
-
-0
-
-0
-
-2
-
-Wednesday
-
-226
+| date |year |month |day |hour |minute |weekday |day_name |dayofyear |
+|-----|-----|-----|-----|-----|----------|----------|----------|----------|
+| 2019-08-10 |2019 |8 |10 |0 |0 |5 |Saturday |222 |
+| 2019-08-11 |2019 |8 |11 |0 |0 |6 |Sunday |223 |
+| 2019-08-12 |2019 |8 |12 |0 |0 |0 |Monday |224 |
+| 2019-08-13 |2019 |8 |13 |0 |0 |1 |Tuesday |225 |
+| 2019-08-14 |2019 |8 |14 |0 |0 |2 |Wednesday |226 |
 
 ### Convert Date Object into DataFrame Index[](https://www.dataquest.io/blog/python-datetime-tutorial/#Convert-Date-Object-into-DataFrame-Index)  
 
@@ -859,5 +750,5 @@ In this tutorial, we’ve taken a deep dive into Python datetime, and also done 
 
 > [Source : ](https://www.dataquest.io/blog/python-datetime-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3OTA0MDYwXX0=
+eyJoaXN0b3J5IjpbLTIyMjQ5OTcyXX0=
 -->
