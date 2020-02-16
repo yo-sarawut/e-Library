@@ -770,18 +770,19 @@ df.shape
 Here, you used the  `"pts"`  and  `"opp_pts"`  columns to create a new one called  `"difference"`. This new column has the same functions as the old ones:
 ```py
 df["difference"].max()
-68
-```py
+
+# 68
+```
 Here, you used an aggregation function  `.max()`  to find the largest value of your new column.
 
 You can also rename the columns of your dataset. It seems that  `"game_result"`  and  `"game_location"`  are too verbose, so go ahead and rename them now:
-
->>>
-
-`>>> renamed_df = df.rename(
+```py
+renamed_df = df.rename(
 ...     columns={"game_result": "result", "game_location": "location"}
 ... )
 >>> renamed_df.info()
+```
+```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 126314 entries, 0 to 126313
 Data columns (total 24 columns):
@@ -794,20 +795,19 @@ notes          5424 non-null object
 difference     126314 non-null int64
 dtypes: float64(6), int64(8), object(10)
 memory usage: 23.1+ MB` 
-
+```
 Note that there’s a new object,  `renamed_df`. Like several other data manipulation methods,  `.rename()`  returns a new  `DataFrame`  by default. If you want to manipulate the original  `DataFrame`  directly, then  `.rename()`  also provides an  `inplace`  parameter that you can set to  `True`.
 
 Your dataset might contain columns that you don’t need. For example,  [Elo ratings](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/)  may be a fascinating concept to some, but you won’t analyze them in this tutorial. You can delete the four columns related to Elo:
+```py
+df.shape
+# (126314, 24)
 
->>>
-
-`>>> df.shape
-(126314, 24)
 >>> elo_columns = ["elo_i", "elo_n", "opp_elo_i", "opp_elo_n"]
 >>> df.drop(elo_columns, inplace=True, axis=1)
 >>> df.shape
-(126314, 20)` 
-
+# (126314, 20)` 
+```
 Remember, you added the new column  `"difference"`  in a previous example, bringing the total number of columns to 24. When you remove the four Elo columns, the total number of columns drops to 20.
 
 ## Specifying Data Types
@@ -815,11 +815,9 @@ Remember, you added the new column  `"difference"`  in a previous example, bring
 When you create a new  `DataFrame`, either by calling a constructor or reading a CSV file, Pandas assigns a  **data type**  to each column based on its values. While it does a pretty good job, it’s not perfect. If you choose the right data type for your columns upfront, then you can significantly improve your code’s performance.
 
 Take another look at the columns of the  `nba`  dataset:
-
->>>
-
-`>>> df.info()` 
-
+```py
+df.info()
+```
 You’ll see the same output as before:
 
 [![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)](https://files.realpython.com/media/info.80fdd50f4ff7.png)
@@ -1112,5 +1110,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM3NzU1NjksMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbMTYxMTE2OTU2LDEyMDUwODI2NTRdfQ==
 -->
