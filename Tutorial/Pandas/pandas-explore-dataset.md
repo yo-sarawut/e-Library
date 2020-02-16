@@ -161,38 +161,39 @@ Although you can store arbitrary Python objects in the  `object`  data type, you
 
 Now that you’ve seen what data types are in your dataset, it’s time to get an overview of the values each column contains. You can do this with  `.describe()`:
 ```py
-nba.describe()` 
+nba.describe() 
 ```
 This function shows you some basic descriptive statistics for all numeric columns:
 
 [![Pandas DataFrame .describe()](https://files.realpython.com/media/describe.0be00956e704.png)](https://files.realpython.com/media/describe.0be00956e704.png)
 
 `.describe()`  only analyzes numeric columns by default, but you can provide other data types if you use the  `include`  parameter:
-
->>>
-
-`>>> import numpy as np
->>> nba.describe(include=np.object)` 
-
+```py
+import numpy as np
+nba.describe(include=np.object) 
+```
 `.describe()`  won’t try to calculate a mean or a standard deviation for the  `object`  columns, since they mostly include text strings. However, it will still display some descriptive statistics:
 
-[![Pandas DataFrame .describe() with include=np.object](https://files.realpython.com/media/describe_object.2ec0a6039517.png)](https://files.realpython.com/media/describe_object.2ec0a6039517.png)
+![Pandas DataFrame .describe() with include=np.object](https://files.realpython.com/media/describe_object.2ec0a6039517.png)
 
 Take a look at the  `team_id`  and  `fran_id`  columns. Your dataset contains 104 different team IDs, but only 53 different franchise IDs. Furthermore, the most frequent team ID is  `BOS`, but the most frequent franchise ID  `Lakers`. How is that possible? You’ll need to explore your dataset a bit more to answer this question.
 
 ### Exploring Your Dataset
 
 **Exploratory data analysis**  can help you answer questions about your dataset. For example, you can examine how often specific values occur in a column:
-
->>>
-
-`>>> nba["team_id"].value_counts()
+```py
+nba["team_id"].value_counts()
+```
+```
 BOS    5997
 NYK    5769
 LAL    5078
 ...
 SDS      11
->>> nba["fran_id"].value_counts()
+```
+```py
+nba["fran_id"].value_counts()
+
 Name: team_id, Length: 104, dtype: int64
 Lakers          6024
 Celtics         5997
@@ -1126,5 +1127,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY2NzMyOTMsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbNDI1NjMwNTQ0LDEyMDUwODI2NTRdfQ==
 -->
