@@ -968,8 +968,9 @@ You can add these cities to  `city_data`  using  `.concat()`:
 
 ```py
 all_city_data = pd.concat([city_data, further_city_data], sort=False)
->>> all_city_data
+all_city_data
 
+## output
 Amsterdam   4200    5.0
 Tokyo       6500    8.0
 Toronto     8000    NaN
@@ -978,19 +979,19 @@ Barcelona   3400    2.0`
 ```
 Now, the new variable  `all_city_data`  contains the values from both  `DataFrame`  objects.
 
-**Note:**  As of Pandas version 0.25.0, the  `sort`  parameter’s default value is  `True`, but this will change to  `False`  soon. It’s good practice to provide an explicit value for this parameter to ensure that your code works consistently in different Pandas and Python versions. For more info, consult the  [Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#concatenating-objects).
+>**Note:**  As of Pandas version 0.25.0, the  `sort`  parameter’s default value is  `True`, but this will change to  `False`  soon. It’s good practice to provide an explicit value for this parameter to ensure that your code works consistently in different Pandas and Python versions. For more info, consult the  [Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#concatenating-objects).
 
 By default,  `concat()`  combines along  `axis=0`. In other words, it appends rows. You can also use it to append columns by supplying the parameter  `axis=1`:
-
->>>
-
-`>>> city_countries = pd.DataFrame({
+```py
+city_countries = pd.DataFrame({
 ...     "country": ["Holland", "Japan", "Holland", "Canada", "Spain"],
 ...     "capital": [1, 1, 0, 0, 0]},
 ...     index=["Amsterdam", "Tokyo", "Rotterdam", "Toronto", "Barcelona"]
 ... )
->>> cities = pd.concat([all_city_data, city_countries], axis=1, sort=False)
->>> cities
+cities = pd.concat([all_city_data, city_countries], axis=1, sort=False)
+cities
+```
+```
  revenue  employee_count  country  capital
 Amsterdam   4200.0             5.0  Holland      1.0
 Tokyo       6500.0             8.0    Japan      1.0
@@ -998,7 +999,7 @@ Toronto     8000.0             NaN   Canada      0.0
 New York    7000.0             2.0      NaN      NaN
 Barcelona   3400.0             2.0    Spain      0.0
 Rotterdam      NaN             NaN  Holland      0.0` 
-
+``````
 Note how Pandas added  `NaN`  for the missing values. If you want to combine only the cities that appear in both  `DataFrame`  objects, then you can set the  `join`  parameter to  `inner`:
 
 >>>
@@ -1104,5 +1105,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg3NzkwMDgsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTE1NTM1NzAzOCwxMjA1MDgyNjU0XX0=
 -->
