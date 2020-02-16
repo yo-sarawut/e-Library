@@ -447,21 +447,21 @@ If you want to learn more about the possibilities of the indexing operator, then
 ### Using  `.loc`  and  `.iloc`
 
 The indexing operator (`[]`) is convenient, but there’s a caveat. What if the labels are also numbers? Say you have to work with a  `Series`  object like this:
-
->>>
-
-`>>> colors = pd.Series(
+```py
+colors = pd.Series(
 ...     ["red", "purple", "blue", "green", "yellow"],
 ...     index=[1, 2, 3, 5, 8]
 ... )
->>> colors
+colors
+```
+```
 1       red
 2    purple
 3      blue
 5     green
 8    yellow
 dtype: object` 
-
+```
 What will  `colors[1]`  return? For a positional index,  `colors[1]`  is  `"purple"`. However, if you go by the label index, then  `colors[1]`  is referring to  `"red"`.
 
 The good news is, you don’t have to figure it out! Instead, to avoid confusion, the Pandas Python library provides two  **data access methods**:
@@ -470,19 +470,18 @@ The good news is, you don’t have to figure it out! Instead, to avoid confusion
 2.  **`.iloc`**  refers to the  **positional index**.
 
 These data access methods are much more readable:
+```py
+colors.loc[1]
+# 'red'
 
->>>
-
-`>>> colors.loc[1]
-'red'
->>> colors.iloc[1]
-'purple'` 
-
+colors.iloc[1]
+# 'purple' 
+```
 `colors.loc[1]`  returned  `"red"`, the element with the label  `1`.  `colors.iloc[1]`  returned  `"purple"`, the element with the index  `1`.
 
 The following figure shows which elements  `.loc`  and  `.iloc`  refer to:
 
-[![Pandas Series iloc vs loc](https://files.realpython.com/media/iloc_vs_loc_80_border20.d5280f475f4e.png)](https://files.realpython.com/media/iloc_vs_loc_80_border20.d5280f475f4e.png)
+![Pandas Series iloc vs loc](https://files.realpython.com/media/iloc_vs_loc_80_border20.d5280f475f4e.png)
 
 Again,  `.loc`  points to the label index on the right-hand side of the image. Meanwhile,  `.iloc`  points to the positional index on the left-hand side of the picture.
 
@@ -492,9 +491,7 @@ It’s easier to keep in mind the distinction between  `.loc`  and  `.iloc`  tha
 
 `.loc`  and  `.iloc`  also support the features you would expect from indexing operators, like slicing. However, these data access methods have an important difference. While  `.iloc`  excludes the closing element,  `.loc`  includes it. Take a look at this code block:
 
->>>
-
-`>>> # Return the elements with the implicit index: 1, 2
+# Return the elements with the implicit index: 1, 2
 >>> colors.iloc[1:3]
 2    purple
 3      blue
@@ -1123,5 +1120,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTU1MzA2OCwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTEyNzQ3ODE5NTksMTIwNTA4MjY1NF19
 -->
