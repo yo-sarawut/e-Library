@@ -842,16 +842,16 @@ Name: game_location, dtype: int64
 Which data type would you use in a  [relational database](https://realpython.com/data-engineer-interview-questions-python/#questions-on-relational-databases)  for such a column? You would probably not use a  `varchar`  type, but rather an  `enum`. Pandas provides the  `categorical`  data type for the same purpose:
 
 ```py
->>> df["game_location"] = pd.Categorical(df["game_location"])
->>> df["game_location"].dtype
+df["game_location"] = pd.Categorical(df["game_location"])
+df["game_location"].dtype
 
-# CategoricalDtype(categories=['A', 'H', 'N'], ordered=False)` 
+# CategoricalDtype(categories=['A', 'H', 'N'], ordered=False) 
 ```
 **`categorical`  data**  has a few advantages over unstructured text. When you specify the  `categorical`  data type, you make validation easier and save a ton of memory, as Pandas will only use the unique values internally. The higher the ratio of total values to unique values, the more space savings you’ll get.
 
 Run  `df.info()`  again. You should see that changing the  `game_location`  data type from  `object`  to  `categorical`  has decreased the memory usage.
 
-**Note:**  The  `categorical`  data type also gives you access to additional methods through the  `.cat`  accessor. To learn more, check out the  [official docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html).
+>**Note:**  The  `categorical`  data type also gives you access to additional methods through the  `.cat`  accessor. To learn more, check out the  [official docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html).
 
 You’ll often encounter datasets with too many text columns. An essential skill for data scientists to have is the ability to spot which columns they can convert to a more performant data type.
 
@@ -871,35 +871,33 @@ Have you ever wondered why  `.info()`  shows how many non-null values a column c
 
 When you inspect the  `nba`  dataset with  `nba.info()`, you’ll see that it’s quite neat. Only the column  `notes`  contains null values for the majority of its rows:
 
-[![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)](https://files.realpython.com/media/info.80fdd50f4ff7.png)
+![Pandas DataFrame .info()](https://files.realpython.com/media/info.80fdd50f4ff7.png)
 
 This output shows that the  `notes`  column has only 5424 non-null values. That means that over 120,000 rows of your dataset have null values in this column.
 
 Sometimes, the easiest way to deal with records containing missing values is to ignore them. You can remove all the rows with missing values using  `.dropna()`:
 
->>>
-
-`>>> rows_without_missing_data = nba.dropna()
+```py
+>>> rows_without_missing_data = nba.dropna()
 >>> rows_without_missing_data.shape
-(5424, 23)` 
 
+# (5424, 23)` 
+```
 Of course, this kind of data cleanup doesn’t make sense for your  `nba`  dataset, because it’s not a problem for a game to lack notes. But if your dataset contains a million valid records and a hundred where relevant data is missing, then dropping the incomplete records can be a reasonable solution.
 
 You can also drop problematic columns if they’re not relevant for your analysis. To do this, use  `.dropna()`  again and provide the  `axis=1`  parameter:
-
->>>
-
-`>>> data_without_missing_columns = nba.dropna(axis=1)
+```py
+>>> data_without_missing_columns = nba.dropna(axis=1)
 >>> data_without_missing_columns.shape
-(126314, 22)` 
-
+>
+# (126314, 22)
+```
 Now, the resulting  `DataFrame`  contains all 126,314 games, but not the sometimes empty  `notes`  column.
 
 If there’s a meaningful default value for your use case, then you can also replace the missing values with that:
 
->>>
-
-`>>> data_with_default_notes = nba.copy()
+```py
+>>> data_with_default_notes = nba.copy()
 >>> data_with_default_notes["notes"].fillna(
 ...     value="no notes at all",
 ...     inplace=True
@@ -1107,5 +1105,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjg5OTI4MSwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTE3MTc3NDIyMjUsMTIwNTA4MjY1NF19
 -->
