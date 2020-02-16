@@ -352,29 +352,27 @@ Note how Pandas replaced the missing  `employee_count`  value for Toronto with  
 The new  `DataFrame`  index is the union of the two  `Series`  indices:
 ```py
 city_data.index
-Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')` 
-
+#  Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')` 
+```
 Just like a  `Series`, a  `DataFrame`  also stores its values in a NumPy array:
-
->>>
-
-`>>> city_data.values
-array([[4.2e+03, 5.0e+00],
- [6.5e+03, 8.0e+00],
- [8.0e+03,     nan]])` 
-
+```py
+city_data.values
+# array([[4.2e+03, 5.0e+00],
+# [6.5e+03, 8.0e+00],
+# [8.0e+03,     nan]]) 
+```
 You can also refer to the 2 dimensions of a  `DataFrame`  as  **axes**:
+```py
+city_data.axes
+#[Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object'),
+# Index(['revenue', 'employee_count'], dtype='object')]
 
->>>
-
-`>>> city_data.axes
-[Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object'),
- Index(['revenue', 'employee_count'], dtype='object')]
 >>> city_data.axes[0]
- Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')
->>> city_data.axes[1]
- Index(['revenue', 'employee_count'], dtype='object')` 
+# Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')
 
+>>> city_data.axes[1]
+# Index(['revenue', 'employee_count'], dtype='object')` 
+```
 The axis marked with 0 is the  **row index**, and the axis marked with 1 is the  **column index**. This terminology is important to know because you’ll encounter several  `DataFrame`  methods that accept an  `axis`  parameter.
 
 A  `DataFrame`  is also a dictionary-like data structure, so it also supports  `.keys()`  and the  `in`  keyword. However, for a  `DataFrame`  these don’t relate to the index, but to the columns:
@@ -1127,5 +1125,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODk3NTU5MiwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbMjQxMTUxNjEwLDEyMDUwODI2NTRdfQ==
 -->
