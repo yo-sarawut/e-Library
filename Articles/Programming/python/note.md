@@ -9,7 +9,12 @@ Note for Python Tutorials
 - [Interactive Data Visualization in Python With Bokeh](https://realpython.com/python-data-visualization-bokeh/)
 
 
+## Articles
+
+- [Excel vs Python: How to Do Common Data Analysis Tasks](https://www.dataquest.io/blog/excel-vs-python/)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Mzk1ODY3NCwtMTUyNjU0NTY3MSwtMT
-kzNzI4NjIxM119
+eyJoaXN0b3J5IjpbLTEwOTk1NDE3MzcsMTQ2Mzk1ODY3NCwtMT
+UyNjU0NTY3MSwtMTkzNzI4NjIxM119
 -->
