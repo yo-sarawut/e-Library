@@ -1035,11 +1035,11 @@ pd.merge(
 ...     left_on="country",
 ...     right_index=True,
 ...     how="left"
-... )` 
-
+... )
+```
 With this  `left`  join, you’ll see all the cities, including those without country data:
 
-[![Pandas merge left join](https://files.realpython.com/media/merge_left_join.ef63a7b2ad3f.png)](https://files.realpython.com/media/merge_left_join.ef63a7b2ad3f.png)
+![Pandas merge left join](https://files.realpython.com/media/merge_left_join.ef63a7b2ad3f.png)
 
 Welcome back, New York & Barcelona!
 
@@ -1050,30 +1050,24 @@ Welcome back, New York & Barcelona!
 **Get Jupyter Notebook:**  [Click here to get the Jupyter Notebook you'll use](https://realpython.com/bonus/pandas-intro/)  to explore data with Pandas in this tutorial.
 
 Include this line to show plots directly in the notebook:
-
->>>
-
-`>>> %matplotlib inline` 
-
+```py
+%matplotlib inline
+```
 Both  `Series`  and  `DataFrame`  objects have a  `.plot()`  method, which is a wrapper around  `matplotlib.pyplot.plot()`. By default, it creates a  **line plot**. Visualize how many points the Knicks scored throughout the seasons:
-
->>>
-
-`>>> nba[nba["fran_id"] == "Knicks"].groupby("year_id")["pts"].sum().plot()` 
-
+```py
+nba[nba["fran_id"] == "Knicks"].groupby("year_id")["pts"].sum().plot()` 
+```
 This shows a line plot with several peaks and two notable valleys around the years 2000 and 2010:
 
-[![Pandas plot line](https://files.realpython.com/media/Knicks_points_sum_plot.ff35174b2854.png)](https://files.realpython.com/media/Knicks_points_sum_plot.ff35174b2854.png)
+![Pandas plot line](https://files.realpython.com/media/Knicks_points_sum_plot.ff35174b2854.png)
 
 You can also create other types of plots, like a  **bar plot**:
-
->>>
-
-`>>> nba["fran_id"].value_counts().head(10).plot(kind="bar")` 
-
+```py
+nba["fran_id"].value_counts().head(10).plot(kind="bar")` 
+```
 This will show the franchises with the most games played:
 
-[![Pandas plot bar](https://files.realpython.com/media/top10_franchises_bar_plot.2c8c4e458aa3.png)](https://files.realpython.com/media/top10_franchises_bar_plot.2c8c4e458aa3.png)
+![Pandas plot bar](https://files.realpython.com/media/top10_franchises_bar_plot.2c8c4e458aa3.png)
 
 The Lakers are leading the Celtics by a minimal edge, and there are six further teams with a game count above 5000.
 
@@ -1103,5 +1097,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc1MDk5MzQsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTE4OTQzODEyMTEsMTIwNTA4MjY1NF19
 -->
