@@ -65,9 +65,11 @@ As you saw before, UNIX systems define the epoch as January 1, 1970. The Win32 A
 You can use  `time.gmtime()`  to determine your system’s epoch:
 ```py
  import time
->>> time.gmtime(0)
-time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)` 
-```py
+time.gmtime(0)
+
+# time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, 
+# tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)` 
+```
 You’ll learn about  `gmtime()`  and  `struct_time`  throughout the course of this article. For now, just know that you can use  `time`  to discover the epoch using this function.
 
 Now that you understand more about how to measure time in seconds using an epoch, let’s take a look at Python’s  `time`  module to see what functions it offers that help you do so.
@@ -76,11 +78,12 @@ Now that you understand more about how to measure time in seconds using an epoch
 
 First,  `time.time()`  returns the number of seconds that have passed since the epoch. The return value is a floating point number to account for fractional seconds:
 
->>>
+```py
+from time import time
+time()
 
-`>>> from time import time
->>> time()
-1551143536.9323719` 
+# 1551143536.9323719` 
+```
 
 The number you get on your machine may be very different because the reference point considered to be the epoch may be very different.
 
@@ -97,13 +100,13 @@ Sometimes, however, you may want to see the current time represented as a string
 
 As you saw before, you may want to convert the Python time, represented as the number of elapsed seconds since the epoch, to a  [string](https://realpython.com/python-strings/). You can do so using  `ctime()`:
 
->>>
+```py
+from time import time, ctime
+t = time()
+ctime(t)
 
-`>>> from time import time, ctime
->>> t = time()
->>> ctime(t)
-'Mon Feb 25 19:11:59 2019'` 
-
+# 'Mon Feb 25 19:11:59 2019'
+```
 Here, you’ve recorded the current time in seconds into the variable  `t`, then passed  `t`  as an argument to  `ctime()`, which returns a string representation of that same time.
 
 **Technical Detail:**  The argument, representing seconds since the epoch, is optional according to the  `ctime()`  definition. If you don’t pass an argument, then  `ctime()`  uses the return value of  `time()`  by default. So, you could simplify the example above:
@@ -717,5 +720,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODU3NTM0NV19
+eyJoaXN0b3J5IjpbNjQ5OTA4NjcyXX0=
 -->
