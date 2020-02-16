@@ -302,7 +302,11 @@ You’ve seen  `gmtime()`  used once before in this article:
 ```py
 import time
 time.gmtime(0)
-time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1, tm_isdst=0)` 
+
+## output
+time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, 
+tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=1,
+ tm_isdst=0)
 ```
 You used this call to discover your system’s epoch. Now, you have a better foundation for understanding what’s actually happening here.
 
@@ -312,12 +316,16 @@ You used this call to discover your system’s epoch. Now, you have a better fou
 
 As you saw before,  `struct_time`  cannot represent fractional seconds, so  `gmtime()`  ignores the fractional seconds in the argument:
 
->>>
 
-`>>> import time
->>> time.gmtime(1.99)
-time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=1, tm_wday=3, tm_yday=1, tm_isdst=0)` 
+```py
+import time
+time.gmtime(1.99)
 
+## output
+time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1,
+ tm_hour=0, tm_min=0, tm_sec=1, tm_wday=3, tm_yday=1,
+  tm_isdst=0) 
+```
 Notice that even though the number of seconds you passed was very close to  `2`, the  `.99`  fractional seconds were simply ignored, as shown by  `tm_sec=1`.
 
 The  `secs`  parameter for  `gmtime()`  is optional, meaning you can call  `gmtime()`  with no arguments. Doing so will provide the current time in UTC:
@@ -723,5 +731,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAzNDk5NDcsLTIzNDkzODk4OF19
+eyJoaXN0b3J5IjpbMTU0OTUxMDg0NiwtMjM0OTM4OTg4XX0=
 -->
