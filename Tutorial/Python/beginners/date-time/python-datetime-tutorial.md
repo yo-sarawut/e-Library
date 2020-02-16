@@ -494,11 +494,11 @@ print(loc_dt.astimezone(kolkata))
 au_tz = timezone('Australia/Sydney')
 print(loc_dt.astimezone(au_tz))
 ```
-
+```
 2011-11-02 07:27:00-04:00
 2011-11-02 16:57:00+05:30
 2011-11-02 22:27:00+11:00
-
+```
 This module can help make life simpler when working with data sets that include multiple different time zones.
 
 ## Working with  `pandas`  Datetime Objects[](https://www.dataquest.io/blog/python-datetime-tutorial/#Working-with-pandas-Datetime-Objects)  
@@ -522,9 +522,9 @@ import pandas as pd
 date = pd.to_datetime("8th of sep, 2019")
 print(date)
 ```
-
+```
 2019-09-08 00:00:00
-
+```
 Note that even though we gave it a string with some complicating factors like a “th” and “sep” rather than “Sep.” or “September”, pandas was able to correctly parse the string and return a formatted date.
 
 We can also use pandas (and some of its affiliated numpy functionality) to create date ranges automatically as pandas Series. Below, for example, we create a series of twelve dates starting from the day we defined above. Then we create a different series of dates starting from a predefined date using  `pd.date_range()`:
@@ -538,7 +538,7 @@ print(date_series)
 date_series = pd.date_range('08/10/2019', periods = 12, freq ='D')
 print(date_series)
 ```
-
+```
 DatetimeIndex(['2019-09-08', '2019-09-09', '2019-09-10', '2019-09-11',
                '2019-09-12', '2019-09-13', '2019-09-14', '2019-09-15',
                '2019-09-16', '2019-09-17', '2019-09-18', '2019-09-19'],
@@ -547,7 +547,7 @@ DatetimeIndex(['2019-08-10', '2019-08-11', '2019-08-12', '2019-08-13',
                '2019-08-14', '2019-08-15', '2019-08-16', '2019-08-17',
                '2019-08-18', '2019-08-19', '2019-08-20', '2019-08-21'],
               dtype='datetime64[ns]', freq='D')
-
+```
 #### Get Year, Month, Day, Hour, Minute in pandas[](https://www.dataquest.io/blog/python-datetime-tutorial/#Get-Year,-Month,-Day,-Hour,-Minute-in-pandas)  
 
 We can easily get year, month, day, hour, or minute from dates in a column of a pandas dataframe using  `dt`  attributes for all columns. For example, we can use  `df['date'].dt.year`  to extract only the year from a pandas column that includes the full date.
@@ -560,28 +560,12 @@ df = pd.DataFrame()
 df['date'] = date_series
 df.head()
 ```
-
-date
-
-0
-
-2019-08-10
-
-1
-
-2019-08-11
-
-2
-
-2019-08-12
-
-3
-
-2019-08-13
-
-4
-
-2019-08-14
+	date
+0	2019-08-10
+1	2019-08-11
+2	2019-08-12
+3	2019-08-13
+4	2019-08-14
 
 Now, let’s create separate columns for each element of the date by using the relevant Python datetime (accessed with  `dt`) attributes:
 
@@ -946,5 +930,5 @@ In this tutorial, we’ve taken a deep dive into Python datetime, and also done 
 
 > [Source : ](https://www.dataquest.io/blog/python-datetime-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTQ1MDgxXX0=
+eyJoaXN0b3J5IjpbLTYxMTEyMTQ0NV19
 -->
