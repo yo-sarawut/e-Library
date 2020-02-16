@@ -367,25 +367,23 @@ city_data.axes
 #[Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object'),
 # Index(['revenue', 'employee_count'], dtype='object')]
 
->>> city_data.axes[0]
+city_data.axes[0]
 # Index(['Amsterdam', 'Tokyo', 'Toronto'], dtype='object')
 
->>> city_data.axes[1]
+city_data.axes[1]
 # Index(['revenue', 'employee_count'], dtype='object')` 
 ```
 The axis marked with 0 is the  **row index**, and the axis marked with 1 is the  **column index**. This terminology is important to know because you’ll encounter several  `DataFrame`  methods that accept an  `axis`  parameter.
 
 A  `DataFrame`  is also a dictionary-like data structure, so it also supports  `.keys()`  and the  `in`  keyword. However, for a  `DataFrame`  these don’t relate to the index, but to the columns:
-
->>>
-
-`>>> city_data.keys()
-Index(['revenue', 'employee_count'], dtype='object')
+```py
+city_data.keys()
+# Index(['revenue', 'employee_count'], dtype='object')
 >>> "Amsterdam" in city_data
-False
+# False
 >>> "revenue" in city_data
-True` 
-
+# True` 
+```
 You can see these concepts in action with the bigger NBA dataset. Does it contain a column called  `"points"`, or was it called  `"pts"`? To answer this question, display the index and the axes of the  `nba`  dataset, then expand the code block below for the solution:
 
 Solution: NBA indexShow/Hide
@@ -411,24 +409,22 @@ Recall that a  `Series`  has two indices:
 2.  **A label or explicit index**, which can contain any hashable objects
 
 Next, revisit the  `city_revenues`  object:
+```py
+city_revenues
 
->>>
-
-`>>> city_revenues
-Amsterdam    4200
-Toronto      8000
-Tokyo        6500
-dtype: int64` 
-
+# Amsterdam    4200
+# Toronto      8000
+# Tokyo        6500
+# dtype: int64` 
+```
 You can conveniently access the values in a  `Series`  with both the label and positional indices:
 
->>>
-
-`>>> city_revenues["Toronto"]
+```py
+>>> city_revenues["Toronto"]
 8000
 >>> city_revenues[1]
-8000` 
-
+8000 
+```
 You can also use negative indices and slices, just like you would for a list:
 
 >>>
@@ -1125,5 +1121,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMTUxNjEwLDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbODk3Mzc1MDIsMTIwNTA4MjY1NF19
 -->
