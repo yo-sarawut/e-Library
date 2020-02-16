@@ -930,7 +930,7 @@ nba[nba["pts"] == 0]
 ```
 This query returns a single row:
 
-[![Pandas DataFrame query](https://files.realpython.com/media/0_to_2_game.820df65c4193.png)](https://files.realpython.com/media/0_to_2_game.820df65c4193.png)
+![Pandas DataFrame query](https://files.realpython.com/media/0_to_2_game.820df65c4193.png)
 
 It seems the game was forfeited. Depending on your analysis, you may want to remove it from the dataset.
 
@@ -939,14 +939,13 @@ It seems the game was forfeited. Depending on your analysis, you may want to rem
 Sometimes a value would be entirely realistic in and of itself, but it doesn’t fit with the values in the other columns. You can define some query criteria that are mutually exclusive and verify that these don’t occur together.
 
 In the NBA dataset, the values of the fields  `pts`,  `opp_pts`  and  `game_result`  should be consistent with each other. You can check this using the  `.empty`  attribute:
+```py
+nba[(nba["pts"] > nba["opp_pts"]) & (nba["game_result"] != 'W')].empty
+# True
 
->>>
-
-`>>> nba[(nba["pts"] > nba["opp_pts"]) & (nba["game_result"] != 'W')].empty
-True
->>> nba[(nba["pts"] < nba["opp_pts"]) & (nba["game_result"] != 'L')].empty
-True` 
-
+nba[(nba["pts"] < nba["opp_pts"]) & (nba["game_result"] != 'L')].empty
+# True` 
+```
 Fortunately, both of these queries return an empty  `DataFrame`.
 
 Be prepared for surprises whenever you’re working with raw datasets, especially if they were gathered from different sources or through a complex pipeline. You might see rows where a team scored more points than their opponent, but still didn’t win—at least, according to your dataset! To avoid situations like this, make sure you add further  [data cleaning techniques](https://realpython.com/python-data-cleaning-numpy-pandas/)  to your Pandas and Python arsenal.
@@ -957,27 +956,26 @@ In the previous section, you’ve learned how to clean a messy dataset. Another 
 
 [Earlier](https://realpython.com/pandas-python-explore-dataset/#understanding-dataframe-objects), you combined two  `Series`  objects into a  `DataFrame`  based on their indices. Now, you’ll take this one step further and use  `.concat()`  to combine  `city_data`  with another  `DataFrame`. Say you’ve managed to gather some data on two more cities:
 
->>>
-
+```py
 `>>> further_city_data = pd.DataFrame(
 ...     {"revenue": [7000, 3400], "employee_count":[2, 2]},
 ...     index=["New York", "Barcelona"]
-... )` 
-
+... )
+```
 This second  `DataFrame`  contains info on the cities  `"New York"`  and  `"Barcelona"`.
 
 You can add these cities to  `city_data`  using  `.concat()`:
 
->>>
-
-`>>> all_city_data = pd.concat([city_data, further_city_data], sort=False)
+```py
+all_city_data = pd.concat([city_data, further_city_data], sort=False)
 >>> all_city_data
+
 Amsterdam   4200    5.0
 Tokyo       6500    8.0
 Toronto     8000    NaN
 New York    7000    2.0
 Barcelona   3400    2.0` 
-
+```
 Now, the new variable  `all_city_data`  contains the values from both  `DataFrame`  objects.
 
 **Note:**  As of Pandas version 0.25.0, the  `sort`  parameter’s default value is  `True`, but this will change to  `False`  soon. It’s good practice to provide an explicit value for this parameter to ensure that your code works consistently in different Pandas and Python versions. For more info, consult the  [Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#concatenating-objects).
@@ -1106,5 +1104,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDE3MDg3MywxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTE3Njg3NzkwMDgsMTIwNTA4MjY1NF19
 -->
