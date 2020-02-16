@@ -225,7 +225,7 @@ Using the methods you’ve already learned, you can represent the same Python ti
  t = time()
 t
 1551186415.360564
->>> ctime(t)
+ctime(t)
 
 # 'Tue Feb 26 07:06:55 2019'
 ```
@@ -720,5 +720,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDkzODk4OF19
+eyJoaXN0b3J5IjpbLTgyNjcyNjYwMiwtMjM0OTM4OTg4XX0=
 -->
