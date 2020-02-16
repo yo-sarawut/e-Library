@@ -539,25 +539,28 @@ Since a  `DataFrame`  consists of  `Series`  objects, you can use the very same 
 If you think of a  `DataFrame`  as a dictionary whose values are  `Series`, then it makes sense that you can access its columns with the indexing operator:
 ```py
 >>> city_data["revenue"]
-Amsterdam    4200
-Tokyo        6500
-Toronto      8000
-Name: revenue, dtype: int64
->>> type(city_data["revenue"])
-pandas.core.series.Series` 
 
+# Amsterdam    4200
+# Tokyo        6500
+# Toronto      8000
+# Name: revenue, dtype: int64
+```
+```py
+type(city_data["revenue"])
+
+# pandas.core.series.Series 
+```
 Here, you use the indexing operator to select the column labeled  `"revenue"`.
 
 If the column name is a string, then you can use attribute-style accessing with dot notation as well:
+```py
+city_data.revenue
 
->>>
-
-`>>> city_data.revenue
 Amsterdam    4200
 Tokyo        6500
 Toronto      8000
 Name: revenue, dtype: int64` 
-
+```
 `city_data["revenue"]`  and  `city_data.revenue`  return the same output.
 
 There’s one situation where accessing  `DataFrame`  elements with dot notation may not work or may lead to surprises. This is when a column name coincides with a  `DataFrame`  attribute or method name:
@@ -1116,5 +1119,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNzg2NjI0LDEyMDUwODI2NTRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODI1Mzk4MjEsMTIwNTA4MjY1NF19
 -->
