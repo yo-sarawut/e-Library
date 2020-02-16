@@ -38,9 +38,9 @@ The last thing you’ll need is the  [Pandas](https://pandas.pydata.org/)  Pytho
 $ python -m pip install pandas` 
 ```
 You can also use the  [Conda](https://docs.conda.io/en/latest/)  package manager:
-
-`$ conda install pandas` 
-
+```py
+$ conda install pandas 
+```
 If you’re using the  [Anaconda](https://www.anaconda.com/)  distribution, then you’re good to go! Anaconda already comes with the Pandas Python library installed.
 
 **Note:**  Have you heard that there are multiple  **package managers**  in the Python world and are somewhat confused about which one to pick?  `pip`  and  `conda`  are both excellent choices, and they each have their advantages.
@@ -59,8 +59,8 @@ Let’s get started!
 ## Using the Pandas Python Library
 
 Now that you’ve installed Pandas, it’s time to have a look at a dataset. In this tutorial, you’ll analyze NBA results provided by  [FiveThirtyEight](https://fivethirtyeight.com/)  in a 17MB  [CSV file](https://realpython.com/courses/reading-and-writing-csv-files/). Create a script  `download_nba_all_elo.py`  to download the data:
-
-`import requests
+```py
+import requests
 
 download_url = "https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv"
 target_csv_path = "nba_all_elo.csv"
@@ -69,11 +69,11 @@ response = requests.get(download_url)
 response.raise_for_status()    # Check that the request was successful
 with open(target_csv_path, "wb") as f:
     f.write(response.content)
-print("Download ready.")` 
-
+print("Download ready.")
+```
 When you execute the script, it will save the file  `nba_all_elo.csv`  in your current working directory.
 
-**Note:**  You could also use your web browser to download the CSV file.
+>**Note:**  You could also use your web browser to download the CSV file.
 
 However, having a download script has several advantages:
 
@@ -82,12 +82,11 @@ However, having a download script has several advantages:
 -   You don’t need to share the 17MB CSV file with your co-workers. Usually, it’s enough to share the download script.
 
 Now you can use the Pandas Python library to take a look at your data:
+```py
+ import pandas as pd
+ nba = pd.read_csv("nba_all_elo.csv")
+type(nba)
 
->>>
-
-`>>> import pandas as pd
->>> nba = pd.read_csv("nba_all_elo.csv")
->>> type(nba)
 <class 'pandas.core.frame.DataFrame'>` 
 
 Here, you follow the convention of importing Pandas in Python with the  `pd`  alias. Then, you use  `.read_csv()`  to read in your dataset and store it as a  `DataFrame`  object in the variable  `nba`.
@@ -1140,5 +1139,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTEwMTY4MTE1LDEyMDUwODI2NTRdfQ==
 -->
