@@ -10,6 +10,35 @@ Using Pandas and Python to Explore Your Dataset
 
 ![enter image description here](https://files.realpython.com/media/Intro-to-Exploratory-Data-Analysis-With-Pandas_Watermarked.81a7d7df468f.jpg)
 
+**Table of Contents**
+
+-   [Setting Up Your Environment](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#setting-up-your-environment)
+-   [Using the Pandas Python Library](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#using-the-pandas-python-library)
+-   [Getting to Know Your Data](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#getting-to-know-your-data)
+    -   [Displaying Data Types](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#displaying-data-types)
+    -   [Showing Basics Statistics](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#showing-basics-statistics)
+    -   [Exploring Your Dataset](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#exploring-your-dataset)
+-   [Getting to Know Pandas’ Data Structures](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#getting-to-know-pandas-data-structures)
+    -   [Understanding Series Objects](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#understanding-series-objects)
+    -   [Understanding DataFrame Objects](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#understanding-dataframe-objects)
+-   [Accessing Series Elements](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#accessing-series-elements)
+    -   [Using the Indexing Operator](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#using-the-indexing-operator)
+    -   [Using  `.loc`  and  `.iloc`](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#using-loc-and-iloc)
+-   [Accessing DataFrame Elements](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#accessing-dataframe-elements)
+    -   [Using the Indexing Operator](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#using-the-indexing-operator-1)
+    -   [Using  `.loc`  and  `.iloc`](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#using-loc-and-iloc-1)
+-   [Querying Your Dataset](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#querying-your-dataset)
+-   [Grouping and Aggregating Your Data](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#grouping-and-aggregating-your-data)
+-   [Manipulating Columns](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#manipulating-columns)
+-   [Specifying Data Types](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#specifying-data-types)
+-   [Cleaning Data](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#cleaning-data)
+    -   [Missing Values](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#missing-values)
+    -   [Invalid Values](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#invalid-values)
+    -   [Inconsistent Values](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#inconsistent-values)
+-   [Combining Multiple Datasets](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#combining-multiple-datasets)
+-   [Visualizing Your Pandas DataFrame](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#visualizing-your-pandas-dataframe)
+-   [Conclusion](http://localhost:1313/library/tutorials/docs/python/pandas/pandas-explore-dataset/#conclusion)
+
 Do you have a large dataset that’s full of interesting insights, but you’re not sure where to start exploring it? Has your boss asked you to generate some statistics from it, but they’re not so easy to extract? These are precisely the use cases where  **Pandas**  and Python can help you! With these tools, you’ll be able to slice a large dataset down into manageable parts and glean insight from that information.
 
 **In this tutorial, you’ll learn how to:**
@@ -1097,5 +1126,6 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzODEyMTEsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTE5ODc3ODQ5NywtMTg5NDM4MTIxMSwxMj
+A1MDgyNjU0XX0=
 -->
