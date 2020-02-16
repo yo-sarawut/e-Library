@@ -560,6 +560,28 @@ df = pd.DataFrame()
 df['date'] = date_series
 df.head()
 ```
+  
+date
+
+0
+
+2019-08-10
+
+1
+
+2019-08-11
+
+2
+
+2019-08-12
+
+3
+
+2019-08-13
+
+4
+
+2019-08-14
 	date
 0	2019-08-10
 1	2019-08-11
@@ -930,5 +952,5 @@ In this tutorial, we’ve taken a deep dive into Python datetime, and also done 
 
 > [Source : ](https://www.dataquest.io/blog/python-datetime-tutorial/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTEyMTQ0NV19
+eyJoaXN0b3J5IjpbMjAyODA3NjAwMF19
 -->
