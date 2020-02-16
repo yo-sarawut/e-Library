@@ -661,21 +661,20 @@ You can combine multiple criteria and query your dataset as well. To do this, be
 >**Note:**  The operators  `and`,  `or`,  `&&`, and  `||`  won’t work here. If you’re curious as to why then check out the section on how the Pandas Python library uses Boolean operators in  [Python Pandas: Tricks & Features You May Not Know](https://realpython.com/python-pandas-tricks/#8-understand-how-pandas-uses-boolean-operators).
 
 Do a search for Baltimore games where both teams scored over 100 points. In order to see each game only once, you’ll need to exclude duplicates:
-
->>>
-
-`>>> nba[
+```py
+nba[
 ...     (nba["_iscopy"] == 0) &
 ...     (nba["pts"] > 100) &
 ...     (nba["opp_pts"] > 100) &
 ...     (nba["team_id"] == "BLB")
-... ]` 
+... ]
+```
 
 Here, you use  `nba["_iscopy"] == 0`  to include only the entries that aren’t copies.
 
 Your output should contain five eventful games:
 
-[![Pandas DataFrame query with multiple criteria](https://files.realpython.com/media/BLB_both_over_100_points.6fc6b6ff2d3b.png)](https://files.realpython.com/media/BLB_both_over_100_points.6fc6b6ff2d3b.png)
+![Pandas DataFrame query with multiple criteria](https://files.realpython.com/media/BLB_both_over_100_points.6fc6b6ff2d3b.png)
 
 Try to build another query with multiple criteria. In the spring of 1992, both teams from Los Angeles had to play a home game at another court. Query your dataset to find those two games. Both teams have an ID starting with  `"LA"`. Expand the code block below to see a solution:
 
@@ -688,26 +687,25 @@ When you know how to query your dataset with multiple criteria, you’ll be able
 You may also want to learn other features of your dataset, like the sum, mean, or average value of a group of elements. Luckily, the Pandas Python library offers  **grouping and aggregation functions**  to help you accomplish this task.
 
 A  `Series`  has more than twenty different methods for calculating descriptive statistics. Here are some examples:
+```py
+city_revenues.sum()
+# 18700
 
->>>
-
-`>>> city_revenues.sum()
-18700
->>> city_revenues.max()
-8000` 
-
+city_revenues.max()
+# 8000` 
+```
 The first method returns the total of  `city_revenues`, while the second returns the max value. There are other methods you can use, like  `.min()`  and  `.mean()`.
 
 Remember, a column of a  `DataFrame`  is actually a  `Series`  object. For this reason, you can use these same functions on the columns of  `nba`:
 
->>>
+```py
 
-`>>> points = nba["pts"]
->>> type(points)
-<class 'pandas.core.series.Series'>
+points = nba["pts"]
+type(points)
+# <class 'pandas.core.series.Series'>
 >>> points.sum()
-12976235` 
-
+# 12976235` 
+```
 A  `DataFrame`  can have multiple columns, which introduces new possibilities for aggregations, like  **grouping**:
 
 >>>
@@ -1117,5 +1115,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzk1Mjg0NCwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbMjkxMTkwNzA1LDEyMDUwODI2NTRdfQ==
 -->
