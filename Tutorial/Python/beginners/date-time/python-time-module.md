@@ -111,12 +111,12 @@ Here, you’ve recorded the current time in seconds into the variable  `t`, then
 
 **Technical Detail:**  The argument, representing seconds since the epoch, is optional according to the  `ctime()`  definition. If you don’t pass an argument, then  `ctime()`  uses the return value of  `time()`  by default. So, you could simplify the example above:
 
->>>
+```py
+from time import ctime
+ctime()
 
-`>>> from time import ctime
->>> ctime()
-'Mon Feb 25 19:11:59 2019'` 
-
+## 'Mon Feb 25 19:11:59 2019'
+```
 The string representation of time, also known as a  **timestamp**, returned by  `ctime()`  is formatted with the following structure:
 
 1.  **Day of the week:**  `Mon`  (`Monday`)
@@ -129,13 +129,13 @@ The previous example displays the timestamp of a particular moment captured from
 
 Instead of the above output, you’d see the following:
 
->>>
+```py
+from time import time, ctime
+t = time()
+ctime(t)
 
-`>>> from time import time, ctime
->>> t = time()
->>> ctime(t)
-'Tue Feb 26 12:11:59 2019'` 
-
+## 'Tue Feb 26 12:11:59 2019'
+```
 Notice that the  `day of week`,  `day of month`, and  `hour`  portions of the timestamp are different than the first example.
 
 These outputs are different because the timestamp returned by  `ctime()`  depends on your geographical location.
@@ -220,11 +220,9 @@ When you represent time as a tuple, each element in your tuple corresponds to a 
 
 Using the methods you’ve already learned, you can represent the same Python time in two different ways:
 
->>>
-
-`>>> from time import time, ctime
->>> t = time()
->>> t
+ from time import time, ctime
+ t = time()
+t
 1551186415.360564
 >>> ctime(t)
 'Tue Feb 26 07:06:55 2019'
@@ -720,5 +718,5 @@ If you want to continue learning more about using dates and times in Python, tak
 
 > [Source : ](https://realpython.com/python-time-module/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5OTA4NjcyXX0=
+eyJoaXN0b3J5IjpbOTkyNzM0NjYyXX0=
 -->
