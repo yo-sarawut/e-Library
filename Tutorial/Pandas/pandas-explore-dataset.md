@@ -243,15 +243,16 @@ While a  `DataFrame`  provides functions that can feel quite intuitive, the unde
 ### Understanding Series Objects
 
 Python’s most basic data structure is the  [list](https://realpython.com/courses/lists-tuples-python/), which is also a good starting point for getting to know  **`pandas.Series`**  objects. Create a new  `Series`  object based on a list:
-
->>>
-
-`>>> revenues = pd.Series([5555, 7000, 1980])
->>> revenues
+```py
+revenues = pd.Series([5555, 7000, 1980])
+revenues
+```
+```
 0    5555
 1    7000
 2    1980
 dtype: int64` 
+```
 
 You’ve used the list  `[5555, 7000, 1980]`  to create a  `Series`  object called  `revenues`. A  `Series`  object wraps two components:
 
@@ -259,23 +260,20 @@ You’ve used the list  `[5555, 7000, 1980]`  to create a  `Series`  object call
 2.  A sequence of  **identifiers**, which is the index
 
 You can access these components with  `.values`  and  `.index`, respectively:
+```py
+revenues.values
+# array([5555, 7000, 1980])
 
->>>
-
-`>>> revenues.values
-array([5555, 7000, 1980])
->>> revenues.index
-RangeIndex(start=0, stop=3, step=1)` 
-
+revenues.index
+# RangeIndex(start=0, stop=3, step=1)` 
+```
 `revenues.values`  returns the values in the  `Series`, whereas  `revenues.index`  returns the positional index.
 
 **Note:**  If you’re familiar with  [NumPy](https://realpython.com/how-to-use-numpy-arange/), then it might be interesting for you to note that the values of a  `Series`  object are actually n-dimensional arrays:
-
->>>
-
-`>>> type(revenues.values)
-<class 'numpy.ndarray'>` 
-
+```py
+type(revenues.values)
+#  <class 'numpy.ndarray'> 
+```
 If you’re not familiar with NumPy, then there’s no need to worry! You can explore the ins and outs of your dataset with the Pandas Python library alone. However, if you’re curious about what Pandas does behind the scenes, then check out  [Look Ma, No For-Loops: Array Programming With NumPy](https://realpython.com/numpy-array-programming/).
 
 While Pandas builds on NumPy, a significant difference is in their  **indexing**. Just like a NumPy array, a Pandas  `Series`  also has an integer index that’s implicitly defined. This implicit index indicates the element’s position in the  `Series`.
@@ -1131,5 +1129,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjE0NjcyNiwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbMjE0MDM0NTYzOCwxMjA1MDgyNjU0XX0=
 -->
