@@ -279,34 +279,34 @@ If you’re not familiar with NumPy, then there’s no need to worry! You can ex
 While Pandas builds on NumPy, a significant difference is in their  **indexing**. Just like a NumPy array, a Pandas  `Series`  also has an integer index that’s implicitly defined. This implicit index indicates the element’s position in the  `Series`.
 
 However, a  `Series`  can also have an arbitrary type of index. You can think of this explicit index as labels for a specific row:
-
->>>
-
-`>>> city_revenues = pd.Series(
+```py
+city_revenues = pd.Series(
 ...     [4200, 8000, 6500],
 ...     index=["Amsterdam", "Toronto", "Tokyo"]
 ... )
->>> city_revenues
+city_revenues
+```
+```
 Amsterdam    4200
 Toronto      8000
 Tokyo        6500
-dtype: int64` 
-
+dtype: int64
+```
 Here, the index is a list of city names represented by strings. You may have noticed that Python dictionaries use string indices as well, and this is a handy analogy to keep in mind! You can use the code blocks above to distinguish between two types of  `Series`:
 
 1.  **`revenues`:**  This  `Series`  behaves like a Python list because it only has a positional index.
 2.  **`city_revenues`:**  This  `Series`  acts like a Python dictionary because it features both a positional and a label index.
 
 Here’s how to construct a  `Series`  with a label index from a Python dictionary:
-
->>>
-
-`>>> city_employee_count = pd.Series({"Amsterdam": 5, "Tokyo": 8})
->>> city_employee_count
+```py
+ city_employee_count = pd.Series({"Amsterdam": 5, "Tokyo": 8})
+city_employee_count
+```
+```
 Amsterdam    5
 Tokyo        8
-dtype: int64` 
-
+dtype: int64 
+```
 The dictionary keys become the index, and the dictionary values are the  `Series`  values.
 
 Just like dictionaries,  `Series`  also support  `.keys()`  and the  `in`  keyword:
@@ -1129,5 +1129,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDM0NTYzOCwxMjA1MDgyNjU0XX0=
+eyJoaXN0b3J5IjpbLTIwNjk2OTI5NTQsMTIwNTA4MjY1NF19
 -->
