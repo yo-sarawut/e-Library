@@ -216,16 +216,18 @@ Indeed, the Minneapolis Lakers (`"MNL"`) played 946 games. You can even find out
 ```py
 nba.loc[nba["team_id"] == "MNL", "date_game"].min()
 
-# '1/1/1949'
+'1/1/1949'
 ```
 ```py
->>> nba.loc[nba["team_id"] == "MNL", "date_game"].max()
-'4/9/1959'
->>> nba.loc[nba["team_id"] == "MNL", "date_game"].agg(("min", "max"))
-min    1/1/1949
-max    4/9/1959
-Name: date_game, dtype: object` 
-
+nba.loc[nba["team_id"] == "MNL", "date_game"].max()
+# '4/9/1959'
+```
+```py
+nba.loc[nba["team_id"] == "MNL", "date_game"].agg(("min", "max"))
+# min    1/1/1949
+# max    4/9/1959
+# Name: date_game, dtype: object
+```
 It looks like the Minneapolis Lakers played between the years of 1949 and 1959. That explains why you might not recognize this team!
 
 You’ve also found out why the Boston Celtics team  `"BOS"`  played the most games in the dataset. Let’s analyze their history also a little bit. Find out how many points the Boston Celtics have scored during all matches contained in this dataset. Expand the code block below for the solution:
@@ -1129,5 +1131,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNzI2MTYsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbLTMzMjE0NjcyNiwxMjA1MDgyNjU0XX0=
 -->
