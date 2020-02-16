@@ -420,26 +420,28 @@ city_revenues
 You can conveniently access the values in a  `Series`  with both the label and positional indices:
 
 ```py
->>> city_revenues["Toronto"]
-8000
->>> city_revenues[1]
-8000 
+city_revenues["Toronto"]
+# 8000
+
+city_revenues[1]
+# 8000 
 ```
 You can also use negative indices and slices, just like you would for a list:
 
->>>
+```py
+city_revenues[-1]
+# 6500
 
-`>>> city_revenues[-1]
-6500
->>> city_revenues[1:]
-Toronto    8000
-Tokyo      6500
-dtype: int64
->>> city_revenues["Toronto":]
-Toronto    8000
-Tokyo      6500
-dtype: int64` 
+city_revenues[1:]
+# Toronto    8000
+# Tokyo      6500
+# dtype: int64
 
+city_revenues["Toronto":]
+# Toronto    8000
+# Tokyo      6500
+# dtype: int64` 
+```
 If you want to learn more about the possibilities of the indexing operator, then check out  [Lists and Tuples in Python](https://realpython.com/python-lists-tuples/).
 
 ### Using  `.loc`  and  `.iloc`
@@ -1121,5 +1123,5 @@ You can get all the code examples you saw in this tutorial by clicking the link 
 
 > [Source : ](https://realpython.com/pandas-python-explore-dataset/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3Mzc1MDIsMTIwNTA4MjY1NF19
+eyJoaXN0b3J5IjpbMTY3NTU1MzA2OCwxMjA1MDgyNjU0XX0=
 -->
