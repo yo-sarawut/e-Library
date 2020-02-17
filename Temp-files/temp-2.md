@@ -6,8 +6,9 @@
 -   [Python  `datetime`  Classes](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#python-datetime-classes)
 -   [Creating Date Objects](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#creating-date-objects)
 -   [Extract Year and Month from the Date](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#extract-year-and-month-from-the-date)
-- -   [Getting Day of the Month and Day of the Week from a Date](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#getting-day-of-the-month-and-day-of-the-week-from-a-date)
--   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#getting-hours-and-minutes-from-a-python-datetime-object-https-www-dataquest-io-blog-python-datetime-tutorial-getting-hours-and-minutes-from-a-datetime-object)[Getting Hours and Minutes From a Python Datetime Object](https://www.dataquest.io/blog/python-datetime-tutorial/#Getting-Hours-and-Minutes-From-a-Datetime-Object)
+-   [Getting Day of the Month and Day of the Week from a Date](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#getting-day-of-the-month-and-day-of-the-week-from-a-date)
+-   [Getting Day of the Month and Day of the Week from a Date](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#getting-day-of-the-month-and-day-of-the-week-from-a-date)
+- [Getting Hours and Minutes From a Python Datetime Object](https://www.dataquest.io/blog/python-datetime-tutorial/#Getting-Hours-and-Minutes-From-a-Datetime-Object)
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#getting-week-of-the-year-from-a-datetime-object-https-www-dataquest-io-blog-python-datetime-tutorial-getting-week-of-the-year-from-a-datetime-object)[Getting Week of the Year from a Datetime Object](https://www.dataquest.io/blog/python-datetime-tutorial/#Getting-Week-of-the-Year-from-a-Datetime-Object)
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#converting-a-date-object-into-unix-timestamp-and-vice-versa-https-www-dataquest-io-blog-python-datetime-tutorial-converting-a-date-object-into-unix-timestamp-and-vice-versa)[Converting a Date Object into Unix Timestamp and Vice Versa](https://www.dataquest.io/blog/python-datetime-tutorial/#Converting-a-Date-Object-into-Unix-Timestamp-and-Vice-Versa)
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#measuring-time-span-with-timedelta-objects-https-www-dataquest-io-blog-python-datetime-tutorial-measuring-time-span-with-timedelta-objects)[Measuring Time Span with Timedelta Objects](https://www.dataquest.io/blog/python-datetime-tutorial/#Measuring-Time-Span-with-Timedelta-Objects)
@@ -16,6 +17,6 @@
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#handling-timezones-https-www-dataquest-io-blog-python-datetime-tutorial-handling-timezones)[Handling Timezones](https://www.dataquest.io/blog/python-datetime-tutorial/#Handling-Timezones)
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#working-with-pandas-datetime-objects-https-www-dataquest-io-blog-python-datetime-tutorial-working-with-pandas-datetime-objects)[Working with  `pandas`  Datetime Objects](https://www.dataquest.io/blog/python-datetime-tutorial/#Working-with-pandas-Datetime-Objects)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkzNjg3ODMsMTA1MTUxOTQ1Nyw5MD
+eyJoaXN0b3J5IjpbLTE3MzMyNzEwNTIsMTA1MTUxOTQ1Nyw5MD
 c5MzQ5NzZdfQ==
 -->
