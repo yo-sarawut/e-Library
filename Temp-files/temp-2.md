@@ -1,5 +1,5 @@
 
-[Python Datetime Tutorial: Manipulate Times, Dates, and Time Spans](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#python-datetime-tutorial-manipulate-times-dates-and-time-spans)
+## Table of Contents
 
 -   [Python  datetime  Classes](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#python-datetime-classes)
 -   [Creating Date Objects](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#creating-date-objects)
@@ -19,5 +19,5 @@
     -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#convert-date-object-into-dataframe-index-https-www-dataquest-io-blog-python-datetime-tutorial-convert-date-object-into-dataframe-index)[Convert Date Object into DataFrame Index](https://www.dataquest.io/blog/python-datetime-tutorial/#Convert-Date-Object-into-DataFrame-Index)
 -   [](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/python-datetime-tutorial/#conclusion-https-www-dataquest-io-blog-python-datetime-tutorial-conclusion)[Conclusion](https://www.dataquest.io/blog/python-datetime-tutorial/#Conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDc1MTkwMl19
+eyJoaXN0b3J5IjpbOTA3OTM0OTc2XX0=
 -->
