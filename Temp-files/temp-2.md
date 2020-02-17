@@ -2,7 +2,7 @@
 ## Table of Contents
 
 
-[Python DateTime, TimeDelta, Strftime(Format) with Examples](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-datetime-timedelta-strftime-format-with-examples)
+- [Python DateTime, TimeDelta, Strftime(Format) with Examples](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-datetime-timedelta-strftime-format-with-examples)
 
 -   [How to Use Date & DateTime Class](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#how-to-use-date-datetime-class)
 -   [Print Date using date.today()](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#print-date-using-date-today)
@@ -13,6 +13,6 @@
 -   [Python 2 Example](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-2-example)
     -   [Summary](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#summary)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY5MTk2MzEsLTE3MzMyNzEwNTIsMT
-A1MTUxOTQ1Nyw5MDc5MzQ5NzZdfQ==
+eyJoaXN0b3J5IjpbNzE5MzIxMjg0LC0xNzMzMjcxMDUyLDEwNT
+E1MTk0NTcsOTA3OTM0OTc2XX0=
 -->
