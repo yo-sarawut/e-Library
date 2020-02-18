@@ -28,7 +28,7 @@ print(new_string)
 
 The following snippet can be used to convert a string to title case. This is done using the  `title()`  method of the string class.
 
-```
+```py
 my_string = "my name is chaitanya baweja"
 
 # using the title() function of string class
@@ -44,7 +44,7 @@ print(new_string)
 
 The following snippet reverses a string using the Python slicing operation.
 
-```
+```py
 # Reversing a string using slicing
 
 my_string = "ABCDE"
@@ -62,7 +62,7 @@ You can read more about this  [here](https://on.morioh.net/b0a3f595aa?r=https://
 
 You can use multiplication (*) with strings or lists. This allows us to multiply them as many times as we like.
 
-```
+```py
 n = 3 # number of repetitions
 
 my_string = "abcd"
@@ -78,7 +78,7 @@ print(my_list*n)
 
 An interesting use case of this could be to define a list with a constant value — let’s say zero.
 
-```
+```py
 n = 4
 my_list = [0]*n # n denotes the length of the required list
 
@@ -89,7 +89,7 @@ my_list = [0]*n # n denotes the length of the required list
 
 The join() method combines a list of strings passed as an argument into a single string. In our case, we separate them using the comma separator.
 
-```
+```py
 list_of_strings = ['My', 'name', 'is', 'Chaitanya', 'Baweja']
 
 # Using join with the comma separator
@@ -103,7 +103,7 @@ print(','.join(list_of_strings))
 
 Python makes it quite simple to swap values between two variables without using another variable.
 
-```
+```py
 a = 1
 b = 2
 
@@ -117,7 +117,7 @@ print(b) # 1
 
 We can split a string into a list of substrings using the .split() method in the string class. You can also pass as an argument the separator on which you wish to split.
 
-```
+```py
 string_1 = "My name is Chaitanya Baweja"
 string_2 = "sample/ string 2"
 
@@ -136,7 +136,7 @@ print(string_2.split('/'))
 List comprehension provides us with an elegant way of creating lists based on other lists.  
 The following snippet creates a new list by multiplying each element of the old list by two.
 
-```
+```py
 # Multiplying each element in a list by 2
 
 original_list = [1,2,3,4]
@@ -154,7 +154,7 @@ You can read more about it  [here.](https://on.morioh.net/b0a3f595aa?r=https://m
 
 We have already discussed how to reverse a string. So palindromes become a straightforward program in Python.
 
-```
+```py
 my_string = "abcba"
 
 if my_string == my_string[::-1]:
@@ -316,7 +316,6 @@ end_time = time.time()
 time_taken_in_micro = (end_time- start_time)*(10**6)
 
 print(" Time taken in micro_seconds: {0} ms").format(time_taken_in_micro)
-
 ```
 
 ## **17. Flattening a List of Lists**
@@ -339,8 +338,8 @@ print(flatten(l))
 l = [[1,2,3],[4,[5],[6,7]],[8,[9,[10]]]]
 
 print(list(deepflatten(l, depth=3)))
-# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 [Numpy flatten](https://on.morioh.net/b0a3f595aa?r=https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.htmlhttps://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.html "Numpy flatten")  is a better way to do this if you have a properly formatted array.
@@ -350,13 +349,14 @@ print(list(deepflatten(l, depth=3)))
 While in Python 2, we used the  `update()`  method to merge two dictionaries; Python 3.5 made the process even simpler.  
 In the script given below, two dictionaries are merged. Values from the second dictionary are used in case of intersections.
 
-```
+```py
 dict_1 = {'apple': 9, 'banana': 6}
 dict_2 = {'banana': 4, 'orange': 8}
 
 combined_dict = {**dict_1, **dict_2}
 
 print(combined_dict)
+
 # Output
 # {'apple': 9, 'banana': 4, 'orange': 8}
 ```
@@ -364,5 +364,6 @@ print(combined_dict)
 
 > [Source : ](https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1RdPqOkouQtzq7p5KUO1AIHwHyKnZpDRGVPX5vKMI_07R9TE2y7xALH7Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY1NzYyMjZdfQ==
+eyJoaXN0b3J5IjpbLTE1OTE0MzI5MjgsLTIwNDY1NzYyMjZdfQ
+==
 -->
