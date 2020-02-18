@@ -172,47 +172,49 @@ $git reset --mixed develop  #ย้อนกลับไปที่ Branch deve
 #รวม branch master กับ branch feature แบบ no fast forward  
 $git merge --no-ff feature#รวม branch master กับ branch feature แบบ fast forward  
 $git merge feature
+```
 
-![](https://miro.medium.com/max/30/1*SjSWhbwhPqFUTlPL8IV2mg.png?q=20)
 
 ![](https://miro.medium.com/max/1008/1*SjSWhbwhPqFUTlPL8IV2mg.png)
 
 ## Git Remote [เริ่มต้นทำงานกับ Git Hosting (Remote Repository)]
 
 เพิ่ม URL ของ Remote Repository เข้าไปยังคุณสมบัติของ Git โดยชื่อว่า origin ส่วนใหญ่จะเป็นชื่อ Default ที่หลายๆ คนเข้าใจตรงกัน แต่เราก็สามารถตั้งชื่ออื่นๆ ได้
-
-$git remote add origin <URL> #เพิ่ม Remote Repository ชื่อ origin $git remote add origin https://github.com/NewGame0/Android_HelloWorld.git #เพิ่ม Remote Repository ใหม่ชื่อ origin  
+```
+$git remote add origin <URL> #เพิ่ม Remote Repository ชื่อ origin 
+$git remote add origin https://github.com/NewGame0/Android_HelloWorld.git #เพิ่ม Remote Repository ใหม่ชื่อ origin  
 $git remote set-url origin <New URL>$git remote -v      #แสดง Remote Repository  
 $git config --list  #แสดงคุณสมบัติต่างๆของ Git ซึ่งจะมี Remote Repository แสดงออกมาด้วย
-
+```
 ## Git Push
 
 เป็นคำสั่งที่ใช้ส่งการเปลี่ยนแปลงของ Source Code ที่เก็บอยู่บน Local Repository ขึ้นไปยัง Remote Repository
 
 #ส่งการเปลี่ยนแปลง Branch master ไปยัง Remote ที่ชื่อ origin  
+```
 $git push origin master 
-
+```
 ## Git Fetch
 
 เป็นคำสั่งที่ใช้รับการเปลี่ยนแปลงของ Source Code ล่าสุดที่อยู่บน Remote Repository ลงมายัง Local Repository แต่ยังไม่ได้ทำการรวม Source Code (Merge)
-
+```
 #รับการเปลี่ยนแปลงทุก Branch จาก Remote Repository  
 $git fetch --all#รับการเปลี่ยนแปลง Branch master จาก Remote Repository ที่ชื่อ origin  
 $git fetch origin master
-
+```
 ## Git Pull [fetch + merge]
 
 เป็นคำสั่งที่ใช้รับการเปลี่ยนแปลงของ Source Code ล่าสุดที่อยู่บน Remote Repository ลงมายัง Local Repository และทำการ Auto Merge
-
+```
 $git pull <remote> <branch>  
 $git pull origin master
-
+```
 ## Git Clone
 
 เป็นคำสั่งที่ใช้ดึงประวัติทั้งหมดบน Remote Repository ของเพื่อนร่วมทีม ของคนอื่นหรือของเราเองที่มีอยู่แล้วบน Git Hosting มาที่เครื่องของเรา คำสั่งนี้จะคล้ายๆ Git Init ที่ใช้สร้างระบบ Git ขึ้นมาตอนเริ่มต้น แต่เราจะได้ประวัติเดิมของ Repository มาด้วย ทำให้เราเริ่มพัฒนาต่อจากตรงจุดนี้ได้เลย
-
+```
 $git clone https://github.com/NewGame0/Android_HelloWorld.git
-
+```
 คำสั่ง Git Clone นั้นจะ Checkout Branch หลักมาเป็น Master และดึง Tag ลงมาทั้งหมด
 
 ## คำสั่งอื่นๆ
@@ -226,9 +228,9 @@ $echo >> .gitignore "*.class"
 $echo >> .gitignore "/Debug"    
 $echo >> .gitignore "/Build"$git add .gitignore #เพิ่มไฟล์ชื่อ .gitignore เข้าไปที่สถานะ Staged  
 $git commit -m "Add .gitignore file"
-
+```
 ในกรณีที่มีการเพิ่มไฟล์ที่ไม่ต้องการเข้าไปยังสถานะ Staged แล้ว และเพิ่มไฟล์ .gitignore เข้าไปทีหลัง สามารถใช้คำสั่งนี้เพื่อลบไฟล์หรือโฟล์เดอร์ที่ไม่ต้องการออกจากสถานะ Staged และ Commit Apply .gitignore เข้าไปอีกครั้ง
-
+```
 $git rm --cached <file name>  
 $git rm --cached <path to file>  
 $git rm --cached .class  
@@ -236,7 +238,7 @@ $git rm --cached Debug/*
 $git rm --cached Build/*  
 $git rm -r --cashed *$git commit -am "apply .gitignore file"#แสดงไฟล์ที่ Track ไว้ในระบบของ Git ไฟล์ที่ ignore จะหายไปแม้จะยังอยู่ในโฟล์เดอร์  
 $git ls-files
-
+```
 Git Ignore ที่มีการรวบรวมไว้บน GitHub  [https://github.com/github/gitignore](https://github.com/github/gitignore)
 
 ## Git Tag
@@ -494,5 +496,5 @@ Git กลายมาเป็นสิ่งที่จำเป็นแล�
 [5]  [Credential Helper](http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-on-github)  
 [6]  [How to use git with gnome-keyring integration](http://stackoverflow.com/questions/13385690/how-to-use-git-with-gnome-keyring-integration)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzA3MTYzN119
+eyJoaXN0b3J5IjpbMTM2NjE3MTc5M119
 -->
