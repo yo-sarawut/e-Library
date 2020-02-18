@@ -50,7 +50,6 @@ test_list = ['cucumber', 'pumpkin', 'carrot']
 
 with open('test_pickle.pkl', 'wb') as pickle_out:
     pickle.dump(test_list, pickle_out)
-
 ```
 
 First, we have to import the  `pickle`  module, which is done in line 1. In line 3 we define a simple, three element list that will be pickled.
@@ -78,7 +77,6 @@ with open('test_pickle.pkl', 'rb') as pickle_in:
     unpickled_list = pickle.load(pickle_in)
 
 print(unpickled_list)
-
 ```
 
 As you can see, this procedure is not more complicated than when we pickled the object. In line 3 we open our  `test_pickle.pkl`  file again, but this time our goal is to read (`r`) the binary data (`b`) stored within it.
@@ -90,7 +88,6 @@ You can then print the contents of the list to see for yourself that it is ident
 ```
 $ python unpickle.py
 ['cucumber', 'pumpkin', 'carrot']
-
 ```
 
 ### Pickling and Unpickling Custom Objects
@@ -146,7 +143,6 @@ Traceback (most recent call last):
   File "<pyshell#40>", line 2, in <module>
     unpickled_cucumber = pickle.load(pickle_in)
 AttributeError: Can't get attribute 'Veggy' on <module '__main__' (built-in)>
-
 ```
 
 ### Conclusion
@@ -159,6 +155,6 @@ Reference : [https://stackabuse.com/introduction-to-the-python-pickle-module/](h
 
 ศึกษาเพิ่มเติม : [https://python3.wannaphong.com/](https://python3.wannaphong.com/2016/07/pickle-python.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg2NjgyNjAsLTg3MDg4NzY5MSwtMT
+eyJoaXN0b3J5IjpbLTEyMTk1OTEyNjgsLTg3MDg4NzY5MSwtMT
 EzMzI1MTY0OV19
 -->
