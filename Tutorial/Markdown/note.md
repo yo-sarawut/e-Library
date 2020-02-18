@@ -33,14 +33,10 @@
 </tr>
 <tr>
 <td>One, two cell</td>
-
 <td>Red & blue cell</td>
-
 </tr>
-
 </tbody>
-
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODQ4NjcxNSwtMTA0MTUzMDQ1Nl19
+eyJoaXN0b3J5IjpbMTE4ODcwNjUxLC0xMDQxNTMwNDU2XX0=
 -->
