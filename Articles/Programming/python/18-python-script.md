@@ -170,7 +170,7 @@ else:
 
 The following script uses enumerate to iterate through values in a list along with their indices.
 
-```
+```py
 my_list = ['a', 'b', 'c', 'd', 'e']
 
 for index, value in enumerate(my_list):
@@ -191,7 +191,7 @@ An anagram is a word or phrase formed by rearranging the letters of a different 
 
 If the  `Counter`  objects of two strings are equal, then they are anagrams.
 
-```
+```py
 from collections import Counter
 
 str_1, str_2, str_3 = "acbde", "abced", "abcda"
@@ -210,7 +210,7 @@ if cnt_1 == cnt_3:
 Error handling in Python can be done easily using the try/except block. Adding an else statement to this block might be useful. It’s run when there is no exception raised in the try block.  
 If you need to run something irrespective of exception, use  `finally`.
 
-```
+```py
 a, b = 1,0
 
 try:
@@ -235,7 +235,7 @@ Python counter keeps track of the frequency of each element in the container.  `
 
 We also use the  `most_common()`  function to get the`most_frequent`element in the list.
 
-```
+```py
 # finding frequency of each element in a list
 from collections import Counter
 
@@ -256,7 +256,7 @@ print(count.most_common(1)) # most frequent element
 
 The following script can be used to check the memory usage of an object. Read more about it  [here](https://on.morioh.net/b0a3f595aa?r=https://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609 "here").
 
-```
+```py
 import sys
 
 num = 21
@@ -271,7 +271,7 @@ print(sys.getsizeof(num))
 
 The following snippet generates `n`  number of random samples from a given list using the  `random`  library.
 
-```
+```py
 import random
 
 my_list = ['a', 'b', 'c', 'd', 'e']
@@ -286,7 +286,7 @@ print(samples)
 I have been recommended the  [secrets](https://on.morioh.net/b0a3f595aa?r=https://docs.python.org/3/library/secrets.html "secrets ") library for generating random samples for cryptography purposes. The following snippet will work  
 only on Python 3.
 
-```
+```py
 import secrets                              # imports secure module.
 secure_random = secrets.SystemRandom()      # creates a secure random object.
 
@@ -304,7 +304,7 @@ print(samples)
 
 The following snippet uses the  `time`  library to calculate the time taken to execute a piece of code.
 
-```
+```py
 import time
 
 start_time = time.time()
@@ -323,7 +323,7 @@ print(" Time taken in micro_seconds: {0} ms").format(time_taken_in_micro)
 Sometimes you’re not sure about the nesting depth of your list, and you simply want all the elements in a single flat list.  
 Here’s how you can get that:
 
-```
+```py
 from iteration_utilities import deepflatten
 
 # if you only have one depth nested_list, use this
@@ -364,6 +364,5 @@ print(combined_dict)
 
 > [Source : ](https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1RdPqOkouQtzq7p5KUO1AIHwHyKnZpDRGVPX5vKMI_07R9TE2y7xALH7Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE0MzI5MjgsLTIwNDY1NzYyMjZdfQ
-==
+eyJoaXN0b3J5IjpbLTQyNTg5MjQzLC0yMDQ2NTc2MjI2XX0=
 -->
