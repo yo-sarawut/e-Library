@@ -1,5 +1,8 @@
 ## ศึกษาเพิ่มเติม
 
+### Articles
+- [pivot_table() ](https://dfrieds.com/data-analysis/pivot-table-python-pandas.html)
+
 ### เอกสารเพิ่มเติม
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
 
@@ -16,6 +19,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDY4MzY1NywxNDk3ODM0ODE4LC0xOD
-gyMTkxNDIsMTA5MDAwMTU0NiwtMTc3NDI0NzYxNF19
+eyJoaXN0b3J5IjpbLTIwMzE2ODM4MzAsMTM0MDY4MzY1NywxND
+k3ODM0ODE4LC0xODgyMTkxNDIsMTA5MDAwMTU0NiwtMTc3NDI0
+NzYxNF19
 -->
