@@ -223,6 +223,8 @@ else:
 finally:
     print("Run this always")
 
+# division by zero
+# Run this always
 ```
 
 ## **13. Frequency of Elements in a List**
@@ -248,7 +250,6 @@ print(count['b']) # of individual element
 
 print(count.most_common(1)) # most frequent element
 # [('d', 5)]
-
 ```
 
 ## **14. Check the Memory Usage of an Object**
@@ -264,7 +265,6 @@ print(sys.getsizeof(num))
 
 # In Python 2, 24
 # In Python 3, 28
-
 ```
 
 ## **15. Sampling From a List**
@@ -279,8 +279,8 @@ num_samples = 2
 
 samples = random.sample(my_list,num_samples)
 print(samples)
-# [ 'a', 'e'] this will have any 2 random values
 
+# [ 'a', 'e'] this will have any 2 random values
 ```
 
 I have been recommended the  [secrets](https://on.morioh.net/b0a3f595aa?r=https://docs.python.org/3/library/secrets.html "secrets ") library for generating random samples for cryptography purposes. The following snippet will work  
@@ -296,8 +296,8 @@ num_samples = 2
 samples = secure_random.sample(my_list, num_samples)
 
 print(samples)
-# [ 'e', 'd'] this will have any 2 random values
 
+# [ 'e', 'd'] this will have any 2 random values
 ```
 
 ## **16. Time Taken to Execute a Piece of Code**
@@ -364,5 +364,5 @@ print(combined_dict)
 
 > [Source : ](https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1RdPqOkouQtzq7p5KUO1AIHwHyKnZpDRGVPX5vKMI_07R9TE2y7xALH7Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE1NDg5MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDY1NzYyMjZdfQ==
 -->
