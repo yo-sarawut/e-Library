@@ -232,11 +232,10 @@ $ man git-<sub_command>
 
 ## .gitignore
 
-เข้าไปที่ folder **public**
+เข้าไปที่ folder **public**  `cd public` แล้วพิมพ์คำสั่ง
 ```sh
-cd public
 echo "public" >> .gitignore
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MzEzOTY2LC0xNzQxODk5MDk2XX0=
+eyJoaXN0b3J5IjpbODg3NTQ4MzU0LC0xNzQxODk5MDk2XX0=
 -->
