@@ -30,12 +30,12 @@ For most things you can think of, there is a python library available for it. So
 pip install markdown==2.6.11
 
 The library offers multiple useful methods and tools for when it comes to working with strings that are formatted using Markdown Syntax. For example, we can easily turn Markdown into HTML with a single method call.
-
+```py  
 from markdown import markdown
 
 markdown("# Hello World")
 # <h1>Hello World</h1>
-
+```  
 The Markdown library also comes with the ability to add different types of extensions that modify the behavior or the way that markdown parse the Markdown Syntax. For example, you can modify how lists are parsed using the  [Sane Lists extension](https://python-markdown.github.io/extensions/sane_lists/ "Sane Lists extension") , or you can add code highlights of any  `<code>`  block using the  [CodeHilite extension](https://python-markdown.github.io/extensions/code_hilite/ "CodeHilite extension") .
 
 ### Add Code Highlights using the CodeHilite Markdown Extension
@@ -43,9 +43,9 @@ The Markdown library also comes with the ability to add different types of exten
 So let's illustrate how you can activate an extension for the  `markdown`  library to modify the way it generates HTML out of your Markdown Syntax. In this case, we will add code highlights to  `<code>`  blocks that match the programming language that is being used.
 
 If we don't install any extension, code blocks are generated in the following manner:
-
+```py  
 print("Hello World")
-
+```
 Gets rendered as:
 
 <code>print("Hello World")</code>
@@ -167,5 +167,5 @@ Second of all, Markdown Syntax is no doubt simpler than HTML and XML.
 
 > [Source : ](https://coderbook.com/@marcus/how-to-render-markdown-syntax-as-html-using-python/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1MDI0MDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDk0NDUxOV19
 -->
