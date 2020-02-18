@@ -125,8 +125,6 @@ Then, using the exact same functions as in the previous example, we pickle and u
 
 ```sh
 $ python unpickle_custom.py
-green
-
 ```
 
 Remember, that we can only unpickle the object in an environment where the class  `Veggy`  is either defined or imported. If we create a new script and try to unpickle the object without importing the  `Veggy`  class, we'll get an "AttributeError". For example, execute the following script:
@@ -138,7 +136,6 @@ with open('test_pickle.pkl', 'rb') as pickle_in:
     unpickled_cucumber = pickle.load(pickle_in)
 
 print(unpickled_cucumber.color)
-
 ```
 
 In the output of the script above, you will see the following error:
@@ -162,5 +159,6 @@ Reference : [https://stackabuse.com/introduction-to-the-python-pickle-module/](h
 
 ศึกษาเพิ่มเติม : [https://python3.wannaphong.com/](https://python3.wannaphong.com/2016/07/pickle-python.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDg4NzY5MSwtMTEzMzI1MTY0OV19
+eyJoaXN0b3J5IjpbLTE4Njg2NjgyNjAsLTg3MDg4NzY5MSwtMT
+EzMzI1MTY0OV19
 -->
