@@ -230,7 +230,13 @@ $ man git-<sub_command>
 
 > ที่มาบทความ : [armno.in.th](https://armno.in.th/2019/07/29/frequently-used-git-commands/).
 
+## .gitignore
 
+เข้าไปที่ folder **public**
+```sh
+cd public
+echo "public" >> .gitignore
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTAxMzEyNCwtMTc0MTg5OTA5Nl19
+eyJoaXN0b3J5IjpbNTc3MzEzOTY2LC0xNzQxODk5MDk2XX0=
 -->
