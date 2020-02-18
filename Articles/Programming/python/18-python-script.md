@@ -127,8 +127,8 @@ print(string_1.split())
 
 # defining separator as '/'
 print(string_2.split('/'))
-# ['sample', ' string 2']
 
+# ['sample', ' string 2']
 ```
 
 ## **8. List Comprehension**
@@ -144,8 +144,8 @@ original_list = [1,2,3,4]
 new_list = [2*x for x in original_list]
 
 print(new_list)
-# [2,4,6,8]
 
+# [2,4,6,8]
 ```
 
 You can read more about it  [here.](https://on.morioh.net/b0a3f595aa?r=https://medium.com/swlh/list-comprehensions-in-python-e8d409bb216e "here.")
@@ -164,7 +164,6 @@ else:
 
 # Output
 # palindrome
-
 ```
 
 ## **10. Using Enumerate to Get Index/Value Pairs**
@@ -182,7 +181,6 @@ for index, value in enumerate(my_list):
 # 2: c
 # 3: d
 # 4: e
-
 ```
 
 ## **11. Find Whether Two Strings are Anagrams**
@@ -204,6 +202,7 @@ if cnt_1 == cnt_2:
 if cnt_1 == cnt_3:
     print('1 and 3 anagram')
 
+# 1 and 2 anagram
 ```
 
 ## **12. Using the try-except-else Block**
@@ -365,5 +364,5 @@ print(combined_dict)
 
 > [Source : ](https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1RdPqOkouQtzq7p5KUO1AIHwHyKnZpDRGVPX5vKMI_07R9TE2y7xALH7Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEwNzYzNzRdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE1NDg5MzJdfQ==
 -->
