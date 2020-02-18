@@ -21,7 +21,7 @@ new_string = ''.join(temp_set)
 print(new_string)
 
 # Output
-# My Name Is Chaitanya Baweja
+# adcev
 ```
 
 ## **2. Using rhe Title Case (First Letter Caps)**
@@ -38,7 +38,6 @@ print(new_string)
 
 # Output
 # My Name Is Chaitanya Baweja
-
 ```
 
 ## **3. Reversing a String**
@@ -55,7 +54,6 @@ print(reversed_string)
 
 # Output
 # EDCBA
-
 ```
 
 You can read more about this  [here](https://on.morioh.net/b0a3f595aa?r=https://medium.com/swlh/how-to-reverse-a-string-in-python-66fc4bbc7379 "here").
@@ -74,8 +72,8 @@ print(my_string*n)
 # abcdabcdabcd
 
 print(my_list*n)
-# [1,2,3,1,2,3,1,2,3]
 
+# [1,2,3,1,2,3,1,2,3]
 ```
 
 An interesting use case of this could be to define a list with a constant value — let’s say zero.
@@ -83,8 +81,8 @@ An interesting use case of this could be to define a list with a constant value 
 ```
 n = 4
 my_list = [0]*n # n denotes the length of the required list
-# [0, 0, 0, 0]
 
+# [0, 0, 0, 0]
 ```
 
 ## **5. Combining a List of Strings Into a Single String**
@@ -99,7 +97,6 @@ print(','.join(list_of_strings))
 
 # Output
 # My,name,is,Chaitanya,Baweja
-
 ```
 
 ## **6. Swap Values Between Two Variables**
@@ -114,7 +111,6 @@ a, b = b, a
 
 print(a) # 2
 print(b) # 1
-
 ```
 
 ## **7. Split a String Into a List of Substrings**
@@ -369,5 +365,5 @@ print(combined_dict)
 
 > [Source : ](https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1RdPqOkouQtzq7p5KUO1AIHwHyKnZpDRGVPX5vKMI_07R9TE2y7xALH7Q).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM3MjY5NzhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTEwNzYzNzRdfQ==
 -->
