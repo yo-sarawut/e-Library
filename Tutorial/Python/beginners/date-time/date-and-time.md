@@ -633,7 +633,7 @@ A literal '%' character.
 ## Python: Tips of the Day
 
 **Python: Merge dictionaries**
-
+```py
 dict1 = { 'a': 1, 'b': 2 }
 dict2 = { 'b': 3, 'c': 4 }
 dict3 = { 'c': 5, 'd': 6 }
@@ -642,7 +642,8 @@ print (merged)
 
 Output:
 
-{'a': 1, 'b': 3, 'c': 5, 'd': 6}
+# {'a': 1, 'b': 3, 'c': 5, 'd': 6}
+```
 
 ----------
 
@@ -667,6 +668,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ3MTMyOSwyMTExNzE2NzkzLC0yMT
-MxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYxNjkzOF19
+eyJoaXN0b3J5IjpbMTQ5MjY4OTg0MSwtMTY4NDcxMzI5LDIxMT
+E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
+OTM4XX0=
 -->
