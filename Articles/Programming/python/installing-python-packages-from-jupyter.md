@@ -366,13 +366,13 @@ As noted above, we can get around this by explicitly identifying where we want p
 
 For  **conda**, you can set the prefix manually in the shell command:
 
-```
+```py
 $ conda install --yes --prefix /Users/jakevdp/anaconda numpy
 ```
 
 or, to automatically use the correct prefix (using syntax available in the notebook)
 
-```
+```py
 !conda install --yes --prefix {sys.prefix} numpy
 ```
 
@@ -576,5 +576,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM3MTY2MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzgxMTMxMzBdfQ==
 -->
