@@ -375,7 +375,7 @@ Output:
 # 2019-04-15 08:27:18-05:00
 ```
 **Fixed Offset Time Zones**
-
+```py
 from datetime import datetime, timedelta, timezone
 JST = timezone(timedelta(hours=+9))
 
@@ -395,7 +395,7 @@ Output:
 2019-01-01 12:00:00+09:00
 UTC+09:00
 <built-in method tzname of datetime.datetime object at 0x7f91a9437360>
-
+```
 ## Zones with daylight savings time using third party library:
 
 Use the tz.gettz() method to get a time zone object, which can then be passed directly to the datetime constructor:
@@ -667,6 +667,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0Nzg5OTM3LDIxMTE3MTY3OTMsLTIxMz
-EzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2OTM4XX0=
+eyJoaXN0b3J5IjpbLTU2NjYzNTcwNiwyMTExNzE2NzkzLC0yMT
+MxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYxNjkzOF19
 -->
