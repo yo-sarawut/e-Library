@@ -77,7 +77,7 @@ Output:
 ## Iterate over dates:
 
 Print from a start date to some end date.
-
+```py
 import datetime
 
 # The size of each step in days
@@ -98,11 +98,12 @@ Output:
 2019-11-05
 2019-11-06
 2019-11-07
+```
 
 ## Computing time differences:
 
 The timedelta module is used to compute differences between times:
-
+```py
 from datetime import datetime, timedelta
 now = datetime.now()
 then = datetime(2019, 5, 23)
@@ -111,9 +112,9 @@ print(then)
 Output:
 
 2019-05-23 00:00:00
-
+```
 Specifying time is optional when creating a new datetime object
-
+```py
 from datetime import datetime, timedelta
 now = datetime.now()
 then = datetime(2019, 5, 23)
@@ -122,10 +123,10 @@ print(delta)
 
 Output:
 
-162 days, 9:10:42.599772
-
+# 162 days, 9:10:42.599772
+```
 delta is of type timedelta:
-
+```py
 from datetime import datetime, timedelta
 now = datetime.now()
 then = datetime(2019, 5, 23)
@@ -137,9 +138,9 @@ print(delta.seconds)
 
 Output:
 
-162
-33296
-
+# 162
+ 33296
+```
 To get n day's after and n day's before date we could use:
 
 ## n day's after date:
@@ -663,6 +664,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk5MzkzODMsLTkyNTA1Mjk4MCwxOD
-AyNjE2OTM4XX0=
+eyJoaXN0b3J5IjpbMzE3MDcwMDMzLC05MjUwNTI5ODAsMTgwMj
+YxNjkzOF19
 -->
