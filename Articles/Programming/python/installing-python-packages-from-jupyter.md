@@ -1,7 +1,7 @@
 
 Installing Python Packages from a Jupyter Notebook
 ===
-Tue 05 December 2017
+>Tue 05 December 2017
 
 In software, it's said that  [all abstractions are leaky](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/), and this is true for the Jupyter notebook as it is for any other software. I most often see this manifest itself with the following issue:
 
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc1NzkwMDVdfQ==
+eyJoaXN0b3J5IjpbNDkzMzYyMTUzXX0=
 -->
