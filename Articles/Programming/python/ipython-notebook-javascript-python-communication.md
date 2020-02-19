@@ -303,16 +303,15 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
 # For now, we need to name this `disp` for it to work
 disp = DisplayAnimation(anim)
 disp
-
+```
 Out[8]:
-
 ![](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/)  
 Prev Frame  Reverse  Pause  Play  Next Frame
 
 Once again, if you're viewing this statically, you'll see nothing above the buttons. The kernel needs to be running in order to see this: you can  [download the notebook](http://jakevdp.github.io/downloads/notebooks/JSInteraction.ipynb)  and run it to see the results (To see a statically-viewable version of the animation, refer to the  [previous post](http://jakevdp.github.io/blog/2013/05/19/a-javascript-viewer-for-matplotlib-animations/)). But I assure you, it works! We've created an animation viewer which uses bi-directional communication between javascript and matplotlib to generate the frames in real-time.
 
 Note that this is still rather limited, and should be considered a proof-of-concept more than a finished result. In particular, on my four-year-old linux box, I can only achieve a frame-rate of about 10 frames/sec. Part of this is due to the reliance on png images saved within matplotlib, as we can see by profiling the function:
-
+```py
 In [10]:
 
 def save_to_mem(fig):
@@ -324,7 +323,7 @@ def save_to_mem(fig):
 
 fig, ax = plt.subplots()
 ax.plot(rand(200))
-
+```
 Out[10]:
 
 [<matplotlib.lines.Line2D at 0x3a26f50>]
@@ -345,5 +344,5 @@ _This post was composed entirely in IPython notebook._  _The source notebook can
 
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODU2NTk2MiwtNzA4MTg0NzQ3XX0=
+eyJoaXN0b3J5IjpbNTI5NzM1NTM3LC03MDgxODQ3NDddfQ==
 -->
