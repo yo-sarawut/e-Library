@@ -430,17 +430,9 @@ Output:
 |Directive|Meaning|Example|Notes|
 |---------|--------|-------|----------|
 |%a|Weekday as locale’s abbreviated name.|Sun, Mon, …, Sat (en_US); So, Mo, …, Sa (de_DE)|(1)|
-|%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)
-
-%w
-
-Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.
-
-0, 1, …, 6
-
-%d
-
-Day of the month as a zero-padded decimal number.
+|%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)|
+|%w|Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.|0, 1, …, 6||
+|%d|Day of the month as a zero-padded decimal number.
 
 01, 02, …, 31
 
@@ -651,7 +643,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTM5NDkxNCwtMTY4NDcxMzI5LDIxMT
+eyJoaXN0b3J5IjpbMTM2MTY4OTY0OCwtMTY4NDcxMzI5LDIxMT
 E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
 OTM4XX0=
 -->
