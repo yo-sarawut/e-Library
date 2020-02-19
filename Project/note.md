@@ -3,6 +3,7 @@ Note for ideas
 ## Tool & Data
 - [5 แหล่งแจก Dataset ฟรี ](https://blog.datath.com/free-datasets-machine-learning/)
 - [SQL-ORM Documentation : Use Python SQLite3 API Very Easly.](http://www.bitforestinfo.com/p/sql-orm-documentation.html)
+- [QueryPie แนะนำโปรแกรม SQL Client ตัวใหม่ หน้าตาสวย ใช้ง่าย ฟรี](https://blog.datath.com/querypie-sql-client/)
 
 
 ## Example Project
@@ -56,10 +57,10 @@ Note for ideas
 
 - [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTUzNTEyNCwtMTA5ODgzOTk5MiwtNj
-kzODY0NTE4LDIxMzk4Nzc4OTgsLTYyMTYzMzgxMSwtMTM4MjU3
-ODY1NSwtMTQ5ODM4MTM0OSwxNjE0MTg1Njc0LC0xNzE2MjYxND
-gxLC00MzU0MjYzMTgsMTg4NDU4MjcwNiwxOTg1OTM4NzA1LDEz
-OTE0ODg3NzQsMTc0NzMwODkyMSwtMzY5MzM5MzM3LC0xOTQ1Nz
-c1MzQ3LDIxOTAwMDUxMV19
+eyJoaXN0b3J5IjpbNzI2MjQ3NDE5LC04NDk1MzUxMjQsLTEwOT
+g4Mzk5OTIsLTY5Mzg2NDUxOCwyMTM5ODc3ODk4LC02MjE2MzM4
+MTEsLTEzODI1Nzg2NTUsLTE0OTgzODEzNDksMTYxNDE4NTY3NC
+wtMTcxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1ODI3MDYsMTk4
+NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5MjEsLTM2OTMzOT
+MzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
 -->
