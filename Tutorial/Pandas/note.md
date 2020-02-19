@@ -1,7 +1,7 @@
 ## ศึกษาเพิ่มเติม
 
 ### Articles
-- 
+- [10 Minutes to pandas](https://pandas.pydata.org/pandas-docs/version/0.17/10min.html)
 - [pivot_table() ](https://dfrieds.com/data-analysis/pivot-table-python-pandas.html)
 
 ### เอกสารเพิ่มเติม
@@ -20,7 +20,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzUyMjEwNywtMjAzMTY4MzgzMCwxMz
-QwNjgzNjU3LDE0OTc4MzQ4MTgsLTE4ODIxOTE0MiwxMDkwMDAx
-NTQ2LC0xNzc0MjQ3NjE0XX0=
+eyJoaXN0b3J5IjpbNDQ2NDE4MzQ0LC00Mzc1MjIxMDcsLTIwMz
+E2ODM4MzAsMTM0MDY4MzY1NywxNDk3ODM0ODE4LC0xODgyMTkx
+NDIsMTA5MDAwMTU0NiwtMTc3NDI0NzYxNF19
 -->
