@@ -115,17 +115,25 @@ WIDGETS = """
 <input type="range" name="num" min="1" max="4", step="1" style="width:200px", onchange="interactUpdate(this.parentNode);" value="1">
 </div>
 """
-
+```
 Now if we run and view this script, we see a simple slider which shows and hides the  `div`s in the way we expect.
-
+```py
 In [5]:
 
 from IPython.display import HTML
 HTML(JS_FUNCTION + WIDGETS)
 
 Out[5]:
+# 1: one (I)
+```
+
+
+
+
+
+
 
 > [Source : ](https://jakevdp.github.io/blog/2013/12/05/static-interactive-widgets/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTU0OTE2M119
+eyJoaXN0b3J5IjpbLTIwNzQ1NzgyNzhdfQ==
 -->
