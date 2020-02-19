@@ -105,22 +105,18 @@ In [4]:
 import sys
 !{sys.executable} -m pip install numpy
 
-Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
-
+# Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
+```
 That bit of extra boiler-plate makes certain that you are running the  `pip`  version associated with the current Python kernel, so that the installed packages can be used in the current notebook. This is related to the fact that, even setting Jupyter notebooks aside, it's better to install packages using
 
-```
+```py
 $ python -m pip install <package>
-
-
 ```
 
 rather than
 
-```
+```py
 $ pip install <package>
-
-
 ```
 
 because the former is more explicit about where the package will be installed (more on this below).
@@ -135,32 +131,32 @@ Those above solutions should work in all cases... but why is that additional boi
 
 For completeness, I'm going to delve briefly into each of these topics (this discussion is partly drawn from  [This StackOverflow answer](https://stackoverflow.com/questions/39007571/running-jupyter-with-multiple-python-and-ipython-paths/39022003#39022003)  that I wrote last year).
 
-_Note: the following discussion assumes Linux, Unix, MacOSX and similar operating systems. Windows has a slightly different architecture, and so some details will differ._
+_**Note:** the following discussion assumes Linux, Unix, MacOSX and similar operating systems. Windows has a slightly different architecture, and so some details will differ._
 
 ### How your operating system locates executables[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-your-operating-system-locates-executables)
 
 When you're using the terminal and type a command like  `python`,  `jupyter`,  `ipython`,  `pip`,  `conda`, etc., your operating system contains a well-defined mechanism to find the executable file the name refers to.
 
 On Linux & Mac systems, the system will first check for an  [alias](http://tldp.org/LDP/abs/html/aliases.html)  matching the command; if this fails it references the  `$PATH`  environment variable:
-
+```py
 In [5]:
 
 !echo $PATH
 
-/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
+# /Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+```
 `$PATH`  lists the directories, in order, that will be searched for any executable: for example, if I type  `python`  on my system with the above  `$PATH`, it will first look for  `/Users/jakevdp/anaconda/envs/python3.6/bin/python`, and if that doesn't exist it will look for  `/Users/jakevdp/anaconda/bin/python`, and so on.
 
 (Parenthetical note: why is the first entry of  `$PATH`  repeated twice here? Because every time you launch  `jupyter notebook`, Jupyter prepends the location of the  `jupyter`  executable to the beginning of the  `$PATH`. In this case, the location was already at the beginning of the path, and the result is that the entry is duplicated. Duplicate entries add clutter, but cause no harm).
 
 If you want to know what is actually executed when you type  `python`, you can use the  `type`  shell command:
-
+```py
 In [6]:
 
 !type python
 
-python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
-
+# python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
+```
 Note that this is true of  _any_  command you use from the terminal:
 
 In [7]:
@@ -579,5 +575,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTUxOTU1NSwtNzA4MTg0NzQ3XX0=
+eyJoaXN0b3J5IjpbLTQ4MjIzMTQwNCwtNzA4MTg0NzQ3XX0=
 -->
