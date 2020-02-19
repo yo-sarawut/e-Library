@@ -273,7 +273,6 @@ In [15]:
 And  `conda install`  will do the same, because  `python3.6`  is the current active environment (notice the  `*`  indicating the active environment):
 ```py
 In [16]:
-
 !conda env list
 
 # conda environments:
@@ -574,5 +573,6 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTUxNzIyMCwtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbMjA1NzIxODI4NiwtMzg5NTE3MjIwLC0xMz
+c4MTEzMTMwXX0=
 -->
