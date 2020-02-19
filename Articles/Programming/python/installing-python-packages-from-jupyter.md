@@ -79,8 +79,7 @@ Solving package specifications: .
 
 # All requested packages already installed.
 # packages in environment at /Users/jakevdp/anaconda:
-# 
-numpy                     1.13.3           py36h2cdce51_0  
+# numpy                     1.13.3           py36h2cdce51_0  
 ```
 That bit of extra boiler-plate makes certain that conda installs the package in the currently-running Jupyter kernel (thanks to  [Min Ragan-Kelley](https://twitter.com/minrk/status/842067777150169088)  for suggesting this approach). I'll discuss why this is needed momentarily.
 
@@ -93,7 +92,7 @@ In [3]:
 # DON'T DO THIS
 !pip install numpy
 
-Requirement already satisfied: numpy in /Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages
+# Requirement already satisfied: numpy in /Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages
 ```
 For various reasons that I'll outline more fully below, this  **will not generally work**  if you want to use these installed packages from the current notebook, though it may work in the simplest cases.
 
@@ -105,7 +104,7 @@ In [4]:
 import sys
 !{sys.executable} -m pip install numpy
 
-Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
+# Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
 ```
 That bit of extra boiler-plate makes certain that you are running the  `pip`  version associated with the current Python kernel, so that the installed packages can be used in the current notebook. This is related to the fact that, even setting Jupyter notebooks aside, it's better to install packages using
 
@@ -143,7 +142,7 @@ In [5]:
 
 !echo $PATH
 
-/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# /Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
 `$PATH`  lists the directories, in order, that will be searched for any executable: for example, if I type  `python`  on my system with the above  `$PATH`, it will first look for  `/Users/jakevdp/anaconda/envs/python3.6/bin/python`, and if that doesn't exist it will look for  `/Users/jakevdp/anaconda/bin/python`, and so on.
 
@@ -155,7 +154,7 @@ In [6]:
 
 !type python
 
-python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
+# python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
 ```
 Note that this is true of  _any_  command you use from the terminal:
 ```py
@@ -163,7 +162,7 @@ In [7]:
 
 !type ls
 
-ls is /bin/ls
+# ls is /bin/ls
 ```
 Even built-in commands like  `type`  itself:
 ```py
@@ -171,7 +170,7 @@ In [8]:
 
 !type type
 
-type is a shell builtin
+# type is a shell builtin
 ```
 You can optionally add the  `-a`  tag to see  _all available_  versions of the command in your current shell environment; for example:
 ```py
@@ -575,5 +574,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NjI2MjE2LC0xMzc4MTEzMTMwXX0=
+eyJoaXN0b3J5IjpbMTA4NjA3NjgyOCwtMTM3ODExMzEzMF19
 -->
