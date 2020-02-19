@@ -231,7 +231,7 @@ Output:
 # 2019-12-01
 ```
 ## Using the dateutils module:
-
+```py
 import datetime
 import dateutil.relativedelta
 
@@ -241,12 +241,12 @@ print(d2)
 
 Output:
 
-2019-02-28 00:00:00
-
+# 2019-02-28 00:00:00
+```
 ## Switching between time zones:
 
 To switch between time zones, we need datetime objects that are timezone-aware.
-
+```py
 from datetime import datetime
 from dateutil import tz
 
@@ -265,10 +265,10 @@ print(local_now)
 
 Output:
 
-2019-11-01 10:10:09.685012+00:00
-
+# 2019-11-01 10:10:09.685012+00:00
+```
 ## Fuzzy datetime parsing (extracting datetime out of a text):
-
+```py
 from dateutil.parser import parse
 
 dt = parse("Today is January 1, 2019 at 8:21:00AM", fuzzy=True)
@@ -276,10 +276,10 @@ print(dt)
 
 Output:
 
-2019-01-01 08:21:00
-
+# 2019-01-01 08:21:00
+```
 **Get an ISO 8601 timestamp:**
-
+```py
 ## Without timezone, with microseconds:
 
 from datetime import datetime
@@ -664,6 +664,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjY1OTQ0OSwtOTI1MDUyOTgwLDE4MD
+eyJoaXN0b3J5IjpbMTkzMzQzMTAzMCwtOTI1MDUyOTgwLDE4MD
 I2MTY5MzhdfQ==
 -->
