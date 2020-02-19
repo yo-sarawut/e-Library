@@ -365,15 +365,15 @@ Output:
 Python 3.2+ has support for %z format when parsing a string into a datetime object.
 
 UTC offset in the form +HHMM or -HHMM (empty string if the object is naive).
-
+```py
 import datetime
 dt = datetime.datetime.strptime("2019-04-15T08:27:18-0500", "%Y-%m-%dT%H:%M:%S%z")
 print(dt)
 
 Output:
 
-2019-04-15 08:27:18-05:00
-
+# 2019-04-15 08:27:18-05:00
+```
 **Fixed Offset Time Zones**
 
 from datetime import datetime, timedelta, timezone
@@ -667,6 +667,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTcxNjc5MywtMjEzMTMxNTM4NCwtOT
-I1MDUyOTgwLDE4MDI2MTY5MzhdfQ==
+eyJoaXN0b3J5IjpbNzQ0Nzg5OTM3LDIxMTE3MTY3OTMsLTIxMz
+EzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2OTM4XX0=
 -->
