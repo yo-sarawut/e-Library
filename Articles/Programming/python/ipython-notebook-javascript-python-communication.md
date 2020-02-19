@@ -59,13 +59,13 @@ Variable Value:
 Set Value
 ```
 After pressing  Set Value  above with the default arguments, the value of the variable  `foo`  is set in the Python kernel, and can be accessed from Python:
-
+```py
 In [2]:
 
 print foo
 
 bar
-
+```
 Examining the code, we see that when the button is clicked, the  `set_value()`  function is called, which constructs a simple Python statement assigning  `var_value`  to the variable given by  `var_name`. As mentioned above, the key to interaction between Javascript and the notebook kernel is to use the  `IPython.notebook.kernel.execute()`  command, passing valid Python code in a string. We also log the result to the javascript console, which can be helpful for Javascript debugging.
 
 ## Accessing Python Output In Javascript[](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/#Accessing-Python-Output-In-Javascript)
@@ -345,5 +345,5 @@ _This post was composed entirely in IPython notebook._  _The source notebook can
 
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTAxOTcwOCwtNzA4MTg0NzQ3XX0=
+eyJoaXN0b3J5IjpbLTIyOTM4MjEyOSwtNzA4MTg0NzQ3XX0=
 -->
