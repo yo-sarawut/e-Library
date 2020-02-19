@@ -21,7 +21,7 @@ I've been thinking about this issue for the past few weeks, but this morning as 
 The basic idea of creating these widgets is this: you set up a function that does something interesting, you specify the range of parameter choices, and call a function which pre-generates the results and displays a javascript slider which allows you to interact with these results. Here's a quick example of how it works:
 
 First we set up a function which takes some arguments and plots something:
-
+```py
 In [1]:
 
 %matplotlib inline
@@ -39,9 +39,10 @@ def plot(amplitude, color):
     ax.set_xlim(0, 10)
     ax.set_ylim(-1.1, 1.1)
     return fig
+```
 
 Next, you import some tools from  `ipywidgets`, and interact with your plot:
-
+```py
 In [2]:
 
 from ipywidgets import StaticInteract, RangeWidget, RadioWidget
@@ -49,6 +50,7 @@ from ipywidgets import StaticInteract, RangeWidget, RadioWidget
 StaticInteract(plot,
                amplitude=RangeWidget(0.1, 1.0, 0.1),
                color=RadioWidget(['blue', 'green', 'red']))
+```
 
 Out[2]:
 
@@ -63,7 +65,7 @@ That's all there is to it!
 Because this is a static view, all the output must be pre-generated and saved in the notebook. The way this works is to save the generated frames within divs that are hidden and shown whenever the widget is changed. Here's a rough sample that gives the idea of what's going on with the HTML and Javascript in the background:
 
 First we define a javascript function which takes the values from HTML5  `input`  blocks, and shows and hides items based on those inputs.
-
+```py
 In [3]:
 
 JS_FUNCTION = """
@@ -90,9 +92,9 @@ JS_FUNCTION = """
  }
 </script>
 """
-
+```
 Next we create a few divs with different outputs: here our outputs are simply the numbers one through 4, along with their text and roman numeral representations. We also define the input slider with the appropriate callback:
-
+```py
 In [4]:
 
 WIDGETS = """
@@ -125,5 +127,5 @@ Out[5]:
 
 > [Source : ](https://jakevdp.github.io/blog/2013/12/05/static-interactive-widgets/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzQ2MjYxMV19
+eyJoaXN0b3J5IjpbMTQ4OTU0OTE2M119
 -->
