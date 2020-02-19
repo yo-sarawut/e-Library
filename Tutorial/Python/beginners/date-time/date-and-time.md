@@ -436,33 +436,10 @@ Output:
 |%b|Month as locale’s abbreviated name.|Jan, Feb, …, Dec (en_US);  
 Jan, Feb, …, Dez (de_DE)|(1)|
 |%B|Month as locale’s full name.|January, February, …, December (en_US);  Januar, Februar, …, Dezember (de_DE)|(1)|
-
-
-%m
-
-Month as a zero-padded decimal number.
-
-01, 02, …, 12
-
-(9)
-
-%y
-
-Year without century as a zero-padded decimal number.
-
-00, 01, …, 99
-
-(9)
-
-%Y
-
-Year with century as a decimal number.
-
-0001, 0002, …, 2013, 2014, …, 9998, 9999
-
-(2)
-
-%H
+|%m|Month as a zero-padded decimal number.|01, 02, …, 12|(9)|
+|%y|Year without century as a zero-padded decimal number.|00, 01, …, 99|(9)|
+|%Y|Year with century as a decimal number.|0001, 0002, …, 2013, 2014, …, 9998, 9999|(2)|
+|%H
 
 Hour (24-hour clock) as a zero-padded decimal number.
 
@@ -625,7 +602,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjYzNDQ3NCwtMTY4NDcxMzI5LDIxMT
-E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
-OTM4XX0=
+eyJoaXN0b3J5IjpbLTE3NDU4Nzk5MjAsLTE2ODQ3MTMyOSwyMT
+ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
+NjkzOF19
 -->
