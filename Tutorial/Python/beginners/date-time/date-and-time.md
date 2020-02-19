@@ -139,12 +139,12 @@ print(delta.seconds)
 Output:
 
 # 162
- 33296
+# 33296
 ```
 To get n day's after and n day's before date we could use:
 
 ## n day's after date:
-
+```py
 from datetime import date, timedelta
 
 current_date = date.today().isoformat()   
@@ -155,11 +155,11 @@ print("30 days after current date : ",days_after)
 
 Output:
 
-Current Date:  2019-11-02
-30 days after current date :  2019-12-02
-
+# Current Date:  2019-11-02
+# 30 days after current date :  2019-12-02
+```
 ## n day's before date:
-
+```py
 from datetime import date, timedelta
 
 current_date = date.today().isoformat()   
@@ -170,15 +170,15 @@ print("30 days before current date: ",days_before)
 
 Output:
 
-Current Date:  2019-11-02
-30 days before current date:  2019-10-03
-
+# Current Date:  2019-11-02
+# 30 days before current date:  2019-10-03
+```
 ## Converting timestamp to date time:
 
 The datetime module can convert a POSIX timestamp to a ITC datetime object.
 
 The Epoch is January 1st, 1970 midnight.
-
+```py
 import time
 from datetime import datetime
 seconds_since_epoch=time.time()  #1469182681.709
@@ -188,10 +188,10 @@ print(utc_date)
 
 Output:
 
-2019-11-01 09:53:20.657171
-
+# 2019-11-01 09:53:20.657171
+```
 ## Simple date arithmetic:
-
+```py
 import datetime
 
 today = datetime.date.today()
@@ -211,9 +211,9 @@ Today: 2019-11-01
 Yesterday: 2019-10-31
 Tomorrow: 2019-11-02
 Time between tomorrow and yesterday: 2 days, 0:00:00
-
+```
 ## Subtracting months from a date:
-
+```py
 import calendar
 from datetime import date
 
@@ -228,8 +228,8 @@ print(next_month)
 
 Output:
 
-2019-12-01
-
+# 2019-12-01
+```
 ## Using the dateutils module:
 
 import datetime
@@ -664,6 +664,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MDcwMDMzLC05MjUwNTI5ODAsMTgwMj
-YxNjkzOF19
+eyJoaXN0b3J5IjpbLTk1MjY1OTQ0OSwtOTI1MDUyOTgwLDE4MD
+I2MTY5MzhdfQ==
 -->
