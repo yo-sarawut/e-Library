@@ -158,23 +158,23 @@ In [6]:
 # python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
 ```
 Note that this is true of  _any_  command you use from the terminal:
-
+```py
 In [7]:
 
 !type ls
 
-ls is /bin/ls
-
+# ls is /bin/ls
+```
 Even built-in commands like  `type`  itself:
-
+```py
 In [8]:
 
 !type type
 
-type is a shell builtin
-
+# type is a shell builtin
+```
 You can optionally add the  `-a`  tag to see  _all available_  versions of the command in your current shell environment; for example:
-
+```py
 In [9]:
 
 !type -a python
@@ -183,7 +183,8 @@ python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
 python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
 python is /Users/jakevdp/anaconda/bin/python
 python is /usr/bin/python
-
+```
+```py
 In [10]:
 
 !type -a conda
@@ -191,7 +192,8 @@ In [10]:
 conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
 conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
 conda is /Users/jakevdp/anaconda/bin/conda
-
+```
+```py
 In [11]:
 
 !type -a pip
@@ -199,13 +201,13 @@ In [11]:
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 pip is /Users/jakevdp/anaconda/bin/pip
-
+```
 When you have multiple available versions of any command, it is important to keep in mind the role of  `$PATH`  in choosing which will be used.
 
 ### How Python locates packages[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-Python-locates-packages)
 
 Python uses a similar mechanism to locate imported packages. The list of paths searched by Python on import is found in  `sys.path`:
-
+```py
 In [12]:
 
 import sys
@@ -222,7 +224,7 @@ Out[12]:
  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg',
  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/IPython/extensions',
  '/Users/jakevdp/.ipython']
-
+```py
 By default, the first place Python looks for a module is an empty path, meaning the current working directory. If the module is not found there, it goes down the list of locations until the module is found. You can find out which location has been used using the  `__path__`  attribute of an imported module:
 
 In [13]:
@@ -575,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjIzMTQwNCwtNzA4MTg0NzQ3XX0=
+eyJoaXN0b3J5IjpbMTczODgwMjg0NSwtNzA4MTg0NzQ3XX0=
 -->
