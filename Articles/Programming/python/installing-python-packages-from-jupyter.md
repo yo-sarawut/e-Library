@@ -178,26 +178,26 @@ In [9]:
 
 !type -a python
 
-python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
-python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
-python is /Users/jakevdp/anaconda/bin/python
-python is /usr/bin/python
+# python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
+# python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
+# python is /Users/jakevdp/anaconda/bin/python
+# python is /usr/bin/python
 
 In [10]:
 
 !type -a conda
 
-conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
-conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
-conda is /Users/jakevdp/anaconda/bin/conda
+# conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
+# conda is /Users/jakevdp/anaconda/envs/python3.6/bin/conda
+# conda is /Users/jakevdp/anaconda/bin/conda
 
 In [11]:
 
 !type -a pip
 
-pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
-pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
-pip is /Users/jakevdp/anaconda/bin/pip
+# pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
+# pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
+# pip is /Users/jakevdp/anaconda/bin/pip
 ```
 When you have multiple available versions of any command, it is important to keep in mind the role of  `$PATH`  in choosing which will be used.
 
@@ -212,15 +212,15 @@ sys.path
 
 Out[12]:
 
-['',
- '/Users/jakevdp/anaconda/lib/python36.zip',
- '/Users/jakevdp/anaconda/lib/python3.6',
- '/Users/jakevdp/anaconda/lib/python3.6/lib-dynload',
- '/Users/jakevdp/anaconda/lib/python3.6/site-packages',
- '/Users/jakevdp/anaconda/lib/python3.6/site-packages/schemapi-0.3.0.dev0+791c7f6-py3.6.egg',
- '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg',
- '/Users/jakevdp/anaconda/lib/python3.6/site-packages/IPython/extensions',
- '/Users/jakevdp/.ipython']
+# ['',
+#  '/Users/jakevdp/anaconda/lib/python36.zip',
+#  '/Users/jakevdp/anaconda/lib/python3.6',
+#  '/Users/jakevdp/anaconda/lib/python3.6/lib-dynload',
+#  '/Users/jakevdp/anaconda/lib/python3.6/site-packages',
+#  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/schemapi-0.3.0.dev0+791c7f6-py3.6.egg',
+#  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg',
+#  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/IPython/extensions',
+#  '/Users/jakevdp/.ipython']
 ```
 By default, the first place Python looks for a module is an empty path, meaning the current working directory. If the module is not found there, it goes down the list of locations until the module is found. You can find out which location has been used using the  `__path__`  attribute of an imported module:
 ```py
@@ -231,7 +231,7 @@ numpy.__path__
 
 Out[13]:
 
-['/Users/jakevdp/anaconda/lib/python3.6/site-packages/numpy']
+# ['/Users/jakevdp/anaconda/lib/python3.6/site-packages/numpy']
 ```
 In most cases, a Python package you install with  `pip`  or with  `conda`  will be put in a directory called  `site-packages`. The important thing to realize is that each Python executable has  **its own  `site-packages`**: what this means is that when you install a package, it is  **associated with particular python executable**  and by default can only be used with that Python installation!
 
@@ -246,8 +246,8 @@ for path in set(paths):
     !{path} -c "import sys; print(sys.path)"
     print()
 
-/Users/jakevdp/anaconda/envs/python3.6/bin/python
-['', '/Users/jakevdp/anaconda/envs/python3.6/lib/python36.zip', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages']
+# /Users/jakevdp/anaconda/envs/python3.6/bin/python
+# ['', '/Users/jakevdp/anaconda/envs/python3.6/lib/python36.zip', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages']
 
 /usr/bin/python
 ['', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload', '/Library/Python/2.7/site-packages', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC']
@@ -574,5 +574,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjA3NjgyOCwtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbMTE1NzI2NzYxOCwtMTM3ODExMzEzMF19
 -->
