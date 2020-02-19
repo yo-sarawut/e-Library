@@ -143,7 +143,8 @@ javascript = """
 """
 
 HTML(input_form + javascript)
-
+```
+```py
 Out[4]:
 
 Code:  
@@ -271,7 +272,7 @@ class DisplayAnimation(object):
     
     def _repr_html_(self):
         return disp_html + javascript
-
+```
 This code should be considered a proof-of-concept: in particular, it requires the display object to be named  `disp`  in the global namespace. But making it more robust would be a relatively simple process.
 
 Here we'll test the result by creating a simple animation and displaying it dynamically:
@@ -342,5 +343,5 @@ _This post was composed entirely in IPython notebook._  _The source notebook can
 
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI0MTI5MDIsLTcwODE4NDc0N119
+eyJoaXN0b3J5IjpbMzQ0Mzk3ODE3LC03MDgxODQ3NDddfQ==
 -->
