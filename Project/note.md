@@ -13,6 +13,9 @@ Note for ideas
 - [Python Tic Tac Toe Using Artificial Intelligence](https://www.simplifiedpython.net/python-tic-tac-toe-using-artificial-intelligence/)
 - [3D Interactive Rubik's Cube in Python](http://jakevdp.github.io/blog/2012/11/26/3d-interactive-rubiks-cube-in-python/)
 
+<video controls="controls"> <source type="video/mp4" src="http://jakevdp.github.io/downloads/videos/MagicCube.mp4"></source> </video>
+
+
 !video[ 3D Interactive Rubik's Cube ](http://jakevdp.github.io/downloads/videos/MagicCube.mp4 ){ size=10 }  (http://jakevdp.github.io/downloads/videos/MagicCube.mp4)
 
 - [Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/) :  [[Demo]](http://tympanus.net/Tutorials/SVGDrums/)
@@ -61,7 +64,7 @@ Note for ideas
 
 - [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTc5NDUyOCwxOTk5NTI1MTIsNzI2Mj
+eyJoaXN0b3J5IjpbLTc5MTAyNjgyOSwxOTk5NTI1MTIsNzI2Mj
 Q3NDE5LC04NDk1MzUxMjQsLTEwOTg4Mzk5OTIsLTY5Mzg2NDUx
 OCwyMTM5ODc3ODk4LC02MjE2MzM4MTEsLTEzODI1Nzg2NTUsLT
 E0OTgzODEzNDksMTYxNDE4NTY3NCwtMTcxNjI2MTQ4MSwtNDM1
