@@ -31,7 +31,7 @@ The datetime module supplies classes for manipulating dates and times in both si
 The datetime module contains three primary types of objects - date, time, and datetime.
 
 **Date:**
-
+```py
 import datetime
 today = datetime.date.today()
 new_year = datetime.date(2019, 1, 1)
@@ -39,10 +39,10 @@ print(new_year)
 
 Output:
 
-2019-01-01
-
+# 2019-01-01
+```
 **Time:**
-
+```py
 import datetime
 #Time object
 noon = datetime.time(12, 0, 0)
@@ -51,9 +51,9 @@ print(noon)
 Output:
 
 12:00:00
-
+```
 **Date Time:**
-
+```py
 import datetime
 # Current datetime
 now = datetime.datetime.now()
@@ -61,10 +61,10 @@ print(now)
 
 Output:
 
-2019-11-01 06:16:18.526734
-
+# 2019-11-01 06:16:18.526734
+```
 **Date Time:**
-
+```py
 import datetime
 # Datetime object
 millenium_turn = datetime.datetime(2019, 1, 1, 0, 0, 0)
@@ -72,8 +72,8 @@ print(millenium_turn)
 
 Output:
 
-2019-01-01 00:00:00
-
+# 2019-01-01 00:00:00
+```
 ## Iterate over dates:
 
 Print from a start date to some end date.
@@ -663,5 +663,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTA1Mjk4MCwxODAyNjE2OTM4XX0=
+eyJoaXN0b3J5IjpbLTEyMzk5MzkzODMsLTkyNTA1Mjk4MCwxOD
+AyNjE2OTM4XX0=
 -->
