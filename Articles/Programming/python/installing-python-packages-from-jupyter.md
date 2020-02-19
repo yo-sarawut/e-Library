@@ -207,7 +207,7 @@ When you have multiple available versions of any command, it is important to kee
 ### How Python locates packages[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-Python-locates-packages)
 
 Python uses a similar mechanism to locate imported packages. The list of paths searched by Python on import is found in  `sys.path`:
-
+```py
 In [12]:
 
 import sys
@@ -224,9 +224,9 @@ Out[12]:
  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg',
  '/Users/jakevdp/anaconda/lib/python3.6/site-packages/IPython/extensions',
  '/Users/jakevdp/.ipython']
-
+```
 By default, the first place Python looks for a module is an empty path, meaning the current working directory. If the module is not found there, it goes down the list of locations until the module is found. You can find out which location has been used using the  `__path__`  attribute of an imported module:
-
+```py
 In [13]:
 
 import numpy
@@ -235,11 +235,11 @@ numpy.__path__
 Out[13]:
 
 ['/Users/jakevdp/anaconda/lib/python3.6/site-packages/numpy']
-
+```
 In most cases, a Python package you install with  `pip`  or with  `conda`  will be put in a directory called  `site-packages`. The important thing to realize is that each Python executable has  **its own  `site-packages`**: what this means is that when you install a package, it is  **associated with particular python executable**  and by default can only be used with that Python installation!
 
 We can see this by printing the  `sys.path`  variables for each of the available  `python`  executables in my path, using Jupyter's delightful ability to mix Python and bash commands in a single code block:
-
+```py
 In [14]:
 
 paths = !type -a python
@@ -257,7 +257,7 @@ for path in set(paths):
 
 /Users/jakevdp/anaconda/bin/python
 ['', '/Users/jakevdp/anaconda/lib/python36.zip', '/Users/jakevdp/anaconda/lib/python3.6', '/Users/jakevdp/anaconda/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/lib/python3.6/site-packages', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/schemapi-0.3.0.dev0+791c7f6-py3.6.egg', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg']
-
+```
 The full details here are not particularly important, but it is important to emphasize that  _each Python executable has its own distinct paths_, and unless you modify  `sys.path`  (which should only be done with great care) you cannot import packages installed in a different Python environment.
 
 When you run  `pip install`  or  `conda install`, these commands are associated with a particular Python version:
@@ -266,13 +266,13 @@ When you run  `pip install`  or  `conda install`, these commands are associated 
 -   `conda`  installs packages in the current active conda environment
 
 So, for example we see that  `pip install`  will install to the conda environment named  `python3.6`:
-
+```py
 In [15]:
 
 !type pip
 
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
-
+```
 And  `conda install`  will do the same, because  `python3.6`  is the current active environment (notice the  `*`  indicating the active environment):
 
 In [16]:
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MTg5OTMxXX0=
+eyJoaXN0b3J5IjpbMTE4MjQxNDA3NV19
 -->
