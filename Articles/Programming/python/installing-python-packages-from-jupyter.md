@@ -55,6 +55,7 @@ In [1]:
 # DON'T DO THIS!
 !conda install --yes numpy
 ```
+```py
 Fetching package metadata ...........
 Solving package specifications: .
 
@@ -62,13 +63,13 @@ Solving package specifications: .
 # packages in environment at /Users/jakevdp/anaconda/envs/python3.6:
 #
 numpy                     1.13.3           py36h2cdce51_0  
-
+```
 (Note that we use  `--yes`  to automatically answer  `y`  if and when conda asks for user confirmation)
 
 For various reasons that I'll outline more fully below, this  **will not generally work**  if you want to use these installed packages from the current notebook, though it may work in the simplest cases.
 
 Here is a short snippet that should work in general:
-
+```py
 In [2]:
 
 # Install a conda package in the current Jupyter kernel
@@ -82,13 +83,13 @@ Solving package specifications: .
 # packages in environment at /Users/jakevdp/anaconda:
 #
 numpy                     1.13.3           py36h2cdce51_0  
-
+```
 That bit of extra boiler-plate makes certain that conda installs the package in the currently-running Jupyter kernel (thanks to  [Min Ragan-Kelley](https://twitter.com/minrk/status/842067777150169088)  for suggesting this approach). I'll discuss why this is needed momentarily.
 
 ### How to use Pip from the Jupyter Notebook[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-to-use-Pip-from-the-Jupyter-Notebook)
 
 If you're using the Jupyter notebook and want to install a package with  `pip`, you similarly might be inclined to run pip directly in the shell:
-
+```py
 In [3]:
 
 # DON'T DO THIS
@@ -580,5 +581,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjU2MDk1Ml19
+eyJoaXN0b3J5IjpbLTEzMDE4ODc5ODldfQ==
 -->
