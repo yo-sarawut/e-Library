@@ -15,17 +15,15 @@ Nevertheless, I thought folks might be interested to hear what I've learned. Wha
 
 The key functionality needed for interaction between javascript and the IPython kernel is the  `kernel`  object in the IPython Javascript package. A python statement can be executed from javascript as follows:
 
-```
+```py
 var kernel = IPython.notebook.kernel;
 kernel.execute(command);
-
-
 ```
 
 where  `command`  is a string containing python code.
 
 Here is a short example where we use HTML elements and javascript callbacks to execute a statement in the Python kernel from Javascript, using the  `kernel.execute`  command:
-
+```py
 In [1]:
 
 from IPython.display import HTML
@@ -59,7 +57,7 @@ Out[1]:
 Variable Name:  
 Variable Value:  
 Set Value
-
+```
 After pressing  Set Value  above with the default arguments, the value of the variable  `foo`  is set in the Python kernel, and can be accessed from Python:
 
 In [2]:
@@ -344,7 +342,8 @@ That's a cap of about 20 frames per second on matplotlib's end, not including th
 I hope this post was helpful to you, as unpolished as the results are, and please let me know if you have ideas about how to do this more effectively! Also, keep in mind that Javascript support should be improving immensely in IPython 2.0, which (according to the  [roadmap](https://github.com/ipython/ipython/wiki/Roadmap:-IPython)) should be released in December of 2013. At that point I may have more to say on the subject!
 
 _This post was composed entirely in IPython notebook._  _The source notebook can be downloaded_  [here](http://jakevdp.github.io/downloads/notebooks/JSInteraction.ipynb)
+
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ0NzY4OTAsLTcwODE4NDc0N119
+eyJoaXN0b3J5IjpbLTczMTAxOTcwOCwtNzA4MTg0NzQ3XX0=
 -->
