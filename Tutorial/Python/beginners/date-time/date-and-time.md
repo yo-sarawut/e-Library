@@ -399,7 +399,7 @@ UTC+09:00
 ## Zones with daylight savings time using third party library:
 
 Use the tz.gettz() method to get a time zone object, which can then be passed directly to the datetime constructor:
-
+```py
 from datetime import datetime
 from dateutil import tz
 local = tz.gettz() # Local time
@@ -420,7 +420,7 @@ Output:
 2019-01-01 12:00:00+00:00
 2019-01-01 12:00:00-08:00
 2019-07-01 12:00:00-07:00
-
+```
 ## List of the Date format codes:
 
 Directive
@@ -667,6 +667,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjYzNTcwNiwyMTExNzE2NzkzLC0yMT
+eyJoaXN0b3J5IjpbLTE2ODQ3MTMyOSwyMTExNzE2NzkzLC0yMT
 MxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYxNjkzOF19
 -->
