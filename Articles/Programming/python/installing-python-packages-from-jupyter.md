@@ -479,16 +479,16 @@ def pip(args):
     main(args.split())
 ```
 Running it as follows will install packages in the expected location
-
+```py
 In [22]:
 
 %pip install numpy
 
 Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
-
+```
 Note that Jupyter developer Matthias Bussonnier has published essentially this in his  [pip_magic](https://github.com/Carreau/pip_magic)  repository, so you can do
 
-```
+```py
 $ python -m pip install pip_magic
 ```
 
@@ -497,7 +497,7 @@ and use this right now (that is, assuming you install  `pip_magic`  in the right
 #### conda magic[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#conda-magic)
 
 Similarly, we can define a conda magic that will do the right thing if you type  `%conda install XXX`. This is a bit more involved than the  `pip`  magic, because it must first confirm that the environment is conda-compatible, and then (related to the lack of  `python -m conda install`) must call a subprocess to execute the appropriate shell command:
-
+```py
 In [23]:
 
 from IPython.core.magic import register_line_magic
@@ -544,9 +544,9 @@ def conda(args):
         # Read stderr line by line, because real-time does not matter
         for line in iter(process.stderr.readline, b''):
             sys.stderr.write(line.decode(sys.stderr.encoding))
-
+```
 You can now use  `%conda install`  and it will install packages to the correct environment:
-
+```py
 In [24]:
 
 %conda install numpy
@@ -558,7 +558,7 @@ Solving package specifications: .
 # packages in environment at /Users/jakevdp/anaconda:
 #
 numpy                     1.13.3           py36h2cdce51_0  
-
+```
 This conda magic still needs some work to be a general solution (cf. the TODO comments in the code), but I think this is a useful start.
 
 If a pip magic and conda magic similar to the above were added to Jupyter's default set of magic commands, I think it could go a long way toward solving the common problems that users have when trying to install Python packages for use with Jupyter notebooks. This approach is not without its own dangers, though: these magics are yet another layer of abstraction that, like all abstractions, will inevitably leak. But if they are implemented carefully, I think it would lead to a much nicer overall user experience.
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODk0MzIyOV19
+eyJoaXN0b3J5IjpbLTEyMjc1NzkwMDVdfQ==
 -->
