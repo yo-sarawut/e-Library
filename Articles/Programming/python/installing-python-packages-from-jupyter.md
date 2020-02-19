@@ -146,37 +146,37 @@ In [5]:
 !echo $PATH
 
 /Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/envs/python3.6/bin:/Users/jakevdp/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
+```
 `$PATH`  lists the directories, in order, that will be searched for any executable: for example, if I type  `python`  on my system with the above  `$PATH`, it will first look for  `/Users/jakevdp/anaconda/envs/python3.6/bin/python`, and if that doesn't exist it will look for  `/Users/jakevdp/anaconda/bin/python`, and so on.
 
 (Parenthetical note: why is the first entry of  `$PATH`  repeated twice here? Because every time you launch  `jupyter notebook`, Jupyter prepends the location of the  `jupyter`  executable to the beginning of the  `$PATH`. In this case, the location was already at the beginning of the path, and the result is that the entry is duplicated. Duplicate entries add clutter, but cause no harm).
 
 If you want to know what is actually executed when you type  `python`, you can use the  `type`  shell command:
-
+```py
 In [6]:
 
 !type python
 
 python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
-
+```
 Note that this is true of  _any_  command you use from the terminal:
-
+```py
 In [7]:
 
 !type ls
 
 ls is /bin/ls
-
+```
 Even built-in commands like  `type`  itself:
-
+```py
 In [8]:
 
 !type type
 
 type is a shell builtin
-
+```
 You can optionally add the  `-a`  tag to see  _all available_  versions of the command in your current shell environment; for example:
-
+```py
 In [9]:
 
 !type -a python
@@ -201,7 +201,7 @@ In [11]:
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 pip is /Users/jakevdp/anaconda/bin/pip
-
+```
 When you have multiple available versions of any command, it is important to keep in mind the role of  `$PATH`  in choosing which will be used.
 
 ### How Python locates packages[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-Python-locates-packages)
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzE3NTVdfQ==
+eyJoaXN0b3J5IjpbODc2MTg5OTMxXX0=
 -->
