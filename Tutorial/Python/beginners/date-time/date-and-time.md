@@ -288,8 +288,9 @@ print (datetime.now().isoformat())
 
 Output:
 
-2019-11-01T10:42:00.720818
-
+# 2019-11-01T10:42:00.720818
+```
+```py
 ## With timezone, with microseconds:
 
 from datetime import datetime
@@ -299,8 +300,9 @@ print (datetime.now(tzlocal()).isoformat())
 
 Output:
 
-2019-11-01T10:46:20.965506+00:00
-
+# 2019-11-01T10:46:20.965506+00:00
+```
+```py
 ## With timezone, without microseconds:
 
 from datetime import datetime
@@ -310,10 +312,10 @@ print (datetime.now(tzlocal()).replace(microsecond=0).isoformat())
 
 Output:
 
-2019-11-01T10:49:58+00:00
-
+# 2019-11-01T10:49:58+00:00
+```
 ## Parsing a string with a short time zone name into a timr zone aware datetime object:
-
+```py
 from dateutil import tz
 from dateutil.parser import parse
 
@@ -336,7 +338,7 @@ Output:
 
 2018-01-02 04:00:00-05:00
 2019-03-11 16:00:00-07:00
-
+```py
 ## Parsing an arbitrary ISO 8601 timestamp with minimal libraries:
 
 Python has only limited support for parsing ISO 8601 timestamps and for strptime you need to know exactly what format it is in. The stringification of a datetime is an ISO 8601 timestamp, with space as a separator and 6 digit fraction:
@@ -664,6 +666,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzQzMTAzMCwtOTI1MDUyOTgwLDE4MD
-I2MTY5MzhdfQ==
+eyJoaXN0b3J5IjpbOTU1MTg5Mzg1LC05MjUwNTI5ODAsMTgwMj
+YxNjkzOF19
 -->
