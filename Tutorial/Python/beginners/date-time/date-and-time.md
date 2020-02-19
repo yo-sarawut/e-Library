@@ -423,12 +423,8 @@ Output:
 ```
 ## List of the Date format codes:
 
-|  |  |
-|--|--|
-|  |  |
-
 |Directive|Meaning|Example|Notes|
-|---------|--------|-------|----------|
+|:----------|--------|-------|;----------;|
 |%a|Weekday as locale’s abbreviated name.|Sun, Mon, …, Sat (en_US); So, Mo, …, Sa (de_DE)|(1)|
 |%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)|
 |%w|Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.|0, 1, …, 6||
@@ -452,9 +448,7 @@ Output:
 |%c|Locale’s appropriate date and time representation.|Tue Aug 16 21:30:00 1988 (en_US);  Di 16 Aug 21:30:00 1988 (de_DE)|(1)|
 |%x|Locale’s appropriate date representation.|08/16/88 (None); 08/16/1988 (en_US); 16.08.1988 (de_DE)|(1)|
 |%X|Locale’s appropriate time representation.|21:30:00 (en_US); 21:30:00 (de_DE)|(1)|
-|%%|A literal '%' character.
-
-%
+|%%|A literal '%' character.|%||
 
 ----------
 
@@ -498,7 +492,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTQ3NTgzNCwtMTY4NDcxMzI5LDIxMT
-E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
-OTM4XX0=
+eyJoaXN0b3J5IjpbLTE4OTU1NTk4MjcsLTE2ODQ3MTMyOSwyMT
+ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
+NjkzOF19
 -->
