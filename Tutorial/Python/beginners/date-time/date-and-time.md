@@ -290,9 +290,9 @@ Output:
 
 # 2019-11-01T10:42:00.720818
 ```
-```py
-## With timezone, with microseconds:
 
+## With timezone, with microseconds:
+```py
 from datetime import datetime
 from dateutil.tz import tzlocal
 
@@ -302,9 +302,9 @@ Output:
 
 # 2019-11-01T10:46:20.965506+00:00
 ```
-```py
-## With timezone, without microseconds:
 
+## With timezone, without microseconds:
+```py
 from datetime import datetime
 from dateutil.tz import tzlocal
 
@@ -336,20 +336,20 @@ print (dt_pst)
 
 Output:
 
-2018-01-02 04:00:00-05:00
-2019-03-11 16:00:00-07:00
+# 2018-01-02 04:00:00-05:00
+# 2019-03-11 16:00:00-07:00
 ```
 ## Parsing an arbitrary ISO 8601 timestamp with minimal libraries:
 
 Python has only limited support for parsing ISO 8601 timestamps and for strptime you need to know exactly what format it is in. The stringification of a datetime is an ISO 8601 timestamp, with space as a separator and 6 digit fraction:
-
+```py
 import datetime
 print (str(datetime.datetime(2019, 7, 22, 9, 25, 59, 555555)))
 
 Output:
 
-2019-07-22 09:25:59.555555
-
+# 2019-07-22 09:25:59.555555
+```
 but if the fraction is 0, no fractional part is output
 
 import datetime
@@ -666,6 +666,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc0ODM4ODQsLTkyNTA1Mjk4MCwxOD
+eyJoaXN0b3J5IjpbLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxOD
 AyNjE2OTM4XX0=
 -->
