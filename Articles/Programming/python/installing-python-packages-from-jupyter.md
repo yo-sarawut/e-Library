@@ -274,7 +274,7 @@ In [15]:
 pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 ```
 And  `conda install`  will do the same, because  `python3.6`  is the current active environment (notice the  `*`  indicating the active environment):
-
+```py
 In [16]:
 
 !conda env list
@@ -286,7 +286,7 @@ python3.5                /Users/jakevdp/anaconda/envs/python3.5
 python3.6             *  /Users/jakevdp/anaconda/envs/python3.6
 rstats                   /Users/jakevdp/anaconda/envs/rstats
 root                     /Users/jakevdp/anaconda
-
+```
 The reason both  `pip`  and  `conda`  default to the conda  `python3.6`  environment is that this is the Python environment I used to launch the notebook.
 
 I'll say this again for emphasis:  **the shell environment in Jupyter notebook matches the Python version used to  _launch_  the notebook.**
@@ -300,7 +300,7 @@ A Jupyter kernel is a set of files that point Jupyter to some means of executing
 If you're using the Jupyter notebook, you can change your kernel at any time using the  _Kernel → Choose Kernel_  menu item.
 
 To see the kernels you have available on your system, you can run the following command in the shell:
-
+```py
 In [17]:
 
 !jupyter kernelspec list
@@ -311,9 +311,9 @@ Available kernels:
   python2.7     /Users/jakevdp/Library/Jupyter/kernels/python2.7
   python3.5     /Users/jakevdp/Library/Jupyter/kernels/python3.5
   python3.6     /Users/jakevdp/Library/Jupyter/kernels/python3.6
-
+```
 Each of these listed kernels is a directory that contains a file called  `kernel.json`  which specifies, among other things, which language and executable the kernel should use. For example:
-
+```py
 In [18]:
 
 !cat /Users/jakevdp/Library/Jupyter/kernels/conda-root/kernel.json
@@ -329,10 +329,10 @@ In [18]:
  "display_name": "python (conda-root)",
  "language": "python"
 }
-
+```
 If you'd like to create a new kernel, you can do so using the  [jupyter ipykernel command](http://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments); for example, I created the above kernels for my primary conda environments using the following as a template:
 
-```
+```py
 $ source activate myenv
 $ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 ```
@@ -344,15 +344,15 @@ Now we have the full background to answer our question:  _Why don't  `!pip insta
 The root of the issue is this: the shell environment is determined when the Jupyter notebook is launched, while the Python executable is determined by the kernel, and the two do not necessarily match. In other words, there is no guarantee that the  `python`,  `pip`, and  `conda`  in your  `$PATH`  will be compatible with the  `python`  executable used by the notebook.
 
 Recall that the  `python`  in your path can be determined using
-
+```py
 In [19]:
 
 !type python
 
 python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
-
+```
 The Python executable being used in the notebook can be determined using
-
+```py
 In [20]:
 
 sys.executable
@@ -360,7 +360,7 @@ sys.executable
 Out[20]:
 
 '/Users/jakevdp/anaconda/bin/python'
-
+```
 In my current notebook environment, the two differ. This is why a simple  `!pip install`  or  `!conda install`  does not work: the commands install packages in the  `site-packages`  of the wrong Python installation.
 
 As noted above, we can get around this by explicitly identifying where we want packages to be installed.
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjQxNDA3NV19
+eyJoaXN0b3J5IjpbLTQ1MTI5ODkzNV19
 -->
