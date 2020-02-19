@@ -433,7 +433,7 @@ Output:
 |%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)|
 |%w|Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.|0, 1, …, 6||
 |%d|Day of the month as a zero-padded decimal number.|01, 02, …, 31|(9)|
-|%b|Month as locale’s abbreviated name.|Jan, Feb, …, Dec (en_US);  
+|%b|Month as locale’s abbreviated name.Jan, Feb, …, Dec (en_US);  
 Jan, Feb, …, Dez (de_DE)|(1)|
 |%B|Month as locale’s full name.|January, February, …, December (en_US);  Januar, Februar, …, Dezember (de_DE)|(1)|
 |%m|Month as a zero-padded decimal number.|01, 02, …, 12|(9)|
@@ -602,7 +602,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU4Nzk5MjAsLTE2ODQ3MTMyOSwyMT
-ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
-NjkzOF19
+eyJoaXN0b3J5IjpbNzUyMjQ5MDk0LC0xNjg0NzEzMjksMjExMT
+cxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUyOTgwLDE4MDI2MTY5
+MzhdfQ==
 -->
