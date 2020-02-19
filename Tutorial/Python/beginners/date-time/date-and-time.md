@@ -50,7 +50,7 @@ print(noon)
 
 Output:
 
-12:00:00
+# 12:00:00
 ```
 **Date Time:**
 ```py
@@ -91,13 +91,13 @@ for i in range((end_date - start_date).days):
 
 Output:
 
-2019-11-01
-2019-11-02
-2019-11-03
-2019-11-04
-2019-11-05
-2019-11-06
-2019-11-07
+# 2019-11-01
+# 2019-11-02
+# 2019-11-03
+# 2019-11-04
+# 2019-11-05
+# 2019-11-06
+# 2019-11-07
 ```
 
 ## Computing time differences:
@@ -111,7 +111,7 @@ print(then)
 
 Output:
 
-2019-05-23 00:00:00
+# 2019-05-23 00:00:00
 ```
 Specifying time is optional when creating a new datetime object
 ```py
@@ -207,10 +207,10 @@ print('Time between tomorrow and yesterday:', tomorrow - yesterday)
 
 Output:
 
-Today: 2019-11-01
-Yesterday: 2019-10-31
-Tomorrow: 2019-11-02
-Time between tomorrow and yesterday: 2 days, 0:00:00
+# Today: 2019-11-01
+# Yesterday: 2019-10-31
+# Tomorrow: 2019-11-02
+# Time between tomorrow and yesterday: 2 days, 0:00:00
 ```
 ## Subtracting months from a date:
 ```py
@@ -417,9 +417,9 @@ print(dt_pdt)
 
 Output:
 
-2019-01-01 12:00:00+00:00
-2019-01-01 12:00:00-08:00
-2019-07-01 12:00:00-07:00
+# 2019-01-01 12:00:00+00:00
+# 2019-01-01 12:00:00-08:00
+# 2019-07-01 12:00:00-07:00
 ```
 ## List of the Date format codes:
 
@@ -493,7 +493,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODQ3NDMxLC0xNjg0NzEzMjksMjExMT
-cxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUyOTgwLDE4MDI2MTY5
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTEyOTgwNDM3ODUsLTkyODQ3NDMxLC0xNj
+g0NzEzMjksMjExMTcxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUy
+OTgwLDE4MDI2MTY5MzhdfQ==
 -->
