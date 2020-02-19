@@ -3,6 +3,7 @@
 ## ศึกษาเพิ่มเติม
 
 - [Python-Markdown : Document](https://python-markdown.github.io/sitemap.html)
+- [Markdown Syntax Guide](https://sourceforge.net/p/mp4video1click/wiki/markdown_syntax/)
 
 > [Source : ](https://).
 
@@ -38,5 +39,6 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODcwNjUxLC0xMDQxNTMwNDU2XX0=
+eyJoaXN0b3J5IjpbLTE4MDEyNTIyOTgsMTE4ODcwNjUxLC0xMD
+QxNTMwNDU2XX0=
 -->
