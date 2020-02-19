@@ -447,7 +447,7 @@ For symmetry with  `pip`, it would be nice if  `python -m conda install`  could 
 (myenv) jakevdp$ conda install conda
 Fetching package metadata ...........
 
-InstallError: Error: 'conda' can only be installed into the root environment
+# InstallError: Error: 'conda' can only be installed into the root environment
 ```
 
 I suspect that allowing  `python -m conda install`  in all conda environments would require a fairly significant redesign of conda's installation model, so it may not be worth the change just for symmetry with  `pip`'s API. That said, such a symmetry would certainly be a help to users.
@@ -482,7 +482,7 @@ In [22]:
 
 %pip install numpy
 
-Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
+# Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
 ```
 Note that Jupyter developer Matthias Bussonnier has published essentially this in his  [pip_magic](https://github.com/Carreau/pip_magic)  repository, so you can do
 
@@ -554,8 +554,7 @@ Solving package specifications: .
 
 # All requested packages already installed.
 # packages in environment at /Users/jakevdp/anaconda:
-#
-numpy                     1.13.3           py36h2cdce51_0  
+# numpy                     1.13.3           py36h2cdce51_0  
 ```
 This conda magic still needs some work to be a general solution (cf. the TODO comments in the code), but I think this is a useful start.
 
@@ -575,5 +574,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTg4OTgzMywtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbLTc5MjA3MzU5OSwtMTM3ODExMzEzMF19
 -->
