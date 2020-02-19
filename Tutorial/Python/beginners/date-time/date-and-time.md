@@ -351,7 +351,7 @@ Output:
 # 2019-07-22 09:25:59.555555
 ```
 but if the fraction is 0, no fractional part is output
-
+```py
 import datetime
 print(str(datetime.datetime(2019, 7, 22, 9, 25, 59, 0)))
 
@@ -666,6 +666,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxOD
-AyNjE2OTM4XX0=
+eyJoaXN0b3J5IjpbMjAwMDEzMjY2MSwtMjEzMTMxNTM4NCwtOT
+I1MDUyOTgwLDE4MDI2MTY5MzhdfQ==
 -->
