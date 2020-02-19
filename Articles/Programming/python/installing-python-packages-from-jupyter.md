@@ -51,10 +51,10 @@ It will always lead to problems in the long term, even if it seems to solve them
 If you're in the jupyter notebook and you want to install a package with conda, you might be tempted to use the  `!`  notation to run conda directly as a shell command from the notebook:
 
 In [1]:
-
+```py
 # DON'T DO THIS!
 !conda install --yes numpy
-
+```
 Fetching package metadata ...........
 Solving package specifications: .
 
@@ -580,5 +580,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzc4OTM2MV19
+eyJoaXN0b3J5IjpbLTk4MjU2MDk1Ml19
 -->
