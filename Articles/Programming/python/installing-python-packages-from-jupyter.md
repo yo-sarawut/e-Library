@@ -60,8 +60,7 @@ Solving package specifications: .
 
 # All requested packages already installed.
 # packages in environment at /Users/jakevdp/anaconda/envs/python3.6:
-# 
-numpy                     1.13.3           py36h2cdce51_0  
+# numpy                     1.13.3           py36h2cdce51_0  
 ```
 (Note that we use  `--yes`  to automatically answer  `y`  if and when conda asks for user confirmation)
 
@@ -576,5 +575,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgxMTMxMzBdfQ==
+eyJoaXN0b3J5IjpbNDQ5NjI2MjE2LC0xMzc4MTEzMTMwXX0=
 -->
