@@ -440,26 +440,9 @@ Output:
 |%Y|Year with century as a decimal number.|0001, 0002, …, 2013, 2014, …, 9998, 9999|(2)|
 |%H|Hour (24-hour clock) as a zero-padded decimal number.|00, 01, …, 23|(9)|
 |%I|Hour (12-hour clock) as a zero-padded decimal number.|01, 02, …, 12|(9)|
-
-
-%p
-
-Locale’s equivalent of either AM or PM.
-
-AM, PM (en_US);  
-am, pm (de_DE)
-
-(1), (3)
-
-%M
-
-Minute as a zero-padded decimal number.
-
-00, 01, …, 59
-
-(9)
-
-%S
+|%p|Locale’s equivalent of either AM or PM.|AM, PM (en_US); am, pm (de_DE)|(1), (3)|
+|%M|Minute as a zero-padded decimal number.|00, 01, …, 59|(9)|
+|%S|
 
 Second as a zero-padded decimal number.
 
@@ -589,7 +572,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTc5MzAsLTE2ODQ3MTMyOSwyMTExNz
-E2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYxNjkz
-OF19
+eyJoaXN0b3J5IjpbLTEwMzcwNDE1MTAsLTE2ODQ3MTMyOSwyMT
+ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
+NjkzOF19
 -->
