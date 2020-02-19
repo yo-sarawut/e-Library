@@ -429,21 +429,8 @@ Output:
 
 |Directive|Meaning|Example|Notes|
 |---------|--------|-------|----------|
-|%a|Weekday as locale’s abbreviated name.
-
-Sun, Mon, …, Sat (en_US);  
-So, Mo, …, Sa (de_DE)
-
-(1)
-
-%A
-
-Weekday as locale’s full name.
-
-unday, Monday, …, Saturday (en_US);  
-Sonntag, Montag, …, Samstag (de_DE)
-
-(1)
+|%a|Weekday as locale’s abbreviated name.|Sun, Mon, …, Sat (en_US); So, Mo, …, Sa (de_DE)|(1)|
+|%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)
 
 %w
 
@@ -664,7 +651,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjU0OTcyNSwtMTY4NDcxMzI5LDIxMT
+eyJoaXN0b3J5IjpbLTQ2NTM5NDkxNCwtMTY4NDcxMzI5LDIxMT
 E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
 OTM4XX0=
 -->
