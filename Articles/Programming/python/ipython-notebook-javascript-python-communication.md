@@ -162,14 +162,16 @@ In a  [previous post](http://jakevdp.github.io/blog/2013/05/19/a-javascript-view
 Here we'll explore a different strategy: rather than precomputing all the frames before displaying them, we'll use the javascript/python kernel communication and  _generate the frames as needed_.
 
 Note that if you're viewing this statically (e.g. in nbviewer or on my blog), it will be relatively unexciting: with no IPython kernel available, calls to the kernel will do nothing. To see this in action, please  [download](http://jakevdp.github.io/downloads/notebooks/JSInteraction.ipynb)  the notebook and open it with a running IPython notebook instance.
-
+```
+```py
 In [6]:
 
 %pylab inline
 
-Welcome to pylab, a matplotlib-based Python environment [backend: module://IPython.kernel.zmq.pylab.backend_inline].
-For more information, type 'help(pylab)'.
-
+# Welcome to pylab, a matplotlib-based Python environment [backend: module://IPython.kernel.zmq.pylab.backend_inline].
+# For more information, type 'help(pylab)'.
+```
+```py
 In [7]:
 
 from IPython.display import HTML
@@ -276,7 +278,7 @@ class DisplayAnimation(object):
 This code should be considered a proof-of-concept: in particular, it requires the display object to be named  `disp`  in the global namespace. But making it more robust would be a relatively simple process.
 
 Here we'll test the result by creating a simple animation and displaying it dynamically:
-
+```py
 In [8]:
 
 from matplotlib import animation
@@ -343,5 +345,5 @@ _This post was composed entirely in IPython notebook._  _The source notebook can
 
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0Mzk3ODE3LC03MDgxODQ3NDddfQ==
+eyJoaXN0b3J5IjpbLTQxODU2NTk2MiwtNzA4MTg0NzQ3XX0=
 -->
