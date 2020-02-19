@@ -1,5 +1,7 @@
 
-# Date and Time
+Python: Date and Time
+===
+> Last update on November 09 2019 06:55:23
 
 The datetime module supplies classes for manipulating dates and times in both simple and complex ways.
 
@@ -357,7 +359,7 @@ print(str(datetime.datetime(2019, 7, 22, 9, 25, 59, 0)))
 
 Output:
 
-2019-07-22 09:25:59.555555
+# 2019-07-22 09:25:59.555555
 ```
 
 ## Parsing a string into a timezone aware datetime object:
@@ -392,9 +394,9 @@ print(dt.tzname)
 
 Output:
 
-2019-01-01 12:00:00+09:00
-UTC+09:00
-<built-in method tzname of datetime.datetime object at 0x7f91a9437360>
+# 2019-01-01 12:00:00+09:00
+# UTC+09:00
+# <built-in method tzname of datetime.datetime object at 0x7f91a9437360>
 ```
 ## Zones with daylight savings time using third party library:
 
@@ -493,7 +495,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgwNDM3ODUsLTkyODQ3NDMxLC0xNj
+eyJoaXN0b3J5IjpbLTE1ODcxOTkzMTMsLTkyODQ3NDMxLC0xNj
 g0NzEzMjksMjExMTcxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUy
 OTgwLDE4MDI2MTY5MzhdfQ==
 -->
