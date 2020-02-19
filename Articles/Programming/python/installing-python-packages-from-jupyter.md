@@ -54,14 +54,13 @@ In [1]:
 
 # DON'T DO THIS!
 !conda install --yes numpy
-```
-```py
+
 Fetching package metadata ...........
 Solving package specifications: .
 
 # All requested packages already installed.
 # packages in environment at /Users/jakevdp/anaconda/envs/python3.6:
-#
+# 
 numpy                     1.13.3           py36h2cdce51_0  
 ```
 (Note that we use  `--yes`  to automatically answer  `y`  if and when conda asks for user confirmation)
@@ -81,7 +80,7 @@ Solving package specifications: .
 
 # All requested packages already installed.
 # packages in environment at /Users/jakevdp/anaconda:
-#
+# 
 numpy                     1.13.3           py36h2cdce51_0  
 ```
 That bit of extra boiler-plate makes certain that conda installs the package in the currently-running Jupyter kernel (thanks to  [Min Ragan-Kelley](https://twitter.com/minrk/status/842067777150169088)  for suggesting this approach). I'll discuss why this is needed momentarily.
@@ -577,5 +576,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDY3NzAwMV19
+eyJoaXN0b3J5IjpbLTE5MjM3MTY2MzJdfQ==
 -->
