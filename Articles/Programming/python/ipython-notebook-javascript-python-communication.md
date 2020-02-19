@@ -64,7 +64,7 @@ In [2]:
 
 print foo
 
-bar
+# bar
 ```
 Examining the code, we see that when the button is clicked, the  `set_value()`  function is called, which constructs a simple Python statement assigning  `var_value`  to the variable given by  `var_name`. As mentioned above, the key to interaction between Javascript and the notebook kernel is to use the  `IPython.notebook.kernel.execute()`  command, passing valid Python code in a string. We also log the result to the javascript console, which can be helpful for Javascript debugging.
 
@@ -76,22 +76,19 @@ In order to process the output of a Python statement executed in the kernel, we 
 
 To set an output, we pass a Javascript callback object to the execute call, looking like this:
 
-```
+```py
 var kernel = IPython.notebook.kernel;
 function callback(out_type, out_data){
     // do_something
 }
 kernel.execute(command, {"output": callback});
-
-
 ```
 
 Using this, we can execute a Python command and do something with the result. The python command can be as simple as a variable name: in this case, the value returned is simply the value of that variable.
 
 To demonstrate this, we'll first import  `pi`  and  `sin`  from the  `math`  package in Python:
-
+```py
 In [3]:
-
 from math import pi, sin
 
 And then we'll manipulate this value via Javascript:
@@ -345,5 +342,5 @@ _This post was composed entirely in IPython notebook._  _The source notebook can
 
 > [Source : ](https://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTM4MjEyOSwtNzA4MTg0NzQ3XX0=
+eyJoaXN0b3J5IjpbLTE1NDI0MTI5MDIsLTcwODE4NDc0N119
 -->
