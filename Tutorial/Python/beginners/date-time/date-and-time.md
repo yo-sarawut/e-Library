@@ -423,8 +423,9 @@ Output:
 ```
 ## List of the Date format codes:
 
+
 |Directive|Meaning|Example|Notes|
-|:----------|--------|-------|;----------;|
+|:----------:|--------|-------|:----------:|
 |%a|Weekday as locale’s abbreviated name.|Sun, Mon, …, Sat (en_US); So, Mo, …, Sa (de_DE)|(1)|
 |%A|Weekday as locale’s full name.|Sunday, Monday, …, Saturday (en_US);  Sonntag, Montag, …, Samstag (de_DE)|(1)|
 |%w|Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.|0, 1, …, 6||
@@ -492,7 +493,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU1NTk4MjcsLTE2ODQ3MTMyOSwyMT
-ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
-NjkzOF19
+eyJoaXN0b3J5IjpbLTkyODQ3NDMxLC0xNjg0NzEzMjksMjExMT
+cxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUyOTgwLDE4MDI2MTY5
+MzhdfQ==
 -->
