@@ -279,9 +279,9 @@ Output:
 # 2019-01-01 08:21:00
 ```
 **Get an ISO 8601 timestamp:**
-```py
-## Without timezone, with microseconds:
 
+## Without timezone, with microseconds:
+```py
 from datetime import datetime
 
 print (datetime.now().isoformat())
@@ -338,7 +338,7 @@ Output:
 
 2018-01-02 04:00:00-05:00
 2019-03-11 16:00:00-07:00
-```py
+```
 ## Parsing an arbitrary ISO 8601 timestamp with minimal libraries:
 
 Python has only limited support for parsing ISO 8601 timestamps and for strptime you need to know exactly what format it is in. The stringification of a datetime is an ISO 8601 timestamp, with space as a separator and 6 digit fraction:
@@ -666,6 +666,6 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MTg5Mzg1LC05MjUwNTI5ODAsMTgwMj
-YxNjkzOF19
+eyJoaXN0b3J5IjpbLTEwNzc0ODM4ODQsLTkyNTA1Mjk4MCwxOD
+AyNjE2OTM4XX0=
 -->
