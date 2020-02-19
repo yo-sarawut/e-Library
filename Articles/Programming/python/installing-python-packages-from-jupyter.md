@@ -445,7 +445,7 @@ I can think of a couple modifications to conda's API that may be helpful to user
 
 For symmetry with  `pip`, it would be nice if  `python -m conda install`  could be expected to work in the same way the  `pip`  counterpart does. You can call  `conda`  this way in the root environment, but the conda Python package (as opposed to the conda executable) cannot currently be installed anywhere but the root environment:
 
-```
+```py
 (myenv) jakevdp$ conda install conda
 Fetching package metadata ...........
 
@@ -467,7 +467,7 @@ Even if the above changes to the stack are not possible or desirable, we could s
 #### pip magic[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#pip-magic)
 
 For example, here's how you can define a  `%pip`  magic function that works in the current kernel:
-
+```py
 In [21]:
 
 from IPython.core.magic import register_line_magic
@@ -477,7 +477,7 @@ def pip(args):
     """Use pip from the current kernel"""
     from pip import main
     main(args.split())
-
+```
 Running it as follows will install packages in the expected location
 
 In [22]:
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTI5ODkzNV19
+eyJoaXN0b3J5IjpbMTY4ODk0MzIyOV19
 -->
