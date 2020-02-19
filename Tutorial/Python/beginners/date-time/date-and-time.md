@@ -449,33 +449,10 @@ Output:
 |%j|Day of the year as a zero-padded decimal number.|001, 002, …, 366|(9)|
 |%U|Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0.|00, 01, …, 53|(7), (9)|
 |%W|Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0.|00, 01, …, 53|(7), (9)|
-|%c|Locale’s appropriate date and time representation.|Tue Aug 16 21:30:00 1988 (en_US);  
-Di 16 Aug 21:30:00 1988 (de_DE)
-
-(1)
-
-%x
-
-Locale’s appropriate date representation.
-
-08/16/88 (None);  
-08/16/1988 (en_US);  
-16.08.1988 (de_DE)
-
-(1)
-
-%X
-
-Locale’s appropriate time representation.
-
-21:30:00 (en_US);  
-21:30:00 (de_DE)
-
-(1)
-
-%%
-
-A literal '%' character.
+|%c|Locale’s appropriate date and time representation.|Tue Aug 16 21:30:00 1988 (en_US);  Di 16 Aug 21:30:00 1988 (de_DE)|(1)|
+|%x|Locale’s appropriate date representation.|08/16/88 (None); 08/16/1988 (en_US); 16.08.1988 (de_DE)|(1)|
+|%X|Locale’s appropriate time representation.|21:30:00 (en_US); 21:30:00 (de_DE)|(1)|
+|%%|A literal '%' character.
 
 %
 
@@ -521,7 +498,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYyNjMxMjIsLTE2ODQ3MTMyOSwyMT
-ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
-NjkzOF19
+eyJoaXN0b3J5IjpbMTE4MTQ3NTgzNCwtMTY4NDcxMzI5LDIxMT
+E3MTY3OTMsLTIxMzEzMTUzODQsLTkyNTA1Mjk4MCwxODAyNjE2
+OTM4XX0=
 -->
