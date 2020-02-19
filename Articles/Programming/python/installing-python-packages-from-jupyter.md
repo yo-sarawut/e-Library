@@ -315,22 +315,24 @@ In [18]:
 !cat /Users/jakevdp/Library/Jupyter/kernels/conda-root/kernel.json
 
 # {
- "argv": [
-  "/Users/jakevdp/anaconda/bin/python",
-  "-m",
-  "ipykernel_launcher",
-  "-f",
-  "{connection_file}"
- ],
- "display_name": "python (conda-root)",
- "language": "python"
-}
+#  "argv": [
+#   "/Users/jakevdp/anaconda/bin/python",
+#   "-m",
+#   "ipykernel_launcher",
+#   "-f",
+#   "{connection_file}"
+#  ],
+#  "display_name": "python (conda-root)",
+#  "language": "python"
+# }
 ```
 If you'd like to create a new kernel, you can do so using the  [jupyter ipykernel command](http://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments); for example, I created the above kernels for my primary conda environments using the following as a template:
 
 ```py
 $ source activate myenv
-$ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+$ python -m ipykernel install --user --name myenv --display-name 
+
+# "Python (myenv)"
 ```
 
 ## The Root of the Issue[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#The-Root-of-the-Issue)
@@ -345,7 +347,7 @@ In [19]:
 
 !type python
 
-python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
+# python is /Users/jakevdp/anaconda/envs/python3.6/bin/python
 ```
 The Python executable being used in the notebook can be determined using
 ```py
@@ -355,7 +357,7 @@ sys.executable
 
 Out[20]:
 
-'/Users/jakevdp/anaconda/bin/python'
+# '/Users/jakevdp/anaconda/bin/python'
 ```
 In my current notebook environment, the two differ. This is why a simple  `!pip install`  or  `!conda install`  does not work: the commands install packages in the  `site-packages`  of the wrong Python installation.
 
@@ -573,5 +575,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYyODE0MiwtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbLTg4MTg4OTgzMywtMTM3ODExMzEzMF19
 -->
