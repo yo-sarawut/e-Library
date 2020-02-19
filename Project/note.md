@@ -1,5 +1,10 @@
 Note for ideas
 ==
+## Tool & Data
+- [5 แหล่งแจก Dataset ฟรี ](https://blog.datath.com/free-datasets-machine-learning/)
+
+
+## Example Project
 - [Speech Recognition Python – Converting Speech to Text](https://www.simplifiedpython.net/speech-recognition-python/)
 - [Generate QR Code With Python](https://www.simplifiedpython.net/how-to-generate-qr-code-with-python/)
 - [PDF To Text Python – Extract Text From PDF Documents Using PyPDF2 Module](https://www.simplifiedpython.net/pdf-to-text-python-extract-text-from-pdf-documents-using-pypdf2-module/)
@@ -50,9 +55,10 @@ Note for ideas
 
 - [การแปลงมาตราเมตริก](https://www.metric-conversions.org/th/time-conversion.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Mzg2NDUxOCwyMTM5ODc3ODk4LC02Mj
-E2MzM4MTEsLTEzODI1Nzg2NTUsLTE0OTgzODEzNDksMTYxNDE4
-NTY3NCwtMTcxNjI2MTQ4MSwtNDM1NDI2MzE4LDE4ODQ1ODI3MD
-YsMTk4NTkzODcwNSwxMzkxNDg4Nzc0LDE3NDczMDg5MjEsLTM2
-OTMzOTMzNywtMTk0NTc3NTM0NywyMTkwMDA1MTFdfQ==
+eyJoaXN0b3J5IjpbNjg5MzIzNzc4LC02OTM4NjQ1MTgsMjEzOT
+g3Nzg5OCwtNjIxNjMzODExLC0xMzgyNTc4NjU1LC0xNDk4Mzgx
+MzQ5LDE2MTQxODU2NzQsLTE3MTYyNjE0ODEsLTQzNTQyNjMxOC
+wxODg0NTgyNzA2LDE5ODU5Mzg3MDUsMTM5MTQ4ODc3NCwxNzQ3
+MzA4OTIxLC0zNjkzMzkzMzcsLTE5NDU3NzUzNDcsMjE5MDAwNT
+ExXX0=
 -->
