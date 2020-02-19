@@ -49,9 +49,9 @@ It will always lead to problems in the long term, even if it seems to solve them
 ### How to use Conda from the Jupyter Notebook[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-to-use-Conda-from-the-Jupyter-Notebook)
 
 If you're in the jupyter notebook and you want to install a package with conda, you might be tempted to use the  `!`  notation to run conda directly as a shell command from the notebook:
-
-In [1]:
 ```py
+In [1]:
+
 # DON'T DO THIS!
 !conda install --yes numpy
 ```
@@ -379,13 +379,13 @@ or, to automatically use the correct prefix (using syntax available in the noteb
 
 For  **pip**, you can specify the Python executable explicitly:
 
-```
+```py
 $ /Users/jakevdp/anaconda/bin/python -m pip install numpy
 ```
 
 or, to automatically use the correct executable (again using notebook shell syntax)
 
-```
+```py
 !{sys.executable} -m pip install numpy
 ```
 
@@ -407,7 +407,7 @@ Perhaps: for example,  [this github issue](https://github.com/jupyterhub/jupyter
 
 Basically, in your kernel directory, you can add a script  `kernel-startup.sh`  that looks something like this (and make sure you change the permissions so that it's executable):
 
-```
+```py
 #!/usr/bin/env bash
 
 # activate anaconda env
@@ -419,7 +419,7 @@ exec python -m ipykernel $@
 
 Then in your  `kernel.json`  file, modify the  `argv`  field to look like this:
 
-```
+```py
 "argv": [
    "/path/to/kernel-startup.sh",
    "-f",
@@ -577,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMzYyMTUzXX0=
+eyJoaXN0b3J5IjpbLTQ1NDY3NzAwMV19
 -->
