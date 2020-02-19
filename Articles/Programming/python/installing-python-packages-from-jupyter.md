@@ -96,11 +96,11 @@ In [3]:
 !pip install numpy
 
 Requirement already satisfied: numpy in /Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages
-
+```
 For various reasons that I'll outline more fully below, this  **will not generally work**  if you want to use these installed packages from the current notebook, though it may work in the simplest cases.
 
 Here is a short snippet that should generally work:
-
+```py
 In [4]:
 
 # Install a pip package in the current Jupyter kernel
@@ -108,21 +108,17 @@ import sys
 !{sys.executable} -m pip install numpy
 
 Requirement already satisfied: numpy in /Users/jakevdp/anaconda/lib/python3.6/site-packages
-
+```
 That bit of extra boiler-plate makes certain that you are running the  `pip`  version associated with the current Python kernel, so that the installed packages can be used in the current notebook. This is related to the fact that, even setting Jupyter notebooks aside, it's better to install packages using
 
-```
+```py
 $ python -m pip install <package>
-
-
 ```
 
 rather than
 
-```
+```py
 $ pip install <package>
-
-
 ```
 
 because the former is more explicit about where the package will be installed (more on this below).
@@ -137,14 +133,14 @@ Those above solutions should work in all cases... but why is that additional boi
 
 For completeness, I'm going to delve briefly into each of these topics (this discussion is partly drawn from  [This StackOverflow answer](https://stackoverflow.com/questions/39007571/running-jupyter-with-multiple-python-and-ipython-paths/39022003#39022003)  that I wrote last year).
 
-_Note: the following discussion assumes Linux, Unix, MacOSX and similar operating systems. Windows has a slightly different architecture, and so some details will differ._
+>_Note: the following discussion assumes Linux, Unix, MacOSX and similar operating systems. Windows has a slightly different architecture, and so some details will differ._
 
 ### How your operating system locates executables[](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-your-operating-system-locates-executables)
 
 When you're using the terminal and type a command like  `python`,  `jupyter`,  `ipython`,  `pip`,  `conda`, etc., your operating system contains a well-defined mechanism to find the executable file the name refers to.
 
 On Linux & Mac systems, the system will first check for an  [alias](http://tldp.org/LDP/abs/html/aliases.html)  matching the command; if this fails it references the  `$PATH`  environment variable:
-
+```py
 In [5]:
 
 !echo $PATH
@@ -581,5 +577,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE4ODc5ODldfQ==
+eyJoaXN0b3J5IjpbMTcyNzE3NTVdfQ==
 -->
