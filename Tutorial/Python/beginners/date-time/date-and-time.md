@@ -442,33 +442,10 @@ Output:
 |%I|Hour (12-hour clock) as a zero-padded decimal number.|01, 02, …, 12|(9)|
 |%p|Locale’s equivalent of either AM or PM.|AM, PM (en_US); am, pm (de_DE)|(1), (3)|
 |%M|Minute as a zero-padded decimal number.|00, 01, …, 59|(9)|
-|%S|
-
-Second as a zero-padded decimal number.
-
-00, 01, …, 59
-
-(4), (9)
-
-%f
-
-Microsecond as a decimal number, zero-padded on the left.
-
-000000, 000001, …, 999999
-
-(5)
-
-%z
-
-UTC offset in the form ±HHMM[SS[.ffffff]] (empty string if the object is naive).
-
-(empty), +0000, -0400, +1030, +063415, -030712.345216
-
-(6)
-
-%Z
-
-Time zone name (empty string if the object is naive).
+|%S|Second as a zero-padded decimal number.|00, 01, …, 59|(4), (9)|
+|%f|Microsecond as a decimal number, zero-padded on the left.|000000, 000001, …, 999999|(5)|
+|%z|UTC offset in the form ±HHMM[SS[.ffffff]] (empty string if the object is naive).|(empty), +0000, -0400, +1030, +063415, -030712.345216|(6)|
+|%Z|Time zone name (empty string if the object is naive).
 
 (empty), UTC, EST, CST
 
@@ -572,7 +549,7 @@ Output:
 
 > [Source : ](https://www.w3resource.com/python/python-date-and-time.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcwNDE1MTAsLTE2ODQ3MTMyOSwyMT
-ExNzE2NzkzLC0yMTMxMzE1Mzg0LC05MjUwNTI5ODAsMTgwMjYx
-NjkzOF19
+eyJoaXN0b3J5IjpbLTI3ODc3MDUyLC0xNjg0NzEzMjksMjExMT
+cxNjc5MywtMjEzMTMxNTM4NCwtOTI1MDUyOTgwLDE4MDI2MTY5
+MzhdfQ==
 -->
