@@ -249,11 +249,11 @@ for path in set(paths):
 # /Users/jakevdp/anaconda/envs/python3.6/bin/python
 # ['', '/Users/jakevdp/anaconda/envs/python3.6/lib/python36.zip', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages']
 
-/usr/bin/python
-['', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload', '/Library/Python/2.7/site-packages', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC']
+# /usr/bin/python
+# ['', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old', '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload', '/Library/Python/2.7/site-packages', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python', '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC']
 
-/Users/jakevdp/anaconda/bin/python
-['', '/Users/jakevdp/anaconda/lib/python36.zip', '/Users/jakevdp/anaconda/lib/python3.6', '/Users/jakevdp/anaconda/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/lib/python3.6/site-packages', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/schemapi-0.3.0.dev0+791c7f6-py3.6.egg', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg']
+# /Users/jakevdp/anaconda/bin/python
+# ['', '/Users/jakevdp/anaconda/lib/python36.zip', '/Users/jakevdp/anaconda/lib/python3.6', '/Users/jakevdp/anaconda/lib/python3.6/lib-dynload', '/Users/jakevdp/anaconda/lib/python3.6/site-packages', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/schemapi-0.3.0.dev0+791c7f6-py3.6.egg', '/Users/jakevdp/anaconda/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg']
 ```
 The full details here are not particularly important, but it is important to emphasize that  _each Python executable has its own distinct paths_, and unless you modify  `sys.path`  (which should only be done with great care) you cannot import packages installed in a different Python environment.
 
@@ -268,7 +268,7 @@ In [15]:
 
 !type pip
 
-pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
+# pip is /Users/jakevdp/anaconda/envs/python3.6/bin/pip
 ```
 And  `conda install`  will do the same, because  `python3.6`  is the current active environment (notice the  `*`  indicating the active environment):
 ```py
@@ -277,12 +277,11 @@ In [16]:
 !conda env list
 
 # conda environments:
-#
-python2.7                /Users/jakevdp/anaconda/envs/python2.7
-python3.5                /Users/jakevdp/anaconda/envs/python3.5
-python3.6             *  /Users/jakevdp/anaconda/envs/python3.6
-rstats                   /Users/jakevdp/anaconda/envs/rstats
-root                     /Users/jakevdp/anaconda
+# python2.7                /Users/jakevdp/anaconda/envs/python2.7
+# python3.5                /Users/jakevdp/anaconda/envs/python3.5
+# python3.6             *  /Users/jakevdp/anaconda/envs/python3.6
+# rstats                   /Users/jakevdp/anaconda/envs/rstats
+# root                     /Users/jakevdp/anaconda
 ```
 The reason both  `pip`  and  `conda`  default to the conda  `python3.6`  environment is that this is the Python environment I used to launch the notebook.
 
@@ -302,12 +301,12 @@ In [17]:
 
 !jupyter kernelspec list
 
-Available kernels:
-  python3       /Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages/ipykernel/resources
-  conda-root    /Users/jakevdp/Library/Jupyter/kernels/conda-root
-  python2.7     /Users/jakevdp/Library/Jupyter/kernels/python2.7
-  python3.5     /Users/jakevdp/Library/Jupyter/kernels/python3.5
-  python3.6     /Users/jakevdp/Library/Jupyter/kernels/python3.6
+# Available kernels:
+#   python3       /Users/jakevdp/anaconda/envs/python3.6/lib/python3.6/site-packages/ipykernel/resources
+#   conda-root    /Users/jakevdp/Library/Jupyter/kernels/conda-root
+#   python2.7     /Users/jakevdp/Library/Jupyter/kernels/python2.7
+#   python3.5     /Users/jakevdp/Library/Jupyter/kernels/python3.5
+#   python3.6     /Users/jakevdp/Library/Jupyter/kernels/python3.6
 ```
 Each of these listed kernels is a directory that contains a file called  `kernel.json`  which specifies, among other things, which language and executable the kernel should use. For example:
 ```py
@@ -315,7 +314,7 @@ In [18]:
 
 !cat /Users/jakevdp/Library/Jupyter/kernels/conda-root/kernel.json
 
-{
+# {
  "argv": [
   "/Users/jakevdp/anaconda/bin/python",
   "-m",
@@ -574,5 +573,5 @@ _This post was written within a Jupyter notebook; you can view a static version 
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzI2NzYxOCwtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbLTE5MTYyODE0MiwtMTM3ODExMzEzMF19
 -->
