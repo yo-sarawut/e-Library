@@ -572,7 +572,7 @@ _Thanks to Andy Mueller, Craig Citro, and Matthias Bussonnier for helpful commen
 
 _This post was written within a Jupyter notebook; you can view a static version  [here](http://nbviewer.jupyter.org/url/jakevdp.github.com/downloads/notebooks/JupyterInstallation.ipynb)  or download the full notebook  [here](http://jakevdp.github.com/downloads/notebooks/JupyterInstallation.ipynb)._
 
-> [Source : ](https://).
+> [Source : ](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjA3MzU5OSwtMTM3ODExMzEzMF19
+eyJoaXN0b3J5IjpbLTM4OTUxNzIyMCwtMTM3ODExMzEzMF19
 -->
