@@ -11,6 +11,7 @@
 
 ## Example
 
+- [d3.scaleTime](https://observablehq.com/@d3/d3-scaletime)
 - [Easy circular progress component with counting effect](https://vuejsexamples.com/easy-circular-progress-component-with-counting-effect/)
 
 ![Easy circular progress component with counting effect](https://vuejsexamples.com/content/images/2019/11/easy-circular-progress.jpg)
@@ -30,6 +31,6 @@
 
 ![Simple and visually-pleasing Pomodoro timer](https://vuejsexamples.com/content/images/2019/12/pomotroid.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQwNjU2MzMsLTExNDY4MTkyMjEsMT
-E4MzIzMzYxN119
+eyJoaXN0b3J5IjpbLTYwNzI3NTc4MSwtMTg2NDA2NTYzMywtMT
+E0NjgxOTIyMSwxMTgzMjMzNjE3XX0=
 -->
