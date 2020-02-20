@@ -45,6 +45,7 @@ PANTONE 19-4055
 - [CNBC รวมข้อมูล ETF แยกตามหมวดหมู่ ง่ายต่อการค้นหา](https://www.cnbc.com/index-etfs/)
 - [Web : InteractiveBrokers รวบรวม Symbols หลักทรัพย์ต่าง ๆ](https://www.interactivebrokers.com.hk/en/index.php?f=2222&exch=kse&showcategories=FUTGRP#productbuffer)
 - [D3 for Python/](https://python-graph-gallery.com/)
+- [D3 : Line Chart with Tooltip](https://observablehq.com/@d3/line-chart-with-tooltip)
 - [==Stock-Portfolio-Optimizer: Python + Vue==](https://github.com/PPPW/stock-portfolio-optimizer)
 ![enter image description here](https://github.com/PPPW/stock-portfolio-optimizer/raw/master/images/demo.GIF)
 
@@ -374,10 +375,10 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDQxMDM5MSwtMTMxOTU5NTgwMyw1OT
-UyODU4NDMsMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4
-NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nz
-c2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkx
-MCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0MiwtMj
-ExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbMTU5NTAwNDQxMiwxNjk0NDEwMzkxLC0xMz
+E5NTk1ODAzLDU5NTI4NTg0MywxMTc5MzcxMTcxLC04MTc2NjU2
+MzksLTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MTY1ODgzLDcyOD
+Y3MzQ1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkz
+MSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOT
+QwODQxMzQyLC0yMTE2MTMzMTIxXX0=
 -->
