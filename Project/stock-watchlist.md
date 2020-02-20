@@ -65,6 +65,7 @@ PANTONE 19-4055
 
 ![enter image description here](https://files.realpython.com/media/flask-stock-visualizer.0427ad74f1f8.png)
 
+- [Vega](https://vega.github.io/vega)
 ## Exam Finance Package
 - [https://github.com/quantopian/pyfolio/tree/master/pyfolio](https://github.com/quantopian/pyfolio/tree/master/pyfolio)
 - [https://github.com/quantopian/pyfolio/blob/master/pyfolio/perf_attrib.py](https://github.com/quantopian/pyfolio/blob/master/pyfolio/perf_attrib.py)
@@ -375,10 +376,10 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTAwNDQxMiwxNjk0NDEwMzkxLC0xMz
-E5NTk1ODAzLDU5NTI4NTg0MywxMTc5MzcxMTcxLC04MTc2NjU2
-MzksLTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MTY1ODgzLDcyOD
-Y3MzQ1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkz
-MSwtNjYxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOT
-QwODQxMzQyLC0yMTE2MTMzMTIxXX0=
+eyJoaXN0b3J5IjpbNTM4MTg5Nzc0LDE1OTUwMDQ0MTIsMTY5ND
+QxMDM5MSwtMTMxOTU5NTgwMyw1OTUyODU4NDMsMTE3OTM3MTE3
+MSwtODE3NjY1NjM5LC01OTYwMzg4NDYsMTgyODgzNTg1LDkxNj
+E2NTg4Myw3Mjg2NzM0NTIsMTc0Nzc2NjU2NywtNTE3ODA1Nzks
+LTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5OD
+U3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
 -->
