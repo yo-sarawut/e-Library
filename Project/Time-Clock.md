@@ -5,6 +5,7 @@
 
 ![enter image description here](https://tutorialzine.com/media/2013/06/the_digits_explained.jpg)
 
+- [D3 : Clock](https://observablehq.com/search?query=clock)
 - [Making a jQuery Countdown Timer](https://tutorialzine.com/2011/12/countdown-jquery)
 
 ![enter image description here](https://tutorialzine.com/media/2011/12/jquery-countdown-timer.jpg)
@@ -31,6 +32,6 @@
 
 ![Simple and visually-pleasing Pomodoro timer](https://vuejsexamples.com/content/images/2019/12/pomotroid.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzI3NTc4MSwtMTg2NDA2NTYzMywtMT
-E0NjgxOTIyMSwxMTgzMjMzNjE3XX0=
+eyJoaXN0b3J5IjpbNzU5MjY4MDMsLTYwNzI3NTc4MSwtMTg2ND
+A2NTYzMywtMTE0NjgxOTIyMSwxMTgzMjMzNjE3XX0=
 -->
