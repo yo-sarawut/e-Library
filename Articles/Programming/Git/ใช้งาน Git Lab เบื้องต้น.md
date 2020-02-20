@@ -105,7 +105,7 @@ about.gitlab.com
 
 จากนั้นจะพบกับหน้าจอ Sign In/Register ตามด้านภาพด้านล่าง โดย GitLab ก็มีหลายทางเลือก ท่านผู้อ่านสามารถเลือกวิธี Sign In/Register ได้ตามสะดวก (ทางผู้เขียนเลือกวิธี Sign In ด้วย Google ครับ)
 
-![](https://miro.medium.com/max/60/1*AY74_xBIEC765bcSiq7N0g.png?q=20)
+
 
 ![](https://miro.medium.com/max/1940/1*AY74_xBIEC765bcSiq7N0g.png)
 
@@ -309,5 +309,5 @@ GitLab เป็นเครื่องมือที่น่าจับต�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODg4MjAxNF19
+eyJoaXN0b3J5IjpbLTIyODgzMTE5MSwxNzM4ODgyMDE0XX0=
 -->
