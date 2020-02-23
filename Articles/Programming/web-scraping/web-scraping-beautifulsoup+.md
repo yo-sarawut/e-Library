@@ -48,8 +48,10 @@ HyperText Markup Language (HTML) คือ ภาษาสำหรับสร�
 </html>
 ```
 เราก็จะได้หน้า web page ของเราประมาณนี้
+![enter image description here](https://miro.medium.com/max/435/1*BY-qiEr-txcZhe8vZqAUjw.png)
 
-Request Library
+
+## Request Library
 ขั้นแรกของการทำ web scraping คือเราต้องทำการ request ไปที่ url ที่เราต้องการจะทำการ scrap ซึ่งเราสามารถใช้ Python library ที่ชื่อว่า request โดยเจ้า lib ตัวนี้จะทำการ GET request ไปที่ web server ของ url ที่เราระบุ และจำทำการ download content ของ web page นั้นมาให้เรา ป่ะๆ ลองทำกันดีกว่า
 ทำการ install lib ใน cmd ด้วย pip install request จากนั้นก็เขียน code ตามนี้
 
@@ -129,5 +131,5 @@ Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataq
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDkwMDYyXX0=
+eyJoaXN0b3J5IjpbMTYxMjAyMTM0NF19
 -->
