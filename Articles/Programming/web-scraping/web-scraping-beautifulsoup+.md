@@ -117,11 +117,10 @@ soup.find_all(‘p’, class_=’outer-text’)
  </p>]
 มาถึงตรงจุดนี้เราก็จะทำการดึง content จาก web page หรือที่เรียกว่า web scraping กันได้แล้ว อีกทั้งยังสามารถแยกตาม tag , id , class ของ content นั้นได้ด้วย
 จบไปแล้วสำหรับ basic การทำ web scraping แบบ baby walk ถ้าติดขัดตรงไหน หรือมีอะไรจะแนะนำ comment หรือ inbox มาได้โดยตรงเลยนะครับ :P
-Reference
-Python Web Scraping Tutorial using BeautifulSoup
+Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
 
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDUyNzg0MF19
+eyJoaXN0b3J5IjpbLTE5Mzg5MzI3MjBdfQ==
 -->
