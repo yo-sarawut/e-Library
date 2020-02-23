@@ -391,15 +391,13 @@ $ flask db migrate
 
 Finally, we'll apply the migration:
 
-```
+```py
 $ flask db upgrade
-
-
 ```
 
 We've sucessfully created tables based on the models we wrote! Let's check the MySQL database to confirm this:
 
-```
+```py
 $ mysql -u root
 
 mysql> use dreamteam_db;
@@ -414,8 +412,6 @@ mysql> show tables;
 | roles                  |
 +------------------------+
 4 rows in set (0.00 sec)
-
-
 ```
 
 ### Blueprints
@@ -461,15 +457,13 @@ Create the relevant files and directories so that your directory structure resem
     &#x2502;&#xA0;&#xA0;     &#x2514;&#x2500;&#x2500; a1a1d8b30202_.py
     &#x251C;&#x2500;&#x2500; requirements.txt
     &#x2514;&#x2500;&#x2500; run.py
-
-
 ```
 
 I chose not to have  `static`  and  `templates`  directories for each blueprint, because all the application templates will inherit from the same base template and use the same CSS file. Instead, the  `templates`  directory will have sub-directories for each blueprint so that blueprint templates can be grouped together.
 
 In each blueprint's  `__init__.py`  file, we need to create a Blueprint object and initialize it with a name. We also need to import the views.
 
-```
+```py
 # app/admin/__init__.py
 
 from flask import Blueprint
@@ -491,13 +485,11 @@ from flask import Blueprint
 home = Blueprint(&apos;home&apos;, __name__)
 
 from . import views
-
-
 ```
 
 Then, we can register the blueprints on the app in the  `app/__init__.py`  file, like so:
 
-```
+```py
 # app/__init__.py
 
 # existing code remains
@@ -517,8 +509,6 @@ def create_app(config_name):
     app.register_blueprint(home_blueprint)
 
     return app
-
-
 ```
 
 We have imported each blueprint object and registered it. For the  `admin`  blueprint, we have added a url prefix,  `/admin`. This means that all the views for this blueprint will be accessed in the browser with the url prefix  `admin`.
@@ -527,7 +517,7 @@ We have imported each blueprint object and registered it. For the  `admin`  blue
 
 Time to work on fleshing out the blueprints! We'll start with the  `home`  blueprint, which will have the homepage as well as the dashboard.
 
-```
+```py
 # app/home/views.py
 
 from flask import render_template
@@ -549,8 +539,6 @@ def dashboard():
     Render the dashboard template on the /dashboard route
     """
     return render_template(&apos;home/dashboard.html&apos;, title="Dashboard")
-
-
 ```
 
 Each view function has a decorator,  `home.route`, which has a URL route as a parameter (remember that  `home`  is the name of the blueprint as specified in the  `app/home/__init__.py`  file). Each view handles requests to the specified URL.
@@ -559,7 +547,7 @@ The  `homepage`  view renders the home template, while the  `dashboard`  view re
 
 Now to work on the base template, which all other templates will inherit from. Create a  `base.html`  file in the  `app/templates`  directory and add the following code:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!DOCTYPE html>
@@ -614,15 +602,13 @@ Now to work on the base template, which all other templates will inherit from. C
     </footer>
 </body>
 </html>
-
-
 ```
 
 Note that we use  `#`  for the Register and Login links. We will update this when we are working on the  `auth`  blueprint.
 
 Next, create a  `home`  directory inside the  `app/templates`  directory. The homepage template,  `index.html`, will go inside it:
 
-```
+```html
 <!-- app/templates/home/index.html -->
 
 {% extends "base.html" %}
@@ -643,13 +629,11 @@ Next, create a  `home`  directory inside the  `app/templates`  directory. The ho
     </div>
 </div>
 {% endblock %}
-
-
 ```
 
 Inside the  `static`  directory, add  `css`  and  `img`  directories. Add the following CSS file,  `style.css`, to your  `static/css`  directory (note that you will need a background image,  `intro-bg.jpg`, as well as a favicon in your  `static/img`  directory):
 
-```
+```css
 /* app/static/css/style.css */
 
 body, html {
@@ -2767,5 +2751,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY0NTU4MTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjYxNzcxNzVdfQ==
 -->
