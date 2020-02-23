@@ -193,20 +193,16 @@ def create_app(config_name):
         return &apos;Hello, World!&apos;
 
     return app
-
-
 ```
 
 Make sure you set the  `FLASK_CONFIG`  and  `FLASK_APP`  environment variables before running the app:
 
-```
+```py
 $ export FLASK_CONFIG=development
 $ export FLASK_APP=run.py
 $ flask run
  * Serving Flask app "run"
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-
-
 ```
 
 We can see the “Hello, World” string we set in the route. The app is working well so far.
@@ -217,15 +213,13 @@ Now to work on the models. Remember that a model is a representation of a databa
 
 But first, let’s install  [Flask-Login](https://on.morioh.net/b0a3f595aa?r=https://flask-login.readthedocs.io/en/latest/ "Flask-Login"), which will help us with user management and handle logging in, logging out, and user sessions. The  `Employee`  model will inherit from Flask-Login’s  `UserMixin`  class which will make it easier for us to make use of its properties and methods.
 
-```
+```py
 $ pip install flask-login
-
-
 ```
 
 To use Flask-Login, we need to create a LoginManager object and initialize it in the  `app/__init__.py`  file. First, remove the route we added earlier, and then add the following:
 
-```
+```py
 # app/__init__.py
 
 # after existing third-party imports
@@ -242,15 +236,13 @@ def create_app(config_name):
     login_manager.login_view = "auth.login"
 
     return app
-
-
 ```
 
 In addition to initializing the LoginManager object, we've also added a  `login_view`  and  `login_message`  to it. This way, if a user tries to access a page that they are not authorized to, it will redirect to the specified view and display the specified message. We haven't created the  `auth.login`  view yet, but we will when we get to authentication.
 
 Now add the following code to the  `app/models.py`  file:
 
-```
+```py
 # app/models.py
 
 from flask_login import UserMixin
@@ -336,8 +328,6 @@ class Role(db.Model):
 
     def __repr__(self):
         return &apos;<Role: {}>&apos;.format(self.name)
-
-
 ```
 
 In the  `Employee`  model, we make use of some of Werkzeug's handy security helper methods,  `generate_password_hash`, which allows us to hash passwords, and  `check_password_hash`, which allows us ensure the hashed password matches the password. To enhance security, we have a  `password`  method which ensures that the password can never be accessed; instead an error will be raised. We also have two foreign key fields,  `department_id`  and  `role_id`, which refer to the ID's of the department and role assigned to the employee.
@@ -352,15 +342,13 @@ Migrations allow us to manage changes we make to the models, and propagate these
 
 We’ll begin by installing  [Flask-Migrate](https://on.morioh.net/b0a3f595aa?r=https://flask-migrate.readthedocs.io/en/latest/ "Flask-Migrate"), which will handle the database migrations using Alembic, a lightweight database migration tool. Alembic emits  `ALTER`  statements to a database thus implememting changes made to the models. It also auto-generates minimalistic migration scripts, which may be complex to write.
 
-```
+```py
 $ pip install flask-migrate
-
-
 ```
 
 We'll need to edit the  `app/__init__.py`  file:
 
-```
+```py
 # app/__init__.py
 
 # after existing third-party imports
@@ -376,37 +364,29 @@ def create_app(config_name):
     from app import models
 
     return app
-
-
 ```
 
 We have created a  `migrate`  object which will allow us to run migrations using Flask-Migrate. We have also imported the models from the  `app`  package. Next, we'll run the following command to create a migration repository:
 
-```
+```py
 $ flask db init
-
-
 ```
 
 This creates a  `migrations`  directory in the  `dream-team`  directory:
 
-```
+```py
 &#x2514;&#x2500;&#x2500; migrations
     &#x251C;&#x2500;&#x2500; README
     &#x251C;&#x2500;&#x2500; alembic.ini
     &#x251C;&#x2500;&#x2500; env.py
     &#x251C;&#x2500;&#x2500; script.py.mako
     &#x2514;&#x2500;&#x2500; versions
-
-
 ```
 
 Next, we will create the first migration:
 
-```
+```py
 $ flask db migrate
-
-
 ```
 
 Finally, we'll apply the migration:
@@ -2787,5 +2767,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzE4MjU5MF19
+eyJoaXN0b3J5IjpbLTE1NDY0NTU4MTFdfQ==
 -->
