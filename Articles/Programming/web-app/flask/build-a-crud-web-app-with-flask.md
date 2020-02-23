@@ -2075,15 +2075,13 @@ def create_app(config_name):
         return render_template(&apos;errors/500.html&apos;, title=&apos;Server Error&apos;), 500
 
     return app
-
-
 ```
 
 We make use of Flask's  `@app.errorhandler`  decorator to define the error page views, where we pass in the status code as a parameter.
 
 Next, we'll create the template files. Create a  `app/templates/errors`  directory, and in it, create  `403.html`,  `404.html`, and  `500.html`.
 
-```
+```html
 <!-- app/templates/errors/403.html -->
 
 {% extends "base.html" %}
@@ -2153,8 +2151,6 @@ Next, we'll create the template files. Create a  `app/templates/errors`  directo
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 All the templates give a brief description of the error, and a button that links to the homepage.
@@ -2165,7 +2161,7 @@ Now attempt to access this non-existent page:  `<a href="http://127.0.0.1:5000/n
 
 To view the internal server error page, we'll create a temporary route where we'll use Flask's  `abort()`  function to raise a 500 error. In the  `app/__init__.py`  file, add the following:
 
-```
+```py
 # app/__init__.py
 
 # update imports
@@ -2181,8 +2177,6 @@ def create_app(config_name):
         abort(500)
 
     return app
-
-
 ```
 
 Go to  `<a href="http://127.0.0.1:5000/500" target="_blank">http://127.0.0.1:5000/500</a>`; you should see the following page:
@@ -2203,13 +2197,11 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql> GRANT ALL PRIVILEGES ON dreamteam_test . * TO &apos;dt_admin&apos;@&apos;localhost&apos;;
 Query OK, 0 rows affected (0.00 sec)
-
-
 ```
 
 Now we need to edit the  `config.py`  file to add configurations for testing. Delete the current contents and replace them with the following code:
 
-```
+```py
 # config.py
 
 class Config(object):
@@ -2245,8 +2237,6 @@ app_config = {
     &apos;production&apos;: ProductionConfig,
     &apos;testing&apos;: TestingConfig
 }
-
-
 ```
 
 We have put  `DEBUG = True`  in the base class,  `Config`, so that it is the default setting. We override this in the  `ProductionConfig`  class. In the  `TestingConfig`  class, we set the  `TESTING`  configuration variable to  `True`.
@@ -2255,13 +2245,11 @@ We will be writing unit tests. Unit tests are written to test small, individual,
 
 ```
 $ pip install Flask-Testing
-
-
 ```
 
 Next, create a  `tests.py`  file in the root directory of your app. In it, add the following code:
 
-```
+```py
 # tests.py
 
 import unittest
@@ -2311,8 +2299,6 @@ class TestBase(TestCase):
 
 if __name__ == &apos;__main__&apos;:
     unittest.main()
-
-
 ```
 
 In the base class above,  `TestBase`, we have a  `create_app`  method, where we pass in the configurations for testing.
@@ -2328,14 +2314,11 @@ $ python tests.py
 Ran 0 tests in 0.000s
 
 OK
-
-
 ```
 
 The output above lets us know that our test setup is OK. Now let's write some tests.
 
-```
-
+```py
 # tests.py
 
 # update imports
@@ -2691,5 +2674,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODg4Njg4NF19
+eyJoaXN0b3J5IjpbMTQyNDQ4MTQ1MV19
 -->
