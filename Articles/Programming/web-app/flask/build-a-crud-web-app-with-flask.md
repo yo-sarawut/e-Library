@@ -743,8 +743,6 @@ p.copyright {
   height: 100%;
   margin: 0 auto -4em;
 }
-
-
 ```
 
 Run the app; you should be able to see the homepage now.
@@ -753,15 +751,13 @@ Run the app; you should be able to see the homepage now.
 
 For the  `auth`  blueprint, we’ll begin by creating the registration and login forms. We’ll use  [Flask-WTF](https://on.morioh.net/b0a3f595aa?r=https://flask-wtf.readthedocs.io/en/stable/ "Flask-WTF"), which will allow us to create forms that are secure (thanks to CSRF protection and reCAPTCHA support).
 
-```
+```py
 pip install Flask-WTF
-
-
 ```
 
 Now to write the code for the forms:
 
-```
+```py
 # app/auth/forms.py
 
 from flask_wtf import FlaskForm
@@ -800,8 +796,6 @@ class LoginForm(FlaskForm):
     email = StringField(&apos;Email&apos;, validators=[DataRequired(), Email()])
     password = PasswordField(&apos;Password&apos;, validators=[DataRequired()])
     submit = SubmitField(&apos;Login&apos;)
-
-
 ```
 
 Flask-WTF has a number of validators that make writing forms much easier. All the fields in the models have the  `DataRequired`  validator, which means that users will be required to fill all of them in order to register or login.
@@ -812,7 +806,7 @@ The  `submit`  field in both forms will be represented as a button that users wi
 
 With the forms in place, we can write the views:
 
-```
+```py
 # app/auth/views.py
 
 from flask import flash, redirect, render_template, url_for
@@ -887,8 +881,6 @@ def logout():
 
     # redirect to the login page
     return redirect(url_for(&apos;auth.login&apos;))
-
-
 ```
 
 Just like in the  `home`  blueprint, each view here handles requests to the specified URL. The  `register`  view creates an instance of the  `Employee`  model class using the registration form data to populate the fields, and then adds it to the database. This esentially registers a new employee.
@@ -901,15 +893,13 @@ Note the use of  `flash`  method, which allows us to use Flask’s  [message fla
 
 Finally, let’s work on the templates. First, we’ll install  [Flask-Bootstrap](https://on.morioh.net/b0a3f595aa?r=https://pythonhosted.org/Flask-Bootstrap/index.html "Flask-Bootstrap")  so we can use its  `wtf`  and  `utils`  libraries. The  `wtf`  library will allow us to quickly generate forms in the templates based on the forms in the  `forms.py`  file. The  `utils`  library will allow us to display the flash messages we set earlier to give feedback to the user.
 
-```
+```py
 pip install flask-bootstrap
-
-
 ```
 
 We need to edit the  `app/__init__.py`  file to use Flask-Bootstrap:
 
-```
+```py
 # app/__init__.py
 
 # after existing third-party imports
@@ -927,13 +917,11 @@ def create_app(config_name):
     # blueprint registration remains here
 
     return app
-
-
 ```
 
 We've made quite a number of edits to the  `app/__init__.py`  file. This is the final version of the file and how it should look at this point (note that I have re-arranged the imports and variables in alphabetical order):
 
-```
+```py
 # app/__init__.py
 
 # third-party imports
@@ -973,13 +961,11 @@ def create_app(config_name):
     app.register_blueprint(home_blueprint)
 
     return app
-
-
 ```
 
 We need two templates for the  `auth`  blueprint:  `register.html`  and  `login.html`, which we'll create in an  `auth`  directory inside the  `templates`  directory.
 
-```
+```html
 <!-- app/templates/auth/register.html -->
 
 {% import "bootstrap/wtf.html" as wtf %}
@@ -1012,13 +998,11 @@ We need two templates for the  `auth`  blueprint:  `register.html`  and  `login.
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 The forms are loaded from the  `app/auth/views.py`  file, where we specified which template files to display for each view. Remember the Register and Login links in the base template? Let's update them now so we can access the pages from the menus:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- Modify nav bar menu -->
@@ -1036,8 +1020,6 @@ The forms are loaded from the  `app/auth/views.py`  file, where we specified whi
     <li class="footer-menu-divider">&#x22C5;</li>
     <li><a href="{{ url_for(&apos;auth.login&apos;) }}">Login</a></li>
 </ul>
-
-
 ```
 
 Run the app again and click on the Register and Login menu links. You should see the templates loaded with the appropriate form.
@@ -1046,7 +1028,7 @@ Try to fill out the registration form; you should be able to register a new empl
 
 Logging in should be successful; however you should get a  `Template Not Found`  error after logging in, because the  `dashboard.html`  template has not been created yet. Let's do that now:
 
-```
+```ht
 <!-- app/templates/home/dashboard.html -->
 
 {% extends "base.html" %}
@@ -2751,5 +2733,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYxNzcxNzVdfQ==
+eyJoaXN0b3J5IjpbMTEzMjE2OTE0NV19
 -->
