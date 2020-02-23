@@ -119,14 +119,21 @@ b'<!DOCTYPE html>\n<html>\n <head>\n <title>A simple example page</title>\n</hea
 </html>
 ```
 แต่ ณ ที่นี้จากเราสามารถยิง url ไปลองได้ที่ https://dataquestio.github.io/web-scraping-pages/ids_and_classes.html โอเคไปเขียน code ลองดึง tag ที่มี` id = first` ออกมาแสดง ลองเขียน code ตามนี้ดู
+```py
 soup.find_all(id="first")
+```
 เราก็จะได้ผลลัพธ์ของ tag ที่มี id = first ออกมาตามนี้
+```py
 [<p class="inner-text first-item" id="first">
                  First paragraph.
              </p>]
+  ```
 ต่อมาเราจะลองทำการหา tag p ที่มี class outer-tex โดยทำการเขียน code ดังนี้
+```py
 soup.find_all(‘p’, class_=’outer-text’)
+```
 เราก็จะได้ผลลัพธ์ของ tag ที่มี class outer-text ออกมาตามนี้
+```py
 [<p class="outer-text first-item" id="second">
  <b>
                  First outer paragraph.
@@ -143,5 +150,5 @@ Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataq
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc4MTA3NDBdfQ==
+eyJoaXN0b3J5IjpbLTg4NjE5NTk2Ml19
 -->
