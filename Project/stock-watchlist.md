@@ -12,6 +12,8 @@ Note for Project Stock watch list
 
 PANTONE 19-4055
 
+- [เลือกสี](https://www.w3schools.com/colors/colors_fs595.asp)
+
 ## ศึกษาเพิ่มเติม
 
 - [Awesome-Quant](https://github.com/wilsonfreitas/awesome-quant#data-sources)   Awesome libraries, packages and resources for Quants (Quantitative Finance)
@@ -376,10 +378,11 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MTg5Nzc0LDE1OTUwMDQ0MTIsMTY5ND
-QxMDM5MSwtMTMxOTU5NTgwMyw1OTUyODU4NDMsMTE3OTM3MTE3
-MSwtODE3NjY1NjM5LC01OTYwMzg4NDYsMTgyODgzNTg1LDkxNj
-E2NTg4Myw3Mjg2NzM0NTIsMTc0Nzc2NjU2NywtNTE3ODA1Nzks
-LTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxODAxMjM1MDAwLDE5OD
-U3MTY0NTAsLTk0MDg0MTM0MiwtMjExNjEzMzEyMV19
+eyJoaXN0b3J5IjpbMTk5OTMyNTQ4Miw1MzgxODk3NzQsMTU5NT
+AwNDQxMiwxNjk0NDEwMzkxLC0xMzE5NTk1ODAzLDU5NTI4NTg0
+MywxMTc5MzcxMTcxLC04MTc2NjU2MzksLTU5NjAzODg0NiwxOD
+I4ODM1ODUsOTE2MTY1ODgzLDcyODY3MzQ1MiwxNzQ3NzY2NTY3
+LC01MTc4MDU3OSwtMTEzNTA5MTkzMSwtNjYxNzY4OTEwLDE4MD
+EyMzUwMDAsMTk4NTcxNjQ1MCwtOTQwODQxMzQyLC0yMTE2MTMz
+MTIxXX0=
 -->
