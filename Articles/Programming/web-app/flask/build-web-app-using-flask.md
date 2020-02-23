@@ -140,9 +140,9 @@ In the above code, we defined a method named  _tasks_  and it is used for two ro
 
 Now we are going to finish all the remaining route definitions for adding and deleting the documents to mongodb
 
-**[app.py](http://app.py/) **
+[**app.py**](http://app.py/)
 
-```
+```py
 from flask import Flask, render_template,request,redirect,url_for # For flask implementation    
 from bson import ObjectId # For ObjectId to work    
 from pymongo import MongoClient    
@@ -253,7 +253,7 @@ We must add the below three HTML files in the templates folder. (index.html, sea
 
 **index.html**
 
-```
+```html
 <html>    
     <head>    
         <title>{{t}}</title>    
@@ -604,5 +604,5 @@ Thank you!
 
 > [Source : ](https://morioh.com/p/9451f1260fe2?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2czTt1YUdumhoVNj2XCd15IC4IajbrU-VCngtFP0FcCculghiELRqxPNg).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE0ODE5MTRdfQ==
+eyJoaXN0b3J5IjpbMjAyNTMwMjY0Ml19
 -->
