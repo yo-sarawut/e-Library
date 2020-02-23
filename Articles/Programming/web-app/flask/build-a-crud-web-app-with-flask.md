@@ -1,5 +1,5 @@
 
-# Python Flask for Beginners: Build a CRUD Web App with Python and Flask
+# Build a CRUD Web App with Python and Flask
 
 In this three-part tutorial, we'll build a CRUD (Create, Read, Update, Delete) employee management web app using Flask, a microframework for Python.
 
@@ -42,8 +42,6 @@ You should have a virtual environment set up and activated. You should also have
     &#xA0;&#xA0; &#x251C;&#x2500;&#x2500; config.py
    &#xA0; &#xA0; &#x251C;&#x2500;&#x2500; requirements.txt
    &#xA0;&#xA0;  &#x2514;&#x2500;&#x2500; run.py
-
-
 ```
 
 This project structure groups the similar components of the application together. The  `dream-team`  directory houses all the project files. The  `app`  directory is the application package, and houses different but interlinked modules of the application. All templates are stored in the  `templates`  directory, all models are in the  `models.py`  file, and all routes are in the  `views.py`  file. The  `run.py`  file is the application's entry point, the  `config.py`  file contains the application configurations, and the  `requirements.txt`  file contains the software dependencies for the application.
@@ -63,8 +61,6 @@ We will install the following (remember to activate your virtual environment):
 
 ```
 $ pip install flask-sqlalchemy mysql-python
-
-
 ```
 
 We'll then create the MySQL database. Ensure you have MySQL installed and running, and then log in as the root user:
@@ -80,15 +76,13 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql> GRANT ALL PRIVILEGES ON dreamteam_db . * TO &apos;dt_admin&apos;@&apos;localhost&apos;;
 Query OK, 0 rows affected (0.00 sec)
-
-
 ```
 
 We have now created a new user  `dt_admin`  with the password  `dt2016`, created a new database  `dreamteam_db`, and granted the new user all database privileges.
 
 Next, let's edit the  `config.py`. Remove any exisiting code and add the following:
 
-```
+```py
 # config.py
 
 class Config(object):
@@ -117,8 +111,6 @@ app_config = {
     &apos;development&apos;: DevelopmentConfig,
     &apos;production&apos;: ProductionConfig
 }
-
-
 ```
 
 It is good practice to specify configurations for different environments. In the file above, we have specifed configurations for development, which we will use while building the app and running it locally, as well as production, which we will use when the app is deployed.
@@ -134,18 +126,16 @@ You can find more Flask configuration variables  [here](https://on.morioh.net/b0
 
 Next, create an  `instance`  directory in the  `dream-team`  directory, and then create a  `config.py`  file inside it. We will put configuration variables here that will not be pushed to version control due to their sensitive nature. In this case, we put the secret key as well as the database URI which contains the database user password.
 
-```
+```py
 # instance/config.py
 
 SECRET_KEY = &apos;p9Bv<3Eid9%$i01&apos;
 SQLALCHEMY_DATABASE_URI = &apos;mysql://dt_admin:dt2016@localhost/dreamteam_db&apos;
-
-
 ```
 
 Now, let's edit the  `app/__init__.py`  file. Remove any existing code and add the following:
 
-```
+```py
 # app/__init__.py
 
 # third-party imports
@@ -165,15 +155,13 @@ def create_app(config_name):
     db.init_app(app)
 
     return app
-
-
 ```
 
 We've created a function,  `create_app`  that, given a configuration name, loads the correct configuration from the  `config.py`  file, as well as the configurations from the  `instance/config.py`  file. We have also created a  `db`  object which we will use to interact with the database.
 
 Next, let's edit the  `run.py`  file:
 
-```
+```py
 # run.py
 
 import os
@@ -185,15 +173,13 @@ app = create_app(config_name)
 
 if __name__ == &apos;__main__&apos;:
     app.run()
-
-
 ```
 
 We create the app by running the  `create_app`  function and passing in the configuration name. We get this from the OS environment variable  `FLASK_CONFIG`. Because we are in development, we should set the environment variable to  `development`.
 
 Let's run the app to ensure everything is working as expected. First, delete the  `app/views.py`  file as well as the  `app/templates`  directory as we will not be needing them going forward. Next, add a temporary route to the  `app/__init__.py`  file as follows:
 
-```
+```py
 # app/__init__.py
 
 # existing code remains
@@ -2801,5 +2787,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTA3NzUxNF19
+eyJoaXN0b3J5IjpbLTQ2NzE4MjU5MF19
 -->
