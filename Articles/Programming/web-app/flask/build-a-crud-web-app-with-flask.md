@@ -1683,7 +1683,7 @@ These list, add, edit, and delete views are similar to the ones for departments 
 
 Create a  `roles`  directory in the  `templates/admin`  directory. In it, create the  `roles.html`  and  `role.html`  files:
 
-```
+```html
 <!-- app/templates/admin/roles/roles.html -->
 
 {% import "bootstrap/utils.html" as utils %}
@@ -1754,13 +1754,11 @@ Create a  `roles`  directory in the  `templates/admin`  directory. In it, create
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 Just like we did for the departments, we have created a table where we will display all the roles with their name, description, and number of employees. Each role listed will also have an edit and delete link. If there are no roles, a message of the same will be displayed. There is also a button which can be clicked to add a new role.
 
-```
+```html
 <!-- app/templates/admin/roles/role.html -->
 
 {% import "bootstrap/wtf.html" as wtf %}
@@ -1791,21 +1789,17 @@ Just like we did for the departments, we have created a table where we will disp
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 We use the  `add_role`  variable above the same way we used the  `add_department`  variable for the  `department.html`  template.
 
 Once again, let's update the admin menu with the correct link:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- Modify nav bar menu -->
 <li><a href="{{ url_for(&apos;admin.list_roles&apos;) }}">Roles</a></li>
-
-
 ```
 
 Re-start the server. You should now be able to access the Roles page, and add, edit and delete roles.
@@ -1818,7 +1812,7 @@ Now to work on listing employees, as well as assigning them departments and role
 
 We'll need a form to assign each employee a department and role. Add the following to the  `admin/forms.py`  file:
 
-```
+```py
 # app/admin/forms.py
 
 # update imports
@@ -1837,8 +1831,6 @@ class EmployeeAssignForm(FlaskForm):
     role = QuerySelectField(query_factory=lambda: Role.query.all(),
                             get_label="name")
     submit = SubmitField(&apos;Submit&apos;)
-
-
 ```
 
 We have imported a new field type,  `QuerySelectField`, which we use for both the department and role fields. This will query the database for all departments and roles. The admin user will select one department and one role using the form on the front-end.
@@ -1847,7 +1839,7 @@ We have imported a new field type,  `QuerySelectField`, which we use for both th
 
 Add the following code to the  `admin/views.py`  file:
 
-```
+```py
 # app/admin/views.py
 
 # update imports
@@ -1898,8 +1890,6 @@ def assign_employee(id):
     return render_template(&apos;admin/employees/employee.html&apos;,
                            employee=employee, form=form,
                            title=&apos;Assign Employee&apos;)
-
-
 ```
 
 The  `list_employees`  view queries the database for all employees and assigns them to the variable  `employees`, which we will use to list them in the template.
@@ -1910,7 +1900,7 @@ The  `assign_employee`  view takes an employee ID. First, it checks whether the 
 
 Create a  `employees`  directory in the  `templates/admin`  directory. In it, create the  `employees.html`  and  `employee.html`  files:
 
-```
+```html
 <!-- app/templates/admin/employees/employees.html -->
 
 {% import "bootstrap/utils.html" as utils %}
@@ -1981,15 +1971,13 @@ Create a  `employees`  directory in the  `templates/admin`  directory. In it, cr
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 The  `employees.html`  template shows a table of all employees. The table shows their full name, department and role, or displays a  `-`  in case no department and role has been assigned. Each employee has an assign link, which the admin user can click to assign them a department and role.
 
 Because the admin user is an employee as well, they will be displayed in the table. However, we have formatted the table such that admin users stand out with a green background and white text.
 
-```
+```html
 <!-- app/templates/admin/employees/employee.html -->
 
 {% import "bootstrap/wtf.html" as wtf %}
@@ -2017,19 +2005,15 @@ Because the admin user is an employee as well, they will be displayed in the tab
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 We need to update the admin menu once more:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- Modify nav bar menu -->
 <li><a href="{{ url_for(&apos;admin.list_employees&apos;) }}">Employees</a></li>
-
-
 ```
 
 Navigate to the Employees page now. If there are no users other than the admin, this is what you should see:
@@ -2066,7 +2050,7 @@ Web applications make use of HTTP errors to let users know that something has go
 
 We'll start by writing the views for the custom error pages. In your  `app/__init__.py`  file, add the following code:
 
-```
+```py
 # app/__init__.py
 
 # update imports
@@ -2707,5 +2691,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzQ0NzQwN119
+eyJoaXN0b3J5IjpbMTkyODg4Njg4NF19
 -->
