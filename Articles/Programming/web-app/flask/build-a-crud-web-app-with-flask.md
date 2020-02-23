@@ -2478,8 +2478,6 @@ class TestErrorPages(TestBase):
 
 if __name__ == &apos;__main__&apos;:
     unittest.main()
-
-
 ```
 
 We've added three classes:  `TestModels`,  `TestViews`  and  `TestErrorPages`.
@@ -2495,15 +2493,12 @@ Note that each test method begins with  `test`. This is deliberate, because  `un
 Run the tests again:
 
 ```
-
 $ python tests.py
 ..............
 ----------------------------------------------------------------------
 Ran 14 tests in 2.313s
 
 OK
-
-
 ```
 
 Success! The tests are passing.
@@ -2525,16 +2520,12 @@ We will use git to upload the app to PythonAnywhere. If you’ve been pushing yo
 
 *.pyc
 instance/
-
-
 ```
 
 Also, ensure that your  `requirements.txt`  file is up to date using the  `pip freeze`  command before pushing your code:
 
 ```
 $ pip freeze > requirements.txt
-
-
 ```
 
 Now, log in to your PythonAnywhere account. In your dashboard, there's a  `Consoles`  tab; use it to start a new Bash console.
@@ -2543,8 +2534,6 @@ In the PythonAnywhere Bash console, clone your repository.
 
 ```
 $ git clone https://github.com/andela-mnzomo/project-dream-team-three
-
-
 ```
 
 Next we will create a virtualenv, then install the dependencies from the  `requirements.txt`  file. Because PythonAnywhere installs  [virtualenvwrapper](https://on.morioh.net/b0a3f595aa?r=https://virtualenvwrapper.readthedocs.io/en/latest/ "virtualenvwrapper")  for all users by default, we can use its commands:
@@ -2553,8 +2542,6 @@ Next we will create a virtualenv, then install the dependencies from the  `requi
 $ mkvirtualenv dream-team
 $ cd project-dream-team-three
 $ pip install -r requirements.txt
-
-
 ```
 
 We've created a virtualenv called  `dream-team`. The virtualenv is automatically activated. We then entered the project directory and installed the dependencies.
@@ -2576,8 +2563,6 @@ $ export FLASK_CONFIG=production
 $ export FLASK_APP=run.py
 $ export SQLALCHEMY_DATABASE_URI=&apos;mysql://your-username:your-password@your-host-address/your-database-name&apos;
 $ flask db upgrade
-
-
 ```
 
 When setting the  `SQLALCHEMY_DATABASE_URI`  environment variable, remember to replace  `your-username`,  `your-password`,  `your-host-address`  and  `your-database-name`  with their correct values. The username, host address and database name can be found in the MySQL settings in the Databases tab on your dashboard. For example, using the information below, my database URI is:  `mysql://projectdreamteam:password@projectdreamteam.mysql.pythonanywhere-services.com/projectdreamteam$dreamteam_db`
@@ -2590,7 +2575,7 @@ In the Code section of the Web tab on your dashboard, click on the link to the W
 
 Delete all the current contents of the file, and replace them with the following:
 
-```
+```py
 import os
 import sys
 
@@ -2603,15 +2588,13 @@ os.environ[&apos;SECRET_KEY&apos;] = &apos;p9Bv<3Eid9%$i01&apos;
 os.environ[&apos;SQLALCHEMY_DATABASE_URI&apos;] = &apos;mysql://your-username:your-password@your-host-address/your-database-name&apos;
 
 from run import app as application
-
-
 ```
 
 In the file above, we tell PythonAnywhere to get the variable  `app`  from the  `run.py`  file, and serve it as the application. We also set the  `FLASK_CONFIG`,  `SECRET_KEY`  and  `SQLALCHEMY_DATABASE_URI`  environment variables. Feel free to alter the secret key. Note that the  `path`  variable should contain your username and project directory name, so be sure to replace it with the correct values. The same applies for the database URI environment variable.
 
 We also need to edit our local  `app/__init__py`  file to prevent it from loading the  `instance/config.py`  file in production, as well as to load the configuration variables we've set:
 
-```
+```py
 # app/__init__.py
 
 # update imports
@@ -2633,15 +2616,12 @@ def create_app(config_name):
         app.config.from_pyfile(&apos;config.py&apos;)
 
     # existing code remains
-
-
 ```
 
 Push your changes to version control, and pull them on the PythonAnywhere Bash console:
 
 ```
 $ git pull origin master
-
 
 ```
 
@@ -2674,5 +2654,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDQ4MTQ1MV19
+eyJoaXN0b3J5IjpbLTE2MDI0MTk3MjNdfQ==
 -->
