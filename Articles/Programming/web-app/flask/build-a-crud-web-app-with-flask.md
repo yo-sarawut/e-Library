@@ -1028,7 +1028,7 @@ Try to fill out the registration form; you should be able to register a new empl
 
 Logging in should be successful; however you should get a  `Template Not Found`  error after logging in, because the  `dashboard.html`  template has not been created yet. Let's do that now:
 
-```ht
+```html
 <!-- app/templates/home/dashboard.html -->
 
 {% extends "base.html" %}
@@ -1049,13 +1049,11 @@ Logging in should be successful; however you should get a  `Template Not Found` 
     </div>
 </div>
 {% endblock %}
-
-
 ```
 
 Refresh the page. You'll notice that the navigation menu still has the register and login links, even though we are already logged in. We'll need to modify it to show a logout link when a user is already authenticated. We will also include a  `Hi, username!`  message in the nav bar:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- In the head tag, include link to Font Awesome CSS so we can use icons -->
@@ -1086,8 +1084,6 @@ Refresh the page. You'll notice that the navigation menu still has the register 
       <li><a href="{{ url_for(&apos;auth.login&apos;) }}">Login</a></li>
     {% endif %}
 </ul>
-
-
 ```
 
 Note how we use  `if-else`  statements in the templates. Also, take note of the  `current_user`  proxy provided by Flask-Login, which allows us to check whether the user is authenticated and to get the user's username.
@@ -1119,7 +1115,7 @@ In Part Two, we will work on:
 
 We'll start by creating an admin user through the command line. Flask provides a handy command,  `flask shell`, that allows us to use an interactive Python shell for use with Flask apps.
 
-```
+```py
 $ flask shell
 >>> from app.models import Employee
 >>> from app import db
@@ -1136,7 +1132,7 @@ We've just created a user with a username,  `admin`, and a password,  `admin2016
 
 Now that we have an admin user, we need to add a view for an admin dashboard. We also need to ensure that once the admin user logs in, they are redirected to the admin dashboard and not the one for non-admin users. We will do this in the  `home`  blueprint.
 
-```
+```py
 # app/home/views.py
 
 # update imports
@@ -1181,13 +1177,11 @@ def login():
 
     # load login template
     return render_template(&apos;auth/login.html&apos;, form=form, title=&apos;Login&apos;)
-
-
 ```
 
 Next we'll create the admin dashboard template. Create an  `admin_dashboard.html`  file in the  `templates/home`  directory, and then add the following code in it:
 
-```
+```html
 <!-- app/templates/home/admin_dashboard.html -->
 
 {% extends "base.html" %}
@@ -1208,13 +1202,11 @@ Next we'll create the admin dashboard template. Create an  `admin_dashboard.html
     </div>
 </div>
 {% endblock %}
-
-
 ```
 
 Now we need to edit the base template to show a different menu for the admin user.
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- Modify nav bar menu -->
@@ -1236,8 +1228,6 @@ Now we need to edit the base template to show a different menu for the admin use
       <li><a href="{{ url_for(&apos;auth.login&apos;) }}">Login</a></li>
     {% endif %}
 </ul>
-
-
 ```
 
 In the menu above, we make use of the  `current_user`  proxy from Flask-Login to check whether the current user is an admin. If they are, we display the admin menu which will allow them to navigate to the Departments, Roles and Employees pages. Notice that we use  `#`  for the links in the admin menu. We will update this after we have created the respective views.
@@ -1254,7 +1244,7 @@ Now we'll start working on the  `admin`  blueprint, which has the bulk of the fu
 
 We'll start with the  `admin/forms.py`  file, where we'll create a form to add and edit departments.
 
-```
+```py
 # app/admin/forms.py
 
 from flask_wtf import FlaskForm
@@ -1268,8 +1258,6 @@ class DepartmentForm(FlaskForm):
     name = StringField(&apos;Name&apos;, validators=[DataRequired()])
     description = StringField(&apos;Description&apos;, validators=[DataRequired()])
     submit = SubmitField(&apos;Submit&apos;)
-
-
 ```
 
 The form is pretty simple and has only two fields,  `name`  and  `department`, both of which are required. We enforce this using the  `DataRequired()`  validator from WTForms. Note that we will use the same form for adding and editing departments.
@@ -2733,5 +2721,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjE2OTE0NV19
+eyJoaXN0b3J5IjpbMTAyNjMyNjk5Nl19
 -->
