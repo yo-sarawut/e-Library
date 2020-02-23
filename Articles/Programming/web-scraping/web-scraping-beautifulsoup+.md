@@ -87,10 +87,11 @@ b'<!DOCTYPE html>\n<html>\n <head>\n <title>A simple example page</title>\n</hea
 หากเราได้ content จาก web page ที่เราต้องการมาแล้ว แล้วเราต้องการหา tag p ทั้งหมดที่อยู่บนนั้น เราสามารถทำได้โดยใช้คำสั่ง `find_all()` เช่น
 `print(soup.find_all('p'))` ต่อจาก ตัวอย่างก่อนหน้า จะได้ list ออกมาตามนี้
 `[<p>Here is some simple content for this page.</p>]`
-จะเห็นได้ว่าเจ้า find_all() เนี่ยมัน return ออกมาเป็น list ให้เรา เราจึงสามารถ get position ของ list ได้ด้วย soup.find_all('p')[0].getText() ก็จะได้ผลลัพธ์ตามนี้
-Here is some simple content for this page.
-ค้นหา Tags ทั้งหมดบน Content ด้วย Class หรือ Id
+จะเห็นได้ว่าเจ้า find_all() เนี่ยมัน return ออกมาเป็น list ให้เรา เราจึงสามารถ get position ของ list ได้ด้วย `soup.find_all('p')[0].getText()` ก็จะได้ผลลัพธ์ตามนี้ `Here is some simple content for this page.`
+
+### ค้นหา Tags ทั้งหมดบน Content ด้วย Class หรือ Id
 ลองสร้าง web page ด้วย html ใหม่โดยมีการใส่ class และ id ใหม่ ตามนี้
+
 <html>
     <head>
         <title>A simple example page</title>
@@ -141,5 +142,5 @@ Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataq
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDgzMDEyMF19
+eyJoaXN0b3J5IjpbLTg3MzQwMzY0MV19
 -->
