@@ -1266,7 +1266,7 @@ The form is pretty simple and has only two fields,  `name`  and  `department`, b
 
 Now, let's work on the views:
 
-```
+```py
 # app/admin/views.py
 
 from flask import abort, flash, redirect, render_template, url_for
@@ -1374,8 +1374,6 @@ def delete_department(id):
     return redirect(url_for(&apos;admin.list_departments&apos;))
 
     return render_template(title="Delete Department")
-
-
 ```
 
 We begin by creating a function,  `check_admin`, which throws a  `403 Forbidden`  error if a non-admin user attempts to access these views. We will call this function in every admin view.
@@ -1394,7 +1392,7 @@ Note that we render the same template for adding and editing individual departme
 
 Create an  `templates/admin`  directory, and in it, add a  `departments`  directory. Inside it, add the  `departments.html`  and  `department.html`  files:
 
-```
+```html
 <!-- app/templates/admin/departments/departments.html -->
 
 {% import "bootstrap/utils.html" as utils %}
@@ -1465,8 +1463,6 @@ Create an  `templates/admin`  directory, and in it, add a  `departments`  direct
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 We've created a table in the template above, where we will display all the departments with their name, description, and number of employees. Take note of the  `count()`  function, which we use in this case to get the number of employees. Each department listed will have an edit and delete link. Notice how we pass the  `department.id`  value to the  `edit_department`  and  `delete_department`  views in the respective links.
@@ -1475,7 +1471,7 @@ If there are no departments, the page will display “No departments have been a
 
 Now let's work on the template for adding and editing departments:
 
-```
+```html
 <!-- app/templates/admin/departments/department.html -->
 
 {% import "bootstrap/wtf.html" as wtf %}
@@ -1506,15 +1502,13 @@ Now let's work on the template for adding and editing departments:
   </div>
 </div>
 {% endblock %}
-
-
 ```
 
 Notice that we use the  `add_department`  variable which we initialized in the  `admin/views.py`  file, to determine whether the page title will be “Add Department” or “Edit Department”.
 
 Add the following lines to your  `style.css`  file:
 
-```
+```css
 /* app/static/css/style.css */
 
 .outer {
@@ -1533,21 +1527,17 @@ Add the following lines to your  `style.css`  file:
     margin-left: auto;
     margin-right: auto;
 }
-
-
 ```
 
 The  `.middle`,  `.inner`, and  `.outer`  classes are to center the content in the middle of the page.
 
 Lastly, let's put the correct link to the Departments page in the admin menu:
 
-```
+```html
 <!-- app/templates/base.html -->
 
 <!-- Modify nav bar menu -->
 <li><a href="{{ url_for(&apos;admin.list_departments&apos;) }}">Departments</a></li>
-
-
 ```
 
 Re-start the flask server, and then log back in as the admin user and click on the Departments link. Because we have not added any departments, loading the page will display:
@@ -1570,7 +1560,7 @@ Now to work on the roles. This will be very similar to the departments code beca
 
 We'll start by creating the form to add and edit roles. Add the following code to the  `admin/forms.py`  file:
 
-```
+```py
 # app/admin/forms.py
 
 # existing code remains
@@ -1582,15 +1572,13 @@ class RoleForm(FlaskForm):
     name = StringField(&apos;Name&apos;, validators=[DataRequired()])
     description = StringField(&apos;Description&apos;, validators=[DataRequired()])
     submit = SubmitField(&apos;Submit&apos;)
-
-
 ```
 
 ### Views
 
 Next we'll write the views to add, list, edit, and delete roles. Add the following code to the admin/views.py file:
 
-```
+```py
 # app/admin/views.py
 
 # update imports
@@ -1687,8 +1675,6 @@ def delete_role(id):
     return redirect(url_for(&apos;admin.list_roles&apos;))
 
     return render_template(title="Delete Role")
-
-
 ```
 
 These list, add, edit, and delete views are similar to the ones for departments that we created earlier.
@@ -2721,5 +2707,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjMyNjk5Nl19
+eyJoaXN0b3J5IjpbLTM5NzQ0NzQwN119
 -->
