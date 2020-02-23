@@ -94,7 +94,7 @@ This app variable is used in the entire application.
 
 Now we are going to declare twovariable titles and headings which are later used in jinja2 template.
 
-```
+```py
 title = "TODO sample application with Flask and MongoDB"  
 heading = "TODO Reminder with Flask and MongoDB" 
 
@@ -102,7 +102,7 @@ heading = "TODO Reminder with Flask and MongoDB"
 
 We must declare the connection string for MongoDB and select a database. Also, we are going to select our collection name to a variable.
 
-```
+```py
 client = MongoClient("mongodb://127.0.0.1:27017") #host uri  
 db = client.mymongodb #Select the database  
 todos = db.todo #Select the collection name 
@@ -115,7 +115,7 @@ In flask, it is easy to implement routing unlike any other programming language.
 
 For that, we are using  _render_template_, request, redirect and url_for. All these methods help us to establish redirection and show html templates in the browser
 
-```
+```py
 def redirect_url():    
 return request.args.get('next') or \    
 request.referrer or \    
@@ -125,7 +125,7 @@ url_for('index')
 
 In the above code we defined a method named _redirect_url _and it is used to redirect page to index page.
 
-```
+```py
 @app.route("/")    
 @app.route("/uncompleted")    
 def tasks ():    
@@ -602,7 +602,7 @@ You can download the source code from  [Github](https://on.morioh.net/b0a3f595aa
 Thank you!
 
 
-> [Source : ](https://).
+> [Source : ](https://morioh.com/p/9451f1260fe2?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2czTt1YUdumhoVNj2XCd15IC4IajbrU-VCngtFP0FcCculghiELRqxPNg).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDI2NzE2OV19
+eyJoaXN0b3J5IjpbLTE5MjE0ODE5MTRdfQ==
 -->
