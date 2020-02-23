@@ -61,10 +61,10 @@ print(page)
 
 # <Response [200]> 
 ```
-เราจะได้ output เป็น <Response [200]> ซึ่งก็คือ request success
-ซึ่งตัวเลข status_code ที่ขึ้นต้นด้วย 2 คือ success แต่หากขึ้นต้นด้วย 4 5 คือ error สามารถดูรายละเอียดเพิ่มเติมเรื่อง request status code ได้ที่นี่ click
-ถ้าเราลอง print(page.content) เราจะเห็นได้ว่าตัว content ที่เราได้มานั้นดูเข้าใจได้ยาก ดังรูป
-```
+เราจะได้ output เป็น `<Response [200]>` ซึ่งก็คือ `request success`
+ซึ่งตัวเลข status_code ที่ขึ้นต้นด้วย 2 คือ success แต่หากขึ้นต้นด้วย 4 5 คือ error สามารถดูรายละเอียดเพิ่มเติมเรื่อง `request status` code ได้ที่นี่ [click](https://www.restapitutorial.com/httpstatuscodes.html)
+ถ้าเราลอง `print(page.content)` เราจะเห็นได้ว่าตัว content ที่เราได้มานั้นดูเข้าใจได้ยาก ดังรูป
+```html
 b'<!DOCTYPE html>\n<html>\n <head>\n <title>A simple example page</title>\n</head>\n<body>\n<p>Here is some simple content for this page.</p>\n </body>\n</html>'
 ```
 BeautifulSoup
@@ -139,5 +139,5 @@ Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataq
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQwMjUwMjddfQ==
+eyJoaXN0b3J5IjpbLTEwNzg3NDQ2NThdfQ==
 -->
