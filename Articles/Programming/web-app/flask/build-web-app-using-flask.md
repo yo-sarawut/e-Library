@@ -341,7 +341,7 @@ We must add the below three HTML files in the templates folder. (index.html, sea
 
 **searchlist.html**
 
-```
+```html
 <html>    
     <head>    
         <title>{{t}}</title>    
@@ -385,7 +385,7 @@ We must add the below three HTML files in the templates folder. (index.html, sea
 
 **update.html**
 
-```
+```html
 <html>    
    <head>    
             <title>{{t}}</title>    
@@ -437,7 +437,7 @@ In addition, we must add emoji.css, emoji.js, style.css and twemoji.min.js files
 
 **emoji.css**
 
-```
+```css
 img.emoji {      
 // Override any img styles to ensure Emojis are displayed inline      
 margin: 0px !important;      
@@ -448,7 +448,7 @@ display: inline !important;
 
 **emoji.js**
 
-```
+```js
 window.onload = function() {    
       // Set the size of the rendered Emojis    
       // This can be set to 16x16, 36x36, or 72x72    
@@ -462,7 +462,7 @@ window.onload = function() {
 
 **style.css**
 
-```
+```css
 h1{    
 /*  font-family:"Arial Black", Gadget, sans-serif;*/    
     font-family:"Times New Romans", Gadget, sans-serif;    
@@ -604,5 +604,5 @@ Thank you!
 
 > [Source : ](https://morioh.com/p/9451f1260fe2?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2czTt1YUdumhoVNj2XCd15IC4IajbrU-VCngtFP0FcCculghiELRqxPNg).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTMwMjY0Ml19
+eyJoaXN0b3J5IjpbLTcwMDQ5Njc2NV19
 -->
