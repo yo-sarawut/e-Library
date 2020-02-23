@@ -2650,6 +2650,10 @@ Now you can login as an admin user and add departments and roles, and assign the
 Congratulations on successfully deploying your first Flask CRUD web app! From setting up a MySQL database, to creating models, blueprints (with forms and views), templates, custom error pages, tests, and finally deploying the app on PythonAnywhere, you now have a strong foundation in web development with Flask. I hope this has been as fun and educational for you as it has for me! I'm looking forward to hearing about your experiences in the comments below.
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
+
+-   [Part. I](http://localhost:1313/library/tutorials/docs/articles/webapp/falsk/build-a-crud-web-app/part-1/)
+-   [Part. II](http://localhost:1313/library/tutorials/docs/articles/webapp/falsk/build-a-crud-web-app/part-2/)
+-   [Part. III](http://localhost:1313/library/tutorials/docs/articles/webapp/falsk/build-a-crud-web-app/part-3/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0OTg4NDA0XX0=
+eyJoaXN0b3J5IjpbOTczODAwMTE5LDU5NDk4ODQwNF19
 -->
