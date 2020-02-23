@@ -2,17 +2,17 @@
 ทำ Web Scraping ด้วย BeautifulSoup
 ===
 
-สำหรับ Blog นี้เราจะมาดูวิธีการทำ Web scraping ด้วย Python3 และ BeautifulSoup ในระดับ Basic มากกกกกกกกกกกกก กันดูนะ :)
-
+สำหรับ Blog นี้เราจะมาดูวิธีการทำ Web scraping ด้วย Python3 และ BeautifulSoup ในระดับ Basic  :)
+![enter image description here](https://miro.medium.com/max/900/1*DNTLycFqmcfwB5iNMCvPFg.jpeg)
 ก่อนที่เราจะเริ่มทำ web scraping เรามาเรียนรู้พื้นฐานเรื่อง website กันก่อนดีกว่า
-Componenet of web page
+## Componenet of web page
 เมื่อเราเข้าไปที่ web page ซัก url นึงแล้ว web browser ของเราก็จะทำการ request ไปที่ web server เราจะเรียกการ request ประเภทนี้ว่า GET request เนื่องจากเรา request ไปที่ server แล้วเราก็จะได้ file จาก server กลับมาเพื่อที่จะบอกกับ web browser นี้ว่าเราจะแสดงหน้า web page ของเราอย่างไร ซึ่งเนื้อหาใน file ที่กลับมาก็จะมีส่วนประกอบคร่าวๆ ดังนี้
-HTML : เป็นเนื้อหาหลักของหน้านั้นๆ
-CSS : เป็นตัวจัดการตกแต่ง HTML ของเราให้สวยงาม ดูดีขึ้น
-JS : เป็นตัวจัดการ interactive ของ HTML ของเราให้ดีขึ้น
-Image : รูปภาพใน format เช่น JPG , PNG สำหรับแสดงบน web
+- HTML : เป็นเนื้อหาหลักของหน้านั้นๆ
+- CSS : เป็นตัวจัดการตกแต่ง HTML ของเราให้สวยงาม ดูดีขึ้น
+- JS : เป็นตัวจัดการ interactive ของ HTML ของเราให้ดีขึ้น
+- Image : รูปภาพใน format เช่น JPG , PNG สำหรับแสดงบน web
 หลังจาก web browser ได้รับดังกล่าวมาแล้ว ก็จะทำการ render ออกมาสวยงามตามที่เราเห็นกันเป็นปกติ
-HTML
+### HTML
 HyperText Markup Language (HTML) คือ ภาษาสำหรับสร้าง web page ไม่ใช่ภาษา programming เหมือน python โดยตัว HTML จะเป็นตัวบอก web browser ว่าจะต้องทำการวาดโครงสร้างหน้าตาออกมาเป็นอย่างไร
 เอาล่ะ เรามาทำความเข้าใจตัว HTML กันอย่างรวดเร็วกันดีกว่า HTML ประกอบไปด้วย tag <> โดยจะเริ่มด้วย <html> ซึ่งจะเป็นตัวบอก browser ว่าภายใต้สิ่งนี้คือสิ่งที่เราต้องการจะวาด ถ้าเราลองสร้าง file html เราก็จะได้ประมาณนี้
 <html>
@@ -122,5 +122,5 @@ Reference : [Python Web Scraping Tutorial using BeautifulSoup](https://www.dataq
 
 > [Source : ](https://medium.com/equinox-blog/%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3-web-scraping-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-beautifulsoup-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-b58dc0e1775a).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg5MzI3MjBdfQ==
+eyJoaXN0b3J5IjpbMTAyMTY1MTMxM119
 -->
