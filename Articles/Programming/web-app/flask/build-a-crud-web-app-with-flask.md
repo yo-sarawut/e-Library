@@ -2622,7 +2622,6 @@ Push your changes to version control, and pull them on the PythonAnywhere Bash c
 
 ```
 $ git pull origin master
-
 ```
 
 Now let's try loading the app on PythonAnywhere. First, we need to reload the app on the Web tab in the dashboard:
@@ -2635,15 +2634,13 @@ Great, it works! Try registering a new user and logging in. This should work jus
 
 We will now create an admin user the same way we did locally. Open the Bash console, and run the following commands:
 
-```
+```py
 $ flask shell
 >>> from app.models import Employee
 >>> from app import db
 >>> admin = Employee(email="admin@admin.com",username="admin",password="admin2016",is_admin=True)
 >>> db.session.add(admin)
 >>> db.session.commit()
-
-
 ```
 
 Now you can login as an admin user and add departments and roles, and assign them to employees.
@@ -2654,5 +2651,5 @@ Congratulations on successfully deploying your first Flask CRUD web app! From se
 
 > [Source : ](https://morioh.com/p/b59f7df2e1f5).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI0MTk3MjNdfQ==
+eyJoaXN0b3J5IjpbNTk0OTg4NDA0XX0=
 -->
