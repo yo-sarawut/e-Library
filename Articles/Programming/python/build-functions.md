@@ -6,7 +6,7 @@
 
 **Functions**  allow you to store reusable logic.
 
-### Function Terminology[¶](https://dfrieds.com/python/functions.html#Function-Terminology)
+### Function Terminology[](https://dfrieds.com/python/functions.html#Function-Terminology)
 ```py
 type(32)
 ```
@@ -167,5 +167,5 @@ Well-designed functions can be used in multiple programs. Our  `convert_seconds_
 
 > [Source : ](https://dfrieds.com/python/functions.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzI3Mzk4NF19
+eyJoaXN0b3J5IjpbLTEwNDc2NTM0NCwtMzk3MjczOTg0XX0=
 -->
