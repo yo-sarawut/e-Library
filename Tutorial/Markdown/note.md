@@ -5,7 +5,9 @@
 - [Python-Markdown : Document](https://python-markdown.github.io/sitemap.html)
 - [Markdown Syntax Guide](https://sourceforge.net/p/mp4video1click/wiki/markdown_syntax/)
 
-##
+## Article
+
+- [How to Render Markdown Syntax as HTML Using Python](https://coderbook.com/@marcus/how-to-render-markdown-syntax-as-html-using-python/)
 
 
 
@@ -39,6 +41,6 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTA5OTMwMSwtMTgwMTI1MjI5OCwxMT
-g4NzA2NTEsLTEwNDE1MzA0NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODU4NzAzOTcsLTE4MDEyNTIyOTgsMT
+E4ODcwNjUxLC0xMDQxNTMwNDU2XX0=
 -->
