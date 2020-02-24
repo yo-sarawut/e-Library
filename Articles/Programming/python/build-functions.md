@@ -9,8 +9,8 @@
 ### Function Terminology[¶](https://dfrieds.com/python/functions.html#Function-Terminology)
 ```py
 type(32)
-
-# int
+```
+int
 
 The  **name**  of the function is the words that precede the parentheses.
 
@@ -167,5 +167,5 @@ Well-designed functions can be used in multiple programs. Our  `convert_seconds_
 
 > [Source : ](https://dfrieds.com/python/functions.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzU4Mjc3OV19
+eyJoaXN0b3J5IjpbLTM5NzI3Mzk4NF19
 -->
