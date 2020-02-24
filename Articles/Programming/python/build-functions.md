@@ -7,11 +7,11 @@
 **Functions**  allow you to store reusable logic.
 
 ### Function Terminology[¶](https://dfrieds.com/python/functions.html#Function-Terminology)
-
+```py
 type(32)
 
-int
-
+# int
+```
 The  **name**  of the function is the words that precede the parentheses.
 
 The expression in parentheses is the  **argument**  of the function. Functions don't  _need_  arguments; functions can contain  _multiple_  arguments.
@@ -27,7 +27,7 @@ Execution of the  **return**  statement inside a function exits the function.
 ### Bike Trips Example[](https://dfrieds.com/python/functions.html#Bike-Trips-Example)
 
 Below is a sample of data for bike trips as a list of lists. Each inner list holds the data for a trip formatted as  _[duration in seconds, date]_.
-
+```py
 bike_trips = [[475, '2018-02-18'],
               [825, '2018-02-18'],
               [1034, '2018-02-18'],
@@ -37,7 +37,7 @@ bike_trips = [[475, '2018-02-18'],
               [1950, '2018-02-19'],
               [1530, '2018-02-19']
              ]
-
+```
 We want to answer these questions:
 
 -   What is the average trip duration on any given day?
@@ -164,7 +164,7 @@ Using multiple functions in a program allows you to easily write logic in compon
 
 Well-designed functions can be used in multiple programs. Our  `convert_seconds_to_minutes_seconds_readable_format`  can used to analyze the time it takes to repair bikes, the amount of time people spend in a bike store and more.
 
-> [Source : ](https://).
+> [Source : ](https://dfrieds.com/python/functions.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNDQ1MjM4XX0=
+eyJoaXN0b3J5IjpbLTE0MDA3OTI5MV19
 -->
