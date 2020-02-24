@@ -12,9 +12,10 @@ Note for Python Tutorials
 ## Articles
 
 - [Excel vs Python: How to Do Common Data Analysis Tasks](https://www.dataquest.io/blog/excel-vs-python/)
+- [HOW TO READ PDF FILES WITH PYTHON](http://theautomatic.net/2020/01/21/how-to-read-pdf-files-with-python/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk1NDE3MzcsMTQ2Mzk1ODY3NCwtMT
-UyNjU0NTY3MSwtMTkzNzI4NjIxM119
+eyJoaXN0b3J5IjpbLTgzMzg2MDg4MSwtMTA5OTU0MTczNywxND
+YzOTU4Njc0LC0xNTI2NTQ1NjcxLC0xOTM3Mjg2MjEzXX0=
 -->
