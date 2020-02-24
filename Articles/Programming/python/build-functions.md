@@ -60,7 +60,7 @@ The name preceding  `def`  is the function name. Python recommends lowercase let
 An argument passed to  `sum_seconds_biked_day`  is assigned to a variable called a  **parameter**. We use this  **parameter**  in the body of our function.
 
 Inside our functions, you'll see text in triple quotes. These triple quotes are docstrings - plain text as comments to document the logic of our function.
-
+```py
 # global variables below can be used in any function
 index_trip_duration_seconds = 0
 index_trip_date = 1
@@ -78,9 +78,9 @@ def sum_seconds_biked_day(ride_date):
             sum_trips_seconds += trip[index_trip_duration_seconds]
         
     return sum_trips_seconds
-
+```
 #### Count of trips on a day[](https://dfrieds.com/python/functions.html#Count-of-trips-on-a-day)
-
+```py
 def count_bike_trips_day(ride_date):
     """
  Count bike trips on a given day
@@ -93,13 +93,13 @@ def count_bike_trips_day(ride_date):
         if trip[index_trip_date] == ride_date:
             count += 1
     return count
-
+```
 #### Average trip duration on a day[](https://dfrieds.com/python/functions.html#Average-trip-duration-on-a-day)
 
 An  _average_  computation is the sum of events divided by the count of events.
 
 We can  **call**  our two previously created functions inside a new function.
-
+```py
 def average_trip_duration_seconds_day(ride_date):
     """
  Compute average trip duration in seconds 
@@ -109,17 +109,18 @@ def average_trip_duration_seconds_day(ride_date):
  """
     average_trip_duration_in_seconds = sum_seconds_biked_day(ride_date) / count_bike_trips_day(ride_date)
     return average_trip_duration_in_seconds
-
+```
 In  `average_trip_duration_seconds_day`, the  _flow of execution_  is to call the function  `sum_seconds_biked_day`  and divide the  **return**  value by the  **return**  value of  `count_bike_trips_day`.
 
 #### Answer questions for February 18th, 2018[](https://dfrieds.com/python/functions.html#Answer-questions-for-February-18th,-2018)
-
+```py
 sum_seconds_biked_day('2018-02-18')
 
-3314
-
+# 3314
+```
+```py
 count_bike_trips_day('2018-02-18')
-
+```p
 4
 
 average_trip_duration_seconds_day('2018-02-18')
@@ -166,5 +167,5 @@ Well-designed functions can be used in multiple programs. Our  `convert_seconds_
 
 > [Source : ](https://dfrieds.com/python/functions.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA3OTI5MV19
+eyJoaXN0b3J5IjpbMTE0MDg5NjIzOV19
 -->
