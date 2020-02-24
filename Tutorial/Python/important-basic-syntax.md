@@ -78,7 +78,6 @@ if True:
 else:  
     print ("Answer")
 print ("False")
-
 ```
 
 โปรแกรมตัวอย่างที่ 1 จะไม่เกิด ข้อผิดพลาด เพราะว่าคำสั่งหลัง else ย่อหน้าตรงกัน  
@@ -88,64 +87,57 @@ print ("False")
 
 แต่ละคำสั่งของไพธอนส่วนใหญ่จบลงด้วยการขึ้นบรรทัดใหม่ (new line) แต่ผู้เขียนโปรแกรมสามารถใช้เครื่องหมาย`\`เพื่อเชื่อมคำสั่งได้ เช่น
 
-```
+```py
 total = item_one + \ #item_one = "one"
 item_two + \ #item_two = "two" 
 item_three #item_three = "three"
-
 ```
 
 **OUTPUT**
 
-```
+```py
 one two three
-
 ```
 
 สำหรับข้อมูลในเครื่องหมาย  `[…], {…}`  หรือ`(…)`  ไม่จำเป็นต้องใช้เครื่องหมาย  `\`เช่น
 
-```
+```py
 days = ['Monday', 'Tuesday', 'Wednesday',  
 'Thursday', 'Friday']
-
 ```
 
 ### Quotation in Python
 
 ไพธอนใช้เครื่องหมาย`' (single quote), " (double quote)`ในการแสดงค่าของสตริง แต่เครื่องหมาย`""" (triple quote)`สามารถใช้เชื่อมต่อสตริงแบบหลาย ๆ บรรทัดได้ เช่น
 
-```
+```py
 word = 'word'  
 sentence = "This is a sentence."  
 paragraph = """This is a paragraph. It is  made up of multiple lines and  
 sentences."""  
 print(paragraph)
-
 ```
 
 **OUTPUT**
 
 ```
 This is a paragraph. It is  made up of multiple lines and sentences.
-
 ```
 
 ### Waiting for the user
 
 บ่อยครั้งที่ผู้เขียนโปรแกรมต้องการให้โปรแกรมหยุดรอก่อนโปรแกรมทำงานเสร็จ โดยขึ้นข้อความว่า “Press the enter key to exit.” สามารถใช้  `\n\n`  ใส่ไว้ก่อนข้อความ ดังนี้
 
-```
+```py
 input("\n\nPress the enter key to exit.")
-
 ```
 
 ### Multiple statements on a single line
 
 ผู้เขียนโปรแกรมสามารถใช้เครื่องหมาย ; เพื่อสั่งให้สามารถรันหลายๆ คำสั่งได้ในบรรทัดเดียวกันได้
 
-```
+```py
 import sys; x = 'Python'; sys.stdout.write(x + ' \n')
-
 ```
 
 **OUTPUT**
@@ -158,5 +150,5 @@ Python
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE2NTU2NDNdfQ==
+eyJoaXN0b3J5IjpbNzIwNDIzNjU3XX0=
 -->
