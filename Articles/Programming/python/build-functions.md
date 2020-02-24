@@ -11,7 +11,7 @@
 type(32)
 
 # int
-```
+
 The  **name**  of the function is the words that precede the parentheses.
 
 The expression in parentheses is the  **argument**  of the function. Functions don't  _need_  arguments; functions can contain  _multiple_  arguments.
@@ -115,16 +115,16 @@ In  `average_trip_duration_seconds_day`, the  _flow of execution_  is to call th
 #### Answer questions for February 18th, 2018[](https://dfrieds.com/python/functions.html#Answer-questions-for-February-18th,-2018)
 ```py
 sum_seconds_biked_day('2018-02-18')
-
-# 3314
 ```
+3314
+
 ```py
 count_bike_trips_day('2018-02-18')
-```p
+```
 4
-
+```py
 average_trip_duration_seconds_day('2018-02-18')
-
+```
 828.5
 
 #### Present data in better readable format[](https://dfrieds.com/python/functions.html#Present-data-in-better-readable-format)
@@ -134,7 +134,7 @@ It's weird to say the average trip duration for February 18th, 2018 is 825.5 sec
 Let's design a function to present the average trip durations in a more typical format such as 38 minutes and 40 seconds.
 
 I'll use Python operations for  [floor division](https://docs.python.org/3.1/tutorial/introduction.html#numbers)  and  [modulo](https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations).
-
+```py
 seconds_in_a_minute = 60
 
 def convert_seconds_to_minutes_seconds_readable_format(total_seconds):
@@ -148,11 +148,11 @@ def convert_seconds_to_minutes_seconds_readable_format(total_seconds):
     seconds = total_seconds % seconds_in_a_minute
     readable_statement = str(minutes) + " minutes and " + str(seconds) + " seconds"
     return readable_statement
-
+```
 We pass a function call as an argument to a function too.
-
+```py
 convert_seconds_to_minutes_seconds_readable_format(average_trip_duration_seconds_day('2018-02-18'))
-
+```
 '13.0 minutes and 48.5 seconds'
 
 ### Why are Functions Important[](https://dfrieds.com/python/functions.html#Why-are-Functions-Important)
@@ -167,5 +167,5 @@ Well-designed functions can be used in multiple programs. Our  `convert_seconds_
 
 > [Source : ](https://dfrieds.com/python/functions.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDg5NjIzOV19
+eyJoaXN0b3J5IjpbMTEwNzU4Mjc3OV19
 -->
