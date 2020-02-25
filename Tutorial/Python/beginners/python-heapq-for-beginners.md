@@ -217,11 +217,9 @@ print("heapify(heap): ", heap)
 
 Here is the output:
 
-```
+```py
 Raw heap: [78, 34, 78, 11, 45, 13, 99]
 heapify(heap): [11, 34, 13, 78, 45, 78, 99]
-
-
 ```
 
 You can see that the heapify() function transformed the input list and made it a heap.
@@ -241,8 +239,7 @@ hq.heapreplace(heap, element)
 
 Check out heapq heapreplace() example.
 
-```
-
+```py
 # A brief heapq.heapreplace() example
 
 import heapq as hq
@@ -256,19 +253,14 @@ print("heapreplace(heap, 12): ", heap)
 
 hq.heapreplace(heap, 100)
 print("heapreplace(heap, 100): ", heap)
-
-
 ```
 
 The output is:
 
 ```
-
 heap: [11, 34, 13, 78, 45, 78, 99]
 heapreplace(heap, 12): [12, 34, 13, 78, 45, 78, 99]
 heapreplace(heap, 100): [13, 34, 78, 78, 45, 100, 99]
-
-
 ```
 
 ### 6. Nlargest()
@@ -277,18 +269,15 @@ It finds the n largest elements from a given iterable. It also accepts a key whi
 
 The selected items have to satisfy the k function. If any of them fails, then the next higher number is considered.
 
-```
+```py
 # nlargest() Syntax
 import heapq as hq
 hq.nlargest(n, iterable, key=None)
-
-
 ```
 
 Check out heapq nlargest() example. It is requesting for two largest numbers.
 
-```
-
+```py
 # heapq.nlargest() example without a key
 
 import heapq as hq
@@ -299,26 +288,20 @@ print("heap: ", heap)
 
 out = hq.nlargest(2, heap)
 print("nlargest(heap, 2): ", out)
-
-
 ```
 
 The result is:
 
 ```
-
 heap: [11, 34, 13, 78, 45, 78, 99]
 nlargest(heap, 2): [99, 78]
-
-
 ```
 
 Check out another heapq nlargest() example. It is not only requesting for two largest numbers but also has an is_even() function as the KEY.
 
 If any of the selected numbers fail to clear the KEY function, then the next one comes in.
 
-```
-
+```py
 # heapq.nlargest() example with key
 
 import heapq as hq
@@ -333,8 +316,6 @@ print("heap: ", heap)
 
 out = hq.nlargest(2, heap, is_even)
 print("nlargest(heap, 2): ", out)
-
-
 ```
 
 The output is:
@@ -342,8 +323,6 @@ The output is:
 ```
 heap: [11, 34, 13, 78, 45, 78, 99]
 nlargest(heap, 2): [34, 78]
-
-
 ```
 
 ### 7. Nsmallest()
@@ -351,20 +330,15 @@ nlargest(heap, 2): [34, 78]
 It is also similar to the nlargest() in operation. However, it gets the n smallest elements from a given iterable. It too accepts a key which is a function of one argument.
 
 The selected items have to satisfy the k function. If any of them fails, then the next smaller number is considered.
-
-```
-
+```py
 # nsmallest() Syntax
 import heapq as hq
 hq.nsmallest(n, iterable, key=None)
-
-
 ```
 
 Check out heapq nsmallest() example. It is requesting for two smallest numbers.
 
-```
-
+```py
 # heapq.nsmallest() example
 
 import heapq as hq
@@ -375,8 +349,6 @@ print("heap: ", heap)
 
 out = hq.nsmallest(2, heap)
 print("nsmallest(heap, 2): ", out)
-
-
 ```
 
 Here is the result:
@@ -476,5 +448,5 @@ Originally published by  **Meenakshi Agarwal**  at  [techbeamers](https://on.mor
 
 > [Source : ](https://morioh.com/p/bbf88af0d8ee?list=5dcd3264203e265d661aa056).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTk2ODcyMF19
+eyJoaXN0b3J5IjpbMTMwOTE5MTcxMV19
 -->
