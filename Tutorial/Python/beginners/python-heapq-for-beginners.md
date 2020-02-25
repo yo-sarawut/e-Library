@@ -111,19 +111,16 @@ print(" a. Heap contains: ", heap)
 # Adding another smaller item to the heap
 hq.heappush(heap, 1)
 print(" b. Heap contains: ", heap)
-
-
 ```
 
 This code results in the following:
-```
+
+```py
 Step-1: Seed data for the heap:  [10, 20, 30, 40, 50, 60, 70, 80, 90]
 Step-2: Randomize the seed data:  [70, 20, 60, 80, 90, 30, 40, 10, 50]
 Step-3: Creating heap...
  a. Heap contains:  [10, 20, 30, 50, 90, 60, 40, 80, 70]
  b. Heap contains:  [1, 10, 30, 50, 20, 60, 40, 80, 70, 90]
-
-
 ```
 
 You can observe that heap kept the smallest item at the 0th index. We added a new lower value using the heappush() function. And it pushed that at 0th position by shifting the previous value to 1st index.
@@ -132,17 +129,15 @@ You can observe that heap kept the smallest item at the 0th index. We added a ne
 
 It is used to remove the smallest item that stays at index 0. Moreover, it also ensures that the next lowest replaces this position:
 
-```
+```py
 # heappop() Syntax
 import heapq as hq
 hq.heappop(heap)
-
-
 ```
 
 Check out heapq heappop() example. You need to append this code to the previous heappush() example.
 
-```
+```py
 # Exercising heapq.heappop() function
 print("Step-4: Removing items from heap...")
 out = hq.heappop(heap)
@@ -151,20 +146,15 @@ out = hq.heappop(heap)
 print(" b. heappop() removed {} from heap{}".format(out, heap))
 out = hq.heappop(heap)
 print(" c. heappop() removed {} from heap{}".format(out, heap))
-
-
 ```
 
 It will give the following result:
 
-```
-
+```py
 Step-4: Removing items from heap...
  a. heappop() removed 1 from heap[10, 20, 40, 50, 30, 70, 80, 90, 60]
  b. heappop() removed 10 from heap[20, 30, 40, 50, 60, 70, 80, 90]
  c. heappop() removed 20 from heap[30, 50, 40, 90, 60, 70, 80]
-
-
 ```
 
 It is clear from the output that heappop() always poped off the lowest element from the heap.
@@ -173,19 +163,15 @@ It is clear from the output that heappop() always poped off the lowest element f
 
 This function first adds the given item in a Heap, then removes the smallest one and returns it. So, it is an increment of both heappush() and heappop(). But it tends to be a little faster than the two combined.
 
-```
-
+```py
 # heappushpop() Syntax
 import heapq as hq
 hq.heappushpop(heap, element)
-
-
 ```
 
 Check out heapq heappushpop() example. You need to append it to the previous code sample.
 
-```
-
+```py
 # Exercising heapq.heappushpop() function
 print("Step-5: Adding & removing items from heap...")
 new_item = 99
@@ -194,36 +180,29 @@ print(" a. heappushpop() added {} and removed {} from heap{}".format(new_item, o
 new_item = 999
 out = hq.heappushpop(heap, new_item)
 print(" b. heappushpop() added {} and removed {} from heap{}".format(new_item, out, heap))
-
-
 ```
 
 The output is:
 
-```
-
+```py
 Step-5: Adding & removing items from heap...
  a. heappushpop() added 99 and removed 30 from heap[40, 60, 50, 70, 90, 99, 80]
  b. heappushpop() added 999 and removed 40 from heap[50, 60, 80, 70, 90, 99, 999]
-
-
 ```
 
 ### 4. Heapify()
 
 This function accepts an arbitrary list and converts it to a heap.
 
-```
+```py
 # heapify() Syntax
 import heapq as hq
 hq.heapify(heap)
-
-
 ```
 
 Check out heapq heapify() example.
 
-```
+```py
 
 # A brief heapq.heapify() example
 
@@ -234,7 +213,6 @@ print("Raw heap: ", heap)
 
 hq.heapify(heap)
 print("heapify(heap): ", heap)
-
 ```
 
 Here is the output:
@@ -498,5 +476,5 @@ Originally published by  **Meenakshi Agarwal**  at  [techbeamers](https://on.mor
 
 > [Source : ](https://morioh.com/p/bbf88af0d8ee?list=5dcd3264203e265d661aa056).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNTU4NTExXX0=
+eyJoaXN0b3J5IjpbLTUyNTk2ODcyMF19
 -->
