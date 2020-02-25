@@ -356,8 +356,6 @@ Here is the result:
 ```
 heap: [11, 34, 13, 78, 45, 78, 99]
 nsmallest(heap, 2): [11, 13]
-
-
 ```
 
 You can achieve similar behavior through other ways, but the heap algorithm is more memory-efficient and even faster.
@@ -368,8 +366,7 @@ You can achieve similar behavior through other ways, but the heap algorithm is m
 
 Write a Python program to push elements and pop off the smallest one.
 
-```
-
+```py
 import heapq as hq
 heap = []
 hq.heappush(heap, ('H', 9))
@@ -384,8 +381,6 @@ print("Calling heappushpop() to push element on the heap and return the smallest
 hq.heappushpop(heap, ('H', 11))
 for ele in heap:
    print(ele)
-
-
 ```
 
 The output:
@@ -402,16 +397,13 @@ Calling heappushpop() to push element on the heap and return the smallest one.
 ('H', 9)
 ('H', 7)
 ('H', 11)
-
-
 ```
 
 ### Second Exercise
 
 Write a Python program to perform Heap Sort, push all items to a heap, and then take off the smallest ones one after other.
 
-```
-
+```py
 import heapq as hq
 
 def heap_sort(heap):
@@ -422,17 +414,12 @@ def heap_sort(heap):
 
 out = heap_sort([9, 7, 5, 2, 1, 2, 8, 10, 6, 5, 4])
 print(out)
-
-
 ```
 
 Here is the result:
 
 ```
 [1, 2, 2, 4, 5, 5, 6, 7, 8, 9, 10]
-
-
-
 ```
 
 ## Conclusion
@@ -448,5 +435,5 @@ Originally published by  **Meenakshi Agarwal**  at  [techbeamers](https://on.mor
 
 > [Source : ](https://morioh.com/p/bbf88af0d8ee?list=5dcd3264203e265d661aa056).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTE5MTcxMV19
+eyJoaXN0b3J5IjpbNTAxMDExMjczXX0=
 -->
