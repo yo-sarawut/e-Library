@@ -77,7 +77,7 @@ PANTONE 19-4055
 - [QTPyLib, Pythonic Algorithmic Trading](https://qtpylib.io/docs/latest/index.html)
 - [QuantStats: Portfolio analytics for quants](https://github.com/ranaroussi/quantstats)
 - [simulatePortfolio](https://github.com/uelel/simulatePortfolio)
-- [Stock-Portfolio-Recommendation-Engine]()
+- [Stock-Portfolio-Recommendation-Engine](https://github.com/beenazing1/Stock-Portfolio-Recommendation-Engine/blob/master/CODE/quality_score/quality_score.py)
 
 ![enter image description here](https://raw.githubusercontent.com/ranaroussi/quantstats/dev/docs/snapshot.jpg)
 
@@ -380,11 +380,11 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMwMDk2NjIsMTk5OTMyNTQ4Miw1Mz
-gxODk3NzQsMTU5NTAwNDQxMiwxNjk0NDEwMzkxLC0xMzE5NTk1
-ODAzLDU5NTI4NTg0MywxMTc5MzcxMTcxLC04MTc2NjU2MzksLT
-U5NjAzODg0NiwxODI4ODM1ODUsOTE2MTY1ODgzLDcyODY3MzQ1
-MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkzMSwtNj
-YxNzY4OTEwLDE4MDEyMzUwMDAsMTk4NTcxNjQ1MCwtOTQwODQx
-MzQyXX0=
+eyJoaXN0b3J5IjpbODQzNDU4MTM5LDE5OTkzMjU0ODIsNTM4MT
+g5Nzc0LDE1OTUwMDQ0MTIsMTY5NDQxMDM5MSwtMTMxOTU5NTgw
+Myw1OTUyODU4NDMsMTE3OTM3MTE3MSwtODE3NjY1NjM5LC01OT
+YwMzg4NDYsMTgyODgzNTg1LDkxNjE2NTg4Myw3Mjg2NzM0NTIs
+MTc0Nzc2NjU2NywtNTE3ODA1NzksLTExMzUwOTE5MzEsLTY2MT
+c2ODkxMCwxODAxMjM1MDAwLDE5ODU3MTY0NTAsLTk0MDg0MTM0
+Ml19
 -->
