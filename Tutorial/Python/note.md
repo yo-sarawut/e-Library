@@ -2,6 +2,7 @@
 # Tutorials
 
 - [==บทความ + ตัวอย่าง + SourceCode มากมาย==](https://github.com/randerson112358/Python)
+- [PyBloggers](http://www.pybloggers.com/)
 - [Python Tutorials : saralgyaan.com](https://saralgyaan.com/posts/category/python/tutorials/)
 - [https://www.tutorialspoint.com/](https://www.tutorialspoint.com/)
 - [therenegadecoder.com](https://therenegadecoder.com/category/code/)
@@ -116,8 +117,8 @@
 
 <table border="2" width="0">  <tr>  <th></th><th>Column Header One</th><th>Column Header Two</th><th>Column Header Three</th>  </tr>  <tr>  <td align="right">Row Hdr 1</td><td align="left">Left Aligned</td><td align="center">Centre Aligned</td><td align="right">Right Aligned</td>  </tr>  <tr>  <td align="right">Row Hdr 2</td><td colspan="2" align="left">colspan the next cell</td><td align="right">Row 2, Col 3</td>  </tr>  <tr>  <td align="right">Row Hdr 3</td><td colspan="3" align="left">colspan the next two cells</td>  </tr>  <tr>  <td align="right">Row Hdr 4</td><td rowspan="2" align="left">rowspan the next cell down</td><td align="center"></td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 5</td><td align="center">Column 2</td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 6</td><td rowspan="3" align="left">Merge Down 2</td><td colspan="2" align="center">Merge Right</td>  </tr>  <tr>  <td align="right">Row Hdr 7</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 8</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDg5MTQ0NywxODUyMTIxMDg5LDQ3ND
-I2ODc3NywtMTE1ODQwNDYyLDc5MTcyMjUzNCwxMzYzODM3NzM1
-LDUzMDgxMjIyNiw3OTgyODUxMCwxNzI4NDk3MDk4LC0zMjMyNT
-YwMzEsMTk1NDA1NTAzXX0=
+eyJoaXN0b3J5IjpbMTUzNzAwNjAsMTg1MjEyMTA4OSw0NzQyNj
+g3NzcsLTExNTg0MDQ2Miw3OTE3MjI1MzQsMTM2MzgzNzczNSw1
+MzA4MTIyMjYsNzk4Mjg1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MD
+MxLDE5NTQwNTUwM119
 -->
