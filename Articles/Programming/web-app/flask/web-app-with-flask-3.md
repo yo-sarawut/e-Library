@@ -2,6 +2,8 @@
 Python Web Applications With Flask – Part III
 ==
 
+![enter image description here](https://realpython.com/static/real-python-placeholder-1.909137364508.jpg)
+
 **Articles in this series:**
 
 1.  Part I:  [Application setup](https://realpython.com/python-web-applications-with-flask-part-i/)
@@ -792,5 +794,5 @@ As always, the code is available from  [the repository](https://github.com/mjhea
 
 Reference : [https://realpython.com/python-web-applications-with-flask-part-iii/](https://realpython.com/python-web-applications-with-flask-part-iii/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzMxNzQwM119
+eyJoaXN0b3J5IjpbLTI3NDMwNjgxNywxMTczMzE3NDAzXX0=
 -->
