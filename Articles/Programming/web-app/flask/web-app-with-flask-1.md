@@ -1,6 +1,6 @@
 # Python Web Applications with Flask – Part I
 
-
+![enter image description here](https://robocrop.realpython.net/?url=https://files.realpython.com/media/flask.3aee85149243.png&w=1500&sig=a934eafd41fe3681da59d952bbe5673df9c5597e)
 Table of Contents
 
 -   [Articles in this series:](https://realpython.com/python-web-applications-with-flask-part-i/#articles-in-this-series)
@@ -511,6 +511,6 @@ Thanks for reading and tune in next time!
 
 Reference : https://realpython.com/python-web-applications-with-flask-part-i/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA1MjUwMDgsLTEwOTExOTcyMTBdfQ
-==
+eyJoaXN0b3J5IjpbMzA0NjA1MjY5LC0xNTIwNTI1MDA4LC0xMD
+kxMTk3MjEwXX0=
 -->
