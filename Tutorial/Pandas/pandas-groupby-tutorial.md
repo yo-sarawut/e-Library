@@ -65,6 +65,7 @@ If we want to find out how big each group is (e.g., how many observations in eac
 ```py
 df_rank.size()
 ```
+```py
 # Output:
 #
 # rank
@@ -72,11 +73,11 @@ df_rank.size()
 # AsstProf      67
 # Prof         266
 # dtype: int64
-
+```
 Additionally, we can also use Pandas groupby count method to count by group(s) and get the entire dataframe. If we don’t have any missing values the number should be the same for each column and group. Thus, this is a way we can explore the dataset and see if there are any missing values in any column.
-
+```py
 df_rank.count()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-count-pyth-f374a61332609c0f0fd15361fbdfe0bc52d64edd.jpg)](https://www.marsja.se/wp-content/uploads/2018/12/pandas-groupby-count-python.jpg)
 
 That was how to use Pandas size to count the number of rows in each group. We will return to this, later, when we are grouping by multiple columns. Now we are going to In some cases we may want to find out the number of unique values in each group. This can be done using the groupby method  _nunique_:
@@ -86,18 +87,18 @@ df_rank.nunique()
 ![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-one-column-0885722f4dd7578053af162ff7e0789cc3e482f4.jpg)
 
 As can be seen in the the last column (salary) there are 63 Associate Professors, 53 Assistant Proffessors, and 261 Professors in the dataset. In this example we have a complete dataset and we can see that some have the same salary (e.g., there are 261 unique values in the column salary for Professors). As we will see if we have missing values in the dataframe we would get a different result. In the next example we are using Pandas  _mask_ method together with NumPy’s  [_random.random_](https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.random.html)  to insert missing values (i.e., np.NaN) in 10% of the dataframe:
-
+```py
 df_null = df.mask(np.random.random(df.shape) < .1)
 df_null.isnull().sum().reset_index(name='N Missing Values')
-
+```
 ![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-count-missing-valu-ebba62184a9f628cae05cb36dae5cb0b6540f771.jpg)
 
 Note, we used the  _reset_index_ method above to get the multi-level indexed grouped dataframe to become a single indexed. In the particular example, above, we used the parameter _name_  to name the count column (“N Missing Values”). This parameter, however, can only be used on Pandas series objects and not dataframe objects.
 
 That said, let’s return to the example; if we run the same code as above (counting unique values by group) we can see that it will not count missing values:
-
+```py
 df_null.groupby('rank').nunique()
-
+```
 ![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-grouping-b-9ecda6447f765eb8015d13b5b53592a3a8a1f5a9.jpg)
 
 That is, we don’t get the same numbers in the two tables because of the missing values. In the following examples we are going to work with Pandas groupby to calculate the mean, median, and standard deviation by one group.
@@ -105,38 +106,38 @@ That is, we don’t get the same numbers in the two tables because of the missin
 ### Pandas Groupby Mean
 
 If we want to calculate the mean salary grouped by one column (rank, in this case) it’s simple. We just use Pandas _mean_ method on the grouped dataframe:
-
+```py
 df_rank['salary'].mean().reset_index()
-
-[![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.secalculate-mean-by-categor-7890d4a672ffbae5208ab9da79e26ef85a9e10f6.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.secalculate-mean-by-categor-7890d4a672ffbae5208ab9da79e26ef85a9e10f6.jpg)
+```
+![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.secalculate-mean-by-categor-7890d4a672ffbae5208ab9da79e26ef85a9e10f6.jpg)
 
 Having a column named salary may not be useful. For instance, if someone else are going to see the table they may not know that it’s the mean salary for each group. Luckily, we can add the _rename_  method to the above code to rename the columns of the grouped data:
-
+```py
 df_rank['salary'].mean().reset_index().rename(
     columns={'rank':'Rank','salary' : 'Mean Salary'})
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepython-groupby-mean-panda-a17ede4ce143264589e5a24bdb808e8a56fbb56b.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepython-groupby-mean-panda-a17ede4ce143264589e5a24bdb808e8a56fbb56b.jpg)
 
 ### **Median Score of a Group Using the groupby Method in Pandas**
 
 Now lets group by disciplne of the academic and find the median salary in the next Pandas groupby example
-
+```py
 df.groupby('rank')['salary'].median().reset_index().rename(
     columns={'rank':'Rank','salary' : 'MedianSalary'})
-
+```
 [![](https://www.marsja.se/wp-content/uploads/2018/12/how-to-use-pandas-groupby-and-get-median.jpg)](https://www.marsja.se/wp-content/uploads/2018/12/how-to-use-pandas-groupby-and-get-median.jpg)
 
 ### Aggregate Data by Group using Pandas Groupby
 
 Most of the time we want to have our summary statistics in the same table. We can calculate the mean and median salary, by groups, using the  _agg_  method. In this next Pandas groupby example we are also adding the minimum and maximum salary by group (rank):
-
+```py
 df_rank['salary'].agg(['mean', 'median', 
                                   'std', 'min', 'max']).reset_index()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-aggregate-bc5cd75d44f39d9379242ea66d0ea1b151ff32cf.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-aggregate-bc5cd75d44f39d9379242ea66d0ea1b151ff32cf.jpg)
 
 A very neat thing with Pandas agg method is that we can write custom functions and pass them along. Let’s say that we wanted, instead of having one column for min salary and one column for max salary, to have a column with salary range:
-
+```py
 def salary_range(df):
     mini = df.min()
     maxi = df.max()
@@ -145,7 +146,7 @@ def salary_range(df):
     return rang
 
 df_descriptive = df_rank['salary'].agg(['mean', 'median', 'std', salary_range]).reset_index()
-
+```
 Here, however, the output will have the name of the methods/functions used. That is, we will have a column named ‘salary_range’ and we are going to rename this column:
 
 # Renaming Pandas Dataframe Columns
@@ -262,5 +263,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMDIzMDE3XX0=
+eyJoaXN0b3J5IjpbLTg1OTcxNzU4NV19
 -->
