@@ -148,11 +148,12 @@ def salary_range(df):
 df_descriptive = df_rank['salary'].agg(['mean', 'median', 'std', salary_range]).reset_index()
 ```
 Here, however, the output will have the name of the methods/functions used. That is, we will have a column named ‘salary_range’ and we are going to rename this column:
-
+```py
 # Renaming Pandas Dataframe Columns
+```py
 df_descriptive.rename(columns={'rank':'Rank', 'mean':'Mean', 'median':'Median', 
                                'std':'Standard Deviation', 'salary_range':'Range'})
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-custom-function-r-484aad53a46a29aaebe0ac6355dc1e4bb9b5573a.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-custom-function-r-484aad53a46a29aaebe0ac6355dc1e4bb9b5573a.jpg)
 
 Furthermore, it’s possible to use methods from other Python packages such as SciPy and NumPy. For instance, if we wanted to calculate the harmonic and geometric mean we can use SciPy:
@@ -170,28 +171,28 @@ More about doing descriptive statistics using Pyton:
 ## Pandas Groupby Multiple Columns
 
 In this section we are going to continue using Pandas groupby but grouping by many columns. In the first example we are going to group by two columns and the we will continue with grouping by two columns, ‘discipline’ and ‘rank’. To use Pandas groupby with multiple columns we add a list containing the column names. In the example below we also count the number of observations in each group:
-
+```py
 df_grp = df.groupby(['rank', 'discipline'])
 df_grp.size().reset_index(name='count')
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-two-column-f11924c0311d2c68a71b529ee7510b4e0190bab5.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-two-column-f11924c0311d2c68a71b529ee7510b4e0190bab5.jpg)
 
 Again, we can use the get_group method to select groups. However, in this case we have to input a tuple and select two groups:
-
+```py
 # Get two groups
 df_grp.get_group(('AssocProf', 'A')).head()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segrouping-by-two-columns-p-e3079707f696dcb722acdb0ec23cc884f4fa0b09.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segrouping-by-two-columns-p-e3079707f696dcb722acdb0ec23cc884f4fa0b09.jpg)
 
 ## Pandas Groupby Count Multiple Groups
 
 In the next groupby example we are going to calculate the number of observations in three groups (i.e., “n”). We have to start by grouping by “rank”, “discipline” and “sex” using groupby. As with the previous example (groupby one column) we use the method size to calculate the **n**  and reset_index, with the parameter _name=”n”_, to get the series to a dataframe:
-
+```py
 df_3grps = df.groupby(['rank', 'discipline', 'sex'])
 df_n_per_group = df_3grps.size().reset_index(name='n')
-
+```
 Now we can continue and calculate the percentage of men and women in each rank and discipline. In this, and the next, Pandas groupby example we are going to use the _apply_  method together with the [_lambda_](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)  function.
-
+```py
 perc = df.groupby(['rank', 'discipline', 'sex'])['salary'].size()
 
 # Give the percentage on the level of Rank:
@@ -263,5 +264,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTcxNzU4NV19
+eyJoaXN0b3J5IjpbNTIwMDYwOTFdfQ==
 -->
