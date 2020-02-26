@@ -201,36 +201,36 @@ percbyrank = perc.groupby(level=0).apply(lambda x: 100 * x / float(x.sum()))
 print(percbyrank)
 print('Total percentage in group AssocProf. ',
       percbyrank.reset_index().query('rank == "AssocProf"')['salary'].sum())
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-percentage-bbead0c6a191c3400e244018e2ca82f2f794bd2f.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-percentage-bbead0c6a191c3400e244018e2ca82f2f794bd2f.jpg)
 
 Note, in the last line of code above we calculate the total of % for the group AssocProf and it’s 100, which is good. We are going to continue with calculating the percentage of men and women in each group (i.e., rank and discipline). In the next code we have to summarize the total **n** (n=397). We can, for instance, see that there are more male professors regardless of discipline.
-
+```py
 n = perc.reset_index()['salary'].sum()
 totalperc =  perc.groupby(level=0).apply(lambda x: 100 * x / N).reset_index(name='% of total n')
 totalperc.reset_index()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.secalculate-percentage-by-g-db241b5985ae299732a3b89f40a4d2142f67d304.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.secalculate-percentage-by-g-db241b5985ae299732a3b89f40a4d2142f67d304.jpg)
 
 ### How to convert a Pandas groupby to Dataframe
 
 When dealing with multiple groups and Pandas groupby we get a GroupByDataFrame object. Let’s use _type_  to see what type a grouped object have:
-
+```py
 df_rn = df.groupby(['rank', 'discipline']).mean()
-
+```
 Furthermore, if we use the _index_  method we can see that it is MultiIndex:
-
+```py
 df_rn.index
-
+```
 [![](https://www.marsja.se/wp-content/uploads/2018/12/pandas-multiindex-grouped-by-gender.jpg)](https://www.marsja.se/wp-content/uploads/2018/12/pandas-multiindex-grouped-by-gender.jpg)
 
 It’s easy to convert the Pandas groupby to dataframe; we have actually already done it. In this example, however, we are going to calculate the mean values per the three groups. Furthermore, we are going to add a suffix to each column and use reset_index to get a dataframe.
-
+```py
 df_rn = df_rn.add_suffix('_Mean').reset_index()
 type(df_rn)
 
 # Output: pandas.core.frame.DataFrame
-
+```
 ## Pandas groupby agg with Multiple Groups
 
 In this last section we are going use agg, again. We are not going into detail on how to use mean, median, and other methods to get summary statistics, however. This is because it’s basically the same as for grouping by n groups and it’s better to get all the summary statistics in one table.
@@ -240,12 +240,12 @@ That is, we are going to calculate mean, median, and standard deviation using th
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-aggregate-ea0562c7abe98f927d9354b8b831e1b17bbf26f9.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-aggregate-ea0562c7abe98f927d9354b8b831e1b17bbf26f9.jpg)
 
 If we use Pandas _columns_ and the method  _ravel_  together with list comprehension we can add the suffixes to our column name and get another table. Note, in the example code below we only print the first 7 columns. In fact, with many columns it may be better to keep the result multi-level indexed.
-
+```py
 df_stats = df.groupby(['rank', 'discipline', 'sex']).agg(['mean', 'median', 'std'])
 df_stats.columns = ["_".join(x) for x in df_stats.columns.ravel()]
 
 df_stats.iloc[:,0:6].reset_index()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-multiple-c-db167f775ed1497b33d98e9a1317b8d3a7f3f4f8.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepandas-groupby-multiple-c-db167f775ed1497b33d98e9a1317b8d3a7f3f4f8.jpg)
 
 Note, if we wanted an output as the first image we just remove the second line above (“df_stats.columns = …”). Additionally, as previous mentioned, we can also use custom functions, NumPy and SciPy methods when working with groupby agg. Just scroll back up and look at those examples, for grouping by one column, and apply them to the data grouped by multiple columns. More information of the different methods and objects used here can be found in the  [Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/).
@@ -264,5 +264,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMDYwOTFdfQ==
+eyJoaXN0b3J5IjpbMTc0Njk1MzA3NF19
 -->
