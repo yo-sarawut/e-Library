@@ -417,7 +417,7 @@ This snippet showcases two of my favorite tricks - first, we have a block (`titl
 ### Form management
 
 The other piece of our templating structure that merits a look is  [our macros](https://github.com/mjhea0/flask-tracking/tree/part-2/flask_tracking/templates/helpers). For those of you coming from a Django background, Jinja’s macros are Django’s  `tag`s on steroids. Our  `form.render`  macro, for example, makes it incredibly easy to add a form to one of our templates:
-```py
+```html
 {% macro render(form) %}
 <dl>
 {% for field in form if field.type not in ["HiddenField", "CSRFTokenField"] %}
@@ -652,5 +652,5 @@ Your app should now look like this:
 
 Reference : [https://realpython.com/python-web-applications-with-flask-part-ii/](https://realpython.com/python-web-applications-with-flask-part-ii/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODY3NDQ5OSwxMzM4MzI2NzUyXX0=
+eyJoaXN0b3J5IjpbMTI0MTQ1MzIyMSwxMzM4MzI2NzUyXX0=
 -->
