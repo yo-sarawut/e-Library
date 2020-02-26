@@ -9,14 +9,14 @@ In this Pandas group by we are going to learn how to organize  [Pandas](https://
 -   More about working with Pandas:  [Pandas Dataframe Tutorial](https://www.marsja.se/pandas-dataframe-read-csv-excel-subset/)
 
 First of all we are going to import pandas as pd, and read a CSV file, using the read_csv method, to a dataframe. In the example below, we use _index_col=0_  because the first row in the dataset is the index column.
-
+```py
 import pandas as pd
 
 data_url = 'http://vincentarelbundock.github.io/Rdatasets/csv/carData/Salaries.csv'
 df = pd.read_csv(data_url, index_col=0)
 
 df.head()
-
+```
 ## ![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepython-pandas-groupby-exp-25c8755367b765f276486f1e3690092de0afe3f2.jpg)
 
 We used Pandas head to se the first 5 rows of our dataframe. In the image above we can see that we have, at least, three variables that we can group our data by. That is, we can group our data by “rank”, “discipline”, and “sex”. Of course, we could also group it by yrs.since.phd or yrs.service but it may be a lot of groups. As previously mentioned we are going to use Pandas groupby to group a dataframe based on one, two, three, or more columns.
@@ -31,7 +31,7 @@ Data can be loaded from other file formats as well (e.g., Excel, HTML, JSON):
 We are starting with the simplest example; grouping by one column. In the Pandas groupby example below we are going to group by the column “rank”.
 
 There are many different methods that we can use on Pandas groupby objects (and Pandas dataframe objects). All available methods on a Python object can be found using this code:
-
+```py
 import IPython
 
 # Grouping by one factor
@@ -262,5 +262,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM1MDUwXX0=
+eyJoaXN0b3J5IjpbMTkyMTQ0NDE1NF19
 -->
