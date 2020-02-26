@@ -2,6 +2,8 @@
 Python Web Applications With Flask – Part II
 ==
 
+![enter image description here](https://realpython.com/static/real-python-placeholder-4.d9524cd39927.jpg)
+
 **Articles in this series:**
 
 1.  Part I:  [Application setup](https://realpython.com/python-web-applications-with-flask-part-i/)
@@ -650,5 +652,5 @@ Your app should now look like this:
 
 Reference : [https://realpython.com/python-web-applications-with-flask-part-ii/](https://realpython.com/python-web-applications-with-flask-part-ii/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODMyNjc1Ml19
+eyJoaXN0b3J5IjpbMTExODY3NDQ5OSwxMzM4MzI2NzUyXX0=
 -->
