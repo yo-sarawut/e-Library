@@ -43,28 +43,28 @@ meth = [method_name for method_name in dir(df_rank)
 
 # Printing the result
 print(IPython.utils.text.columnize(meth))
-
+```
 ![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sepython-pandas-groupby-obj-afd86d7b4d24cd44af18f6a77c46c876bf113fcc.jpg)
 
 Note, that in the code example above we also import IPython to print the list in columns. In the following examples we are going to use some of these methods. First, we can print out the groups by using the _groups_  method to get a dictionary of groups:
-
+```py
 df_rank.groups
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-dictionary-53a1b4cb232a6c6215bc094e018a2a6783fc7555.jpg)](https://www.marsja.se/wp-content/uploads/2018/12/groupby-pandas-dictionary-of-groups.jpg)
 
 We can also use the groupby method _get_group_  to filter the grouped data. In the next code example we are going to select the Assistant Professor group (i.e., “AsstProf”).
-
+```py
 # Get group
 df_rank.get_group('AsstProf').head()
-
+```
 [![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sehow-to-use-python-pandas-e95a6eebcdfb1fba6674fa3d26358d8b02ed7606.jpg)](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.sehow-to-use-python-pandas-e95a6eebcdfb1fba6674fa3d26358d8b02ed7606.jpg)
 
 ### Pandas Groupby Count
 
 If we want to find out how big each group is (e.g., how many observations in each group), we can use use .size() to count the number of rows in each group:
-
+```py
 df_rank.size()
-
+```
 # Output:
 #
 # rank
@@ -262,5 +262,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTQ0NDE1NF19
+eyJoaXN0b3J5IjpbNDEwMDIzMDE3XX0=
 -->
