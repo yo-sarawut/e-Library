@@ -4,6 +4,7 @@
 - [Hashing Passwords in Python](https://www.vitoshacademy.com/hashing-passwords-in-python/)
 - [Bad passwords and the NIST guidelines :](https://github.com/yosarawut/DataCamp-Projects/blob/master/Bad%20passwords%20and%20the%20NIST%20guidelines/notebook.ipynb)
 - [ทำไมต้อง เปลี่ยน Password และต้องมีความซับซ้อนในการป้อน Password](http://www.mvpskill.com/kb/password-must-meet-complexity-requirements.html)
+- [หลักการตั้ง password : ETDA](https://www.etda.or.th/publishing-detail/4-tips-for-secure-online-transactions.html)
 
 ## Example:
   
@@ -30,7 +31,7 @@
 ![enter image description here](https://tutorialzine.com/media/2012/06/password-strength-css3.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzQ4OTE1NywtMTc5MjgwMTcwNSwtNz
-E4Mzk0NzAyLC01NzU2MDM4MDUsLTEzMTE2NDQ1MTUsNzYzOTg1
-MzI3LDE4NTM5NTE3MzFdfQ==
+eyJoaXN0b3J5IjpbMTAyMTQ3ODM5OCwxNzIzNDg5MTU3LC0xNz
+kyODAxNzA1LC03MTgzOTQ3MDIsLTU3NTYwMzgwNSwtMTMxMTY0
+NDUxNSw3NjM5ODUzMjcsMTg1Mzk1MTczMV19
 -->
