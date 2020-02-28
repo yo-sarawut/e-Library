@@ -30,7 +30,6 @@ Table of Contents
     -   [Push](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s#push)
 -   [Putting It All Together: Simple Git Workflow](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s#putting-it-all-together-simple-git-workflow)
 
-[![](https://img.realpython.net/e1ba3fda38afbf853a398cfa81ae1bca)](https://srv.realpython.net/click/36956403387/?c=50370534298&p=58946116052&r=79418)
 
 Watch Now  This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding:  [**Introduction to Git and GitHub for Python Developers**](https://realpython.com/courses/python-git-github-intro/)
 
@@ -71,18 +70,18 @@ Now that we’ve talked about what Git is in general, let’s run through an exa
 ### Creating a New Repo
 
 To work with Git, you first need to tell it who you are. You can set your username with the  `git config`  command:
-
-`$ git config --global user.name "your name goes here"` 
-
+```
+$ git config --global user.name "your name goes here"
+```
 Once that is ste up, you will need a repo to work in. Creating a repo is simple. Use the  `git init`  command in a directory:
-
-`$ mkdir example
+```
+$ mkdir example
 $ cd example
 $ git init
-Initialized empty Git repository in /home/jima/tmp/example/.git/` 
-
+Initialized empty Git repository in /home/jima/tmp/example/.git/
+```
 Once you have a repo, you can ask Git about it. The Git command you’ll use most frequently is  `git status`. Try that now:
-
+```
 `$ git status
 On branch master
 
@@ -672,5 +671,5 @@ If you’d like to take a deeper dive into Git, I can recommend these books:
 
 > [Source : ](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYzOTcyOThdfQ==
+eyJoaXN0b3J5IjpbLTg0ODA2NTk2Ml19
 -->
