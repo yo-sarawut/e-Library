@@ -150,36 +150,10 @@ List indices work the same way as string indices, list indices start at 0. If an
 ```py
 color_list=["RED", "Blue", "Green", "Black"]
 ```
-
-Item
-
-RED
-
-Blue
-
-Green
-
-Black
-
-Index (from left)
-
-0
-
-1
-
-2
-
-3
-
-Index (from right)
-
--4
-
--3
-
--2
-
--1
+| Item |RED |Blue |Green |Black |
+|-----|:-----:|:-----:|:-----:|:-----:|
+| Index (from left) |0 |1 |2 |3 |
+| Index (from right) |-4 |-3 |-2 |-1 |
 
 If you give any index value which is out of range then interpreter creates an error message. See the following statements.
 
@@ -199,7 +173,6 @@ IndexError: list index out of range
 >>>
 ```
 
-Copy
 
 ## Add an item to the end of the list
 
@@ -685,5 +658,5 @@ deque(['Green', 'Black', 'White', 'Yellow'])
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjgxNDQ1M119
+eyJoaXN0b3J5IjpbMTQ0MzgzNzg0NV19
 -->
