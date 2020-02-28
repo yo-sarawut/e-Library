@@ -132,16 +132,17 @@ Now Git knows about  `hello.py`  and lists it under  _changes to be committed_. 
 ### Committing Changes
 
 When you  _commit_  changes, you are telling Git to make a snapshot of this state in the repo. Do that now by using the  `git commit`  command. The  `-m`  option tells Git to use the commit message that follows. If you don’t use  `-m`, Git will bring up an editor for you to create the commit message. In general, you want your commit messages to reflect what has changed in the commit:
-
-`$ git commit -m "creating hello.py"
+```
+$ git commit -m "creating hello.py"
 [master (root-commit) 25b09b9] creating hello.py
  1 file changed, 3 insertions(+)
  create mode 100755 hello.py
-
+```
+```
 $ git status
 On branch master
 nothing to commit, working directory clean` 
-
+```
 You can see that the commit command returned a bunch of information, most of which isn’t that useful, but it does tell you that only 1 file changed (which makes sense as we added one file). It also tells you the  _SHA_  of the commit (`25b09b9`). We’ll have an aside about SHA a bit later.
 
 Running the  `git status`  command again shows that we have a  _clean_  working directory, meaning that all changes are committed to Git.
@@ -173,13 +174,13 @@ If you’re interested in more detailed info about the staging area, I can recom
 The status command is very handy, and you’ll find yourself using it often. But sometimes you’ll find that there are a bunch of files that show up in the  _untracked_  section and that you want Git to just not see. That’s where the  `.gitignore`  file comes in.
 
 Let’s walk through an example. Create a new Python file in the same directory called  `myname.py`.
-
+```py
 `# myname.py
 def get_name():
     return "Jim"` 
-
+```
 Then modify your hello.py to include  `myname`  and call its function:
-
+```py
 `# hello.py
 import myname
 
@@ -194,9 +195,9 @@ $ ./hello.py
 hello Jim!
 $ ls
 hello.py  myname.py  __pycache__` 
-
+```
 Now if you run  `git status`, you’ll see that directory in the  _untracked_  section. Also note that your new  `myname.py`  file is untracked, while the changes you made to  `hello.py`  are in a new section called “Changes not staged for commit”. This just means that those changes have not yet been added to the staging area. Let’s try it out:
-
+```py
 `$ git status
 On branch master
 Changes not staged for commit:
@@ -210,12 +211,12 @@ Untracked files:
 
  __pycache__/
  myname.py
-
+```
 no changes added to commit (use "git add" and/or "git commit -a")` 
 
 Before we move on to the gitignore file, let’s clean up the mess we’ve made a little bit. First we’ll add the  `myname.py`  and  `hello.py`  files, just like we did earlier:
-
-`$ git add myname.py hello.py
+```py
+$ git add myname.py hello.py
 $ git status
 On branch master
 Changes to be committed:
@@ -671,5 +672,5 @@ If you’d like to take a deeper dive into Git, I can recommend these books:
 
 > [Source : ](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MDE5ODEzXX0=
+eyJoaXN0b3J5IjpbODQ1ODE0NjA3XX0=
 -->
