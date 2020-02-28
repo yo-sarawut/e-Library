@@ -107,9 +107,9 @@ Following list contains a string, an integer and a float values:
 
 ```python
 >>> my_list3 = ['red', 12, 112.12] # the list contains a string, an integer and
-a float values
+# a float values
 >>> print(my_list3)
-['red', 12, 112.12]
+# ['red', 12, 112.12]
 >>>
 ```
 
@@ -118,7 +118,7 @@ A list without any element is called an empty list. See the following statements
 ```python
 >>> my_list=[]
 >>> print(my_list)
-[]
+# []
 >>>
 ```
 
@@ -131,12 +131,12 @@ Use + operator to create a new list that is a concatenation of two lists and use
 >>> color_list3 = ["Green", "Black"]
 >>> color_list = color_list1 + color_list2 + color_list3
 >>> print(color_list)
-['White', 'Yellow', 'Red', 'Blue', 'Green', 'Black']
+# ['White', 'Yellow', 'Red', 'Blue', 'Green', 'Black']
 >>> number = [1,2,3]
 >>> print(number[0]*4)
-4
+# 4
 >>> print(number*4)
-[1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+# [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
 >>>
 ```
 
@@ -156,17 +156,17 @@ If you give any index value which is out of range then interpreter creates an er
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> color_list[0] # Return the First Element
-'Red'
+# 'Red'
 >>> print(color_list[0],color_list[3]) # Print First and Last Elements
-Red Black
+# Red Black
 >>> color_list[-1] # Return Last Element
-'Black'
+# 'Black'
 >>> print(color_list[4]) # Creates Error as the indices is out of range
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# IndexError: list index out of range
 >>>
 ```
 
@@ -180,7 +180,7 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.append("Yellow")
 >>> print(color_list)
 ['Red', 'Blue', 'Green', 'Black', 'Yellow']
@@ -631,5 +631,5 @@ deque(['Green', 'Black', 'White', 'Yellow'])
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MTA3MjM0XX0=
+eyJoaXN0b3J5IjpbMTY0MDQ3NDkzNF19
 -->
