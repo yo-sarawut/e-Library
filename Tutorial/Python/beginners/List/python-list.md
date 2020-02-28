@@ -183,7 +183,7 @@ See the following statements:
 # ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.append("Yellow")
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black', 'Yellow']
+# ['Red', 'Blue', 'Green', 'Black', 'Yellow']
 >>>
 
 ```
@@ -197,10 +197,10 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.insert(2, "White") #Insert an item at third position
 >>> print(color_list)
-['Red', 'Blue', 'White', 'Green', 'Black']
+# ['Red', 'Blue', 'White', 'Green', 'Black']
 >>>
 
 ```
@@ -215,10 +215,10 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list[2]="Yellow"  #Change the third color
 >>> print(color_list)
-['Red', 'Blue', 'Yellow', 'Black']
+# ['Red', 'Blue', 'Yellow', 'Black']
 >>>
 
 ```
@@ -234,10 +234,10 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.remove("Black")
 >>> print(color_list)
-['Red', 'Blue', 'Green']
+# ['Red', 'Blue', 'Green']
 
 ```
 
@@ -252,10 +252,10 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.clear()
 >>> print(color_list)
-[]
+# []
 >>>
 ```
 
@@ -278,9 +278,9 @@ See the following statements:
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> print(color_list[0:2]) # cut first two items
-['Red', 'Blue']
+# ['Red', 'Blue']
 >>>
 ```
 
@@ -293,11 +293,11 @@ See the following statements:
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> print(color_list[1:2])
-['Blue']
+# ['Blue']
 >>> print(color_list[1:-2])
-['Blue']
+# ['Blue']
 >>>
 ```
 
@@ -310,9 +310,9 @@ See the following statements:
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> print(color_list[1:-1])
-['Blue', 'Green']
+# ['Blue', 'Green']
 >>>
 ```
 
@@ -325,9 +325,9 @@ See the following statements:
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> print(color_list[:3]) # cut first three items
-['Red', 'Blue', 'Green']
+# ['Red', 'Blue', 'Green']
 >>>
 ```
 
@@ -340,9 +340,9 @@ See the following statements:
 
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
-indices start at 0 and end at 3
+# indices start at 0 and end at 3
 >>> print(color_list[:]) # Creates copy of original list
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>>
 ```
 
@@ -356,11 +356,11 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.pop(2) # Remove second item and return it
-'Green'
+# 'Green'
 >>> print(color_list)
-['Red', 'Blue', 'Black']
+# ['Red', 'Blue', 'Black']
 >>>
 ```
 
@@ -374,11 +374,11 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list.index("Red")
-0
+# 0
 >>> color_list.index("Black")
-3
+# 3
 >>>
 ```
 
@@ -392,10 +392,10 @@ See the following statements:
 ```python
 >>> color_list=["Red", "Blue", "Green", "Black"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
+# ['Red', 'Blue', 'Green', 'Black']
 >>> color_list=["Red", "Blue", "Green", "Black", "Blue"]
 >>> print(color_list)
-['Red', 'Blue', 'Green', 'Black', 'Blue']
+# ['Red', 'Blue', 'Green', 'Black', 'Blue']
 >>> color_list.count("Blue")
 2
 >>>
@@ -631,5 +631,5 @@ deque(['Green', 'Black', 'White', 'Yellow'])
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDQ3NDkzNF19
+eyJoaXN0b3J5IjpbMTM3OTEyNjAzMF19
 -->
