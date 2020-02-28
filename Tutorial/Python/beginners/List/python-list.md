@@ -50,7 +50,7 @@ Note: There are much programming languages which allow us to create arrays, whic
 -   [Python List Exercises](https://www.w3resource.com/python-exercises/list/)
 
 **Lists: Commands**
-
+```py
 <list> = <list>[from_inclusive : to_exclusive : ±step_size]  
 <list>.append(<el>)         
 # Or: <list> += [<el>]
@@ -79,7 +79,7 @@ list_of_chars    = list(<str>)
   <list>.remove(<el>)
 # Removes all items. Also works on dictionary and set.  
   <list>.clear()
-
+```
 ## Create a Python list
 
 Following list contains all integer values:
@@ -103,7 +103,6 @@ values
 >>>
 ```
 
-Copy
 
 Following list contains a string, an integer and a float values:
 
@@ -114,8 +113,6 @@ a float values
 ['red', 12, 112.12]
 >>>
 ```
-
-Copy
 
 A list without any element is called an empty list. See the following statements.
 
@@ -150,6 +147,7 @@ Copy
 ## List indices
 
 List indices work the same way as string indices, list indices start at 0. If an index has a positive value it counts from the beginning and similarly it counts backward if the index has a negative value. As positive integers are used to index from the left end and negative integers are used to index from the right end, so every item of a list gives two alternatives indices. Let create a list called color_list with four items.  
+```py
 color_list=["RED", "Blue", "Green", "Black"]
 
 Item
@@ -686,5 +684,5 @@ deque(['Green', 'Black', 'White', 'Yellow'])
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTg3MTE1NV19
+eyJoaXN0b3J5IjpbMTcyNTk1NTc5N119
 -->
