@@ -91,13 +91,12 @@ Following list contains all integer values:
 >>>
 ```
 
-Copy
 
 Following list contains all string:
 
 ```python
 >>> my_list2 = ['red', 'blue', 'black', 'white'] # the list contains all string
-values
+# values
 >>> print(my_list2)
 ['red', 'blue', 'black', 'white']
 >>>
@@ -123,7 +122,6 @@ A list without any element is called an empty list. See the following statements
 >>>
 ```
 
-Copy
 
 Use + operator to create a new list that is a concatenation of two lists and use * operator to repeat a list. See the following statements.
 
@@ -142,7 +140,6 @@ Use + operator to create a new list that is a concatenation of two lists and use
 >>>
 ```
 
-Copy
 
 ## List indices
 
@@ -191,8 +188,6 @@ See the following statements:
 
 ```
 
-Copy
-
 ## Insert an item at a given position
 
 ![Python List: Insert an item at a given position](https://www.w3resource.com/w3r_images/Insert-an-item-at-a-given-position.png)
@@ -210,7 +205,6 @@ See the following statements:
 
 ```
 
-Copy
 
 ## Modify an element by using the index of the element
 
@@ -229,7 +223,7 @@ See the following statements:
 
 ```
 
-Copy
+
 
 ## Remove an item from the list
 
@@ -247,7 +241,7 @@ See the following statements:
 
 ```
 
-Copy
+
 
 ## Remove all items from the list
 
@@ -265,7 +259,6 @@ See the following statements:
 >>>
 ```
 
-Copy
 
 ## List Slices
 
@@ -291,7 +284,6 @@ indices start at 0 and end at 3
 >>>
 ```
 
-Copy
 
 Cut second item from a list:
 
@@ -309,7 +301,6 @@ indices start at 0 and end at 3
 >>>
 ```
 
-Copy
 
 Cut second and third elements from a list:
 
@@ -325,7 +316,6 @@ indices start at 0 and end at 3
 >>>
 ```
 
-Copy
 
 Cut first three items from a list:
 
@@ -341,7 +331,6 @@ indices start at 0 and end at 3
 >>>
 ```
 
-Copy
 
 Creates copy of original list:
 
@@ -357,7 +346,6 @@ indices start at 0 and end at 3
 >>>
 ```
 
-Copy
 
 ## Remove the item at the given position in the list, and return it
 
@@ -376,7 +364,6 @@ See the following statements:
 >>>
 ```
 
-Copy
 
 ## Return the index in the list of the first item whose value is x
 
@@ -395,7 +382,6 @@ See the following statements:
 >>>
 ```
 
-Copy
 
 ## Return the number of times 'x' appear in the list
 
@@ -415,7 +401,6 @@ See the following statements:
 >>>
 ```
 
-Copy
 
 ## Sort the items of the list in place
 
@@ -433,7 +418,6 @@ See the following statements:
 >>>
 ```
 
-Copy
 
 ## Reverse the elements of the list in place
 
@@ -447,7 +431,6 @@ Copy
 >>>
 ```
 
-Copy
 
 ## Return a shallow copy of the list
 
@@ -460,7 +443,6 @@ Copy
 >>>
 ```
 
-Copy
 
 ## Search the Lists and find Elements
 
@@ -473,7 +455,6 @@ Copy
 >>>
 ```
 
-Copy
 
 ## Lists are Mutable
 
@@ -491,7 +472,6 @@ White
 >>>
 ```
 
-Copy
 
 ## Convert a list to a tuple in Python
 
@@ -505,7 +485,6 @@ Copy
 >>>
 ```
 
-Copy
 
 ## How to use the double colon [ : : ]?
 
@@ -526,7 +505,6 @@ between the elements to cut of the list.
 >>>
 ```
 
-Copy
 
 ## Find the largest and the smallest item in a list
 
@@ -543,7 +521,6 @@ value in the list.
 >>>
 ```
 
-Copy
 
 ## Compare two lists in Python
 
@@ -562,7 +539,6 @@ True
 >>>
 ```
 
-Copy
 
 ## Nested lists in Python
 
@@ -586,7 +562,6 @@ World
 >>>
 ```
 
-Copy
 
 ## How can I get the index of an element contained in the list?
 
@@ -607,7 +582,6 @@ Copy
 
 ```
 
-Copy
 
 ## Using Lists as Stacks
 
@@ -630,7 +604,6 @@ Copy
 >>>
 ```
 
-Copy
 
 ## Using Lists as Queues
 
@@ -658,5 +631,5 @@ deque(['Green', 'Black', 'White', 'Yellow'])
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzgzNzg0NV19
+eyJoaXN0b3J5IjpbMzU5MTA3MjM0XX0=
 -->
