@@ -82,9 +82,9 @@ Initialized empty Git repository in /home/jima/tmp/example/.git/
 ```
 Once you have a repo, you can ask Git about it. The Git command you’ll use most frequently is  `git status`. Try that now:
 ```
-`$ git status
+$ git status
 On branch master
-
+```
 Initial commit
 
 nothing to commit (create/copy files and use "git add" to track)` 
@@ -96,15 +96,15 @@ This shows you a couple of bits of information: which branch you’re on,  `mast
 ### Adding a New File
 
 Now create a file that Git doesn’t know about. With your favorite editor, create the file  `hello.py`, which has just a print statement in it.
-
-`# hello.py
+```py
+# hello.py
 print('hello Git!')` 
-
+```
 If you run  `git status`  again, you’ll see a different result:
-
-`$ git status
+```
+$ git status
 On branch master
-
+```
 Initial commit
 
 Untracked files:
@@ -115,11 +115,11 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)` 
 
 Now Git sees the new file and tells you that it’s  _untracked_. That’s just Git’s way of saying that the file is not part of the repo and is not under version control. We can fix that by adding the file to Git. Use the  `git add`  command to make that happen:
-
-`$ git add hello.py
+```
+$ git add hello.py
 $ git status
 On branch master
-
+```
 Initial commit
 
 Changes to be committed:
@@ -671,5 +671,5 @@ If you’d like to take a deeper dive into Git, I can recommend these books:
 
 > [Source : ](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODA2NTk2Ml19
+eyJoaXN0b3J5IjpbNTk2MDE5ODEzXX0=
 -->
