@@ -85,59 +85,59 @@ list_of_chars    = list(<str>)
 Following list contains all integer values:
 
 ```python
->>> my_list1 = [5, 12, 13, 14] # the list contains all integer values
->>> print(my_list1)
+my_list1 = [5, 12, 13, 14] # the list contains all integer values
+print(my_list1)
 [5, 12, 13, 14]
->>>
+
 ```
 
 
 Following list contains all string:
 
 ```python
->>> my_list2 = ['red', 'blue', 'black', 'white'] # the list contains all string
+my_list2 = ['red', 'blue', 'black', 'white'] # the list contains all string
 # values
->>> print(my_list2)
+print(my_list2)
 ['red', 'blue', 'black', 'white']
->>>
+
 ```
 
 
 Following list contains a string, an integer and a float values:
 
 ```python
->>> my_list3 = ['red', 12, 112.12] # the list contains a string, an integer and
+my_list3 = ['red', 12, 112.12] # the list contains a string, an integer and
 # a float values
->>> print(my_list3)
+print(my_list3)
 # ['red', 12, 112.12]
->>>
+
 ```
 
 A list without any element is called an empty list. See the following statements.
 
 ```python
->>> my_list=[]
->>> print(my_list)
+my_list=[]
+print(my_list)
 # []
->>>
+
 ```
 
 
 Use + operator to create a new list that is a concatenation of two lists and use * operator to repeat a list. See the following statements.
 
 ```python
->>> color_list1 = ["White", "Yellow"]
->>> color_list2 = ["Red", "Blue"]
->>> color_list3 = ["Green", "Black"]
->>> color_list = color_list1 + color_list2 + color_list3
->>> print(color_list)
+color_list1 = ["White", "Yellow"]
+color_list2 = ["Red", "Blue"]
+color_list3 = ["Green", "Black"]
+color_list = color_list1 + color_list2 + color_list3
+print(color_list)
 # ['White', 'Yellow', 'Red', 'Blue', 'Green', 'Black']
->>> number = [1,2,3]
->>> print(number[0]*4)
+number = [1,2,3]
+print(number[0]*4)
 # 4
->>> print(number*4)
+print(number*4)
 # [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
->>>
+
 ```
 
 
@@ -155,19 +155,19 @@ color_list=["RED", "Blue", "Green", "Black"]
 If you give any index value which is out of range then interpreter creates an error message. See the following statements.
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements
 # indices start at 0 and end at 3
->>> color_list[0] # Return the First Element
+color_list[0] # Return the First Element
 # 'Red'
->>> print(color_list[0],color_list[3]) # Print First and Last Elements
+print(color_list[0],color_list[3]) # Print First and Last Elements
 # Red Black
->>> color_list[-1] # Return Last Element
+color_list[-1] # Return Last Element
 # 'Black'
->>> print(color_list[4]) # Creates Error as the indices is out of range
+print(color_list[4]) # Creates Error as the indices is out of range
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
 # IndexError: list index out of range
->>>
+
 ```
 
 
@@ -178,13 +178,13 @@ If you give any index value which is out of range then interpreter creates an er
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.append("Yellow")
->>> print(color_list)
+color_list.append("Yellow")
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black', 'Yellow']
->>>
+
 
 ```
 
@@ -195,13 +195,13 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.insert(2, "White") #Insert an item at third position
->>> print(color_list)
+color_list.insert(2, "White") #Insert an item at third position
+print(color_list)
 # ['Red', 'Blue', 'White', 'Green', 'Black']
->>>
+
 
 ```
 
@@ -213,13 +213,13 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list[2]="Yellow"  #Change the third color
->>> print(color_list)
+color_list[2]="Yellow"  #Change the third color
+print(color_list)
 # ['Red', 'Blue', 'Yellow', 'Black']
->>>
+
 
 ```
 
@@ -232,11 +232,11 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.remove("Black")
->>> print(color_list)
+color_list.remove("Black")
+print(color_list)
 # ['Red', 'Blue', 'Green']
 
 ```
@@ -250,13 +250,13 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.clear()
->>> print(color_list)
+color_list.clear()
+print(color_list)
 # []
->>>
+
 ```
 
 
@@ -277,11 +277,11 @@ Cut first two items from a list:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
 # indices start at 0 and end at 3
->>> print(color_list[0:2]) # cut first two items
+print(color_list[0:2]) # cut first two items
 # ['Red', 'Blue']
->>>
+
 ```
 
 
@@ -292,13 +292,13 @@ Cut second item from a list:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
 # indices start at 0 and end at 3
->>> print(color_list[1:2])
+print(color_list[1:2])
 # ['Blue']
->>> print(color_list[1:-2])
+print(color_list[1:-2])
 # ['Blue']
->>>
+
 ```
 
 
@@ -309,11 +309,11 @@ Cut second and third elements from a list:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
 # indices start at 0 and end at 3
->>> print(color_list[1:-1])
+print(color_list[1:-1])
 # ['Blue', 'Green']
->>>
+
 ```
 
 
@@ -324,11 +324,11 @@ Cut first three items from a list:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
 # indices start at 0 and end at 3
->>> print(color_list[:3]) # cut first three items
+print(color_list[:3]) # cut first three items
 # ['Red', 'Blue', 'Green']
->>>
+
 ```
 
 
@@ -339,11 +339,11 @@ Creates copy of original list:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
+color_list=["Red", "Blue", "Green", "Black"] # The list have four elements 
 # indices start at 0 and end at 3
->>> print(color_list[:]) # Creates copy of original list
+print(color_list[:]) # Creates copy of original list
 # ['Red', 'Blue', 'Green', 'Black']
->>>
+
 ```
 
 
@@ -354,14 +354,14 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.pop(2) # Remove second item and return it
+color_list.pop(2) # Remove second item and return it
 # 'Green'
->>> print(color_list)
+print(color_list)
 # ['Red', 'Blue', 'Black']
->>>
+
 ```
 
 
@@ -372,14 +372,14 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list.index("Red")
+color_list.index("Red")
 # 0
->>> color_list.index("Black")
+color_list.index("Black")
 # 3
->>>
+
 ```
 
 
@@ -390,15 +390,15 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black']
->>> color_list=["Red", "Blue", "Green", "Black", "Blue"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black", "Blue"]
+print(color_list)
 # ['Red', 'Blue', 'Green', 'Black', 'Blue']
->>> color_list.count("Blue")
-2
->>>
+color_list.count("Blue")
+# 2
+
 ```
 
 
@@ -409,50 +409,50 @@ See the following statements:
 See the following statements:
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
->>> color_list.sort(key=None, reverse=False)
->>> print(color_list)
-['Black', 'Blue', 'Green', 'Red']
->>>
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
+# ['Red', 'Blue', 'Green', 'Black']
+color_list.sort(key=None, reverse=False)
+print(color_list)
+# ['Black', 'Blue', 'Green', 'Red']
+
 ```
 
 
 ## Reverse the elements of the list in place
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
 ['Red', 'Blue', 'Green', 'Black']
->>> color_list.reverse()
->>> print(color_list)
-['Black', 'Green', 'Blue', 'Red']
->>>
+# >> color_list.reverse()
+print(color_list)
+# ['Black', 'Green', 'Blue', 'Red']
+
 ```
 
 
 ## Return a shallow copy of the list
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
->>> color_list.copy()
-['Red', 'Blue', 'Green', 'Black']
->>>
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
+# ['Red', 'Blue', 'Green', 'Black']
+color_list.copy()
+# ['Red', 'Blue', 'Green', 'Black']
+
 ```
 
 
 ## Search the Lists and find Elements
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
->>> color_list.index("Green")
-2
->>>
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
+# ['Red', 'Blue', 'Green', 'Black']
+color_list.index("Green")
+# 2
+
 ```
 
 
@@ -461,124 +461,124 @@ See the following statements:
 Items in the list are mutable i.e. after creating a list you can change any item in the list. See the following statements.
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list[0])
-Red
->>> color_list[0]="White" # Change the value of first item "Red" to "White"
->>> print(color_list)
-['White', 'Blue', 'Green', 'Black']
->>> print(color_list[0])
-White
->>>
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list[0])
+# Red
+color_list[0]="White" # Change the value of first item "Red" to "White"
+print(color_list)
+# ['White', 'Blue', 'Green', 'Black']
+print(color_list[0])
+# White
+
 ```
 
 
 ## Convert a list to a tuple in Python
 
 ```python
->>> listx = [1, 2, 3, 4]  
->>> print(listx)  
-[1, 2, 3, 4]  
->>> tuplex = tuple(listx)  
->>> print(tuplex)  
-(1, 2, 3, 4)   
->>>
+listx = [1, 2, 3, 4]  
+print(listx)  
+# [1, 2, 3, 4]  
+tuplex = tuple(listx)  
+print(tuplex)  
+# (1, 2, 3, 4)   
+
 ```
 
 
 ## How to use the double colon [ : : ]?
 
 ```python
->>> listx=[1, 5, 7, 3, 2, 4, 6]
->>> print(listx)
-[1, 5, 7, 3, 2, 4, 6]
->>> sublist=listx[2:7:2] #list[start:stop:step], #step specify an increment
-between the elements to cut of the list.
->>> print(sublist)
-[7, 2, 6]
->>> sublist=listx[::3] #returns a list with a jump every 2 times.
->>> print(sublist)
-[1, 3, 6]
->>> sublist=listx[6:2:-2] #when step is negative the jump is made back
->>> print(sublist)
-[6, 2]
->>>
+listx=[1, 5, 7, 3, 2, 4, 6]
+print(listx)
+# [1, 5, 7, 3, 2, 4, 6]
+sublist=listx[2:7:2] #list[start:stop:step], #step specify an increment
+# between the elements to cut of the list.
+print(sublist)
+# [7, 2, 6]
+sublist=listx[::3] #returns a list with a jump every 2 times.
+print(sublist)
+# [1, 3, 6]
+sublist=listx[6:2:-2] #when step is negative the jump is made back
+print(sublist)
+# [6, 2]
+
 ```
 
 
 ## Find the largest and the smallest item in a list
 
 ```python
->>> listx=[5, 10, 3, 25, 7, 4, 15]
->>> print(listx)
-[5, 10, 3, 25, 7, 4, 15]
->>> print(max(listx))	# the max() function of built-in allows to know the highest
+listx=[5, 10, 3, 25, 7, 4, 15]
+print(listx)
+# [5, 10, 3, 25, 7, 4, 15]
+print(max(listx))	# the max() function of built-in allows to know the highest
 value in the list.
-25
->>> print(min(listx)) #the min() function of built-in allows to know the lowest
+# 25
+print(min(listx)) #the min() function of built-in allows to know the lowest
 value in the list.
-3
->>>
+# 3
+
 ```
 
 
 ## Compare two lists in Python
 
 ```python
->>> listx1, listx2=[3, 5, 7, 9], [3, 5, 7, 9]
->>> print (listx1 == listx2)
-True
->>> listx1, listx2=[9, 7, 5, 3], [3, 5, 7, 9]	#create two lists equal, but unsorted.
->>> print(listx1 == listx2)
-False
->>> listx1, listx2 =[2, 3, 5, 7], [3, 5, 7, 9]	#create two different list
->>> print(listx1 == listx2)
-False
->>> print(listx1.sort() == listx2.sort())	#order and compare
-True
->>>
+listx1, listx2=[3, 5, 7, 9], [3, 5, 7, 9]
+print (listx1 == listx2)
+# True
+listx1, listx2=[9, 7, 5, 3], [3, 5, 7, 9]	#create two lists equal, but unsorted.
+print(listx1 == listx2)
+# False
+listx1, listx2 =[2, 3, 5, 7], [3, 5, 7, 9]	#create two different list
+print(listx1 == listx2)
+# False
+print(listx1.sort() == listx2.sort())	#order and compare
+# True
+
 ```
 
 
 ## Nested lists in Python
 
 ```python
->>> listx = [["Hello", "World"], [0, 1, 2, 3, 4, 5]]
->>> print(listx)
-[['Hello', 'World'], [0, 1, 2, 3, 4, 5]]
->>> listx = [["Hello", "World"], [0, 1, 2, 3, 3, 5]]
->>> print(listx)
-[['Hello', 'World'], [0, 1, 2, 3, 3, 5]]
->>> print(listx[0][1])		#The first [] indicates the index of the outer list.
-World
->>> print(listx[1][3])		#the second [] indicates the index nested lists.
-3
->>> listx.append([True, False])		#add new items
->>> print(listx)
-[['Hello', 'World'], [0, 1, 2, 3, 3, 5], [True, False]]		
->>> listx[1][2]=4
->>> print(listx)
-[['Hello', 'World'], [0, 1, 4, 3, 3, 5], [True, False]]		#update value items
->>>
+listx = [["Hello", "World"], [0, 1, 2, 3, 4, 5]]
+print(listx)
+# [['Hello', 'World'], [0, 1, 2, 3, 4, 5]]
+listx = [["Hello", "World"], [0, 1, 2, 3, 3, 5]]
+print(listx)
+# [['Hello', 'World'], [0, 1, 2, 3, 3, 5]]
+print(listx[0][1])		#The first [] indicates the index of the outer list.
+# World
+print(listx[1][3])		#the second [] indicates the index nested lists.
+# 3
+listx.append([True, False])		#add new items
+print(listx)
+# [['Hello', 'World'], [0, 1, 2, 3, 3, 5], [True, False]]		
+listx[1][2]=4
+print(listx)
+# [['Hello', 'World'], [0, 1, 4, 3, 3, 5], [True, False]]		#update value items
+
 ```
 
 
 ## How can I get the index of an element contained in the list?
 
 ```python
->>> listy = list("HELLO WORLD")
->>> print(listy)
-['H', 'E', 'L', 'L', 'O', ' ', 'W', 'O', 'R', 'L', 'D']
->>> index = listy.index("L")	#get index of the first item whose value is passed as parameter
->>> print(index)
-2
->>> index = listy.index("L", 4)	#define the index from which you want to search
->>> print(index)
-9
->>> index = listy.index("O", 3, 5)	#define the segment of the list to be searched
->>> print(index)
-4
->>>
+listy = list("HELLO WORLD")
+print(listy)
+# ['H', 'E', 'L', 'L', 'O', ' ', 'W', 'O', 'R', 'L', 'D']
+index = listy.index("L")	#get index of the first item whose value is passed as parameter
+print(index)
+# 2
+index = listy.index("L", 4)	#define the index from which you want to search
+print(index)
+# 9
+index = listy.index("O", 3, 5)	#define the segment of the list to be searched
+print(index)
+# 4
+
 
 ```
 
@@ -586,50 +586,50 @@ World
 ## Using Lists as Stacks
 
 ```python
->>> color_list=["Red", "Blue", "Green", "Black"]
->>> print(color_list)
-['Red', 'Blue', 'Green', 'Black']
->>> color_list.append("White")
->>> color_list.append("Yellow")
->>> print(color_list)
-['Red', 'Blue', 'Green', 'Black', 'White', 'Yellow']
->>> color_list.pop()
-'Yellow'
->>> color_list.pop()
-'White'
->>> color_list.pop()
-'Black'
->>> color_list
-['Red', 'Blue', 'Green']
->>>
+color_list=["Red", "Blue", "Green", "Black"]
+print(color_list)
+# ['Red', 'Blue', 'Green', 'Black']
+color_list.append("White")
+color_list.append("Yellow")
+print(color_list)
+# ['Red', 'Blue', 'Green', 'Black', 'White', 'Yellow']
+color_list.pop()
+# 'Yellow'
+color_list.pop()
+# 'White'
+color_list.pop()
+# Black'
+color_list
+# ['Red', 'Blue', 'Green']
+
 ```
 
 
 ## Using Lists as Queues
 
 ```python
->>> from collections import deque
->>> color_list = deque(["Red", "Blue", "Green", "Black"])
->>> color_list.append("White")      # White arrive
->>> print(color_list)
-deque(['Red', 'Blue', 'Green', 'Black', 'White'])
->>> color_list.append("Yellow")     # Yellow arrive
->>> print(color_list)
-deque(['Red', 'Blue', 'Green', 'Black', 'White', 'Yellow'])
->>> color_list.popleft()            # The first to arrive now leaves
-'Red'
->>> print(color_list)
-deque(['Blue', 'Green', 'Black', 'White', 'Yellow'])
->>> color_list.popleft()            # The second to arrive now leaves
-'Blue'
->>> print(color_list)
-deque(['Green', 'Black', 'White', 'Yellow'])
->>> print(color_list)               # Remaining queue in order of arrival
-deque(['Green', 'Black', 'White', 'Yellow'])
->>>
+from collections import deque
+color_list = deque(["Red", "Blue", "Green", "Black"])
+color_list.append("White")      # White arrive
+print(color_list)
+# deque(['Red', 'Blue', 'Green', 'Black', 'White'])
+color_list.append("Yellow")     # Yellow arrive
+print(color_list)
+# deque(['Red', 'Blue', 'Green', 'Black', 'White', 'Yellow'])
+color_list.popleft()            # The first to arrive now leaves
+# 'Red'
+print(color_list)
+# deque(['Blue', 'Green', 'Black', 'White', 'Yellow'])
+color_list.popleft()            # The second to arrive now leaves
+# 'Blue'
+print(color_list)
+# deque(['Green', 'Black', 'White', 'Yellow'])
+print(color_list)               # Remaining queue in order of arrival
+# deque(['Green', 'Black', 'White', 'Yellow'])
+
 ```
 
 > [Source : ](https://www.w3resource.com/python/python-list.php).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTEyNjAzMF19
+eyJoaXN0b3J5IjpbNDE5NDA0ODE0XX0=
 -->
