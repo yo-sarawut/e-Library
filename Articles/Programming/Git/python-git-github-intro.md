@@ -229,7 +229,7 @@ Untracked files:
  (use "git add <file>..." to include in what will be committed)
 
  __pycache__/` 
-
+```
 Let’s commit those changes and finish our clean up:
 
 `$ git commit -m "added myname module"
@@ -238,14 +238,14 @@ Let’s commit those changes and finish our clean up:
  create mode 100644 myname.py` 
 
 Now when we run status, all we see is that  `__pycache__`  directory:
-
-`$ git status
+```py
+$ git status
 On branch master
 Untracked files:
  (use "git add <file>..." to include in what will be committed)
 
  __pycache__/
-
+```
 nothing added to commit but untracked files present (use "git add" to track)` 
 
 To get all  `__pycache__`  directories (and their contents) to be ignored, we’re going to add a  `.gitignore`  file to our repo. This is as simple as it sounds. Edit the file (remember the  _dot_  in front of the name!) in your favorite editor.
@@ -254,37 +254,38 @@ To get all  `__pycache__`  directories (and their contents) to be ignored, we’
 __pycache__` 
 
 Now when we run  `git status`, we no longer see the  `__pycache__`  directory. We do, however, see the new  `.gitignore`! Take a look:
-
-`$ git status
+```py
+$ git status
 On branch master
 Untracked files:
  (use "git add <file>..." to include in what will be committed)
 
  .gitignore
-
+```
 nothing added to commit but untracked files present (use "git add" to track)` 
 
 That file is just a regular text file and can be added to you repo like any other file. Do that now:
-
-`$ git add .gitignore
+```py
+$ git add .gitignore
 $ git commit -m "created .gitignore"
 [master 1cada8f] created .gitignore
  1 file changed, 1 insertion(+)
- create mode 100644 .gitignore` 
+ create mode 100644 .gitignore`
+ ```
 
 Another common entry in the  `.gitignore`  file is the directory you store your virtual environments in. You can learn more about virtualenvs  [here](https://realpython.com/python-virtual-environments-a-primer/), but the virtualenv directory is usually called  `env`  or  `venv`. You can add these to your  `.gitignore`  file. If the files or directories are present, they will be ignored. If they are not, then nothing will happen.
 
 It’s also possible to have a  _global_  `.gitignore`  file stored in your home directory. This is very handy if your editor likes to leave temporary or backup files in the local directory.
 
 Here’s an example of a simple Python  `.gitignore`  file:
-
+```py
 `# .gitignore
 __pycache__
 venv
 env
 .pytest_cache
 .coverage` 
-
+```
 For a more complete example, look  [here](https://github.com/github/gitignore/blob/master/Python.gitignore)  or, if you want to build your own,  `git help gitignore`  provides all the details you’ll need.
 
 [Remove ads](https://realpython.com/account/join/)
@@ -320,13 +321,13 @@ Git uses its hash algorithm to index  **everything**  in your repo. Each file ha
 Each commit contains the SHA of the top-level directory in your repo along with some  [other info](https://gist.github.com/masak/2415865). That’s how a single 20 byte number describes the entire state of your repo.
 
 You might notice that sometimes Git uses the full 20 character value to show you a SHA:
-
-`commit 25b09b9ccfe9110aed2d09444f1b50fa2b4c979c` 
-
+```
+commit 25b09b9ccfe9110aed2d09444f1b50fa2b4c979c` 
+```
 Sometimes it shows you a shorter version:
-
-`[master (root-commit) 25b09b9] creating hello.py` 
-
+```py
+[master (root-commit) 25b09b9] creating hello.py` 
+```
 Usually, it will show you the full string of characters, but you don’t always have to use it. The rule for Git is that you only have to give enough characters to ensure that the SHA is unique in your repo. Generally, seven characters is more than enough.
 
 Each time you commit changes to the repo, Git creates a new SHA that describes that state. We’ll look at how SHAs are useful in the next sections.
@@ -336,8 +337,8 @@ Each time you commit changes to the repo, Git creates a new SHA that describes t
 ## Git Log
 
 Another very frequently used Git command is  `git log`. Git log shows you the history of the commits that you have made up to this point:
-
-`$ git log
+```py
+$ git log
 commit 1cada8f59b43254f621d1984a9ffa0f4b1107a3b
 Author: Jim Anderson <jima@example.com>
 Date:   Sat Mar 3 13:23:07 2018 -0700
@@ -355,7 +356,7 @@ Author: Jim Anderson <jima@example.com>
 Date:   Sat Mar 3 13:10:12 2018 -0700
 
  creating hello.py` 
-
+```
 As you can see in the listing above, all of the commit messages are shown for our repo in order. The start of each commit is marked with the word “commit” followed by the SHA of that commit.  `git log`  gives you the history of each of the SHAs.
 
 ## Going Back In Time: Checking Out a Particular Version of Your Code
@@ -377,11 +378,11 @@ state without impacting any branches by performing another checkout.
 
 If you want to create a new branch to retain commits you create, you may
 do so (now or later) by using -b with the checkout command again. Example:
-
+```
  git checkout -b <new-branch-name>
 
 HEAD is now at 946b99b... added myname module` 
-
+```
 OK, so there’s a LOT of information here that’s confusing. Let’s start by defining some of those terms. Let’s start with  `HEAD`.
 
 `HEAD`  is Git’s name for whatever SHA you happen to be looking at at any time. It does NOT mean what is on your filesystem or what is in your staging area. It means what Git thinks you have checked out. So, if you’ve edited a file, the version on your filesystem is different than the version in  `HEAD`  (and yes, HEAD is in ALL CAPS).
@@ -415,16 +416,16 @@ Let’s talk a little more about branches. Branches provide a way for you to kee
 Imagine that I’m working in a small team and have a feature to add to the project. While I’m working on it, I don’t want to add my changes to  `master`  as it still doesn’t work correctly and might mess up my team members.
 
 I could just wait to commit the changes until I’m completely finished, but that’s not very safe and not always practical. So, instead of working on  `master`, I’ll create a new branch:
-
-`$ git checkout -b my_new_feature
+```py
+$ git checkout -b my_new_feature
 Switched to a new branch 'my_new_feature'
 $ git status
 On branch my_new_feature
 nothing to commit, working directory clean` 
-
+```
 We used the  `-b`  option on the  `checkout`  command to tell Git we wanted it to create a new branch. As you can see above, running  `git status`  in our branch shows us that the branch name has, indeed, changed. Let’s look at the log:
-
-`$ git log
+```py
+$ git log
 commit 1cada8f59b43254f621d1984a9ffa0f4b1107a3b
 Author: Jim Anderson <jima@example.com>
 Date:   Thu Mar 8 20:57:42 2018 -0700
@@ -434,7 +435,7 @@ Date:   Thu Mar 8 20:57:42 2018 -0700
 commit 946b99bfe1641102d39f95616ceaab5c3dc960f9
 Author: Jim Anderson <jima@example.com>
 Date:   Thu Mar 8 20:56:50 2018 -0700
-
+```
  added myname module
 
 commit 25b09b9ccfe9110aed2d09444f1b50fa2b4c979c
@@ -446,13 +447,13 @@ Date:   Thu Mar 8 20:53:59 2018 -0700
 As I hope you expected, the log looks exactly the same. When you create a new branch, the new branch will start at the location you were at. In this case, we were at the top of master,  `1cada8f59b43254f621d1984a9ffa0f4b1107a3b`, so that’s where the new branch starts.
 
 Now, let’s work on that feature. Make a change to the  `hello.py`  file and commit it. I’ll show you the commands for review, but I’ll stop showing you the output of the commands for things you’ve already seen:
-
-`$ git add hello.py
+```
+$ git add hello.py
 $ git commit -m "added code for feature x"` 
-
+```
 Now if you do  `git log`, you’ll see that our new commit is present. In my case, it has a SHA 4a4f4492ded256aa7b29bf5176a17f9eda66efbb, but your repo is very likely to have a different SHA:
-
-`$ git log
+```py
+$ git log
 commit 4a4f4492ded256aa7b29bf5176a17f9eda66efbb
 Author: Jim Anderson <jima@example.com>
 Date:   Thu Mar 8 21:03:09 2018 -0700
@@ -461,17 +462,17 @@ Date:   Thu Mar 8 21:03:09 2018 -0700
 
 commit 1cada8f59b43254f621d1984a9ffa0f4b1107a3b
 ... the rest of the output truncated ...` 
-
+```
 Now switch back to the  _master_  branch and look at the log:
-
-`git checkout master
+```
+git checkout master
 git log` 
-
+```
 Is the new commit “added code for feature x” there?
 
 Git has a built-in way to compare the state of two branches so you don’t have to work so hard. It’s the  `show-branch`  command. Here’s what it looks like:
 
-`$ git show-branch my_new_feature master
+$ git show-branch my_new_feature master
 * [my_new_feature] added code for feature x
  ! [master] created .gitignore
 --
@@ -489,8 +490,8 @@ Starting on the fourth line, there are commits that are in one branch but not th
 Finally, the last line of the output shows the first common commit for the two branches.
 
 This example is pretty easy. To make a better example, I’ve made it more interesting by adding a few more commits to  `my_new_feature`  and a few to  `master.`  That makes the output look like:
-
-`$ git show-branch my_new_feature master
+```py
+$ git show-branch my_new_feature master
 * [my_new_feature] commit 4
  ! [master] commit 3
 --
@@ -500,10 +501,10 @@ This example is pretty easy. To make a better example, I’ve made it more inter
  + [master] commit 3
  + [master^] commit 2
 *+ [my_new_feature~3] created .gitignore` 
-
+```
 Now you can see that there are different commits in each branch. Note that the  `[my_new_feature~2]`  text is one of the commit selection methods I mentioned earlier. If you’d rather see the SHAs, you can have it show them by adding the –sha1-name option to the command:
-
-`$ git show-branch --sha1-name my_new_feature master
+```git
+$ git show-branch --sha1-name my_new_feature master
 * [my_new_feature] commit 4
  ! [master] commit 3
 --
@@ -513,7 +514,7 @@ Now you can see that there are different commits in each branch. Note that the  
  + [de7195a] commit 3
  + [580e206] commit 2
 *+ [1cada8f] created .gitignore` 
-
+```
 Now you’ve got a branch with a bunch of different commits on it. What do you do when you finally finish that feature and are ready to get it to the rest of your team?
 
 There are three main ways to get commits from one branch to another: merging, rebasing, and cherry-picking. We’ll cover each of these in turn in the next sections.
@@ -525,17 +526,17 @@ There are three main ways to get commits from one branch to another: merging, re
 Merging is the simplest of the three to understand and use. When you do a merge, Git will create a new commit that combines the top SHAs of two branches if it needs to. If all of the commits in the other branch are  _ahead_  (based on) the top of the current branch, it will just do a  _fast-foward merge_  and place those new commits on this branch.
 
 Let’s back up to the point where our show-branch output looked like this:
-
-`$ git show-branch --sha1-name my_new_feature master
+```
+$ git show-branch --sha1-name my_new_feature master
 * [my_new_feature] added code for feature x
  ! [master] created .gitignore
 --
 *  [4a4f449] added code for feature x
 *+ [1cada8f] created .gitignore` 
-
+```
 Now, we want to get that commit  `4a4f449`  to be on master. Check out master and run the  `git merge`  command there:
-
-`$ git checkout master
+```
+$ git checkout master
 Switched to branch 'master'
 
 $ git merge my_new_feature
@@ -543,22 +544,22 @@ Updating 1cada8f..4a4f449
 Fast-forward
  hello.py | 1 +
  1 file changed, 1 insertion(+)` 
-
+```
 Since we were on branch master, we did a merge of the my_new_feature branch to us. You can see that this is a fast forward merge and which files were changed. Let’s look at the log now:
-
-`commit 4a4f4492ded256aa7b29bf5176a17f9eda66efbb
+```
+commit 4a4f4492ded256aa7b29bf5176a17f9eda66efbb
 Author: Jim Anderson <jima@example.com>
 Date:   Thu Mar 8 21:03:09 2018 -0700
-
+```
  added code for feature x
-
+```
 commit 1cada8f59b43254f621d1984a9ffa0f4b1107a3b
 Author: Jim Anderson <jima@example.com>
 Date:   Thu Mar 8 20:57:42 2018 -0700
 
  created .gitignore
 [rest of log truncated]` 
-
+```
 If we had made changes to master before we merged, Git would have created a new commit that was the combination of the changes from the two branches.
 
 One of the things Git is fairly good at is understanding the common ancestors of different branches and automatically merging changes together. If the same section of code has been modified in both branches, Git can’t figure out what to do. When this happens, it stops the merge part way through and gives you instructions for how to fix the issue. This is called a  _merge conflict_.
@@ -672,5 +673,5 @@ If you’d like to take a deeper dive into Git, I can recommend these books:
 
 > [Source : ](https://realpython.com/python-git-github-intro/?fbclid=IwAR331slRRIHjKmY3_uPJD8waKa0MHOL0dJUVKlnyWRJeI-CnjHGf_PadE3s).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1ODE0NjA3XX0=
+eyJoaXN0b3J5IjpbLTI3Njg5Mjk4NV19
 -->
