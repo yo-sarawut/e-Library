@@ -32,6 +32,7 @@ HEX: #34558b
 - [PYTHON TUTORIAL & Example](https://www.programiz.com/python-programming/time/sleep)
 - [ตัวอย่างการทำ Project ด้วย Python](https://pythonprogramming.net)
 - [pythontesting.net](https://pythontesting.net/start-here/)
+- [==Python Resources==](https://pythontips.com/python-resources/)
 
 ## e-Book Free
 
@@ -157,11 +158,11 @@ src="https://www.youtube.com/v/VBRKLUyi3mw">
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTA2NTQ3OSwxMjcwNjYxMTQzLC0xNj
-k0MTg0NDgyLDk1NTAxNTMwNiw2ODcyNDU1MTcsLTYyNzk4MjQ0
-MSwtODYwODAyMjI4LC01MTAzMzQ1NjYsOTg1Njk4MzU5LC02NT
-Y4NTAxNjksNzI4MjkwNjQ4LC0yMDI0MjM3ODcsLTI2NDY3MzE2
-NywxODQ4NTYxMjYzLDEyOTA3OTY0NzEsMTkxOTQzNTQyMSwxNz
-g5ODMyNTc1LC0xNzAxOTM0NjQ5LC0zMDU4Njk2ODksNzk5OTI1
-NTg0XX0=
+eyJoaXN0b3J5IjpbMTI3MDI3ODEzMiwtNzA1MDY1NDc5LDEyNz
+A2NjExNDMsLTE2OTQxODQ0ODIsOTU1MDE1MzA2LDY4NzI0NTUx
+NywtNjI3OTgyNDQxLC04NjA4MDIyMjgsLTUxMDMzNDU2Niw5OD
+U2OTgzNTksLTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMjQyMzc4
+NywtMjY0NjczMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3MSwxOT
+E5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2
+OTY4OV19
 -->
