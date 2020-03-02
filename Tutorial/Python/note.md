@@ -15,6 +15,7 @@
 ## Article
 - [xlwings Tutorial: Make Excel Faster Using Python](https://www.dataquest.io/blog/python-excel-xlwings-tutorial/)
 - [5 Steps to Learning Python the Right Way](https://www.dataquest.io/blog/learn-python-the-right-way/)
+- [http://www.thaiall.com/python/](http://www.thaiall.com/python/)
 
 # [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
 
@@ -119,8 +120,9 @@
 
 <table border="2" width="0">  <tr>  <th></th><th>Column Header One</th><th>Column Header Two</th><th>Column Header Three</th>  </tr>  <tr>  <td align="right">Row Hdr 1</td><td align="left">Left Aligned</td><td align="center">Centre Aligned</td><td align="right">Right Aligned</td>  </tr>  <tr>  <td align="right">Row Hdr 2</td><td colspan="2" align="left">colspan the next cell</td><td align="right">Row 2, Col 3</td>  </tr>  <tr>  <td align="right">Row Hdr 3</td><td colspan="3" align="left">colspan the next two cells</td>  </tr>  <tr>  <td align="right">Row Hdr 4</td><td rowspan="2" align="left">rowspan the next cell down</td><td align="center"></td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 5</td><td align="center">Column 2</td><td align="right">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 6</td><td rowspan="3" align="left">Merge Down 2</td><td colspan="2" align="center">Merge Right</td>  </tr>  <tr>  <td align="right">Row Hdr 7</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  <tr>  <td align="right">Row Hdr 8</td><td align="right">Column 2</td><td align="left">Column 3</td>  </tr>  </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgwNjM1MjgsMTUzNzAwNjAsMTg1Mj
-EyMTA4OSw0NzQyNjg3NzcsLTExNTg0MDQ2Miw3OTE3MjI1MzQs
-MTM2MzgzNzczNSw1MzA4MTIyMjYsNzk4Mjg1MTAsMTcyODQ5Nz
-A5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
+eyJoaXN0b3J5IjpbLTE5NjkzMDY1MDYsLTIwODgwNjM1MjgsMT
+UzNzAwNjAsMTg1MjEyMTA4OSw0NzQyNjg3NzcsLTExNTg0MDQ2
+Miw3OTE3MjI1MzQsMTM2MzgzNzczNSw1MzA4MTIyMjYsNzk4Mj
+g1MTAsMTcyODQ5NzA5OCwtMzIzMjU2MDMxLDE5NTQwNTUwM119
+
 -->
