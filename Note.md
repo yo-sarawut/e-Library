@@ -10,6 +10,8 @@ print('hello world')
 - [e-Customs](https://ecs_knowledge_center.gitlab.io/e-customs/)
 - [e-Tax Inv&Rceipt]()
 - [==Setup Jupyternotebook for markdown==](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
+# Tool
+- [==Sphinx:== easy to create intelligent and beautiful documentation](https://www.sphinx-doc.org/en/master/)
 # Color :
 - [https://www.w3schools.com/colors/colors_2019.asp](https://www.w3schools.com/colors/colors_2019.asp)
 - 
@@ -155,11 +157,11 @@ src="https://www.youtube.com/v/VBRKLUyi3mw">
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDY2MTE0MywtMTY5NDE4NDQ4Miw5NT
-UwMTUzMDYsNjg3MjQ1NTE3LC02Mjc5ODI0NDEsLTg2MDgwMjIy
-OCwtNTEwMzM0NTY2LDk4NTY5ODM1OSwtNjU2ODUwMTY5LDcyOD
-I5MDY0OCwtMjAyNDIzNzg3LC0yNjQ2NzMxNjcsMTg0ODU2MTI2
-MywxMjkwNzk2NDcxLDE5MTk0MzU0MjEsMTc4OTgzMjU3NSwtMT
-cwMTkzNDY0OSwtMzA1ODY5Njg5LDc5OTkyNTU4NCwxNTQ4NjE1
-Nzg1XX0=
+eyJoaXN0b3J5IjpbLTcwNTA2NTQ3OSwxMjcwNjYxMTQzLC0xNj
+k0MTg0NDgyLDk1NTAxNTMwNiw2ODcyNDU1MTcsLTYyNzk4MjQ0
+MSwtODYwODAyMjI4LC01MTAzMzQ1NjYsOTg1Njk4MzU5LC02NT
+Y4NTAxNjksNzI4MjkwNjQ4LC0yMDI0MjM3ODcsLTI2NDY3MzE2
+NywxODQ4NTYxMjYzLDEyOTA3OTY0NzEsMTkxOTQzNTQyMSwxNz
+g5ODMyNTc1LC0xNzAxOTM0NjQ5LC0zMDU4Njk2ODksNzk5OTI1
+NTg0XX0=
 -->
