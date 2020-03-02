@@ -197,6 +197,15 @@ First Header | Second Header | Third Header
 Left         | Center        | Right
 Left         | Center        | Right
 
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+
 ## การไฮไลท์และการเขียนโค้ด (Code and Syntax Highlighting)  
   
   
@@ -412,6 +421,6 @@ ___
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzk0ODk4NiwxODY0NzQ5MTY3LDM2OD
-E4MjI3OSwtNzc2NzQzODkyXX0=
+eyJoaXN0b3J5IjpbMTAwMjA5MzkwNiwxNDEzOTQ4OTg2LDE4Nj
+Q3NDkxNjcsMzY4MTgyMjc5LC03NzY3NDM4OTJdfQ==
 -->
