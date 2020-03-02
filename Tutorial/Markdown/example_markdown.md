@@ -197,14 +197,7 @@ First Header | Second Header | Third Header
 Left         | Center        | Right
 Left         | Center        | Right
 
-=====  =====  =======
-A      B      A and B
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
+
 
 ## การไฮไลท์และการเขียนโค้ด (Code and Syntax Highlighting)  
   
@@ -421,6 +414,7 @@ ___
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjU1MDI3LDE0MTM5NDg5ODYsMTg2ND
-c0OTE2NywzNjgxODIyNzksLTc3Njc0Mzg5Ml19
+eyJoaXN0b3J5IjpbLTQzMDMyMjUzOCw0OTgyNTUwMjcsMTQxMz
+k0ODk4NiwxODY0NzQ5MTY3LDM2ODE4MjI3OSwtNzc2NzQzODky
+XX0=
 -->
