@@ -1,6 +1,6 @@
-![enter image description here](https://files.realpython.com/media/python-project-bitcoin-price-notifier.6126c7d94c93.jpg)
+![enter image description here](https://files.realpython.com/media/python-modules-packages-title.e61993fd2eb4.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAzODk2MDgsNDk4MjkwMjk1LC03MD
-Y2NzU5MTQsLTM5MzAyMjIwMiw3Mzg5ODU2NzEsOTY0NjIyMzY1
-LC0xNDcwMzE5NDg2XX0=
+eyJoaXN0b3J5IjpbLTE5Mzk2ODMwOCwtMTIxMDM4OTYwOCw0OT
+gyOTAyOTUsLTcwNjY3NTkxNCwtMzkzMDIyMjAyLDczODk4NTY3
+MSw5NjQ2MjIzNjUsLTE0NzAzMTk0ODZdfQ==
 -->
