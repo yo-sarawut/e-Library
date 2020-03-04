@@ -1,6 +1,7 @@
-![enter image description here](https://files.realpython.com/media/python-modules-packages-title.e61993fd2eb4.jpg)
+![enter image description here](https://files.realpython.com/media/Python_Exceptions_Watermark.47f814fbeced.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk2ODMwOCwtMTIxMDM4OTYwOCw0OT
-gyOTAyOTUsLTcwNjY3NTkxNCwtMzkzMDIyMjAyLDczODk4NTY3
-MSw5NjQ2MjIzNjUsLTE0NzAzMTk0ODZdfQ==
+eyJoaXN0b3J5IjpbLTEyMTI5OTc1OTAsLTE5Mzk2ODMwOCwtMT
+IxMDM4OTYwOCw0OTgyOTAyOTUsLTcwNjY3NTkxNCwtMzkzMDIy
+MjAyLDczODk4NTY3MSw5NjQ2MjIzNjUsLTE0NzAzMTk0ODZdfQ
+==
 -->
