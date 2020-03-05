@@ -1,7 +1,8 @@
-![enter image description here](https://files.realpython.com/media/Modern-Web-Automation-With-Python-and-Selenium_Watermarked.08e8e08b976d.jpg)
+![enter image description here](https://files.realpython.com/media/data-cleaning-numpy-pandas.0897550e8675.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU1NjE3ODIsMTIzNjE5NjExMCwyMD
-I3OTc0MDc4LC0xNTI5MDQyMzEwLC0xOTM5NjgzMDgsLTEyMTAz
-ODk2MDgsNDk4MjkwMjk1LC03MDY2NzU5MTQsLTM5MzAyMjIwMi
-w3Mzg5ODU2NzEsOTY0NjIyMzY1LC0xNDcwMzE5NDg2XX0=
+eyJoaXN0b3J5IjpbMTAwNzU3Nzc3NCwtMTEyNTU2MTc4MiwxMj
+M2MTk2MTEwLDIwMjc5NzQwNzgsLTE1MjkwNDIzMTAsLTE5Mzk2
+ODMwOCwtMTIxMDM4OTYwOCw0OTgyOTAyOTUsLTcwNjY3NTkxNC
+wtMzkzMDIyMjAyLDczODk4NTY3MSw5NjQ2MjIzNjUsLTE0NzAz
+MTk0ODZdfQ==
 -->
