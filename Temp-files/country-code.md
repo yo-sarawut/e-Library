@@ -1,5 +1,5 @@
-| code |country_name |currency |
-|:-----:|----------|:----------:|
+| รหัสประเทศ |ชื่อประเทศ |สกุลเงิน |
+|----------|----------|----------|
 | AD |ANDORRA |AUD |
 | AE |UNITED ARAB EMIRATES |THB |
 | AF |AFGHANISTAN |BEF |
@@ -238,6 +238,6 @@
 | ZR |ZAIRE |nan |
 | ZW |ZIMBABWE |nan |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzAxMTc5NCwtMTMwNTYzODQ0MCw4ND
-kwMzI5ODNdfQ==
+eyJoaXN0b3J5IjpbLTEzOTIzMzY5ODAsMTY0NzAxMTc5NCwtMT
+MwNTYzODQ0MCw4NDkwMzI5ODNdfQ==
 -->
