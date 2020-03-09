@@ -58,17 +58,14 @@ Content
 
 
 
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#7whenandhowtousethedatetimetimedeltaclass)
+[10. When and how to use the datetime.timedelta() class?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#7whenandhowtousethedatetimetimedeltaclass)
 
 
 
-[10. When and how to use the datetime.timedelta() class?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#8howtoworkwithtimezones)
+[11. How to work with timezones?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#8howtoworkwithtimezones)
 
-[11. How to work with timezones?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#9practiceexamples)
-
-12. Practice Examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTQ5OTg0LC0xMjc5OTE2NzQzLDEwMD
+eyJoaXN0b3J5IjpbLTI5MzgxNDU1LC0xMjc5OTE2NzQzLDEwMD
 c1Nzc3NzQsLTExMjU1NjE3ODIsMTIzNjE5NjExMCwyMDI3OTc0
 MDc4LC0xNTI5MDQyMzEwLC0xOTM5NjgzMDgsLTEyMTAzODk2MD
 gsNDk4MjkwMjk1LC03MDY2NzU5MTQsLTM5MzAyMjIwMiw3Mzg5
