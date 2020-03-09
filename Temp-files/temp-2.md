@@ -14,14 +14,485 @@
     -   [Summary](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#summary)
 
 
+| NO. | รหัสประเทศ |ชื่อประเทศ |สกุลเงิน |
 
+|:------:|:-------:|---------|-----|
 
-|     |   NO. | รหัสประเทศ   | ชื่อประเทศ                          | สกุลเงิน   |
-|----:|------:|:------------|:----------------------------------|:---------|
-|   0 |     1 | AD          | ANDORRA                           | AUD      |
-|   1 |     2 | AE          | UNITED ARAB EMIRATES              | THB      |
-|   2 |     3 | AF          | AFGHANISTAN                       | BEF      ||   3 |     4 | AG          | ANTIGUA AND BARBUDA               | BND      ||   4 |     5 | AL          | ALBANIA                           | CAD      ||   5 |     6 | AM          | ARMENIA                           | DKK      ||   6 |     7 | AN          | NETHERLANDS ANTILLES              | DEM      ||   7 |     8 | AO          | ANGOLA                            | VND      ||   8 |     9 | AR          | ARGENTINA                         | EUR      ||   9 |    10 | AS          | AMERICAN SAMOA                    | RFR      ||  10 |    11 | AT          | AUSTRIA                           | HKD      ||  11 |    12 | AU          | AUSTRALIA                         | INR      ||  12 |    13 | AW          | ARUBA                             | IEP      ||  13 |    14 | AZ          | AZERBAIJAN                        | ITL      ||  14 |    15 | BB          | BARBADOS                          | JOD      ||  15 |    16 | BD          | BANGLADESH                        | LAK      ||  16 |    17 | BE          | BELGIUM                           | KWD      ||  17 |    18 | BF          | BURKINA FASO                      | MMK      ||  18 |    19 | BG          | BULGARIA                          | MYR      ||  19 |    20 | BH          | BAHRAIN                           | MTL      ||  20 |    21 | BI          | BURUNDI                           | FIM      ||  21 |    22 | BJ          | BENIN                             | MXN      ||  22 |    23 | BM          | BERMUDA                           | NLG      ||  23 |    24 | BN          | BRUNEI DARUSSALAM                 | TWD      ||  24 |    25 | BO          | BOLIVIA                           | NZD      ||  25 |    26 | BR          | BRAZIL                            | NOK      ||  26 |    27 | BS          | BAHAMAS                           | PKR      ||  27 |    28 | BT          | BHUTAN                            | PHP      ||  28 |    29 | BV          | BOUVET ISLAND                     | PTE      ||  29 |    30 | BW          | BOTSWANA                          | GBP      ||  30 |    31 | BY          | BELARUS                           | ZAR      ||  31 |    32 | BZ          | BELIZE                            | KHR      ||  32 |    33 | CA          | CANADA                            | IDR      ||  33 |    34 | CC          | COCOS (KEELING) IS.S              | SAR      ||  34 |    35 | CF          | CENTRAL AFRICAN REP.              | ATS      ||  35 |    36 | CG          | CONGO                             | SGD      ||  36 |    37 | CH          | SWITZERLAND                       | ESP      ||  37 |    38 | CI          | COTE D IVOIRE                     | SEK      ||  38 |    39 | CK          | COOK ISLANDS                      | CHF      ||  39 |    40 | CL          | CHILE                             | BDT      ||  40 |    41 | CM          | CAMEROON                          | AED      ||  41 |    42 | CN          | CHINA                             | USD      ||  42 |    43 | CO          | COLOMBIA                          | KRW      ||  43 |    44 | CR          | COSTA RICA                        | JPY      ||  44 |    45 | CU          | CUBA                              | CNY      ||  45 |    46 | CV          | CAPE VERDE                        | nan      ||  46 |    47 | CX          | CHRISTMAS ISLAND                  | nan      ||  47 |    48 | CY          | CYPRUS                            | nan      ||  48 |    49 | CZ          | CZECH REPUBLIC                    | nan      ||  49 |    50 | DE          | GERMANY                           | nan      ||  50 |    51 | DJ          | DJIBOUTI                          | nan      ||  51 |    52 | DK          | DENMARK                           | nan      ||  52 |    53 | DM          | DOMINICA                          | nan      ||  53 |    54 | DO          | DOMINICAN REPUBLIC                | nan      ||  54 |    55 | DZ          | ALGERIA                           | nan      ||  55 |    56 | EC          | ECUADOR                           | nan      ||  56 |    57 | EE          | ESTONIA                           | nan      ||  57 |    58 | EG          | EGYPT                             | nan      ||  58 |    59 | EH          | WESTERN SAHARA                    | nan      ||  59 |    60 | ER          | ERITREA                           | nan      ||  60 |    61 | ES          | SPAIN                             | nan      ||  61 |    62 | ET          | ETHIOPIA                          | nan      ||  62 |    63 | FI          | FINLAND                           | nan      ||  63 |    64 | FJ          | FIJI                              | nan      ||  64 |    65 | FK          | FALKLAND ISLANDS (MALVINAS)       | nan      ||  65 |    66 | FM          | MICRONESIA (FEDERATED STATES OF)  | nan      ||  66 |    67 | FO          | FAROE ISLANDS                     | nan      ||  67 |    68 | FR          | FRANCE                            | nan      ||  68 |    69 | FX          | FRANCE, METROPOLITAN              | nan      ||  69 |    70 | GA          | GABON                             | nan      ||  70 |    71 | GB          | UNITED KINGDOM                    | nan      ||  71 |    72 | GD          | GRENADA                           | nan      ||  72 |    73 | GE          | GEORGIA                           | nan      ||  73 |    74 | GF          | FRENCE GUIANA                     | nan      ||  74 |    75 | GH          | GHANA                             | nan      ||  75 |    76 | GI          | GIBRALTAR                         | nan      ||  76 |    77 | GL          | GREENLAND                         | nan      ||  77 |    78 | GM          | GAMBIA                            | nan      ||  78 |    79 | GN          | GUINEA                            | nan      ||  79 |    80 | GP          | GUADELOUPE                        | nan      ||  80 |    81 | GQ          | EQUATORIAL GUINEA                 | nan      ||  81 |    82 | GR          | GREECE                            | nan      ||  82 |    83 | GS          | SOUTH                             | nan      ||  83 |    84 | GT          | GUATEMALA                         | nan      ||  84 |    85 | GU          | GUAM                              | nan      ||  85 |    86 | GW          | GUINEA-BISSAU                     | nan      ||  86 |    87 | GY          | GUYANA                            | nan      ||  87 |    88 | HK          | HONG KONG                         | nan      ||  88 |    89 | HM          | HEARD ISLAND AND MCDONALD ISLANDS | nan      ||  89 |    90 | HN          | HONDURAS                          | nan      ||  90 |    91 | HR          | CROATIA                           | nan      ||  91 |    92 | HT          | HAITI                             | nan      ||  92 |    93 | HU          | HUNGARY                           | nan      ||  93 |    94 | ID          | INDONESIA                         | nan      ||  94 |    95 | IE          | IRELAND                           | nan      ||  95 |    96 | IL          | ISRAEL                            | nan      ||  96 |    97 | IN          | INDIA                             | nan      ||  97 |    98 | IO          | BRITISH INDIAN OCEAN TERRITORY    | nan      ||  98 |    99 | IQ          | IRAQ                              | nan      ||  99 |   100 | IR          | IRAN                              | nan      || 100 |   101 | IS          | ICELAND                           | nan      || 101 |   102 | IT          | ITALY                             | nan      || 102 |   103 | JM          | JAMAICA                           | nan      || 103 |   104 | JO          | JORDAN                            | nan      || 104 |   105 | JP          | JAPAN                             | nan      || 105 |   106 | KE          | KENYA                             | nan      || 106 |   107 | KG          | KYRGYZSTAN                        | nan      || 107 |   108 | KH          | CAMBODIA                          | nan      || 108 |   109 | KI          | KIRIBATI                          | nan      || 109 |   110 | KM          | COMOROS                           | nan      || 110 |   111 | KN          | SAINT KITTS AND NEVIS             | nan      || 111 |   112 | KP          | KOREA                             | nan      || 112 |   113 | KR          | KOREA,REPUBLIC OF                 | nan      || 113 |   114 | KW          | KUWAIT                            | nan      || 114 |   115 | KY          | CAYMAN ISLANDS                    | nan      || 115 |   116 | KZ          | KAZAKHSTAN                        | nan      || 116 |   117 | LA          | LAO REPUBLIC                      | nan      || 117 |   118 | LB          | LEBANON                           | nan      || 118 |   119 | LC          | SAINT LUCIA                       | nan      || 119 |   120 | LI          | LIECHTENSTEIN                     | nan      || 120 |   121 | LK          | SRI LANKA                         | nan      || 121 |   122 | LR          | LIBERIA                           | nan      || 122 |   123 | LS          | LESOTHO                           | nan      || 123 |   124 | LT          | LITHUANIA                         | nan      || 124 |   125 | LU          | LUXEMBOURG                        | nan      || 125 |   126 | LV          | LATVIA                            | nan      || 126 |   127 | LY          | LIBYAN ARAB JAMAHIRIYA            | nan      || 127 |   128 | MA          | MOROCCO                           | nan      || 128 |   129 | MC          | MONACO                            | nan      || 129 |   130 | MD          | MOLDOVA REPUBLIC OF               | nan      || 130 |   131 | MG          | MADAGASCAR                        | nan      || 131 |   132 | MH          | MARSHALL ISLAND                   | nan      || 132 |   133 | MK          | MACEDONIA                         | nan      || 133 |   134 | ML          | MALI                              | nan      || 134 |   135 | MM          | MYANMAR                           | nan      || 135 |   136 | MN          | MONGOLIA                          | nan      || 136 |   137 | MO          | MACAU                             | nan      || 137 |   138 | MP          | NORTHERN MARIANA ISLANDS          | nan      || 138 |   139 | MQ          | MARTINIQUE                        | nan      || 139 |   140 | MR          | MAURITANIA                        | nan      || 140 |   141 | MS          | MONTSERRAT                        | nan      || 141 |   142 | MT          | MALTA                             | nan      || 142 |   143 | MU          | MAURITIUS                         | nan      || 143 |   144 | MV          | MALDIVES                          | nan      || 144 |   145 | MW          | MALAWI                            | nan      || 145 |   146 | MX          | MEXICO                            | nan      || 146 |   147 | MY          | MALAYSIA                          | nan      || 147 |   148 | MZ          | MOZAMBIQUE                        | nan      || 148 |   149 | nan         | NAMIBIA                           | nan      || 149 |   150 | NC          | NEW CALEDONIA                     | nan      || 150 |   151 | NE          | NIGER                             | nan      || 151 |   152 | NF          | NORFOLK ISLAND                    | nan      || 152 |   153 | NG          | NIGERIA                           | nan      || 153 |   154 | NI          | NICARAGUA                         | nan      || 154 |   155 | NL          | NETHERLANDS                       | nan      || 155 |   156 | NO          | NORWAY                            | nan      || 156 |   157 | NP          | NEPAL                             | nan      || 157 |   158 | NR          | NAURU                             | nan      || 158 |   159 | NU          | NIUE                              | nan      || 159 |   160 | NZ          | NEW ZEALAND                       | nan      || 160 |   161 | OM          | OMAN                              | nan      || 161 |   162 | OT          | OTHER COUNTRY                     | nan      || 162 |   163 | PA          | PANAMA                            | nan      || 163 |   164 | PE          | PERU                              | nan      || 164 |   165 | PF          | FRENCH POLYNESIA                  | nan      || 165 |   166 | PG          | PAPUA NEW GUINEA                  | nan      || 166 |   167 | PH          | PHILIPPINES                       | nan      || 167 |   168 | PK          | PAKISTAN                          | nan      || 168 |   169 | PL          | POLAND                            | nan      || 169 |   170 | PM          | SAINT PIERRE AND MIQUELON         | nan      || 170 |   171 | PN          | PITCAIRN                          | nan      || 171 |   172 | PR          | PUERTO RICO                       | nan      || 172 |   173 | PT          | PORTUGAL                          | nan      || 173 |   174 | PW          | PALAU                             | nan      || 174 |   175 | PY          | PARAGUAY                          | nan      || 175 |   176 | QA          | QATAR                             | nan      || 176 |   177 | RE          | REUNION                           | nan      || 177 |   178 | RO          | ROMANIA                           | nan      || 178 |   179 | RU          | RUSSIAN FEDERATION                | nan      || 179 |   180 | RW          | RWANDA                            | nan      || 180 |   181 | SA          | SAUDI ARABIA                      | nan      || 181 |   182 | SB          | SOLOMON ISLANDS                   | nan      || 182 |   183 | SC          | SEYCHELLES                        | nan      || 183 |   184 | SD          | SUDAN                             | nan      || 184 |   185 | SE          | SWEDEN                            | nan      || 185 |   186 | SG          | SINGAPORE                         | nan      || 186 |   187 | SH          | SAINT HELENA                      | nan      || 187 |   188 | SI          | SLOVENIA                          | nan      || 188 |   189 | SJ          | SVALBARD AND JAN MAYEN            | nan      || 189 |   190 | SK          | SLOVAKIA                          | nan      || 190 |   191 | SL          | SIERRA LEONE                      | nan      || 191 |   192 | SM          | SAN MARINO                        | nan      || 192 |   193 | SN          | SENEGAL                           | nan      || 193 |   194 | SO          | SOMALIA                           | nan      || 194 |   195 | SR          | SURINAME                          | nan      || 195 |   196 | ST          | SAO TOME AND PRINCIPE             | nan      || 196 |   197 | SV          | EL SALVADOR                       | nan      || 197 |   198 | SY          | SYRIAN ARAB REPUBLIC              | nan      || 198 |   199 | SZ          | SWAZILAND                         | nan      || 199 |   200 | TC          | TURKS AND CAICOS ISLANDS          | nan      || 200 |   201 | TD          | CHAD                              | nan      || 201 |   202 | TF          | FRENCH SOUTHERN TERRITORIES       | nan      || 202 |   203 | TG          | TOGO                              | nan      || 203 |   204 | TH          | THAILAND                          | nan      || 204 |   205 | TJ          | TAJIKISTAN                        | nan      || 205 |   206 | TK          | TOKELAU                           | nan      || 206 |   207 | TM          | TURKMENISTAN                      | nan      || 207 |   208 | TN          | TUNISIA                           | nan      || 208 |   209 | TO          | TONGA                             | nan      || 209 |   210 | TP          | EAST TIMOR                        | nan      || 210 |   211 | TR          | TURKEY                            | nan      || 211 |   212 | TT          | TRINIDAD AND TOBAGO               | nan      || 212 |   213 | TV          | TUVALU                            | nan      || 213 |   214 | TW          | TAIWAN PROVINCE OF CHINA          | nan      || 214 |   215 | TZ          | TANZANIA UNITED REPUBLIC OF       | nan      || 215 |   216 | UA          | UKRAINE                           | nan      || 216 |   217 | UG          | UGANDA                            | nan      || 217 |   218 | UM          | UNITED STATES MINOR               | nan      || 218 |   219 | US          | UNITED STATES                     | nan      || 219 |   220 | UY          | URUGUAY                           | nan      || 220 |   221 | UZ          | UZBEKISTAN                        | nan      || 221 |   222 | VA          | VATICAN CITY                      | nan      || 222 |   223 | VC          | SAINT VINCENT AND THE GRENADINES  | nan      || 223 |   224 | VE          | VENEZUELA                         | nan      || 224 |   225 | VG          | VIRGIN ISLANDS (BRITISH)          | nan      || 225 |   226 | VI          | VIRGIN ISLANDS (U.S.)             | nan      || 226 |   227 | VN          | VIETNAM                           | nan      || 227 |   228 | VU          | VANUATU                           | nan      || 228 |   229 | WF          | WALLIS AND FUTUNA ISLANDS         | nan      || 229 |   230 | WS          | SAMOA                             | nan      || 230 |   231 | YE          | YEMEN                             | nan      || 231 |   232 | YT          | MAYOTTE                           | nan      || 232 |   233 | YU          | YUGOSLAVIA                        | nan      || 233 |   234 | ZA          | SOUTH AFRICA                      | nan      || 234 |   235 | ZM          | ZAMBIA                            | nan      || 235 |   236 | ZR          | ZAIRE                             | nan      || 236 |   237 | ZW          | ZIMBABWE                          | nan      |
+| 1 |AD |ANDORRA |AUD |
+
+| 2 |AE |UNITED ARAB EMIRATES |THB |
+
+| 3 |AF |AFGHANISTAN |BEF |
+
+| 4 |AG |ANTIGUA AND BARBUDA |BND |
+
+| 5 |AL |ALBANIA |CAD |
+
+| 6 |AM |ARMENIA |DKK |
+
+| 7 |AN |NETHERLANDS ANTILLES |DEM |
+
+| 8 |AO |ANGOLA |VND |
+
+| 9 |AR |ARGENTINA |EUR |
+
+| 10 |AS |AMERICAN SAMOA |RFR |
+
+| 11 |AT |AUSTRIA |HKD |
+
+| 12 |AU |AUSTRALIA |INR |
+
+| 13 |AW |ARUBA |IEP |
+
+| 14 |AZ |AZERBAIJAN |ITL |
+
+| 15 |BB |BARBADOS |JOD |
+
+| 16 |BD |BANGLADESH |LAK |
+
+| 17 |BE |BELGIUM |KWD |
+
+| 18 |BF |BURKINA FASO |MMK |
+
+| 19 |BG |BULGARIA |MYR |
+
+| 20 |BH |BAHRAIN |MTL |
+
+| 21 |BI |BURUNDI |FIM |
+
+| 22 |BJ |BENIN |MXN |
+
+| 23 |BM |BERMUDA |NLG |
+
+| 24 |BN |BRUNEI DARUSSALAM |TWD |
+
+| 25 |BO |BOLIVIA |NZD |
+
+| 26 |BR |BRAZIL |NOK |
+
+| 27 |BS |BAHAMAS |PKR |
+
+| 28 |BT |BHUTAN |PHP |
+
+| 29 |BV |BOUVET ISLAND |PTE |
+
+| 30 |BW |BOTSWANA |GBP |
+
+| 31 |BY |BELARUS |ZAR |
+
+| 32 |BZ |BELIZE |KHR |
+
+| 33 |CA |CANADA |IDR |
+
+| 34 |CC |COCOS (KEELING) IS.S |SAR |
+
+| 35 |CF |CENTRAL AFRICAN REP. |ATS |
+
+| 36 |CG |CONGO |SGD |
+
+| 37 |CH |SWITZERLAND |ESP |
+
+| 38 |CI |COTE D IVOIRE |SEK |
+
+| 39 |CK |COOK ISLANDS |CHF |
+
+| 40 |CL |CHILE |BDT |
+
+| 41 |CM |CAMEROON |AED |
+
+| 42 |CN |CHINA |USD |
+
+| 43 |CO |COLOMBIA |KRW |
+
+| 44 |CR |COSTA RICA |JPY |
+
+| 45 |CU |CUBA |CNY |
+
+| 46 |CV |CAPE VERDE | |
+
+| 47 |CX |CHRISTMAS ISLAND | |
+
+| 48 |CY |CYPRUS | |
+
+| 49 |CZ |CZECH REPUBLIC | |
+
+| 50 |DE |GERMANY | |
+
+| 51 |DJ |DJIBOUTI | |
+
+| 52 |DK |DENMARK | |
+
+| 53 |DM |DOMINICA | |
+
+| 54 |DO |DOMINICAN REPUBLIC | |
+
+| 55 |DZ |ALGERIA | |
+
+| 56 |EC |ECUADOR | |
+
+| 57 |EE |ESTONIA | |
+
+| 58 |EG |EGYPT | |
+
+| 59 |EH |WESTERN SAHARA | |
+
+| 60 |ER |ERITREA | |
+
+| 61 |ES |SPAIN | |
+
+| 62 |ET |ETHIOPIA | |
+
+| 63 |FI |FINLAND | |
+
+| 64 |FJ |FIJI | |
+
+| 65 |FK |FALKLAND ISLANDS (MALVINAS) | |
+
+| 66 |FM |MICRONESIA (FEDERATED STATES OF) | |
+
+| 67 |FO |FAROE ISLANDS | |
+
+| 68 |FR |FRANCE | |
+
+| 69 |FX |FRANCE, METROPOLITAN | |
+
+| 70 |GA |GABON | |
+
+| 71 |GB |UNITED KINGDOM | |
+
+| 72 |GD |GRENADA | |
+
+| 73 |GE |GEORGIA | |
+
+| 74 |GF |FRENCE GUIANA | |
+
+| 75 |GH |GHANA | |
+
+| 76 |GI |GIBRALTAR | |
+
+| 77 |GL |GREENLAND | |
+
+| 78 |GM |GAMBIA | |
+
+| 79 |GN |GUINEA | |
+
+| 80 |GP |GUADELOUPE | |
+
+| 81 |GQ |EQUATORIAL GUINEA | |
+
+| 82 |GR |GREECE | |
+
+| 83 |GS |SOUTH | |
+
+| 84 |GT |GUATEMALA | |
+
+| 85 |GU |GUAM | |
+
+| 86 |GW |GUINEA-BISSAU | |
+
+| 87 |GY |GUYANA | |
+
+| 88 |HK |HONG KONG | |
+
+| 89 |HM |HEARD ISLAND AND MCDONALD ISLANDS | |
+
+| 90 |HN |HONDURAS | |
+
+| 91 |HR |CROATIA | |
+
+| 92 |HT |HAITI | |
+
+| 93 |HU |HUNGARY | |
+
+| 94 |ID |INDONESIA | |
+
+| 95 |IE |IRELAND | |
+
+| 96 |IL |ISRAEL | |
+
+| 97 |IN |INDIA | |
+
+| 98 |IO |BRITISH INDIAN OCEAN TERRITORY | |
+
+| 99 |IQ |IRAQ | |
+
+| 100 |IR |IRAN | |
+
+| 101 |IS |ICELAND | |
+
+| 102 |IT |ITALY | |
+
+| 103 |JM |JAMAICA | |
+
+| 104 |JO |JORDAN | |
+
+| 105 |JP |JAPAN | |
+
+| 106 |KE |KENYA | |
+
+| 107 |KG |KYRGYZSTAN | |
+
+| 108 |KH |CAMBODIA | |
+
+| 109 |KI |KIRIBATI | |
+
+| 110 |KM |COMOROS | |
+
+| 111 |KN |SAINT KITTS AND NEVIS | |
+
+| 112 |KP |KOREA | |
+
+| 113 |KR |KOREA,REPUBLIC OF | |
+
+| 114 |KW |KUWAIT | |
+
+| 115 |KY |CAYMAN ISLANDS | |
+
+| 116 |KZ |KAZAKHSTAN | |
+
+| 117 |LA |LAO REPUBLIC | |
+
+| 118 |LB |LEBANON | |
+
+| 119 |LC |SAINT LUCIA | |
+
+| 120 |LI |LIECHTENSTEIN | |
+
+| 121 |LK |SRI LANKA | |
+
+| 122 |LR |LIBERIA | |
+
+| 123 |LS |LESOTHO | |
+
+| 124 |LT |LITHUANIA | |
+
+| 125 |LU |LUXEMBOURG | |
+
+| 126 |LV |LATVIA | |
+
+| 127 |LY |LIBYAN ARAB JAMAHIRIYA | |
+
+| 128 |MA |MOROCCO | |
+
+| 129 |MC |MONACO | |
+
+| 130 |MD |MOLDOVA REPUBLIC OF | |
+
+| 131 |MG |MADAGASCAR | |
+
+| 132 |MH |MARSHALL ISLAND | |
+
+| 133 |MK |MACEDONIA | |
+
+| 134 |ML |MALI | |
+
+| 135 |MM |MYANMAR | |
+
+| 136 |MN |MONGOLIA | |
+
+| 137 |MO |MACAU | |
+
+| 138 |MP |NORTHERN MARIANA ISLANDS | |
+
+| 139 |MQ |MARTINIQUE | |
+
+| 140 |MR |MAURITANIA | |
+
+| 141 |MS |MONTSERRAT | |
+
+| 142 |MT |MALTA | |
+
+| 143 |MU |MAURITIUS | |
+
+| 144 |MV |MALDIVES | |
+
+| 145 |MW |MALAWI | |
+
+| 146 |MX |MEXICO | |
+
+| 147 |MY |MALAYSIA | |
+
+| 148 |MZ |MOZAMBIQUE | |
+
+| 149 |NA |NAMIBIA | |
+
+| 150 |NC |NEW CALEDONIA | |
+
+| 151 |NE |NIGER | |
+
+| 152 |NF |NORFOLK ISLAND | |
+
+| 153 |NG |NIGERIA | |
+
+| 154 |NI |NICARAGUA | |
+
+| 155 |NL |NETHERLANDS | |
+
+| 156 |NO |NORWAY | |
+
+| 157 |NP |NEPAL | |
+
+| 158 |NR |NAURU | |
+
+| 159 |NU |NIUE | |
+
+| 160 |NZ |NEW ZEALAND | |
+
+| 161 |OM |OMAN | |
+
+| 162 |OT |OTHER COUNTRY | |
+
+| 163 |PA |PANAMA | |
+
+| 164 |PE |PERU | |
+
+| 165 |PF |FRENCH POLYNESIA | |
+
+| 166 |PG |PAPUA NEW GUINEA | |
+
+| 167 |PH |PHILIPPINES | |
+
+| 168 |PK |PAKISTAN | |
+
+| 169 |PL |POLAND | |
+
+| 170 |PM |SAINT PIERRE AND MIQUELON | |
+
+| 171 |PN |PITCAIRN | |
+
+| 172 |PR |PUERTO RICO | |
+
+| 173 |PT |PORTUGAL | |
+
+| 174 |PW |PALAU | |
+
+| 175 |PY |PARAGUAY | |
+
+| 176 |QA |QATAR | |
+
+| 177 |RE |REUNION | |
+
+| 178 |RO |ROMANIA | |
+
+| 179 |RU |RUSSIAN FEDERATION | |
+
+| 180 |RW |RWANDA | |
+
+| 181 |SA |SAUDI ARABIA | |
+
+| 182 |SB |SOLOMON ISLANDS | |
+
+| 183 |SC |SEYCHELLES | |
+
+| 184 |SD |SUDAN | |
+
+| 185 |SE |SWEDEN | |
+
+| 186 |SG |SINGAPORE | |
+
+| 187 |SH |SAINT HELENA | |
+
+| 188 |SI |SLOVENIA | |
+
+| 189 |SJ |SVALBARD AND JAN MAYEN | |
+
+| 190 |SK |SLOVAKIA | |
+
+| 191 |SL |SIERRA LEONE | |
+
+| 192 |SM |SAN MARINO | |
+
+| 193 |SN |SENEGAL | |
+
+| 194 |SO |SOMALIA | |
+
+| 195 |SR |SURINAME | |
+
+| 196 |ST |SAO TOME AND PRINCIPE | |
+
+| 197 |SV |EL SALVADOR | |
+
+| 198 |SY |SYRIAN ARAB REPUBLIC | |
+
+| 199 |SZ |SWAZILAND | |
+
+| 200 |TC |TURKS AND CAICOS ISLANDS | |
+
+| 201 |TD |CHAD | |
+
+| 202 |TF |FRENCH SOUTHERN TERRITORIES | |
+
+| 203 |TG |TOGO | |
+
+| 204 |TH |THAILAND | |
+
+| 205 |TJ |TAJIKISTAN | |
+
+| 206 |TK |TOKELAU | |
+
+| 207 |TM |TURKMENISTAN | |
+
+| 208 |TN |TUNISIA | |
+
+| 209 |TO |TONGA | |
+
+| 210 |TP |EAST TIMOR | |
+
+| 211 |TR |TURKEY | |
+
+| 212 |TT |TRINIDAD AND TOBAGO | |
+
+| 213 |TV |TUVALU | |
+
+| 214 |TW |TAIWAN PROVINCE OF CHINA | |
+
+| 215 |TZ |TANZANIA UNITED REPUBLIC OF | |
+
+| 216 |UA |UKRAINE | |
+
+| 217 |UG |UGANDA | |
+
+| 218 |UM |UNITED STATES MINOR | |
+
+| 219 |US |UNITED STATES | |
+
+| 220 |UY |URUGUAY | |
+
+| 221 |UZ |UZBEKISTAN | |
+
+| 222 |VA |VATICAN CITY | |
+
+| 223 |VC |SAINT VINCENT AND THE GRENADINES | |
+
+| 224 |VE |VENEZUELA | |
+
+| 225 |VG |VIRGIN ISLANDS (BRITISH) | |
+
+| 226 |VI |VIRGIN ISLANDS (U.S.) | |
+
+| 227 |VN |VIETNAM | |
+
+| 228 |VU |VANUATU | |
+
+| 229 |WF |WALLIS AND FUTUNA ISLANDS | |
+
+| 230 |WS |SAMOA | |
+
+| 231 |YE |YEMEN | |
+
+| 232 |YT |MAYOTTE | |
+
+| 233 |YU |YUGOSLAVIA | |
+
+| 234 |ZA |SOUTH AFRICA | |
+
+| 235 |ZM |ZAMBIA | |
+
+| 236 |ZR |ZAIRE | |
+
+| 237 |ZW |ZIMBABWE | |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkwNjIyMzIsNzE5MzIxMjg0LC0xNz
-MzMjcxMDUyLDEwNTE1MTk0NTcsOTA3OTM0OTc2XX0=
+eyJoaXN0b3J5IjpbLTI2ODI4NDI3LC0xNjM5MDYyMjMyLDcxOT
+MyMTI4NCwtMTczMzI3MTA1MiwxMDUxNTE5NDU3LDkwNzkzNDk3
+Nl19
 -->
