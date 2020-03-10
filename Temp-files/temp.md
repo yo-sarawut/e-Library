@@ -3,42 +3,79 @@
 
 
 
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#datetime-in-python-simplified-guide-with-clear-examples)
 
-datetime in Python – Simplified Guide with Clear Examples
-
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#content)
-
-Content
-
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#1introductiontodatetime)
-
-
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#datetime-in-python-simplified-guide-with-clear-examples)
-
-datetime in Python – Simplified Guide with Clear Examples
-
-[](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#content)
-
-Content
-
-[1. Introduction to datetime](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#1introductiontodatetime)
-[2. How to get the current date and the time in Python](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#2howtogetthecurrentdateandthetime)
-[3. How to create the datetime object](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#3howtocreatethedatetimeobject)
-[4. How to parse a string to datetime in python?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#4howtoparseanydateformattodatetime)
-[5. Example 1 – Parsing a date string to datetime](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#5example1parsingadatestringtodatetime)
-[6. How to format the datetime object into any date format?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#6howtoformatthedatetimeobjectintoanydateformat)
-[7. Example 2 – Formatting a datetime object](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#7example2formattingadatetimeobject)
-[8. Useful datetime functions](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#8usefuldatetimefunctions)
-[9. When and how to use the datetime.time() class?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#6whenandhowtousethedatetimetimeclass)
-[10. When and how to use the datetime.timedelta() class?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#7whenandhowtousethedatetimetimedeltaclass)
-[11. How to work with timezones?](https://yo-sarawut.gitbook.io/tutorials/python/date-and-time/datetime-in-python#8howtoworkwithtimezones)
-
+-   Basic Flask Website tutorial
+    
+-   Flask with Bootstrap and Jinja Templating
+    
+-   Starting our Website home page with Flask Tutorial
+    
+-   Improving the Home Page Flask Tutorial
+    
+-   Finishing the Home Page Flask Tutorial
+    
+-   Dynamic User Dashboard Flask Tutorial
+    
+-   Content Management Beginnings Flask Tutorial
+    
+-   Error Handling with Flask Tutorial
+    
+-   Flask Flash function Tutorial
+    
+-   Users with Flask intro Tutorial
+    
+-   Handling POST and GET Requests with Flask Tutorial
+    
+-   Creating MySQL database and table Flask Tutorial
+    
+-   Connecting to MySQL database with MySQLdb Flask Tutorial
+    
+-   User Registration Form Flask Tutorial
+    
+-   Flask Registration Code Tutorial
+    
+-   Finishing User Registration Flask Tutorial
+    
+-   Password Hashing with Flask Tutorial
+    
+-   Flask User Login System Tutorial
+    
+-   Decorators - Login_Required pages Flask Tutorial
+    
+-   Dynamic user-based content Flask Tutorial
+    
+-   More on Content Management Flask Tutorial
+    
+-   Flask CMS Concluded Flask Tutorial
+    
+-   The Crontab Flask Tutorial
+    
+-   Flask SEO Tutorial
+    
+-   Flask Includes Tutorial
+    
+-   Jinja Templating Tutorial
+    
+-   Flask URL Converters Tutorial
+    
+-   Flask-Mail Tutorial for email with Flask
+    
+-   Return Files with Flask send_file Tutorial
+    
+-   Protected Directories with Flask Tutorial
+    
+-   jQuery with Flask Tutorial
+    
+-   Pygal SVG graphs with Flask Tutorial
+    
+-   PayPal with Flask Web Development Tutorial
+    
+-   Securing your Flask website with SSL for HTTPS using Lets Encrypt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODg2MDY2MiwyMDY2NTQxMDQxLC0xMj
-c5OTE2NzQzLDEwMDc1Nzc3NzQsLTExMjU1NjE3ODIsMTIzNjE5
-NjExMCwyMDI3OTc0MDc4LC0xNTI5MDQyMzEwLC0xOTM5NjgzMD
-gsLTEyMTAzODk2MDgsNDk4MjkwMjk1LC03MDY2NzU5MTQsLTM5
-MzAyMjIwMiw3Mzg5ODU2NzEsOTY0NjIyMzY1LC0xNDcwMzE5ND
-g2XX0=
+eyJoaXN0b3J5IjpbLTg2NjQzOTUzMSwxMTU4ODYwNjYyLDIwNj
+Y1NDEwNDEsLTEyNzk5MTY3NDMsMTAwNzU3Nzc3NCwtMTEyNTU2
+MTc4MiwxMjM2MTk2MTEwLDIwMjc5NzQwNzgsLTE1MjkwNDIzMT
+AsLTE5Mzk2ODMwOCwtMTIxMDM4OTYwOCw0OTgyOTAyOTUsLTcw
+NjY3NTkxNCwtMzkzMDIyMjAyLDczODk4NTY3MSw5NjQ2MjIzNj
+UsLTE0NzAzMTk0ODZdfQ==
 -->
