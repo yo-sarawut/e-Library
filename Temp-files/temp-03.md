@@ -14,27 +14,27 @@ Instance, Class, and Static Methods — An Overview[](https://yo-sarawut.gitbook
 
 Let’s begin by writing a (Python 3) class that contains simple examples for all three method types:
 
-class  MyClass:
-
- def  method(self):
-
- return  'instance method called', self
-
-​
-
- @classmethod
-
- def  classmethod(cls):
-
- return  'class method called', cls
-
-​
-
- @staticmethod
-
- def  staticmethod():
-
- return  'static method called'
+    class  MyClass:
+    
+     def  method(self):
+    
+     return  'instance method called', self
+    
+    ​
+    
+     @classmethod
+    
+     def  classmethod(cls):
+    
+     return  'class method called', cls
+    
+    ​
+    
+     @staticmethod
+    
+     def  staticmethod():
+    
+     return  'static method called'
 
 > **NOTE:** For Python 2 users: The `@staticmethod` and `@classmethod` decorators are available as of Python 2.4 and this example will work as is. Instead of using a plain `class MyClass:` declaration you might choose to declare a new-style class inheriting from `object` with the `class MyClass(object):` syntax. Other than that you’re good to go.
 
@@ -343,5 +343,5 @@ Key Takeaways[](https://yo-sarawut.gitbook.io/tutorials/python/class#key-takeawa
 
 Reference : [https://realpython.com/instance-class-and-static-methods-demystified/](https://realpython.com/instance-class-and-static-methods-demystified/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgyMDcyMDddfQ==
+eyJoaXN0b3J5IjpbMTE4MDg3NDM5M119
 -->
