@@ -12,7 +12,7 @@
 - [Full Password Example](https://www.w3.org/WAI/tutorials/forms/examples/password/)
   
 - [EXTREMELY STRONG PASSWORD GENERATOR :](http://code.activestate.com/recipes/578169-extremely-strong-password-generator/?fbclid=IwAR03nTAgKsIHZRWx_Al-QIM2yrmpm_BE4GYJJZyLAfsfPnvo_slZdhGZMIk)
-  
+- [Validate a password using HTML and JavaScript](https://www.geeksforgeeks.org/validate-a-password-using-html-and-javascript/)
   
 - [NordPass :](https://nordpass.com/) 
   
@@ -31,7 +31,8 @@
 ![enter image description here](https://tutorialzine.com/media/2012/06/password-strength-css3.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTQ3ODM5OCwxNzIzNDg5MTU3LC0xNz
-kyODAxNzA1LC03MTgzOTQ3MDIsLTU3NTYwMzgwNSwtMTMxMTY0
-NDUxNSw3NjM5ODUzMjcsMTg1Mzk1MTczMV19
+eyJoaXN0b3J5IjpbMTU2NjY1MDMxNywxMDIxNDc4Mzk4LDE3Mj
+M0ODkxNTcsLTE3OTI4MDE3MDUsLTcxODM5NDcwMiwtNTc1NjAz
+ODA1LC0xMzExNjQ0NTE1LDc2Mzk4NTMyNywxODUzOTUxNzMxXX
+0=
 -->
