@@ -98,7 +98,7 @@ PyEphem เป็นโมดูลสำหรับงานคำนวณด
 
 ## Example
 
-- # Sun Rise/Set Time Finder
+- [Sun Rise/Set Time Finder](https://www.geeksforgeeks.org/project-idea-sun-riseset-time-finder/)
 - https://www.learnpyqt.com/apps/create-desktop-weather-app/
 - https://codereview.stackexchange.com/questions/141279/create-a-weather-app-in-python
 - https://natebruneau.com/create-a-python-simple-weather-app/
@@ -516,11 +516,11 @@ def run(self):
         self.signals.finished.emit()
    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjYzMzgyNywtNTU5NjQ5MjYyLC0xNj
-Q3NDU0NTI5LDIwNjcwNDgxMTksMTAyMjM4MTg1NSwtMjEyNjA0
-NTkzOCw3OTQ1OTEzOTgsLTEzMjc3MDgwMTMsLTEwMjY2Njc1Nj
-AsLTI3NDI1MTE1OSwtMjEyODkyODMxOCwtMTIxOTg3MzQ0LC00
-Nzc0NTc2MDgsLTEzOTU2MTYzMSwxMzU3OTkxMDgzLDEwNjIzMD
-Y1NjAsMTU4MzQ5MjI3NiwtMjc3NTA5NzM3LC0xNDQxOTE5MTg1
-LC03NTk3NDUxOTNdfQ==
+eyJoaXN0b3J5IjpbNDE3NTUxMDk3LC01NTk2NDkyNjIsLTE2ND
+c0NTQ1MjksMjA2NzA0ODExOSwxMDIyMzgxODU1LC0yMTI2MDQ1
+OTM4LDc5NDU5MTM5OCwtMTMyNzcwODAxMywtMTAyNjY2NzU2MC
+wtMjc0MjUxMTU5LC0yMTI4OTI4MzE4LC0xMjE5ODczNDQsLTQ3
+NzQ1NzYwOCwtMTM5NTYxNjMxLDEzNTc5OTEwODMsMTA2MjMwNj
+U2MCwxNTgzNDkyMjc2LC0yNzc1MDk3MzcsLTE0NDE5MTkxODUs
+LTc1OTc0NTE5M119
 -->
