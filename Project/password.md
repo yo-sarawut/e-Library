@@ -13,6 +13,7 @@
   
 - [EXTREMELY STRONG PASSWORD GENERATOR :](http://code.activestate.com/recipes/578169-extremely-strong-password-generator/?fbclid=IwAR03nTAgKsIHZRWx_Al-QIM2yrmpm_BE4GYJJZyLAfsfPnvo_slZdhGZMIk)
 - [Validate a password using HTML and JavaScript](https://www.geeksforgeeks.org/validate-a-password-using-html-and-javascript/)
+- [Random Password Generator using Tkinter](https://www.geeksforgeeks.org/python-random-password-generator-using-tkinter/)
   
 - [NordPass :](https://nordpass.com/) 
   
@@ -31,8 +32,8 @@
 ![enter image description here](https://tutorialzine.com/media/2012/06/password-strength-css3.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjY1MDMxNywxMDIxNDc4Mzk4LDE3Mj
-M0ODkxNTcsLTE3OTI4MDE3MDUsLTcxODM5NDcwMiwtNTc1NjAz
-ODA1LC0xMzExNjQ0NTE1LDc2Mzk4NTMyNywxODUzOTUxNzMxXX
-0=
+eyJoaXN0b3J5IjpbNzM4MTUwMTEsMTU2NjY1MDMxNywxMDIxND
+c4Mzk4LDE3MjM0ODkxNTcsLTE3OTI4MDE3MDUsLTcxODM5NDcw
+MiwtNTc1NjAzODA1LC0xMzExNjQ0NTE1LDc2Mzk4NTMyNywxOD
+UzOTUxNzMxXX0=
 -->
