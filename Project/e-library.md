@@ -33,6 +33,7 @@
 	- [Landing Page 1](https://themes.gohugo.io/theme/meghna-hugo/#services)
 	- [Landing Page 2](https://themes.gohugo.io//theme/airspace-hugo/)
 	- [Post](https://themes.gohugo.io//theme/hugo-refresh)
+	- [Hugo Document](https://themes.gohugo.io/tags/documentation/)
 - [Awesome Markdown]()
 
 - [GitBook : Doc StyleGuide](http://styleguide.gitbook.com)
@@ -117,11 +118,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MTE4MzksMTc1NDEwNTM1LDExMDM5MD
-c2NDIsMjEyNTg1OTkwNSwtNjEyNjMzNjc0LC05MDYwODMzNjAs
-LTE1MjQ5NDEwMzcsLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMT
-M0MDE4NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5
-MDc3NywtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5My
-wxMTAzMDYyNDEsLTY4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2
-ODY1MjRdfQ==
+eyJoaXN0b3J5IjpbMTE3NzQ1ODI5OSwzMTkxMTgzOSwxNzU0MT
+A1MzUsMTEwMzkwNzY0MiwyMTI1ODU5OTA1LC02MTI2MzM2NzQs
+LTkwNjA4MzM2MCwtMTUyNDk0MTAzNywtMTg2MDU4NjgzMSwtMT
+E1NTA5MzM0LC0xMzQwMTg1NzIwLC01MjA0NTk0MDIsLTUxMTA0
+NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYzNDQ5LDEwMjc1NjI5MD
+IsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4NTcwMzMxLDE4NDg4
+OTU4NDFdfQ==
 -->
