@@ -27,6 +27,7 @@
 
 ## Tool Create e-Book + Website
 
+- [ZDoc](https://github.com/zzossig/hugo-theme-zdoc)
 - Hugo Template
 	- [Landing Page 1](https://themes.gohugo.io/theme/meghna-hugo/#services)
 	- [Landing Page 2](https://themes.gohugo.io//theme/airspace-hugo/)
@@ -115,11 +116,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDEwNTM1LDExMDM5MDc2NDIsMjEyNT
-g1OTkwNSwtNjEyNjMzNjc0LC05MDYwODMzNjAsLTE1MjQ5NDEw
-MzcsLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMC
-wtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEy
-NjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyND
-EsLTY4ODU3MDMzMSwxODQ4ODk1ODQxLDEwNzQ2ODY1MjQsNjE2
-ODgzOTAyXX0=
+eyJoaXN0b3J5IjpbMTI2MzQ0NTI1MSwxNzU0MTA1MzUsMTEwMz
+kwNzY0MiwyMTI1ODU5OTA1LC02MTI2MzM2NzQsLTkwNjA4MzM2
+MCwtMTUyNDk0MTAzNywtMTg2MDU4NjgzMSwtMTE1NTA5MzM0LC
+0xMzQwMTg1NzIwLC01MjA0NTk0MDIsLTUxMTA0NDEyMSwtMjMw
+MjkwNzc3LC0xMTI2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNj
+kzLDExMDMwNjI0MSwtNjg4NTcwMzMxLDE4NDg4OTU4NDEsMTA3
+NDY4NjUyNF19
 -->
