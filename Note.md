@@ -41,6 +41,7 @@ HEX: #34558b
 
 - [ Let’s get started with ==**GitHub!**==](https://guides.github.com/activities/hello-world/)
 - [A gellery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki)
+- [สำนักนโยบายการออมและการลงทุน : เศรษฐศาสตร์น่ารู้ ](http://www2.fpo.go.th/s-i/ECO_New.php?Language=Thai)
 
 # Packages
 
@@ -158,11 +159,11 @@ src="https://www.youtube.com/v/VBRKLUyi3mw">
 
 [e-Library by GitLab](https://dragon_e-library.gitlab.io/knowledge_base/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDI3ODEzMiwtNzA1MDY1NDc5LDEyNz
-A2NjExNDMsLTE2OTQxODQ0ODIsOTU1MDE1MzA2LDY4NzI0NTUx
-NywtNjI3OTgyNDQxLC04NjA4MDIyMjgsLTUxMDMzNDU2Niw5OD
-U2OTgzNTksLTY1Njg1MDE2OSw3MjgyOTA2NDgsLTIwMjQyMzc4
-NywtMjY0NjczMTY3LDE4NDg1NjEyNjMsMTI5MDc5NjQ3MSwxOT
-E5NDM1NDIxLDE3ODk4MzI1NzUsLTE3MDE5MzQ2NDksLTMwNTg2
-OTY4OV19
+eyJoaXN0b3J5IjpbMTU1NjQ0NjEwNSwxMjcwMjc4MTMyLC03MD
+UwNjU0NzksMTI3MDY2MTE0MywtMTY5NDE4NDQ4Miw5NTUwMTUz
+MDYsNjg3MjQ1NTE3LC02Mjc5ODI0NDEsLTg2MDgwMjIyOCwtNT
+EwMzM0NTY2LDk4NTY5ODM1OSwtNjU2ODUwMTY5LDcyODI5MDY0
+OCwtMjAyNDIzNzg3LC0yNjQ2NzMxNjcsMTg0ODU2MTI2MywxMj
+kwNzk2NDcxLDE5MTk0MzU0MjEsMTc4OTgzMjU3NSwtMTcwMTkz
+NDY0OV19
 -->
