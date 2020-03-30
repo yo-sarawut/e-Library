@@ -50,7 +50,7 @@ Note, that in the code example above we also import IPython to print the list in
 ```py
 df_rank.groups
 ```
-[![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-dictionary-53a1b4cb232a6c6215bc094e018a2a6783fc7555.jpg)](https://www.marsja.se/wp-content/uploads/2018/12/groupby-pandas-dictionary-of-groups.jpg)
+![](http://www.pybloggers.com/wp-content/uploads/2018/12/www.marsja.segroupby-pandas-dictionary-53a1b4cb232a6c6215bc094e018a2a6783fc7555.jpg)
 
 We can also use the groupby method _get_group_  to filter the grouped data. In the next code example we are going to select the Assistant Professor group (i.e., “AsstProf”).
 ```py
@@ -264,5 +264,5 @@ In this Pandas groupby tutorial we have learned how to use Pandas groupby to:
 
 The post  [Python Pandas Groupby Tutorial](https://www.marsja.se/python-pandas-groupby-tutorial-examples/)  appeared first on  [Erik Marsja](https://www.marsja.se/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Njk1MzA3NF19
+eyJoaXN0b3J5IjpbLTE3ODI0Nzk1MjQsMTc0Njk1MzA3NF19
 -->
