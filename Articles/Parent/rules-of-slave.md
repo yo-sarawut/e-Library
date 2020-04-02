@@ -3,7 +3,7 @@
 
 [จากวิกิพีเดีย สารานุกรมเสรี](http://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%A5%E0%B8%B2%E0%B8%9F_(%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%9E%E0%B9%88))
 
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPKrY5Z6HvrnvP3pPCyW9e5bJCThk28hMy6tkOrI5u1NnhWAJ6uw&s)
+![enter image description here](https://scontent.fbkk2-7.fna.fbcdn.net/v/t31.0-8/819206_375064809259313_2077529308_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_eui2=AeH62eGedETO3KLzNC5yU-AFPPYWIv0pLbxSleGP6nXIxvXbUBxB2ADO68xM0uS1CVaxrfk5I4fC1DJudmLDLZK2UxjgFydFCRTinUJB_4OqYQ&_nc_ohc=J4trG3PnvG4AX-k5flS&_nc_ht=scontent.fbkk2-7.fna&oh=ee48e20a9332b24ac6592c939968c7a0&oe=5EA966F3)
 
 **สลาฟ**  (slave ภาษาอังกฤษอ่านว่า สเลฟ คนไทยอ่าน สลาฟ) เป็น[เกมไพ่](http://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%9E%E0%B9%88 "เกมไพ่")ชนิดหนึ่ง ที่ผู้เล่น 3 คนขึ้นไปพยายามที่จะทิ้งไพ่ให้หมดจากตัวเอง การเล่นไพ่ชนิดนี้นิยมเล่นในทุกวัยเนื่องจากกติกาที่เรียบง่าย และบางครั้งใช้เล่นในระหว่างการเดินทาง กฎและกติกาการเล่นไพ่สลาฟนั้นจะมีกฎแยกย่อยต่างกันนิดหน่อยขึ้นอยู่กับกลุ่มผู้เล่น โดยกฎทั่วไปจะมีคือ ไพ่หมายเลข 3  [ดอกจิก](http://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%88%E0%B8%B4%E0%B8%81 "ดอกจิก")  จะเป็นไพ่ที่มีค่าต่ำสุด ขณะที่ 2  [โพดำ](http://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%9E%E0%B8%94%E0%B8%B3 "โพดำ")  จะมีค่าสูงสุด โดยการเล่นจะผลัดการวางไพ่คนละใบตรงกลางวง โดยให้แต้มมีค่าสูงกว่าไพ่ในกอง เมื่อไม่มีใครสามารถลงไพ่ได้สูงกว่าให้เริ่มต้นใหม่โดยผู้ลงคนสุดท้ายจะเป็นคนเริ่มต้น โดยผู้ที่ทิ้งไพ่ได้หมดก่อนจะได้เป็นกษัตริย์หรือคิง และผู้ที่ไม่สามารถทิ้งไพ่ได้หมดคนสุดท้ายจะถูกเรียกเป็นสลาฟ
 
@@ -65,5 +65,5 @@
 
 > [Source : ](https://www.dek-d.com/board/view/945658/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI4MzI4NDNdfQ==
+eyJoaXN0b3J5IjpbLTMyNTI3NDUyOV19
 -->
