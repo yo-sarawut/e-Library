@@ -25,6 +25,9 @@
 - [LESA  ชุดการเรียนรู้วิทยาศาสตร์โลกและดารา
 ศาสตร ](http://portal.edu.chula.ac.th/lesa_cd/assets/document/LESA212/index1.html)
 
+### Digital Knowledge Center
+ระบบ “ศูนย์กลางความรู้ดิจิตัล” (Digital Knowledge Center) เป็นระบบจัดการและรวบรวมองค์ความรู้ที่ในองค์กร ซึ่งกระจัดกระจายอยู่ในตัวบุคคลหรือเอกสาร มาพัฒนาให้เป็นระบบในรูปแบบที่เหมาะสมกับ Lifestyle ของบุคลากรด้วยเทคโนโลยีสารสนเทศสมัยใหม่ โดยเน้นให้ทุกคนในองค์กรสามารถเข้าถึงความรู้ได้อย่างรวดเร็ว และสร้างสังคมการเรียนรู้อย่างได้ผล นำไปสู่การพัฒนาตนเองและปฏิบัติงานได้อย่างมีประสิทธิภาพ ส่งผลให้องค์กรมีความสามารถในเชิงแข่งขันสูงสุด พัฒนาซอฟแวร์ด้วยเทคโนโลยี Web Base และ Mobile Application ที่สามารถเข้าใช้งานได้ตลอดเวลา ไม่จำกัดสถานที่ ทุก Enterprise Site จะเชื่อมต่อกับระบบ Content Acquisition Center ระบบศูนย์รวมในการขายหรือให้เช่า Digital Content จากองค์กรภายนอก ได้แก่ E-Book และ E-Learning VDO
+
 
 ## Tool Create e-Book + Website
 
@@ -119,11 +122,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczMTA2NDc0LDExNzc0NTgyOTksMzE5MT
-E4MzksMTc1NDEwNTM1LDExMDM5MDc2NDIsMjEyNTg1OTkwNSwt
-NjEyNjMzNjc0LC05MDYwODMzNjAsLTE1MjQ5NDEwMzcsLTE4Nj
-A1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNTIwNDU5
-NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OS
-wxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3
-MDMzMV19
+eyJoaXN0b3J5IjpbLTM3MjEzODcxOCwzNzMxMDY0NzQsMTE3Nz
+Q1ODI5OSwzMTkxMTgzOSwxNzU0MTA1MzUsMTEwMzkwNzY0Miwy
+MTI1ODU5OTA1LC02MTI2MzM2NzQsLTkwNjA4MzM2MCwtMTUyND
+k0MTAzNywtMTg2MDU4NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1
+NzIwLC01MjA0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC
+0xMTI2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMw
+NjI0MV19
 -->
