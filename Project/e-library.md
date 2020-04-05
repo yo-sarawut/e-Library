@@ -20,6 +20,7 @@
 
 ## แหล่งข้อมูล
 
+- [หอสมุดแห่งมหาวิทยาลัยธรรมศาสตร์](https://library.tu.ac.th/)
 - [เว็บไซต์คลังความรู้ SciMath](http://uatscimath.ipst.ac.th)
 - [LESA  ชุดการเรียนรู้วิทยาศาสตร์โลกและดารา
 ศาสตร ](http://portal.edu.chula.ac.th/lesa_cd/assets/document/LESA212/index1.html)
@@ -118,11 +119,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzQ1ODI5OSwzMTkxMTgzOSwxNzU0MT
-A1MzUsMTEwMzkwNzY0MiwyMTI1ODU5OTA1LC02MTI2MzM2NzQs
-LTkwNjA4MzM2MCwtMTUyNDk0MTAzNywtMTg2MDU4NjgzMSwtMT
-E1NTA5MzM0LC0xMzQwMTg1NzIwLC01MjA0NTk0MDIsLTUxMTA0
-NDEyMSwtMjMwMjkwNzc3LC0xMTI2NDYzNDQ5LDEwMjc1NjI5MD
-IsMjE0MzQzNjkzLDExMDMwNjI0MSwtNjg4NTcwMzMxLDE4NDg4
-OTU4NDFdfQ==
+eyJoaXN0b3J5IjpbMzczMTA2NDc0LDExNzc0NTgyOTksMzE5MT
+E4MzksMTc1NDEwNTM1LDExMDM5MDc2NDIsMjEyNTg1OTkwNSwt
+NjEyNjMzNjc0LC05MDYwODMzNjAsLTE1MjQ5NDEwMzcsLTE4Nj
+A1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4NTcyMCwtNTIwNDU5
+NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3NywtMTEyNjQ2MzQ0OS
+wxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAzMDYyNDEsLTY4ODU3
+MDMzMV19
 -->
