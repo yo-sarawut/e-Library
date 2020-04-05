@@ -27,6 +27,7 @@
 
 ### Digital Knowledge Center
 ระบบ “ศูนย์กลางความรู้ดิจิตัล” (Digital Knowledge Center) เป็นระบบจัดการและรวบรวมองค์ความรู้ที่ในองค์กร ซึ่งกระจัดกระจายอยู่ในตัวบุคคลหรือเอกสาร มาพัฒนาให้เป็นระบบในรูปแบบที่เหมาะสมกับ Lifestyle ของบุคลากรด้วยเทคโนโลยีสารสนเทศสมัยใหม่ โดยเน้นให้ทุกคนในองค์กรสามารถเข้าถึงความรู้ได้อย่างรวดเร็ว และสร้างสังคมการเรียนรู้อย่างได้ผล นำไปสู่การพัฒนาตนเองและปฏิบัติงานได้อย่างมีประสิทธิภาพ ส่งผลให้องค์กรมีความสามารถในเชิงแข่งขันสูงสุด พัฒนาซอฟแวร์ด้วยเทคโนโลยี Web Base และ Mobile Application ที่สามารถเข้าใช้งานได้ตลอดเวลา ไม่จำกัดสถานที่ ทุก Enterprise Site จะเชื่อมต่อกับระบบ Content Acquisition Center ระบบศูนย์รวมในการขายหรือให้เช่า Digital Content จากองค์กรภายนอก ได้แก่ E-Book และ E-Learning VDO
+- [https://www.bookdose.com/](https://www.bookdose.com/)
 
 
 ## Tool Create e-Book + Website
@@ -122,11 +123,11 @@ choco install hugo-extended -confirm
 - [ทำยังไงให้เราสามารถเป็นคนที่เรียนรู้ได้ตลอดชีวิต](https://missiontothemoon.co/how-we-can-become-lifelong-learning/)
 - [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjEzODcxOCwzNzMxMDY0NzQsMTE3Nz
-Q1ODI5OSwzMTkxMTgzOSwxNzU0MTA1MzUsMTEwMzkwNzY0Miwy
-MTI1ODU5OTA1LC02MTI2MzM2NzQsLTkwNjA4MzM2MCwtMTUyND
-k0MTAzNywtMTg2MDU4NjgzMSwtMTE1NTA5MzM0LC0xMzQwMTg1
-NzIwLC01MjA0NTk0MDIsLTUxMTA0NDEyMSwtMjMwMjkwNzc3LC
-0xMTI2NDYzNDQ5LDEwMjc1NjI5MDIsMjE0MzQzNjkzLDExMDMw
-NjI0MV19
+eyJoaXN0b3J5IjpbLTEzMDkyMDEzMTIsMzczMTA2NDc0LDExNz
+c0NTgyOTksMzE5MTE4MzksMTc1NDEwNTM1LDExMDM5MDc2NDIs
+MjEyNTg1OTkwNSwtNjEyNjMzNjc0LC05MDYwODMzNjAsLTE1Mj
+Q5NDEwMzcsLTE4NjA1ODY4MzEsLTExNTUwOTMzNCwtMTM0MDE4
+NTcyMCwtNTIwNDU5NDAyLC01MTEwNDQxMjEsLTIzMDI5MDc3Ny
+wtMTEyNjQ2MzQ0OSwxMDI3NTYyOTAyLDIxNDM0MzY5MywxMTAz
+MDYyNDFdfQ==
 -->
