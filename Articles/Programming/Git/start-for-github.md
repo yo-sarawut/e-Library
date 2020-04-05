@@ -3,7 +3,7 @@
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/dragon-content/edu-center.git
+git remote set-url origin  https://github.com/dragon-content/edu-center.git
 git push -u origin master
 
 ### push an existing repository from the command line
@@ -32,5 +32,6 @@ git push -u origin master
     ```
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzA0MTgyMCwtMTkxMzU0MzA4NF19
+eyJoaXN0b3J5IjpbLTMyNjg0NzY1MywtOTY3MDQxODIwLC0xOT
+EzNTQzMDg0XX0=
 -->
