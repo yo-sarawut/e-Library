@@ -17,12 +17,12 @@
 [![button](https://github.com/ecs-support/knowledge-center/raw/master/img/tool/btn_download.png)](https://mattermost.com)
 
 ```
-![Foo](https://github.com/ecs-support/knowledge-center/raw/master/img/tool/btn_download.png)](http://google.com.au/)
+[![Foo](https://github.com/ecs-support/knowledge-center/raw/master/img/tool/btn_download.png)](http://google.com.au/)
 ```
 ```
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgwMzk2NTIsMTUxNDU2MTc1MCwtMT
+eyJoaXN0b3J5IjpbLTExNDkzMjk5MTksMTUxNDU2MTc1MCwtMT
 c1MjE0ODQyMCwxMTM5MjkzNzgsMjM3OTk1MDU0XX0=
 -->
