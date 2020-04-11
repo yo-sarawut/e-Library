@@ -28,6 +28,7 @@ PANTONE 19-4055
 - [รวมบทความ Dash](https://medium.com/plotly/introducing-dash-5ecf7191b503)
 - [Dash-recipes : Example on GitHub](https://github.com/plotly/dash-recipes)
 - [Dash simple-example-chart-apps](https://github.com/plotly/simple-example-chart-apps)
+- [Panel](https://panel.holoviz.org/index.html)
 
 ## ชื่อโปรแกรม 
 
@@ -381,11 +382,11 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MDMzNTEwLDg0MzQ1ODEzOSwxOTk5Mz
-I1NDgyLDUzODE4OTc3NCwxNTk1MDA0NDEyLDE2OTQ0MTAzOTEs
-LTEzMTk1OTU4MDMsNTk1Mjg1ODQzLDExNzkzNzExNzEsLTgxNz
-Y2NTYzOSwtNTk2MDM4ODQ2LDE4Mjg4MzU4NSw5MTYxNjU4ODMs
-NzI4NjczNDUyLDE3NDc3NjY1NjcsLTUxNzgwNTc5LC0xMTM1MD
-kxOTMxLC02NjE3Njg5MTAsMTgwMTIzNTAwMCwxOTg1NzE2NDUw
+eyJoaXN0b3J5IjpbLTY4MjgzNDU1OCw1NzkwMzM1MTAsODQzND
+U4MTM5LDE5OTkzMjU0ODIsNTM4MTg5Nzc0LDE1OTUwMDQ0MTIs
+MTY5NDQxMDM5MSwtMTMxOTU5NTgwMyw1OTUyODU4NDMsMTE3OT
+M3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4NDYsMTgyODgzNTg1
+LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nzc2NjU2NywtNTE3OD
+A1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxODAxMjM1MDAw
 XX0=
 -->
