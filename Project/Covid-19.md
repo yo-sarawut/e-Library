@@ -12,6 +12,10 @@
 - [https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 - [https://nssac.bii.virginia.edu/covid-19/dashboard/](https://nssac.bii.virginia.edu/covid-19/dashboard/) + data
 - [https://coronavirus.jhu.edu/map.html](https://coronavirus.jhu.edu/map.html)
+- [https://sentosaxchange.com/coronavirus/mph-thailand-dashboard/](https://sentosaxchange.com/coronavirus/mph-thailand-dashboard/)
+- [https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+- [https://covid19.thaipbs.or.th/dashboard/](https://covid19.thaipbs.or.th/dashboard/)
+- [https://ddc.moph.go.th/viralpneumonia/index.php](https://ddc.moph.go.th/viralpneumonia/index.php)
 
 ```
 [![button](https://github.com/ecs-support/knowledge-center/raw/master/img/tool/btn_download.png)](https://mattermost.com)
@@ -22,8 +26,11 @@
 ```
 ## Knowledge
 - [Plot.ly CheatSheet](https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf)
+
+## Data
+- [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0NjQwNjExLC0xMTQ5MzI5OTE5LDE1MT
+eyJoaXN0b3J5IjpbNzY4MTA0MDcxLC0xMTQ5MzI5OTE5LDE1MT
 Q1NjE3NTAsLTE3NTIxNDg0MjAsMTEzOTI5Mzc4LDIzNzk5NTA1
 NF19
 -->
