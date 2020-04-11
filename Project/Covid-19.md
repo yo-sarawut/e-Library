@@ -20,9 +20,10 @@
 [![Foo](https://github.com/ecs-support/knowledge-center/raw/master/img/tool/btn_download.png)](http://google.com.au/)
 ```
 ```
-- 
-
+## Knowledge
+- [Plot.ly CheatSheet](https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkzMjk5MTksMTUxNDU2MTc1MCwtMT
-c1MjE0ODQyMCwxMTM5MjkzNzgsMjM3OTk1MDU0XX0=
+eyJoaXN0b3J5IjpbODE0NjQwNjExLC0xMTQ5MzI5OTE5LDE1MT
+Q1NjE3NTAsLTE3NTIxNDg0MjAsMTEzOTI5Mzc4LDIzNzk5NTA1
+NF19
 -->
