@@ -29,6 +29,7 @@ PANTONE 19-4055
 - [Dash-recipes : Example on GitHub](https://github.com/plotly/dash-recipes)
 - [awesome-dash](https://github.com/ucg8j/awesome-dash)
 - [Dash simple-example-chart-apps](https://github.com/plotly/simple-example-chart-apps)
+- [Dash App Gallery](https://dash-gallery.plotly.host/Portal/)
 - [Panel](https://panel.holoviz.org/index.html)
 - [pydeck](https://github.com/uber/deck.gl/blob/master/bindings/pydeck/README.md)
 
@@ -384,11 +385,11 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NTU2NjI0LC02ODI4MzQ1NTgsNTc5MD
-MzNTEwLDg0MzQ1ODEzOSwxOTk5MzI1NDgyLDUzODE4OTc3NCwx
-NTk1MDA0NDEyLDE2OTQ0MTAzOTEsLTEzMTk1OTU4MDMsNTk1Mj
-g1ODQzLDExNzkzNzExNzEsLTgxNzY2NTYzOSwtNTk2MDM4ODQ2
-LDE4Mjg4MzU4NSw5MTYxNjU4ODMsNzI4NjczNDUyLDE3NDc3Nj
-Y1NjcsLTUxNzgwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTBd
-fQ==
+eyJoaXN0b3J5IjpbNzcxNjEwMDE1LDIyOTU1NjYyNCwtNjgyOD
+M0NTU4LDU3OTAzMzUxMCw4NDM0NTgxMzksMTk5OTMyNTQ4Miw1
+MzgxODk3NzQsMTU5NTAwNDQxMiwxNjk0NDEwMzkxLC0xMzE5NT
+k1ODAzLDU5NTI4NTg0MywxMTc5MzcxMTcxLC04MTc2NjU2Mzks
+LTU5NjAzODg0NiwxODI4ODM1ODUsOTE2MTY1ODgzLDcyODY3Mz
+Q1MiwxNzQ3NzY2NTY3LC01MTc4MDU3OSwtMTEzNTA5MTkzMV19
+
 -->
