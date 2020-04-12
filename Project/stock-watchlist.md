@@ -27,8 +27,10 @@ PANTONE 19-4055
 - [Dash Store clicks example](https://dash.plot.ly/dash-core-components/store)
 - [รวมบทความ Dash](https://medium.com/plotly/introducing-dash-5ecf7191b503)
 - [Dash-recipes : Example on GitHub](https://github.com/plotly/dash-recipes)
+- [awesome-dash](https://github.com/ucg8j/awesome-dash)
 - [Dash simple-example-chart-apps](https://github.com/plotly/simple-example-chart-apps)
 - [Panel](https://panel.holoviz.org/index.html)
+- [pydeck](https://github.com/uber/deck.gl/blob/master/bindings/pydeck/README.md)
 
 ## ชื่อโปรแกรม 
 
@@ -382,11 +384,11 @@ UwOTA2MTY5OSwtMjA0NzQ0MjAzNiwtNjEwMTEwMzQyLC0xNTMz
 ODM4ODE2LC01ODU4NDg4NDksLTExNjMyMjQwOTBdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjgzNDU1OCw1NzkwMzM1MTAsODQzND
-U4MTM5LDE5OTkzMjU0ODIsNTM4MTg5Nzc0LDE1OTUwMDQ0MTIs
-MTY5NDQxMDM5MSwtMTMxOTU5NTgwMyw1OTUyODU4NDMsMTE3OT
-M3MTE3MSwtODE3NjY1NjM5LC01OTYwMzg4NDYsMTgyODgzNTg1
-LDkxNjE2NTg4Myw3Mjg2NzM0NTIsMTc0Nzc2NjU2NywtNTE3OD
-A1NzksLTExMzUwOTE5MzEsLTY2MTc2ODkxMCwxODAxMjM1MDAw
-XX0=
+eyJoaXN0b3J5IjpbMjI5NTU2NjI0LC02ODI4MzQ1NTgsNTc5MD
+MzNTEwLDg0MzQ1ODEzOSwxOTk5MzI1NDgyLDUzODE4OTc3NCwx
+NTk1MDA0NDEyLDE2OTQ0MTAzOTEsLTEzMTk1OTU4MDMsNTk1Mj
+g1ODQzLDExNzkzNzExNzEsLTgxNzY2NTYzOSwtNTk2MDM4ODQ2
+LDE4Mjg4MzU4NSw5MTYxNjU4ODMsNzI4NjczNDUyLDE3NDc3Nj
+Y1NjcsLTUxNzgwNTc5LC0xMTM1MDkxOTMxLC02NjE3Njg5MTBd
+fQ==
 -->
