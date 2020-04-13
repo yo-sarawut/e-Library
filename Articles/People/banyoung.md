@@ -7,7 +7,6 @@
 
 ----------
 
-เรื่อง  [ทรงกลด บางยี่ขัน](https://readthecloud.co/author/zcongklod)ภาพ  [ณัฐนิช ชนะฤทธิชัย](https://readthecloud.co/author/nantanich)
 [Cloud of Thoughts](https://readthecloud.co/interview/thoughts/)
 2 เมษายน 2563
 
@@ -299,7 +298,7 @@
 
 ![บรรยง พงษ์พานิช นักคิดนอกกรอบ จากเสมียนเคาะกระดานหุ้นสู่ประธานบริษัทการเงิน กลุ่มธุรกิจการเงินเกียรตินาคินภัทร](https://readthecloud.co/wp-content/uploads/2020/04/banyong-pongpanich-25-750x500.jpg)
 
-> [Source : ](https://).
+> Reference : [The Clound ](https://readthecloud.co/banyong-pongpanich/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDU5NTc3NF19
+eyJoaXN0b3J5IjpbMzYyNTA0ODI0XX0=
 -->
