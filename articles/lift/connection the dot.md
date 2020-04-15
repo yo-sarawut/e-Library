@@ -50,7 +50,7 @@ Dots อีกเก้าสิบเก้าจุด… ค่อยๆม�
 
 มา สะสมและ Connecting the dots กันนะครับ…
 
-> [Source : ](https://).
+> [FB : เขียนไว้ให้เธอ ](https://www.facebook.com/101815121284197/photos/a.101865634612479/162847951847580/?type=3&theater).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjA4NTI1M119
+eyJoaXN0b3J5IjpbLTE4MzUxNTkyNDBdfQ==
 -->
