@@ -1,490 +1,1013 @@
-# Table of Contents
 
-* [Python DateTime, TimeDelta, Strftime\(Format\) with Examples](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-datetime-timedelta-strftime-format-with-examples)
-* [How to Use Date & DateTime Class](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#how-to-use-date-datetime-class)
-* [Print Date using date.today\(\)](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#print-date-using-date-today)
-  * [Today’s Weekday Number](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#today-s-weekday-number)
-* [Python Current Date and Time: now\(\) today\(\)](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-current-date-and-time-now-today)
-* [How to Format Date and Time Output with Strftime\(\)](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#how-to-format-date-and-time-output-with-strftime)
-* [How to use Timedelta Objects](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#how-to-use-timedelta-objects)
-* [Python 2 Example](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#python-2-example)
-  * [Summary](http://localhost:1313/library/tutorials/docs/python/beginer/date-and-time/datetime-timedelta-strftime/#summary)
+ที่
 
-\| NO. \| รหัสประเทศ \|ชื่อประเทศ \|สกุลเงิน \|
+เลขที่เอกสาร
 
-\|:------:\|:-------:\|---------\|-----\|
+รายละเอียด
 
-\| 1 \|AD \|ANDORRA \|AUD \|
+วันที่เอกสาร
 
-\| 2 \|AE \|UNITED ARAB EMIRATES \|THB \|
+จำนวนดาวน์โหลด
 
-\| 3 \|AF \|AFGHANISTAN \|BEF \|
+1
 
-\| 4 \|AG \|ANTIGUA AND BARBUDA \|BND \|
+76/2563
 
-\| 5 \|AL \|ALBANIA \|CAD \|
+[หลักเกณฑ์และพิธีการสำหรบการยกเว้นอากรศุลกากรสำหรับของที่นำเข้ามาเพื่อใช้รักษา วินิจฉัย หรือป้องกันโรคติดเชื้อไวรัสโคโรนา 2019](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f49464b4d464b48)
 
-\| 6 \|AM \|ARMENIA \|DKK \|
+14 เมษายน 2563
 
-\| 7 \|AN \|NETHERLANDS ANTILLES \|DEM \|
+356
 
-\| 8 \|AO \|ANGOLA \|VND \|
+2
 
-\| 9 \|AR \|ARGENTINA \|EUR \|
+71/2563
 
-\| 10 \|AS \|AMERICAN SAMOA \|RFR \|
+[การอำนวยความสะดวกในการแสดงข้อมูลใบเสร็จรับเงิน (กศก.122 หรือ กศก. 123) ในการติดต่อราชการกับกรมศุลกากร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f48464b4d464a4e)
 
-\| 11 \|AT \|AUSTRIA \|HKD \|
+10 เมษายน 2563
 
-\| 12 \|AU \|AUSTRALIA \|INR \|
+307
 
-\| 13 \|AW \|ARUBA \|IEP \|
+3
 
-\| 14 \|AZ \|AZERBAIJAN \|ITL \|
+73/2563
 
-\| 15 \|BB \|BARBADOS \|JOD \|
+[ขยายระยะเวลาวันหมดอายุใบรับรองผู้ชำนาญการศุลกากร และงดการจัดฝึกอบรมหลักสูตร "ต่ออายุใบรับรองผู้ชำนาญการศุลกากร"](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f49464a4e464b46)
 
-\| 16 \|BD \|BANGLADESH \|LAK \|
+10 เมษายน 2563
 
-\| 17 \|BE \|BELGIUM \|KWD \|
+162
 
-\| 18 \|BF \|BURKINA FASO \|MMK \|
+4
 
-\| 19 \|BG \|BULGARIA \|MYR \|
+64/2563
 
-\| 20 \|BH \|BAHRAIN \|MTL \|
+[การเปลี่ยนแปลงข้อมูลผู้จัดตั้งเขตปลอดอากร อมตะซิตี้ ระยอง ราย บริษัท อมตะซิตี้ ระยอง จำกัด](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464b4d464b47)
 
-\| 21 \|BI \|BURUNDI \|FIM \|
+9 เมษายน 2563
 
-\| 22 \|BJ \|BENIN \|MXN \|
+75
 
-\| 23 \|BM \|BERMUDA \|NLG \|
+5
 
-\| 24 \|BN \|BRUNEI DARUSSALAM \|TWD \|
+72/2563
 
-\| 25 \|BO \|BOLIVIA \|NZD \|
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464b49464b47)
 
-\| 26 \|BR \|BRAZIL \|NOK \|
+9 เมษายน 2563
 
-\| 27 \|BS \|BAHAMAS \|PKR \|
+129
 
-\| 28 \|BT \|BHUTAN \|PHP \|
+6
 
-\| 29 \|BV \|BOUVET ISLAND \|PTE \|
+66/2563
 
-\| 30 \|BW \|BOTSWANA \|GBP \|
+[อนุมัติต่ออายุการเป็นผู้ประกอบการของเร่งด่วน](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464b48464a4e)
 
-\| 31 \|BY \|BELARUS \|ZAR \|
+8 เมษายน 2563
 
-\| 32 \|BZ \|BELIZE \|KHR \|
+111
 
-\| 33 \|CA \|CANADA \|IDR \|
+7
 
-\| 34 \|CC \|COCOS \(KEELING\) IS.S \|SAR \|
+70/2563
 
-\| 35 \|CF \|CENTRAL AFRICAN REP. \|ATS \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 144/2560 เรื่อง หลักเกณฑ์และพิธีการสำหรับการลดอัตราอากรและยกเว้นอากรศุลกากรตามมาตรา 12 แห่งพระราชกำหนดพิกัดอัตราศุลกากร พ.ศ.2530](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464b48464a4f)
 
-\| 36 \|CG \|CONGO \|SGD \|
+8 เมษายน 2563
 
-\| 37 \|CH \|SWITZERLAND \|ESP \|
+565
 
-\| 38 \|CI \|COTE D IVOIRE \|SEK \|
+8
 
-\| 39 \|CK \|COOK ISLANDS \|CHF \|
+68/2563
 
-\| 40 \|CL \|CHILE \|BDT \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464a4e464b48)
 
-\| 41 \|CM \|CAMEROON \|AED \|
+7 เมษายน 2563
 
-\| 42 \|CN \|CHINA \|USD \|
+121
 
-\| 43 \|CO \|COLOMBIA \|KRW \|
+9
 
-\| 44 \|CR \|COSTA RICA \|JPY \|
+67/2563
 
-\| 45 \|CU \|CUBA \|CNY \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464a4e464b49)
 
-\| 46 \|CV \|CAPE VERDE \| \|
+7 เมษายน 2563
 
-\| 47 \|CX \|CHRISTMAS ISLAND \| \|
+93
 
-\| 48 \|CY \|CYPRUS \| \|
+10
 
-\| 49 \|CZ \|CZECH REPUBLIC \| \|
+69/2563
 
-\| 50 \|DE \|GERMANY \| \|
+[การยกเลิกการเรียกสำเนาบัตรประจำตัวประชาชน สำเนาทะเบียนบ้าน หรือสำเนาเอกสารอื่น ๆ ที่ทางราชการออกให้ เพื่อการติดต่อขอรับบริการจากกรมศุลกากร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f47464b46464a4f)
 
-\| 51 \|DJ \|DJIBOUTI \| \|
+7 เมษายน 2563
 
-\| 52 \|DK \|DENMARK \| \|
+336
 
-\| 53 \|DM \|DOMINICA \| \|
+11
 
-\| 54 \|DO \|DOMINICAN REPUBLIC \| \|
+60/2563
 
-\| 55 \|DZ \|ALGERIA \| \|
+[ยกเลิกคีมหนีบดวงตาตะกั่ว](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505f46464a4f464b47)
 
-\| 56 \|EC \|ECUADOR \| \|
+31 มีนาคม 2563
 
-\| 57 \|EE \|ESTONIA \| \|
+171
 
-\| 58 \|EG \|EGYPT \| \|
+12
 
-\| 59 \|EH \|WESTERN SAHARA \| \|
+61/2563
 
-\| 60 \|ER \|ERITREA \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 144/2560 เรื่อง หลักเกณฑ์และพิธีการสำหรับการลดอัตราอากรและยกเว้นอากรศุลกากรตามมาตรา 12 แห่งพระราชกำหนดพิกัดอัตราศุลกากร พ.ศ.2530](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505e4f464b4d464b46)
 
-\| 61 \|ES \|SPAIN \| \|
+26 มีนาคม 2563
 
-\| 62 \|ET \|ETHIOPIA \| \|
+1,539
 
-\| 63 \|FI \|FINLAND \| \|
+13
 
-\| 64 \|FJ \|FIJI \| \|
+57/2563
 
-\| 65 \|FK \|FALKLAND ISLANDS \(MALVINAS\) \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 89/2562](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505e4f464b4a464b4c)
 
-\| 66 \|FM \|MICRONESIA \(FEDERATED STATES OF\) \| \|
+25 มีนาคม 2563
 
-\| 67 \|FO \|FAROE ISLANDS \| \|
+879
 
-\| 68 \|FR \|FRANCE \| \|
+14
 
-\| 69 \|FX \|FRANCE, METROPOLITAN \| \|
+59/2563
 
-\| 70 \|GA \|GABON \| \|
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับสำนักงานมาตรฐานผลิตภัณฑ์อุตสาหกรรม](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505e4f464b4b464b47)
 
-\| 71 \|GB \|UNITED KINGDOM \| \|
+25 มีนาคม 2563
 
-\| 72 \|GD \|GRENADA \| \|
+719
 
-\| 73 \|GE \|GEORGIA \| \|
+15
 
-\| 74 \|GF \|FRENCE GUIANA \| \|
+58/2563
 
-\| 75 \|GH \|GHANA \| \|
+[การเปลี่ยนแปลงข้อมูลผู้จัดตั้งเขตปลอดอากร อุดมสุขอินเตอร์กรุ๊ป รายบริษัท อุดมสุขอินเตอร์กรุ๊ป จำกัด](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505e4f464a4e464b4a)
 
-\| 76 \|GI \|GIBRALTAR \| \|
+24 มีนาคม 2563
 
-\| 77 \|GL \|GREENLAND \| \|
+186
 
-\| 78 \|GM \|GAMBIA \| \|
+16
 
-\| 79 \|GN \|GUINEA \| \|
+55/2563
 
-\| 80 \|GP \|GUADELOUPE \| \|
+[อนุญาตให้เป็นผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=14232832414a505e4e464b47464b46)
 
-\| 81 \|GQ \|EQUATORIAL GUINEA \| \|
+17 มีนาคม 2563
 
-\| 82 \|GR \|GREECE \| \|
+449
 
-\| 83 \|GS \|SOUTH \| \|
+17
 
-\| 84 \|GT \|GUATEMALA \| \|
+51/2563
 
-\| 85 \|GU \|GUAM \| \|
+[อนุญาตให้เป็นผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4d464b4b464b48)
 
-\| 86 \|GW \|GUINEA-BISSAU \| \|
+10 มีนาคม 2563
 
-\| 87 \|GY \|GUYANA \| \|
+334
 
-\| 88 \|HK \|HONG KONG \| \|
+18
 
-\| 89 \|HM \|HEARD ISLAND AND MCDONALD ISLANDS \| \|
+52/2563
 
-\| 90 \|HN \|HONDURAS \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4d464b4b464b49)
 
-\| 91 \|HR \|CROATIA \| \|
+10 มีนาคม 2563
 
-\| 92 \|HT \|HAITI \| \|
+263
 
-\| 93 \|HU \|HUNGARY \| \|
+19
 
-\| 94 \|ID \|INDONESIA \| \|
+53/2563
 
-\| 95 \|IE \|IRELAND \| \|
+[อนุญาตให้เป็นผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4d464b4b464b4a)
 
-\| 96 \|IL \|ISRAEL \| \|
+10 มีนาคม 2563
 
-\| 97 \|IN \|INDIA \| \|
+250
 
-\| 98 \|IO \|BRITISH INDIAN OCEAN TERRITORY \| \|
+20
 
-\| 99 \|IQ \|IRAQ \| \|
+54/2563
 
-\| 100 \|IR \|IRAN \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4d464b4b464b4b)
 
-\| 101 \|IS \|ICELAND \| \|
+10 มีนาคม 2563
 
-\| 102 \|IT \|ITALY \| \|
+238
 
-\| 103 \|JM \|JAMAICA \| \|
+21
 
-\| 104 \|JO \|JORDAN \| \|
+47/2563
 
-\| 105 \|JP \|JAPAN \| \|
+[การแสดงหนังสือรับรองถิ่นกำเนิดสินค้า (Form E) สำหรับผู้นำของเข้าจากสาธารณรัฐประชาชนจีนที่ได้รับผลกระทบจากการระบาดของไวรัสโคโรนาสายพันธุ์ใหม่ 2019 (COVID-19)](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464b4c464a4e)
 
-\| 106 \|KE \|KENYA \| \|
+4 มีนาคม 2563
 
-\| 107 \|KG \|KYRGYZSTAN \| \|
+2,039
 
-\| 108 \|KH \|CAMBODIA \| \|
+22
 
-\| 109 \|KI \|KIRIBATI \| \|
+46/2563
 
-\| 110 \|KM \|COMOROS \| \|
+[แก้ไขประกาศกรมศุลกากรที่ 37/2563](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464b47464b46)
 
-\| 111 \|KN \|SAINT KITTS AND NEVIS \| \|
+28 กุมภาพันธ์ 2563
 
-\| 112 \|KP \|KOREA \| \|
+1,112
 
-\| 113 \|KR \|KOREA,REPUBLIC OF \| \|
+23
 
-\| 114 \|KW \|KUWAIT \| \|
+44/2563
 
-\| 115 \|KY \|CAYMAN ISLANDS \| \|
+[การเชื่่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับกรมการค้าต่างประเทศ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464b46464a4f)
 
-\| 116 \|KZ \|KAZAKHSTAN \| \|
+27 กุมภาพันธ์ 2563
 
-\| 117 \|LA \|LAO REPUBLIC \| \|
+803
 
-\| 118 \|LB \|LEBANON \| \|
+24
 
-\| 119 \|LC \|SAINT LUCIA \| \|
+45/2563
 
-\| 120 \|LI \|LIECHTENSTEIN \| \|
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับกรมวิชาการเกษตร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464b46464b46)
 
-\| 121 \|LK \|SRI LANKA \| \|
+27 กุมภาพันธ์ 2563
 
-\| 122 \|LR \|LIBERIA \| \|
+638
 
-\| 123 \|LS \|LESOTHO \| \|
+25
 
-\| 124 \|LT \|LITHUANIA \| \|
+42/2563
 
-\| 125 \|LU \|LUXEMBOURG \| \|
+[การปฏิบัติเกี่ยวกับการตรวจสอบสารกัมมันตรังสีสินค้านำเข้า ส่งออก ผ่านแดน และถ่ายลำ (Megaports Initiative:MI) ณ ท่าเรือแหลมฉบัง](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464a4f464b4b)
 
-\| 126 \|LV \|LATVIA \| \|
+26 กุมภาพันธ์ 2563
 
-\| 127 \|LY \|LIBYAN ARAB JAMAHIRIYA \| \|
+706
 
-\| 128 \|MA \|MOROCCO \| \|
+26
 
-\| 129 \|MC \|MONACO \| \|
+43/2563
 
-\| 130 \|MD \|MOLDOVA REPUBLIC OF \| \|
+[ยกเลิกบัตรภาษีสูญหาย](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4c464a4e464a4f)
 
-\| 131 \|MG \|MADAGASCAR \| \|
+25 กุมภาพันธ์ 2563
 
-\| 132 \|MH \|MARSHALL ISLAND \| \|
+384
 
-\| 133 \|MK \|MACEDONIA \| \|
+27
 
-\| 134 \|ML \|MALI \| \|
+40/2563
 
-\| 135 \|MM \|MYANMAR \| \|
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b4c464b46)
 
-\| 136 \|MN \|MONGOLIA \| \|
+21 กุมภาพันธ์ 2563
 
-\| 137 \|MO \|MACAU \| \|
+440
 
-\| 138 \|MP \|NORTHERN MARIANA ISLANDS \| \|
+28
 
-\| 139 \|MQ \|MARTINIQUE \| \|
+41/2563
 
-\| 140 \|MR \|MAURITANIA \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b4c464b47)
 
-\| 141 \|MS \|MONTSERRAT \| \|
+21 กุมภาพันธ์ 2563
 
-\| 142 \|MT \|MALTA \| \|
+399
 
-\| 143 \|MU \|MAURITIUS \| \|
+29
 
-\| 144 \|MV \|MALDIVES \| \|
+38/2563
 
-\| 145 \|MW \|MALAWI \| \|
+[(แก้ไขบัญชีแนบท้าย) ประกาศกรมฯ ที่ 38/2563 เรื่อง แก้ไขเพิ่มเติมรหัสสถิติสินค้า](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b4b464b46)
 
-\| 146 \|MX \|MEXICO \| \|
+20 กุมภาพันธ์ 2563
 
-\| 147 \|MY \|MALAYSIA \| \|
+832
 
-\| 148 \|MZ \|MOZAMBIQUE \| \|
+30
 
-\| 149 \|NA \|NAMIBIA \| \|
+39/2563
 
-\| 150 \|NC \|NEW CALEDONIA \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากร ที่ 144/2560](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b4b464b49)
 
-\| 151 \|NE \|NIGER \| \|
+20 กุมภาพันธ์ 2563
 
-\| 152 \|NF \|NORFOLK ISLAND \| \|
+877
 
-\| 153 \|NG \|NIGERIA \| \|
+31
 
-\| 154 \|NI \|NICARAGUA \| \|
+36/2563
 
-\| 155 \|NL \|NETHERLANDS \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b49464b47)
 
-\| 156 \|NO \|NORWAY \| \|
+19 กุมภาพันธ์ 2563
 
-\| 157 \|NP \|NEPAL \| \|
+422
 
-\| 158 \|NR \|NAURU \| \|
+32
 
-\| 159 \|NU \|NIUE \| \|
+35/2563
 
-\| 160 \|NZ \|NEW ZEALAND \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 174/2560](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b48464b47)
 
-\| 161 \|OM \|OMAN \| \|
+18 กุมภาพันธ์ 2563
 
-\| 162 \|OT \|OTHER COUNTRY \| \|
+1,078
 
-\| 163 \|PA \|PANAMA \| \|
+33
 
-\| 164 \|PE \|PERU \| \|
+37/2563
 
-\| 165 \|PF \|FRENCH POLYNESIA \| \|
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับสำนักงานมาตรฐานผลิตภัณฑ์อุตสาหกรรม](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464b48464b46)
 
-\| 166 \|PG \|PAPUA NEW GUINEA \| \|
+17 กุมภาพันธ์ 2563
 
-\| 167 \|PH \|PHILIPPINES \| \|
+788
 
-\| 168 \|PK \|PAKISTAN \| \|
+34
 
-\| 169 \|PL \|POLAND \| \|
+34/2563
 
-\| 170 \|PM \|SAINT PIERRE AND MIQUELON \| \|
+[อนุญาตให้เป็นตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464a4f464b4b)
 
-\| 171 \|PN \|PITCAIRN \| \|
+13 กุมภาพันธ์ 2563
 
-\| 172 \|PR \|PUERTO RICO \| \|
+456
 
-\| 173 \|PT \|PORTUGAL \| \|
+35
 
-\| 174 \|PW \|PALAU \| \|
+33/2563
 
-\| 175 \|PY \|PARAGUAY \| \|
+[ยกเลิกบัตรภาษีสูญหาย](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4b464a4e464b4c)
 
-\| 176 \|QA \|QATAR \| \|
+12 กุมภาพันธ์ 2563
 
-\| 177 \|RE \|REUNION \| \|
+429
 
-\| 178 \|RO \|ROMANIA \| \|
+36
 
-\| 179 \|RU \|RUSSIAN FEDERATION \| \|
+31/2563
 
-\| 180 \|RW \|RWANDA \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากร ที่ 21/2561](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4a464b4d464b49)
 
-\| 181 \|SA \|SAUDI ARABIA \| \|
+11 กุมภาพันธ์ 2563
 
-\| 182 \|SB \|SOLOMON ISLANDS \| \|
+1,137
 
-\| 183 \|SC \|SEYCHELLES \| \|
+37
 
-\| 184 \|SD \|SUDAN \| \|
+293/2562
 
-\| 185 \|SE \|SWEDEN \| \|
+[ยกเลิกใบเสร็จรับเงิน](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4a464b4d464b4d)
 
-\| 186 \|SG \|SINGAPORE \| \|
+11 กุมภาพันธ์ 2563
 
-\| 187 \|SH \|SAINT HELENA \| \|
+437
 
-\| 188 \|SI \|SLOVENIA \| \|
+38
 
-\| 189 \|SJ \|SVALBARD AND JAN MAYEN \| \|
+32/2563
 
-\| 190 \|SK \|SLOVAKIA \| \|
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4a464b4c464b47)
 
-\| 191 \|SL \|SIERRA LEONE \| \|
+7 กุมภาพันธ์ 2563
 
-\| 192 \|SM \|SAN MARINO \| \|
+486
 
-\| 193 \|SN \|SENEGAL \| \|
+39
 
-\| 194 \|SO \|SOMALIA \| \|
+27/2563
 
-\| 195 \|SR \|SURINAME \| \|
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากร ที่ 144/2560 เรื่อง หลักเกณฑ์และพิธีการสำหรับการลดอัตราอากรและยกเว้นอากรศุลกากรตามมาตรา 12 แห่งพระราชกำหนดพิกัดอัตราศุลกากร พ.ศ. 2530](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4a464b4c464b4b)
 
-\| 196 \|ST \|SAO TOME AND PRINCIPE \| \|
+7 กุมภาพันธ์ 2563
 
-\| 197 \|SV \|EL SALVADOR \| \|
+1,518
 
-\| 198 \|SY \|SYRIAN ARAB REPUBLIC \| \|
+40
 
-\| 199 \|SZ \|SWAZILAND \| \|
+30/2563
 
-\| 200 \|TC \|TURKS AND CAICOS ISLANDS \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f4a464b47464b4d)
 
-\| 201 \|TD \|CHAD \| \|
+6 กุมภาพันธ์ 2563
 
-\| 202 \|TF \|FRENCH SOUTHERN TERRITORIES \| \|
+450
 
-\| 203 \|TG \|TOGO \| \|
+41
 
-\| 204 \|TH \|THAILAND \| \|
+28/2563
 
-\| 205 \|TJ \|TAJIKISTAN \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b4b464b4b)
 
-\| 206 \|TK \|TOKELAU \| \|
+4 กุมภาพันธ์ 2563
 
-\| 207 \|TM \|TURKMENISTAN \| \|
+470
 
-\| 208 \|TN \|TUNISIA \| \|
+42
 
-\| 209 \|TO \|TONGA \| \|
+29/2563
 
-\| 210 \|TP \|EAST TIMOR \| \|
+[อนุญาตให้เป็นตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b4b464b4c)
 
-\| 211 \|TR \|TURKEY \| \|
+4 กุมภาพันธ์ 2563
 
-\| 212 \|TT \|TRINIDAD AND TOBAGO \| \|
+470
 
-\| 213 \|TV \|TUVALU \| \|
+43
 
-\| 214 \|TW \|TAIWAN PROVINCE OF CHINA \| \|
+25/2563
 
-\| 215 \|TZ \|TANZANIA UNITED REPUBLIC OF \| \|
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b49464b4b)
 
-\| 216 \|UA \|UKRAINE \| \|
+3 กุมภาพันธ์ 2563
 
-\| 217 \|UG \|UGANDA \| \|
+456
 
-\| 218 \|UM \|UNITED STATES MINOR \| \|
+44
 
-\| 219 \|US \|UNITED STATES \| \|
+26/2563
 
-\| 220 \|UY \|URUGUAY \| \|
+[แก้ไขเพิ่มเติมรหัสสถิติสินค้า](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b48464a4f)
 
-\| 221 \|UZ \|UZBEKISTAN \| \|
+31 มกราคม 2563
 
-\| 222 \|VA \|VATICAN CITY \| \|
+801
 
-\| 223 \|VC \|SAINT VINCENT AND THE GRENADINES \| \|
+45
 
-\| 224 \|VE \|VENEZUELA \| \|
+24/2563
 
-\| 225 \|VG \|VIRGIN ISLANDS \(BRITISH\) \| \|
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b48464b48)
 
-\| 226 \|VI \|VIRGIN ISLANDS \(U.S.\) \| \|
+31 มกราคม 2563
 
-\| 227 \|VN \|VIETNAM \| \|
+490
 
-\| 228 \|VU \|VANUATU \| \|
+46
 
-\| 229 \|WF \|WALLIS AND FUTUNA ISLANDS \| \|
+11/2563
 
-\| 230 \|WS \|SAMOA \| \|
+[ขอยกเลิกใบเสร็จรับเงิน](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464b47464a4e)
 
-\| 231 \|YE \|YEMEN \| \|
+30 มกราคม 2563
 
-\| 232 \|YT \|MAYOTTE \| \|
+586
 
-\| 233 \|YU \|YUGOSLAVIA \| \|
+47
 
-\| 234 \|ZA \|SOUTH AFRICA \| \|
+58/2562
 
-\| 235 \|ZM \|ZAMBIA \| \|
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ ร่วมกับกรมการค้าต่างประเทศ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464a4f464b48)
 
-\| 236 \|ZR \|ZAIRE \| \|
+29 มกราคม 2563
 
-\| 237 \|ZW \|ZIMBABWE \| \| 
+676
 
+48
+
+23/2563
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464a4f464b4c)
+
+29 มกราคม 2563
+
+443
+
+49
+
+21/2563
+
+[การเปิดดำเนินการเขตปลอดอากร ฮีดากา ของ บริษัท ฮีดากา โฮลดิ้งส์ (2008) จำกัด](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f49464a4e464b4c)
+
+28 มกราคม 2563
+
+456
+
+50
+
+18/2563
+
+[การอนุญาตให้ บริษัท ดีเอแซด 1956 จำกัด เปิดดำเนินการคลังสินค้าทัณฑ์บนทั่วไป](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4d464b46)
+
+23 มกราคม 2563
+
+502
+
+51
+
+19/2563
+
+[การเปิดดำเนินการเขตปลอดอากร ชุน ยี อินเตอร์เนชั่นแนล ของ บริษัท ชุน ยี อินเตอร์เนชั่นแนล เทรดดิ้ง จำกัด](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4d464b47)
+
+23 มกราคม 2563
+
+544
+
+52
+
+16/2563
+
+[การส่งเงิน การขอรับเงินชดเชย การขอรับเงินคืน และการส่งเงินชดเชยคืน ตามกฏหมายว่าด้วยกองทุนน้ำมันเชื้อเพลิง](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4c464b4d)
+
+22 มกราคม 2563
+
+610
+
+53
+
+14/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4b464b49)
+
+21 มกราคม 2563
+
+526
+
+54
+
+15/2563
+
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 187/2560](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4b464b4a)
+
+21 มกราคม 2563
+
+2,265
+
+55
+
+17/2562
+
+[อนุญาตให้ผู้ประกอบการสิ้นสภาพการเป็นตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4b464b4b)
+
+21 มกราคม 2563
+
+516
+
+56
+
+12/2563
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4a464b48)
+
+17 มกราคม 2563
+
+537
+
+57
+
+13/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b4a464b49)
+
+17 มกราคม 2563
+
+526
+
+58
+
+9/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b49464a4f)
+
+16 มกราคม 2563
+
+506
+
+59
+
+6/2563
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b46464b4b)
+
+10 มกราคม 2563
+
+609
+
+60
+
+7/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464b46464b4c)
+
+10 มกราคม 2563
+
+593
+
+61
+
+3/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464a4f464b4b)
+
+9 มกราคม 2563
+
+557
+
+62
+
+4/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464a4f464b4c)
+
+9 มกราคม 2563
+
+547
+
+63
+
+5/2563
+
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับกรมการปกครอง](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f48464a4f464b4d)
+
+9 มกราคม 2563
+
+864
+
+64
+
+2/2563
+
+[แก้ไขเพิ่มเติมรหัสสถิติสินค้า](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f47464b4d464a4e)
+
+7 มกราคม 2563
+
+1,099
+
+65
+
+1/2563
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f47464b47464b46)
+
+6 มกราคม 2563
+
+615
+
+66
+
+287/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4d464b49)
+
+27 ธันวาคม 2562
+
+621
+
+67
+
+290/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4d464b4a)
+
+27 ธันวาคม 2562
+
+558
+
+68
+
+291/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4d464b4b)
+
+27 ธันวาคม 2562
+
+556
+
+69
+
+292/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4d464b4c)
+
+27 ธันวาคม 2562
+
+598
+
+70
+
+289/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f47464a4e464a4f)
+
+27 ธันวาคม 2562
+
+554
+
+71
+
+286/2562
+
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากรที่ 187/2560](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4c464b49)
+
+26 ธันวาคม 2562
+
+2,203
+
+72
+
+278/2562
+
+[แก้ไขเพิ่มเติมประกาศกรมศุลกากร ที่ 21/2561](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4c464b4c)
+
+26 ธันวาคม 2562
+
+1,062
+
+73
+
+283/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4c464a4e)
+
+25 ธันวาคม 2562
+
+584
+
+74
+
+284/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4c464a4f)
+
+25 ธันวาคม 2562
+
+593
+
+75
+
+285/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4c464b46)
+
+25 ธันวาคม 2562
+
+584
+
+76
+
+279/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4b464a4f)
+
+24 ธันวาคม 2562
+
+593
+
+77
+
+280/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4b464b46)
+
+24 ธันวาคม 2562
+
+559
+
+78
+
+281/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4b464b47)
+
+24 ธันวาคม 2562
+
+554
+
+79
+
+282/2562
+
+[ผลการทยทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b4b464b48)
+
+24 ธันวาคม 2562
+
+572
+
+80
+
+277/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b49464a4f)
+
+18 ธันวาคม 2562
+
+661
+
+81
+
+276/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b48464a4e)
+
+17 ธันวาคม 2562
+
+640
+
+82
+
+275/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b48464a4f)
+
+17 ธันวาคม 2562
+
+615
+
+83
+
+273/2562
+
+[นโยบายอนุรักษ์พลังงาน](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464b46464b48)
+
+13 ธันวาคม 2562
+
+764
+
+84
+
+274/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505f46464a4e464b46)
+
+11 ธันวาคม 2562
+
+705
+
+85
+
+271/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b4c464b4d)
+
+9 ธันวาคม 2562
+
+709
+
+86
+
+260/2562
+
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ ร่วมกับกรมการค้าต่างประเทศ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b4a464a4f)
+
+6 ธันวาคม 2562
+
+1,186
+
+87
+
+268/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b4a464b49)
+
+6 ธันวาคม 2562
+
+703
+
+88
+
+269/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b4a464b4a)
+
+6 ธันวาคม 2562
+
+681
+
+89
+
+270/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b4c464b4a)
+
+6 ธันวาคม 2562
+
+685
+
+90
+
+267/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4f464b47464b4a)
+
+4 ธันวาคม 2562
+
+735
+
+91
+
+266/2562
+
+[การเปิดดำเนินการเขตปลอดอากร บริษัท เอเวอรี่ เดนนิสสัน (ประเทศไทย) จำกัด ของ บริษัท เอเวอรี่ เดนนิสสัน (ประเทศไทย) จำกัด](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b4d464a4e)
+
+3 ธันวาคม 2562
+
+735
+
+92
+
+264/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b4c464b48)
+
+3 ธันวาคม 2562
+
+720
+
+93
+
+262/2562
+
+[อนุญาตให้เป็นผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b4b464b49)
+
+2 ธันวาคม 2562
+
+763
+
+94
+
+263/2562
+
+[ผลการทบทวนสถานภาพผู้นำของเข้า ผู้ส่งของออกระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b4b464b4a)
+
+2 ธันวาคม 2562
+
+729
+
+95
+
+258/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b47464b48)
+
+29 พฤศจิกายน 2562
+
+756
+
+96
+
+259/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b47464b49)
+
+29 พฤศจิกายน 2562
+
+762
+
+97
+
+261/2562
+
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับกรมวิชาการเกษตร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b48464a4f)
+
+29 พฤศจิกายน 2562
+
+1,070
+
+98
+
+261/2562
+
+[การเชื่อมโยงข้อมูลใบอนุญาต/ใบรับรองอิเล็กทรอนิกส์ร่วมกับกรมวิชาการเกษตร](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b48464b46)
+
+29 พฤศจิกายน 2562
+
+863
+
+99
+
+256/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b47464b46)
+
+28 พฤศจิกายน 2562
+
+725
+
+100
+
+257/2562
+
+[ผลการทบทวนสถานภาพตัวแทนออกของระดับมาตรฐานเออีโอ](http://www.customs.go.th/cont_strc_download_with_docno_date.php?lang=th&top_menu=menu_homepage&current_id=142328324149505e4e464b47464b47)
+
+28 พฤศจิกายน 2562
+
+718
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAwNjc4MjM1OV19
+-->
