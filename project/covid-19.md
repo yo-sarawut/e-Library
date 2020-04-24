@@ -3,6 +3,7 @@
 ## Tool
 
 * [Mini Cpnda](https://phyblas.hinaboshi.com/20190118)
+* [folium : แผนที่โลก](https://python-visualization.github.io/folium/modules.html#module-folium.folium)
 
 ## Example
 
@@ -38,3 +39,6 @@
 
 * [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyMDQ5Njg2MjJdfQ==
+-->
