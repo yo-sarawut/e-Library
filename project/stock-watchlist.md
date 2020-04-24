@@ -16,6 +16,9 @@ PANTONE 19-4055
 
 * [เลือกสี](https://www.w3schools.com/colors/colors_fs595.asp)
 
+### Library Finance
+- [yfinance](https://github.com/ranaroussi/yfinance)
+
 ### ศึกษาเพิ่มเติม
 
 * [Awesome-Quant](https://github.com/wilsonfreitas/awesome-quant#data-sources)   Awesome libraries, packages and resources for Quants \(Quantitative Finance\)
@@ -348,3 +351,6 @@ Low : 'fiftyTwoWeekLow'
 
 This is a paragraph.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM5NTI4MTAwOF19
+-->
