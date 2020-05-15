@@ -50,7 +50,7 @@
 -   การเล่นคำกับชื่อเรื่องหรือหัวเรื่อง
 -   ถ้อยแถลงสรุปความ
 
-> [Source : ]([https://th.wikipedia.org/](https://th.wikipedia.org/wiki/%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1)).
+> [Source :](https://th.wikipedia.org/wiki/%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDY1MDgzNF19
+eyJoaXN0b3J5IjpbMzI4MDU3MzE2XX0=
 -->
