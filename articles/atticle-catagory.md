@@ -1,11 +1,11 @@
 # Atticle-Catagory
 
-Productivity
-Psychology
-Sleep
-Social Media
-Book Review
-Perspective
+Productivity	-	ผลผลิต
+Psychology	-	จิตวิทยา
+Sleep	-	นอน
+Social Media	-	สื่อสังคม
+Book Review	-	หนังสือทบทวน
+Perspective	-	มุมมอง
 
 ## Wikipedia:Contents/Portals
 
@@ -79,5 +79,5 @@ Perspective
 > * Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDEyNzE5Ml19
+eyJoaXN0b3J5IjpbMTE2NTgzOTIyNV19
 -->
