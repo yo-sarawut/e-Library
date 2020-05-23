@@ -14,6 +14,13 @@
 - [AlphaGo จุดเริ่ม การไร้ค่าของมนุษย์](https://www.longtunman.com/963)
 - [Alphago หมากตาที่ 78 และหนึ่งเกมแห่งชัยชนะของลี เซดอล](https://www.movie8d.com/2019/12/alphago-78-1.html)
 
+
+## Series
+
+- [มาร์ค ซัคเคอร์เบิร์ก I’m CEO Bitch](https://www.blockdit.com/series/5d4ead0a9949df3c856ab638)
+- [Jack Ma Rise of the Dragon]()
+
+
 ## บทความน่าสนใจ
 
 * [นิทานเรื่อง big data กับหนังสือในห้องสมุด](https://blog.skooldio.com/%e0%b8%99%e0%b8%b4%e0%b8%97%e0%b8%b2%e0%b8%99%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-big-data-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%b7%e0%b8%ad/)
@@ -84,5 +91,6 @@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjY5MTgxLC04ODQwMzUxNjddfQ==
+eyJoaXN0b3J5IjpbMTUzMjU2NTY4OSwtNTgyNjkxODEsLTg4ND
+AzNTE2N119
 -->
