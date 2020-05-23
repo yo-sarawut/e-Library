@@ -10,6 +10,8 @@
 ###  AlphaGo
 - [AlphaGo Documentary สุดยอดสารคดีที่อยากบอกต่อ](https://www.finnomena.com/mr-chaipat/alphago-documentary/)
 - [เจาะลึก AlphaGo ทำงานอย่างไร ?](https://medium.com/kosate/%E0%B9%80%E0%B8%88%E0%B8%B2%E0%B8%B0%E0%B8%A5%E0%B8%B6%E0%B8%81-alphago-%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%84%E0%B8%A2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B9%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89-3a1cf3631289)
+- [AlphaGo Zero ปัญญาประดิษฐ์ หมากล้อม](https://www.salika.co/2018/06/03/alphago-zero/)
+- []
 
 ## บทความน่าสนใจ
 
@@ -81,5 +83,5 @@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTI2NThdfQ==
+eyJoaXN0b3J5IjpbODgxODQ3Mzc4XX0=
 -->
