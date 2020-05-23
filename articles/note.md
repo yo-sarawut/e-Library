@@ -18,7 +18,10 @@
 ## Series
 
 - [มาร์ค ซัคเคอร์เบิร์ก I’m CEO Bitch](https://www.blockdit.com/series/5d4ead0a9949df3c856ab638)
-- [Jack Ma Rise of the Dragon]()
+- [Jack Ma Rise of the Dragon](https://www.blockdit.com/series/5d4f14c5e1f1ea22964509f7)
+- [Jeff Bezos and the rise of amazon.com](https://www.blockdit.com/series/5d5059422407d310266bacdc)
+- [Elon Musk The Real Life Iron Man](https://www.blockdit.com/series/5d57d421a360bd0cc7b65c27)
+- [The Google Story](https://www.blockdit.com/series/5d57da76f68bf70cb4b3d8ba)
 
 
 ## บทความน่าสนใจ
@@ -91,6 +94,6 @@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjU2NTY4OSwtNTgyNjkxODEsLTg4ND
-AzNTE2N119
+eyJoaXN0b3J5IjpbLTE2NjYwNzU1NjgsLTU4MjY5MTgxLC04OD
+QwMzUxNjddfQ==
 -->
