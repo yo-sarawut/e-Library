@@ -12,6 +12,7 @@
 - [เจาะลึก AlphaGo ทำงานอย่างไร ?](https://medium.com/kosate/%E0%B9%80%E0%B8%88%E0%B8%B2%E0%B8%B0%E0%B8%A5%E0%B8%B6%E0%B8%81-alphago-%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%84%E0%B8%A2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B9%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89-3a1cf3631289)
 - [AlphaGo Zero ปัญญาประดิษฐ์ หมากล้อม](https://www.salika.co/2018/06/03/alphago-zero/)
 - [AlphaGo จุดเริ่ม การไร้ค่าของมนุษย์](https://www.longtunman.com/963)
+- [Alphago หมากตาที่ 78 และหนึ่งเกมแห่งชัยชนะของลี เซดอล](https://www.movie8d.com/2019/12/alphago-78-1.html)
 
 ## บทความน่าสนใจ
 
@@ -83,5 +84,5 @@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDAzNTE2N119
+eyJoaXN0b3J5IjpbLTU4MjY5MTgxLC04ODQwMzUxNjddfQ==
 -->
