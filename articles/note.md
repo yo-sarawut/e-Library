@@ -5,6 +5,9 @@
 * [การแบ่งหมวดหมู่ใน Medium](https://medium.com/topics)
 * [Wikipedia: Articles with the most references](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 
+## วัตถุดิบ
+### 
+
 ## บทความน่าสนใจ
 
 * [นิทานเรื่อง big data กับหนังสือในห้องสมุด](https://blog.skooldio.com/%e0%b8%99%e0%b8%b4%e0%b8%97%e0%b8%b2%e0%b8%99%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-big-data-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%b7%e0%b8%ad/)
@@ -74,3 +77,6 @@
 |===
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NzA1NzM3ODRdfQ==
+-->
