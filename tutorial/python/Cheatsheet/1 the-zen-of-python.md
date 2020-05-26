@@ -54,7 +54,6 @@ Examples of expressions in the interactive shell:
 ```py
 >>> 2 + 3 * 6
 20
-
 ```
 
 ```py
@@ -63,25 +62,25 @@ Examples of expressions in the interactive shell:
 
 ```
 
-```
+```py
 >>> 2 ** 8
 256
 
 ```
 
-```
+```py
 >>> 23 // 7
 3
 
 ```
 
-```
+```py
 >>> 23 % 7
 2
 
 ```
 
-```
+```py
 >>> (5 - 1) * ((7 + 1) / (3 - 1))
 16.0
 
@@ -109,7 +108,7 @@ Strings
 
 String concatenation:
 
-```
+```py
 >>> 'Alice' 'Bob'
 'AliceBob'
 
@@ -119,7 +118,7 @@ Note: Avoid  `+`  operator for string concatenation. Prefer string formatting.
 
 String Replication:
 
-```
+```py
 >>> 'Alice' * 5
 'AliceAliceAliceAliceAlice'
 
@@ -136,14 +135,14 @@ You can name a variable anything as long as it obeys the following three rules:
 
 Example:
 
-```
+```py
 >>> spam = 'Hello'
 >>> spam
 'Hello'
 
 ```
 
-```
+```py
 >>> _spam = 'Hello'
 
 ```
@@ -154,14 +153,13 @@ Example:
 
 Inline comment:
 
-```
+```py
 # This is a comment
-
 ```
 
 Multiline comment:
 
-```
+```py
 # This is a
 # multiline comment
 
@@ -169,7 +167,7 @@ Multiline comment:
 
 Code with a comment:
 
-```
+```py
 a = 1  # initialization
 
 ```
@@ -178,7 +176,7 @@ Please note the two spaces in front of the comment.
 
 Function docstring:
 
-```
+```py
 def foo():
     """
     This is a function docstring
@@ -190,13 +188,13 @@ def foo():
 
 ### The print() Function
 
-```
+```py
 >>> print('Hello world!')
 Hello world!
 
 ```
 
-```
+```py
 >>> a = 1
 >>> print('Hello world!', a)
 Hello world! 1
@@ -207,7 +205,7 @@ Hello world! 1
 
 Example Code:
 
-```
+```py
 >>> print('What is your name?')   # ask for their name
 >>> myName = input()
 >>> print('It is good to meet you, {}'.format(myName))
@@ -221,7 +219,7 @@ It is good to meet you, Al
 
 Evaluates to the integer value of the number of characters in a string:
 
-```
+```py
 >>> len('hello')
 5
 
@@ -229,7 +227,7 @@ Evaluates to the integer value of the number of characters in a string:
 
 Note: test of emptiness of strings, lists, dictionary, etc, should  **not**  use len, but prefer direct boolean evaluation.
 
-```
+```py
 >>> a = [1, 2, 3]
 >>> if a:
 >>>     print("the list is not empty!")
@@ -4804,5 +4802,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk1NTA3ODAsNDI5NTg1MDM0XX0=
+eyJoaXN0b3J5IjpbMTQxMjIxOTg4MSw0Mjk1ODUwMzRdfQ==
 -->
