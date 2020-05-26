@@ -4,7 +4,7 @@ From the  [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020
 
 > Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down.
 
-```
+```py
 >>> import this
 The Zen of Python, by Tim Peters
 
@@ -36,54 +36,15 @@ Namespaces are one honking great idea -- let's do more of those!
 
 From  **Highest**  to  **Lowest**  precedence:
 
-Operators
 
-Operation
-
-Example
-
-**
-
-Exponent
-
-`2 ** 3 = 8`
-
-%
-
-Modulus/Remaider
-
-`22 % 8 = 6`
-
-//
-
-Integer division
-
-`22 // 8 = 2`
-
-/
-
-Division
-
-`22 / 8 = 2.75`
-
-*
-
-Multiplication
-
-`3 * 3 = 9`
-
--
-
-Subtraction
-
-`5 - 2 = 3`
-
-+
-
-Addition
-
-`2 + 2 = 4`
-
+Operators	Operation	Example
+**	Exponent	2 ** 3 = 8
+%	Modulus/Remaider	22 % 8 = 6
+//	Integer division	22 // 8 = 2
+/	Division	22 / 8 = 2.75
+*	Multiplication	3 * 3 = 9
+-	Subtraction	5 - 2 = 3
++	Addition	2 + 2 = 4
 Examples of expressions in the interactive shell:
 
 ```
@@ -4839,5 +4800,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5NTg1MDM0XX0=
+eyJoaXN0b3J5IjpbLTIwMjA5NTgwMyw0Mjk1ODUwMzRdfQ==
 -->
