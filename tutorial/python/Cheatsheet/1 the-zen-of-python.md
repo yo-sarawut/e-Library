@@ -274,24 +274,21 @@ Float to Integer:
 
 ### Comparison Operators
 
-|  |  |
-|--|--|
-|  |  |
-
-Operator	Meaning
-==	Equal to
-!=	Not equal to
-<	Less than
->	Greater Than
-<=	Less than or Equal to
->=	Greater than or Equal to
+| Operator | Meaning |
+|:-------:|--------|
+| == | Equal to |	
+|!=	|Not equal to|
+|<	|Less than|
+|>	|Greater Than|
+|<=	|Less than or Equal to|
+|>=	|Greater than or Equal to|
 
 
 These operators evaluate to True or False depending on the values you give them.
 
 Examples:
 
-```
+```py
 >>> 42 == 42
 True
 
@@ -4787,5 +4784,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU1MDQ0NjIsNDI5NTg1MDM0XX0=
+eyJoaXN0b3J5IjpbMTg1MTAyNDcxMiw0Mjk1ODUwMzRdfQ==
 -->
