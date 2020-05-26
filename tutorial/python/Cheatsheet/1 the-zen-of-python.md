@@ -294,7 +294,7 @@ True
 
 ```
 
-```
+```py
 >>> 40 == 42
 False
 
@@ -306,25 +306,25 @@ True
 
 ```
 
-```
+```py
 >>> 'hello' == 'Hello'
 False
 
 ```
 
-```
+```py
 >>> 'dog' != 'cat'
 True
 
 ```
 
-```
+```py
 >>> 42 == 42.0
 True
 
 ```
 
-```
+```py
 >>> 42 == '42'
 False
 
@@ -350,13 +350,13 @@ True
 
 YES (even if they are valid Python):
 
-```
+```py
 >>> True is True
 True
 
 ```
 
-```
+```py
 >>> True is not False
 True
 
@@ -364,7 +364,7 @@ True
 
 These statements are equivalent:
 
-```
+```py
 >>> if a is True:
 >>>    pass
 >>> if a is not False:
@@ -376,7 +376,7 @@ These statements are equivalent:
 
 And these as well:
 
-```
+```py
 >>> if a is False:
 >>>    pass
 >>> if a is not True:
@@ -4784,5 +4784,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTAyNDcxMiw0Mjk1ODUwMzRdfQ==
+eyJoaXN0b3J5IjpbLTI4NjkzMDMzNyw0Mjk1ODUwMzRdfQ==
 -->
