@@ -238,19 +238,19 @@ Note: test of emptiness of strings, lists, dictionary, etc, should  **not**  use
 
 Integer to String or Float:
 
-```
+```py
 >>> str(29)
 '29'
 
 ```
 
-```
+```py
 >>> print('I am {} years old.'.format(str(29)))
 I am 29 years old.
 
 ```
 
-```
+```py
 >>> str(-3.14)
 '-3.14'
 
@@ -258,13 +258,13 @@ I am 29 years old.
 
 Float to Integer:
 
-```
+```py
 >>> int(7.7)
 7
 
 ```
 
-```
+```py
 >>> int(7.7) + 1
 8
 
@@ -274,33 +274,18 @@ Float to Integer:
 
 ### Comparison Operators
 
-Operator
+|  |  |
+|--|--|
+|  |  |
 
-Meaning
+Operator	Meaning
+==	Equal to
+!=	Not equal to
+<	Less than
+>	Greater Than
+<=	Less than or Equal to
+>=	Greater than or Equal to
 
-`==`
-
-Equal to
-
-`!=`
-
-Not equal to
-
-`<`
-
-Less than
-
-`>`
-
-Greater Than
-
-`<=`
-
-Less than or Equal to
-
-`>=`
-
-Greater than or Equal to
 
 These operators evaluate to True or False depending on the values you give them.
 
@@ -4802,5 +4787,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjIxOTg4MSw0Mjk1ODUwMzRdfQ==
+eyJoaXN0b3J5IjpbLTE5NjU1MDQ0NjIsNDI5NTg1MDM0XX0=
 -->
