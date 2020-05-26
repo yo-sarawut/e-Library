@@ -36,31 +36,28 @@ Namespaces are one honking great idea -- let's do more of those!
 
 From  **Highest**  to  **Lowest**  precedence:
 
-|  |  |
-|--|--|
-|  |  |
 
 |Operators	|Operation|	Example|
-|----------|----------------|---------|
-|**	Exponent	2 ** 3 = 8
-%	Modulus/Remaider	22 % 8 = 6
-//	Integer division	22 // 8 = 2
-/	Division	22 / 8 = 2.75
-*	Multiplication	3 * 3 = 9
--	Subtraction	5 - 2 = 3
-+	Addition	2 + 2 = 4
+|:----------:|----------------|---------|
+|**|	Exponent|	2 ** 3 = 8|
+|%	|Modulus/Remaider|	22 % 8 = 6|
+|//	|Integer division	|22 // 8 = 2|
+|/	|Division	|22 / 8 = 2.75|
+|*	|Multiplication	|3 * 3 = 9|
+|-|	Subtraction	|5 - 2 = 3|
+|+|	Addition	|2 + 2 = 4|
 
 
 
 Examples of expressions in the interactive shell:
 
-```
+```py
 >>> 2 + 3 * 6
 20
 
 ```
 
-```
+```py
 >>> (2 + 3) * 6
 30
 
@@ -4807,5 +4804,5 @@ Usage:
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQxODE5MDIsNDI5NTg1MDM0XX0=
+eyJoaXN0b3J5IjpbLTEzMjk1NTA3ODAsNDI5NTg1MDM0XX0=
 -->
