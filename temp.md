@@ -1,76 +1,53 @@
-## What Is Data Science?
 
-This is a book about doing data science with Python, which immediately begs the question: what is  _data science_? It's a surprisingly hard definition to nail down, especially given how ubiquitous the term has become. Vocal critics have variously dismissed the term as a superfluous label (after all, what science doesn't involve data?) or a simple buzzword that only exists to salt resumes and catch the eye of overzealous tech recruiters.
+There are many options for development environments for Python, and I'm often asked which one I use in my own work. My answer sometimes surprises people: my preferred environment is  [IPython](http://ipython.org/)  plus a text editor (in my case, Emacs or Atom depending on my mood). IPython (short for  _Interactive Python_) was started in 2001 by Fernando Perez as an enhanced Python interpreter, and has since grown into a project aiming to provide, in Perez's words, "Tools for the entire life cycle of research computing." If Python is the engine of our data science task, you might think of IPython as the interactive control panel.
 
-In my mind, these critiques miss something important. Data science, despite its hype-laden veneer, is perhaps the best label we have for the cross-disciplinary set of skills that are becoming increasingly important in many applications across industry and academia. This cross-disciplinary piece is key: in my mind, the best extisting definition of data science is illustrated by Drew Conway's Data Science Venn Diagram, first published on his blog in September 2010:
+As well as being a useful interactive interface to Python, IPython also provides a number of useful syntactic additions to the language; we'll cover the most useful of these additions here. In addition, IPython is closely tied with the  [Jupyter project](http://jupyter.org/), which provides a browser-based notebook that is useful for development, collaboration, sharing, and even publication of data science results. The IPython notebook is actually a special case of the broader Jupyter notebook structure, which encompasses notebooks for Julia, R, and other programming languages. As an example of the usefulness of the notebook format, look no further than the page you are reading: the entire manuscript for this book was composed as a set of IPython notebooks.
 
-![Data Science Venn Diagram](https://jakevdp.github.io/PythonDataScienceHandbook/figures/Data_Science_VD.png)
+IPython is about using Python effectively for interactive scientific and data-intensive computing. This chapter will start by stepping through some of the IPython features that are useful to the practice of data science, focusing especially on the syntax it offers beyond the standard features of Python. Next, we will go into a bit more depth on some of the more useful "magic commands" that can speed-up common tasks in creating and using data science code. Finally, we will touch on some of the features of the notebook that make it useful in understanding data and sharing results.
 
-(Source: [Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram). Used by permission.)
+## Shell or Notebook?[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Shell-or-Notebook?)
 
-While some of the intersection labels are a bit tongue-in-cheek, this diagram captures the essence of what I think people mean when they say "data science": it is fundamentally an  _interdisciplinary_  subject. Data science comprises three distinct and overlapping areas: the skills of a  _statistician_  who knows how to model and summarize datasets (which are growing ever larger); the skills of a  _computer scientist_  who can design and use algorithms to efficiently store, process, and visualize this data; and the  _domain expertise_—what we might think of as "classical" training in a subject—necessary both to formulate the right questions and to put their answers in context.
+There are two primary means of using IPython that we'll discuss in this chapter: the IPython shell and the IPython notebook. The bulk of the material in this chapter is relevant to both, and the examples will switch between them depending on what is most convenient. In the few sections that are relevant to just one or the other, we will explicitly state that fact. Before we start, some words on how to launch the IPython shell and IPython notebook.
 
-With this in mind, I would encourage you to think of data science not as a new domain of knowledge to learn, but a new set of skills that you can apply within your current area of expertise. Whether you are reporting election results, forecasting stock returns, optimizing online ad clicks, identifying microorganisms in microscope photos, seeking new classes of astronomical objects, or working with data in any other field, the goal of this book is to give you the ability to ask and answer new questions about your chosen subject area.
+### Launching the IPython Shell[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Launching-the-IPython-Shell)
 
-## Who Is This Book For?[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Who-Is-This-Book-For?)
+This chapter, like most of this book, is not designed to be absorbed passively. I recommend that as you read through it, you follow along and experiment with the tools and syntax we cover: the muscle-memory you build through doing this will be far more useful than the simple act of reading about it. Start by launching the IPython interpreter by typing  **`ipython`**  on the command-line; alternatively, if you've installed a distribution like Anaconda or EPD, there may be a launcher specific to your system (we'll discuss this more fully in  [Help and Documentation in IPython](https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html)).
 
-In my teaching both at the University of Washington and at various tech-focused conferences and meetups, one of the most common questions I have heard is this: "how should I learn Python?" The people asking are generally technically minded students, developers, or researchers, often with an already strong background in writing code and using computational and numerical tools. Most of these folks don't want to learn Python  _per se_, but want to learn the language with the aim of using it as a tool for data-intensive and computational science. While a large patchwork of videos, blog posts, and tutorials for this audience is available online, I've long been frustrated by the lack of a single good answer to this question; that is what inspired this book.
-
-The book is not meant to be an introduction to Python or to programming in general; I assume the reader has familiarity with the Python language, including defining functions, assigning variables, calling methods of objects, controlling the flow of a program, and other basic tasks. Instead it is meant to help Python users learn to use Python's data science stack–libraries such as IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and related tools–to effectively store, manipulate, and gain insight from data.
-
-## Why Python?[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Why-Python?)
-
-Python has emerged over the last couple decades as a first-class tool for scientific computing tasks, including the analysis and visualization of large datasets. This may have come as a surprise to early proponents of the Python language: the language itself was not specifically designed with data analysis or scientific computing in mind. The usefulness of Python for data science stems primarily from the large and active ecosystem of third-party packages:  _NumPy_  for manipulation of homogeneous array-based data,  _Pandas_  for manipulation of heterogeneous and labeled data,  _SciPy_  for common scientific computing tasks,  _Matplotlib_  for publication-quality visualizations,  _IPython_  for interactive execution and sharing of code,  _Scikit-Learn_  for machine learning, and many more tools that will be mentioned in the following pages.
-
-If you are looking for a guide to the Python language itself, I would suggest the sister project to this book, "[A Whirlwind Tour of the Python Language](https://github.com/jakevdp/WhirlwindTourOfPython)". This short report provides a tour of the essential features of the Python language, aimed at data scientists who already are familiar with one or more other programming languages.
-
-### Python 2 vs Python 3[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Python-2-vs-Python-3)
-
-This book uses the syntax of Python 3, which contains language enhancements that are not compatible with the 2.x series of Python. Though Python 3.0 was first released in 2008, adoption has been relatively slow, particularly in the scientific and web development communities. This is primarily because it took some time for many of the essential third-party packages and toolkits to be made compatible with the new language internals. Since early 2014, however, stable releases of the most important tools in the data science ecosystem have been fully compatible with both Python 2 and 3, and so this book will use the newer Python 3 syntax. However, the vast majority of code snippets in this book will also work without modification in Python 2: in cases where a Py2-incompatible syntax is used, I will make every effort to note it explicitly.
-
-## Outline of the Book[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Outline-of-the-Book)
-
-Each chapter of this book focuses on a particular package or tool that contributes a fundamental piece of the Python Data Sciece story.
-
-1.  IPython and Jupyter: these packages provide the computational environment in which many Python-using data scientists work.
-2.  NumPy: this library provides the  `ndarray`  for efficient storage and manipulation of dense data arrays in Python.
-3.  Pandas: this library provides the  `DataFrame`  for efficient storage and manipulation of labeled/columnar data in Python.
-4.  Matplotlib: this library provides capabilities for a flexible range of data visualizations in Python.
-5.  Scikit-Learn: this library provides efficient & clean Python implementations of the most important and established machine learning algorithms.
-
-The PyData world is certainly much larger than these five packages, and is growing every day. With this in mind, I make every attempt through these pages to provide references to other interesting efforts, projects, and packages that are pushing the boundaries of what can be done in Python. Nevertheless, these five are currently fundamental to much of the work being done in the Python data science space, and I expect they will remain important even as the ecosystem continues growing around them.
-
-## Using Code Examples[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Using-Code-Examples)
-
-Supplemental material (code examples, figures, etc.) is available for download at  [http://github.com/jakevdp/PythonDataScienceHandbook/](http://github.com/jakevdp/PythonDataScienceHandbook/). This book is here to help you get your job done. In general, if example code is offered with this book, you may use it in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
-
-We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example:
-
-> _The Python Data Science Handbook_  by Jake VanderPlas (O’Reilly). Copyright 2016 Jake VanderPlas, 978-1-491-91205-8.
-
-If you feel your use of code examples falls outside fair use or the per‐ mission given above, feel free to contact us at permissions@oreilly.com.
-
-## Installation Considerations[](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html#Installation-Considerations)
-
-Installing Python and the suite of libraries that enable scientific computing is straightforward . This section will outline some of the considerations when setting up your computer.
-
-Though there are various ways to install Python, the one I would suggest for use in data science is the Anaconda distribution, which works similarly whether you use Windows, Linux, or Mac OS X. The Anaconda distribution comes in two flavors:
-
--   [Miniconda](http://conda.pydata.org/miniconda.html)  gives you the Python interpreter itself, along with a command-line tool called  `conda`  which operates as a cross-platform package manager geared toward Python packages, similar in spirit to the apt or yum tools that Linux users might be familiar with.
-    
--   [Anaconda](https://www.continuum.io/downloads)  includes both Python and conda, and additionally bundles a suite of other pre-installed packages geared toward scientific computing. Because of the size of this bundle, expect the installation to consume several gigabytes of disk space.
-    
-
-Any of the packages included with Anaconda can also be installed manually on top of Miniconda; for this reason I suggest starting with Miniconda.
-
-To get started, download and install the Miniconda package–make sure to choose a version with Python 3–and then install the core packages used in this book:
+Once you do this, you should see a prompt like the following:
 
 ```
-[~]$ conda install numpy pandas scikit-learn matplotlib seaborn jupyter
+IPython 4.0.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+In [1]:
 ```
 
-Throughout the text, we will also make use of other more specialized tools in Python's scientific ecosystem; installation is usually as easy as typing  **`conda install packagename`**. For more information on conda, including information about creating and using conda environments (which I would  _highly_  recommend), refer to  [conda's online documentation](http://conda.pydata.org/docs/).
+With that, you're ready to follow along.
+
+### Launching the Jupyter Notebook[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Launching-the-Jupyter-Notebook)
+
+The Jupyter notebook is a browser-based graphical interface to the IPython shell, and builds on it a rich set of dynamic display capabilities. As well as executing Python/IPython statements, the notebook allows the user to include formatted text, static and dynamic visualizations, mathematical equations, JavaScript widgets, and much more. Furthermore, these documents can be saved in a way that lets other people open them and execute the code on their own systems.
+
+Though the IPython notebook is viewed and edited through your web browser window, it must connect to a running Python process in order to execute code. This process (known as a "kernel") can be started by running the following command in your system shell:
+
+```
+$ jupyter notebook
+```
+
+This command will launch a local web server that will be visible to your browser. It immediately spits out a log showing what it is doing; that log will look something like this:
+
+```
+$ jupyter notebook
+[NotebookApp] Serving notebooks from local directory: /Users/jakevdp/PythonDataScienceHandbook
+[NotebookApp] 0 active kernels 
+[NotebookApp] The IPython Notebook is running at: http://localhost:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+```
+
+Upon issuing the command, your default browser should automatically open and navigate to the listed local URL; the exact address will depend on your system. If the browser does not open automatically, you can open a window and manually open this address (_[http://localhost:8888/](http://localhost:8888/)_  in this example).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjg1NzA3MSwtMTQzMjMwMzg2NCw4Mj
-c1Nzk4MzddfQ==
+eyJoaXN0b3J5IjpbMTQxMzgyMjI1MCwxMDM2ODU3MDcxLC0xND
+MyMzAzODY0LDgyNzU3OTgzN119
 -->
