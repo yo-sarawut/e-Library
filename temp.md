@@ -1,53 +1,110 @@
+The previous two sections showed how IPython lets you use and explore Python efficiently and interactively. Here we'll begin discussing some of the enhancements that IPython adds on top of the normal Python syntax. These are known in IPython as  _magic commands_, and are prefixed by the  `%`  character. These magic commands are designed to succinctly solve various common problems in standard data analysis. Magic commands come in two flavors:  _line magics_, which are denoted by a single  `%`  prefix and operate on a single line of input, and  _cell magics_, which are denoted by a double  `%%`  prefix and operate on multiple lines of input. We'll demonstrate and discuss a few brief examples here, and come back to more focused discussion of several useful magic commands later in the chapter.
 
-There are many options for development environments for Python, and I'm often asked which one I use in my own work. My answer sometimes surprises people: my preferred environment is  [IPython](http://ipython.org/)  plus a text editor (in my case, Emacs or Atom depending on my mood). IPython (short for  _Interactive Python_) was started in 2001 by Fernando Perez as an enhanced Python interpreter, and has since grown into a project aiming to provide, in Perez's words, "Tools for the entire life cycle of research computing." If Python is the engine of our data science task, you might think of IPython as the interactive control panel.
+## Pasting Code Blocks:  `%paste`  and  `%cpaste`
 
-As well as being a useful interactive interface to Python, IPython also provides a number of useful syntactic additions to the language; we'll cover the most useful of these additions here. In addition, IPython is closely tied with the  [Jupyter project](http://jupyter.org/), which provides a browser-based notebook that is useful for development, collaboration, sharing, and even publication of data science results. The IPython notebook is actually a special case of the broader Jupyter notebook structure, which encompasses notebooks for Julia, R, and other programming languages. As an example of the usefulness of the notebook format, look no further than the page you are reading: the entire manuscript for this book was composed as a set of IPython notebooks.
-
-IPython is about using Python effectively for interactive scientific and data-intensive computing. This chapter will start by stepping through some of the IPython features that are useful to the practice of data science, focusing especially on the syntax it offers beyond the standard features of Python. Next, we will go into a bit more depth on some of the more useful "magic commands" that can speed-up common tasks in creating and using data science code. Finally, we will touch on some of the features of the notebook that make it useful in understanding data and sharing results.
-
-## Shell or Notebook?[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Shell-or-Notebook?)
-
-There are two primary means of using IPython that we'll discuss in this chapter: the IPython shell and the IPython notebook. The bulk of the material in this chapter is relevant to both, and the examples will switch between them depending on what is most convenient. In the few sections that are relevant to just one or the other, we will explicitly state that fact. Before we start, some words on how to launch the IPython shell and IPython notebook.
-
-### Launching the IPython Shell[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Launching-the-IPython-Shell)
-
-This chapter, like most of this book, is not designed to be absorbed passively. I recommend that as you read through it, you follow along and experiment with the tools and syntax we cover: the muscle-memory you build through doing this will be far more useful than the simple act of reading about it. Start by launching the IPython interpreter by typing  **`ipython`**  on the command-line; alternatively, if you've installed a distribution like Anaconda or EPD, there may be a launcher specific to your system (we'll discuss this more fully in  [Help and Documentation in IPython](https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html)).
-
-Once you do this, you should see a prompt like the following:
-
+When working in the IPython interpreter, one common gotcha is that pasting multi-line code blocks can lead to unexpected errors, especially when indentation and interpreter markers are involved. A common case is that you find some example code on a website and want to paste it into your interpreter. Consider the following simple function:
+```py
+>>> def donothing(x):
+...     return x
 ```
-IPython 4.0.1 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
-In [1]:
-```
+The code is formatted as it would appear in the Python interpreter, and if you copy and paste this directly into IPython you get an error:
 
-With that, you're ready to follow along.
+In [2]: >>> def donothing(x):
+   ...:     ...     return x
+   ...:     
+  File "<ipython-input-20-5a66c8964687>", line 2
+    ...     return x
+                 ^
+SyntaxError: invalid syntax
 
-### Launching the Jupyter Notebook[](https://jakevdp.github.io/PythonDataScienceHandbook/01.00-ipython-beyond-normal-python.html#Launching-the-Jupyter-Notebook)
+In the direct paste, the interpreter is confused by the additional prompt characters. But never fear–IPython's  `%paste`  magic function is designed to handle this exact type of multi-line, marked-up input:
 
-The Jupyter notebook is a browser-based graphical interface to the IPython shell, and builds on it a rich set of dynamic display capabilities. As well as executing Python/IPython statements, the notebook allows the user to include formatted text, static and dynamic visualizations, mathematical equations, JavaScript widgets, and much more. Furthermore, these documents can be saved in a way that lets other people open them and execute the code on their own systems.
+In [3]: %paste
+>>> def donothing(x):
+...     return x
 
-Though the IPython notebook is viewed and edited through your web browser window, it must connect to a running Python process in order to execute code. This process (known as a "kernel") can be started by running the following command in your system shell:
+## -- End pasted text --
 
-```
-$ jupyter notebook
-```
+The  `%paste`  command both enters and executes the code, so now the function is ready to be used:
 
-This command will launch a local web server that will be visible to your browser. It immediately spits out a log showing what it is doing; that log will look something like this:
+In [4]: donothing(10)
+Out[4]: 10
 
-```
-$ jupyter notebook
-[NotebookApp] Serving notebooks from local directory: /Users/jakevdp/PythonDataScienceHandbook
-[NotebookApp] 0 active kernels 
-[NotebookApp] The IPython Notebook is running at: http://localhost:8888/
-[NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-```
+A command with a similar intent is  `%cpaste`, which opens up an interactive multiline prompt in which you can paste one or more chunks of code to be executed in a batch:
 
-Upon issuing the command, your default browser should automatically open and navigate to the listed local URL; the exact address will depend on your system. If the browser does not open automatically, you can open a window and manually open this address (_[http://localhost:8888/](http://localhost:8888/)_  in this example).
+In [5]: %cpaste
+Pasting code; enter '--' alone on the line to stop or use Ctrl-D.
+:>>> def donothing(x):
+:...     return x
+:--
+
+These magic commands, like others we'll see, make available functionality that would be difficult or impossible in a standard Python interpreter.
+
+## Running External Code:  `%run`
+
+As you begin developing more extensive code, you will likely find yourself working in both IPython for interactive exploration, as well as a text editor to store code that you want to reuse. Rather than running this code in a new window, it can be convenient to run it within your IPython session. This can be done with the  `%run`  magic.
+
+For example, imagine you've created a  `myscript.py`  file with the following contents:
+
+-------------------------------------
+
+# file: myscript.py
+
+def square(x):
+    """square a number"""
+    return x ** 2
+
+for N in range(1, 4):
+    print(N, "squared is", square(N))
+
+You can execute this from your IPython session as follows:
+
+In [6]: %run myscript.py
+1 squared is 1
+2 squared is 4
+3 squared is 9
+
+Note also that after you've run this script, any functions defined within it are available for use in your IPython session:
+
+In [7]: square(5)
+Out[7]: 25
+
+There are several options to fine-tune how your code is run; you can see the documentation in the normal way, by typing  **`%run?`**  in the IPython interpreter.
+
+## Timing Code Execution:  `%timeit`[](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html#Timing-Code-Execution:-%timeit)
+
+Another example of a useful magic function is  `%timeit`, which will automatically determine the execution time of the single-line Python statement that follows it. For example, we may want to check the performance of a list comprehension:
+
+In [8]: %timeit L = [n ** 2 for n in range(1000)]
+1000 loops, best of 3: 325 µs per loop
+
+The benefit of  `%timeit`  is that for short commands it will automatically perform multiple runs in order to attain more robust results. For multi line statements, adding a second  `%`  sign will turn this into a cell magic that can handle multiple lines of input. For example, here's the equivalent construction with a  `for`-loop:
+
+In [9]: %%timeit
+   ...: L = []
+   ...: for n in range(1000):
+   ...:     L.append(n ** 2)
+   ...: 
+1000 loops, best of 3: 373 µs per loop
+
+We can immediately see that list comprehensions are about 10% faster than the equivalent  `for`-loop construction in this case. We'll explore  `%timeit`  and other approaches to timing and profiling code in  [Profiling and Timing Code](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html).
+
+## Help on Magic Functions:  `?`,  `%magic`, and  `%lsmagic`[](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html#Help-on-Magic-Functions:-?,-%magic,-and-%lsmagic)
+
+Like normal Python functions, IPython magic functions have docstrings, and this useful documentation can be accessed in the standard manner. So, for example, to read the documentation of the  `%timeit`  magic simply type this:
+
+In [10]: %timeit?
+
+Documentation for other functions can be accessed similarly. To access a general description of available magic functions, including some examples, you can type this:
+
+In [11]: %magic
+
+For a quick and simple list of all available magic functions, type this:
+
+In [12]: %lsmagic
+
+Finally, I'll mention that it is quite straightforward to define your own magic functions if you wish. We won't discuss it here, but if you are interested, see the references listed in  [More IPython Resources](https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzgyMjI1MCwxMDM2ODU3MDcxLC0xND
-MyMzAzODY0LDgyNzU3OTgzN119
+eyJoaXN0b3J5IjpbLTI3Mzk0NDg0MywxNDEzODIyMjUwLDEwMz
+Y4NTcwNzEsLTE0MzIzMDM4NjQsODI3NTc5ODM3XX0=
 -->
