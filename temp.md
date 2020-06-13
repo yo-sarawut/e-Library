@@ -94,17 +94,17 @@ We can immediately see that list comprehensions are about 10% faster than the eq
 Like normal Python functions, IPython magic functions have docstrings, and this useful documentation can be accessed in the standard manner. So, for example, to read the documentation of the  `%timeit`  magic simply type this:
 ```py
 In [10]: %timeit?
-
+```
 Documentation for other functions can be accessed similarly. To access a general description of available magic functions, including some examples, you can type this:
-
+```py
 In [11]: %magic
-
+```
 For a quick and simple list of all available magic functions, type this:
-
+```py
 In [12]: %lsmagic
-
+```
 Finally, I'll mention that it is quite straightforward to define your own magic functions if you wish. We won't discuss it here, but if you are interested, see the references listed in  [More IPython Resources](https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTY5NjA5NiwxNDEzODIyMjUwLDEwMz
-Y4NTcwNzEsLTE0MzIzMDM4NjQsODI3NTc5ODM3XX0=
+eyJoaXN0b3J5IjpbLTIxMzMzNDU0MTAsMTQxMzgyMjI1MCwxMD
+M2ODU3MDcxLC0xNDMyMzAzODY0LDgyNzU3OTgzN119
 -->
