@@ -7,8 +7,8 @@
 
 - [การเขียนโปรแกรมกับการพัฒนาทักษะด้านการคิด](http://oho.ipst.ac.th/programming-and-thinking-skills/)
 -  [คู่มือสอน โปรแกรม Python พื้นฐาน](https://sites.google.com/a/kanarat.ac.th/krusuthat/wicha-porkaerm-python-phun-than)
-- [คู่มือการใช้งานบทเรียนออนไลน์ : Python](คู่มือการใช้งานบทเรียน)
+- [คู่มือการใช้งานบทเรียนออนไลน์ : Python](http://python.nattapon.com/user_manual/)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA2MjY4NTUsODE4Mjg1MzE4XX0=
+eyJoaXN0b3J5IjpbLTMyNTUwMjMwMyw4MTgyODUzMThdfQ==
 -->
