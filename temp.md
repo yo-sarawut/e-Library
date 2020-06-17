@@ -1,8 +1,11 @@
-The previous two sections showed how IPython lets you use and explore Python efficiently and interactively. Here we'll begin discussing some of the enhancements that IPython adds on top of the normal Python syntax. These are known in IPython as  _magic commands_, and are prefixed by the  `%`  character. These magic commands are designed to succinctly solve various common problems in standard data analysis. Magic commands come in two flavors:  _line magics_, which are denoted by a single  `%`  prefix and operate on a single line of input, and  _cell magics_, which are denoted by a double  `%%`  prefix and operate on multiple lines of input. We'll demonstrate and discuss a few brief examples here, and come back to more focused discussion of several useful magic commands later in the chapter.
+The previous two sections showed how IPython lets you use and explore Python efficiently and interactively. Here we'll begin discussing some of the enhancements that IPython adds on top of the normal Python syntax. These are known in IPython as  _magic commands_, and are prefixed by the  `%`  character. These magic commands are designed to succinctly solve various common problems in standard data analysis. Magic commands come in two flavors:  _line magics_, which are denoted by a single  `%`  prefix and operate on a single line of input, and  _cell magics_, which are denoted by a double  `%%`  prefix and operate on multiple lines of input. We'll demonstrate and discuss a few brief examples h
+## Python Learning Resources
+
+Tutorials and online courses can't cover everything, and whether you're still in the early stages of learning or already an advanced Python programmere, and come back to more focused discussion of several useful magic commands later in the chapter.
 
 ## Pasting Code Blocks:  `%paste`  and  `%cpaste`
 
-When working in the IPython interpreter, one common gotcha is that pasting multi-line code blocks can lead to unexpected errors, especially when indentation and interpreter markers are involved. A common case is that you find some example code on a website and want to paste it into your interpreter. Consider the following simple function:
+When working in the IPython interpyou're going to have to retfer, one common gotcha is that pasting multi-line code blocks can lead to unexpected errors, especially when indentation and interpreter markers are involved. A common case is that you find some example code on a website and want to paste it into your interpreter. Consider the following simple function:
 ```py
 >>> def donothing(x):
 ...     return x
@@ -78,7 +81,19 @@ Another example of a useful magic function is  `%timeit`, which will automatical
 In [8]: %timeit L = [n ** 2 for n in range(1000)]
 1000 loops, best of 3: 325 µs per loop
 ```
-The benefit of  `%timeit`  is that for short commands it will automatically perform multiple runs in order to attain more robust results. For multi line statements, adding a second  `%`  sign will turn this into a cell magic that can handle multiple lines of input. For example, here's the equivalent construction with a  `for`-loop:
+The benefit of  `%timeit`  is to the documentation every now and then. Here are some helpful links for finding quick answers to your questions.
+
+*-   [Official Python estons.
+-   [a on oet](https://othon.o//)
+-   [atoi Document](https://docs.python.org/3/)
+*-   [Matplotlib Documeoces
+
+tora nd onlinecorsescant er rthing antaib.org/3.1.1/contents.html)
+*-   [StackOverflow](https://stackoverflow.com/)
+*
+-   [Pandaso r estons.
+ [iil thonumetatio](https://othon.o//)
+ [atoteer t that for short commands it will automatically perform multiple runs in order to attain more robust results. For multi line statements, adding a second  `%`  sign will turn this into a cell magic that can handle multiple lines of input. For example, here's the equivalent construction with a  `for`-loop:
 ```py
 In [9]: %%timeit
    ...: L = []
@@ -103,8 +118,13 @@ For a quick and simple list of all available magic functions, type this:
 ```py
 In [12]: %lsmagic
 ```
-Finally, I'll mention that it is quite straightforward to define your own magic functions if you wish. We won't discuss it here, but if you are interested, see the references listed in  [More IPython Resources](https://jakevdp.github.io/PythonDataScienceHandbook/01.08-more-ipython-resources.html).
+Finally, I'll mention that it is quite straightforward to define your own magic functions if you wish. We won't discuss it here, but if you are interested, see the references listed in  [More IPython Resources](https://jakevdp.github.io/PythonDs://pandas.pydata.org/pandas-docs/stable/)
+*-   [Seaborn Introductionf.com/)
+ [andas oumentatin](https://seaborn.pydata.org/introduction.html)
+*-   [Data Science Courses](https://www.dataquest.io/dataS-scienceHandbook/01.08-more-ipython-resources.html).-courses)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMzNDU0MTAsMTQxMzgyMjI1MCwxMD
-M2ODU3MDcxLC0xNDMyMzAzODY0LDgyNzU3OTgzN119
+eyJoaXN0b3J5IjpbMTc2NjYxMzY2NiwtMjEzMzM0NTQxMCwxND
+EzODIyMjUwLDEwMzY4NTcwNzEsLTE0MzIzMDM4NjQsODI3NTc5
+ODM3XX0=
 -->
