@@ -11,6 +11,7 @@
 
 ## เนื้อหาน่าสนใจ
 
+- [ปรากฏการณ์ข้างขึ้นข้างแรม](https://www.scimath.org/desktop-application/item/8453-2018-06-26-08-33-23)
 * [==How To Password Protect A Hugo Site==](https://www.aerobatic.com/blog/password-protect-a-hugo-site/)
 * [Python String format\(\)](https://www.programiz.com/python-programming/methods/string/format) , [PyFormat](https://pyformat.info/)
 * * [Accepting Payments with Stripe, Vue.js, and Flask](https://testdriven.io/blog/accepting-payments-with-stripe-vuejs-and-flask/)
@@ -127,5 +128,6 @@
 * [การศึกษาตลอดชีวิต](http://mediathailand.blogspot.com/2012/05/blog-post_5750.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc3NTgyMThdfQ==
+eyJoaXN0b3J5IjpbLTE2ODY5OTQzNDYsLTEzNDc3NTgyMThdfQ
+==
 -->
