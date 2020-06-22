@@ -21,6 +21,7 @@ PANTONE 19-4055
 
 ### ศึกษาเพิ่มเติม
 
+- [กลยุทธ์การบริหารพอร์ตลงทุนของผู้จัดการกองทุนรวม](http://dspace.bu.ac.th/bitstream/123456789/1199/1/patcharin_dhan.pdf)
 * [Awesome-Quant](https://github.com/wilsonfreitas/awesome-quant#data-sources)   Awesome libraries, packages and resources for Quants \(Quantitative Finance\)
 * [Stock Data Analysis with Python \(Second Edition\)](https://ntguardian.wordpress.com/2018/07/17/stock-data-analysis-python-v2/)
 * [Python for Finance](https://learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
@@ -352,5 +353,5 @@ Low : 'fiftyTwoWeekLow'
 This is a paragraph.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTI4MTAwOF19
+eyJoaXN0b3J5IjpbOTAyNTE0MDI3LDEzOTUyODEwMDhdfQ==
 -->
