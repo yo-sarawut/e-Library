@@ -1,4 +1,19 @@
-# Atticle-Catagory
+
+## Skooldio-Catagory
+
+
+-   [Business](https://blog.skooldio.com/category/business/)
+-   [Data Science](https://blog.skooldio.com/category/data-science/)
+-   [Design](https://blog.skooldio.com/category/design/)
+-   [Development](https://blog.skooldio.com/category/development/)
+-   [Life](https://blog.skooldio.com/category/life/)
+-   [Product](https://blog.skooldio.com/category/business/product/)
+-   [Productivity](https://blog.skooldio.com/category/productivity/)
+-   [Technology](https://blog.skooldio.com/category/technology/)
+-   [Uncategorized](https://blog.skooldio.com/category/uncategorized/)
+
+
+## Atticle-Catagory
 
 Productivity	-	ผลผลิต
 Psychology	-	จิตวิทยา
@@ -79,5 +94,5 @@ Perspective	-	มุมมอง
 > * Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTgzOTIyNV19
+eyJoaXN0b3J5IjpbLTI4MDIyODcxNCwxMTY1ODM5MjI1XX0=
 -->
