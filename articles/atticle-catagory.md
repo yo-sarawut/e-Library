@@ -2,16 +2,25 @@
 ## Skooldio-Catagory
 
 
--   [Business](https://blog.skooldio.com/category/business/)
--   [Data Science](https://blog.skooldio.com/category/data-science/)
--   [Design](https://blog.skooldio.com/category/design/)
+-   [Business](https://blog.skooldio.com/category/business/) - ธุรกิจ
+-   [Data Science](https://blog.skooldio.com/category/data-science/) - วิทยาศาสตร์ข้อมูล
+-   [Design](https://blog.skooldio.com/category/design/) - ออกแบบ
 -   [Development](https://blog.skooldio.com/category/development/)
--   [Life](https://blog.skooldio.com/category/life/)
--   [Product](https://blog.skooldio.com/category/business/product/)
--   [Productivity](https://blog.skooldio.com/category/productivity/)
+-   [Life](https://blog.skooldio.com/category/life/) - ชีวิต
+-   [Product](https://blog.skooldio.com/category/business/product/) - สินค้า
+-   [Productivity](https://blog.skooldio.com/category/productivity/) - ผลผลิต
 -   [Technology](https://blog.skooldio.com/category/technology/)
 -   [Uncategorized](https://blog.skooldio.com/category/uncategorized/)
 
+ธุรกิจ
+วิทยาศาสตร์ข้อมูล
+ออกแบบ
+พัฒนาการ
+ชีวิต
+สินค้า
+ผลผลิต
+เทคโนโลยี
+ไม่มีหมวดหมู่
 
 ## Atticle-Catagory
 
@@ -94,5 +103,5 @@ Perspective	-	มุมมอง
 > * Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDIyODcxNCwxMTY1ODM5MjI1XX0=
+eyJoaXN0b3J5IjpbLTE5NDEzODQ2NSwxMTY1ODM5MjI1XX0=
 -->
