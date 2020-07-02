@@ -9,18 +9,11 @@
 -   [Life](https://blog.skooldio.com/category/life/) - ชีวิต
 -   [Product](https://blog.skooldio.com/category/business/product/) - สินค้า
 -   [Productivity](https://blog.skooldio.com/category/productivity/) - ผลผลิต
--   [Technology](https://blog.skooldio.com/category/technology/)
--   [Uncategorized](https://blog.skooldio.com/category/uncategorized/)
+-   [Technology](https://blog.skooldio.com/category/technology/)- เทคโนโลยี
+-   [Uncategorized](https://blog.skooldio.com/category/uncategorized/) -ไม่มีหมวดหมู่
 
-ธุรกิจ
-วิทยาศาสตร์ข้อมูล
-ออกแบบ
-พัฒนาการ
-ชีวิต
-สินค้า
-ผลผลิต
-เทคโนโลยี
-ไม่มีหมวดหมู่
+
+
 
 ## Atticle-Catagory
 
@@ -103,5 +96,5 @@ Perspective	-	มุมมอง
 > * Source : [WikiPedia](https://en.wikipedia.org/wiki/Category:Main_topic_classifications)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzODQ2NSwxMTY1ODM5MjI1XX0=
+eyJoaXN0b3J5IjpbLTEzMDk1MTU1MTYsMTE2NTgzOTIyNV19
 -->
