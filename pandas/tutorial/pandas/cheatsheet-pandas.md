@@ -1,4 +1,4 @@
-# cheatsheet-pandas
+# Cheatsheet Pandas
 
 ## Cheatsheet วิธีใช้ และเทคนิคใน Pandas \(Python\) ฉบับสมบูรณ์
 
@@ -498,3 +498,6 @@ dataframe.to_csv('dataframe.csv')
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE0MjI5MDg1OV19
+-->
