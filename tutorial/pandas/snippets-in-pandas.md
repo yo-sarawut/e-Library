@@ -1,6 +1,6 @@
 # 19 Essential Snippets in Pandas
 
-Aug 26, 2016
+>Aug 26, 2016
 
 After playing around with [Pandas Python Data Analysis Library](https://pandas.pydata.org/) for about a month, I’ve compiled a pretty large list of useful snippets that I find myself reusing over and over again. These tips can save you some time sifting through the comprehensive Pandas docs.
 
@@ -319,3 +319,6 @@ df = pd.concat(chunks, axis=0)
 
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwMTUzODUyMjddfQ==
+-->
