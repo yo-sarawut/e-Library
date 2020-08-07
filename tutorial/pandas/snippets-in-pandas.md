@@ -1,6 +1,9 @@
 # 19 Essential Snippets in Pandas
 
 >Aug 26, 2016
+  
+
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fiqrablogger.com%2Fwp-content%2Fuploads%2F2020%2F03%2F574-5747046_python-pandas-logo-transparent-hd-png-download.png&imgrefurl=https%3A%2F%2Fiqrablogger.com%2F2020%2F03%2Flearn-pandas%2F&tbnid=HvmtfSt7xblcRM&vet=12ahUKEwiKmNGY_YnrAhXTkuYKHa-tB9cQMygWegUIARC_AQ..i&docid=eXw9ZzKK2R6ujM&w=860&h=294&itg=1&q=python%20pandas&ved=2ahUKEwiKmNGY_YnrAhXTkuYKHa-tB9cQMygWegUIARC_AQ)
 
 After playing around with [Pandas Python Data Analysis Library](https://pandas.pydata.org/) for about a month, I’ve compiled a pretty large list of useful snippets that I find myself reusing over and over again. These tips can save you some time sifting through the comprehensive Pandas docs.
 
@@ -320,5 +323,5 @@ df = pd.concat(chunks, axis=0)
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUzODUyMjddfQ==
+eyJoaXN0b3J5IjpbNDM5MzM5NDEwLC0yMDE1Mzg1MjI3XX0=
 -->
