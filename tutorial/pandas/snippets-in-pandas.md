@@ -3,7 +3,7 @@
 >Aug 26, 2016
   
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/300px-Pandas_logo.svg.png)
+![enter image description here](https://hackernoon.com/hn-images/0*Xhz01Vby2rg86xZj)
 
 After playing around with [Pandas Python Data Analysis Library](https://pandas.pydata.org/) for about a month, I’ve compiled a pretty large list of useful snippets that I find myself reusing over and over again. These tips can save you some time sifting through the comprehensive Pandas docs.
 
@@ -323,5 +323,6 @@ df = pd.concat(chunks, axis=0)
 > Written with [StackEdit](https://jeffdelaney.me/blog/useful-snippets-in-pandas/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTkyNzAyMSwtMjAxNTM4NTIyN119
+eyJoaXN0b3J5IjpbLTE4NTAwMDAwMzQsLTIwMTUzODUyMjddfQ
+==
 -->
