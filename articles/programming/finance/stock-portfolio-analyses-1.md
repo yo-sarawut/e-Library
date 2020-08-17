@@ -2,7 +2,7 @@
 
 ## Python for Finance: Stock Portfolio Analyses
 
-
+> Written with [StackEdit](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054).
 
 ![enter image description here](https://miro.medium.com/max/1920/0*IJTyPDhuCfNRAl_J.jpg)
 
@@ -361,7 +361,7 @@ The next chart below shows the gain / \(loss\) dollar amount for each position, 
 
 Here, you can see that although you invested slightly less in Facebook \(FB\) than other positions, this stock has returned an ~$20k in this mock portfolio, greater than a 4x return relative to an equivalent S&P 500 investment over the same holding period.
 
-
+![](https://miro.medium.com/max/60/0*h148S6oBDMijzkbQ.png?q=20)
 
 ![](https://miro.medium.com/max/700/0*h148S6oBDMijzkbQ.png)
 
@@ -373,7 +373,7 @@ The next chart below leverages the cumulative columns which you created: `'Cum I
 * Further down the x-axis, you see that both TWTR and WMT have reduced the overall portfolio ROI — this is obvious, as both have underperformed the S&P, but I believe that the magnitude of the contribution is clearer with this visualization.
 * As a caveat, this cumulative approach, given the different holding periods, is a bit of an apples and oranges combination for some positions based on when they were acquired. However, you can always isolate this analysis by sub-setting into smaller dataframes and separately compare positions which have more consistent holding periods. For example, you could compare your 2H 2016 and 1H 2017 purchases separate of one another.
 
-
+![](https://miro.medium.com/max/60/0*HBp6JtzbgpaJtyKR.png?q=20)
 
 ![](https://miro.medium.com/max/700/0*HBp6JtzbgpaJtyKR.png)
 
@@ -390,7 +390,7 @@ Your final chart compares how far off each position’s latest close price is fr
 * However, TWTR is greater than 25% below its highest close \(33% below as of 3/9/2018\) and WMT is ~20% below its highest close.
 * In this case, you might want to sell TWTR and continue to keep a close eye on the performance of WMT.
 
-
+![](https://miro.medium.com/max/60/0*EvMdoJ2MTDnF8aAv.png?q=20)
 
 ![](https://miro.medium.com/max/700/0*EvMdoJ2MTDnF8aAv.png)
 
@@ -411,5 +411,5 @@ I hope that you found this tutorial useful, and I welcome any feedback in the co
 > [Reference : ](https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU2NTQyNDNdfQ==
+eyJoaXN0b3J5IjpbLTk3MTk1NzM1NywtMTg0NTY1NDI0M119
 -->
