@@ -1,4 +1,4 @@
-# Cheatsheet Pandas
+# Ccheatsheet P-pandas
 
 ## Cheatsheet วิธีใช้ และเทคนิคใน Pandas \(Python\) ฉบับสมบูรณ์
 
@@ -494,10 +494,10 @@ dataframe.to_csv('dataframe.csv')
 
 ### สรุปการใช้งาน Pandas
 
-จากเทคนิคต่าง ๆ ด้านบน จะเห็นว่า Pandas มีฟังก์ชั่นให้เราทำงานได้ง่ายขึ้นมาก ๆ ครับ หวังว่าบทความนี้จะมีประโยชน์กับท่านที่กำลังหัดใช้งาน Pandas กันอยู่นะครับ 
+จากเทคนิคต่าง ๆ ด้านบน จะเห็นว่า Pandas มีฟังก์ชั่นให้เราทำงานได้ง่ายขึ้นมาก ๆ ครับ หวังว่าบทความนี้จะมีประโยชน์กับท่านที่กำลังหัดใช้งาน Pandas กันอยู่นะครับ ![&#x1F642;](https://s.w.org/images/core/emoji/12.0.0-1/svg/1f642.svg)
 
 > ที่มาบทความ [ blog.datath.com](https://blog.datath.com/cheatsheet-pandas/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MTY4MzE2XX0=
+eyJoaXN0b3J5IjpbLTE5MjY3OTM2MDUsMzU2MTY4MzE2XX0=
 -->
