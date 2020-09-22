@@ -42,9 +42,9 @@ Depending on which variant of PySimpleGUI you use, applications that you create 
 Installing PySimpleGUI is easy if you use  [pip](https://realpython.com/what-is-pip/). For the purposes of this tutorial, you’ll learn how to install the regular PySimpleGUI port, which is the Tkinter variant.
 
 Here’s how to do it:
-
-`$ python -m pip install pysimplegui` 
-
+```bash
+$ python -m pip install pysimplegui` 
+```
 This will install PySimpleGUI to whatever your system Python is set to. You can also install PySimpleGUI to a Python virtual environment. If you’re unfamiliar with Python virtual environments, then you should read  [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/).
 
 If you prefer to try the PyQt variant, then you can use  `pip install PySimpleGUIQt`  instead. Now that you have PySimpleGUI installed, it’s time to find out how to use it!
@@ -54,13 +54,13 @@ If you prefer to try the PyQt variant, then you can use  `pip install PySimpleGU
 If you’ve ever used a GUI toolkit before, then you may have heard the term  **widgets**. A widget is a generic term used to describe the elements that make up the user interface (UI), such as buttons, labels, windows, and more. In PySimpleGUI, widgets are referred to as  **elements**, which you may sometimes see capitalized elsewhere as  **Elements**.
 
 One of the basic building blocks of PySimpleGUI is the  `Window()`. To create a  `Window()`, you can do the following:
-
-`# hello_world.py
+```py
+# hello_world.py
 
 import PySimpleGUI as sg
 
 sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()` 
-
+```
 `Window()`  takes lots of different arguments—too many to be listed here. However, for this example you can give the  `Window()`  a  `title`  and a  `layout`  and set the  `margins`, which is how big the UI window will be in pixels.
 
 `read()`  returns any events that are triggered in the  `Window()`  as a  [string](https://realpython.com/python-data-types/#strings)  as well as a  `values`  [dictionary](https://realpython.com/python-dicts/). You’ll learn more about these in later sections of this tutorial.
@@ -74,7 +74,7 @@ This example doesn’t really do much of anything other than possibly displaying
 Normally, you would have other elements besides a  `Window()`  in your application, so let’s add some text and a button to the mix.
 
 Create a new file named  `hello_psg.py`  and add this code:
-
+```py
 `# hello_psg.py
 
 import PySimpleGUI as sg
@@ -596,5 +596,5 @@ If you’d like to learn more about PySimpleGUI, then you can check out any of t
 
 > Reference : [https://realpython.com/pysimplegui-python/](https://realpython.com/pysimplegui-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODM4NzI0OF19
+eyJoaXN0b3J5IjpbMTI3NzQ5MjU4XX0=
 -->
