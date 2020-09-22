@@ -47,36 +47,36 @@ Google Apps Script มี 3 ชนิด ได้แค่ Standalone, Bound to
 ขั้นตอนการทำงานของฟังก์ชั่น editSheet
 
 1.  สร้างตัวแปร ss รับค่าจากการเปิด SpreadSheet จาก URL ข้างต้นด้วยคำสั่ง
-```bash
+```js
 var ss = SpreadsheetApp.openByUrl('https://docs.google.com/a/psu.ac.th/spreadsheets/d/1HJmyqiBYC_AEATmdUWakLgHFyYGqSqeqSA8xEw-8o-c/edit');
 ```
 
 2.  สั่งให้ SpreadSheet ดังกล่าว Active ด้วยคำสั่ง
-```bash    
+```js   
     SpreadsheetApp.setActiveSpreadsheet(ss);
   ```  
 
 3.  เนื่องจากในแต่ละ SpreadSheet ประกอบด้วยหลาย Sheet จึงต้องระบุว่า จะทำงานกับ Active Sheet ชื่อ “Sheet1” ด้วยคำสั่ง
-    
-    SpreadsheetApp.setActiveSheet(ss.getSheetByName("Sheet1"));
-    
+  ```js
+SpreadsheetApp.setActiveSheet(ss.getSheetByName("Sheet1"));
+ ```  
 
 4.  สร้างตัวแปร activeSheet เพื่อกำหนดว่ากำลังทำงาน Active Sheet ด้วยคำสั่ง
-    
+  ```js  
     var activeSheet=ss.getActiveSheet();
-    
+   ``` 
 
 5.  เมื่อต้องการเขียนค่า “Hello World” ลงใน Active Sheet ที่ Cell “C3” ใช้คำสั่ง
-    
+    ```js
     activeSheet.getRange("C3").setValue("Hello World");
-    
+    ```
 
 6.  หากต้องการเขียนค่าทีละหลายๆ Cell หรือเป็น Range ต้องสร้างข้อมูลชนิด Array 2 มิติขึ้นมา แล้วจึงเขียนค่าลงไป กรณีต้องการใส่ค่าในช่วง “A1:C1” ใช้คำสั่ง
-    
+    ```js
     var values =[  ["คณกรณ์","หอศิริธรรม","'3720024"]  ];
     activeSheet.getRange("A1:C1").setValues(values);
     
-
+```
 7.  หากต้องการเขียนค่าในช่วง “A2:A4” ใช้คำสั่ง
     
     values = [ ["เกรียงไกร"],["หนูทองคำ"],["'4220020"] ];
@@ -112,5 +112,5 @@ var ss = SpreadsheetApp.openByUrl('https://docs.google.com/a/psu.ac.th/spreadshe
 
 > Reference : https://sysadmin.psu.ac.th/2014/10/10/googleappsscript-googlesheets-database/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjExNzUyMV19
+eyJoaXN0b3J5IjpbMTg5MzgwMTE1NV19
 -->
