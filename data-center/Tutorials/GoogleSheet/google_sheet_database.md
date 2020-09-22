@@ -47,14 +47,14 @@ Google Apps Script มี 3 ชนิด ได้แค่ Standalone, Bound to
 ขั้นตอนการทำงานของฟังก์ชั่น editSheet
 
 1.  สร้างตัวแปร ss รับค่าจากการเปิด SpreadSheet จาก URL ข้างต้นด้วยคำสั่ง
-    ```bas
-    var ss = SpreadsheetApp.openByUrl('https://docs.google.com/a/psu.ac.th/spreadsheets/d/1HJmyqiBYC_AEATmdUWakLgHFyYGqSqeqSA8xEw-8o-c/edit');
-    ```
+```bash
+var ss = SpreadsheetApp.openByUrl('https://docs.google.com/a/psu.ac.th/spreadsheets/d/1HJmyqiBYC_AEATmdUWakLgHFyYGqSqeqSA8xEw-8o-c/edit');
+```
 
 2.  สั่งให้ SpreadSheet ดังกล่าว Active ด้วยคำสั่ง
-    
+```bash    
     SpreadsheetApp.setActiveSpreadsheet(ss);
-    
+  ```  
 
 3.  เนื่องจากในแต่ละ SpreadSheet ประกอบด้วยหลาย Sheet จึงต้องระบุว่า จะทำงานกับ Active Sheet ชื่อ “Sheet1” ด้วยคำสั่ง
     
@@ -112,5 +112,5 @@ Google Apps Script มี 3 ชนิด ได้แค่ Standalone, Bound to
 
 > Reference : https://sysadmin.psu.ac.th/2014/10/10/googleappsscript-googlesheets-database/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MDEwNjg1XX0=
+eyJoaXN0b3J5IjpbMTkwMjExNzUyMV19
 -->
