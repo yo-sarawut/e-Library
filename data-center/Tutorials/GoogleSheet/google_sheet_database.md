@@ -72,26 +72,26 @@ SpreadsheetApp.setActiveSheet(ss.getSheetByName("Sheet1"));
     ```
 
 6.  หากต้องการเขียนค่าทีละหลายๆ Cell หรือเป็น Range ต้องสร้างข้อมูลชนิด Array 2 มิติขึ้นมา แล้วจึงเขียนค่าลงไป กรณีต้องการใส่ค่าในช่วง “A1:C1” ใช้คำสั่ง
-    ```js
+   ```js
     var values =[  ["คณกรณ์","หอศิริธรรม","'3720024"]  ];
     activeSheet.getRange("A1:C1").setValues(values);
     
 ```
 7.  หากต้องการเขียนค่าในช่วง “A2:A4” ใช้คำสั่ง
-    
-    values = [ ["เกรียงไกร"],["หนูทองคำ"],["'4220020"] ];
-    activeSheet.getRange("A2:A4").setValues(values);
-    
+```js  
+ values = [ ["เกรียงไกร"],["หนูทองคำ"],["'4220020"] ];
+ activeSheet.getRange("A2:A4").setValues(values);
+  ``` 
 
 8.  เมื่อจะเก็บข้อมูลจริงๆ วิธีการข้างต้นจะไม่สะดวก เพราะจะต้องทราบว่าแถวสุดท้ายแล้วเพิ่มค่าแถวไปทีละหนึ่ง ซึ่งสามารถใช้วิธีการ Append Row กล่าวคือเขียนค่าลงไปในแถวถัดจากแถวล่าสุดที่มีข้อมูลได้ ในตัวอย่างนี้ จะสลับไปใช้ Sheet ชื่อ “Log” แล้วใส่ค่าลงไปด้วยคำสั่ง
-    
-    SpreadsheetApp.setActiveSheet(ss.getSheetByName("Log"));
-    activeSheet=ss.getActiveSheet();
-    var timestamp = new Date();
-    activeSheet.appendRow([timestamp, 200 , 300]);
-    timestamp = new Date();
-    activeSheet.appendRow([timestamp, 200 , 456]);
-    
+```js    
+SpreadsheetApp.setActiveSheet(ss.getSheetByName("Log"));
+activeSheet=ss.getActiveSheet();
+var timestamp = new Date();
+activeSheet.appendRow([timestamp, 200 , 300]);
+timestamp = new Date();
+activeSheet.appendRow([timestamp, 200 , 456]);
+ ```  
 
 จากนั้น Save ข้อมูล แล้วสั่ง Run โดยเลือกฟังก์ชั่นชื่อ editSheet ดังภาพ  
 ![](https://lh4.googleusercontent.com/6SNGQ3vMuwGtm-53ZQq_hs2AvHwYcV0iEDaEme6sWVAviezX_gSAkEajV-n2Lv5cFq5mjjbVzyeRtPbxnxi3IL-TkljKRY1ElBgc3N2HMd3429zM4HEa8C89lAyhYxld)
@@ -112,5 +112,5 @@ SpreadsheetApp.setActiveSheet(ss.getSheetByName("Sheet1"));
 
 > Reference : https://sysadmin.psu.ac.th/2014/10/10/googleappsscript-googlesheets-database/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzgwMTE1NV19
+eyJoaXN0b3J5IjpbLTQ5NDM3NjcxXX0=
 -->
