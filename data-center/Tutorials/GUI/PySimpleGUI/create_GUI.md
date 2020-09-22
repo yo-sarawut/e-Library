@@ -75,7 +75,7 @@ Normally, you would have other elements besides a  `Window()`  in your applicati
 
 Create a new file named  `hello_psg.py`  and add this code:
 ```py
-`# hello_psg.py
+# hello_psg.py
 
 import PySimpleGUI as sg
 
@@ -92,7 +92,8 @@ while True:
     if event == "OK" or event == sg.WIN_CLOSED:
         break
 
-window.close()` 
+window.close()
+```
 
 Most GUI toolkits allow you to lay out the elements using  **absolute positioning**  or by allowing the GUI to lay them out  **dynamically**. For example, wxPython uses  `Sizers`  to lay out elements dynamically. If you’d like to learn more about wxPython, then check out  [How to Build a Python GUI Application With wxPython](https://realpython.com/python-gui-with-wxpython/).
 
@@ -139,27 +140,27 @@ Full Source Code for Image Viewer ExampleShow/Hide
 Phew! That’s quite a few lines of code! Let’s go over it piece by piece.
 
 Here are the first few lines:
+```py
+ # img_viewer.py
 
- `1 # img_viewer.py
- 2 
- 3 import PySimpleGUI as sg
- 4 import os.path
- 5 
- 6 # First the window layout in 2 columns
- 7 
- 8 file_list_column = [
- 9    [
-10         sg.Text("Image Folder"),
-11         sg.In(size=(25, 1), enable_events=True, key="-FOLDER-"),
-12         sg.FolderBrowse(),
-13     ],
-14     [
-15         sg.Listbox(
-16             values=[], enable_events=True, size=(40, 20), key="-FILE LIST-"
-17         )
-18     ],
-19 ]` 
+ import PySimpleGUI as sg
+ import os.path
 
+ # First the window layout in 2 columns
+
+ file_list_column = [
+   [
+         sg.Text("Image Folder"),
+         sg.In(size=(25, 1), enable_events=True, key="-FOLDER-"),
+         sg.FolderBrowse(),
+     ],
+     [
+        sg.Listbox(
+            values=[], enable_events=True, size=(40, 20), key="-FILE LIST-"
+        )
+    ],
+ ]` 
+```
 Here, on  **lines 3 and 4**, you import  `PySimpleGUI`  and Python’s  `os`  module. Then, on  **lines 8 through 19**, you create a nested list of elements that represent a vertical column of the user interface. This will create a Browse button that you’ll use to find a folder that has images in it.
 
 The  `key`  parameter is important. This is what you use to identify a specific element in your GUI. For the  `In()`  input text control, you give it an identity of  `"-FOLDER-"`. You’ll use this later to access the contents of the element. You can turn events on or off for each element via the  `enable_events`  parameter.
@@ -169,14 +170,14 @@ The  `Listbox()`  element will display a list of paths to the images that you ca
 When you first load up your user interface, you want the  `Listbox()`  to be empty, so you pass it an empty list. You turn on events for this element, set its  `size`, and give it a unique identifier like you did with the input element.
 
 Now you can look at the right-hand column of elements:
-
+```py
 `21 # For now will only show the name of the file that was chosen
 22 image_viewer_column = [
 23     [sg.Text("Choose an image from list on left:")],
 24     [sg.Text(size=(40, 1), key="-TOUT-")],
 25     [sg.Image(key="-IMAGE-")],
-26 ]` 
-
+26 ] 
+```
 The list of lists on  **lines 22 through 26**  creates three elements. The first element tells the user that they should choose an image to display. The second element displays the name of the selected file. The third displays the  `Image()`.
 
 Note that the  `Image()`  element also has a  `key`  set so you can easily refer back to the element later. For more information on the  `Image()`  element, check out the  [documentation](https://pysimplegui.readthedocs.io/en/latest/#image-element).
@@ -596,5 +597,5 @@ If you’d like to learn more about PySimpleGUI, then you can check out any of t
 
 > Reference : [https://realpython.com/pysimplegui-python/](https://realpython.com/pysimplegui-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzQ5MjU4XX0=
+eyJoaXN0b3J5IjpbMTE0MDAyOTk5MF19
 -->
