@@ -171,7 +171,7 @@ When you first load up your user interface, you want the  `Listbox()`  to be emp
 
 Now you can look at the right-hand column of elements:
 ```py
-`21 # For now will only show the name of the file that was chosen
+21 # For now will only show the name of the file that was chosen
 22 image_viewer_column = [
 23     [sg.Text("Choose an image from list on left:")],
 24     [sg.Text(size=(40, 1), key="-TOUT-")],
@@ -183,8 +183,8 @@ The list of lists on  **lines 22 through 26**  creates three elements. The first
 Note that the  `Image()`  element also has a  `key`  set so you can easily refer back to the element later. For more information on the  `Image()`  element, check out the  [documentation](https://pysimplegui.readthedocs.io/en/latest/#image-element).
 
 The next piece of code defines your layout:
-
-`28 # ----- Full layout -----
+```py
+28 # ----- Full layout -----
 29 layout = [
 30     [
 31         sg.Column(file_list_column),
@@ -192,7 +192,7 @@ The next piece of code defines your layout:
 33         sg.Column(image_viewer_column),
 34     ]
 35 ]` 
-
+```
 The last list, on  **lines 29 to 35**, contains the code that controls how the elements are laid out on the screen. This code contains two  `Column()`  elements with a  `VSeperator()`  between them.  `VSeperator()`  is an alias for  `VerticalSeparator()`. You can learn more about how  [`Column()`](https://pysimplegui.readthedocs.io/en/latest/#column-element-frame-tab-container-elements)  and  [`VSeperator()`](https://pysimplegui.readthedocs.io/en/latest/call%20reference/#verticalseparator-element)  work by reading their respective documentation pages.
 
 To add the  `layout`  to your  `window`, you can do this:
@@ -282,8 +282,8 @@ For this example, you use one of  [PySimpleGUI’s demos](https://github.com/PyS
 Now that you have all the pieces you need to write the code, you can create a new file and name it  `psg_matplotlib.py`.
 
 The demo code is a little long, so you add the code in pieces starting with this:
-
-`import numpy as np
+```py
+import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import PySimpleGUI as sg
 import matplotlib
@@ -291,7 +291,7 @@ import matplotlib
 fig = matplotlib.figure.Figure(figsize=(5, 4), dpi=100)
 t = np.arange(0, 3, .01)
 fig.add_subplot(111).plot(t, 2 * np.sin(2 * np.pi * t))` 
-
+```
 These are the imports that you’ll need to make your code work. This code also sets up the Matplotlib  `Figure()`  and adds a plot using  `add_subplot()`. For more details, you may want to refer to the  [documentation](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.figure.html). The PySimpleGUIQt port doesn’t work in the same way currently, but that’s being worked on for a future release.
 
 In both PySimpleGUI and Tkinter, you use the  `Canvas()`  element for drawing. You can read more about this element in the  [documentation](https://pysimplegui.readthedocs.io/en/latest/#canvas-element).
@@ -597,5 +597,5 @@ If you’d like to learn more about PySimpleGUI, then you can check out any of t
 
 > Reference : [https://realpython.com/pysimplegui-python/](https://realpython.com/pysimplegui-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDAyOTk5MF19
+eyJoaXN0b3J5IjpbMTUwNjI5NjY1MF19
 -->
