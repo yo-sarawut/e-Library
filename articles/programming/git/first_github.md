@@ -6,7 +6,7 @@
 
 Contribute to your first open source project in just 10 minutes with the help of Roshan Jossey.
 
-![](https://miro.medium.com/max/30/1*YZA9KJvP5YEboTTnzDRoJg.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/4928/1*YZA9KJvP5YEboTTnzDRoJg.jpeg)
 
@@ -32,7 +32,6 @@ Ready to get started? Visit [First Contributions](https://github.com/Roshanjosse
 
 Fork the [First Contributions](https://github.com/Roshanjossey/first-contributions) repo by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
 
-![](https://miro.medium.com/max/30/0*8NFC0LcrKJhDoQAG.png?q=20)
 
 ![](https://miro.medium.com/max/931/0*8NFC0LcrKJhDoQAG.png)
 
@@ -40,7 +39,7 @@ Fork the [First Contributions](https://github.com/Roshanjossey/first-contributio
 
 Now clone the repo to your machine. Click on the clone button and then click the _copy to clipboard_ icon.
 
-![](https://miro.medium.com/max/30/0*J4YiNCc3AOOUMYTT.png?q=20)
+
 
 ![](https://miro.medium.com/max/971/0*J4YiNCc3AOOUMYTT.png)
 
@@ -50,7 +49,7 @@ git clone "url you just copied"
 
 where “url you just copied” \(without the quote marks\) is the url to the [First Contributions](https://github.com/Roshanjossey/first-contributions) repository. See the previous steps to obtain the url.
 
-![](https://miro.medium.com/max/30/0*D3fowk-gRvjlMJjQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/861/0*D3fowk-gRvjlMJjQ.png)
 
@@ -106,7 +105,7 @@ If you go to your repository on GitHub, you’ll see a `Compare & pull request` 
 
 Now submit the pull request.
 
-![](https://miro.medium.com/max/30/0*T1wiLQV5w5X42w1i.png?q=20)
+
 
 ![](https://miro.medium.com/max/1400/0*T1wiLQV5w5X42w1i.png)
 
@@ -154,3 +153,6 @@ You now have the skills to contribute to open source projects across the web. Go
 
 And when you’re ready to really dive into Web Development, Check out the [**Best Courses for Learning Full Stack Web Development**](https://codeburst.io/best-udemy-courses-for-learning-full-stack-web-development-45e2bd3ec28b) 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTYxNTE0NTg2NF19
+-->
