@@ -34,12 +34,17 @@ pip freeze \| grep pandas
 Hello World!
 
 pandas==0.23.4
-```pyt is also possible to use Python variables in your shell commands by prepending a `$` symbol consistent with bash style variable names.
 
+
+pypyt is also possible to use 
+```
+
+Python variables in your shell commands by prepending a `$` symbol consistent with bash style variable names.
+```py
 message = 'This is nifty'
 
 !echo $message
-
+```
 This is nifty
 
 Note that the shell in which `!` commands are executed is discarded after execution completes, so commands like `cd` will have no effect. However, IPython magics offer a solution.
@@ -911,5 +916,5 @@ There’s still a whole host of other things we can do with Jupyter notebooks th
 **Reference :** [https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjA2OTA2MF19
+eyJoaXN0b3J5IjpbMjA3NzY1NDM3OF19
 -->
