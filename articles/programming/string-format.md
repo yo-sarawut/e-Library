@@ -99,13 +99,13 @@ And, that’s it! For small strings, this is probably fine, but it’s not super
 #### Format a String Using Multiple Print Statements
 
 Who needs concatenation when we can just call print a bunch of times?
-
+```py
 1. print\("My name is ", end=""\)
 2. print\(name, end=""\)
 3. print\(", and I am ", end=""\)
 4. print\(age, end=""\)
 5. print\(" years old."\)
-
+```
 Now, I know what you’re thinking; yes, this only works in Python 3+. Oh, and this is a totally ridiculous solution, but it demonstrates something important: there are a lot of ways to solve the same problem.
 
 In this case, we’ve taken the `print` function and leveraged one of its default arguments \(`end`\) to remove the newline behavior. That way, we could string together some text without concatenation.
@@ -117,7 +117,7 @@ Again, this is definitely hard to read, and I wouldn’t even advise it for smal
 Continuing our quest for the most ridiculous way of formatting a string, I bring you the `join` function. If you’re not familiar with this function, it’s basically a more efficient way to concatenate strings. In addition, it allows us to provide a separator to place between our concatenated strings. Of course, we won’t be needing that:
 
 ```python
-1.  print(''.join(["My name is ", name, ", and I am ", str(age), " years old"]))
+print(''.join(["My name is ", name, ", and I am ", str(age), " years old"]))
 ```
 
 Here, we’ve called the `join` method on an empty separator string. As an argument, we’ve passed it a list of strings. Naturally, join will combine this list of strings into a single string without any separators.
@@ -315,5 +315,5 @@ At ant rate, thanks again for your support, and a special thanks to [all my patr
 > [Source : ](https://therenegadecoder.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDU3Mjc2OV19
+eyJoaXN0b3J5IjpbLTc4OTY0MDIyN119
 -->
