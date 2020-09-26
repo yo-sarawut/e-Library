@@ -93,7 +93,7 @@ Now, let’s start looking at some more complex features.
 Debugging
 
 The more experienced reader may have had concerns over the ultimate efficacy of Jupyter Notebooks without access to a debugger. But fear not! The IPython kernel has its own interface to [the Python debugger, pdb](https://docs.python.org/3/library/pdb.html), and several options for debugging with it in your notebooks. Executing the `%pdb` line magic will toggle on/off the automatic triggering of pdb on error across all cells in your notebook.
-
+```py
 raise NotImplementedError\(\)
 
 Automatic pdb calling has been turned ON
@@ -917,5 +917,5 @@ There’s still a whole host of other things we can do with Jupyter notebooks th
 **Reference :** [https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyOTYwNjYyXX0=
+eyJoaXN0b3J5IjpbNjM4MDk3NDI5XX0=
 -->
