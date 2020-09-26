@@ -54,7 +54,7 @@ Basic Magics
 Magics are handy commands built into the IPython kernel that make it easier to perform particular tasks. Although they often resemble unix commands, under the hood they are all [implemented in Python](https://github.com/ipython/ipython/tree/master/IPython/core/magics). There exist far more magics than it would make sense to cover here, but it’s worth highlighting a variety of examples. We will start with a few basics before moving on to more interesting cases.
 
 There are two categories of magic: line magics and cell magics. Respectively, they act on a single line or can be spread across multiple lines or entire cells. To see the available magics, you can do the following:
-
+```py
 %lsmagic
 
 Available line magics:
@@ -66,15 +66,16 @@ Automagic is ON, % prefix IS NOT needed for line magics.
 As you can see, there are loads! Most are listed in the [official documentation](https://ipython.readthedocs.io/en/stable/interactive/magics.html), which is intended as a reference but can be somewhat obtuse in places. Line magics start with a percent character `%`, and cell magics start with two, `%%`.
 
 It’s worth noting that `!` is really just a fancy magic syntax for shell commands, and as you may have noticed IPython provides magics in place of those shell commands that alter the state of the shell and are thus lost by `!`. Examples include `%cd`, `%alias` and `%env`.
+```
 
 Let’s go through some more examples.
 
 Autosaving
 
 First up, the `%autosave` magic let’s you change how often your notebook will autosave to its checkpoint file.
-
+```py
 %autosave 60
-
+```
 Autosaving every 60 seconds
 
 It’s that easy!
@@ -916,5 +917,5 @@ There’s still a whole host of other things we can do with Jupyter notebooks th
 **Reference :** [https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzY1NDM3OF19
+eyJoaXN0b3J5IjpbOTgyOTYwNjYyXX0=
 -->
