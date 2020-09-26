@@ -312,5 +312,8 @@ In the meantime, why not improve my site metrics a bit by browsing some of the f
 
 At ant rate, thanks again for your support, and a special thanks to [all my patrons](https://www.patreon.com/TheRenegadeCoder) who make this possible. Until next time!
 
-> [Source : ](https://therenegadecoder.com/code/how-to-format-a-string-in-python/).
+> [Source : ](https://therenegadecoder.com)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk4NDU3Mjc2OV19
+-->
