@@ -83,9 +83,9 @@ It’s that easy!
 Displaying Matplotlib Plots
 
 One of the most common line magics for data scientists is surely `%matplotlib`, which is of course for use with the most popular plotting libary for Python, [Matplotlib](https://matplotlib.org/).
-
+```py
 %matplotlib inline
-
+```
 Providing the `inline` argument instructs IPython to show Matplotlib plot images inline, within your cell outputs, enabling you to include charts inside your notebooks. Be sure to include this magic before you import Matplotlib, as it may not work if you do not; many import it at the start of their notebook, in the first code cell.
 
 Now, let’s start looking at some more complex features.
@@ -119,9 +119,9 @@ This exposes an interactive mode in which you can use the [pdb commands](https:/
 Another handy debugging magic is `%debug`, which you can execute after an exception has been raised to delve back into the call stack at the time of failure.
 
 As an aside, also note how the traceback above demonstrates how magics are translated directly into Python commands, where `%pdb` became `get_ipython().run_line_magic('pdb', '')`. Executing this instead is identical to executing `%pdb`.
-
+```pdf
 Timing Execution
-
+```
 Sometimes in research, it is important to provide runtime comparisons for competing approaches. IPython provides the two timing magics `%time` and `%timeit`, which each has both line and cell modes. The former simply times either the execution of a single statement or cell, depending on whether it is used in line or cell mode.
 
 n = 1000000
@@ -917,5 +917,5 @@ There’s still a whole host of other things we can do with Jupyter notebooks th
 **Reference :** [https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MDk3NDI5XX0=
+eyJoaXN0b3J5IjpbLTE1NTM5MjE3NDZdfQ==
 -->
