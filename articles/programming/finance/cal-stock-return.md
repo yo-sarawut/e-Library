@@ -1,8 +1,11 @@
 
 
- [How to calculate stock returns in Python](https://www.codingfinance.com/post/2018-04-03-calc-returns-py/)
+# cal-stock-return
+
+## [How to calculate stock returns in Python](https://www.codingfinance.com/post/2018-04-03-calc-returns-py/)
 ===
->4/3/2018 
+>
+4/3/2018 Written by DD
 
 ## Calculating financial returns in Python
 
@@ -324,5 +327,5 @@ We did a lot in this port.
 > Written with [StackEdit](https://www.codingfinance.com/post/2018-04-03-calc-returns-py/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzE5Nzk1Nl19
+eyJoaXN0b3J5IjpbLTQyNjQyNTg1NywxNjU3MTk3OTU2XX0=
 -->
