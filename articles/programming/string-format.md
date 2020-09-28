@@ -117,7 +117,7 @@ Again, this is definitely hard to read, and I wouldn’t even advise it for smal
 Continuing our quest for the most ridiculous way of formatting a string, I bring you the `join` function. If you’re not familiar with this function, it’s basically a more efficient way to concatenate strings. In addition, it allows us to provide a separator to place between our concatenated strings. Of course, we won’t be needing that:
 
 ```python
-print(''.join(["My name is ", name, ", and I am ", str(age), " years old"]))
+1.  print(''.join(["My name is ", name, ", and I am ", str(age), " years old"]))
 ```
 
 Here, we’ve called the `join` method on an empty separator string. As an argument, we’ve passed it a list of strings. Naturally, join will combine this list of strings into a single string without any separators.
@@ -312,8 +312,8 @@ In the meantime, why not improve my site metrics a bit by browsing some of the f
 
 At ant rate, thanks again for your support, and a special thanks to [all my patrons](https://www.patreon.com/TheRenegadeCoder) who make this possible. Until next time!
 
-> [Source : ](https://therenegadecoder.com)
+> [Source : ](https://therenegadecoder.com)/code/how-to-format-a-string-in-python/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTY0MDIyN119
+eyJoaXN0b3J5IjpbLTE2NDE5MzYyODQsLTc4OTY0MDIyN119
 -->
