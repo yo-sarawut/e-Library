@@ -36,7 +36,7 @@ Hello World!
 pandas==0.23.4
 
 
-pypyt is also possible to use 
+pypyIt is also possible to use 
 ```
 
 Python variables in your shell commands by prepending a `$` symbol consistent with bash style variable names.
@@ -917,5 +917,6 @@ There’s still a whole host of other things we can do with Jupyter notebooks th
 **Reference :** [https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM5MjE3NDZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE0MjkyNzMsLTE1NTM5MjE3NDZdfQ
+==
 -->
