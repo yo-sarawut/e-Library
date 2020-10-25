@@ -4,5 +4,8 @@
 * [Accessing CPU temperature in python](https://stackoverflow.com/questions/3262603/accessing-cpu-temperature-in-python)
 * [psutil documentation](https://psutil.readthedocs.io/en/latest/)
 
-> [Source : ](https://).
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzUzMDIwMl19
+-->
