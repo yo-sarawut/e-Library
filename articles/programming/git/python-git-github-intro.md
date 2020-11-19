@@ -72,7 +72,7 @@ To work with Git, you first need to tell it who you are. You can set your userna
 $ git config --global user.name "your name goes here"
 ```
 
-Once that is ste up, you will need a repo to work in. Creating a repo is simple. Use the `git init` command in a directory:
+Once that is setup, you will need a repo to work in. Creating a repo is simple. Use the `git init` command in a directory:
 
 ```text
 $ mkdir example
