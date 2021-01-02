@@ -88,7 +88,7 @@ module.exports = {
 
 ในไฟล์ `.md` เราสามารถใส่ front matter เพื่อให้ VuePress สร้าง sidebar ให้หน้านั้นๆ แบบอัตโนมัติโดยอิงจาก h1 และ h2 ในไฟล์ ซึ่งเราจะเขียน front matter นี้ไว้ด้านบนสุดของไฟล์ markdown ดังนี้
 
-```
+```js
 ---
 sidebar: auto
 ---
@@ -96,7 +96,7 @@ sidebar: auto
 
 แต่หากอยากสร้าง Sidebar เอง ก็ให้เข้าไปแก้ไขไฟล์ `config.js` ดังนี้
 
-```
+```js
 module.exports = {
   themeConfig: {
     sidebar: [
@@ -120,7 +120,7 @@ module.exports = {
 
 ปกติ content ของไฟล์ `.md` จะถูก render ใน `<div class="page">` container ของ default theme layout หากเราต้องการสร้าง layout เอง เราสามารถสร้าง VueComponent สำหรับใช้เป็น layout ที่เราต้องการได้ โดยเราสามารถระบุ layout ที่เราต้องการใช้ในไฟล์ markdown นั้นๆ โดยเฉพาะได้โดยการกำหนดชื่อ layout ได้ที่ frontmatter ดังนี้
 
-```
+```js
 ---
 layout: MyCustomLayout
 ---
@@ -128,7 +128,7 @@ layout: MyCustomLayout
 
 VuePress จะตามไป render หน้านี้จากไฟล์ `.vuepress/components/MyCustomLayout.vue` โดยเนื้อหาในไฟล์ markdown ที่ใช้ layout นี้จะแทนที่ `<Content/>` ในไฟล์ `MyCustomLayout.vue` (คล้ายกับ `<router-view>`) เช่น
 
-```
+```js
 <template>
   <div class="container">
     <Content/>
@@ -148,7 +148,7 @@ VuePress จะตามไป render หน้านี้จากไฟล์
 
 คือส่วนหัวของไฟล์ `.md` โดยเราสามารถกำหนดค่าอะไรก็ได้ลงไปในนี้ และอ้างถึงมันได้ผ่านตัวแปร `$site`, `$page` (เราสามารถอ้างถึงตัวแปร 2 ตัวนี้จากที่ไหนในไฟล์ markdown หรือใน VueComponent ก็ได้) เช่น หากเราต้องการกำหนด `date` ให้ เราก็เขียนลงไปตรงๆ ไว้ด้านบนสุดของไฟล์แบบนี้
 
-```
+```js
 ---
 date: 2019-10-15 12:30:11
 ---
@@ -156,7 +156,7 @@ date: 2019-10-15 12:30:11
 
 และเมื่อเราลองอ่านค่าของตัวแปร `$site` หรือ `$page` ออกมา (เขียนลงไปในไฟล์ `.md` ตรงๆ ได้เลย) จะเห็น attribute ต่างๆ ที่เรากำหนดไว้ใน `frontmatter`
 
-```
+```js
 {{ $site }}
 {{ $page }}
 ```
@@ -165,13 +165,13 @@ date: 2019-10-15 12:30:11
 
 เขียนแค่นี้ เราจะได้ table of contents ของทั้งหน้า โดยจะถูกสร้างอัตโนมัติจาก `h2`, `h3`
 
-```
+```js
 [[toc]]
 ```
 
 ### Custom Containers
 
-```
+```js
 ::: tip สาาะน่ารู้
 This is a tip
 :::
@@ -184,7 +184,7 @@ This is a tip
 
 ใส่ตัวเลขไว้หลังชนิดของโค้ด เช่น `{4}` และถ้าอยากได้ hilight หลายๆ บรรทัดให้ใส่เป็นช่วงแบบนี้ `{4-7}` ดังนี้
 
-```
+```js
   ``` js{4}
     export default {
       data () {
@@ -228,5 +228,5 @@ module.exports = {
 
 > [Source : ](https://www.khomkrit.com/vuepress-in-30-minutes/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjAyNDkxMV19
+eyJoaXN0b3J5IjpbMTg5NDk1NzY2XX0=
 -->
