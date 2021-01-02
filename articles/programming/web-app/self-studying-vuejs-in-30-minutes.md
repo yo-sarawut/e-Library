@@ -685,7 +685,7 @@ $ npm run serve
 
 หลังจากที่เรา Scaffold Vue Project มาแล้วเราสามารถตามไปดูร่องรอยของ Vuex ได้ที่ 2 ไฟล์นี้ เริ่มจาก `/src/main.js` – มีการกำหนด `store` ให้ตั้งแต่ตอนสร้าง Vue instance โดยใช้ค่าที่ export มาจาก `/src/store` ดังนี้
 
-```
+```js
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
@@ -702,7 +702,7 @@ new Vue({
 
 จากนั้นเราลองตามไปดูในไฟล์ `/src/store.js` ก็จะพบว่าไฟล์นี้ export Vuex.Store instance ออกไป พร้อมกับกำหนด property ต่างๆ ใน Vuex ได้แก่ `state`, `mutations`, `actions` ดังนี้
 
-```
+```js
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -729,7 +729,7 @@ Vuex เป็น **single state tree** หมายความว่าใน 
 
 เริ่มจากลองกำหนดค่าให้กับ state
 
-```
+```js
 state: {
   items: ['a']
 }
@@ -737,7 +737,7 @@ state: {
 
 เราสามารถอ้างถึงค่านี้จากที่ไหนก็ได้ในแอป เช่น
 
-```
+```js
 methods: {
   addTodo() {
     this.$store.state.items.push('b')
@@ -754,7 +754,7 @@ methods: {
 
 ลองเพิ่มเนื้อหาใน mutation ดังนี้
 
-```
+```js
 mutations: {
   'ADD_ITEM' (state, payload) {
     state.items.push(payload.item)
@@ -764,7 +764,7 @@ mutations: {
 
 จากโค้ดเราจะมี mutation ชื่อ `ADD_ITEM` เอาไว้ให้เรียกใช้ได้จากที่ไหนก็ได้ในแอปเช่นกัน เช่น
 
-```
+```js
 addTodo() {
   this.$store.commit('ADD_ITEM', { item: 'b'})
 },
@@ -809,7 +809,7 @@ getters: {
 
 แล้วเวลาเรียกใช้เราก็สามารถเรียกใช้ได้แบบนี้
 
-```
+```js
 let itemCounts = this.$store.getters.todoCount
 ```
 
@@ -848,5 +848,5 @@ export default {
 
 > [Source : ](https://www.khomkrit.com/self-studying-vuejs-in-30-minutes/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NTQ5NDQxXX0=
+eyJoaXN0b3J5IjpbLTE4NzMwNjYyMzRdfQ==
 -->
