@@ -10,7 +10,7 @@
 
 แต่ในมุมของผู้เขียนเองบอกว่าจริงๆ แล้วเราต้องสร้างสมดุลให้แนวคิดทั้ง 2 แบบนี้ ทั้งแนวคิดเรื่องการป้องกันเด็กติดจอ และแนวคิดในการเสริมสร้างความรู้เกี่ยวกับวิทยาการคอมพิวเตอร์ (computer science) สมัยใหม่ และเชื่อว่าเราสามารถทำทั้ง 2 อย่างนี้ไปพร้อมๆ กันได้ โดยการเฝ้าระวังสอนให้เด็กรู้จักรู้เท่าทันเทคโนโลยีและสอนเด็กเกี่ยวกับวิทยาการคอมพิวเตอร์ไปพร้อมๆ กัน
 
-## [#](https://www.khomkrit.com/blog/2019-09-08-computational-thinking-children.html#computational-thinking-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3)Computational Thinking คืออะไร?
+## [](https://www.khomkrit.com/blog/2019-09-08-computational-thinking-children.html#computational-thinking-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3)Computational Thinking คืออะไร?
 
 Computational Thinking หรือเรียกแบบไทยๆ ว่า **การคิดเชิงคำนวน** ไม่ใช่การโฟกัสโดยเริ่มจากการสอนภาษาสำหรับเขียนโปรแกรมคอมพิวเตอร์ อุปกรณ์คอมพิวเตอร์ หรือ hardware เลยแต่ต้น แต่เป็นการโฟกัสไปที่การเตรียมและเสริมสร้างวิธีคิดเกี่ยวกับความคิดสร้างสรรค์, complexity และตรรกะ (logic) ให้เด็ก
 
@@ -92,5 +92,5 @@ _Cubetto_
 
 > [Source : ](https://www.khomkrit.com/unlock-computational-thinking/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjM0Nzg2MF19
+eyJoaXN0b3J5IjpbLTEyNjUxODA1NTVdfQ==
 -->
