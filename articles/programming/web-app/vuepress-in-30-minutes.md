@@ -1,6 +1,8 @@
 
 # เรียน VuePress ด้วยตัวเองใน 30 นาที
 
+![enter image description here](https://vuepress.vuejs.org/hero.png)
+
 [VuePress](https://vuepress.vuejs.org/) ช่วยให้เราสร้าง static website สำหรับ document ต่างๆ ได้อย่างง่ายดาย มี Default Theme ที่มีฟีเจอร์เพียงพอและพร้อมต่อการทำ online document เช่น Search, Sidebar, ScrollSpy, รวมถึง Markdown Extension ที่ทีม VuePress ทำเตรียมมาให้เราใช้ อีกทั้งเรายังสามารถ embed VueComponent ลงไปในไฟล์ markdown ตรงๆ ได้อีกด้วย และที่สำคัญคือ เรายังสามารถโฟกัสที่การเขียนเอกสารด้วย markdown เพียงอย่างเดียวได้ตลอดการเขียนเอกสารเลย แม้เบื้องหลังจะเป็น Vue.js ก็ตาม มากไปกว่านั้น ต่อให้เราไม่มีความรู้เกี่ยวกับ Vue.js เลยก็สามารถสร้างเอกสารออนไลน์สวยๆ ฟีเจอร์ครบครันได้อย่างง่ายดาย!
 
 หลังจากที่ติดตามข่าวของ [VuePress](https://vuepress.vuejs.org/) อยู่เป็นระยะ และผมก็ยังไม่ได้จะจริงจังกับมันมากนักจนท้ายที่สุด เมื่อไม่นานมานี้ VuePress เปิดตัวเวอร์ชั่น 1.x อย่างเป็นทางการหลังจากที่ทำกันมาได้ประมาณปีกว่าๆ (เริ่มทำตั้งแต่เมษายน 2018) ประกอบกับที่พักหลังผมหันมาใช้ [Vue.js](https://vuejs.org/) ทำโปรเจ็คจริงจังมากขึ้นเรื่อยๆ ก็เลยคิดว่าถึงเวลาแล้วที่ต้องลองไปเล่น VuePress ดูสักทีให้เห็นภาพรวมคร่าวๆ ว่ามันใช้ยังไง และเป็นอย่างไรเมื่อเทียบกับ [Jekyll](https://jekyllrb.com/) static site generator อีกตัวที่ผมใช้มาโดยตลอดก่อนหน้านี้
@@ -184,8 +186,8 @@ This is a tip
 
 ใส่ตัวเลขไว้หลังชนิดของโค้ด เช่น `{4}` และถ้าอยากได้ hilight หลายๆ บรรทัดให้ใส่เป็นช่วงแบบนี้ `{4-7}` ดังนี้
 
-```js
-  ``` js{4}
+```
+	  ``` js{4}
     export default {
       data () {
         return {
@@ -193,12 +195,12 @@ This is a tip
         }
       }
     }
-  ```
+	  ```
 ```
 
 แสดงเลขบรรทัดได้โดยการเขียน config เพิ่มในไฟล์ `config.js` ดังนี้
 
-```
+```js
 module.exports = {
   markdown: {
     lineNumbers: true
@@ -210,7 +212,7 @@ module.exports = {
 
 เราสามารถใช้ Vue Directive ได้ เช่น
 
-```
+```js
   <span v-for="i in 3">{{ i }} </span>
 ```
 
@@ -220,7 +222,7 @@ module.exports = {
 
 ให้สร้างไฟล์ `.vue` (Vue Component) ไว้ใน `.vuepress/components/` และไฟล์นั้นจะกลายมาเป็น component ให้เราใช้ได้เลยในไฟล์ markdown เช่น เราสร้างไฟล์ `/vuepress/components/MyComponent.vue` เราก็สามารถเรียกใช้ได้แบบนี้เลย
 
-```
+```js
 <MyComponent/>
 ```
 
@@ -228,5 +230,5 @@ module.exports = {
 
 > [Source : ](https://www.khomkrit.com/vuepress-in-30-minutes/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDk1NzY2XX0=
+eyJoaXN0b3J5IjpbLTE2OTg3MjU3NzJdfQ==
 -->
