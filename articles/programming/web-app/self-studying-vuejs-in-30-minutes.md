@@ -483,7 +483,7 @@ export default {
 
 จากนั้นกลับไปแก้ไขไฟล์ `Person.vue` ให้รอรับข้อมูลที่ถูกส่งออกมาจาก `Create.vue` โดยหลักการก็คือ ดักจับ event ชื่อ `createColor` ที่ถูกส่งออกมาจาก `<app-create>` โดยฟังก์ชั่น `$emit()` นั่นเอง ดังนี้
 
-```
+```html
 <template>
   <div>
     <app-create hint="Color" @createColor="addColor">Enter your favorite color</app-create> // (1)
@@ -519,7 +519,7 @@ export default {
 
 หากเราต้องการให้ cursor ไป focus อยู่ที่ textfield ของ Create.vue ให้พร้อมกรอกข้อมูลเลยตั้งแต่เปิดหน้าจอมาเราสามารถทำได้โดยแก้ไขไฟล์ Create.vue โดยการอ้างถึง element ที่ต้องการ แล้วเรียกฟังก์ชั่น `focus()` ดังนี้
 
-```
+```html
 <template>
 ...
   <input ref="inputColor" type="text" class="form-control" :placeholder="hint" v-model="color"> // (1)
@@ -610,7 +610,7 @@ $ npm run serve
 
 ใน directory `src` ไฟล์ที่เราสนใจคือไฟล์ `router.js` และ attribute ที่เราสนใจในไฟล์นี้คือ `routes` โดยเราจะพบว่า `routes` เก็บค่าเป็น array ของ object ซึ่งแต่ละ object นั้นก็คือการนิยาม router แต่ละตัวนั่นเอง ว่าถ้า user เข้ามาที่ path ไหนแล้วจะให้โหลด component ไหนเข้ามาแสดง
 
-```
+```js
     {
       path: '/',
       name: 'home',
@@ -623,7 +623,7 @@ $ npm run serve
 
 -   [Dynamic Route Maching](https://router.vuejs.org/guide/essentials/dynamic-matching.html) – ทำให้เราสามารถกำหนด route maching โดยไม่ต้องกำหนดชื่อ path เป็นค่าคงที่ก็ได้ เช่น ถ้าเรากำหนด route เป็น `/user/:id`
 
-```
+```js
     {
       path: '/user/:id',
       name: 'user-detail',
@@ -645,7 +645,7 @@ $ npm run serve
 
 `App.vue` ไฟล์นี้มีเนื้อหาเกี่ยวข้องกับ Vue Router ดังนี้
 
-```
+```html
 <template>
   <div id="app">
     <div id="nav">
@@ -665,13 +665,13 @@ $ npm run serve
 
 แท็ก `<router-link>` จะสร้างแท็ก `<a>` มาให้เรา พร้อมกับกำหนดว่าจะให้ link ไปที่ path ใด ซึ่งเราสามารถกำหนดค่าต่างๆ เพิ่มให้กับ `<router-link>` ได้อีก เช่น แทนที่เราจะกำหนดเป็น path ไปก็สามารถกำหนดเป็นชื่อของ route ก็ได้ดังนี้
 
-```
+```js
 <router-link :to="{ name: 'home' }>Home</router-link>
 ```
 
 จุดที่ (3) คือแท็ก `<router-view>` เอาไว้กำหนดว่า เมื่อ component นี้ถูกแสดง (ในที่นี้คือ App.vue) แล้วให้นำ component ที่ match กับ route ที่เรากำหนดค่าไว้ใน `router.js` มาแสดงแทนที่แท็ก `<router-view>` ตรงนี้
 
-อ่านเพิ่ม
+**อ่านเพิ่ม**
 
 -   [Lazy Loading Routes](https://router.vuejs.org/guide/advanced/lazy-loading.html) – บาง component เรายังไม่อยากให้โหลดมาตั้งแต่ตอนแรก เราสามารถกำหนดได้ว่าให้โหลดมาตอนไหนในภายหลังได้ ว่าจะโหลดมาเฉพาะ component โดดๆ หรือโหลดมาพร้อมกับ component อื่นๆ โดยกำหนด chunk file ให้กับมันได้อีกที
 
@@ -848,5 +848,5 @@ export default {
 
 > [Source : ](https://www.khomkrit.com/self-studying-vuejs-in-30-minutes/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTcyNTY3XX0=
+eyJoaXN0b3J5IjpbNTE1NTQ5NDQxXX0=
 -->
