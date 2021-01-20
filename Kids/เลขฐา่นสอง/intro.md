@@ -45,6 +45,8 @@
 
 **ตัวอย่าง**  จงแปลง 23(10)  ให้อยู่ในรูปเลขฐานสอง
 
+
+
 ![](http://ms.pbru.ac.th/numbersystem/picture/number02.gif)
 
 ผลลัพธ์ของการแปลง 23(10) ให้อยู่ในรูปเลขฐาน 2 คือ 10111(2)
@@ -73,6 +75,7 @@
 
 
 > Reference : [th.wikipedia.org](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%AD%E0%B8%87).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIwMDczNjYsMzgxMjkzMTEyXX0=
+eyJoaXN0b3J5IjpbLTc4ODEzMDY3NiwzODEyOTMxMTJdfQ==
 -->
