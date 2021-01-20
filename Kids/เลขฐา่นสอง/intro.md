@@ -74,8 +74,12 @@
 23(10)
 
 
+
+
+
 > Reference : [th.wikipedia.org](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%AD%E0%B8%87).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODEzMDY3NiwzODEyOTMxMTJdfQ==
+eyJoaXN0b3J5IjpbMTU3MDY2MjEwMiwtNzg4MTMwNjc2LDM4MT
+I5MzExMl19
 -->
