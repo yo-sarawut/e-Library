@@ -113,6 +113,109 @@ The charter codes from 0 to 31 in the ASCII table are non-printable. Following A
 | 11110 |30 |36 |1E |RS |Record Separator |
 | 11111 |31 |37 |1F |US |Unit Separator |
 
+##  ASCII Table for Printable character codes
+
+The charter codes from 32 to 127 in the ASCII table are printable characters. For example, Alphabets, Numbers, braces, punctuation marks, so on and so forth. The following ASCII table represents the list of available charter codes with descriptions.
+
+| BINARY |DEC |OCT |HEX |SYMBOL |DESCRIPTION |
+|----------|-----|-----|-----|----------|----------|
+| 100000 |32 |40 |20 |nan |Space |
+| 100001 |33 |41 |21 |! |Exclamation mark |
+| 100010 |34 |42 |22 |“ |Double quotes |
+| 100011 |35 |43 |23 |# |Number |
+| 100100 |36 |44 |24 |$ |Dollar |
+| 100101 |37 |45 |25 |% |Percentage |
+| 100110 |38 |46 |26 |& |Ampersand |
+| 100111 |39 |47 |27 |‘ |Single quote |
+| 101000 |40 |50 |28 |( |Open parenthesis or open bracket |
+| 101001 |41 |51 |29 |) |Close parenthesis or close bracket |
+| 101010 |42 |52 |2A |* |Asterisk |
+| 101011 |43 |53 |2B |+ |Plus |
+| 101100 |44 |54 |2C |, |Comma |
+| 101101 |45 |55 |2D |– |Hyphen |
+| 101110 |46 |56 |2E |. |Period, dot or full stop |
+| 101111 |47 |57 |2F |/ |Slash or divide |
+| 110000 |48 |60 |30 |0 |Zero |
+| 110001 |49 |61 |31 |1 |One |
+| 110010 |50 |62 |32 |2 |Two |
+| 110011 |51 |63 |33 |3 |Three |
+| 110100 |52 |64 |34 |4 |Four |
+| 110101 |53 |65 |35 |5 |Five |
+| 110110 |54 |66 |36 |6 |Six |
+| 110111 |55 |67 |37 |7 |Seven |
+| 111000 |56 |70 |38 |8 |Eight |
+| 111001 |57 |71 |39 |9 |Nine |
+| 111010 |58 |72 |3A |: |Colon |
+| 111011 |59 |73 |3B |; |Semicolon |
+| 111100 |60 |74 |3C |< |Less than |
+| 111101 |61 |75 |3D |= |Equals |
+| 111110 |62 |76 |3E |> |Greater than |
+| 111111 |63 |77 |3F |? |Question mark |
+| 1000000 |64 |100 |40 |@ |At symbol |
+| 1000001 |65 |101 |41 |A |Uppercase A |
+| 1000010 |66 |102 |42 |B |Uppercase B |
+| 1000011 |67 |103 |43 |C |Uppercase C |
+| 1000100 |68 |104 |44 |D |Uppercase D |
+| 1000101 |69 |105 |45 |E |Uppercase E |
+| 1000110 |70 |106 |46 |F |Uppercase F |
+| 1000111 |71 |107 |47 |G |Uppercase G |
+| 1001000 |72 |110 |48 |H |Uppercase H |
+| 1001001 |73 |111 |49 |I |Uppercase I |
+| 1001010 |74 |112 |4A |J |Uppercase J |
+| 1001011 |75 |113 |4B |K |Uppercase K |
+| 1001100 |76 |114 |4C |L |Uppercase L |
+| 1001101 |77 |115 |4D |M |Uppercase M |
+| 1001110 |78 |116 |4E |N |Uppercase N |
+| 1001111 |79 |117 |4F |O |Uppercase O |
+| 1010000 |80 |120 |50 |P |Uppercase P |
+| 1010001 |81 |121 |51 |Q |Uppercase Q |
+| 1010010 |82 |122 |52 |R |Uppercase R |
+| 1010011 |83 |123 |53 |S |Uppercase S |
+| 1010100 |84 |124 |54 |T |Uppercase T |
+| 1010101 |85 |125 |55 |U |Uppercase U |
+| 1010110 |86 |126 |56 |V |Uppercase V |
+| 1010111 |87 |127 |57 |W |Uppercase W |
+| 1011000 |88 |130 |58 |X |Uppercase X |
+| 1011001 |89 |131 |59 |Y |Uppercase Y |
+| 1011010 |90 |132 |5A |Z |Uppercase Z |
+| 1011011 |91 |133 |5B |[ |Opening bracket |
+| 1011100 |92 |134 |5C |\ |Backslash |
+| 1011101 |93 |135 |5D |] |Closing bracket |
+| 1011110 |94 |136 |5E |^ |Caret – circumflex |
+| 1011111 |95 |137 |5F |_ |Underscore |
+| 1100000 |96 |140 |60 |` |Grave accent |
+| 1100001 |97 |141 |61 |a |Lowercase a |
+| 1100010 |98 |142 |62 |b |Lowercase b |
+| 1100011 |99 |143 |63 |c |Lowercase c |
+| 1100100 |100 |144 |64 |d |Lowercase d |
+| 1100101 |101 |145 |65 |e |Lowercase e |
+| 1100110 |102 |146 |66 |f |Lowercase f |
+| 1100111 |103 |147 |67 |g |Lowercase g |
+| 1101000 |104 |150 |68 |h |Lowercase h |
+| 1101001 |105 |151 |69 |i |Lowercase i |
+| 1101010 |106 |152 |6A |j |Lowercase j |
+| 1101011 |107 |153 |6B |k |Lowercase k |
+| 1101100 |108 |154 |6C |l |Lowercase l |
+| 1101101 |109 |155 |6D |m |Lowercase m |
+| 1101110 |110 |156 |6E |n |Lowercase n |
+| 1101111 |111 |157 |6F |o |Lowercase o |
+| 1110000 |112 |160 |70 |p |Lowercase p |
+| 1110001 |113 |161 |71 |q |Lowercase q |
+| 1110010 |114 |162 |72 |r |Lowercase r |
+| 1110011 |115 |163 |73 |s |Lowercase s |
+| 1110100 |116 |164 |74 |t |Lowercase t |
+| 1110101 |117 |165 |75 |u |Lowercase u |
+| 1110110 |118 |166 |76 |v |Lowercase v |
+| 1110111 |119 |167 |77 |w |Lowercase w |
+| 1111000 |120 |170 |78 |x |Lowercase x |
+| 1111001 |121 |171 |79 |y |Lowercase y |
+| 1111010 |122 |172 |7A |z |Lowercase z |
+| 1111011 |123 |173 |7B |{ |Opening brace |
+| 1111100 |124 |174 |7C || |Vertical bar |
+| 1111101 |125 |175 |7D |} |Closing brace |
+| 1111110 |126 |176 |7E |~ |Equivalency sign – tilde |
+| 1111111 |127 |177 |7F |nan |Delete |
+
 - https://www.tutorialgateway.org/ascii-table/
 
 
@@ -120,6 +223,6 @@ The charter codes from 0 to 31 in the ASCII table are non-printable. Following A
 > Reference : [th.wikipedia.org](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%AD%E0%B8%87).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTk2NjAyNSwtNzg4MTMwNjc2LDM4MT
+eyJoaXN0b3J5IjpbMTYwMjgxMjk5MiwtNzg4MTMwNjc2LDM4MT
 I5MzExMl19
 -->
