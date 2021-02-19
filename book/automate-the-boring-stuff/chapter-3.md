@@ -390,16 +390,16 @@ If you try to use a local variable in a function before you assign a value to it
 
 ➋ eggs = 'global'
    spam()
-
+```
 If you run the previous program, it produces an error message.
-
+```
 Traceback (most recent call last):
   File "C:/sameNameError.py", line 6, in <module>
     spam()
   File "C:/sameNameError.py", line 2, in spam
     print(eggs) # ERROR!
 UnboundLocalError: local variable 'eggs' referenced before assignment
-
+```
 You can view the execution of this program at https://autbor.com/sameNameError/. This error happens because Python sees that there is an assignment statement for eggs in the spam() function ➊ and, therefore, considers eggs to be local. But because print(eggs) is executed before eggs is assigned anything, the local variable eggs doesn’t exist. Python will not fall back to using the global eggs variable ➋.
 
 FUNCTIONS AS “BLACK BOXES”
@@ -412,7 +412,7 @@ Exception Handling
 Right now, getting an error, or exception, in your Python program means the entire program will crash. You don’t want this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue to run.
 
 For example, consider the following program, which has a divide-by-zero error. Open a file editor window and enter the following code, saving it as zeroDivide.py:
-
+```py
 def spam(divideBy):
     return 42 / divideBy
 
@@ -420,9 +420,9 @@ print(spam(2))
 print(spam(12))
 print(spam(0))
 print(spam(1))
-
+```
 We’ve defined a function called spam, given it a parameter, and then printed the value of that function with various parameters to see what happens. This is the output you get when you run the previous code:
-
+```
 21.0
 3.5
 Traceback (most recent call last):
@@ -431,13 +431,13 @@ Traceback (most recent call last):
   File "C:/zeroDivide.py", line 2, in spam
     return 42 / divideBy
 ZeroDivisionError: division by zero
-
+```
 You can view the execution of this program at https://autbor.com/zerodivide/. A ZeroDivisionError happens whenever you try to divide a number by zero. From the line number given in the error message, you know that the return statement in spam() is causing an error.
 
 Errors can be handled with try and except statements. The code that could potentially have an error is put in a try clause. The program execution moves to the start of a following except clause if an error happens.
 
 You can put the previous divide-by-zero code in a try clause and have an except clause contain code to handle what happens when this error occurs.
-
+```py
 def spam(divideBy):
     try:
         return 42 / divideBy
@@ -448,17 +448,17 @@ print(spam(2))
 print(spam(12))
 print(spam(0))
 print(spam(1))
-
+```
 When code in a try clause causes an error, the program execution immediately moves to the code in the except clause. After running that code, the execution continues as normal. The output of the previous program is as follows:
-
+```
 21.0
 3.5
 Error: Invalid argument.
 None
 42.0
-
+```
 You can view the execution of this program at https://autbor.com/tryexceptzerodivide/. Note that any errors that occur in function calls in a try block will also be caught. Consider the following program, which instead has the spam() calls in the try block:
-
+```py
 def spam(divideBy):
     return 42 / divideBy
 
@@ -469,18 +469,18 @@ try:
     print(spam(1))
 except ZeroDivisionError:
     print('Error: Invalid argument.')
-
+```
 When this program is run, the output looks like this:
-
+```
 21.0
 3.5
 Error: Invalid argument.
-
+```
 You can view the execution of this program at https://autbor.com/spamintry/. The reason print(spam(1)) is never executed is because once the execution jumps to the code in the except clause, it does not return to the try clause. Instead, it just continues moving down the program as normal.
 
 A Short Program: Zigzag
 Let’s use the programming concepts you’ve learned so far to create a small animation program. This program will create a back-and-forth, zigzag pattern until the user stops it by pressing the Mu editor’s Stop button or by pressing CTRL-C. When you run this program, the output will look something like this:
-
+```
     ********
    ********
   ********
@@ -490,9 +490,9 @@ Let’s use the programming concepts you’ve learned so far to create a small a
   ********
    ********
     ********
-
+```
 Type the following source code into the file editor, and save the file as zigzag.py:
-
+```py
 import time, sys
 indent = 0 # How many spaces to indent.
 indentIncreasing = True # Whether the indentation is increasing or not.
@@ -518,15 +518,15 @@ try:
                 indentIncreasing = True
 except KeyboardInterrupt:
     sys.exit()
-
+```
 Let’s look at this code line by line, starting at the top.
-
+```py
 import time, sys
 indent = 0 # How many spaces to indent.
 indentIncreasing = True # Whether the indentation is increasing or not.
-
+```
 First, we’ll import the time and sys modules. Our program uses two variables: the indent variable keeps track of how many spaces of indentation are before the band of eight asterisks and indentIncreasing contains a Boolean value to determine if the amount of indentation is increasing or decreasing.
-
+```py
 try:
     while True: # The main program loop.
         print(' ' * indent, end='')
@@ -626,5 +626,5 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg5ODk5OTIsMTEyOTg0NjU5OF19
+eyJoaXN0b3J5IjpbMTcxOTI1NTc0NCwxMTI5ODQ2NTk4XX0=
 -->
