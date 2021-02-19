@@ -141,7 +141,7 @@ True
 ```
 Behind the scenes, Python adds return None to the end of any function definition with no return statement. This is similar to how a while or for loop implicitly ends with a continue statement. Also, if you use a return statement without a value (that is, just the return keyword by itself), then None is returned.
 
-Keyword Arguments and the print() Function
+## Keyword Arguments and the print() Function
 Most arguments are identified by their position in the function call. For example, random.randint(1, 10) is different from random.randint(10, 1). The function call random.randint(1, 10) will return a random integer between 1 and 10 because the first argument is the low end of the range and the second argument is the high end (while random.randint(10, 1) causes an error).
 
 However, rather than through their position, keyword arguments are identified by the keyword put before them in the function call. Keyword arguments are often used for optional parameters. For example, the print() function has the optional parameters end and sep to specify what should be printed at the end of its arguments and between its arguments (separating them), respectively.
@@ -179,10 +179,10 @@ cats,dogs,mice
 ```
 You can add keyword arguments to the functions you write as well, but first you’ll have to learn about the list and dictionary data types in the next two chapters. For now, just know that some functions have optional keyword arguments that can be specified when the function is called.
 
-The Call Stack
+## The Call Stack
 Imagine that you have a meandering conversation with someone. You talk about your friend Alice, which then reminds you of a story about your coworker Bob, but first you have to explain something about your cousin Carol. You finish you story about Carol and go back to talking about Bob, and when you finish your story about Bob, you go back to talking about Alice. But then you are reminded about your brother David, so you tell a story about him, and then get back to finishing your original story about Alice. Your conversation followed a stack-like structure, like in Figure 3-1. The conversation is stack-like because the current topic is always at the top of the stack.
 
-image
+![enter image description here](https://automatetheboringstuff.com/2e/images/000109.jpg)
 Figure 3-1: Your meandering conversation stack
 
 Similar to our meandering conversation, calling a function doesn’t send the execution on a one-way trip to the top of a function. Python will remember which line of code called the function so that the execution can return there when it encounters a return statement. If that original function called other functions, the execution would return to those function calls first, before returning from the original function call.
@@ -227,7 +227,7 @@ The call stack is how Python remembers where to return the execution after each 
 
 When a function call returns, Python removes a frame object from the top of the stack and moves the execution to the line number stored in it. Note that frame objects are always added and removed from the top of the stack and not from any other place. Figure 3-2 illustrates the state of the call stack in abcdCallStack.py as each function is called and returns.
 
-image
+![enter image description here](https://automatetheboringstuff.com/2e/images/000054.jpg)
 Figure 3-2: The frame objects of the call stack as abcdCallStack.py calls and returns from functions
 
 The top of the call stack is which function the execution is currently in. When the call stack is empty, the execution is on a line outside of all functions.
@@ -626,6 +626,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTE5MjE3OSwxNzYzOTkwMTUzLDExMj
-k4NDY1OThdfQ==
+eyJoaXN0b3J5IjpbLTE5NzYxNDcyNTYsMTc2Mzk5MDE1MywxMT
+I5ODQ2NTk4XX0=
 -->
