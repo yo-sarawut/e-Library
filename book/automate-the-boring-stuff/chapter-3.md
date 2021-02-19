@@ -265,12 +265,12 @@ Traceback (most recent call last):
   File "C:/test1.py", line 4, in <module>
     print(eggs)
 NameError: name 'eggs' is not defined
-
+```
 The error happens because the eggs variable exists only in the local scope created when spam() is called ➊. Once the program execution returns from spam, that local scope is destroyed, and there is no longer a variable named eggs. So when your program tries to run print(eggs), Python gives you an error saying that eggs is not defined. This makes sense if you think about it; when the program execution is in the global scope, no local scopes exist, so there can’t be any local variables. This is why only global variables can be used in the global scope.
 
 Local Scopes Cannot Use Variables in Other Local Scopes
 A new local scope is created whenever a function is called, including when a function is called from another function. Consider this program:
-
+```py
   def spam():
     ➊ eggs = 99
     ➋ bacon()
@@ -281,7 +281,7 @@ A new local scope is created whenever a function is called, including when a fun
     ➍ eggs = 0
 
 ➎ spam()
-
+```
 You can view the execution of this program at https://autbor.com/otherlocalscopes/. When the program starts, the spam() function is called ➎, and a local scope is created. The local variable eggs ➊ is set to 99. Then the bacon() function is called ➋, and a second local scope is created. Multiple local scopes can exist at the same time. In this new local scope, the local variable ham is set to 101, and a local variable eggs—which is different from the one in spam()’s local scope—is also created ➍ and set to 0.
 
 When bacon() returns, the local scope for that call is destroyed, including its eggs variable. The program execution continues in the spam() function to print the value of eggs ➌. Since the local scope for the call to spam() still exists, the only eggs variable is the spam() function’s eggs variable, which was set to 99. This is what the program prints.
@@ -290,18 +290,18 @@ The upshot is that local variables in one function are completely separate from 
 
 Global Variables Can Be Read from a Local Scope
 Consider the following program:
-
+```py
 def spam():
     print(eggs)
 eggs = 42
 spam()
 print(eggs)
-
+```
 You can view the execution of this program at https://autbor.com/readglobal/. Since there is no parameter named eggs or any code that assigns eggs a value in the spam() function, when eggs is used in spam(), Python considers it a reference to the global variable eggs. This is why 42 is printed when the previous program is run.
 
 Local and Global Variables with the Same Name
 Technically, it’s perfectly acceptable to use the same variable name for a global variable and local variables in different scopes in Python. But, to simplify your life, avoid doing this. To see what happens, enter the following code into the file editor and save it as localGlobalSameName.py:
-
+```py
    def spam():
     ➊ eggs = 'spam local'
        print(eggs)    # prints 'spam local'
@@ -315,14 +315,14 @@ Technically, it’s perfectly acceptable to use the same variable name for a glo
 ➌ eggs = 'global'
    bacon()
    print(eggs)        # prints 'global'
-
+```
 When you run this program, it outputs the following:
-
+```
 bacon local
 spam local
 bacon local
 global
-
+```
 You can view the execution of this program at https://autbor.com/localglobalsamename/. There are actually three different variables in this program, but confusingly they are all named eggs. The variables are as follows:
 
 ➊ A variable named eggs that exists in a local scope when spam() is called.
@@ -335,7 +335,7 @@ Since these three separate variables all have the same name, it can be confusing
 
 The global Statement
 If you need to modify a global variable from within a function, use the global statement. If you have a line such as global eggs at the top of a function, it tells Python, “In this function, eggs refers to the global variable, so don’t create a local variable with this name.” For example, enter the following code into the file editor and save it as globalStatement.py:
-
+```py
 def spam():
   ➊ global eggs
   ➋ eggs = 'spam'
@@ -343,11 +343,11 @@ def spam():
 eggs = 'global'
 spam()
 print(eggs)
-
+```
 When you run this program, the final print() call will output this:
-
+```
 spam
-
+```
 You can view the execution of this program at https://autbor.com/globalstatement/. Because eggs is declared global at the top of spam() ➊, when eggs is set to 'spam' ➋, this assignment is done to the globally scoped eggs. No local eggs variable is created.
 
 There are four rules to tell whether a variable is in a local scope or global scope:
@@ -357,7 +357,7 @@ If there is a global statement for that variable in a function, it is a global v
 Otherwise, if the variable is used in an assignment statement in the function, it is a local variable.
 But if the variable is not used in an assignment statement, it is a global variable.
 To get a better feel for these rules, here’s an example program. Enter the following code into the file editor and save it as sameNameLocalGlobal.py:
-
+```py
 def spam():
   ➊ global eggs
      eggs = 'spam' # this is the global
@@ -371,11 +371,11 @@ def ham():
 eggs = 42 # this is the global
 spam()
 print(eggs)
-
+```
 In the spam() function, eggs is the global eggs variable because there’s a global statement for eggs at the beginning of the function ➊. In bacon(), eggs is a local variable because there’s an assignment statement for it in that function ➋. In ham() ➌, eggs is the global variable because there is no assignment statement or global statement for it in that function. If you run sameNameLocalGlobal.py, the output will look like this:
-
+```
 spam
-
+```
 You can view the execution of this program at https://autbor.com/sameNameLocalGlobal/. In a function, a variable will either always be global or always be local. The code in a function can’t use a local variable named eggs and then use the global eggs variable later in that same function.
 
 NOTE
@@ -383,7 +383,7 @@ NOTE
 If you ever want to modify the value stored in a global variable from in a function, you must use a global statement on that variable.
 
 If you try to use a local variable in a function before you assign a value to it, as in the following program, Python will give you an error. To see this, enter the following into the file editor and save it as sameNameError.py:
-
+```py
    def spam():
        print(eggs) # ERROR!
     ➊ eggs = 'spam local'
@@ -626,5 +626,5 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTE2NzMwLDExMjk4NDY1OThdfQ==
+eyJoaXN0b3J5IjpbLTEzMzg5ODk5OTIsMTEyOTg0NjU5OF19
 -->
