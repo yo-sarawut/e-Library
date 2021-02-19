@@ -378,9 +378,8 @@ spam
 ```
 You can view the execution of this program at https://autbor.com/sameNameLocalGlobal/. In a function, a variable will either always be global or always be local. The code in a function can’t use a local variable named eggs and then use the global eggs variable later in that same function.
 
-NOTE
-
-If you ever want to modify the value stored in a global variable from in a function, you must use a global statement on that variable.
+>**NOTE**
+>If you ever want to modify the value stored in a global variable from in a function, you must use a global statement on that variable.
 
 If you try to use a local variable in a function before you assign a value to it, as in the following program, Python will give you an error. To see this, enter the following into the file editor and save it as sameNameError.py:
 ```py
@@ -402,13 +401,13 @@ UnboundLocalError: local variable 'eggs' referenced before assignment
 ```
 You can view the execution of this program at https://autbor.com/sameNameError/. This error happens because Python sees that there is an assignment statement for eggs in the spam() function ➊ and, therefore, considers eggs to be local. But because print(eggs) is executed before eggs is assigned anything, the local variable eggs doesn’t exist. Python will not fall back to using the global eggs variable ➋.
 
-FUNCTIONS AS “BLACK BOXES”
+**FUNCTIONS AS “BLACK BOXES”**
 
 Often, all you need to know about a function are its inputs (the parameters) and output value; you don’t always have to burden yourself with how the function’s code actually works. When you think about functions in this high-level way, it’s common to say that you’re treating a function as a “black box.”
 
 This idea is fundamental to modern programming. Later chapters in this book will show you several modules with functions that were written by other people. While you can take a peek at the source code if you’re curious, you don’t need to know how these functions work in order to use them. And because writing functions without global variables is encouraged, you usually don’t have to worry about the function’s code interacting with the rest of your program.
 
-Exception Handling
+## Exception Handling
 Right now, getting an error, or exception, in your Python program means the entire program will crash. You don’t want this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue to run.
 
 For example, consider the following program, which has a divide-by-zero error. Open a file editor window and enter the following code, saving it as zeroDivide.py:
@@ -626,6 +625,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA5MDUyOTAsMTc2Mzk5MDE1MywxMT
+eyJoaXN0b3J5IjpbLTE1MDcyMzc1MTgsMTc2Mzk5MDE1MywxMT
 I5ODQ2NTk4XX0=
 -->
