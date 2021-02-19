@@ -52,15 +52,15 @@ When you call the print() or len() function, you pass them values, called argume
 ➊ def hello(name):
     ➋ print('Hello, ' + name)
 ```
-
+```
 ➌ hello('Alice')
    hello('Bob')
-
+```
 When you run this program, the output looks like this:
-
+```
 Hello, Alice
 Hello, Bob
-
+```
 You can view the execution of this program at https://autbor.com/hellofunc2/. The definition of the hello() function in this program has a parameter called name ➊. Parameters are variables that contain arguments. When a function is called with arguments, the arguments are stored in the parameters. The first time the hello() function is called, it is passed the argument 'Alice' ➌. The program execution enters the function, and the parameter name is automatically set to 'Alice', which is what gets printed by the print() statement ➋.
 
 One special thing to note about parameters is that the value stored in a parameter is forgotten when the function returns. For example, if you added print(name) after hello('Bob') in the previous program, the program would give you a NameError because there is no variable named name. This variable is destroyed after the function call hello('Bob') returns, so print(name) would refer to a name variable that does not exist.
@@ -69,11 +69,11 @@ This is similar to how a program’s variables are forgotten when the program te
 
 Define, Call, Pass, Argument, Parameter
 The terms define, call, pass, argument, and parameter can be confusing. Let’s look at a code example to review these terms:
-
+```py
 ➊ def sayHello(name):
        print('Hello, ' + name)
 ➋ sayHello('Al')
-
+```
 To define a function is to create it, just like an assignment statement like spam = 42 creates the spam variable. The def statement defines the sayHello() function ➊. The sayHello('Al') line ➋ calls the now-created function, sending the execution to the top of the function’s code. This function call is also known as passing the string value 'Al' to the function. A value being passed to a function in a function call is an argument. The argument 'Al' is assigned to a local variable named name. Variables that have arguments assigned to them are parameters.
 
 It’s easy to mix up these terms, but keeping them straight will ensure that you know precisely what the text in this chapter means.
@@ -86,7 +86,7 @@ When creating a function using the def statement, you can specify what the retur
 The return keyword
 The value or expression that the function should return
 When an expression is used with a return statement, the return value is what this expression evaluates to. For example, the following program defines a function that returns a different string depending on what number it is passed as an argument. Enter this code into the file editor and save it as magic8Ball.py:
-
+```py
 ➊ import random
 
 ➋ def getAnswer(answerNumber):
@@ -112,33 +112,33 @@ When an expression is used with a return statement, the return value is what thi
 ➍ r = random.randint(1, 9)
 ➎ fortune = getAnswer(r)
 ➏ print(fortune)
-
+```
 You can view the execution of this program at https://autbor.com/magic8ball/. When this program starts, Python first imports the random module ➊. Then the getAnswer() function is defined ➋. Because the function is being defined (and not called), the execution skips over the code in it. Next, the random.randint() function is called with two arguments: 1 and 9 ➍. It evaluates to a random integer between 1 and 9 (including 1 and 9 themselves), and this value is stored in a variable named r.
 
 The getAnswer() function is called with r as the argument ➎. The program execution moves to the top of the getAnswer() function ➌, and the value r is stored in a parameter named answerNumber. Then, depending on the value in answerNumber, the function returns one of many possible string values. The program execution returns to the line at the bottom of the program that originally called getAnswer() ➎. The returned string is assigned to a variable named fortune, which then gets passed to a print() call ➏ and is printed to the screen.
 
 Note that since you can pass return values as an argument to another function call, you could shorten these three lines:
-
+```py
 r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)
-
+```
 to this single equivalent line:
-
+```py
 print(getAnswer(random.randint(1, 9)))
-
+```
 Remember, expressions are composed of values and operators. A function call can be used in an expression because the call evaluates to its return value.
 
 The None Value
 In Python, there is a value called None, which represents the absence of a value. The None value is the only value of the NoneType data type. (Other programming languages might call this value null, nil, or undefined.) Just like the Boolean True and False values, None must be typed with a capital N.
 
 This value-without-a-value can be helpful when you need to store something that won’t be confused for a real value in a variable. One place where None is used is as the return value of print(). The print() function displays text on the screen, but it doesn’t need to return anything in the same way len() or input() does. But since all function calls need to evaluate to a return value, print() returns None. To see this in action, enter the following into the interactive shell:
-
+```py
 >>> spam = print('Hello!')
 Hello!
 >>> None == spam
 True
-
+```
 Behind the scenes, Python adds return None to the end of any function definition with no return statement. This is similar to how a while or for loop implicitly ends with a continue statement. Also, if you use a return statement without a value (that is, just the return keyword by itself), then None is returned.
 
 Keyword Arguments and the print() Function
@@ -626,5 +626,5 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTEzODgxNywxMTI5ODQ2NTk4XX0=
+eyJoaXN0b3J5IjpbMTkzMDQ0NTgxMiwxMTI5ODQ2NTk4XX0=
 -->
