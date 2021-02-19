@@ -147,36 +147,36 @@ Most arguments are identified by their position in the function call. For exampl
 However, rather than through their position, keyword arguments are identified by the keyword put before them in the function call. Keyword arguments are often used for optional parameters. For example, the print() function has the optional parameters end and sep to specify what should be printed at the end of its arguments and between its arguments (separating them), respectively.
 
 If you ran a program with the following code:
-
+```py
 print('Hello')
 print('World')
-
+```
 the output would look like this:
-
+```
 Hello
 World
-
+```
 The two outputted strings appear on separate lines because the print() function automatically adds a newline character to the end of the string it is passed. However, you can set the end keyword argument to change the newline character to a different string. For example, if the code were this:
-
+```py
 print('Hello', end='')
 print('World')
-
+```
 the output would look like this:
-
+```
 HelloWorld
-
+```
 The output is printed on a single line because there is no longer a newline printed after 'Hello'. Instead, the blank string is printed. This is useful if you need to disable the newline that gets added to the end of every print() function call.
 
 Similarly, when you pass multiple string values to print(), the function will automatically separate them with a single space. Enter the following into the interactive shell:
-
+```py
 >>> print('cats', 'dogs', 'mice')
 cats dogs mice
-
+```
 But you could replace the default separating string by passing the sep keyword argument a different string. Enter the following into the interactive shell:
-
+```py
 >>> print('cats', 'dogs', 'mice', sep=',')
 cats,dogs,mice
-
+```
 You can add keyword arguments to the functions you write as well, but first you’ll have to learn about the list and dictionary data types in the next two chapters. For now, just know that some functions have optional keyword arguments that can be specified when the function is called.
 
 The Call Stack
@@ -188,7 +188,7 @@ Figure 3-1: Your meandering conversation stack
 Similar to our meandering conversation, calling a function doesn’t send the execution on a one-way trip to the top of a function. Python will remember which line of code called the function so that the execution can return there when it encounters a return statement. If that original function called other functions, the execution would return to those function calls first, before returning from the original function call.
 
 Open a file editor window and enter the following code, saving it as abcdCallStack.py:
-
+```py
    def a():
        print('a() starts')
     ➊ b()
@@ -209,9 +209,9 @@ Open a file editor window and enter the following code, saving it as abcdCallSta
        print('d() returns')
 
 ➎ a()
-
+```
 If you run this program, the output will look like this:
-
+```
 a() starts
 b() starts
 c() starts
@@ -220,7 +220,7 @@ b() returns
 d() starts
 d() returns
 a() returns
-
+```
 You can view the execution of this program at https://autbor.com/abcdcallstack/. When a() is called ➎, it calls b() ➊, which in turn calls c() ➌. The c() function doesn’t call anything; it just displays c() starts ➍ and c() returns before returning to the line in b() that called it ➌. Once execution returns to the code in b() that called c(), it returns to the line in a() that called b() ➊. The execution continues to the next line in the b() function ➋, which is a call to d(). Like the c() function, the d() function also doesn’t call anything. It just displays d() starts and d() returns before returning to the line in b() that called it. Since b() contains no other code, the execution returns to the line in a() that called b() ➋. The last line in a() displays a() returns before returning to the original a() call at the end of the program ➎.
 
 The call stack is how Python remembers where to return the execution after each function call. The call stack isn’t stored in a variable in your program; rather, Python handles it behind the scenes. When your program calls a function, Python creates a frame object on the top of the call stack. Frame objects store the line number of the original function call so that Python can remember where to return. If another function call is made, Python puts another frame object on the call stack above the other one.
@@ -253,14 +253,14 @@ While using global variables in small programs is fine, it is a bad habit to rel
 
 Local Variables Cannot Be Used in the Global Scope
 Consider this program, which will cause an error when you run it:
-
+```py
 def spam():
 ➊ eggs = 31337
 spam()
 print(eggs)
-
+```
 If you run this program, the output will look like this:
-
+```
 Traceback (most recent call last):
   File "C:/test1.py", line 4, in <module>
     print(eggs)
@@ -626,5 +626,5 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDQ0NTgxMiwxMTI5ODQ2NTk4XX0=
+eyJoaXN0b3J5IjpbLTg0MTE2NzMwLDExMjk4NDY1OThdfQ==
 -->
