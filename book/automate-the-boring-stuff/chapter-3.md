@@ -234,7 +234,7 @@ The top of the call stack is which function the execution is currently in. When 
 
 The call stack is a technical detail that you don’t strictly need to know about to write programs. It’s enough to understand that function calls return to the line number they were called from. However, understanding call stacks makes it easier to understand local and global scopes, described in the next section.
 
-Local and Global Scope
+## Local and Global Scope
 Parameters and variables that are assigned in a called function are said to exist in that function’s local scope. Variables that are assigned outside all functions are said to exist in the global scope. A variable that exists in a local scope is called a local variable, while a variable that exists in the global scope is called a global variable. A variable must be one or the other; it cannot be both local and global.
 
 Think of a scope as a container for variables. When a scope is destroyed, all the values stored in the scope’s variables are forgotten. There is only one global scope, and it is created when your program begins. When your program terminates, the global scope is destroyed, and all its variables are forgotten. Otherwise, the next time you ran a program, the variables would remember their values from the last time you ran it.
@@ -251,7 +251,7 @@ The reason Python has different scopes instead of just making everything a globa
 
 While using global variables in small programs is fine, it is a bad habit to rely on global variables as your programs get larger and larger.
 
-Local Variables Cannot Be Used in the Global Scope
+## Local Variables Cannot Be Used in the Global Scope
 Consider this program, which will cause an error when you run it:
 ```py
 def spam():
@@ -268,7 +268,7 @@ NameError: name 'eggs' is not defined
 ```
 The error happens because the eggs variable exists only in the local scope created when spam() is called ➊. Once the program execution returns from spam, that local scope is destroyed, and there is no longer a variable named eggs. So when your program tries to run print(eggs), Python gives you an error saying that eggs is not defined. This makes sense if you think about it; when the program execution is in the global scope, no local scopes exist, so there can’t be any local variables. This is why only global variables can be used in the global scope.
 
-Local Scopes Cannot Use Variables in Other Local Scopes
+## Local Scopes Cannot Use Variables in Other Local Scopes
 A new local scope is created whenever a function is called, including when a function is called from another function. Consider this program:
 ```py
   def spam():
@@ -288,7 +288,7 @@ When bacon() returns, the local scope for that call is destroyed, including its 
 
 The upshot is that local variables in one function are completely separate from the local variables in another function.
 
-Global Variables Can Be Read from a Local Scope
+## Global Variables Can Be Read from a Local Scope
 Consider the following program:
 ```py
 def spam():
@@ -299,7 +299,7 @@ print(eggs)
 ```
 You can view the execution of this program at https://autbor.com/readglobal/. Since there is no parameter named eggs or any code that assigns eggs a value in the spam() function, when eggs is used in spam(), Python considers it a reference to the global variable eggs. This is why 42 is printed when the previous program is run.
 
-Local and Global Variables with the Same Name
+## Local and Global Variables with the Same Name
 Technically, it’s perfectly acceptable to use the same variable name for a global variable and local variables in different scopes in Python. But, to simplify your life, avoid doing this. To see what happens, enter the following code into the file editor and save it as localGlobalSameName.py:
 ```py
    def spam():
@@ -333,7 +333,7 @@ You can view the execution of this program at https://autbor.com/localglobalsame
 
 Since these three separate variables all have the same name, it can be confusing to keep track of which one is being used at any given time. This is why you should avoid using the same variable name in different scopes.
 
-The global Statement
+## The global Statement
 If you need to modify a global variable from within a function, use the global statement. If you have a line such as global eggs at the top of a function, it tells Python, “In this function, eggs refers to the global variable, so don’t create a local variable with this name.” For example, enter the following code into the file editor and save it as globalStatement.py:
 ```py
 def spam():
@@ -626,6 +626,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYxNDcyNTYsMTc2Mzk5MDE1MywxMT
+eyJoaXN0b3J5IjpbLTIwMzA5MDUyOTAsMTc2Mzk5MDE1MywxMT
 I5ODQ2NTk4XX0=
 -->
