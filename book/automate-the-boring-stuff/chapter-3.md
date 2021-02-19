@@ -567,29 +567,17 @@ In previous chapters, a single error could cause your programs to crash. In this
 ## Practice Questions
 1. Why are functions advantageous to have in your programs?
 2. When does the code in a function execute: when the function is defined or when the function is called?
-
 3. What statement creates a function?
-
 4. What is the difference between a function and a function call?
-
 5. How many global scopes are there in a Python program? How many local scopes?
-
 6. What happens to variables in a local scope when the function call returns?
-
 7. What is a return value? Can a return value be part of an expression?
-
 8. If a function does not have a return statement, what is the return value of a call to that function?
-
 9. How can you force a variable in a function to refer to the global variable?
-
 10. What is the data type of None?
-
 11. What does the import areallyourpetsnamederic statement do?
-
 12. If you had a function named bacon() in a module named spam, how would you call it after importing spam?
-
 13. How can you prevent a program from crashing when it gets an error?
-
 14. What goes in the try clause? What goes in the except clause?
 
 ## Practice Projects
@@ -605,7 +593,7 @@ Remember to convert the return value from input() to an integer with the int() f
 Hint: An integer number is even if number % 2 == 0, and it’s odd if number % 2 == 1.
 
 The output of this program could look something like this:
-
+```
 Enter number:
 3
 10
@@ -615,7 +603,7 @@ Enter number:
 4
 2
 1
-
+```
 ## Input Validation
 Add try and except statements to the previous project to detect whether the user types in a noninteger string. Normally, the int() function will raise a ValueError error if it is passed a noninteger string, as in int('puppy'). In the except clause, print a message to the user saying they must enter an integer.
 
@@ -624,6 +612,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzc0NjIxNiwxNzYzOTkwMTUzLDExMj
-k4NDY1OThdfQ==
+eyJoaXN0b3J5IjpbLTY3MjYzOTcyLDE3NjM5OTAxNTMsMTEyOT
+g0NjU5OF19
 -->
