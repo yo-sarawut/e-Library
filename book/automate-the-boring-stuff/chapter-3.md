@@ -46,7 +46,7 @@ In general, you always want to avoid duplicating code because if you ever decide
 
 As you get more programming experience, you’ll often find yourself deduplicating code, which means getting rid of duplicated or copy-and-pasted code. Deduplication makes your programs shorter, easier to read, and easier to update.
 
-def Statements with Parameters
+## def Statements with Parameters
 When you call the print() or len() function, you pass them values, called arguments, by typing them between the parentheses. You can also define your own functions that accept arguments. Type this example into the file editor and save it as helloFunc2.py:
 ```py
 ➊ def hello(name):
@@ -67,7 +67,7 @@ One special thing to note about parameters is that the value stored in a paramet
 
 This is similar to how a program’s variables are forgotten when the program terminates. I’ll talk more about why that happens later in the chapter, when I discuss what a function’s local scope is.
 
-Define, Call, Pass, Argument, Parameter
+## Define, Call, Pass, Argument, Parameter
 The terms define, call, pass, argument, and parameter can be confusing. Let’s look at a code example to review these terms:
 ```py
 ➊ def sayHello(name):
@@ -78,7 +78,7 @@ To define a function is to create it, just like an assignment statement like spa
 
 It’s easy to mix up these terms, but keeping them straight will ensure that you know precisely what the text in this chapter means.
 
-Return Values and return Statements
+## Return Values and return Statements
 When you call the len() function and pass it an argument such as 'Hello', the function call evaluates to the integer value 5, which is the length of the string you passed it. In general, the value that a function call evaluates to is called the return value of the function.
 
 When creating a function using the def statement, you can specify what the return value should be with a return statement. A return statement consists of the following:
@@ -129,7 +129,7 @@ print(getAnswer(random.randint(1, 9)))
 ```
 Remember, expressions are composed of values and operators. A function call can be used in an expression because the call evaluates to its return value.
 
-The None Value
+## The None Value
 In Python, there is a value called None, which represents the absence of a value. The None value is the only value of the NoneType data type. (Other programming languages might call this value null, nil, or undefined.) Just like the Boolean True and False values, None must be typed with a capital N.
 
 This value-without-a-value can be helpful when you need to store something that won’t be confused for a real value in a variable. One place where None is used is as the return value of print(). The print() function displays text on the screen, but it doesn’t need to return anything in the same way len() or input() does. But since all function calls need to evaluate to a return value, print() returns None. To see this in action, enter the following into the interactive shell:
@@ -626,5 +626,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mzk5MDE1MywxMTI5ODQ2NTk4XX0=
+eyJoaXN0b3J5IjpbLTY5NTE5MjE3OSwxNzYzOTkwMTUzLDExMj
+k4NDY1OThdfQ==
 -->
