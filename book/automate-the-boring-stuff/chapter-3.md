@@ -477,7 +477,7 @@ Error: Invalid argument.
 ```
 You can view the execution of this program at https://autbor.com/spamintry/. The reason print(spam(1)) is never executed is because once the execution jumps to the code in the except clause, it does not return to the try clause. Instead, it just continues moving down the program as normal.
 
-A Short Program: Zigzag
+## A Short Program: Zigzag
 Let’s use the programming concepts you’ve learned so far to create a small animation program. This program will create a back-and-forth, zigzag pattern until the user stops it by pressing the Mu editor’s Stop button or by pressing CTRL-C. When you run this program, the output will look something like this:
 ```
     ********
@@ -557,16 +557,15 @@ except KeyboardInterrupt:
 ```
 If the user presses CTRL-C at any point that the program execution is in the try block, the KeyboardInterrrupt exception is raised and handled by this except statement. The program execution moves inside the except block, which runs sys.exit() and quits the program. This way, even though the main program loop is an infinite loop, the user has a way to shut down the program.
 
-Summary
+## Summary
 Functions are the primary way to compartmentalize your code into logical groups. Since the variables in functions exist in their own local scopes, the code in one function cannot directly affect the values of variables in other functions. This limits what code could be changing the values of your variables, which can be helpful when it comes to debugging your code.
 
 Functions are a great tool to help you organize your code. You can think of them as black boxes: they have inputs in the form of parameters and outputs in the form of return values, and the code in them doesn’t affect variables in other functions.
 
 In previous chapters, a single error could cause your programs to crash. In this chapter, you learned about try and except statements, which can run code when an error has been detected. This can make your programs more resilient to common error cases.
 
-Practice Questions
+## Practice Questions
 1. Why are functions advantageous to have in your programs?
-
 2. When does the code in a function execute: when the function is defined or when the function is called?
 
 3. What statement creates a function?
@@ -593,10 +592,10 @@ Practice Questions
 
 14. What goes in the try clause? What goes in the except clause?
 
-Practice Projects
+## Practice Projects
 For practice, write programs to do the following tasks.
 
-The Collatz Sequence
+## The Collatz Sequence
 Write a function named collatz() that has one parameter named number. If number is even, then collatz() should print number // 2 and return this value. If number is odd, then collatz() should print and return 3 * number + 1.
 
 Then write a program that lets the user type in an integer and that keeps calling collatz() on that number until the function returns the value 1. (Amazingly enough, this sequence actually works for any integer—sooner or later, using this sequence, you’ll arrive at 1! Even mathematicians aren’t sure why. Your program is exploring what’s called the Collatz sequence, sometimes called “the simplest impossible math problem.”)
@@ -617,7 +616,7 @@ Enter number:
 2
 1
 
-Input Validation
+## Input Validation
 Add try and except statements to the previous project to detect whether the user types in a noninteger string. Normally, the int() function will raise a ValueError error if it is passed a noninteger string, as in int('puppy'). In the except clause, print a message to the user saying they must enter an integer.
 
 
@@ -625,6 +624,6 @@ Add try and except statements to the previous project to detect whether the user
 
 > [Source : ](https://).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcyMzc1MTgsMTc2Mzk5MDE1MywxMT
-I5ODQ2NTk4XX0=
+eyJoaXN0b3J5IjpbMTEzMzc0NjIxNiwxNzYzOTkwMTUzLDExMj
+k4NDY1OThdfQ==
 -->
