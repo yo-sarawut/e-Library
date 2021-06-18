@@ -98,11 +98,9 @@ Scripts Folder in Python
 and after that run this command, make sure that you have also copied an icon
 
 in the Scripts folder.
-
-1
-
+```py
 pyinstaller  --onefile  --windowed  --icon=python.ico window.py
-
+```
 ### **What to generate Option**
 
 -D, --onedir
@@ -243,5 +241,5 @@ Thank you for visiting my website! If you enjoyed the free courses, please consi
 
 > Reference : https://geekscoders.com/how-to-convert-python-py-file-to-exe-file/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODEzMjU5OF19
+eyJoaXN0b3J5IjpbLTMxODM0MDMyOF19
 -->
