@@ -29,7 +29,9 @@ Take a look at the snapshot below. I am trying to import the data into cell B3, 
 
 ![importxml google sheets 1](https://blog.sheetgo.com/wp-content/uploads/2021/04/1.-IMPORTXML-function-info.png "1. IMPORTXML function info")
 
-Ensure the url is valid by enclosing the url within  **double quotes**  and hitting the  **Enter key**. The formula I use here is  **=IMPORTXML(“https://en.wikipedia.org/wiki/Tiger_Woods”,”//a/@title”)**.
+Ensure the url is valid by enclosing the url within  **double quotes**  and hitting the  **Enter key**. The formula I use here is  
+```
+**=IMPORTXML(“https://en.wikipedia.org/wiki/Tiger_Woods”,”//a/@title”)**.
 
 The Xpath query //a/@title is used to summon all the hyperlink titles within the article.
 
@@ -52,13 +54,15 @@ It’s important that you keep the expected area of the result clear of any valu
 For example, the following image demonstrates what happens if you have any values, for instance, in cell B9.
 
 ![importxml google sheets 5](https://blog.sheetgo.com/wp-content/uploads/2021/04/5.-IMPORTXML-Ref-error-example.png "5. IMPORTXML Ref error example")
-
+```js
 =IMPORTXML(url cell reference, “all the h2 headers in the page”)
-
+```
 In this example, in the cell B1, I have stored the  **url**  to the page from which I am trying to import the header information.
 
-I’ll use that cell as a reference in the IMPORTXML formula:  **=IMPORTXML(B1,”//h2″)**.
-
+I’ll use that cell as a reference in the IMPORTXML formula:  
+```js
+=IMPORTXML(B1,”//h2″).
+```
 ![importxml google sheets 6](https://blog.sheetgo.com/wp-content/uploads/2021/04/6.-IMPORTXML-headers-example.png "6. IMPORTXML headers example")
 
 As you can see, the data being pulled here is different from the previous example, even though the URL is the same.
@@ -70,5 +74,5 @@ You can also check out the following blog post to learn how to pull data into Go
 
 > Reference : https://blog.sheetgo.com/google-sheets-formulas/importxml-formula-google-sheets/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjYyOTk2Ml19
+eyJoaXN0b3J5IjpbLTQ4MTQzNzQ1OF19
 -->
