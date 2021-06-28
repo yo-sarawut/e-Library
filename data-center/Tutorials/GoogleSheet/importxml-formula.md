@@ -6,9 +6,9 @@
 The  [IMPORTXML formula](https://support.google.com/docs/answer/3093342)  function in Google Sheets lets you import data from structured data types like HTML and XML. It also supports data import from CSV, TSV, RSS and ATOM XML feeds. This makes it a great tool for importing data from websites for web scraping or data mining purposes.
 
 ### Syntax
-
+```js
 =IMPORTXML(url, xpath_query)
-
+```
 -   **url**  – this is the address (uniform resource locator) to the structured page on the web, from which you’re importing data. This can take two forms:
 
 > A valid and fully qualified location in the form of text (enclosed in double quotes). For example: “https://en.wikipedia.org/wiki/Tiger_Woods”
@@ -22,17 +22,17 @@ If this is new to you, you may be a bit confused when looking at the  **xpath_qu
 There’s a wide range of options to enter for this parameter, so if you want to learn more about it I encourage you to click the link above and find out how you can import exactly the data you want!
 
 ### Usage: IMPORTXML formula
-
+```js
 =IMPORTXML(url,”all the hyperlink titles in the page”)
-
+```
 Take a look at the snapshot below. I am trying to import the data into cell B3, which is therefore the destination to key in the IMPORTXML formula.
 
 ![importxml google sheets 1](https://blog.sheetgo.com/wp-content/uploads/2021/04/1.-IMPORTXML-function-info.png "1. IMPORTXML function info")
 
 Ensure the url is valid by enclosing the url within  **double quotes**  and hitting the  **Enter key**. The formula I use here is  
+```js
+=IMPORTXML(“https://en.wikipedia.org/wiki/Tiger_Woods”,”//a/@title”).
 ```
-**=IMPORTXML(“https://en.wikipedia.org/wiki/Tiger_Woods”,”//a/@title”)**.
-
 The Xpath query //a/@title is used to summon all the hyperlink titles within the article.
 
 Below is what you’ll see as Google Sheets tries to fetch the data. The higher the number of nodes in the structured data file, the longer it might take to finish the data import.
@@ -74,5 +74,5 @@ You can also check out the following blog post to learn how to pull data into Go
 
 > Reference : https://blog.sheetgo.com/google-sheets-formulas/importxml-formula-google-sheets/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTQzNzQ1OF19
+eyJoaXN0b3J5IjpbNTgwNDExMzldfQ==
 -->
