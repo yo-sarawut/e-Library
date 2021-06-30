@@ -1,7 +1,7 @@
 
 # 500 + 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗟𝗶𝘀𝘁 𝘄𝗶𝘁𝗵 𝗰𝗼𝗱𝗲
 
-*500 AI Machine learning Deep learning Computer vision NLP Projects with code*
+>*500 AI Machine learning Deep learning Computer vision NLP Projects with code*
 
 ***This list is continuously updated.*** - You can take pull request and contribute.
 
@@ -83,5 +83,5 @@
 
 > Reference : https://github.com/prasertcbs/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code/blob/main/README.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTA0MjUxXX0=
+eyJoaXN0b3J5IjpbMTExMTUzNTkzOV19
 -->
