@@ -316,8 +316,9 @@ AppSheet มีกลุ่มผู้พัฒนาคนไทยใน Face
 ## บทความที่เกี่ยวข้อง
 - [5 ขั้นตอนในการแชร์ AppSheet ของตัวเองให้เป็น Sample App](https://datayolk.net/technology/5-steps-to-create-sample-app-in-appsheet/)
 - [10 ไอเดีย หัดทำแอปพลิเคชั่นด้วย AppSheet (จากง่ายไปยาก)](https://datayolk.net/technology/10-appsheet-ideas-for-your-organisation/)
+- [วีธีใช้งานเบื้องต้น : Appsheet](https://medium.com/@gohnanthawadpromsorn/%E0%B8%A7%E0%B8%B5%E0%B8%98%E0%B8%B5%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-appsheet-83408197985a)
 
 > Reference : https://datayolk.net/technology/how-appsheet-can-transform-your-business/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQyNzg3Ml19
+eyJoaXN0b3J5IjpbLTE4Mzk5NjAzNzVdfQ==
 -->
