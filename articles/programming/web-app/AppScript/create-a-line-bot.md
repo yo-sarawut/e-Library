@@ -1,6 +1,7 @@
+Use Google App Script to Create a Line bot Reminder
+==
 
-
-My new company was looking for a way to remind members to punch in/out everyday. As they mainly use LINE, I thought maybe LINE bot can be helpful if I can trigger it to send messages periodically 🤖
+>My new company was looking for a way to remind members to punch in/out everyday. As they mainly use LINE, I thought maybe LINE bot can be helpful if I can trigger it to send messages periodically 🤖
 
 ![](https://miro.medium.com/max/1400/1*JCRYpAed_y09cNzolE4hDw.png)
 
@@ -55,7 +56,7 @@ In the end, we will deploy GAS as the Messaging API’s Webhook URL. In this way
 
 Don’t forget to replace the  `channelToken`  above with your own ones, which can be found in the Developers’ console:
 
-![](https://miro.medium.com/max/60/1*ppn1RruV_teCsrYfoMyH3Q.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*ppn1RruV_teCsrYfoMyH3Q.png)
 
@@ -65,7 +66,7 @@ When user tell our LINE bot: “Remind me to punch”, before replying the messa
 
 Remember the Google Sheet we created for storing users’ ids? We need its sheet id now😉
 
-![](https://miro.medium.com/max/60/1*-h_sI4wZ0XftvKFfJirDZg.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*-h_sI4wZ0XftvKFfJirDZg.png)
 
@@ -97,13 +98,13 @@ Almost there! last ☝+✌ steps:
 
 Before deploying, we have to make sure the trigger is set. So save the project → Run  `trigger.gs`  (the function should be  `setupTrigger()`) → Check the trigger tab
 
-![](https://miro.medium.com/max/60/1*ZMhzlvTxYpLEFoaDih12pQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*ZMhzlvTxYpLEFoaDih12pQ.png)
 
 In the tab, we should see 2 triggers (`morningReminder` and  `eveningReminder`). We can see more details when choosing  `edit`  (The trigger below is the one we set on 8:55 a.m.) You may discover that yes, setting up the trigger in code gives us more flexibility
 
-![](https://miro.medium.com/max/60/1*X8g_C0Jq2jOeGIRmmtuVKg.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*X8g_C0Jq2jOeGIRmmtuVKg.png)
 
@@ -113,7 +114,7 @@ In the tab, we should see 2 triggers (`morningReminder` and  `eveningReminder`).
 
 Deploy → New deployment → Type:  `Web app`  →  `Anyone`  can access (so users won’t be asked to authorize the script)→ Deploy
 
-![](https://miro.medium.com/max/60/1*3KDegUDD102QCn10G1rnWA.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*3KDegUDD102QCn10G1rnWA.png)
 
@@ -121,7 +122,7 @@ Deploy → New deployment → Type:  `Web app`  →  `Anyone`  can access (so us
 
 Copy the Web app URL → Set it as Messaging API’s Webhook URL → Verify (Some times there will be weird errors, but just click  `Verify`  again. It should work 😏)
 
-![](https://miro.medium.com/max/60/1*KUxr2aQn04wIg3pjH2JdLg.png?q=20)
+
 
 ![](https://miro.medium.com/max/700/1*KUxr2aQn04wIg3pjH2JdLg.png)
 
@@ -132,5 +133,5 @@ Hooray! It works 🍕🍕🍕
 
 > Reference : https://medium.com/nerd-for-tech/use-google-app-script-to-create-a-line-bot-reminder-ebf5f8a8a1dc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDAyNzk0Ml19
+eyJoaXN0b3J5IjpbNjgwNzc5MDQwXX0=
 -->
