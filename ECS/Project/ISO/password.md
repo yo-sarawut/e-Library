@@ -1,6 +1,6 @@
  การควบคุมการเข้าถึง(Access control)
 ==
-
+![enter image description here](https://comadvance.co.th/wp-content/uploads/2019/10/Access-Control-1024x460.jpg)
 1. ข้อกำหนดทางธุรกิจสำหรับการควบคุมการเข้าถึงสารสนเทศ (Business requirements for access control)
 
 มีจุดประสงค์เพื่อควบคุมการเข้าถึงสารสนเทศ
@@ -131,5 +131,6 @@
 
 > Reference : https://www.facebook.com/StandardKnowledge/posts/500852140001257/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzUzNTY3NywyNzQ3NzU1Nl19
+eyJoaXN0b3J5IjpbLTEzNjgwOTQ3MjAsLTIxNzUzNTY3NywyNz
+Q3NzU1Nl19
 -->
