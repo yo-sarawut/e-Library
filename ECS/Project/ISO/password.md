@@ -145,7 +145,7 @@ ISO 27001 Summary : ตอนที่ 9 (a.11)
 แชร์
 
 
-> Reference : 
+> Reference : https://www.facebook.com/StandardKnowledge/posts/500852140001257/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjQyNDAwN119
+eyJoaXN0b3J5IjpbLTkwMjM0ODA0NF19
 -->
