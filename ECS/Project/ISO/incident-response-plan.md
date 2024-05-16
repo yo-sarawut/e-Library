@@ -33,8 +33,9 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [แผนรับมือภัยคุกคามทางไซเบอร์](https://www.it.chula.ac.th/wp-content/uploads/2024/03/25670326cybersecurity_incident_response_plan.pdf)
 - [การวางแผนรับสถานการณ์ฉุกเฉินและภัยพิบัติ](https://pws.npru.ac.th/signal/data/files/Chapter9_Contingency%20Planning.pdf)
 - [Incident Response (IR) รับมืออย่างไร เมื่อเกิดเหตุการณ์ภัยคุกคามทางไซเบอร์](https://www.cyberelite.co.th/blog/incident-response/)
+- [4 เคล็ดลับ ช่วยทำให้ Security Incident Response ของคุณดีขึ้น](https://www.techstarthailand.com/blog/detail/Four-Tips-For-Improving-Your-Security-Incident-Response/732)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDUyNzU4NywtNjUwMTk0MjkxLC05NT
+eyJoaXN0b3J5IjpbMTYyMzkyNjY4MiwtNjUwMTk0MjkxLC05NT
 UyMDE5NzhdfQ==
 -->
