@@ -15,7 +15,7 @@ Incident Response Plan หรือแผนการตอบสนองภั
 
 - [Incident Response Plan](https://www.uih.co.th/th/products-services/security-services-th/incident-response-plan/)
 - [Incident Response Service](https://www.sosecure.co.th/incident-response-service/)
-- [enter link description here](https://www.mfec.co.th/tech-talk/incident-response/)
+- [Incident Response – แนวทางการตรวจจับและวิเคราะห์ภัยคุกคามโดยอิงจากพฤติกรรมที่เป็นอันตราย](https://www.mfec.co.th/tech-talk/incident-response/)
 - [การพัฒนาและเตรียมการตอบสนองต่อเหตุการณ์ในภาวะฉุกเฉิน (Developing and Implementing BCM Response)](https://www.bcpthaiguru.com/Article/Detail/130744/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%AD%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%89%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%89%E0%B8%B4%E0%B8%99-%28Developing-and-Implementing-BCM-Response%29)
 - [การบริหารโครงการจัดการความต่อเนื่อง (BCM Programme Management)](https://www.bcpthaiguru.com/Article/Detail/130741/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-%28BCM-Programme-Management%29)
 - [การทดสอบ ปรับปรุง และทบทวนแผน (Exercising Maintaining and Reviewing)](https://www.bcpthaiguru.com/Article/Detail/130745/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%97%E0%B8%9A%E0%B8%97%E0%B8%A7%E0%B8%99%E0%B9%81%E0%B8%9C%E0%B8%99-%28Exercising-Maintaining-and-Reviewing%29)
@@ -31,8 +31,9 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [การเตรียมความพร้อมเพื่อป้องกันธุรกิจหยุดชะงัก](https://www.cioworldbusiness.com/preparing-bcm-prevent-interruptions/)
 - [คู่มือการบริหารจัดการในภาวะวิกฤต - DEMCO](https://www.demco.co.th/storage/downloads/corporate-policies/20210113-demco-crisis-management-manual-th.pdf)
 - [แผนรับมือภัยคุกคามทางไซเบอร์](https://www.it.chula.ac.th/wp-content/uploads/2024/03/25670326cybersecurity_incident_response_plan.pdf)
+- [enter link description here](https://pws.npru.ac.th/signal/data/files/Chapter9_Contingency%20Planning.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU5MDc1NjUsLTY1MDE5NDI5MSwtOT
+eyJoaXN0b3J5IjpbLTE5NDk0NTE5MzcsLTY1MDE5NDI5MSwtOT
 U1MjAxOTc4XX0=
 -->
