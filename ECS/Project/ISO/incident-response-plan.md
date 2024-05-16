@@ -31,9 +31,10 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [การเตรียมความพร้อมเพื่อป้องกันธุรกิจหยุดชะงัก](https://www.cioworldbusiness.com/preparing-bcm-prevent-interruptions/)
 - [คู่มือการบริหารจัดการในภาวะวิกฤต - DEMCO](https://www.demco.co.th/storage/downloads/corporate-policies/20210113-demco-crisis-management-manual-th.pdf)
 - [แผนรับมือภัยคุกคามทางไซเบอร์](https://www.it.chula.ac.th/wp-content/uploads/2024/03/25670326cybersecurity_incident_response_plan.pdf)
-- [enter link description here](https://pws.npru.ac.th/signal/data/files/Chapter9_Contingency%20Planning.pdf)
+- [การวางแผนรับสถานการณ์ฉุกเฉินและภัยพิบัติ](https://pws.npru.ac.th/signal/data/files/Chapter9_Contingency%20Planning.pdf)
+- [Incident Response (IR) รับมืออย่างไร เมื่อเกิดเหตุการณ์ภัยคุกคามทางไซเบอร์](https://www.cyberelite.co.th/blog/incident-response/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk0NTE5MzcsLTY1MDE5NDI5MSwtOT
-U1MjAxOTc4XX0=
+eyJoaXN0b3J5IjpbMTE1MDUyNzU4NywtNjUwMTk0MjkxLC05NT
+UyMDE5NzhdfQ==
 -->
