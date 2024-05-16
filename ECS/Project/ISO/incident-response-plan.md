@@ -20,7 +20,7 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [การทดสอบ ปรับปรุง และทบทวนแผน (Exercising Maintaining and Reviewing)](https://www.bcpthaiguru.com/Article/Detail/130745/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%97%E0%B8%9A%E0%B8%97%E0%B8%A7%E0%B8%99%E0%B9%81%E0%B8%9C%E0%B8%99-%28Exercising-Maintaining-and-Reviewing%29)
 - [Incident Management by Managed Server Services](https://netway.co.th/kb/blog/cloud-managed-services/incident-management-by-managed-server-services)
 - [Cyber Incident Response การตอบสนองต่อภัยคุกคามทางไซเบอร์](https://monsterconnect.co.th/cyber-incident-response/)
-- [กระบวนการบริหารภาวะวิกฤตและความต่อเนื่องทางธุรกิจ](https://sustainability.pttgcgroup.com/th/economy/risk-and-crisis-management/business-continuity-management)
+- [กระบวนการบริหารภาวะวิกฤตและความต่อเนื่องทางธุรกิจ - PTT](https://sustainability.pttgcgroup.com/th/economy/risk-and-crisis-management/business-continuity-management)
 - [5 ขั้นตอนการทำ BCP แผนความต่อเนื่องในการดำเนินธุรกิจ](https://info.apexcircuit.com/?p=22372)
 - [แนวทางการนํา Incident management บนมาตรฐาน ITIL มาใช้ในองค์กร](https://searchlib.utcc.ac.th/library/onlinethesis/206659.pdf)
 - [แผนบริหารความพร้อมต่อสภาวะวิกฤต](https://sccl.stou.ac.th/wp-content/uploads/2023/08/emergency-plan.pdf)
@@ -30,5 +30,5 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [การเตรียมความพร้อมเพื่อป้องกันธุรกิจหยุดชะงัก](https://www.cioworldbusiness.com/preparing-bcm-prevent-interruptions/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTY2NzI3NCwtOTU1MjAxOTc4XX0=
+eyJoaXN0b3J5IjpbMTAwMTIxODQ3NywtOTU1MjAxOTc4XX0=
 -->
