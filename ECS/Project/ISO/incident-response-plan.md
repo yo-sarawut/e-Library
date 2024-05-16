@@ -23,7 +23,8 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [กระบวนการบริหารภาวะวิกฤตและความต่อเนื่องทางธุรกิจ](https://sustainability.pttgcgroup.com/th/economy/risk-and-crisis-management/business-continuity-management)
 - [5 ขั้นตอนการทำ BCP แผนความต่อเนื่องในการดำเนินธุรกิจ](https://info.apexcircuit.com/?p=22372)
 - [แนวทางการนํา Incident management บนมาตรฐาน ITIL มาใช้ในองค์กร](https://searchlib.utcc.ac.th/library/onlinethesis/206659.pdf)
+- [แผนบริหารความพร้อมต่อสภาวะวิกฤต](https://sccl.stou.ac.th/wp-content/uploads/2023/08/emergency-plan.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTIwMTk3OF19
+eyJoaXN0b3J5IjpbLTEzMTc0NTc1MDgsLTk1NTIwMTk3OF19
 -->
