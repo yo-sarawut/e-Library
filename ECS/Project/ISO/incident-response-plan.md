@@ -28,8 +28,8 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [การตอบสนองต่อเหตุการณ์](https://www.sangfor.com/th/cybersecurity/services/incident-response)
 - [การรักษาความปลอดภัยระบบเทคโนโลยีสารสนเทศ - CP All](https://www.cpall.co.th/sustain/economic-dimension/information-security-cybersecurity-system-availability)
 - [การเตรียมความพร้อมเพื่อป้องกันธุรกิจหยุดชะงัก](https://www.cioworldbusiness.com/preparing-bcm-prevent-interruptions/)
-- 
+- [enter link description here](https://www.demco.co.th/storage/downloads/corporate-policies/20210113-demco-crisis-management-manual-th.pdf)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTI5NDk1MiwtOTU1MjAxOTc4XX0=
+eyJoaXN0b3J5IjpbLTcxODExNDA0NCwtOTU1MjAxOTc4XX0=
 -->
