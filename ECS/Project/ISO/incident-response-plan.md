@@ -37,9 +37,9 @@ Incident Response Plan หรือแผนการตอบสนองภั
 - [แผนปฏิบัติการ FDA Cyber Security](https://planfda.fda.moph.go.th/e-Meeting/newsser/agenda_att2/file_emeeting_agenda_att__2976_279_20231128_985986459.pdf)
 - [แผนรับมือภัยคุกคามทางไซเบอร์ - กรมส่งเสริมสหกรณ์](https://cpd.go.th/images2/2023/cyber/Cyber_threat_response_plan_cpd.pdf)
 - [8 เทคนิคสำคัญสำหรับการสร้างความประทับใจแก่ลูกค้า](https://www.thailandcontactcenter.com/operation/8-%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3/)
-- [enter link description here](https://www.pttdigitalconnect.com/article/ptt-digital-cyber-security-day-2020)
+- [สรุปไฮไลท์สำคัญในงานสัมมนา PTT Digital Cyber Security Day 2020 "Cyber Security Your Digital Journey Safeguard"](https://www.pttdigitalconnect.com/article/ptt-digital-cyber-security-day-2020)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc2MDk1ODgsNzk3OTk3ODUxLDE2Mj
-M5MjY2ODIsLTY1MDE5NDI5MSwtOTU1MjAxOTc4XX0=
+eyJoaXN0b3J5IjpbLTg2NjY1MDgyLDc5Nzk5Nzg1MSwxNjIzOT
+I2NjgyLC02NTAxOTQyOTEsLTk1NTIwMTk3OF19
 -->
